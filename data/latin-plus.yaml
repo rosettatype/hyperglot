@@ -1,0 +1,871 @@
+abe:
+  name: Abenaki
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ô
+orm:
+  name: Afaan Oromo
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+aar:
+  name: Afar
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+afr:
+  name: Afrikaans
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z è é ê ë î ï ô û ŉ
+sqi:
+  name: Albanian
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ç ë
+gsw:
+  name: Alsatian
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à ä é ì ö ù ü
+ami:
+  name: Amis
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+aud:
+  name: Anuta
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+arg:
+  name: Aragonese
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ñ ó ú
+oci:
+  name: Occitan
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á ç è é ë í ï ò ó
+      ú ü
+rup:
+  name: Aromanian
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z â ã ă ș ț
+aer:
+  name: Arrernte
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+aat:
+  name: Arvanitic (Latin)
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á ä ç è é ë í ï ó ö
+      ú ü ý
+ast:
+  name: Asturian
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ñ ó ú ü
+tay:
+  name: Atayal
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ŋ
+aym:
+  name: Aymara
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ï ñ ü
+aze:
+  name: Azerbaijani
+  characters:
+    base: a b c d e f g h i i̇ j k l m n o p q r s t u v w x y z ä ç ö ü ğ ı ş ə
+bak:
+  name: Bashkir (Latin)
+  characters:
+    base: a b c d e f g h i i̇ j k l m n o p q r s t u v w x y z ä ç ö ü č ğ ı ķ ņ
+      ś ş š ź
+eus:
+  name: Basque
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ñ ü
+bel:
+  name: Belarusian (Latin)
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ć č ł ń ś š ŭ ź ž
+bem:
+  name: Bemba
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ŋ
+bik:
+  name: Bikol
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+bis:
+  name: Bislama
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+bos:
+  name: Bosnian
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ć č đ š ž
+bre:
+  name: Breton
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à â æ ç è é ê ë î ï
+      ñ ô ù û ü ÿ ĩ œ ũ
+kea:
+  name: Cape Verdean Creole
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ã ç è é ê í ò
+      ó ô õ ú ü
+cat:
+  name: Catalan
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à ç è é í ï ñ ò ó ú
+      ü ŀ
+ceb:
+  name: Cebuano
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+cha:
+  name: Chamorro
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z â å ñ ü
+cbk:
+  name: Chavacano
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ñ
+nya:
+  name: Chichewa
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ŋ ŵ
+cic:
+  name: Chickasaw
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ó ú
+cim:
+  name: Cimbrian
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ö ü ć
+con:
+  name: Cofán
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ñ û
+cor:
+  name: Cornish
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ü ā ē ī ō ū ȳ
+cos:
+  name: Corsican
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à â è ì ò ù
+mus:
+  name: Creek
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ē
+crh:
+  name: Crimean Tatar (Latin)
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ç ñ ö ü ğ ş
+hrv:
+  name: Serbian (Latin)
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ć č đ š ž
+ces:
+  name: Czech
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ó ú ý č ď ě ň
+      ř š ť ů ž
+dan:
+  name: Danish
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á å æ é í ó ø ú ý ǻ
+      ǽ ǿ
+aoz:
+  name: Dawan
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é ê í ó ú û
+del:
+  name: Delaware
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à è ë ì ò ù
+luo:
+  name: Dholuo
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+dhv:
+  name: Drehu
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ë ö
+nld:
+  name: Dutch
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á â ä è é ê ë í ï ó
+      ô ö ú û ü ĳ  
+eng:
+  name: English
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á æ ç è é ê ë ï ñ ô
+      ö œ
+epo:
+  name: Esperanto
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ĉ ĝ ĥ ĵ ŝ ŭ
+est:
+  name: Estonian
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä õ ö ü š ž
+fao:
+  name: Faroese
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á å æ í ð ó ö ø ú ý
+fij:
+  name: Fijian
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+fil:
+  name: Filipino
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ñ
+fin:
+  name: Finnish
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä å æ õ ö ø ü š ž
+fra:
+  name: Jèrriais
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z â ç è é ê î ô û
+fry:
+  name: Frisian
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z â ä é ê ë î ï ô ö ú
+      û ü
+fur:
+  name: Friulian
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ç è ê ì î ò ô
+      ù û
+gag:
+  name: Gagauz (Latin)
+  characters:
+    base: a b c d e f g h i i̇ j k l m n o p q r s t u v w x y z ä ç ê ö ü ğ ı ş ţ
+      ș ț
+glg:
+  name: Galician
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ñ ó ú ü
+gqa:
+  name: Ganda
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ŋ
+lij:
+  name: Genoese
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ä æ è é ê ë ì
+      í î ï ò ó ô ö ù ú
+deu:
+  name: German
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ß à ä é ö ü
+kik:
+  name: Gikuyu
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ĩ ŋ ũ
+gni:
+  name: Gooniyandi
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ß à ä é ö ü
+kal:
+  name: Greenlandic (Kalaallisut)
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á â ã å æ ê í î ô ø
+      ú û ĩ ĸ ũ
+gcf:
+  name: Guadeloupean Creole
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z è é ò
+gwi:
+  name: Gwich’in
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à å è é ì í ò ó ù ú
+      ł
+hat:
+  name: Haitian Creole
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á è é ò ó
+haw:
+  name: Hawaiian
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ī ō ū
+hil:
+  name: Hiligaynon
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+hop:
+  name: Hopi
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+win:
+  name: Hotcąk (Latin)
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ą ğ į š ų ž
+hun:
+  name: Hungarian
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ó ö ú ü ő ű
+haa:
+  name: Hän
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ë
+isl:
+  name: Old Icelandic
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á æ é í ð ó ö ø ú ý
+      þ œ ǫ ǽ ǿ
+ido:
+  name: Ido
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+ibo:
+  name: Igbo
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ñ ị ọ ụ
+ilo:
+  name: Ilocano
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+ind:
+  name: Indonesian
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z é
+igs:
+  name: Interglossa
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+ile:
+  name: Occidental
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ó ú
+gle:
+  name: Irish
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á è é ì í ò ó ù ú
+ruo:
+  name: Istro-Romanian
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z å ă ľ ń ș ț
+ita:
+  name: Italian
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á è é ì í î ï ò ó
+      ù ú
+jam:
+  name: Jamaican
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+jav:
+  name: Javanese (Latin)
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+kgp:
+  name: Kaingang
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á â é ó ĩ ỹ
+mwp:
+  name: Kala Lagaw Ya
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á ä è é ë ì í ï ò
+      ó ö ù ú ü
+pam:
+  name: Kapampangan (Latin)
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+cak:
+  name: Kaqchikel
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ë ï ö ü
+kaa:
+  name: Karakalpak (Latin)
+  characters:
+    base: a b c d e f g h i i̇ j k l m n o p q r s t u v w x y z ı
+krl:
+  name: Karelian (Latin)
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ö č š ž
+csb:
+  name: Kashubian
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ã é ë ò ó ô ù ą ę ł
+      ń ś ż
+kng:
+  name: Kikongo
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+kin:
+  name: Kinyarwanda
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+gil:
+  name: Kiribati
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+run:
+  name: Kirundi
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+tlh:
+  name: Klingon
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+kur:
+  name: Kurdish (Latin)
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ç é ê í î ú û ā ă ē
+      ĕ ī ĭ ō ŏ ū ŭ ș
+lld:
+  name: Ladin
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â è é ê ë ì î ò
+      ó ô ö ù û ü ć ś
+lat:
+  name: Latin
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+lav:
+  name: Latvian
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā č ē ģ ī ķ ļ ņ ō ŗ
+      š ū ž
+lit:
+  name: Lithuanian
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ą č ė ę į š ū ų ž
+jbo:
+  name: Lojban
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+lmo:
+  name: Lombard
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á è é ì í ò ó ô ø
+      ù ü
+nds:
+  name: Low Saxon
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ß ä ë ï ö ü
+ltz:
+  name: Luxembourgish
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ß â ä è é ê ë î ô ö
+      û ü
+mas:
+  name: Maasai
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â è é ê ì í î ò
+      ó ô ù ú û ŋ
+vmw:
+  name: Makhuwa
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à è ì ò ù
+zlm:
+  name: Malay
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+mlt:
+  name: Maltese
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â è é ê ì í î ò
+      ó ô ù ú û ċ ġ ħ ż
+glv:
+  name: Manx
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+mrq:
+  name: Marquesan
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ó ú
+ruq:
+  name: Megleno-Romanian
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ă ľ ń ș ț
+ulk:
+  name: Meriam Mir
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ì ò ù
+mwl:
+  name: Mirandese
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á ç é ê í ó ô ú ũ
+moh:
+  name: Mohawk
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+ron:
+  name: Romanian
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z â î ă ș ț
+moe:
+  name: Montagnais
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z â î û
+srp:
+  name: Montenegrin
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ć č đ ś š ź ž
+mwf:
+  name: Murrinh-Patha
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+rar:
+  name: Rarotongan
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ó ú
+nag:
+  name: Nagamese Creole
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+nhn:
+  name: Nahuatl
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ü ā ē ī ō ū ȳ
+nbl:
+  name: Ndebele
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+nap:
+  name: Neapolitan
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á è é ì í ò ó ù ú
+wyb:
+  name: Ngiyambaa
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+niu:
+  name: Niuean
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ī ō ū
+xrg:
+  name: Noongar
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ī ō ū
+nor:
+  name: Norwegian
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à ä å æ é ê ò ó ô ö
+      ø ü
+nov:
+  name: Novial
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+non:
+  name: Old Norse
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á æ é í ð ó ø ú ý œ
+      ǫ ǽ
+acz:
+  name: Onĕipŏt
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ĕ ŏ ţ ȷ ạ ẹ ẽ
+kua:
+  name: Oshiwambo
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+oss:
+  name: Ossetian (Latin)
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä æ č š ž
+plz:
+  name: Palauan
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+pap:
+  name: Papiamento
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z è ò
+pms:
+  name: Piedmontese
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à ä è ë ì ï ò ö ù ü
+pol:
+  name: Polish
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ó ą ć ę ł ń ś ź ż
+por:
+  name: Portuguese
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ã ç è é ê í ò
+      ó ô õ ú ü
+pot:
+  name: Potawatomi
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z è
+que:
+  name: Quechua
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ñ
+kek:
+  name: Q’eqchi’
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+roh:
+  name: Romansh
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à è é ì î ò ù ü
+roo:
+  name: Rotokas
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+smn:
+  name: Sami (Inari Sami)
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á â ä å ö č đ ŋ š ž
+smj:
+  name: Sami (Lule Sami)
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á ä å ñ ö ń
+sme:
+  name: Sami (Northern Sami)
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á ä å æ ö ø č đ ŋ š
+      ŧ ž
+sma:
+  name: Sami (Southern Sami)
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä å æ ï ö ø
+smo:
+  name: Samoan
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+sag:
+  name: Sango
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z â ä ê ë î ï ô ö û ü
+srm:
+  name: Saramaccan
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ö
+srd:
+  name: Sardinian
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à ç è ì ò ù
+gla:
+  name: Scottish Gaelic
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à è é ì ò ó ù
+sei:
+  name: Seri
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ö
+crs:
+  name: Seychellois Creole
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+sjw:
+  name: Shawnee
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+sna:
+  name: Shona
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+scn:
+  name: Sicilian
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à è ì ò ù
+szl:
+  name: Silesian
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ć č ń ř ś š ů ź ż ž
+slk:
+  name: Slovak
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á ä é í ó ô ú ý č ď
+      ĺ ľ ň ŕ š ť ž
+slv:
+  name: Slovenian
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ö ü ć č đ š ž
+som:
+  name: Somali
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+dsb:
+  name: Sorbian (Lower Sorbian)
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ó ć č ě ł ń ŕ ś š ź
+      ž
+hsb:
+  name: Sorbian (Upper Sorbian)
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ó ć č ě ł ń ř š ź ž
+nso:
+  name: Sotho (Northern)
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ê ô š
+sot:
+  name: Sotho (Southern)
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+spa:
+  name: Spanish
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ñ ó ú ü
+srn:
+  name: Sranan
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+sun:
+  name: Sundanese (Latin)
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+swh:
+  name: Swahili
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+ssw:
+  name: Swazi
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+swe:
+  name: Swedish
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á ä å é ë ö ü
+tgl:
+  name: Tagalog
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+tah:
+  name: Tahitian
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ī ō ū
+tdt:
+  name: Tetum
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ñ
+tpi:
+  name: Tok Pisin
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+tkl:
+  name: Tokelauan
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+ton:
+  name: Tongan
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ī ō ū
+lua:
+  name: Tshiluba
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+tso:
+  name: Tsonga
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+tsn:
+  name: Tswana
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ê ô š
+tum:
+  name: Tumbuka
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+tur:
+  name: Turkish
+  characters:
+    base: a b c d e f g h i i̇ j k l m n o p q r s t u v w x y z â ç î ö û ü ğ ı ș
+tuk:
+  name: Turkmen (Latin)
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ç ö ü ý ň ş ž ș
+tvl:
+  name: Tuvaluan
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ī ō ū
+tzo:
+  name: Tzotzil
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+uzb:
+  name: Uzbek (Latin)
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+vec:
+  name: Venetian
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á ç è é ì í ò ó ù
+      ł
+vep:
+  name: Vepsian
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ö ü č š ž
+vol:
+  name: Volapük
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ö ü
+vro:
+  name: Võro
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä õ ö ü š ž
+wls:
+  name: Wallisian
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ī ō ū
+wln:
+  name: Walloon
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z â å ç è é ê î ô û
+war:
+  name: Waray-Waray
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ñ
+wbp:
+  name: Warlpiri
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+guc:
+  name: Wayuu
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ñ ü
+cym:
+  name: Welsh
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ä è é ê ë ì í
+      î ï ò ó ô ö ù ú û ü ý ÿ ŵ ŷ ẁ ẃ ẅ ỳ
+wim:
+  name: Wik-Mungkan
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+wrh:
+  name: Wiradjuri
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+wol:
+  name: Wolof
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à ã é ë ñ ó ŋ
+xav:
+  name: Xavante
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ã é ô õ ö ĩ
+xho:
+  name: Xhosa
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+yap:
+  name: Yapese
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ë ö
+yij:
+  name: Yindjibarndi
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+zap:
+  name: Zapotec
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á ñ
+dje:
+  name: Zarma
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ŋ ɲ
+diq:
+  name: Zazaki
+  characters:
+    base: a b c d e f g h i i̇ j k l m n o p q r s t u v w x y z ç ê ü ı ş ǧ
+zul:
+  name: Zulu
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+zun:
+  name: Zuni
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ł

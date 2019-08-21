@@ -1,0 +1,207 @@
+# ISO 639-2 collections of languages only
+# 
+# This list is based on ISO 639 standard (accessed 7 April 2015):
+# http://www.loc.gov/standards/iso639-2/php/English_list.php
+# and indexed by ISO 639-2 code. Compiled manually.
+
+afa:
+  name: Afro-Asiatic languages
+  iso-639-1: ''
+alg:
+  name: Algonquian languages
+  iso-639-1: ''
+tut:
+  name: Altaic languages
+  iso-639-1: ''
+apa:
+  name: Apache languages
+  iso-639-1: ''
+art:
+  name: Artificial languages
+  iso-639-1: ''
+ath:
+  name: Athapascan languages
+  iso-639-1: ''
+aus:
+  name: Australian languages
+  iso-639-1: ''
+map:
+  name: Austronesian languages
+  iso-639-1: ''
+bat:
+  name: Baltic languages
+  iso-639-1: ''
+bai:
+  name: Bamileke languages
+  iso-639-1: ''
+bad:
+  name: Banda languages
+  iso-639-1: ''
+bnt:
+  name: Bantu languages
+  iso-639-1: ''
+btk:
+  name: Batak languages
+  iso-639-1: ''
+ber:
+  name: Berber languages
+  iso-639-1: ''
+bih:
+  name: Bihari languages
+  iso-639-1: bh
+cau:
+  name: Caucasian languages
+  iso-639-1: ''
+cel:
+  name: Celtic languages
+  iso-639-1: ''
+cai:
+  name: Central American Indian languages
+  iso-639-1: ''
+cmc:
+  name: Chamic languages
+  iso-639-1: ''
+crp:
+  name: Creoles and pidgins
+  iso-639-1: ''
+cpe:
+  name: Creoles and pidgins, English based
+  iso-639-1: ''
+cpf:
+  name: Creoles and pidgins, French-based
+  iso-639-1: ''
+cpp:
+  name: Creoles and pidgins, Portuguese-based
+  iso-639-1: ''
+cus:
+  name: Cushitic languages
+  iso-639-1: ''
+dra:
+  name: Dravidian languages
+  iso-639-1: ''
+fiu:
+  name: Finno-Ugrian languages
+  iso-639-1: ''
+gem:
+  name: Germanic languages
+  iso-639-1: ''
+him:
+  name: Western Pahari languages
+  iso-639-1: ''
+ijo:
+  name: Ijo languages
+  iso-639-1: ''
+inc:
+  name: Indic languages
+  iso-639-1: ''
+ine:
+  name: Indo-European languages
+  iso-639-1: ''
+ira:
+  name: Iranian languages
+  iso-639-1: ''
+iro:
+  name: Iroquoian languages
+  iso-639-1: ''
+kar:
+  name: Karen languages
+  iso-639-1: ''
+khi:
+  name: Khoisan languages
+  iso-639-1: ''
+kro:
+  name: Kru languages
+  iso-639-1: ''
+day:
+  name: Land Dayak languages
+  iso-639-1: ''
+mno:
+  name: Manobo languages
+  iso-639-1: ''
+myn:
+  name: Mayan languages
+  iso-639-1: ''
+mkh:
+  name: Mon-Khmer languages
+  iso-639-1: ''
+mun:
+  name: Munda languages
+  iso-639-1: ''
+nah:
+  name: Nahuatl languages
+  iso-639-1: ''
+nic:
+  name: Niger-Kordofanian languages
+  iso-639-1: ''
+ssa:
+  name: Nilo-Saharan languages
+  iso-639-1: ''
+nai:
+  name: North American Indian languages
+  iso-639-1: ''
+nub:
+  name: Nubian languages
+  iso-639-1: ''
+oto:
+  name: Otomian languages
+  iso-639-1: ''
+paa:
+  name: Papuan languages
+  iso-639-1: ''
+phi:
+  name: Philippine languages
+  iso-639-1: ''
+pra:
+  name: Prakrit languages
+  iso-639-1: ''
+qaa-qtz:
+  name: Reserved for local use
+  iso-639-1: ''
+roa:
+  name: Romance languages
+  iso-639-1: ''
+sal:
+  name: Salishan languages
+  iso-639-1: ''
+smi:
+  name: Sami languages
+  iso-639-1: ''
+sem:
+  name: Semitic languages
+  iso-639-1: ''
+sgn:
+  name: Sign Languages
+  iso-639-1: ''
+sit:
+  name: Sino-Tibetan languages
+  iso-639-1: ''
+sio:
+  name: Siouan languages
+  iso-639-1: ''
+sla:
+  name: Slavic languages
+  iso-639-1: ''
+son:
+  name: Songhai languages
+  iso-639-1: ''
+wen:
+  name: Sorbian languages
+  iso-639-1: ''
+sai:
+  name: South American Indian languages
+  iso-639-1: ''
+tai:
+  name: Tai languages
+  iso-639-1: ''
+tup:
+  name: Tupi languages
+  iso-639-1: ''
+wak:
+  name: Wakashan languages
+  iso-639-1: ''
+ypk:
+  name: Yupik languages
+  iso-639-1: ''
+znd:
+  name: Zande languages
+  iso-639-1: ''

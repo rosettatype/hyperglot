@@ -1,0 +1,1823 @@
+# OpenType language tags
+#
+# This list is based on OpenType Specification (version from 23 August 2018):
+# http://www.microsoft.com/typography/otspec/languagetags.htm
+# Compiled manually.
+#
+# Notes:
+# - inconsistent formatting present at the website have been fixed manually here
+# - the OpenType language tags are always 4-letter codes, sometimes padded with spaces
+# - the codes are either codes from ISO 639-3, ISO 639-2 language collections,
+#   or retired ISO 639-3 codes. Not all OpenType language tags refer to ISO codes.
+
+- name: Abaza
+  tag: "ABA "
+  codes: [abq]
+- name: Abkhazian
+  tag: "ABK "
+  codes: [abk]
+- name: Acholi
+  tag: "ACH "
+  codes: [ach]
+- name: Achi
+  tag: "ACR "
+  codes: [acr]
+- name: Adyghe
+  tag: "ADY "
+  codes: [ady]
+- name: Afrikaans
+  tag: "AFK "
+  codes: [afr]
+- name: Afar
+  tag: "AFR "
+  codes: [aar]
+- name: Agaw
+  tag: "AGW "
+  codes: [ahg]
+- name: Aiton
+  tag: "AIO "
+  codes: [aio]
+- name: Akan
+  tag: "AKA "
+  codes: [aka]
+- name: Alsatian
+  tag: "ALS "
+  codes: [gsw]
+- name: Altai
+  tag: "ALT "
+  codes: [atv, alt]
+- name: Amharic
+  tag: "AMH "
+  codes: [amh]
+- name: Anglo-Saxon
+  tag: "ANG "
+  codes: [ang]
+- name: Phonetic transcription—Americanist conventions
+  tag: APPH
+  codes: []
+- name: Arabic
+  tag: "ARA "
+  codes: [ara]
+- name: Aragonese
+  tag: "ARG "
+  codes: [arg]
+- name: Aari
+  tag: "ARI "
+  codes: [aiw]
+- name: Rakhine
+  tag: "ARK "
+  codes: [mhv, rmz, rki]
+- name: Assamese
+  tag: "ASM "
+  codes: [asm]
+- name: Asturian
+  tag: "AST "
+  codes: [ast]
+- name: Athapaskan
+  tag: "ATH "
+  codes: [apk, apj, apl, apm, apw, nav, bea, sek, bcr, caf, crx, clc, gwi, haa, chp, dgr, scs, xsl, srs, ing, hoi, koy, hup, ktw, mvb, wlk, coq, ctc, gce, tol, tuu, kkz, tgx, tht, aht, tfn, taa, tau, tcb, kuu, tce, ttm, txc]
+- name: Avar
+  tag: "AVR "
+  codes: [ava]
+- name: Awadhi
+  tag: "AWA "
+  codes: [awa]
+- name: Aymara
+  tag: "AYM "
+  codes: [aym]
+- name: Torki
+  tag: "AZB "
+  codes: [azb]
+- name: Azerbaijani
+  tag: "AZE "
+  codes: [aze]
+- name: Badaga
+  tag: "BAD "
+  codes: [bfq]
+- name: Banda
+  tag: BAD0
+  codes: [bad]
+- name: Baghelkhandi
+  tag: "BAG "
+  codes: [bfy]
+- name: Balkar
+  tag: "BAL "
+  codes: [krc]
+- name: Balinese
+  tag: "BAN "
+  codes: [ban]
+- name: Bavarian
+  tag: "BAR "
+  codes: [bar]
+- name: Baulé
+  tag: "BAU "
+  codes: [bci]
+- name: Batak Toba
+  tag: "BBC "
+  codes: [bbc]
+- name: Berber
+  tag: "BBR "
+  codes: []
+- name: Bench
+  tag: "BCH "
+  codes: [bcq]
+- name: Bible Cree
+  tag: "BCR "
+  codes: []
+- name: Bandjalang
+  tag: "BDY "
+  codes: [bdy]
+- name: Belarussian
+  tag: "BEL "
+  codes: [bel]
+- name: Bemba
+  tag: "BEM "
+  codes: [bem]
+- name: Bengali
+  tag: "BEN "
+  codes: [ben]
+- name: Haryanvi
+  tag: "BGC "
+  codes: [bgc]
+- name: Bagri
+  tag: "BGQ "
+  codes: [bgq]
+- name: Bulgarian
+  tag: "BGR "
+  codes: [bul]
+- name: Bhili
+  tag: "BHI "
+  codes: [bhi, bhb]
+- name: Bhojpuri
+  tag: "BHO "
+  codes: [bho]
+- name: Bikol
+  tag: "BIK "
+  codes: [bik, bhk, bcl, bto, cts, bln, fbl, lbl, rbl, ubl]
+- name: Bilen
+  tag: "BIL "
+  codes: [byn]
+- name: Bislama
+  tag: "BIS "
+  codes: [bis]
+- name: Kanauji
+  tag: "BJJ "
+  codes: [bjj]
+- name: Blackfoot
+  tag: "BKF "
+  codes: [bla]
+- name: Baluchi
+  tag: "BLI "
+  codes: [bal]
+- name: Pa’o Karen
+  tag: "BLK "
+  codes: [blk]
+- name: Balante
+  tag: "BLN "
+  codes: [bjt, ble]
+- name: Balti
+  tag: "BLT "
+  codes: [bft]
+- name: Bambara (Bamanankan)
+  tag: "BMB "
+  codes: [bam]
+- name: Bamileke
+  tag: "BML "
+  codes: []
+- name: Bosnian
+  tag: "BOS "
+  codes: [bos]
+- name: Bishnupriya Manipuri
+  tag: "BPY "
+  codes: [bpy]
+- name: Breton
+  tag: "BRE "
+  codes: [bre]
+- name: Brahui
+  tag: "BRH "
+  codes: [brh]
+- name: Braj Bhasha
+  tag: "BRI "
+  codes: [bra]
+- name: Burmese
+  tag: "BRM "
+  codes: [mya]
+- name: Bodo
+  tag: "BRX "
+  codes: [brx]
+- name: Bashkir
+  tag: "BSH "
+  codes: [bak]
+- name: Burushaski
+  tag: "BSK "
+  codes: [bsk]
+- name: Beti
+  tag: "BTI "
+  codes: [btb, beb, bum, bxp, eto, ewo, mct]
+- name: Batak Simalungun
+  tag: "BTS "
+  codes: [bts]
+- name: Bugis
+  tag: "BUG "
+  codes: [bug]
+- name: Medumba
+  tag: "BYV "
+  codes: [byv]
+- name: Kaqchikel
+  tag: "CAK "
+  codes: [cak]
+- name: Catalan
+  tag: "CAT "
+  codes: [cat]
+- name: Zamboanga Chavacano
+  tag: "CBK "
+  codes: [cbk]
+- name: Chinantec
+  tag: CCHN
+  codes: [cco, chj, chq, chz, cle, cnl, cnt, cpa, csa, cso, cte, ctl, cuc, cvn]
+- name: Cebuano
+  tag: "CEB "
+  codes: [ceb]
+- name: Chechen
+  tag: "CHE "
+  codes: [che]
+- name: Chaha Gurage
+  tag: "CHG "
+  codes: [sgw]
+- name: Chattisgarhi
+  tag: "CHH "
+  codes: [hne]
+- name: Chichewa (Chewa, Nyanja)
+  tag: "CHI "
+  codes: [nya]
+- name: Chukchi
+  tag: "CHK "
+  codes: [ckt]
+- name: Chuukese
+  tag: CHK0
+  codes: [chk]
+- name: Choctaw
+  tag: "CHO "
+  codes: [cho]
+- name: Chipewyan
+  tag: "CHP "
+  codes: [chp]
+- name: Cherokee
+  tag: "CHR "
+  codes: [chr]
+- name: Chamorro
+  tag: "CHA "
+  codes: [cha]
+- name: Chuvash
+  tag: "CHU "
+  codes: [chv]
+- name: Cheyenne
+  tag: "CHY "
+  codes: [chy]
+- name: Chiga
+  tag: "CGG "
+  codes: [cgg]
+- name: Western Cham
+  tag: "CJA "
+  codes: [cja]
+- name: Eastern Cham
+  tag: "CJM "
+  codes: [cjm]
+- name: Comorian
+  tag: "CMR "
+  codes: [swb, wlc, wni, zdj]
+- name: Coptic
+  tag: "COP "
+  codes: [cop]
+- name: Cornish
+  tag: "COR "
+  codes: [cor]
+- name: Corsican
+  tag: "COS "
+  codes: [cos]
+- name: Creoles
+  tag: "CPP "
+  codes: [crp, cpe, cpf, cpp]
+- name: Cree
+  tag: "CRE "
+  codes: [cre]
+- name: Carrier
+  tag: "CRR "
+  codes: [crx, caf]
+- name: Crimean Tatar
+  tag: "CRT "
+  codes: [crh]
+- name: Kashubian
+  tag: "CSB "
+  codes: [csb]
+- name: Church Slavonic
+  tag: "CSL "
+  codes: [chu]
+- name: Czech
+  tag: "CSY "
+  codes: [ces]
+- name: Chittagonian
+  tag: "CTG "
+  codes: [ctg]
+- name: San Blas Kuna
+  tag: "CUK "
+  codes: [cuk]
+- name: Danish
+  tag: "DAN "
+  codes: [dan]
+- name: Dargwa
+  tag: "DAR "
+  codes: [dar]
+- name: Dayi
+  tag: "DAX "
+  codes: [dax]
+- name: Woods Cree
+  tag: "DCR "
+  codes: [cwd]
+- name: German
+  tag: "DEU "
+  codes: [deu]
+- name: Dogri
+  tag: "DGO "
+  codes: [dgo]
+- name: Dogri
+  tag: "DGR "
+  codes: [doi]
+- name: Dhangu
+  tag: "DHG "
+  codes: [dhg]
+- name: Divehi (Dhivehi, Maldivian)
+  tag: "DHV "
+  codes: [div]
+  ignore: true
+  note: deprecated
+- name: Dimli
+  tag: "DIQ "
+  codes: [diq]
+- name: Divehi (Dhivehi, Maldivian)
+  tag: "DIV "
+  codes: [div]
+- name: Zarma
+  tag: "DJR "
+  codes: [dje]
+- name: Djambarrpuyngu
+  tag: DJR0
+  codes: [djr]
+- name: Dangme
+  tag: "DNG "
+  codes: [ada]
+- name: Dan
+  tag: "DNJ "
+  codes: [dnj]
+- name: Dinka
+  tag: "DNK "
+  codes: [din]
+- name: Dari
+  tag: "DRI "
+  codes: [prs]
+- name: Dhuwal
+  tag: "DUJ "
+  codes: [duj, dwu, dwy]
+- name: Dungan
+  tag: "DUN "
+  codes: [dng]
+- name: Dzongkha
+  tag: "DZN "
+  codes: [dzo]
+- name: Ebira
+  tag: "EBI "
+  codes: [igb]
+- name: Eastern Cree
+  tag: "ECR "
+  codes: [crj, crl]
+- name: Edo
+  tag: "EDO "
+  codes: [bin]
+- name: Efik
+  tag: "EFI "
+  codes: [efi]
+- name: Greek
+  tag: "ELL "
+  codes: [ell]
+- name: Eastern Maninkakan
+  tag: "EMK "
+  codes: [emk]
+- name: English
+  tag: "ENG "
+  codes: [eng]
+- name: Erzya
+  tag: "ERZ "
+  codes: [myv]
+- name: Spanish
+  tag: "ESP "
+  codes: [spa]
+- name: Central Yupik
+  tag: "ESU "
+  codes: [esu]
+- name: Estonian
+  tag: "ETI "
+  codes: [est]
+- name: Basque
+  tag: "EUQ "
+  codes: [eus]
+- name: Evenki
+  tag: "EVK "
+  codes: [evn]
+- name: Even
+  tag: "EVN "
+  codes: [eve]
+- name: Ewe
+  tag: "EWE "
+  codes: [ewe]
+- name: French Antillean
+  tag: "FAN "
+  codes: [acf]
+- name: Fang
+  tag: FAN0
+  codes: [fan]
+- name: Persian
+  tag: "FAR "
+  codes: [fas]
+- name: Fanti
+  tag: "FAT "
+  codes: [fat]
+- name: Finnish
+  tag: "FIN "
+  codes: [fin]
+- name: Fijian
+  tag: "FJI "
+  codes: [fij]
+- name: Dutch (Flemish)
+  tag: "FLE "
+  codes: [vls]
+- name: Fe’fe’
+  tag: "FMP "
+  codes: [fmp]
+- name: Forest Nenets
+  tag: "FNE "
+  codes: [enf, yrk]
+- name: Fon
+  tag: "FON "
+  codes: [fon]
+- name: Faroese
+  tag: "FOS "
+  codes: [fao]
+- name: French
+  tag: "FRA "
+  codes: [fra]
+- name: Cajun French
+  tag: "FRC "
+  codes: [frc]
+- name: Frisian
+  tag: "FRI "
+  codes: [fry]
+- name: Friulian
+  tag: "FRL "
+  codes: [fur]
+- name: Arpitan
+  tag: "FRP "
+  codes: [frp]
+- name: Futa
+  tag: "FTA "
+  codes: [fuf]
+- name: Fulah
+  tag: "FUL "
+  codes: [ful]
+- name: Nigerian Fulfulde
+  tag: "FUV "
+  codes: [fuv]
+- name: Ga
+  tag: "GAD "
+  codes: [gaa]
+- name: Scottish Gaelic (Gaelic)
+  tag: "GAE "
+  codes: [gla]
+- name: Gagauz
+  tag: "GAG "
+  codes: [gag]
+- name: Galician
+  tag: "GAL "
+  codes: [glg]
+- name: Garshuni
+  tag: "GAR "
+  codes: []
+- name: Garhwali
+  tag: "GAW "
+  codes: [gbm]
+- name: Geez
+  tag: "GEZ "
+  codes: [gez]
+- name: Githabul
+  tag: "GIH "
+  codes: [gih]
+- name: Gilyak
+  tag: "GIL "
+  codes: [niv]
+- name: Kiribati (Gilbertese)
+  tag: GIL0
+  codes: [gil]
+- name: Kpelle (Guinea)
+  tag: "GKP "
+  codes: [gkp]
+- name: Gilaki
+  tag: "GLK "
+  codes: [glk]
+- name: Gumuz
+  tag: "GMZ "
+  codes: [guk]
+- name: Gumatj
+  tag: "GNN "
+  codes: [gnn]
+- name: Gogo
+  tag: "GOG "
+  codes: [gog]
+- name: Gondi
+  tag: "GON "
+  codes: [gon]
+- name: Greenlandic
+  tag: "GRN "
+  codes: [kal]
+- name: Garo
+  tag: "GRO "
+  codes: [grt]
+- name: Guarani
+  tag: "GUA "
+  codes: [grn]
+- name: Wayuu
+  tag: "GUC "
+  codes: [guc]
+- name: Gupapuyngu
+  tag: "GUF "
+  codes: [guf]
+- name: Gujarati
+  tag: "GUJ "
+  codes: [guj]
+- name: Gusii
+  tag: "GUZ "
+  codes: [guz]
+- name: Haitian (Haitian Creole)
+  tag: "HAI "
+  codes: [hat]
+- name: Halam (Falam Chin)
+  tag: "HAL "
+  codes: [flm, cfm, rnl]
+- name: Harauti
+  tag: "HAR "
+  codes: [hoj]
+- name: Hausa
+  tag: "HAU "
+  codes: [hau]
+- name: Hawaiian
+  tag: "HAW "
+  codes: [haw]
+- name: Haya
+  tag: "HAY "
+  codes: [hay]
+- name: Hazaragi
+  tag: "HAZ "
+  codes: [haz]
+- name: Hammer-Banna
+  tag: "HBN "
+  codes: [amf]
+- name: Herero
+  tag: "HER "
+  codes: [her]
+- name: Hiligaynon
+  tag: "HIL "
+  codes: [hil]
+- name: Hindi
+  tag: "HIN "
+  codes: [hin]
+- name: High Mari
+  tag: "HMA "
+  codes: [mrj]
+- name: Hmong
+  tag: "HMN "
+  codes: [hmn]
+- name: Hiri Motu
+  tag: "HMO "
+  codes: [hmo]
+- name: Hindko
+  tag: "HND "
+  codes: [hno, hnd]
+- name: Ho
+  tag: "HO  "
+  codes: [hoc]
+- name: Harari
+  tag: "HRI "
+  codes: [har]
+- name: Croatian
+  tag: "HRV "
+  codes: [hrv]
+- name: Hungarian
+  tag: "HUN "
+  codes: [hun]
+- name: Armenian
+  tag: "HYE "
+  codes: [hye, hyw]
+- name: Armenian East
+  tag: HYE0
+  codes: [hye]
+- name: Iban
+  tag: "IBA "
+  codes: [iba]
+- name: Ibibio
+  tag: "IBB "
+  codes: [ibb]
+- name: Igbo
+  tag: "IBO "
+  codes: [ibo]
+- name: Ijo languages
+  tag: "IJO "
+  codes: [ijc, ijo]
+- name: Ido
+  tag: "IDO "
+  codes: [ido]
+- name: Interlingue
+  tag: "ILE "
+  codes: [ile]
+- name: Ilokano
+  tag: "ILO "
+  codes: [ilo]
+- name: Interlingua
+  tag: "INA "
+  codes: [ina]
+- name: Indonesian
+  tag: "IND "
+  codes: [ind]
+- name: Ingush
+  tag: "ING "
+  codes: [inh]
+- name: Inuktitut
+  tag: "INU "
+  codes: [iku]
+- name: Inupiat
+  tag: "IPK "
+  codes: [ipk]
+- name: Phonetic transcription—IPA conventions
+  tag: IPPH
+  codes: [""]
+- name: Irish
+  tag: "IRI "
+  codes: [gle]
+- name: Irish Traditional
+  tag: "IRT "
+  codes: [gle]
+- name: Icelandic
+  tag: "ISL "
+  codes: [isl]
+- name: Inari Sami
+  tag: "ISM "
+  codes: [smn]
+- name: Italian
+  tag: "ITA "
+  codes: [ita]
+- name: Hebrew
+  tag: "IWR "
+  codes: [heb]
+- name: Jamaican Creole
+  tag: "JAM "
+  codes: [jam]
+- name: Japanese
+  tag: "JAN "
+  codes: [jpn]
+- name: Javanese
+  tag: "JAV "
+  codes: [jav]
+- name: Lojban
+  tag: "JBO "
+  codes: [jbo]
+- name: Krymchak
+  tag: "JCT "
+  codes: [jct]
+- name: Yiddish
+  tag: "JII "
+  codes: [yid]
+- name: Ladino
+  tag: "JUD "
+  codes: [lad]
+- name: Jula
+  tag: "JUL "
+  codes: [dyu]
+- name: Kabardian
+  tag: "KAB "
+  codes: [kbd]
+- name: Kabyle
+  tag: KAB0
+  codes: [kab]
+- name: Kachchi
+  tag: "KAC "
+  codes: [kfr]
+- name: Kalenjin
+  tag: "KAL "
+  codes: [kln]
+- name: Kannada
+  tag: "KAN "
+  codes: [kan]
+- name: Karachay
+  tag: "KAR "
+  codes: [krc]
+- name: Georgian
+  tag: "KAT "
+  codes: [kat]
+- name: Kazakh
+  tag: "KAZ "
+  codes: [kaz]
+- name: Makonde
+  tag: "KDE "
+  codes: [kde]
+- name: Kabuverdianu (Crioulo)
+  tag: "KEA "
+  codes: [kea]
+- name: Kebena
+  tag: "KEB "
+  codes: [ktb]
+- name: Kekchi
+  tag: "KEK "
+  codes: [kek]
+- name: Khutsuri Georgian
+  tag: "KGE "
+  codes: [kat]
+- name: Khakass
+  tag: "KHA "
+  codes: [kjh]
+- name: Khanty-Kazim
+  tag: "KHK "
+  codes: [kca]
+- name: Khmer
+  tag: "KHM "
+  codes: [khm]
+- name: Khanty-Shurishkar
+  tag: "KHS "
+  codes: [kca]
+- name: Khamti Shan
+  tag: "KHT "
+  codes: [kht]
+- name: Khanty-Vakhi
+  tag: "KHV "
+  codes: [kca]
+- name: Khowar
+  tag: "KHW "
+  codes: [khw]
+- name: Kikuyu (Gikuyu)
+  tag: "KIK "
+  codes: [kik]
+- name: Kirghiz (Kyrgyz)
+  tag: "KIR "
+  codes: [kir]
+- name: Kisii
+  tag: "KIS "
+  codes: [kqs, kss]
+- name: Kirmanjki
+  tag: "KIU "
+  codes: [kiu]
+- name: Southern Kiwai
+  tag: "KJD "
+  codes: [kjd]
+- name: Eastern Pwo Karen
+  tag: "KJP "
+  codes: [kjp]
+- name: Bumthangkha
+  tag: "KJZ "
+  codes: [kjz]
+- name: Kokni
+  tag: "KKN "
+  codes: [kex]
+- name: Kalmyk
+  tag: "KLM "
+  codes: [xal]
+- name: Kamba
+  tag: "KMB "
+  codes: [kam]
+- name: Kumaoni
+  tag: "KMN "
+  codes: [kfy]
+- name: Komo
+  tag: "KMO "
+  codes: [kmw]
+- name: Komso
+  tag: "KMS "
+  codes: [kxc]
+- name: Khorasani Turkic
+  tag: "KMZ "
+  codes: [kmz]
+- name: Kanuri
+  tag: "KNR "
+  codes: [kau]
+- name: Kodagu
+  tag: "KOD "
+  codes: [kfa]
+- name: Korean Old Hangul
+  tag: "KOH "
+  codes: [okm]
+- name: Konkani
+  tag: "KOK "
+  codes: [kok]
+- name: Kikongo
+  tag: "KON "
+  codes: [ktu]
+- name: Komi
+  tag: "KOM "
+  codes: [kom]
+- name: Kongo
+  tag: KON0
+  codes: [kon]
+- name: Komi-Permyak
+  tag: "KOP "
+  codes: [koi]
+- name: Korean
+  tag: "KOR "
+  codes: [kor]
+- name: Kosraean
+  tag: "KOS "
+  codes: [kos]
+- name: Komi-Zyrian
+  tag: "KOZ "
+  codes: [kpv]
+- name: Kpelle
+  tag: "KPL "
+  codes: [kpe]
+- name: Krio
+  tag: "KRI "
+  codes: [kri]
+- name: Karakalpak
+  tag: "KRK "
+  codes: [kaa]
+- name: Karelian
+  tag: "KRL "
+  codes: [krl]
+- name: Karaim
+  tag: "KRM "
+  codes: [kdr]
+- name: Karen
+  tag: "KRN "
+  codes: [kar]
+- name: Koorete
+  tag: "KRT "
+  codes: [kqy]
+- name: Kashmiri
+  tag: "KSH "
+  codes: [kas]
+- name: Ripuarian
+  tag: KSH0
+  codes: [ksh]
+- name: Khasi
+  tag: "KSI "
+  codes: [kha]
+- name: Kildin Sami
+  tag: "KSM "
+  codes: [sjd]
+- name: S’gaw Karen
+  tag: "KSW "
+  codes: [ksw]
+- name: Kuanyama
+  tag: "KUA "
+  codes: [kua]
+- name: Kui
+  tag: "KUI "
+  codes: [kxu]
+- name: Kulvi
+  tag: "KUL "
+  codes: [kfx]
+- name: Kumyk
+  tag: "KUM "
+  codes: [kum]
+- name: Kurdish
+  tag: "KUR "
+  codes: [kur]
+- name: Kurukh
+  tag: "KUU "
+  codes: [kru]
+- name: Kuy
+  tag: "KUY "
+  codes: [kdt]
+- name: Koryak
+  tag: "KYK "
+  codes: [kpy]
+- name: Western Kayah
+  tag: "KYU "
+  codes: [kyu]
+- name: Ladin
+  tag: "LAD "
+  codes: [lld]
+- name: Lahuli
+  tag: "LAH "
+  codes: [bfu]
+- name: Lak
+  tag: "LAK "
+  codes: [lbe]
+- name: Lambani
+  tag: "LAM "
+  codes: [lmn]
+- name: Lao
+  tag: "LAO "
+  codes: [lao]
+- name: Latin
+  tag: "LAT "
+  codes: [lat]
+- name: Laz
+  tag: "LAZ "
+  codes: [lzz]
+- name: L-Cree
+  tag: "LCR "
+  codes: [crm]
+- name: Ladakhi
+  tag: "LDK "
+  codes: [lbj]
+- name: Lezgi
+  tag: "LEZ "
+  codes: [lez]
+- name: Ligurian
+  tag: "LIJ "
+  codes: [lij]
+- name: Limburgish
+  tag: "LIM "
+  codes: [lim]
+- name: Lingala
+  tag: "LIN "
+  codes: [lin]
+- name: Lisu
+  tag: "LIS "
+  codes: [lis]
+- name: Lampung
+  tag: "LJP "
+  codes: [ljp]
+- name: Laki
+  tag: "LKI "
+  codes: [lki]
+- name: Low Mari
+  tag: "LMA "
+  codes: [mhr]
+- name: Limbu
+  tag: "LMB "
+  codes: [lif]
+- name: Lombard
+  tag: "LMO "
+  codes: [lmo]
+- name: Lomwe
+  tag: "LMW "
+  codes: [ngl]
+- name: Loma
+  tag: "LOM "
+  codes: [lom]
+- name: Luri
+  tag: "LRC "
+  codes: [lrc, luz, bqi, zum]
+- name: Lower Sorbian
+  tag: "LSB "
+  codes: [dsb]
+- name: Lule Sami
+  tag: "LSM "
+  codes: [smj]
+- name: Lithuanian
+  tag: "LTH "
+  codes: [lit]
+- name: Luxembourgish
+  tag: "LTZ "
+  codes: [ltz]
+- name: Luba-Lulua
+  tag: "LUA "
+  codes: [lua]
+- name: Luba-Katanga
+  tag: "LUB "
+  codes: [lub]
+- name: Ganda
+  tag: "LUG "
+  codes: [lug]
+- name: Luyia
+  tag: "LUH "
+  codes: [luy]
+- name: Luo
+  tag: "LUO "
+  codes: [luo]
+- name: Latvian
+  tag: "LVI "
+  codes: [lav]
+- name: Madura
+  tag: "MAD "
+  codes: [mad]
+- name: Magahi
+  tag: "MAG "
+  codes: [mag]
+- name: Marshallese
+  tag: "MAH "
+  codes: [mah]
+- name: Majang
+  tag: "MAJ "
+  codes: [mpe]
+- name: Makhuwa
+  tag: "MAK "
+  codes: [vmw]
+- name: Malayalam
+  tag: "MAL "
+  codes: [mal]
+- name: Mam
+  tag: "MAM "
+  codes: [mam]
+- name: Mansi
+  tag: "MAN "
+  codes: [mns]
+- name: Mapudungun
+  tag: "MAP "
+  codes: [arn]
+- name: Marathi
+  tag: "MAR "
+  codes: [mar]
+- name: Marwari
+  tag: "MAW "
+  codes: [mwr, dhd, rwr, mve, wry, mtr, swv]
+- name: Mbundu
+  tag: "MBN "
+  codes: [kmb]
+- name: Mbo
+  tag: "MBO "
+  codes: [mbo]
+- name: Manchu
+  tag: "MCH "
+  codes: [mnc]
+- name: Moose Cree
+  tag: "MCR "
+  codes: [crm]
+- name: Mende
+  tag: "MDE "
+  codes: [men]
+- name: Mandar
+  tag: "MDR "
+  codes: [mdr]
+- name: Me’en
+  tag: "MEN "
+  codes: [mym]
+- name: Meru
+  tag: "MER "
+  codes: [mer]
+- name: Pattani Malay
+  tag: "MFA "
+  codes: [mfa]
+- name: Morisyen
+  tag: "MFE "
+  codes: [mfe]
+- name: Minangkabau
+  tag: "MIN "
+  codes: [min]
+- name: Mizo
+  tag: "MIZ "
+  codes: [lus]
+- name: Macedonian
+  tag: "MKD "
+  codes: [mkd]
+- name: Makasar
+  tag: "MKR "
+  codes: [mak]
+- name: Kituba
+  tag: "MKW "
+  codes: [mkw]
+- name: Male
+  tag: "MLE "
+  codes: [mdy]
+- name: Malagasy
+  tag: "MLG "
+  codes: [mlg]
+- name: Malinke
+  tag: "MLN "
+  codes: [mlq]
+- name: Malayalam Reformed
+  tag: "MLR "
+  codes: [mal]
+- name: Malay
+  tag: "MLY "
+  codes: [msa]
+- name: Mandinka
+  tag: "MND "
+  codes: [mnk]
+- name: Mongolian
+  tag: "MNG "
+  codes: [mon]
+- name: Manipuri
+  tag: "MNI "
+  codes: [mni]
+- name: Maninka
+  tag: "MNK "
+  codes: [man, mnk, myq, mku, msc, emk, mwk, mlq]
+- name: Manx
+  tag: "MNX "
+  codes: [glv]
+- name: Mohawk
+  tag: "MOH "
+  codes: [moh]
+- name: Moksha
+  tag: "MOK "
+  codes: [mdf]
+- name: Moldavian
+  tag: "MOL "
+  codes: [mol]
+- name: Mon
+  tag: "MON "
+  codes: [mnw]
+- name: Moroccan
+  tag: "MOR "
+  codes: []
+- name: Mossi
+  tag: "MOS "
+  codes: [mos]
+- name: Maori
+  tag: "MRI "
+  codes: [mri]
+- name: Maithili
+  tag: "MTH "
+  codes: [mai]
+- name: Maltese
+  tag: "MTS "
+  codes: [mlt]
+- name: Mundari
+  tag: "MUN "
+  codes: [unr]
+- name: Muscogee
+  tag: "MUS "
+  codes: [mus]
+- name: Mirandese
+  tag: "MWL "
+  codes: [mwl]
+- name: Hmong Daw
+  tag: "MWW "
+  codes: [mww]
+- name: Mayan
+  tag: "MYN "
+  codes: [myn]
+- name: Mazanderani
+  tag: "MZN "
+  codes: [mzn]
+- name: Naga-Assamese
+  tag: "NAG "
+  codes: [nag]
+- name: Nahuatl
+  tag: "NAH "
+  codes: [nah]
+- name: Nanai
+  tag: "NAN "
+  codes: [gld]
+- name: Neapolitan
+  tag: "NAP "
+  codes: [nap]
+- name: Naskapi
+  tag: "NAS "
+  codes: [nsk]
+- name: Nauruan
+  tag: "NAU "
+  codes: [nau]
+- name: Navajo
+  tag: "NAV "
+  codes: [nav]
+- name: N-Cree
+  tag: "NCR "
+  codes: [csw]
+- name: Ndebele
+  tag: "NDB "
+  codes: [nbl, nde]
+- name: Ndau
+  tag: "NDC "
+  codes: [ndc]
+- name: Ndonga
+  tag: "NDG "
+  codes: [ndo]
+- name: Low Saxon
+  tag: "NDS "
+  codes: [nds]
+- name: Nepali
+  tag: "NEP "
+  codes: [nep]
+- name: Newari
+  tag: "NEW "
+  codes: [new]
+- name: Ngbaka
+  tag: "NGA "
+  codes: [nga]
+- name: Nagari
+  tag: "NGR "
+  codes: []
+- name: Norway House Cree
+  tag: "NHC "
+  codes: [csw]
+- name: Nisi
+  tag: "NIS "
+  codes: [dap, njz, tgj]
+- name: Niuean
+  tag: "NIU "
+  codes: [niu]
+- name: Nyankole
+  tag: "NKL "
+  codes: [nyn]
+- name: N’Ko
+  tag: "NKO "
+  codes: [nqo]
+- name: Dutch
+  tag: "NLD "
+  codes: [nld]
+- name: Nimadi
+  tag: "NOE "
+  codes: [noe]
+- name: Nogai
+  tag: "NOG "
+  codes: [nog]
+- name: Norwegian
+  tag: "NOR "
+  codes: [nob]
+- name: Novial
+  tag: "NOV "
+  codes: [nov]
+- name: Northern Sami
+  tag: "NSM "
+  codes: [sme]
+- name: Sotho, Northern
+  tag: "NSO "
+  codes: [nso]
+- name: Northern Tai
+  tag: "NTA "
+  codes: [nod]
+- name: Esperanto
+  tag: "NTO "
+  codes: [epo]
+- name: Nyamwezi
+  tag: "NYM "
+  codes: [nym]
+- name: Norwegian Nynorsk (Nynorsk, Norwegian)
+  tag: "NYN "
+  codes: [nno]
+- name: Mbembe Tigon
+  tag: "NZA "
+  codes: [nza]
+- name: Occitan
+  tag: "OCI "
+  codes: [oci]
+- name: Oji-Cree
+  tag: "OCR "
+  codes: [ojs]
+- name: Ojibway
+  tag: "OJB "
+  codes: [oji]
+- name: Odia (formerly Oriya)
+  tag: "ORI "
+  codes: [ori]
+- name: Oromo
+  tag: "ORO "
+  codes: [orm]
+- name: Ossetian
+  tag: "OSS "
+  codes: [oss]
+- name: Palestinian Aramaic
+  tag: "PAA "
+  codes: [sam]
+- name: Pangasinan
+  tag: "PAG "
+  codes: [pag]
+- name: Pali
+  tag: "PAL "
+  codes: [pli]
+- name: Pampangan
+  tag: "PAM "
+  codes: [pam]
+- name: Punjabi
+  tag: "PAN "
+  codes: [pan]
+- name: Palpa
+  tag: "PAP "
+  codes: [plp]
+- name: Papiamentu
+  tag: PAP0
+  codes: [pap]
+- name: Pashto
+  tag: "PAS "
+  codes: [pus]
+- name: Palauan
+  tag: "PAU "
+  codes: [pau]
+- name: Bouyei
+  tag: "PCC "
+  codes: [pcc]
+- name: Picard
+  tag: "PCD "
+  codes: [pcd]
+- name: Pennsylvania German
+  tag: "PDC "
+  codes: [pdc]
+- name: Polytonic Greek
+  tag: "PGR "
+  codes: [ell]
+- name: Phake
+  tag: "PHK "
+  codes: [phk]
+- name: Norfolk
+  tag: "PIH "
+  codes: [pih]
+- name: Filipino
+  tag: "PIL "
+  codes: [fil]
+- name: Palaung
+  tag: "PLG "
+  codes: [pce, rbb, pll]
+- name: Polish
+  tag: "PLK "
+  codes: [pol]
+- name: Piemontese
+  tag: "PMS "
+  codes: [pms]
+- name: Western Panjabi
+  tag: "PNB "
+  codes: [pnb]
+- name: Pocomchi
+  tag: "POH "
+  codes: [poh]
+- name: Pohnpeian
+  tag: "PON "
+  codes: [pon]
+- name: Provençal / Old Provençal
+  tag: "PRO "
+  codes: [pro]
+- name: Portuguese
+  tag: "PTG "
+  codes: [por]
+- name: Western Pwo Karen
+  tag: "PWO "
+  codes: [pwo]
+- name: Chin
+  tag: "QIN "
+  codes: [bgr, cnh, cnw, czt, sez, tcp, csy, ctd, flm, pck, tcz, zom, cmr, dao, hlt, cka, cnk, mrh, cbl, cnb, csh]
+- name: K’iche’
+  tag: "QUC "
+  codes: [quc]
+- name: Quechua (Bolivia)
+  tag: "QUH "
+  codes: [quh]
+- name: Quechua
+  tag: "QUZ "
+  codes: [quz]
+- name: Quechua (Ecuador)
+  tag: "QVI "
+  codes: [qvi]
+- name: Quechua (Peru)
+  tag: "QWH "
+  codes: [qwh]
+- name: Rajasthani
+  tag: "RAJ "
+  codes: [raj]
+- name: Rarotongan
+  tag: "RAR "
+  codes: [rar]
+- name: Russian Buriat
+  tag: "RBU "
+  codes: [bxr]
+- name: R-Cree
+  tag: "RCR "
+  codes: [atj]
+- name: Rejang
+  tag: "REJ "
+  codes: [rej]
+- name: Riang
+  tag: "RIA "
+  codes: [ria]
+- name: Tarifit
+  tag: "RIF "
+  codes: [rif]
+- name: Ritarungo
+  tag: "RIT "
+  codes: [rit]
+- name: Arakwal
+  tag: "RKW "
+  codes: [rkw]
+- name: Romansh
+  tag: "RMS "
+  codes: [roh]
+- name: Vlax Romani
+  tag: "RMY "
+  codes: [rmy]
+- name: Romanian
+  tag: "ROM "
+  codes: [ron]
+- name: Romany
+  tag: "ROY "
+  codes: [rom]
+- name: Rusyn
+  tag: "RSY "
+  codes: [rue]
+- name: Rotuman
+  tag: "RTM "
+  codes: [rtm]
+- name: Kinyarwanda
+  tag: "RUA "
+  codes: [kin]
+- name: Rundi
+  tag: "RUN "
+  codes: [run]
+- name: Aromanian
+  tag: "RUP "
+  codes: [rup]
+- name: Russian
+  tag: "RUS "
+  codes: [rus]
+- name: Sadri
+  tag: "SAD "
+  codes: [sck]
+- name: Sanskrit
+  tag: "SAN "
+  codes: [san]
+- name: Sasak
+  tag: "SAS "
+  codes: [sas]
+- name: Santali
+  tag: "SAT "
+  codes: [sat]
+- name: Sayisi
+  tag: "SAY "
+  codes: [chp]
+- name: Sicilian
+  tag: "SCN "
+  codes: [scn]
+- name: Scots
+  tag: "SCO "
+  codes: [sco]
+- name: Sekota
+  tag: "SEK "
+  codes: [xan]
+- name: Selkup
+  tag: "SEL "
+  codes: [sel]
+- name: Old Irish
+  tag: "SGA "
+  codes: [sga]
+- name: Sango
+  tag: "SGO "
+  codes: [sag]
+- name: Samogitian
+  tag: "SGS "
+  codes: [sgs]
+- name: Tachelhit
+  tag: "SHI "
+  codes: [shi]
+- name: Shan
+  tag: "SHN "
+  codes: [shn]
+- name: Sibe
+  tag: "SIB "
+  codes: [sjo]
+- name: Sidamo
+  tag: "SID "
+  codes: [sid]
+- name: Silte Gurage
+  tag: "SIG "
+  codes: [xst, stv, wle]
+- name: Skolt Sami
+  tag: "SKS "
+  codes: [sms]
+- name: Slovak
+  tag: "SKY "
+  codes: [slk]
+- name: North Slavey
+  tag: "SCS "
+  codes: [scs]
+- name: Slavey
+  tag: "SLA "
+  codes: [scs, xsl]
+- name: Slovenian
+  tag: "SLV "
+  codes: [slv]
+- name: Somali
+  tag: "SML "
+  codes: [som]
+- name: Samoan
+  tag: "SMO "
+  codes: [smo]
+- name: Sena
+  tag: "SNA "
+  codes: [seh]
+- name: Shona
+  tag: SNA0
+  codes: [sna]
+- name: Sindhi
+  tag: "SND "
+  codes: [snd]
+- name: Sinhala (Sinhalese)
+  tag: "SNH "
+  codes: [sin]
+- name: Soninke
+  tag: "SNK "
+  codes: [snk]
+- name: Sodo Gurage
+  tag: "SOG "
+  codes: [gru]
+- name: Songe
+  tag: "SOP "
+  codes: [sop]
+- name: Sotho, Southern
+  tag: "SOT "
+  codes: [sot]
+- name: Albanian
+  tag: "SQI "
+  codes: [sqi]
+- name: Serbian
+  tag: "SRB "
+  codes: [srp]
+- name: Sardinian
+  tag: "SRD "
+  codes: [srd]
+- name: Saraiki
+  tag: "SRK "
+  codes: [skr]
+- name: Serer
+  tag: "SRR "
+  codes: [srr]
+- name: South Slavey
+  tag: "SSL "
+  codes: [xsl]
+- name: Southern Sami
+  tag: "SSM "
+  codes: [sma]
+- name: Saterland Frisian
+  tag: "STQ "
+  codes: [stq]
+- name: Sukuma
+  tag: "SUK "
+  codes: [suk]
+- name: Sundanese
+  tag: "SUN "
+  codes: [sun]
+- name: Suri
+  tag: "SUR "
+  codes: [suq]
+- name: Svan
+  tag: "SVA "
+  codes: [sva]
+- name: Swedish
+  tag: "SVE "
+  codes: [swe]
+- name: Swadaya Aramaic
+  tag: "SWA "
+  codes: [aii]
+- name: Swahili
+  tag: "SWK "
+  codes: [swa]
+- name: Swati
+  tag: "SWZ "
+  codes: [ssw]
+- name: Sutu
+  tag: "SXT "
+  codes: [ngo]
+- name: Upper Saxon
+  tag: "SXU "
+  codes: [sxu]
+- name: Sylheti
+  tag: "SYL "
+  codes: [syl]
+- name: Syriac
+  tag: "SYR "
+  codes: [aii, amw, cld, syc, syr, tru]
+- name: Syriac, Estrangela script-variant (equivalent to ISO 15924 "Syre")
+  tag: SYRE
+  codes: [syc, syr]
+- name: Syriac, Western script-variant (equivalent to ISO 15924 "Syrj")
+  tag: SYRJ
+  codes: [syc, syr]
+- name: Syriac, Eastern script-variant (equivalent to ISO 15924 "Syrn")
+  tag: SYRN
+  codes: [syc, syr]
+- name: Silesian
+  tag: "SZL "
+  codes: [szl]
+- name: Tabasaran
+  tag: "TAB "
+  codes: [tab]
+- name: Tajiki
+  tag: "TAJ "
+  codes: [tgk]
+- name: Tamil
+  tag: "TAM "
+  codes: [tam]
+- name: Tatar
+  tag: "TAT "
+  codes: [tat]
+- name: TH-Cree
+  tag: "TCR "
+  codes: [cwd]
+- name: Dehong Dai
+  tag: "TDD "
+  codes: [tdd]
+- name: Telugu
+  tag: "TEL "
+  codes: [tel]
+- name: Tetum
+  tag: "TET "
+  codes: [tet]
+- name: Tagalog
+  tag: "TGL "
+  codes: [tgl]
+- name: Tongan
+  tag: "TGN "
+  codes: [ton]
+- name: Tigre
+  tag: "TGR "
+  codes: [tig]
+- name: Tigrinya
+  tag: "TGY "
+  codes: [tir]
+- name: Thai
+  tag: "THA "
+  codes: [tha]
+- name: Tahitian
+  tag: "THT "
+  codes: [tah]
+- name: Tibetan
+  tag: "TIB "
+  codes: [bod]
+- name: Tiv
+  tag: "TIV "
+  codes: [tiv]
+- name: Turkmen
+  tag: "TKM "
+  codes: [tuk]
+- name: Tamashek
+  tag: "TMH "
+  codes: [tmh]
+- name: Temne
+  tag: "TMN "
+  codes: [tem]
+- name: Tswana
+  tag: "TNA "
+  codes: [tsn]
+- name: Tundra Nenets
+  tag: "TNE "
+  codes: [enh, yrk]
+- name: Tonga
+  tag: "TNG "
+  codes: [toi]
+- name: Todo
+  tag: "TOD "
+  codes: [xal]
+- name: Toma
+  tag: TOD0
+  codes: [tod]
+- name: Tok Pisin
+  tag: "TPI "
+  codes: [tpi]
+- name: Turkish
+  tag: "TRK "
+  codes: [tur]
+- name: Tsonga
+  tag: "TSG "
+  codes: [tso]
+- name: Tshangla
+  tag: "TSJ "
+  codes: [tsj]
+- name: Turoyo Aramaic
+  tag: "TUA "
+  codes: [tru]
+- name: Tulu
+  tag: "TUM "
+  codes: [tum]
+- name: Tumbuka
+  tag: "TUL "
+  codes: [tcy]
+- name: Tuvin
+  tag: "TUV "
+  codes: [tyv]
+- name: Tuvalu
+  tag: "TVL "
+  codes: [tvl]
+- name: Twi
+  tag: "TWI "
+  codes: [aka]
+- name: Tày
+  tag: "TYZ "
+  codes: [tyz]
+- name: Tamazight
+  tag: "TZM "
+  codes: [tzm]
+- name: Tzotzil
+  tag: "TZO "
+  codes: [tzo]
+- name: Udmurt
+  tag: "UDM "
+  codes: [udm]
+- name: Ukrainian
+  tag: "UKR "
+  codes: [ukr]
+- name: Umbundu
+  tag: "UMB "
+  codes: [umb]
+- name: Urdu
+  tag: "URD "
+  codes: [urd]
+- name: Upper Sorbian
+  tag: "USB "
+  codes: [hsb]
+- name: Uyghur
+  tag: "UYG "
+  codes: [uig]
+- name: Uzbek
+  tag: "UZB "
+  codes: [uzb]
+- name: Venetian
+  tag: "VEC "
+  codes: [vec]
+- name: Venda
+  tag: "VEN "
+  codes: [ven]
+- name: Vietnamese
+  tag: "VIT "
+  codes: [vie]
+- name: Volapük
+  tag: "VOL "
+  codes: [vol]
+- name: Võro
+  tag: "VRO "
+  codes: [vro]
+- name: Wa
+  tag: "WA  "
+  codes: [wbm]
+- name: Wagdi
+  tag: "WAG "
+  codes: [wbr]
+- name: Waray-Waray
+  tag: "WAR "
+  codes: [war]
+- name: West-Cree
+  tag: "WCR "
+  codes: [crk]
+- name: Welsh
+  tag: "WEL "
+  codes: [cym]
+- name: Walloon
+  tag: "WLN "
+  codes: [wln]
+- name: Wolof
+  tag: "WLF "
+  codes: [wol]
+- name: Mewati
+  tag: "WTM "
+  codes: [wtm]
+- name: Lü
+  tag: "XBD "
+  codes: [khb]
+- name: Khengkha
+  tag: "XKF "
+  codes: [xkf]
+- name: Xhosa
+  tag: "XHS "
+  codes: [xho]
+- name: Minjangbal
+  tag: "XJB "
+  codes: [xjb]
+- name: Soga
+  tag: "XOG "
+  codes: [xog]
+- name: Kpelle (Liberia)
+  tag: "XPE "
+  codes: [xpe]
+- name: Sakha
+  tag: "YAK "
+  codes: [sah]
+- name: Yao
+  tag: "YAO "
+  codes: [yao]
+- name: Yapese
+  tag: "YAP "
+  codes: [yap]
+- name: Yoruba
+  tag: "YBA "
+  codes: [yor]
+- name: Y-Cree
+  tag: "YCR "
+  codes: [cre]
+- name: Yi Classic
+  tag: "YIC "
+  codes: []
+- name: Yi Modern
+  tag: "YIM "
+  codes: [iii]
+- name: Zealandic
+  tag: "ZEA "
+  codes: [zea]
+- name: Standard Moroccan Tamazight
+  tag: "ZGH "
+  codes: [zgh]
+- name: Zhuang
+  tag: "ZHA "
+  codes: [zha]
+- name: Chinese, Hong Kong SAR
+  tag: "ZHH "
+  codes: [zho]
+- name: Chinese Phonetic
+  tag: "ZHP "
+  codes: [zho]
+- name: Chinese Simplified
+  tag: "ZHS "
+  codes: [zho]
+- name: Chinese Traditional
+  tag: "ZHT "
+  codes: [zho]
+- name: Zande
+  tag: "ZND "
+  codes: [zne]
+- name: Zulu
+  tag: "ZUL "
+  codes: [zul]
+- name: Zazaki
+  tag: "ZZA "
+  codes: [zza]

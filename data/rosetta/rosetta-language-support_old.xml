@@ -1,0 +1,974 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<languages>
+<language iso-639-3="aaq" name="Eastern Abnaki" script="Latn" status="todo">
+	<characters type="required">Ôô</characters>
+</language>
+<language iso-639-3="abe" name="Western Abnaki" script="Latn" status="todo">
+	<characters type="required">Ôô</characters>
+</language>
+<language iso-639-3="orm" name="Oromo" script="Latn" status="done" tag="ORO">
+	<characters type="required" />
+</language>
+<language iso-639-3="aar" name="Afar" script="Latn" status="beta" tag="AFR">
+	<characters type="required" />
+</language>
+<language iso-639-3="afr" name="Afrikaans" script="Latn" status="todo" tag="afr">
+	<characters type="required">ÈèÉéÊêËëÎîÏïŉÔôÛû</characters>
+</language>
+<language iso-639-3="sqi" name="Albanian" script="Latn" status="todo" tag="sqi">
+	<characters type="required">ÇçËë</characters>
+</language>
+<language iso-639-3="gsw" name="Swiss German" script="Latn" status="todo" tag="gsw">
+	<characters type="required">ÄäÀàÉéÌìÖöÜüÙù</characters>
+</language>
+<language iso-639-3="ami" name="Amis" script="Latn" status="todo" tag="ami">
+	<characters type="required" />
+</language>
+<language iso-639-3="aud" name="Anuta" script="Latn" status="todo" tag="aud">
+	<characters type="required">ÁáÉéÍíÑñÓóÚúÜü</characters>
+</language>
+<language iso-639-3="arg" name="Aragonese" script="Latn" status="todo" tag="arg">
+	<characters type="required">ÁáÉéÍíÑñÓóÚú</characters>
+</language>
+<language iso-639-3="rup" name="Macedo-Romanian" script="Latn" status="todo" tag="rup">
+	<characters type="required">ÃãÂâĂăȘșȚț</characters>
+</language>
+<language iso-639-3="aer" name="Eastern Arrernte" script="Latn" status="todo" tag="aer">
+	<characters type="required" />
+</language>
+<language iso-639-3="aat" name="Arvanitika Albanian" script="Latn" status="todo" tag="aat">
+	<characters type="required">ÁáÄäÇçÈèÉéËëÍíÏïÓóÖöÚúÜüÝý</characters>
+</language>
+<language iso-639-3="ast" name="Asturian/Leonese" script="Latn" status="todo" tag="ast">
+	<characters type="required">ÁáÉéÍíÑñÓóÚúÜü</characters>
+</language>
+<language iso-639-3="tay" name="Atayal" script="Latn" status="todo" tag="tay">
+	<characters type="required">Ŋŋ</characters>
+</language>
+<language iso-639-3="aym" name="Aymara" script="Latn" status="todo" tag="aym">
+	<characters type="required">ÄäÏïÑñÜü</characters>
+</language>
+<language iso-639-3="aze" name="Azerbaijani/Azeri" script="Latn" status="beta" tag="az">
+	<characters type="required">ÄäÇçƏəĞğİıÖöŞşÜü</characters>
+</language>
+<language iso-639-3="bak" name="Bashkir" script="Latn" status="todo" tag="bak">
+	<characters type="required">ÄäÇçČčĞğİıĶķŅņÖöŚśŞşŠšÜüŹź</characters>
+</language>
+<language iso-639-3="eus" name="Basque" script="Latn" status="todo" tag="eus">
+	<characters type="required">ÑñÜü</characters>
+</language>
+<language iso-639-3="bel" name="Belarusian" script="Latn" status="todo" tag="bel">
+	<characters type="required">ĆćČčŁłŃńŚśŠšŬŭŹźŽž</characters>
+</language>
+<language iso-639-3="bem" name="Bemba (Zambia)" script="Latn" status="todo" tag="bem">
+	<characters type="required">Ŋŋ</characters>
+</language>
+<language iso-639-3="bik" name="Bikol" script="Latn" status="todo" tag="bik">
+	<characters type="required" />
+</language>
+<language iso-639-3="bis" name="Bislama" script="Latn" status="todo" tag="bis">
+	<characters type="required">ÅåÂâÑñÜü</characters>
+</language>
+<language iso-639-3="bos" name="Bosnian" script="Latn" status="todo" tag="bos">
+	<characters type="required">ĆćČčĐđŠšŽž</characters>
+</language>
+<language iso-639-3="bre" name="Breton" script="Latn" status="todo" tag="bre">
+	<characters type="required">ÀàÂâÆæÇçÉéÈèËëÊêĨĩÏïÎîÑñÔôŒœÙùÜüŨũÛûŸÿ</characters>
+</language>
+<language iso-639-3="kea" name="Kabuverdianu" script="Latn" status="todo" tag="kea">
+	<characters type="required">ÀàÁáÂâÃãÇçÈèÉéÊêÍíÒòÓóÔôÕõÚúÜü</characters>
+</language>
+<language iso-639-3="cat" name="Catalan" script="Latn" status="todo" tag="cat">
+	<characters type="required">ÀàÇçÈèÉéÍíÏïĿŀÑñÒòÓóÚúÜü</characters>
+</language>
+<language iso-639-3="ceb" name="Cebuano" script="Latn" status="todo" tag="ceb">
+	<characters type="required" />
+</language>
+<language iso-639-3="cha" name="Chamorro" script="Latn" status="todo" tag="cha">
+	<characters type="required">ÅåÂâÑñÜü</characters>
+</language>
+<language iso-639-3="cbk" name="Chavacano" script="Latn" status="todo" tag="cbk">
+	<characters type="required">Ññ</characters>
+</language>
+<language iso-639-3="nya" name="Nyanja/Chichewa" script="Latn" status="todo" tag="nya">
+	<characters type="required">ŊŋŴŵ</characters>
+</language>
+<language iso-639-3="cic" name="Chickasaw" script="Latn" status="todo" tag="cic">
+	<characters type="required">ÁáÉéÍíÓóÚú</characters>
+</language>
+<language iso-639-3="cim" name="Cimbrian" script="Latn" status="todo" tag="cim">
+	<characters type="required">ÄäĆćÖöÜü</characters>
+</language>
+<language iso-639-3="con" name="Cofán" script="Latn" status="todo" tag="con">
+	<characters type="required">ÑñÛû</characters>
+</language>
+<language iso-639-3="cor" name="Cornish" script="Latn" status="todo" tag="cor">
+	<characters type="required">ĀāĒēĪīŌōŪūÜüȲȳ</characters>
+</language>
+<language iso-639-3="cos" name="Corsican" script="Latn" status="todo" tag="cos">
+	<characters type="required">ÀàÂâÈèÌìÒòÙù</characters>
+</language>
+<language iso-639-3="mus" name="Creek" script="Latn" status="todo" tag="mus">
+	<characters type="required">Ēē</characters>
+</language>
+<language iso-639-3="crh" name="Crimean Tatar" script="Latn" status="todo" tag="crh">
+	<characters type="required">ÇçĞğÑñÖöŞşÜü</characters>
+</language>
+<language iso-639-3="ces" name="Czech" script="Latn" status="done" tag="cs">
+	<characters type="required">ÁáČčĎďÉéĚěÍíŇňÓóŘřŠšŤťÚúŮůÝýŽž</characters>
+</language>
+<language iso-639-3="dan" name="Danish" script="Latn" status="beta" tag="da">
+	<characters type="required">ÁáÅåǺǻÆæǼǽÉéÍíÓóØøǾǿÚúÝý</characters>
+</language>
+<language iso-639-3="aoz" name="Uab Meto" script="Latn" status="todo" tag="aoz">
+	<characters type="required">ÁáÉéÊêÍíÓóÚúÛû</characters>
+</language>
+<language iso-639-3="del" name="Delaware" script="Latn" status="todo" tag="del">
+	<characters type="required">ÀàÈèËëÌìÒòÙù</characters>
+</language>
+<language iso-639-3="luo" name="Luo (Kenya and Tanzania)" script="Latn" status="todo" tag="luo">
+	<characters type="required">ÁáÅåÆæÐðÍíÓóÖöØøÚúÝý</characters>
+</language>
+<language iso-639-3="dhv" name="Dehu" script="Latn" status="todo" tag="dhv">
+	<characters type="required">ËëÖö</characters>
+</language>
+<language iso-639-3="nld" name="Dutch/Flemish" script="Latn" status="todo" tag="nld">
+	<characters type="required">ÁáÂâÄäÈèÉéÊêËëÍíÏïÓóÔôÖöÚúÛûÜüĲĳ</characters>
+</language>
+<language iso-639-3="eng" name="English" script="Latn" status="beta" tag="en">
+	<characters type="required">ÆæÇçÏïÔôŒœÁáÈèÉéËëÊêÑñÖö</characters>
+</language>
+<language iso-639-3="epo" name="Esperanto" script="Latn" status="todo" tag="epo">
+	<characters type="required">ĈĉĜĝĤĥĴĵŜŝŬŭ</characters>
+</language>
+<language iso-639-3="est" name="Estonian" script="Latn" status="todo" tag="est">
+	<characters type="required">ÄäÕõÖöŠšÜüŽž</characters>
+</language>
+<language iso-639-3="fao" name="Faroese" script="Latn" status="todo" tag="fao">
+	<characters type="required">ÁáÅåÆæÐðÍíÓóÖöØøÚúÝý</characters>
+</language>
+<language iso-639-3="fij" name="Fijian" script="Latn" status="todo" tag="fij">
+	<characters type="required" />
+</language>
+<language iso-639-3="fil" name="Filipino" script="Latn" status="todo" tag="fil">
+	<characters type="required">Ññ</characters>
+</language>
+<language iso-639-3="fin" name="Finnish" script="Latn" status="todo" tag="fin">
+	<characters type="required">ÄäÅåÆæÖöÕõØøŠšÜüŽž</characters>
+</language>
+<language iso-639-3="fra" name="French" script="Latn" status="todo" tag="fra">
+	<characters type="required">ÀàÂâÇçÈèÉéÊêËëÎîÏïÔôŒœÙùÛûÜüŸÿÆæ</characters>
+</language>
+<language iso-639-3="fry" name="Western Frisian" script="Latn" status="todo" tag="fry">
+	<characters type="required">ÄäÂâÉéËëÊêÏïÎîÖöÔôÚúÛûÜü</characters>
+</language>
+<language iso-639-3="fur" name="Friulian" script="Latn" status="todo" tag="fur">
+	<characters type="required">ÀàÁáÂâÇçÈèÊêÌìÎîÒòÔôÙùÛû</characters>
+</language>
+<language iso-639-3="gag" name="Gagauz" script="Latn" status="todo" tag="gag">
+	<characters type="required">ÄäÇçÊêĞğİıÖöŞşȘșŢţȚțÜü</characters>
+</language>
+<language iso-639-3="glg" name="Galician" script="Latn" status="todo" tag="glg">
+	<characters type="required">ÁáÉéÍíÑñÓóÚúÜü</characters>
+</language>
+<language iso-639-3="gqa" name="Ganda" script="Latn" status="todo" tag="gqa">
+	<characters type="required">Ŋŋ</characters>
+</language>
+<language iso-639-3="lij" name="Ligurian" script="Latn" status="todo" tag="lij">
+	<characters type="required">ÀàÁáÂâÄäÆæÈèÉéËëÊêÌìÍíÏïÎîÒòÓóÖöÔôÙùÚú</characters>
+</language>
+<language iso-639-3="deu" name="German" script="Latn" status="beta" tag="deu">
+	<characters type="required">ÄäÖößÜüÀàÉéẞ</characters>
+</language>
+<language iso-639-3="kik" name="Kikuyu" script="Latn" status="todo" tag="kik">
+	<characters type="required">ĨĩŊŋŨũ</characters>
+</language>
+<language iso-639-3="gni" name="Gooniyandi" script="Latn" status="todo" tag="gni">
+	<characters type="required">ÀàÄäÉéÖößÜüẞ</characters>
+</language>
+<language iso-639-3="kal" name="Greenlandic" script="Latn" status="todo" tag="kal">
+	<characters type="required">ÅåÁáÂâÃãÆæÊêÍíÎîĨĩĸÔôØøÚúÛûŨũ</characters>
+</language>
+<language iso-639-3="gcf" name="Guadeloupean Creole French" script="Latn" status="todo" tag="gcf">
+	<characters type="required">ÉéÈèÒò</characters>
+</language>
+<language iso-639-3="gwi" name="Gwichʼin" script="Latn" status="todo" tag="gwi">
+	<characters type="required">ÀàÅåÈèÉéÍíÌìŁłÓóÒòÚúÙù</characters>
+</language>
+<language iso-639-3="hat" name="Haitian" script="Latn" status="todo" tag="hat">
+	<characters type="required">ÁáÀàÉéÈèÓóÒò</characters>
+</language>
+<language iso-639-3="haw" name="Hawaiian" script="Latn" status="todo" tag="haw">
+	<characters type="required">ĀāĒēĪīŌōŪū</characters>
+</language>
+<language iso-639-3="hil" name="Hiligaynon" script="Latn" status="todo" tag="hil">
+	<characters type="required" />
+</language>
+<language iso-639-3="hop" name="Hopi" script="Latn" status="todo" tag="hop">
+	<characters type="required">ỊịÑñỌọỤụ</characters>
+</language>
+<language iso-639-3="win" name="Ho-Chunk" script="Latn" status="todo" tag="win">
+	<characters type="required">ĄąĞğĮįŠšŲųŽž</characters>
+</language>
+<language iso-639-3="hun" name="Hungarian" script="Latn" status="beta" tag="hu">
+	<characters type="required">ÁáÉéÍíÓóÖöŐőÚúÜüŰű</characters>
+</language>
+<language iso-639-3="haa" name="Han" script="Latn" status="todo" tag="haa">
+	<characters type="required">ÄäËë</characters>
+</language>
+<language iso-639-3="isl" name="Icelandic" script="Latn" status="todo" tag="isl">
+	<characters type="required">ÁáÆæÐðÉéÍíÓóÖöÞþÚúÝýǼǽǾǿ</characters>
+	<characters type="optional">ǼǽǪǫŒœ</characters>
+</language>
+<language iso-639-3="ido" name="Ido" script="Latn" status="todo" tag="ido">
+	<characters type="required">ÀàÁáÈèÉéÌìÍíÒòÓóÚúÙù</characters>
+</language>
+<language iso-639-3="ibo" name="Igbo" script="Latn" status="todo" tag="ibo">
+	<characters type="required">ỊịÑñỌọỤụ</characters>
+</language>
+<language iso-639-3="ilo" name="Iloko" script="Latn" status="todo" tag="ilo">
+	<characters type="required" />
+</language>
+<language iso-639-3="ind" name="Indonesian" script="Latn" status="todo" tag="ind">
+	<characters type="required">Éé</characters>
+</language>
+<language iso-639-3="igs" name="Interglossa" script="Latn" status="todo" tag="igs">
+	<characters type="required" />
+</language>
+<language iso-639-3="ina" name="Interlingua" script="Latn" status="todo" tag="ile">
+	<characters type="required" />
+</language>
+<language iso-639-3="gle" name="Irish" script="Latn" status="todo" tag="gle">
+	<characters type="required">ÀàÁáÈèÉéÌìÍíÒòÓóÚúÙù</characters>
+</language>
+<language iso-639-3="ruo" name="Istro Romanian" script="Latn" status="todo" tag="ruo">
+	<characters type="required">ÅåĂăĽľŃńȘșȚț</characters>
+</language>
+<language iso-639-3="ita" name="Italian" script="Latn" status="todo" tag="ita">
+	<characters type="required">ÀàÈèÉéÌìÒòÓóÙùÁáÍíÎîÏïÚú</characters>
+</language>
+<language iso-639-3="jam" name="Jamaican Creole English" script="Latn" status="todo" tag="jam">
+	<characters type="required">ÄäËëÏïÖöÜü</characters>
+</language>
+<language iso-639-3="jav" name="Javanese" script="Latn" status="todo" tag="jav">
+	<characters type="required">İı</characters>
+</language>
+<language iso-639-3="fra" name="Jèrriais" script="Latn" status="todo" tag="fra">
+	<characters type="required">ÂâÇçÉéÊêÈèÎîÔôÛû</characters>
+</language>
+<language iso-639-3="kgp" name="Kaingang" script="Latn" status="todo" tag="kgp">
+	<characters type="required">ÁáÂâÉéĨĩÓóỸỹ</characters>
+</language>
+<language iso-639-3="mwp" name="Kala Lagaw Ya" script="Latn" status="todo" tag="mwp">
+	<characters type="required">ÄäÁáÀàËëÉéÈèÏïÍíÌìÖöÓóÒòÜüÚúÙù</characters>
+</language>
+<language iso-639-3="pam" name="Pampanga" script="Latn" status="todo" tag="pam">
+	<characters type="required" />
+</language>
+<language iso-639-3="cak" name="Kaqchikel" script="Latn" status="todo" tag="cak">
+	<characters type="required">ÄäËëÏïÖöÜü</characters>
+</language>
+<language iso-639-3="kaa" name="Kara-Kalpak" script="Latn" status="todo" tag="kaa">
+	<characters type="required">İı</characters>
+</language>
+<language iso-639-3="krl" name="Karelian" script="Latn" status="todo" tag="krl">
+	<characters type="required">ÄäČčÖöŠšŽž</characters>
+</language>
+<language iso-639-3="csb" name="Kashubian" script="Latn" status="todo" tag="csb">
+	<characters type="required">ĄąÃãÉéËëĘęŁłŃńÒòÓóÔôŚśÙùŻż</characters>
+</language>
+<language iso-639-3="kng" name="Koongo" script="Latn" status="todo" tag="kng">
+	<characters type="required" />
+</language>
+<language iso-639-3="kin" name="Kinyarwanda" script="Latn" status="todo" tag="kin">
+	<characters type="required" />
+</language>
+<language iso-639-3="gil" name="Gilbertese" script="Latn" status="todo" tag="gil">
+	<characters type="required" />
+</language>
+<language iso-639-3="run" name="Rundi" script="Latn" status="todo" tag="run">
+	<characters type="required" />
+</language>
+<language iso-639-3="tlh" name="Klingon" script="Latn" status="todo" tag="tlh">
+	<characters type="required" />
+</language>
+<language iso-639-3="kur" name="Kurdish" script="Latn" status="todo" tag="kur">
+	<characters type="required">ĀāĂăÇçÉéÊêĒēĔĕÍíÎîĪīĬĭŌōŎŏȘșÚúÛûŪūŬŭ</characters>
+</language>
+<language iso-639-3="lld" name="Ladin" script="Latn" status="todo" tag="lld">
+	<characters type="required">ÀàÁáÂâĆćÉéÈèËëÊêÌìÎîÓóÒòÖöÔôŚśÙùÜüÛû</characters>
+</language>
+<language iso-639-3="lat" name="Latin" script="Latn" status="todo" tag="lat">
+	<characters type="required">ÄäËëÏïÖöÜüßẞ</characters>
+</language>
+<language iso-639-3="lav" name="Latvian" script="Latn" status="todo" tag="lav">
+	<characters type="required">ĀāČčĒēĢģĪīĶķĻļŅņŠšŪūŽžŌōŖŗ</characters>
+</language>
+<language iso-639-3="lit" name="Lithuanian" script="Latn" status="todo" tag="lit">
+	<characters type="required">ĄąČčĘęĖėĮįŠšŲųŪūŽž</characters>
+</language>
+<language iso-639-3="jbo" name="Lojban" script="Latn" status="todo" tag="jbo">
+	<characters type="required" />
+</language>
+<language iso-639-3="lmo" name="Lombard" script="Latn" status="todo" tag="lmo">
+	<characters type="required">ÀàÁáÈèÉéÌìÍíÒòÓóÔôØøÙùÜü</characters>
+</language>
+<language iso-639-3="nds" name="Low German" script="Latn" status="todo" tag="nds">
+	<characters type="required">ÄäËëÏïÖöÜüßẞ</characters>
+</language>
+<language iso-639-3="ltz" name="Luxembourgish" script="Latn" status="todo" tag="ltz">
+	<characters type="required">ÄäÂâÈèÉéËëÊêÎîÖöÔôßÜüÛûẞ</characters>
+</language>
+<language iso-639-3="mas" name="Masai" script="Latn" status="todo" tag="mas">
+	<characters type="required">ÀàÁáÂâÈèÉéÊêÌìÍíÎîŊŋÒòÓóÔôÙùÚúÛû</characters>
+</language>
+<language iso-639-3="vmw" name="Makhuwa" script="Latn" status="todo" tag="vmw">
+	<characters type="required">ÀàÈèÌìÒòÙù</characters>
+</language>
+<language iso-639-3="zlm" name="Malay" script="Latn" status="todo" tag="zlm">
+	<characters type="required" />
+</language>
+<language iso-639-3="mlt" name="Maltese" script="Latn" status="todo" tag="mlt">
+	<characters type="required">ÀàÁáÂâĊċÈèÉéÊêĠġĦħÌìÍíÎîÒòÓóÔôÙùÚúÛûŻż</characters>
+</language>
+<language iso-639-3="glv" name="Manx" script="Latn" status="todo" tag="glv">
+	<characters type="required">ÂâĂăÎîȘșȚț</characters>
+</language>
+<language iso-639-3="mrq" name="North Marquesan" script="Latn" status="todo" tag="mrq">
+	<characters type="required">ÁáÉéÍíÓóÚú</characters>
+</language>
+<language iso-639-3="ruq" name="Megleno Romanian" script="Latn" status="todo" tag="ruq">
+	<characters type="required">ĂăĽľŃńȘșȚț</characters>
+</language>
+<language iso-639-3="ulk" name="Meriam" script="Latn" status="todo" tag="ulk">
+	<characters type="required">ÌìÒòÙù</characters>
+</language>
+<language iso-639-3="mwl" name="Mirandese" script="Latn" status="todo" tag="mwl">
+	<characters type="required">ÁáÇçÉéÊêÍíÓóÔôÚúŨũ</characters>
+</language>
+<language iso-639-3="moh" name="Mohawk" script="Latn" status="todo" tag="moh">
+	<characters type="required" />
+</language>
+<language iso-639-3="moe" name="Montagnais" script="Latn" status="todo" tag="moe">
+	<characters type="required">ÂâÎîÛû</characters>
+</language>
+<language iso-639-3="srp" name="Serbian" script="Latn" status="todo" tag="srp">
+	<characters type="required">ČčĆćĐđŠšŚśŹźŽž</characters>
+</language>
+<language iso-639-3="cnr" name="Montenegrin" script="Latn" status="todo" tag="cnr">
+	<characters type="required">ČčĆćĐđŠšŚśŹźŽž</characters>
+</language>
+<language iso-639-3="mwf" name="Murrinh-Patha" script="Latn" status="todo" tag="mwf">
+	<characters type="required" />
+</language>
+<language iso-639-3="rar" name="Maori/Rarotongan" script="Latn" status="todo" tag="rar">
+	<characters type="required">ĀāĒēĪīŌōŪū</characters>
+	<characters type="optional">ÁáÉéÍíÓóÚú</characters>
+</language>
+<language iso-639-3="nag" name="Naga Pidgin" script="Latn" status="todo" tag="nag">
+	<characters type="required">ĀāĒēĪīŌōŪū</characters>
+</language>
+<language iso-639-3="nhn" name="Central Nahuatl" script="Latn" status="todo" tag="nhn">
+	<characters type="required">ĀāĒēĪīŌōŪūÜüȲȳ</characters>
+</language>
+<language iso-639-3="nbl" name="South Ndebele" script="Latn" status="todo" tag="nbl">
+	<characters type="required" />
+</language>
+<language iso-639-3="nap" name="Neapolitan" script="Latn" status="todo" tag="nap">
+	<characters type="required">ÀàÁáÈèÉéÌìÍíÒòÓóÙùÚú</characters>
+</language>
+<language iso-639-3="wyb" name="Wangaaybuwan-Ngiyambaa" script="Latn" status="todo" tag="wyb">
+	<characters type="required" />
+</language>
+<language iso-639-3="niu" name="Niuean" script="Latn" status="todo" tag="niu">
+	<characters type="required">ĀāĒēĪīŌōŪū</characters>
+</language>
+<language iso-639-3="xrg" name="Minang" script="Latn" status="todo" tag="xrg">
+	<characters type="required">ĀāĒēĪīŌōŪū</characters>
+</language>
+<language iso-639-3="nor" name="Norwegian" script="Latn" status="todo" tag="nor">
+	<characters type="required">ÆæØøÅåÀàÉéÊêÓóÒòÔôÄäÖöÜü</characters>
+</language>
+<language iso-639-3="nov" name="Novial" script="Latn" status="todo" tag="nov">
+	<characters type="required" />
+</language>
+<language iso-639-3="ile" name="Interlingue" script="Latn" status="todo" tag="nov">
+	<characters type="required">ÁáÉéÍíÓóÚú</characters>
+</language>
+<language iso-639-3="oci" name="Occitan" script="Latn" status="todo" tag="oci">
+	<characters type="required">ÁáÀàÇçÉéÈèËëÍíÏïÓóÒòÚúÜü</characters>
+</language>
+<language iso-639-3="non" name="Old Norse" script="Latn" status="todo" tag="non">
+	<characters type="required">ÁáÆæǼǽÐðÉéÍíÓóŒœØøǪǫÚúÝý</characters>
+</language>
+<language iso-639-3="acz" name="Acheron" script="Latn" status="todo" tag="acz">
+	<characters type="required">ẠạẼẽĔĕẸẹȷŎŏŢţ</characters>
+</language>
+<language iso-639-3="kua" name="Kuanyama" script="Latn" status="todo" tag="kua">
+	<characters type="required" />
+</language>
+<language iso-639-3="oss" name="Ossetian" script="Latn" status="todo" tag="oss">
+	<characters type="required">ÄäÆæČčŠšŽž</characters>
+</language>
+<language iso-639-3="plz" name="Palauan" script="Latn" status="todo" tag="plz">
+	<characters type="required">Ññ</characters>
+</language>
+<language iso-639-3="pap" name="Papiamento" script="Latn" status="todo" tag="pap">
+	<characters type="required">ÈèÒò</characters>
+</language>
+<language iso-639-3="pms" name="Piemontese" script="Latn" status="todo" tag="pms">
+	<characters type="required">ÀàÄäÈèËëÌìÏïÒòÖöÙùÜü</characters>
+</language>
+<language iso-639-3="pol" name="Polish" script="Latn" status="done" tag="pl">
+	<characters type="required">ĄąĆćĘęŁłŃńÓóŚśŹźŻż</characters>
+</language>
+<language iso-639-3="por" name="Portuguese" script="Latn" status="todo" tag="por">
+	<characters type="required">ÀàÁáÂâÃãÇçÉéÊêÍíÓóÔôÕõÚúÜüÈèÒò</characters>
+</language>
+<language iso-639-3="pot" name="Potawatomi" script="Latn" status="todo" tag="pot">
+	<characters type="required">Èè</characters>
+</language>
+<language iso-639-3="que" name="Quechua" script="Latn" status="todo" tag="que">
+	<characters type="required">Ññ</characters>
+</language>
+<language iso-639-3="kek" name="Kekchí" script="Latn" status="todo" tag="kek">
+	<characters type="required">ÁáÄäÅåŃńÑñÖö</characters>
+</language>
+<language iso-639-3="ron" name="Romanian/Moldovan" script="Latn" status="todo" tag="ron">
+	<characters type="required">ÂâĂăÎîȘșȚț</characters>
+</language>
+<language iso-639-3="roh" name="Romansh" script="Latn" status="todo" tag="roh">
+	<characters type="required">ÀàÈèÉéÌìÎîÒòÙùÜü</characters>
+</language>
+<language iso-639-3="roo" name="Rotokas" script="Latn" status="todo" tag="roo">
+	<characters type="required" />
+</language>
+<language iso-639-3="smn" name="Inari Sami" script="Latn" status="todo" tag="smn">
+	<characters type="required">ÁáÂâÄäÅåČčĐđŊŋÖöŠšŽž</characters>
+</language>
+<language iso-639-3="smj" name="Lule Sami" script="Latn" status="todo" tag="smj">
+	<characters type="required">ÁáÄäÅåŃńÑñÖö</characters>
+</language>
+<language iso-639-3="sme" name="Northern Sami" script="Latn" status="todo" tag="sme">
+	<characters type="required">ÁáÄäÅåÆæČčĐđŊŋØøÖöŠšŦŧŽž</characters>
+</language>
+<language iso-639-3="sma" name="Southern Sami" script="Latn" status="todo" tag="sma">
+	<characters type="required">ÄäÅåÆæÏïÖöØø</characters>
+</language>
+<language iso-639-3="smo" name="Samoan" script="Latn" status="todo" tag="smo">
+	<characters type="required">Öö</characters>
+</language>
+<language iso-639-3="sag" name="Sango" script="Latn" status="todo" tag="sag">
+	<characters type="required">ÄäÂâËëÊêÏïÎîÖöÔôÜüÛû</characters>
+</language>
+<language iso-639-3="srm" name="Saramaccan" script="Latn" status="todo" tag="srm">
+	<characters type="required">Öö</characters>
+</language>
+<language iso-639-3="srd" name="Sardinian" script="Latn" status="todo" tag="srd">
+	<characters type="required">ÀàÇçÈèÌìÒòÙù</characters>
+</language>
+<language iso-639-3="gla" name="Scottish Gaelic" script="Latn" status="todo" tag="gla">
+	<characters type="required">ÀàÈèÉéÌìÒòÓóÙù</characters>
+</language>
+<language iso-639-3="hrv" name="Croatian" script="Latn" status="todo" tag="hrv">
+	<characters type="required">ĆćČčĐđŠšŽž</characters>
+</language>
+<language iso-639-3="sei" name="Seri" script="Latn" status="todo" tag="sei">
+	<characters type="required">Öö</characters>
+</language>
+<language iso-639-3="crs" name="Seselwa Creole French" script="Latn" status="todo" tag="crs">
+	<characters type="required">ČčŠšŽžĆćĐđÄäÖöÜü</characters>
+</language>
+<language iso-639-3="sjw" name="Shawnee" script="Latn" status="todo" tag="sjw">
+	<characters type="required" />
+</language>
+<language iso-639-3="sna" name="Shona" script="Latn" status="todo" tag="sna">
+	<characters type="required" />
+</language>
+<language iso-639-3="scn" name="Sicilian" script="Latn" status="todo" tag="scn">
+	<characters type="required">ÀàÈèÌìÒòÙù</characters>
+</language>
+<language iso-639-3="szl" name="Silesian" script="Latn" status="todo" tag="szl">
+	<characters type="required">ČčĆćŃńŘřŠšŚśŮůŹźŽžŻż</characters>
+</language>
+<language iso-639-3="slk" name="Slovak" script="Latn" status="todo" tag="slk">
+	<characters type="required">ÁáÄäČčĎďÉéÍíĹĺĽľŇňÓóÔôŔŕŠšŤťÚúÝýŽž</characters>
+</language>
+<language iso-639-3="slv" name="Slovenian" script="Latn" status="todo" tag="slv">
+	<characters type="required">ČčŠšŽžĆćĐđÄäÖöÜü</characters>
+</language>
+<language iso-639-3="som" name="Somali" script="Latn" status="todo" tag="som">
+	<characters type="required" />
+</language>
+<language iso-639-3="dsb" name="Lower Sorbian" script="Latn" status="todo" tag="dsb">
+	<characters type="required">ĆćČčĚěŁłŃńÓóŔŕŚśŠšŹźŽž</characters>
+</language>
+<language iso-639-3="hsb" name="Upper Sorbian" script="Latn" status="todo" tag="hsb">
+	<characters type="required">ĆćČčĚěŁłŃńÓóŘřŠšŹźŽž</characters>
+</language>
+<language iso-639-3="nso" name="Northern Sotho" script="Latn" status="todo" tag="nso">
+	<characters type="required">ÊêÔôŠš</characters>
+</language>
+<language iso-639-3="sot" name="Southern Sotho" script="Latn" status="todo" tag="sot">
+	<characters type="required">ÄäÅåÉéÖöÁáÀàËëÜü</characters>
+</language>
+<language iso-639-3="spa" name="Spanish" script="Latn" status="todo" tag="spa">
+	<characters type="required">ÁáÉéÍíÑñÓóÚúÜü</characters>
+</language>
+<language iso-639-3="srn" name="Sranan Tongo" script="Latn" status="todo" tag="srn">
+	<characters type="required">ĀāĒēĪīŌōŪū</characters>
+</language>
+<language iso-639-3="sun" name="Sundanese" script="Latn" status="todo" tag="sun">
+	<characters type="required">Ññ</characters>
+</language>
+<language iso-639-3="swc" name="Congo Swahili" script="Latn" status="todo" tag="SWK">
+	<characters type="required" />
+</language>
+<language iso-639-3="swh" name="Swahili" script="Latn" status="todo" tag="SWK">
+	<characters type="required" />
+</language>
+<language iso-639-3="ymk" name="Makwe" script="Latn" status="todo" tag="SWK">
+	<characters type="required" />
+</language>
+<language iso-639-3="wmw" name="Mwani" script="Latn" status="todo" tag="SWK">
+	<characters type="required" />
+</language>
+<language iso-639-3="ssw" name="Swati" script="Latn" status="todo" tag="ssw">
+	<characters type="required" />
+</language>
+<language iso-639-3="swe" name="Swedish" script="Latn" status="todo" tag="swe">
+	<characters type="required">ÄäÅåÉéÖöÁáÀàËëÜü</characters>
+</language>
+<language iso-639-3="tgl" name="Tagalog" script="Latn" status="todo" tag="tgl">
+	<characters type="required" />
+</language>
+<language iso-639-3="tah" name="Tahitian" script="Latn" status="todo" tag="tah">
+	<characters type="required">ĀāĒēĪīŌōŪū</characters>
+</language>
+<language iso-639-3="tdt" name="Tetum" script="Latn" status="todo" tag="tdt">
+	<characters type="required">Ññ</characters>
+</language>
+<language iso-639-3="tpi" name="Tok Pisin" script="Latn" status="todo" tag="tpi">
+	<characters type="required" />
+</language>
+<language iso-639-3="tkl" name="Tokelau" script="Latn" status="todo" tag="tkl">
+	<characters type="required" />
+</language>
+<language iso-639-3="ton" name="Tonga (Tonga Islands)" script="Latn" status="todo" tag="ton">
+	<characters type="required">ĀāĒēĪīŌōŪū</characters>
+</language>
+<language iso-639-3="lua" name="Luba-Lulua" script="Latn" status="todo" tag="lua">
+	<characters type="required">ĀāĒēĪīŌōŪū</characters>
+</language>
+<language iso-639-3="tso" name="Tsonga" script="Latn" status="todo" tag="tso">
+	<characters type="required" />
+</language>
+<language iso-639-3="tsn" name="Tswana" script="Latn" status="todo" tag="tsn">
+	<characters type="required">ÊêÔôŠš</characters>
+</language>
+<language iso-639-3="tum" name="Tumbuka" script="Latn" status="todo" tag="tum">
+	<characters type="required" />
+</language>
+<language iso-639-3="tur" name="Turkish" script="Latn" status="todo" tag="tur">
+	<characters type="required">ÂâÇçĞğÎîİıÖöȘșÛûÜü</characters>
+</language>
+<language iso-639-3="tuk" name="Turkmen" script="Latn" status="todo" tag="tuk">
+	<characters type="required">ÄäÇçŇňÖöŞşȘșÜüÝÝŽž</characters>
+</language>
+<language iso-639-3="tvl" name="Tuvalu" script="Latn" status="todo" tag="tvl">
+	<characters type="required">ĀāĒēĪīŌōŪū</characters>
+</language>
+<language iso-639-3="tzo" name="Tzotzil" script="Latn" status="todo" tag="tzo">
+	<characters type="required">ĀāĒēĪīŌōŪū</characters>
+</language>
+<language iso-639-3="uzb" name="Uzbek" script="Latn" status="todo" tag="uzb">
+	<characters type="required" />
+</language>
+<language iso-639-3="vec" name="Venetian" script="Latn" status="todo" tag="vec">
+	<characters type="required">ÁáÀàÇçÉéÈèÍíÌìŁłÓóÒòÙù</characters>
+</language>
+<language iso-639-3="vep" name="Veps" script="Latn" status="todo" tag="vep">
+	<characters type="required">ČčŠšŽžÜüÄäÖö</characters>
+</language>
+<language iso-639-3="vol" name="Volapük" script="Latn" status="todo" tag="vol">
+	<characters type="required">ÄäÖöÜü</characters>
+</language>
+<language iso-639-3="vro" name="Võro" script="Latn" status="todo" tag="vro">
+	<characters type="required">ÄäÕõÖöŠšÜüŽž</characters>
+</language>
+<language iso-639-3="wls" name="Wallisian" script="Latn" status="todo" tag="wls">
+	<characters type="required">ĀāĒēĪīŌōŪū</characters>
+</language>
+<language iso-639-3="wln" name="Walloon" script="Latn" status="todo" tag="wln">
+	<characters type="required">ÅåÂâÇçÊêÉéÈèÎîÔôÛû</characters>
+</language>
+<language iso-639-3="war" name="Waray (Philippines)" script="Latn" status="todo" tag="war">
+	<characters type="required">Ññ</characters>
+</language>
+<language iso-639-3="wbp" name="Warlpiri" script="Latn" status="todo" tag="wbp">
+	<characters type="required">ÃãÉéĨĩÕõÔôÖö</characters>
+</language>
+<language iso-639-3="guc" name="Wayuu" script="Latn" status="todo" tag="guc">
+	<characters type="required">ÑñÜü</characters>
+</language>
+<language iso-639-3="cym" name="Welsh" script="Latn" status="todo" tag="cym">
+	<characters type="required">ÁáÀàÂâÄäÉéÈèÊêËëÍíÌìÎîÏïÓóÒòÔôÖöÚúÙùÛûÜüÝýỲỳŶŷŸÿẂẃẀẁŴŵẄẅ</characters>
+</language>
+<language iso-639-3="wim" name="Wik-Mungkan" script="Latn" status="todo" tag="wim">
+	<characters type="required" />
+</language>
+<language iso-639-3="wrh" name="Wiradhuri" script="Latn" status="todo" tag="wrh">
+	<characters type="required">ÁáÑñ</characters>
+</language>
+<language iso-639-3="wol" name="Wolof" script="Latn" status="todo" tag="wol">
+	<characters type="required">ÀàÃãÉéËëÑñŊŋÓó</characters>
+</language>
+<language iso-639-3="xav" name="Xavánte" script="Latn" status="todo" tag="xav">
+	<characters type="required">ÃãÉéĨĩÕõÔôÖö</characters>
+</language>
+<language iso-639-3="xho" name="Xhosa" script="Latn" status="todo" tag="xho">
+	<characters type="required" />
+</language>
+<language iso-639-3="yap" name="Yapese" script="Latn" status="todo" tag="yap">
+	<characters type="required">ÄäËëÖö</characters>
+</language>
+<language iso-639-3="yij" name="Yindjibarndi" script="Latn" status="todo" tag="yij">
+	<characters type="required" />
+</language>
+<language iso-639-3="zap" name="Zapotec" script="Latn" status="todo" tag="zap">
+	<characters type="required">ÁáÑñ</characters>
+</language>
+<language iso-639-3="dje" name="Zarma" script="Latn" status="todo" tag="dje">
+	<characters type="required">ŊŋƝɲ</characters>
+</language>
+<language iso-639-3="kiu" name="Kirmanjki" script="Latn" status="todo" tag="diq">
+	<characters type="required">ÇçÊêǦǧÎîİıŞşÜüÛû</characters>
+</language>
+<language iso-639-3="diq" name="Dimli" script="Latn" status="todo" tag="diq">
+	<characters type="required">ÇçÊêǦǧÎîİıŞşÜüÛû</characters>
+</language>
+<language iso-639-3="zul" name="Zulu" script="Latn" status="todo" tag="zul">
+	<characters type="required" />
+</language>
+<language iso-639-3="zun" name="Zuni" script="Latn" status="todo" tag="zun">
+	<characters type="required">Łł</characters>
+</language>
+<language iso-639-3="abq" name="Abaza" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГЕЁЖЗИЙКЛМНОПРСФХЦЧШЩЪЫЬЭЮЯабвгеёжзийклмнопрсфхцчшщъыьэюя</characters>
+</language>
+<language iso-639-3="abk" name="Abkhazian" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГӶДЏЕҼҾЖЗӠИКҚҞЛМНОҨПԤРСТҬУФХҲЦҴЧҶШЫЬӘабвгӷдџеҽҿжзӡикқҟлмноҩпԥрстҭуфхҳцҵчҷшыәь</characters>
+</language>
+<language iso-639-3="ady" name="Adyghe" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯӀабвгдеёжзийклмнопрстуфхцчшщъыьэюяӏ</characters>
+</language>
+<language iso-639-3="agx" name="Aghul" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯӀабвгдеёжзийклмнопрстуфхцчшщъыьэюяӏ</characters>
+</language>
+<language iso-639-3="atv" name="Northern Altai" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГДЈЕЁЖЗИЙКЛМНҤОӦПРСТУӰФХЦЧШЩЪЫЬЭЮЯабвгдјеёжзийклмнҥоӧпрстуӱфхцчшщъыьэюя</characters>
+</language>
+<language iso-639-3="alt" name="Southern Altai" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГДЈЕЁЖЗИЙКЛМНҤОӦПРСТУӰФХЦЧШЩЪЫЬЭЮЯабвгдјеёжзийклмнҥоӧпрстуӱфхцчшщъыьэюя</characters>
+</language>
+<language iso-639-3="ani" name="Andi" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯӀабвгдеёжзийклмнопрстуфхцчшщъыьэюяӏ</characters>
+</language>
+<language iso-639-3="aqc" name="Archi" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГДЕЖЗИЙКЛМНОПРСТУХЦЧШЩЭЪЫЬӀабвгдежзийклмнопрстухцчшщэъыьӏ</characters>
+</language>
+<language iso-639-3="ava" name="Avaric/Avar" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯӀабвгдеёжзийклмнопрстуфхцчшщъыьэюяӏ</characters>
+</language>
+<language iso-639-3="aze" name="Azerbaijani/Azeri" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГҒДЕӘЖЗИЫЈКҜЛМНОӨПРСТУҮФХҺЧҸШабвгғдеәжзиыјкҝлмноөпрстуүфхһчҹш’</characters>
+</language>
+<language iso-639-3="bak" name="Bashkir" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГҒДҘЕЁЖЗИЙКҠЛМНҢОӨПРСҪТУҮФХҺЦЧШЩЪЫЬЭӘЮЯабвгғдҙеёжзийкҡлмнңоөпрсҫтуүфхһцчшщъыьэәюя</characters>
+</language>
+<language iso-639-3="bel" name="Belarusian" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГДЕЁЖЗІЙКЛМНОПРСТУЎФХЦЧШЫЬЭЮЯабвгдеёжзійклмнопрстуўфхцчшыьэюя’</characters>
+</language>
+<language iso-639-3="kap" name="Bezhta" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГЕДЁЖЗИЙКЛМНОПРСТУХЦЧШЪЬЭӀабвгедёжзийклмнопрстухцчшъьэӏ</characters>
+</language>
+<language iso-639-3="bos" name="Bosnian" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГДЂЕЖЗИЈКЛЉМНЊОПРСТЋУФХЦЧЏШабвгдђежзијклљмнњопрстћуфхцчџш</characters>
+</language>
+<language iso-639-3="bdk" name="Budukh" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГДЕӘЖЗИЙКЛМНОПРСТУФХЦЧШЪЫЬЭӀабвгдеәжзийклмнопрстуфхцчшъыьэӏ</characters>
+</language>
+<language iso-639-3="bul" name="Bulgarian" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГДЕЀЖЗИЙЍКЛМНОПРСТУФХЦЧШЩЪЬЮЯабвгдеѐжзийѝклмнопрстуфхцчшщъьюя</characters>
+</language>
+<language iso-639-3="bua" name="Buryat" script="Cyrl" status="todo" tag="bua">
+	<characters type="required">АБВГДЕЁЖЗИЙКЛМНОӨПРСТУҮФХҺЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмноөпрстуүфхһцчшщъыьэюя</characters>
+</language>
+<language iso-639-3="cji" name="Chamalal" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЪЬӀабвгдежзийклмнопрстуфхцчшъьӏ</characters>
+</language>
+<language iso-639-3="che" name="Chechen" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯӀабвгдеёжзийклмнопрстуфхцчшщъыьэюяӏ</characters>
+</language>
+<language iso-639-3="ckt" name="Chukchi" script="Cyrl" status="todo" tag="ckt">
+	<characters type="required">АБВГДЕЁЖЗИЙКӃԒМНӇОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийкӄԓмнӈопрстуфхцчшщъыьэюя’</characters>
+</language>
+<language iso-639-3="chv" name="Chuvash" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АӐБВГДЕЁӖЖЗИЙКЛМНОПРСҪТУӲФХЦЧШЩЪЫЬЭЮЯаӑбвгдеёӗжзийклмнопрсҫтуӳфхцчшщъыьэюя</characters>
+</language>
+<language iso-639-3="crh" name="Crimean Tatar" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя</characters>
+</language>
+<language iso-639-3="dar" name="Dargwa" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯӀабвгдеёжзийклмнопрстуфхцчшщъыьэюяӏ</characters>
+</language>
+<language iso-639-3="dlg" name="Dolgan" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГДЕЁЖЗИЙКҺЛМНӇОӨПРСТУҮФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийкһлмнӈоөпрстуүфхцчшщъыьэюя</characters>
+</language>
+<language iso-639-3="dng" name="Dungan" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГДЕЁЖҖЗИЙКЛМНҢӘОПРСТУЎҮФХЦЧШЩЪЫЬЭЮЯабвгдеёжҗзийклмнңәопрстуўүфхцчшщъыьэюя</characters>
+</language>
+<language iso-639-3="enf" name="Forest Enets" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГДЕЁԐЖЗИЙКЛМНӇОПРСҪТУФХЦЧШЩЪЫЬЭЮЯабвгдеёԑжзийклмнӈопрсҫтуфхцчшщъыьэюя</characters>
+</language>
+<language iso-639-3="enh" name="Tundra Enets" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГДЕЁԐЖЗИЙКЛМНӇОПРСҪТУФХЦЧШЩЪЫЬЭЮЯабвгдеёԑжзийклмнӈопрсҫтуфхцчшщъыьэюя</characters>
+</language>
+<language iso-639-3="eve" name="Even" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГДЕЁЖЗИЙКЛМНӇОӨӪПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнӈоөӫпрстуфхцчшщъыьэюя</characters>
+</language>
+<language iso-639-3="evn" name="Evenki" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГДЕЁЖЗИЙКЛМНӇОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнӈопрстуфхцчшщъыьэюя</characters>
+</language>
+<language iso-639-3="myv" name="Erzya" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя</characters>
+</language>
+<language iso-639-3="gag" name="Gagauz" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АӒБВГДЕЁЖӁЗИЙКЛМНОӦПРСТУӰФХЦЧШЩЪЫЬЭЮЯаӓбвгдеёжӂзийклмноӧпрстуӱфхцчшщъыьэюя</characters>
+</language>
+<language iso-639-3="huz" name="Hunzib" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГДЕӘЖЗИЙКЛМНОПРСТУӮФХЦЧШЪЫЫЬЭӀабвгдеәжзийклмнопрстуӯфхцчшъыыьэӏ</characters>
+	<characters type="combinations">{а̄}{е̄}{ә̄}{о̄}{э̄}</characters>
+</language>
+<language iso-639-3="inh" name="Ingush" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯӀабвгдеёжзийклмнопрстуфхцчшщъыьэюяӏ</characters>
+</language>
+<language iso-639-3="itl" name="Itelmen" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АӐБВГДЕЁЖЗИЙКӃЛЉӅМНЊӇОПРСТУЎФХҲЦЧШЩЪЫЬӘЭЮЯаӑбвгдеёжзийкӄлљӆмнњӈопрстуўфхҳцчшщъыьәэюя’</characters>
+	<characters type="combinations">{о̆}</characters>
+</language>
+<language iso-639-3="jdt" name="Judeo-Tat" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЧШЭЮЯЬЪӀабвгдеёжзийклмнопрстуфхчшэюяьъӏ</characters>
+</language>
+<language iso-639-3="kbd" name="Kabardian" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АЭБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЮЯӀаэбвгдеёжзийклмнопрстуфхцчшщъыьюяӏ</characters>
+</language>
+<language iso-639-3="xal" name="Kalmyk" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АӘБВГҺДЕЁЖҖЗИЙКЛМНҢОӨПРСТУҮФХЦЧШЩЪЫЬЭЮЯаәбвгһдеёжҗзийклмнңоөпрстуүфхцчшщъыьэюя</characters>
+</language>
+<language iso-639-3="krc" name="Karachay-Balkar" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГДЕЁЖЗИЙКЛМНОПРСТУЎФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуўфхцчшщъыьэюя</characters>
+</language>
+<language iso-639-3="kdr" name="Karaim" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГДЕЖЗИЙКЛМНОӦПРСТУӰФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмноӧпрстуӱфхцчшщъыьэюя</characters>
+</language>
+<language iso-639-3="kpt" name="Karata" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯӀабвгдеёжзийклмнопрстуфхцчшщъыьэюяӏ</characters>
+</language>
+<language iso-639-3="kaz" name="Kazakh" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АӘБВГҒДЕЁЖЗИЙКҚЛМНҢОӨПРСТУҰҮФХҺЦЧШЩЪЫІЬЭЮЯаәбвгғдеёжзийкқлмнңоөпрстуұүфхһцчшщъыіьэюя</characters>
+</language>
+<language iso-639-3="kaa" name="Karakalpak" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АӘБВГҒДЕЁЖЗИЙКҚЛМНҢОӨПРСТУҮЎФХҲЦЧШЩЪЫЬЭЮЯаәбвгғдеёжзийкқлмнңоөпрстуүўфхҳцчшщъыьэюя</characters>
+</language>
+<language iso-639-3="ket" name="Ket" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГӶДЕЁЖЗИЙКӃЛМНӇОӨПРСТУФХЦЧШЩЪӘЫЬЭЮЯабвгӷдеёжзийкӄлмнӈоөпрстуфхцчшщъәыьэюя’</characters>
+</language>
+<language iso-639-3="kjh" name="Khakas" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГҒДЕЁЖЗИЙІКЛМНҢОӦПРСТУӰФХЦЧӋШЩЪЫЬЭЮЯабвгғдеёжзийіклмнңоӧпрстуӱфхцчӌшщъыьэюя</characters>
+</language>
+<language iso-639-3="kca" name="Khanty" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АӒӐБВГДЕЁӘӚЖЗИЙКҚЛӅԒМНҢӇОӦӨӪПРСТУӰЎФХҲЦЧҶШЩЪЫЬЭЄЮЯаӓӑбвгдеёәӛжзийкқлӆԓмнңӈоӧөӫпрстуӱўфхҳцчҷшщъыьэєюя</characters>
+	<characters type="combinations">{є̈}</characters>
+	<characters type="combinations">{ю̆}{я̆}</characters>
+</language>
+<language iso-639-3="kjj" name="Khinalug" script="Cyrl" status="todo" tag="kjj">
+	<characters type="required">АБВГДЕЖЗИЙКЛМНОПРСТУФХӀЦЧШЪЫЬЭӘабвгдежзийклмнопрстуфхӏцчшъыьэә</characters>
+	<characters type="combinations">{а̃}{е̃}{и̃}{о̃}{у̃}{ә̃}</characters>
+</language>
+<language iso-639-3="sjd" name="Kildin Sami" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АӒБВГДЕЁЖЗҺИЙҊЈКЛӅМӍНӉӇОПРҎСТУФХЦЧШЩЪЫЬҌЭӬЮЯаӓбвгдеёжзһийҋјклӆмӎнӊӈопрҏстуфхцчшщъыьҍэӭюя’</characters>
+</language>
+<language iso-639-3="kom" name="Komi" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГДЕЁЖЗИІЙКЛМНОӦПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзиійклмноӧпрстуфхцчшщъыьэюя</characters>
+</language>
+<language iso-639-3="kpy" name="Koryak" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГДЕЁЖЗИЙКӃЛМНӇОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийкӄлмнӈопрстуфхцчшщъыьэюя’</characters>
+</language>
+<language iso-639-3="jct" name="Krymchak" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГДЕЗИЙКЛМНОӦПРСТУӰФХЧШъЫЬЭабвгдезийклмноӧпрстуӱфхчшъыьэ</characters>
+</language>
+<language iso-639-3="kum" name="Kumyk" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя</characters>
+</language>
+<language iso-639-3="kur" name="Kurdish" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГДЕӘЖЗИЙКЛМНОӦПРСТУФХҺЧШЩЬЭԚԜабвгдеәжзийклмноӧпрстуфхһчшщьэԛԝ</characters>
+</language>
+<language iso-639-3="kir" name="Kyrgyz" script="Cyrl" status="todo" tag="kir">
+	<characters type="required">АБВГДЕЁЖЗИЙКЛМНҢОӨПРСТУҮФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнңоөпрстуүфхцчшщъыьэюя</characters>
+</language>
+<language iso-639-3="lbe" name="Lak" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯӀабвгдеёжзийклмнопрстуфхцчшщъыьэюяӏ</characters>
+</language>
+<language iso-639-3="lez" name="Lezgi" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯӀабвгдеёжзийклмнопрстуфхцчшщъыьэюяӏ</characters>
+</language>
+<language iso-639-3="mkd" name="Macedonian" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГДЃЕЖЗЅИЈКЛЉМНЊОПРСТЌУФХЦЧЏШабвгдѓежзѕијклљмнњопрстќуфхцчџш</characters>
+</language>
+<language iso-639-3="mns" name="Mansi" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГДЕЁЖЗИӢЙКЛМНӇОПРСТУӮФХЦЧШЩЪЫЬЭЮЯабвгдеёжзиӣйклмнӈопрстуӯфхцчшщъыьэюя</characters>
+	<characters type="combinations">{а̄}{е̄}{о̄}{э̄}{ю̄}{я̄}</characters>
+</language>
+<language iso-639-3="mhr" name="Mari (Meadow)" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГДЕЁЖЗИЙКЛМНҤОӦПРСТУӰФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнҥоӧпрстуӱфхцчшщъыьэюя</characters>
+</language>
+<language iso-639-3="mrj" name="Mari (Hill)" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АӒБВГДЕЁЖЗИЙКЛМНОӦПРСТУӰФХЦЧШЩЪЫӸЬЭЮЯаӓбвгдеёжзийклмноӧпрстуӱфхцчшщъыӹьэюя</characters>
+</language>
+<language iso-639-3="mdf" name="Moksha" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя</characters>
+</language>
+<language iso-639-3="ron" name="Romanian/Moldovan" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГДЕЖӁЗИЙКЛМНОПРСТУФХЦЧШЫЬЭЮЯабвгдежӂзийклмнопрстуфхцчшыьэюя</characters>
+</language>
+<language iso-639-3="mon" name="Mongolian" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГДЕЁЖЗИЙКЛМНОӨПРСТУҮФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмноөпрстуүфхцчшщъыьэюя</characters>
+</language>
+<language iso-639-3="srp" name="Serbian" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГДЂЕЖЗИЈКЛЉМНЊОПРСТЋУФХЦЧЏШабвгдђежзијклљмнњопрстћуфхцчџш</characters>
+	<characters type="combinations">{з́}{с́}</characters>
+</language>
+<language iso-639-3="cnr" name="Montenegrin" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГДЂЕЖЗИЈКЛЉМНЊОПРСТЋУФХЦЧЏШабвгдђежзијклљмнњопрстћуфхцчџш</characters>
+	<characters type="combinations">{з́}{с́}</characters>
+</language>
+<language iso-639-3="gld" name="Nanai" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГДЕЁЖЗИЙКЛМНӇОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнӈопрстуфхцчшщъыьэюя</characters>
+	<characters type="combinations">{а̄}{е̄}{ӣ}{о̄}{ӯ}{э̄}</characters>
+</language>
+<language iso-639-3="yrk" name="Nenets" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГДЕЁЖЗИЙКЛӅМНӇОПРСТУФХЦЧШЩЪЫЬЭӬЮЯабвгдеёжзийклӆмнӈопрстуфхцчшщъыьэӭюя’”</characters>
+</language>
+<language iso-639-3="nio" name="Nganasan" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГДЕЁЖЗИЙКЛМНӇОӨПРСҪТУҮФХЦЧШЩЪЫЬЭӘЮЯабвгдеёжзийклмнӈоөпрсҫтуүфхцчшщъыьэәюя”</characters>
+	<characters type="combinations">{з̌}</characters>
+</language>
+<language iso-639-3="niv" name="Nivkh" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГӶҒӺДЕЁЖЗИЙКӃЛМНӇОПРСТУФХӼӾЦЧШЩЪЫЬЭЮЯабвгӷғӻдеёжзийкӄлмнӈопрстуфхӽӿцчшщъыьэюяʼ’</characters>
+	<characters type="combinations">{р̌}</characters>
+</language>
+<language iso-639-3="nog" name="Nogai" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя</characters>
+</language>
+<language iso-639-3="oaa" name="Orok" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГДЕЖӠИӢЈКЛМНԨӇОӨПРСТУУХЧЭабвгдежӡиӣјклмнԩӈоөпрстуухчэ̄</characters>
+	<characters type="combinations">{а̄}{е̄}{о̄}{ө̄}{э̄}</characters>
+</language>
+<language iso-639-3="oss" name="Ossetic" script="Cyrl" status="todo" tag="oss">
+	<characters type="required">АӔБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯаӕбвгдеёжзийклмнопрстуфхцчшщъыьэюя</characters>
+</language>
+<language iso-639-3="rml" name="Romani Baltic" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГҐДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЫЬЭЮЯабвгґдеёжзийклмнопрстуфхцчшыьэюя</characters>
+</language>
+<language iso-639-3="rmy" name="Romani Vlax" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГҒДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЫЬЭЮЯабвгғдеёжзийклмнопрстуфхцчшыьэюя</characters>
+</language>
+<language iso-639-3="rus" name="Russian" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя</characters>
+</language>
+<language iso-639-3="rue" name="Rusyn" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГҐДЕЄЁЖЗИІЫЇЙКЛМНОПРСТУФХЦЧШЩЮЯЬЪабвгґдеєёжзиіыїйклмнопрстуфхцчшщюяьъ</characters>
+</language>
+<language iso-639-3="rut" name="Rutul" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯӀабвгдеёжзийклмнопрстуфхцчшщъыьэюяӏ</characters>
+</language>
+<language iso-639-3="sel" name="Selkup" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГӶДЕЁЖҖЗИӢКӃЛМНӇОӨӦПРСТУӰӮФХЦЧШЩъЫьЭӬЮЯабвгӷдеёжҗзиӣкӄлмнӈоөӧпрстуӱӯфхцчшщъыьэӭюя</characters>
+	<characters type="combinations">{а̄}{е̄}{о̄}{э̄}</characters>
+	<characters type="combinations">{и̇}</characters>
+</language>
+<language iso-639-3="cjs" name="Shor" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГҒДЕЁЖЗИЙКҚЛМНҢОӦПРСТУӰФХЦЧШЩЪЫЬЭЮЯабвгғдеёжзийкқлмнңоӧпрстуӱфхцчшщъыьэюя</characters>
+</language>
+<language iso-639-3="sgh" name="Shughni" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГҒДЕЁЖЗИӢЙКҚЛМНОПРСТУӮФХҲЦЧҶШЪЭабвгғдеёжзиӣйкқлмнопрстуӯфхҳцчҷшъэ</characters>
+	<characters type="combinations">{в̌}{г̌}{ғ̌}{д̌}{з̌}{т̌}{х̌}</characters>
+	<characters type="combinations">{у̊}</characters>
+	<characters type="combinations">{а̄}</characters>
+</language>
+<language iso-639-3="tab" name="Tabassaran" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯӀабвгдеёжзийклмнопрстуфхцчшщъыьэюяӏ</characters>
+</language>
+<language iso-639-3="tgk" name="Tajik" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГҒДЕЁЖЗИЙӢКҚЛМНОПРСТУӮФХҲЧҶШЪЭЮЯабвгғдеёжзиӣйкқлмнопрстуӯфхҳчҷшъэюя</characters>
+</language>
+<language iso-639-3="tly" name="Talysh" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГҒДЕӘЖЗИЫЈКЛМНОПРСТУФХҺЧҸШабвгғдеәжзиыјклмнопрстуфхһчҹш</characters>
+</language>
+<language iso-639-3="ddo" name="Tsez" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЪЬЭӀабвгдеёжзийклмнопрстуфхцчшъьэӏ</characters>
+	<characters type="combinations">{а̄}</characters>
+</language>
+<language iso-639-3="ttt" name="Tat" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯӀабвгдеёжзийклмнопрстуфхцчшщъыьэюяӏ</characters>
+</language>
+<language iso-639-3="tat" name="Tatar" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АӘБВГДЕЁЖҖЗИЙКЛМНҢОӨПРСТУҮФХҺЦЧШЩЪЫЬЭЮЯаәбвгдеёжҗзийклмнңоөпрстуүфхһцчшщъыьэюя</characters>
+</language>
+<language iso-639-3="tkr" name="Tsakhur" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЭЬЮЯӀабвгдеёжзийклмнопрстуфхцчшщъыэьюяӏ</characters>
+</language>
+<language iso-639-3="tuk" name="Turkmen" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГДЕЁЖҖЗИЙКЛМНҢОӨПРСТУҮФХЦЧШЩЪЫЬЭӘЮЯабвгдеёжҗзийклмнңоөпрстуүфхцчшщъыьэәюя</characters>
+</language>
+<language iso-639-3="tyv" name="Tuvan" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГДЕЁЖЗИЙКЛМНҢОӨПРСТУҮФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнңоөпрстуүфхцчшщъыьэюя</characters>
+</language>
+<language iso-639-3="udi" name="Udi" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГДЕЖЗИЙКҜЛМНОПРСТУФХЦЧШЪЫЬӀабвгдежзийкҝлмнопрстуфхцчшъыьӏ’</characters>
+</language>
+<language iso-639-3="udm" name="Udmurt" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГДЕЁЖӜЗӞИӤЙКЛМНОӦПРСТУФХЦЧӴШЩЪЫЬЭЮЯабвгдеёжӝзӟиӥйклмноӧпрстуфхцчӵшщъыьэюя</characters>
+</language>
+<language iso-639-3="ukr" name="Ukrainian" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГҐДЕЄЖЗИІЇЙКЛМНОПРСТУФХЦЧШЩЬЮЯабвгґдеєжзиіїйклмнопрстуфхцчшщьюя’</characters>
+</language>
+<language iso-639-3="uum" name="Urum" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГҐДжЕЗИЙКЛМНОӦПРСТУӰФХЧШЫЭабвгґджезийклмноӧпрстуӱфхчшыэ’</characters>
+</language>
+<language iso-639-3="uig" name="Uyghur" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГҒДЕӘЖҖЗИЙКҚЛМНҢОӨПРСТУҮФХҺЧШЮЯабвгғдеәжҗзийкқлмнңоөпрстуүфхҺчшюя</characters>
+</language>
+<language iso-639-3="uzb" name="Uzbek" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЪЬЭЮЯЎҚҒҲабвгдеёжзийклмнопрстуфхцчшъьэюяўқғҳ</characters>
+</language>
+<language iso-639-3="uzn" name="Uzbek Tajikistani" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЪЬЭЮЯӮҚҒҲабвгдеёжзийклмнопрстуфхцчшъьэюяӯқғҳ</characters>
+</language>
+<language iso-639-3="yai" name="Yagnobi" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВԜГҒДЕЁЖЗИӢЙКҚЛМНОПРСТУӮФХҲЧҶШЪЭЮЯабвԝгғдеёжзиӣйкқлмнопрстуӯфхҳчҷшъэюя</characters>
+</language>
+<language iso-639-3="sah" name="Yakut" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГҔДЕЁЖЗИЙКЛМНҤОӨПРСҺТУҮФХЦЧШЩЪЫЬЭЮЯабвгҕдеёжзийклмнҥоөпрсһтуүфхцчшщъыьэюя</characters>
+</language>
+<language iso-639-3="yux" name="Southern Yukaghir" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГҒДЕЁЖЗИЙКЛМНҢОӦПРСТУФХЦЧШЩЪЫЬЭЮЯабвгғдеёжзийклмнңоӧпрстуфхцчшщъыьэюя</characters>
+</language>
+<language iso-639-3="ykg" name="Northern Yukaghir" script="Cyrl" status="todo" tag="?">
+	<characters type="required">АБВГҒДЕЁЖЗИЙКЛМНҢОӦПРСТУФХЦЧШЩЪЫЬЭЮЯабвгғдеёжзийклмнңоӧпрстуфхцчшщъыьэюя</characters>
+</language>
+<language iso-639-3="ess" name="Central Siberian Yupik" script="Cyrl" status="todo" tag="ess">
+	<characters type="required">АБВГӶДЕЁЖЗИЙКҚЛМНҢОПРСТУЎФХҲЦЧШЩЪЫЬЭЮЯабвгӷдеёжзийкқлмнңопрстуўфхҳцчшщъыьэюя’</characters>
+</language>
+</languages>
