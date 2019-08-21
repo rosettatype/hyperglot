@@ -68,6 +68,34 @@ def parse_unicode_set(s):
     return s, c
 
 
+def to_lc(mix, script="Latn"):
+    """
+    Save only LC versions of glyphs, add the default set for a script.
+    """
+
+    az = set("abcdefghijklmnopqrstuvwxyz")
+    aya = set("абвгдежзийклмнопрстуфхцчшщъыьэюя")
+
+    lc = []
+    for c in mix.replace(" ", ""):
+        if c.islower():
+            lc += [c]
+        elif c == "İ":
+            # Account for Idotaccent
+            lc += [c]
+        elif c.isupper():
+            pass
+        else:
+            lc += [c]
+    lc = set(lc)
+    # add basic characters
+    if script == "Latn":
+        lc = lc.union(az)
+    elif script == "Cyrl":
+        lc = lc.union(aya)
+    return " ".join(sorted(list(lc)))
+
+
 def read_iso_639_3(path):
     """
     Read .tab file for ISO 639-3 and return a dict
@@ -119,8 +147,6 @@ def read_latin_plus(path):
     - the language names often differ from those in ISO 639-3.
     """
 
-    AZ = list("ABCDEFGHIJKLMNOPQRSTUVWXYZ")
-
     def get_mapping(txt):
         """
         Get mapping between glyph names and Unicode codepoints.
@@ -137,6 +163,9 @@ def read_latin_plus(path):
                 recs = li.split("\t")
                 gn = recs[1]
                 u = recs[2]
+                # avoid PUA used for ijacute glyph
+                if gn.lower() == "ijacute":
+                    mapping[gn] = ""
                 # convert a unicode string to a character
                 if u != "" and len(u) == 4:
                     mapping[gn] = chr(int(u, 16))
@@ -205,10 +234,8 @@ def read_latin_plus(path):
                 records[code] = OrderedDict()
                 records[code]["name"] = name
                 records[code]["characters"] = OrderedDict()
-                # add A–Z, make all lower case and sort
-                chars_ext = list(set([c.lower() for c in (AZ + chars)]))
-                chars_ext = sorted(chars_ext)
-                records[code]["characters"]["base"] = " ".join(chars_ext)
+                # add a–z, make all lower case and sort
+                records[code]["characters"]["base"] = to_lc("".join(chars))
         return records
 
     with open(path, "r", encoding="utf-8") as f:
@@ -341,25 +368,6 @@ def read_rosetta(path, iso_639_3={}):
     later).
     """
 
-    def to_lc(mix, script="Latn"):
-        """
-        Save only LC versions of glyphs, add the default set for a script.
-        """
-
-        az = set("abcdefghijklmnopqrstuvwxyz")
-        aya = set("абвгдежзийклмнопрстуфхцчшщъыьэюя")
-
-        lc = set(list(mix.lower().strip()))
-        if script == "Latn":
-            lc = lc.union(az)
-        elif script == "Cyrl":
-            lc = lc.union(aya)
-        lc = list(lc)
-        # Account for Turkish and Turkic languages
-        if "İ" in mix:
-            lc += ["İ"]
-        return " ".join(sorted(lc))
-
     tree = ET.parse(path)
     rstt = OrderedDict()
     for lr in tree.getroot():
@@ -383,7 +391,8 @@ def read_rosetta(path, iso_639_3={}):
                 else:
                     lang["characters"]["base"] = to_lc("", script)
             else:
-                lang["characters"][chars.attrib["type"]] = to_lc(chars.text, script)
+                # no need for conversion to LC here
+                lang["characters"][chars.attrib["type"]] = chars.text
         if "status" in lr.attrib:
             lang["status"] = lr.attrib["status"]
         rstt[script][code] = lang

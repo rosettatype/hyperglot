@@ -101,14 +101,13 @@ Latn:
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ç ö ü ğ İ ı ş ə
-        ̇
     status: beta
   bak:
     name: Bashkir
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ç ö ü č ğ İ ı ķ
-        ņ ś ş š ź ̇
+        ņ ś ş š ź
     status: todo
   eus:
     name: Basque
@@ -278,6 +277,7 @@ Latn:
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z á â ä è é ê ë í ï
         ó ô ö ú û ü ĳ
+      combinations: '{ȷ́}'
     status: todo
   eng:
     name: English
@@ -348,7 +348,7 @@ Latn:
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ç ê ö ü ğ İ ı ş
-        ţ ș ț ̇
+        ţ ș ț
     status: todo
   glg:
     name: Galician
@@ -455,7 +455,7 @@ Latn:
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z á æ é í ð ó ö ú ý
         þ ǽ ǿ
-      optional: a b c d e f g h i j k l m n o p q r s t u v w x y z œ ǫ ǽ
+      optional: ǽǫœ
     status: todo
   ido:
     name: Ido
@@ -524,7 +524,7 @@ Latn:
     name: Javanese
     script: Latn
     characters:
-      base: a b c d e f g h i j k l m n o p q r s t u v w x y z İ ı ̇
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z İ ı
     status: todo
   kgp:
     name: Kaingang
@@ -555,7 +555,7 @@ Latn:
     name: Kara-Kalpak
     script: Latn
     characters:
-      base: a b c d e f g h i j k l m n o p q r s t u v w x y z İ ı ̇
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z İ ı
     status: todo
   krl:
     name: Karelian
@@ -750,7 +750,7 @@ Latn:
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ī ō ū
-      optional: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ó ú
+      optional: áéíóú
     status: todo
   nag:
     name: Naga Pidgin
@@ -1178,13 +1178,13 @@ Latn:
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z â ç î ö û ü ğ İ ı
-        ș ̇
+        ș
     status: todo
   tuk:
     name: Turkmen
     script: Latn
     characters:
-      base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ç ö ü ý ň ş ž ș
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ç ö ü ň ş ž ș
     status: todo
   tvl:
     name: Tuvalu
@@ -1325,14 +1325,12 @@ Latn:
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ç ê î û ü İ ı ş ǧ
-        ̇
     status: todo
   diq:
     name: Dimli (individual language)
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ç ê î û ü İ ı ş ǧ
-        ̇
     status: todo
   zul:
     name: Zulu
@@ -1554,8 +1552,7 @@ Cyrl:
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ӏ ә ӯ
-      combinations: '{ } ̄ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы
-        ь э ю я ә'
+      combinations: '{а̄}{е̄}{ә̄}{о̄}{э̄}'
     status: todo
   inh:
     name: Ingush
@@ -1569,8 +1566,7 @@ Cyrl:
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё љ њ
         ў ҳ ӄ ӆ ӈ ӑ ә ’
-      combinations: '{ } ̆ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы
-        ь э ю я'
+      combinations: '{о̆}'
     status: todo
   jdt:
     name: Judeo-Tat
@@ -1643,16 +1639,14 @@ Cyrl:
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё є ў
         қ ң ҳ ҷ ӆ ӈ ӑ ӓ ә ӛ ӧ ө ӫ ӱ ԓ
-      combinations: '{ } ̆ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы
-        ь э ю я'
+      combinations: '{ю̆}{я̆}'
     status: todo
   kjj:
     name: Khinalugh
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ӏ ә
-      combinations: '{ } ̃ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы
-        ь э ю я ә'
+      combinations: '{а̃}{е̃}{и̃}{о̃}{у̃}{ә̃}'
     status: todo
   sjd:
     name: Kildin Sami
@@ -1725,8 +1719,7 @@ Cyrl:
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӈ ӣ
         ӯ
-      combinations: '{ } ̄ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы
-        ь э ю я'
+      combinations: '{а̄}{е̄}{о̄}{э̄}{ю̄}{я̄}'
     status: todo
   mhr:
     name: Eastern Mari
@@ -1766,8 +1759,7 @@ Cyrl:
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ђ ј љ
         њ ћ џ
-      combinations: '{ } ́ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы
-        ь э ю я'
+      combinations: '{з́}{с́}'
     status: todo
   cnr:
     name: Montenegrin
@@ -1775,16 +1767,14 @@ Cyrl:
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ђ ј љ
         њ ћ џ
-      combinations: '{ } ́ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы
-        ь э ю я'
+      combinations: '{з́}{с́}'
     status: todo
   gld:
     name: Nanai
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӈ
-      combinations: '{ } ̄ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы
-        ь э ю я'
+      combinations: '{а̄}{е̄}{ӣ}{о̄}{ӯ}{э̄}'
     status: todo
   yrk:
     name: Nenets
@@ -1799,8 +1789,7 @@ Cyrl:
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҫ ү
         ӈ ә ө ”
-      combinations: '{ } ̌ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы
-        ь э ю я'
+      combinations: '{з̌}'
     status: todo
   niv:
     name: Gilyak
@@ -1808,8 +1797,7 @@ Cyrl:
     characters:
       base: ʼ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ғ
         ӄ ӈ ӷ ӻ ӽ ӿ ’
-      combinations: '{ } ̌ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы
-        ь э ю я'
+      combinations: '{р̌}'
     status: todo
   nog:
     name: Nogai
@@ -1823,8 +1811,7 @@ Cyrl:
     characters:
       base: ̄ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ј ӈ
         ӡ ӣ ө ԩ
-      combinations: '{ } ̄ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы
-        ь э ю я ө'
+      combinations: '{а̄}{е̄}{о̄}{ө̄}{э̄}'
     status: todo
   oss:
     name: Ossetian
@@ -1869,8 +1856,7 @@ Cyrl:
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё җ ӄ
         ӈ ӣ ӧ ө ӭ ӯ ӱ ӷ
-      combinations: '{ } ̇ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы
-        ь э ю я'
+      combinations: '{и̇}'
     status: todo
   cjs:
     name: Shor
@@ -1885,8 +1871,7 @@ Cyrl:
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ғ қ
         ҳ ҷ ӣ ӯ
-      combinations: '{ } ̄ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы
-        ь э ю я'
+      combinations: '{а̄}'
     status: todo
   tab:
     name: Tabassaran
@@ -1913,8 +1898,7 @@ Cyrl:
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
-      combinations: '{ } ̄ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы
-        ь э ю я'
+      combinations: '{а̄}'
     status: todo
   ttt:
     name: Muslim Tat
@@ -1981,7 +1965,7 @@ Cyrl:
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ғ җ қ
-        ң ү һ ә ө
+        ң ү ә ө
     status: todo
   uzb:
     name: Uzbek

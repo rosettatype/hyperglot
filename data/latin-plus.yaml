@@ -67,11 +67,11 @@ aym:
 aze:
   name: Azerbaijani
   characters:
-    base: a b c d e f g h i i̇ j k l m n o p q r s t u v w x y z ä ç ö ü ğ ı ş ə
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ç ö ü ğ İ ı ş ə
 bak:
   name: Bashkir (Latin)
   characters:
-    base: a b c d e f g h i i̇ j k l m n o p q r s t u v w x y z ä ç ö ü č ğ ı ķ ņ
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ç ö ü č ğ İ ı ķ ņ
       ś ş š ź
 eus:
   name: Basque
@@ -237,7 +237,7 @@ fur:
 gag:
   name: Gagauz (Latin)
   characters:
-    base: a b c d e f g h i i̇ j k l m n o p q r s t u v w x y z ä ç ê ö ü ğ ı ş ţ
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ç ê ö ü ğ İ ı ş ţ
       ș ț
 glg:
   name: Galician
@@ -376,7 +376,7 @@ cak:
 kaa:
   name: Karakalpak (Latin)
   characters:
-    base: a b c d e f g h i i̇ j k l m n o p q r s t u v w x y z ı
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z İ ı
 krl:
   name: Karelian (Latin)
   characters:
@@ -762,11 +762,11 @@ tum:
 tur:
   name: Turkish
   characters:
-    base: a b c d e f g h i i̇ j k l m n o p q r s t u v w x y z â ç î ö û ü ğ ı ș
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z â ç î ö û ü ğ İ ı ș
 tuk:
   name: Turkmen (Latin)
   characters:
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ç ö ü ý ň ş ž ș
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ç ö ü ň ş ž ș
 tvl:
   name: Tuvaluan
   characters:
@@ -860,7 +860,7 @@ dje:
 diq:
   name: Zazaki
   characters:
-    base: a b c d e f g h i i̇ j k l m n o p q r s t u v w x y z ç ê ü ı ş ǧ
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ç ê ü İ ı ş ǧ
 zul:
   name: Zulu
   characters:

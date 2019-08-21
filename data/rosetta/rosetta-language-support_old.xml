@@ -134,6 +134,7 @@
 </language>
 <language iso-639-3="nld" name="Dutch/Flemish" script="Latn" status="todo" tag="nld">
 	<characters type="required">ÁáÂâÄäÈèÉéÊêËëÍíÏïÓóÔôÖöÚúÛûÜüĲĳ</characters>
+	<characters type="combinations">{ȷ́}</characters>
 </language>
 <language iso-639-3="eng" name="English" script="Latn" status="beta" tag="en">
 	<characters type="required">ÆæÇçÏïÔôŒœÁáÈèÉéËëÊêÑñÖö</characters>
@@ -218,7 +219,7 @@
 </language>
 <language iso-639-3="isl" name="Icelandic" script="Latn" status="todo" tag="isl">
 	<characters type="required">ÁáÆæÐðÉéÍíÓóÖöÞþÚúÝýǼǽǾǿ</characters>
-	<characters type="optional">ǼǽǪǫŒœ</characters>
+	<characters type="optional">ǽǫœ</characters>
 </language>
 <language iso-639-3="ido" name="Ido" script="Latn" status="todo" tag="ido">
 	<characters type="required">ÀàÁáÈèÉéÌìÍíÒòÓóÚúÙù</characters>
@@ -363,7 +364,7 @@
 </language>
 <language iso-639-3="rar" name="Maori/Rarotongan" script="Latn" status="todo" tag="rar">
 	<characters type="required">ĀāĒēĪīŌōŪū</characters>
-	<characters type="optional">ÁáÉéÍíÓóÚú</characters>
+	<characters type="optional">áéíóú</characters>
 </language>
 <language iso-639-3="nag" name="Naga Pidgin" script="Latn" status="todo" tag="nag">
 	<characters type="required">ĀāĒēĪīŌōŪū</characters>
