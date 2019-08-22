@@ -41,12 +41,11 @@ rstt = load_yaml(os.path.join("..", "data", "rosetta_old.yaml"))
 
 # merge data together
 merged = OrderedDict()
-script = "Latn"
 for code, lang in rstt[script].items():
     merged[code] = copy(lang)
     merged[code]["latin_plus"] = None
     merged[code]["cldr"] = None
-    if code in latin_plus:
+    if code in latin_plus and script == "Latn":
         merged[code]["latin_plus"] = latin_plus[code]["characters"]["base"]
     ccode = get_cldr_code(code)
     if ccode and script == cldr[ccode]["script"]:
@@ -104,5 +103,5 @@ with open("template.html", "r", encoding="utf-8") as f:
     html = f.read()
     html = html.replace("{{ title }}", "Latin languages")
     html = html.replace("{{ content }}", s)
-with open("latn_preview.html", "w", encoding="utf-8") as f:
+with open("test_latin.html", "w", encoding="utf-8") as f:
     f.write(html)

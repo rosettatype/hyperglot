@@ -1,1221 +1,11 @@
-af:
-  characters:
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á â è é ê ë î ï ô ö
-      û
-    auxiliary: à ã ä å æ ç ì í ò ó ù ú ü ý
-    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
-    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § ‐ – — ‘ ’ “ ” † ‡ … ′ ″'
-    combinations: ''
-  draft: done, done, contributed, done, done
-  script: Latn
-agq:
-  characters:
-    base: a b c d e f g h i k l m n o p s t u v w y z à â è ê ì î ò ô ù û ā ē ě ī
-      ŋ ō ū ǎ ǐ ǒ ǔ ɔ ɛ ɨ ʉ ʔ ̀ ̂ ̄ ̌
-    auxiliary: q r x
-    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
-    punctuation: ''
-    combinations: '{ɛ̀} {ɛ̂} {ɛ̌} {ɛ̄} {ɨ̀} {ɨ̂} {ɨ̌} {ɨ̄} {ɔ̀} {ɔ̂} {ɔ̌} {ɔ̄} {ʉ̀}
-      {ʉ̂} {ʉ̌} {ʉ̄}'
-  draft: done, done, done, done
-  script: Latn
-ak:
-  characters:
-    base: a b d e f g h i k l m n o p r s t u w y ɔ ɛ
-    auxiliary: c j q v z
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: ''
-    combinations: ''
-  draft: done, done, done, done
-  script: Latn
-am:
-  characters:
-    base: ሀ ሁ ሂ ሃ ሄ ህ ሆ ለ ሉ ሊ ላ ሌ ል ሎ ሏ ሐ ሑ ሒ ሓ ሔ ሕ ሖ ሗ መ ሙ ሚ ማ ሜ ም ሞ ሟ ሠ ሡ ሢ ሣ ሤ
-      ሥ ሦ ሧ ረ ሩ ሪ ራ ሬ ር ሮ ሯ ሰ ሱ ሲ ሳ ሴ ስ ሶ ሷ ሸ ሹ ሺ ሻ ሼ ሽ ሾ ሿ ቀ ቁ ቂ ቃ ቄ ቅ ቆ ቈ ቊ ቋ ቌ
-      ቍ በ ቡ ቢ ባ ቤ ብ ቦ ቧ ቨ ቩ ቪ ቫ ቬ ቭ ቮ ቯ ተ ቱ ቲ ታ ቴ ት ቶ ቷ ቸ ቹ ቺ ቻ ቼ ች ቾ ቿ ኀ ኁ ኂ ኃ ኄ
-      ኅ ኆ ኈ ኊ ኋ ኌ ኍ ነ ኑ ኒ ና ኔ ን ኖ ኗ ኘ ኙ ኚ ኛ ኜ ኝ ኞ ኟ አ ኡ ኢ ኣ ኤ እ ኦ ኧ ከ ኩ ኪ ካ ኬ ክ ኮ
-      ኰ ኲ ኳ ኴ ኵ ኸ ኹ ኺ ኻ ኼ ኽ ኾ ወ ዉ ዊ ዋ ዌ ው ዎ ዐ ዑ ዒ ዓ ዔ ዕ ዖ ዘ ዙ ዚ ዛ ዜ ዝ ዞ ዟ ዠ ዡ ዢ ዣ
-      ዤ ዥ ዦ ዧ የ ዩ ዪ ያ ዬ ይ ዮ ደ ዱ ዲ ዳ ዴ ድ ዶ ዷ ጀ ጁ ጂ ጃ ጄ ጅ ጆ ጇ ገ ጉ ጊ ጋ ጌ ግ ጎ ጐ ጒ ጓ ጔ
-      ጕ ጠ ጡ ጢ ጣ ጤ ጥ ጦ ጧ ጨ ጩ ጪ ጫ ጬ ጭ ጮ ጯ ጰ ጱ ጲ ጳ ጴ ጵ ጶ ጷ ጸ ጹ ጺ ጻ ጼ ጽ ጾ ጿ ፀ ፁ ፂ ፃ ፄ
-      ፅ ፆ ፈ ፉ ፊ ፋ ፌ ፍ ፎ ፏ ፐ ፑ ፒ ፓ ፔ ፕ ፖ ፗ
-    auxiliary: ↑
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: '! ( ) , . ? [ \ « » ፡ ። ፣ ፤ ፥ ፦ ‐ – ‹ ›'
-    combinations: ''
-  draft: done, contributed, contributed, done, done
-  script: ''
-ar:
-  characters:
-    base: ء آ أ ؤ إ ئ ا ب ة ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ك ل م ن ه و ى ي
-      ً ٌ ٍ َ ُ ِ ّ ْ ٰ
-    auxiliary: ـ ٯ پ چ ژ ڜ ڢ ڤ ڥ ڧ ڨ ک گ ی ‌ ‍ ‎ ‏
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ؉ ؜ ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ ٪ ٫ ٬ ‎ ‰'
-    punctuation: '! " '' ( ) - . : [ \ « » ، ؛ ؟ ‐ – — …'
-    combinations: ''
-  draft: done, done, done, done, done
-  script: Arab
-as:
-  characters:
-    base: ঁ ং ঃ অ আ ই ঈ উ ঊ ঋ এ ঐ ও ঔ ক খ গ ঘ ঙ চ ছ জ ঝ ঞ ট ঠ ড ঢ ণ ত থ দ ধ ন প ফ
-      ব ভ ম য ল শ ষ স হ ় া ি ী ু ূ ৃ ে ৈ ো ৌ ্ ৰ ৱ
-    auxiliary: র ৎ ৲ ‌ ‍
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ০ ১ ২ ৩ ৪ ৫ ৬ ৭ ৮ ৯ ‰'
-    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § । ‐ – — ‘ ’ “ ” † ‡ … ′ ″'
-    combinations: '{ড়} {ঢ়} {য়} {ক্ষ}'
-  draft: done, done, contributed, done, contributed
-  script: ''
-asa:
-  characters:
-    base: a b c d e f g h i j k l m n o p r s t u v w y z
-    auxiliary: q x
-    numbers: ''
-    punctuation: ''
-    combinations: ''
-  draft: done, done, done
-  script: Latn
-ast:
-  characters:
-    base: a b c d e f g h i l m n o p q r s t u v x y z á é í ñ ó ú ü ḥ ḷ
-    auxiliary: j k w ª º à â ã ä å æ ç è ê ë ì î ï ò ô ö ø ù û ÿ ā ă ē ĕ ī ĭ ō ŏ œ
-      ū ŭ
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ \ ] ¡ § « » ¿ ‐ – — ‘ ’ “ ” †
-      ‡ … ′ ″'
-    combinations: ''
-  draft: done, done, done, done, done
-  script: Latn
-az:
-  characters:
-    base: a b c d e f g h i j k l m n o p q r s t u v x y z ç ö ü ğ İ ı ş ə
-    auxiliary: w
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § ‐ – — ‘ ’ “ ” † ‡ … ′ ″'
-    combinations: ''
-  draft: done, done, contributed, done, done
-  script: Latn
-bas:
-  characters:
-    base: a b c d e f g h i j k l m n o p r s t u v w y z à á â è é ê ì í î ò ó ô
-      ù ú û ā ē ě ī ń ŋ ō ū ǎ ǐ ǒ ǔ ǹ ɓ ɔ ɛ ̀ ́ ̂ ̄ ̌ ᷆ ᷇
-    auxiliary: q x
-    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
-    punctuation: ''
-    combinations: '{a᷆} {a᷇} {e᷆} {e᷇} {ɛ́} {ɛ̀} {ɛ̂} {ɛ̌} {ɛ̄} {ɛ᷆} {ɛ᷇} {i᷆} {i᷇}
-      {o᷆} {o᷇} {ɔ́} {ɔ̀} {ɔ̂} {ɔ̌} {ɔ̄} {ɔ᷆} {ɔ᷇} {u᷆} {u᷇}'
-  draft: done, done, done, done
-  script: Latn
-be:
-  characters:
-    base: а б в г д е ж з й к л м н о п р с т у ф х ц ч ш ы ь э ю я ё і ў
-    auxiliary: ́ а е о у ы э ю я ё і
-    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
-    punctuation: '! ( ) , - . : ; ? [ ] « »'
-    combinations: '{дж} {дз}'
-    auxiliary_combinations: '{а́} {е́} {ё́} {і́} {о́} {у́} {ы́} {э́} {ю́} {я́}'
-    punctuation_combinations: '{ }'
-  draft: done, done, contributed, done, done
-  script: Cyrl
-bem:
-  characters:
-    base: a b c e f g h i j k l m n o p s t u w y
-    auxiliary: d h q r v x z
-    numbers: ''
-    punctuation: ''
-    combinations: '{sh}'
-  draft: done, done, done
-  script: Latn
-bez:
-  characters:
-    base: a b c d e f g h i j k l m n o p q r s t u v w y z
-    auxiliary: x
-    numbers: ''
-    punctuation: ''
-    combinations: ''
-  draft: done, done, done
-  script: Latn
-bg:
-  characters:
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ь ю я
-    auxiliary: ̀ а о у ъ ы э ю я ѐ ё ѝ ѣ ѫ
-    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
-    punctuation: '! " '' ( ) * , - . / : ; ? [ ] § ‐ – — ‘ ‚ “ „ … ″ №'
-    combinations: ''
-    auxiliary_combinations: '{а̀} {о̀} {у̀} {ъ̀} {ю̀} {я̀}'
-  draft: done, done, contributed, done, done
-  script: Cyrl
-bm:
-  characters:
-    base: a b c d e f g h i j k l m n o p r s t u w y z ŋ ɔ ɛ ɲ
-    auxiliary: q v x
-    numbers: ''
-    punctuation: ''
-    combinations: ''
-  draft: done, done, done
-  script: Latn
-bn:
-  characters:
-    base: ঁ ং ঃ অ আ ই ঈ উ ঊ ঋ ঌ এ ঐ ও ঔ ক খ গ ঘ ঙ চ ছ জ ঝ ঞ ট ঠ ড ঢ ণ ত থ দ ধ ন প
-      ফ ব ভ ম য র ল শ ষ স হ ় ঽ া ি ী ু ূ ৃ ৄ ে ৈ ো ৌ ্ ৎ ৗ ৠ ৡ ৢ ৣ ৺
-    auxiliary: ৰ ৱ ৲ ৳ ৴ ৵ ৶ ৷ ৸ ৹ ‌ ‍
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ০ ১ ২ ৩ ৪ ৫ ৬ ৭ ৮ ৯ ‰'
-    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § ‐ – — ‘ ’ “ ” † ‡ … ′ ″'
-    combinations: '{ক্ষ} {ড়} {ঢ়} {য়}'
-  draft: done, done, contributed, done, contributed
-  script: ''
-bo:
-  characters:
-    base: ཀ ཁ ག ང ཅ ཆ ཇ ཉ ཊ ཋ ཌ ཎ ཏ ཐ ད ན པ ཕ བ མ ཙ ཚ ཛ ཝ ཞ ཟ འ ཡ ར ལ ཤ ཥ ས ཧ ཨ ཪ
-      ཱ ི ུ ཷ ཹ ེ ཻ ོ ཽ ཾ ཿ ྀ ྄ ྐ ྑ ྒ ྔ ྕ ྖ ྗ ྙ ྚ ྛ ྜ ྞ ྟ ྠ ྡ ྣ ྤ ྥ ྦ ྨ ྩ ྪ ྫ ྭ ྮ
-      ྯ ྰ ྱ ྲ ླ ྴ ྵ ྶ ྷ ྸ ྺ ྻ ྼ
-    auxiliary: ༀ
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ༠ ༡ ༢ ༣ ༤ ༥ ༦ ༧ ༨ ༩ ‰'
-    punctuation: ': ་ །'
-    combinations: '{ཀྵ} {ྐྵ} {གྷ} {ྒྷ} {ཌྷ} {ྜྷ} {དྷ} {ྡྷ} {བྷ} {ྦྷ} {ཛྷ} {ྫྷ} {ཱི}
-      {ཱྀ} {ཱུ} {ྲྀ} {ླྀ}'
-  draft: done, done, contributed, done, unconfirmed
-  script: ''
-br:
-  characters:
-    base: a b c d e f g h i j k l m n o p r s t u v w x y z ê ñ ù ʼ
-    auxiliary: c q à á â ã ä å æ ç è é ë ì í î ï ò ó ô ö ø ú û ü ÿ ā ă ē ĕ ī ĭ ō ŏ
-      œ ū ŭ
-    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
-    punctuation: '! ( ) , - . : ; ? [ ]'
-    combinations: '{ch} {cʼh}'
-    punctuation_combinations: '{ }'
-  draft: done, done, done, done, contributed
-  script: Latn
-brx:
-  characters:
-    base: ँ ं अ आ इ ई उ ऊ ऍ ए ऐ ऑ ओ औ क ख ग घ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब
-      भ म य र ल ळ व श ष स ह ़ ा ि ी ु ू ृ ॅ े ै ॉ ो ौ ्
-    auxiliary: ‌ ‍
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: ''
-    combinations: '{ड़}'
-  draft: done, done, done, done
-  script: ''
-bs:
-  characters:
-    base: a b c d e f g h i j k l m n o p r s t u v z ć č đ š ž
-    auxiliary: q w x y
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: '! " '' ( ) * , . / : ; ? @ [ ] ‐ – — ‘ ’ “ ” … ′ ″'
-    combinations: '{dž} {lj} {nj}'
-  draft: done, done, contributed, done, contributed
-  script: Latn
-ca:
-  characters:
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z · à ç è é í ï ò ó ú
-      ü
-    auxiliary: º á â ã ä å æ ê ë ì î ñ ô ö ø ù û ÿ ā ă ē ĕ ī ĭ ŀ ō ŏ œ ū ŭ
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ \ ] ¡ § « » ¿ ‐ – — ‘ ’ “ ” †
-      ‡ … ′ ″'
-    combinations: ''
-  draft: done, done, done, done, done
-  script: Latn
-ccp:
-  characters:
-    base: "\U00011100 \U00011101 \U00011102 \U00011103 \U00011104 \U00011105 \U00011106\
-      \ \U00011107 \U00011108 \U00011109 \U0001110A \U0001110B \U0001110C \U0001110D\
-      \ \U0001110E \U0001110F \U00011110 \U00011111 \U00011112 \U00011113 \U00011114\
-      \ \U00011115 \U00011116 \U00011117 \U00011118 \U00011119 \U0001111A \U0001111B\
-      \ \U0001111C \U0001111D \U0001111E \U0001111F \U00011120 \U00011121 \U00011122\
-      \ \U00011123 \U00011124 \U00011125 \U00011126 \U00011127 \U00011128 \U00011129\
-      \ \U0001112A \U0001112B \U0001112C \U0001112D \U0001112E \U0001112F \U00011130\
-      \ \U00011131 \U00011132 \U00011133 \U00011134"
-    auxiliary: ''
-    numbers: "% + , - . ‰ \U00011136 \U00011137 \U00011138 \U00011139 \U0001113A \U0001113B\
-      \ \U0001113C \U0001113D \U0001113E \U0001113F"
-    punctuation: "! \" # & ' ( ) * , - . / : ; ? @ [ ] § ‐ – — ‘ ’ “ ” † ‡ … ′ ″ \U00011140\
-      \ \U00011141 \U00011142 \U00011143"
-    combinations: ''
-  draft: done, done, done, unconfirmed, done
-  script: ''
-ce:
-  characters:
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
-    auxiliary: ''
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § « » ‐ – — ‘ ‚ “ „ …'
-    combinations: '{аь} {гӏ} {ий} {кк} {ккх} {кх} {кь} {кӏ} {ов} {оь} {пп} {пӏ} {рхӏ}
-      {сс} {тт} {тӏ} {ув} {уь} {уьй} {хь} {хӏ} {цӏ} {чӏ} {юь} {яь}'
-    punctuation_combinations: '{ }'
-  draft: done, done, done, done
-  script: Cyrl
-ceb:
-  characters:
-    base: a b d e g h i k l m n o p r s t u w y
-    auxiliary: c f j q v x z
-    numbers: ↑
-    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] ‘ ’ “ ” … ′ ″'
-    combinations: ''
-  draft: done, done, done, done, contributed
-  script: Latn
-cgg:
+om:
   characters:
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
     auxiliary: ''
-    numbers: ''
-    punctuation: ''
-    combinations: ''
-  draft: done, done
-  script: Latn
-chr:
-  characters:
-    base: ᏸ ᏹ ᏺ ᏻ ᏼ ꭰ ꭱ ꭲ ꭳ ꭴ ꭵ ꭶ ꭷ ꭸ ꭹ ꭺ ꭻ ꭼ ꭽ ꭾ ꭿ ꮀ ꮁ ꮂ ꮃ ꮄ ꮅ ꮆ ꮇ ꮈ ꮉ ꮊ ꮋ ꮌ ꮍ ꮎ
-      ꮏ ꮐ ꮑ ꮒ ꮓ ꮔ ꮕ ꮖ ꮗ ꮘ ꮙ ꮚ ꮛ ꮜ ꮝ ꮞ ꮟ ꮠ ꮡ ꮢ ꮣ ꮤ ꮥ ꮦ ꮧ ꮨ ꮩ ꮪ ꮫ ꮬ ꮭ ꮮ ꮯ ꮰ ꮱ ꮲ ꮳ ꮴ
-      ꮵ ꮶ ꮷ ꮸ ꮹ ꮺ ꮻ ꮼ ꮽ ꮾ ꮿ
-    auxiliary: ''
     numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § ‐ – — ‘ ’ “ ” † ‡ … ′ ″'
-    combinations: ''
-  draft: done, done, done, done, contributed
-  script: ''
-ckb:
-  characters:
-    base: ئ ا ب ت ج ح خ د ر ز س ش ع غ ف ق ل م ن و پ چ ڕ ژ ڤ ک گ ڵ ھ ۆ ی ێ ە
-    auxiliary: ء آ أ ؤ إ ة ث ذ ص ض ط ظ ك ه ى ي ً ٌ ٍ َ ُ ِ ّ ْ ‎ ‏
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ؉ ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ ٪ ٫ ٬ ‎ ‏ ‰'
-    punctuation: ''
-    combinations: ''
-  draft: done, done, unconfirmed, done
-  script: Arab
-cs:
-  characters:
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ó ú ý č ď ě ň
-      ř š ť ů ž
-    auxiliary: à â ã ä å æ ç è ê ë ì î ï ñ ò ô ö ø ù û ü ÿ ā ă ē ĕ ī ĭ ľ ł ō ŏ œ ŕ
-      ū ŭ
-    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
-    punctuation: '! & ( ) * , - . / : ; ? @ [ ] § ‐ – ‘ ‚ “ „ …'
-    combinations: '{ch}'
-  draft: done, done, contributed, done, done
-  script: Latn
-cu:
-  characters:
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь ю є ѕ і ї ѡ ѣ
-      ѧ ѫ ѯ ѱ ѳ ѵ ѷ ѻ ѽ ѿ ҂ ҃ ҇ ⷠ ⷡ ⷢ ⷣ ⷤ ⷥ ⷦ ⷧ ⷨ ⷩ ⷪ ⷬ ⷭ ⷯ ⷱ ⷴ ⸯ ꙁ ꙋ ꙍ ꙗ ꙽ ꙿ
-    auxiliary: џ ѥ ѩ ѭ ҁ ҄ ҈ ҉ ҥ ‌ ‍ ⷫ ⷮ ⷰ ⷲ ⷳ ⷵ ⷶ ⷷ ⷸ ⷹ ⷺ ⷻ ⷼ ⷽ ⷾ ⷿ ꙃ ꙅ ꙇ ꙉ ꙏ ꙑ ꙓ
-      ꙕ ꙙ ꙛ ꙝ ꙟ ꙡ ꙣ ꙥ ꙧ ꙩ ꙫ ꙭ ꙮ ꙯ ꙰ ꙱ ꙲ ꙴ ꙵ ꙶ ꙷ ꙸ ꙹ ꙺ ꙻ ꚙ ꚛ ꚞ ꚟ ︮ ︯
-    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
-    punctuation: '! ( ) , - . / : ; ? _ ‐ – — ⹃ ꙳ ꙾'
-    combinations: ''
-  draft: done, done, done, done, done
-  script: Cyrl
-cy:
-  characters:
-    base: a b c d e f g h i j l m n o p r s t u w y à á â ä è é ê ë ì í î ï ò ó ô
-      ö ù ú û ü ý ÿ ŵ ŷ ẁ ẃ ẅ ỳ
-    auxiliary: k q v x z ã å æ ç ñ ø ā ă ē ĕ ī ĭ ō ŏ œ ū ŭ
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § ‐ – — ‘ ’ “ ” † ‡ … ′ ″'
-    combinations: '{ch} {dd} {ff} {ng} {ll} {ph} {rh} {th}'
-  draft: done, done, done, done, done
-  script: Latn
-da:
-  characters:
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z å æ ø
-    auxiliary: à á â ä ç è é ê ë í î ï ñ ó ô ö ù ú û ü ÿ œ ǿ
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § ‐ – ‘ ’ “ ” † … ′ ″'
-    combinations: ''
-  draft: done, done, done, done, done
-  script: Latn
-dav:
-  characters:
-    base: a b c d e f g h i j k l m n o p r s t u v w y z
-    auxiliary: q x
-    numbers: ''
     punctuation: ''
     combinations: ''
   draft: done, done, done
-  script: Latn
-de:
-  characters:
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ß ä ö ü
-    auxiliary: à á â ã å æ ç è é ê ë ì í î ï ñ ò ó ô ø ù ú û ÿ ā ă ē ĕ ğ ī ĭ İ ı ō
-      ŏ œ ş ū ŭ
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § « » ‐ – — ‘ ‚ “ „ …'
-    combinations: ''
-    punctuation_combinations: '{ }'
-  draft: done, done, done, done, done
-  script: Latn
-dje:
-  characters:
-    base: a b c d e f g h i j k l m n o p q r s t u w x y z ã õ ŋ š ž ɲ ẽ
-    auxiliary: v
-    numbers: '% + - . 0 1 2 3 4 5 6 7 8 9   ‰'
-    punctuation: ''
-    combinations: ''
-  draft: done, done, done, done
-  script: Latn
-dsb:
-  characters:
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ó ć č ě ł ń ŕ ś š ź
-      ž
-    auxiliary: ß à á â ã ä å æ ç è é ê ë ì í î ï ñ ò ô ö ø ù ú û ü ý ÿ ā ă ą ď đ ē
-      ĕ ė ę ğ ī ĭ İ ı ĺ ľ ň ō ŏ ő œ ř ş ť ū ŭ ů ű ż
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § « » ‐ – — ‘ ’ ‚ “ „ …'
-    combinations: '{ch}'
-    punctuation_combinations: '{ }'
-  draft: done, done, done, done, done
-  script: Latn
-dua:
-  characters:
-    base: a b c d e f g i j k l m n o p r s t u w y á é í ó ú ŋ ū ɓ ɔ ɗ ɛ ́
-    auxiliary: h q v x z
-    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
-    punctuation: ''
-    combinations: '{ɛ́} {ny} {ɔ́}'
-  draft: done, done, done, done
-  script: Latn
-dyo:
-  characters:
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y á é í ñ ó ú ŋ
-    auxiliary: z
-    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
-    punctuation: ''
-    combinations: ''
-  draft: done, done, done, done
-  script: Latn
-dz:
-  characters:
-    base: ཀ ཁ ག ང ཅ ཆ ཇ ཉ ཏ ཐ ད ན པ ཕ བ མ ཙ ཚ ཛ ཝ ཞ ཟ འ ཡ ར ལ ཤ ས ཧ ཨ ི ུ ེ ོ ྐ ྑ
-      ྒ ྔ ྗ ྙ ྟ ྠ ྡ ྣ ྤ ྥ ྦ ྨ ྩ ྪ ྫ ྭ ྱ ྲ ླ ྵ ྶ ྷ
-    auxiliary: ཊ ཋ ཌ ཎ ཥ ཻ ཽ ཾ ྀ ྄ ྚ ྛ ྜ ྞ ྺ ྻ ྼ
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ༠ ༡ ༢ ༣ ༤ ༥ ༦ ༧ ༨ ༩ ‰'
-    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § ༄ ༅ ༆ ༈ ༉ ༊ ༌ ། ༎ ༏ ༐ ༑ ༒
-      ༔ ༴ ༶ ༼ ༽ ྾ ྿ ࿐ ࿑ ࿒ ࿓ ࿔ ‐ – — ‘ ’ “ ” † ‡ …'
-    combinations: ''
-  draft: done, done, contributed, done, done
-  script: ''
-ebu:
-  characters:
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ĩ ũ
-    auxiliary: ''
-    numbers: ''
-    punctuation: ''
-    combinations: ''
-  draft: done, done
-  script: Latn
-ee:
-  characters:
-    base: a b d e f g h i k l m n o p r s t u v w x y z à á ã è é ì í ò ó õ ù ú ĩ
-      ŋ ũ ƒ ɔ ɖ ɛ ɣ ʋ ̀ ́ ̃ ẽ
-    auxiliary: c j q â ä å æ ç ê ë î ï ñ ô ö ø û ü ÿ ā ă ĕ ĭ ŏ œ ŭ
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § ‐ – — ‘ ’ “ ” † ‡ … ′ ″'
-    combinations: '{ɛ́} {ɛ̀} {ɛ̃} {ɔ́} {ɔ̀} {ɔ̃}'
-    punctuation_combinations: '{ }'
-  draft: done, done, done, done, done
-  script: Latn
-el:
-  characters:
-    base: ΐ ά έ ή ί ΰ α β γ δ ε ζ η θ ι κ λ μ ν ξ ο π ρ ς σ τ υ φ χ ψ ω ϊ ϋ ό ύ ώ
-    auxiliary: ἀ ἁ ἂ ἃ ἄ ἅ ἆ ἇ ἐ ἑ ἒ ἓ ἔ ἕ ἠ ἡ ἢ ἣ ἤ ἥ ἦ ἧ ἰ ἱ ἲ ἳ ἴ ἵ ἶ ἷ ὂ ὃ ὄ ὐ
-      ὑ ὒ ὓ ὔ ὕ ὖ ὗ ὢ ὣ ὤ ὥ ὦ ὧ ὰ ὲ ὴ ὶ ὸ ὺ ὼ ᾶ ῆ ῒ ῖ ῗ ῢ ῦ ῧ ῶ
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: '! " & ( ) * , - . / : ; @ [ \ ] § « » ‐ – — …'
-    combinations: ''
-  draft: done, done, done, done, done
-  script: Grek
-en:
-  characters:
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    auxiliary: à á â ã ä å æ ç è é ê ë ì í î ï ñ ò ó ô ö ø ù ú û ü ÿ ā ă ē ĕ ī ĭ ō
-      ŏ œ ū ŭ
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § ‐ – — ‘ ’ “ ” † ‡ … ′ ″'
-    combinations: ''
-  draft: done, done, done, done, done
-  script: Latn
-eo:
-  characters:
-    base: a b c d e f g h i j k l m n o p r s t u v z ĉ ĝ ĥ ĵ ŝ ŭ
-    auxiliary: q w x y
-    numbers: '% + , 0 1 2 3 4 5 6 7 8 9   ‰ −'
-    punctuation: '! " '' ( ) , - . / : ; ? [ ] ‐ – — ‘ ’ “ ” …'
-    combinations: ''
-    punctuation_combinations: '{ }'
-  draft: done, done, done, done, done
-  script: Latn
-es:
-  characters:
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ñ ó ú ü
-    auxiliary: ª º à â ã ä å æ ç è ê ë ì î ï ò ô ö ø ù û ý ÿ ā ă ē ĕ ī ĭ ō ŏ œ ū ŭ
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ \ ] ¡ § « » ¿ ‐ – — ‘ ’ “ ” †
-      ‡ … ′ ″'
-    combinations: ''
-  draft: done, done, done, done, done
-  script: Latn
-et:
-  characters:
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä õ ö ü š ž
-    auxiliary: à á â ã å æ ç è é ê ë ì í î ï ñ ò ó ô ø ù ú û ā ē ī ō ŏ œ ū
-    numbers: '% + , 0 1 2 3 4 5 6 7 8 9   ‰ −'
-    punctuation: '! ( ) , - . : ; ? @ [ ] – “ „'
-    combinations: ''
-    punctuation_combinations: '{ }'
-  draft: done, done, done, done, done
-  script: Latn
-eu:
-  characters:
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ç ñ
-    auxiliary: à á â ã ä å æ è é ê ë ì í î ï ò ó ô ö ø ù ú û ü ÿ ā ă ē ĕ ī ĭ ō ŏ œ
-      ū ŭ
-    numbers: '% + , . 0 1 2 3 4 5 6 7 8 9 ‰ −'
-    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § ‐ – — ‘ ’ “ ” † ‡ … ′ ″'
-    combinations: ''
-  draft: done, done, done, done, done
-  script: Latn
-ewo:
-  characters:
-    base: a b d e f g h i k l m n o p r s t u v w y z à á â è é ê ì í î ò ó ô ù ú
-      û ě ń ŋ ǎ ǐ ǒ ǔ ǹ ɔ ə ɛ ̀ ́ ̂ ̌
-    auxiliary: c j q x
-    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
-    punctuation: ''
-    combinations: '{dz} {ə́} {ə̀} {ə̂} {ə̌} {ɛ́} {ɛ̀} {ɛ̂} {ɛ̌} {kp} {ng} {nk} {ɔ́}
-      {ɔ̀} {ɔ̂} {ɔ̌} {ts}'
-  draft: done, done, done, done
-  script: Latn
-fa:
-  characters:
-    base: ء آ أ ؤ ئ ا ب ة ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ل م ن ه و ً ٌ ٍ ّ
-      ٔ پ چ ژ ک گ ی
-    auxiliary: إ ـ ك ى ي َ ُ ِ ْ ٖ ٰ ‌ ‍ ‎ ‏
-    numbers: '% + , . 0 1 2 3 4 5 6 7 8 9 ؉ ٪ ٫ ٬ ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹ ‎ ‰ −'
-    punctuation: '! ( ) * - . / : [ \ ] « » ، ؛ ؟ ٫ ٬ ‐ … ‹ ›'
-    combinations: ''
-  draft: done, done, done, done, done
-  script: Arab
-ff:
-  characters:
-    base: a b c d e f g h i j k l m n o p r s t u w y ñ ŋ ƴ ɓ ɗ
-    auxiliary: q v x z
-    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
-    punctuation: ''
-    combinations: ''
-  draft: done, done, done, done
-  script: Latn
-fi:
-  characters:
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä å ö š ž
-    auxiliary: ß à á â ã æ ç è é ê ë í î ï ð ñ ò ó ô õ ø ù ú û ü ý þ ÿ ā ă ą ć ċ č
-      ď đ ē ė ę ě ğ ģ ħ ī į İ ı ķ ĺ ļ ľ ł ń ņ ň ŋ ő œ ŕ ř ś ŝ ş ţ ť ŧ ū ů ű ų ź ż
-      ǥ ǧ ǩ ǯ ș ț ȟ ʒ
-    numbers: '% + , 0 1 2 3 4 5 6 7 8 9   ‰ −'
-    punctuation: '! # & ( ) * , - . / : ; ? @ [ \ ] § » ‐ – ’ ” …'
-    combinations: ''
-  draft: done, done, done, done, done
-  script: Latn
-fil:
-  characters:
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ñ
-    auxiliary: à á â è é ê ì í î ò ó ô ù ú û
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: '! " # & '' ( ) * , - . / : ; ? [ ] § ‐ – — ‘ ’ “ ” … ′ ″'
-    combinations: '{ng}'
-  draft: done, done, done, done, done
-  script: Latn
-fo:
-  characters:
-    base: a b d e f g h i j k l m n o p r s t u v y á æ í ð ó ø ú ý
-    auxiliary: c q w x z
-    numbers: '% + , . 0 1 2 3 4 5 6 7 8 9 ‰ −'
-    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § ‐ – ‘ ’ “ ” † … ′ ″'
-    combinations: ''
-  draft: done, done, contributed, done, done
-  script: Latn
-fr:
-  characters:
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à â æ ç è é ê ë î ï
-      ô ù û ü ÿ œ
-    auxiliary: ß á ã ä å ì í ñ ò ó õ ö ø ú ā ć ē ī ĳ ř š ſ ǔ
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ² ³ ʳ ˢ ᵈ ᵉ   ‰ −'
-    punctuation: '! " # & ( ) * , - . / : ; ? @ [ ] § « » ‐ – — ’ “ ” † ‡ …'
-    combinations: ''
-  draft: done, done, contributed, done, done
-  script: Latn
-fur:
-  characters:
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à â ç è ê ì î ò ô ù
-      û
-    auxiliary: å é ë ï ñ ó ü č ğ š
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: ''
-    combinations: ''
-  draft: done, done, contributed, done
-  script: Latn
-fy:
-  characters:
-    base: a b c d e f g h i j k l m n o p r s t u v w y z à á â ä è é ê ë í ï ó ô
-      ö ú û ü ý ́
-    auxiliary: æ ò ù
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § ‐ – — ‘ ’ “ ” † ‡ … ′ ″'
-    combinations: '{ij} {íj́}'
-  draft: done, done, done, done, done
-  script: Latn
-ga:
-  characters:
-    base: a b c d e f g h i l m n o p r s t u á é í ó ú
-    auxiliary: j k q v w x y z å ċ ġ ḃ ḋ ḟ ṁ ṗ ṡ ṫ
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § ‐ – — ‘ ’ “ ” † ‡ … ′ ″'
-    combinations: ''
-  draft: done, done, contributed, done, contributed
-  script: Latn
-gd:
-  characters:
-    base: a b c d e f g h i l m n o p r s t u à è ì ò ù
-    auxiliary: j k q v w x y z á â ã ä å æ ç é ê ë í î ï ñ ó ô ö ø ú û ü ÿ ā ă ċ ē
-      ĕ ġ ī ĭ ı ł ō ŏ œ ş ū ŭ ș ḋ ḟ ṁ ṗ ṡ ṫ
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: '! " # % & '' ( ) * , - . / : ; ? @ [ ] ¡ § © ® ° ¶ · ‐ – — ‘ ’ “
-      ” † ‡ … ‧ ⁊ ™'
-    combinations: ''
-    punctuation_combinations: '{ }'
-  draft: done, done, done, done, contributed
-  script: Latn
-gl:
-  characters:
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ñ ó ú ü
-    auxiliary: ª º à â ã ä å ç è ê ë ì î ï ò ô õ ö ù û
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § ‐ – — ‘ ’ “ ” † ‡ … ′ ″'
-    combinations: ''
-  draft: done, done, done, done, done
-  script: Latn
-gsw:
-  characters:
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ö ü
-    auxiliary: à á â å æ ç è é ê ë ì í î ï ñ ò ó ô ø ù ú û ÿ ā ă ē ĕ ī ĭ ō ŏ œ ū ŭ
-    numbers: '% + . 0 1 2 3 4 5 6 7 8 9 ’ ‰ −'
-    punctuation: ''
-    combinations: ''
-  draft: done, done, unconfirmed, done
-  script: Latn
-gu:
-  characters:
-    base: ઁ ં ઃ અ આ ઇ ઈ ઉ ઊ ઋ ઍ એ ઐ ઑ ઓ ઔ ક ખ ગ ઘ ઙ ચ છ જ ઝ ઞ ટ ઠ ડ ઢ ણ ત થ દ ધ ન
-      પ ફ બ ભ મ ય ર લ ળ વ શ ષ સ હ ઼ ઽ ા િ ી ુ ૂ ૃ ૄ ૅ ે ૈ ૉ ો ૌ ્ ૐ ૠ
-    auxiliary: ૰ ‌ ‍
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ૦ ૧ ૨ ૩ ૪ ૫ ૬ ૭ ૮ ૯ ‰'
-    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § ‐ – — ‘ ’ “ ” † ‡ … ′ ″'
-    combinations: ''
-  draft: done, done, done, done, done
-  script: ''
-guz:
-  characters:
-    base: a b c d e f g h i j k l m n o p r s t u v w y z
-    auxiliary: q x
-    numbers: ''
-    punctuation: ''
-    combinations: ''
-  draft: done, done, done
-  script: Latn
-gv:
-  characters:
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ç
-    auxiliary: ''
-    numbers: ''
-    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § ‐ – — ‘ ’ “ ” † ‡ … ′ ″'
-    combinations: ''
-  draft: done, done, done
-  script: Latn
-ha:
-  characters:
-    base: a b c d e f g h i j k l m n o r s t u w y z ƙ ƴ ɓ ɗ ʼ
-    auxiliary: p q r v x à á â è é ê ì í î ò ó ô ù ú û ̃
-    numbers: ↑
-    punctuation: '! " '' ( ) , - . : ; ? [ ] ‘ ’ “ ” ′ ″'
-    combinations: '{sh} {ts} {ƴ}'
-    auxiliary_combinations: '{r̃}'
-    punctuation_combinations: '{ }'
-  draft: done, done, done, contributed, contributed
-  script: Latn
-haw:
-  characters:
-    base: a e h i k l m n o p u w ā ē ī ō ū ʻ
-    auxiliary: b c d f g j q r s t v x y z
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: ''
-    combinations: ''
-  draft: done, done, unconfirmed, done
-  script: Latn
-he:
-  characters:
-    base: א ב ג ד ה ו ז ח ט י ך כ ל ם מ ן נ ס ע ף פ ץ צ ק ר ש ת
-    auxiliary: ְ ֱ ֲ ֳ ִ ֵ ֶ ַ ָ ֹ ֻ ּ ֽ ֿ ׁ ׂ ׄ ״ ‎ ‏
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‎ ‰'
-    punctuation: '! " '' ( ) , - . / : ; ? [ ] ־ ׳ ״ ‐ – —'
-    combinations: ''
-  draft: done, done, done, done, done
-  script: ''
-hi:
-  characters:
-    base: ँ ं ः अ आ इ ई उ ऊ ऋ ऌ ऍ ए ऐ ऑ ओ औ क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध
-      न प फ ब भ म य र ल ळ व श ष स ह ़ ऽ ा ि ी ु ू ृ ॄ ॅ े ै ॉ ो ौ ् ॐ
-    auxiliary: ‌ ‍
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ० १ २ ३ ४ ५ ६ ७ ८ ९ ‰'
-    punctuation: '! ( ) , - . : ; ? [ ] ॰ ‘ ’ “ ”'
-    combinations: ''
-    punctuation_combinations: '{ }'
-  draft: done, done, contributed, done, done
-  script: ''
-hr:
-  characters:
-    base: a b c d e f g h i j k l m n o p r s t u v z ć č đ š ž
-    auxiliary: q w x y
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: '! " '' ( ) * , . / : ; ? @ [ ] ‐ – — ‘ ’ ‚ “ ” „ … ′ ″'
-    combinations: '{dž} {lj} {nj}'
-  draft: done, done, done, done, done
-  script: Latn
-hsb:
-  characters:
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ó ć č ě ł ń ř š ź ž
-    auxiliary: ß à á â ã ä å æ ç è é ê ë ì í î ï ñ ò ô ö ø ù ú û ü ý ÿ ā ă ą ď đ ē
-      ĕ ė ę ğ ī ĭ İ ı ĺ ľ ň ō ŏ ő œ ŕ ś ş ť ū ŭ ů ű ź ż
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § « » ‐ – — ‘ ’ ‚ “ „ …'
-    combinations: '{dź} {ch}'
-    punctuation_combinations: '{ }'
-  draft: done, done, done, done, done
-  script: Latn
-hu:
-  characters:
-    base: a b c d e f g h i j k l m n o p r s t u v y z á é í ó ö ú ü ő ű
-    auxiliary: q w x y à â ã ä å æ ç è ê ë ì î ï ñ ò ô ø ù û ÿ ā ă ē ĕ ī ĭ ō ŏ œ ū
-      ŭ
-    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
-    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] ~ § « » – ’ ” „ … ⁒ ⟨ ⟩'
-    combinations: '{cs} {ccs} {dz} {ddz} {dzs} {ddzs} {gy} {ggy} {ly} {lly} {ny} {nny}
-      {sz} {ssz} {ty} {tty} {zs} {zzs}'
-    punctuation_combinations: '{ }'
-  draft: done, done, done, done, done
-  script: Latn
-hy:
-  characters:
-    base: ա բ գ դ ե զ է ը թ ժ ի լ խ ծ կ հ ձ ղ ճ մ յ ն շ ո չ պ ջ ռ ս վ տ ր ց ւ փ ք
-      օ ֆ
-    auxiliary: և
-    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
-    punctuation: ', . : « » ՚ ՛ ՜ ՝ ՞ ՟ ֊'
-    combinations: ''
-  draft: done, done, contributed, done, done
-  script: Armn
-ia:
-  characters:
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    auxiliary: à á â ã ä å æ ç è é ê ë ì í î ï ñ ò ó ô ö ø ù ú û ü ÿ ā ă ē ĕ ī ĭ ō
-      ŏ œ ū ŭ
-    numbers: ↑
-    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § ‐ – — ‘ ’ “ ” … ′ ″'
-    combinations: ''
-  draft: done, contributed, contributed, contributed, contributed
-  script: Latn
-id:
-  characters:
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    auxiliary: å
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: '! '' ( ) , - . / : ; ? [ ] ‐ – — ‘ ’ “ ” …'
-    combinations: ''
-  draft: done, done, done, done, done
-  script: Latn
-ig:
-  characters:
-    base: a b c d e f g h i j k l m n o p r s t u v w y z ṅ ẹ ị ọ ụ
-    auxiliary: c m q x à á è é ì í ò ó ù ú ā ē ī ń ō ū ǹ ̀ ́ ḿ ị ọ ụ
-    numbers: ↑
-    punctuation: '! ( ) , - . : ; ? [ ] ‘ ’ “ ”'
-    combinations: '{ch} {gb} {gh} {gw} {kp} {kw} {nw} {ny} {sh}'
-    auxiliary_combinations: '{ị́} {ị̀} {m̀} {ọ́} {ọ̀} {ụ́} {ụ̀}'
-    punctuation_combinations: '{ }'
-  draft: done, done, done, contributed, contributed
-  script: Latn
-ii:
-  characters:
-    base: '- ꀀ ꒌ'
-    auxiliary: ''
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: ''
-    combinations: ''
-  draft: done, unconfirmed, done
-  script: ''
-is:
-  characters:
-    base: a b d e f g h i j k l m n o p r s t u v x y á æ é í ð ó ö ú ý þ
-    auxiliary: c q w z
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § ‐ – — ‘ ‚ “ „ † ‡ … ′ ″'
-    combinations: ''
-  draft: done, done, contributed, done, contributed
-  script: Latn
-it:
-  characters:
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à è é ì ò ó ù
-    auxiliary: ª º ß á â ã ä å æ ç ê ë í î ï ñ ô õ ö ø ú û ü ÿ œ
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: '! " '' ( ) , - . / : ; ? @ [ ] « » — ’ “ ” …'
-    combinations: ''
-    punctuation_combinations: '{ }'
-  draft: done, done, done, done, done
-  script: Latn
-ja:
-  characters:
-    base: '- 々 ぁ あ ぃ い ぅ う ぇ え ぉ お か が き ぎ く ぐ け げ こ ご さ ざ し じ す ず せ ぜ そ ぞ た だ ち ぢ
-      っ つ づ て で と ど な に ぬ ね の は ば ぱ ひ び ぴ ふ ぶ ぷ へ べ ぺ ほ ぼ ぽ ま み む め も ゃ や ゅ ゆ ょ よ
-      ら り る れ ろ ゎ わ ゐ ゑ を ん ゝ ゞ ァ ア ィ イ ゥ ウ ェ エ ォ オ カ ガ キ ギ ク グ ケ ゲ コ ゴ サ ザ シ ジ ス
-      ズ セ ゼ ソ ゾ タ ダ チ ヂ ッ ツ ヅ テ デ ト ド ナ ニ ヌ ネ ノ ハ バ パ ヒ ビ ピ フ ブ プ ヘ ベ ペ ホ ボ ポ マ ミ
-      ム メ モ ャ ヤ ュ ユ ョ ヨ ラ リ ル レ ロ ヮ ワ ヰ ヱ ヲ ン ヴ ヵ ヶ ー ヽ ヾ 一 丁 七 万 下 不 与 且 世 丘 丙 両
-      並 中 丸 丹 主 久 乏 乗 乙 九 乱 乳 乾 亀 了 予 争 事 二 互 五 井 亜 亡 交 享 亭 人 仁 今 介 仏 仕 他 付 仙 代 以
-      仮 仰 仲 件 任 企 伏 休 会 伝 伯 伴 伸 伺 似 但 位 佐 体 何 余 作 佳 併 使 例 侍 供 依 価 侮 侯 侵 便 係 促 俊 俗
-      保 信 修 俳 俵 俸 俺 倉 個 倍 倒 候 借 倣 値 倫 倹 偉 偏 停 健 側 偶 偽 傍 傑 傘 備 催 債 傷 傾 働 像 僕 僚 僧 儀
-      億 儒 償 優 元 兆 先 光 克 免 児 党 入 全 八 六 共 兵 具 典 兼 内 円 冊 再 冒 冗 写 冠 冬 冷 准 凍 凝 凡 処 凶 凸
-      出 刀 刃 分 刈 刊 刑 列 初 判 別 利 到 制 券 刺 刻 則 削 前 剖 剛 剣 剥 副 剰 割 創 劇 力 功 加 劣 助 努 励 労 効
-      劾 勅 勇 勉 動 勘 務 勝 募 勢 勤 勧 勲 包 化 北 匠 匹 医 匿 十 千 升 午 半 卑 協 南 単 博 占 印 危 即 卵 卸 厄 厘
-      厚 原 厳 去 参 又 及 収 叔 取 受 叙 口 句 叫 召 可 右 号 司 各 合 吉 同 向 君 吟 否 含 吸 吹 呈 告 周 味 呼 命 和
-      咲 哀 品 員 哲 唆 唇 唐 唯 唱 商 問 啓 善 喚 喜 喝 喪 喫 営 嗣 嘆 嘱 器 噴 嚇 囚 四 回 因 団 困 囲 図 固 国 圏 園
-      土 圧 在 地 坂 均 坊 坑 坪 垂 型 垣 埋 城 域 執 培 基 埼 堀 堂 堅 堕 堤 堪 報 場 塀 塁 塊 塑 塔 塗 塚 塩 填 塾 境
-      墓 増 墜 墨 墳 墾 壁 壇 壊 壌 士 壮 声 売 変 夏 夕 外 多 夜 夢 大 天 夫 央 失 奇 奉 奏 契 奔 奥 奨 奪 奮 女 奴 好
-      如 妄 妊 妙 妥 妨 妹 妻 姉 始 姓 委 姫 姻 姿 威 娘 娠 娯 婆 婚 婦 婿 媒 嫁 嫌 嫡 嬢 子 孔 字 存 孝 季 孤 学 孫 宅
-      宇 安 完 宗 定 宜 宝 実 客 室 宮 宰 害 家 容 宿 寂 寄 密 富 寒 寛 寝 察 寡 寧 審 寮 寸 寺 対 寿 封 専 射 将 尉 尋
-      導 小 少 尚 就 尺 尼 局 居 屈 届 屋 展 属 層 履 屯 山 岐 岡 岩 岬 岳 岸 峠 峡 峰 島 崇 崎 崩 川 州 巡 巣 工 巨 差
-      己 巻 市 布 帆 希 帝 帥 師 席 帯 帰 帳 常 帽 幅 幕 幣 干 年 幸 幹 幻 幾 庁 広 床 序 底 店 府 度 座 庫 庭 庶 庸 廃
-      廉 廊 延 廷 建 弁 弊 式 弐 弓 引 弟 弦 弧 弱 張 強 弾 当 形 彩 彫 彰 影 役 彼 往 征 径 待 律 後 徐 徒 従 得 御 復
-      循 微 徳 徴 徹 心 必 忌 忍 志 忙 応 忠 快 念 怒 怖 思 怠 急 性 怪 恋 恐 恒 恥 恨 恩 恭 息 恵 悔 悟 悠 患 悦 悩 悪
-      悲 悼 情 惑 惜 惨 惰 想 愁 愉 意 愚 愛 感 慈 態 慌 慎 慕 慢 慣 慨 慮 慰 慶 憂 憎 憤 憩 憲 憶 憾 懇 懐 懲 懸 成 戒
-      戦 戯 戸 戻 房 所 扇 扉 手 才 打 払 扱 扶 批 承 技 抄 把 抑 投 抗 折 抜 択 披 抱 抵 抹 押 抽 担 拍 拐 拒 拓 拘 拙
-      招 拝 拠 拡 括 拷 拾 持 指 挑 挙 挟 振 挿 捕 捜 捨 据 掃 授 掌 排 掘 掛 採 探 接 控 推 措 掲 描 提 揚 換 握 揮 援
-      揺 損 搬 搭 携 搾 摂 摘 摩 撃 撤 撮 撲 擁 操 擦 擬 支 改 攻 放 政 故 敏 救 敗 教 敢 散 敬 数 整 敵 敷 文 斉 斎 斗
-      料 斜 斤 斥 断 新 方 施 旅 旋 族 旗 既 日 旧 早 旬 昆 昇 明 易 昔 星 映 春 昨 昭 是 昼 時 晩 普 景 晴 晶 暁 暇 暑
-      暖 暗 暦 暫 暮 暴 曇 曜 曲 更 書 曹 替 最 月 有 服 朕 朗 望 朝 期 木 未 札 朱 朴 机 朽 杉 材 村 束 条 来 杯 東 松
-      板 析 林 枚 果 枝 枠 枢 枯 架 柄 某 染 柔 柱 柳 査 栄 栓 校 株 核 根 格 栽 桃 案 桑 桜 桟 梅 械 棄 棋 棒 棚 棟 森
-      棺 植 検 業 極 楼 楽 概 構 様 槽 標 模 権 横 樹 橋 機 欄 欠 次 欧 欲 欺 款 歌 歓 止 正 武 歩 歯 歳 歴 死 殉 残 殖
-      殴 段 殺 殻 殿 母 毎 毒 比 毛 氏 民 気 水 氷 永 汁 求 汎 汗 汚 江 池 決 汽 沈 沖 没 沢 河 沸 油 治 沼 沿 況 泉 泊
-      泌 法 泡 泣 泥 注 泰 泳 洋 洗 洞 津 洪 活 派 流 浄 浅 浜 浦 浪 浮 浴 海 浸 消 涙 涯 液 涼 淑 淡 深 混 添 清 渇 渉
-      渋 渓 減 渡 渦 温 測 港 湖 湯 湾 満 源 準 溝 溶 滅 滋 滑 滝 滞 滴 漁 漂 漆 漏 演 漠 漢 漫 漬 漸 潔 潜 潟 潤 潮 澄
-      激 濁 濃 濫 濯 瀬 火 灯 灰 災 炉 炊 炎 炭 点 為 烈 無 焦 然 焼 煙 照 煩 煮 熟 熱 燃 燥 爆 爵 父 片 版 牙 牛 牧 物
-      牲 特 犠 犬 犯 状 狂 狩 独 狭 猛 猟 猫 献 猶 猿 獄 獣 獲 玄 率 玉 王 珍 珠 班 現 球 理 琴 環 璽 瓶 甘 甚 生 産 用
-      田 申 男 町 画 界 畑 畔 留 畜 畝 略 番 異 畳 疎 疑 疫 疲 疾 病 症 痘 痛 痢 痴 療 癒 癖 発 登 白 百 的 皆 皇 皮 皿
-      盆 益 盗 盛 盟 監 盤 目 盲 直 相 盾 省 看 県 真 眠 眺 眼 着 睡 督 瞬 矛 矢 知 短 矯 石 砂 研 砕 砲 破 硝 硫 硬 碁
-      碑 確 磁 磨 礁 礎 示 礼 社 祈 祉 祖 祝 神 祥 票 祭 禁 禅 禍 福 秀 私 秋 科 秒 秘 租 秩 称 移 程 税 稚 種 稲 稼 稿
-      穀 穂 積 穏 穫 穴 究 空 突 窃 窒 窓 窮 窯 立 竜 章 童 端 競 竹 笑 笛 符 第 筆 等 筋 筒 答 策 箇 算 管 箱 節 範 築
-      篤 簡 簿 籍 米 粉 粋 粒 粗 粘 粛 粧 精 糖 糧 糸 系 糾 紀 約 紅 紋 納 純 紙 紛 素 索 紫 累 細 紳 紹 紺 終 組 経 結
-      絞 絡 給 統 絵 絶 絹 継 続 維 綱 網 綿 緊 総 緑 緒 線 締 編 緩 緯 練 縁 縄 縛 縦 縫 縮 績 繁 繊 織 繕 繭 繰 缶 罪
-      置 罰 署 罷 羅 羊 美 群 義 羽 翁 翌 習 翻 翼 老 考 者 耐 耕 耗 耳 聖 聞 聴 職 肉 肌 肖 肝 肢 肥 肩 肪 肯 育 肺 胃
-      胆 背 胎 胞 胴 胸 能 脂 脅 脈 脚 脱 脳 腐 腕 腰 腸 腹 膚 膜 膨 臓 臣 臨 自 臭 至 致 興 舌 舎 舗 舞 舟 航 般 舶 船
-      艇 艦 良 色 芋 芝 花 芳 芸 芽 苗 若 苦 英 茂 茎 茶 草 荒 荘 荷 菊 菌 菓 菜 華 落 葉 著 葬 蒸 蓄 蔵 薄 薦 薪 薬 藤
-      藩 藻 虎 虐 虚 虜 虞 虫 蚊 蚕 蛇 蛍 蛮 融 血 衆 行 術 街 衛 衝 衡 衣 表 衰 衷 袋 被 裁 裂 装 裏 裕 補 裸 製 複 褐
-      褒 襟 襲 西 要 覆 覇 見 規 視 覚 覧 親 観 角 解 触 言 訂 計 討 訓 託 記 訟 訪 設 許 訳 訴 診 証 詐 詔 評 詞 詠 試
-      詩 詰 詳 誇 誉 誌 認 誓 誕 誘 語 誠 誤 説 読 誰 課 調 談 請 論 諭 諮 諸 諾 謀 謁 謄 謙 講 謝 謡 謹 識 譜 警 議 譲
-      護 谷 豆 豊 豚 象 豪 貝 貞 負 貢 貧 販 貫 責 貯 貴 買 貸 費 貿 賀 賃 賄 資 賊 賓 賛 賜 賞 賠 賢 賦 質 購 贈 赤 赦
-      走 赴 起 超 越 趣 足 距 跡 路 跳 践 踊 踏 躍 身 車 軌 軍 軒 軟 転 軸 軽 較 載 輝 輩 輪 輸 轄 辛 辞 辱 農 辺 込 迅
-      迎 近 返 迫 迭 述 迷 追 退 送 逃 逆 透 逐 逓 途 通 逝 速 造 連 逮 週 進 逸 遂 遅 遇 遊 運 遍 過 道 違 遠 遣 適 遭
-      遮 遵 遷 選 遺 避 還 邦 邪 邸 郊 郎 郡 部 郭 郵 郷 都 酌 配 酒 酔 酢 酪 酬 酵 酷 酸 醜 醸 釈 里 量 金 針 釣 鈍 鈴
-      鉄 鉛 鉢 鉱 銀 銃 銅 銘 銭 鋭 鋳 鋼 錠 錬 錯 録 鍛 鎖 鎮 鏡 鐘 鑑 長 門 閉 開 閑 間 関 閣 閥 閲 闘 阪 防 阻 附 降
-      限 陛 院 陥 陪 陰 陳 陵 陶 陸 険 陽 隅 隆 隊 階 随 隔 際 障 隠 隣 隷 隻 雄 雇 雌 雑 離 難 雨 雪 雰 雲 零 雷 電 需
-      震 霊 霜 霧 露 青 静 非 面 革 靴 韓 音 韻 響 頂 頃 項 順 預 頒 領 頬 頭 頻 頼 題 額 顔 顕 願 類 顧 風 飛 食 飢 飯
-      飲 飼 飾 養 餓 館 首 香 馬 駄 駆 駐 騎 騒 験 騰 驚 骨 髄 高 髪 鬼 魂 魅 魔 魚 鮮 鯨 鳥 鳴 鶏 鹿 麗 麦 麻 黄 黒 黙
-      鼓 鼻 齢'
-    auxiliary: 丑 亥 亨 兌 兎 卯 嘉 壬 寅 巳 庚 弘 戊 戌 拼 昌 楔 猪 癸 祚 禄 禎 辰 酉 錄 閏 雉 鳳 鼠
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: '! " # % & ( ) * , - . / : ; ? @ [ \ ] _ § ¶ ‐ — ― ‖ ‘ ’ “ ” † ‡
-      ‥ … ‰ ′ ″ ※ ‾ 、 。 〃 〈 〉 《 》 「 」 『 』 【 】 〔 〕 〜 ・ ！ ＂ ＃ ％ ＆ ＇ （ ） ＊ ， － ． ／ ：
-      ； ？ ＠ ［ ＼ ］ ＿ ｛ ｝ ｡ ｢ ｣ ､ ･'
-    combinations: ''
-    punctuation_combinations: '{｛ }'
-  draft: done, done, contributed, done, done
-  script: ''
-jgo:
-  characters:
-    base: a b c d f g h i j k l m n p s t u v w y z á â í î ú û ń ŋ ǎ ǐ ǔ ǹ ɔ ɛ ʉ
-      ̀ ́ ̂ ̄ ̈ ̌ ḿ ẅ ꞌ
-    auxiliary: e o q r x
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: '! , - . : ; ? « » ‹ ›'
-    combinations: '{ɛ́} {ɛ̀} {ɛ̂} {ɛ̌} {ɛ̄} {m̀} {m̄} {n̄} {ŋ́} {ŋ̀} {ŋ̄} {ɔ́} {ɔ̂}
-      {ɔ̌} {pf} {sh} {ts} {ʉ́} {ʉ̂} {ʉ̌} {ʉ̈}'
-  draft: done, done, done, done, done
-  script: Latn
-jmc:
-  characters:
-    base: a b c d e f g h i j k l m n o p r s t u v w y z
-    auxiliary: q x
-    numbers: ''
-    punctuation: ''
-    combinations: ''
-  draft: done, done, done
-  script: Latn
-jv:
-  characters:
-    base: a b c d e g h i j k l m n o p r s t u w y â å è é ê ì ò ù
-    auxiliary: f q v x z
-    numbers: ↑
-    punctuation: ↑
-    combinations: ''
-  draft: done, done, done, contributed, contributed
-  script: Latn
-ka:
-  characters:
-    base: ა ბ გ დ ე ვ ზ თ ი კ ლ მ ნ ო პ ჟ რ ს ტ უ ფ ქ ღ ყ შ ჩ ც ძ წ ჭ ხ ჯ ჰ
-    auxiliary: ჱ ჲ ჳ ჴ ჵ ჶ ჷ ჸ ჹ ჺ ⴀ ⴁ ⴂ ⴃ ⴄ ⴅ ⴆ ⴇ ⴈ ⴉ ⴊ ⴋ ⴌ ⴍ ⴎ ⴏ ⴐ ⴑ ⴒ ⴓ ⴔ ⴕ ⴖ ⴗ
-      ⴘ ⴙ ⴚ ⴛ ⴜ ⴝ ⴞ ⴟ ⴠ ⴡ ⴢ ⴣ ⴤ ⴥ
-    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
-    punctuation: '! # & '' ( ) * , - . / : ; ? @ [ ] § « » ჻ ‐ – — ‘ ‚ “ „ † ‡ … ′
-      ″ №'
-    combinations: ''
-    punctuation_combinations: '{ }'
-  draft: done, done, done, done, done
-  script: ''
-kab:
-  characters:
-    base: a b c d e f g h i j k l m n p q r s t u w x y z č ǧ ɛ ɣ ḍ ḥ ṛ ṣ ṭ ẓ
-    auxiliary: o v
-    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
-    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § ‐ – — ‘ ’ “ ” † ‡ … ′ ″'
-    combinations: ''
-  draft: done, done, done, done, unconfirmed
-  script: Latn
-kam:
-  characters:
-    base: a b c d e f g h i j k l m n o p q r s t u v w y z ĩ ũ
-    auxiliary: ''
-    numbers: ''
-    punctuation: ''
-    combinations: ''
-  draft: done, done
-  script: Latn
-kde:
-  characters:
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    auxiliary: ''
-    numbers: ''
-    punctuation: ''
-    combinations: ''
-  draft: done, done
-  script: Latn
-kea:
-  characters:
-    base: a b d e f g h i j k l m n o p r s t u v x y z ñ
-    auxiliary: c n q r w ª º à á â ã ä å æ ç è é ê ë ì í î ï ò ó ô õ ö ø ù ú û ü ÿ
-      ā ă ē ĕ ĩ ī ĭ ō ŏ œ ũ ū ŭ ̈ ẽ
-    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
-    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § « » ‐ – — ‘ ’ “ ” † ‡ …'
-    combinations: '{dj} {lh} {nh} {tx}'
-    auxiliary_combinations: '{n̈} {rr}'
-  draft: done, done, done, done, contributed
-  script: Latn
-khq:
-  characters:
-    base: a b c d e f g h i j k l m n o p q r s t u w x y z ã õ ŋ š ž ɲ ẽ
-    auxiliary: v
-    numbers: '% + - . 0 1 2 3 4 5 6 7 8 9   ‰'
-    punctuation: ''
-    combinations: ''
-  draft: done, done, done, done
-  script: Latn
-ki:
-  characters:
-    base: a b c d e g h i j k m n o r t u w y ĩ ũ
-    auxiliary: f l p q s v x z
-    numbers: ''
-    punctuation: ''
-    combinations: ''
-  draft: done, done, done
-  script: Latn
-kk:
-  characters:
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё і ғ қ
-      ң ү ұ һ ә ө
-    auxiliary: ''
-    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
-    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § « » ‐ – — ‘ ’ “ ” …'
-    combinations: ''
-    punctuation_combinations: '{ }'
-  draft: done, done, done, done, done
-  script: Cyrl
-kkj:
-  characters:
-    base: a b c d e f g h i j k l m n o p r s t u v w y à á â è é ê ì í î ò ó ô ù
-      ú û ŋ ǌ ɓ ɔ ɗ ɛ ̀ ́ ̂ ̧
-    auxiliary: q x z
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: '! ( ) * , . : ? « » ‘ “ ” … ‹ ›'
-    combinations: '{a̧} {ɗy} {ɛ́} {ɛ̀} {ɛ̂} {ɛ̧} {gb} {gw} {i̧} {kp} {kw} {mb} {nd}
-      {ny} {ŋg} {ŋgb} {ŋgw} {ɔ́} {ɔ̀} {ɔ̂} {ɔ̧} {u̧}'
-  draft: done, done, done, done, done
-  script: Latn
-kl:
-  characters:
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z å æ ø
-    auxiliary: á â ã é ê í î ô õ ú û ĩ ĸ ũ ẽ
-    numbers: '% + , . 0 1 2 3 4 5 6 7 8 9 ‰ −'
-    punctuation: ''
-    combinations: ''
-  draft: done, done, contributed, done
-  script: Latn
-kln:
-  characters:
-    base: a b c d e g h i j k l m n o p r s t u w y
-    auxiliary: f q v x z
-    numbers: ''
-    punctuation: ''
-    combinations: ''
-  draft: done, done, done
-  script: Latn
-km:
-  characters:
-    base: ក ខ គ ឃ ង ច ឆ ជ ឈ ញ ដ ឋ ឌ ឍ ណ ត ថ ទ ធ ន ប ផ ព ភ ម យ រ ល វ ស ហ ឡ អ ឥ ឦ ឧ
-      ឩ ឪ ឫ ឬ ឭ ឮ ឯ ឰ ឱ ឲ ឳ ា ិ ី ឹ ឺ ុ ូ ួ ើ ឿ ៀ េ ែ ៃ ោ ៅ ំ ះ ៈ ៉ ៊ ់ ៍ ័ ្
-    auxiliary: ឝ ឞ ឴ ឵ ៌ ៎ ៏ ៑ ​
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: '! " ( ) , - . ? [ ] ។ ៕ ៖ ៙ ៚ ‘ ’ “ ”'
-    combinations: '{អា} {ឧក}'
-    punctuation_combinations: '{ }'
-  draft: done, done, unconfirmed, done, done
-  script: ''
-kn:
-  characters:
-    base: ಂ ಃ ಅ ಆ ಇ ಈ ಉ ಊ ಋ ಌ ಎ ಏ ಐ ಒ ಓ ಔ ಕ ಖ ಗ ಘ ಙ ಚ ಛ ಜ ಝ ಞ ಟ ಠ ಡ ಢ ಣ ತ ಥ ದ ಧ ನ
-      ಪ ಫ ಬ ಭ ಮ ಯ ರ ಱ ಲ ಳ ವ ಶ ಷ ಸ ಹ ಼ ಽ ಾ ಿ ೀ ು ೂ ೃ ೄ ೆ ೇ ೈ ೊ ೋ ೌ ್ ೕ ೖ ೠ ೡ ೦ ೧ ೨
-      ೩ ೪ ೫ ೬ ೭ ೮ ೯
-    auxiliary: ೞ ‌ ‍
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ೦ ೧ ೨ ೩ ೪ ೫ ೬ ೭ ೮ ೯ ‰'
-    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] ‐ – — ‘ ’ “ ” … ′ ″'
-    combinations: ''
-  draft: done, done, contributed, done, done
-  script: ''
-ko:
-  characters:
-    base: '- 가 힣'
-    auxiliary: '- ᄀ ᄒ ᅡ ᅵ ᆨ ᇂ 丘 串 乃 久 乖 九 乞 乫 乾 亂 亘 交 京 仇 今 介 件 价 企 伋 伎 伽 佳 佶 侃 來
-      侊 供 係 俓 俱 個 倞 倦 倨 假 偈 健 傀 傑 傾 僅 僑 價 儆 儉 儺 光 克 兢 內 公 共 其 具 兼 冀 冠 凱 刊 刮 券 刻 剋
-      剛 劇 劍 劒 功 加 劤 劫 勁 勍 勘 勤 勸 勻 勾 匡 匣 區 南 卦 却 卵 卷 卿 厥 去 及 口 句 叩 叫 可 各 吉 君 告 呱 呵
-      咎 咬 哥 哭 啓 喀 喇 喝 喫 喬 嗜 嘉 嘔 器 囊 困 固 圈 國 圭 圻 均 坎 坑 坤 坰 坵 垢 基 埼 堀 堅 堈 堪 堺 塊 塏 境
-      墾 壙 壞 夔 奇 奈 奎 契 奸 妓 妗 姑 姜 姦 娘 娜 嫁 嬌 孔 季 孤 宏 官 客 宮 家 寄 寇 寡 寬 尻 局 居 屆 屈 岐 岡 岬
-      崎 崑 崗 嵌 嵐 嶇 嶠 工 巧 巨 己 巾 干 幹 幾 庚 庫 康 廊 廐 廓 廣 建 弓 强 彊 徑 忌 急 怪 怯 恐 恝 恪 恭 悸 愆 感
-      愧 愷 愾 慊 慣 慤 慨 慶 慷 憩 憬 憾 懃 懇 懦 懶 懼 戈 戒 戟 戡 扱 技 抉 拉 拏 拐 拒 拘 括 拮 拱 拳 拷 拿 捏 据 捲
-      捺 掘 掛 控 揀 揆 揭 擊 擎 擒 據 擧 攪 攷 改 攻 故 敎 救 敢 敬 敲 斛 斤 旗 旣 昆 昑 景 晷 暇 暖 暠 暻 曠 曲 更 曷
-      朗 朞 期 机 杆 杞 杰 枏 果 枯 架 枸 柑 柩 柬 柯 校 根 格 桀 桂 桔 桿 梏 梗 械 梱 棄 棋 棍 棘 棨 棺 楗 楠 極 槁 構
-      槐 槨 槪 槻 槿 樂 橄 橋 橘 機 檄 檎 檢 櫃 欄 權 欺 款 歌 歐 歸 殼 毆 毬 氣 求 江 汨 汲 決 汽 沂 沽 洛 洸 浪 涇 淃
-      淇 減 渠 渴 湳 溝 溪 滑 滾 漑 潔 潰 澗 激 濫 灌 灸 炅 炚 炬 烙 烱 煖 爛 牽 犬 狂 狗 狡 狼 獗 玖 玘 珂 珏 珖 珙 珞
-      珪 球 琦 琨 琪 琯 琴 瑾 璂 璟 璣 璥 瓊 瓘 瓜 甄 甘 甲 男 畇 界 畸 畺 畿 疆 疥 疳 痂 痙 痼 癎 癩 癸 皆 皎 皐 盖 監
-      看 眷 睾 瞰 瞼 瞿 矜 矩 矯 硅 硬 碁 碣 磎 磬 磯 磵 祁 祇 祈 祛 祺 禁 禽 科 稈 稼 稽 稿 穀 究 穹 空 窘 窟 窮 窺 竅
-      竟 竭 競 竿 筋 筐 筠 箇 箕 箝 管 簡 粳 糠 系 糾 紀 納 紘 級 紺 絅 結 絞 給 絳 絹 絿 經 綱 綺 緊 繫 繭 繼 缺 罐 罫
-      羅 羈 羌 羔 群 羹 翹 考 耆 耉 耕 耭 耿 肌 肝 股 肩 肯 肱 胛 胱 脚 脛 腔 腱 膈 膏 膠 臘 臼 舅 舊 舡 艮 艱 芎 芥 芩
-      芹 苛 苟 苦 苽 茄 莖 菅 菊 菌 菓 菫 菰 落 葛 葵 蓋 蕎 蕨 薑 藁 藍 藿 蘭 蘿 虔 蚣 蛟 蝎 螺 蠟 蠱 街 衢 衲 衾 衿 袈
-      袞 袴 裙 裸 褐 襁 襟 襤 見 規 覡 覲 覺 觀 角 計 記 訣 訶 詭 誇 誡 誥 課 諫 諾 謙 講 謳 謹 譏 警 譴 谷 谿 豈 貢 貫
-      貴 賈 購 赳 起 跏 距 跨 踞 蹇 蹶 躬 軀 車 軌 軍 軻 較 輕 轎 轟 辜 近 迦 迲 适 逑 逕 逵 過 遣 遽 邏 那 邯 邱 郊 郎
-      郡 郭 酪 醵 金 鈐 鈞 鉀 鉅 鉗 鉤 銶 鋸 鋼 錡 錤 錦 錮 鍋 鍵 鎌 鎧 鏡 鑑 鑒 鑛 開 間 閘 閣 閨 闕 關 降 階 隔 隙 雇
-      難 鞏 鞠 鞨 鞫 頃 頸 顆 顧 飢 餃 館 饉 饋 饑 駒 駕 駱 騎 騏 騫 驅 驕 驚 驥 骨 高 鬼 魁 鮫 鯤 鯨 鱇 鳩 鵑 鵠 鷄 鷗
-      鸞 麒 麴 黔 鼓 龕 龜'
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: '! " # % & ( ) * , - . / : ; ? @ [ \ ] _ ¡ § ¶ · ¿ ‐ — ― ‘ ’ “ ”
-      † ‡ ‥ … ‰ ′ ″ ※ ‾ 、 。 〃 〈 〉 《 》 「 」 『 』 【 】 〔 〕 〜 ・ ！ ＂ ＃ ％ ＆ ＇ （ ） ＊ ， － ．
-      ／ ： ； ？ ＠ ［ ＼ ］ ＿ ｛ ｝'
-    combinations: ''
-    punctuation_combinations: '{ ｛ }'
-  draft: done, done, done, done, done
-  script: ''
-kok:
-  characters:
-    base: ँ ं ः अ आ इ ई उ ऊ ऋ ऌ ऍ ए ऐ ऑ ओ औ क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध
-      न प फ ब भ म य र ल ळ व श ष स ह ़ ऽ ा ि ी ु ू ृ ॄ ॅ े ै ॉ ो ौ ् ॐ ० १ २ ३ ४ ५
-      ६ ७ ८ ९
-    auxiliary: ‌ ‍
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ० १ २ ३ ४ ५ ६ ७ ८ ९ ‰'
-    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § ‐ – — ‘ ’ “ ” † ‡ … ′ ″'
-    combinations: '{क़} {ख़} {ग़} {ज़} {ड़} {ढ़} {फ़} {य़}'
-  draft: done, done, contributed, done, contributed
-  script: ''
-ks:
-  characters:
-    base: ؠ ء آ أ ؤ ا ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ل م ن و ٲ ٹ پ چ ڈ ڑ
-      ژ ک گ ں ھ ہ ۄ ۆ ی ۍ ے
-    auxiliary: َ ُ ِ ٔ ٕ ٖ ٗ ٟ ‎ ‏
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹ ‎ ‰'
-    punctuation: ''
-    combinations: ''
-  draft: done, done, done
-  script: Arab
-ksb:
-  characters:
-    base: a b c d e f g h i j k l m n o p s t u v w y z
-    auxiliary: q r x
-    numbers: ''
-    punctuation: ''
-    combinations: ''
-  draft: done, done, done
-  script: Latn
-ksf:
-  characters:
-    base: a b c d e f g h i j k l m n o p r s t u v w y z á é í ó ú ŋ ǝ ɔ ɛ ́
-    auxiliary: q x
-    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
-    punctuation: ''
-    combinations: '{ǝ́} {ɛ́} {ɔ́}'
-  draft: done, done, done, done
-  script: Latn
-ksh:
-  characters:
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ß ä å æ ë ö ü ė œ ů
-    auxiliary: à á â ã ç è é ê ì í î ï ñ ò ó ô ø ù ú û ÿ ā ă ē ĕ ğ ī ĭ ı ĳ ł ō ŏ ū
-      ŭ
-    numbers: '% + , 0 1 2 3 4 5 6 7 8 9   ‰ −'
-    punctuation: '! " # % & '' ( ) * , . / : ; < = > ? @ [ ] _ ~ § ° ‐ – — ‘ ‚ “ „
-      † ‡ … ⸗'
-    combinations: ''
-    punctuation_combinations: '{ }'
-  draft: done, done, done, done, done
-  script: Latn
-ku:
-  characters:
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ç ê î û ş
-    auxiliary: ß à á â ã ä å æ è é ë ì í ï ñ ò ó ô ø ù ú ÿ ā ă ē ĕ ī ĭ ō ŏ œ ū ŭ
-    numbers: ↑
-    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § ‐ – — ‘ ’ “ ” † ‡ … ′ ″'
-    combinations: ''
-  draft: done, done, done, contributed, done
-  script: Latn
-kw:
-  characters:
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    auxiliary: ''
-    numbers: ''
-    punctuation: ''
-    combinations: ''
-  draft: done, unconfirmed
-  script: Latn
-ky:
-  characters:
-    base: а б г д е ж з и й к л м н о п р с т у х ч ш ъ ы э ю я ё ң ү ө
-    auxiliary: в ф ц щ ь
-    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
-    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § « » ‐ – — ‘ ‚ “ „ …'
-    combinations: ''
-    punctuation_combinations: '{ }'
-  draft: done, done, done, done, done
-  script: Cyrl
-lag:
-  characters:
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ó ú ɨ ʉ
-    auxiliary: ''
-    numbers: ''
-    punctuation: ''
-    combinations: ''
-  draft: done, done
-  script: Latn
-lb:
-  characters:
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä é ë
-    auxiliary: ß à á â ã å æ ç è ê ì í î ï ñ ò ó ô ö ø ù ú û ü ÿ ā ă ē ĕ ğ ī ĭ İ ı
-      ō ŏ œ ş ū ŭ
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § « » ‐ – — ‘ ‚ “ „ …'
-    combinations: ''
-    punctuation_combinations: '{ }'
-  draft: done, done, done, done, done
-  script: Latn
-lg:
-  characters:
-    base: a b c d e f g i j k l m n o p r s t u v w y z ŋ
-    auxiliary: h q x
-    numbers: ''
-    punctuation: ''
-    combinations: '{ny}'
-  draft: done, done, done
-  script: Latn
-lkt:
-  characters:
-    base: a b e g h i k l m n o p s t u w y z á é í ó ú č ŋ š ž ǧ ȟ ʼ
-    auxiliary: c d f j q r s v x š ȟ ʼ
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: '! " # & ( ) * , - . / : ; ? @ [ ] ‐ – — “ ”'
-    combinations: '{aŋ} {čh} {čʼ} {iŋ} {kh} {kȟ} {kʼ} {ph} {pȟ} {pʼ} {th} {tȟ} {tʼ}
-      {uŋ}'
-    auxiliary_combinations: '{ȟʼ} {sʼ} {šʼ}'
-  draft: done, done, done, done, done
-  script: Latn
-ln:
-  characters:
-    base: a b c d e f g h i k l m n o p r s t u v w y z á â é ê í î ó ô ú ě ǎ ǐ ǒ
-      ɔ ɛ ́ ̂ ̌
-    auxiliary: j q x
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: ''
-    combinations: '{ɛ́} {ɛ̂} {ɛ̌} {gb} {mb} {mp} {nd} {ng} {nk} {ns} {nt} {ny} {nz}
-      {ɔ́} {ɔ̂} {ɔ̌}'
-  draft: done, done, done, done
-  script: Latn
-lo:
-  characters:
-    base: ກ ຂ ຄ ງ ຈ ຊ ຍ ດ ຕ ຖ ທ ນ ບ ປ ຜ ຝ ພ ຟ ມ ຢ ຣ ລ ວ ສ ຫ ອ ຮ ຯ ະ ັ າ ຳ ິ ີ ຶ ື
-      ຸ ູ ົ ຼ ຽ ເ ແ ໂ ໃ ໄ ໆ ່ ້ ໊ ໋ ໌ ໍ ໜ ໝ
-    auxiliary: ໐ ໑ ໒ ໓ ໔ ໕ ໖ ໗ ໘ ໙ ​
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § ‐ – — ‘ ’ “ ” † ‡ … ′ ″'
-    combinations: ''
-  draft: done, done, contributed, done, done
-  script: ''
-lrc:
-  characters:
-    base: آ أ ؤ ئ ا ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ؽ ف ق ل م ن و ٙ ٛ پ چ ژ ڤ
-      ک گ ھ ۉ ۊ ی ە
-    auxiliary: إ ة ك ه ى ي ً ٌ ٍ َ ُ ِ ّ ْ ٔ ​ ‌ ‍ ‎ ‏
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: '! ( ) * - . / : [ \ ] « » ، ؛ ؟ ٫ ٬ ‐ … ‹ ›'
-    combinations: ''
-  draft: done, done, done, done, done
-  script: Arab
-lt:
-  characters:
-    base: a b c d e f g h i j k l m n o p r s t u v y z ą č ė ę į š ū ų ž
-    auxiliary: c d h i j l m q r w x z à á ã è é ì í ñ ò ó õ ù ú ą ė ę ĩ į ũ ū ų ž
-      ̀ ́ ̃ ̇ ẽ
-    numbers: '% + , 0 1 2 3 4 5 6 7 8 9   ‰ −'
-    punctuation: '! ( ) , - . : ; ? [ ] ‐ – — “ „ …'
-    combinations: ''
-    auxiliary_combinations: '{ą́} {ą̃} {ch} {dz} {dž} {ę́} {ę̃} {ė́} {ė̃} {i̇́} {i̇̀}
-      {i̇̃} {į́} {į̇́} {į̃} {į̇̃} {j̃} {j̇̃} {l̃} {m̃} {r̃} {ų́} {ų̃} {ū́} {ū̃}'
-    punctuation_combinations: '{ }'
-  draft: done, done, done, done, done
-  script: Latn
-lu:
-  characters:
-    base: a b c d e f g h i j k l m n o p q s t u v w y z à á è é ì í ò ó ù ú ɔ ɛ
-      ̀ ́
-    auxiliary: g r x
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: ''
-    combinations: '{ɛ́} {ɛ̀} {ng} {ny} {ɔ́} {ɔ̀} {ph} {shi}'
-  draft: done, done, done, done
-  script: Latn
-luo:
-  characters:
-    base: a b c d e f g h i j k l m n o p r s t u v w y
-    auxiliary: q x z
-    numbers: ''
-    punctuation: ''
-    combinations: ''
-  draft: done, done, done
-  script: Latn
-luy:
-  characters:
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    auxiliary: ''
-    numbers: ''
-    punctuation: ''
-    combinations: ''
-  draft: done, done
   script: Latn
 lv:
   characters:
@@ -1227,101 +17,6 @@ lv:
     combinations: ''
   draft: done, done, done, done, done
   script: Latn
-mas:
-  characters:
-    base: a b c d e g h i j k l m n o p r s t u w y à á â è é ê ì í î ò ó ô ù ú û
-      ā ē ī ŋ ō ū ɔ ɛ ɨ ʉ ́
-    auxiliary: f q v x z
-    numbers: ''
-    punctuation: ''
-    combinations: '{ny} {rr} {sh} {ʉ́} {wu} {yi}'
-  draft: done, done, done
-  script: Latn
-mer:
-  characters:
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ĩ ũ
-    auxiliary: ''
-    numbers: ''
-    punctuation: ''
-    combinations: ''
-  draft: done, done
-  script: Latn
-mfe:
-  characters:
-    base: a b c d e f g h i j k l m n o p r s t u v w x y z
-    auxiliary: ''
-    numbers: '% + - . 0 1 2 3 4 5 6 7 8 9   ‰'
-    punctuation: ''
-    combinations: ''
-  draft: done, done, done
-  script: Latn
-mg:
-  characters:
-    base: a b d e f g h i j k l m n o p r s t v y z à â è é ê ë ì î ï ñ ô
-    auxiliary: c q u w x
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: ''
-    combinations: ''
-  draft: done, done, done, done
-  script: Latn
-mgh:
-  characters:
-    base: a b c d e f g h i j k l m n o p r s t u v w y z
-    auxiliary: q x
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: ''
-    combinations: ''
-  draft: done, done, done, done
-  script: Latn
-mgo:
-  characters:
-    base: a b c d e f g h i j k m n o p r s t u w y z à è ì ò ù ŋ ɔ ə ʼ ̀
-    auxiliary: c h l q v x
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: '! " '' , . : ; ? ‘ ’ “ ”'
-    combinations: '{ch} {ə̀} {gh} {ɔ̀}'
-  draft: done, done, done, done, done
-  script: Latn
-mi:
-  characters:
-    base: a e g h i k m n o p r t u w ā ē ī ō ū
-    auxiliary: b c d f g j l q s v x y z
-    numbers: ↑
-    punctuation: ↑
-    combinations: '{ng} {wh}'
-  draft: done, done, done, contributed, contributed
-  script: Latn
-mk:
-  characters:
-    base: а б в г д е ж з и к л м н о п р с т у ф х ц ч ш ѓ ѕ ј љ њ ќ џ
-    auxiliary: ѐ ѝ
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: '! ( ) , - . : ; ? [ ] ‐ – — ‘ ‚ “ „ …'
-    combinations: ''
-    punctuation_combinations: '{ }'
-  draft: done, done, done, done, done
-  script: Cyrl
-ml:
-  characters:
-    base: ം ഃ അ ആ ഇ ഈ ഉ ഊ ഋ ഌ എ ഏ ഐ ഒ ഓ ഔ ക ഖ ഗ ഘ ങ ച ഛ ജ ഝ ഞ ട ഠ ഡ ഢ ണ ത ഥ ദ ധ ന
-      പ ഫ ബ ഭ മ യ ര റ ല ള ഴ വ ശ ഷ സ ഹ ാ ി ീ ു ൂ ൃ െ േ ൈ ൊ ോ ൌ ് ൗ ൠ ൡ ൺ ൻ ർ ൽ ൾ ൿ
-      ‌ ‍
-    auxiliary: ''
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ൦ ൧ ൨ ൩ ൪ ൫ ൬ ൭ ൮ ൯ ‰'
-    punctuation: '! " '' ( ) , - . : ; ? [ ] ‘ ’ “ ”'
-    combinations: ''
-    punctuation_combinations: '{ }'
-  draft: done, done, contributed, done, contributed
-  script: ''
-mn:
-  characters:
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ү ө
-    auxiliary: җ һ ӊ ә
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § ‐ – — ‘ ’ “ ” † ‡ … ′ ″'
-    combinations: ''
-  draft: done, done, contributed, done, done
-  script: Cyrl
 mr:
   characters:
     base: ँ ं ः अ आ इ ई उ ऊ ऋ ऌ ऍ ए ऐ ऑ ओ औ क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध
@@ -1331,132 +26,91 @@ mr:
     punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] ‐ – — ‘ ’ “ ” … ′ ″'
     combinations: ''
   draft: done, done, done, done, done
-  script: ''
-ms:
+  script: Deva
+cy:
   characters:
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    base: a b c d e f g h i j l m n o p r s t u w y à á â ä è é ê ë ì í î ï ò ó ô
+      ö ù ú û ü ý ÿ ŵ ŷ ẁ ẃ ẅ ỳ
+    auxiliary: k q v x z ã å æ ç ñ ø ā ă ē ĕ ī ĭ ō ŏ œ ū ŭ
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
+    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § ‐ – — ‘ ’ “ ” † ‡ … ′ ″'
+    combinations: '{ch} {dd} {ff} {ng} {ll} {ph} {rh} {th}'
+  draft: done, done, done, done, done
+  script: Latn
+af:
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á â è é ê ë î ï ô ö
+      û
+    auxiliary: à ã ä å æ ç ì í ò ó ù ú ü ý
+    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
+    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § ‐ – — ‘ ’ “ ” † ‡ … ′ ″'
+    combinations: ''
+  draft: done, done, contributed, done, done
+  script: Latn
+chr:
+  characters:
+    base: ᏸ ᏹ ᏺ ᏻ ᏼ ꭰ ꭱ ꭲ ꭳ ꭴ ꭵ ꭶ ꭷ ꭸ ꭹ ꭺ ꭻ ꭼ ꭽ ꭾ ꭿ ꮀ ꮁ ꮂ ꮃ ꮄ ꮅ ꮆ ꮇ ꮈ ꮉ ꮊ ꮋ ꮌ ꮍ ꮎ
+      ꮏ ꮐ ꮑ ꮒ ꮓ ꮔ ꮕ ꮖ ꮗ ꮘ ꮙ ꮚ ꮛ ꮜ ꮝ ꮞ ꮟ ꮠ ꮡ ꮢ ꮣ ꮤ ꮥ ꮦ ꮧ ꮨ ꮩ ꮪ ꮫ ꮬ ꮭ ꮮ ꮯ ꮰ ꮱ ꮲ ꮳ ꮴ
+      ꮵ ꮶ ꮷ ꮸ ꮹ ꮺ ꮻ ꮼ ꮽ ꮾ ꮿ
     auxiliary: ''
     numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
     punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § ‐ – — ‘ ’ “ ” † ‡ … ′ ″'
-    combinations: '{ai} {au} {dz} {kh} {ng} {ngg} {ny} {sy} {ts} {ua}'
-  draft: done, contributed, done, done, done
-  script: Latn
-mt:
-  characters:
-    base: a b d e f g h i j k l m n o p q r s t u v w x z à è ì ò ù ċ ġ ħ ż
-    auxiliary: c y
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: '! " '' ( ) , - . : ; ? [ ] ‘ ’ “ ”'
-    combinations: '{għ}'
-    punctuation_combinations: '{ }'
-  draft: done, done, contributed, done, done
-  script: Latn
-mua:
-  characters:
-    base: a b c d e f g h i j k l m n o p r s t u v w y z ã ë õ ĩ ŋ ǝ ɓ ɗ ṽ
-    auxiliary: q x
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: ''
     combinations: ''
+  draft: done, done, done, done, contributed
+  script: Cher
+vo:
+  characters:
+    base: a b c d e f g h i j k l m n o p r s t u v x y z ä ö ü
+    auxiliary: q w
+    numbers: ''
+    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § « » ‐ – — ‘ ’ “ ” …'
+    combinations: ''
+    punctuation_combinations: '{ }'
   draft: done, done, done, done
   script: Latn
-my:
+tg:
   characters:
-    base: က ခ ဂ ဃ င စ ဆ ဇ ဈ ဉ ည ဋ ဌ ဍ ဎ ဏ တ ထ ဒ ဓ န ပ ဖ ဗ ဘ မ ယ ရ လ ဝ သ ဟ ဠ အ ဣ ဤ
-      ဥ ဦ ဧ ဩ ဪ ါ ာ ိ ီ ု ူ ေ ဲ ံ ့ း ္ ် ျ ြ ွ ှ ဿ ၏
-    auxiliary: ဢ ဨ ဳ ဴ ၀ ၁ ၂ ၃ ၄ ၅ ၆ ၇ ၈ ၉ ၐ ၑ ၒ ၓ ၔ ၕ ၖ ၗ ၘ ၙ ၚ ၢ ၤ ၥ ၵ ၽ ၾ ႆ ႈ ႊ
-      ႏ ႐ ႑ ႒ ႓ ႔ ႕ ႖ ႗ ႘ ႙
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ၀ ၁ ၂ ၃ ၄ ၅ ၆ ၇ ၈ ၉ ‰'
-    punctuation: ၊ ။ ‘ ’ “ ”
-    combinations: ''
-  draft: done, done, contributed, done, done
-  script: ''
-mzn:
-  characters:
-    base: ء آ أ ؤ ئ ا ب ة ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ل م ن ه و ً ٌ ٍ ّ
-      ٔ پ چ ژ ک گ ی
-    auxiliary: إ ك ى ي َ ُ ِ ْ ٖ ٰ ‌ ‍ ‎ ‏
-    numbers: ''
-    punctuation: '! ( ) * - . / : [ \ ] « » ، ؛ ؟ ٫ ٬ ‐ … ‹ ›'
-    combinations: ''
-  draft: done, done, done, done
-  script: Arab
-naq:
-  characters:
-    base: a b c d e f g h i k m n o p q r s t u w x y z â î ô û ǀ ǁ ǂ ǃ
-    auxiliary: j l v
-    numbers: ''
-    punctuation: ''
-    combinations: ''
-  draft: done, done, done
-  script: Latn
-nb:
-  characters:
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à å æ é ò ó ô ø
-    auxiliary: á ã ä ç è ê í ñ ö ú ü č đ ń ŋ š ŧ ž ǎ
-    numbers: '% + , 0 1 2 3 4 5 6 7 8 9   ‰ −'
-    punctuation: '! " '' ( ) * , - . / : ; ? @ [ \ ] § « » –'
-    combinations: ''
-    punctuation_combinations: '{ }'
-  draft: done, done, done, done, done
-  script: Latn
-nd:
-  characters:
-    base: a b c d e f g h i j k l m n o p q s t u v w x y z
-    auxiliary: r
-    numbers: ''
-    punctuation: ''
-    combinations: ''
-  draft: done, done, done
-  script: Latn
-nds:
-  characters:
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä å ö ü
-    auxiliary: à á â æ ç è é ê ë ì í î ï ñ ò ó ô ø ù ú û ÿ ā ă ē ĕ ę ī ĭ ō ŏ œ ū ŭ
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § « » ‐ – — ‘ ‚ “ „ …'
-    combinations: ''
-    punctuation_combinations: '{ }'
-  draft: done, unconfirmed, unconfirmed, done, done
-  script: Latn
-ne:
-  characters:
-    base: ँ ं ः अ आ इ ई उ ऊ ऋ ऌ ऍ ए ऐ ऑ ओ औ क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध
-      न प फ ब भ म य र ल ळ व श ष स ह ़ ऽ ा ि ी ु ू ृ ॄ ॅ े ै ॉ ो ौ ् ॐ
-    auxiliary: ‌ ‍
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ० १ २ ३ ४ ५ ६ ७ ८ ९ ‰'
-    punctuation: '! " '' ( ) , - ; ? [ ] । — ‘ ’ “ ”'
-    combinations: ''
-    punctuation_combinations: '{ }'
-  draft: done, done, contributed, done, done
-  script: ''
-nl:
-  characters:
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á ä é ë í ï ó ö ú ü
-      ́
-    auxiliary: à â ã å æ ç è ê î ñ ô ø ù û ÿ œ
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ч ш ъ э ю я ё ғ қ ҳ ҷ ӣ ӯ
+    auxiliary: ц щ ы ь
     numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
     punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § ‐ – — ‘ ’ “ ” † ‡ … ′ ″'
-    combinations: '{ij} {íj́}'
-  draft: done, done, contributed, done, done
-  script: Latn
-nmg:
+    combinations: ''
+  draft: done, done, contributed, contributed, contributed
+  script: Cyrl
+zgh:
   characters:
-    base: a b c d e f g h i j k l m n o p r s t u v w y á â ä é ê í î ï ó ô ö ú û
-      ā ē ě ī ń ŋ ō ŕ ū ǎ ǐ ǒ ǔ ǝ ɓ ɔ ɛ ́ ̂ ̄ ̌
-    auxiliary: q x z
+    base: ⴰ ⴱ ⴳ ⴷ ⴹ ⴻ ⴼ ⴽ ⵀ ⵃ ⵄ ⵅ ⵇ ⵉ ⵊ ⵍ ⵎ ⵏ ⵓ ⵔ ⵕ ⵖ ⵙ ⵚ ⵛ ⵜ ⵟ ⵡ ⵢ ⵣ ⵥ ⵯ
+    auxiliary: ''
     numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
     punctuation: ''
-    combinations: '{ǝ́} {ǝ̂} {ǝ̌} {ǝ̄} {ɛ́} {ɛ̂} {ɛ̌} {ɛ̄} {ɔ́} {ɔ̂} {ɔ̌} {ɔ̄}'
-  draft: done, done, done, done
-  script: Latn
-nn:
+    combinations: '{ⴳⵯ} {ⴽⵯ}'
+  draft: done, done, done
+  script: Tfng
+teo:
   characters:
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à å æ é ò ó ô ø
-    auxiliary: á ä ç è ê ñ ö ü č đ ń ŋ š ŧ ž ǎ
-    numbers: '% + , 0 1 2 3 4 5 6 7 8 9   ‰ −'
+    base: a b c d e g h i j k l m n o p r s t u v w x y
+    auxiliary: f q z
+    numbers: ''
     punctuation: ''
     combinations: ''
+  draft: done, done, done
+  script: Latn
+ceb:
+  characters:
+    base: a b d e g h i k l m n o p r s t u w y
+    auxiliary: c f j q v x z
+    numbers: ↑
+    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] ‘ ’ “ ” … ′ ″'
+    combinations: ''
+  draft: done, done, done, done, contributed
+  script: Latn
+ksf:
+  characters:
+    base: a b c d e f g h i j k l m n o p r s t u v w y z á é í ó ú ŋ ǝ ɔ ɛ ́
+    auxiliary: q x
+    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
+    punctuation: ''
+    combinations: '{ǝ́} {ɛ́} {ɔ́}'
   draft: done, done, done, done
   script: Latn
 nnh:
@@ -1470,360 +124,171 @@ nnh:
       {ʉ̂} {ʉ̌}'
   draft: done, done, done, done, done
   script: Latn
-nus:
+wae:
   characters:
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ë ï ö ŋ ɔ ɛ ɣ ̈ ̱
-    auxiliary: ''
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á ã ä é í ó õ ö ú ü
+      č š ũ
+    auxiliary: ß à â å æ ç è ê ë ì î ï ñ ò ô ø ù û ÿ ā ă ē ĕ ī ĭ ō ŏ œ ū ŭ
+    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9 ’ ‰'
     punctuation: ''
-    combinations: '{a̱} {e̱} {ɛ̈} {ɛ̱} {ɛ̱̈} {i̱} {o̱} {ɔ̈} {ɔ̱}'
+    combinations: ''
+  draft: done, done, done, done
+  script: Latn
+naq:
+  characters:
+    base: a b c d e f g h i k m n o p q r s t u w x y z â î ô û ǀ ǁ ǂ ǃ
+    auxiliary: j l v
+    numbers: ''
+    punctuation: ''
+    combinations: ''
   draft: done, done, done
   script: Latn
-nyn:
+haw:
+  characters:
+    base: a e h i k l m n o p u w ā ē ī ō ū ʻ
+    auxiliary: b c d f g j q r s t v x y z
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
+    punctuation: ''
+    combinations: ''
+  draft: done, done, unconfirmed, done
+  script: Latn
+ms:
   characters:
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    auxiliary: ''
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
+    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § ‐ – — ‘ ’ “ ” † ‡ … ′ ″'
+    combinations: '{ai} {au} {dz} {kh} {ng} {ngg} {ny} {sy} {ts} {ua}'
+  draft: done, contributed, done, done, done
+  script: Latn
+lu:
+  characters:
+    base: a b c d e f g h i j k l m n o p q s t u v w y z à á è é ì í ò ó ù ú ɔ ɛ
+      ̀ ́
+    auxiliary: g r x
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
+    punctuation: ''
+    combinations: '{ɛ́} {ɛ̀} {ng} {ny} {ɔ́} {ɔ̀} {ph} {shi}'
+  draft: done, done, done, done
+  script: Latn
+lb:
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä é ë
+    auxiliary: ß à á â ã å æ ç è ê ì í î ï ñ ò ó ô ö ø ù ú û ü ÿ ā ă ē ĕ ğ ī ĭ İ ı
+      ō ŏ œ ş ū ŭ
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
+    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § « » ‐ – — ‘ ‚ “ „ …'
+    combinations: ''
+    punctuation_combinations: '{ }'
+  draft: done, done, done, done, done
+  script: Latn
+ar:
+  characters:
+    base: ء آ أ ؤ إ ئ ا ب ة ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ك ل م ن ه و ى ي
+      ً ٌ ٍ َ ُ ِ ّ ْ ٰ
+    auxiliary: ـ ٯ پ چ ژ ڜ ڢ ڤ ڥ ڧ ڨ ک ڭ گ ی ݣ ‌ ‍ ‎ ‏
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ؉ ؜ ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ ٪ ٫ ٬ ‎ ‰'
+    punctuation: '! " '' ( ) - . : [ \ « » ، ؛ ؟ ‐ – — …'
+    combinations: ''
+  draft: done, done, done, done, done
+  script: Arab
+jmc:
+  characters:
+    base: a b c d e f g h i j k l m n o p r s t u v w y z
+    auxiliary: q x
+    numbers: ''
+    punctuation: ''
+    combinations: ''
+  draft: done, done, done
+  script: Latn
+nmg:
+  characters:
+    base: a b c d e f g h i j k l m n o p r s t u v w y á â ä é ê í î ï ó ô ö ú û
+      ā ē ě ī ń ŋ ō ŕ ū ǎ ǐ ǒ ǔ ǝ ɓ ɔ ɛ ́ ̂ ̄ ̌
+    auxiliary: q x z
+    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
+    punctuation: ''
+    combinations: '{ǝ́} {ǝ̂} {ǝ̌} {ǝ̄} {ɛ́} {ɛ̂} {ɛ̌} {ɛ̄} {ɔ́} {ɔ̂} {ɔ̌} {ɔ̄}'
+  draft: done, done, done, done
+  script: Latn
+lag:
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ó ú ɨ ʉ
     auxiliary: ''
     numbers: ''
     punctuation: ''
     combinations: ''
   draft: done, done
   script: Latn
-om:
+te:
   characters:
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    auxiliary: ''
+    base: ఁ ం ః అ ఆ ఇ ఈ ఉ ఊ ఋ ఌ ఎ ఏ ఐ ఒ ఓ ఔ క ఖ గ ఘ ఙ చ ఛ జ ఝ ఞ ట ఠ డ ఢ ణ త థ ద ధ
+      న ప ఫ బ భ మ య ర ఱ ల ళ వ శ ష స హ ా ి ీ ు ూ ృ ౄ ె ే ై ొ ో ౌ ్ ౕ ౖ ౠ ౡ
+    auxiliary: ౦ ౧ ౨ ౩ ౪ ౫ ౬ ౭ ౮ ౯ ‌ ‍
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ౦ ౧ ౨ ౩ ౪ ౫ ౬ ౭ ౮ ౯ ‰'
+    punctuation: '! " '' ( ) , - . : ; ? [ ] ‘ ’ “ ”'
+    combinations: ''
+    punctuation_combinations: '{ }'
+  draft: done, done, done, done, done
+  script: Telu
+tr:
+  characters:
+    base: a b c d e f g h i j k l m n o p r s t u v y z ç ö ü ğ İ ı ş
+    auxiliary: q w x ß à á â ã ä å æ è é ê ë ì í î ï ñ ò ó ô ø ù ú û ÿ ā ă ē ĕ ī ĭ
+      ō ŏ œ ū ŭ
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
+    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § ‐ – — ‘ ’ “ ” † ‡ … ′ ″'
+    combinations: ''
+  draft: done, done, done, done, done
+  script: Latn
+as:
+  characters:
+    base: ঁ ং ঃ অ আ ই ঈ উ ঊ ঋ এ ঐ ও ঔ ক খ গ ঘ ঙ চ ছ জ ঝ ঞ ট ঠ ড ঢ ণ ত থ দ ধ ন প ফ
+      ব ভ ম য ল শ ষ স হ ় া ি ী ু ূ ৃ ে ৈ ো ৌ ্ ৰ ৱ
+    auxiliary: র ৎ ৲ ‌ ‍
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ০ ১ ২ ৩ ৪ ৫ ৬ ৭ ৮ ৯ ‰'
+    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § । ‐ – — ‘ ’ “ ” † ‡ … ′ ″'
+    combinations: '{ড়} {ঢ়} {য়} {ক্ষ}'
+  draft: done, done, contributed, done, contributed
+  script: Beng
+mg:
+  characters:
+    base: a b d e f g h i j k l m n o p r s t v y z à â è é ê ë ì î ï ñ ô
+    auxiliary: c q u w x
     numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
     punctuation: ''
     combinations: ''
-  draft: done, done, done
+  draft: done, done, done, done
   script: Latn
-or:
+lt:
   characters:
-    base: ଁ ଂ ଃ ଅ ଆ ଇ ଈ ଉ ଊ ଋ ଏ ଐ ଓ ଔ କ ଖ ଗ ଘ ଙ ଚ ଛ ଜ ଝ ଞ ଟ ଠ ଡ ଢ ଣ ତ ଥ ଦ ଧ ନ ପ ଫ
-      ବ ଭ ମ ଯ ର ଲ ଳ ଵ ଶ ଷ ସ ହ ଼ ା ି ୀ ୁ ୂ ୃ େ ୈ ୋ ୌ ୍ ୟ ୱ
-    auxiliary: ‌ ‍
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ୦ ୧ ୨ ୩ ୪ ୫ ୬ ୭ ୮ ୯ ‰'
-    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § ‐ – — ‘ ’ “ ” † ‡ … ′ ″'
-    combinations: '{ଡ଼} {ଢ଼}'
-  draft: done, done, contributed, done, contributed
-  script: ''
-os:
-  characters:
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӕ
-    auxiliary: ''
-    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
-    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § « » ‐ – — ‘ ‚ “ „ …'
-    combinations: '{гъ} {дж} {дз} {къ} {пъ} {тъ} {хъ} {цъ} {чъ}'
-    punctuation_combinations: '{ }'
-  draft: done, done, done, done, done
-  script: Cyrl
-pa:
-  characters:
-    base: ਅ ਆ ਇ ਈ ਉ ਊ ਏ ਐ ਓ ਔ ਕ ਖ ਗ ਘ ਙ ਚ ਛ ਜ ਝ ਞ ਟ ਠ ਡ ਢ ਣ ਤ ਥ ਦ ਧ ਨ ਪ ਫ ਬ ਭ ਮ ਯ
-      ਰ ਲ ਵ ਸ ਹ ਼ ਾ ਿ ੀ ੁ ੂ ੇ ੈ ੋ ੌ ੍ ੜ ੦ ੧ ੨ ੩ ੪ ੫ ੬ ੭ ੮ ੯ ੰ ੱ ੲ ੳ ੴ
-    auxiliary: ਁ ਂ ਃ ਲ ਼ ‌ ‍
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ੦ ੧ ੨ ੩ ੪ ੫ ੬ ੭ ੮ ੯ ‰'
-    punctuation: '! " & '' ( ) , - . / : ; ? [ ] ‐ – — ‘ ’ “ ” ′ ″'
-    combinations: '{ਸ਼} {ਖ਼} {ਗ਼} {ਜ਼} {ਫ਼}'
-    auxiliary_combinations: '{ਲ਼}'
-  draft: done, done, contributed, done, done
-  script: ''
-pl:
-  characters:
-    base: a b c d e f g h i j k l m n o p r s t u w y z ó ą ć ę ł ń ś ź ż
-    auxiliary: q v x ß à â ä å æ ç è é ê ë î ï ô ö ù û ü ÿ œ
-    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
-    punctuation: '! " # % & '' ( ) * , - . / : ; ? @ [ ] ~ § « ° » ‐ – — ” „ † ‡ …
-      ′ ″'
-    combinations: ''
-    punctuation_combinations: '{ }'
-  draft: done, done, contributed, done, done
-  script: Latn
-prg:
-  characters:
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ģ ī ķ ņ ō ŗ š ū
-      ž ț ḑ
-    auxiliary: ''
-    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
+    base: a b c d e f g h i j k l m n o p r s t u v y z ą č ė ę į š ū ų ž
+    auxiliary: c d h i j l m q r w x z à á ã è é ì í ñ ò ó õ ù ú ą ė ę ĩ į ũ ū ų ž
+      ̀ ́ ̃ ̇ ẽ
+    numbers: '% + , 0 1 2 3 4 5 6 7 8 9   ‰ −'
     punctuation: '! ( ) , - . : ; ? [ ] ‐ – — “ „ …'
     combinations: ''
+    auxiliary_combinations: '{ą́} {ą̃} {ch} {dz} {dž} {ę́} {ę̃} {ė́} {ė̃} {i̇́} {i̇̀}
+      {i̇̃} {į́} {į̇́} {į̃} {į̇̃} {j̃} {j̇̃} {l̃} {m̃} {r̃} {ų́} {ų̃} {ū́} {ū̃}'
     punctuation_combinations: '{ }'
   draft: done, done, done, done, done
   script: Latn
-ps:
+lg:
   characters:
-    base: ء آ أ ؤ ئ ا ب ة ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ل م ن ه و ي ً ٌ ٍ
-      َ ُ ِ ّ ْ ٔ ٰ ټ پ ځ څ چ ډ ړ ږ ژ ښ ک ګ گ ڼ ی ۍ ې
-    auxiliary: ے ‌ ‍ ‎ ‏
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ؉ ٪ ٫ ٬ ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹ ‎ ‰ −'
-    punctuation: '! '' ( ) / : ; [ ] ، ۔ ‘'
-    combinations: ''
-    punctuation_combinations: '{ }'
-  draft: done, done, contributed, done, done
-  script: Arab
-pt:
-  characters:
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ã ç é ê í ò ó
-      ô õ ú
-    auxiliary: ª º ä å æ è ë ì î ï ñ ö ø ù û ü ÿ ā ă ē ĕ ī ĭ ō ŏ œ ū ŭ
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § ‐ – — ‘ ’ “ ” † ‡ … ′ ″'
-    combinations: ''
-  draft: done, done, done, done, done
-  script: Latn
-qu:
-  characters:
-    base: a c h i k l m n p q s t u w y ñ ʼ
-    auxiliary: b c d e f g j o r v x z à á â ã ä å æ ç è é ê ë ì í î ï ò ó ô ö ø ù
-      ú û ü ÿ ā ă ē ĕ ī ĭ ō ŏ œ ū ŭ
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: ''
-    combinations: '{ch} {chʼ} {kʼ} {ll} {pʼ} {qʼ} {tʼ}'
-  draft: done, done, done, done
-  script: Latn
-rm:
-  characters:
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à è é ì ò ù
-    auxiliary: á â ä å æ ç ê ë í î ï ñ ó ô ö ø ú û ü ÿ ā ă ē ĕ ī ĭ ō ŏ œ ū ŭ
-    numbers: '% + . 0 1 2 3 4 5 6 7 8 9 ’ ‰ −'
-    punctuation: ''
-    combinations: ''
-  draft: contributed, contributed, contributed, done
-  script: Latn
-rn:
-  characters:
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    auxiliary: ''
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: ''
-    combinations: ''
-  draft: done, done, done
-  script: Latn
-ro:
-  characters:
-    base: a b c d e f g h i j k l m n o p r s t u v w x y z â î ă ș ț
-    auxiliary: q à á ä å ç è é ê ë ñ ö ü ş ţ
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: '! " '' ( ) * , - . / : ; ? @ [ ] « » ‐ – — ‘ “ ” „ …'
-    combinations: ''
-  draft: done, done, done, done, done
-  script: Latn
-rof:
-  characters:
-    base: a b c d e f g h i j k l m n o p r s t u v w y z
-    auxiliary: q x
+    base: a b c d e f g i j k l m n o p r s t u v w y z ŋ
+    auxiliary: h q x
     numbers: ''
     punctuation: ''
-    combinations: ''
+    combinations: '{ny}'
   draft: done, done, done
   script: Latn
-ru:
+mt:
   characters:
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё
-    auxiliary: ́ а е и о у ы э ю я
-    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
-    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § « » ‐ – — ‘ ‚ “ „ …'
-    combinations: ''
-    auxiliary_combinations: '{а́} {е́} {и́} {о́} {у́} {ы́} {э́} {ю́} {я́}'
-    punctuation_combinations: '{ }'
-  draft: done, done, done, done, done
-  script: Cyrl
-rw:
-  characters:
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    auxiliary: ''
+    base: a b d e f g h i j k l m n o p q r s t u v w x z à è ì ò ù ċ ġ ħ ż
+    auxiliary: c y
     numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: ''
-    combinations: ''
-  draft: done, done, done
-  script: Latn
-rwk:
-  characters:
-    base: a b c d e f g h i j k l m n o p r s t u v w y z
-    auxiliary: q x
-    numbers: ''
-    punctuation: ''
-    combinations: ''
-  draft: done, done, done
-  script: Latn
-sah:
-  characters:
-    base: а б г д и й к л м н о п р с т у х ч ы ь э ҕ ҥ ү һ ө
-    auxiliary: в е ж з ф ц ш щ ъ ь ю я ё
-    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
-    punctuation: ':'
-    combinations: '{дь} {нь}'
-  draft: done, done, done, done, contributed
-  script: Cyrl
-saq:
-  characters:
-    base: a b c d e g h i j k l m n o p r s t u v w y
-    auxiliary: f q x z
-    numbers: ''
-    punctuation: ''
-    combinations: ''
-  draft: done, done, done
-  script: Latn
-sbp:
-  characters:
-    base: a b c d e f g h i j k l m n o p s t u v w y
-    auxiliary: q r x z
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: ''
-    combinations: ''
-  draft: done, done, done, done
-  script: Latn
-sd:
-  characters:
-    base: ء آ ا ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ل م ن ه و ي ٺ ٻ ٽ پ ٿ ڀ ڃ
-      ڄ چ ڇ ڊ ڌ ڍ ڏ ڙ ڦ ک ڪ گ ڱ ڳ ڻ ھ
-    auxiliary: ئ َ ُ ِ
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: '! ( ) / : [ ] ۔ ‘ ⁏ ⹁'
-    combinations: '{جھ} {گھ}'
-    punctuation_combinations: '{ }'
-  draft: done, done, done, done, done
-  script: Arab
-se:
-  characters:
-    base: a b c d e f g h i j k l m n o p r s t u v z á č đ ŋ š ŧ ž
-    auxiliary: q w x y à ã ä å æ ç è é í ñ ò ó ö ø ú ü ń
-    numbers: '% + , 0 1 2 3 4 5 6 7 8 9   ‰ −'
-    punctuation: ''
-    combinations: ''
-  draft: done, done, contributed, done
-  script: Latn
-seh:
-  characters:
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ã ç é ê í ò ó
-      ô õ ú
-    auxiliary: ''
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: ''
-    combinations: ''
-  draft: done, done, done
-  script: Latn
-ses:
-  characters:
-    base: a b c d e f g h i j k l m n o p q r s t u w x y z ã õ ŋ š ž ɲ ẽ
-    auxiliary: v
-    numbers: '% + - . 0 1 2 3 4 5 6 7 8 9   ‰'
-    punctuation: ''
-    combinations: ''
-  draft: done, done, done, done
-  script: Latn
-sg:
-  characters:
-    base: a b d e f g h i j k l m n o p r s t u v w y z â ä ê ë î ï ô ö ù û ü
-    auxiliary: c q x
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: ''
-    combinations: ''
-  draft: done, done, done, done
-  script: Latn
-shi:
-  characters:
-    base: ⴰ ⴱ ⴳ ⴷ ⴹ ⴻ ⴼ ⴽ ⵀ ⵃ ⵄ ⵅ ⵇ ⵉ ⵊ ⵍ ⵎ ⵏ ⵓ ⵔ ⵕ ⵖ ⵙ ⵚ ⵛ ⵜ ⵟ ⵡ ⵢ ⵣ ⵥ ⵯ
-    auxiliary: ''
-    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
-    punctuation: ''
-    combinations: '{ⴳⵯ} {ⴽⵯ}'
-  draft: done, done, done
-  script: ''
-si:
-  characters:
-    base: ං ඃ අ ආ ඇ ඈ ඉ ඊ උ ඌ ඍ එ ඒ ඓ ඔ ඕ ඖ ක ඛ ග ඝ ඞ ඟ ච ඡ ජ ඣ ඤ ඥ ට ඨ ඩ ඪ ණ ඬ ත
-      ථ ද ධ න ඳ ප ඵ බ භ ම ඹ ය ර ල ව ශ ෂ ස හ ළ ෆ ් ා ැ ෑ ි ී ු ූ ෘ ෙ ේ ෛ ො ෝ ෞ ෟ ෲ
-    auxiliary: ඎ ඏ ඐ ඦ ෳ ​ ‌ ‍
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § ‐ – — ‘ ’ “ ” † ‡ … ′ ″'
-    combinations: ''
-  draft: done, done, done, done, done
-  script: ''
-sk:
-  characters:
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á ä é í ó ô ú ý č ď
-      ĺ ľ ň ŕ š ť ž
-    auxiliary: à â å æ ç è ê ë ì î ï ñ ò ö ø ù û ü ÿ ā ă ē ĕ ī ĭ ō ŏ ő œ ř ū ŭ ű
-    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
-    punctuation: '! & ( ) * , - . / : ; ? @ [ ] § ‐ – ‘ ‚ “ „ …'
-    combinations: '{dz} {dž} {ch}'
-  draft: done, done, contributed, done, done
-  script: Latn
-sl:
-  characters:
-    base: a b c d e f g h i j k l m n o p r s t u v z č š ž
-    auxiliary: q w x y à á â ä å æ ç è é ê ë ì í î ï ñ ò ó ô ö ø ù ú û ü ÿ ā ă ć đ
-      ē ĕ ī ĭ ō ŏ œ ū ŭ
-    numbers: '% + , . 0 1 2 3 4 5 6 7 8 9 ‰ −'
-    punctuation: '! " '' ( ) * , - . : ; ? @ [ ] « » – „ ‟ …'
-    combinations: ''
-    punctuation_combinations: '{ }'
-  draft: done, done, done, done, done
-  script: Latn
-smn:
-  characters:
-    base: a b c d e f g h i j k l m n o p r s t u v y z á â ä č đ ŋ š ž
-    auxiliary: q w x à ã å æ ç è é í ñ ò ó ö ø ú ü ń
-    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
-    punctuation: ''
-    combinations: ''
-  draft: done, done, done, done
-  script: Latn
-sn:
-  characters:
-    base: a b c d e f g h i j k l m n o p r s t u v w y z
-    auxiliary: q x
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: ''
-    combinations: ''
-  draft: done, done, done, done
-  script: Latn
-so:
-  characters:
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    auxiliary: ↑
-    numbers: ↑
-    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § ‐ – — ‘ ’ “ ” † ‡ … ′ ″'
-    combinations: ''
-  draft: done, contributed, contributed, contributed, contributed
-  script: Latn
-sq:
-  characters:
-    base: a b c d e f g h i j k l m n o p q r s t u v x y z ç ë
-    auxiliary: w
-    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
-    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] ~ § « » ‐ – — ‘ ’ “ ” … ′ ″'
-    combinations: '{dh} {gj} {ll} {nj} {rr} {sh} {th} {xh} {zh}'
-  draft: done, done, done, done, done
-  script: Latn
-sr:
-  characters:
-    base: а б в г д е ж з и к л м н о п р с т у ф х ц ч ш ђ ј љ њ ћ џ
-    auxiliary: ̂ а е и й о у щ ъ ы ь э ю я ё
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: '! # ( ) * , - . : ; ? [ ] ‐ – ‘ ‚ “ „ …'
-    combinations: ''
-    auxiliary_combinations: '{а̂} {е̂} {и̂} {о̂} {у̂}'
-    punctuation_combinations: '{ }'
-  draft: done, done, contributed, done, done
-  script: Cyrl
-sv:
-  characters:
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à ä å é ö
-    auxiliary: á â ã æ ç è ë í î ï ñ ó ø ú ü ÿ ā ī
-    numbers: '% + , 0 1 2 3 4 5 6 7 8 9   ‰ −'
-    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § ‐ – — ‘ ’ “ ” † ‡ … ′ ″'
-    combinations: ''
-  draft: done, done, done, done, done
-  script: Latn
-sw:
-  characters:
-    base: a b c d e f g h i j k l m n o p r s t u v w y z
-    auxiliary: c q x
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: '! " '' ( ) , - . : ; ? [ ]'
-    combinations: '{ch}'
+    punctuation: '! " '' ( ) , - . : ; ? [ ] ‘ ’ “ ”'
+    combinations: '{għ}'
     punctuation_combinations: '{ }'
   draft: done, done, contributed, done, done
   script: Latn
@@ -1836,173 +301,7 @@ ta:
     punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § ‐ – — ‘ ’ “ ” † ‡ … ′ ″'
     combinations: ''
   draft: done, done, contributed, done, contributed
-  script: ''
-te:
-  characters:
-    base: ఁ ం ః అ ఆ ఇ ఈ ఉ ఊ ఋ ఌ ఎ ఏ ఐ ఒ ఓ ఔ క ఖ గ ఘ ఙ చ ఛ జ ఝ ఞ ట ఠ డ ఢ ణ త థ ద ధ
-      న ప ఫ బ భ మ య ర ఱ ల ళ వ శ ష స హ ా ి ీ ు ూ ృ ౄ ె ే ై ొ ో ౌ ్ ౕ ౖ ౠ ౡ
-    auxiliary: ౦ ౧ ౨ ౩ ౪ ౫ ౬ ౭ ౮ ౯ ‌ ‍
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ౦ ౧ ౨ ౩ ౪ ౫ ౬ ౭ ౮ ౯ ‰'
-    punctuation: '! " '' ( ) , - . : ; ? [ ] ‘ ’ “ ”'
-    combinations: ''
-    punctuation_combinations: '{ }'
-  draft: done, done, done, done, done
-  script: ''
-teo:
-  characters:
-    base: a b c d e g h i j k l m n o p r s t u v w x y
-    auxiliary: f q z
-    numbers: ''
-    punctuation: ''
-    combinations: ''
-  draft: done, done, done
-  script: Latn
-tg:
-  characters:
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ч ш ъ э ю я ё ғ қ ҳ ҷ ӣ ӯ
-    auxiliary: ц щ ы ь
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § ‐ – — ‘ ’ “ ” † ‡ … ′ ″'
-    combinations: ''
-  draft: done, done, contributed, contributed, contributed
-  script: Cyrl
-th:
-  characters:
-    base: ก ข ฃ ค ฅ ฆ ง จ ฉ ช ซ ฌ ญ ฎ ฏ ฐ ฑ ฒ ณ ด ต ถ ท ธ น บ ป ผ ฝ พ ฟ ภ ม ย ร ฤ
-      ล ฦ ว ศ ษ ส ห ฬ อ ฮ ฯ ะ ั า ำ ิ ี ึ ื ุ ู ฺ เ แ โ ใ ไ ๅ ๆ ็ ่ ้ ๊ ๋ ์ ํ ๎
-    auxiliary: ​
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: '! " # '' ( ) * , - . / : @ [ ] ‐ – — ‘ ’ “ ” … ′ ″'
-    combinations: ''
-  draft: done, done, contributed, done, done
-  script: ''
-ti:
-  characters:
-    base: '- ሀ ሆ ለ ቆ ቈ ቊ ቍ ቐ ቖ ቘ ቚ ቝ በ ኆ ኈ ኊ ኍ ነ ኮ ኰ ኲ ኵ ኸ ኾ ዀ ዂ ዅ ወ ዎ ዐ ዖ ዘ ዮ ደ ዷ
-      ጀ ጎ ጐ ጒ ጕ ጠ ፗ ፟'
-    auxiliary: ሇ ቇ ኇ ኯ ዏ ዯ ዸ ዹ ዺ ዻ ዼ ዽ ዾ ዿ ጏ ጘ ጙ ጚ ጛ ጜ ጝ ጞ ጟ ፘ ፙ ፚ ᎀ ᎁ ᎂ ᎃ ᎄ ᎅ ᎆ ᎇ
-      ᎈ ᎉ ᎊ ᎋ ᎌ ᎍ ᎎ ᎏ ᎐ ᎑ ᎒ ᎓ ᎔ ᎕ ᎖ ᎗ ᎘ ᎙ ⶀ ⶁ ⶂ ⶃ ⶄ ⶅ ⶆ ⶇ ⶈ ⶉ ⶊ ⶋ ⶌ ⶍ ⶎ ⶏ ⶐ ⶑ ⶒ ⶓ
-      ⶔ ⶕ ⶖ ⶠ ⶡ ⶢ ⶣ ⶤ ⶥ ⶦ ⶨ ⶩ ⶪ ⶫ ⶬ ⶭ ⶮ ⶰ ⶱ ⶲ ⶳ ⶴ ⶵ ⶶ ⶸ ⶹ ⶺ ⶻ ⶼ ⶽ ⶾ ⷀ ⷁ ⷂ ⷃ ⷄ ⷅ ⷆ
-      ⷈ ⷉ ⷊ ⷋ ⷌ ⷍ ⷎ ⷐ ⷑ ⷒ ⷓ ⷔ ⷕ ⷖ ⷘ ⷙ ⷚ ⷛ ⷜ ⷝ ⷞ
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: ''
-    combinations: ''
-  draft: done, done, done, done
-  script: ''
-tk:
-  characters:
-    base: a b d e f g h i j k l m n o p r s t u w y z ä ç ö ü ý ň ş ž
-    auxiliary: c q v x
-    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
-    punctuation: '! " # ( ) * , - . : ; ? @ [ ] § – — “ ” …'
-    combinations: ''
-    punctuation_combinations: '{ }'
-  draft: done, done, done, done, done
-  script: Latn
-to:
-  characters:
-    base: a e f g h i k l m n o p s t u v á é í ó ú ā ē ī ō ū ʻ
-    auxiliary: b c d g j q r w x y z à â ä å æ ç è ê ë ì î ï ñ ò ô ö ø ù û ü ÿ ă ĕ
-      ĭ ŏ œ ŭ
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § ‐ – — ‘ ’ “ ” † ‡ … ′ ″'
-    combinations: '{ng}'
-  draft: done, done, done, done, done
-  script: Latn
-tr:
-  characters:
-    base: a b c d e f g h i j k l m n o p r s t u v y z ç ö ü ğ İ ı ş
-    auxiliary: q w x ß à á â ã ä å æ è é ê ë ì í î ï ñ ò ó ô ø ù ú û ÿ ā ă ē ĕ ī ĭ
-      ō ŏ œ ū ŭ
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § ‐ – — ‘ ’ “ ” † ‡ … ′ ″'
-    combinations: ''
-  draft: done, done, done, done, done
-  script: Latn
-tt:
-  characters:
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё җ ң ү
-      һ ә ө
-    auxiliary: ғ қ
-    numbers: ↑
-    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § ‐ – — ‘ ’ “ ” … ′ ″'
-    combinations: ''
-  draft: done, contributed, contributed, contributed, contributed
-  script: Cyrl
-twq:
-  characters:
-    base: a b c d e f g h i j k l m n o p q r s t u w x y z ã õ ŋ š ž ɲ ẽ
-    auxiliary: v
-    numbers: '% + - . 0 1 2 3 4 5 6 7 8 9   ‰'
-    punctuation: ''
-    combinations: ''
-  draft: done, done, unconfirmed, done
-  script: Latn
-tzm:
-  characters:
-    base: a b c d e f g h i j k l m n q r s t u w x y z ɛ ɣ ʷ ḍ ḥ ṛ ṣ ṭ
-    auxiliary: o p v
-    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
-    punctuation: ''
-    combinations: '{gʷ} {kʷ}'
-  draft: done, done, done, done
-  script: Latn
-ug:
-  characters:
-    base: ئ ا ب ت ج خ د ر ز س ش غ ف ق ك ل م ن ه و ى ي پ چ ژ ڭ گ ھ ۆ ۇ ۈ ۋ ې ە
-    auxiliary: ئ ‎ ‏
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: ''
-    combinations: '{ئا} {ئه} {ئو} {ئۇ} {ئۆ} {ئۈ} {ئې} {ئى}'
-  draft: contributed, done, contributed, done
-  script: Arab
-uk:
-  characters:
-    base: ʼ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ь ю я є і ї ґ
-    auxiliary: ́ а е и о у ъ ы э ю я ё є і ї
-    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
-    punctuation: '! " '' ( ) * , - . / : ; ? @ [ \ ] § « » – ’ “ „ №'
-    combinations: ''
-    auxiliary_combinations: '{а́} {е́} {є́} {и́} {і́} {ї́} {о́} {у́} {ю́} {я́}'
-    punctuation_combinations: '{ }'
-  draft: done, done, done, done, done
-  script: ''
-ur:
-  characters:
-    base: ء آ أ ؤ ئ ا ب ة ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ل م ن ه و ٹ پ چ ڈ
-      ڑ ژ ک گ ں ھ ہ ۂ ی ے
-    auxiliary: ؀ ؁ ؂ ؃ ي ً ٌ ٍ َ ُ ِ ّ ْ ٔ ٖ ٗ ٘ ٰ ٺ ٻ ټ ٽ ۃ ‌ ‍ ‎ ‏
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ٫ ٬ ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹ ‎ ‰'
-    punctuation: '( ) . : [ \ ، ؍ ؛ ؟ ٫ ٬ ۔'
-    combinations: ''
-  draft: done, done, done, done, done
-  script: Arab
-uz:
-  characters:
-    base: a b c d e f g h i j k l m n o p q r s t u v x y z ʻ ʼ
-    auxiliary: c w
-    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
-    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § « » ‐ – — ‘ ’ “ ” „ … ′ ″'
-    combinations: '{oʻ} {gʻ} {sh} {ch}'
-    punctuation_combinations: '{ }'
-  draft: done, done, done, done, done
-  script: Latn
-vai:
-  characters:
-    base: ꔀ ꔁ ꔂ ꔃ ꔄ ꔅ ꔆ ꔇ ꔈ ꔉ ꔊ ꔋ ꔌ ꔍ ꔎ ꔏ ꔐ ꔑ ꔒ ꔓ ꔔ ꔕ ꔖ ꔗ ꔘ ꔙ ꔚ ꔛ ꔜ ꔝ ꔞ ꔟ ꔠ ꔡ ꔢ ꔣ
-      ꔤ ꔥ ꔦ ꔧ ꔨ ꔩ ꔪ ꔫ ꔬ ꔭ ꔮ ꔯ ꔰ ꔱ ꔲ ꔳ ꔴ ꔵ ꔶ ꔷ ꔸ ꔹ ꔺ ꔻ ꔼ ꔽ ꔾ ꔿ ꕀ ꕁ ꕂ ꕃ ꕄ ꕅ ꕆ ꕇ ꕈ ꕉ
-      ꕊ ꕋ ꕌ ꕍ ꕎ ꕏ ꕐ ꕑ ꕒ ꕓ ꕔ ꕕ ꕖ ꕗ ꕘ ꕙ ꕚ ꕛ ꕜ ꕝ ꕞ ꕟ ꕠ ꕡ ꕢ ꕣ ꕤ ꕥ ꕦ ꕧ ꕨ ꕩ ꕪ ꕫ ꕬ ꕭ ꕮ ꕯ
-      ꕰ ꕱ ꕲ ꕳ ꕴ ꕵ ꕶ ꕷ ꕸ ꕹ ꕺ ꕻ ꕼ ꕽ ꕾ ꕿ ꖀ ꖁ ꖂ ꖃ ꖄ ꖅ ꖆ ꖇ ꖈ ꖉ ꖊ ꖋ ꖌ ꖍ ꖎ ꖏ ꖐ ꖑ ꖒ ꖓ ꖔ ꖕ
-      ꖖ ꖗ ꖘ ꖙ ꖚ ꖛ ꖜ ꖝ ꖞ ꖟ ꖠ ꖡ ꖢ ꖣ ꖤ ꖥ ꖦ ꖧ ꖨ ꖩ ꖪ ꖫ ꖬ ꖭ ꖮ ꖯ ꖰ ꖱ ꖲ ꖳ ꖴ ꖵ ꖶ ꖷ ꖸ ꖹ ꖺ ꖻ
-      ꖼ ꖽ ꖾ ꖿ ꗀ ꗁ ꗂ ꗃ ꗄ ꗅ ꗆ ꗇ ꗈ ꗉ ꗊ ꗋ ꗌ ꗍ ꗎ ꗏ ꗐ ꗑ ꗒ ꗓ ꗔ ꗕ ꗖ ꗗ ꗘ ꗙ ꗚ ꗛ ꗜ ꗝ ꗞ ꗟ ꗠ ꗡ
-      ꗢ ꗣ ꗤ ꗥ ꗦ ꗧ ꗨ ꗩ ꗪ ꗫ ꗬ ꗭ ꗮ ꗯ ꗰ ꗱ ꗲ ꗳ ꗴ ꗵ ꗶ ꗷ ꗸ ꗹ ꗺ ꗻ ꗼ ꗽ ꗾ ꗿ ꘀ ꘁ ꘂ ꘃ ꘄ ꘅ ꘆ ꘇ
-      ꘈ ꘉ ꘊ ꘋ ꘌ ꘐ ꘑ ꘒ ꘪ ꘫ
-    auxiliary: ꘓ ꘔ ꘕ ꘖ ꘗ ꘘ ꘙ ꘚ ꘛ ꘜ ꘝ ꘞ ꘟ
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: ''
-    combinations: ''
-  draft: done, done, done
-  script: ''
+  script: Taml
 vi:
   characters:
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ã è é ê ì í ò
@@ -2014,169 +313,103 @@ vi:
     combinations: ''
   draft: done, contributed, contributed, done, done
   script: Latn
-vo:
+ur:
   characters:
-    base: a b c d e f g h i j k l m n o p r s t u v x y z ä ö ü
-    auxiliary: q w
+    base: ء آ أ ؤ ئ ا ب ة ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ل م ن ه و ٹ پ چ ڈ
+      ڑ ژ ک گ ں ھ ہ ۂ ی ے
+    auxiliary: ؀ ؁ ؂ ؃ ي ً ٌ ٍ َ ُ ِ ّ ْ ٔ ٖ ٗ ٘ ٰ ٺ ٻ ټ ٽ ۃ ‌ ‍ ‎ ‏
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ٫ ٬ ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹ ‎ ‰'
+    punctuation: '( ) . : [ \ ، ؍ ؛ ؟ ٫ ٬ ۔'
+    combinations: ''
+  draft: done, done, done, done, done
+  script: Arab
+nus:
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ë ï ö ŋ ɔ ɛ ɣ ̈ ̱
+    auxiliary: ''
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
+    punctuation: ''
+    combinations: '{a̱} {e̱} {ɛ̈} {ɛ̱} {ɛ̱̈} {i̱} {o̱} {ɔ̈} {ɔ̱}'
+  draft: done, done, done
+  script: Latn
+saq:
+  characters:
+    base: a b c d e g h i j k l m n o p r s t u v w y
+    auxiliary: f q x z
     numbers: ''
-    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § « » ‐ – — ‘ ’ “ ” …'
+    punctuation: ''
+    combinations: ''
+  draft: done, done, done
+  script: Latn
+bm:
+  characters:
+    base: a b c d e f g h i j k l m n o p r s t u w y z ŋ ɔ ɛ ɲ
+    auxiliary: q v x
+    numbers: ''
+    punctuation: ''
+    combinations: ''
+  draft: done, done, done
+  script: Latn
+nn:
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à å æ é ò ó ô ø
+    auxiliary: á ä ç è ê ñ ö ü č đ ń ŋ š ŧ ž ǎ
+    numbers: '% + , 0 1 2 3 4 5 6 7 8 9   ‰ −'
+    punctuation: ''
+    combinations: ''
+  draft: done, done, done, done
+  script: Latn
+nl:
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á ä é ë í ï ó ö ú ü
+      ́
+    auxiliary: à â ã å æ ç è ê î ñ ô ø ù û ÿ œ
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
+    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § ‐ – — ‘ ’ “ ” † ‡ … ′ ″'
+    combinations: '{ij} {íj́}'
+  draft: done, done, contributed, done, done
+  script: Latn
+dyo:
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y á é í ñ ó ú ŋ
+    auxiliary: z
+    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
+    punctuation: ''
+    combinations: ''
+  draft: done, done, done, done
+  script: Latn
+bo:
+  characters:
+    base: ཀ ཁ ག ང ཅ ཆ ཇ ཉ ཊ ཋ ཌ ཎ ཏ ཐ ད ན པ ཕ བ མ ཙ ཚ ཛ ཝ ཞ ཟ འ ཡ ར ལ ཤ ཥ ས ཧ ཨ ཪ
+      ཱ ི ུ ཷ ཹ ེ ཻ ོ ཽ ཾ ཿ ྀ ྄ ྐ ྑ ྒ ྔ ྕ ྖ ྗ ྙ ྚ ྛ ྜ ྞ ྟ ྠ ྡ ྣ ྤ ྥ ྦ ྨ ྩ ྪ ྫ ྭ ྮ
+      ྯ ྰ ྱ ྲ ླ ྴ ྵ ྶ ྷ ྸ ྺ ྻ ྼ
+    auxiliary: ༀ
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ༠ ༡ ༢ ༣ ༤ ༥ ༦ ༧ ༨ ༩ ‰'
+    punctuation: ': ་ །'
+    combinations: '{ཀྵ} {ྐྵ} {གྷ} {ྒྷ} {ཌྷ} {ྜྷ} {དྷ} {ྡྷ} {བྷ} {ྦྷ} {ཛྷ} {ྫྷ} {ཱི}
+      {ཱྀ} {ཱུ} {ྲྀ} {ླྀ}'
+  draft: done, done, contributed, done, unconfirmed
+  script: Tibt
+prg:
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ģ ī ķ ņ ō ŗ š ū
+      ž ț ḑ
+    auxiliary: ''
+    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
+    punctuation: '! ( ) , - . : ; ? [ ] ‐ – — “ „ …'
     combinations: ''
     punctuation_combinations: '{ }'
-  draft: done, done, done, done
-  script: Latn
-vun:
-  characters:
-    base: a b c d e f g h i j k l m n o p r s t u v w y z
-    auxiliary: q x
-    numbers: ''
-    punctuation: ''
-    combinations: ''
-  draft: done, done, done
-  script: Latn
-wae:
-  characters:
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á ã ä é í ó õ ö ú ü
-      č š ũ
-    auxiliary: ß à â å æ ç è ê ë ì î ï ñ ò ô ø ù û ÿ ā ă ē ĕ ī ĭ ō ŏ œ ū ŭ
-    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9 ’ ‰'
-    punctuation: ''
-    combinations: ''
-  draft: done, done, done, done
-  script: Latn
-wo:
-  characters:
-    base: a b c d e f g i j k l m n o p q r s t u w x y à é ë ñ ó ŋ
-    auxiliary: h v z ã
-    numbers: ''
-    punctuation: ''
-    combinations: ''
-  draft: done, done, done
-  script: Latn
-xh:
-  characters:
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    auxiliary: ''
-    numbers: ''
-    punctuation: ''
-    combinations: ''
-  draft: done, done, unconfirmed
-  script: Latn
-xog:
-  characters:
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    auxiliary: ''
-    numbers: ''
-    punctuation: ''
-    combinations: ''
-  draft: done, done
-  script: Latn
-yav:
-  characters:
-    base: a b c d e f g h i k l m n o p s t u v w y à á â è é ì í î ò ó ô ù ú û ā
-      ī ŋ ō ū ǎ ǒ ǔ ɔ ɛ ̀ ́
-    auxiliary: g j q r x z
-    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
-    punctuation: ''
-    combinations: '{ɛ́} {ɛ̀} {mb} {ny} {ŋg} {ɔ́} {ɔ̀}'
-  draft: done, done, done, done
-  script: Latn
-yi:
-  characters:
-    base: ִ ַ ָ ּ ֿ ׂ א ב ג ד ה ו ז ח ט י ך כ ל ם מ ן נ ס ע ף פ ץ צ ק ר ש ת ײ
-    auxiliary: ‎ ‏
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: '! " '' ( ) , - . / : ; ? [ ] ־ ׳ ״ ‐ – —'
-    combinations: '{אַ} {אָ} {בֿ} {דזש} {וּ} {וו} {וי} {זש} {טש} {יִ} {יי} {ײַ} {כּ}
-      {פּ} {פֿ} {שׂ} {תּ}'
-  draft: done, contributed, done, done, contributed
-  script: ''
-yo:
-  characters:
-    base: a b d e f g h i j k l m n o p r s t u w y à á è é ì í ò ó ù ú ̀ ́ ṣ ẹ ọ
-    auxiliary: c q v x z
-    numbers: ↑
-    punctuation: '! " # & '' ( ) * , - . / : ; ? @ ‐ – — ‘ ’ “ ” † ‡ … ′ ″'
-    combinations: '{ẹ́} {ẹ̀} {gb} {ọ́} {ọ̀}'
-  draft: done, done, done, contributed, contributed
-  script: Latn
-yue:
-  characters:
-    base: '- 一 丁 七 丈 不 丑 且 世 丘 丙 丟 並 中 串 丸 丹 主 乃 久 么 之 乎 乏 乖 乘 乙 九 也 乾 亂 了 予 事 二 于
-      云 互 五 井 些 亞 亡 交 亦 亨 享 京 亮 人 什 仁 仇 今 介 仍 仔 他 付 仙 代 以 仰 仲 件 任 份 企 伊 伍 伐 休 伙 伯
-      估 伴 伸 似 伽 但 佈 佉 位 住 佔 何 余 佛 作 你 佩 佳 使 來 例 供 依 侯 侵 便 係 俄 俊 俗 保 俠 信 修 俱 俾 個 倍
-      們 倒 候 倚 借 倫 值 假 偉 偏 做 停 健 側 偷 傑 備 傢 傣 傲 傳 傷 傻 傾 僅 像 僑 僧 價 儀 億 儒 儘 優 允 元 充 兇
-      光 克 免 兒 兔 入 內 兩 八 兮 共 兵 典 兼 冊 再 冒 冠 冬 冰 冷 准 凌 凝 凡 凰 凱 出 函 刀 分 切 刊 列 初 判 別 利
-      刪 到 制 刷 刺 刻 則 剌 前 剛 剩 剪 副 割 創 劃 劇 劉 劍 力 功 加 助 劫 勁 勇 勉 勒 動 務 勝 勞 勢 勤 勵 勸 勿 包
-      匈 化 北 匹 區 十 千 升 午 半 卒 協 南 博 卜 卡 卯 危 即 卷 卻 厄 厘 厚 原 厭 厲 去 參 又 及 友 反 叔 取 受 口 另
-      只 叭 可 台 史 右 司 吃 各 合 吊 同 后 吐 吒 君 吝 吠 否 吧 含 吳 吵 吸 吹 吾 呀 呂 呆 告 呢 周 味 呵 呼 命 和 咖
-      咦 咧 咪 咬 咱 哀 品 哇 哉 哎 員 哥 哦 哩 哪 哭 哲 唉 唐 唔 唬 售 唯 唱 唷 唸 商 啊 問 啟 啡 啥 啦 啪 喀 喂 善 喇
-      喊 喔 喜 喝 喬 單 喵 嗎 嗚 嗨 嗯 嘆 嘉 嘗 嘛 嘴 嘻 嘿 器 噴 嚇 嚴 囉 四 回 因 困 固 圈 國 圍 園 圓 圖 團 圜 土 在
-      圭 地 圾 址 均 坎 坐 坡 坤 坦 坪 垂 垃 型 埃 城 埔 域 執 培 基 堂 堅 堆 堡 堪 報 場 塊 塔 塗 塞 填 塵 境 增 墨 墮
-      壁 壇 壓 壘 壞 壢 士 壬 壯 壽 夏 夕 外 多 夜 夠 夢 夥 大 天 夫 央 失 夷 夸 夾 奇 奉 奎 奏 契 奔 套 奧 奪 奮 女 奴
-      奶 她 好 如 妙 妝 妥 妨 妮 妳 妹 妻 姆 姊 始 姐 姑 姓 委 姿 威 娃 娘 娛 婁 婆 婚 婦 媒 媽 嫌 嫩 子 孔 字 存 孝 孟
-      季 孤 孩 孫 學 它 宅 宇 安 宋 完 宏 宗 宜 客 室 宮 害 家 容 宿 寂 寄 密 富 寒 寞 察 寢 實 審 寫 寬 寮 寵 寶 封 射
-      將 專 尊 尋 對 小 少 尖 尚 尤 就 尺 尼 尾 局 屁 居 屆 屋 屏 展 屠 層 屬 山 岡 岩 岸 峰 島 峽 崇 崙 崴 嵐 嶺 川 州
-      巡 工 巨 巫 差 己 巴 巷 市 布 希 帕 帖 帛 帝 帥 師 席 帳 帶 常 帽 幅 幕 幣 幫 干 年 幸 幹 幻 幾 庇 床 序 底 店 庚
-      府 度 座 庫 庭 康 庸 廉 廖 廠 廢 廣 廳 延 廷 建 弄 式 引 弗 弘 弟 弦 弱 張 強 彈 彊 彌 彎 彝 彞 形 彥 彩 彬 彭 彰
-      影 役 彼 往 征 待 很 律 後 徐 徒 得 從 復 微 徵 德 徹 心 必 忌 忍 志 忙 忠 快 念 忽 怎 怒 怕 怖 思 怡 急 性 怨 怪
-      恆 恐 恢 恥 恨 恩 恭 息 恰 悅 悉 悔 悟 悠 您 悲 悶 情 惑 惜 惠 惡 惱 想 惹 愁 愈 愉 意 愚 愛 感 慈 態 慕 慘 慢 慣
-      慧 慮 慰 慶 慾 憂 憐 憑 憲 憶 憾 懂 應 懶 懷 懼 戀 戈 戊 戌 成 戒 或 截 戰 戲 戴 戶 房 扁 扇 手 才 扎 打 托 扣 扥
-      扭 扯 批 找 技 抄 把 抓 投 抗 折 披 抬 抱 抵 抹 抽 拆 拉 拋 拍 拏 拒 拔 拖 招 拜 括 拳 拼 拾 拿 持 指 按 挑 挖 挪
-      振 挺 捐 捕 捨 捲 捷 掃 授 掉 掌 排 掛 採 探 接 控 推 措 描 提 插 揚 換 握 揮 援 損 搖 搜 搞 搬 搭 搶 摘 摩 摸 撐
-      撒 撞 撣 撥 播 撾 撿 擁 擇 擊 擋 操 擎 擔 據 擠 擦 擬 擴 擺 擾 攝 支 收 改 攻 放 政 故 效 敍 敏 救 敗 教 敝 敢 散
-      敦 敬 整 敵 數 文 斐 斗 料 斯 新 斷 方 於 施 旁 旅 旋 族 旗 既 日 旦 早 旭 旺 昂 昆 昇 昌 明 昏 易 星 映 春 昨 昭
-      是 時 晉 晒 晚 晨 普 景 晴 晶 智 暑 暖 暗 暫 暴 曆 曉 曰 曲 更 書 曼 曾 最 會 月 有 朋 服 朗 望 朝 期 木 未 札 朱
-      朵 杉 李 材 村 杜 束 杯 東 松 板 析 林 果 枝 架 柏 某 染 柔 查 柬 柯 柳 柴 校 核 根 格 桃 案 桌 桑 梁 梅 條 梨 梯
-      械 梵 棄 棉 棋 棒 棚 森 椅 植 椰 楊 楓 楚 業 極 概 榜 榮 構 槍 樂 樓 標 樞 模 樣 樹 橋 機 橫 檀 檔 檢 欄 權 次 欣
-      欲 欺 欽 款 歉 歌 歐 歡 武 歲 歷 歸 死 殊 殘 段 殺 殼 毀 毅 母 每 毒 比 毛 毫 氏 民 氣 水 永 求 汗 汝 江 污 汪 汶
-      決 汽 沃 沈 沉 沒 沖 沙 河 油 治 沿 況 泉 泊 法 泡 波 泥 注 泰 泳 洋 洗 洛 洞 洩 洪 洲 活 洽 派 流 浦 浩 浪 浮 海
-      涇 涉 涯 液 涵 涼 淑 淚 淡 淨 深 混 淺 清 減 渡 測 港 游 湖 湯 源 準 溝 溪 溫 滄 滅 滋 滑 滴 滾 滿 漂 漏 演 漠 漢
-      漫 漲 漸 潔 潘 潛 潮 澤 澳 激 濃 濟 濤 濫 濱 瀏 灌 灣 火 灰 災 炎 炮 炸 為 烈 烏 烤 無 焦 然 煙 煞 照 煩 熊 熟 熱
-      燃 燈 燒 營 爆 爐 爛 爪 爬 爭 爵 父 爸 爺 爽 爾 牆 版 牌 牙 牛 牠 牧 物 牲 特 牽 犧 犯 狀 狂 狐 狗 狠 狼 猛 猜 猴
-      猶 獄 獅 獎 獨 獲 獸 獻 玄 率 玉 王 玩 玫 玲 玻 珊 珍 珠 珥 班 現 球 理 琉 琪 琴 瑙 瑜 瑞 瑟 瑤 瑪 瑰 環 瓜 瓦 瓶
-      甘 甚 甜 生 產 用 田 申 男 甸 界 留 畢 略 番 畫 異 當 疆 疏 疑 疼 病 痕 痛 痴 瘋 療 癡 癸 登 百 的 皆 皇 皮 盃 益
-      盛 盜 盟 盡 監 盤 盧 目 盲 直 相 盼 盾 省 眉 看 真 眠 眼 眾 睛 睡 督 瞧 瞭 矛 矣 知 短 石 砂 砍 研 砲 破 硬 碎 碗
-      碟 碧 碩 碰 確 碼 磁 磨 磯 礎 礙 示 社 祕 祖 祚 祛 祝 神 祥 票 祿 禁 禍 福 禪 禮 秀 私 秋 科 秒 秘 租 秤 秦 移 稅
-      程 稍 種 稱 稿 穆 穌 積 穩 究 穹 空 穿 突 窗 窩 窮 窶 立 站 竟 章 童 端 競 竹 笑 笛 符 笨 第 筆 等 筋 答 策 简 算
-      管 箭 箱 節 範 篇 築 簡 簫 簽 簿 籃 籌 籍 籤 米 粉 粗 粵 精 糊 糕 糟 系 糾 紀 約 紅 納 紐 純 紙 紛 素 索 紫 累 細
-      紹 終 組 結 絕 絡 給 統 絲 經 綜 綠 維 綱 網 緊 緒 線 緣 編 緩 緬 緯 練 縛 縣 縮 縱 總 績 繁 繆 織 繞 繪 繳 繼 續
-      缸 缺 罕 罪 置 罰 署 罵 罷 羅 羊 美 羞 群 義 羽 翁 習 翔 翰 翹 翻 翼 耀 老 考 者 而 耍 耐 耗 耳 耶 聊 聖 聚 聞 聯
-      聰 聲 職 聽 肉 肚 股 肥 肩 肯 育 背 胎 胖 胞 胡 胸 能 脆 脫 腓 腔 腦 腰 腳 腿 膽 臉 臘 臣 臥 臨 自 臭 至 致 臺 與
-      舊 舌 舍 舒 舞 舟 航 般 船 艦 良 色 艾 芝 芬 花 芳 若 苦 英 茅 茫 茲 茶 草 荒 荷 荼 莉 莊 莎 莫 菜 菩 華 菲 萄 萊
-      萬 落 葉 著 葛 葡 蒂 蒙 蒲 蒼 蓋 蓮 蔕 蔡 蔣 蕭 薄 薦 薩 薪 藉 藍 藏 藝 藤 藥 蘆 蘇 蘭 虎 處 虛 號 虧 蛇 蛋 蛙 蜂
-      蜜 蝶 融 螢 蟲 蟹 蠍 蠻 血 行 術 街 衛 衝 衡 衣 表 袋 被 裁 裂 裕 補 裝 裡 製 複 褲 西 要 覆 見 規 視 親 覺 覽 觀
-      角 解 觸 言 訂 計 訊 討 訓 託 記 訥 訪 設 許 訴 註 証 評 詞 詢 試 詩 話 詳 誇 誌 認 誓 誕 語 誠 誤 說 誰 課 誼 調
-      談 請 諒 論 諸 諺 諾 謀 謂 講 謝 證 識 譜 警 譯 議 護 譽 讀 變 讓 讚 谷 豆 豈 豐 象 豪 豬 貌 貓 貝 貞 負 貢 貨 貪
-      責 貴 買 費 貼 賀 資 賈 賓 賜 賞 賢 賤 賦 質 賭 賴 賺 購 賽 贈 贊 贏 赤 赫 走 起 超 越 趕 趙 趣 趨 足 跌 跎 跑 距
-      跟 跡 路 跳 踏 踢 蹟 蹤 躍 身 躲 車 軌 軍 軒 軟 較 載 輔 輕 輛 輝 輩 輪 輯 輸 轉 轟 辛 辦 辨 辭 辯 農 迅 迎 近 返
-      迦 迪 迫 述 迴 迷 追 退 送 逃 逆 透 逐 途 這 逛 逝 速 造 逢 連 週 進 逸 逼 遇 遊 運 遍 過 道 違 遙 遜 遠 適 遭 遮
-      遲 遷 選 遺 避 邁 還 邊 邏 那 邦 邪 邱 郎 部 郭 郵 都 鄂 鄉 鄭 鄰 酉 配 酒 酷 酸 醉 醒 醜 醫 采 釋 量 金 針 釣 鈴
-      鉢 銀 銅 銖 銘 銳 銷 鋒 鋼 錄 錢 錦 錫 錯 鍋 鍵 鍾 鎊 鎖 鎮 鏡 鐘 鐵 鑑 長 門 閃 閉 開 閏 閒 間 閣 閱 闆 闊 闍 闐
-      關 闡 防 阻 阿 陀 附 降 限 院 除 陪 陰 陳 陵 陸 陽 隆 隊 階 隔 際 障 隨 險 隱 隻 雄 集 雉 雖 雙 雜 雞 離 難 雨 雪
-      雲 零 雷 電 需 震 霍 霧 露 霸 霹 靂 靈 青 靖 靜 非 靠 面 革 靼 鞋 韃 韋 韓 音 韻 響 頁 頂 項 順 須 預 頑 頓 頗 領
-      頞 頭 頻 顆 題 額 顏 願 類 顧 顯 風 飄 飛 食 飯 飲 飽 飾 餅 養 餐 餘 館 首 香 馬 駐 駕 駛 騎 騙 騷 驅 驗 驚 骨 體
-      高 髮 鬆 鬥 鬧 鬱 鬼 魁 魂 魅 魔 魚 魯 鮮 鳥 鳳 鳴 鴻 鵝 鷹 鹿 麗 麥 麵 麻 麼 黃 黎 黑 默 點 黨 鼓 鼠 鼻 齊 齋 齒
-      齡 龍 龜'
-    auxiliary: 乍 仂 伏 佐 侶 僳 兆 兌 兹 凸 别 券 勳 卑 卞 占 叶 嘅 堤 墎 壤 奥 孜 峇 嶼 巽 栗 楔 涅 渾 澎 灘 燦 狄
-      琳 瑚 甫 碑 礁 纜 艇 芒 苗 茨 蓬 蚩 蜀 裘 謬 酋 隴 雀 髪
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰ 〇 一 七 三 九 二 五 八 六 四'
-    punctuation: '! " # % & ( ) * , - . / : ; ? @ [ \ ] _ § · ‐ – — ‘ ’ “ ” † ‡ ‥
-      … ‧ ‰ ′ ″ ‵ ※ ‾ 、 。 〃 〈 〉 《 》 「 」 『 』 【 】 〔 〕 〝 〞 ︰ ︱ ︲ ︳ ︴ ︵ ︶ ︷ ︸ ︹ ︺ ︻ ︼
-      ︽ ︾ ︿ ﹀ ﹁ ﹂ ﹃ ﹄ ﹉ ﹊ ﹋ ﹌ ﹍ ﹎ ﹏ ﹐ ﹑ ﹒ ﹔ ﹕ ﹖ ﹗ ﹘ ﹙ ﹚ ﹛ ﹜ ﹝ ﹞ ﹟ ﹠ ﹡ ﹣ ﹨ ﹪ ﹫ ！ ＂
-      ＃ ％ ＆ ＇ （ ） ＊ ， － ． ／ ： ； ？ ＠ ［ ＼ ］ ＿ ｛ ｝'
-    combinations: ''
-    punctuation_combinations: '{ ｛ ﹛ ︷ }'
   draft: done, done, done, done, done
-  script: ''
-zgh:
+  script: Latn
+ksb:
   characters:
-    base: ⴰ ⴱ ⴳ ⴷ ⴹ ⴻ ⴼ ⴽ ⵀ ⵃ ⵄ ⵅ ⵇ ⵉ ⵊ ⵍ ⵎ ⵏ ⵓ ⵔ ⵕ ⵖ ⵙ ⵚ ⵛ ⵜ ⵟ ⵡ ⵢ ⵣ ⵥ ⵯ
-    auxiliary: ''
-    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
+    base: a b c d e f g h i j k l m n o p s t u v w y z
+    auxiliary: q r x
+    numbers: ''
     punctuation: ''
-    combinations: '{ⴳⵯ} {ⴽⵯ}'
+    combinations: ''
   draft: done, done, done
-  script: ''
+  script: Latn
 zh:
   characters:
     base: '- 一 丁 七 万 与 丑 专 且 世 丘 业 东 丝 丢 两 严 丧 个 中 丰 串 临 丸 主 丽 举 乃 久 么 义 之 乐 乔 乖 乘
@@ -2247,7 +480,1565 @@ zh:
     combinations: ''
     punctuation_combinations: '{ ｛ ﹛ ︷ }'
   draft: done, done, done, done, done
-  script: ''
+  script: Hani
+tt:
+  characters:
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё җ ң ү
+      һ ә ө
+    auxiliary: ғ қ
+    numbers: ↑
+    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § ‐ – — ‘ ’ “ ” … ′ ″'
+    combinations: ''
+  draft: done, contributed, contributed, contributed, contributed
+  script: Cyrl
+wo:
+  characters:
+    base: a b c d e f g i j k l m n o p q r s t u w x y à é ë ñ ó ŋ
+    auxiliary: h v z ã
+    numbers: ''
+    punctuation: ''
+    combinations: ''
+  draft: done, done, done
+  script: Latn
+mfe:
+  characters:
+    base: a b c d e f g h i j k l m n o p r s t u v w x y z
+    auxiliary: ''
+    numbers: '% + - . 0 1 2 3 4 5 6 7 8 9   ‰'
+    punctuation: ''
+    combinations: ''
+  draft: done, done, done
+  script: Latn
+ug:
+  characters:
+    base: ئ ا ب ت ج خ د ر ز س ش غ ف ق ك ل م ن ه و ى ي پ چ ژ ڭ گ ھ ۆ ۇ ۈ ۋ ې ە
+    auxiliary: ئ ‎ ‏
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
+    punctuation: ''
+    combinations: '{ئا} {ئه} {ئو} {ئۇ} {ئۆ} {ئۈ} {ئې} {ئى}'
+  draft: contributed, done, contributed, done
+  script: Arab
+bn:
+  characters:
+    base: ঁ ং ঃ অ আ ই ঈ উ ঊ ঋ ঌ এ ঐ ও ঔ ক খ গ ঘ ঙ চ ছ জ ঝ ঞ ট ঠ ড ঢ ণ ত থ দ ধ ন প
+      ফ ব ভ ম য র ল শ ষ স হ ় ঽ া ি ী ু ূ ৃ ৄ ে ৈ ো ৌ ্ ৎ ৗ ৠ ৡ ৢ ৣ ৺
+    auxiliary: ৰ ৱ ৲ ৳ ৴ ৵ ৶ ৷ ৸ ৹ ‌ ‍
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ০ ১ ২ ৩ ৪ ৫ ৬ ৭ ৮ ৯ ‰'
+    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § ‐ – — ‘ ’ “ ” † ‡ … ′ ″'
+    combinations: '{ক্ষ} {ড়} {ঢ়} {য়}'
+  draft: done, done, contributed, done, contributed
+  script: Beng
+fa:
+  characters:
+    base: ء آ أ ؤ ئ ا ب ة ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ل م ن ه و ً ٌ ٍ ّ
+      ٔ پ چ ژ ک گ ی
+    auxiliary: إ ـ ك ى ي َ ُ ِ ْ ٖ ٰ ټ ځ څ ډ ړ ږ ښ ګ ڼ ‌ ‍ ‎ ‏
+    numbers: '% + , . 0 1 2 3 4 5 6 7 8 9 ؉ ٪ ٫ ٬ ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹ ‎ ‰ −'
+    punctuation: '! ( ) * - . / : [ \ ] « » ، ؛ ؟ ٫ ٬ ‐ … ‹ ›'
+    combinations: ''
+  draft: done, done, done, done, done
+  script: Arab
+pl:
+  characters:
+    base: a b c d e f g h i j k l m n o p r s t u w y z ó ą ć ę ł ń ś ź ż
+    auxiliary: q v x ß à â ä å æ ç è é ê ë î ï ô ö ù û ü ÿ œ
+    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
+    punctuation: '! " # % & '' ( ) * , - . / : ; ? @ [ ] ~ § « ° » ‐ – — ” „ † ‡ …
+      ′ ″'
+    combinations: ''
+    punctuation_combinations: '{ }'
+  draft: done, done, contributed, done, done
+  script: Latn
+sw:
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    auxiliary: c q x ↑
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰ ↑'
+    punctuation: '! " '' ( ) , - . : ; ? [ ] ↑'
+    combinations: '{ch}'
+    punctuation_combinations: '{ }'
+  draft: done, done, contributed, done, done
+  script: Latn
+kok:
+  characters:
+    base: ँ ं ः अ आ इ ई उ ऊ ऋ ऌ ऍ ए ऐ ऑ ओ औ क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध
+      न प फ ब भ म य र ल ळ व श ष स ह ़ ऽ ा ि ी ु ू ृ ॄ ॅ े ै ॉ ो ौ ् ॐ ० १ २ ३ ४ ५
+      ६ ७ ८ ९
+    auxiliary: ‌ ‍
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ० १ २ ३ ४ ५ ६ ७ ८ ९ ‰'
+    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § ‐ – — ‘ ’ “ ” † ‡ … ′ ″'
+    combinations: '{क़} {ख़} {ग़} {ज़} {ड़} {ढ़} {फ़} {य़}'
+  draft: done, done, contributed, done, contributed
+  script: Deva
+ebu:
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ĩ ũ
+    auxiliary: ''
+    numbers: ''
+    punctuation: ''
+    combinations: ''
+  draft: done, done
+  script: Latn
+sv:
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à ä å é ö ↑
+    auxiliary: á â ã æ ç è ë í î ï ñ ó ø ú ü ÿ ā ī
+    numbers: '% + , 0 1 2 3 4 5 6 7 8 9   ‰ −'
+    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § ‐ – — ‘ ’ “ ” † ‡ … ′ ″'
+    combinations: ''
+  draft: done, done, done, done, done
+  script: Latn
+gd:
+  characters:
+    base: a b c d e f g h i l m n o p r s t u à è ì ò ù
+    auxiliary: j k q v w x y z á â ã ä å æ ç é ê ë í î ï ñ ó ô ö ø ú û ü ÿ ā ă ċ ē
+      ĕ ġ ī ĭ ı ł ō ŏ œ ş ū ŭ ș ḋ ḟ ṁ ṗ ṡ ṫ
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
+    punctuation: '! " # % & '' ( ) * , - . / : ; ? @ [ ] ¡ § © ® ° ¶ · ‐ – — ‘ ’ “
+      ” † ‡ … ‧ ⁊ ™'
+    combinations: ''
+    punctuation_combinations: '{ }'
+  draft: done, done, done, done, contributed
+  script: Latn
+el:
+  characters:
+    base: ΐ ά έ ή ί ΰ α β γ δ ε ζ η θ ι κ λ μ ν ξ ο π ρ ς σ τ υ φ χ ψ ω ϊ ϋ ό ύ ώ
+    auxiliary: ἀ ἁ ἂ ἃ ἄ ἅ ἆ ἇ ἐ ἑ ἒ ἓ ἔ ἕ ἠ ἡ ἢ ἣ ἤ ἥ ἦ ἧ ἰ ἱ ἲ ἳ ἴ ἵ ἶ ἷ ὂ ὃ ὄ ὐ
+      ὑ ὒ ὓ ὔ ὕ ὖ ὗ ὢ ὣ ὤ ὥ ὦ ὧ ὰ ὲ ὴ ὶ ὸ ὺ ὼ ᾶ ῆ ῒ ῖ ῗ ῢ ῦ ῧ ῶ
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
+    punctuation: '! " & ( ) * , - . / : ; @ [ \ ] § « » ‐ – — …'
+    combinations: ''
+  draft: done, done, done, done, done
+  script: Grek
+hi:
+  characters:
+    base: ँ ं ः अ आ इ ई उ ऊ ऋ ऌ ऍ ए ऐ ऑ ओ औ क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध
+      न प फ ब भ म य र ल ळ व श ष स ह ़ ऽ ा ि ी ु ू ृ ॄ ॅ े ै ॉ ो ौ ् ॐ
+    auxiliary: ‌ ‍
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ० १ २ ३ ४ ५ ६ ७ ८ ९ ‰'
+    punctuation: '! ( ) , - . : ; ? [ ] ॰ ‘ ’ “ ”'
+    combinations: ''
+    punctuation_combinations: '{ }'
+  draft: done, done, contributed, done, done
+  script: Deva
+jv:
+  characters:
+    base: a b c d e g h i j k l m n o p r s t u w y â å è é ê ì ò ù
+    auxiliary: f q v x z
+    numbers: ↑
+    punctuation: ↑
+    combinations: ''
+  draft: done, done, done, contributed, contributed
+  script: Latn
+ja:
+  characters:
+    base: '- 々 ぁ あ ぃ い ぅ う ぇ え ぉ お か が き ぎ く ぐ け げ こ ご さ ざ し じ す ず せ ぜ そ ぞ た だ ち ぢ
+      っ つ づ て で と ど な に ぬ ね の は ば ぱ ひ び ぴ ふ ぶ ぷ へ べ ぺ ほ ぼ ぽ ま み む め も ゃ や ゅ ゆ ょ よ
+      ら り る れ ろ ゎ わ ゐ ゑ を ん ゝ ゞ ァ ア ィ イ ゥ ウ ェ エ ォ オ カ ガ キ ギ ク グ ケ ゲ コ ゴ サ ザ シ ジ ス
+      ズ セ ゼ ソ ゾ タ ダ チ ヂ ッ ツ ヅ テ デ ト ド ナ ニ ヌ ネ ノ ハ バ パ ヒ ビ ピ フ ブ プ ヘ ベ ペ ホ ボ ポ マ ミ
+      ム メ モ ャ ヤ ュ ユ ョ ヨ ラ リ ル レ ロ ヮ ワ ヰ ヱ ヲ ン ヴ ヵ ヶ ー ヽ ヾ 一 丁 七 万 下 不 与 且 世 丘 丙 両
+      並 中 丸 丹 主 久 乏 乗 乙 九 乱 乳 乾 亀 了 予 争 事 二 互 五 井 亜 亡 交 享 亭 人 仁 今 介 仏 仕 他 付 仙 代 以
+      仮 仰 仲 件 任 企 伏 休 会 伝 伯 伴 伸 伺 似 但 位 佐 体 何 余 作 佳 併 使 例 侍 供 依 価 侮 侯 侵 便 係 促 俊 俗
+      保 信 修 俳 俵 俸 俺 倉 個 倍 倒 候 借 倣 値 倫 倹 偉 偏 停 健 側 偶 偽 傍 傑 傘 備 催 債 傷 傾 働 像 僕 僚 僧 儀
+      億 儒 償 優 元 兆 先 光 克 免 児 党 入 全 八 六 共 兵 具 典 兼 内 円 冊 再 冒 冗 写 冠 冬 冷 准 凍 凝 凡 処 凶 凸
+      出 刀 刃 分 刈 刊 刑 列 初 判 別 利 到 制 券 刺 刻 則 削 前 剖 剛 剣 剥 副 剰 割 創 劇 力 功 加 劣 助 努 励 労 効
+      劾 勅 勇 勉 動 勘 務 勝 募 勢 勤 勧 勲 包 化 北 匠 匹 医 匿 十 千 升 午 半 卑 協 南 単 博 占 印 危 即 卵 卸 厄 厘
+      厚 原 厳 去 参 又 及 収 叔 取 受 叙 口 句 叫 召 可 右 号 司 各 合 吉 同 向 君 吟 否 含 吸 吹 呈 告 周 味 呼 命 和
+      咲 哀 品 員 哲 唆 唇 唐 唯 唱 商 問 啓 善 喚 喜 喝 喪 喫 営 嗣 嘆 嘱 器 噴 嚇 囚 四 回 因 団 困 囲 図 固 国 圏 園
+      土 圧 在 地 坂 均 坊 坑 坪 垂 型 垣 埋 城 域 執 培 基 埼 堀 堂 堅 堕 堤 堪 報 場 塀 塁 塊 塑 塔 塗 塚 塩 填 塾 境
+      墓 増 墜 墨 墳 墾 壁 壇 壊 壌 士 壮 声 売 変 夏 夕 外 多 夜 夢 大 天 夫 央 失 奇 奉 奏 契 奔 奥 奨 奪 奮 女 奴 好
+      如 妄 妊 妙 妥 妨 妹 妻 姉 始 姓 委 姫 姻 姿 威 娘 娠 娯 婆 婚 婦 婿 媒 嫁 嫌 嫡 嬢 子 孔 字 存 孝 季 孤 学 孫 宅
+      宇 安 完 宗 定 宜 宝 実 客 室 宮 宰 害 家 容 宿 寂 寄 密 富 寒 寛 寝 察 寡 寧 審 寮 寸 寺 対 寿 封 専 射 将 尉 尋
+      導 小 少 尚 就 尺 尼 局 居 屈 届 屋 展 属 層 履 屯 山 岐 岡 岩 岬 岳 岸 峠 峡 峰 島 崇 崎 崩 川 州 巡 巣 工 巨 差
+      己 巻 市 布 帆 希 帝 帥 師 席 帯 帰 帳 常 帽 幅 幕 幣 干 年 幸 幹 幻 幾 庁 広 床 序 底 店 府 度 座 庫 庭 庶 庸 廃
+      廉 廊 延 廷 建 弁 弊 式 弐 弓 引 弟 弦 弧 弱 張 強 弾 当 形 彩 彫 彰 影 役 彼 往 征 径 待 律 後 徐 徒 従 得 御 復
+      循 微 徳 徴 徹 心 必 忌 忍 志 忙 応 忠 快 念 怒 怖 思 怠 急 性 怪 恋 恐 恒 恥 恨 恩 恭 息 恵 悔 悟 悠 患 悦 悩 悪
+      悲 悼 情 惑 惜 惨 惰 想 愁 愉 意 愚 愛 感 慈 態 慌 慎 慕 慢 慣 慨 慮 慰 慶 憂 憎 憤 憩 憲 憶 憾 懇 懐 懲 懸 成 戒
+      戦 戯 戸 戻 房 所 扇 扉 手 才 打 払 扱 扶 批 承 技 抄 把 抑 投 抗 折 抜 択 披 抱 抵 抹 押 抽 担 拍 拐 拒 拓 拘 拙
+      招 拝 拠 拡 括 拷 拾 持 指 挑 挙 挟 振 挿 捕 捜 捨 据 掃 授 掌 排 掘 掛 採 探 接 控 推 措 掲 描 提 揚 換 握 揮 援
+      揺 損 搬 搭 携 搾 摂 摘 摩 撃 撤 撮 撲 擁 操 擦 擬 支 改 攻 放 政 故 敏 救 敗 教 敢 散 敬 数 整 敵 敷 文 斉 斎 斗
+      料 斜 斤 斥 断 新 方 施 旅 旋 族 旗 既 日 旧 早 旬 昆 昇 明 易 昔 星 映 春 昨 昭 是 昼 時 晩 普 景 晴 晶 暁 暇 暑
+      暖 暗 暦 暫 暮 暴 曇 曜 曲 更 書 曹 替 最 月 有 服 朕 朗 望 朝 期 木 未 札 朱 朴 机 朽 杉 材 村 束 条 来 杯 東 松
+      板 析 林 枚 果 枝 枠 枢 枯 架 柄 某 染 柔 柱 柳 査 栄 栓 校 株 核 根 格 栽 桃 案 桑 桜 桟 梅 械 棄 棋 棒 棚 棟 森
+      棺 植 検 業 極 楼 楽 概 構 様 槽 標 模 権 横 樹 橋 機 欄 欠 次 欧 欲 欺 款 歌 歓 止 正 武 歩 歯 歳 歴 死 殉 残 殖
+      殴 段 殺 殻 殿 母 毎 毒 比 毛 氏 民 気 水 氷 永 汁 求 汎 汗 汚 江 池 決 汽 沈 沖 没 沢 河 沸 油 治 沼 沿 況 泉 泊
+      泌 法 泡 泣 泥 注 泰 泳 洋 洗 洞 津 洪 活 派 流 浄 浅 浜 浦 浪 浮 浴 海 浸 消 涙 涯 液 涼 淑 淡 深 混 添 清 渇 渉
+      渋 渓 減 渡 渦 温 測 港 湖 湯 湾 満 源 準 溝 溶 滅 滋 滑 滝 滞 滴 漁 漂 漆 漏 演 漠 漢 漫 漬 漸 潔 潜 潟 潤 潮 澄
+      激 濁 濃 濫 濯 瀬 火 灯 灰 災 炉 炊 炎 炭 点 為 烈 無 焦 然 焼 煙 照 煩 煮 熟 熱 燃 燥 爆 爵 父 片 版 牙 牛 牧 物
+      牲 特 犠 犬 犯 状 狂 狩 独 狭 猛 猟 猫 献 猶 猿 獄 獣 獲 玄 率 玉 王 珍 珠 班 現 球 理 琴 環 璽 瓶 甘 甚 生 産 用
+      田 申 男 町 画 界 畑 畔 留 畜 畝 略 番 異 畳 疎 疑 疫 疲 疾 病 症 痘 痛 痢 痴 療 癒 癖 発 登 白 百 的 皆 皇 皮 皿
+      盆 益 盗 盛 盟 監 盤 目 盲 直 相 盾 省 看 県 真 眠 眺 眼 着 睡 督 瞬 矛 矢 知 短 矯 石 砂 研 砕 砲 破 硝 硫 硬 碁
+      碑 確 磁 磨 礁 礎 示 礼 社 祈 祉 祖 祝 神 祥 票 祭 禁 禅 禍 福 秀 私 秋 科 秒 秘 租 秩 称 移 程 税 稚 種 稲 稼 稿
+      穀 穂 積 穏 穫 穴 究 空 突 窃 窒 窓 窮 窯 立 竜 章 童 端 競 竹 笑 笛 符 第 筆 等 筋 筒 答 策 箇 算 管 箱 節 範 築
+      篤 簡 簿 籍 米 粉 粋 粒 粗 粘 粛 粧 精 糖 糧 糸 系 糾 紀 約 紅 紋 納 純 紙 紛 素 索 紫 累 細 紳 紹 紺 終 組 経 結
+      絞 絡 給 統 絵 絶 絹 継 続 維 綱 網 綿 緊 総 緑 緒 線 締 編 緩 緯 練 縁 縄 縛 縦 縫 縮 績 繁 繊 織 繕 繭 繰 缶 罪
+      置 罰 署 罷 羅 羊 美 群 義 羽 翁 翌 習 翻 翼 老 考 者 耐 耕 耗 耳 聖 聞 聴 職 肉 肌 肖 肝 肢 肥 肩 肪 肯 育 肺 胃
+      胆 背 胎 胞 胴 胸 能 脂 脅 脈 脚 脱 脳 腐 腕 腰 腸 腹 膚 膜 膨 臓 臣 臨 自 臭 至 致 興 舌 舎 舗 舞 舟 航 般 舶 船
+      艇 艦 良 色 芋 芝 花 芳 芸 芽 苗 若 苦 英 茂 茎 茶 草 荒 荘 荷 菊 菌 菓 菜 華 落 葉 著 葬 蒸 蓄 蔵 薄 薦 薪 薬 藤
+      藩 藻 虎 虐 虚 虜 虞 虫 蚊 蚕 蛇 蛍 蛮 融 血 衆 行 術 街 衛 衝 衡 衣 表 衰 衷 袋 被 裁 裂 装 裏 裕 補 裸 製 複 褐
+      褒 襟 襲 西 要 覆 覇 見 規 視 覚 覧 親 観 角 解 触 言 訂 計 討 訓 託 記 訟 訪 設 許 訳 訴 診 証 詐 詔 評 詞 詠 試
+      詩 詰 詳 誇 誉 誌 認 誓 誕 誘 語 誠 誤 説 読 誰 課 調 談 請 論 諭 諮 諸 諾 謀 謁 謄 謙 講 謝 謡 謹 識 譜 警 議 譲
+      護 谷 豆 豊 豚 象 豪 貝 貞 負 貢 貧 販 貫 責 貯 貴 買 貸 費 貿 賀 賃 賄 資 賊 賓 賛 賜 賞 賠 賢 賦 質 購 贈 赤 赦
+      走 赴 起 超 越 趣 足 距 跡 路 跳 践 踊 踏 躍 身 車 軌 軍 軒 軟 転 軸 軽 較 載 輝 輩 輪 輸 轄 辛 辞 辱 農 辺 込 迅
+      迎 近 返 迫 迭 述 迷 追 退 送 逃 逆 透 逐 逓 途 通 逝 速 造 連 逮 週 進 逸 遂 遅 遇 遊 運 遍 過 道 違 遠 遣 適 遭
+      遮 遵 遷 選 遺 避 還 邦 邪 邸 郊 郎 郡 部 郭 郵 郷 都 酌 配 酒 酔 酢 酪 酬 酵 酷 酸 醜 醸 釈 里 量 金 針 釣 鈍 鈴
+      鉄 鉛 鉢 鉱 銀 銃 銅 銘 銭 鋭 鋳 鋼 錠 錬 錯 録 鍛 鎖 鎮 鏡 鐘 鑑 長 門 閉 開 閑 間 関 閣 閥 閲 闘 阪 防 阻 附 降
+      限 陛 院 陥 陪 陰 陳 陵 陶 陸 険 陽 隅 隆 隊 階 随 隔 際 障 隠 隣 隷 隻 雄 雇 雌 雑 離 難 雨 雪 雰 雲 零 雷 電 需
+      震 霊 霜 霧 露 青 静 非 面 革 靴 韓 音 韻 響 頂 頃 項 順 預 頒 領 頬 頭 頻 頼 題 額 顔 顕 願 類 顧 風 飛 食 飢 飯
+      飲 飼 飾 養 餓 館 首 香 馬 駄 駆 駐 騎 騒 験 騰 驚 骨 髄 高 髪 鬼 魂 魅 魔 魚 鮮 鯨 鳥 鳴 鶏 鹿 麗 麦 麻 黄 黒 黙
+      鼓 鼻 齢'
+    auxiliary: 丑 亥 亨 兌 兎 卯 嘉 壬 寅 巳 庚 弘 戊 戌 拼 昌 楔 猪 癸 祚 禄 禎 辰 酉 錄 閏 雉 鳳 鼠
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
+    punctuation: '! " # % & ( ) * , - . / : ; ? @ [ \ ] _ § ¶ ‐ — ― ‖ ‘ ’ “ ” † ‡
+      ‥ … ‰ ′ ″ ※ ‾ 、 。 〃 〈 〉 《 》 「 」 『 』 【 】 〔 〕 〜 ・ ！ ＂ ＃ ％ ＆ ＇ （ ） ＊ ， － ． ／ ：
+      ； ？ ＠ ［ ＼ ］ ＿ ｛ ｝ ｡ ｢ ｣ ､ ･'
+    combinations: ''
+    punctuation_combinations: '{｛ }'
+  draft: done, done, contributed, done, done
+  script: Jpan
+tzm:
+  characters:
+    base: a b c d e f g h i j k l m n q r s t u w x y z ɛ ɣ ʷ ḍ ḥ ṛ ṣ ṭ
+    auxiliary: o p v
+    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
+    punctuation: ''
+    combinations: '{gʷ} {kʷ}'
+  draft: done, done, done, done
+  script: Latn
+en:
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ↑
+    auxiliary: à á â ã ä å æ ç è é ê ë ì í î ï ñ ò ó ô ö ø ù ú û ü ÿ ā ă ē ĕ ī ĭ ō
+      ŏ œ š ū ŭ ḓ ḽ ṅ ṋ ṱ ↑
+    numbers: '% + , - . / 0 1 2 3 4 5 6 7 8 9   ‰ ↑'
+    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § ‐ – — ‘ ’ “ ” † ‡ … ′ ″ ↑'
+    combinations: ''
+  draft: done, done, done, done, done
+  script: Latn
+kab:
+  characters:
+    base: a b c d e f g h i j k l m n p q r s t u w x y z č ǧ ɛ ɣ ḍ ḥ ṛ ṣ ṭ ẓ
+    auxiliary: o v
+    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
+    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § ‐ – — ‘ ’ “ ” † ‡ … ′ ″'
+    combinations: ''
+  draft: done, done, done, done, unconfirmed
+  script: Latn
+seh:
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ã ç é ê í ò ó
+      ô õ ú
+    auxiliary: ''
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
+    punctuation: ''
+    combinations: ''
+  draft: done, done, done
+  script: Latn
+mas:
+  characters:
+    base: a b c d e g h i j k l m n o p r s t u w y à á â è é ê ì í î ò ó ô ù ú û
+      ā ē ī ŋ ō ū ɔ ɛ ɨ ʉ ́
+    auxiliary: f q v x z
+    numbers: ''
+    punctuation: ''
+    combinations: '{ny} {rr} {sh} {ʉ́} {wu} {yi}'
+  draft: done, done, done
+  script: Latn
+eo:
+  characters:
+    base: a b c d e f g h i j k l m n o p r s t u v z ĉ ĝ ĥ ĵ ŝ ŭ
+    auxiliary: q w x y
+    numbers: '% + , 0 1 2 3 4 5 6 7 8 9   ‰ −'
+    punctuation: '! " '' ( ) , - . / : ; ? [ ] ‐ – — ‘ ’ “ ” …'
+    combinations: ''
+    punctuation_combinations: '{ }'
+  draft: done, done, done, done, done
+  script: Latn
+mua:
+  characters:
+    base: a b c d e f g h i j k l m n o p r s t u v w y z ã ë õ ĩ ŋ ǝ ɓ ɗ ṽ
+    auxiliary: q x
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
+    punctuation: ''
+    combinations: ''
+  draft: done, done, done, done
+  script: Latn
+mzn:
+  characters:
+    base: ء آ أ ؤ ئ ا ب ة ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ل م ن ه و ً ٌ ٍ ّ
+      ٔ پ چ ژ ک گ ی
+    auxiliary: إ ك ى ي َ ُ ِ ْ ٖ ٰ ‌ ‍ ‎ ‏
+    numbers: ''
+    punctuation: '! ( ) * - . / : [ \ ] « » ، ؛ ؟ ٫ ٬ ‐ … ‹ ›'
+    combinations: ''
+  draft: done, done, done, done
+  script: Arab
+ks:
+  characters:
+    base: ؠ ء آ أ ؤ ا ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ل م ن و ٲ ٹ پ چ ڈ ڑ
+      ژ ک گ ں ھ ہ ۄ ۆ ی ۍ ے
+    auxiliary: َ ُ ِ ٔ ٕ ٖ ٗ ٟ ‎ ‏
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹ ‎ ‰'
+    punctuation: ''
+    combinations: ''
+  draft: done, done, done
+  script: Arab
+kw:
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    auxiliary: ''
+    numbers: ''
+    punctuation: ''
+    combinations: ''
+  draft: done, unconfirmed
+  script: Latn
+sq:
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v x y z ç ë
+    auxiliary: w
+    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
+    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] ~ § « » ‐ – — ‘ ’ “ ” … ′ ″'
+    combinations: '{dh} {gj} {ll} {nj} {rr} {sh} {th} {xh} {zh}'
+  draft: done, done, done, done, done
+  script: Latn
+ru:
+  characters:
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё
+    auxiliary: ́ а е и о у ы э ю я
+    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
+    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § « » ‐ – — ‘ ‚ “ „ …'
+    combinations: ''
+    auxiliary_combinations: '{а́} {е́} {и́} {о́} {у́} {ы́} {э́} {ю́} {я́}'
+    punctuation_combinations: '{ }'
+  draft: done, done, done, done, done
+  script: Cyrl
+ccp:
+  characters:
+    base: 𑄀 𑄁 𑄂 𑄃 𑄄 𑄅 𑄆 𑄇 𑄈 𑄉 𑄊 𑄋 𑄌 𑄍 𑄎 𑄏 𑄐 𑄑 𑄒 𑄓 𑄔 𑄕 𑄖 𑄗 𑄘 𑄙 𑄚 𑄛 𑄜 𑄝 𑄞 𑄟 𑄠 𑄡 𑄢 𑄣
+      𑄤 𑄥 𑄦 𑄧 𑄨 𑄩 𑄪 𑄫 𑄬 𑄭 𑄮 𑄯 𑄰 𑄱 𑄲 𑄳 𑄴
+    auxiliary: ''
+    numbers: '% + , - . ‰ 𑄶 𑄷 𑄸 𑄹 𑄺 𑄻 𑄼 𑄽 𑄾 𑄿'
+    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § ‐ – — ‘ ’ “ ” † ‡ … ′ ″ 𑅀
+      𑅁 𑅂 𑅃'
+    combinations: ''
+  draft: done, done, done, unconfirmed, done
+  script: Cakm
+lkt:
+  characters:
+    base: a b e g h i k l m n o p s t u w y z á é í ó ú č ŋ š ž ǧ ȟ ʼ
+    auxiliary: c d f j q r s v x š ȟ ʼ
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
+    punctuation: '! " # & ( ) * , - . / : ; ? @ [ ] ‐ – — “ ”'
+    combinations: '{aŋ} {čh} {čʼ} {iŋ} {kh} {kȟ} {kʼ} {ph} {pȟ} {pʼ} {th} {tȟ} {tʼ}
+      {uŋ}'
+    auxiliary_combinations: '{ȟʼ} {sʼ} {šʼ}'
+  draft: done, done, done, done, done
+  script: Latn
+brx:
+  characters:
+    base: ँ ं अ आ इ ई उ ऊ ऍ ए ऐ ऑ ओ औ क ख ग घ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब
+      भ म य र ल ळ व श ष स ह ़ ा ि ी ु ू ृ ॅ े ै ॉ ो ौ ्
+    auxiliary: ‌ ‍
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
+    punctuation: ''
+    combinations: '{ड़}'
+  draft: done, done, done, done
+  script: Deva
+sg:
+  characters:
+    base: a b d e f g h i j k l m n o p r s t u v w y z â ä ê ë î ï ô ö ù û ü
+    auxiliary: c q x
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
+    punctuation: ''
+    combinations: ''
+  draft: done, done, done, done
+  script: Latn
+gu:
+  characters:
+    base: ઁ ં ઃ અ આ ઇ ઈ ઉ ઊ ઋ ઍ એ ઐ ઑ ઓ ઔ ક ખ ગ ઘ ઙ ચ છ જ ઝ ઞ ટ ઠ ડ ઢ ણ ત થ દ ધ ન
+      પ ફ બ ભ મ ય ર લ ળ વ શ ષ સ હ ઼ ઽ ા િ ી ુ ૂ ૃ ૄ ૅ ે ૈ ૉ ો ૌ ્ ૐ ૠ
+    auxiliary: ૰ ‌ ‍
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ૦ ૧ ૨ ૩ ૪ ૫ ૬ ૭ ૮ ૯ ‰'
+    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § ‐ – — ‘ ’ “ ” † ‡ … ′ ″'
+    combinations: ''
+  draft: done, done, done, done, done
+  script: Gujr
+ff:
+  characters:
+    base: a b c d e f g h i j k l m n o p r s t u w y ñ ŋ ƴ ɓ ɗ
+    auxiliary: q v x z
+    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
+    punctuation: ''
+    combinations: ''
+  draft: done, done, done, done
+  script: Latn
+ii:
+  characters:
+    base: '- ꀀ ꒌ'
+    auxiliary: ''
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
+    punctuation: ''
+    combinations: ''
+  draft: done, unconfirmed, done
+  script: Yiii
+ka:
+  characters:
+    base: ა ბ გ დ ე ვ ზ თ ი კ ლ მ ნ ო პ ჟ რ ს ტ უ ფ ქ ღ ყ შ ჩ ც ძ წ ჭ ხ ჯ ჰ
+    auxiliary: ჱ ჲ ჳ ჴ ჵ ჶ ჷ ჸ ჹ ჺ ⴀ ⴁ ⴂ ⴃ ⴄ ⴅ ⴆ ⴇ ⴈ ⴉ ⴊ ⴋ ⴌ ⴍ ⴎ ⴏ ⴐ ⴑ ⴒ ⴓ ⴔ ⴕ ⴖ ⴗ
+      ⴘ ⴙ ⴚ ⴛ ⴜ ⴝ ⴞ ⴟ ⴠ ⴡ ⴢ ⴣ ⴤ ⴥ
+    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
+    punctuation: '! # & '' ( ) * , - . / : ; ? @ [ ] § « » ჻ ‐ – — ‘ ‚ “ „ † ‡ … ′
+      ″ №'
+    combinations: ''
+    punctuation_combinations: '{ }'
+  draft: done, done, done, done, done
+  script: Geor
+xog:
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    auxiliary: ''
+    numbers: ''
+    punctuation: ''
+    combinations: ''
+  draft: done, done
+  script: Latn
+se:
+  characters:
+    base: a b c d e f g h i j k l m n o p r s t u v z á č đ ŋ š ŧ ž
+    auxiliary: q w x y à ã ä å æ ç è é í ñ ò ó ö ø ú ü ń
+    numbers: '% + , 0 1 2 3 4 5 6 7 8 9   ‰ −'
+    punctuation: ''
+    combinations: ''
+  draft: done, done, contributed, done
+  script: Latn
+sr:
+  characters:
+    base: а б в г д е ж з и к л м н о п р с т у ф х ц ч ш ђ ј љ њ ћ џ
+    auxiliary: ̂ а е и й о у щ ъ ы ь э ю я ё
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
+    punctuation: '! # ( ) * , - . : ; ? [ ] ‐ – ‘ ‚ “ „ …'
+    combinations: ''
+    auxiliary_combinations: '{а̂} {е̂} {и̂} {о̂} {у̂}'
+    punctuation_combinations: '{ }'
+  draft: done, done, contributed, done, done
+  script: Cyrl
+hsb:
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ó ć č ě ł ń ř š ź ž
+    auxiliary: ß à á â ã ä å æ ç è é ê ë ì í î ï ñ ò ô ö ø ù ú û ü ý ÿ ā ă ą ď đ ē
+      ĕ ė ę ğ ī ĭ İ ı ĺ ľ ň ō ŏ ő œ ŕ ś ş ť ū ŭ ů ű ź ż
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
+    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § « » ‐ – — ‘ ’ ‚ “ „ …'
+    combinations: '{dź} {ch}'
+    punctuation_combinations: '{ }'
+  draft: done, done, done, done, done
+  script: Latn
+guz:
+  characters:
+    base: a b c d e f g h i j k l m n o p r s t u v w y z
+    auxiliary: q x
+    numbers: ''
+    punctuation: ''
+    combinations: ''
+  draft: done, done, done
+  script: Latn
+lrc:
+  characters:
+    base: آ أ ؤ ئ ا ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ؽ ف ق ل م ن و ٙ ٛ پ چ ژ ڤ
+      ک گ ھ ۉ ۊ ی ە
+    auxiliary: إ ة ك ه ى ي ً ٌ ٍ َ ُ ِ ّ ْ ٔ ​ ‌ ‍ ‎ ‏
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
+    punctuation: '! ( ) * - . / : [ \ ] « » ، ؛ ؟ ٫ ٬ ‐ … ‹ ›'
+    combinations: ''
+  draft: done, done, done, done, done
+  script: Arab
+rwk:
+  characters:
+    base: a b c d e f g h i j k l m n o p r s t u v w y z
+    auxiliary: q x
+    numbers: ''
+    punctuation: ''
+    combinations: ''
+  draft: done, done, done
+  script: Latn
+shi:
+  characters:
+    base: ⴰ ⴱ ⴳ ⴷ ⴹ ⴻ ⴼ ⴽ ⵀ ⵃ ⵄ ⵅ ⵇ ⵉ ⵊ ⵍ ⵎ ⵏ ⵓ ⵔ ⵕ ⵖ ⵙ ⵚ ⵛ ⵜ ⵟ ⵡ ⵢ ⵣ ⵥ ⵯ
+    auxiliary: ''
+    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
+    punctuation: ''
+    combinations: '{ⴳⵯ} {ⴽⵯ}'
+  draft: done, done, done
+  script: Tfng
+rw:
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    auxiliary: ''
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
+    punctuation: ''
+    combinations: ''
+  draft: done, done, done
+  script: Latn
+sd:
+  characters:
+    base: ء آ ا ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ل م ن ه و ي ٺ ٻ ٽ پ ٿ ڀ ڃ
+      ڄ چ ڇ ڊ ڌ ڍ ڏ ڙ ڦ ک ڪ گ ڱ ڳ ڻ ھ
+    auxiliary: ئ َ ُ ِ
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
+    punctuation: '! ( ) / : [ ] ۔ ‘ ⁏ ⹁'
+    combinations: '{جھ} {گھ}'
+    punctuation_combinations: '{ }'
+  draft: done, done, done, done, done
+  script: Arab
+gv:
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ç
+    auxiliary: ''
+    numbers: ''
+    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § ‐ – — ‘ ’ “ ” † ‡ … ′ ″'
+    combinations: ''
+  draft: done, done, done
+  script: Latn
+fr:
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à â æ ç è é ê ë î ï
+      ô ù û ü ÿ œ ↑
+    auxiliary: ß á ã ä å ì í ñ ò ó õ ö ø ú ā ć ē ī ĳ ř š ſ ǔ
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ² ³ ʳ ˢ ᵈ ᵉ   ‰ ↑ −'
+    punctuation: '! " # & ( ) * , - . / : ; ? @ [ ] § « » ‐ – — ’ “ ” † ‡ … ↑'
+    combinations: ''
+  draft: done, done, contributed, done, done
+  script: Latn
+ga:
+  characters:
+    base: a b c d e f g h i l m n o p r s t u á é í ó ú
+    auxiliary: j k q v w x y z å ċ ġ ḃ ḋ ḟ ṁ ṗ ṡ ṫ
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
+    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § ‐ – — ‘ ’ “ ” † ‡ … ′ ″'
+    combinations: ''
+  draft: done, done, contributed, done, contributed
+  script: Latn
+dz:
+  characters:
+    base: ཀ ཁ ག ང ཅ ཆ ཇ ཉ ཏ ཐ ད ན པ ཕ བ མ ཙ ཚ ཛ ཝ ཞ ཟ འ ཡ ར ལ ཤ ས ཧ ཨ ི ུ ེ ོ ྐ ྑ
+      ྒ ྔ ྗ ྙ ྟ ྠ ྡ ྣ ྤ ྥ ྦ ྨ ྩ ྪ ྫ ྭ ྱ ྲ ླ ྵ ྶ ྷ
+    auxiliary: ཊ ཋ ཌ ཎ ཥ ཻ ཽ ཾ ྀ ྄ ྚ ྛ ྜ ྞ ྺ ྻ ྼ
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ༠ ༡ ༢ ༣ ༤ ༥ ༦ ༧ ༨ ༩ ‰'
+    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § ༄ ༅ ༆ ༈ ༉ ༊ ༌ ། ༎ ༏ ༐ ༑ ༒
+      ༔ ༴ ༶ ༼ ༽ ྾ ྿ ࿐ ࿑ ࿒ ࿓ ࿔ ‐ – — ‘ ’ “ ” † ‡ …'
+    combinations: ''
+  draft: done, done, contributed, done, done
+  script: Tibt
+ku:
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ç ê î û ş
+    auxiliary: ß à á â ã ä å æ è é ë ì í ï ñ ò ó ô ø ù ú ÿ ā ă ē ĕ ī ĭ ō ŏ œ ū ŭ
+    numbers: ↑
+    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § ‐ – — ‘ ’ “ ” † ‡ … ′ ″'
+    combinations: ''
+  draft: done, done, done, contributed, done
+  script: Latn
+hy:
+  characters:
+    base: ա բ գ դ ե զ է ը թ ժ ի լ խ ծ կ հ ձ ղ ճ մ յ ն շ ո չ պ ջ ռ ս վ տ ր ց ւ փ ք
+      օ ֆ
+    auxiliary: և
+    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
+    punctuation: ', . : « » ՚ ՛ ՜ ՝ ՞ ՟ ֊'
+    combinations: ''
+  draft: done, done, contributed, done, done
+  script: Armn
+ko:
+  characters:
+    base: '- 가 힣'
+    auxiliary: '- ᄀ ᄒ ᅡ ᅵ ᆨ ᇂ 丘 串 乃 久 乖 九 乞 乫 乾 亂 亘 交 京 仇 今 介 件 价 企 伋 伎 伽 佳 佶 侃 來
+      侊 供 係 俓 俱 個 倞 倦 倨 假 偈 健 傀 傑 傾 僅 僑 價 儆 儉 儺 光 克 兢 內 公 共 其 具 兼 冀 冠 凱 刊 刮 券 刻 剋
+      剛 劇 劍 劒 功 加 劤 劫 勁 勍 勘 勤 勸 勻 勾 匡 匣 區 南 卦 却 卵 卷 卿 厥 去 及 口 句 叩 叫 可 各 吉 君 告 呱 呵
+      咎 咬 哥 哭 啓 喀 喇 喝 喫 喬 嗜 嘉 嘔 器 囊 困 固 圈 國 圭 圻 均 坎 坑 坤 坰 坵 垢 基 埼 堀 堅 堈 堪 堺 塊 塏 境
+      墾 壙 壞 夔 奇 奈 奎 契 奸 妓 妗 姑 姜 姦 娘 娜 嫁 嬌 孔 季 孤 宏 官 客 宮 家 寄 寇 寡 寬 尻 局 居 屆 屈 岐 岡 岬
+      崎 崑 崗 嵌 嵐 嶇 嶠 工 巧 巨 己 巾 干 幹 幾 庚 庫 康 廊 廐 廓 廣 建 弓 强 彊 徑 忌 急 怪 怯 恐 恝 恪 恭 悸 愆 感
+      愧 愷 愾 慊 慣 慤 慨 慶 慷 憩 憬 憾 懃 懇 懦 懶 懼 戈 戒 戟 戡 扱 技 抉 拉 拏 拐 拒 拘 括 拮 拱 拳 拷 拿 捏 据 捲
+      捺 掘 掛 控 揀 揆 揭 擊 擎 擒 據 擧 攪 攷 改 攻 故 敎 救 敢 敬 敲 斛 斤 旗 旣 昆 昑 景 晷 暇 暖 暠 暻 曠 曲 更 曷
+      朗 朞 期 机 杆 杞 杰 枏 果 枯 架 枸 柑 柩 柬 柯 校 根 格 桀 桂 桔 桿 梏 梗 械 梱 棄 棋 棍 棘 棨 棺 楗 楠 極 槁 構
+      槐 槨 槪 槻 槿 樂 橄 橋 橘 機 檄 檎 檢 櫃 欄 權 欺 款 歌 歐 歸 殼 毆 毬 氣 求 江 汨 汲 決 汽 沂 沽 洛 洸 浪 涇 淃
+      淇 減 渠 渴 湳 溝 溪 滑 滾 漑 潔 潰 澗 激 濫 灌 灸 炅 炚 炬 烙 烱 煖 爛 牽 犬 狂 狗 狡 狼 獗 玖 玘 珂 珏 珖 珙 珞
+      珪 球 琦 琨 琪 琯 琴 瑾 璂 璟 璣 璥 瓊 瓘 瓜 甄 甘 甲 男 畇 界 畸 畺 畿 疆 疥 疳 痂 痙 痼 癎 癩 癸 皆 皎 皐 盖 監
+      看 眷 睾 瞰 瞼 瞿 矜 矩 矯 硅 硬 碁 碣 磎 磬 磯 磵 祁 祇 祈 祛 祺 禁 禽 科 稈 稼 稽 稿 穀 究 穹 空 窘 窟 窮 窺 竅
+      竟 竭 競 竿 筋 筐 筠 箇 箕 箝 管 簡 粳 糠 系 糾 紀 納 紘 級 紺 絅 結 絞 給 絳 絹 絿 經 綱 綺 緊 繫 繭 繼 缺 罐 罫
+      羅 羈 羌 羔 群 羹 翹 考 耆 耉 耕 耭 耿 肌 肝 股 肩 肯 肱 胛 胱 脚 脛 腔 腱 膈 膏 膠 臘 臼 舅 舊 舡 艮 艱 芎 芥 芩
+      芹 苛 苟 苦 苽 茄 莖 菅 菊 菌 菓 菫 菰 落 葛 葵 蓋 蕎 蕨 薑 藁 藍 藿 蘭 蘿 虔 蚣 蛟 蝎 螺 蠟 蠱 街 衢 衲 衾 衿 袈
+      袞 袴 裙 裸 褐 襁 襟 襤 見 規 覡 覲 覺 觀 角 計 記 訣 訶 詭 誇 誡 誥 課 諫 諾 謙 講 謳 謹 譏 警 譴 谷 谿 豈 貢 貫
+      貴 賈 購 赳 起 跏 距 跨 踞 蹇 蹶 躬 軀 車 軌 軍 軻 較 輕 轎 轟 辜 近 迦 迲 适 逑 逕 逵 過 遣 遽 邏 那 邯 邱 郊 郎
+      郡 郭 酪 醵 金 鈐 鈞 鉀 鉅 鉗 鉤 銶 鋸 鋼 錡 錤 錦 錮 鍋 鍵 鎌 鎧 鏡 鑑 鑒 鑛 開 間 閘 閣 閨 闕 關 降 階 隔 隙 雇
+      難 鞏 鞠 鞨 鞫 頃 頸 顆 顧 飢 餃 館 饉 饋 饑 駒 駕 駱 騎 騏 騫 驅 驕 驚 驥 骨 高 鬼 魁 鮫 鯤 鯨 鱇 鳩 鵑 鵠 鷄 鷗
+      鸞 麒 麴 黔 鼓 龕 龜'
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
+    punctuation: '! " # % & ( ) * , - . / : ; ? @ [ \ ] _ ¡ § ¶ · ¿ ‐ — ― ‘ ’ “ ”
+      † ‡ ‥ … ‰ ′ ″ ※ ‾ 、 。 〃 〈 〉 《 》 「 」 『 』 【 】 〔 〕 〜 ・ ！ ＂ ＃ ％ ＆ ＇ （ ） ＊ ， － ．
+      ／ ： ； ？ ＠ ［ ＼ ］ ＿ ｛ ｝'
+    combinations: ''
+    punctuation_combinations: '{ ｛ }'
+  draft: done, done, done, done, done
+  script: Hang
+ig:
+  characters:
+    base: a b c d e f g h i j k l m n o p r s t u v w y z ṅ ẹ ị ọ ụ
+    auxiliary: c m q x à á è é ì í ò ó ù ú ā ē ī ń ō ū ǹ ̀ ́ ḿ ị ọ ụ
+    numbers: ↑
+    punctuation: '! ( ) , - . : ; ? [ ] ‘ ’ “ ”'
+    combinations: '{ch} {gb} {gh} {gw} {kp} {kw} {nw} {ny} {sh}'
+    auxiliary_combinations: '{ị́} {ị̀} {m̀} {ọ́} {ọ̀} {ụ́} {ụ̀}'
+    punctuation_combinations: '{ }'
+  draft: done, done, done, contributed, contributed
+  script: Latn
+gl:
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ñ ó ú ü
+    auxiliary: ª º à â ã ä å ç è ê ë ì î ï ò ô õ ö ù û
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
+    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § ‐ – — ‘ ’ “ ” † ‡ … ′ ″'
+    combinations: ''
+  draft: done, done, done, done, done
+  script: Latn
+es:
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ñ ó ú ü ↑
+    auxiliary: ª º à â ã ä å æ ç è ê ë ì î ï ò ô ö ø ù û ý ÿ ā ă ē ĕ ī ĭ ō ŏ œ ū ŭ
+      ↑
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9   ‰ ↑'
+    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ \ ] ¡ § « » ¿ ‐ – — ‘ ’ “ ” †
+      ‡ … ′ ″ ↑'
+    combinations: ''
+  draft: done, done, done, done, done
+  script: Latn
+si:
+  characters:
+    base: ං ඃ අ ආ ඇ ඈ ඉ ඊ උ ඌ ඍ එ ඒ ඓ ඔ ඕ ඖ ක ඛ ග ඝ ඞ ඟ ච ඡ ජ ඣ ඤ ඥ ට ඨ ඩ ඪ ණ ඬ ත
+      ථ ද ධ න ඳ ප ඵ බ භ ම ඹ ය ර ල ව ශ ෂ ස හ ළ ෆ ් ා ැ ෑ ි ී ු ූ ෘ ෙ ේ ෛ ො ෝ ෞ ෟ ෲ
+    auxiliary: ඎ ඏ ඐ ඦ ෳ ​ ‌ ‍
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
+    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § ‐ – — ‘ ’ “ ” † ‡ … ′ ″'
+    combinations: ''
+  draft: done, done, done, done, done
+  script: Sinh
+rm:
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à è é ì ò ù
+    auxiliary: á â ä å æ ç ê ë í î ï ñ ó ô ö ø ú û ü ÿ ā ă ē ĕ ī ĭ ō ŏ œ ū ŭ
+    numbers: '% + . 0 1 2 3 4 5 6 7 8 9 ’ ‰ −'
+    punctuation: ''
+    combinations: ''
+  draft: contributed, contributed, contributed, done
+  script: Latn
+kln:
+  characters:
+    base: a b c d e g h i j k l m n o p r s t u w y
+    auxiliary: f q v x z
+    numbers: ''
+    punctuation: ''
+    combinations: ''
+  draft: done, done, done
+  script: Latn
+ps:
+  characters:
+    base: ء آ أ ؤ ئ ا ب ة ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ل م ن ه و ي ً ٌ ٍ
+      َ ُ ِ ّ ْ ٔ ٰ ټ پ ځ څ چ ډ ړ ږ ژ ښ ک ګ گ ڼ ی ۍ ې ے
+    auxiliary: ے ‌ ‍ ‎ ‏
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ؉ ٪ ٫ ٬ ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹ ‎ ‰ −'
+    punctuation: '! '' ( ) / : ; [ ] ، ۔ ‘'
+    combinations: ''
+    punctuation_combinations: '{ }'
+  draft: done, done, contributed, done, done
+  script: Arab
+ee:
+  characters:
+    base: a b d e f g h i k l m n o p r s t u v w x y z à á ã è é ì í ò ó õ ù ú ĩ
+      ŋ ũ ƒ ɔ ɖ ɛ ɣ ʋ ̀ ́ ̃ ẽ
+    auxiliary: c j q â ä å æ ç ê ë î ï ñ ô ö ø û ü ÿ ā ă ĕ ĭ ŏ œ ŭ
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
+    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § ‐ – — ‘ ’ “ ” † ‡ … ′ ″'
+    combinations: '{ɛ́} {ɛ̀} {ɛ̃} {ɔ́} {ɔ̀} {ɔ̃}'
+    punctuation_combinations: '{ }'
+  draft: done, done, done, done, done
+  script: Latn
+da:
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z å æ ø
+    auxiliary: à á â ä ç è é ê ë í î ï ñ ó ô ö ù ú û ü ÿ œ ǿ
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
+    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § ‐ – ‘ ’ “ ” † … ′ ″'
+    combinations: ''
+  draft: done, done, done, done, done
+  script: Latn
+fi:
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä å ö š ž
+    auxiliary: ß à á â ã æ ç è é ê ë í î ï ð ñ ò ó ô õ ø ù ú û ü ý þ ÿ ā ă ą ć ċ č
+      ď đ ē ė ę ě ğ ģ ħ ī į İ ı ķ ĺ ļ ľ ł ń ņ ň ŋ ő œ ŕ ř ś ŝ ş ţ ť ŧ ū ů ű ų ź ż
+      ǥ ǧ ǩ ǯ ș ț ȟ ʒ
+    numbers: '% + , 0 1 2 3 4 5 6 7 8 9   ‰ −'
+    punctuation: '! # & ( ) * , - . / : ; ? @ [ \ ] § » ‐ – ’ ” …'
+    combinations: ''
+  draft: done, done, done, done, done
+  script: Latn
+dsb:
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ó ć č ě ł ń ŕ ś š ź
+      ž
+    auxiliary: ß à á â ã ä å æ ç è é ê ë ì í î ï ñ ò ô ö ø ù ú û ü ý ÿ ā ă ą ď đ ē
+      ĕ ė ę ğ ī ĭ İ ı ĺ ľ ň ō ŏ ő œ ř ş ť ū ŭ ů ű ż
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
+    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § « » ‐ – — ‘ ’ ‚ “ „ …'
+    combinations: '{ch}'
+    punctuation_combinations: '{ }'
+  draft: done, done, done, done, done
+  script: Latn
+ky:
+  characters:
+    base: а б г д е ж з и й к л м н о п р с т у х ч ш ъ ы э ю я ё ң ү ө
+    auxiliary: в ф ц щ ь
+    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
+    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § « » ‐ – — ‘ ‚ “ „ …'
+    combinations: ''
+    punctuation_combinations: '{ }'
+  draft: done, done, done, done, done
+  script: Cyrl
+hu:
+  characters:
+    base: a b c d e f g h i j k l m n o p r s t u v y z á é í ó ö ú ü ő ű
+    auxiliary: q w x y à â ã ä å æ ç è ê ë ì î ï ñ ò ô ø ù û ÿ ā ă ē ĕ ī ĭ ō ŏ œ ū
+      ŭ
+    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
+    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] ~ § « » – ’ ” „ … ⁒ ⟨ ⟩'
+    combinations: '{cs} {ccs} {dz} {ddz} {dzs} {ddzs} {gy} {ggy} {ly} {lly} {ny} {nny}
+      {sz} {ssz} {ty} {tty} {zs} {zzs}'
+    punctuation_combinations: '{ }'
+  draft: done, done, done, done, done
+  script: Latn
+kn:
+  characters:
+    base: ಂ ಃ ಅ ಆ ಇ ಈ ಉ ಊ ಋ ಌ ಎ ಏ ಐ ಒ ಓ ಔ ಕ ಖ ಗ ಘ ಙ ಚ ಛ ಜ ಝ ಞ ಟ ಠ ಡ ಢ ಣ ತ ಥ ದ ಧ ನ
+      ಪ ಫ ಬ ಭ ಮ ಯ ರ ಱ ಲ ಳ ವ ಶ ಷ ಸ ಹ ಼ ಽ ಾ ಿ ೀ ು ೂ ೃ ೄ ೆ ೇ ೈ ೊ ೋ ೌ ್ ೕ ೖ ೠ ೡ ೦ ೧ ೨
+      ೩ ೪ ೫ ೬ ೭ ೮ ೯
+    auxiliary: ೞ ‌ ‍
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ೦ ೧ ೨ ೩ ೪ ೫ ೬ ೭ ೮ ೯ ‰'
+    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] ‐ – — ‘ ’ “ ” … ′ ″'
+    combinations: ''
+  draft: done, done, contributed, done, done
+  script: Knda
+is:
+  characters:
+    base: a b d e f g h i j k l m n o p r s t u v x y á æ é í ð ó ö ú ý þ
+    auxiliary: c q w z
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
+    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § ‐ – — ‘ ‚ “ „ † ‡ … ′ ″'
+    combinations: ''
+  draft: done, done, contributed, done, contributed
+  script: Latn
+kl:
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z å æ ø
+    auxiliary: á â ã é ê í î ô õ ú û ĩ ĸ ũ ẽ
+    numbers: '% + , . 0 1 2 3 4 5 6 7 8 9 ‰ −'
+    punctuation: ''
+    combinations: ''
+  draft: done, done, contributed, done
+  script: Latn
+fil:
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ñ
+    auxiliary: à á â è é ê ì í î ò ó ô ù ú û
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
+    punctuation: '! " # & '' ( ) * , - . / : ; ? [ ] § ‐ – — ‘ ’ “ ” … ′ ″'
+    combinations: '{ng}'
+  draft: done, done, done, done, done
+  script: Latn
+id:
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    auxiliary: å
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
+    punctuation: '! '' ( ) , - . / : ; ? [ ] ‐ – — ‘ ’ “ ” …'
+    combinations: ''
+  draft: done, done, done, done, done
+  script: Latn
+rn:
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    auxiliary: ''
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
+    punctuation: ''
+    combinations: ''
+  draft: done, done, done
+  script: Latn
+qu:
+  characters:
+    base: a c h i k l m n p q s t u w y ñ ʼ
+    auxiliary: b c d e f g j o r v x z à á â ã ä å æ ç è é ê ë ì í î ï ò ó ô ö ø ù
+      ú û ü ÿ ā ă ē ĕ ī ĭ ō ŏ œ ū ŭ
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
+    punctuation: ''
+    combinations: '{ch} {chʼ} {kʼ} {ll} {pʼ} {qʼ} {tʼ}'
+  draft: done, done, done, done
+  script: Latn
+sk:
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á ä é í ó ô ú ý č ď
+      ĺ ľ ň ŕ š ť ž
+    auxiliary: à â å æ ç è ê ë ì î ï ñ ò ö ø ù û ü ÿ ā ă ē ĕ ī ĭ ō ŏ ő œ ř ū ŭ ű
+    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
+    punctuation: '! & ( ) * , - . / : ; ? @ [ ] § ‐ – ‘ ‚ “ „ …'
+    combinations: '{dz} {dž} {ch}'
+  draft: done, done, contributed, done, done
+  script: Latn
+ro:
+  characters:
+    base: a b c d e f g h i j k l m n o p r s t u v w x y z â î ă ș ț
+    auxiliary: q à á ä å ç è é ê ë ñ ö ü ş ţ
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
+    punctuation: '! " '' ( ) * , - . / : ; ? @ [ ] « » ‐ – — ‘ “ ” „ …'
+    combinations: ''
+  draft: done, done, done, done, done
+  script: Latn
+ha:
+  characters:
+    base: a b c d e f g h i j k l m n o r s t u w y z ƙ ƴ ɓ ɗ ʼ
+    auxiliary: p q r v x y à á â è é ê ì í î ò ó ô ù ú û ʼ ̃
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰ ↑'
+    punctuation: '! " '' ( ) , - . : ; ? [ ] ‘ ’ “ ” ′ ″'
+    combinations: h s t { } ƴ
+    auxiliary_combinations: r y { } ʼ ̃
+    punctuation_combinations: '{ }'
+  draft: done, done, done, contributed, contributed
+  script: Latn
+km:
+  characters:
+    base: ក ខ គ ឃ ង ច ឆ ជ ឈ ញ ដ ឋ ឌ ឍ ណ ត ថ ទ ធ ន ប ផ ព ភ ម យ រ ល វ ស ហ ឡ អ ឥ ឦ ឧ
+      ឩ ឪ ឫ ឬ ឭ ឮ ឯ ឰ ឱ ឲ ឳ ា ិ ី ឹ ឺ ុ ូ ួ ើ ឿ ៀ េ ែ ៃ ោ ៅ ំ ះ ៈ ៉ ៊ ់ ៍ ័ ្
+    auxiliary: ឝ ឞ ឴ ឵ ៌ ៎ ៏ ៑ ​
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
+    punctuation: '! " ( ) , - . ? [ ] ។ ៕ ៖ ៙ ៚ ‘ ’ “ ”'
+    combinations: '{អា} {ឧក}'
+    punctuation_combinations: '{ }'
+  draft: done, done, unconfirmed, done, done
+  script: Khmr
+ia:
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    auxiliary: à á â ã ä å æ ç è é ê ë ì í î ï ñ ò ó ô ö ø ù ú û ü ÿ ā ă ē ĕ ī ĭ ō
+      ŏ œ ū ŭ
+    numbers: ↑
+    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § ‐ – — ‘ ’ “ ” … ′ ″'
+    combinations: ''
+  draft: done, contributed, contributed, contributed, contributed
+  script: Latn
+he:
+  characters:
+    base: א ב ג ד ה ו ז ח ט י ך כ ל ם מ ן נ ס ע ף פ ץ צ ק ר ש ת
+    auxiliary: ְ ֱ ֲ ֳ ִ ֵ ֶ ַ ָ ֹ ֻ ּ ֽ ֿ ׁ ׂ ׄ ״ ‎ ‏
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‎ ‰'
+    punctuation: '! " '' ( ) , - . / : ; ? [ ] ־ ׳ ״ ‐ – —'
+    combinations: ''
+  draft: done, done, done, done, done
+  script: Hebr
+twq:
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u w x y z ã õ ŋ š ž ɲ ẽ
+    auxiliary: v
+    numbers: '% + - . 0 1 2 3 4 5 6 7 8 9   ‰'
+    punctuation: ''
+    combinations: ''
+  draft: done, done, unconfirmed, done
+  script: Latn
+ki:
+  characters:
+    base: a b c d e g h i j k m n o r t u w y ĩ ũ
+    auxiliary: f l p q s v x z
+    numbers: ''
+    punctuation: ''
+    combinations: ''
+  draft: done, done, done
+  script: Latn
+hr:
+  characters:
+    base: a b c d e f g h i j k l m n o p r s t u v z ć č đ š ž
+    auxiliary: q w x y
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
+    punctuation: '! " '' ( ) * , . / : ; ? @ [ ] ‐ – — ‘ ’ ‚ “ ” „ … ′ ″'
+    combinations: '{dž} {lj} {nj}'
+  draft: done, done, done, done, done
+  script: Latn
+fy:
+  characters:
+    base: a b c d e f g h i j k l m n o p r s t u v w y z à á â ä è é ê ë í ï ó ô
+      ö ú û ü ý ́
+    auxiliary: æ ò ù
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
+    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § ‐ – — ‘ ’ “ ” † ‡ … ′ ″'
+    combinations: '{ij} {íj́}'
+  draft: done, done, done, done, done
+  script: Latn
+vai:
+  characters:
+    base: ꔀ ꔁ ꔂ ꔃ ꔄ ꔅ ꔆ ꔇ ꔈ ꔉ ꔊ ꔋ ꔌ ꔍ ꔎ ꔏ ꔐ ꔑ ꔒ ꔓ ꔔ ꔕ ꔖ ꔗ ꔘ ꔙ ꔚ ꔛ ꔜ ꔝ ꔞ ꔟ ꔠ ꔡ ꔢ ꔣ
+      ꔤ ꔥ ꔦ ꔧ ꔨ ꔩ ꔪ ꔫ ꔬ ꔭ ꔮ ꔯ ꔰ ꔱ ꔲ ꔳ ꔴ ꔵ ꔶ ꔷ ꔸ ꔹ ꔺ ꔻ ꔼ ꔽ ꔾ ꔿ ꕀ ꕁ ꕂ ꕃ ꕄ ꕅ ꕆ ꕇ ꕈ ꕉ
+      ꕊ ꕋ ꕌ ꕍ ꕎ ꕏ ꕐ ꕑ ꕒ ꕓ ꕔ ꕕ ꕖ ꕗ ꕘ ꕙ ꕚ ꕛ ꕜ ꕝ ꕞ ꕟ ꕠ ꕡ ꕢ ꕣ ꕤ ꕥ ꕦ ꕧ ꕨ ꕩ ꕪ ꕫ ꕬ ꕭ ꕮ ꕯ
+      ꕰ ꕱ ꕲ ꕳ ꕴ ꕵ ꕶ ꕷ ꕸ ꕹ ꕺ ꕻ ꕼ ꕽ ꕾ ꕿ ꖀ ꖁ ꖂ ꖃ ꖄ ꖅ ꖆ ꖇ ꖈ ꖉ ꖊ ꖋ ꖌ ꖍ ꖎ ꖏ ꖐ ꖑ ꖒ ꖓ ꖔ ꖕ
+      ꖖ ꖗ ꖘ ꖙ ꖚ ꖛ ꖜ ꖝ ꖞ ꖟ ꖠ ꖡ ꖢ ꖣ ꖤ ꖥ ꖦ ꖧ ꖨ ꖩ ꖪ ꖫ ꖬ ꖭ ꖮ ꖯ ꖰ ꖱ ꖲ ꖳ ꖴ ꖵ ꖶ ꖷ ꖸ ꖹ ꖺ ꖻ
+      ꖼ ꖽ ꖾ ꖿ ꗀ ꗁ ꗂ ꗃ ꗄ ꗅ ꗆ ꗇ ꗈ ꗉ ꗊ ꗋ ꗌ ꗍ ꗎ ꗏ ꗐ ꗑ ꗒ ꗓ ꗔ ꗕ ꗖ ꗗ ꗘ ꗙ ꗚ ꗛ ꗜ ꗝ ꗞ ꗟ ꗠ ꗡ
+      ꗢ ꗣ ꗤ ꗥ ꗦ ꗧ ꗨ ꗩ ꗪ ꗫ ꗬ ꗭ ꗮ ꗯ ꗰ ꗱ ꗲ ꗳ ꗴ ꗵ ꗶ ꗷ ꗸ ꗹ ꗺ ꗻ ꗼ ꗽ ꗾ ꗿ ꘀ ꘁ ꘂ ꘃ ꘄ ꘅ ꘆ ꘇ
+      ꘈ ꘉ ꘊ ꘋ ꘌ ꘐ ꘑ ꘒ ꘪ ꘫ
+    auxiliary: ꘓ ꘔ ꘕ ꘖ ꘗ ꘘ ꘙ ꘚ ꘛ ꘜ ꘝ ꘞ ꘟ
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
+    punctuation: ''
+    combinations: ''
+  draft: done, done, done
+  script: Vaii
+eu:
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ç ñ
+    auxiliary: à á â ã ä å æ è é ê ë ì í î ï ò ó ô ö ø ù ú û ü ÿ ā ă ē ĕ ī ĭ ō ŏ œ
+      ū ŭ
+    numbers: '% + , . 0 1 2 3 4 5 6 7 8 9 ‰ −'
+    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § ‐ – — ‘ ’ “ ” † ‡ … ′ ″'
+    combinations: ''
+  draft: done, done, done, done, done
+  script: Latn
+jgo:
+  characters:
+    base: a b c d f g h i j k l m n p s t u v w y z á â í î ú û ń ŋ ǎ ǐ ǔ ǹ ɔ ɛ ʉ
+      ̀ ́ ̂ ̄ ̈ ̌ ḿ ẅ ꞌ
+    auxiliary: e o q r x
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
+    punctuation: '! , - . : ; ? « » ‹ ›'
+    combinations: '{ɛ́} {ɛ̀} {ɛ̂} {ɛ̌} {ɛ̄} {m̀} {m̄} {n̄} {ŋ́} {ŋ̀} {ŋ̄} {ɔ́} {ɔ̂}
+      {ɔ̌} {pf} {sh} {ts} {ʉ́} {ʉ̂} {ʉ̌} {ʉ̈}'
+  draft: done, done, done, done, done
+  script: Latn
+so:
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    auxiliary: ↑
+    numbers: ↑
+    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § ‐ – — ‘ ’ “ ” † ‡ … ′ ″'
+    combinations: ''
+  draft: done, contributed, contributed, contributed, contributed
+  script: Latn
+pt:
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ã ç é ê í ò ó
+      ô õ ú ↑
+    auxiliary: ª º ä å æ è ë ì î ï ñ ö ø ù û ü ÿ ā ă ē ĕ ī ĭ ō ŏ œ ū ŭ ↑
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9   ‰'
+    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § « » ‐ – — ‘ ’ “ ” † ‡ … ′
+      ″'
+    combinations: ''
+  draft: done, done, done, done, done
+  script: Latn
+rof:
+  characters:
+    base: a b c d e f g h i j k l m n o p r s t u v w y z
+    auxiliary: q x
+    numbers: ''
+    punctuation: ''
+    combinations: ''
+  draft: done, done, done
+  script: Latn
+ses:
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u w x y z ã õ ŋ š ž ɲ ẽ
+    auxiliary: v
+    numbers: '% + - . 0 1 2 3 4 5 6 7 8 9   ‰'
+    punctuation: ''
+    combinations: ''
+  draft: done, done, done, done
+  script: Latn
+sn:
+  characters:
+    base: a b c d e f g h i j k l m n o p r s t u v w y z
+    auxiliary: q x
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
+    punctuation: ''
+    combinations: ''
+  draft: done, done, done, done
+  script: Latn
+fo:
+  characters:
+    base: a b d e f g h i j k l m n o p r s t u v y á æ í ð ó ø ú ý
+    auxiliary: c q w x z
+    numbers: '% + , . 0 1 2 3 4 5 6 7 8 9 ‰ −'
+    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § ‐ – ‘ ’ “ ” † … ′ ″'
+    combinations: ''
+  draft: done, done, contributed, done, done
+  script: Latn
+et:
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä õ ö ü š ž
+    auxiliary: à á â ã å æ ç è é ê ë ì í î ï ñ ò ó ô ø ù ú û ā ē ī ō ŏ œ ū
+    numbers: '% + , 0 1 2 3 4 5 6 7 8 9   ‰ −'
+    punctuation: '! ( ) , - . : ; ? @ [ ] – “ „'
+    combinations: ''
+    punctuation_combinations: '{ }'
+  draft: done, done, done, done, done
+  script: Latn
+de:
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ß ä ö ü
+    auxiliary: à á â ã å æ ç è é ê ë ì í î ï ñ ò ó ô ø ù ú û ÿ ā ă ē ĕ ğ ī ĭ İ ı ō
+      ŏ œ ş ū ŭ ↑
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9   ’ ‰'
+    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § « » ‐ – — ‘ ‚ “ „ … ↑'
+    combinations: ''
+    punctuation_combinations: '{ }'
+  draft: done, done, done, done, done
+  script: Latn
+sl:
+  characters:
+    base: a b c d e f g h i j k l m n o p r s t u v z č š ž
+    auxiliary: q w x y à á â ä å æ ç è é ê ë ì í î ï ñ ò ó ô ö ø ù ú û ü ÿ ā ă ć đ
+      ē ĕ ī ĭ ō ŏ œ ū ŭ
+    numbers: '% + , . 0 1 2 3 4 5 6 7 8 9 ‰ −'
+    punctuation: '! " '' ( ) * , - . : ; ? @ [ ] « » – „ ‟ …'
+    combinations: ''
+    punctuation_combinations: '{ }'
+  draft: done, done, done, done, done
+  script: Latn
+bez:
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w y z
+    auxiliary: x
+    numbers: ''
+    punctuation: ''
+    combinations: ''
+  draft: done, done, done
+  script: Latn
+bem:
+  characters:
+    base: a b c e f g h i j k l m n o p s t u w y
+    auxiliary: d h q r v x z
+    numbers: ''
+    punctuation: ''
+    combinations: '{sh}'
+  draft: done, done, done
+  script: Latn
+nds:
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä å ö ü
+    auxiliary: à á â ä æ ç è é ê ë ì í î ï ñ ò ó ô ö ø ù ú û ü ÿ ā ă ē ĕ ę ī ĭ ō ŏ
+      œ ū ŭ
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
+    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § « » ‐ – — ‘ ’ ‚ “ ” „ † ‡
+      … ′ ″'
+    combinations: ''
+    punctuation_combinations: '{ }'
+  draft: done, unconfirmed, unconfirmed, done, done
+  script: Latn
+ewo:
+  characters:
+    base: a b d e f g h i k l m n o p r s t u v w y z à á â è é ê ì í î ò ó ô ù ú
+      û ě ń ŋ ǎ ǐ ǒ ǔ ǹ ɔ ə ɛ ̀ ́ ̂ ̌
+    auxiliary: c j q x
+    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
+    punctuation: ''
+    combinations: '{dz} {ə́} {ə̀} {ə̂} {ə̌} {ɛ́} {ɛ̀} {ɛ̂} {ɛ̌} {kp} {ng} {nk} {ɔ́}
+      {ɔ̀} {ɔ̂} {ɔ̌} {ts}'
+  draft: done, done, done, done
+  script: Latn
+kam:
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w y z ĩ ũ
+    auxiliary: ''
+    numbers: ''
+    punctuation: ''
+    combinations: ''
+  draft: done, done
+  script: Latn
+vun:
+  characters:
+    base: a b c d e f g h i j k l m n o p r s t u v w y z
+    auxiliary: q x
+    numbers: ''
+    punctuation: ''
+    combinations: ''
+  draft: done, done, done
+  script: Latn
+dje:
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u w x y z ã õ ŋ š ž ɲ ẽ
+    auxiliary: v
+    numbers: '% + - . 0 1 2 3 4 5 6 7 8 9   ‰'
+    punctuation: ''
+    combinations: ''
+  draft: done, done, done, done
+  script: Latn
+pa:
+  characters:
+    base: ਅ ਆ ਇ ਈ ਉ ਊ ਏ ਐ ਓ ਔ ਕ ਖ ਗ ਘ ਙ ਚ ਛ ਜ ਝ ਞ ਟ ਠ ਡ ਢ ਣ ਤ ਥ ਦ ਧ ਨ ਪ ਫ ਬ ਭ ਮ ਯ
+      ਰ ਲ ਵ ਸ ਹ ਼ ਾ ਿ ੀ ੁ ੂ ੇ ੈ ੋ ੌ ੍ ੜ ੦ ੧ ੨ ੩ ੪ ੫ ੬ ੭ ੮ ੯ ੰ ੱ ੲ ੳ ੴ
+    auxiliary: ਁ ਂ ਃ ਲ ਼ ‌ ‍
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ੦ ੧ ੨ ੩ ੪ ੫ ੬ ੭ ੮ ੯ ‰'
+    punctuation: '! " & '' ( ) , - . / : ; ? [ ] ‐ – — ‘ ’ “ ” ′ ″'
+    combinations: '{ਸ਼} {ਖ਼} {ਗ਼} {ਜ਼} {ਫ਼}'
+    auxiliary_combinations: '{ਲ਼}'
+  draft: done, done, contributed, done, done
+  script: Guru
+it:
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à è é ì ò ó ù
+    auxiliary: ª º ß á â ã ä å æ ç ê ë í î ï ñ ô õ ö ø ú û ü ÿ œ
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ’ ‰'
+    punctuation: '! " '' ( ) , - . / : ; ? @ [ ] « » — ’ “ ” …'
+    combinations: ''
+    punctuation_combinations: '{ }'
+  draft: done, done, done, done, done
+  script: Latn
+kk:
+  characters:
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё і ғ қ
+      ң ү ұ һ ә ө
+    auxiliary: ''
+    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
+    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § « » ‐ – — ‘ ’ “ ” …'
+    combinations: ''
+    punctuation_combinations: '{ }'
+  draft: done, done, done, done, done
+  script: Cyrl
+ml:
+  characters:
+    base: ം ഃ അ ആ ഇ ഈ ഉ ഊ ഋ ഌ എ ഏ ഐ ഒ ഓ ഔ ക ഖ ഗ ഘ ങ ച ഛ ജ ഝ ഞ ട ഠ ഡ ഢ ണ ത ഥ ദ ധ ന
+      പ ഫ ബ ഭ മ യ ര റ ല ള ഴ വ ശ ഷ സ ഹ ാ ി ീ ു ൂ ൃ െ േ ൈ ൊ ോ ൌ ് ൗ ൠ ൡ ൺ ൻ ർ ൽ ൾ ൿ
+      ‌ ‍
+    auxiliary: ''
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ൦ ൧ ൨ ൩ ൪ ൫ ൬ ൭ ൮ ൯ ‰'
+    punctuation: '! " '' ( ) , - . : ; ? [ ] ‘ ’ “ ”'
+    combinations: ''
+    punctuation_combinations: '{ }'
+  draft: done, done, contributed, done, contributed
+  script: Mlym
+os:
+  characters:
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӕ
+    auxiliary: ''
+    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
+    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § « » ‐ – — ‘ ‚ “ „ …'
+    combinations: '{гъ} {дж} {дз} {къ} {пъ} {тъ} {хъ} {цъ} {чъ}'
+    punctuation_combinations: '{ }'
+  draft: done, done, done, done, done
+  script: Cyrl
+yi:
+  characters:
+    base: ִ ַ ָ ּ ֿ ׂ א ב ג ד ה ו ז ח ט י ך כ ל ם מ ן נ ס ע ף פ ץ צ ק ר ש ת ײ
+    auxiliary: ‎ ‏
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
+    punctuation: '! " '' ( ) , - . / : ; ? [ ] ־ ׳ ״ ‐ – —'
+    combinations: '{אַ} {אָ} {בֿ} {דזש} {וּ} {וו} {וי} {זש} {טש} {יִ} {יי} {ײַ} {כּ}
+      {פּ} {פֿ} {שׂ} {תּ}'
+  draft: done, contributed, done, done, contributed
+  script: Hebr
+sah:
+  characters:
+    base: а б г д и й к л м н о п р с т у х ч ы ь э ҕ ҥ ү һ ө
+    auxiliary: в е ж з ф ц ш щ ъ ь ю я ё
+    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
+    punctuation: ':'
+    combinations: '{дь} {нь}'
+  draft: done, done, done, done, contributed
+  script: Cyrl
+mer:
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ĩ ũ
+    auxiliary: ''
+    numbers: ''
+    punctuation: ''
+    combinations: ''
+  draft: done, done
+  script: Latn
+to:
+  characters:
+    base: a e f g h i k l m n o p s t u v á é í ó ú ā ē ī ō ū ʻ
+    auxiliary: b c d g j q r w x y z à â ä å æ ç è ê ë ì î ï ñ ò ô ö ø ù û ü ÿ ă ĕ
+      ĭ ŏ œ ŭ
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
+    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § ‐ – — ‘ ’ “ ” † ‡ … ′ ″'
+    combinations: '{ng}'
+  draft: done, done, done, done, done
+  script: Latn
+uk:
+  characters:
+    base: ʼ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ь ю я є і ї ґ
+    auxiliary: ́ а е и о у ъ ы э ю я ё є і ї
+    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
+    punctuation: '! " '' ( ) * , - . / : ; ? @ [ \ ] § « » – ’ “ „ №'
+    combinations: ''
+    auxiliary_combinations: '{а́} {е́} {є́} {и́} {і́} {ї́} {о́} {у́} {ю́} {я́}'
+    punctuation_combinations: '{ }'
+  draft: done, done, done, done, done
+  script: Cyrl
+dua:
+  characters:
+    base: a b c d e f g i j k l m n o p r s t u w y á é í ó ú ŋ ū ɓ ɔ ɗ ɛ ́
+    auxiliary: h q v x z
+    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
+    punctuation: ''
+    combinations: '{ɛ́} {ny} {ɔ́}'
+  draft: done, done, done, done
+  script: Latn
+or:
+  characters:
+    base: ଁ ଂ ଃ ଅ ଆ ଇ ଈ ଉ ଊ ଋ ଏ ଐ ଓ ଔ କ ଖ ଗ ଘ ଙ ଚ ଛ ଜ ଝ ଞ ଟ ଠ ଡ ଢ ଣ ତ ଥ ଦ ଧ ନ ପ ଫ
+      ବ ଭ ମ ଯ ର ଲ ଳ ଵ ଶ ଷ ସ ହ ଼ ା ି ୀ ୁ ୂ ୃ େ ୈ ୋ ୌ ୍ ୟ ୱ
+    auxiliary: ‌ ‍
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ୦ ୧ ୨ ୩ ୪ ୫ ୬ ୭ ୮ ୯ ‰'
+    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § ‐ – — ‘ ’ “ ” † ‡ … ′ ″'
+    combinations: '{ଡ଼} {ଢ଼}'
+  draft: done, done, contributed, done, contributed
+  script: Orya
+cs:
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ó ú ý č ď ě ň
+      ř š ť ů ž
+    auxiliary: à â ã ä å æ ç è ê ë ì î ï ñ ò ô ö ø ù û ü ÿ ā ă ē ĕ ī ĭ ľ ł ō ŏ œ ŕ
+      ū ŭ
+    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
+    punctuation: '! & ( ) * , - . / : ; ? @ [ ] § ‐ – ‘ ‚ “ „ …'
+    combinations: '{ch}'
+  draft: done, done, contributed, done, done
+  script: Latn
+mgo:
+  characters:
+    base: a b c d e f g h i j k m n o p r s t u w y z à è ì ò ù ŋ ɔ ə ʼ ̀
+    auxiliary: c h l q v x
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
+    punctuation: '! " '' , . : ; ? ‘ ’ “ ”'
+    combinations: '{ch} {ə̀} {gh} {ɔ̀}'
+  draft: done, done, done, done, done
+  script: Latn
+sbp:
+  characters:
+    base: a b c d e f g h i j k l m n o p s t u v w y
+    auxiliary: q r x z
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
+    punctuation: ''
+    combinations: ''
+  draft: done, done, done, done
+  script: Latn
+kde:
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    auxiliary: ''
+    numbers: ''
+    punctuation: ''
+    combinations: ''
+  draft: done, done
+  script: Latn
+kea:
+  characters:
+    base: a b d e f g h i j k l m n o p r s t u v x y z ñ
+    auxiliary: c n q r w ª º à á â ã ä å æ ç è é ê ë ì í î ï ò ó ô õ ö ø ù ú û ü ÿ
+      ā ă ē ĕ ĩ ī ĭ ō ŏ œ ũ ū ŭ ̈ ẽ
+    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
+    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § « » ‐ – — ‘ ’ “ ” † ‡ …'
+    combinations: '{dj} {lh} {nh} {tx}'
+    auxiliary_combinations: '{n̈} {rr}'
+  draft: done, done, done, done, contributed
+  script: Latn
+yue:
+  characters:
+    base: '- 一 丁 七 丈 不 丑 且 世 丘 丙 丟 並 中 串 丸 丹 主 乃 久 么 之 乎 乏 乖 乘 乙 九 也 乾 亂 了 予 事 二 于
+      云 互 五 井 些 亞 亡 交 亦 亨 享 京 亮 人 什 仁 仇 今 介 仍 仔 他 付 仙 代 以 仰 仲 件 任 份 企 伊 伍 伐 休 伙 伯
+      估 伴 伸 似 伽 但 佈 佉 位 住 佔 何 余 佛 作 你 佩 佳 使 來 例 供 依 侯 侵 便 係 俄 俊 俗 保 俠 信 修 俱 俾 個 倍
+      們 倒 候 倚 借 倫 值 假 偉 偏 做 停 健 側 偷 傑 備 傢 傣 傲 傳 傷 傻 傾 僅 像 僑 僧 價 儀 億 儒 儘 優 允 元 充 兇
+      光 克 免 兒 兔 入 內 兩 八 兮 共 兵 典 兼 冊 再 冒 冠 冬 冰 冷 准 凌 凝 凡 凰 凱 出 函 刀 分 切 刊 列 初 判 別 利
+      刪 到 制 刷 刺 刻 則 剌 前 剛 剩 剪 副 割 創 劃 劇 劉 劍 力 功 加 助 劫 勁 勇 勉 勒 動 務 勝 勞 勢 勤 勵 勸 勿 包
+      匈 化 北 匹 區 十 千 升 午 半 卒 協 南 博 卜 卡 卯 危 即 卷 卻 厄 厘 厚 原 厭 厲 去 參 又 及 友 反 叔 取 受 口 另
+      只 叭 可 台 史 右 司 吃 各 合 吊 同 后 吐 吒 君 吝 吠 否 吧 含 吳 吵 吸 吹 吾 呀 呂 呆 告 呢 周 味 呵 呼 命 和 咖
+      咦 咧 咪 咬 咱 哀 品 哇 哉 哎 員 哥 哦 哩 哪 哭 哲 唉 唐 唔 唬 售 唯 唱 唷 唸 商 啊 問 啟 啡 啥 啦 啪 喀 喂 善 喇
+      喊 喔 喜 喝 喬 單 喵 嗎 嗚 嗨 嗯 嘆 嘉 嘗 嘛 嘴 嘻 嘿 器 噴 嚇 嚴 囉 四 回 因 困 固 圈 國 圍 園 圓 圖 團 圜 土 在
+      圭 地 圾 址 均 坎 坐 坡 坤 坦 坪 垂 垃 型 埃 城 埔 域 執 培 基 堂 堅 堆 堡 堪 報 場 塊 塔 塗 塞 填 塵 境 增 墨 墮
+      壁 壇 壓 壘 壞 壢 士 壬 壯 壽 夏 夕 外 多 夜 夠 夢 夥 大 天 夫 央 失 夷 夸 夾 奇 奉 奎 奏 契 奔 套 奧 奪 奮 女 奴
+      奶 她 好 如 妙 妝 妥 妨 妮 妳 妹 妻 姆 姊 始 姐 姑 姓 委 姿 威 娃 娘 娛 婁 婆 婚 婦 媒 媽 嫌 嫩 子 孔 字 存 孝 孟
+      季 孤 孩 孫 學 它 宅 宇 安 宋 完 宏 宗 宜 客 室 宮 害 家 容 宿 寂 寄 密 富 寒 寞 察 寢 實 審 寫 寬 寮 寵 寶 封 射
+      將 專 尊 尋 對 小 少 尖 尚 尤 就 尺 尼 尾 局 屁 居 屆 屋 屏 展 屠 層 屬 山 岡 岩 岸 峰 島 峽 崇 崙 崴 嵐 嶺 川 州
+      巡 工 巨 巫 差 己 巴 巷 市 布 希 帕 帖 帛 帝 帥 師 席 帳 帶 常 帽 幅 幕 幣 幫 干 年 幸 幹 幻 幾 庇 床 序 底 店 庚
+      府 度 座 庫 庭 康 庸 廉 廖 廠 廢 廣 廳 延 廷 建 弄 式 引 弗 弘 弟 弦 弱 張 強 彈 彊 彌 彎 彝 彞 形 彥 彩 彬 彭 彰
+      影 役 彼 往 征 待 很 律 後 徐 徒 得 從 復 微 徵 德 徹 心 必 忌 忍 志 忙 忠 快 念 忽 怎 怒 怕 怖 思 怡 急 性 怨 怪
+      恆 恐 恢 恥 恨 恩 恭 息 恰 悅 悉 悔 悟 悠 您 悲 悶 情 惑 惜 惠 惡 惱 想 惹 愁 愈 愉 意 愚 愛 感 慈 態 慕 慘 慢 慣
+      慧 慮 慰 慶 慾 憂 憐 憑 憲 憶 憾 懂 應 懶 懷 懼 戀 戈 戊 戌 成 戒 或 截 戰 戲 戴 戶 房 扁 扇 手 才 扎 打 托 扣 扥
+      扭 扯 批 找 技 抄 把 抓 投 抗 折 披 抬 抱 抵 抹 抽 拆 拉 拋 拍 拏 拒 拔 拖 招 拜 括 拳 拼 拾 拿 持 指 按 挑 挖 挪
+      振 挺 捐 捕 捨 捲 捷 掃 授 掉 掌 排 掛 採 探 接 控 推 措 描 提 插 揚 換 握 揮 援 損 搖 搜 搞 搬 搭 搶 摘 摩 摸 撐
+      撒 撞 撣 撥 播 撾 撿 擁 擇 擊 擋 操 擎 擔 據 擠 擦 擬 擴 擺 擾 攝 支 收 改 攻 放 政 故 效 敍 敏 救 敗 教 敝 敢 散
+      敦 敬 整 敵 數 文 斐 斗 料 斯 新 斷 方 於 施 旁 旅 旋 族 旗 既 日 旦 早 旭 旺 昂 昆 昇 昌 明 昏 易 星 映 春 昨 昭
+      是 時 晉 晒 晚 晨 普 景 晴 晶 智 暑 暖 暗 暫 暴 曆 曉 曰 曲 更 書 曼 曾 最 會 月 有 朋 服 朗 望 朝 期 木 未 札 朱
+      朵 杉 李 材 村 杜 束 杯 東 松 板 析 林 果 枝 架 柏 某 染 柔 查 柬 柯 柳 柴 校 核 根 格 桃 案 桌 桑 梁 梅 條 梨 梯
+      械 梵 棄 棉 棋 棒 棚 森 椅 植 椰 楊 楓 楚 業 極 概 榜 榮 構 槍 樂 樓 標 樞 模 樣 樹 橋 機 橫 檀 檔 檢 欄 權 次 欣
+      欲 欺 欽 款 歉 歌 歐 歡 武 歲 歷 歸 死 殊 殘 段 殺 殼 毀 毅 母 每 毒 比 毛 毫 氏 民 氣 水 永 求 汗 汝 江 污 汪 汶
+      決 汽 沃 沈 沉 沒 沖 沙 河 油 治 沿 況 泉 泊 法 泡 波 泥 注 泰 泳 洋 洗 洛 洞 洩 洪 洲 活 洽 派 流 浦 浩 浪 浮 海
+      涇 涉 涯 液 涵 涼 淑 淚 淡 淨 深 混 淺 清 減 渡 測 港 游 湖 湯 源 準 溝 溪 溫 滄 滅 滋 滑 滴 滾 滿 漂 漏 演 漠 漢
+      漫 漲 漸 潔 潘 潛 潮 澤 澳 激 濃 濟 濤 濫 濱 瀏 灌 灣 火 灰 災 炎 炮 炸 為 烈 烏 烤 無 焦 然 煙 煞 照 煩 熊 熟 熱
+      燃 燈 燒 營 爆 爐 爛 爪 爬 爭 爵 父 爸 爺 爽 爾 牆 版 牌 牙 牛 牠 牧 物 牲 特 牽 犧 犯 狀 狂 狐 狗 狠 狼 猛 猜 猴
+      猶 獄 獅 獎 獨 獲 獸 獻 玄 率 玉 王 玩 玫 玲 玻 珊 珍 珠 珥 班 現 球 理 琉 琪 琴 瑙 瑜 瑞 瑟 瑤 瑪 瑰 環 瓜 瓦 瓶
+      甘 甚 甜 生 產 用 田 申 男 甸 界 留 畢 略 番 畫 異 當 疆 疏 疑 疼 病 痕 痛 痴 瘋 療 癡 癸 登 百 的 皆 皇 皮 盃 益
+      盛 盜 盟 盡 監 盤 盧 目 盲 直 相 盼 盾 省 眉 看 真 眠 眼 眾 睛 睡 督 瞧 瞭 矛 矣 知 短 石 砂 砍 研 砲 破 硬 碎 碗
+      碟 碧 碩 碰 確 碼 磁 磨 磯 礎 礙 示 社 祕 祖 祚 祛 祝 神 祥 票 祿 禁 禍 福 禪 禮 秀 私 秋 科 秒 秘 租 秤 秦 移 稅
+      程 稍 種 稱 稿 穆 穌 積 穩 究 穹 空 穿 突 窗 窩 窮 窶 立 站 竟 章 童 端 競 竹 笑 笛 符 笨 第 筆 等 筋 答 策 简 算
+      管 箭 箱 節 範 篇 築 簡 簫 簽 簿 籃 籌 籍 籤 米 粉 粗 粵 精 糊 糕 糟 系 糾 紀 約 紅 納 紐 純 紙 紛 素 索 紫 累 細
+      紹 終 組 結 絕 絡 給 統 絲 經 綜 綠 維 綱 網 緊 緒 線 緣 編 緩 緬 緯 練 縛 縣 縮 縱 總 績 繁 繆 織 繞 繪 繳 繼 續
+      缸 缺 罕 罪 置 罰 署 罵 罷 羅 羊 美 羞 群 義 羽 翁 習 翔 翰 翹 翻 翼 耀 老 考 者 而 耍 耐 耗 耳 耶 聊 聖 聚 聞 聯
+      聰 聲 職 聽 肉 肚 股 肥 肩 肯 育 背 胎 胖 胞 胡 胸 能 脆 脫 腓 腔 腦 腰 腳 腿 膽 臉 臘 臣 臥 臨 自 臭 至 致 臺 與
+      舊 舌 舍 舒 舞 舟 航 般 船 艦 良 色 艾 芝 芬 花 芳 若 苦 英 茅 茫 茲 茶 草 荒 荷 荼 莉 莊 莎 莫 菜 菩 華 菲 萄 萊
+      萬 落 葉 著 葛 葡 蒂 蒙 蒲 蒼 蓋 蓮 蔕 蔡 蔣 蕭 薄 薦 薩 薪 藉 藍 藏 藝 藤 藥 蘆 蘇 蘭 虎 處 虛 號 虧 蛇 蛋 蛙 蜂
+      蜜 蝶 融 螢 蟲 蟹 蠍 蠻 血 行 術 街 衛 衝 衡 衣 表 袋 被 裁 裂 裕 補 裝 裡 製 複 褲 西 要 覆 見 規 視 親 覺 覽 觀
+      角 解 觸 言 訂 計 訊 討 訓 託 記 訥 訪 設 許 訴 註 証 評 詞 詢 試 詩 話 詳 誇 誌 認 誓 誕 語 誠 誤 說 誰 課 誼 調
+      談 請 諒 論 諸 諺 諾 謀 謂 講 謝 證 識 譜 警 譯 議 護 譽 讀 變 讓 讚 谷 豆 豈 豐 象 豪 豬 貌 貓 貝 貞 負 貢 貨 貪
+      責 貴 買 費 貼 賀 資 賈 賓 賜 賞 賢 賤 賦 質 賭 賴 賺 購 賽 贈 贊 贏 赤 赫 走 起 超 越 趕 趙 趣 趨 足 跌 跎 跑 距
+      跟 跡 路 跳 踏 踢 蹟 蹤 躍 身 躲 車 軌 軍 軒 軟 較 載 輔 輕 輛 輝 輩 輪 輯 輸 轉 轟 辛 辦 辨 辭 辯 農 迅 迎 近 返
+      迦 迪 迫 述 迴 迷 追 退 送 逃 逆 透 逐 途 這 逛 逝 速 造 逢 連 週 進 逸 逼 遇 遊 運 遍 過 道 違 遙 遜 遠 適 遭 遮
+      遲 遷 選 遺 避 邁 還 邊 邏 那 邦 邪 邱 郎 部 郭 郵 都 鄂 鄉 鄭 鄰 酉 配 酒 酷 酸 醉 醒 醜 醫 采 釋 量 金 針 釣 鈴
+      鉢 銀 銅 銖 銘 銳 銷 鋒 鋼 錄 錢 錦 錫 錯 鍋 鍵 鍾 鎊 鎖 鎮 鏡 鐘 鐵 鑑 長 門 閃 閉 開 閏 閒 間 閣 閱 闆 闊 闍 闐
+      關 闡 防 阻 阿 陀 附 降 限 院 除 陪 陰 陳 陵 陸 陽 隆 隊 階 隔 際 障 隨 險 隱 隻 雄 集 雉 雖 雙 雜 雞 離 難 雨 雪
+      雲 零 雷 電 需 震 霍 霧 露 霸 霹 靂 靈 青 靖 靜 非 靠 面 革 靼 鞋 韃 韋 韓 音 韻 響 頁 頂 項 順 須 預 頑 頓 頗 領
+      頞 頭 頻 顆 題 額 顏 願 類 顧 顯 風 飄 飛 食 飯 飲 飽 飾 餅 養 餐 餘 館 首 香 馬 駐 駕 駛 騎 騙 騷 驅 驗 驚 骨 體
+      高 髮 鬆 鬥 鬧 鬱 鬼 魁 魂 魅 魔 魚 魯 鮮 鳥 鳳 鳴 鴻 鵝 鷹 鹿 麗 麥 麵 麻 麼 黃 黎 黑 默 點 黨 鼓 鼠 鼻 齊 齋 齒
+      齡 龍 龜'
+    auxiliary: 乍 仂 伏 佐 侶 僳 兆 兌 兹 凸 别 券 勳 卑 卞 占 叶 嘅 堤 墎 壤 奥 孜 峇 嶼 巽 栗 楔 涅 渾 澎 灘 燦 狄
+      琳 瑚 甫 碑 礁 纜 艇 芒 苗 茨 蓬 蚩 蜀 裘 謬 酋 隴 雀 髪
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰ 〇 一 七 三 九 二 五 八 六 四'
+    punctuation: '! " # % & ( ) * , - . / : ; ? @ [ \ ] _ § · ‐ – — ‘ ’ “ ” † ‡ ‥
+      … ‧ ‰ ′ ″ ‵ ※ ‾ 、 。 〃 〈 〉 《 》 「 」 『 』 【 】 〔 〕 〝 〞 ︰ ︱ ︲ ︳ ︴ ︵ ︶ ︷ ︸ ︹ ︺ ︻ ︼
+      ︽ ︾ ︿ ﹀ ﹁ ﹂ ﹃ ﹄ ﹉ ﹊ ﹋ ﹌ ﹍ ﹎ ﹏ ﹐ ﹑ ﹒ ﹔ ﹕ ﹖ ﹗ ﹘ ﹙ ﹚ ﹛ ﹜ ﹝ ﹞ ﹟ ﹠ ﹡ ﹣ ﹨ ﹪ ﹫ ！ ＂
+      ＃ ％ ＆ ＇ （ ） ＊ ， － ． ／ ： ； ？ ＠ ［ ＼ ］ ＿ ｛ ｝'
+    combinations: ''
+    punctuation_combinations: '{ ｛ ﹛ ︷ }'
+  draft: done, done, done, done, done
+  script: Hani
+khq:
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u w x y z ã õ ŋ š ž ɲ ẽ
+    auxiliary: v
+    numbers: '% + - . 0 1 2 3 4 5 6 7 8 9   ‰'
+    punctuation: ''
+    combinations: ''
+  draft: done, done, done, done
+  script: Latn
+kkj:
+  characters:
+    base: a b c d e f g h i j k l m n o p r s t u v w y à á â è é ê ì í î ò ó ô ù
+      ú û ŋ ǌ ɓ ɔ ɗ ɛ ̀ ́ ̂ ̧
+    auxiliary: q x z
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
+    punctuation: '! ( ) * , . : ? « » ‘ “ ” … ‹ ›'
+    combinations: '{a̧} {ɗy} {ɛ́} {ɛ̀} {ɛ̂} {ɛ̧} {gb} {gw} {i̧} {kp} {kw} {mb} {nd}
+      {ny} {ŋg} {ŋgb} {ŋgw} {ɔ́} {ɔ̀} {ɔ̂} {ɔ̧} {u̧}'
+  draft: done, done, done, done, done
+  script: Latn
+yav:
+  characters:
+    base: a b c d e f g h i k l m n o p s t u v w y à á â è é ì í î ò ó ô ù ú û ā
+      ī ŋ ō ū ǎ ǒ ǔ ɔ ɛ ̀ ́
+    auxiliary: g j q r x z
+    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
+    punctuation: ''
+    combinations: '{ɛ́} {ɛ̀} {mb} {ny} {ŋg} {ɔ́} {ɔ̀}'
+  draft: done, done, done, done
+  script: Latn
+gsw:
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ö ü
+    auxiliary: à á â å æ ç è é ê ë ì í î ï ñ ò ó ô ø ù ú û ÿ ā ă ē ĕ ī ĭ ō ŏ œ ū ŭ
+    numbers: '% + . 0 1 2 3 4 5 6 7 8 9 ’ ‰ −'
+    punctuation: ''
+    combinations: ''
+  draft: done, done, unconfirmed, done
+  script: Latn
+ckb:
+  characters:
+    base: ئ ا ب ت ج ح خ د ر ز س ش ع غ ف ق ل م ن و پ چ ڕ ژ ڤ ک گ ڵ ھ ۆ ی ێ ە
+    auxiliary: ء آ أ ؤ إ ة ث ذ ص ض ط ظ ك ه ى ي ً ٌ ٍ َ ُ ِ ّ ْ ‎ ‏
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ؉ ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ ٪ ٫ ٬ ‎ ‏ ‰'
+    punctuation: ''
+    combinations: ''
+  draft: done, done, unconfirmed, done
+  script: Arab
+az:
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v x y z ç ö ü ğ İ ı ş ə
+    auxiliary: w
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
+    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § ‐ – — ‘ ’ “ ” † ‡ … ′ ″'
+    combinations: ''
+  draft: done, done, contributed, done, done
+  script: Latn
+ce:
+  characters:
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
+    auxiliary: ''
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
+    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § « » ‐ – — ‘ ‚ “ „ …'
+    combinations: '{аь} {гӏ} {ий} {кк} {ккх} {кх} {кь} {кӏ} {ов} {оь} {пп} {пӏ} {рхӏ}
+      {сс} {тт} {тӏ} {ув} {уь} {уьй} {хь} {хӏ} {цӏ} {чӏ} {юь} {яь}'
+    punctuation_combinations: '{ }'
+  draft: done, done, done, done
+  script: Cyrl
+am:
+  characters:
+    base: ሀ ሁ ሂ ሃ ሄ ህ ሆ ለ ሉ ሊ ላ ሌ ል ሎ ሏ ሐ ሑ ሒ ሓ ሔ ሕ ሖ ሗ መ ሙ ሚ ማ ሜ ም ሞ ሟ ሠ ሡ ሢ ሣ ሤ
+      ሥ ሦ ሧ ረ ሩ ሪ ራ ሬ ር ሮ ሯ ሰ ሱ ሲ ሳ ሴ ስ ሶ ሷ ሸ ሹ ሺ ሻ ሼ ሽ ሾ ሿ ቀ ቁ ቂ ቃ ቄ ቅ ቆ ቈ ቊ ቋ ቌ
+      ቍ በ ቡ ቢ ባ ቤ ብ ቦ ቧ ቨ ቩ ቪ ቫ ቬ ቭ ቮ ቯ ተ ቱ ቲ ታ ቴ ት ቶ ቷ ቸ ቹ ቺ ቻ ቼ ች ቾ ቿ ኀ ኁ ኂ ኃ ኄ
+      ኅ ኆ ኈ ኊ ኋ ኌ ኍ ነ ኑ ኒ ና ኔ ን ኖ ኗ ኘ ኙ ኚ ኛ ኜ ኝ ኞ ኟ አ ኡ ኢ ኣ ኤ እ ኦ ኧ ከ ኩ ኪ ካ ኬ ክ ኮ
+      ኰ ኲ ኳ ኴ ኵ ኸ ኹ ኺ ኻ ኼ ኽ ኾ ወ ዉ ዊ ዋ ዌ ው ዎ ዐ ዑ ዒ ዓ ዔ ዕ ዖ ዘ ዙ ዚ ዛ ዜ ዝ ዞ ዟ ዠ ዡ ዢ ዣ
+      ዤ ዥ ዦ ዧ የ ዩ ዪ ያ ዬ ይ ዮ ደ ዱ ዲ ዳ ዴ ድ ዶ ዷ ጀ ጁ ጂ ጃ ጄ ጅ ጆ ጇ ገ ጉ ጊ ጋ ጌ ግ ጎ ጐ ጒ ጓ ጔ
+      ጕ ጠ ጡ ጢ ጣ ጤ ጥ ጦ ጧ ጨ ጩ ጪ ጫ ጬ ጭ ጮ ጯ ጰ ጱ ጲ ጳ ጴ ጵ ጶ ጷ ጸ ጹ ጺ ጻ ጼ ጽ ጾ ጿ ፀ ፁ ፂ ፃ ፄ
+      ፅ ፆ ፈ ፉ ፊ ፋ ፌ ፍ ፎ ፏ ፐ ፑ ፒ ፓ ፔ ፕ ፖ ፗ
+    auxiliary: ↑
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
+    punctuation: '! ( ) , . ? [ \ « » ፡ ። ፣ ፤ ፥ ፦ ‐ – ‹ ›'
+    combinations: ''
+  draft: done, contributed, contributed, done, done
+  script: Ethi
+my:
+  characters:
+    base: က ခ ဂ ဃ င စ ဆ ဇ ဈ ဉ ည ဋ ဌ ဍ ဎ ဏ တ ထ ဒ ဓ န ပ ဖ ဗ ဘ မ ယ ရ လ ဝ သ ဟ ဠ အ ဣ ဤ
+      ဥ ဦ ဧ ဩ ဪ ါ ာ ိ ီ ု ူ ေ ဲ ံ ့ း ္ ် ျ ြ ွ ှ ဿ ၏
+    auxiliary: ဢ ဨ ဳ ဴ ၀ ၁ ၂ ၃ ၄ ၅ ၆ ၇ ၈ ၉ ၐ ၑ ၒ ၓ ၔ ၕ ၖ ၗ ၘ ၙ ၚ ၢ ၤ ၥ ၵ ၽ ၾ ႆ ႈ ႊ
+      ႏ ႐ ႑ ႒ ႓ ႔ ႕ ႖ ႗ ႘ ႙
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ၀ ၁ ၂ ၃ ၄ ၅ ၆ ၇ ၈ ၉ ‰'
+    punctuation: ၊ ။ ‘ ’ “ ”
+    combinations: ''
+  draft: done, done, contributed, done, done
+  script: Mymr
+nb:
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à å æ é ò ó ô ø
+    auxiliary: á ã ä ç è ê í ñ ö ú ü č đ ń ŋ š ŧ ž ǎ
+    numbers: '% + , 0 1 2 3 4 5 6 7 8 9   ‰ −'
+    punctuation: '! " '' ( ) * , - . / : ; ? @ [ \ ] § « » –'
+    combinations: ''
+    punctuation_combinations: '{ }'
+  draft: done, done, done, done, done
+  script: Latn
+mn:
+  characters:
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ү ө
+    auxiliary: җ һ ӊ ә
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
+    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § ‐ – — ‘ ’ “ ” † ‡ … ′ ″'
+    combinations: ''
+  draft: done, done, contributed, done, done
+  script: Cyrl
+ln:
+  characters:
+    base: a b c d e f g h i k l m n o p r s t u v w y z á â é ê í î ó ô ú ě ǎ ǐ ǒ
+      ɔ ɛ ́ ̂ ̌
+    auxiliary: j q x
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
+    punctuation: ''
+    combinations: '{ɛ́} {ɛ̂} {ɛ̌} {gb} {mb} {mp} {nd} {ng} {nk} {ns} {nt} {ny} {nz}
+      {ɔ́} {ɔ̂} {ɔ̌}'
+  draft: done, done, done, done
+  script: Latn
+ca:
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z · à ç è é í ï ò ó ú
+      ü
+    auxiliary: º á â ã ä å æ ê ë ì î ñ ô ö ø ù û ÿ ā ă ē ĕ ī ĭ ŀ ō ŏ œ ū ŭ
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
+    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ \ ] ¡ § « » ¿ ‐ – — ‘ ’ “ ” †
+      ‡ … ′ ″'
+    combinations: ''
+  draft: done, done, done, done, done
+  script: Latn
+be:
+  characters:
+    base: а б в г д е ж з й к л м н о п р с т у ф х ц ч ш ы ь э ю я ё і ў
+    auxiliary: ́ а е о у ы э ю я ё і
+    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
+    punctuation: '! ( ) , - . : ; ? [ ] « »'
+    combinations: '{дж} {дз}'
+    auxiliary_combinations: '{а́} {е́} {ё́} {і́} {о́} {у́} {ы́} {э́} {ю́} {я́}'
+    punctuation_combinations: '{ }'
+  draft: done, done, contributed, done, done
+  script: Cyrl
+br:
+  characters:
+    base: a b c d e f g h i j k l m n o p r s t u v w x y z ê ñ ù ʼ
+    auxiliary: c q à á â ã ä å æ ç è é ë ì í î ï ò ó ô ö ø ú û ü ÿ ā ă ē ĕ ī ĭ ō ŏ
+      œ ū ŭ
+    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
+    punctuation: '! ( ) , - . : ; ? [ ]'
+    combinations: '{ch} {cʼh}'
+    punctuation_combinations: '{ }'
+  draft: done, done, done, done, contributed
+  script: Latn
+th:
+  characters:
+    base: ก ข ฃ ค ฅ ฆ ง จ ฉ ช ซ ฌ ญ ฎ ฏ ฐ ฑ ฒ ณ ด ต ถ ท ธ น บ ป ผ ฝ พ ฟ ภ ม ย ร ฤ
+      ล ฦ ว ศ ษ ส ห ฬ อ ฮ ฯ ะ ั า ำ ิ ี ึ ื ุ ู ฺ เ แ โ ใ ไ ๅ ๆ ็ ่ ้ ๊ ๋ ์ ํ ๎
+    auxiliary: ​
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
+    punctuation: '! " # '' ( ) * , - . / : @ [ ] ‐ – — ‘ ’ “ ” … ′ ″'
+    combinations: ''
+  draft: done, done, contributed, done, done
+  script: Thai
+yo:
+  characters:
+    base: a b d e f g h i j k l m n o p r s t u w y à á è é ì í ò ó ù ú ɔ ɛ ̀ ́ ṣ
+      ẹ ọ
+    auxiliary: c q v x z
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰ ↑'
+    punctuation: '! " # & '' ( ) * , - . / : ; ? @ ‐ – — ‘ ’ “ ” † ‡ … ′ ″'
+    combinations: b g h s { } ɔ ɛ ̀ ́ ẹ ọ
+  draft: done, done, done, contributed, contributed
+  script: Latn
+nyn:
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    auxiliary: ''
+    numbers: ''
+    punctuation: ''
+    combinations: ''
+  draft: done, done
+  script: Latn
+luo:
+  characters:
+    base: a b c d e f g h i j k l m n o p r s t u v w y
+    auxiliary: q x z
+    numbers: ''
+    punctuation: ''
+    combinations: ''
+  draft: done, done, done
+  script: Latn
+luy:
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    auxiliary: ''
+    numbers: ''
+    punctuation: ''
+    combinations: ''
+  draft: done, done
+  script: Latn
+ksh:
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ß ä å æ ë ö ü ė œ ů
+    auxiliary: à á â ã ç è é ê ì í î ï ñ ò ó ô ø ù ú û ÿ ā ă ē ĕ ğ ī ĭ ı ĳ ł ō ŏ ū
+      ŭ
+    numbers: '% + , 0 1 2 3 4 5 6 7 8 9   ‰ −'
+    punctuation: '! " # % & '' ( ) * , . / : ; < = > ? @ [ ] _ ~ § ° ‐ – — ‘ ‚ “ „
+      † ‡ … ⸗'
+    combinations: ''
+    punctuation_combinations: '{ }'
+  draft: done, done, done, done, done
+  script: Latn
+bas:
+  characters:
+    base: a b c d e f g h i j k l m n o p r s t u v w y z à á â è é ê ì í î ò ó ô
+      ù ú û ā ē ě ī ń ŋ ō ū ǎ ǐ ǒ ǔ ǹ ɓ ɔ ɛ ̀ ́ ̂ ̄ ̌ ᷆ ᷇
+    auxiliary: q x
+    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
+    punctuation: ''
+    combinations: '{a᷆} {a᷇} {e᷆} {e᷇} {ɛ́} {ɛ̀} {ɛ̂} {ɛ̌} {ɛ̄} {ɛ᷆} {ɛ᷇} {i᷆} {i᷇}
+      {o᷆} {o᷇} {ɔ́} {ɔ̀} {ɔ̂} {ɔ̌} {ɔ̄} {ɔ᷆} {ɔ᷇} {u᷆} {u᷇}'
+  draft: done, done, done, done
+  script: Latn
 zu:
   characters:
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
@@ -2261,373 +2052,18 @@ zu:
     punctuation_combinations: '{ }'
   draft: done, done, contributed, done, contributed
   script: Latn
-ar-DZ:
+ast:
   characters:
-    base: ''
-    auxiliary: ''
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‎ ‰'
-    punctuation: ''
-    combinations: ''
-  draft: done
-  script: ''
-ar-LB:
-  characters:
-    base: ''
-    auxiliary: ''
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‎ ‰'
-    punctuation: ''
-    combinations: ''
-  draft: done
-  script: ''
-ar-LY:
-  characters:
-    base: ''
-    auxiliary: ''
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‎ ‰'
-    punctuation: ''
-    combinations: ''
-  draft: done
-  script: ''
-ar-MA:
-  characters:
-    base: ''
-    auxiliary: ٯ پ چ ژ ڜ ڢ ڤ ڥ ڧ ڨ ک ڭ گ ی ݣ ‌ ‍ ‎ ‏
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‎ ‰'
-    punctuation: ''
-    combinations: ''
-  draft: done, done
-  script: ''
-ar-MR:
-  characters:
-    base: ''
-    auxiliary: ''
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‎ ‰'
-    punctuation: ''
-    combinations: ''
-  draft: done
-  script: ''
-ar-SA:
-  characters:
-    base: ''
-    auxiliary: ''
-    numbers: + , - . 0 1 2 3 4 5 6 7 8 9 ٪ ‎ ‰
-    punctuation: ''
-    combinations: ''
-  draft: done
-  script: ''
-ar-SO:
-  characters:
-    base: ''
-    auxiliary: ''
-    numbers: + , - . 0 1 2 3 4 5 6 7 8 9 ٪ ‎ ‰
-    punctuation: ''
-    combinations: ''
-  draft: done
-  script: ''
-ar-TN:
-  characters:
-    base: ''
-    auxiliary: ''
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‎ ‰'
-    punctuation: ''
-    combinations: ''
-  draft: done
-  script: ''
-az-Cyrl:
-  characters:
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ч ш ы ј ғ ҝ ү ҹ һ ә ө
-    auxiliary: ц щ ъ ь э ю я
+    base: a b c d e f g h i l m n o p q r s t u v x y z á é í ñ ó ú ü ḥ ḷ
+    auxiliary: j k w ª º à â ã ä å æ ç è ê ë ì î ï ò ô ö ø ù û ÿ ā ă ē ĕ ī ĭ ō ŏ œ
+      ū ŭ
     numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: ''
-    combinations: ''
-  draft: done, done, unconfirmed, done
-  script: Cyrl
-bs-Cyrl:
-  characters:
-    base: а б в г д е ж з и к л м н о п р с т у ф х ц ч ш ђ ј љ њ ћ џ
-    auxiliary: ''
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: ''
-    combinations: ''
-  draft: done, done, contributed, done
-  script: Cyrl
-de-AT:
-  characters:
-    base: ''
-    auxiliary: ''
-    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
-    punctuation: ''
-    combinations: ''
-  draft: done, done
-  script: ''
-de-CH:
-  characters:
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ö ü
-    auxiliary: ↑
-    numbers: '% + - . 0 1 2 3 4 5 6 7 8 9 ’ ‰'
-    punctuation: ↑
-    combinations: ''
-  draft: done, contributed, contributed, done, contributed
-  script: Latn
-de-LI:
-  characters:
-    base: ''
-    auxiliary: ''
-    numbers: '% + - . 0 1 2 3 4 5 6 7 8 9 ’ ‰'
-    punctuation: ''
-    combinations: ''
-  draft: done
-  script: ''
-en-AU:
-  characters:
-    base: ''
-    auxiliary: ''
-    numbers: ↑
-    punctuation: ''
-    combinations: ''
-  draft: contributed
-  script: ''
-en-CA:
-  characters:
-    base: ↑
-    auxiliary: ↑
-    numbers: ↑
-    punctuation: ↑
+    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ \ ] ¡ § « » ¿ ‐ – — ‘ ’ “ ” †
+      ‡ … ′ ″'
     combinations: ''
   draft: done, done, done, done, done
-  script: ''
-en-FI:
-  characters:
-    base: ''
-    auxiliary: ''
-    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
-    punctuation: ''
-    combinations: ''
-  draft: done
-  script: ''
-en-GB:
-  characters:
-    base: ↑
-    auxiliary: ↑
-    numbers: ↑
-    punctuation: ↑
-    combinations: ''
-  draft: contributed, contributed, contributed, contributed, contributed
-  script: ''
-en-IN:
-  characters:
-    base: ↑
-    auxiliary: ↑
-    numbers: ↑
-    punctuation: ↑
-    combinations: ''
-  draft: contributed, contributed, contributed, contributed, contributed
-  script: ''
-en-SE:
-  characters:
-    base: ''
-    auxiliary: ''
-    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
-    punctuation: ''
-    combinations: ''
-  draft: done
-  script: ''
-en-US-POSIX:
-  characters:
-    base: ''
-    auxiliary: ''
-    numbers: '% + , - . / 0 1 2 3 4 5 6 7 8 9'
-    punctuation: ''
-    combinations: ''
-  draft: done
-  script: ''
-en-ZA:
-  characters:
-    base: ''
-    auxiliary: à á â ä å æ ç è é ê ë ì í î ï ñ ò ó ô ö ø ù ú û ü ÿ ā ă ē ĕ ī ĭ ō ŏ
-      œ š ū ŭ ḓ ḽ ṅ ṋ ṱ
-    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
-    punctuation: ''
-    combinations: ''
-  draft: contributed, done
-  script: ''
-es-419:
-  characters:
-    base: ↑
-    auxiliary: ↑
-    numbers: ↑
-    punctuation: ↑
-    combinations: ''
-  draft: contributed, contributed, contributed, contributed, contributed
-  script: ''
-es-CR:
-  characters:
-    base: ''
-    auxiliary: ''
-    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
-    punctuation: ''
-    combinations: ''
-  draft: done
-  script: ''
-es-MX:
-  characters:
-    base: ''
-    auxiliary: ↑
-    numbers: ↑
-    punctuation: ↑
-    combinations: ''
-  draft: contributed, contributed, contributed, contributed
-  script: ''
-es-US:
-  characters:
-    base: ''
-    auxiliary: ↑
-    numbers: ↑
-    punctuation: ↑
-    combinations: ''
-  draft: contributed, contributed, contributed, contributed
-  script: ''
-fa-AF:
-  characters:
-    base: ''
-    auxiliary: إ ك ى ي َ ُ ِ ْ ٖ ٰ ټ ځ څ ډ ړ ږ ښ ګ ڼ ‌ ‍ ‎ ‏
-    numbers: ''
-    punctuation: ''
-    combinations: ''
-  draft: done
-  script: ''
-fr-CA:
-  characters:
-    base: ↑
-    auxiliary: á ã ä å ì í ñ ò ó ö ø ú ā ē ī ǔ
-    numbers: ↑
-    punctuation: ↑
-    combinations: ''
-  draft: contributed, contributed, contributed, contributed, contributed
-  script: ''
-fr-LU:
-  characters:
-    base: ''
-    auxiliary: ''
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: ''
-    combinations: ''
-  draft: done
-  script: ''
-fr-MA:
-  characters:
-    base: ''
-    auxiliary: ''
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: ''
-    combinations: ''
-  draft: done
-  script: ''
-ha-NE:
-  characters:
-    base: a b c d e f g h i j k l m n o r s t u w y z ƙ ƴ ɓ ɗ ʼ
-    auxiliary: p q r v x y à á â è é ê ì í î ò ó ô ù ú û ʼ ̃
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: '! " '' ( ) , - . : ; ? [ ] ‘ ’ “ ” ′ ″'
-    combinations: '{sh} {ts}'
-    auxiliary_combinations: '{r̃} {ʼy}'
-    punctuation_combinations: '{ }'
-  draft: done, done, done, contributed, contributed
   script: Latn
-it-CH:
-  characters:
-    base: ''
-    auxiliary: ''
-    numbers: '% + - . 0 1 2 3 4 5 6 7 8 9 ’ ‰'
-    punctuation: ''
-    combinations: ''
-  draft: done
-  script: ''
-nds-NL:
-  characters:
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    auxiliary: à á â ä è é ê ë ì í î ï ò ó ô ö ù ú û ü
-    numbers: ''
-    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § ‐ – — ‘ ’ “ ” † ‡ … ′ ″'
-    combinations: ''
-  draft: done, done, done, done
-  script: Latn
-pa-Arab:
-  characters:
-    base: ء آ ؤ ئ ا ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ل م ن ه و ُ ٹ پ چ ڈ ڑ
-      ژ ک گ ں ھ ہ ی ے
-    auxiliary: أ ة ٺ ٻ ټ ٽ ‎ ‏
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‎ ‰'
-    punctuation: ''
-    combinations: ''
-  draft: done, done, unconfirmed, done
-  script: Arab
-ps-PK:
-  characters:
-    base: ء آ أ ؤ ئ ا ب ة ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ل م ن ه و ي ً ٌ ٍ
-      َ ُ ِ ّ ْ ٔ ٰ ټ پ ځ څ چ ډ ړ ږ ژ ښ ک ګ گ ڼ ی ۍ ې ے
-    auxiliary: ‌ ‍ ‎ ‏
-    numbers: ''
-    punctuation: ''
-    combinations: ''
-  draft: done, done
-  script: Arab
-pt-PT:
-  characters:
-    base: ↑
-    auxiliary: ↑
-    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
-    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § « » ‐ – — “ ” † ‡ … ′ ″'
-    combinations: ''
-  draft: contributed, contributed, contributed, done, done
-  script: ''
-shi-Latn:
-  characters:
-    base: a b c d e f g h i j k l m n q r s t u w x y z ɛ ɣ ʷ ḍ ḥ ṛ ṣ ṭ
-    auxiliary: o p v
-    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
-    punctuation: ''
-    combinations: '{gʷ} {kʷ}'
-  draft: done, done, done, done
-  script: Latn
-sr-Latn:
-  characters:
-    base: a b c d e f g h i j k l m n o p r s t u v z ć č đ š ž
-    auxiliary: q w x y å
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: '! # ( ) * , - . : ; ? [ ] ‐ – ‘ ‚ “ „ …'
-    combinations: '{dž} {lj} {nj}'
-    punctuation_combinations: '{ }'
-  draft: done, done, contributed, done, done
-  script: Latn
-sv-FI:
-  characters:
-    base: ↑
-    auxiliary: ''
-    numbers: ''
-    punctuation: ''
-    combinations: ''
-  draft: contributed
-  script: ''
-sw-CD:
-  characters:
-    base: a b c d e f g h i j k l m n o p r s t u v w y z
-    auxiliary: q x
-    numbers: ''
-    punctuation: ''
-    combinations: ''
-  draft: done, done
-  script: Latn
-sw-KE:
-  characters:
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    auxiliary: ↑
-    numbers: ↑
-    punctuation: ↑
-    combinations: ''
-  draft: contributed, contributed, contributed, contributed, contributed
-  script: Latn
-ti-ER:
+ti:
   characters:
     base: '- ሀ ሆ ለ ሟ ረ ቆ ቈ ቊ ቍ ቐ ቖ ቘ ቚ ቝ በ ኆ ኈ ኊ ኍ ነ ኮ ኰ ኲ ኵ ኸ ኾ ዀ ዂ ዅ ወ ዎ ዐ ዖ ዘ ዮ
       ደ ዷ ጀ ጎ ጐ ጒ ጕ ጠ ጯ ጸ ጿ ፈ ፗ ፟ ፠ ፡ ። ፣ ፧ ፨ ፩ ፱ ፲ ፼'
@@ -2635,115 +2071,194 @@ ti-ER:
       ፃ ፄ ፅ ፆ ፇ ፘ ፙ ፚ ᎀ ᎁ ᎂ ᎃ ᎄ ᎅ ᎆ ᎇ ᎈ ᎉ ᎊ ᎋ ᎌ ᎍ ᎎ ᎏ ᎐ ᎑ ᎒ ᎓ ᎔ ᎕ ᎖ ᎗ ᎘ ᎙ ⶀ ⶁ ⶂ ⶃ
       ⶄ ⶅ ⶆ ⶇ ⶈ ⶉ ⶊ ⶋ ⶌ ⶍ ⶎ ⶏ ⶐ ⶑ ⶒ ⶓ ⶔ ⶕ ⶖ ⶠ ⶡ ⶢ ⶣ ⶤ ⶥ ⶦ ⶨ ⶩ ⶪ ⶫ ⶬ ⶭ ⶮ ⶰ ⶱ ⶲ ⶳ ⶴ
       ⶵ ⶶ ⶸ ⶹ ⶺ ⶻ ⶼ ⶽ ⶾ ⷀ ⷁ ⷂ ⷃ ⷄ ⷅ ⷆ ⷈ ⷉ ⷊ ⷋ ⷌ ⷍ ⷎ ⷐ ⷑ ⷒ ⷓ ⷔ ⷕ ⷖ ⷘ ⷙ ⷚ ⷛ ⷜ ⷝ ⷞ
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
+    punctuation: ''
+    combinations: ''
+  draft: done, done, done, done
+  script: Ethi
+fur:
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à â ç è ê ì î ò ô ù
+      û
+    auxiliary: å é ë ï ñ ó ü č ğ š
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
+    punctuation: ''
+    combinations: ''
+  draft: done, done, contributed, done
+  script: Latn
+uz:
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v x y z ʻ ʼ
+    auxiliary: c w
+    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
+    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § « » ‐ – — ‘ ’ “ ” „ … ′ ″'
+    combinations: '{oʻ} {gʻ} {sh} {ch}'
+    punctuation_combinations: '{ }'
+  draft: done, done, done, done, done
+  script: Latn
+bs:
+  characters:
+    base: a b c d e f g h i j k l m n o p r s t u v z ć č đ š ž
+    auxiliary: q w x y
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
+    punctuation: '! " '' ( ) * , . / : ; ? @ [ ] ‐ – — ‘ ’ “ ” … ′ ″'
+    combinations: '{dž} {lj} {nj}'
+  draft: done, done, contributed, done, contributed
+  script: Latn
+agq:
+  characters:
+    base: a b c d e f g h i k l m n o p s t u v w y z à â è ê ì î ò ô ù û ā ē ě ī
+      ŋ ō ū ǎ ǐ ǒ ǔ ɔ ɛ ɨ ʉ ʔ ̀ ̂ ̄ ̌
+    auxiliary: q r x
+    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
+    punctuation: ''
+    combinations: '{ɛ̀} {ɛ̂} {ɛ̌} {ɛ̄} {ɨ̀} {ɨ̂} {ɨ̌} {ɨ̄} {ɔ̀} {ɔ̂} {ɔ̌} {ɔ̄} {ʉ̀}
+      {ʉ̂} {ʉ̌} {ʉ̄}'
+  draft: done, done, done, done
+  script: Latn
+mk:
+  characters:
+    base: а б в г д е ж з и к л м н о п р с т у ф х ц ч ш ѓ ѕ ј љ њ ќ џ
+    auxiliary: ѐ ѝ
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
+    punctuation: '! ( ) , - . : ; ? [ ] ‐ – — ‘ ‚ “ „ …'
+    combinations: ''
+    punctuation_combinations: '{ }'
+  draft: done, done, done, done, done
+  script: Cyrl
+lo:
+  characters:
+    base: ກ ຂ ຄ ງ ຈ ຊ ຍ ດ ຕ ຖ ທ ນ ບ ປ ຜ ຝ ພ ຟ ມ ຢ ຣ ລ ວ ສ ຫ ອ ຮ ຯ ະ ັ າ ຳ ິ ີ ຶ ື
+      ຸ ູ ົ ຼ ຽ ເ ແ ໂ ໃ ໄ ໆ ່ ້ ໊ ໋ ໌ ໍ ໜ ໝ
+    auxiliary: ໐ ໑ ໒ ໓ ໔ ໕ ໖ ໗ ໘ ໙ ​
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
+    punctuation: '! " # & '' ( ) * , - . / : ; ? @ [ ] § ‐ – — ‘ ’ “ ” † ‡ … ′ ″'
+    combinations: ''
+  draft: done, done, contributed, done, done
+  script: Laoo
+ne:
+  characters:
+    base: ँ ं ः अ आ इ ई उ ऊ ऋ ऌ ऍ ए ऐ ऑ ओ औ क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध
+      न प फ ब भ म य र ल ळ व श ष स ह ़ ऽ ा ि ी ु ू ृ ॄ ॅ े ै ॉ ो ौ ् ॐ
+    auxiliary: ‌ ‍
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ० १ २ ३ ४ ५ ६ ७ ८ ९ ‰'
+    punctuation: '! " '' ( ) , - ; ? [ ] । — ‘ ’ “ ”'
+    combinations: ''
+    punctuation_combinations: '{ }'
+  draft: done, done, contributed, done, done
+  script: Deva
+mi:
+  characters:
+    base: a e g h i k m n o p r t u w ā ē ī ō ū
+    auxiliary: b c d f g j l q s v x y z
+    numbers: ↑
+    punctuation: ↑
+    combinations: '{ng} {wh}'
+  draft: done, done, done, contributed, contributed
+  script: Latn
+cu:
+  characters:
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь ю є ѕ і ї ѡ ѣ
+      ѧ ѫ ѯ ѱ ѳ ѵ ѷ ѻ ѽ ѿ ҂ ҃ ҇ ⷠ ⷡ ⷢ ⷣ ⷤ ⷥ ⷦ ⷧ ⷨ ⷩ ⷪ ⷬ ⷭ ⷯ ⷱ ⷴ ⸯ ꙁ ꙋ ꙍ ꙗ ꙽ ꙿ
+    auxiliary: џ ѥ ѩ ѭ ҁ ҄ ҈ ҉ ҥ ‌ ‍ ⷫ ⷮ ⷰ ⷲ ⷳ ⷵ ⷶ ⷷ ⷸ ⷹ ⷺ ⷻ ⷼ ⷽ ⷾ ⷿ ꙃ ꙅ ꙇ ꙉ ꙏ ꙑ ꙓ
+      ꙕ ꙙ ꙛ ꙝ ꙟ ꙡ ꙣ ꙥ ꙧ ꙩ ꙫ ꙭ ꙮ ꙯ ꙰ ꙱ ꙲ ꙴ ꙵ ꙶ ꙷ ꙸ ꙹ ꙺ ꙻ ꚙ ꚛ ꚞ ꚟ ︮ ︯
+    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
+    punctuation: '! ( ) , - . / : ; ? _ ‐ – — ⹃ ꙳ ꙾'
+    combinations: ''
+  draft: done, done, done, done, done
+  script: Cyrl
+asa:
+  characters:
+    base: a b c d e f g h i j k l m n o p r s t u v w y z
+    auxiliary: q x
     numbers: ''
     punctuation: ''
     combinations: ''
-  draft: unconfirmed, unconfirmed, unconfirmed
-  script: ''
-uz-Arab:
+  draft: done, done, done
+  script: Latn
+smn:
   characters:
-    base: ء آ أ ؤ ئ ا ب ة ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ل م ن ه و ً ٌ ٍ َ
-      ُ ِ ّ ْ ٔ ٰ پ چ ژ ک گ ۇ ۉ ی
-    auxiliary: ي ټ ځ څ ډ ړ ږ ښ ګ ڼ ۍ ې ‌ ‍ ‎ ‏
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ؉ ٪ ٫ ٬ ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹ ‎ ‰ −'
-    punctuation: ''
-    combinations: ''
-  draft: done, done, unconfirmed, done
-  script: Arab
-uz-Cyrl:
-  characters:
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ч ш ъ э ю я ё ў ғ қ ҳ
-    auxiliary: ц щ ы ь
+    base: a b c d e f g h i j k l m n o p r s t u v y z á â ä č đ ŋ š ž
+    auxiliary: q w x à ã å æ ç è é í ñ ò ó ö ø ú ü ń
     numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
     punctuation: ''
     combinations: ''
-  draft: done, done, unconfirmed, done
-  script: Cyrl
-vai-Latn:
+  draft: done, done, done, done
+  script: Latn
+tk:
   characters:
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á ã é í ó õ ú ĩ ŋ ũ
-      ɓ ɔ ɗ ɛ ́ ̃ ẽ
+    base: a b d e f g h i j k l m n o p r s t u w y z ä ç ö ü ý ň ş ž
+    auxiliary: c q v x
+    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
+    punctuation: '! " # ( ) * , - . : ; ? @ [ ] § – — “ ” …'
+    combinations: ''
+    punctuation_combinations: '{ }'
+  draft: done, done, done, done, done
+  script: Latn
+xh:
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
     auxiliary: ''
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
+    numbers: ''
     punctuation: ''
-    combinations: '{ɛ́} {ɛ̃} {ɔ́} {ɔ̃}'
+    combinations: ''
+  draft: done, done, unconfirmed
+  script: Latn
+dav:
+  characters:
+    base: a b c d e f g h i j k l m n o p r s t u v w y z
+    auxiliary: q x
+    numbers: ''
+    punctuation: ''
+    combinations: ''
   draft: done, done, done
   script: Latn
-yo-BJ:
+cgg:
   characters:
-    base: a b d e f g h i j k l m n o p r s t u w y à á è é ì í ò ó ù ú ɔ ɛ ̀ ́
-    auxiliary: c q v x z
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
-    punctuation: '! " # & '' ( ) * , - . / : ; ? @ ‐ – — ‘ ’ “ ” † ‡ … ′ ″'
-    combinations: '{ɛ́} {ɛ̀} {gb} {ɔ́} {ɔ̀} {sh}'
-  draft: done, done, done, contributed, contributed
-  script: Latn
-yue-Hans:
-  characters:
-    base: '- 一 丁 七 万 与 丑 专 且 世 丘 业 东 丝 丢 两 严 个 中 丰 串 临 丸 主 丽 举 乃 久 么 义 之 乌 乎 乐 乔 乖
-      乘 乙 九 也 乡 书 买 乱 了 予 争 事 二 于 亏 云 互 五 井 亚 些 亡 交 亨 享 京 亮 亲 人 亿 仁 仅 仇 今 介 仍 从 仑
-      仔 他 付 仙 代 以 仪 们 仰 仲 件 价 任 份 企 伊 伍 伐 休 众 会 伟 传 伤 伦 伯 估 伴 伸 似 伽 但 佉 位 住 体 何 余
-      佛 作 你 佩 佳 使 例 供 依 侠 侦 侨 侯 侵 便 促 俄 俊 俗 保 信 修 俾 倍 倒 候 倚 借 值 倾 假 偏 做 停 健 偶 偷 傣
-      傲 傻 像 僧 儒 儿 允 元 充 先 光 克 免 兔 党 入 全 八 兮 兰 共 关 兹 养 兽 内 冈 册 再 冒 写 军 农 冠 冬 冰 冲 决
-      况 冷 净 准 凉 凌 减 凝 几 凡 凤 凭 凯 凰 凶 出 击 函 刀 分 切 刊 划 列 创 初 删 判 利 别 到 制 刷 刺 刻 剌 前 剑
-      剧 剩 剪 副 割 力 劝 务 动 劫 励 劳 势 勇 勉 勒 勤 勿 包 匈 化 北 匹 医 十 千 升 午 半 华 协 卒 卓 单 南 博 卜 占
-      卢 卧 卫 卯 危 即 却 卷 厂 厄 历 厉 压 厌 厘 厚 原 去 县 参 又 及 反 发 叔 取 叙 口 另 只 叭 可 台 史 右 叶 叹 吃
-      各 合 吊 同 后 吐 向 吓 吕 吗 君 吝 吠 否 吧 含 听 启 吴 吵 吸 吹 吾 呀 呆 告 员 呜 呢 周 味 呵 呼 命 和 咖 咤 咦
-      咧 咪 咬 咱 哀 品 哇 哉 响 哎 哥 哦 哩 哪 哭 哲 唉 唐 唔 唬 售 唯 唱 唷 商 啊 啡 啥 啦 啪 啰 喀 喂 善 喇 喊 喔 喜
-      喝 喵 喷 嗨 嗯 嘉 嘛 嘴 嘻 嘿 器 四 回 因 团 园 困 围 固 国 图 圆 圈 圜 土 圣 在 圭 地 场 圾 址 均 坎 坐 块 坚 坜
-      坡 坤 坦 坪 垂 垃 型 垒 埃 城 埔 域 培 基 堂 堆 堕 堡 堪 塔 塞 填 境 墙 增 墨 壁 士 壬 壮 声 壳 处 备 复 夏 夕 外
-      多 夜 够 大 天 夫 央 失 头 夷 夺 奇 奉 奋 奎 奏 契 奔 奖 套 奥 女 奴 奶 她 好 如 妆 妈 妙 妥 妨 妮 妳 妹 妻 姆 始
-      姐 姑 姓 委 姿 威 娃 娄 娘 娱 婆 婚 媒 嫌 嫩 子 孔 字 孙 孝 孟 季 孤 学 孩 宁 它 宅 宇 安 宋 完 宏 宗 实 宠 室 宪
-      宫 害 家 容 宽 宿 寂 寄 密 富 寒 寝 察 寨 寮 对 寻 导 寿 封 射 将 尊 小 少 尔 尖 尘 尚 尝 尤 就 尺 尼 尾 局 层 居
-      届 屋 屏 展 属 屠 山 岁 岂 岚 岛 岩 岭 岸 峡 峰 崇 崴 川 州 巡 工 巨 巫 差 己 巴 巷 币 布 帅 师 希 帐 帕 帖 帛 帝
-      带 席 帮 常 帽 幅 幕 干 年 并 幸 幻 幽 广 庄 庆 庇 床 序 库 底 店 庚 府 废 度 座 庭 康 庸 廉 廖 延 廷 建 开 异 弄
-      式 引 弗 弘 弟 张 弥 弦 弯 弱 弹 强 彊 归 当 录 彝 形 彦 彩 彬 彭 彰 影 役 彻 彼 往 征 径 待 很 律 徐 徒 得 微 德
-      心 必 忆 忌 忍 志 忙 忠 忧 快 念 忽 怀 态 怎 怒 怕 怖 怜 思 怡 急 性 怨 怪 总 恋 恐 恒 恢 恨 恩 恭 息 恰 恶 恼 悉
-      悔 悟 悠 悦 您 悲 情 惊 惑 惜 惠 惧 惨 惯 想 惹 愁 愈 愉 意 愚 感 愿 慈 慕 慢 慧 慰 憾 懂 懒 戈 戊 戌 戏 戒 或 战
-      截 戴 户 房 扁 扇 手 才 扎 打 托 扣 扥 执 扩 扫 扭 扯 扰 批 找 技 抄 把 抓 投 抗 折 抛 抢 护 报 披 抬 抱 抵 抹 抽
-      担 拆 拉 拍 拏 拒 拔 拖 招 拜 拟 拥 拨 择 括 拳 拼 拾 拿 持 挂 指 按 挑 挖 挝 挡 挤 挥 挪 振 挺 捐 捕 损 捡 换 据
-      捷 授 掉 掌 排 探 接 控 推 措 掸 描 提 插 握 援 搜 搞 搬 搭 摄 摆 摇 摘 摩 摸 撑 撒 撞 播 操 擎 擦 支 收 改 攻 放
-      政 故 效 敌 敍 敏 救 教 敝 敢 散 敦 敬 数 整 文 斋 斐 斗 料 断 斯 新 方 施 旁 旅 旋 族 旗 无 既 日 旧 早 旭 时 旺
-      昂 昆 昌 明 昏 易 星 映 春 昨 昭 是 显 晋 晒 晓 晚 晨 普 景 晴 晶 智 暂 暑 暖 暗 暴 曰 曲 更 曼 曾 最 月 有 朋 服
-      朗 望 朝 期 木 未 札 术 朱 朵 机 杀 杂 权 杉 李 材 村 杜 束 条 来 杨 杯 杰 松 板 极 构 析 林 果 枝 枢 枪 枫 架 柏
-      某 染 柔 查 柬 柯 柳 柴 标 栏 树 校 样 根 格 桃 案 桌 桑 档 桥 梁 梅 梦 梨 梯 械 梵 检 棉 棋 棒 棚 森 椅 植 椰 楚
-      楼 概 榜 模 横 檀 次 欣 欧 欲 欺 款 歉 歌 止 武 死 殊 残 段 毁 毅 母 每 毒 比 毕 毛 毫 氏 民 气 水 永 求 汉 汗 汝
-      江 污 汤 汪 汶 汽 沃 沈 沉 沙 沟 没 沧 河 油 治 沿 泄 泉 泊 法 泡 波 泥 注 泪 泰 泳 泽 泾 洁 洋 洗 洛 洞 洪 洲 活
-      洽 派 流 浅 测 济 浏 浓 浦 浩 浪 浮 海 涂 消 涉 涛 涨 涯 液 涵 淑 淡 深 混 清 渐 渡 温 港 游 湖 湾 源 溪 滋 滑 滚
-      满 滥 滨 滴 漂 漏 演 漠 漫 潘 潜 潮 澳 激 灌 火 灭 灯 灰 灵 灾 炉 炎 炮 炸 点 烂 烈 烟 烤 烦 烧 热 焦 然 煞 照 熊
-      熟 燃 爆 爪 爬 爱 爵 爸 爽 片 版 牌 牙 牛 牠 牧 物 牲 牵 特 牺 犯 状 犹 狂 狐 狗 狠 独 狮 狱 狼 猛 猜 猪 猫 献 猴
-      玄 率 玉 王 玛 玩 玫 环 现 玲 玻 珊 珍 珠 珥 班 球 理 琉 琪 琴 瑙 瑜 瑞 瑟 瑰 瑶 瓜 瓦 瓶 甘 甚 甜 生 用 田 申 电
-      男 甸 画 界 留 略 番 疆 疏 疑 疗 疯 疼 病 痕 痛 痴 癸 登 白 百 的 皆 皇 皮 益 监 盖 盘 盛 盟 目 盲 直 相 盼 盾 省
-      眉 看 真 眠 眼 着 睛 睡 督 瞧 矛 矣 知 短 石 矶 码 砂 砍 研 破 础 硕 硬 确 碍 碎 碗 碟 碧 碰 磁 磨 示 礼 社 祖 祚
-      祛 祝 神 祥 票 祯 祸 禁 禄 禅 福 离 秀 私 秋 种 科 秒 秘 租 秤 秦 积 称 移 程 稍 税 稣 稳 稿 穆 究 穷 穹 空 穿 突
-      窗 窝 窭 立 站 竞 章 童 端 竹 笑 笔 笛 符 笨 第 等 筋 筑 答 策 筹 签 简 算 管 箫 箭 箱 篇 篮 簿 籍 米 类 粉 粗 粤
-      精 糊 糕 糟 系 素 索 紧 紫 累 繁 纠 红 约 级 纪 纬 纯 纲 纳 纵 纷 纸 纽 线 练 组 细 终 绍 经 结 绕 绘 给 络 绝 统
-      继 绩 绪 续 维 综 绿 缅 缓 编 缘 缚 缩 缪 缴 缸 缺 网 罕 罗 罚 罢 罪 置 署 羊 美 羞 群 羽 翁 翔 翘 翰 翻 翼 耀 老
-      考 者 而 耍 耐 耗 耳 耶 耻 聊 职 联 聚 聪 肉 肚 股 肥 肩 肯 育 胆 背 胎 胖 胜 胞 胡 胸 能 脆 脑 脚 脱 脸 腊 腓 腔
-      腰 腿 臣 自 臭 至 致 舌 舍 舒 舞 舟 航 般 舰 船 良 色 艺 艾 节 芝 芦 芬 花 芳 苍 苏 若 苦 英 范 茅 茫 茶 草 荐 荒
-      荣 药 荷 荼 莉 莎 莫 莱 莲 获 菜 菩 菲 萄 萤 营 萧 萨 落 葛 葡 蒂 蒋 蒙 蒲 蓝 蔕 蔡 薄 薪 藏 藤 虎 虑 虚 虫 虽 蛇
-      蛋 蛙 蛮 蜂 蜜 蝎 蝶 融 蟹 血 行 街 衡 衣 补 表 袋 被 裁 裂 装 裕 裤 西 要 覆 见 观 规 视 览 觉 角 解 触 言 誉 誓
-      警 计 订 认 讨 让 训 记 讲 讷 许 论 设 访 证 评 识 诉 词 译 试 诗 诚 话 诞 询 该 详 语 误 说 请 诸 诺 读 课 谁 调
-      谅 谈 谊 谋 谓 谚 谢 谱 谷 豆 象 豪 貌 贝 负 贡 败 货 质 贪 购 贯 贱 贴 贵 费 贺 贾 资 赋 赌 赏 赐 赖 赚 赛 赞 赠
-      赢 赤 赫 走 赵 起 超 越 趋 趣 足 跃 跌 跎 跑 距 跟 路 跳 踏 踢 踪 身 躲 车 轨 轩 转 轮 轰 轻 载 较 辅 辆 辈 辉 辑
-      输 辛 辞 辨 辩 辰 辱 边 达 迁 迅 过 迈 迎 运 近 返 还 这 进 迟 迦 迪 迫 述 迷 迹 追 退 逃 逆 选 逊 透 逐 途 通 逛
-      逝 速 造 逢 逸 逻 逼 遇 遍 道 遗 遥 遭 遮 避 邀 那 邦 邪 邮 邱 邻 郁 郎 郑 部 郭 都 鄂 酉 配 酒 酷 酸 醉 醒 采 释
-      里 量 金 鉴 针 钓 钟 钢 钦 钱 钵 铁 铃 铜 铢 铭 银 销 锁 锅 锋 锐 错 锡 锦 键 镇 镑 镜 长 门 闪 闭 问 闰 闲 间 闷
-      闹 闻 阁 阅 阇 阐 阔 阗 队 防 阶 阻 阿 陀 附 陆 陈 降 限 院 除 险 陪 陵 陷 隆 随 隐 隔 障 难 雄 集 雉 雨 雪 雳 零
-      雷 雾 需 震 霍 露 霸 霹 青 靖 静 非 靠 面 革 靼 鞋 鞑 韦 韩 音 韵 頞 页 顶 项 须 顽 顿 预 领 颇 频 颗 题 颜 额 风
-      飘 飞 食 餐 饭 饮 饰 饱 饼 馆 首 香 马 驱 驶 驻 驾 骂 验 骑 骗 骚 骨 高 鬼 魁 魂 魅 魔 鱼 鲁 鲜 鸟 鸡 鸣 鸿 鹅 鹰
-      鹿 麦 麻 黄 黎 黑 默 鼓 鼠 鼻 齐 齿 龄 龙 龟'
-    auxiliary: 乍 仂 伏 佐 侣 僳 兆 兑 券 勋 卑 卞 咀 嘅 堤 墎 壤 孜 屿 峇 巽 斜 昙 昼 栗 楔 浑 涅 湘 澎 灿 狄 琳 瑚
-      甫 碑 礁 绰 芒 苗 茨 茵 蓬 蚩 蛰 蜀 裘 谬 赣 酋 闽 陇 霜
-    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰ 〇 一 七 三 九 二 五 八 六 四'
-    punctuation: '! " # % & ( ) * , - . / : ; ? @ [ \ ] _ § · ‐ – — ― ‖ ‘ ’ “ ” ‥
-      … ‰ ′ ″ ‵ ※ 、 。 〃 〈 〉 《 》 「 」 『 』 【 】 〔 〕 〖 〗 〝 〞 ︰ ︱ ︳ ︴ ︵ ︶ ︷ ︸ ︹ ︺ ︻ ︼ ︽
-      ︾ ︿ ﹀ ﹁ ﹂ ﹃ ﹄ ﹉ ﹊ ﹋ ﹌ ﹍ ﹎ ﹏ ﹐ ﹑ ﹒ ﹔ ﹕ ﹖ ﹗ ﹙ ﹚ ﹛ ﹜ ﹝ ﹞ ﹟ ﹠ ﹡ ﹣ ﹨ ﹪ ﹫ ！ ＂ ＃ ％
-      ＆ ＇ （ ） ＊ ， － ． ／ ： ； ？ ＠ ［ ＼ ］ ＿ ｛ ｝'
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    auxiliary: ''
+    numbers: ''
+    punctuation: ''
     combinations: ''
-    punctuation_combinations: '{ ｛ ﹛ ︷ }'
-  draft: done, done, done, done, done
-  script: Hans
+  draft: done, done
+  script: Latn
+mgh:
+  characters:
+    base: a b c d e f g h i j k l m n o p r s t u v w y z
+    auxiliary: q x
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
+    punctuation: ''
+    combinations: ''
+  draft: done, done, done, done
+  script: Latn
+ak:
+  characters:
+    base: a b d e f g h i k l m n o p r s t u w y ɔ ɛ
+    auxiliary: c j q v z
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
+    punctuation: ''
+    combinations: ''
+  draft: done, done, done, done
+  script: Latn
+bg:
+  characters:
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ь ю я
+    auxiliary: ̀ а о у ъ ы э ю я ѐ ё ѝ ѣ ѫ
+    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
+    punctuation: '! " '' ( ) * , - . / : ; ? [ ] § ‐ – — ‘ ‚ “ „ … ″ №'
+    combinations: ''
+    auxiliary_combinations: '{а̀} {о̀} {у̀} {ъ̀} {ю̀} {я̀}'
+  draft: done, done, contributed, done, done
+  script: Cyrl
+nd:
+  characters:
+    base: a b c d e f g h i j k l m n o p q s t u v w x y z
+    auxiliary: r
+    numbers: ''
+    punctuation: ''
+    combinations: ''
+  draft: done, done, done
+  script: Latn
 zh-Hant:
   characters:
     base: '- 一 丁 七 丈 不 丑 且 世 丘 丙 丟 並 中 串 丸 丹 主 乃 久 么 之 乎 乏 乖 乘 乙 九 也 乾 亂 了 予 事 二 于
@@ -2815,15 +2330,148 @@ zh-Hant:
     punctuation_combinations: '{ ｛ ﹛ ︷ }'
   draft: done, done, done, done, done
   script: Hant
-zh-Hant-HK:
+bs-Cyrl:
   characters:
-    base: ↑
-    auxiliary: ↑
-    numbers: ↑
-    punctuation: ↑
+    base: а б в г д е ж з и к л м н о п р с т у ф х ц ч ш ђ ј љ њ ћ џ
+    auxiliary: ''
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
+    punctuation: ''
     combinations: ''
-  draft: contributed, contributed, contributed, contributed, contributed
-  script: Hant
+  draft: done, done, contributed, done
+  script: Cyrl
+sr-Latn:
+  characters:
+    base: a b c d e f g h i j k l m n o p r s t u v z ć č đ š ž
+    auxiliary: q w x y å
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
+    punctuation: '! # ( ) * , - . : ; ? [ ] ‐ – ‘ ‚ “ „ …'
+    combinations: '{dž} {lj} {nj}'
+    punctuation_combinations: '{ }'
+  draft: done, done, contributed, done, done
+  script: Latn
+uz-Arab:
+  characters:
+    base: ء آ أ ؤ ئ ا ب ة ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ل م ن ه و ً ٌ ٍ َ
+      ُ ِ ّ ْ ٔ ٰ پ چ ژ ک گ ۇ ۉ ی
+    auxiliary: ي ټ ځ څ ډ ړ ږ ښ ګ ڼ ۍ ې ‌ ‍ ‎ ‏
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ؉ ٪ ٫ ٬ ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹ ‎ ‰ −'
+    punctuation: ''
+    combinations: ''
+  draft: done, done, unconfirmed, done
+  script: Arab
+pa-Arab:
+  characters:
+    base: ء آ ؤ ئ ا ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ل م ن ه و ُ ٹ پ چ ڈ ڑ
+      ژ ک گ ں ھ ہ ی ے
+    auxiliary: أ ة ٺ ٻ ټ ٽ ‎ ‏
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‎ ‰'
+    punctuation: ''
+    combinations: ''
+  draft: done, done, unconfirmed, done
+  script: Arab
+uz-Cyrl:
+  characters:
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ч ш ъ э ю я ё ў ғ қ ҳ
+    auxiliary: ц щ ы ь
+    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
+    punctuation: ''
+    combinations: ''
+  draft: done, done, unconfirmed, done
+  script: Cyrl
+yue-Hans:
+  characters:
+    base: '- 一 丁 七 万 与 丑 专 且 世 丘 业 东 丝 丢 两 严 个 中 丰 串 临 丸 主 丽 举 乃 久 么 义 之 乌 乎 乐 乔 乖
+      乘 乙 九 也 乡 书 买 乱 了 予 争 事 二 于 亏 云 互 五 井 亚 些 亡 交 亨 享 京 亮 亲 人 亿 仁 仅 仇 今 介 仍 从 仑
+      仔 他 付 仙 代 以 仪 们 仰 仲 件 价 任 份 企 伊 伍 伐 休 众 会 伟 传 伤 伦 伯 估 伴 伸 似 伽 但 佉 位 住 体 何 余
+      佛 作 你 佩 佳 使 例 供 依 侠 侦 侨 侯 侵 便 促 俄 俊 俗 保 信 修 俾 倍 倒 候 倚 借 值 倾 假 偏 做 停 健 偶 偷 傣
+      傲 傻 像 僧 儒 儿 允 元 充 先 光 克 免 兔 党 入 全 八 兮 兰 共 关 兹 养 兽 内 冈 册 再 冒 写 军 农 冠 冬 冰 冲 决
+      况 冷 净 准 凉 凌 减 凝 几 凡 凤 凭 凯 凰 凶 出 击 函 刀 分 切 刊 划 列 创 初 删 判 利 别 到 制 刷 刺 刻 剌 前 剑
+      剧 剩 剪 副 割 力 劝 务 动 劫 励 劳 势 勇 勉 勒 勤 勿 包 匈 化 北 匹 医 十 千 升 午 半 华 协 卒 卓 单 南 博 卜 占
+      卢 卧 卫 卯 危 即 却 卷 厂 厄 历 厉 压 厌 厘 厚 原 去 县 参 又 及 反 发 叔 取 叙 口 另 只 叭 可 台 史 右 叶 叹 吃
+      各 合 吊 同 后 吐 向 吓 吕 吗 君 吝 吠 否 吧 含 听 启 吴 吵 吸 吹 吾 呀 呆 告 员 呜 呢 周 味 呵 呼 命 和 咖 咤 咦
+      咧 咪 咬 咱 哀 品 哇 哉 响 哎 哥 哦 哩 哪 哭 哲 唉 唐 唔 唬 售 唯 唱 唷 商 啊 啡 啥 啦 啪 啰 喀 喂 善 喇 喊 喔 喜
+      喝 喵 喷 嗨 嗯 嘉 嘛 嘴 嘻 嘿 器 四 回 因 团 园 困 围 固 国 图 圆 圈 圜 土 圣 在 圭 地 场 圾 址 均 坎 坐 块 坚 坜
+      坡 坤 坦 坪 垂 垃 型 垒 埃 城 埔 域 培 基 堂 堆 堕 堡 堪 塔 塞 填 境 墙 增 墨 壁 士 壬 壮 声 壳 处 备 复 夏 夕 外
+      多 夜 够 大 天 夫 央 失 头 夷 夺 奇 奉 奋 奎 奏 契 奔 奖 套 奥 女 奴 奶 她 好 如 妆 妈 妙 妥 妨 妮 妳 妹 妻 姆 始
+      姐 姑 姓 委 姿 威 娃 娄 娘 娱 婆 婚 媒 嫌 嫩 子 孔 字 孙 孝 孟 季 孤 学 孩 宁 它 宅 宇 安 宋 完 宏 宗 实 宠 室 宪
+      宫 害 家 容 宽 宿 寂 寄 密 富 寒 寝 察 寨 寮 对 寻 导 寿 封 射 将 尊 小 少 尔 尖 尘 尚 尝 尤 就 尺 尼 尾 局 层 居
+      届 屋 屏 展 属 屠 山 岁 岂 岚 岛 岩 岭 岸 峡 峰 崇 崴 川 州 巡 工 巨 巫 差 己 巴 巷 币 布 帅 师 希 帐 帕 帖 帛 帝
+      带 席 帮 常 帽 幅 幕 干 年 并 幸 幻 幽 广 庄 庆 庇 床 序 库 底 店 庚 府 废 度 座 庭 康 庸 廉 廖 延 廷 建 开 异 弄
+      式 引 弗 弘 弟 张 弥 弦 弯 弱 弹 强 彊 归 当 录 彝 形 彦 彩 彬 彭 彰 影 役 彻 彼 往 征 径 待 很 律 徐 徒 得 微 德
+      心 必 忆 忌 忍 志 忙 忠 忧 快 念 忽 怀 态 怎 怒 怕 怖 怜 思 怡 急 性 怨 怪 总 恋 恐 恒 恢 恨 恩 恭 息 恰 恶 恼 悉
+      悔 悟 悠 悦 您 悲 情 惊 惑 惜 惠 惧 惨 惯 想 惹 愁 愈 愉 意 愚 感 愿 慈 慕 慢 慧 慰 憾 懂 懒 戈 戊 戌 戏 戒 或 战
+      截 戴 户 房 扁 扇 手 才 扎 打 托 扣 扥 执 扩 扫 扭 扯 扰 批 找 技 抄 把 抓 投 抗 折 抛 抢 护 报 披 抬 抱 抵 抹 抽
+      担 拆 拉 拍 拏 拒 拔 拖 招 拜 拟 拥 拨 择 括 拳 拼 拾 拿 持 挂 指 按 挑 挖 挝 挡 挤 挥 挪 振 挺 捐 捕 损 捡 换 据
+      捷 授 掉 掌 排 探 接 控 推 措 掸 描 提 插 握 援 搜 搞 搬 搭 摄 摆 摇 摘 摩 摸 撑 撒 撞 播 操 擎 擦 支 收 改 攻 放
+      政 故 效 敌 敍 敏 救 教 敝 敢 散 敦 敬 数 整 文 斋 斐 斗 料 断 斯 新 方 施 旁 旅 旋 族 旗 无 既 日 旧 早 旭 时 旺
+      昂 昆 昌 明 昏 易 星 映 春 昨 昭 是 显 晋 晒 晓 晚 晨 普 景 晴 晶 智 暂 暑 暖 暗 暴 曰 曲 更 曼 曾 最 月 有 朋 服
+      朗 望 朝 期 木 未 札 术 朱 朵 机 杀 杂 权 杉 李 材 村 杜 束 条 来 杨 杯 杰 松 板 极 构 析 林 果 枝 枢 枪 枫 架 柏
+      某 染 柔 查 柬 柯 柳 柴 标 栏 树 校 样 根 格 桃 案 桌 桑 档 桥 梁 梅 梦 梨 梯 械 梵 检 棉 棋 棒 棚 森 椅 植 椰 楚
+      楼 概 榜 模 横 檀 次 欣 欧 欲 欺 款 歉 歌 止 武 死 殊 残 段 毁 毅 母 每 毒 比 毕 毛 毫 氏 民 气 水 永 求 汉 汗 汝
+      江 污 汤 汪 汶 汽 沃 沈 沉 沙 沟 没 沧 河 油 治 沿 泄 泉 泊 法 泡 波 泥 注 泪 泰 泳 泽 泾 洁 洋 洗 洛 洞 洪 洲 活
+      洽 派 流 浅 测 济 浏 浓 浦 浩 浪 浮 海 涂 消 涉 涛 涨 涯 液 涵 淑 淡 深 混 清 渐 渡 温 港 游 湖 湾 源 溪 滋 滑 滚
+      满 滥 滨 滴 漂 漏 演 漠 漫 潘 潜 潮 澳 激 灌 火 灭 灯 灰 灵 灾 炉 炎 炮 炸 点 烂 烈 烟 烤 烦 烧 热 焦 然 煞 照 熊
+      熟 燃 爆 爪 爬 爱 爵 爸 爽 片 版 牌 牙 牛 牠 牧 物 牲 牵 特 牺 犯 状 犹 狂 狐 狗 狠 独 狮 狱 狼 猛 猜 猪 猫 献 猴
+      玄 率 玉 王 玛 玩 玫 环 现 玲 玻 珊 珍 珠 珥 班 球 理 琉 琪 琴 瑙 瑜 瑞 瑟 瑰 瑶 瓜 瓦 瓶 甘 甚 甜 生 用 田 申 电
+      男 甸 画 界 留 略 番 疆 疏 疑 疗 疯 疼 病 痕 痛 痴 癸 登 白 百 的 皆 皇 皮 益 监 盖 盘 盛 盟 目 盲 直 相 盼 盾 省
+      眉 看 真 眠 眼 着 睛 睡 督 瞧 矛 矣 知 短 石 矶 码 砂 砍 研 破 础 硕 硬 确 碍 碎 碗 碟 碧 碰 磁 磨 示 礼 社 祖 祚
+      祛 祝 神 祥 票 祯 祸 禁 禄 禅 福 离 秀 私 秋 种 科 秒 秘 租 秤 秦 积 称 移 程 稍 税 稣 稳 稿 穆 究 穷 穹 空 穿 突
+      窗 窝 窭 立 站 竞 章 童 端 竹 笑 笔 笛 符 笨 第 等 筋 筑 答 策 筹 签 简 算 管 箫 箭 箱 篇 篮 簿 籍 米 类 粉 粗 粤
+      精 糊 糕 糟 系 素 索 紧 紫 累 繁 纠 红 约 级 纪 纬 纯 纲 纳 纵 纷 纸 纽 线 练 组 细 终 绍 经 结 绕 绘 给 络 绝 统
+      继 绩 绪 续 维 综 绿 缅 缓 编 缘 缚 缩 缪 缴 缸 缺 网 罕 罗 罚 罢 罪 置 署 羊 美 羞 群 羽 翁 翔 翘 翰 翻 翼 耀 老
+      考 者 而 耍 耐 耗 耳 耶 耻 聊 职 联 聚 聪 肉 肚 股 肥 肩 肯 育 胆 背 胎 胖 胜 胞 胡 胸 能 脆 脑 脚 脱 脸 腊 腓 腔
+      腰 腿 臣 自 臭 至 致 舌 舍 舒 舞 舟 航 般 舰 船 良 色 艺 艾 节 芝 芦 芬 花 芳 苍 苏 若 苦 英 范 茅 茫 茶 草 荐 荒
+      荣 药 荷 荼 莉 莎 莫 莱 莲 获 菜 菩 菲 萄 萤 营 萧 萨 落 葛 葡 蒂 蒋 蒙 蒲 蓝 蔕 蔡 薄 薪 藏 藤 虎 虑 虚 虫 虽 蛇
+      蛋 蛙 蛮 蜂 蜜 蝎 蝶 融 蟹 血 行 街 衡 衣 补 表 袋 被 裁 裂 装 裕 裤 西 要 覆 见 观 规 视 览 觉 角 解 触 言 誉 誓
+      警 计 订 认 讨 让 训 记 讲 讷 许 论 设 访 证 评 识 诉 词 译 试 诗 诚 话 诞 询 该 详 语 误 说 请 诸 诺 读 课 谁 调
+      谅 谈 谊 谋 谓 谚 谢 谱 谷 豆 象 豪 貌 贝 负 贡 败 货 质 贪 购 贯 贱 贴 贵 费 贺 贾 资 赋 赌 赏 赐 赖 赚 赛 赞 赠
+      赢 赤 赫 走 赵 起 超 越 趋 趣 足 跃 跌 跎 跑 距 跟 路 跳 踏 踢 踪 身 躲 车 轨 轩 转 轮 轰 轻 载 较 辅 辆 辈 辉 辑
+      输 辛 辞 辨 辩 辰 辱 边 达 迁 迅 过 迈 迎 运 近 返 还 这 进 迟 迦 迪 迫 述 迷 迹 追 退 逃 逆 选 逊 透 逐 途 通 逛
+      逝 速 造 逢 逸 逻 逼 遇 遍 道 遗 遥 遭 遮 避 邀 那 邦 邪 邮 邱 邻 郁 郎 郑 部 郭 都 鄂 酉 配 酒 酷 酸 醉 醒 采 释
+      里 量 金 鉴 针 钓 钟 钢 钦 钱 钵 铁 铃 铜 铢 铭 银 销 锁 锅 锋 锐 错 锡 锦 键 镇 镑 镜 长 门 闪 闭 问 闰 闲 间 闷
+      闹 闻 阁 阅 阇 阐 阔 阗 队 防 阶 阻 阿 陀 附 陆 陈 降 限 院 除 险 陪 陵 陷 隆 随 隐 隔 障 难 雄 集 雉 雨 雪 雳 零
+      雷 雾 需 震 霍 露 霸 霹 青 靖 静 非 靠 面 革 靼 鞋 鞑 韦 韩 音 韵 頞 页 顶 项 须 顽 顿 预 领 颇 频 颗 题 颜 额 风
+      飘 飞 食 餐 饭 饮 饰 饱 饼 馆 首 香 马 驱 驶 驻 驾 骂 验 骑 骗 骚 骨 高 鬼 魁 魂 魅 魔 鱼 鲁 鲜 鸟 鸡 鸣 鸿 鹅 鹰
+      鹿 麦 麻 黄 黎 黑 默 鼓 鼠 鼻 齐 齿 龄 龙 龟'
+    auxiliary: 乍 仂 伏 佐 侣 僳 兆 兑 券 勋 卑 卞 咀 嘅 堤 墎 壤 孜 屿 峇 巽 斜 昙 昼 栗 楔 浑 涅 湘 澎 灿 狄 琳 瑚
+      甫 碑 礁 绰 芒 苗 茨 茵 蓬 蚩 蛰 蜀 裘 谬 赣 酋 闽 陇 霜
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰ 〇 一 七 三 九 二 五 八 六 四'
+    punctuation: '! " # % & ( ) * , - . / : ; ? @ [ \ ] _ § · ‐ – — ― ‖ ‘ ’ “ ” ‥
+      … ‰ ′ ″ ‵ ※ 、 。 〃 〈 〉 《 》 「 」 『 』 【 】 〔 〕 〖 〗 〝 〞 ︰ ︱ ︳ ︴ ︵ ︶ ︷ ︸ ︹ ︺ ︻ ︼ ︽
+      ︾ ︿ ﹀ ﹁ ﹂ ﹃ ﹄ ﹉ ﹊ ﹋ ﹌ ﹍ ﹎ ﹏ ﹐ ﹑ ﹒ ﹔ ﹕ ﹖ ﹗ ﹙ ﹚ ﹛ ﹜ ﹝ ﹞ ﹟ ﹠ ﹡ ﹣ ﹨ ﹪ ﹫ ！ ＂ ＃ ％
+      ＆ ＇ （ ） ＊ ， － ． ／ ： ； ？ ＠ ［ ＼ ］ ＿ ｛ ｝'
+    combinations: ''
+    punctuation_combinations: '{ ｛ ﹛ ︷ }'
+  draft: done, done, done, done, done
+  script: Hans
+az-Cyrl:
+  characters:
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ч ш ы ј ғ ҝ ү ҹ һ ә ө
+    auxiliary: ц щ ъ ь э ю я
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
+    punctuation: ''
+    combinations: ''
+  draft: done, done, unconfirmed, done
+  script: Cyrl
+vai-Latn:
+  characters:
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á ã é í ó õ ú ĩ ŋ ũ
+      ɓ ɔ ɗ ɛ ́ ̃ ẽ
+    auxiliary: ''
+    numbers: '% + , - . 0 1 2 3 4 5 6 7 8 9 ‰'
+    punctuation: ''
+    combinations: '{ɛ́} {ɛ̃} {ɔ́} {ɔ̃}'
+  draft: done, done, done
+  script: Latn
+shi-Latn:
+  characters:
+    base: a b c d e f g h i j k l m n q r s t u w x y z ɛ ɣ ʷ ḍ ḥ ṛ ṣ ṭ
+    auxiliary: o p v
+    numbers: '% + , - 0 1 2 3 4 5 6 7 8 9   ‰'
+    punctuation: ''
+    combinations: '{gʷ} {kʷ}'
+  draft: done, done, done, done
+  script: Latn
 und:
   characters:
     base: ''
@@ -2833,4 +2481,4 @@ und:
     combinations: ''
     punctuation_combinations: '{ }'
   draft: done, done, done, done
-  script: ''
+  script: Zyyy

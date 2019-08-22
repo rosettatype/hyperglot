@@ -15,6 +15,64 @@ from collections import OrderedDict
 from custom_yaml import save_yaml
 
 
+SCRIPT_TAGS = OrderedDict([
+    ("arabic", "Arab"),
+    ("armenian", "Armn"),
+    ("bengali", "Beng"),
+    ("chakma", "Cakm"),
+    ("cherokee", "Cher"),
+    ("cyrillic", "Cyrl"),
+    ("devanagari", "Deva"),
+    ("ethiopic", "Ethi"),
+    ("georgian", "Geor"),
+    ("greek", "Grek"),
+    ("gujarati", "Gujr"),
+    ("gurmukhi", "Guru"),
+    ("hangul", "Hang"),
+    ("hebrew", "Hebr"),
+    ("kannada", "Knda"),
+    ("khmer", "Khmr"),
+    ("lao", "Laoo"),
+    ("latin", "Latn"),
+    ("malayalam", "Mlym"),
+    ("myanmar", "Mymr"),
+    ("oriya", "Orya"),
+    ("sinhala", "Sinh"),
+    ("tamil", "Taml"),
+    ("telugu", "Telu"),
+    ("thai", "Thai"),
+    ("tibetan", "Tibt"),
+    ("tifinagh", "Tfng"),
+    ("vai", "Vaii"),
+    ("yi", "Yiii"),
+])
+
+def guess_script(code, chars):
+    """
+    Guess the script based on characters’ Unicode description.
+    Should be done more rigorously, but for the purpose of
+    completing the info from CLDR, it seems sufficient.
+    """
+
+    # derive from language
+    if code == "ja":  # Japanese
+        return "Jpan"
+    elif code == "yue":  # Yue Chinese
+        return "Hani"
+    elif code == "zh":  # Chinese
+        return "Hani"
+    # derive from character descriptions
+    if chars.strip():
+        for c in chars:
+            # find letters in the string of characters
+            if unicodedata.category(c)[0] == "L":
+                for name, tag in SCRIPT_TAGS.items():
+                    if name in unicodedata.name(c).lower():
+                        return tag
+    # return undetermined script otherwise
+    return "Zyyy"
+
+
 def parse_unicode_set(s):
     """
     Parse UnicodeSet record used in Unicode CLDR.
@@ -254,9 +312,6 @@ def read_cldr(path, iso_639_3):
     Combines draft records into one entry to keep the
     structure simple, the order is base, auxiliary, numbers,
     punctuation.
-
-    todo: when loading "regional" files, check if they actually
-    add anything new on top of the main data.
     """
 
     def read_cldr_file(path, code):
@@ -295,24 +350,7 @@ def read_cldr(path, iso_639_3):
                     script = codes[1]
             lang["draft"] = ", ".join(draft)
             if not script:
-                # guess script, todo: can be done better
-                c_ = lang["characters"]["base"].replace(" ", "")
-                if c_:
-                    c_ = c_[0]
-                    if "latin" in unicodedata.name(c_).lower():
-                        script = "Latn"
-                    elif "cyrillic" in unicodedata.name(c_).lower():
-                        script = "Cyrl"
-                    elif "greek" in unicodedata.name(c_).lower():
-                        script = "Grek"
-                    elif "arabic" in unicodedata.name(c_).lower():
-                        script = "Arab"
-                    elif "armenian" in unicodedata.name(c_).lower():
-                        script = "Armn"
-                    else:
-                        script = ""
-                else:
-                    script = ""
+                script = guess_script(code, lang["characters"]["base"])
             lang["script"] = script
 
             return lang
@@ -332,7 +370,30 @@ def read_cldr(path, iso_639_3):
     for path, code in main_paths + regi_paths:
         lang = read_cldr_file(path, code)
         if lang:
-            cldr[code] = lang
+            codes = code.split("-")
+            if len(codes) == 1 or (len(codes) == 2 and len(codes[1]) == 4):
+                cldr[code] = lang
+            else:
+                # regional version
+                # merge with non-regional version
+                # en-US-POSIX is an exception, dropping POSIX
+                if "POSIX" == codes[-1]:
+                    codes = codes[0:-1]
+                code = "-".join(codes[0:-1])
+                if code in cldr:
+                    for k, v in lang["characters"].items():
+                        v_ = v.replace(" ", "")
+                        if v_ != "":
+                            if k in cldr[code]["characters"]:
+                                c1 = set(cldr[code]["characters"][k].replace(" ", ""))
+                                c2 = set(v_)
+                                both = " ".join(sorted(list(c1.union(c2))))
+                                cldr[code]["characters"][k] = both
+                            else:
+                                cldr[code]["characters"][k] = v
+                else:
+                    cldr[code] = lang
+
     # normalize default language and add language names from ISO
     if "root" in cldr:
         cldr["und"] = cldr["root"]
