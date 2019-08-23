@@ -1,6 +1,4 @@
-"""
-Make test website
-"""
+"""Make test website."""
 
 from copy import copy
 import os
@@ -11,7 +9,14 @@ from custom_yaml import load_yaml
 from readers import SCRIPT_TAGS
 
 
+WEBURL = "http://github.rosettatype.com/langs-db"
+
+
 def comparison(r, s):
+    """
+    HTML markup of comparison of two strings
+    """
+
     o = ""
     for c in s.split(" "):
         if c in r:
@@ -93,14 +98,6 @@ for script_name, script in SCRIPT_TAGS.items():
     with open("test_%s.md" % script, "w", encoding="utf-8") as f:
         f.write(frnt + html)
 
-    # save to HTML
-    # with open("_layouts/template.html", "r", encoding="utf-8") as f:
-    #     page = f.read()
-    #     page = page.replace("{{ title }}", "%s-script languages (comparison)" % script_name.title())
-    #     page = page.replace("{{ content }}", html)
-    # with open("test_%s.html" % script, "w", encoding="utf-8") as f:
-    #     f.write(page)
-
 # create index
 frnt = ""
 frnt += "---\n"
@@ -109,9 +106,11 @@ frnt += "permalink: /\n"
 frnt += "---\n\n"
 html = ""
 html += "# Rosetta’s language database\n\n"
-html += "Partially based on Unicode CLDR, Underware’s Latin Plus and other sources.\n\n"
+html += "Partially based on Unicode CLDR, "
+html += "Underware’s Latin Plus and other sources.\n\n"
 for script_name, script in SCRIPT_TAGS.items():
-    html += "- [%s-script languages (comparison)](test_%s)\n" % (script_name.title(), script)
+    html += "- [%s-script languages (comparison)]" % script_name.title()
+    html += "(%s/test_%s)\n" % (WEBURL, script)
 # save to MD
 with open("README.md", "w", encoding="utf-8") as f:
     f.write(frnt + html)
