@@ -91,9 +91,9 @@ for script_name, script in SCRIPT_TAGS.items():
         f.write(frnt + html)
 
     # save to HTML
-    with open("_layouts/template.html", "r", encoding="utf-8") as f:
-        page = f.read()
-        page = page.replace("{{ title }}", "%s-script languages (comparison)" % script_name.title())
-        page = page.replace("{{ content }}", html)
-    with open("test_%s.html" % script, "w", encoding="utf-8") as f:
-        f.write(page)
+    # with open("_layouts/template.html", "r", encoding="utf-8") as f:
+    #     page = f.read()
+    #     page = page.replace("{{ title }}", "%s-script languages (comparison)" % script_name.title())
+    #     page = page.replace("{{ content }}", html)
+    # with open("test_%s.html" % script, "w", encoding="utf-8") as f:
+    #     f.write(page)
