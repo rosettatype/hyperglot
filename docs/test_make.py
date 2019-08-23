@@ -39,21 +39,23 @@ for script_name, script in SCRIPT_TAGS.items():
     frnt += "---\n"
     frnt += "layout: default\n"
     frnt += "permalink: test_%s\n" % script
+    frnt += "title: %s-script languages (comparison)\n" % script_name.title()
     frnt += "---\n\n"
     html = ""
-    html += "<h1>%s-script languages (comparison)</h1>\n\n" % script_name.title()
-    html += "<p>Selected character-set databases (CLDR, Latin Plus) "
+    html += "# %s-script languages (comparison)\n\n" % script_name.title()
+    html += "Selected character-set databases (CLDR, Latin Plus) "
     html += "juxtaposed next to Rosetta’s Langs DB. When comparing, "
     html += "characters that are included in “Rosetta (base)” "
     html += "are marked grey, any additional characters are marked red. "
     html += "Only “base” fields are compared. "
-    html += "The third column indicates the status of the field.<p>\n\n"
+    html += "The third column indicates the status of the field.\n\n"
 
     # get a super-set of all ISO codes
     isos = set()
     for dbk in ["rstt", "latin_plus", "cldr"]:
         if script in db[dbk]:
             isos = isos.union(set(db[dbk][script].keys()))
+    html += "**Total:** %d language(s)\n\n" % len(isos)
     for iso in sorted(list(isos)):
         all_chars = ""
         tab = ""
@@ -83,7 +85,7 @@ for script_name, script in SCRIPT_TAGS.items():
                         s = ["☒", "☑︎", "☐"][s]
                         tab += "<td>%s</td></tr>\n" % s
         if all_chars.strip():
-            html += "<h2>%s (%s)</h2>\n\n" % (iso_639_3[iso]["names"][0], iso)
+            html += "## %s (%s)\n\n" % (iso_639_3[iso]["names"][0], iso)
             html += "<table>\n %s </table>\n\n" % tab
 
     # save to MD
@@ -97,3 +99,17 @@ for script_name, script in SCRIPT_TAGS.items():
     #     page = page.replace("{{ content }}", html)
     # with open("test_%s.html" % script, "w", encoding="utf-8") as f:
     #     f.write(page)
+
+# create index
+frnt = ""
+frnt += "---\n"
+frnt += "layout: default\n"
+frnt += "permalink: /\n"
+frnt += "---\n\n"
+html = ""
+html += "# Rosetta’s language database\n\n"
+for script_name, script in SCRIPT_TAGS.items():
+    html += "- [%s-script languages (comparison)](test_%s)\n" % (script_name.title(), script)
+# save to MD
+with open("README.md", "w", encoding="utf-8") as f:
+    f.write(frnt + html)

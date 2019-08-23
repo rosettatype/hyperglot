@@ -1,54 +1,57 @@
 ---
 layout: default
 permalink: test_Latn
+title: Latin-script languages (comparison)
 ---
 
-<h1>Latin-script languages (comparison)</h1>
+# Latin-script languages (comparison)
 
-<p>Selected character-set databases (CLDR, Latin Plus) juxtaposed next to Rosetta’s Langs DB. When comparing, characters that are included in “Rosetta (base)” are marked grey, any additional characters are marked red. Only “base” fields are compared. The third column indicates the status of the field.<p>
+Selected character-set databases (CLDR, Latin Plus) juxtaposed next to Rosetta’s Langs DB. When comparing, characters that are included in “Rosetta (base)” are marked grey, any additional characters are marked red. Only “base” fields are compared. The third column indicates the status of the field.
 
-<h2>Eastern Abnaki (aaq)</h2>
+**Total:** 284 language(s)
+
+## Eastern Abnaki (aaq)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ô</td><td>☒</td></tr>
  </table>
 
-<h2>Afar (aar)</h2>
+## Afar (aar)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Arvanitika Albanian (aat)</h2>
+## Arvanitika Albanian (aat)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z á ä ç è é ë í ï ó ö ú ü ý</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>á</span> <span>ä</span> <span>ç</span> <span>è</span> <span>é</span> <span>ë</span> <span>í</span> <span>ï</span> <span>ó</span> <span>ö</span> <span>ú</span> <span>ü</span> <span>ý</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Western Abnaki (abe)</h2>
+## Western Abnaki (abe)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ô</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>ô</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Acheron (acz)</h2>
+## Acheron (acz)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ĕ ŏ ţ ȷ ạ ẹ ẽ</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>ĕ</span> <span>ŏ</span> <span>ţ</span> <span>ȷ</span> <span>ạ</span> <span>ẹ</span> <span>ẽ</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Eastern Arrernte (aer)</h2>
+## Eastern Arrernte (aer)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Afrikaans (afr)</h2>
+## Afrikaans (afr)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z è é ê ë î ï ô û ŉ</td><td>☒</td></tr>
@@ -59,7 +62,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>"</strong> <strong>#</strong> <strong>&</strong> <strong>'</strong> <strong>(</strong> <strong>)</strong> <strong>*</strong> <strong>,</strong> <strong>-</strong> <strong>.</strong> <strong>/</strong> <strong>:</strong> <strong>;</strong> <strong>?</strong> <strong>@</strong> <strong>[</strong> <strong>]</strong> <strong>§</strong> <strong>‐</strong> <strong>–</strong> <strong>—</strong> <strong>‘</strong> <strong>’</strong> <strong>“</strong> <strong>”</strong> <strong>†</strong> <strong>‡</strong> <strong>…</strong> <strong>′</strong> <strong>″</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Aghem (agq)</h2>
+## Aghem (agq)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>a</strong> <strong>b</strong> <strong>c</strong> <strong>d</strong> <strong>e</strong> <strong>f</strong> <strong>g</strong> <strong>h</strong> <strong>i</strong> <strong>k</strong> <strong>l</strong> <strong>m</strong> <strong>n</strong> <strong>o</strong> <strong>p</strong> <strong>s</strong> <strong>t</strong> <strong>u</strong> <strong>v</strong> <strong>w</strong> <strong>y</strong> <strong>z</strong> <strong>à</strong> <strong>â</strong> <strong>è</strong> <strong>ê</strong> <strong>ì</strong> <strong>î</strong> <strong>ò</strong> <strong>ô</strong> <strong>ù</strong> <strong>û</strong> <strong>ā</strong> <strong>ē</strong> <strong>ě</strong> <strong>ī</strong> <strong>ŋ</strong> <strong>ō</strong> <strong>ū</strong> <strong>ǎ</strong> <strong>ǐ</strong> <strong>ǒ</strong> <strong>ǔ</strong> <strong>ɔ</strong> <strong>ɛ</strong> <strong>ɨ</strong> <strong>ʉ</strong> <strong>ʔ</strong> <strong>̀</strong> <strong>̂</strong> <strong>̄</strong> <strong>̌</strong> </td><td>☑︎</td></tr>
@@ -68,7 +71,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Akan (aka)</h2>
+## Akan (aka)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>a</strong> <strong>b</strong> <strong>d</strong> <strong>e</strong> <strong>f</strong> <strong>g</strong> <strong>h</strong> <strong>i</strong> <strong>k</strong> <strong>l</strong> <strong>m</strong> <strong>n</strong> <strong>o</strong> <strong>p</strong> <strong>r</strong> <strong>s</strong> <strong>t</strong> <strong>u</strong> <strong>w</strong> <strong>y</strong> <strong>ɔ</strong> <strong>ɛ</strong> </td><td>☑︎</td></tr>
@@ -77,28 +80,28 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Amis (ami)</h2>
+## Amis (ami)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Uab Meto (aoz)</h2>
+## Uab Meto (aoz)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z á é ê í ó ú û</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>á</span> <span>é</span> <span>ê</span> <span>í</span> <span>ó</span> <span>ú</span> <span>û</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Aragonese (arg)</h2>
+## Aragonese (arg)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ñ ó ú</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>á</span> <span>é</span> <span>í</span> <span>ñ</span> <span>ó</span> <span>ú</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Asu (Tanzania) (asa)</h2>
+## Asu (Tanzania) (asa)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>a</strong> <strong>b</strong> <strong>c</strong> <strong>d</strong> <strong>e</strong> <strong>f</strong> <strong>g</strong> <strong>h</strong> <strong>i</strong> <strong>j</strong> <strong>k</strong> <strong>l</strong> <strong>m</strong> <strong>n</strong> <strong>o</strong> <strong>p</strong> <strong>r</strong> <strong>s</strong> <strong>t</strong> <strong>u</strong> <strong>v</strong> <strong>w</strong> <strong>y</strong> <strong>z</strong> </td><td>☑︎</td></tr>
@@ -107,7 +110,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☐</td></tr>
  </table>
 
-<h2>Asturian (ast)</h2>
+## Asturian (ast)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ñ ó ú ü</td><td>☒</td></tr>
@@ -118,21 +121,21 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>"</strong> <strong>#</strong> <strong>&</strong> <strong>'</strong> <strong>(</strong> <strong>)</strong> <strong>*</strong> <strong>,</strong> <strong>-</strong> <strong>.</strong> <strong>/</strong> <strong>:</strong> <strong>;</strong> <strong>?</strong> <strong>@</strong> <strong>[</strong> <strong>\</strong> <strong>]</strong> <strong>¡</strong> <strong>§</strong> <strong>«</strong> <strong>»</strong> <strong>¿</strong> <strong>‐</strong> <strong>–</strong> <strong>—</strong> <strong>‘</strong> <strong>’</strong> <strong>“</strong> <strong>”</strong> <strong>†</strong> <strong>‡</strong> <strong>…</strong> <strong>′</strong> <strong>″</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Anuta (aud)</h2>
+## Anuta (aud)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ñ ó ú ü</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Aymara (aym)</h2>
+## Aymara (aym)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ä ï ñ ü</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>ä</span> <span>ï</span> <span>ñ</span> <span>ü</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Azerbaijani (aze)</h2>
+## Azerbaijani (aze)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ä ç ö ü ğ İ ı ş ə</td><td>☒</td></tr>
@@ -143,14 +146,14 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>"</strong> <strong>#</strong> <strong>&</strong> <strong>'</strong> <strong>(</strong> <strong>)</strong> <strong>*</strong> <strong>,</strong> <strong>-</strong> <strong>.</strong> <strong>/</strong> <strong>:</strong> <strong>;</strong> <strong>?</strong> <strong>@</strong> <strong>[</strong> <strong>]</strong> <strong>§</strong> <strong>‐</strong> <strong>–</strong> <strong>—</strong> <strong>‘</strong> <strong>’</strong> <strong>“</strong> <strong>”</strong> <strong>†</strong> <strong>‡</strong> <strong>…</strong> <strong>′</strong> <strong>″</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Bashkir (bak)</h2>
+## Bashkir (bak)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ä ç ö ü č ğ İ ı ķ ņ ś ş š ź</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>ä</span> <span>ç</span> <span>ö</span> <span>ü</span> <span>č</span> <span>ğ</span> <span>İ</span> <span>ı</span> <span>ķ</span> <span>ņ</span> <span>ś</span> <span>ş</span> <span>š</span> <span>ź</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Bambara (bam)</h2>
+## Bambara (bam)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>a</strong> <strong>b</strong> <strong>c</strong> <strong>d</strong> <strong>e</strong> <strong>f</strong> <strong>g</strong> <strong>h</strong> <strong>i</strong> <strong>j</strong> <strong>k</strong> <strong>l</strong> <strong>m</strong> <strong>n</strong> <strong>o</strong> <strong>p</strong> <strong>r</strong> <strong>s</strong> <strong>t</strong> <strong>u</strong> <strong>w</strong> <strong>y</strong> <strong>z</strong> <strong>ŋ</strong> <strong>ɔ</strong> <strong>ɛ</strong> <strong>ɲ</strong> </td><td>☑︎</td></tr>
@@ -159,7 +162,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☐</td></tr>
  </table>
 
-<h2>Basa (Cameroon) (bas)</h2>
+## Basa (Cameroon) (bas)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>a</strong> <strong>b</strong> <strong>c</strong> <strong>d</strong> <strong>e</strong> <strong>f</strong> <strong>g</strong> <strong>h</strong> <strong>i</strong> <strong>j</strong> <strong>k</strong> <strong>l</strong> <strong>m</strong> <strong>n</strong> <strong>o</strong> <strong>p</strong> <strong>r</strong> <strong>s</strong> <strong>t</strong> <strong>u</strong> <strong>v</strong> <strong>w</strong> <strong>y</strong> <strong>z</strong> <strong>à</strong> <strong>á</strong> <strong>â</strong> <strong>è</strong> <strong>é</strong> <strong>ê</strong> <strong>ì</strong> <strong>í</strong> <strong>î</strong> <strong>ò</strong> <strong>ó</strong> <strong>ô</strong> <strong>ù</strong> <strong>ú</strong> <strong>û</strong> <strong>ā</strong> <strong>ē</strong> <strong>ě</strong> <strong>ī</strong> <strong>ń</strong> <strong>ŋ</strong> <strong>ō</strong> <strong>ū</strong> <strong>ǎ</strong> <strong>ǐ</strong> <strong>ǒ</strong> <strong>ǔ</strong> <strong>ǹ</strong> <strong>ɓ</strong> <strong>ɔ</strong> <strong>ɛ</strong> <strong>̀</strong> <strong>́</strong> <strong>̂</strong> <strong>̄</strong> <strong>̌</strong> <strong>᷆</strong> <strong>᷇</strong> </td><td>☑︎</td></tr>
@@ -168,14 +171,14 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Belarusian (bel)</h2>
+## Belarusian (bel)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ć č ł ń ś š ŭ ź ž</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>ć</span> <span>č</span> <span>ł</span> <span>ń</span> <span>ś</span> <span>š</span> <span>ŭ</span> <span>ź</span> <span>ž</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Bemba (Zambia) (bem)</h2>
+## Bemba (Zambia) (bem)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ŋ</td><td>☒</td></tr>
@@ -186,7 +189,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☐</td></tr>
  </table>
 
-<h2>Bena (Tanzania) (bez)</h2>
+## Bena (Tanzania) (bez)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>a</strong> <strong>b</strong> <strong>c</strong> <strong>d</strong> <strong>e</strong> <strong>f</strong> <strong>g</strong> <strong>h</strong> <strong>i</strong> <strong>j</strong> <strong>k</strong> <strong>l</strong> <strong>m</strong> <strong>n</strong> <strong>o</strong> <strong>p</strong> <strong>q</strong> <strong>r</strong> <strong>s</strong> <strong>t</strong> <strong>u</strong> <strong>v</strong> <strong>w</strong> <strong>y</strong> <strong>z</strong> </td><td>☑︎</td></tr>
@@ -195,21 +198,21 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☐</td></tr>
  </table>
 
-<h2>Bikol (bik)</h2>
+## Bikol (bik)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Bislama (bis)</h2>
+## Bislama (bis)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z â å ñ ü</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Bosnian (bos)</h2>
+## Bosnian (bos)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ć č đ š ž</td><td>☒</td></tr>
@@ -220,7 +223,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>"</strong> <strong>'</strong> <strong>(</strong> <strong>)</strong> <strong>*</strong> <strong>,</strong> <strong>.</strong> <strong>/</strong> <strong>:</strong> <strong>;</strong> <strong>?</strong> <strong>@</strong> <strong>[</strong> <strong>]</strong> <strong>‐</strong> <strong>–</strong> <strong>—</strong> <strong>‘</strong> <strong>’</strong> <strong>“</strong> <strong>”</strong> <strong>…</strong> <strong>′</strong> <strong>″</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Breton (bre)</h2>
+## Breton (bre)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z à â æ ç è é ê ë î ï ñ ô ù û ü ÿ ĩ œ ũ</td><td>☒</td></tr>
@@ -231,14 +234,14 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>(</strong> <strong>)</strong> <strong>,</strong> <strong>-</strong> <strong>.</strong> <strong>:</strong> <strong>;</strong> <strong>?</strong> <strong>[</strong> <strong>]</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Kaqchikel (cak)</h2>
+## Kaqchikel (cak)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ä ë ï ö ü</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>ä</span> <span>ë</span> <span>ï</span> <span>ö</span> <span>ü</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Catalan (cat)</h2>
+## Catalan (cat)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z à ç è é í ï ñ ò ó ú ü ŀ</td><td>☒</td></tr>
@@ -249,14 +252,14 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>"</strong> <strong>#</strong> <strong>&</strong> <strong>'</strong> <strong>(</strong> <strong>)</strong> <strong>*</strong> <strong>,</strong> <strong>-</strong> <strong>.</strong> <strong>/</strong> <strong>:</strong> <strong>;</strong> <strong>?</strong> <strong>@</strong> <strong>[</strong> <strong>\</strong> <strong>]</strong> <strong>¡</strong> <strong>§</strong> <strong>«</strong> <strong>»</strong> <strong>¿</strong> <strong>‐</strong> <strong>–</strong> <strong>—</strong> <strong>‘</strong> <strong>’</strong> <strong>“</strong> <strong>”</strong> <strong>†</strong> <strong>‡</strong> <strong>…</strong> <strong>′</strong> <strong>″</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Chavacano (cbk)</h2>
+## Chavacano (cbk)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ñ</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>ñ</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Cebuano (ceb)</h2>
+## Cebuano (ceb)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z</td><td>☒</td></tr>
@@ -267,7 +270,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>"</strong> <strong>#</strong> <strong>&</strong> <strong>'</strong> <strong>(</strong> <strong>)</strong> <strong>*</strong> <strong>,</strong> <strong>-</strong> <strong>.</strong> <strong>/</strong> <strong>:</strong> <strong>;</strong> <strong>?</strong> <strong>@</strong> <strong>[</strong> <strong>]</strong> <strong>‘</strong> <strong>’</strong> <strong>“</strong> <strong>”</strong> <strong>…</strong> <strong>′</strong> <strong>″</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Czech (ces)</h2>
+## Czech (ces)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ó ú ý č ď ě ň ř š ť ů ž</td><td>☑︎</td></tr>
@@ -278,7 +281,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>&</strong> <strong>(</strong> <strong>)</strong> <strong>*</strong> <strong>,</strong> <strong>-</strong> <strong>.</strong> <strong>/</strong> <strong>:</strong> <strong>;</strong> <strong>?</strong> <strong>@</strong> <strong>[</strong> <strong>]</strong> <strong>§</strong> <strong>‐</strong> <strong>–</strong> <strong>‘</strong> <strong>‚</strong> <strong>“</strong> <strong>„</strong> <strong>…</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Chiga (cgg)</h2>
+## Chiga (cgg)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>a</strong> <strong>b</strong> <strong>c</strong> <strong>d</strong> <strong>e</strong> <strong>f</strong> <strong>g</strong> <strong>h</strong> <strong>i</strong> <strong>j</strong> <strong>k</strong> <strong>l</strong> <strong>m</strong> <strong>n</strong> <strong>o</strong> <strong>p</strong> <strong>q</strong> <strong>r</strong> <strong>s</strong> <strong>t</strong> <strong>u</strong> <strong>v</strong> <strong>w</strong> <strong>x</strong> <strong>y</strong> <strong>z</strong> </td><td>☑︎</td></tr>
@@ -287,41 +290,41 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☐</td></tr>
  </table>
 
-<h2>Chamorro (cha)</h2>
+## Chamorro (cha)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z â å ñ ü</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>â</span> <span>å</span> <span>ñ</span> <span>ü</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Chickasaw (cic)</h2>
+## Chickasaw (cic)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ó ú</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>á</span> <span>é</span> <span>í</span> <span>ó</span> <span>ú</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Cimbrian (cim)</h2>
+## Cimbrian (cim)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ä ö ü ć</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>ä</span> <span>ö</span> <span>ü</span> <span>ć</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Montenegrin (cnr)</h2>
+## Montenegrin (cnr)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ć č đ ś š ź ž</td><td>☒</td></tr>
  </table>
 
-<h2>Cofán (con)</h2>
+## Cofán (con)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ñ û</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>ñ</span> <span>û</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Cornish (cor)</h2>
+## Cornish (cor)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ü ā ē ī ō ū ȳ</td><td>☒</td></tr>
@@ -332,35 +335,35 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☐</td></tr>
  </table>
 
-<h2>Corsican (cos)</h2>
+## Corsican (cos)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z à â è ì ò ù</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>à</span> <span>â</span> <span>è</span> <span>ì</span> <span>ò</span> <span>ù</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Crimean Tatar (crh)</h2>
+## Crimean Tatar (crh)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ç ñ ö ü ğ ş</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>ç</span> <span>ñ</span> <span>ö</span> <span>ü</span> <span>ğ</span> <span>ş</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Seselwa Creole French (crs)</h2>
+## Seselwa Creole French (crs)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ä ö ü ć č đ š ž</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Kashubian (csb)</h2>
+## Kashubian (csb)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ã é ë ò ó ô ù ą ę ł ń ś ż</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>ã</span> <span>é</span> <span>ë</span> <span>ò</span> <span>ó</span> <span>ô</span> <span>ù</span> <span>ą</span> <span>ę</span> <span>ł</span> <span>ń</span> <span>ś</span> <span>ż</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Welsh (cym)</h2>
+## Welsh (cym)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ä è é ê ë ì í î ï ò ó ô ö ù ú û ü ý ÿ ŵ ŷ ẁ ẃ ẅ ỳ</td><td>☒</td></tr>
@@ -371,7 +374,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>"</strong> <strong>#</strong> <strong>&</strong> <strong>'</strong> <strong>(</strong> <strong>)</strong> <strong>*</strong> <strong>,</strong> <strong>-</strong> <strong>.</strong> <strong>/</strong> <strong>:</strong> <strong>;</strong> <strong>?</strong> <strong>@</strong> <strong>[</strong> <strong>]</strong> <strong>§</strong> <strong>‐</strong> <strong>–</strong> <strong>—</strong> <strong>‘</strong> <strong>’</strong> <strong>“</strong> <strong>”</strong> <strong>†</strong> <strong>‡</strong> <strong>…</strong> <strong>′</strong> <strong>″</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Danish (dan)</h2>
+## Danish (dan)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z á å æ é í ó ø ú ý ǻ ǽ ǿ</td><td>☒</td></tr>
@@ -382,7 +385,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>"</strong> <strong>#</strong> <strong>&</strong> <strong>'</strong> <strong>(</strong> <strong>)</strong> <strong>*</strong> <strong>,</strong> <strong>-</strong> <strong>.</strong> <strong>/</strong> <strong>:</strong> <strong>;</strong> <strong>?</strong> <strong>@</strong> <strong>[</strong> <strong>]</strong> <strong>§</strong> <strong>‐</strong> <strong>–</strong> <strong>‘</strong> <strong>’</strong> <strong>“</strong> <strong>”</strong> <strong>†</strong> <strong>…</strong> <strong>′</strong> <strong>″</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Taita (dav)</h2>
+## Taita (dav)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>a</strong> <strong>b</strong> <strong>c</strong> <strong>d</strong> <strong>e</strong> <strong>f</strong> <strong>g</strong> <strong>h</strong> <strong>i</strong> <strong>j</strong> <strong>k</strong> <strong>l</strong> <strong>m</strong> <strong>n</strong> <strong>o</strong> <strong>p</strong> <strong>r</strong> <strong>s</strong> <strong>t</strong> <strong>u</strong> <strong>v</strong> <strong>w</strong> <strong>y</strong> <strong>z</strong> </td><td>☑︎</td></tr>
@@ -391,14 +394,14 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☐</td></tr>
  </table>
 
-<h2>Delaware (del)</h2>
+## Delaware (del)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z à è ë ì ò ù</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>à</span> <span>è</span> <span>ë</span> <span>ì</span> <span>ò</span> <span>ù</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>German (deu)</h2>
+## German (deu)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ß à ä é ö ü</td><td>☒</td></tr>
@@ -409,21 +412,21 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><strong>↑</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Dehu (dhv)</h2>
+## Dehu (dhv)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ë ö</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>ë</span> <span>ö</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Dimli (individual language) (diq)</h2>
+## Dimli (individual language) (diq)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ç ê î û ü İ ı ş ǧ</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>ç</span> <span>ê</span> <span>ü</span> <span>İ</span> <span>ı</span> <span>ş</span> <span>ǧ</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Zarma (dje)</h2>
+## Zarma (dje)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ŋ ɲ</td><td>☒</td></tr>
@@ -434,7 +437,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Lower Sorbian (dsb)</h2>
+## Lower Sorbian (dsb)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ó ć č ě ł ń ŕ ś š ź ž</td><td>☒</td></tr>
@@ -445,7 +448,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>"</strong> <strong>#</strong> <strong>&</strong> <strong>'</strong> <strong>(</strong> <strong>)</strong> <strong>*</strong> <strong>,</strong> <strong>-</strong> <strong>.</strong> <strong>/</strong> <strong>:</strong> <strong>;</strong> <strong>?</strong> <strong>@</strong> <strong>[</strong> <strong>]</strong> <strong>§</strong> <strong>«</strong> <strong>»</strong> <strong>‐</strong> <strong>–</strong> <strong>—</strong> <strong>‘</strong> <strong>’</strong> <strong>‚</strong> <strong>“</strong> <strong>„</strong> <strong>…</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Duala (dua)</h2>
+## Duala (dua)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>a</strong> <strong>b</strong> <strong>c</strong> <strong>d</strong> <strong>e</strong> <strong>f</strong> <strong>g</strong> <strong>i</strong> <strong>j</strong> <strong>k</strong> <strong>l</strong> <strong>m</strong> <strong>n</strong> <strong>o</strong> <strong>p</strong> <strong>r</strong> <strong>s</strong> <strong>t</strong> <strong>u</strong> <strong>w</strong> <strong>y</strong> <strong>á</strong> <strong>é</strong> <strong>í</strong> <strong>ó</strong> <strong>ú</strong> <strong>ŋ</strong> <strong>ū</strong> <strong>ɓ</strong> <strong>ɔ</strong> <strong>ɗ</strong> <strong>ɛ</strong> <strong>́</strong> </td><td>☑︎</td></tr>
@@ -454,7 +457,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Jola-Fonyi (dyo)</h2>
+## Jola-Fonyi (dyo)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>a</strong> <strong>b</strong> <strong>c</strong> <strong>d</strong> <strong>e</strong> <strong>f</strong> <strong>g</strong> <strong>h</strong> <strong>i</strong> <strong>j</strong> <strong>k</strong> <strong>l</strong> <strong>m</strong> <strong>n</strong> <strong>o</strong> <strong>p</strong> <strong>q</strong> <strong>r</strong> <strong>s</strong> <strong>t</strong> <strong>u</strong> <strong>v</strong> <strong>w</strong> <strong>x</strong> <strong>y</strong> <strong>á</strong> <strong>é</strong> <strong>í</strong> <strong>ñ</strong> <strong>ó</strong> <strong>ú</strong> <strong>ŋ</strong> </td><td>☑︎</td></tr>
@@ -463,7 +466,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Embu (ebu)</h2>
+## Embu (ebu)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>a</strong> <strong>b</strong> <strong>c</strong> <strong>d</strong> <strong>e</strong> <strong>f</strong> <strong>g</strong> <strong>h</strong> <strong>i</strong> <strong>j</strong> <strong>k</strong> <strong>l</strong> <strong>m</strong> <strong>n</strong> <strong>o</strong> <strong>p</strong> <strong>q</strong> <strong>r</strong> <strong>s</strong> <strong>t</strong> <strong>u</strong> <strong>v</strong> <strong>w</strong> <strong>x</strong> <strong>y</strong> <strong>z</strong> <strong>ĩ</strong> <strong>ũ</strong> </td><td>☑︎</td></tr>
@@ -472,7 +475,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☐</td></tr>
  </table>
 
-<h2>English (eng)</h2>
+## English (eng)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z á æ ç è é ê ë ï ñ ô ö œ</td><td>☒</td></tr>
@@ -483,7 +486,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>"</strong> <strong>#</strong> <strong>&</strong> <strong>'</strong> <strong>(</strong> <strong>)</strong> <strong>*</strong> <strong>,</strong> <strong>-</strong> <strong>.</strong> <strong>/</strong> <strong>:</strong> <strong>;</strong> <strong>?</strong> <strong>@</strong> <strong>[</strong> <strong>]</strong> <strong>§</strong> <strong>‐</strong> <strong>–</strong> <strong>—</strong> <strong>‘</strong> <strong>’</strong> <strong>“</strong> <strong>”</strong> <strong>†</strong> <strong>‡</strong> <strong>…</strong> <strong>′</strong> <strong>″</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Esperanto (epo)</h2>
+## Esperanto (epo)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ĉ ĝ ĥ ĵ ŝ ŭ</td><td>☒</td></tr>
@@ -494,7 +497,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>"</strong> <strong>'</strong> <strong>(</strong> <strong>)</strong> <strong>,</strong> <strong>-</strong> <strong>.</strong> <strong>/</strong> <strong>:</strong> <strong>;</strong> <strong>?</strong> <strong>[</strong> <strong>]</strong> <strong>‐</strong> <strong>–</strong> <strong>—</strong> <strong>‘</strong> <strong>’</strong> <strong>“</strong> <strong>”</strong> <strong>…</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Estonian (est)</h2>
+## Estonian (est)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ä õ ö ü š ž</td><td>☒</td></tr>
@@ -505,7 +508,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>(</strong> <strong>)</strong> <strong>,</strong> <strong>-</strong> <strong>.</strong> <strong>:</strong> <strong>;</strong> <strong>?</strong> <strong>@</strong> <strong>[</strong> <strong>]</strong> <strong>–</strong> <strong>“</strong> <strong>„</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Basque (eus)</h2>
+## Basque (eus)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ñ ü</td><td>☒</td></tr>
@@ -516,7 +519,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>"</strong> <strong>#</strong> <strong>&</strong> <strong>'</strong> <strong>(</strong> <strong>)</strong> <strong>*</strong> <strong>,</strong> <strong>-</strong> <strong>.</strong> <strong>/</strong> <strong>:</strong> <strong>;</strong> <strong>?</strong> <strong>@</strong> <strong>[</strong> <strong>]</strong> <strong>§</strong> <strong>‐</strong> <strong>–</strong> <strong>—</strong> <strong>‘</strong> <strong>’</strong> <strong>“</strong> <strong>”</strong> <strong>†</strong> <strong>‡</strong> <strong>…</strong> <strong>′</strong> <strong>″</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Ewe (ewe)</h2>
+## Ewe (ewe)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>a</strong> <strong>b</strong> <strong>d</strong> <strong>e</strong> <strong>f</strong> <strong>g</strong> <strong>h</strong> <strong>i</strong> <strong>k</strong> <strong>l</strong> <strong>m</strong> <strong>n</strong> <strong>o</strong> <strong>p</strong> <strong>r</strong> <strong>s</strong> <strong>t</strong> <strong>u</strong> <strong>v</strong> <strong>w</strong> <strong>x</strong> <strong>y</strong> <strong>z</strong> <strong>à</strong> <strong>á</strong> <strong>ã</strong> <strong>è</strong> <strong>é</strong> <strong>ì</strong> <strong>í</strong> <strong>ò</strong> <strong>ó</strong> <strong>õ</strong> <strong>ù</strong> <strong>ú</strong> <strong>ĩ</strong> <strong>ŋ</strong> <strong>ũ</strong> <strong>ƒ</strong> <strong>ɔ</strong> <strong>ɖ</strong> <strong>ɛ</strong> <strong>ɣ</strong> <strong>ʋ</strong> <strong>̀</strong> <strong>́</strong> <strong>̃</strong> <strong>ẽ</strong> </td><td>☑︎</td></tr>
@@ -525,7 +528,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>"</strong> <strong>#</strong> <strong>&</strong> <strong>'</strong> <strong>(</strong> <strong>)</strong> <strong>*</strong> <strong>,</strong> <strong>-</strong> <strong>.</strong> <strong>/</strong> <strong>:</strong> <strong>;</strong> <strong>?</strong> <strong>@</strong> <strong>[</strong> <strong>]</strong> <strong>§</strong> <strong>‐</strong> <strong>–</strong> <strong>—</strong> <strong>‘</strong> <strong>’</strong> <strong>“</strong> <strong>”</strong> <strong>†</strong> <strong>‡</strong> <strong>…</strong> <strong>′</strong> <strong>″</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Ewondo (ewo)</h2>
+## Ewondo (ewo)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>a</strong> <strong>b</strong> <strong>d</strong> <strong>e</strong> <strong>f</strong> <strong>g</strong> <strong>h</strong> <strong>i</strong> <strong>k</strong> <strong>l</strong> <strong>m</strong> <strong>n</strong> <strong>o</strong> <strong>p</strong> <strong>r</strong> <strong>s</strong> <strong>t</strong> <strong>u</strong> <strong>v</strong> <strong>w</strong> <strong>y</strong> <strong>z</strong> <strong>à</strong> <strong>á</strong> <strong>â</strong> <strong>è</strong> <strong>é</strong> <strong>ê</strong> <strong>ì</strong> <strong>í</strong> <strong>î</strong> <strong>ò</strong> <strong>ó</strong> <strong>ô</strong> <strong>ù</strong> <strong>ú</strong> <strong>û</strong> <strong>ě</strong> <strong>ń</strong> <strong>ŋ</strong> <strong>ǎ</strong> <strong>ǐ</strong> <strong>ǒ</strong> <strong>ǔ</strong> <strong>ǹ</strong> <strong>ɔ</strong> <strong>ə</strong> <strong>ɛ</strong> <strong>̀</strong> <strong>́</strong> <strong>̂</strong> <strong>̌</strong> </td><td>☑︎</td></tr>
@@ -534,7 +537,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Faroese (fao)</h2>
+## Faroese (fao)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z á å æ í ð ó ö ø ú ý</td><td>☒</td></tr>
@@ -545,14 +548,14 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>"</strong> <strong>#</strong> <strong>&</strong> <strong>'</strong> <strong>(</strong> <strong>)</strong> <strong>*</strong> <strong>,</strong> <strong>-</strong> <strong>.</strong> <strong>/</strong> <strong>:</strong> <strong>;</strong> <strong>?</strong> <strong>@</strong> <strong>[</strong> <strong>]</strong> <strong>§</strong> <strong>‐</strong> <strong>–</strong> <strong>‘</strong> <strong>’</strong> <strong>“</strong> <strong>”</strong> <strong>†</strong> <strong>…</strong> <strong>′</strong> <strong>″</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Fijian (fij)</h2>
+## Fijian (fij)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Filipino (fil)</h2>
+## Filipino (fil)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ñ</td><td>☒</td></tr>
@@ -563,7 +566,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>"</strong> <strong>#</strong> <strong>&</strong> <strong>'</strong> <strong>(</strong> <strong>)</strong> <strong>*</strong> <strong>,</strong> <strong>-</strong> <strong>.</strong> <strong>/</strong> <strong>:</strong> <strong>;</strong> <strong>?</strong> <strong>[</strong> <strong>]</strong> <strong>§</strong> <strong>‐</strong> <strong>–</strong> <strong>—</strong> <strong>‘</strong> <strong>’</strong> <strong>“</strong> <strong>”</strong> <strong>…</strong> <strong>′</strong> <strong>″</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Finnish (fin)</h2>
+## Finnish (fin)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ä å æ õ ö ø ü š ž</td><td>☒</td></tr>
@@ -574,7 +577,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>#</strong> <strong>&</strong> <strong>(</strong> <strong>)</strong> <strong>*</strong> <strong>,</strong> <strong>-</strong> <strong>.</strong> <strong>/</strong> <strong>:</strong> <strong>;</strong> <strong>?</strong> <strong>@</strong> <strong>[</strong> <strong>\</strong> <strong>]</strong> <strong>§</strong> <strong>»</strong> <strong>‐</strong> <strong>–</strong> <strong>’</strong> <strong>”</strong> <strong>…</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>French (fra)</h2>
+## French (fra)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z â ç è é ê î ô û</td><td>☒</td></tr>
@@ -585,7 +588,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>"</strong> <strong>#</strong> <strong>&</strong> <strong>(</strong> <strong>)</strong> <strong>*</strong> <strong>,</strong> <strong>-</strong> <strong>.</strong> <strong>/</strong> <strong>:</strong> <strong>;</strong> <strong>?</strong> <strong>@</strong> <strong>[</strong> <strong>]</strong> <strong>§</strong> <strong>«</strong> <strong>»</strong> <strong>‐</strong> <strong>–</strong> <strong>—</strong> <strong>’</strong> <strong>“</strong> <strong>”</strong> <strong>†</strong> <strong>‡</strong> <strong>…</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Western Frisian (fry)</h2>
+## Western Frisian (fry)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z â ä é ê ë î ï ô ö ú û ü</td><td>☒</td></tr>
@@ -596,7 +599,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>"</strong> <strong>#</strong> <strong>&</strong> <strong>'</strong> <strong>(</strong> <strong>)</strong> <strong>*</strong> <strong>,</strong> <strong>-</strong> <strong>.</strong> <strong>/</strong> <strong>:</strong> <strong>;</strong> <strong>?</strong> <strong>@</strong> <strong>[</strong> <strong>]</strong> <strong>§</strong> <strong>‐</strong> <strong>–</strong> <strong>—</strong> <strong>‘</strong> <strong>’</strong> <strong>“</strong> <strong>”</strong> <strong>†</strong> <strong>‡</strong> <strong>…</strong> <strong>′</strong> <strong>″</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Fulah (ful)</h2>
+## Fulah (ful)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>a</strong> <strong>b</strong> <strong>c</strong> <strong>d</strong> <strong>e</strong> <strong>f</strong> <strong>g</strong> <strong>h</strong> <strong>i</strong> <strong>j</strong> <strong>k</strong> <strong>l</strong> <strong>m</strong> <strong>n</strong> <strong>o</strong> <strong>p</strong> <strong>r</strong> <strong>s</strong> <strong>t</strong> <strong>u</strong> <strong>w</strong> <strong>y</strong> <strong>ñ</strong> <strong>ŋ</strong> <strong>ƴ</strong> <strong>ɓ</strong> <strong>ɗ</strong> </td><td>☑︎</td></tr>
@@ -605,7 +608,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Friulian (fur)</h2>
+## Friulian (fur)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ç è ê ì î ò ô ù û</td><td>☒</td></tr>
@@ -616,28 +619,28 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Gagauz (gag)</h2>
+## Gagauz (gag)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ä ç ê ö ü ğ İ ı ş ţ ș ț</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>ä</span> <span>ç</span> <span>ê</span> <span>ö</span> <span>ü</span> <span>ğ</span> <span>İ</span> <span>ı</span> <span>ş</span> <span>ţ</span> <span>ș</span> <span>ț</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Guadeloupean Creole French (gcf)</h2>
+## Guadeloupean Creole French (gcf)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z è é ò</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>è</span> <span>é</span> <span>ò</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Gilbertese (gil)</h2>
+## Gilbertese (gil)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Scottish Gaelic (gla)</h2>
+## Scottish Gaelic (gla)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z à è é ì ò ó ù</td><td>☒</td></tr>
@@ -648,7 +651,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>"</strong> <strong>#</strong> <strong>%</strong> <strong>&</strong> <strong>'</strong> <strong>(</strong> <strong>)</strong> <strong>*</strong> <strong>,</strong> <strong>-</strong> <strong>.</strong> <strong>/</strong> <strong>:</strong> <strong>;</strong> <strong>?</strong> <strong>@</strong> <strong>[</strong> <strong>]</strong> <strong>¡</strong> <strong>§</strong> <strong>©</strong> <strong>®</strong> <strong>°</strong> <strong>¶</strong> <strong>·</strong> <strong>‐</strong> <strong>–</strong> <strong>—</strong> <strong>‘</strong> <strong>’</strong> <strong>“</strong> <strong>”</strong> <strong>†</strong> <strong>‡</strong> <strong>…</strong> <strong>‧</strong> <strong>⁊</strong> <strong>™</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Irish (gle)</h2>
+## Irish (gle)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z à á è é ì í ò ó ù ú</td><td>☒</td></tr>
@@ -659,7 +662,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>"</strong> <strong>#</strong> <strong>&</strong> <strong>'</strong> <strong>(</strong> <strong>)</strong> <strong>*</strong> <strong>,</strong> <strong>-</strong> <strong>.</strong> <strong>/</strong> <strong>:</strong> <strong>;</strong> <strong>?</strong> <strong>@</strong> <strong>[</strong> <strong>]</strong> <strong>§</strong> <strong>‐</strong> <strong>–</strong> <strong>—</strong> <strong>‘</strong> <strong>’</strong> <strong>“</strong> <strong>”</strong> <strong>†</strong> <strong>‡</strong> <strong>…</strong> <strong>′</strong> <strong>″</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Galician (glg)</h2>
+## Galician (glg)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ñ ó ú ü</td><td>☒</td></tr>
@@ -670,7 +673,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>"</strong> <strong>#</strong> <strong>&</strong> <strong>'</strong> <strong>(</strong> <strong>)</strong> <strong>*</strong> <strong>,</strong> <strong>-</strong> <strong>.</strong> <strong>/</strong> <strong>:</strong> <strong>;</strong> <strong>?</strong> <strong>@</strong> <strong>[</strong> <strong>]</strong> <strong>§</strong> <strong>‐</strong> <strong>–</strong> <strong>—</strong> <strong>‘</strong> <strong>’</strong> <strong>“</strong> <strong>”</strong> <strong>†</strong> <strong>‡</strong> <strong>…</strong> <strong>′</strong> <strong>″</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Manx (glv)</h2>
+## Manx (glv)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z â î ă ș ț</td><td>☒</td></tr>
@@ -681,21 +684,21 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>"</strong> <strong>#</strong> <strong>&</strong> <strong>'</strong> <strong>(</strong> <strong>)</strong> <strong>*</strong> <strong>,</strong> <strong>-</strong> <strong>.</strong> <strong>/</strong> <strong>:</strong> <strong>;</strong> <strong>?</strong> <strong>@</strong> <strong>[</strong> <strong>]</strong> <strong>§</strong> <strong>‐</strong> <strong>–</strong> <strong>—</strong> <strong>‘</strong> <strong>’</strong> <strong>“</strong> <strong>”</strong> <strong>†</strong> <strong>‡</strong> <strong>…</strong> <strong>′</strong> <strong>″</strong> </td><td>☐</td></tr>
  </table>
 
-<h2>Gooniyandi (gni)</h2>
+## Gooniyandi (gni)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ß à ä é ö ü</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>ß</span> <span>à</span> <span>ä</span> <span>é</span> <span>ö</span> <span>ü</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Ga'anda (gqa)</h2>
+## Ga'anda (gqa)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ŋ</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>ŋ</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Swiss German (gsw)</h2>
+## Swiss German (gsw)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z à ä é ì ö ù ü</td><td>☒</td></tr>
@@ -706,14 +709,14 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Wayuu (guc)</h2>
+## Wayuu (guc)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ñ ü</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>ñ</span> <span>ü</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Gusii (guz)</h2>
+## Gusii (guz)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>a</strong> <strong>b</strong> <strong>c</strong> <strong>d</strong> <strong>e</strong> <strong>f</strong> <strong>g</strong> <strong>h</strong> <strong>i</strong> <strong>j</strong> <strong>k</strong> <strong>l</strong> <strong>m</strong> <strong>n</strong> <strong>o</strong> <strong>p</strong> <strong>r</strong> <strong>s</strong> <strong>t</strong> <strong>u</strong> <strong>v</strong> <strong>w</strong> <strong>y</strong> <strong>z</strong> </td><td>☑︎</td></tr>
@@ -722,28 +725,28 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☐</td></tr>
  </table>
 
-<h2>Gwichʼin (gwi)</h2>
+## Gwichʼin (gwi)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z à å è é ì í ò ó ù ú ł</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>à</span> <span>å</span> <span>è</span> <span>é</span> <span>ì</span> <span>í</span> <span>ò</span> <span>ó</span> <span>ù</span> <span>ú</span> <span>ł</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Han (haa)</h2>
+## Han (haa)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ä ë</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>ä</span> <span>ë</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Haitian (hat)</h2>
+## Haitian (hat)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z à á è é ò ó</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>à</span> <span>á</span> <span>è</span> <span>é</span> <span>ò</span> <span>ó</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Hausa (hau)</h2>
+## Hausa (hau)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>a</strong> <strong>b</strong> <strong>c</strong> <strong>d</strong> <strong>e</strong> <strong>f</strong> <strong>g</strong> <strong>h</strong> <strong>i</strong> <strong>j</strong> <strong>k</strong> <strong>l</strong> <strong>m</strong> <strong>n</strong> <strong>o</strong> <strong>r</strong> <strong>s</strong> <strong>t</strong> <strong>u</strong> <strong>w</strong> <strong>y</strong> <strong>z</strong> <strong>ƙ</strong> <strong>ƴ</strong> <strong>ɓ</strong> <strong>ɗ</strong> <strong>ʼ</strong> </td><td>☑︎</td></tr>
@@ -752,7 +755,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>"</strong> <strong>'</strong> <strong>(</strong> <strong>)</strong> <strong>,</strong> <strong>-</strong> <strong>.</strong> <strong>:</strong> <strong>;</strong> <strong>?</strong> <strong>[</strong> <strong>]</strong> <strong>‘</strong> <strong>’</strong> <strong>“</strong> <strong>”</strong> <strong>′</strong> <strong>″</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Hawaiian (haw)</h2>
+## Hawaiian (haw)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ī ō ū</td><td>☒</td></tr>
@@ -763,21 +766,21 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Hiligaynon (hil)</h2>
+## Hiligaynon (hil)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Hopi (hop)</h2>
+## Hopi (hop)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ñ ị ọ ụ</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Croatian (hrv)</h2>
+## Croatian (hrv)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ć č đ š ž</td><td>☒</td></tr>
@@ -788,7 +791,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>"</strong> <strong>'</strong> <strong>(</strong> <strong>)</strong> <strong>*</strong> <strong>,</strong> <strong>.</strong> <strong>/</strong> <strong>:</strong> <strong>;</strong> <strong>?</strong> <strong>@</strong> <strong>[</strong> <strong>]</strong> <strong>‐</strong> <strong>–</strong> <strong>—</strong> <strong>‘</strong> <strong>’</strong> <strong>‚</strong> <strong>“</strong> <strong>”</strong> <strong>„</strong> <strong>…</strong> <strong>′</strong> <strong>″</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Upper Sorbian (hsb)</h2>
+## Upper Sorbian (hsb)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ó ć č ě ł ń ř š ź ž</td><td>☒</td></tr>
@@ -799,7 +802,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>"</strong> <strong>#</strong> <strong>&</strong> <strong>'</strong> <strong>(</strong> <strong>)</strong> <strong>*</strong> <strong>,</strong> <strong>-</strong> <strong>.</strong> <strong>/</strong> <strong>:</strong> <strong>;</strong> <strong>?</strong> <strong>@</strong> <strong>[</strong> <strong>]</strong> <strong>§</strong> <strong>«</strong> <strong>»</strong> <strong>‐</strong> <strong>–</strong> <strong>—</strong> <strong>‘</strong> <strong>’</strong> <strong>‚</strong> <strong>“</strong> <strong>„</strong> <strong>…</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Hungarian (hun)</h2>
+## Hungarian (hun)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ó ö ú ü ő ű</td><td>☒</td></tr>
@@ -810,7 +813,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>"</strong> <strong>#</strong> <strong>&</strong> <strong>'</strong> <strong>(</strong> <strong>)</strong> <strong>*</strong> <strong>,</strong> <strong>-</strong> <strong>.</strong> <strong>/</strong> <strong>:</strong> <strong>;</strong> <strong>?</strong> <strong>@</strong> <strong>[</strong> <strong>]</strong> <strong>~</strong> <strong>§</strong> <strong>«</strong> <strong>»</strong> <strong>–</strong> <strong>’</strong> <strong>”</strong> <strong>„</strong> <strong>…</strong> <strong>⁒</strong> <strong>⟨</strong> <strong>⟩</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Igbo (ibo)</h2>
+## Igbo (ibo)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ñ ị ọ ụ</td><td>☒</td></tr>
@@ -821,35 +824,35 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>(</strong> <strong>)</strong> <strong>,</strong> <strong>-</strong> <strong>.</strong> <strong>:</strong> <strong>;</strong> <strong>?</strong> <strong>[</strong> <strong>]</strong> <strong>‘</strong> <strong>’</strong> <strong>“</strong> <strong>”</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Ido (ido)</h2>
+## Ido (ido)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z à á è é ì í ò ó ù ú</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Interglossa (igs)</h2>
+## Interglossa (igs)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Interlingue (ile)</h2>
+## Interlingue (ile)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ó ú</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>á</span> <span>é</span> <span>í</span> <span>ó</span> <span>ú</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Iloko (ilo)</h2>
+## Iloko (ilo)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Interlingua (International Auxiliary Language Association) (ina)</h2>
+## Interlingua (International Auxiliary Language Association) (ina)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z</td><td>☒</td></tr>
@@ -859,7 +862,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>"</strong> <strong>#</strong> <strong>&</strong> <strong>'</strong> <strong>(</strong> <strong>)</strong> <strong>*</strong> <strong>,</strong> <strong>-</strong> <strong>.</strong> <strong>/</strong> <strong>:</strong> <strong>;</strong> <strong>?</strong> <strong>@</strong> <strong>[</strong> <strong>]</strong> <strong>§</strong> <strong>‐</strong> <strong>–</strong> <strong>—</strong> <strong>‘</strong> <strong>’</strong> <strong>“</strong> <strong>”</strong> <strong>…</strong> <strong>′</strong> <strong>″</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Indonesian (ind)</h2>
+## Indonesian (ind)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z é</td><td>☒</td></tr>
@@ -870,7 +873,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>'</strong> <strong>(</strong> <strong>)</strong> <strong>,</strong> <strong>-</strong> <strong>.</strong> <strong>/</strong> <strong>:</strong> <strong>;</strong> <strong>?</strong> <strong>[</strong> <strong>]</strong> <strong>‐</strong> <strong>–</strong> <strong>—</strong> <strong>‘</strong> <strong>’</strong> <strong>“</strong> <strong>”</strong> <strong>…</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Icelandic (isl)</h2>
+## Icelandic (isl)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z á æ é í ð ó ö ú ý þ ǽ ǿ</td><td>☒</td></tr>
@@ -881,7 +884,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>"</strong> <strong>#</strong> <strong>&</strong> <strong>'</strong> <strong>(</strong> <strong>)</strong> <strong>*</strong> <strong>,</strong> <strong>-</strong> <strong>.</strong> <strong>/</strong> <strong>:</strong> <strong>;</strong> <strong>?</strong> <strong>@</strong> <strong>[</strong> <strong>]</strong> <strong>§</strong> <strong>‐</strong> <strong>–</strong> <strong>—</strong> <strong>‘</strong> <strong>‚</strong> <strong>“</strong> <strong>„</strong> <strong>†</strong> <strong>‡</strong> <strong>…</strong> <strong>′</strong> <strong>″</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Italian (ita)</h2>
+## Italian (ita)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z à á è é ì í î ï ò ó ù ú</td><td>☒</td></tr>
@@ -892,14 +895,14 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>"</strong> <strong>'</strong> <strong>(</strong> <strong>)</strong> <strong>,</strong> <strong>-</strong> <strong>.</strong> <strong>/</strong> <strong>:</strong> <strong>;</strong> <strong>?</strong> <strong>@</strong> <strong>[</strong> <strong>]</strong> <strong>«</strong> <strong>»</strong> <strong>—</strong> <strong>’</strong> <strong>“</strong> <strong>”</strong> <strong>…</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Jamaican Creole English (jam)</h2>
+## Jamaican Creole English (jam)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ä ë ï ö ü</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Javanese (jav)</h2>
+## Javanese (jav)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z İ ı</td><td>☒</td></tr>
@@ -910,14 +913,14 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><strong>↑</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Lojban (jbo)</h2>
+## Lojban (jbo)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Ngomba (jgo)</h2>
+## Ngomba (jgo)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>a</strong> <strong>b</strong> <strong>c</strong> <strong>d</strong> <strong>f</strong> <strong>g</strong> <strong>h</strong> <strong>i</strong> <strong>j</strong> <strong>k</strong> <strong>l</strong> <strong>m</strong> <strong>n</strong> <strong>p</strong> <strong>s</strong> <strong>t</strong> <strong>u</strong> <strong>v</strong> <strong>w</strong> <strong>y</strong> <strong>z</strong> <strong>á</strong> <strong>â</strong> <strong>í</strong> <strong>î</strong> <strong>ú</strong> <strong>û</strong> <strong>ń</strong> <strong>ŋ</strong> <strong>ǎ</strong> <strong>ǐ</strong> <strong>ǔ</strong> <strong>ǹ</strong> <strong>ɔ</strong> <strong>ɛ</strong> <strong>ʉ</strong> <strong>̀</strong> <strong>́</strong> <strong>̂</strong> <strong>̄</strong> <strong>̈</strong> <strong>̌</strong> <strong>ḿ</strong> <strong>ẅ</strong> <strong>ꞌ</strong> </td><td>☑︎</td></tr>
@@ -926,7 +929,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>,</strong> <strong>-</strong> <strong>.</strong> <strong>:</strong> <strong>;</strong> <strong>?</strong> <strong>«</strong> <strong>»</strong> <strong>‹</strong> <strong>›</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Machame (jmc)</h2>
+## Machame (jmc)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>a</strong> <strong>b</strong> <strong>c</strong> <strong>d</strong> <strong>e</strong> <strong>f</strong> <strong>g</strong> <strong>h</strong> <strong>i</strong> <strong>j</strong> <strong>k</strong> <strong>l</strong> <strong>m</strong> <strong>n</strong> <strong>o</strong> <strong>p</strong> <strong>r</strong> <strong>s</strong> <strong>t</strong> <strong>u</strong> <strong>v</strong> <strong>w</strong> <strong>y</strong> <strong>z</strong> </td><td>☑︎</td></tr>
@@ -935,14 +938,14 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☐</td></tr>
  </table>
 
-<h2>Kara-Kalpak (kaa)</h2>
+## Kara-Kalpak (kaa)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z İ ı</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>İ</span> <span>ı</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Kabyle (kab)</h2>
+## Kabyle (kab)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>a</strong> <strong>b</strong> <strong>c</strong> <strong>d</strong> <strong>e</strong> <strong>f</strong> <strong>g</strong> <strong>h</strong> <strong>i</strong> <strong>j</strong> <strong>k</strong> <strong>l</strong> <strong>m</strong> <strong>n</strong> <strong>p</strong> <strong>q</strong> <strong>r</strong> <strong>s</strong> <strong>t</strong> <strong>u</strong> <strong>w</strong> <strong>x</strong> <strong>y</strong> <strong>z</strong> <strong>č</strong> <strong>ǧ</strong> <strong>ɛ</strong> <strong>ɣ</strong> <strong>ḍ</strong> <strong>ḥ</strong> <strong>ṛ</strong> <strong>ṣ</strong> <strong>ṭ</strong> <strong>ẓ</strong> </td><td>☑︎</td></tr>
@@ -951,7 +954,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>"</strong> <strong>#</strong> <strong>&</strong> <strong>'</strong> <strong>(</strong> <strong>)</strong> <strong>*</strong> <strong>,</strong> <strong>-</strong> <strong>.</strong> <strong>/</strong> <strong>:</strong> <strong>;</strong> <strong>?</strong> <strong>@</strong> <strong>[</strong> <strong>]</strong> <strong>§</strong> <strong>‐</strong> <strong>–</strong> <strong>—</strong> <strong>‘</strong> <strong>’</strong> <strong>“</strong> <strong>”</strong> <strong>†</strong> <strong>‡</strong> <strong>…</strong> <strong>′</strong> <strong>″</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Kalaallisut (kal)</h2>
+## Kalaallisut (kal)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z á â ã å æ ê í î ô ø ú û ĩ ĸ ũ</td><td>☒</td></tr>
@@ -962,7 +965,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Kamba (Kenya) (kam)</h2>
+## Kamba (Kenya) (kam)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>a</strong> <strong>b</strong> <strong>c</strong> <strong>d</strong> <strong>e</strong> <strong>f</strong> <strong>g</strong> <strong>h</strong> <strong>i</strong> <strong>j</strong> <strong>k</strong> <strong>l</strong> <strong>m</strong> <strong>n</strong> <strong>o</strong> <strong>p</strong> <strong>q</strong> <strong>r</strong> <strong>s</strong> <strong>t</strong> <strong>u</strong> <strong>v</strong> <strong>w</strong> <strong>y</strong> <strong>z</strong> <strong>ĩ</strong> <strong>ũ</strong> </td><td>☑︎</td></tr>
@@ -971,7 +974,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☐</td></tr>
  </table>
 
-<h2>Makonde (kde)</h2>
+## Makonde (kde)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>a</strong> <strong>b</strong> <strong>c</strong> <strong>d</strong> <strong>e</strong> <strong>f</strong> <strong>g</strong> <strong>h</strong> <strong>i</strong> <strong>j</strong> <strong>k</strong> <strong>l</strong> <strong>m</strong> <strong>n</strong> <strong>o</strong> <strong>p</strong> <strong>q</strong> <strong>r</strong> <strong>s</strong> <strong>t</strong> <strong>u</strong> <strong>v</strong> <strong>w</strong> <strong>x</strong> <strong>y</strong> <strong>z</strong> </td><td>☑︎</td></tr>
@@ -980,7 +983,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☐</td></tr>
  </table>
 
-<h2>Kabuverdianu (kea)</h2>
+## Kabuverdianu (kea)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ã ç è é ê í ò ó ô õ ú ü</td><td>☒</td></tr>
@@ -991,21 +994,21 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>"</strong> <strong>#</strong> <strong>&</strong> <strong>'</strong> <strong>(</strong> <strong>)</strong> <strong>*</strong> <strong>,</strong> <strong>-</strong> <strong>.</strong> <strong>/</strong> <strong>:</strong> <strong>;</strong> <strong>?</strong> <strong>@</strong> <strong>[</strong> <strong>]</strong> <strong>§</strong> <strong>«</strong> <strong>»</strong> <strong>‐</strong> <strong>–</strong> <strong>—</strong> <strong>‘</strong> <strong>’</strong> <strong>“</strong> <strong>”</strong> <strong>†</strong> <strong>‡</strong> <strong>…</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Kekchí (kek)</h2>
+## Kekchí (kek)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z á ä å ñ ö ń</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Kaingang (kgp)</h2>
+## Kaingang (kgp)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z á â é ó ĩ ỹ</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>á</span> <span>â</span> <span>é</span> <span>ó</span> <span>ĩ</span> <span>ỹ</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Koyra Chiini Songhay (khq)</h2>
+## Koyra Chiini Songhay (khq)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>a</strong> <strong>b</strong> <strong>c</strong> <strong>d</strong> <strong>e</strong> <strong>f</strong> <strong>g</strong> <strong>h</strong> <strong>i</strong> <strong>j</strong> <strong>k</strong> <strong>l</strong> <strong>m</strong> <strong>n</strong> <strong>o</strong> <strong>p</strong> <strong>q</strong> <strong>r</strong> <strong>s</strong> <strong>t</strong> <strong>u</strong> <strong>w</strong> <strong>x</strong> <strong>y</strong> <strong>z</strong> <strong>ã</strong> <strong>õ</strong> <strong>ŋ</strong> <strong>š</strong> <strong>ž</strong> <strong>ɲ</strong> <strong>ẽ</strong> </td><td>☑︎</td></tr>
@@ -1014,7 +1017,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Kikuyu (kik)</h2>
+## Kikuyu (kik)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ĩ ŋ ũ</td><td>☒</td></tr>
@@ -1025,7 +1028,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☐</td></tr>
  </table>
 
-<h2>Kinyarwanda (kin)</h2>
+## Kinyarwanda (kin)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z</td><td>☒</td></tr>
@@ -1036,13 +1039,13 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☐</td></tr>
  </table>
 
-<h2>Kirmanjki (individual language) (kiu)</h2>
+## Kirmanjki (individual language) (kiu)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ç ê î û ü İ ı ş ǧ</td><td>☒</td></tr>
  </table>
 
-<h2>Kako (kkj)</h2>
+## Kako (kkj)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>a</strong> <strong>b</strong> <strong>c</strong> <strong>d</strong> <strong>e</strong> <strong>f</strong> <strong>g</strong> <strong>h</strong> <strong>i</strong> <strong>j</strong> <strong>k</strong> <strong>l</strong> <strong>m</strong> <strong>n</strong> <strong>o</strong> <strong>p</strong> <strong>r</strong> <strong>s</strong> <strong>t</strong> <strong>u</strong> <strong>v</strong> <strong>w</strong> <strong>y</strong> <strong>à</strong> <strong>á</strong> <strong>â</strong> <strong>è</strong> <strong>é</strong> <strong>ê</strong> <strong>ì</strong> <strong>í</strong> <strong>î</strong> <strong>ò</strong> <strong>ó</strong> <strong>ô</strong> <strong>ù</strong> <strong>ú</strong> <strong>û</strong> <strong>ŋ</strong> <strong>ǌ</strong> <strong>ɓ</strong> <strong>ɔ</strong> <strong>ɗ</strong> <strong>ɛ</strong> <strong>̀</strong> <strong>́</strong> <strong>̂</strong> <strong>̧</strong> </td><td>☑︎</td></tr>
@@ -1051,7 +1054,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>(</strong> <strong>)</strong> <strong>*</strong> <strong>,</strong> <strong>.</strong> <strong>:</strong> <strong>?</strong> <strong>«</strong> <strong>»</strong> <strong>‘</strong> <strong>“</strong> <strong>”</strong> <strong>…</strong> <strong>‹</strong> <strong>›</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Kalenjin (kln)</h2>
+## Kalenjin (kln)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>a</strong> <strong>b</strong> <strong>c</strong> <strong>d</strong> <strong>e</strong> <strong>g</strong> <strong>h</strong> <strong>i</strong> <strong>j</strong> <strong>k</strong> <strong>l</strong> <strong>m</strong> <strong>n</strong> <strong>o</strong> <strong>p</strong> <strong>r</strong> <strong>s</strong> <strong>t</strong> <strong>u</strong> <strong>w</strong> <strong>y</strong> </td><td>☑︎</td></tr>
@@ -1060,21 +1063,21 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☐</td></tr>
  </table>
 
-<h2>Koongo (kng)</h2>
+## Koongo (kng)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Karelian (krl)</h2>
+## Karelian (krl)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ä ö č š ž</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>ä</span> <span>ö</span> <span>č</span> <span>š</span> <span>ž</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Shambala (ksb)</h2>
+## Shambala (ksb)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>a</strong> <strong>b</strong> <strong>c</strong> <strong>d</strong> <strong>e</strong> <strong>f</strong> <strong>g</strong> <strong>h</strong> <strong>i</strong> <strong>j</strong> <strong>k</strong> <strong>l</strong> <strong>m</strong> <strong>n</strong> <strong>o</strong> <strong>p</strong> <strong>s</strong> <strong>t</strong> <strong>u</strong> <strong>v</strong> <strong>w</strong> <strong>y</strong> <strong>z</strong> </td><td>☑︎</td></tr>
@@ -1083,7 +1086,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☐</td></tr>
  </table>
 
-<h2>Bafia (ksf)</h2>
+## Bafia (ksf)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>a</strong> <strong>b</strong> <strong>c</strong> <strong>d</strong> <strong>e</strong> <strong>f</strong> <strong>g</strong> <strong>h</strong> <strong>i</strong> <strong>j</strong> <strong>k</strong> <strong>l</strong> <strong>m</strong> <strong>n</strong> <strong>o</strong> <strong>p</strong> <strong>r</strong> <strong>s</strong> <strong>t</strong> <strong>u</strong> <strong>v</strong> <strong>w</strong> <strong>y</strong> <strong>z</strong> <strong>á</strong> <strong>é</strong> <strong>í</strong> <strong>ó</strong> <strong>ú</strong> <strong>ŋ</strong> <strong>ǝ</strong> <strong>ɔ</strong> <strong>ɛ</strong> <strong>́</strong> </td><td>☑︎</td></tr>
@@ -1092,7 +1095,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Kölsch (ksh)</h2>
+## Kölsch (ksh)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>a</strong> <strong>b</strong> <strong>c</strong> <strong>d</strong> <strong>e</strong> <strong>f</strong> <strong>g</strong> <strong>h</strong> <strong>i</strong> <strong>j</strong> <strong>k</strong> <strong>l</strong> <strong>m</strong> <strong>n</strong> <strong>o</strong> <strong>p</strong> <strong>q</strong> <strong>r</strong> <strong>s</strong> <strong>t</strong> <strong>u</strong> <strong>v</strong> <strong>w</strong> <strong>x</strong> <strong>y</strong> <strong>z</strong> <strong>ß</strong> <strong>ä</strong> <strong>å</strong> <strong>æ</strong> <strong>ë</strong> <strong>ö</strong> <strong>ü</strong> <strong>ė</strong> <strong>œ</strong> <strong>ů</strong> </td><td>☑︎</td></tr>
@@ -1101,14 +1104,14 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>"</strong> <strong>#</strong> <strong>%</strong> <strong>&</strong> <strong>'</strong> <strong>(</strong> <strong>)</strong> <strong>*</strong> <strong>,</strong> <strong>.</strong> <strong>/</strong> <strong>:</strong> <strong>;</strong> <strong><</strong> <strong>=</strong> <strong>></strong> <strong>?</strong> <strong>@</strong> <strong>[</strong> <strong>]</strong> <strong>_</strong> <strong>~</strong> <strong>§</strong> <strong>°</strong> <strong>‐</strong> <strong>–</strong> <strong>—</strong> <strong>‘</strong> <strong>‚</strong> <strong>“</strong> <strong>„</strong> <strong>†</strong> <strong>‡</strong> <strong>…</strong> <strong>⸗</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Kuanyama (kua)</h2>
+## Kuanyama (kua)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Kurdish (kur)</h2>
+## Kurdish (kur)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ç é ê í î ú û ā ă ē ĕ ī ĭ ō ŏ ū ŭ ș</td><td>☒</td></tr>
@@ -1119,7 +1122,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>"</strong> <strong>#</strong> <strong>&</strong> <strong>'</strong> <strong>(</strong> <strong>)</strong> <strong>*</strong> <strong>,</strong> <strong>-</strong> <strong>.</strong> <strong>/</strong> <strong>:</strong> <strong>;</strong> <strong>?</strong> <strong>@</strong> <strong>[</strong> <strong>]</strong> <strong>§</strong> <strong>‐</strong> <strong>–</strong> <strong>—</strong> <strong>‘</strong> <strong>’</strong> <strong>“</strong> <strong>”</strong> <strong>†</strong> <strong>‡</strong> <strong>…</strong> <strong>′</strong> <strong>″</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Langi (lag)</h2>
+## Langi (lag)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>a</strong> <strong>b</strong> <strong>c</strong> <strong>d</strong> <strong>e</strong> <strong>f</strong> <strong>g</strong> <strong>h</strong> <strong>i</strong> <strong>j</strong> <strong>k</strong> <strong>l</strong> <strong>m</strong> <strong>n</strong> <strong>o</strong> <strong>p</strong> <strong>q</strong> <strong>r</strong> <strong>s</strong> <strong>t</strong> <strong>u</strong> <strong>v</strong> <strong>w</strong> <strong>x</strong> <strong>y</strong> <strong>z</strong> <strong>á</strong> <strong>é</strong> <strong>í</strong> <strong>ó</strong> <strong>ú</strong> <strong>ɨ</strong> <strong>ʉ</strong> </td><td>☑︎</td></tr>
@@ -1128,14 +1131,14 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☐</td></tr>
  </table>
 
-<h2>Latin (lat)</h2>
+## Latin (lat)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ß ä ë ï ö ü</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Latvian (lav)</h2>
+## Latvian (lav)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ā č ē ģ ī ķ ļ ņ ō ŗ š ū ž</td><td>☒</td></tr>
@@ -1146,14 +1149,14 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>"</strong> <strong>#</strong> <strong>&</strong> <strong>'</strong> <strong>(</strong> <strong>)</strong> <strong>*</strong> <strong>,</strong> <strong>-</strong> <strong>.</strong> <strong>/</strong> <strong>:</strong> <strong>;</strong> <strong>?</strong> <strong>@</strong> <strong>[</strong> <strong>]</strong> <strong>§</strong> <strong>‐</strong> <strong>–</strong> <strong>—</strong> <strong>‘</strong> <strong>’</strong> <strong>‚</strong> <strong>“</strong> <strong>”</strong> <strong>„</strong> <strong>†</strong> <strong>‡</strong> <strong>…</strong> <strong>′</strong> <strong>″</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Ligurian (lij)</h2>
+## Ligurian (lij)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ä æ è é ê ë ì í î ï ò ó ô ö ù ú</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>à</span> <span>á</span> <span>â</span> <span>ä</span> <span>æ</span> <span>è</span> <span>é</span> <span>ê</span> <span>ë</span> <span>ì</span> <span>í</span> <span>î</span> <span>ï</span> <span>ò</span> <span>ó</span> <span>ô</span> <span>ö</span> <span>ù</span> <span>ú</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Lingala (lin)</h2>
+## Lingala (lin)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>a</strong> <strong>b</strong> <strong>c</strong> <strong>d</strong> <strong>e</strong> <strong>f</strong> <strong>g</strong> <strong>h</strong> <strong>i</strong> <strong>k</strong> <strong>l</strong> <strong>m</strong> <strong>n</strong> <strong>o</strong> <strong>p</strong> <strong>r</strong> <strong>s</strong> <strong>t</strong> <strong>u</strong> <strong>v</strong> <strong>w</strong> <strong>y</strong> <strong>z</strong> <strong>á</strong> <strong>â</strong> <strong>é</strong> <strong>ê</strong> <strong>í</strong> <strong>î</strong> <strong>ó</strong> <strong>ô</strong> <strong>ú</strong> <strong>ě</strong> <strong>ǎ</strong> <strong>ǐ</strong> <strong>ǒ</strong> <strong>ɔ</strong> <strong>ɛ</strong> <strong>́</strong> <strong>̂</strong> <strong>̌</strong> </td><td>☑︎</td></tr>
@@ -1162,7 +1165,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Lithuanian (lit)</h2>
+## Lithuanian (lit)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ą č ė ę į š ū ų ž</td><td>☒</td></tr>
@@ -1173,7 +1176,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>(</strong> <strong>)</strong> <strong>,</strong> <strong>-</strong> <strong>.</strong> <strong>:</strong> <strong>;</strong> <strong>?</strong> <strong>[</strong> <strong>]</strong> <strong>‐</strong> <strong>–</strong> <strong>—</strong> <strong>“</strong> <strong>„</strong> <strong>…</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Lakota (lkt)</h2>
+## Lakota (lkt)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>a</strong> <strong>b</strong> <strong>e</strong> <strong>g</strong> <strong>h</strong> <strong>i</strong> <strong>k</strong> <strong>l</strong> <strong>m</strong> <strong>n</strong> <strong>o</strong> <strong>p</strong> <strong>s</strong> <strong>t</strong> <strong>u</strong> <strong>w</strong> <strong>y</strong> <strong>z</strong> <strong>á</strong> <strong>é</strong> <strong>í</strong> <strong>ó</strong> <strong>ú</strong> <strong>č</strong> <strong>ŋ</strong> <strong>š</strong> <strong>ž</strong> <strong>ǧ</strong> <strong>ȟ</strong> <strong>ʼ</strong> </td><td>☑︎</td></tr>
@@ -1182,21 +1185,21 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>"</strong> <strong>#</strong> <strong>&</strong> <strong>(</strong> <strong>)</strong> <strong>*</strong> <strong>,</strong> <strong>-</strong> <strong>.</strong> <strong>/</strong> <strong>:</strong> <strong>;</strong> <strong>?</strong> <strong>@</strong> <strong>[</strong> <strong>]</strong> <strong>‐</strong> <strong>–</strong> <strong>—</strong> <strong>“</strong> <strong>”</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Ladin (lld)</h2>
+## Ladin (lld)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z à á â è é ê ë ì î ò ó ô ö ù û ü ć ś</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>à</span> <span>á</span> <span>â</span> <span>è</span> <span>é</span> <span>ê</span> <span>ë</span> <span>ì</span> <span>î</span> <span>ò</span> <span>ó</span> <span>ô</span> <span>ö</span> <span>ù</span> <span>û</span> <span>ü</span> <span>ć</span> <span>ś</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Lombard (lmo)</h2>
+## Lombard (lmo)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z à á è é ì í ò ó ô ø ù ü</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>à</span> <span>á</span> <span>è</span> <span>é</span> <span>ì</span> <span>í</span> <span>ò</span> <span>ó</span> <span>ô</span> <span>ø</span> <span>ù</span> <span>ü</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Luxembourgish (ltz)</h2>
+## Luxembourgish (ltz)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ß â ä è é ê ë î ô ö û ü</td><td>☒</td></tr>
@@ -1207,14 +1210,14 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>"</strong> <strong>#</strong> <strong>&</strong> <strong>'</strong> <strong>(</strong> <strong>)</strong> <strong>*</strong> <strong>,</strong> <strong>-</strong> <strong>.</strong> <strong>/</strong> <strong>:</strong> <strong>;</strong> <strong>?</strong> <strong>@</strong> <strong>[</strong> <strong>]</strong> <strong>§</strong> <strong>«</strong> <strong>»</strong> <strong>‐</strong> <strong>–</strong> <strong>—</strong> <strong>‘</strong> <strong>‚</strong> <strong>“</strong> <strong>„</strong> <strong>…</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Luba-Lulua (lua)</h2>
+## Luba-Lulua (lua)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ī ō ū</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Luba-Katanga (lub)</h2>
+## Luba-Katanga (lub)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>a</strong> <strong>b</strong> <strong>c</strong> <strong>d</strong> <strong>e</strong> <strong>f</strong> <strong>g</strong> <strong>h</strong> <strong>i</strong> <strong>j</strong> <strong>k</strong> <strong>l</strong> <strong>m</strong> <strong>n</strong> <strong>o</strong> <strong>p</strong> <strong>q</strong> <strong>s</strong> <strong>t</strong> <strong>u</strong> <strong>v</strong> <strong>w</strong> <strong>y</strong> <strong>z</strong> <strong>à</strong> <strong>á</strong> <strong>è</strong> <strong>é</strong> <strong>ì</strong> <strong>í</strong> <strong>ò</strong> <strong>ó</strong> <strong>ù</strong> <strong>ú</strong> <strong>ɔ</strong> <strong>ɛ</strong> <strong>̀</strong> <strong>́</strong> </td><td>☑︎</td></tr>
@@ -1223,7 +1226,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Ganda (lug)</h2>
+## Ganda (lug)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>a</strong> <strong>b</strong> <strong>c</strong> <strong>d</strong> <strong>e</strong> <strong>f</strong> <strong>g</strong> <strong>i</strong> <strong>j</strong> <strong>k</strong> <strong>l</strong> <strong>m</strong> <strong>n</strong> <strong>o</strong> <strong>p</strong> <strong>r</strong> <strong>s</strong> <strong>t</strong> <strong>u</strong> <strong>v</strong> <strong>w</strong> <strong>y</strong> <strong>z</strong> <strong>ŋ</strong> </td><td>☑︎</td></tr>
@@ -1232,7 +1235,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☐</td></tr>
  </table>
 
-<h2>Luo (Kenya and Tanzania) (luo)</h2>
+## Luo (Kenya and Tanzania) (luo)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z á å æ í ð ó ö ø ú ý</td><td>☒</td></tr>
@@ -1243,7 +1246,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☐</td></tr>
  </table>
 
-<h2>Luyia (luy)</h2>
+## Luyia (luy)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>a</strong> <strong>b</strong> <strong>c</strong> <strong>d</strong> <strong>e</strong> <strong>f</strong> <strong>g</strong> <strong>h</strong> <strong>i</strong> <strong>j</strong> <strong>k</strong> <strong>l</strong> <strong>m</strong> <strong>n</strong> <strong>o</strong> <strong>p</strong> <strong>q</strong> <strong>r</strong> <strong>s</strong> <strong>t</strong> <strong>u</strong> <strong>v</strong> <strong>w</strong> <strong>x</strong> <strong>y</strong> <strong>z</strong> </td><td>☑︎</td></tr>
@@ -1252,7 +1255,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☐</td></tr>
  </table>
 
-<h2>Masai (mas)</h2>
+## Masai (mas)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z à á â è é ê ì í î ò ó ô ù ú û ŋ</td><td>☒</td></tr>
@@ -1263,7 +1266,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☐</td></tr>
  </table>
 
-<h2>Meru (mer)</h2>
+## Meru (mer)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>a</strong> <strong>b</strong> <strong>c</strong> <strong>d</strong> <strong>e</strong> <strong>f</strong> <strong>g</strong> <strong>h</strong> <strong>i</strong> <strong>j</strong> <strong>k</strong> <strong>l</strong> <strong>m</strong> <strong>n</strong> <strong>o</strong> <strong>p</strong> <strong>q</strong> <strong>r</strong> <strong>s</strong> <strong>t</strong> <strong>u</strong> <strong>v</strong> <strong>w</strong> <strong>x</strong> <strong>y</strong> <strong>z</strong> <strong>ĩ</strong> <strong>ũ</strong> </td><td>☑︎</td></tr>
@@ -1272,7 +1275,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☐</td></tr>
  </table>
 
-<h2>Morisyen (mfe)</h2>
+## Morisyen (mfe)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>a</strong> <strong>b</strong> <strong>c</strong> <strong>d</strong> <strong>e</strong> <strong>f</strong> <strong>g</strong> <strong>h</strong> <strong>i</strong> <strong>j</strong> <strong>k</strong> <strong>l</strong> <strong>m</strong> <strong>n</strong> <strong>o</strong> <strong>p</strong> <strong>r</strong> <strong>s</strong> <strong>t</strong> <strong>u</strong> <strong>v</strong> <strong>w</strong> <strong>x</strong> <strong>y</strong> <strong>z</strong> </td><td>☑︎</td></tr>
@@ -1281,7 +1284,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☐</td></tr>
  </table>
 
-<h2>Makhuwa-Meetto (mgh)</h2>
+## Makhuwa-Meetto (mgh)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>a</strong> <strong>b</strong> <strong>c</strong> <strong>d</strong> <strong>e</strong> <strong>f</strong> <strong>g</strong> <strong>h</strong> <strong>i</strong> <strong>j</strong> <strong>k</strong> <strong>l</strong> <strong>m</strong> <strong>n</strong> <strong>o</strong> <strong>p</strong> <strong>r</strong> <strong>s</strong> <strong>t</strong> <strong>u</strong> <strong>v</strong> <strong>w</strong> <strong>y</strong> <strong>z</strong> </td><td>☑︎</td></tr>
@@ -1290,7 +1293,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Meta' (mgo)</h2>
+## Meta' (mgo)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>a</strong> <strong>b</strong> <strong>c</strong> <strong>d</strong> <strong>e</strong> <strong>f</strong> <strong>g</strong> <strong>h</strong> <strong>i</strong> <strong>j</strong> <strong>k</strong> <strong>m</strong> <strong>n</strong> <strong>o</strong> <strong>p</strong> <strong>r</strong> <strong>s</strong> <strong>t</strong> <strong>u</strong> <strong>w</strong> <strong>y</strong> <strong>z</strong> <strong>à</strong> <strong>è</strong> <strong>ì</strong> <strong>ò</strong> <strong>ù</strong> <strong>ŋ</strong> <strong>ɔ</strong> <strong>ə</strong> <strong>ʼ</strong> <strong>̀</strong> </td><td>☑︎</td></tr>
@@ -1299,7 +1302,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>"</strong> <strong>'</strong> <strong>,</strong> <strong>.</strong> <strong>:</strong> <strong>;</strong> <strong>?</strong> <strong>‘</strong> <strong>’</strong> <strong>“</strong> <strong>”</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Malagasy (mlg)</h2>
+## Malagasy (mlg)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>a</strong> <strong>b</strong> <strong>d</strong> <strong>e</strong> <strong>f</strong> <strong>g</strong> <strong>h</strong> <strong>i</strong> <strong>j</strong> <strong>k</strong> <strong>l</strong> <strong>m</strong> <strong>n</strong> <strong>o</strong> <strong>p</strong> <strong>r</strong> <strong>s</strong> <strong>t</strong> <strong>v</strong> <strong>y</strong> <strong>z</strong> <strong>à</strong> <strong>â</strong> <strong>è</strong> <strong>é</strong> <strong>ê</strong> <strong>ë</strong> <strong>ì</strong> <strong>î</strong> <strong>ï</strong> <strong>ñ</strong> <strong>ô</strong> </td><td>☑︎</td></tr>
@@ -1308,7 +1311,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Maltese (mlt)</h2>
+## Maltese (mlt)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z à á â è é ê ì í î ò ó ô ù ú û ċ ġ ħ ż</td><td>☒</td></tr>
@@ -1319,21 +1322,21 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>"</strong> <strong>'</strong> <strong>(</strong> <strong>)</strong> <strong>,</strong> <strong>-</strong> <strong>.</strong> <strong>:</strong> <strong>;</strong> <strong>?</strong> <strong>[</strong> <strong>]</strong> <strong>‘</strong> <strong>’</strong> <strong>“</strong> <strong>”</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Montagnais (moe)</h2>
+## Montagnais (moe)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z â î û</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>â</span> <span>î</span> <span>û</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Mohawk (moh)</h2>
+## Mohawk (moh)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Maori (mri)</h2>
+## Maori (mri)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>a</strong> <strong>e</strong> <strong>g</strong> <strong>h</strong> <strong>i</strong> <strong>k</strong> <strong>m</strong> <strong>n</strong> <strong>o</strong> <strong>p</strong> <strong>r</strong> <strong>t</strong> <strong>u</strong> <strong>w</strong> <strong>ā</strong> <strong>ē</strong> <strong>ī</strong> <strong>ō</strong> <strong>ū</strong> </td><td>☑︎</td></tr>
@@ -1342,14 +1345,14 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><strong>↑</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>North Marquesan (mrq)</h2>
+## North Marquesan (mrq)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ó ú</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>á</span> <span>é</span> <span>í</span> <span>ó</span> <span>ú</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Malay (macrolanguage) (msa)</h2>
+## Malay (macrolanguage) (msa)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>a</strong> <strong>b</strong> <strong>c</strong> <strong>d</strong> <strong>e</strong> <strong>f</strong> <strong>g</strong> <strong>h</strong> <strong>i</strong> <strong>j</strong> <strong>k</strong> <strong>l</strong> <strong>m</strong> <strong>n</strong> <strong>o</strong> <strong>p</strong> <strong>q</strong> <strong>r</strong> <strong>s</strong> <strong>t</strong> <strong>u</strong> <strong>v</strong> <strong>w</strong> <strong>x</strong> <strong>y</strong> <strong>z</strong> </td><td>☑︎</td></tr>
@@ -1358,7 +1361,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>"</strong> <strong>#</strong> <strong>&</strong> <strong>'</strong> <strong>(</strong> <strong>)</strong> <strong>*</strong> <strong>,</strong> <strong>-</strong> <strong>.</strong> <strong>/</strong> <strong>:</strong> <strong>;</strong> <strong>?</strong> <strong>@</strong> <strong>[</strong> <strong>]</strong> <strong>§</strong> <strong>‐</strong> <strong>–</strong> <strong>—</strong> <strong>‘</strong> <strong>’</strong> <strong>“</strong> <strong>”</strong> <strong>†</strong> <strong>‡</strong> <strong>…</strong> <strong>′</strong> <strong>″</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Mundang (mua)</h2>
+## Mundang (mua)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>a</strong> <strong>b</strong> <strong>c</strong> <strong>d</strong> <strong>e</strong> <strong>f</strong> <strong>g</strong> <strong>h</strong> <strong>i</strong> <strong>j</strong> <strong>k</strong> <strong>l</strong> <strong>m</strong> <strong>n</strong> <strong>o</strong> <strong>p</strong> <strong>r</strong> <strong>s</strong> <strong>t</strong> <strong>u</strong> <strong>v</strong> <strong>w</strong> <strong>y</strong> <strong>z</strong> <strong>ã</strong> <strong>ë</strong> <strong>õ</strong> <strong>ĩ</strong> <strong>ŋ</strong> <strong>ǝ</strong> <strong>ɓ</strong> <strong>ɗ</strong> <strong>ṽ</strong> </td><td>☑︎</td></tr>
@@ -1367,49 +1370,49 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Creek (mus)</h2>
+## Creek (mus)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ē</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>ē</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Murrinh-Patha (mwf)</h2>
+## Murrinh-Patha (mwf)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Mirandese (mwl)</h2>
+## Mirandese (mwl)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z á ç é ê í ó ô ú ũ</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>á</span> <span>ç</span> <span>é</span> <span>ê</span> <span>í</span> <span>ó</span> <span>ô</span> <span>ú</span> <span>ũ</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Kala Lagaw Ya (mwp)</h2>
+## Kala Lagaw Ya (mwp)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z à á ä è é ë ì í ï ò ó ö ù ú ü</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>à</span> <span>á</span> <span>ä</span> <span>è</span> <span>é</span> <span>ë</span> <span>ì</span> <span>í</span> <span>ï</span> <span>ò</span> <span>ó</span> <span>ö</span> <span>ù</span> <span>ú</span> <span>ü</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Naga Pidgin (nag)</h2>
+## Naga Pidgin (nag)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ī ō ū</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Neapolitan (nap)</h2>
+## Neapolitan (nap)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z à á è é ì í ò ó ù ú</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>à</span> <span>á</span> <span>è</span> <span>é</span> <span>ì</span> <span>í</span> <span>ò</span> <span>ó</span> <span>ù</span> <span>ú</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Khoekhoe (naq)</h2>
+## Khoekhoe (naq)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>a</strong> <strong>b</strong> <strong>c</strong> <strong>d</strong> <strong>e</strong> <strong>f</strong> <strong>g</strong> <strong>h</strong> <strong>i</strong> <strong>k</strong> <strong>m</strong> <strong>n</strong> <strong>o</strong> <strong>p</strong> <strong>q</strong> <strong>r</strong> <strong>s</strong> <strong>t</strong> <strong>u</strong> <strong>w</strong> <strong>x</strong> <strong>y</strong> <strong>z</strong> <strong>â</strong> <strong>î</strong> <strong>ô</strong> <strong>û</strong> <strong>ǀ</strong> <strong>ǁ</strong> <strong>ǂ</strong> <strong>ǃ</strong> </td><td>☑︎</td></tr>
@@ -1418,14 +1421,14 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☐</td></tr>
  </table>
 
-<h2>South Ndebele (nbl)</h2>
+## South Ndebele (nbl)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>North Ndebele (nde)</h2>
+## North Ndebele (nde)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>a</strong> <strong>b</strong> <strong>c</strong> <strong>d</strong> <strong>e</strong> <strong>f</strong> <strong>g</strong> <strong>h</strong> <strong>i</strong> <strong>j</strong> <strong>k</strong> <strong>l</strong> <strong>m</strong> <strong>n</strong> <strong>o</strong> <strong>p</strong> <strong>q</strong> <strong>s</strong> <strong>t</strong> <strong>u</strong> <strong>v</strong> <strong>w</strong> <strong>x</strong> <strong>y</strong> <strong>z</strong> </td><td>☑︎</td></tr>
@@ -1434,7 +1437,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☐</td></tr>
  </table>
 
-<h2>Low German (nds)</h2>
+## Low German (nds)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ß ä ë ï ö ü</td><td>☒</td></tr>
@@ -1445,21 +1448,21 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>"</strong> <strong>#</strong> <strong>&</strong> <strong>'</strong> <strong>(</strong> <strong>)</strong> <strong>*</strong> <strong>,</strong> <strong>-</strong> <strong>.</strong> <strong>/</strong> <strong>:</strong> <strong>;</strong> <strong>?</strong> <strong>@</strong> <strong>[</strong> <strong>]</strong> <strong>§</strong> <strong>‐</strong> <strong>–</strong> <strong>—</strong> <strong>‘</strong> <strong>’</strong> <strong>“</strong> <strong>”</strong> <strong>†</strong> <strong>‡</strong> <strong>…</strong> <strong>′</strong> <strong>″</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Central Nahuatl (nhn)</h2>
+## Central Nahuatl (nhn)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ü ā ē ī ō ū ȳ</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>ü</span> <span>ā</span> <span>ē</span> <span>ī</span> <span>ō</span> <span>ū</span> <span>ȳ</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Niuean (niu)</h2>
+## Niuean (niu)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ī ō ū</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>ā</span> <span>ē</span> <span>ī</span> <span>ō</span> <span>ū</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Dutch (nld)</h2>
+## Dutch (nld)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z á â ä è é ê ë í ï ó ô ö ú û ü ĳ</td><td>☒</td></tr>
@@ -1470,7 +1473,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>"</strong> <strong>#</strong> <strong>&</strong> <strong>'</strong> <strong>(</strong> <strong>)</strong> <strong>*</strong> <strong>,</strong> <strong>-</strong> <strong>.</strong> <strong>/</strong> <strong>:</strong> <strong>;</strong> <strong>?</strong> <strong>@</strong> <strong>[</strong> <strong>]</strong> <strong>§</strong> <strong>‐</strong> <strong>–</strong> <strong>—</strong> <strong>‘</strong> <strong>’</strong> <strong>“</strong> <strong>”</strong> <strong>†</strong> <strong>‡</strong> <strong>…</strong> <strong>′</strong> <strong>″</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Kwasio (nmg)</h2>
+## Kwasio (nmg)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>a</strong> <strong>b</strong> <strong>c</strong> <strong>d</strong> <strong>e</strong> <strong>f</strong> <strong>g</strong> <strong>h</strong> <strong>i</strong> <strong>j</strong> <strong>k</strong> <strong>l</strong> <strong>m</strong> <strong>n</strong> <strong>o</strong> <strong>p</strong> <strong>r</strong> <strong>s</strong> <strong>t</strong> <strong>u</strong> <strong>v</strong> <strong>w</strong> <strong>y</strong> <strong>á</strong> <strong>â</strong> <strong>ä</strong> <strong>é</strong> <strong>ê</strong> <strong>í</strong> <strong>î</strong> <strong>ï</strong> <strong>ó</strong> <strong>ô</strong> <strong>ö</strong> <strong>ú</strong> <strong>û</strong> <strong>ā</strong> <strong>ē</strong> <strong>ě</strong> <strong>ī</strong> <strong>ń</strong> <strong>ŋ</strong> <strong>ō</strong> <strong>ŕ</strong> <strong>ū</strong> <strong>ǎ</strong> <strong>ǐ</strong> <strong>ǒ</strong> <strong>ǔ</strong> <strong>ǝ</strong> <strong>ɓ</strong> <strong>ɔ</strong> <strong>ɛ</strong> <strong>́</strong> <strong>̂</strong> <strong>̄</strong> <strong>̌</strong> </td><td>☑︎</td></tr>
@@ -1479,7 +1482,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Ngiemboon (nnh)</h2>
+## Ngiemboon (nnh)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>a</strong> <strong>b</strong> <strong>c</strong> <strong>d</strong> <strong>e</strong> <strong>f</strong> <strong>g</strong> <strong>h</strong> <strong>i</strong> <strong>j</strong> <strong>k</strong> <strong>l</strong> <strong>m</strong> <strong>n</strong> <strong>o</strong> <strong>p</strong> <strong>s</strong> <strong>t</strong> <strong>u</strong> <strong>v</strong> <strong>w</strong> <strong>y</strong> <strong>z</strong> <strong>à</strong> <strong>á</strong> <strong>â</strong> <strong>è</strong> <strong>é</strong> <strong>ê</strong> <strong>ì</strong> <strong>í</strong> <strong>ò</strong> <strong>ó</strong> <strong>ô</strong> <strong>ù</strong> <strong>ú</strong> <strong>û</strong> <strong>ÿ</strong> <strong>ě</strong> <strong>ń</strong> <strong>ŋ</strong> <strong>ǎ</strong> <strong>ǒ</strong> <strong>ǔ</strong> <strong>ɔ</strong> <strong>ɛ</strong> <strong>ʉ</strong> <strong>ʼ</strong> <strong>̀</strong> <strong>́</strong> <strong>̂</strong> <strong>̌</strong> <strong>ḿ</strong> <strong>ẅ</strong> </td><td>☑︎</td></tr>
@@ -1488,7 +1491,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>'</strong> <strong>,</strong> <strong>.</strong> <strong>:</strong> <strong>;</strong> <strong>?</strong> <strong>«</strong> <strong>»</strong> <strong>‘</strong> <strong>’</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Norwegian Nynorsk (nno)</h2>
+## Norwegian Nynorsk (nno)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>a</strong> <strong>b</strong> <strong>c</strong> <strong>d</strong> <strong>e</strong> <strong>f</strong> <strong>g</strong> <strong>h</strong> <strong>i</strong> <strong>j</strong> <strong>k</strong> <strong>l</strong> <strong>m</strong> <strong>n</strong> <strong>o</strong> <strong>p</strong> <strong>q</strong> <strong>r</strong> <strong>s</strong> <strong>t</strong> <strong>u</strong> <strong>v</strong> <strong>w</strong> <strong>x</strong> <strong>y</strong> <strong>z</strong> <strong>à</strong> <strong>å</strong> <strong>æ</strong> <strong>é</strong> <strong>ò</strong> <strong>ó</strong> <strong>ô</strong> <strong>ø</strong> </td><td>☑︎</td></tr>
@@ -1497,7 +1500,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Norwegian Bokmål (nob)</h2>
+## Norwegian Bokmål (nob)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>a</strong> <strong>b</strong> <strong>c</strong> <strong>d</strong> <strong>e</strong> <strong>f</strong> <strong>g</strong> <strong>h</strong> <strong>i</strong> <strong>j</strong> <strong>k</strong> <strong>l</strong> <strong>m</strong> <strong>n</strong> <strong>o</strong> <strong>p</strong> <strong>q</strong> <strong>r</strong> <strong>s</strong> <strong>t</strong> <strong>u</strong> <strong>v</strong> <strong>w</strong> <strong>x</strong> <strong>y</strong> <strong>z</strong> <strong>à</strong> <strong>å</strong> <strong>æ</strong> <strong>é</strong> <strong>ò</strong> <strong>ó</strong> <strong>ô</strong> <strong>ø</strong> </td><td>☑︎</td></tr>
@@ -1506,35 +1509,35 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>"</strong> <strong>'</strong> <strong>(</strong> <strong>)</strong> <strong>*</strong> <strong>,</strong> <strong>-</strong> <strong>.</strong> <strong>/</strong> <strong>:</strong> <strong>;</strong> <strong>?</strong> <strong>@</strong> <strong>[</strong> <strong>\</strong> <strong>]</strong> <strong>§</strong> <strong>«</strong> <strong>»</strong> <strong>–</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Old Norse (non)</h2>
+## Old Norse (non)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z á æ é í ð ó ø ú ý œ ǫ ǽ</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>á</span> <span>æ</span> <span>é</span> <span>í</span> <span>ð</span> <span>ó</span> <span>ø</span> <span>ú</span> <span>ý</span> <span>œ</span> <span>ǫ</span> <span>ǽ</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Norwegian (nor)</h2>
+## Norwegian (nor)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z à ä å æ é ê ò ó ô ö ø ü</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>à</span> <span>ä</span> <span>å</span> <span>æ</span> <span>é</span> <span>ê</span> <span>ò</span> <span>ó</span> <span>ô</span> <span>ö</span> <span>ø</span> <span>ü</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Novial (nov)</h2>
+## Novial (nov)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Pedi (nso)</h2>
+## Pedi (nso)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ê ô š</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>ê</span> <span>ô</span> <span>š</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Nuer (nus)</h2>
+## Nuer (nus)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>a</strong> <strong>b</strong> <strong>c</strong> <strong>d</strong> <strong>e</strong> <strong>f</strong> <strong>g</strong> <strong>h</strong> <strong>i</strong> <strong>j</strong> <strong>k</strong> <strong>l</strong> <strong>m</strong> <strong>n</strong> <strong>o</strong> <strong>p</strong> <strong>q</strong> <strong>r</strong> <strong>s</strong> <strong>t</strong> <strong>u</strong> <strong>v</strong> <strong>w</strong> <strong>x</strong> <strong>y</strong> <strong>z</strong> <strong>ä</strong> <strong>ë</strong> <strong>ï</strong> <strong>ö</strong> <strong>ŋ</strong> <strong>ɔ</strong> <strong>ɛ</strong> <strong>ɣ</strong> <strong>̈</strong> <strong>̱</strong> </td><td>☑︎</td></tr>
@@ -1543,14 +1546,14 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☐</td></tr>
  </table>
 
-<h2>Nyanja (nya)</h2>
+## Nyanja (nya)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ŋ ŵ</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>ŋ</span> <span>ŵ</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Nyankole (nyn)</h2>
+## Nyankole (nyn)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>a</strong> <strong>b</strong> <strong>c</strong> <strong>d</strong> <strong>e</strong> <strong>f</strong> <strong>g</strong> <strong>h</strong> <strong>i</strong> <strong>j</strong> <strong>k</strong> <strong>l</strong> <strong>m</strong> <strong>n</strong> <strong>o</strong> <strong>p</strong> <strong>q</strong> <strong>r</strong> <strong>s</strong> <strong>t</strong> <strong>u</strong> <strong>v</strong> <strong>w</strong> <strong>x</strong> <strong>y</strong> <strong>z</strong> </td><td>☑︎</td></tr>
@@ -1559,14 +1562,14 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☐</td></tr>
  </table>
 
-<h2>Occitan (post 1500) (oci)</h2>
+## Occitan (post 1500) (oci)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z à á ç è é ë í ï ò ó ú ü</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>à</span> <span>á</span> <span>ç</span> <span>è</span> <span>é</span> <span>ë</span> <span>í</span> <span>ï</span> <span>ò</span> <span>ó</span> <span>ú</span> <span>ü</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Oromo (orm)</h2>
+## Oromo (orm)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z</td><td>☑︎</td></tr>
@@ -1577,42 +1580,42 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☐</td></tr>
  </table>
 
-<h2>Ossetian (oss)</h2>
+## Ossetian (oss)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ä æ č š ž</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>ä</span> <span>æ</span> <span>č</span> <span>š</span> <span>ž</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Pampanga (pam)</h2>
+## Pampanga (pam)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Papiamento (pap)</h2>
+## Papiamento (pap)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z è ò</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>è</span> <span>ò</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Paluan (plz)</h2>
+## Paluan (plz)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ñ</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Piemontese (pms)</h2>
+## Piemontese (pms)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z à ä è ë ì ï ò ö ù ü</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>à</span> <span>ä</span> <span>è</span> <span>ë</span> <span>ì</span> <span>ï</span> <span>ò</span> <span>ö</span> <span>ù</span> <span>ü</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Polish (pol)</h2>
+## Polish (pol)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ó ą ć ę ł ń ś ź ż</td><td>☑︎</td></tr>
@@ -1623,7 +1626,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>"</strong> <strong>#</strong> <strong>%</strong> <strong>&</strong> <strong>'</strong> <strong>(</strong> <strong>)</strong> <strong>*</strong> <strong>,</strong> <strong>-</strong> <strong>.</strong> <strong>/</strong> <strong>:</strong> <strong>;</strong> <strong>?</strong> <strong>@</strong> <strong>[</strong> <strong>]</strong> <strong>~</strong> <strong>§</strong> <strong>«</strong> <strong>°</strong> <strong>»</strong> <strong>‐</strong> <strong>–</strong> <strong>—</strong> <strong>”</strong> <strong>„</strong> <strong>†</strong> <strong>‡</strong> <strong>…</strong> <strong>′</strong> <strong>″</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Portuguese (por)</h2>
+## Portuguese (por)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ã ç è é ê í ò ó ô õ ú ü</td><td>☒</td></tr>
@@ -1634,14 +1637,14 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>"</strong> <strong>#</strong> <strong>&</strong> <strong>'</strong> <strong>(</strong> <strong>)</strong> <strong>*</strong> <strong>,</strong> <strong>-</strong> <strong>.</strong> <strong>/</strong> <strong>:</strong> <strong>;</strong> <strong>?</strong> <strong>@</strong> <strong>[</strong> <strong>]</strong> <strong>§</strong> <strong>‐</strong> <strong>–</strong> <strong>—</strong> <strong>‘</strong> <strong>’</strong> <strong>“</strong> <strong>”</strong> <strong>†</strong> <strong>‡</strong> <strong>…</strong> <strong>′</strong> <strong>″</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Potawatomi (pot)</h2>
+## Potawatomi (pot)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z è</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>è</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Prussian (prg)</h2>
+## Prussian (prg)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>a</strong> <strong>b</strong> <strong>c</strong> <strong>d</strong> <strong>e</strong> <strong>f</strong> <strong>g</strong> <strong>h</strong> <strong>i</strong> <strong>j</strong> <strong>k</strong> <strong>l</strong> <strong>m</strong> <strong>n</strong> <strong>o</strong> <strong>p</strong> <strong>q</strong> <strong>r</strong> <strong>s</strong> <strong>t</strong> <strong>u</strong> <strong>v</strong> <strong>w</strong> <strong>x</strong> <strong>y</strong> <strong>z</strong> <strong>ā</strong> <strong>ē</strong> <strong>ģ</strong> <strong>ī</strong> <strong>ķ</strong> <strong>ņ</strong> <strong>ō</strong> <strong>ŗ</strong> <strong>š</strong> <strong>ū</strong> <strong>ž</strong> <strong>ț</strong> <strong>ḑ</strong> </td><td>☑︎</td></tr>
@@ -1650,7 +1653,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>(</strong> <strong>)</strong> <strong>,</strong> <strong>-</strong> <strong>.</strong> <strong>:</strong> <strong>;</strong> <strong>?</strong> <strong>[</strong> <strong>]</strong> <strong>‐</strong> <strong>–</strong> <strong>—</strong> <strong>“</strong> <strong>„</strong> <strong>…</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Quechua (que)</h2>
+## Quechua (que)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ñ</td><td>☒</td></tr>
@@ -1661,14 +1664,14 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Rarotongan (rar)</h2>
+## Rarotongan (rar)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ī ō ū</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <strong>á</strong> <strong>é</strong> <strong>í</strong> <strong>ó</strong> <strong>ú</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Rombo (rof)</h2>
+## Rombo (rof)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>a</strong> <strong>b</strong> <strong>c</strong> <strong>d</strong> <strong>e</strong> <strong>f</strong> <strong>g</strong> <strong>h</strong> <strong>i</strong> <strong>j</strong> <strong>k</strong> <strong>l</strong> <strong>m</strong> <strong>n</strong> <strong>o</strong> <strong>p</strong> <strong>r</strong> <strong>s</strong> <strong>t</strong> <strong>u</strong> <strong>v</strong> <strong>w</strong> <strong>y</strong> <strong>z</strong> </td><td>☑︎</td></tr>
@@ -1677,7 +1680,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☐</td></tr>
  </table>
 
-<h2>Romansh (roh)</h2>
+## Romansh (roh)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z à è é ì î ò ù ü</td><td>☒</td></tr>
@@ -1688,7 +1691,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Romanian (ron)</h2>
+## Romanian (ron)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z â î ă ș ț</td><td>☒</td></tr>
@@ -1699,14 +1702,14 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>"</strong> <strong>'</strong> <strong>(</strong> <strong>)</strong> <strong>*</strong> <strong>,</strong> <strong>-</strong> <strong>.</strong> <strong>/</strong> <strong>:</strong> <strong>;</strong> <strong>?</strong> <strong>@</strong> <strong>[</strong> <strong>]</strong> <strong>«</strong> <strong>»</strong> <strong>‐</strong> <strong>–</strong> <strong>—</strong> <strong>‘</strong> <strong>“</strong> <strong>”</strong> <strong>„</strong> <strong>…</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Rotokas (roo)</h2>
+## Rotokas (roo)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Rundi (run)</h2>
+## Rundi (run)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z</td><td>☒</td></tr>
@@ -1717,28 +1720,28 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☐</td></tr>
  </table>
 
-<h2>Istro Romanian (ruo)</h2>
+## Istro Romanian (ruo)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z å ă ľ ń ș ț</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>å</span> <span>ă</span> <span>ľ</span> <span>ń</span> <span>ș</span> <span>ț</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Macedo-Romanian (rup)</h2>
+## Macedo-Romanian (rup)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z â ã ă ș ț</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>â</span> <span>ã</span> <span>ă</span> <span>ș</span> <span>ț</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Megleno Romanian (ruq)</h2>
+## Megleno Romanian (ruq)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ă ľ ń ș ț</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>ă</span> <span>ľ</span> <span>ń</span> <span>ș</span> <span>ț</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Rwa (rwk)</h2>
+## Rwa (rwk)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>a</strong> <strong>b</strong> <strong>c</strong> <strong>d</strong> <strong>e</strong> <strong>f</strong> <strong>g</strong> <strong>h</strong> <strong>i</strong> <strong>j</strong> <strong>k</strong> <strong>l</strong> <strong>m</strong> <strong>n</strong> <strong>o</strong> <strong>p</strong> <strong>r</strong> <strong>s</strong> <strong>t</strong> <strong>u</strong> <strong>v</strong> <strong>w</strong> <strong>y</strong> <strong>z</strong> </td><td>☑︎</td></tr>
@@ -1747,7 +1750,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☐</td></tr>
  </table>
 
-<h2>Sango (sag)</h2>
+## Sango (sag)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z â ä ê ë î ï ô ö û ü</td><td>☒</td></tr>
@@ -1758,7 +1761,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Samburu (saq)</h2>
+## Samburu (saq)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>a</strong> <strong>b</strong> <strong>c</strong> <strong>d</strong> <strong>e</strong> <strong>g</strong> <strong>h</strong> <strong>i</strong> <strong>j</strong> <strong>k</strong> <strong>l</strong> <strong>m</strong> <strong>n</strong> <strong>o</strong> <strong>p</strong> <strong>r</strong> <strong>s</strong> <strong>t</strong> <strong>u</strong> <strong>v</strong> <strong>w</strong> <strong>y</strong> </td><td>☑︎</td></tr>
@@ -1767,7 +1770,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☐</td></tr>
  </table>
 
-<h2>Sangu (Tanzania) (sbp)</h2>
+## Sangu (Tanzania) (sbp)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>a</strong> <strong>b</strong> <strong>c</strong> <strong>d</strong> <strong>e</strong> <strong>f</strong> <strong>g</strong> <strong>h</strong> <strong>i</strong> <strong>j</strong> <strong>k</strong> <strong>l</strong> <strong>m</strong> <strong>n</strong> <strong>o</strong> <strong>p</strong> <strong>s</strong> <strong>t</strong> <strong>u</strong> <strong>v</strong> <strong>w</strong> <strong>y</strong> </td><td>☑︎</td></tr>
@@ -1776,14 +1779,14 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Sicilian (scn)</h2>
+## Sicilian (scn)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z à è ì ò ù</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>à</span> <span>è</span> <span>ì</span> <span>ò</span> <span>ù</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Sena (seh)</h2>
+## Sena (seh)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>a</strong> <strong>b</strong> <strong>c</strong> <strong>d</strong> <strong>e</strong> <strong>f</strong> <strong>g</strong> <strong>h</strong> <strong>i</strong> <strong>j</strong> <strong>k</strong> <strong>l</strong> <strong>m</strong> <strong>n</strong> <strong>o</strong> <strong>p</strong> <strong>q</strong> <strong>r</strong> <strong>s</strong> <strong>t</strong> <strong>u</strong> <strong>v</strong> <strong>w</strong> <strong>x</strong> <strong>y</strong> <strong>z</strong> <strong>à</strong> <strong>á</strong> <strong>â</strong> <strong>ã</strong> <strong>ç</strong> <strong>é</strong> <strong>ê</strong> <strong>í</strong> <strong>ò</strong> <strong>ó</strong> <strong>ô</strong> <strong>õ</strong> <strong>ú</strong> </td><td>☑︎</td></tr>
@@ -1792,14 +1795,14 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☐</td></tr>
  </table>
 
-<h2>Seri (sei)</h2>
+## Seri (sei)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ö</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>ö</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Koyraboro Senni Songhai (ses)</h2>
+## Koyraboro Senni Songhai (ses)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>a</strong> <strong>b</strong> <strong>c</strong> <strong>d</strong> <strong>e</strong> <strong>f</strong> <strong>g</strong> <strong>h</strong> <strong>i</strong> <strong>j</strong> <strong>k</strong> <strong>l</strong> <strong>m</strong> <strong>n</strong> <strong>o</strong> <strong>p</strong> <strong>q</strong> <strong>r</strong> <strong>s</strong> <strong>t</strong> <strong>u</strong> <strong>w</strong> <strong>x</strong> <strong>y</strong> <strong>z</strong> <strong>ã</strong> <strong>õ</strong> <strong>ŋ</strong> <strong>š</strong> <strong>ž</strong> <strong>ɲ</strong> <strong>ẽ</strong> </td><td>☑︎</td></tr>
@@ -1808,7 +1811,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Tachelhit (shi)</h2>
+## Tachelhit (shi)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>a</strong> <strong>b</strong> <strong>c</strong> <strong>d</strong> <strong>e</strong> <strong>f</strong> <strong>g</strong> <strong>h</strong> <strong>i</strong> <strong>j</strong> <strong>k</strong> <strong>l</strong> <strong>m</strong> <strong>n</strong> <strong>q</strong> <strong>r</strong> <strong>s</strong> <strong>t</strong> <strong>u</strong> <strong>w</strong> <strong>x</strong> <strong>y</strong> <strong>z</strong> <strong>ɛ</strong> <strong>ɣ</strong> <strong>ʷ</strong> <strong>ḍ</strong> <strong>ḥ</strong> <strong>ṛ</strong> <strong>ṣ</strong> <strong>ṭ</strong> </td><td>☑︎</td></tr>
@@ -1817,14 +1820,14 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Shawnee (sjw)</h2>
+## Shawnee (sjw)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Slovak (slk)</h2>
+## Slovak (slk)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z á ä é í ó ô ú ý č ď ĺ ľ ň ŕ š ť ž</td><td>☒</td></tr>
@@ -1835,7 +1838,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>&</strong> <strong>(</strong> <strong>)</strong> <strong>*</strong> <strong>,</strong> <strong>-</strong> <strong>.</strong> <strong>/</strong> <strong>:</strong> <strong>;</strong> <strong>?</strong> <strong>@</strong> <strong>[</strong> <strong>]</strong> <strong>§</strong> <strong>‐</strong> <strong>–</strong> <strong>‘</strong> <strong>‚</strong> <strong>“</strong> <strong>„</strong> <strong>…</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Slovenian (slv)</h2>
+## Slovenian (slv)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ä ö ü ć č đ š ž</td><td>☒</td></tr>
@@ -1846,14 +1849,14 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>"</strong> <strong>'</strong> <strong>(</strong> <strong>)</strong> <strong>*</strong> <strong>,</strong> <strong>-</strong> <strong>.</strong> <strong>:</strong> <strong>;</strong> <strong>?</strong> <strong>@</strong> <strong>[</strong> <strong>]</strong> <strong>«</strong> <strong>»</strong> <strong>–</strong> <strong>„</strong> <strong>‟</strong> <strong>…</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Southern Sami (sma)</h2>
+## Southern Sami (sma)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ä å æ ï ö ø</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>ä</span> <span>å</span> <span>æ</span> <span>ï</span> <span>ö</span> <span>ø</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Northern Sami (sme)</h2>
+## Northern Sami (sme)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z á ä å æ ö ø č đ ŋ š ŧ ž</td><td>☒</td></tr>
@@ -1864,14 +1867,14 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Lule Sami (smj)</h2>
+## Lule Sami (smj)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z á ä å ñ ö ń</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>á</span> <span>ä</span> <span>å</span> <span>ñ</span> <span>ö</span> <span>ń</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Inari Sami (smn)</h2>
+## Inari Sami (smn)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z á â ä å ö č đ ŋ š ž</td><td>☒</td></tr>
@@ -1882,14 +1885,14 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Samoan (smo)</h2>
+## Samoan (smo)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ö</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Shona (sna)</h2>
+## Shona (sna)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z</td><td>☒</td></tr>
@@ -1900,7 +1903,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Somali (som)</h2>
+## Somali (som)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z</td><td>☒</td></tr>
@@ -1911,14 +1914,14 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>"</strong> <strong>#</strong> <strong>&</strong> <strong>'</strong> <strong>(</strong> <strong>)</strong> <strong>*</strong> <strong>,</strong> <strong>-</strong> <strong>.</strong> <strong>/</strong> <strong>:</strong> <strong>;</strong> <strong>?</strong> <strong>@</strong> <strong>[</strong> <strong>]</strong> <strong>§</strong> <strong>‐</strong> <strong>–</strong> <strong>—</strong> <strong>‘</strong> <strong>’</strong> <strong>“</strong> <strong>”</strong> <strong>†</strong> <strong>‡</strong> <strong>…</strong> <strong>′</strong> <strong>″</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Southern Sotho (sot)</h2>
+## Southern Sotho (sot)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z à á ä å é ë ö ü</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Spanish (spa)</h2>
+## Spanish (spa)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ñ ó ú ü</td><td>☒</td></tr>
@@ -1929,7 +1932,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>"</strong> <strong>#</strong> <strong>&</strong> <strong>'</strong> <strong>(</strong> <strong>)</strong> <strong>*</strong> <strong>,</strong> <strong>-</strong> <strong>.</strong> <strong>/</strong> <strong>:</strong> <strong>;</strong> <strong>?</strong> <strong>@</strong> <strong>[</strong> <strong>\</strong> <strong>]</strong> <strong>¡</strong> <strong>§</strong> <strong>«</strong> <strong>»</strong> <strong>¿</strong> <strong>‐</strong> <strong>–</strong> <strong>—</strong> <strong>‘</strong> <strong>’</strong> <strong>“</strong> <strong>”</strong> <strong>†</strong> <strong>‡</strong> <strong>…</strong> <strong>′</strong> <strong>″</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Albanian (sqi)</h2>
+## Albanian (sqi)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ç ë</td><td>☒</td></tr>
@@ -1940,28 +1943,28 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>"</strong> <strong>#</strong> <strong>&</strong> <strong>'</strong> <strong>(</strong> <strong>)</strong> <strong>*</strong> <strong>,</strong> <strong>-</strong> <strong>.</strong> <strong>/</strong> <strong>:</strong> <strong>;</strong> <strong>?</strong> <strong>@</strong> <strong>[</strong> <strong>]</strong> <strong>~</strong> <strong>§</strong> <strong>«</strong> <strong>»</strong> <strong>‐</strong> <strong>–</strong> <strong>—</strong> <strong>‘</strong> <strong>’</strong> <strong>“</strong> <strong>”</strong> <strong>…</strong> <strong>′</strong> <strong>″</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Sardinian (srd)</h2>
+## Sardinian (srd)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z à ç è ì ò ù</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>à</span> <span>ç</span> <span>è</span> <span>ì</span> <span>ò</span> <span>ù</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Saramaccan (srm)</h2>
+## Saramaccan (srm)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ö</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>ö</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Sranan Tongo (srn)</h2>
+## Sranan Tongo (srn)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ī ō ū</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Serbian (srp)</h2>
+## Serbian (srp)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ć č đ ś š ź ž</td><td>☒</td></tr>
@@ -1972,21 +1975,21 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>#</strong> <strong>(</strong> <strong>)</strong> <strong>*</strong> <strong>,</strong> <strong>-</strong> <strong>.</strong> <strong>:</strong> <strong>;</strong> <strong>?</strong> <strong>[</strong> <strong>]</strong> <strong>‐</strong> <strong>–</strong> <strong>‘</strong> <strong>‚</strong> <strong>“</strong> <strong>„</strong> <strong>…</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Swati (ssw)</h2>
+## Swati (ssw)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Sundanese (sun)</h2>
+## Sundanese (sun)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ñ</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Swahili (macrolanguage) (swa)</h2>
+## Swahili (macrolanguage) (swa)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>a</strong> <strong>b</strong> <strong>c</strong> <strong>d</strong> <strong>e</strong> <strong>f</strong> <strong>g</strong> <strong>h</strong> <strong>i</strong> <strong>j</strong> <strong>k</strong> <strong>l</strong> <strong>m</strong> <strong>n</strong> <strong>o</strong> <strong>p</strong> <strong>r</strong> <strong>s</strong> <strong>t</strong> <strong>u</strong> <strong>v</strong> <strong>w</strong> <strong>y</strong> <strong>z</strong> </td><td>☑︎</td></tr>
@@ -1995,13 +1998,13 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☐</td></tr>
  </table>
 
-<h2>Congo Swahili (swc)</h2>
+## Congo Swahili (swc)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z</td><td>☒</td></tr>
  </table>
 
-<h2>Swedish (swe)</h2>
+## Swedish (swe)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z à á ä å é ë ö ü</td><td>☒</td></tr>
@@ -2012,42 +2015,42 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>"</strong> <strong>#</strong> <strong>&</strong> <strong>'</strong> <strong>(</strong> <strong>)</strong> <strong>*</strong> <strong>,</strong> <strong>-</strong> <strong>.</strong> <strong>/</strong> <strong>:</strong> <strong>;</strong> <strong>?</strong> <strong>@</strong> <strong>[</strong> <strong>]</strong> <strong>§</strong> <strong>‐</strong> <strong>–</strong> <strong>—</strong> <strong>‘</strong> <strong>’</strong> <strong>“</strong> <strong>”</strong> <strong>†</strong> <strong>‡</strong> <strong>…</strong> <strong>′</strong> <strong>″</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Swahili (individual language) (swh)</h2>
+## Swahili (individual language) (swh)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Silesian (szl)</h2>
+## Silesian (szl)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ć č ń ř ś š ů ź ż ž</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>ć</span> <span>č</span> <span>ń</span> <span>ř</span> <span>ś</span> <span>š</span> <span>ů</span> <span>ź</span> <span>ż</span> <span>ž</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Tahitian (tah)</h2>
+## Tahitian (tah)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ī ō ū</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>ā</span> <span>ē</span> <span>ī</span> <span>ō</span> <span>ū</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Atayal (tay)</h2>
+## Atayal (tay)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ŋ</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>ŋ</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Tetun Dili (tdt)</h2>
+## Tetun Dili (tdt)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ñ</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>ñ</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Teso (teo)</h2>
+## Teso (teo)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>a</strong> <strong>b</strong> <strong>c</strong> <strong>d</strong> <strong>e</strong> <strong>g</strong> <strong>h</strong> <strong>i</strong> <strong>j</strong> <strong>k</strong> <strong>l</strong> <strong>m</strong> <strong>n</strong> <strong>o</strong> <strong>p</strong> <strong>r</strong> <strong>s</strong> <strong>t</strong> <strong>u</strong> <strong>v</strong> <strong>w</strong> <strong>x</strong> <strong>y</strong> </td><td>☑︎</td></tr>
@@ -2056,28 +2059,28 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☐</td></tr>
  </table>
 
-<h2>Tagalog (tgl)</h2>
+## Tagalog (tgl)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Tokelau (tkl)</h2>
+## Tokelau (tkl)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Klingon (tlh)</h2>
+## Klingon (tlh)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Tonga (Tonga Islands) (ton)</h2>
+## Tonga (Tonga Islands) (ton)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ī ō ū</td><td>☒</td></tr>
@@ -2088,28 +2091,28 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>"</strong> <strong>#</strong> <strong>&</strong> <strong>'</strong> <strong>(</strong> <strong>)</strong> <strong>*</strong> <strong>,</strong> <strong>-</strong> <strong>.</strong> <strong>/</strong> <strong>:</strong> <strong>;</strong> <strong>?</strong> <strong>@</strong> <strong>[</strong> <strong>]</strong> <strong>§</strong> <strong>‐</strong> <strong>–</strong> <strong>—</strong> <strong>‘</strong> <strong>’</strong> <strong>“</strong> <strong>”</strong> <strong>†</strong> <strong>‡</strong> <strong>…</strong> <strong>′</strong> <strong>″</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Tok Pisin (tpi)</h2>
+## Tok Pisin (tpi)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Tswana (tsn)</h2>
+## Tswana (tsn)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ê ô š</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>ê</span> <span>ô</span> <span>š</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Tsonga (tso)</h2>
+## Tsonga (tso)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Turkmen (tuk)</h2>
+## Turkmen (tuk)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ä ç ö ü ň ş ž ș</td><td>☒</td></tr>
@@ -2120,14 +2123,14 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>"</strong> <strong>#</strong> <strong>(</strong> <strong>)</strong> <strong>*</strong> <strong>,</strong> <strong>-</strong> <strong>.</strong> <strong>:</strong> <strong>;</strong> <strong>?</strong> <strong>@</strong> <strong>[</strong> <strong>]</strong> <strong>§</strong> <strong>–</strong> <strong>—</strong> <strong>“</strong> <strong>”</strong> <strong>…</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Tumbuka (tum)</h2>
+## Tumbuka (tum)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Turkish (tur)</h2>
+## Turkish (tur)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z â ç î ö û ü ğ İ ı ș</td><td>☒</td></tr>
@@ -2138,14 +2141,14 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>"</strong> <strong>#</strong> <strong>&</strong> <strong>'</strong> <strong>(</strong> <strong>)</strong> <strong>*</strong> <strong>,</strong> <strong>-</strong> <strong>.</strong> <strong>/</strong> <strong>:</strong> <strong>;</strong> <strong>?</strong> <strong>@</strong> <strong>[</strong> <strong>]</strong> <strong>§</strong> <strong>‐</strong> <strong>–</strong> <strong>—</strong> <strong>‘</strong> <strong>’</strong> <strong>“</strong> <strong>”</strong> <strong>†</strong> <strong>‡</strong> <strong>…</strong> <strong>′</strong> <strong>″</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Tuvalu (tvl)</h2>
+## Tuvalu (tvl)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ī ō ū</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>ā</span> <span>ē</span> <span>ī</span> <span>ō</span> <span>ū</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Tasawaq (twq)</h2>
+## Tasawaq (twq)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>a</strong> <strong>b</strong> <strong>c</strong> <strong>d</strong> <strong>e</strong> <strong>f</strong> <strong>g</strong> <strong>h</strong> <strong>i</strong> <strong>j</strong> <strong>k</strong> <strong>l</strong> <strong>m</strong> <strong>n</strong> <strong>o</strong> <strong>p</strong> <strong>q</strong> <strong>r</strong> <strong>s</strong> <strong>t</strong> <strong>u</strong> <strong>w</strong> <strong>x</strong> <strong>y</strong> <strong>z</strong> <strong>ã</strong> <strong>õ</strong> <strong>ŋ</strong> <strong>š</strong> <strong>ž</strong> <strong>ɲ</strong> <strong>ẽ</strong> </td><td>☑︎</td></tr>
@@ -2154,7 +2157,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Central Atlas Tamazight (tzm)</h2>
+## Central Atlas Tamazight (tzm)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>a</strong> <strong>b</strong> <strong>c</strong> <strong>d</strong> <strong>e</strong> <strong>f</strong> <strong>g</strong> <strong>h</strong> <strong>i</strong> <strong>j</strong> <strong>k</strong> <strong>l</strong> <strong>m</strong> <strong>n</strong> <strong>q</strong> <strong>r</strong> <strong>s</strong> <strong>t</strong> <strong>u</strong> <strong>w</strong> <strong>x</strong> <strong>y</strong> <strong>z</strong> <strong>ɛ</strong> <strong>ɣ</strong> <strong>ʷ</strong> <strong>ḍ</strong> <strong>ḥ</strong> <strong>ṛ</strong> <strong>ṣ</strong> <strong>ṭ</strong> </td><td>☑︎</td></tr>
@@ -2163,21 +2166,21 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Tzotzil (tzo)</h2>
+## Tzotzil (tzo)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ī ō ū</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Meriam Mir (ulk)</h2>
+## Meriam Mir (ulk)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ì ò ù</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>ì</span> <span>ò</span> <span>ù</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Uzbek (uzb)</h2>
+## Uzbek (uzb)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z</td><td>☒</td></tr>
@@ -2188,7 +2191,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>"</strong> <strong>#</strong> <strong>&</strong> <strong>'</strong> <strong>(</strong> <strong>)</strong> <strong>*</strong> <strong>,</strong> <strong>-</strong> <strong>.</strong> <strong>/</strong> <strong>:</strong> <strong>;</strong> <strong>?</strong> <strong>@</strong> <strong>[</strong> <strong>]</strong> <strong>§</strong> <strong>«</strong> <strong>»</strong> <strong>‐</strong> <strong>–</strong> <strong>—</strong> <strong>‘</strong> <strong>’</strong> <strong>“</strong> <strong>”</strong> <strong>„</strong> <strong>…</strong> <strong>′</strong> <strong>″</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Vai (vai)</h2>
+## Vai (vai)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>a</strong> <strong>b</strong> <strong>c</strong> <strong>d</strong> <strong>e</strong> <strong>f</strong> <strong>g</strong> <strong>h</strong> <strong>i</strong> <strong>j</strong> <strong>k</strong> <strong>l</strong> <strong>m</strong> <strong>n</strong> <strong>o</strong> <strong>p</strong> <strong>q</strong> <strong>r</strong> <strong>s</strong> <strong>t</strong> <strong>u</strong> <strong>v</strong> <strong>w</strong> <strong>x</strong> <strong>y</strong> <strong>z</strong> <strong>á</strong> <strong>ã</strong> <strong>é</strong> <strong>í</strong> <strong>ó</strong> <strong>õ</strong> <strong>ú</strong> <strong>ĩ</strong> <strong>ŋ</strong> <strong>ũ</strong> <strong>ɓ</strong> <strong>ɔ</strong> <strong>ɗ</strong> <strong>ɛ</strong> <strong>́</strong> <strong>̃</strong> <strong>ẽ</strong> </td><td>☑︎</td></tr>
@@ -2197,21 +2200,21 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☐</td></tr>
  </table>
 
-<h2>Venetian (vec)</h2>
+## Venetian (vec)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z à á ç è é ì í ò ó ù ł</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>à</span> <span>á</span> <span>ç</span> <span>è</span> <span>é</span> <span>ì</span> <span>í</span> <span>ò</span> <span>ó</span> <span>ù</span> <span>ł</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Veps (vep)</h2>
+## Veps (vep)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ä ö ü č š ž</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>ä</span> <span>ö</span> <span>ü</span> <span>č</span> <span>š</span> <span>ž</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Vietnamese (vie)</h2>
+## Vietnamese (vie)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>a</strong> <strong>b</strong> <strong>c</strong> <strong>d</strong> <strong>e</strong> <strong>f</strong> <strong>g</strong> <strong>h</strong> <strong>i</strong> <strong>j</strong> <strong>k</strong> <strong>l</strong> <strong>m</strong> <strong>n</strong> <strong>o</strong> <strong>p</strong> <strong>q</strong> <strong>r</strong> <strong>s</strong> <strong>t</strong> <strong>u</strong> <strong>v</strong> <strong>w</strong> <strong>x</strong> <strong>y</strong> <strong>z</strong> <strong>à</strong> <strong>á</strong> <strong>â</strong> <strong>ã</strong> <strong>è</strong> <strong>é</strong> <strong>ê</strong> <strong>ì</strong> <strong>í</strong> <strong>ò</strong> <strong>ó</strong> <strong>ô</strong> <strong>õ</strong> <strong>ù</strong> <strong>ú</strong> <strong>ý</strong> <strong>ă</strong> <strong>đ</strong> <strong>ĩ</strong> <strong>ũ</strong> <strong>ơ</strong> <strong>ư</strong> <strong>ạ</strong> <strong>ả</strong> <strong>ấ</strong> <strong>ầ</strong> <strong>ẩ</strong> <strong>ẫ</strong> <strong>ậ</strong> <strong>ắ</strong> <strong>ằ</strong> <strong>ẳ</strong> <strong>ẵ</strong> <strong>ặ</strong> <strong>ẹ</strong> <strong>ẻ</strong> <strong>ẽ</strong> <strong>ế</strong> <strong>ề</strong> <strong>ể</strong> <strong>ễ</strong> <strong>ệ</strong> <strong>ỉ</strong> <strong>ị</strong> <strong>ọ</strong> <strong>ỏ</strong> <strong>ố</strong> <strong>ồ</strong> <strong>ổ</strong> <strong>ỗ</strong> <strong>ộ</strong> <strong>ớ</strong> <strong>ờ</strong> <strong>ở</strong> <strong>ỡ</strong> <strong>ợ</strong> <strong>ụ</strong> <strong>ủ</strong> <strong>ứ</strong> <strong>ừ</strong> <strong>ử</strong> <strong>ữ</strong> <strong>ự</strong> <strong>ỳ</strong> <strong>ỵ</strong> <strong>ỷ</strong> <strong>ỹ</strong> </td><td>☑︎</td></tr>
@@ -2220,14 +2223,14 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>"</strong> <strong>#</strong> <strong>&</strong> <strong>'</strong> <strong>(</strong> <strong>)</strong> <strong>*</strong> <strong>,</strong> <strong>-</strong> <strong>.</strong> <strong>/</strong> <strong>:</strong> <strong>;</strong> <strong>?</strong> <strong>@</strong> <strong>[</strong> <strong>]</strong> <strong>§</strong> <strong>‐</strong> <strong>–</strong> <strong>—</strong> <strong>‘</strong> <strong>’</strong> <strong>“</strong> <strong>”</strong> <strong>†</strong> <strong>‡</strong> <strong>…</strong> <strong>′</strong> <strong>″</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Makhuwa (vmw)</h2>
+## Makhuwa (vmw)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z à è ì ò ù</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>à</span> <span>è</span> <span>ì</span> <span>ò</span> <span>ù</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Volapük (vol)</h2>
+## Volapük (vol)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ä ö ü</td><td>☒</td></tr>
@@ -2238,14 +2241,14 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>"</strong> <strong>#</strong> <strong>&</strong> <strong>'</strong> <strong>(</strong> <strong>)</strong> <strong>*</strong> <strong>,</strong> <strong>-</strong> <strong>.</strong> <strong>/</strong> <strong>:</strong> <strong>;</strong> <strong>?</strong> <strong>@</strong> <strong>[</strong> <strong>]</strong> <strong>§</strong> <strong>«</strong> <strong>»</strong> <strong>‐</strong> <strong>–</strong> <strong>—</strong> <strong>‘</strong> <strong>’</strong> <strong>“</strong> <strong>”</strong> <strong>…</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Võro (vro)</h2>
+## Võro (vro)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ä õ ö ü š ž</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>ä</span> <span>õ</span> <span>ö</span> <span>ü</span> <span>š</span> <span>ž</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Vunjo (vun)</h2>
+## Vunjo (vun)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>a</strong> <strong>b</strong> <strong>c</strong> <strong>d</strong> <strong>e</strong> <strong>f</strong> <strong>g</strong> <strong>h</strong> <strong>i</strong> <strong>j</strong> <strong>k</strong> <strong>l</strong> <strong>m</strong> <strong>n</strong> <strong>o</strong> <strong>p</strong> <strong>r</strong> <strong>s</strong> <strong>t</strong> <strong>u</strong> <strong>v</strong> <strong>w</strong> <strong>y</strong> <strong>z</strong> </td><td>☑︎</td></tr>
@@ -2254,7 +2257,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☐</td></tr>
  </table>
 
-<h2>Walser (wae)</h2>
+## Walser (wae)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>a</strong> <strong>b</strong> <strong>c</strong> <strong>d</strong> <strong>e</strong> <strong>f</strong> <strong>g</strong> <strong>h</strong> <strong>i</strong> <strong>j</strong> <strong>k</strong> <strong>l</strong> <strong>m</strong> <strong>n</strong> <strong>o</strong> <strong>p</strong> <strong>q</strong> <strong>r</strong> <strong>s</strong> <strong>t</strong> <strong>u</strong> <strong>v</strong> <strong>w</strong> <strong>x</strong> <strong>y</strong> <strong>z</strong> <strong>á</strong> <strong>ã</strong> <strong>ä</strong> <strong>é</strong> <strong>í</strong> <strong>ó</strong> <strong>õ</strong> <strong>ö</strong> <strong>ú</strong> <strong>ü</strong> <strong>č</strong> <strong>š</strong> <strong>ũ</strong> </td><td>☑︎</td></tr>
@@ -2263,55 +2266,55 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Waray (Philippines) (war)</h2>
+## Waray (Philippines) (war)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ñ</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>ñ</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Warlpiri (wbp)</h2>
+## Warlpiri (wbp)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ã é ô õ ö ĩ</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Wik-Mungkan (wim)</h2>
+## Wik-Mungkan (wim)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Ho-Chunk (win)</h2>
+## Ho-Chunk (win)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ą ğ į š ų ž</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>ą</span> <span>ğ</span> <span>į</span> <span>š</span> <span>ų</span> <span>ž</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Walloon (wln)</h2>
+## Walloon (wln)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z â å ç è é ê î ô û</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>â</span> <span>å</span> <span>ç</span> <span>è</span> <span>é</span> <span>ê</span> <span>î</span> <span>ô</span> <span>û</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Wallisian (wls)</h2>
+## Wallisian (wls)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ī ō ū</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>ā</span> <span>ē</span> <span>ī</span> <span>ō</span> <span>ū</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Mwani (wmw)</h2>
+## Mwani (wmw)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z</td><td>☒</td></tr>
  </table>
 
-<h2>Wolof (wol)</h2>
+## Wolof (wol)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z à ã é ë ñ ó ŋ</td><td>☒</td></tr>
@@ -2322,28 +2325,28 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☐</td></tr>
  </table>
 
-<h2>Wiradjuri (wrh)</h2>
+## Wiradjuri (wrh)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z á ñ</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Wangaaybuwan-Ngiyambaa (wyb)</h2>
+## Wangaaybuwan-Ngiyambaa (wyb)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Xavánte (xav)</h2>
+## Xavánte (xav)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ã é ô õ ö ĩ</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>ã</span> <span>é</span> <span>ô</span> <span>õ</span> <span>ö</span> <span>ĩ</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Xhosa (xho)</h2>
+## Xhosa (xho)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z</td><td>☒</td></tr>
@@ -2354,7 +2357,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☐</td></tr>
  </table>
 
-<h2>Soga (xog)</h2>
+## Soga (xog)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>a</strong> <strong>b</strong> <strong>c</strong> <strong>d</strong> <strong>e</strong> <strong>f</strong> <strong>g</strong> <strong>h</strong> <strong>i</strong> <strong>j</strong> <strong>k</strong> <strong>l</strong> <strong>m</strong> <strong>n</strong> <strong>o</strong> <strong>p</strong> <strong>q</strong> <strong>r</strong> <strong>s</strong> <strong>t</strong> <strong>u</strong> <strong>v</strong> <strong>w</strong> <strong>x</strong> <strong>y</strong> <strong>z</strong> </td><td>☑︎</td></tr>
@@ -2363,21 +2366,21 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☐</td></tr>
  </table>
 
-<h2>Minang (xrg)</h2>
+## Minang (xrg)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ī ō ū</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>ā</span> <span>ē</span> <span>ī</span> <span>ō</span> <span>ū</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Yapese (yap)</h2>
+## Yapese (yap)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ä ë ö</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>ä</span> <span>ë</span> <span>ö</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Yangben (yav)</h2>
+## Yangben (yav)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>a</strong> <strong>b</strong> <strong>c</strong> <strong>d</strong> <strong>e</strong> <strong>f</strong> <strong>g</strong> <strong>h</strong> <strong>i</strong> <strong>k</strong> <strong>l</strong> <strong>m</strong> <strong>n</strong> <strong>o</strong> <strong>p</strong> <strong>s</strong> <strong>t</strong> <strong>u</strong> <strong>v</strong> <strong>w</strong> <strong>y</strong> <strong>à</strong> <strong>á</strong> <strong>â</strong> <strong>è</strong> <strong>é</strong> <strong>ì</strong> <strong>í</strong> <strong>î</strong> <strong>ò</strong> <strong>ó</strong> <strong>ô</strong> <strong>ù</strong> <strong>ú</strong> <strong>û</strong> <strong>ā</strong> <strong>ī</strong> <strong>ŋ</strong> <strong>ō</strong> <strong>ū</strong> <strong>ǎ</strong> <strong>ǒ</strong> <strong>ǔ</strong> <strong>ɔ</strong> <strong>ɛ</strong> <strong>̀</strong> <strong>́</strong> </td><td>☑︎</td></tr>
@@ -2386,20 +2389,20 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Yindjibarndi (yij)</h2>
+## Yindjibarndi (yij)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Makwe (ymk)</h2>
+## Makwe (ymk)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z</td><td>☒</td></tr>
  </table>
 
-<h2>Yoruba (yor)</h2>
+## Yoruba (yor)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>a</strong> <strong>b</strong> <strong>d</strong> <strong>e</strong> <strong>f</strong> <strong>g</strong> <strong>h</strong> <strong>i</strong> <strong>j</strong> <strong>k</strong> <strong>l</strong> <strong>m</strong> <strong>n</strong> <strong>o</strong> <strong>p</strong> <strong>r</strong> <strong>s</strong> <strong>t</strong> <strong>u</strong> <strong>w</strong> <strong>y</strong> <strong>à</strong> <strong>á</strong> <strong>è</strong> <strong>é</strong> <strong>ì</strong> <strong>í</strong> <strong>ò</strong> <strong>ó</strong> <strong>ù</strong> <strong>ú</strong> <strong>ɔ</strong> <strong>ɛ</strong> <strong>̀</strong> <strong>́</strong> </td><td>☑︎</td></tr>
@@ -2408,21 +2411,21 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>"</strong> <strong>#</strong> <strong>&</strong> <strong>'</strong> <strong>(</strong> <strong>)</strong> <strong>*</strong> <strong>,</strong> <strong>-</strong> <strong>.</strong> <strong>/</strong> <strong>:</strong> <strong>;</strong> <strong>?</strong> <strong>@</strong> <strong>‐</strong> <strong>–</strong> <strong>—</strong> <strong>‘</strong> <strong>’</strong> <strong>“</strong> <strong>”</strong> <strong>†</strong> <strong>‡</strong> <strong>…</strong> <strong>′</strong> <strong>″</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Zapotec (zap)</h2>
+## Zapotec (zap)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z á ñ</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>á</span> <span>ñ</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Malay (individual language) (zlm)</h2>
+## Malay (individual language) (zlm)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z</td><td>☒</td></tr>
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Zulu (zul)</h2>
+## Zulu (zul)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z</td><td>☒</td></tr>
@@ -2433,7 +2436,7 @@ permalink: test_Latn
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>(</strong> <strong>)</strong> <strong>,</strong> <strong>-</strong> <strong>.</strong> <strong>:</strong> <strong>;</strong> <strong>?</strong> <strong>[</strong> <strong>]</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Zuni (zun)</h2>
+## Zuni (zun)
 
 <table>
  <tr><th>rstt (base):</th><td>a b c d e f g h i j k l m n o p q r s t u v w x y z ł</td><td>☒</td></tr>

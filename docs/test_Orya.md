@@ -1,13 +1,16 @@
 ---
 layout: default
 permalink: test_Orya
+title: Oriya-script languages (comparison)
 ---
 
-<h1>Oriya-script languages (comparison)</h1>
+# Oriya-script languages (comparison)
 
-<p>Selected character-set databases (CLDR, Latin Plus) juxtaposed next to Rosetta’s Langs DB. When comparing, characters that are included in “Rosetta (base)” are marked grey, any additional characters are marked red. Only “base” fields are compared. The third column indicates the status of the field.<p>
+Selected character-set databases (CLDR, Latin Plus) juxtaposed next to Rosetta’s Langs DB. When comparing, characters that are included in “Rosetta (base)” are marked grey, any additional characters are marked red. Only “base” fields are compared. The third column indicates the status of the field.
 
-<h2>Oriya (macrolanguage) (ori)</h2>
+**Total:** 1 language(s)
+
+## Oriya (macrolanguage) (ori)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>ଁ</strong> <strong>ଂ</strong> <strong>ଃ</strong> <strong>ଅ</strong> <strong>ଆ</strong> <strong>ଇ</strong> <strong>ଈ</strong> <strong>ଉ</strong> <strong>ଊ</strong> <strong>ଋ</strong> <strong>ଏ</strong> <strong>ଐ</strong> <strong>ଓ</strong> <strong>ଔ</strong> <strong>କ</strong> <strong>ଖ</strong> <strong>ଗ</strong> <strong>ଘ</strong> <strong>ଙ</strong> <strong>ଚ</strong> <strong>ଛ</strong> <strong>ଜ</strong> <strong>ଝ</strong> <strong>ଞ</strong> <strong>ଟ</strong> <strong>ଠ</strong> <strong>ଡ</strong> <strong>ଢ</strong> <strong>ଣ</strong> <strong>ତ</strong> <strong>ଥ</strong> <strong>ଦ</strong> <strong>ଧ</strong> <strong>ନ</strong> <strong>ପ</strong> <strong>ଫ</strong> <strong>ବ</strong> <strong>ଭ</strong> <strong>ମ</strong> <strong>ଯ</strong> <strong>ର</strong> <strong>ଲ</strong> <strong>ଳ</strong> <strong>ଵ</strong> <strong>ଶ</strong> <strong>ଷ</strong> <strong>ସ</strong> <strong>ହ</strong> <strong>଼</strong> <strong>ା</strong> <strong>ି</strong> <strong>ୀ</strong> <strong>ୁ</strong> <strong>ୂ</strong> <strong>ୃ</strong> <strong>େ</strong> <strong>ୈ</strong> <strong>ୋ</strong> <strong>ୌ</strong> <strong>୍</strong> <strong>ୟ</strong> <strong>ୱ</strong> </td><td>☑︎</td></tr>

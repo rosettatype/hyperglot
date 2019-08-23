@@ -7,10 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <title>
+      {{ site.title }}
       {% if page.title %}
-        {{ page.title }}
-      {% else %}
-        {{ site.title }}
+        : {{ page.title }}
       {% endif %}
     </title>
 

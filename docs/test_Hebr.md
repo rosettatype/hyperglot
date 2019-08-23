@@ -1,13 +1,16 @@
 ---
 layout: default
 permalink: test_Hebr
+title: Hebrew-script languages (comparison)
 ---
 
-<h1>Hebrew-script languages (comparison)</h1>
+# Hebrew-script languages (comparison)
 
-<p>Selected character-set databases (CLDR, Latin Plus) juxtaposed next to Rosetta’s Langs DB. When comparing, characters that are included in “Rosetta (base)” are marked grey, any additional characters are marked red. Only “base” fields are compared. The third column indicates the status of the field.<p>
+Selected character-set databases (CLDR, Latin Plus) juxtaposed next to Rosetta’s Langs DB. When comparing, characters that are included in “Rosetta (base)” are marked grey, any additional characters are marked red. Only “base” fields are compared. The third column indicates the status of the field.
 
-<h2>Hebrew (heb)</h2>
+**Total:** 2 language(s)
+
+## Hebrew (heb)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>א</strong> <strong>ב</strong> <strong>ג</strong> <strong>ד</strong> <strong>ה</strong> <strong>ו</strong> <strong>ז</strong> <strong>ח</strong> <strong>ט</strong> <strong>י</strong> <strong>ך</strong> <strong>כ</strong> <strong>ל</strong> <strong>ם</strong> <strong>מ</strong> <strong>ן</strong> <strong>נ</strong> <strong>ס</strong> <strong>ע</strong> <strong>ף</strong> <strong>פ</strong> <strong>ץ</strong> <strong>צ</strong> <strong>ק</strong> <strong>ר</strong> <strong>ש</strong> <strong>ת</strong> </td><td>☑︎</td></tr>
@@ -16,7 +19,7 @@ permalink: test_Hebr
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>"</strong> <strong>'</strong> <strong>(</strong> <strong>)</strong> <strong>,</strong> <strong>-</strong> <strong>.</strong> <strong>/</strong> <strong>:</strong> <strong>;</strong> <strong>?</strong> <strong>[</strong> <strong>]</strong> <strong>־</strong> <strong>׳</strong> <strong>״</strong> <strong>‐</strong> <strong>–</strong> <strong>—</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Yiddish (yid)</h2>
+## Yiddish (yid)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>ִ</strong> <strong>ַ</strong> <strong>ָ</strong> <strong>ּ</strong> <strong>ֿ</strong> <strong>ׂ</strong> <strong>א</strong> <strong>ב</strong> <strong>ג</strong> <strong>ד</strong> <strong>ה</strong> <strong>ו</strong> <strong>ז</strong> <strong>ח</strong> <strong>ט</strong> <strong>י</strong> <strong>ך</strong> <strong>כ</strong> <strong>ל</strong> <strong>ם</strong> <strong>מ</strong> <strong>ן</strong> <strong>נ</strong> <strong>ס</strong> <strong>ע</strong> <strong>ף</strong> <strong>פ</strong> <strong>ץ</strong> <strong>צ</strong> <strong>ק</strong> <strong>ר</strong> <strong>ש</strong> <strong>ת</strong> <strong>ײ</strong> </td><td>☑︎</td></tr>

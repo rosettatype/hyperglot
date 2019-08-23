@@ -1,13 +1,16 @@
 ---
 layout: default
 permalink: test_Taml
+title: Tamil-script languages (comparison)
 ---
 
-<h1>Tamil-script languages (comparison)</h1>
+# Tamil-script languages (comparison)
 
-<p>Selected character-set databases (CLDR, Latin Plus) juxtaposed next to Rosetta’s Langs DB. When comparing, characters that are included in “Rosetta (base)” are marked grey, any additional characters are marked red. Only “base” fields are compared. The third column indicates the status of the field.<p>
+Selected character-set databases (CLDR, Latin Plus) juxtaposed next to Rosetta’s Langs DB. When comparing, characters that are included in “Rosetta (base)” are marked grey, any additional characters are marked red. Only “base” fields are compared. The third column indicates the status of the field.
 
-<h2>Tamil (tam)</h2>
+**Total:** 1 language(s)
+
+## Tamil (tam)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>ஃ</strong> <strong>அ</strong> <strong>ஆ</strong> <strong>இ</strong> <strong>ஈ</strong> <strong>உ</strong> <strong>ஊ</strong> <strong>எ</strong> <strong>ஏ</strong> <strong>ஐ</strong> <strong>ஒ</strong> <strong>ஓ</strong> <strong>ஔ</strong> <strong>க</strong> <strong>ங</strong> <strong>ச</strong> <strong>ஜ</strong> <strong>ஞ</strong> <strong>ட</strong> <strong>ண</strong> <strong>த</strong> <strong>ந</strong> <strong>ன</strong> <strong>ப</strong> <strong>ம</strong> <strong>ய</strong> <strong>ர</strong> <strong>ற</strong> <strong>ல</strong> <strong>ள</strong> <strong>ழ</strong> <strong>வ</strong> <strong>ஷ</strong> <strong>ஸ</strong> <strong>ஹ</strong> <strong>ா</strong> <strong>ி</strong> <strong>ீ</strong> <strong>ு</strong> <strong>ூ</strong> <strong>ெ</strong> <strong>ே</strong> <strong>ை</strong> <strong>ொ</strong> <strong>ோ</strong> <strong>ௌ</strong> <strong>்</strong> </td><td>☑︎</td></tr>

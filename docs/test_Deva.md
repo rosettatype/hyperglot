@@ -1,13 +1,16 @@
 ---
 layout: default
 permalink: test_Deva
+title: Devanagari-script languages (comparison)
 ---
 
-<h1>Devanagari-script languages (comparison)</h1>
+# Devanagari-script languages (comparison)
 
-<p>Selected character-set databases (CLDR, Latin Plus) juxtaposed next to Rosetta’s Langs DB. When comparing, characters that are included in “Rosetta (base)” are marked grey, any additional characters are marked red. Only “base” fields are compared. The third column indicates the status of the field.<p>
+Selected character-set databases (CLDR, Latin Plus) juxtaposed next to Rosetta’s Langs DB. When comparing, characters that are included in “Rosetta (base)” are marked grey, any additional characters are marked red. Only “base” fields are compared. The third column indicates the status of the field.
 
-<h2>Bodo (India) (brx)</h2>
+**Total:** 5 language(s)
+
+## Bodo (India) (brx)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>ँ</strong> <strong>ं</strong> <strong>अ</strong> <strong>आ</strong> <strong>इ</strong> <strong>ई</strong> <strong>उ</strong> <strong>ऊ</strong> <strong>ऍ</strong> <strong>ए</strong> <strong>ऐ</strong> <strong>ऑ</strong> <strong>ओ</strong> <strong>औ</strong> <strong>क</strong> <strong>ख</strong> <strong>ग</strong> <strong>घ</strong> <strong>च</strong> <strong>छ</strong> <strong>ज</strong> <strong>झ</strong> <strong>ञ</strong> <strong>ट</strong> <strong>ठ</strong> <strong>ड</strong> <strong>ढ</strong> <strong>ण</strong> <strong>त</strong> <strong>थ</strong> <strong>द</strong> <strong>ध</strong> <strong>न</strong> <strong>प</strong> <strong>फ</strong> <strong>ब</strong> <strong>भ</strong> <strong>म</strong> <strong>य</strong> <strong>र</strong> <strong>ल</strong> <strong>ळ</strong> <strong>व</strong> <strong>श</strong> <strong>ष</strong> <strong>स</strong> <strong>ह</strong> <strong>़</strong> <strong>ा</strong> <strong>ि</strong> <strong>ी</strong> <strong>ु</strong> <strong>ू</strong> <strong>ृ</strong> <strong>ॅ</strong> <strong>े</strong> <strong>ै</strong> <strong>ॉ</strong> <strong>ो</strong> <strong>ौ</strong> <strong>्</strong> </td><td>☑︎</td></tr>
@@ -16,7 +19,7 @@ permalink: test_Deva
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Hindi (hin)</h2>
+## Hindi (hin)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>ँ</strong> <strong>ं</strong> <strong>ः</strong> <strong>अ</strong> <strong>आ</strong> <strong>इ</strong> <strong>ई</strong> <strong>उ</strong> <strong>ऊ</strong> <strong>ऋ</strong> <strong>ऌ</strong> <strong>ऍ</strong> <strong>ए</strong> <strong>ऐ</strong> <strong>ऑ</strong> <strong>ओ</strong> <strong>औ</strong> <strong>क</strong> <strong>ख</strong> <strong>ग</strong> <strong>घ</strong> <strong>ङ</strong> <strong>च</strong> <strong>छ</strong> <strong>ज</strong> <strong>झ</strong> <strong>ञ</strong> <strong>ट</strong> <strong>ठ</strong> <strong>ड</strong> <strong>ढ</strong> <strong>ण</strong> <strong>त</strong> <strong>थ</strong> <strong>द</strong> <strong>ध</strong> <strong>न</strong> <strong>प</strong> <strong>फ</strong> <strong>ब</strong> <strong>भ</strong> <strong>म</strong> <strong>य</strong> <strong>र</strong> <strong>ल</strong> <strong>ळ</strong> <strong>व</strong> <strong>श</strong> <strong>ष</strong> <strong>स</strong> <strong>ह</strong> <strong>़</strong> <strong>ऽ</strong> <strong>ा</strong> <strong>ि</strong> <strong>ी</strong> <strong>ु</strong> <strong>ू</strong> <strong>ृ</strong> <strong>ॄ</strong> <strong>ॅ</strong> <strong>े</strong> <strong>ै</strong> <strong>ॉ</strong> <strong>ो</strong> <strong>ौ</strong> <strong>्</strong> <strong>ॐ</strong> </td><td>☑︎</td></tr>
@@ -25,7 +28,7 @@ permalink: test_Deva
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>(</strong> <strong>)</strong> <strong>,</strong> <strong>-</strong> <strong>.</strong> <strong>:</strong> <strong>;</strong> <strong>?</strong> <strong>[</strong> <strong>]</strong> <strong>॰</strong> <strong>‘</strong> <strong>’</strong> <strong>“</strong> <strong>”</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Konkani (macrolanguage) (kok)</h2>
+## Konkani (macrolanguage) (kok)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>ँ</strong> <strong>ं</strong> <strong>ः</strong> <strong>अ</strong> <strong>आ</strong> <strong>इ</strong> <strong>ई</strong> <strong>उ</strong> <strong>ऊ</strong> <strong>ऋ</strong> <strong>ऌ</strong> <strong>ऍ</strong> <strong>ए</strong> <strong>ऐ</strong> <strong>ऑ</strong> <strong>ओ</strong> <strong>औ</strong> <strong>क</strong> <strong>ख</strong> <strong>ग</strong> <strong>घ</strong> <strong>ङ</strong> <strong>च</strong> <strong>छ</strong> <strong>ज</strong> <strong>झ</strong> <strong>ञ</strong> <strong>ट</strong> <strong>ठ</strong> <strong>ड</strong> <strong>ढ</strong> <strong>ण</strong> <strong>त</strong> <strong>थ</strong> <strong>द</strong> <strong>ध</strong> <strong>न</strong> <strong>प</strong> <strong>फ</strong> <strong>ब</strong> <strong>भ</strong> <strong>म</strong> <strong>य</strong> <strong>र</strong> <strong>ल</strong> <strong>ळ</strong> <strong>व</strong> <strong>श</strong> <strong>ष</strong> <strong>स</strong> <strong>ह</strong> <strong>़</strong> <strong>ऽ</strong> <strong>ा</strong> <strong>ि</strong> <strong>ी</strong> <strong>ु</strong> <strong>ू</strong> <strong>ृ</strong> <strong>ॄ</strong> <strong>ॅ</strong> <strong>े</strong> <strong>ै</strong> <strong>ॉ</strong> <strong>ो</strong> <strong>ौ</strong> <strong>्</strong> <strong>ॐ</strong> <strong>०</strong> <strong>१</strong> <strong>२</strong> <strong>३</strong> <strong>४</strong> <strong>५</strong> <strong>६</strong> <strong>७</strong> <strong>८</strong> <strong>९</strong> </td><td>☑︎</td></tr>
@@ -34,7 +37,7 @@ permalink: test_Deva
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>"</strong> <strong>#</strong> <strong>&</strong> <strong>'</strong> <strong>(</strong> <strong>)</strong> <strong>*</strong> <strong>,</strong> <strong>-</strong> <strong>.</strong> <strong>/</strong> <strong>:</strong> <strong>;</strong> <strong>?</strong> <strong>@</strong> <strong>[</strong> <strong>]</strong> <strong>§</strong> <strong>‐</strong> <strong>–</strong> <strong>—</strong> <strong>‘</strong> <strong>’</strong> <strong>“</strong> <strong>”</strong> <strong>†</strong> <strong>‡</strong> <strong>…</strong> <strong>′</strong> <strong>″</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Marathi (mar)</h2>
+## Marathi (mar)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>ँ</strong> <strong>ं</strong> <strong>ः</strong> <strong>अ</strong> <strong>आ</strong> <strong>इ</strong> <strong>ई</strong> <strong>उ</strong> <strong>ऊ</strong> <strong>ऋ</strong> <strong>ऌ</strong> <strong>ऍ</strong> <strong>ए</strong> <strong>ऐ</strong> <strong>ऑ</strong> <strong>ओ</strong> <strong>औ</strong> <strong>क</strong> <strong>ख</strong> <strong>ग</strong> <strong>घ</strong> <strong>ङ</strong> <strong>च</strong> <strong>छ</strong> <strong>ज</strong> <strong>झ</strong> <strong>ञ</strong> <strong>ट</strong> <strong>ठ</strong> <strong>ड</strong> <strong>ढ</strong> <strong>ण</strong> <strong>त</strong> <strong>थ</strong> <strong>द</strong> <strong>ध</strong> <strong>न</strong> <strong>प</strong> <strong>फ</strong> <strong>ब</strong> <strong>भ</strong> <strong>म</strong> <strong>य</strong> <strong>र</strong> <strong>ऱ</strong> <strong>ल</strong> <strong>ळ</strong> <strong>व</strong> <strong>श</strong> <strong>ष</strong> <strong>स</strong> <strong>ह</strong> <strong>़</strong> <strong>ऽ</strong> <strong>ा</strong> <strong>ि</strong> <strong>ी</strong> <strong>ु</strong> <strong>ू</strong> <strong>ृ</strong> <strong>ॄ</strong> <strong>ॅ</strong> <strong>े</strong> <strong>ै</strong> <strong>ॉ</strong> <strong>ो</strong> <strong>ौ</strong> <strong>्</strong> <strong>ॐ</strong> </td><td>☑︎</td></tr>
@@ -43,7 +46,7 @@ permalink: test_Deva
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>"</strong> <strong>#</strong> <strong>&</strong> <strong>'</strong> <strong>(</strong> <strong>)</strong> <strong>*</strong> <strong>,</strong> <strong>-</strong> <strong>.</strong> <strong>/</strong> <strong>:</strong> <strong>;</strong> <strong>?</strong> <strong>@</strong> <strong>[</strong> <strong>]</strong> <strong>‐</strong> <strong>–</strong> <strong>—</strong> <strong>‘</strong> <strong>’</strong> <strong>“</strong> <strong>”</strong> <strong>…</strong> <strong>′</strong> <strong>″</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Nepali (macrolanguage) (nep)</h2>
+## Nepali (macrolanguage) (nep)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>ँ</strong> <strong>ं</strong> <strong>ः</strong> <strong>अ</strong> <strong>आ</strong> <strong>इ</strong> <strong>ई</strong> <strong>उ</strong> <strong>ऊ</strong> <strong>ऋ</strong> <strong>ऌ</strong> <strong>ऍ</strong> <strong>ए</strong> <strong>ऐ</strong> <strong>ऑ</strong> <strong>ओ</strong> <strong>औ</strong> <strong>क</strong> <strong>ख</strong> <strong>ग</strong> <strong>घ</strong> <strong>ङ</strong> <strong>च</strong> <strong>छ</strong> <strong>ज</strong> <strong>झ</strong> <strong>ञ</strong> <strong>ट</strong> <strong>ठ</strong> <strong>ड</strong> <strong>ढ</strong> <strong>ण</strong> <strong>त</strong> <strong>थ</strong> <strong>द</strong> <strong>ध</strong> <strong>न</strong> <strong>प</strong> <strong>फ</strong> <strong>ब</strong> <strong>भ</strong> <strong>म</strong> <strong>य</strong> <strong>र</strong> <strong>ल</strong> <strong>ळ</strong> <strong>व</strong> <strong>श</strong> <strong>ष</strong> <strong>स</strong> <strong>ह</strong> <strong>़</strong> <strong>ऽ</strong> <strong>ा</strong> <strong>ि</strong> <strong>ी</strong> <strong>ु</strong> <strong>ू</strong> <strong>ृ</strong> <strong>ॄ</strong> <strong>ॅ</strong> <strong>े</strong> <strong>ै</strong> <strong>ॉ</strong> <strong>ो</strong> <strong>ौ</strong> <strong>्</strong> <strong>ॐ</strong> </td><td>☑︎</td></tr>

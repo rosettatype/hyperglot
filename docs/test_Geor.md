@@ -1,13 +1,16 @@
 ---
 layout: default
 permalink: test_Geor
+title: Georgian-script languages (comparison)
 ---
 
-<h1>Georgian-script languages (comparison)</h1>
+# Georgian-script languages (comparison)
 
-<p>Selected character-set databases (CLDR, Latin Plus) juxtaposed next to Rosetta’s Langs DB. When comparing, characters that are included in “Rosetta (base)” are marked grey, any additional characters are marked red. Only “base” fields are compared. The third column indicates the status of the field.<p>
+Selected character-set databases (CLDR, Latin Plus) juxtaposed next to Rosetta’s Langs DB. When comparing, characters that are included in “Rosetta (base)” are marked grey, any additional characters are marked red. Only “base” fields are compared. The third column indicates the status of the field.
 
-<h2>Georgian (kat)</h2>
+**Total:** 1 language(s)
+
+## Georgian (kat)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>ა</strong> <strong>ბ</strong> <strong>გ</strong> <strong>დ</strong> <strong>ე</strong> <strong>ვ</strong> <strong>ზ</strong> <strong>თ</strong> <strong>ი</strong> <strong>კ</strong> <strong>ლ</strong> <strong>მ</strong> <strong>ნ</strong> <strong>ო</strong> <strong>პ</strong> <strong>ჟ</strong> <strong>რ</strong> <strong>ს</strong> <strong>ტ</strong> <strong>უ</strong> <strong>ფ</strong> <strong>ქ</strong> <strong>ღ</strong> <strong>ყ</strong> <strong>შ</strong> <strong>ჩ</strong> <strong>ც</strong> <strong>ძ</strong> <strong>წ</strong> <strong>ჭ</strong> <strong>ხ</strong> <strong>ჯ</strong> <strong>ჰ</strong> </td><td>☑︎</td></tr>

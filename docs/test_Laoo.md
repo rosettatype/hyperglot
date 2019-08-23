@@ -1,13 +1,16 @@
 ---
 layout: default
 permalink: test_Laoo
+title: Lao-script languages (comparison)
 ---
 
-<h1>Lao-script languages (comparison)</h1>
+# Lao-script languages (comparison)
 
-<p>Selected character-set databases (CLDR, Latin Plus) juxtaposed next to Rosetta’s Langs DB. When comparing, characters that are included in “Rosetta (base)” are marked grey, any additional characters are marked red. Only “base” fields are compared. The third column indicates the status of the field.<p>
+Selected character-set databases (CLDR, Latin Plus) juxtaposed next to Rosetta’s Langs DB. When comparing, characters that are included in “Rosetta (base)” are marked grey, any additional characters are marked red. Only “base” fields are compared. The third column indicates the status of the field.
 
-<h2>Lao (lao)</h2>
+**Total:** 1 language(s)
+
+## Lao (lao)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>ກ</strong> <strong>ຂ</strong> <strong>ຄ</strong> <strong>ງ</strong> <strong>ຈ</strong> <strong>ຊ</strong> <strong>ຍ</strong> <strong>ດ</strong> <strong>ຕ</strong> <strong>ຖ</strong> <strong>ທ</strong> <strong>ນ</strong> <strong>ບ</strong> <strong>ປ</strong> <strong>ຜ</strong> <strong>ຝ</strong> <strong>ພ</strong> <strong>ຟ</strong> <strong>ມ</strong> <strong>ຢ</strong> <strong>ຣ</strong> <strong>ລ</strong> <strong>ວ</strong> <strong>ສ</strong> <strong>ຫ</strong> <strong>ອ</strong> <strong>ຮ</strong> <strong>ຯ</strong> <strong>ະ</strong> <strong>ັ</strong> <strong>າ</strong> <strong>ຳ</strong> <strong>ິ</strong> <strong>ີ</strong> <strong>ຶ</strong> <strong>ື</strong> <strong>ຸ</strong> <strong>ູ</strong> <strong>ົ</strong> <strong>ຼ</strong> <strong>ຽ</strong> <strong>ເ</strong> <strong>ແ</strong> <strong>ໂ</strong> <strong>ໃ</strong> <strong>ໄ</strong> <strong>ໆ</strong> <strong>່</strong> <strong>້</strong> <strong>໊</strong> <strong>໋</strong> <strong>໌</strong> <strong>ໍ</strong> <strong>ໜ</strong> <strong>ໝ</strong> </td><td>☑︎</td></tr>

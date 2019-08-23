@@ -1,13 +1,16 @@
 ---
 layout: default
 permalink: test_Tfng
+title: Tifinagh-script languages (comparison)
 ---
 
-<h1>Tifinagh-script languages (comparison)</h1>
+# Tifinagh-script languages (comparison)
 
-<p>Selected character-set databases (CLDR, Latin Plus) juxtaposed next to Rosetta’s Langs DB. When comparing, characters that are included in “Rosetta (base)” are marked grey, any additional characters are marked red. Only “base” fields are compared. The third column indicates the status of the field.<p>
+Selected character-set databases (CLDR, Latin Plus) juxtaposed next to Rosetta’s Langs DB. When comparing, characters that are included in “Rosetta (base)” are marked grey, any additional characters are marked red. Only “base” fields are compared. The third column indicates the status of the field.
 
-<h2>Tachelhit (shi)</h2>
+**Total:** 2 language(s)
+
+## Tachelhit (shi)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>ⴰ</strong> <strong>ⴱ</strong> <strong>ⴳ</strong> <strong>ⴷ</strong> <strong>ⴹ</strong> <strong>ⴻ</strong> <strong>ⴼ</strong> <strong>ⴽ</strong> <strong>ⵀ</strong> <strong>ⵃ</strong> <strong>ⵄ</strong> <strong>ⵅ</strong> <strong>ⵇ</strong> <strong>ⵉ</strong> <strong>ⵊ</strong> <strong>ⵍ</strong> <strong>ⵎ</strong> <strong>ⵏ</strong> <strong>ⵓ</strong> <strong>ⵔ</strong> <strong>ⵕ</strong> <strong>ⵖ</strong> <strong>ⵙ</strong> <strong>ⵚ</strong> <strong>ⵛ</strong> <strong>ⵜ</strong> <strong>ⵟ</strong> <strong>ⵡ</strong> <strong>ⵢ</strong> <strong>ⵣ</strong> <strong>ⵥ</strong> <strong>ⵯ</strong> </td><td>☑︎</td></tr>
@@ -16,7 +19,7 @@ permalink: test_Tfng
 <tr><th>cldr (punctuation):</th><td><span></span> </td><td>☐</td></tr>
  </table>
 
-<h2>Standard Moroccan Tamazight (zgh)</h2>
+## Standard Moroccan Tamazight (zgh)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>ⴰ</strong> <strong>ⴱ</strong> <strong>ⴳ</strong> <strong>ⴷ</strong> <strong>ⴹ</strong> <strong>ⴻ</strong> <strong>ⴼ</strong> <strong>ⴽ</strong> <strong>ⵀ</strong> <strong>ⵃ</strong> <strong>ⵄ</strong> <strong>ⵅ</strong> <strong>ⵇ</strong> <strong>ⵉ</strong> <strong>ⵊ</strong> <strong>ⵍ</strong> <strong>ⵎ</strong> <strong>ⵏ</strong> <strong>ⵓ</strong> <strong>ⵔ</strong> <strong>ⵕ</strong> <strong>ⵖ</strong> <strong>ⵙ</strong> <strong>ⵚ</strong> <strong>ⵛ</strong> <strong>ⵜ</strong> <strong>ⵟ</strong> <strong>ⵡ</strong> <strong>ⵢ</strong> <strong>ⵣ</strong> <strong>ⵥ</strong> <strong>ⵯ</strong> </td><td>☑︎</td></tr>

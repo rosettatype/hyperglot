@@ -1,13 +1,16 @@
 ---
 layout: default
 permalink: test_Telu
+title: Telugu-script languages (comparison)
 ---
 
-<h1>Telugu-script languages (comparison)</h1>
+# Telugu-script languages (comparison)
 
-<p>Selected character-set databases (CLDR, Latin Plus) juxtaposed next to Rosetta’s Langs DB. When comparing, characters that are included in “Rosetta (base)” are marked grey, any additional characters are marked red. Only “base” fields are compared. The third column indicates the status of the field.<p>
+Selected character-set databases (CLDR, Latin Plus) juxtaposed next to Rosetta’s Langs DB. When comparing, characters that are included in “Rosetta (base)” are marked grey, any additional characters are marked red. Only “base” fields are compared. The third column indicates the status of the field.
 
-<h2>Telugu (tel)</h2>
+**Total:** 1 language(s)
+
+## Telugu (tel)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>ఁ</strong> <strong>ం</strong> <strong>ః</strong> <strong>అ</strong> <strong>ఆ</strong> <strong>ఇ</strong> <strong>ఈ</strong> <strong>ఉ</strong> <strong>ఊ</strong> <strong>ఋ</strong> <strong>ఌ</strong> <strong>ఎ</strong> <strong>ఏ</strong> <strong>ఐ</strong> <strong>ఒ</strong> <strong>ఓ</strong> <strong>ఔ</strong> <strong>క</strong> <strong>ఖ</strong> <strong>గ</strong> <strong>ఘ</strong> <strong>ఙ</strong> <strong>చ</strong> <strong>ఛ</strong> <strong>జ</strong> <strong>ఝ</strong> <strong>ఞ</strong> <strong>ట</strong> <strong>ఠ</strong> <strong>డ</strong> <strong>ఢ</strong> <strong>ణ</strong> <strong>త</strong> <strong>థ</strong> <strong>ద</strong> <strong>ధ</strong> <strong>న</strong> <strong>ప</strong> <strong>ఫ</strong> <strong>బ</strong> <strong>భ</strong> <strong>మ</strong> <strong>య</strong> <strong>ర</strong> <strong>ఱ</strong> <strong>ల</strong> <strong>ళ</strong> <strong>వ</strong> <strong>శ</strong> <strong>ష</strong> <strong>స</strong> <strong>హ</strong> <strong>ా</strong> <strong>ి</strong> <strong>ీ</strong> <strong>ు</strong> <strong>ూ</strong> <strong>ృ</strong> <strong>ౄ</strong> <strong>ె</strong> <strong>ే</strong> <strong>ై</strong> <strong>ొ</strong> <strong>ో</strong> <strong>ౌ</strong> <strong>్</strong> <strong>ౕ</strong> <strong>ౖ</strong> <strong>ౠ</strong> <strong>ౡ</strong> </td><td>☑︎</td></tr>

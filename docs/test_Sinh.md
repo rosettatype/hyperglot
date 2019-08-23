@@ -1,13 +1,16 @@
 ---
 layout: default
 permalink: test_Sinh
+title: Sinhala-script languages (comparison)
 ---
 
-<h1>Sinhala-script languages (comparison)</h1>
+# Sinhala-script languages (comparison)
 
-<p>Selected character-set databases (CLDR, Latin Plus) juxtaposed next to Rosetta’s Langs DB. When comparing, characters that are included in “Rosetta (base)” are marked grey, any additional characters are marked red. Only “base” fields are compared. The third column indicates the status of the field.<p>
+Selected character-set databases (CLDR, Latin Plus) juxtaposed next to Rosetta’s Langs DB. When comparing, characters that are included in “Rosetta (base)” are marked grey, any additional characters are marked red. Only “base” fields are compared. The third column indicates the status of the field.
 
-<h2>Sinhala (sin)</h2>
+**Total:** 1 language(s)
+
+## Sinhala (sin)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>ං</strong> <strong>ඃ</strong> <strong>අ</strong> <strong>ආ</strong> <strong>ඇ</strong> <strong>ඈ</strong> <strong>ඉ</strong> <strong>ඊ</strong> <strong>උ</strong> <strong>ඌ</strong> <strong>ඍ</strong> <strong>එ</strong> <strong>ඒ</strong> <strong>ඓ</strong> <strong>ඔ</strong> <strong>ඕ</strong> <strong>ඖ</strong> <strong>ක</strong> <strong>ඛ</strong> <strong>ග</strong> <strong>ඝ</strong> <strong>ඞ</strong> <strong>ඟ</strong> <strong>ච</strong> <strong>ඡ</strong> <strong>ජ</strong> <strong>ඣ</strong> <strong>ඤ</strong> <strong>ඥ</strong> <strong>ට</strong> <strong>ඨ</strong> <strong>ඩ</strong> <strong>ඪ</strong> <strong>ණ</strong> <strong>ඬ</strong> <strong>ත</strong> <strong>ථ</strong> <strong>ද</strong> <strong>ධ</strong> <strong>න</strong> <strong>ඳ</strong> <strong>ප</strong> <strong>ඵ</strong> <strong>බ</strong> <strong>භ</strong> <strong>ම</strong> <strong>ඹ</strong> <strong>ය</strong> <strong>ර</strong> <strong>ල</strong> <strong>ව</strong> <strong>ශ</strong> <strong>ෂ</strong> <strong>ස</strong> <strong>හ</strong> <strong>ළ</strong> <strong>ෆ</strong> <strong>්</strong> <strong>ා</strong> <strong>ැ</strong> <strong>ෑ</strong> <strong>ි</strong> <strong>ී</strong> <strong>ු</strong> <strong>ූ</strong> <strong>ෘ</strong> <strong>ෙ</strong> <strong>ේ</strong> <strong>ෛ</strong> <strong>ො</strong> <strong>ෝ</strong> <strong>ෞ</strong> <strong>ෟ</strong> <strong>ෲ</strong> </td><td>☑︎</td></tr>

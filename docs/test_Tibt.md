@@ -1,13 +1,16 @@
 ---
 layout: default
 permalink: test_Tibt
+title: Tibetan-script languages (comparison)
 ---
 
-<h1>Tibetan-script languages (comparison)</h1>
+# Tibetan-script languages (comparison)
 
-<p>Selected character-set databases (CLDR, Latin Plus) juxtaposed next to Rosetta’s Langs DB. When comparing, characters that are included in “Rosetta (base)” are marked grey, any additional characters are marked red. Only “base” fields are compared. The third column indicates the status of the field.<p>
+Selected character-set databases (CLDR, Latin Plus) juxtaposed next to Rosetta’s Langs DB. When comparing, characters that are included in “Rosetta (base)” are marked grey, any additional characters are marked red. Only “base” fields are compared. The third column indicates the status of the field.
 
-<h2>Tibetan (bod)</h2>
+**Total:** 2 language(s)
+
+## Tibetan (bod)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>ཀ</strong> <strong>ཁ</strong> <strong>ག</strong> <strong>ང</strong> <strong>ཅ</strong> <strong>ཆ</strong> <strong>ཇ</strong> <strong>ཉ</strong> <strong>ཊ</strong> <strong>ཋ</strong> <strong>ཌ</strong> <strong>ཎ</strong> <strong>ཏ</strong> <strong>ཐ</strong> <strong>ད</strong> <strong>ན</strong> <strong>པ</strong> <strong>ཕ</strong> <strong>བ</strong> <strong>མ</strong> <strong>ཙ</strong> <strong>ཚ</strong> <strong>ཛ</strong> <strong>ཝ</strong> <strong>ཞ</strong> <strong>ཟ</strong> <strong>འ</strong> <strong>ཡ</strong> <strong>ར</strong> <strong>ལ</strong> <strong>ཤ</strong> <strong>ཥ</strong> <strong>ས</strong> <strong>ཧ</strong> <strong>ཨ</strong> <strong>ཪ</strong> <strong>ཱ</strong> <strong>ི</strong> <strong>ུ</strong> <strong>ཷ</strong> <strong>ཹ</strong> <strong>ེ</strong> <strong>ཻ</strong> <strong>ོ</strong> <strong>ཽ</strong> <strong>ཾ</strong> <strong>ཿ</strong> <strong>ྀ</strong> <strong>྄</strong> <strong>ྐ</strong> <strong>ྑ</strong> <strong>ྒ</strong> <strong>ྔ</strong> <strong>ྕ</strong> <strong>ྖ</strong> <strong>ྗ</strong> <strong>ྙ</strong> <strong>ྚ</strong> <strong>ྛ</strong> <strong>ྜ</strong> <strong>ྞ</strong> <strong>ྟ</strong> <strong>ྠ</strong> <strong>ྡ</strong> <strong>ྣ</strong> <strong>ྤ</strong> <strong>ྥ</strong> <strong>ྦ</strong> <strong>ྨ</strong> <strong>ྩ</strong> <strong>ྪ</strong> <strong>ྫ</strong> <strong>ྭ</strong> <strong>ྮ</strong> <strong>ྯ</strong> <strong>ྰ</strong> <strong>ྱ</strong> <strong>ྲ</strong> <strong>ླ</strong> <strong>ྴ</strong> <strong>ྵ</strong> <strong>ྶ</strong> <strong>ྷ</strong> <strong>ྸ</strong> <strong>ྺ</strong> <strong>ྻ</strong> <strong>ྼ</strong> </td><td>☑︎</td></tr>
@@ -16,7 +19,7 @@ permalink: test_Tibt
 <tr><th>cldr (punctuation):</th><td><strong>:</strong> <strong>་</strong> <strong>།</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Dzongkha (dzo)</h2>
+## Dzongkha (dzo)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>ཀ</strong> <strong>ཁ</strong> <strong>ག</strong> <strong>ང</strong> <strong>ཅ</strong> <strong>ཆ</strong> <strong>ཇ</strong> <strong>ཉ</strong> <strong>ཏ</strong> <strong>ཐ</strong> <strong>ད</strong> <strong>ན</strong> <strong>པ</strong> <strong>ཕ</strong> <strong>བ</strong> <strong>མ</strong> <strong>ཙ</strong> <strong>ཚ</strong> <strong>ཛ</strong> <strong>ཝ</strong> <strong>ཞ</strong> <strong>ཟ</strong> <strong>འ</strong> <strong>ཡ</strong> <strong>ར</strong> <strong>ལ</strong> <strong>ཤ</strong> <strong>ས</strong> <strong>ཧ</strong> <strong>ཨ</strong> <strong>ི</strong> <strong>ུ</strong> <strong>ེ</strong> <strong>ོ</strong> <strong>ྐ</strong> <strong>ྑ</strong> <strong>ྒ</strong> <strong>ྔ</strong> <strong>ྗ</strong> <strong>ྙ</strong> <strong>ྟ</strong> <strong>ྠ</strong> <strong>ྡ</strong> <strong>ྣ</strong> <strong>ྤ</strong> <strong>ྥ</strong> <strong>ྦ</strong> <strong>ྨ</strong> <strong>ྩ</strong> <strong>ྪ</strong> <strong>ྫ</strong> <strong>ྭ</strong> <strong>ྱ</strong> <strong>ྲ</strong> <strong>ླ</strong> <strong>ྵ</strong> <strong>ྶ</strong> <strong>ྷ</strong> </td><td>☑︎</td></tr>

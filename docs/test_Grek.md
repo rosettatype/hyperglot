@@ -1,13 +1,16 @@
 ---
 layout: default
 permalink: test_Grek
+title: Greek-script languages (comparison)
 ---
 
-<h1>Greek-script languages (comparison)</h1>
+# Greek-script languages (comparison)
 
-<p>Selected character-set databases (CLDR, Latin Plus) juxtaposed next to Rosetta’s Langs DB. When comparing, characters that are included in “Rosetta (base)” are marked grey, any additional characters are marked red. Only “base” fields are compared. The third column indicates the status of the field.<p>
+Selected character-set databases (CLDR, Latin Plus) juxtaposed next to Rosetta’s Langs DB. When comparing, characters that are included in “Rosetta (base)” are marked grey, any additional characters are marked red. Only “base” fields are compared. The third column indicates the status of the field.
 
-<h2>Modern Greek (1453-) (ell)</h2>
+**Total:** 1 language(s)
+
+## Modern Greek (1453-) (ell)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>ΐ</strong> <strong>ά</strong> <strong>έ</strong> <strong>ή</strong> <strong>ί</strong> <strong>ΰ</strong> <strong>α</strong> <strong>β</strong> <strong>γ</strong> <strong>δ</strong> <strong>ε</strong> <strong>ζ</strong> <strong>η</strong> <strong>θ</strong> <strong>ι</strong> <strong>κ</strong> <strong>λ</strong> <strong>μ</strong> <strong>ν</strong> <strong>ξ</strong> <strong>ο</strong> <strong>π</strong> <strong>ρ</strong> <strong>ς</strong> <strong>σ</strong> <strong>τ</strong> <strong>υ</strong> <strong>φ</strong> <strong>χ</strong> <strong>ψ</strong> <strong>ω</strong> <strong>ϊ</strong> <strong>ϋ</strong> <strong>ό</strong> <strong>ύ</strong> <strong>ώ</strong> </td><td>☑︎</td></tr>

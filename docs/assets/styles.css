@@ -97,13 +97,13 @@ th {
 
 /* Markup */
 
-span {
+td span {
   color: #ddd;
   font-style: normal;
   font-weight: normal;
 }
 
-strong {
+td strong {
   color: rgb(195, 0, 0);
   font-style: normal;
   font-weight: bold;

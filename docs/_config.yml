@@ -1,0 +1,16 @@
+# Permalinks
+
+# Setup
+title: Rosetta’s database of languages
+description: A database of languages and characters required for their representation.
+url: http://github.rosettatype.com/langs-db/
+baseurl: ""
+
+# About/contact
+author:
+  name: Rosetta
+  url: https://rosettatype.com
+  email: info@rosettatype.com
+
+# Build settings
+markdown: kramdown

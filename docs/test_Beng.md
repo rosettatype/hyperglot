@@ -1,13 +1,16 @@
 ---
 layout: default
 permalink: test_Beng
+title: Bengali-script languages (comparison)
 ---
 
-<h1>Bengali-script languages (comparison)</h1>
+# Bengali-script languages (comparison)
 
-<p>Selected character-set databases (CLDR, Latin Plus) juxtaposed next to Rosetta’s Langs DB. When comparing, characters that are included in “Rosetta (base)” are marked grey, any additional characters are marked red. Only “base” fields are compared. The third column indicates the status of the field.<p>
+Selected character-set databases (CLDR, Latin Plus) juxtaposed next to Rosetta’s Langs DB. When comparing, characters that are included in “Rosetta (base)” are marked grey, any additional characters are marked red. Only “base” fields are compared. The third column indicates the status of the field.
 
-<h2>Assamese (asm)</h2>
+**Total:** 2 language(s)
+
+## Assamese (asm)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>ঁ</strong> <strong>ং</strong> <strong>ঃ</strong> <strong>অ</strong> <strong>আ</strong> <strong>ই</strong> <strong>ঈ</strong> <strong>উ</strong> <strong>ঊ</strong> <strong>ঋ</strong> <strong>এ</strong> <strong>ঐ</strong> <strong>ও</strong> <strong>ঔ</strong> <strong>ক</strong> <strong>খ</strong> <strong>গ</strong> <strong>ঘ</strong> <strong>ঙ</strong> <strong>চ</strong> <strong>ছ</strong> <strong>জ</strong> <strong>ঝ</strong> <strong>ঞ</strong> <strong>ট</strong> <strong>ঠ</strong> <strong>ড</strong> <strong>ঢ</strong> <strong>ণ</strong> <strong>ত</strong> <strong>থ</strong> <strong>দ</strong> <strong>ধ</strong> <strong>ন</strong> <strong>প</strong> <strong>ফ</strong> <strong>ব</strong> <strong>ভ</strong> <strong>ম</strong> <strong>য</strong> <strong>ল</strong> <strong>শ</strong> <strong>ষ</strong> <strong>স</strong> <strong>হ</strong> <strong>়</strong> <strong>া</strong> <strong>ি</strong> <strong>ী</strong> <strong>ু</strong> <strong>ূ</strong> <strong>ৃ</strong> <strong>ে</strong> <strong>ৈ</strong> <strong>ো</strong> <strong>ৌ</strong> <strong>্</strong> <strong>ৰ</strong> <strong>ৱ</strong> </td><td>☑︎</td></tr>
@@ -16,7 +19,7 @@ permalink: test_Beng
 <tr><th>cldr (punctuation):</th><td><strong>!</strong> <strong>"</strong> <strong>#</strong> <strong>&</strong> <strong>'</strong> <strong>(</strong> <strong>)</strong> <strong>*</strong> <strong>,</strong> <strong>-</strong> <strong>.</strong> <strong>/</strong> <strong>:</strong> <strong>;</strong> <strong>?</strong> <strong>@</strong> <strong>[</strong> <strong>]</strong> <strong>§</strong> <strong>।</strong> <strong>‐</strong> <strong>–</strong> <strong>—</strong> <strong>‘</strong> <strong>’</strong> <strong>“</strong> <strong>”</strong> <strong>†</strong> <strong>‡</strong> <strong>…</strong> <strong>′</strong> <strong>″</strong> </td><td>☑︎</td></tr>
  </table>
 
-<h2>Bengali (ben)</h2>
+## Bengali (ben)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>ঁ</strong> <strong>ং</strong> <strong>ঃ</strong> <strong>অ</strong> <strong>আ</strong> <strong>ই</strong> <strong>ঈ</strong> <strong>উ</strong> <strong>ঊ</strong> <strong>ঋ</strong> <strong>ঌ</strong> <strong>এ</strong> <strong>ঐ</strong> <strong>ও</strong> <strong>ঔ</strong> <strong>ক</strong> <strong>খ</strong> <strong>গ</strong> <strong>ঘ</strong> <strong>ঙ</strong> <strong>চ</strong> <strong>ছ</strong> <strong>জ</strong> <strong>ঝ</strong> <strong>ঞ</strong> <strong>ট</strong> <strong>ঠ</strong> <strong>ড</strong> <strong>ঢ</strong> <strong>ণ</strong> <strong>ত</strong> <strong>থ</strong> <strong>দ</strong> <strong>ধ</strong> <strong>ন</strong> <strong>প</strong> <strong>ফ</strong> <strong>ব</strong> <strong>ভ</strong> <strong>ম</strong> <strong>য</strong> <strong>র</strong> <strong>ল</strong> <strong>শ</strong> <strong>ষ</strong> <strong>স</strong> <strong>হ</strong> <strong>়</strong> <strong>ঽ</strong> <strong>া</strong> <strong>ি</strong> <strong>ী</strong> <strong>ু</strong> <strong>ূ</strong> <strong>ৃ</strong> <strong>ৄ</strong> <strong>ে</strong> <strong>ৈ</strong> <strong>ো</strong> <strong>ৌ</strong> <strong>্</strong> <strong>ৎ</strong> <strong>ৗ</strong> <strong>ৠ</strong> <strong>ৡ</strong> <strong>ৢ</strong> <strong>ৣ</strong> <strong>৺</strong> </td><td>☑︎</td></tr>

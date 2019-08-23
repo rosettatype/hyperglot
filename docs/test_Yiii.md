@@ -1,13 +1,16 @@
 ---
 layout: default
 permalink: test_Yiii
+title: Yi-script languages (comparison)
 ---
 
-<h1>Yi-script languages (comparison)</h1>
+# Yi-script languages (comparison)
 
-<p>Selected character-set databases (CLDR, Latin Plus) juxtaposed next to Rosetta’s Langs DB. When comparing, characters that are included in “Rosetta (base)” are marked grey, any additional characters are marked red. Only “base” fields are compared. The third column indicates the status of the field.<p>
+Selected character-set databases (CLDR, Latin Plus) juxtaposed next to Rosetta’s Langs DB. When comparing, characters that are included in “Rosetta (base)” are marked grey, any additional characters are marked red. Only “base” fields are compared. The third column indicates the status of the field.
 
-<h2>Sichuan Yi (iii)</h2>
+**Total:** 1 language(s)
+
+## Sichuan Yi (iii)
 
 <table>
  <tr><th>cldr (base):</th><td><strong>-</strong> <strong>ꀀ</strong> <strong>ꒌ</strong> </td><td>☑︎</td></tr>
