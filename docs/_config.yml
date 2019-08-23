@@ -1,0 +1,14 @@
+# Permalinks
+
+# Setup
+title: Rosetta’s database of languages
+description: Rosetta’s database of languages
+
+# About/contact
+author:
+  name: Rosetta
+  url: https://rosettatype.com
+  email: info@rosettatype.com
+
+# Build settings
+markdown: kramdown

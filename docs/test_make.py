@@ -8,13 +8,14 @@ import sys
 from collections import OrderedDict
 sys.path.insert(0, "..")
 from custom_yaml import load_yaml
+from readers import SCRIPT_TAGS
 
 
 def comparison(r, s):
     o = ""
     for c in s.split(" "):
         if c in r:
-            o += "<em>%s</em> " % c
+            o += "<span>%s</span> " % c
         else:
             o += "<strong>%s</strong> " % c
     return o
@@ -33,21 +34,19 @@ db["cldr"] = load_yaml(os.path.join("..", "data", "cldr.yaml"))
 db["rstt"] = load_yaml(os.path.join("..", "data", "rosetta_old.yaml"))
 
 # merge data together
-for script in ["Latn", "Cyrl", "Grek"]:
+for script_name, script in SCRIPT_TAGS.items():
     html = ""
     html += "---\n"
     html += "layout: default\n"
-    html += "permalink: /\n"
+    html += "permalink: test_%s\n" % script
     html += "---\n\n"
-    html += "# %s-script languages\n\n" % script
+    html += "# %s-script languages\n\n" % script_name.title()
     html += "Selected character-set databases (CLDR, Latin Plus) "
     html += "juxtaposed next to Rosetta’s Langs DB. When comparing, "
     html += "characters that are included in “Rosetta (base)” "
     html += "are marked grey, any additional characters are marked red. "
     html += "Only “base” fields are compared. "
-    html += "The third column indicates whether the field is “todo” (grey) "
-    html += "or “done” (green). In case of CLDR, grey refers to draft "
-    html += "having been “contributed”.\n\n"
+    html += "The third column indicates the status of the field.\n\n"
 
     # get a super-set of all ISO codes
     isos = set()
@@ -72,15 +71,16 @@ for script in ["Latn", "Cyrl", "Grek"]:
                             tab += "<tr><th>%s (%s):</th><td>%s</td>" % (dbk, t, comparison(r, chars))
                         # status
                         if dbk == "rstt":
-                            tab += "<td class='%s'></td></tr>\n" % db[dbk][script][iso]["status"]
+                            s = (db[dbk][script][iso]["status"] == "done")
                         elif dbk == "cldr":
                             drafts = db[dbk][script][iso]["draft"].split(",")
+                            s = -1
                             if i < len(drafts):
-                                tab += "<td class='%s'></td></tr>\n" % drafts[i]
-                            else:
-                                tab += "<td class='unknown'></td></tr>\n"
+                                s = not (drafts[i] == "contributed")
                         else:
-                            tab += "<td class='done'></td></tr>\n"
+                            s = 1
+                        s = ["☒", "☑︎", "☐"][s]
+                        tab += "<td>%s</td></tr>\n" % s
         if all_chars.strip():
             html += "## %s (%s)\n\n" % (iso_639_3[iso]["names"][0], iso)
             html += "<table>\n %s </table>\n\n" % tab
