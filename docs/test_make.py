@@ -35,18 +35,19 @@ db["rstt"] = load_yaml(os.path.join("..", "data", "rosetta_old.yaml"))
 
 # merge data together
 for script_name, script in SCRIPT_TAGS.items():
+    frnt = ""
+    frnt += "---\n"
+    frnt += "layout: default\n"
+    frnt += "permalink: test_%s\n" % script
+    frnt += "---\n\n"
     html = ""
-    html += "---\n"
-    html += "layout: default\n"
-    html += "permalink: test_%s\n" % script
-    html += "---\n\n"
-    html += "# %s-script languages\n\n" % script_name.title()
-    html += "Selected character-set databases (CLDR, Latin Plus) "
+    html += "<h1>%s-script languages (comparison)</h1>\n\n" % script_name.title()
+    html += "<p>Selected character-set databases (CLDR, Latin Plus) "
     html += "juxtaposed next to Rosetta’s Langs DB. When comparing, "
     html += "characters that are included in “Rosetta (base)” "
     html += "are marked grey, any additional characters are marked red. "
     html += "Only “base” fields are compared. "
-    html += "The third column indicates the status of the field.\n\n"
+    html += "The third column indicates the status of the field.<p>\n\n"
 
     # get a super-set of all ISO codes
     isos = set()
@@ -82,9 +83,17 @@ for script_name, script in SCRIPT_TAGS.items():
                         s = ["☒", "☑︎", "☐"][s]
                         tab += "<td>%s</td></tr>\n" % s
         if all_chars.strip():
-            html += "## %s (%s)\n\n" % (iso_639_3[iso]["names"][0], iso)
+            html += "<h2>%s (%s)</h2>\n\n" % (iso_639_3[iso]["names"][0], iso)
             html += "<table>\n %s </table>\n\n" % tab
 
-    # save to MD file
+    # save to MD
     with open("test_%s.md" % script, "w", encoding="utf-8") as f:
-        f.write(html)
+        f.write(frnt + html)
+
+    # save to HTML
+    with open("_layouts/template.html", "r", encoding="utf-8") as f:
+        page = f.read()
+        page = page.replace("{{ title }}", "%s-script languages (comparison)" % script_name.title())
+        page = page.replace("{{ content }}", html)
+    with open("test_%s.html" % script, "w", encoding="utf-8") as f:
+        f.write(page)
