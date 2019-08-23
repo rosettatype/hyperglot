@@ -168,7 +168,7 @@ Selected character-set databases (CLDR, Latin Plus) juxtaposed next to Rosetta�
 ## Montenegrin (cnr)
 
 <table>
- <tr><th>rstt (base):</th><td>а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ђ ј љ њ ћ џ ́</td><td>🔴</td></tr>
+ <tr><th>rstt (base):</th><td>́ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ђ ј љ њ ћ џ</td><td>🔴</td></tr>
  </table>
 
 ## Crimean Tatar (crh)
@@ -544,7 +544,7 @@ Selected character-set databases (CLDR, Latin Plus) juxtaposed next to Rosetta�
 ## Serbian (srp)
 
 <table>
- <tr><th>rstt (base):</th><td>а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ђ ј љ њ ћ џ ́</td><td>🔴</td></tr>
+ <tr><th>rstt (base):</th><td>́ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ђ ј љ њ ћ џ ‌</td><td>🔴</td></tr>
 <tr><th>cldr (base):</th><td><span>а</span> <span>б</span> <span>в</span> <span>г</span> <span>д</span> <span>е</span> <span>ж</span> <span>з</span> <span>и</span> <span>к</span> <span>л</span> <span>м</span> <span>н</span> <span>о</span> <span>п</span> <span>р</span> <span>с</span> <span>т</span> <span>у</span> <span>ф</span> <span>х</span> <span>ц</span> <span>ч</span> <span>ш</span> <span>ђ</span> <span>ј</span> <span>љ</span> <span>њ</span> <span>ћ</span> <span>џ</span> </td><td>⚫️</td></tr>
 <tr><th>cldr (auxiliary):</th><td><strong>̂</strong> <span>а</span> <span>е</span> <span>и</span> <span>й</span> <span>о</span> <span>у</span> <span>щ</span> <span>ъ</span> <span>ы</span> <span>ь</span> <span>э</span> <span>ю</span> <span>я</span> <strong>ё</strong> </td><td>⚫️</td></tr>
 <tr><th>cldr (numbers):</th><td><strong>%</strong> <strong>+</strong> <strong>,</strong> <strong>-</strong> <strong>.</strong> <strong>0</strong> <strong>1</strong> <strong>2</strong> <strong>3</strong> <strong>4</strong> <strong>5</strong> <strong>6</strong> <strong>7</strong> <strong>8</strong> <strong>9</strong> <strong>‰</strong> </td><td>⚫️</td></tr>

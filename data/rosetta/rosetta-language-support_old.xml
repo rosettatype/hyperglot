@@ -847,11 +847,11 @@
 	<characters type="required">АБВГДЕЁЖЗИЙКЛМНОӨПРСТУҮФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмноөпрстуүфхцчшщъыьэюя</characters>
 </language>
 <language iso-639-3="srp" name="Serbian" script="Cyrl" status="todo" tag="?">
-	<characters type="required">АБВГДЂЕЖЗИЈКЛЉМНЊОПРСТЋУФХЦЧЏШабвгдђежзијклљмнњопрстћуфхцчџш</characters>
+	<characters type="required">АБВГДЂЕЖЗИЈКЛЉМНЊОПРСТЋУФХЦЧЏШабвгдђежзијклљмнњопрстћуфхцчџш ́ </characters>
 	<characters type="combinations">{з́}{с́}</characters>
 </language>
 <language iso-639-3="cnr" name="Montenegrin" script="Cyrl" status="todo" tag="?">
-	<characters type="required">АБВГДЂЕЖЗИЈКЛЉМНЊОПРСТЋУФХЦЧЏШабвгдђежзијклљмнњопрстћуфхцчџш</characters>
+	<characters type="required">АБВГДЂЕЖЗИЈКЛЉМНЊОПРСТЋУФХЦЧЏШабвгдђежзијклљмнњопрстћуфхцчџш ́ </characters>
 	<characters type="combinations">{з́}{с́}</characters>
 </language>
 <language iso-639-3="gld" name="Nanai" script="Cyrl" status="todo" tag="?">
