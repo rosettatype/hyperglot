@@ -104,12 +104,27 @@ def parse_unicode_set(s):
 
     # strip brackets
     s = s.lstrip("[").rstrip("]")
-    # unicode codepoint escapes - todo (some are done automatically)
+    # unicode codepoint escapes
     s = re.sub(r"\\U(........)", repl, s)
     s = re.sub(r"\\u(....)", repl, s)
     s = re.sub(r"\\x(..)", repl, s)
 
-    # ranges - todo (currently only used for Chinese, Japanese etc.)
+    # ranges
+    s_ = ""
+    for i, c in enumerate(s):
+        if c == "-":
+            prv = s[i - 1]
+            nxt = s[i + 1]
+            if prv not in " \\" and nxt != " ":
+                # exclude the border characters
+                # include only the characters in between
+                for x in range(ord(prv) + 1, ord(nxt)):
+                    s_ += chr(x)
+            else:
+                s_ += c
+        else:
+            s_ += c
+    s = s_
 
     # escapes
     for k, v in KNOWN_ESCAPES.items():
@@ -122,8 +137,8 @@ def parse_unicode_set(s):
     s = sorted(list(set(s)))
     # join back into strings
     s = " ".join(s)
-    c = " ".join(combinations)
-    return s, c
+    combinations = " ".join(combinations)
+    return s, combinations
 
 
 def to_lc(mix, script="Latn"):

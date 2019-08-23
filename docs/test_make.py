@@ -48,7 +48,8 @@ for script_name, script in SCRIPT_TAGS.items():
     html += "characters that are included in “Rosetta (base)” "
     html += "are marked grey, any additional characters are marked red. "
     html += "Only “base” fields are compared. "
-    html += "The third column indicates the status of the field.\n\n"
+    html += "The third column indicates the status of the field "
+    html += "(🔴 = draft/contributed/todo, ⚫️ = done, ⚪️ = unkown).\n\n"
 
     # get a super-set of all ISO codes
     isos = set()
@@ -82,7 +83,7 @@ for script_name, script in SCRIPT_TAGS.items():
                                 s = not (drafts[i] == "contributed")
                         else:
                             s = 1
-                        s = ["☒", "☑︎", "☐"][s]
+                        s = ["🔴", "⚫️", "⚪️"][s]
                         tab += "<td>%s</td></tr>\n" % s
         if all_chars.strip():
             html += "## %s (%s)\n\n" % (iso_639_3[iso]["names"][0], iso)
