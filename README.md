@@ -1,5 +1,5 @@
-# Langs DB
+# Rosetta’s database of languages
 
 A database of languages and characters required for their representation.
 
-**This is a work in progress!**
+**A work in progress!**
