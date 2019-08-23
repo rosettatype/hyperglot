@@ -109,6 +109,7 @@ frnt += "permalink: /\n"
 frnt += "---\n\n"
 html = ""
 html += "# Rosetta’s language database\n\n"
+html += "Partially based on Unicode CLDR, Underware’s Latin Plus and other sources.\n\n"
 for script_name, script in SCRIPT_TAGS.items():
     html += "- [%s-script languages (comparison)](test_%s)\n" % (script_name.title(), script)
 # save to MD

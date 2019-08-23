@@ -5,6 +5,8 @@ permalink: /
 
 # Rosetta’s language database
 
+Partially based on Unicode CLDR, Underware’s Latin Plus and other sources.
+
 - [Arabic-script languages (comparison)](test_Arab)
 - [Armenian-script languages (comparison)](test_Armn)
 - [Bengali-script languages (comparison)](test_Beng)
