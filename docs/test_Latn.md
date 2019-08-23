@@ -1,22 +1,9 @@
-<!DOCTYPE html>
-<html>
+---
+layout: default
+permalink: test_Latn
+---
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <title>
-      Latin-script languages (comparison)
-    </title>
-
-    <link rel="stylesheet" href="/assets/styles.css">
-
-</head>
-
-<body>
-  <section>
-    <h1>Latin-script languages (comparison)</h1>
+<h1>Latin-script languages (comparison)</h1>
 
 <p>Selected character-set databases (CLDR, Latin Plus) juxtaposed next to Rosetta’s Langs DB. When comparing, characters that are included in “Rosetta (base)” are marked grey, any additional characters are marked red. Only “base” fields are compared. The third column indicates the status of the field.<p>
 
@@ -2453,7 +2440,3 @@
 <tr><th>latin_plus (base):</th><td><span>a</span> <span>b</span> <span>c</span> <span>d</span> <span>e</span> <span>f</span> <span>g</span> <span>h</span> <span>i</span> <span>j</span> <span>k</span> <span>l</span> <span>m</span> <span>n</span> <span>o</span> <span>p</span> <span>q</span> <span>r</span> <span>s</span> <span>t</span> <span>u</span> <span>v</span> <span>w</span> <span>x</span> <span>y</span> <span>z</span> <span>ł</span> </td><td>☑︎</td></tr>
  </table>
 
-
-  </section>
-</body>
-</html>
