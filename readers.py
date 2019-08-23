@@ -154,6 +154,23 @@ def to_lc(mix, script="Latn"):
     return " ".join(sorted(list(lc)))
 
 
+def iso_from_cldr(code, iso_639_3):
+    """
+    Get ISO 639-3 code for a corresponding CLDR code.
+    """
+
+    code_ = code.split("-")[0]
+    if code_ in iso_639_3.keys():
+        return code_
+    else:
+        for iso, r in iso_639_3.items():
+            if code_ == r["639-2B"]:
+                return iso
+            elif code_ == r["639-2T"]:
+                return iso
+            elif code_ == r["639-1"]:
+                return iso
+
 def read_iso_639_3(path):
     """
     Read .tab file for ISO 639-3 and return a dict
@@ -353,7 +370,9 @@ def read_cldr(path, iso_639_3):
                 script = guess_script(code, lang["characters"]["base"])
             lang["script"] = script
 
-            return lang
+            return lang, script
+        else:
+            return None, None
 
     cldr = OrderedDict()
     paths = os.path.join(path, "*.xml")
@@ -368,56 +387,42 @@ def read_cldr(path, iso_639_3):
             regi_paths.append((path, code))
     # process the main paths first
     for path, code in main_paths + regi_paths:
-        lang = read_cldr_file(path, code)
+        lang, script = read_cldr_file(path, code)
         if lang:
+            # convert the default language "root" to "und"
+            if code == "root":
+                code = "und"
             codes = code.split("-")
-            if len(codes) == 1 or (len(codes) == 2 and len(codes[1]) == 4):
-                cldr[code] = lang
-            else:
-                # regional version
-                # merge with non-regional version
-                # en-US-POSIX is an exception, dropping POSIX
-                if "POSIX" == codes[-1]:
-                    codes = codes[0:-1]
-                code = "-".join(codes[0:-1])
-                if code in cldr:
-                    for k, v in lang["characters"].items():
-                        v_ = v.replace(" ", "")
-                        if v_ != "":
-                            if k in cldr[code]["characters"]:
-                                c1 = set(cldr[code]["characters"][k].replace(" ", ""))
-                                c2 = set(v_)
-                                both = " ".join(sorted(list(c1.union(c2))))
-                                cldr[code]["characters"][k] = both
-                            else:
-                                cldr[code]["characters"][k] = v
+            if script not in cldr:
+                cldr[script] = OrderedDict()
+            iso = iso_from_cldr(code, iso_639_3)
+            lang["cldr_codes"] = [code]
+            lang["name"] = iso_639_3[iso]["names"][0]
+            if iso:
+                if len(codes) == 1 or (len(codes) == 2 and len(codes[1]) == 4):
+                    # store the main variant
+                    cldr[script][iso] = lang
                 else:
-                    cldr[code] = lang
-
-    # normalize default language and add language names from ISO
-    if "root" in cldr:
-        cldr["und"] = cldr["root"]
-        del cldr["root"]
-    # get ISO 639-3 code and name
-    code_ = code.split("-")[0]
-    iso = None
-    if code_ in iso_639_3:
-        iso = code
-    else:
-        for r in iso_639_3.values():
-            if code_ in r["639-2B"]:
-                iso = r["639-2B"]
-            elif code_ in r["639-2T"]:
-                iso = r["639-2T"]
-            elif code_ in r["639-1"]:
-                iso = r["639-1"]
-    if code in cldr:
-        if iso is not None:
-            cldr[code]["iso-639-3"] = iso
-            cldr[code]["name"] = iso_639_3[iso]["names"][0]
-        else:
-            logging.error("Could not find ISO 639-3 code for CLDR code %s"
-                          % code)
+                    # the main variant has been already stored
+                    # now adding code and characters from the
+                    # regional variants to it
+                    if iso in cldr:
+                        cldr[script][iso]["cldr_codes"] += [code]
+                        for k, v in lang["characters"].items():
+                            v_ = v.replace(" ", "")
+                            if v_ != "":
+                                if k in cldr[script][iso]["characters"]:
+                                    c1 = set(cldr[script][iso]["characters"][k].replace(" ", ""))
+                                    c2 = set(v_)
+                                    both = " ".join(sorted(list(c1.union(c2))))
+                                    cldr[script][iso]["characters"][k] = both
+                                else:
+                                    cldr[script][iso]["characters"][k] = v
+                    else:
+                        cldr[script][iso] = lang
+            else:
+                logging.error("Could not find ISO 639-3 code for CLDR code %s"
+                              % code)
     return cldr
 
 
@@ -455,7 +460,10 @@ def read_rosetta(path, iso_639_3={}):
                 # no need for conversion to LC here
                 lang["characters"][chars.attrib["type"]] = chars.text
         if "status" in lr.attrib:
-            lang["status"] = lr.attrib["status"]
+            if lr.attrib["status"] in ["todo", "beta"]:
+                lang["status"] = "todo"
+            else:
+                lang["status"] = "done"
         rstt[script][code] = lang
     return rstt
 
@@ -466,17 +474,17 @@ if __name__ == '__main__':
     iso_639_3 = read_iso_639_3(path)
     save_yaml(iso_639_3, os.path.join("data", "iso-639-3.yaml"))
 
-    # Save ISO 639-3 retirements to YAML
-    path = os.path.join("data", "iso-639-3",
-                        "iso-639-3_Retirements_20190408.tab")
-    iso_639_3_retirements = read_iso_639_3_retirements(path)
-    save_yaml(iso_639_3_retirements, os.path.join("data", "iso-639-3_retirements.yaml"))
+    # # Save ISO 639-3 retirements to YAML
+    # path = os.path.join("data", "iso-639-3",
+    #                     "iso-639-3_Retirements_20190408.tab")
+    # iso_639_3_retirements = read_iso_639_3_retirements(path)
+    # save_yaml(iso_639_3_retirements, os.path.join("data", "iso-639-3_retirements.yaml"))
 
-    # Save Latin Plus to YAML
-    path = os.path.join("data", "latin-plus",
-                        "underware-latin-plus-data_1.txt")
-    latin_plus = read_latin_plus(path)
-    save_yaml(latin_plus, os.path.join("data", "latin-plus.yaml"))
+    # # Save Latin Plus to YAML
+    # path = os.path.join("data", "latin-plus",
+    #                     "underware-latin-plus-data_1.txt")
+    # latin_plus = read_latin_plus(path)
+    # save_yaml(latin_plus, os.path.join("data", "latin-plus.yaml"))
 
     # Save CLDR to YAML
     path = os.path.join("data", "cldr", "common", "main")

@@ -98,7 +98,7 @@ th {
 /* Markup */
 
 em {
-  color: #ccc;
+  color: #ddd;
   font-style: normal;
   font-weight: normal;
 }
@@ -109,11 +109,11 @@ strong {
   font-weight: bold;
 }
 
-.todo, .done, .beta, .contributed {
+.todo, .contributed, .done {
   width: 2em;
 }
 
-.todo, .beta, .contributed {
+.todo, .contributed {
   background-color: #ccc;
 }
 

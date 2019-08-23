@@ -22,7 +22,7 @@ Latn:
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    status: beta
+    status: todo
   afr:
     name: Afrikaans
     script: Latn
@@ -101,7 +101,7 @@ Latn:
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ç ö ü ğ İ ı ş ə
-    status: beta
+    status: todo
   bak:
     name: Bashkir
     script: Latn
@@ -245,7 +245,7 @@ Latn:
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z á å æ é í ó ø ú ý
         ǻ ǽ ǿ
-    status: beta
+    status: todo
   aoz:
     name: Uab Meto
     script: Latn
@@ -285,7 +285,7 @@ Latn:
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z á æ ç è é ê ë ï ñ
         ô ö œ
-    status: beta
+    status: todo
   epo:
     name: Esperanto
     script: Latn
@@ -374,7 +374,7 @@ Latn:
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ß à ä é ö ü
-    status: beta
+    status: todo
   kik:
     name: Kikuyu
     script: Latn
@@ -442,7 +442,7 @@ Latn:
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ó ö ú ü ő ű
-    status: beta
+    status: todo
   haa:
     name: Han
     script: Latn
