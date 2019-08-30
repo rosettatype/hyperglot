@@ -37,6 +37,7 @@ db["latin_plus"] = OrderedDict()
 db["latin_plus"]["Latn"] = load_yaml(os.path.join("..", "data", "latin-plus.yaml"))
 db["cldr"] = load_yaml(os.path.join("..", "data", "cldr.yaml"))
 db["rstt"] = load_yaml(os.path.join("..", "data", "rosetta_old.yaml"))
+db["avst"] = load_yaml(os.path.join("..", "data", "alvestrand.yaml"))
 
 # merge data together
 for script_name, script in SCRIPT_TAGS.items():
@@ -48,7 +49,7 @@ for script_name, script in SCRIPT_TAGS.items():
     frnt += "---\n\n"
     html = ""
     html += "# %s-script languages (comparison)\n\n" % script_name.title()
-    html += "Selected character-set databases (CLDR, Latin Plus) "
+    html += "Selected character-set databases (CLDR, Latin Plus, Alvestrand) "
     html += "juxtaposed next to Rosetta’s Langs DB. When comparing, "
     html += "characters that are included in “Rosetta (base)” "
     html += "are marked grey, any additional characters are marked red. "
@@ -58,7 +59,7 @@ for script_name, script in SCRIPT_TAGS.items():
 
     # get a super-set of all ISO codes
     isos = set()
-    for dbk in ["rstt", "latin_plus", "cldr"]:
+    for dbk in ["rstt", "latin_plus", "cldr", "avst"]:
         if script in db[dbk]:
             isos = isos.union(set(db[dbk][script].keys()))
     html += "**Total:** %d language(s)\n\n" % len(isos)
@@ -66,7 +67,7 @@ for script_name, script in SCRIPT_TAGS.items():
         all_chars = ""
         tab = ""
         r = ""
-        for dbk in ["rstt", "latin_plus", "cldr"]:
+        for dbk in ["rstt", "latin_plus", "cldr", "avst"]:
             if (script in db[dbk]) and (iso in db[dbk][script]):
                 for i, t in enumerate(["base", "auxiliary", "numbers", "punctuation"]):
                     if t in db[dbk][script][iso]["characters"]:

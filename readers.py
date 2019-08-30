@@ -12,6 +12,7 @@ import re
 import unicodedata
 import xml.etree.ElementTree as ET
 from collections import OrderedDict
+from copy import copy
 from custom_yaml import save_yaml
 
 
@@ -141,7 +142,7 @@ def parse_unicode_set(s):
     return s, combinations
 
 
-def to_lc(mix, script="Latn"):
+def to_lc(mix, script="Latn", append=True):
     """
     Save only LC versions of glyphs, add the default set for a script.
     """
@@ -156,16 +157,19 @@ def to_lc(mix, script="Latn"):
         elif c == "İ":
             # Account for Idotaccent
             lc += [c]
-        elif c.isupper():
+        elif c.isupper() and c.lower() in mix:
             pass
+        elif c.isupper():
+            lc += [c.lower()]
         else:
             lc += [c]
     lc = set(lc)
     # add basic characters
-    if script == "Latn":
-        lc = lc.union(az)
-    elif script == "Cyrl":
-        lc = lc.union(aya)
+    if append:
+        if script == "Latn":
+            lc = lc.union(az)
+        elif script == "Cyrl":
+            lc = lc.union(aya)
     return " ".join(sorted(list(lc)))
 
 
@@ -483,23 +487,188 @@ def read_rosetta(path, iso_639_3={}):
     return rstt
 
 
+def read_alvestrand(path, iso_639_3={}):
+    """
+    Read Alvestrand’s draft document in txt/plain
+    and save “required” characters to “base” and
+    “important” characters to “auxiliary”.
+    Some guesswork involved in getting the characters
+    that did not seem to have name/codepoint at the time
+    when he wrote it (see functin get_char and get_iso_code).
+    """
+
+    def get_char(ln):
+        """
+        Convert a line record to a unicode-string character
+        """
+
+        splt = ln.split("    ")
+        if len(splt) < 2:
+            # hard to parse lines are either guessed
+            # or ignored (not important lines)
+            if ln == "e` -":  # in Norwegian (Nynorsk)
+                return "è"
+            elif ln == "E` -":  # in Norwegian (Nynorsk)
+                return "È"
+            elif ln == "o` -":  # in Norwegian (Nynorsk)
+                return "ò"
+            elif ln == "O` -":  # in Norwegian (Nynorsk)
+                return "Ò"
+            elif ln == "KK -":  # in Greenlandic (capital Kra)
+                return None
+            elif ln == "-A -":  # in Spanish (capital feminine ordinal)
+                return None
+            elif ln == "-O -":  # in Spanish (capital masculine ordinal)
+                return None
+            else:
+                return None
+        else:
+            _, code = splt
+            code = code.strip()[:4]
+            return chr(int(code, 16))
+
+    def get_iso_code(name, code, iso_639_3):
+        """
+        Get iso 639-3 code.
+        """
+
+        for k, v in iso_639_3.items():
+            if name.title() in v["names"]:
+                return k
+            elif code in v["639-1"]:
+                return k
+            elif name == "Sami":
+                # Northern Sami
+                return "sme"
+            elif name == "Gaelic":
+                # Scottish Gaelic
+                return "gla"
+            elif name == "Sorbian":
+                # Upper Sorbian
+                return "hsb"
+            elif name == "Cyrillic":
+                # the Cyrillic script
+                # deleted after use, in the end
+                return "cyr"
+    i = 1  # chapter counter
+    langs = OrderedDict()
+    required = False
+    important = False
+    comment = False
+    with open(path, "r", encoding="utf-8") as f:
+        content_ = [ln.strip() for ln in f.readlines()]
+        content = []
+        for ln in content_:
+            if "name not known" in ln:
+                content += ln.split("name not known")
+            else:
+                content += [ln]
+    for ln in content:
+            ln = ln.strip()
+            if ln.startswith("3.%d" % i):
+                if i <= 48:
+                    _, code, name = ln.replace("  ", " ").split(" ")
+                    code = get_iso_code(name.strip(), code.strip(), iso_639_3)
+                    langs[code] = OrderedDict()
+                    langs[code]["characters"] = OrderedDict()
+                    langs[code]["characters"]["base"] = ""
+                    langs[code]["characters"]["auxiliary"] = ""
+                    langs[code]["comment"] = ""
+                    langs[code]["chapter"] = float("3.%d" % i)
+                    required = False
+                    important = False
+                    comment = False
+                    i += 1
+                else:
+                    break
+            elif ln.startswith("Required characters"):
+                required = True
+                important = False
+                comment = False
+            elif ln.startswith("Important characters"):
+                required = False
+                important = True
+                comment = False
+            elif ln.startswith("Comments"):
+                required = False
+                important = False
+                comment = True
+            elif ln.startswith("Character sets"):
+                required = False
+                important = False
+                comment = False
+            elif ln.startswith("Alvestrand") or \
+                 ln.startswith("draft") or \
+                 ln.startswith("This language has no known character set"):
+                pass
+            elif ln.startswith("Based on script listed as"):
+                ln = ln.replace("Based on script listed as", "").strip()
+                if ln.lower() == "latin":
+                    langs[code]["script"] = "Latn"
+                elif ln.lower() == "cyrillic":
+                    langs[code]["script"] = "Cyrl"
+            elif ln.startswith("4.  Other languages"):
+                break
+            elif required and ln != "":
+                c = get_char(ln)
+                if c:
+                    langs[code]["characters"]["base"] += c
+            elif important and ln != "":
+                c = get_char(ln)
+                if c:
+                    langs[code]["characters"]["auxiliary"] += get_char(ln)
+            elif comment and ln != "":
+                langs[code]["comment"] += ln + " "
+    # normalize character sets and structure
+    avst = OrderedDict()
+    avst["Latn"] = OrderedDict()
+    avst["Cyrl"] = OrderedDict()
+    for code, l in langs.items():
+        if "script" in l:
+            script = l["script"]
+            if script == "Latn":
+                l["characters"]["base"] += langs["lat"]["characters"]["base"]
+            if script == "Cyrl":
+                l["characters"]["base"] += langs["cyr"]["characters"]["base"]
+            del l["script"]
+        elif code == "lat":
+            # Latin language/scritp record
+            # -> add as language to the Latin script
+            script = "Latn"
+        elif code == "deu":
+            # fix uppercase SS
+            l["characters"]["base"] = l["characters"]["base"].replace("", "SS")
+        if l["comment"] == "":
+            del l["comment"]
+        l["characters"]["base"] = to_lc(l["characters"]["base"])
+        l["characters"]["auxiliary"] = to_lc(l["characters"]["auxiliary"], append=False)
+        # copy language under script
+        # ignore Cyrillic script record (cyr)
+        if code != "cyr":
+            avst[script][code] = l
+    # copy Upper Sorbian to Lower Sorbian
+    avst["Latn"]["dsb"] = copy(avst["Latn"]["hsb"])
+
+    return avst
+
+
 if __name__ == '__main__':
     # Save ISO 639-3 to YAML
     path = os.path.join("data", "iso-639-3", "iso-639-3_20190408.tab")
     iso_639_3 = read_iso_639_3(path)
     save_yaml(iso_639_3, os.path.join("data", "iso-639-3.yaml"))
 
-    # # Save ISO 639-3 retirements to YAML
-    # path = os.path.join("data", "iso-639-3",
-    #                     "iso-639-3_Retirements_20190408.tab")
-    # iso_639_3_retirements = read_iso_639_3_retirements(path)
-    # save_yaml(iso_639_3_retirements, os.path.join("data", "iso-639-3_retirements.yaml"))
+    # Save ISO 639-3 retirements to YAML
+    path = os.path.join("data", "iso-639-3",
+                        "iso-639-3_Retirements_20190408.tab")
+    iso_639_3_retirements = read_iso_639_3_retirements(path)
+    save_yaml(iso_639_3_retirements, os.path.join("data", "iso-639-3_retirements.yaml"))
 
-    # # Save Latin Plus to YAML
-    # path = os.path.join("data", "latin-plus",
-    #                     "underware-latin-plus-data_1.txt")
-    # latin_plus = read_latin_plus(path)
-    # save_yaml(latin_plus, os.path.join("data", "latin-plus.yaml"))
+    # Save Latin Plus to YAML
+    path = os.path.join("data", "latin-plus",
+                        "underware-latin-plus-data_1.txt")
+    latin_plus = read_latin_plus(path)
+    save_yaml(latin_plus, os.path.join("data", "latin-plus.yaml"))
 
     # Save CLDR to YAML
     path = os.path.join("data", "cldr", "common", "main")
@@ -510,3 +679,8 @@ if __name__ == '__main__':
     path = os.path.join("data", "rosetta", "rosetta-language-support_old.xml")
     rstt = read_rosetta(path, iso_639_3)
     save_yaml(rstt, os.path.join("data", "rosetta_old.yaml"))
+
+    # Save Alvestrand’s TXT draft to YAML
+    path = os.path.join("data", "alvestrand", "draft-alvestrand-lang-char-03.txt")
+    avst = read_alvestrand(path, iso_639_3)
+    save_yaml(avst, os.path.join("data", "alvestrand.yaml"))

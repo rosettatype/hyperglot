@@ -1,0 +1,287 @@
+Latn:
+  lat:
+    characters:
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+      auxiliary: ''
+    chapter: 3.1
+  eng:
+    characters:
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+      auxiliary: ''
+    chapter: 3.3
+  lit:
+    characters:
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z ą č ė ę į š ū ų ž
+      auxiliary: ''
+    chapter: 3.4
+  lav:
+    characters:
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā č ē ģ ī ķ ļ ņ ō
+        ŗ š ū ž
+      auxiliary: ''
+    chapter: 3.5
+  est:
+    characters:
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä õ ö ü š ž
+      auxiliary: ''
+    chapter: 3.6
+  fin:
+    characters:
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ö
+      auxiliary: ''
+    chapter: 3.7
+  sme:
+    characters:
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z á č đ ŋ š ŧ ž
+      auxiliary: â ä å æ é ë ï ö ø ü ń
+    comment: 'Information from Otto Prytz <otto.prytz@kri.uio.no>This information
+      is for the current Norwegian North Sami ortography of 1979.  The letters aa,
+      ae and o/ are in use for Norwegian/Swedish names, but not for Sami proper. a>
+      and n'' are no longer used. There is some doubt about whether e: and i: were
+      ever used, but they are listed by van Wingen. Information from regnorj@powertech.no
+      (Regnor Jernsletten): a'', c< and s< only occur at the beginning of words.  d/,
+      ng, t/ and z< occur only within words. a'' and n'' are used in Lule sami, together
+      with ae (in Norway) or a: (in Sweden). In South Sami, i: is used, together with
+      ae and o/ (in Norway) or a: and o: (in Sweden). a> is used in Skolte Sami, together
+      with g<, k< and o~.  Skolte sami also uses z and z<, but the Z is written much
+      like the number 3. Also, the letter "stungen g" (ISO code unknown) is used. '
+    chapter: 3.8
+  swe:
+    characters:
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä å ö
+      auxiliary: á é ë ü
+    chapter: 3.9
+  nor:
+    characters:
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z å æ ø
+      auxiliary: à è é ò ó ô ü ǎ
+    comment: 'Information from Johan van Wingen and Otto Prytz.The charactes e` and
+      o` are used in the "Nynorsk" sublanguage (information from Knut S. Vik�r <Knut.vikor@smi.uib.no> '
+    chapter: 3.1
+  dan:
+    characters:
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z å æ ø
+      auxiliary: á é í ó ú ý
+    chapter: 3.11
+  fao:
+    characters:
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z á æ í ð ó ø ú ý
+      auxiliary: ''
+    chapter: 3.12
+  isl:
+    characters:
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z á æ é í ð ó ö ú ý
+        þ
+      auxiliary: ''
+    chapter: 3.13
+  kal:
+    characters:
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z á â ã å æ é ê í î
+        ô ø ú û ĩ ĸ ũ
+      auxiliary: ''
+    chapter: 3.14
+  gla:
+    characters:
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á è é ì ò ó ù
+      auxiliary: ''
+    chapter: 3.15
+  gle:
+    characters:
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ó ú
+      auxiliary: ''
+    chapter: 3.16
+  cym:
+    characters:
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ä è é ê ë ì
+        í î ï ò ó ô ö ù ú û ü ý ÿ ŵ ŷ ẁ ẃ ẅ ỳ
+      auxiliary: ''
+    chapter: 3.17
+  bre:
+    characters:
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z ê ñ ù ü
+      auxiliary: ''
+    chapter: 3.18
+  fry:
+    characters:
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z â ä é ê ë ï ô ö ú
+        û ü
+      auxiliary: ''
+    chapter: 3.19
+  nld:
+    characters:
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z á ä é ë í ï ó ö ú
+        ü ĳ
+      auxiliary: ''
+    chapter: 3.2
+  afr:
+    characters:
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z á â è é ê ë î ï ô
+        ö û
+      auxiliary: ''
+    chapter: 3.21
+  deu:
+    characters:
+      base: "a b c d e f g h i j k l m n o p q r s t u v w x y z \x98 ß ä ö ü"
+      auxiliary: à é
+    comment: 'The "ss" character exists only in lower case; the upper case equivalentis
+      "SS" (2 letters). '
+    chapter: 3.22
+  fra:
+    characters:
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z à ç è é ù
+      auxiliary: â æ ê ë î ï ô û ü ÿ œ
+    comment: 'ae and y: are very uncommon in current French; there have been argumentsthat
+      all of the others should be "required". '
+    chapter: 3.23
+  cat:
+    characters:
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z à ç è é í ï ò ó ú
+        ü ŀ
+      auxiliary: ñ
+    comment: 'Information from van Wingen and Otto Prytz. '
+    chapter: 3.24
+  spa:
+    characters:
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z ¡ ¿ ñ
+      auxiliary: ª º á ç é í ó ú ü
+    comment: 'Note that this language also uses special punctuation marks.The accented
+      vowels may be mandatory; Spanish speakers who think they should be are encouraged
+      to speak up.  Information from Otto Prytz <otto.prytz@kri.uio.no> '
+    chapter: 3.25
+  glg:
+    characters:
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ñ ó ú ü
+      auxiliary: ''
+    chapter: 3.26
+  por:
+    characters:
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z ã ç õ
+      auxiliary: à á â é ê í ò ó ô ú ü
+    comment: 'Information from van Wingen and Otto Prytz '
+    chapter: 3.27
+  eus:
+    characters:
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z ç ñ
+      auxiliary: ''
+    chapter: 3.28
+  mlt:
+    characters:
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z à è ì î ò ù ċ ġ ħ
+        ż
+      auxiliary: ''
+    chapter: 3.29
+  ita:
+    characters:
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z à è é ì ò ó
+      auxiliary: í ï ù ú
+    comment: 'The accented characters appear only in the lower case variant inthe
+      Italian version of ISO 646 (ISO-IR-15). '
+    chapter: 3.3
+  roh:
+    characters:
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z à â è é ê î ò ô ö
+        ü
+      auxiliary: ''
+    comment: 'In van Wingen''s table, this appeared as "Rhaetian". '
+    chapter: 3.31
+  ron:
+    characters:
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z â î ă ş ţ
+      auxiliary: ''
+    chapter: 3.32
+  hun:
+    characters:
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ó ö ú ü ő ű
+      auxiliary: ''
+    chapter: 3.33
+  sqi:
+    characters:
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z ç ë
+      auxiliary: ''
+    chapter: 3.34
+  tur:
+    characters:
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z â ç î ö û ü ğ İ ı
+        ş
+      auxiliary: ''
+    comment: 'The dotless i is converted to a normal (dotless) I in uppercase; thedotted
+      (normal) lowercase I is converted into a dotted uppercase I. '
+    chapter: 3.35
+  hrv:
+    characters:
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z ć č đ š ž
+      auxiliary: ''
+    chapter: 3.36
+  slv:
+    characters:
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z č š ž
+      auxiliary: ''
+    chapter: 3.37
+  slk:
+    characters:
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z á ä é í ó ô ú ý č
+        ď ĺ ľ ň ŕ š ť ž
+      auxiliary: ''
+    chapter: 3.38
+  ces:
+    characters:
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ó ú ý č ď ě
+        ň ř š ť ů ž
+      auxiliary: ''
+    chapter: 3.39
+  pol:
+    characters:
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z ó ą ć ę ł ń ś ź ż
+      auxiliary: ''
+    chapter: 3.4
+  hsb:
+    characters: &id001
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z ó ć č ě ł ń ř ś š
+        ź ž
+      auxiliary: ''
+    chapter: 3.41
+  epo:
+    characters:
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z ĉ ĝ ĥ ĵ ŝ ŭ
+      auxiliary: ''
+    chapter: 3.42
+  dsb:
+    characters: *id001
+    chapter: 3.41
+Cyrl:
+  srp:
+    characters:
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z а б в г д е ж з и
+        к л м н о п р с т у ф х ц ч ш ђ ј љ њ ћ џ
+      auxiliary: ''
+    chapter: 3.43
+  mkd:
+    characters:
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z а б в г д е ж з и
+        к л м н о п р с т у ф х ц ч ш ѓ ѕ ј љ њ ќ џ
+      auxiliary: ''
+    chapter: 3.44
+  bul:
+    characters:
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z а б в г д е ж з и
+        й к л м н о п р с т у ф х ц ч ш щ ъ ь ю я
+      auxiliary: ''
+    chapter: 3.45
+  rus:
+    characters:
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z а б в г д е ж з и
+        к л м н о п р с т у ф х ц ч ш ы э ё
+      auxiliary: ''
+    chapter: 3.46
+  bel:
+    characters:
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z а б в г д е ж з и
+        к л м н о п р с т у ф х ц ч ш і ў
+      auxiliary: ''
+    chapter: 3.47
+  ukr:
+    characters:
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z а б в г д е ж з и
+        к л м н о п р с т у ф х ц ч ш є і ї ґ
+      auxiliary: ''
+    chapter: 3.48

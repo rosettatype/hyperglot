@@ -1184,7 +1184,7 @@ Latn:
     name: Turkmen
     script: Latn
     characters:
-      base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ç ö ü ň ş ž ș
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ç ö ü ý ň ş ž ș
     status: todo
   tvl:
     name: Tuvalu
@@ -1758,7 +1758,7 @@ Cyrl:
     script: Cyrl
     characters:
       base: ́ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ђ ј
-        љ њ ћ џ ‌
+        љ њ ћ џ
       combinations: '{з́}{с́}'
     status: todo
   cnr:
@@ -1965,7 +1965,7 @@ Cyrl:
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ғ җ қ
-        ң ү ә ө
+        ң ү һ ә ө
     status: todo
   uzb:
     name: Uzbek

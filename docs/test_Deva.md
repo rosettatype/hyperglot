@@ -6,7 +6,7 @@ title: Devanagari-script languages (comparison)
 
 # Devanagari-script languages (comparison)
 
-Selected character-set databases (CLDR, Latin Plus) juxtaposed next to Rosetta’s Langs DB. When comparing, characters that are included in “Rosetta (base)” are marked grey, any additional characters are marked red. Only “base” fields are compared. The third column indicates the status of the field (🔴 = draft/contributed/todo, ⚫️ = done, ⚪️ = unkown).
+Selected character-set databases (CLDR, Latin Plus, Alvestrand) juxtaposed next to Rosetta’s Langs DB. When comparing, characters that are included in “Rosetta (base)” are marked grey, any additional characters are marked red. Only “base” fields are compared. The third column indicates the status of the field (🔴 = draft/contributed/todo, ⚫️ = done, ⚪️ = unkown).
 
 **Total:** 5 language(s)
 
