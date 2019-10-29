@@ -1355,7 +1355,7 @@ Latn:
     script: Latn
     characters:
       base: a b c d e f g h i k l m n o p s t u v w y z à â è ê ì î ò ô ù û ā ē ě ī
-      ŋ ō ū ǎ ǐ ǒ ǔ ɔ ɛ ɨ ʉ ʔ ̀ ̂ ̄ ̌
+        ŋ ō ū ǎ ǐ ǒ ǔ ɔ ɛ ɨ ʉ ʔ ̀ ̂ ̄ ̌
       auxiliary: q r x
     status: todo
   aka:
@@ -1384,7 +1384,7 @@ Latn:
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p r s t u v w y z à á â è é ê ì í î
-      ò ó ô ù ú û ā ē ě ī ń ŋ ō ū ǎ ǐ ǒ ǔ ǹ ɓ ɔ ɛ ̀ ́ ̂ ̄ ̌ ᷆ ᷇
+        ò ó ô ù ú û ā ē ě ī ń ŋ ō ū ǎ ǐ ǒ ǔ ǹ ɓ ɔ ɛ ̀ ́ ̂ ̄ ̌ ᷆ ᷇
       auxiliary: q x
     status: todo
   cgg:
@@ -1425,7 +1425,7 @@ Latn:
     script: Latn
     characters:
       base: a b d e f g h i k l m n o p r s t u v w x y z à á ã è é ì í
-    ò ó õ ù ú ĩ ŋ ũ ƒ ɔ ɖ ɛ ɣ ʋ ̀ ́ ̃ ẽ
+        ò ó õ ù ú ĩ ŋ ũ ƒ ɔ ɖ ɛ ɣ ʋ ̀ ́ ̃ ẽ
     auxiliary: c j q â ä å æ ç ê ë î ï ñ ô ö ø û ü ÿ ā ă ĕ ĭ ŏ œ ŭ
   status: done
   ewo:
@@ -1433,7 +1433,7 @@ Latn:
     script: Latn
     characters:
       base: a b d e f g h i k l m n o p r s t u v w y z à á â è é ê ì í î
-      ò ó ô ù ú û ě ń ŋ ǎ ǐ ǒ ǔ ǹ ɔ ə ɛ ̀ ́ ̂ ̌
+        ò ó ô ù ú û ě ń ŋ ǎ ǐ ǒ ǔ ǹ ɔ ə ɛ ̀ ́ ̂ ̌
       auxiliary: c j q x
     status: done
   ful:
@@ -1461,7 +1461,7 @@ Latn:
     script: Latn
     characters:
       base: a b c d f g h i j k l m n p s t u v w y z á â í î ú û
-      ń ŋ ǎ ǐ ǔ ǹ ɔ ɛ ʉ ̀ ́ ̂ ̄ ̈ ̌ ḿ ẅ ꞌ
+        ń ŋ ǎ ǐ ǔ ǹ ɔ ɛ ʉ ̀ ́ ̂ ̄ ̈ ̌ ḿ ẅ ꞌ
       auxiliary: e o q r x
     status: todo
   kab:
@@ -1495,7 +1495,7 @@ Latn:
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p r s t u v w y à á â è é ê ì í î
-      ò ó ô ù ú û ŋ ǌ ɓ ɔ ɗ ɛ ̀ ́ ̂ ̧
+        ò ó ô ù ú û ŋ ǌ ɓ ɔ ɗ ɛ ̀ ́ ̂ ̧
       auxiliary: q x z
     status: todo
   kln:
@@ -1537,7 +1537,7 @@ Latn:
     script: Latn
     characters:
       base: a b c d e f g h i k l m n o p r s t u v w y z á â é ê í î ó ô ú ě ǎ
-      ǐ ǒ ɔ ɛ ́ ̂ ̌
+        ǐ ǒ ɔ ɛ ́ ̂ ̌
       auxiliary: j q x
     status: done
   lkt:
@@ -1621,7 +1621,7 @@ Latn:
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á ā ä â ã é è ê ë
-      ẽ ē ì í ī ï ĩ ò ó õ ö ô ō ù ú ũ ü û ū ǀ ǁ ǂ ǃ
+        ẽ ē ì í ī ï ĩ ò ó õ ö ô ō ù ú ũ ü û ū ǀ ǁ ǂ ǃ
     status: done
   nde:
     name: North Ndebele
@@ -1634,7 +1634,7 @@ Latn:
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p r s t u v w y á â ä é ê í î ï ó ô ö
-      ú û ā ē ě ī ń ŋ ō ŕ ū ǎ ǐ ǒ ǔ ǝ ɓ ɔ ɛ ́ ̂ ̄ ̌
+        ú û ā ē ě ī ń ŋ ō ŕ ū ǎ ǐ ǒ ǔ ǝ ɓ ɔ ɛ ́ ̂ ̄ ̌
       auxiliary: q x z
     status: todo
   nnh:
@@ -1642,7 +1642,7 @@ Latn:
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p s t u v w y z à á â è é ê ì í ò ó ô
-      ù ú û ÿ ě ń ŋ ǎ ǒ ǔ ɔ ɛ ʉ ʼ ̀ ́ ̂ ̌ ḿ ẅ
+        ù ú û ÿ ě ń ŋ ǎ ǒ ǔ ɔ ɛ ʉ ʼ ̀ ́ ̂ ̌ ḿ ẅ
       auxiliary: q r x
     status: todo
   nno:
@@ -1664,7 +1664,7 @@ Latn:
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä a̱ ë e̱ ï i̱ ö o̱ ŋ ɔ ɔ̱
-      ɛ ɛ̱ ɛ̈ ɣ ̈ ̱
+        ɛ ɛ̱ ɛ̈ ɣ ̈ ̱
     status: done
   nyn:
     name: Nkore
@@ -1704,7 +1704,7 @@ Latn:
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q s t u v w x y z à á ä â è é ë ê ì í ï î
-      ò ó ö ô ù ú ü û
+        ò ó ö ô ù ú ü û
     status: done
   seh:
     name: Sena
@@ -1748,8 +1748,8 @@ Latn:
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ã è é ê
-      ì í ò ó ô õ ù ú ý ă đ ĩ ũ ơ ư ạ ả ấ ầ ẩ ẫ ậ ắ ằ ẳ ẵ ặ ẹ ẻ ẽ ế ề ể ễ ệ ỉ
-      ị ọ ỏ ố ồ ổ ỗ ộ ớ ờ ở ỡ ợ ụ ủ ứ ừ ử ữ ự ỳ ỵ ỷ ỹ
+        ì í ò ó ô õ ù ú ý ă đ ĩ ũ ơ ư ạ ả ấ ầ ẩ ẫ ậ ắ ằ ẳ ẵ ặ ẹ ẻ ẽ ế ề ể ễ ệ ỉ
+        ị ọ ỏ ố ồ ổ ỗ ộ ớ ờ ở ỡ ợ ụ ủ ứ ừ ử ữ ự ỳ ỵ ỷ ỹ
     status: done
   vun:
     name: Vunjo
@@ -1784,7 +1784,7 @@ Latn:
     script: Latn
     characters:
       base: a b d e f g h i j k l m n o p r s t u w y à á ā è é ē ẹ ì í ī ò ó ō ọ
-      ù ú ū ṣ ɔ ɛ ̀ ́
+        ù ú ū ṣ ɔ ɛ ̀ ́
     status: done
 Cyrl:
   abq:
