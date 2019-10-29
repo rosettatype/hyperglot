@@ -1381,6 +1381,7 @@ Latn:
     status: done
   bas:
     name: Basa (Cameroon)
+    script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p r s t u v w y z à á â è é ê ì í î
       ò ó ô ù ú û ā ē ě ī ń ŋ ō ū ǎ ǐ ǒ ǔ ǹ ɓ ɔ ɛ ̀ ́ ̂ ̄ ̌ ᷆ ᷇
@@ -1388,34 +1389,40 @@ Latn:
     status: todo
   cgg:
     name: Chiga (Tanzania)
+    script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z
     status: done
   dav:
     name: Taita
+    script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p r s t u v w y z
       auxiliary: q x
     status: todo
   dua:
     name: Duala
+    script: Latn
     characters:
       base: a b c d e f g i j k l m n o p r s t u w y á é í ó ú ŋ ū ɓ ɔ ɗ ɛ ́
       auxiliary: h q v x z
     status: done
   dyo:
     name: Jola-Fonyi
+    script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y á é í ñ ó ú ŋ
       auxiliary: z
     status: done
   ebu:
     name: Embu
+    script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ĩ ũ
     status: todo
   ewe:
     name: Ewe
+    script: Latn
     characters:
       base: a b d e f g h i k l m n o p r s t u v w x y z à á ã è é ì í
     ò ó õ ù ú ĩ ŋ ũ ƒ ɔ ɖ ɛ ɣ ʋ ̀ ́ ̃ ẽ
@@ -1423,6 +1430,7 @@ Latn:
   status: done
   ewo:
     name: Ewondo
+    script: Latn
     characters:
       base: a b d e f g h i k l m n o p r s t u v w y z à á â è é ê ì í î
       ò ó ô ù ú û ě ń ŋ ǎ ǐ ǒ ǔ ǹ ɔ ə ɛ ̀ ́ ̂ ̌
@@ -1430,23 +1438,27 @@ Latn:
     status: done
   ful:
     name: Fula
+    script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p r s t u w y ñ ŋ ƴ ɓ ɗ
       auxiliary: q v x z
     status: done
   guz:
     name: Gusii
+    script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p r s t u v w y z
       auxiliary: q x
     status: done
   hau:
     name: Hausa
+    script: Latn
     characters:
       base: a b c d e f g h i j k l m n o r s t u w y z ƙ ƴ ɓ ɗ ʼ
       auxiliary: p q v x y à á â è é ê ì í î ò ó ô ù ú û ʼ ̃
   jgo:
     name: Ngomba
+    script: Latn
     characters:
       base: a b c d f g h i j k l m n p s t u v w y z á â í î ú û
       ń ŋ ǎ ǐ ǔ ǹ ɔ ɛ ʉ ̀ ́ ̂ ̄ ̈ ̌ ḿ ẅ ꞌ
@@ -1454,28 +1466,33 @@ Latn:
     status: todo
   kab:
     name: Kabyle
+    script: Latn
     characters:
       base: a b c d e f g h i j k l m n p q r s t u w x y z č ǧ ɛ ɣ ḍ ḥ ṛ ṣ ṭ ẓ
       auxiliary: o v
     status: done
   kam:
     name: Kamba (Kenya)
+    script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w y z ĩ ũ
     status: todo
   kde:
     name: Makonde
+    script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z
     status: done
   khq:
     name: Koyra Chiini Songhay
+    script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u w x y z ã õ ŋ š ž ɲ ẽ
       auxiliary: v
     status: todo
   kkj:
     name: Kako
+    script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p r s t u v w y à á â è é ê ì í î
       ò ó ô ù ú û ŋ ǌ ɓ ɔ ɗ ɛ ̀ ́ ̂ ̧
@@ -1483,35 +1500,41 @@ Latn:
     status: todo
   kln:
     name: Kalenjin
+    script: Latn
     characters:
       base: a b c d e g h i j k l m n o p r s t u w y
       auxiliary: f q v x z
     status: done
   ksb:
     name: Shambala
+    script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p s t u v w y z
       auxiliary: q r x
     status: todo
   ksf:
     name: Bafia
+    script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p r s t u v w y z á é í ó ú ŋ ǝ ɔ ɛ ́
       auxiliary: q x
     status: todo
   ksh:
     name: Kölsch
+    script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ß ä å æ ë ö ü ė œ ů
       auxiliary: à á â ã ç è é ê ì í î ï ñ ò ó ô ø ù ú û ÿ ā ă ē ĕ ğ ī ĭ ı ĳ ł ō ŏ ū ŭ
     status: done
   lag:
     name: Langi
+    script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ó ú ɨ ʉ
     status: todo
   lin:
     name: Lingala
+    script: Latn
     characters:
       base: a b c d e f g h i k l m n o p r s t u v w y z á â é ê í î ó ô ú ě ǎ
       ǐ ǒ ɔ ɛ ́ ̂ ̌
@@ -1519,81 +1542,96 @@ Latn:
     status: done
   lkt:
     name: Lakota
+    script: Latn
     characters:
       base: a b e g h i k l m n o p s t u w y z á é í ó ú č ŋ š ž ǧ ȟ ʼ
       auxiliary: c d f j q r s v x
     status: done
   lub:
     name: Luba-Katanga
+    script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q s t u v w y z à á è é ì í ò ó ù ú ɔ ɛ ̀ ́
       auxiliary: g r x
     status: todo
   lug:
     name: Ganda
+    script: Latn
     characters:
       base: a b c d e f g i j k l m n o p r s t u v w y z ŋ
       auxiliary: h q x
     status: done
   luy:
     name: Luyia
+    script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z
     status: todo
   mer:
     name: Meru
+    script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ĩ ũ
     status: done
   mfe:
     name: Morisien
+    script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p r s t u v w x y z
     status: done
   mgh:
     name: Makhuwa-Meetto
+    script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z
     status: todo
   mgo:
     name: Meta'
+    script: Latn
     characters:
       base: a b c d e f g h i j k m n o p r s t u w y z à è ì ò ù ŋ ɔ ə ʼ ̀
       auxiliary: q x
     status: todo
   mlg:
     name: Malagasy
+    script: Latn
     characters:
       base: a b d e f g h i j k l m n o p r s t v y z à â è é ê ë ì î ï n̈ ñ ô
     status: done
   mri:
     name: Maori
+    script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ī ō ū
     status: done
   msa:
     name: Malay (macrolanguage)
+    script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z
     status: done
   mua:
     name: Mundang
+    script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p r s t u v w y z ã ẽ õ ĩ ŋ ǝ ə̃ ɓ ɗ ṽ
     status: done
   naq:
     name: Khoekhoe
+    script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á ā ä â ã é è ê ë
       ẽ ē ì í ī ï ĩ ò ó õ ö ô ō ù ú ũ ü û ū ǀ ǁ ǂ ǃ
     status: done
   nde:
     name: North Ndebele
+    script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z
     status: done
   nmg:
     name: Kwasio
+    script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p r s t u v w y á â ä é ê í î ï ó ô ö
       ú û ā ē ě ī ń ŋ ō ŕ ū ǎ ǐ ǒ ǔ ǝ ɓ ɔ ɛ ́ ̂ ̄ ̌
@@ -1601,6 +1639,7 @@ Latn:
     status: todo
   nnh:
     name: Ngiemboon
+    script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p s t u v w y z à á â è é ê ì í ò ó ô
       ù ú û ÿ ě ń ŋ ǎ ǒ ǔ ɔ ɛ ʉ ʼ ̀ ́ ̂ ̌ ḿ ẅ
@@ -1608,89 +1647,105 @@ Latn:
     status: todo
   nno:
     name: Norwegian Nynorsk
+    script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z á à ä å æ é è ê ò ó ô
         ö ø ü
     status: done
   nob:
     name: Norwegian Bokmål
+    script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z á à ä å æ é è ê ò ó ô
         ö ø ü
     status: done
   nus:
     name: Nuer
+    script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä a̱ ë e̱ ï i̱ ö o̱ ŋ ɔ ɔ̱
       ɛ ɛ̱ ɛ̈ ɣ ̈ ̱
     status: done
   nyn:
     name: Nkore
+    script: Latn
     characters:
       base: a b c d e f g h i j k m n o p r s t u v w y z
     status: done
   prg:
     name: Old Prussian
+    script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ģ ī ķ ņ ō ŗ š ū ž ț ḑ
     status: done
   rof:
     name: Rombo
+    script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p r s t u v w y z
       auxiliary: q x
     status: todo
   rwk:
     name: Rwa
+    script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p r s t u v w y z
       auxiliary: q x
     status: todo
   saq:
     name: Samburu
+    script: Latn
     characters:
       base: a b c d e g h i j k l m n o p r s t u v w y
       auxiliary: f q x z
     status: todo
   sbp:
     name: Sangu (Tanzania)
+    script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q s t u v w x y z à á ä â è é ë ê ì í ï î
       ò ó ö ô ù ú ü û
     status: done
   seh:
     name: Sena
+    script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z
     status: done
   ses:
     name: Koyraboro Senni Songhai
+    script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ã õ ŋ š ž ɲ ẽ
     status: todo
   shi:
     name: Shilha
+    script: Latn
     characters:
       base: a b c d e f g h i j k l m n q r s t u w x y z ɛ ɣ ʷ ḍ ḥ ṛ ṣ ṭ ž
     status: done
   teo:
     name: Teso
+    script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ŋ
     status: done
   twq:
     name: Tasawaq
+    script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u w x y z ã õ ŋ š ž ɲ ẽ
       auxiliary: v
     status: todo
   tzm:
     name: Central Atlas Tamazight
+    script: Latn
     characters:
       base: a b c d e f g h i j k l m n q r s t u w x y z ɛ ɣ ʷ ḍ ḥ ṛ ṣ ṭ
     status: done
   vie:
     name: Vietnamese
+    script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ã è é ê
       ì í ò ó ô õ ù ú ý ă đ ĩ ũ ơ ư ạ ả ấ ầ ẩ ẫ ậ ắ ằ ẳ ẵ ặ ẹ ẻ ẽ ế ề ể ễ ệ ỉ
@@ -1698,23 +1753,27 @@ Latn:
     status: done
   vun:
     name: Vunjo
+    script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p r s t u v w y z
       auxiliary: q x
     status: todo
   wae:
     name: Walser
+    script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z á ã ä é í ó õ ö ú ü č š ũ
       auxiliary: ß à â å æ ç è ê ë ì î ï ñ ò ô ø ù û ÿ ā ă ē ĕ ī ĭ ō ŏ œ ū ŭ
     status: done
   xog:
     name: Soga
+    script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z
     status: done
   yav:
     name: Yangben
+    script: Latn
     characters:
       base: a b c d e f g h i k l m n o p s t u v w y à á â è é ì í î ò ó ô ù ú û
         ā ī ŋ ō ū ǎ ǒ ǔ ɔ ɛ ̀ ́
@@ -1722,6 +1781,7 @@ Latn:
     status: todo
   yor:
     name: Yoruba
+    script: Latn
     characters:
       base: a b d e f g h i j k l m n o p r s t u w y à á ā è é ē ẹ ì í ī ò ó ō ọ
       ù ú ū ṣ ɔ ɛ ̀ ́
