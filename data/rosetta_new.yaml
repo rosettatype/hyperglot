@@ -1732,289 +1732,291 @@ Cyrl:
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё
-    status: todo
+    status: done
   abk:
     name: Abkhazian
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я џ қ ҟ
         ҩ ҭ ҳ ҵ ҷ ҽ ҿ ә ӡ ӷ ԥ
-    status: todo
+    status: done
   ady:
     name: Adyghe
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
-    status: todo
+    status: done
   agx:
     name: Aghul
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
-    status: todo
+    status: done
   atv:
     name: Northern Altai
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ј ҥ
         ӧ ӱ
-    status: todo
+    status: done
   alt:
     name: Southern Altai
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ј ҥ
         ӧ ӱ
-    status: todo
+    status: done
   ani:
     name: Andi
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
-    status: todo
+    status: done
   aqc:
     name: Archi
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ӏ
-    status: todo
+      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ӏ а́ е́ и́ о́
+    status: done
   ava:
     name: Avaric
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
-    status: todo
+    status: done
   aze:
     name: Azerbaijani
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ј ғ ҝ
         ү ҹ һ ә ө ’
-    status: todo
+    status: done
   bak:
     name: Bashkir
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ғ ҙ
         ҡ ң ҫ ү һ ә ө
-    status: todo
+    status: done
   bel:
     name: Belarusian
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё і ў
-        ’
-    status: todo
+        ’ ґ
+    status: done
   kap:
     name: Bezhta
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
-    status: todo
+      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э я ӏ а̄ е̄ ӣ
+        о̄ ӯ э̄
+    status: done
   bos:
     name: Bosnian
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ђ ј љ
-        њ ћ џ
-    status: todo
+      base: а б в г д е ж з и к л м н о п р с т у ф х ц ч ш ђ ј љ њ ћ џ
+    status: done
   bdk:
     name: Budukh
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ӏ ә
-    status: todo
+      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ӏ ә
+    status: done
   bul:
     name: Bulgarian
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ѐ ѝ
-    status: todo
+      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ь ю я ѐ ѝ
+    status: done
   bua:
     name: Buriat
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ү һ
         ө
-    status: todo
+    status: done
   cji:
     name: Chamalal
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ӏ
-    status: todo
+      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
+    status: done
   che:
     name: Chechen
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
-    status: todo
+    status: done
   ckt:
     name: Chukot
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӄ ӈ
         ԓ ’
-    status: todo
+    status: done
   chv:
     name: Chuvash
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҫ ӑ
         ӗ ӳ
-    status: todo
+    status: done
   crh:
     name: Crimean Tatar
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё
-    status: todo
+    status: done
   dar:
     name: Dargwa
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
-    status: todo
+    status: done
   dlg:
     name: Dolgan
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ү һ
         ӈ ө
-    status: todo
+    status: done
   dng:
     name: Dungan
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ў җ
         ң ү ә
-    status: todo
+    status: done
   enf:
     name: Forest Enets
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҫ ӈ
         ԑ
-    status: todo
+    status: done
   enh:
     name: Tundra Enets
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҫ ӈ
         ԑ
-    status: todo
+    status: done
   eve:
     name: Even
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӈ ө
-        ӫ
-    status: todo
+        ӫ а̄ ө̄ е̄ ӣ ӯ ы̄ э̄ ю̄ я̄
+    status: done
   evn:
     name: Evenki
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӈ
-    status: todo
+      combinations: '{а̄}{е̄}{ә̄}{о̄}{ы̄}'
+    status: done
   myv:
     name: Erzya
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё
-    status: todo
+    status: done
   gag:
     name: Gagauz
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӂ ӓ
         ӧ ӱ
-    status: todo
+    status: done
   huz:
     name: Hunzib
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ӏ ә ӯ
+      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ӏ ә ȧ ӯ
       combinations: '{а̄}{е̄}{ә̄}{о̄}{э̄}'
-    status: todo
+    status: done
   inh:
     name: Ingush
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
-    status: todo
+    status: done
   itl:
     name: Itelmen
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё љ њ
-        ў ҳ ӄ ӆ ӈ ӑ ә ’
+        ў ҳ ӄ ӆ ӈ ӑ ә ’ ˚
       combinations: '{о̆}'
-    status: todo
+    status: done
   jdt:
     name: Judeo-Tat
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
-    status: todo
+    status: done
   kbd:
     name: Kabardian
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
-    status: todo
+    status: done
   xal:
     name: Kalmyk
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё җ ң
         ү һ ә ө
-    status: todo
+    status: done
   krc:
     name: Karachay-Balkar
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ў
-    status: todo
+    status: done
   kdr:
     name: Karaim
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ӧ ӱ
-    status: todo
+    status: done
   kpt:
     name: Karata
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
-    status: todo
+      base: а б в г д е ж з и й к л м н о п р с т у х ц ч ш щ ъ ы ь э ю я ӏ ã ẽ и̃
+        õ у̃
+    status: done
   kaz:
     name: Kazakh
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё і ғ
         қ ң ү ұ һ ә ө
-    status: todo
+    status: done
   kaa:
     name: Kara-Kalpak
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ў ғ
         қ ң ү ҳ ә ө
-    status: todo
+    status: done
   ket:
     name: Ket
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӄ ӈ
         ә ө ӷ ’
-    status: todo
+    status: done
   kjh:
     name: Khakas
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё і ғ
         ң ӌ ӧ ӱ
-    status: todo
+    status: done
   kca:
     name: Khanty
     script: Cyrl
@@ -2022,79 +2024,78 @@ Cyrl:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё є ў
         қ ң ҳ ҷ ӆ ӈ ӑ ӓ ә ӛ ӧ ө ӫ ӱ ԓ
       combinations: '{ю̆}{я̆}'
-    status: todo
+    status: done
   kjj:
     name: Khinalugh
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ӏ ә
       combinations: '{а̃}{е̃}{и̃}{о̃}{у̃}{ә̃}'
-    status: todo
+    status: done
   sjd:
     name: Kildin Sami
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ј ҋ
         ҍ ҏ һ ӆ ӈ ӊ ӎ ӓ ӭ ’
-    status: todo
+    status: done
   kom:
     name: Komi
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё і ӧ
-    status: todo
+    status: done
   kpy:
     name: Koryak
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӄ ӈ
         ’
-    status: todo
+    status: done
   jct:
     name: Krymchak
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ӧ ӱ
-    status: todo
+      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ӧ ӱ
+    status: done
   kum:
     name: Kumyk
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё
-    status: todo
+    status: done
   kur:
     name: Kurdish
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я һ ә ӧ
+      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ь э һ ә ӧ
         ԛ ԝ
-    status: todo
+    status: done
   kir:
     name: Kirghiz
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ң ү
         ө
-    status: todo
+    status: done
   lbe:
     name: Lak
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
-    status: todo
+    status: done
   lez:
     name: Lezghian
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
-    status: todo
+    status: done
   mkd:
     name: Macedonian
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ѓ ѕ ј
-        љ њ ќ џ
-    status: todo
+      base: а б в г д е ж з и к л м н о п р с т у ф х ц ч ш ѓ ѕ ј љ њ ќ џ
+    status: done
   mns:
     name: Mansi
     script: Cyrl
@@ -2102,77 +2103,75 @@ Cyrl:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӈ ӣ
         ӯ
       combinations: '{а̄}{е̄}{о̄}{э̄}{ю̄}{я̄}'
-    status: todo
+    status: done
   mhr:
     name: Eastern Mari
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҥ ӧ
         ӱ
-    status: todo
+    status: done
   mrj:
     name: Western Mari
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӓ ӧ
         ӱ ӹ
-    status: todo
+    status: done
   mdf:
     name: Moksha
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё
-    status: todo
+    status: done
   ron:
-    name: Romanian
+    name: Romanian (Moldovan)
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ӂ
-    status: todo
+      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш ы ь э ю я ӂ
+    status: done
   mon:
     name: Mongolian
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ү ө
-    status: todo
+    status: done
   srp:
     name: Serbian
     script: Cyrl
     characters:
-      base: ́ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ђ ј
-        љ њ ћ џ
+      base: ́ а б в г д е ж з и к л м н о п р с т у ф х ц ч ш ђ ј љ њ ћ џ
       combinations: '{з́}{с́}'
-    status: todo
+    status: done
   cnr:
     name: Montenegrin
     script: Cyrl
     characters:
-      base: ́ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ђ ј
-        љ њ ћ џ
+      base: ́ а б в г д е ж з и к л м н о п р с т у ф х ц ч ш ђ ј љ њ ћ џ
       combinations: '{з́}{с́}'
-    status: todo
+    status: done
   gld:
     name: Nanai
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӈ
       combinations: '{а̄}{е̄}{ӣ}{о̄}{ӯ}{э̄}'
-    status: todo
+    status: done
   yrk:
     name: Nenets
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӆ ӈ
+      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӈ
         ӭ ’ ”
-    status: todo
+    status: done
   nio:
     name: Nganasan
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҫ ү
-        ӈ ә ө ”
+        ӈ ә ө ҙ ”
       combinations: '{з̌}'
-    status: todo
+    status: done
   niv:
     name: Gilyak
     script: Cyrl
@@ -2186,27 +2185,26 @@ Cyrl:
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё
-    status: todo
+    status: done
   oaa:
     name: Orok
     script: Cyrl
     characters:
-      base: ̄ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ј ӈ
-        ӡ ӣ ө ԩ
+      base: ̄ а б в г д е ж з и к л м н о п р с т у ф х ч э ј ӈ ӡ ӣ ө ԩ
       combinations: '{а̄}{е̄}{о̄}{ө̄}{э̄}'
-    status: todo
+    status: done
   oss:
     name: Ossetian
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӕ
-    status: todo
+    status: done
   rml:
     name: Baltic Romani
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ґ
-    status: todo
+      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш ы ь э ю я ё ґ
+    status: done
   rmy:
     name: Vlax Romani
     script: Cyrl
@@ -2218,183 +2216,187 @@ Cyrl:
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё
-    status: todo
+    status: done
   rue:
     name: Rusyn
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё є і
+      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ь э ю я ё є і
         ї ґ
-    status: todo
+    status: done
   rut:
     name: Rutul
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
-    status: todo
+    status: done
   sel:
     name: Selkup
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё җ ӄ
-        ӈ ӣ ӧ ө ӭ ӯ ӱ ӷ
+        ӈ å ӣ ӧ ө ӭ ӯ ӱ ӷ
       combinations: '{и̇}'
-    status: todo
+    status: done
   cjs:
     name: Shor
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ғ қ
         ң ӧ ӱ
-    status: todo
+    status: done
   sgh:
     name: Shughni
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ғ қ
+      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш ё ғ қ
         ҳ ҷ ӣ ӯ
       combinations: '{а̄}'
-    status: todo
+    status: done
   tab:
     name: Tabassaran
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
-    status: todo
+    status: done
   tgk:
     name: Tajik
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ғ қ
+      base: а б в г д е ж з и й к л м н о п р с т у ф х ч ш ъ э ю я ё ғ қ
         ҳ ҷ ӣ ӯ
-    status: todo
+    status: done
   tly:
     name: Talysh
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ј ғ ҹ
-        һ ә
-    status: todo
+      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш ј ғ ҹ ҝ һ ә
+    status: done
   ddo:
     name: Dido
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
+      base: а б в г д е ж з и й к л м н о п р с т у х ц ч ш э ӏ
       combinations: '{а̄}'
-    status: todo
+    status: done
   ttt:
     name: Muslim Tat
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
-    status: todo
+    status: done
   tat:
     name: Tatar
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё җ ң
         ү һ ә ө
-    status: todo
+    status: done
   tkr:
     name: Tsakhur
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
-    status: todo
+    status: done
   tuk:
     name: Turkmen
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё җ ң
         ү ә ө
-    status: todo
+    status: done
   tyv:
     name: Tuvinian
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ң ү
         ө
-    status: todo
+    status: done
   udi:
     name: Udi
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ҝ ӏ ’
-    status: todo
+    status: done
   udm:
     name: Udmurt
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӝ ӟ
         ӥ ӧ ӵ
-    status: todo
+    status: done
   ukr:
     name: Ukrainian
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я є і ї
+      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ь э ю я є і ї
         ґ ’
-    status: todo
+    status: done
   uum:
     name: Urum
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ґ ӧ ӱ
-        ’
-    status: todo
+      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш ы э ґ ӧ ӱ ’
+    status: done
   uig:
     name: Uighur
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ғ җ қ
-        ң ү һ ә ө
-    status: todo
+      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш ю я ғ җ қ ң ү һ ә ө
+    status: done
   uzb:
     name: Uzbek
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ў ғ
         қ ҳ
-    status: todo
+    status: done
   uzn:
     name: Northern Uzbek
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ғ қ
         ҳ ӯ
-    status: todo
+    status: done
   yai:
     name: Yagnobi
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ғ қ
+      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ э ю я ё ғ қ
         ҳ ҷ ӣ ӯ ԝ
-    status: todo
+    status: done
   sah:
     name: Yakut
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҕ ҥ
         ү һ ө
-    status: todo
+    status: done
   yux:
     name: Southern Yukaghir
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ғ ң
-        ӧ
-    status: todo
+      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҕ җ
+        ә қ ө
+    status: done
   ykg:
     name: Northern Yukaghir
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ғ ң
         ӧ
-    status: todo
+    status: done
   ess:
     name: Central Siberian Yupik
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ў қ
-        ң ҳ ӷ ’
-    status: todo
+        ң ҳ ҕ ’
+    status: done
+  chu:
+    name: Church Slavonic
+    script: Cyrl
+    characters:
+      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь ю є ѕ џ ѥ ѩ ѭ
+        ҁ і ї ѡ ѣ ѧ ѫ ѯ ѱ ѳ ѵ ѷ ѻ ѽ ѿ ꙁ ꙋ ꙍ ꙗ ꙃ
+    status: done
