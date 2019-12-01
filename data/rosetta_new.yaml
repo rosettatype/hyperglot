@@ -4,2349 +4,3097 @@ Latn:
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ô
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   abe:
     name: Western Abnaki
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ô
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   orm:
     name: Oromo
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    source: Omniglot, Wikipedia, CLDR, Alvestrand
     status: done
   aar:
     name: Afar
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    status: done
+    source: Omniglot, Wikipedia
+    status: Strong
   afr:
     name: Afrikaans
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z á â è é ê ë î ï ö ô û ŉ
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   sqi:
     name: Albanian
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ç ë
-    status: done
+    source: Omniglot, Wikipedia, CLDR
+    status: strong
   gsw:
     name: Swiss German
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ö ü
-    status: done
+    source: Omniglot, CLDR
+    status: strong
   ami:
     name: Amis
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   aud:
     name: Anuta
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ñ ó ú ü
-    status: done
+    source: Omniglot, CLDR
+    status: strong
   arg:
     name: Aragonese
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ñ ó ú
-    status: done
+    source: Omniglot, Wikipedia
+    status: strong
   rup:
     name: Macedo-Romanian
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z â ã ă ș ț
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   aer:
     name: Eastern Arrernte
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   aat:
     name: Arvanitika Albanian
     script: Latn
     characters:
-      base: a b c d e f g h i j k l m n o p q r s t u v w x y z á ä ç è é ë í ï ó ö ú ü ý
-    status: done
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z á ä ç è é ë í ï ó
+        ö ú ü ý
+    source: Omniglot
+    status: weak
+    note: Single source.
   ast:
     name: Asturian
     script: Latn
     characters:
       base: a b c d e f g h i l m n o p q r s t u v x y z á é í ñ ó ú ü ḥ ḷ
-    status: done
+    source: Omniglot, Wikipedia, CLDR
+    status: strong
   tay:
     name: Atayal
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ŋ ə
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   aym:
     name: Aymara
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ï ñ ü
-    status: done
+    source: Omniglot, Wikipedia
+    status: strong
   aze:
     name: Azerbaijani
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v x y z ç ö ü ğ İ ı ş ə
-    status: done
+    source: Omniglot, Wikipedia, CLDR
+    status: strong
   bak:
     name: Bashkir
     script: Latn
     characters:
-      base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ç ö ü č ğ İ ı ķ ņ ś ş š ź
-    status: done
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ç ö ü č ğ İ ı ķ
+        ņ ś ş š ź
+    source: Omniglot
+    status: weak
+    note: Single source.
   eus:
     name: Basque
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ñ ü
-    status: done
+    source: Omniglot, Wikipedia
+    status: strong
   bel:
     name: Belarusian
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ć č ł ń ś š ŭ ź ž
-    status: done
+    source: Omniglot, wikipedia
+    status: strong
   bem:
     name: Bemba (Zambia)
     script: Latn
     characters:
       base: a b c d e f g i j k l m n o p s t u v w y
-    status: done
+    source: Omniglot, Wikipedia
+    status: strong
   bez:
     name: Bena (Tanzania)
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w y z
-    status: done
+    source: CLDR
+    status: weak
+    note: Single source.
   bik:
     name: Bikol
     script: Latn
     characters:
-      base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    status: done
+      base: a b d g h i k l m n o p r s t u w y
+      auxiliary: c e f j q v x z
+    source: Omniglot, Wikipedia
+    status: strong
   bis:
     name: Bislama
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    status: done
+    source: Omniglot, Wikipedia, Bislama dictionary
+    status: strong
   bos:
     name: Bosnian
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p r s t u v z ć č đ š ž
-    status: done
+    source: Omniglot, Wikipedia, CLDR
+    status: strong
   bre:
     name: Breton
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p r s t u v w x y z ê ñ ù
-    status: done
+    source: Omniglot, Wikipedia, CLDR, Alvestrand
+    status: strong
   kea:
     name: Kabuverdianu
     script: Latn
     characters:
-      base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ã ç è é ê í ò ó ô õ ú ü
-    status: done
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ã ç è é ê í
+        ò ó ô õ ú ü
+    source: Omniglot, Wikipedia
+    status: strong
   cat:
     name: Catalan
     script: Latn
     characters:
-      base: a b c d e f g h i j k l m n o p q r s t u v w x y z à ç è é í ï ò ó ú ü ŀ
-    status: done
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z à ç è é í ï ò ó
+        ú ü ŀ
+    source: Omniglot, Wikipedia, Alvestrand
+    status: strong
   ceb:
     name: Cebuano
     script: Latn
     characters:
       base: a b d e g h i k l m n o p r s t u w y
-    status: done
+    source: Omniglot, Wikipedia, CLDR
+    status: strong
   cha:
     name: Chamorro
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z å ñ
-    status: done
+    source: Omniglot, Wikipedia, Chamorro dictionary
+    status: strong
   cbk:
     name: Chavacano
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ñ
-    status: done
+    source: Omniglot, Wikipedia
+    status: strong
   nya:
     name: Nyanja
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ŋ ŵ
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   cic:
     name: Chickasaw
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ó ú
-    status: done
+    source: Omniglot, Wikipedia
+    status: strong
   cim:
     name: Cimbrian
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä à è é ì ò ó ô ö ù ü ć
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   con:
     name: Cofán
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ñ û
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   cor:
     name: Cornish
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z â ê î ô à è ì ò
-    status: done
+    source: Omniglot, Wikipedia, CLDR
+    status: strong
   cos:
     name: Corsican
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z à â è ì ï ü ò ù
-    status: done
+    source: Omniglot, Wikipedia
+    status: strong
   mus:
     name: Creek
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ē
-    status: done
+    source: Omniglot, Wikipedia
+    status: strong
   crh:
     name: Crimean Tatar
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ç ñ ö ü ğ ş
-    status: done
+    source: Omniglot, Wikipedia
+    status: strong
   ces:
     name: Czech
     script: Latn
     characters:
-      base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ó ú ý č ď ě ň ř š ť ů ž
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ó ú ý č ď ě
+        ň ř š ť ů ž
+    source: Omniglot, Native
     status: done
   dan:
     name: Danish
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z å æ ø
-    status: done
+    source: Omniglot, Wikipedia, CLDR
+    status: strong
   aoz:
     name: Uab Meto
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é ê í ó ú û
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   del:
     name: Delaware
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z à è ë ì ò ù š
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   luo:
     name: Luo (Kenya and Tanzania)
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    status: done
+    source: Omniglot, Wikipedia, CLDR
+    status: strong
   dhv:
     name: Dehu
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ë ö
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   nld:
     name: Dutch
     script: Latn
     characters:
-      base: a b c d e f g h i j k l m n o p q r s t u v w x y z á â ä è é ê ë í ï ó ô ö ú û ü ĳ
-      combinations: "{ȷ́}"
-    status: todo
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z á â ä è é ê ë í ï
+        ó ô ö ú û ü ĳ
+      combinations: '{ȷ́}'
+    source: Omniglot, Native
+    status: done
   eng:
     name: English
     script: Latn
     characters:
-      base: a b c d e f g h i j k l m n o p q r s t u v w x y z á æ ç è é ê ë ï ñ ô ö œ
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z æ œ
+      auxiliary: á ç è é ê ë ï ñ ô ö
+    source: Omniglot, Wikipedia, CLDR, Alvestrand
     status: done
   epo:
     name: Esperanto
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ĉ ĝ ĥ ĵ ŝ ŭ
-    status: done
+    source: Omniglot, Alvestrand
+    status: strong
   est:
     name: Estonian
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä õ ö ü š ž
+    source: Omniglot, CLDR, Alvestrand
     status: done
   fao:
     name: Faroese
     script: Latn
     characters:
-      base: a b c d e f g h i j k l m n o p q r s t u v w x y z á å æ í ð ó ö ø ú ý
-    status: done
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z á å æ í ð ó ö ú
+        ý
+      alternative: a b c d e f g h i j k l m n o p q r s t u v w x y z á å æ í ð
+        ó ø ú ý
+    source: Omniglot, Wikipedia
+    status: strong
   fij:
     name: Fijian
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    status: done
+    source: Omniglot, Wikipedia
+    status: strong
   fil:
     name: Filipino
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ñ
-    status: done
+    source: CLDR
+    status: weak
+    note: Single source.
   fin:
     name: Finnish
     script: Latn
     characters:
-      base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä å æ ö ü š ž
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ö 
+      auxiliary: æ å õ ø ü š ž
+    source: Omniglot, CLDR, Alvestrand, Native
     status: done
   fra:
     name: French
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z à â æ ç è é ê ë î ï ô ù û ü ÿ œ
-    status: done
+    source: Omniglot, Wikipedia, CLDR, Alvestrand
+    status: strong
   fry:
     name: Western Frisian
     script: Latn
     characters:
-      base: a b c d e f g h i j k l m n o p q r s t u v w x y z â ä é ê ë ï ô ö ú û ü
-    status: done
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z â ä é ê ë ï ô ö
+        ú û ü
+    source: Omniglot, Wikipedia, Alvestrand
+    status: strong
   fur:
     name: Friulian
     script: Latn
     characters:
-      base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ç è ê ì î ò ô ù û
-    status: done
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ç è ê ì î ò
+        ô ù û
+    source: Omniglot
+    status: weak
+    note: Single source.
   gag:
     name: Gagauz
     script: Latn
     characters:
-      base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ç ê ö ü ğ İ ı ş ţ ș ț
-    status: done
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ç ê ö ü ğ İ ı ş
+        ţ ș ț
+    source: Omniglot
+    status: weak
+    note: Single source.
   glg:
     name: Galician
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ñ ó ú ü
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   gqa:
     name: Ga'anda
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ŋ
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   lij:
     name: Ligurian
     script: Latn
     characters:
-      base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ä æ è é ê ë ì í î ï ò ó ô ö ù ú
-    status: done
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ä æ è é ê ë
+        ì í î ï ò ó ô ö ù ú
+    source: Omniglot
+    status: weak
+    note: Single source.
   deu:
     name: German
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ß à ä é ö ü
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   kik:
     name: Kikuyu
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ĩ ŋ ũ
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   gni:
     name: Gooniyandi
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ß à ä é ö ü
-    status: todo
+    source: CLDR
+    status: weak
+    note: Single source.
   kal:
     name: Kalaallisut
     script: Latn
     characters:
-      base: a b c d e f g h i j k l m n o p q r s t u v w x y z á â ã å æ ê í î ô ø ú û ĩ ĸ ũ
-    status: done
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z á â ã å æ ê í î ô
+        ø ú û ĩ ĸ ũ
+    source: Omniglot
+    status: weak
+    note: Single source.
   gcf:
     name: Guadeloupean Creole French
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z è é ò
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   gwi:
     name: Gwichʼin
     script: Latn
     characters:
-      base: a b c d e f g h i j k l m n o p q r s t u v w x y z à ą è é ę ì í ò ó ǫ ù ú ł
-    status: done
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z à ą è é ę ì í ò ó ǫ ù
+        ú ł
+    source: Omniglot, Wikipedia
+    status: strong
   hat:
     name: Haitian
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á è é ò ó
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   haw:
     name: Hawaiian
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ī ō ū
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   hil:
     name: Hiligaynon
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   hop:
     name: Hopi
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ö
-    status: done
+    source: Omniglot, Wikipedia
+    status: strong
   win:
     name: Ho-Chunk
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ą ğ į š ų ž
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   hun:
     name: Hungarian
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ó ö ú ü ő ű
-    status: done
+    source: Omniglot, Alvestrand, Native
+    status: strong
   haa:
     name: Han
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä à â ǎ ą ë
-    status: done
+    source: Omniglot, Wikipedia
+    status: strong
   isl:
     name: Icelandic
     script: Latn
     characters:
-      base: a b c d e f g h i j k l m n o p q r s t u v w x y z á æ é í ð ó ö ú ý þ
-      optional: ǽǫœ
-    status: done
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z á æ é í ð ó ö ú ý
+        þ
+      auxiliary: ǽ ǫ œ
+    source: Omniglot, Wikipedia, Alvestrand
+    status: strong
   ido:
     name: Ido
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    status: done
+    source: Omniglot, Wikipedia
+    status: strong
   ibo:
     name: Igbo
     script: Latn
     characters:
-      base: a b c d e f g h i j k l m n o p q r s t u v w x y z  à á è é ì í ò ó ù ú ā ē ī ń ō ū ị ọ ụ ṅ ẹ
-    status: done
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á è é ì í ò ó ù ú ā ē ī ń ō ū ị ọ ụ ṅ ẹ
+    source: Omniglot, Wikipedia, CLDR
+    status: strong
   ilo:
     name: Iloko
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   ind:
     name: Indonesian
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   igs:
     name: Interglossa
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   ina:
     name: Interlingua (International Auxiliary Language Association)
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   gle:
     name: Irish
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ó ú
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   ruo:
     name: Istro Romanian
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z å ă ľ ń ș ț
-    status: todo
+    source: CLDR
+    status: weak
+    note: Single source.
   ita:
     name: Italian
     script: Latn
     characters:
-      base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á è é ì í î ï ò ó ù ú
-    status: done
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á è é ì í î ï ò
+        ó ù ú
+    source: Omniglot
+    status: weak
+    note: Single source.
   jam:
     name: Jamaican Creole English
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    status: done
+    source: Omniglot, Wikipedia
+    status: strong
   jav:
     name: Javanese
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z é è
-    status: done
+    source: Omniglot, Wikipedia
+    status: strong
   kgp:
     name: Kaingang
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z á ã é ó ĩ ỹ
-    status: done
+    source: Omniglot, Wikipedia
+    status: strong
   mwp:
     name: Kala Lagaw Ya
     script: Latn
     characters:
-      base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á ă ā è é ë ĕ ē ì í ĭ ī ò ó ŏ ō œ ù ú ŭ ū
-    status: done
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á ă ā è é ë ĕ ē ì í ĭ ī
+        ò ó ŏ ō œ ù ú ŭ ū
+      alternative: a ă ­ā b d e ĕ ē g i ĭ ī k l m n n o ŏ ō ò ö ë œ p f r s t u ŭ ū w y z j
+      alternative_2: a b d e g i k l m n o p r s t u w y z
+      alternative_3: a b d e g k l m n o œ p r s t u w y z ò ö
+      alternative_4: a á b d e é g i í k l m n o ó ò œ p r s t u ù ú w y z
+    source: Omniglot, Wikipedia
+    status: strong
   pam:
     name: Pampanga
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   cak:
     name: Kaqchikel
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ë ï ö ü
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   kaa:
     name: Kara-Kalpak
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z á İ ı ǵ ń ú
-    status: done
+    source: Omniglot, Wikipedia
+    status: strong
   krl:
     name: Karelian
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ö č š ž
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   csb:
     name: Kashubian
     script: Latn
     characters:
-      base: a b c d e f g h i j k l m n o p q r s t u v w x y z ã é ë ò ó ô ù ą ę ł ń ś ż
-    status: done
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z ã é ë ò ó ô ù ą ę
+        ł ń ś ż
+    source: Omniglot
+    status: weak
+    note: Single source.
   kng:
     name: Koongo
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   kin:
     name: Kinyarwanda
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   gil:
     name: Gilbertese
     script: Latn
     characters:
       base: a b e i k m n g o r t u w
-    status: done
+    source: Omniglot, Wikipedia
+    status: strong
   run:
     name: Rundi
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   tlh:
     name: Klingon
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   kur:
     name: Kurdish
     script: Latn
     characters:
-      base: a b c d e f g h i j k l m n o p q r s t u v w x y z ç é ê í î ú ù û ā ă ē ĕ ī ĭ ō ŏ ř ū ü ŭ ș ş ł ň ḥ x̣
-    status: done
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z ç é ê í î ú ù û ā ă
+        ē ĕ ī ĭ ō ŏ ř ū ü ŭ ș ş ł ň ḥ x̣
+      alternative: a  b c ç d e ê f g h i î j k l ł m n ň o p q r ř s ş t u û ü v w x y z
+      alternative_2: a b c d e f g h i j k l m n o p q r s t u v w x y z é í ú ù '
+    source: Omniglot, Wikipedia
+    status: strong
   lld:
     name: Ladin
     script: Latn
     characters:
-      base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â è é ê ë ì î ò ó ô ö ù û ü ć ś
-    status: done
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â è é ê ë ì î
+        ò ó ô ö ù û ü ć ś
+    source: Omniglot
+    status: weak
+    note: Single source.
   lat:
     name: Latin
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    source: Omniglot, Wikipedia, CLDR, Alvestrand
     status: done
   lav:
     name: Latvian
     script: Latn
     characters:
-      base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā č ē ģ ī ķ ļ ņ ō ŗ š ū ž
-    status: done
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā č ē ģ ī ķ ļ ņ ō
+        ŗ š ū ž
+    source: Omniglot
+    status: weak
+    note: Single source.
   lit:
     name: Lithuanian
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ą č ė ę į š ū ų ž
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   jbo:
     name: Lojban
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   lmo:
     name: Lombard
     script: Latn
     characters:
-      base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á è é ì í ò ó ô ø ù ü
-    status: done
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á è é ì í ò ó ô
+        ø ù ü
+    source: Omniglot
+    status: weak
+    note: Single source.
   nds:
     name: Low German
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ß ä ë ï ö ü
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   ltz:
     name: Luxembourgish
     script: Latn
     characters:
-      base: a b c d e f g h i j k l m n o p q r s t u v w x y z ß â ä è é ê ë î ô ö û ü
-    status: done
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z ß â ä è é ê ë î ô
+        ö û ü
+    source: Omniglot
+    status: weak
+    note: Single source.
   mas:
     name: Masai
     script: Latn
     characters:
-      base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â è é ê ì í î ɔ ɛ ɨ ʉ ò ó ô ù ú û ŋ
-    status: done
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â è é ê ì í î ɔ ɛ ɨ ʉ
+        ò ó ô ù ú û ŋ
+    source: Omniglot
+    status: weak
+    note: Single source.
   vmw:
     name: Makhuwa
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z à è ì ò ù
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   zlm:
     name: Malay (individual language)
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   mlt:
     name: Maltese
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z à è ì î ò ù ċ ġ ħ ż
-    status: done
+    source: Omniglot, Wikipedia, Alvestrand
+    status: strong
   glv:
     name: Manx
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ç
-    status: done
+    source: Omniglot, Wikipedia, CLDR
+    status: strong
   mrq:
     name: North Marquesan
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ó ú
-    status: todo
+    source: CLDR
+    status: weak
+    note: Single source.
   ruq:
     name: Megleno Romanian
     script: Latn
     characters:
-      base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā â ă ạ ē ë ę ž ł š i̯ ī ō ǫ ū ľ ń ș ț
-    status: done
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā â ă ạ ē ë ę ž ł š i̯ ī ō ǫ ū ľ ń ș ț 
+    source: Omniglot, Wikipedia
+    status: weak
   ulk:
     name: Meriam Mir
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ì ò ù
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   mwl:
     name: Mirandese
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z á ç é ê í ó ô ú ũ
+    source: Omniglot, Native
     status: done
   moh:
     name: Mohawk
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z á à é è í ì ó ò ú ù
-    status: done
+    source: Omniglot, Wikipedia
+    status: strong
   moe:
     name: Montagnais
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z â î û
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   srp:
     name: Serbian
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ć č đ ś š ź ž
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   cnr:
     name: Montenegrin
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ć č đ ś š ź ž
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   mwf:
     name: Murrinh-Patha
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   rar:
-    name: Rarotongan
+    name: Cook Islands Māori
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ī ō ū
-      optional: áéíóú
-    status: done
+      auxiliary: á é í ó ú
+    source: Omniglot, Wikipedia
+    status: strong
   nag:
     name: Naga Pidgin
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    status: done
+    source: Omniglot, Wikipedia
+    status: strong
   nhn:
     name: Central Nahuatl
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ü ā ē ī ō ū ȳ
-    status: done
+    source: Omniglot, Wikipedia
+    status: strong
   nbl:
     name: South Ndebele
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   nap:
     name: Neapolitan
     script: Latn
     characters:
-      base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â è é ê ì í î ò ó ô ù ú û
-    status: done
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â è é ê ì í î ò ó ô ù
+        ú û
+    source: Omniglot, Wikipedia
+    status: strong
   wyb:
     name: Wangaaybuwan-Ngiyambaa
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   niu:
     name: Niuean
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ī ō ū
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   xrg:
     name: Minang
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    status: done
+    source: Omniglot, Wikipedia
+    status: strong
   nor:
     name: Norwegian
     script: Latn
     characters:
-      base: a b c d e f g h i j k l m n o p q r s t u v w x y z á à ä å æ é è ê ò ó ô ö ø ü
-    status: done
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z á à ä å æ é è ê ò ó ô
+        ö ø ü
+    source: Omniglot, Wikipedia
+    status: strong
   nov:
     name: Novial
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   ile:
     name: Interlingue
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ó ú
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   oci:
     name: Occitan (post 1500)
     script: Latn
     characters:
-      base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á ç è é ë í ï ò ó ú ü
-    status: done
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á ç è é ë í ï ò
+        ó ú ü
+    source: Omniglot
+    status: weak
+    note: Single source.
   non:
     name: Old Norse
     script: Latn
     characters:
-      base: a b c d e f g h i j k l m n o p q r s t u v w x y z á æ é í ð ó ø ú ý œ ǫ ǽ
-    status: done
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z á æ é í ð ó ø ú ý
+        œ ǫ ǽ
+    source: Omniglot
+    status: weak
+    note: Single source.
   acz:
     name: Acheron
     script: Latn
     characters:
-      base: a b c d e f g h i j k l m n o p q r s t u v w x y z ĕ ŏ ţ ȷ ạ ẹ ẽ
-    status: todo
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ë ï ö ü
+    source: Omniglot
+    status: weak
+    note: Single source.
   kua:
     name: Kuanyama
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   oss:
     name: Ossetian
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä æ č š ž
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   plz:
     name: Paluan
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   pap:
     name: Papiamento
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z è ò ù ü ñ
-    status: done
+    source: Omniglot, Wikipedia
+    status: strong
   pms:
     name: Piemontese
     script: Latn
     characters:
-      base: a b c d e f g h i j k l m n o p q r s t u v w x y z à ä è ë ì ï ò ö ù ü
-    status: done
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z à ä è ë ì ï ò ö ù
+        ü
+    source: Omniglot
+    status: weak
+    note: Single source.
   pol:
     name: Polish
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ó ą ć ę ł ń ś ź ż
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   por:
     name: Portuguese
     script: Latn
     characters:
-      base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ã ç è é ê í ò ó ô õ ú ü
-    status: done
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ã ç è é ê í
+        ò ó ô õ ú ü
+    source: Omniglot
+    status: weak
+    note: Single source.
   pot:
     name: Potawatomi
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z è é ê ë
-    status: done
+    source: Omniglot, Wikipedia
+    status: strong
   que:
     name: Quechua
     script: Latn
     characters:
-      base: a b c d e f g h i j k l m n o p q r s t u v w x y z ñ č ĉ š ž
-    status: done
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z ñ
+      auxiliary: č ĉ š ž
+    source: Omniglot, Wikipedia
+    status: strong
   kek:
     name: Kekchí
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    status: done
+    source: Omniglot, Wikipedia
+    status: strong
   ron:
     name: Romanian
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z â î ă ș ț
-    status: done
+    source: Wikipedia, Alvestrand
+    status: strong
   roh:
     name: Romansh
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z à â è é ê î ò ô ö ü
-    status: done
+    source: Omniglot, Wikipedia, Alvestrand
+    status: strong
   roo:
     name: Rotokas
     script: Latn
     characters:
       base: a e g i k o p r s t u v
-    status: done
+    source: Omniglot, Wikipedia
+    status: strong
   smn:
     name: Inari Sami
     script: Latn
     characters:
-      base: a b c d e f g h i j k l m n o p q r s t u v w x y z á â ä å ö č đ ŋ š ž
-    status: done
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z á â ä å ö č đ ŋ š
+        ž
+    source: Omniglot
+    status: weak
+    note: Single source.
   smj:
     name: Lule Sami
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z á ä å ñ ö ń
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   sme:
     name: Northern Sami
     script: Latn
     characters:
-      base: a b c d e f g h i j k l m n o p q r s t u v w x y z á ä å æ ö ø č đ ŋ š ŧ ž
-    status: done
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z á ä å æ ö ø č đ ŋ
+        š ŧ ž
+    source: Omniglot, Alvestrand
+    status: strong
   sma:
     name: Southern Sami
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä å æ ï ö ø
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   smo:
     name: Samoan
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ī ō ū
-    status: done
+    source: Omniglot, Wikipedia
+    status: strong
   sag:
     name: Sango
     script: Latn
     characters:
-      base: a b c d e f g h i j k l m n o p q r s t u v w x y z â ä ê ë î ï ô ö û ü
-    status: done
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z â ä ê ë î ï ô ö û
+        ü
+    source: Omniglot
+    status: weak
+    note: Single source.
   srm:
     name: Saramaccan
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ë ö
-    status: done
+    source: Omniglot, Wikipedia
+    status: strong
   srd:
     name: Sardinian
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z à ç è ì ò ù
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   gla:
     name: Scottish Gaelic
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z à è é ì ò ó ù
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   hrv:
     name: Croatian
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ć č đ š ž
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   sei:
     name: Seri
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ö
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   crs:
     name: Seselwa Creole French
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    status: done
+    source: Omniglot, Wikipedia
+    status: strong
   sjw:
     name: Shawnee
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   sna:
     name: Shona
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   scn:
     name: Sicilian
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z à â è ì ò ù
-    status: done
+    source: Omniglot, Wikipedia
+    status: strong
   szl:
     name: Silesian
     script: Latn
     characters:
-      base: a b c d e f g h i j k l m n o p q r s t u v w x y z ć č ń ř ś š ů ź ż ž
-    status: done
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z ć č ń ř ś š ů ź ż
+        ž
+    source: Omniglot
+    status: weak
+    note: Single source.
   slk:
     name: Slovak
     script: Latn
     characters:
-      base: a b c d e f g h i j k l m n o p q r s t u v w x y z á ä é í ó ô ú ý č ď ĺ ľ ň ŕ š ť ž
-    status: done
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z á ä é í ó ô ú ý č
+        ď ĺ ľ ň ŕ š ť ž
+    source: Omniglot
+    status: weak
+    note: Single source.
   slv:
     name: Slovenian
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ö ü ć č đ š ž
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   som:
     name: Somali
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   dsb:
     name: Lower Sorbian
     script: Latn
     characters:
-      base: a b c d e f g h i j k l m n o p q r s t u v w x y z ó ć č ě ł ń ř ŕ ś š ź ž
-    status: done
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z ó ć č ě ł ń ř ŕ ś š
+        ź ž
+    source: Omniglot, CLDR, Alvestrand
+    status: strong
   hsb:
     name: Upper Sorbian
     script: Latn
     characters:
-      base: a b c d e f g h i j k l m n o p q r s t u v w x y z ó ć č ě ł ń ř ś š ź ž
-    status: done
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z ó ć č ě ł ń ř ś š ź
+        ž
+    source: Omniglot, CLDR, Alvestrand
+    status: strong
   nso:
     name: Pedi
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ê ô š
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   sot:
     name: Southern Sotho
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á é è ē ō ò š
-    status: done
+    source: Omniglot, Wikipedia
+    status: strong
   spa:
     name: Spanish
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ñ ó ú ü ¡ ¿
-    status: done
+    source: Omniglot, CLDR
+    status: strong
   srn:
     name: Sranan Tongo
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z è ò
-    status: todo
+    source: Omniglot, Wikipedia
+    status: strong
   sun:
     name: Sundanese
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z é
-    status: done
+    source: Omniglot, Wikipedia
+    status: strong
   swa:
     name: Swahili (macrolanguage)
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p r s t u v w y z
-    status: done
+    source: Omniglot, Wikipedia, CLDR
+    status: strong
   swc:
     name: Congo Swahili
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p r s t u v w y z
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   swh:
     name: Swahili (individual language)
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p r s t u v w y z
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   ymk:
     name: Makwe
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    status: todo
+    source: CLDR
+    status: weak
+    note: Single source.
   wmw:
     name: Mwani
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p r s t u v w y z
-    status: done
+    source: Omniglot, Wikipedia
+    status: strong
   ssw:
     name: Swati
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   swe:
     name: Swedish
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á ä å é ë ö ü
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   tgl:
     name: Tagalog
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z á à é í ì ó ú
-    status: done
+    source: Omniglot, Wikipedia
+    status: strong
   tah:
     name: Tahitian
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ī ō ū
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   tdt:
     name: Tetun Dili
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ñ á ó é í
-    status: done
+    source: Omniglot, Wikipedia
+    status: strong
   tpi:
     name: Tok Pisin
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   tkl:
     name: Tokelau
     script: Latn
     characters:
       base: a e i o u f g k l m n p h t v ā ē ī ō ū
-    status: done
+    source: Omniglot, Wikipedia
+    status: strong
   ton:
     name: Tonga (Tonga Islands)
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā á ē é ī í ō ó ū ú
-    status: done
+    source: Omniglot, Wikipedia, CLDR
+    status: strong
   lua:
     name: Luba-Lulua
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p s t u v w y z
-    status: done
+    source: Omniglot, Wikipedia
+    status: weak
   tso:
     name: Tsonga
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   tsn:
     name: Tswana
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ê ô š
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   tum:
     name: Tumbuka
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    status: done
+    source: Omniglot, Wikipedia
+    status: weak
   tur:
     name: Turkish
     script: Latn
     characters:
-      base: a b c d e f g h i j k l m n o p q r s t u v w x y z â ç î ö û ü ğ İ ı ș
-    status: done
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z â ç î ö û ü ğ İ ı
+        ș
+    source: Omniglot
+    status: weak
+    note: Single source.
   tuk:
     name: Turkmen
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ç ö ü ý ň ş ž ș
-    status: todo
+    source: CLDR
+    status: weak
+    note: Single source.
   tvl:
     name: Tuvalu
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā á à ǎ ē é è ě ī í ì ǐ ō ó ò ǒ ū ú ù ǔ
-    status: done
+    source: Omniglot, Wikipedia
+    status: strong
   tzo:
     name: Tzotzil
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    status: done
+    source: Omniglot, Wikipedia
+    status: strong
   uzb:
     name: Uzbek
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   vec:
     name: Venetian
     script: Latn
     characters:
-      base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á ç è é ì í ò ó ù ł ž
-    status: done
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á ç è é ì í ò ó
+        ù ł ž
+    source: Omniglot, Wikipedia
+    status: strong
   vep:
     name: Veps
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ö ü č š ž
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   vol:
     name: Volapük
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ö ü
-    status: done
+    source: Omniglot, Wikipedia
+    status: strong
   vro:
     name: Võro
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä õ ö ü š ž
-    status: done
+    source: Omniglot, Wikipedia
+    status: strong
   wls:
     name: Wallisian
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ī ō ū
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   wln:
     name: Walloon
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z â å ç è é ê î ô û
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   war:
     name: Waray (Philippines)
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ñ
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   wbp:
     name: Warlpiri
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    status: done
+    source: Omniglot, Wikipedia
+    status: strong
   guc:
     name: Wayuu
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ñ ü
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   cym:
     name: Welsh
     script: Latn
     characters:
-      base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ä è é ê ë ì í î ï ò ó ô ö ù ú û ü ý ÿ ŵ ŷ ẁ ẃ ẅ ỳ
-    status: done
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ä è é ê ë ì
+        í î ï ò ó ô ö ù ú û ü ý ÿ ŵ ŷ ẁ ẃ ẅ ỳ
+    source: Omniglot
+    status: weak
+    note: Single source.
   wim:
     name: Wik-Mungkan
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   wrh:
     name: Wiradjuri
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   wol:
     name: Wolof
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z à ã é ë ñ ó ŋ
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   xav:
     name: Xavánte
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ã é ô õ ö ĩ
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   xho:
     name: Xhosa
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   yap:
     name: Yapese
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ë ö
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   yij:
     name: Yindjibarndi
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   zap:
     name: Zapotec
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z á à è é ë ì ü s̨ ñ ž z̨
-    status: done
+    source: Omniglot, Wikipedia
+    status: strong
   dje:
     name: Zarma
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ŋ ɲ à á ã ǎ í õ ǒ ô š ẽ ě ê ž
-    status: done
+    source: Omniglot, Wikipedia, CLDR
+    status: strong
   kiu:
     name: Kirmanjki (individual language)
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ç ê î û ü İ ı ş ǧ
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   diq:
     name: Dimli (individual language)
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ç ê î û ü İ ı ş ǧ
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   zul:
     name: Zulu
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   zun:
     name: Zuni
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ł
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   agq:
     name: Aghem
     script: Latn
     characters:
-      base: a b c d e f g h i k l m n o p s t u v w y z à â è ê ì î ò ô ù û ā ē ě ī ŋ ō ū ǎ ǐ ǒ ǔ ɔ ɛ ɨ ʉ ʔ ̀ ̂ ̄ ̌
+      base: a b c d e f g h i k l m n o p s t u v w y z à â è ê ì î ò ô ù û ā ē ě ī
+        ŋ ō ū ǎ ǐ ǒ ǔ ɔ ɛ ɨ ʉ ʔ ̀ ̂ ̄ ̌
       auxiliary: q r x
-    status: todo
+    source: CLDR
+    status: weak
+    note: Single source.
   aka:
     name: Akan
     script: Latn
     characters:
       base: a b d e f g h i k l m n o p r s t u w y ɔ ɛ
       auxiliary: c j q v z
-    status: done
+    source: Omniglot, CLDR
+    status: weak
   asa:
     name: Asu (Tanzania)
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p r s t u v w y z
       auxiliary: q x
-    status: todo
+    source: CLDR
+    status: weak
+    note: Single source.
   bam:
     name: Bambara
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p r s t u w y z ŋ ɔ ɛ ɲ
       auxiliary: q v x
-    status: done
+    source: Omniglot, Wikipedia, CLDR
+    status: strong
   bas:
     name: Basa (Cameroon)
     script: Latn
     characters:
-      base: a b c d e f g h i j k l m n o p r s t u v w y z à á â è é ê ì í î ò ó ô ù ú û ā ē ě ī ń ŋ ō ū ǎ ǐ ǒ ǔ ǹ ɓ ɔ ɛ ̀ ́ ̂ ̄ ̌ ᷆ ᷇
+      base: a b c d e f g h i j k l m n o p r s t u v w y z à á â è é ê ì í î
+        ò ó ô ù ú û ā ē ě ī ń ŋ ō ū ǎ ǐ ǒ ǔ ǹ ɓ ɔ ɛ ̀ ́ ̂ ̄ ̌ ᷆ ᷇
       auxiliary: q x
-    status: todo
+    source: CLDR
+    status: weak
+    note: Single source.
   cgg:
     name: Chiga (Tanzania)
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    status: done
+    source: Omniglot, CLDR
+    status: strong
   dav:
     name: Taita
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p r s t u v w y z
       auxiliary: q x
-    status: todo
+    source: CLDR
+    status: weak
+    note: Single source.
   dua:
     name: Duala
     script: Latn
     characters:
       base: a b c d e f g i j k l m n o p r s t u w y á é í ó ú ŋ ū ɓ ɔ ɗ ɛ ́
       auxiliary: h q v x z
-    status: done
+    source: Omniglot, CLDR
+    status: strong
   dyo:
     name: Jola-Fonyi
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y á é í ñ ó ú ŋ
       auxiliary: z
-    status: done
+    source: Omniglot, CLDR
+    status: strong
   ebu:
     name: Embu
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ĩ ũ
-    status: todo
+    source: CLDR
+    status: weak
+    note: Single source.
   ewe:
     name: Ewe
     script: Latn
     characters:
-      base: a b d e f g h i k l m n o p r s t u v w x y z à á ã è é ì í ò ó õ ù ú ĩ ŋ ũ ƒ ɔ ɖ ɛ ɣ ʋ ̀ ́ ̃ ẽ
+      base: a b d e f g h i k l m n o p r s t u v w x y z à á ã è é ì í
+        ò ó õ ù ú ĩ ŋ ũ ƒ ɔ ɖ ɛ ɣ ʋ ̀ ́ ̃ ẽ
       auxiliary: c j q â ä å æ ç ê ë î ï ñ ô ö ø û ü ÿ ā ă ĕ ĭ ŏ œ ŭ
-    status: done
+  source: Omniglot, CLDR
+    status: strong
   ewo:
     name: Ewondo
     script: Latn
     characters:
-      base: a b d e f g h i k l m n o p r s t u v w y z à á â è é ê ì í î ò ó ô ù ú û ě ń ŋ ǎ ǐ ǒ ǔ ǹ ɔ ə ɛ ̀ ́ ̂ ̌
+      base: a b d e f g h i k l m n o p r s t u v w y z à á â è é ê ì í î
+        ò ó ô ù ú û ě ń ŋ ǎ ǐ ǒ ǔ ǹ ɔ ə ɛ ̀ ́ ̂ ̌
       auxiliary: c j q x
-    status: done
+    source: Omniglot, Wikipedia, CLDR
+    status: strong
   ful:
     name: Fula
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p r s t u w y ñ ŋ ƴ ɓ ɗ
       auxiliary: q v x z
-    status: done
+    source: Omniglot, Wikipedia, CLDR
+    status: strong
   guz:
     name: Gusii
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p r s t u v w y z
       auxiliary: q x
-    status: done
+    source: Omniglot, CLDR
+    status: strong
   hau:
     name: Hausa
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o r s t u w y z ƙ ƴ ɓ ɗ ʼ
       auxiliary: p q v x y à á â è é ê ì í î ò ó ô ù ú û ʼ ̃
+    source: Omniglot, Wikipedia, CLDR
+    status: 
   jgo:
     name: Ngomba
     script: Latn
     characters:
-      base: a b c d f g h i j k l m n p s t u v w y z á â í î ú û ń ŋ ǎ ǐ ǔ ǹ ɔ ɛ ʉ ̀ ́ ̂ ̄ ̈ ̌ ḿ ẅ ꞌ
+      base: a b c d f g h i j k l m n p s t u v w y z á â í î ú û
+        ń ŋ ǎ ǐ ǔ ǹ ɔ ɛ ʉ ̀ ́ ̂ ̄ ̈ ̌ ḿ ẅ ꞌ
       auxiliary: e o q r x
-    status: todo
+    source: CLDR
+    status: weak
+    note: Single source.
   kab:
     name: Kabyle
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n p q r s t u w x y z č ǧ ɛ ɣ ḍ ḥ ṛ ṣ ṭ ẓ
       auxiliary: o v
-    status: done
+    source: Omniglot, Wikipedia, CLDR
+    status: strong
   kam:
     name: Kamba (Kenya)
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w y z ĩ ũ
-    status: todo
+    source: CLDR
+    status: weak
+    note: Single source.
   kde:
     name: Makonde
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    status: done
+    source: Omniglot, CLDR
+    status: strong
   khq:
     name: Koyra Chiini Songhay
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u w x y z ã õ ŋ š ž ɲ ẽ
       auxiliary: v
-    status: todo
+    source: CLDR
+    status: weak
+    note: Single source.
   kkj:
     name: Kako
     script: Latn
     characters:
-      base: a b c d e f g h i j k l m n o p r s t u v w y à á â è é ê ì í î ò ó ô ù ú û ŋ ǌ ɓ ɔ ɗ ɛ ̀ ́ ̂ ̧
+      base: a b c d e f g h i j k l m n o p r s t u v w y à á â è é ê ì í î
+        ò ó ô ù ú û ŋ ǌ ɓ ɔ ɗ ɛ ̀ ́ ̂ ̧
       auxiliary: q x z
-    status: todo
+    source: CLDR
+    status: weak
+    note: Single source.
   kln:
     name: Kalenjin
     script: Latn
     characters:
       base: a b c d e g h i j k l m n o p r s t u w y
       auxiliary: f q v x z
-    status: done
+    source: Wikipedia, CLDR
+    status: weak
   ksb:
     name: Shambala
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p s t u v w y z
       auxiliary: q r x
-    status: todo
+    source: CLDR
+    status: weak
+    note: Single source.
   ksf:
     name: Bafia
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p r s t u v w y z á é í ó ú ŋ ǝ ɔ ɛ ́
       auxiliary: q x
-    status: todo
+    source: CLDR
+    status: weak
+    note: Single source.
   ksh:
     name: Kölsch
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ß ä å æ ë ö ü ė œ ů
       auxiliary: à á â ã ç è é ê ì í î ï ñ ò ó ô ø ù ú û ÿ ā ă ē ĕ ğ ī ĭ ı ĳ ł ō ŏ ū ŭ
-    status: done
+    source: Wikipedia, CLDR
+    status: weak
   lag:
     name: Langi
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ó ú ɨ ʉ
-    status: todo
+    source: CLDR
+    status: weak
+    note: Single source.
   lin:
     name: Lingala
     script: Latn
     characters:
-      base: a b c d e f g h i k l m n o p r s t u v w y z á â é ê í î ó ô ú ě ǎ ǐ ǒ ɔ ɛ ́ ̂ ̌
+      base: a b c d e f g h i k l m n o p r s t u v w y z á â é ê í î ó ô ú ě ǎ
+        ǐ ǒ ɔ ɛ ́ ̂ ̌
       auxiliary: j q x
-    status: done
+    source: Omniglot, Wikipedia, CLDR
+    status: strong
   lkt:
     name: Lakota
     script: Latn
     characters:
       base: a b e g h i k l m n o p s t u w y z á é í ó ú č ŋ š ž ǧ ȟ ʼ
       auxiliary: c d f j q r s v x
-    status: done
+    source: Omniglot, Wikipedia, CLDR
+    status: strong
   lub:
     name: Luba-Katanga
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q s t u v w y z à á è é ì í ò ó ù ú ɔ ɛ ̀ ́
       auxiliary: g r x
-    status: todo
+    source: CLDR
+    status: weak
+    note: Single source.
   lug:
     name: Ganda
     script: Latn
     characters:
       base: a b c d e f g i j k l m n o p r s t u v w y z ŋ
       auxiliary: h q x
-    status: done
+    source: Omniglot, Wikipedia, CLDR
+    status: strong
   luy:
     name: Luyia
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    status: todo
+    source: CLDR
+    status: weak
+    note: Single source.
   mer:
     name: Meru
     script: Latn
     characters:
-      base: a b c d e f g h i j k l m n o p q r s t u v w x y z ĩ ũ
-    status: done
+      base: a b c d e g h i j k l m n o r t u w y ĩ ũ
+      auxiliary: f p q s v x z
+    source: CLDR
+    status: weak
+    note: Single source.
   mfe:
     name: Morisien
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p r s t u v w x y z
-    status: done
+    source: Omniglot, CLDR
+    status: strong
   mgh:
     name: Makhuwa-Meetto
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    status: todo
+    source: CLDR
+    status: weak
+    note: Single source.
   mgo:
     name: Meta'
     script: Latn
     characters:
       base: a b c d e f g h i j k m n o p r s t u w y z à è ì ò ù ŋ ɔ ə ʼ ̀
       auxiliary: q x
-    status: todo
+    source: CLDR
+    status: weak
+    note: Single source.
   mlg:
     name: Malagasy
     script: Latn
     characters:
-      base: a b d e f g h i j k l m n o p r s t v y z à â è é ê ë ì î ï n̈ ñ ô
-    status: done
+      base: a b d e f g h i j k l m n o p r s t v y z à â è é ê ë ì î ï n̈ ô
+      alternative: a b d e f g h i j k l m n o p r s t v y z à â è é ê ë ì î ï ñ ô
+    source: Omniglot, Wikipedia, CLDR
+    status: strong
   mri:
     name: Maori
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ī ō ū
-    status: done
+    source: Omniglot, Wikipedia, CLDR
+    status: strong
   msa:
     name: Malay (macrolanguage)
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    status: done
+    source: Omniglot, Wikipedia, CLDR
+    status: strong
   mua:
     name: Mundang
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p r s t u v w y z ã ẽ õ ĩ ŋ ǝ ə̃ ɓ ɗ ṽ
-    status: done
+    source: Omniglot, Wikipedia
+    status: strong
   naq:
     name: Khoekhoe
     script: Latn
     characters:
-      base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á ā ä â ã é è ê ë ẽ ē ì í ī ï ĩ ò ó õ ö ô ō ù ú ũ ü û ū ǀ ǁ ǂ ǃ
-    status: done
+      base: a b c d e f g h i k m n o p q r s t u w x y z à á ā ä â ã é è ê ë
+        ẽ ē ì í ī ï ĩ ò ó õ ö ô ō ù ú ũ ü û ū ǀ ǁ ǂ ǃ
+      auxiliary: j l v
+    source: Omniglot, Wikipedia, CLDR
+    status: strong
   nde:
     name: North Ndebele
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    status: done
+    source: Omniglot, Wikipedia, CLDR
+    status: strong
   nmg:
     name: Kwasio
     script: Latn
     characters:
-      base: a b c d e f g h i j k l m n o p r s t u v w y á â ä é ê í î ï ó ô ö ú û ā ē ě ī ń ŋ ō ŕ ū ǎ ǐ ǒ ǔ ǝ ɓ ɔ ɛ ́ ̂ ̄ ̌
+      base: a b c d e f g h i j k l m n o p r s t u v w y á â ä é ê í î ï ó ô ö
+        ú û ā ē ě ī ń ŋ ō ŕ ū ǎ ǐ ǒ ǔ ǝ ɓ ɔ ɛ ́ ̂ ̄ ̌
       auxiliary: q x z
-    status: todo
+    source: CLDR
+    status: weak
+    note: Single source.
   nnh:
     name: Ngiemboon
     script: Latn
     characters:
-      base: a b c d e f g h i j k l m n o p s t u v w y z à á â è é ê ì í ò ó ô ù ú û ÿ ě ń ŋ ǎ ǒ ǔ ɔ ɛ ʉ ʼ ̀ ́ ̂ ̌ ḿ ẅ
+      base: a b c d e f g h i j k l m n o p s t u v w y z à á â è é ê ì í ò ó ô
+        ù ú û ÿ ě ń ŋ ǎ ǒ ǔ ɔ ɛ ʉ ʼ ̀ ́ ̂ ̌ ḿ ẅ
       auxiliary: q r x
-    status: todo
+    source: CLDR
+    status: weak
+    note: Single source.
   nno:
     name: Norwegian Nynorsk
     script: Latn
     characters:
-      base: a b c d e f g h i j k l m n o p q r s t u v w x y z á à ä å æ é è ê ò ó ô ö ø ü
-    status: done
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z á à ä å æ é è ê ò ó ô
+        ö ø ü
+    source: Omniglot, Wikipedia, CLDR
+    status: strong
   nob:
     name: Norwegian Bokmål
     script: Latn
     characters:
-      base: a b c d e f g h i j k l m n o p q r s t u v w x y z á à ä å æ é è ê ò ó ô ö ø ü
-    status: done
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z á à ä å æ é è ê ò ó ô
+        ö ø ü
+    source: Omniglot, Wikipedia, CLDR
+    status: strong
   nus:
     name: Nuer
     script: Latn
     characters:
-      base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä a̱ ë e̱ ï i̱ ö o̱ ŋ ɔ ɔ̱ ɛ ɛ̱ ɛ̈ ɣ ̈ ̱
-    status: done
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä a̱ ë e̱ ï i̱ ö o̱ ŋ ɔ ɔ̱
+        ɛ ɛ̱ ɛ̈ ɣ ̈ ̱
+    source: Omniglot, Wikipedia
+    status: strong
   nyn:
     name: Nkore
     script: Latn
     characters:
       base: a b c d e f g h i j k m n o p r s t u v w y z
-    status: done
+    source: Omniglot, Wikipedia
+    status: strong
   prg:
     name: Old Prussian
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ģ ī ķ ņ ō ŗ š ū ž ț ḑ
-    status: done
+    source: Omniglot, Wikipedia
+    status: strong
   rof:
     name: Rombo
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p r s t u v w y z
       auxiliary: q x
-    status: todo
+    source: CLDR
+    status: weak
+    note: Single source.
   rwk:
     name: Rwa
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p r s t u v w y z
       auxiliary: q x
-    status: todo
+    source: CLDR
+    status: weak
+    note: Single source.
   saq:
     name: Samburu
     script: Latn
     characters:
       base: a b c d e g h i j k l m n o p r s t u v w y
       auxiliary: f q x z
-    status: todo
+    source: CLDR
+    status: weak
+    note: Single source.
   sbp:
     name: Sangu (Tanzania)
     script: Latn
     characters:
-      base: a b c d e f g h i j k l m n o p q s t u v w x y z à á ä â è é ë ê ì í ï î ò ó ö ô ù ú ü û
-    status: done
+      base: a b c d e f g h i j k l m n o p q s t u v w x y z à á ä â è é ë ê ì í ï î
+        ò ó ö ô ù ú ü û
+    source: Omniglot
+    status: weak
+    note: Single source.
   seh:
     name: Sena
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    status: done
+    source: Omniglot, Wikipedia
+    status: strong
   ses:
     name: Koyraboro Senni Songhai
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z ã õ ŋ š ž ɲ ẽ
-    status: todo
+    source: CLDR
+    status: weak
+    note: Single source.
   shi:
     name: Shilha
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n q r s t u w x y z ɛ ɣ ʷ ḍ ḥ ṛ ṣ ṭ ž
-    status: done
+    source: Omniglot, Wikipedia, CLDR
+    status: strong
   teo:
     name: Teso
     script: Latn
     characters:
-      base: a b c d e f g h i j k l m n o p q r s t u v w x y z ŋ
-    status: done
+      base: a b c d e g h i j k l m n o p r s t u v w x y ŋ
+      auxiliary: f q z
+    source: Omniglot, Wikipedia
+    status: strong
   twq:
     name: Tasawaq
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u w x y z ã õ ŋ š ž ɲ ẽ
       auxiliary: v
-    status: todo
+    source: CLDR
+    status: weak
+    note: Single source.
   tzm:
     name: Central Atlas Tamazight
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n q r s t u w x y z ɛ ɣ ʷ ḍ ḥ ṛ ṣ ṭ
-    status: done
+    source: Omniglot, Wikipedia, CLDR
+    status: strong
   vie:
     name: Vietnamese
     script: Latn
     characters:
-      base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ã è é ê ì í ò ó ô õ ù ú ý ă đ ĩ ũ ơ ư ạ ả ấ ầ ẩ ẫ ậ ắ ằ ẳ ẵ ặ ẹ ẻ ẽ ế ề ể ễ ệ ỉ ị ọ ỏ ố ồ ổ ỗ ộ ớ ờ ở ỡ ợ ụ ủ ứ ừ ử ữ ự ỳ ỵ ỷ ỹ
-    status: done
+      base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ã è é ê
+        ì í ò ó ô õ ù ú ý ă đ ĩ ũ ơ ư ạ ả ấ ầ ẩ ẫ ậ ắ ằ ẳ ẵ ặ ẹ ẻ ẽ ế ề ể ễ ệ ỉ
+        ị ọ ỏ ố ồ ổ ỗ ộ ớ ờ ở ỡ ợ ụ ủ ứ ừ ử ữ ự ỳ ỵ ỷ ỹ
+    source: Omniglot, Wikipedia, CLDR
+    status: strong
   vun:
     name: Vunjo
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p r s t u v w y z
       auxiliary: q x
-    status: todo
+    source: CLDR
+    status: weak
+    note: Single source.
   wae:
     name: Walser
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z á ã ä é í ó õ ö ú ü č š ũ
       auxiliary: ß à â å æ ç è ê ë ì î ï ñ ò ô ø ù û ÿ ā ă ē ĕ ī ĭ ō ŏ œ ū ŭ
-    status: done
+    source: Wikipedia, CLDR
+    status: strong
   xog:
     name: Soga
     script: Latn
     characters:
       base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    status: done
+    source: Omniglot, CLDR
+    status: strong
   yav:
     name: Yangben
     script: Latn
     characters:
-      base: a b c d e f g h i k l m n o p s t u v w y à á â è é ì í î ò ó ô ù ú û ā ī ŋ ō ū ǎ ǒ ǔ ɔ ɛ ̀ ́
+      base: a b c d e f g h i k l m n o p s t u v w y à á â è é ì í î ò ó ô ù ú û
+        ā ī ŋ ō ū ǎ ǒ ǔ ɔ ɛ ̀ ́
       auxiliary: g j q r x z
-    status: todo
+    source: CLDR
+    status: weak
+    note: Single source.
   yor:
     name: Yoruba
     script: Latn
     characters:
-      base: a b d e f g h i j k l m n o p r s t u w y à á ā è é ē ẹ ì í ī ò ó ō ọ ù ú ū ṣ ɔ ɛ ̀ ́
-    status: done
+      base: a b d e f g h i j k l m n o p r s t u w y à á ā è é ē ẹ ì í ī ò ó ō ọ
+        ù ú ū ṣ ̀ ́
+      alternative: a b d e f g h i j k l m n o p r s t u w y à á ā è é ē ẹ ì í ī ò ó ō ọ
+        ù ú ū ṣ ɔ ɛ ̀ ́
+    source: Omniglot, Wikipedia
+    status: strong
 Cyrl:
   abq:
     name: Abaza
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё
-    status: done
+    source: Omniglot, Wikipedia
+    status: strong
   abk:
     name: Abkhazian
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я џ қ ҟ ҩ ҭ ҳ ҵ ҷ ҽ ҿ ә ӡ ӷ ԥ
-    status: done
+      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я џ қ ҟ
+        ҩ ҭ ҳ ҵ ҷ ҽ ҿ ә ӡ ӷ ԥ
+    source: Omniglot, Wikipedia
+    status: strong
   ady:
     name: Adyghe
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
-    status: done
+    source: Omniglot, Wikipedia
+    status: strong
   agx:
     name: Aghul
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
-    status: done
+    source: Omniglot, Wikipedia
+    status: strong
   atv:
     name: Northern Altai
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ј ҥ ӧ ӱ
-    status: done
+      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ј ҥ
+        ӧ ӱ
+    source: Omniglot
+    status: weak
+    note: Single source.
   alt:
     name: Southern Altai
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ј ҥ ӧ ӱ
-    status: done
+      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ј ҥ
+        ӧ ӱ
+    source: Omniglot
+    status: weak
+    note: Single source.
   ani:
     name: Andi
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   aqc:
     name: Archi
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ӏ а́ е́ и́ о́
-    status: done
+    source: Omniglot, Wikipedia
+    status: strong
   ava:
     name: Avaric
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
-    status: done
+    source: Omniglot, Wikipedia
+    status: strong
   aze:
     name: Azerbaijani
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ј ғ ҝ ү ҹ һ ә ө ’
-    status: done
+      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ј ғ ҝ
+        ү ҹ һ ә ө ’
+    source: Omniglot, Wikipedia
+    status: strong
   bak:
     name: Bashkir
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ғ ҙ ҡ ң ҫ ү һ ә ө
-    status: done
+      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ғ ҙ
+        ҡ ң ҫ ү һ ә ө
+    source: Omniglot
+    status: weak
+    note: Single source.
   bel:
     name: Belarusian
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё і ў ’ ґ
-    status: done
+      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё і ў
+        ’ ґ
+    source: Omniglot
+    status: weak
+    note: Single source.
   kap:
     name: Bezhta
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э я ӏ а̄ е̄ ӣ о̄ ӯ э̄
-    status: done
+      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э я ӏ а̄ е̄ ӣ
+        о̄ ӯ э̄
+    source: Omniglot, Wikipedia
+    status: strong
   bos:
     name: Bosnian
     script: Cyrl
     characters:
       base: а б в г д е ж з и к л м н о п р с т у ф х ц ч ш ђ ј љ њ ћ џ
-    status: done
+    source: Omniglot, CLDR
+    status: strong
   bdk:
     name: Budukh
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ӏ ә
-    status: done
+    source: Omniglot, Wikipedia
+    status: strong
   bul:
     name: Bulgarian
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ь ю я ѐ ѝ
-    status: done
+    source: Omniglot, Wikipedia
+    status: strong
+    note: localised shapes for л в к г й ф ю
   bua:
     name: Buriat
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ү һ ө
-    status: done
+      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ү һ
+        ө
+    source: Omniglot
+    status: weak
+    note: Single source.
   cji:
     name: Chamalal
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
-    status: done
+    source: Omniglot, Wikipedia
+    status: strong
   che:
     name: Chechen
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   ckt:
     name: Chukot
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӄ ӈ ԓ ’
-    status: done
+      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӄ ӈ
+        ԓ ’
+    source: Omniglot
+    status: weak
+    note: Single source.
   chv:
     name: Chuvash
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҫ ӑ ӗ ӳ
-    status: done
+      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҫ ӑ
+        ӗ ӳ
+    source: Omniglot
+    status: weak
+    note: Single source.
   crh:
     name: Crimean Tatar
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   dar:
     name: Dargwa
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   dlg:
     name: Dolgan
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ү һ ӈ ө
-    status: done
+      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ү һ
+        ӈ ө
+    source: Omniglot
+    status: weak
+    note: Single source.
   dng:
     name: Dungan
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ў җ ң ү ә
-    status: done
+      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ў җ
+        ң ү ә
+    source: Omniglot
+    status: weak
+    note: Single source.
   enf:
     name: Forest Enets
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҫ ӈ ԑ
-    status: done
+      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҫ ӈ
+        ԑ
+    source: Omniglot
+    status: weak
+    note: Single source.
   enh:
     name: Tundra Enets
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҫ ӈ ԑ
-    status: done
+      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҫ ӈ
+        ԑ
+    source: Omniglot
+    status: weak
+    note: Single source.
   eve:
     name: Even
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӈ ө ӫ а̄ ө̄ е̄ ӣ ӯ ы̄ э̄ ю̄ я̄
-    status: done
+      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӈ ө
+        ӫ а̄ ө̄ е̄ ӣ ӯ ы̄ э̄ ю̄ я̄
+    source: Omniglot, Wikipedia
+    status: strong
   evn:
     name: Evenki
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӈ
-      combinations: "{а̄}{е̄}{ә̄}{о̄}{ы̄}"
-    status: done
+      combinations: '{а̄}{е̄}{ә̄}{о̄}{ы̄}'
+    source: Omniglot, Wikipedia
+    status: strong
   myv:
     name: Erzya
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   gag:
     name: Gagauz
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӂ ӓ ӧ ӱ
-    status: done
+      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӂ ӓ
+        ӧ ӱ
+    source: Omniglot
+    status: weak
+    note: Single source.
   huz:
     name: Hunzib
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ӏ ә ȧ ӯ
-      combinations: "{а̄}{е̄}{ә̄}{о̄}{э̄}"
-    status: done
+      combinations: '{а̄}{е̄}{ә̄}{о̄}{э̄}'
+    source: Omniglot
+    status: weak
+    note: Single source.
   inh:
     name: Ingush
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   itl:
     name: Itelmen
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё љ њ ў ҳ ӄ ӆ ӈ ӑ ә ’ ˚
-      combinations: "{о̆}"
-    status: done
+      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё љ њ
+        ў ҳ ӄ ӆ ӈ ӑ ә ’ ˚
+      combinations: '{о̆}'
+    source: Omniglot, Wikipedia
+    status: strong
   jdt:
     name: Judeo-Tat
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   kbd:
     name: Kabardian
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   xal:
     name: Kalmyk
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё җ ң ү һ ә ө
-    status: done
+      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё җ ң
+        ү һ ә ө
+    source: Omniglot
+    status: weak
+    note: Single source.
   krc:
     name: Karachay-Balkar
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ў
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   kdr:
     name: Karaim
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ӧ ӱ
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   kpt:
     name: Karata
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у х ц ч ш щ ъ ы ь э ю я ӏ ã ẽ и̃ õ у̃
-    status: done
+      base: а б в г д е ж з и й к л м н о п р с т у х ц ч ш щ ъ ы ь э ю я ӏ ã ẽ и̃
+        õ у̃
+    source: Omniglot
+    status: weak
+    note: Single source.
   kaz:
     name: Kazakh
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё і ғ қ ң ү ұ һ ә ө
-    status: done
+      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё і ғ
+        қ ң ү ұ һ ә ө
+    source: Omniglot
+    status: weak
+    note: Single source.
   kaa:
     name: Kara-Kalpak
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ў ғ қ ң ү ҳ ә ө
-    status: done
+      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ў ғ
+        қ ң ү ҳ ә ө
+    source: Omniglot
+    status: weak
+    note: Single source.
   ket:
     name: Ket
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӄ ӈ ә ө ӷ ’
-    status: done
+      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӄ ӈ
+        ә ө ӷ ’
+    source: Omniglot
+    status: weak
+    note: Single source.
   kjh:
     name: Khakas
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё і ғ ң ӌ ӧ ӱ
-    status: done
+      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё і ғ
+        ң ӌ ӧ ӱ
+    source: Omniglot
+    status: weak
+    note: Single source.
   kca:
     name: Khanty
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё є ў қ ң ҳ ҷ ӆ ӈ ӑ ӓ ә ӛ ӧ ө ӫ ӱ ԓ
-      combinations: "{ю̆}{я̆}"
-    status: done
+      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё є ў
+        қ ң ҳ ҷ ӆ ӈ ӑ ӓ ә ӛ ӧ ө ӫ ӱ ԓ
+      combinations: '{ю̆}{я̆}'
+    source: Omniglot
+    status: weak
+    note: Single source.
   kjj:
     name: Khinalugh
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ӏ ә
-      combinations: "{а̃}{е̃}{и̃}{о̃}{у̃}{ә̃}"
-    status: done
+      combinations: '{а̃}{е̃}{и̃}{о̃}{у̃}{ә̃}'
+    source: Omniglot
+    status: weak
+    note: Single source.
   sjd:
     name: Kildin Sami
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ј ҋ ҍ ҏ һ ӆ ӈ ӊ ӎ ӓ ӭ ’
-    status: done
+      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ј ҋ
+        ҍ ҏ һ ӆ ӈ ӊ ӎ ӓ ӭ ’
+    source: Omniglot
+    status: weak
+    note: Single source.
   kom:
     name: Komi
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё і ӧ
-    status: done
+    source: Omniglot, Wikipedia
+    status: strong
   kpy:
     name: Koryak
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӄ ӈ ’
-    status: done
+      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӄ ӈ
+        ’
+    source: Omniglot, Wikipedia
+    status: weak
+    note: sources partially disagree. Wikipedia notes қ ң instead of ӄ ӈ.
   jct:
     name: Krymchak
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ӧ ӱ
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   kum:
     name: Kumyk
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   kur:
     name: Kurdish
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ь э һ ә ӧ ԛ ԝ
-    status: done
+      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ь э һ ә ӧ
+        ԛ ԝ
+    source: Omniglot, Wikipedia
+    status: strong
   kir:
     name: Kirghiz
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ң ү ө
-    status: done
+      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ң ү
+        ө
+    source: Omniglot, Wikipedia
+    status: strong
   lbe:
     name: Lak
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   lez:
     name: Lezghian
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   mkd:
     name: Macedonian
     script: Cyrl
     characters:
       base: а б в г д е ж з и к л м н о п р с т у ф х ц ч ш ѓ ѕ ј љ њ ќ џ
-    status: done
+    source: Omniglot, Wikipedia, CLDR
+    status: strong
   mns:
     name: Mansi
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӈ ӣ ӯ
-      combinations: "{а̄}{е̄}{о̄}{э̄}{ю̄}{я̄}"
-    status: done
+      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӈ ӣ
+        ӯ
+      combinations: '{а̄}{е̄}{о̄}{э̄}{ю̄}{я̄}'
+    source: Omniglot
+    status: weak
+    note: Single source.
   mhr:
     name: Eastern Mari
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҥ ӧ ӱ
-    status: done
+      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҥ ӧ
+        ӱ
+    source: Omniglot
+    status: weak
+    note: Single source.
   mrj:
     name: Western Mari
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӓ ӧ ӱ ӹ
-    status: done
+      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӓ ӧ
+        ӱ ӹ
+    source: Omniglot
+    status: weak
+    note: Single source.
   mdf:
     name: Moksha
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   ron:
     name: Romanian (Moldovan)
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш ы ь э ю я ӂ
-    status: done
+    source: Omniglot, Wikipedia
+    status: strong
   mon:
     name: Mongolian
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ү ө
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   srp:
     name: Serbian
     script: Cyrl
     characters:
       base: ́ а б в г д е ж з и к л м н о п р с т у ф х ц ч ш ђ ј љ њ ћ џ
-      combinations: "{з́}{с́}"
-    status: done
+      combinations: '{з́}{с́}'
+    source: Omniglot, Wikipedia, CLDR
+    status: strong
   cnr:
     name: Montenegrin
     script: Cyrl
     characters:
       base: ́ а б в г д е ж з и к л м н о п р с т у ф х ц ч ш ђ ј љ њ ћ џ
-      combinations: "{з́}{с́}"
-    status: done
+      combinations: '{з́}{с́}'
+    source: Omniglot, Wikipedia
+    status: strong
   gld:
     name: Nanai
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӈ
-      combinations: "{а̄}{е̄}{ӣ}{о̄}{ӯ}{э̄}"
-    status: done
+      combinations: '{а̄}{е̄}{ӣ}{о̄}{ӯ}{э̄}'
+    source: Omniglot
+    status: weak
+    note: Single source.
   yrk:
     name: Nenets
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӈ ӭ ’ ”
-    status: done
+      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӈ
+        ӭ ’ ”
+    source: Omniglot, Wikipedia
+    status: strong
   nio:
     name: Nganasan
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҫ ү ӈ ә ө ҙ ”
-      combinations: "{з̌}"
-    status: done
+      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҫ ү
+        ӈ ә ө ҙ ”
+      combinations: '{з̌}'
+    source: Omniglot, Wikipedia
+    status: weak
+    note: Sources partially disagree. Wikipedia notes з̌ instead of ҙ.
   niv:
     name: Gilyak
     script: Cyrl
     characters:
-      base: ʼ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ғ ӄ ӈ ӷ ӻ ӽ ӿ ’
-      combinations: "{р̌}"
-    status: todo
+      base: ʼ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ғ
+        ӄ ӈ ӷ ӻ ӽ ӿ ’
+      combinations: '{р̌}'
+    source: Omniglot, Wikipedia
+    status: strong
   nog:
     name: Nogai
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   oaa:
     name: Orok
     script: Cyrl
     characters:
       base: ̄ а б в г д е ж з и к л м н о п р с т у ф х ч э ј ӈ ӡ ӣ ө ԩ
-      combinations: "{а̄}{е̄}{о̄}{ө̄}{э̄}"
-    status: done
+      combinations: '{а̄}{е̄}{о̄}{ө̄}{э̄}'
+    source: Omniglot, Wikipedia
+    status: strong
   oss:
     name: Ossetian
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӕ
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   rml:
     name: Baltic Romani
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш ы ь э ю я ё ґ
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   rmy:
     name: Vlax Romani
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ғ
+    source: 
     status: todo
+    note: Insuficient information.
   rus:
     name: Russian
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   rue:
     name: Rusyn
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ь э ю я ё є і ї ґ
-    status: done
+      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ь э ю я ё є і
+        ї ґ
+    source: Omniglot, Wikipedia
+    status: strong
   rut:
     name: Rutul
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   sel:
     name: Selkup
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё җ ӄ ӈ å ӣ ӧ ө ӭ ӯ ӱ ӷ
-      combinations: "{и̇}"
-    status: done
+      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё җ ӄ
+        ӈ å ӣ ӧ ө ӭ ӯ ӱ ӷ
+      combinations: '{и̇}'
+    source: Omniglot
+    status: weak
+    note: Single source.
   cjs:
     name: Shor
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ғ қ ң ӧ ӱ
-    status: done
+      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ғ қ
+        ң ӧ ӱ
+    source: Omniglot
+    status: weak
+    note: Single source.
   sgh:
     name: Shughni
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш ё ғ қ ҳ ҷ ӣ ӯ
-      combinations: "{а̄}"
-    status: done
+      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш ё ғ қ
+        ҳ ҷ ӣ ӯ
+      combinations: '{а̄}'
+    source: Omniglot
+    status: weak
+    note: Single source.
   tab:
     name: Tabassaran
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   tgk:
     name: Tajik
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ч ш ъ э ю я ё ғ қ ҳ ҷ ӣ ӯ
-    status: done
+      base: а б в г д е ж з и й к л м н о п р с т у ф х ч ш ъ э ю я ё ғ қ
+        ҳ ҷ ӣ ӯ
+    source: Omniglot, Wikipedia, CLDR
+    status: strong
   tly:
     name: Talysh
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш ј ғ ҹ ҝ һ ә
-    status: done
+    source: Omniglot, Wikipedia
+    status: strong
   ddo:
     name: Dido
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у х ц ч ш э ӏ
-      combinations: "{а̄}"
-    status: done
+      combinations: '{а̄}'
+    source: Omniglot
+    status: weak
+    note: Single source.
   ttt:
     name: Muslim Tat
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   tat:
     name: Tatar
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё җ ң ү һ ә ө
-    status: done
+      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё җ ң
+        ү һ ә ө
+    source: Omniglot
+    status: weak
+    note: Single source.
   tkr:
     name: Tsakhur
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
-    status: done
+    source: Omniglot
+    status: weak
+    note: Single source.
   tuk:
     name: Turkmen
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё җ ң ү ә ө
-    status: done
+      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё җ ң
+        ү ә ө
+    source: Omniglot
+    status: weak
+    note: Single source.
   tyv:
     name: Tuvinian
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ң ү ө
-    status: done
+      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ң ү
+        ө
+    source: Omniglot
+    status: weak
+    note: Single source.
   udi:
     name: Udi
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ҝ ӏ ’
-    status: done
+      base: а б в г д е ж з и й к  л м н о п р с т у ф х ц ч ш э ю я '
+      alternative: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ҝ ӏ ’
+    source: Omniglot, Wikipedia
+    status: strong
   udm:
     name: Udmurt
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӝ ӟ ӥ ӧ ӵ
-    status: done
+      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӝ ӟ
+        ӥ ӧ ӵ
+    source: Omniglot
+    status: weak
+    note: Single source.
   ukr:
     name: Ukrainian
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ь э ю я є і ї ґ ’
-    status: done
+      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ь э ю я є і ї
+        ґ ’
+    source: Omniglot, Wikipedia, CLDR
+    status: strong
   uum:
     name: Urum
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш ы э ґ ӧ ӱ ’
-    status: done
+    source: Omniglot, Wikipedia
+    status: strong
   uig:
     name: Uighur
     script: Cyrl
     characters:
       base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш ю я ғ җ қ ң ү һ ә ө
-    status: done
+    source: Omniglot, Wikipedia
+    status: strong
   uzb:
     name: Uzbek
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ў ғ қ ҳ
-    status: done
+      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ў ғ
+        қ ҳ
+    source: Omniglot
+    status: weak
+    note: Single source.
   uzn:
     name: Northern Uzbek
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ғ қ ҳ ӯ
-    status: done
+      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ғ қ
+        ҳ ӯ
+    source: Omniglot
+    status: weak
+    note: Single source.
   yai:
     name: Yagnobi
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ э ю я ё ғ қ ҳ ҷ ӣ ӯ ԝ
-    status: done
+      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ э ю я ё ғ қ
+        ҳ ҷ ӣ ӯ ԝ
+    source: Omniglot, Wikipedia
+    status: strong
   sah:
     name: Yakut
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҕ ҥ ү һ ө
-    status: done
+      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҕ ҥ
+        ү һ ө
+    source: Omniglot
+    status: weak
+    note: Single source.
   yux:
     name: Southern Yukaghir
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҕ җ ә қ ө
-    status: done
+      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҕ җ
+        ә қ ө
+    source: Omniglot
+    status: weak
+    note: Single source.
   ykg:
     name: Northern Yukaghir
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ғ ң ӧ
-    status: done
+      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ғ ң
+        ӧ
+    source: Omniglot
+    status: weak
+    note: Single source.
   ess:
     name: Central Siberian Yupik
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ў қ ң ҳ ҕ ’
-    status: done
+      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ў қ
+        ң ҳ ҕ ’
+    source: Omniglot
+    status: weak
+    note: Single source.
   chu:
     name: Church Slavonic
     script: Cyrl
     characters:
-      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь ю є ѕ џ ѥ ѩ ѭ ҁ і ї ѡ ѣ ѧ ѫ ѯ ѱ ѳ ѵ ѷ ѻ ѽ ѿ ꙁ ꙋ ꙍ ꙗ ꙃ
-    status: done
+      base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь ю є ѕ џ ѥ ѩ ѭ
+        ҁ і ї ѡ ѣ ѧ ѫ ѯ ѱ ѳ ѵ ѷ ѻ ѽ ѿ ꙁ ꙋ ꙍ ꙗ ꙃ
+    source: Omniglot, Wikipedia, CLDR
+    status: strong
+Grek:
+  ell:
+    name: Modern Greek
+    script: Grek
+    characters:
+      base: ΐ ά έ ή ί ΰ α β γ δ ε ζ η θ ι κ λ μ ν ξ ο π ρ ς σ τ υ φ χ ψ ω ϊ ϋ ό ύ
+        ώ
+      auxiliary: ἀ ἁ ἂ ἃ ἄ ἅ ἆ ἇ ἐ ἑ ἒ ἓ ἔ ἕ ἠ ἡ ἢ ἣ ἤ ἥ ἦ ἧ ἰ ἱ ἲ ἳ ἴ ἵ ἶ ἷ ὂ ὃ ὄ ὐ ὑ ὒ
+        ὓ ὔ ὕ ὖ ὗ ὢ ὣ ὤ ὥ ὦ ὧ ὰ ὲ ὴ ὶ ὸ ὺ ὼ ᾶ ῆ ῒ ῖ ῗ ῢ ῦ ῧ ῶ
+    source: Omniglot, CLDR, Wikipedia
+    status: strong
+    note: Makes use of polytonic as auxiliary characters for use in specific instances.
+  grc:
+    name: Ancient Greek (pre 1453)
+    script: Grek
+    characters:
+      base:  ά έ ή ί ΰ α β γ δ ε ζ η θ ι κ λ μ ν ξ ο π ρ ς σ τ υ φ χ ψ ω ϊ ϋ ό ύ
+        ώ ἀ ἁ ἂ ἃ ἄ ἅ ἆ ἇ ἐ ἑ ἒ ἓ ἔ ἕ ἠ ἡ ἢ ἣ ἤ ἥ ἦ ἧ ἰ ἱ ἲ ἳ ἴ ἵ ἶ ἷ ὂ ὃ ὄ ὐ ὑ ὒ
+        ὓ ὔ ὕ ὖ ὗ ὢ ὣ ὤ ὥ ὦ ὧ ὰ ὲ ὴ ὶ ὸ ὺ ὼ ᾶ ῆ ῒ ῖ ῗ ῢ ῦ ῧ ῶ
+    source: Omniglot, Wikipedia
+    status: strong
