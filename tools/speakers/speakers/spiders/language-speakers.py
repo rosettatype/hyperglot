@@ -11,6 +11,7 @@ import re
 import yaml
 import scrapy
 import os
+import logging
 
 
 class LanguageSpider(scrapy.Spider):
@@ -48,11 +49,13 @@ class LanguageSpider(scrapy.Spider):
             lang = [key for key, url in self.urls.items() if url ==
                     response.request.url][0]
         except Exception as e:
+            logging.error(e)
             lang = "unknown"
 
         # 'Native speakers' seems to be a Wikipedia standard label for language
         # pages
-        speakers_xpath = "//table[contains(@class, 'infobox')]//tr[contains(.//div, 'Native speakers')]/td//text()"
+        speakers_xpath = "//table[contains(@class, 'infobox')]" \
+            + "//tr[contains(.//div, 'Native speakers')]/td//text()"
         speakers_raw = " ".join(response.xpath(speakers_xpath).getall())
 
         # Clean up raw data some, remove trailing spaces, remove control chars
@@ -63,29 +66,40 @@ class LanguageSpider(scrapy.Spider):
 
             # Remove anything before and after the first essential number, and
             # save that number with period and commans
+            # Also run regex on lowercase to catch various Million/MILLION
             numbers = re.findall(r"^[^0-9]*([0-9,\.]*)\s+(million|billion)?",
-                                 speakers.lower())[0]
+                                 speakers.lower())
+            if numbers:
+                # findall will return a list, but there ever is only one item
+                # which is itself a tuple of the matched groups, where
+                # [0][0] is the extracted number, and
+                # [0][1] is the million/billion string, if found
+                matches = numbers[0]
+                number = matches[0].replace(",", "")
 
-            number = numbers[0].replace(",", "")
+                # Parse "b/millions" to actual number:
+                # To float, make m/billions, loose comma
+                if matches[1] == "billion":
+                    number = round(float(number) * 10 ** 9)
 
-            # Parse "b/millions" to actual number:
-            # To float, make m/billions, loose comma
-            if numbers[1] == "billion":
-                number = int(float(number) * 10 ** 9)
+                if matches[1] == "million":
+                    number = round(float(number) * 10 ** 6)
 
-            if numbers[1] == "million":
-                number = int(float(number) * 10 ** 6)
-
-            # Plain numbers, no comma-formatting, no fractional humans please
-            speakers = int(number)
+                # Plain numbers, no comma-formatting, no fractional humans
+                # please
+                speakers = int(number)
+            else:
+                speakers = "unknown"
         else:
             speakers = "unknown"
 
         # While we are at it try to fetch language codes to cross-reference
         iso_639_1 = response.xpath(
-            "//table[contains(@class, 'infobox')]//tr[contains(.//a, 'ISO 639-1')]/td//a/text()").get()
+            "//table[contains(@class, 'infobox')]"
+            + "//tr[contains(.//a, 'ISO 639-1')]/td//a/text()").get()
         iso_639_2 = response.xpath(
-            "//table[contains(@class, 'infobox')]//tr[contains(.//a, 'ISO 639-2')]/td//a/text()").get()
+            "//table[contains(@class, 'infobox')]"
+            + "//tr[contains(.//a, 'ISO 639-2')]/td//a/text()").get()
 
         yield {
             "lang": lang,
