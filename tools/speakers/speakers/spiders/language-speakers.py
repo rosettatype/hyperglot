@@ -12,6 +12,7 @@ import yaml
 import scrapy
 import os
 import logging
+import urllib.parse
 
 
 class LanguageSpider(scrapy.Spider):
@@ -32,6 +33,8 @@ class LanguageSpider(scrapy.Spider):
     # text (label) and then parse that row's data (text)
     base = "https://en.wikipedia.org/wiki/%s_language"
 
+    # Save a dict of iso to URL to later re-associate the crawled data with our
+    # data
     with open(rosetta_yaml, 'r') as stream:
         try:
             data = yaml.load(stream)
@@ -40,19 +43,14 @@ class LanguageSpider(scrapy.Spider):
 
         for script, languages in data.items():
             for key, lang in languages.items():
-                urls[key] = base % lang["name"].replace(" ", "_")
+                # Save the URL encoded
+                urls[key] = base % urllib.parse.quote_plus(
+                    lang["name"].replace(" ", "_"))
 
     # To run a few languages only for debugging, append e.g. [:5]
     start_urls = [u for u in urls.values()]
 
     def parse(self, response):
-        try:
-            lang = [key for key, url in self.urls.items() if url ==
-                    response.request.url][0]
-        except Exception as e:
-            logging.error(e)
-            lang = "unknown"
-
         # 'Native speakers' seems to be a Wikipedia standard label for language
         # pages
         speakers_xpath = "//table[contains(@class, 'infobox')]" \
@@ -66,13 +64,32 @@ class LanguageSpider(scrapy.Spider):
         # Replace all kinds of hyphens with simple hyphen
         speakers = re.sub(r"[\u00AD\u002D\u2010-\u2015]", "-", speakers)
 
-        if speakers is not None and speakers not in ["", "None", "none"]:
-
+        if re.search("written only", speakers_raw):
+            speakers = "written only"
+        elif speakers is not None and speakers not in ["", "None", "none"]:
             # Remove anything before and after the first essential number, and
             # save that number with period and commans
             # Also run regex on lowercase to catch various Million/MILLION
-            numbers = re.findall(r"^\D*([0-9,\.\-]*)\s+(million|billion)?",
+            #
+            # This should capture the essential number in all of those:
+            # 12   million
+            # 12 million [1]
+            # about 12 million
+            # est. 2,100
+            # 12  million
+            # 12     million
+            # 2.5–3 million (with other hyphen)
+            # 2.5-3 million (with hyphen)
+            # 500+ speakers
+            # 25 + speakers
+            # 100-250
+            # 1.2-2.3
+            # 10 million
+            # All UK speakers: 700,000+ (2012)[1]
+            numbers = re.findall(r"^\D*([0-9,\.\-]*)[\s+]+(million|billion)?",
                                  speakers.lower())
+            speakers = "unknown"
+
             if numbers:
                 # findall will return a list, but there ever is only one item
                 # which is itself a tuple of the matched groups, where
@@ -84,21 +101,18 @@ class LanguageSpider(scrapy.Spider):
                 # If a range was matches, take the first value only
                 number = matches[0].replace(",", "").split("-")[0]
 
-                # Parse "b/millions" to actual number:
-                # To float, make m/billions, loose comma
-                if matches[1] == "billion":
-                    number = round(float(number) * 10 ** 9)
+                if number != "":
+                    # Parse "b/millions" to actual number:
+                    # To float, make m/billions, loose comma
+                    if matches[1] == "billion":
+                        number = round(float(number) * 10 ** 9)
 
-                if matches[1] == "million":
-                    number = round(float(number) * 10 ** 6)
+                    if matches[1] == "million":
+                        number = round(float(number) * 10 ** 6)
 
-                # Plain numbers, no comma-formatting, no fractional humans
-                # please
-                speakers = int(number)
-            else:
-                speakers = "unknown"
-        else:
-            speakers = "unknown"
+                    # Plain numbers, no comma-formatting, no fractional humans
+                    # please
+                    speakers = int(number)
 
         # While we are at it try to fetch language codes to cross-reference
         iso_639_1 = response.xpath(
@@ -107,6 +121,17 @@ class LanguageSpider(scrapy.Spider):
         iso_639_2 = response.xpath(
             "//table[contains(@class, 'infobox')]"
             + "//tr[contains(.//a, 'ISO 639-2')]/td//a/text()").get()
+
+        # Try match the parsed language back to our original iso 3 letter codes
+        try:
+            lang = [key for key, url in self.urls.items() if url ==
+                    response.request.url][0]
+        except Exception as e:
+            logging.error(e)
+            if iso_639_2 in self.urls.keys():
+                lang = iso_639_2
+            else:
+                lang = "not found"
 
         yield {
             "lang": lang,
