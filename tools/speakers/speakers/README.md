@@ -19,6 +19,18 @@ cp /dev/null "../../data/speakers.xml"
 scrapy crawl speakers -o "../../data/speakers.xml"
 ```
 
+To only test the spider, run as last command instead:
+
+```
+scrapy runspider speakers
+```
+
+To test data extraction from a page with URL run as last command instead (e.g. then in the shell use response.xpath(...) to test extraction):
+
+```
+scrapy shell URL
+```
+
 **NOTE:** That data is scraped raw data. You will almost always need to clean
 it up manually in some way. The parsed data include the `speakers_raw` field 
 for cross checking. Since we are searching Wikipedia not by the language ISO

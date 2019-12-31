@@ -42,6 +42,7 @@ class LanguageSpider(scrapy.Spider):
             for key, lang in languages.items():
                 urls[key] = base % lang["name"].replace(" ", "_")
 
+    # To run a few languages only for debugging, append e.g. [:5]
     start_urls = [u for u in urls.values()]
 
     def parse(self, response):
@@ -58,16 +59,19 @@ class LanguageSpider(scrapy.Spider):
             + "//tr[contains(.//div, 'Native speakers')]/td//text()"
         speakers_raw = " ".join(response.xpath(speakers_xpath).getall())
 
-        # Clean up raw data some, remove trailing spaces, remove control chars
+        # Clean up raw data some, remove trailing spaces
         speakers = speakers_raw.strip()
+        # Remove control chars
         speakers = re.sub(r"[\u0001-\u001F]", "", speakers)
+        # Replace all kinds of hyphens with simple hyphen
+        speakers = re.sub(r"[\u00AD\u002D\u2010-\u2015]", "-", speakers)
 
         if speakers is not None and speakers not in ["", "None", "none"]:
 
             # Remove anything before and after the first essential number, and
             # save that number with period and commans
             # Also run regex on lowercase to catch various Million/MILLION
-            numbers = re.findall(r"^[^0-9]*([0-9,\.]*)\s+(million|billion)?",
+            numbers = re.findall(r"^\D*([0-9,\.\-]*)\s+(million|billion)?",
                                  speakers.lower())
             if numbers:
                 # findall will return a list, but there ever is only one item
@@ -75,7 +79,10 @@ class LanguageSpider(scrapy.Spider):
                 # [0][0] is the extracted number, and
                 # [0][1] is the million/billion string, if found
                 matches = numbers[0]
-                number = matches[0].replace(",", "")
+
+                # Remove superflous readabiity commas
+                # If a range was matches, take the first value only
+                number = matches[0].replace(",", "").split("-")[0]
 
                 # Parse "b/millions" to actual number:
                 # To float, make m/billions, loose comma
