@@ -54,13 +54,16 @@ class LanguageSpider(scrapy.Spider):
         # pages
         speakers_xpath = "//table[contains(@class, 'infobox')]//tr[contains(.//div, 'Native speakers')]/td//text()"
         speakers_raw = " ".join(response.xpath(speakers_xpath).getall())
+
+        # Clean up raw data some, remove trailing spaces, remove control chars
         speakers = speakers_raw.strip()
+        speakers = re.sub(r"[\u0001-\u001F]", "", speakers)
 
         if speakers is not None and speakers not in ["", "None", "none"]:
 
             # Remove anything before and after the first essential number, and
             # save that number with period and commans
-            numbers = re.findall(r"^[^0-9]*([0-9,\.]*)\s?(million|billion)?",
+            numbers = re.findall(r"^[^0-9]*([0-9,\.]*)\s+(million|billion)?",
                                  speakers.lower())[0]
 
             number = numbers[0].replace(",", "")
