@@ -1,207 +1,645 @@
-afr: Afrikaans
-agq: Aghem
-aka: Akan
-amh: አማርኛ
-ara: العربية
-asa: Kipare
-asm: অসমীয়া
-ast: asturianu
-aze: azərbaycan
-bam: bamanakan
-bas: Ɓàsàa
-bel: беларуская
-bem: Ichibemba
-ben: বাংলা
-bez: Hibena
-bod: བོད་སྐད་
-bos: bosanski
-bre: brezhoneg
-brx: बड़ो
-bul: български
-cat: català
-ccp: 𑄌𑄋𑄴𑄟𑄳𑄦
-ceb: Binisaya
-ces: čeština
-cgg: Rukiga
-che: нохчийн
-chr: ᏣᎳᎩ
-chu: церковнослове́нскїй
-ckb: کوردیی ناوەندی
-cor: kernewek
-cym: Cymraeg
-dan: dansk
-dav: Kitaita
-deu: Deutsch
-dje: Zarmaciine
-dsb: dolnoserbšćina
-dua: duálá
-dyo: joola
-dzo: རྫོང་ཁ
-ebu: Kĩembu
-ell: Ελληνικά
-eng: English
-epo: esperanto
-est: eesti
-eus: euskara
-ewe: Eʋegbe
-ewo: ewondo
-fao: føroyskt
-fas: فارسی
-fil: Filipino
-fin: suomi
-fra: français
-fry: Frysk
-ful: Pulaar
-fur: furlan
-gla: Gàidhlig
-gle: Gaeilge
-glg: galego
-glv: Gaelg
-gsw: Schwiizertüütsch
-guj: ગુજરાતી
-guz: Ekegusii
-hau: Hausa
-haw: ʻŌlelo Hawaiʻi
-heb: עברית
-hin: हिन्दी
-hrv: hrvatski
-hsb: hornjoserbšćina
-hun: magyar
-hye: հայերեն
-ibo: Asụsụ Igbo
-iii: ꆈꌠꉙ
-ina: interlingua
-ind: Indonesia
-isl: íslenska
-ita: italiano
-jav: Jawa
-jgo: Ndaꞌa
-jmc: Kimachame
-jpn: 日本語
-kab: Taqbaylit
-kal: kalaallisut
-kam: Kikamba
-kan: ಕನ್ನಡ
-kas: کٲشُر
-kat: ქართული
-kaz: қазақ тілі
-kde: Chimakonde
-kea: kabuverdianu
-khm: ខ្មែរ
-khq: Koyra ciini
-kik: Gikuyu
-kin: Kinyarwanda
-kir: кыргызча
-kkj: kakɔ
-kln: Kalenjin
-kok: कोंकणी
-kor: 한국어
-ksb: Kishambaa
-ksf: rikpa
-ksh: Kölsch
-kur: kurdî
-lag: Kɨlaangi
-lao: ລາວ
-lav: latviešu
-lin: lingála
-lit: lietuvių
-lkt: Lakȟólʼiyapi
-lrc: لۊری شومالی
-ltz: Lëtzebuergesch
-lub: Tshiluba
-lug: Luganda
-luo: Dholuo
-luy: Luluhia
-mal: മലയാളം
-mar: मराठी
-mas: Maa
-mer: Kĩmĩrũ
-mfe: kreol morisien
-mgh: Makua
-mgo: metaʼ
-mkd: македонски
-mlg: Malagasy
-mlt: Malti
-mon: монгол
-mri: Māori
-msa: Melayu
-mua: MUNDAŊ
-mya: မြန်မာ
-mzn: مازرونی
-naq: Khoekhoegowab
-nde: isiNdebele
-nds: Neddersass’sch
-nep: नेपाली
-nld: Nederlands
-nmg: Kwasio
-nnh: Shwóŋò ngiembɔɔn
-nno: nynorsk
-nob: norsk bokmål
-nus: Thok Nath
-nyn: Runyankore
-ori: ଓଡ଼ିଆ
-orm: Oromoo
-oss: ирон
-pan: ਪੰਜਾਬੀ
-pol: polski
-por: português
-prg: prūsiskan
-pus: پښتو
-que: Runasimi
-rof: Kihorombo
-roh: rumantsch
-ron: română
-run: Ikirundi
-rus: русский
-rwk: Kiruwa
-sag: Sängö
-sah: саха тыла
-saq: Kisampur
-sbp: Ishisangu
-seh: sena
-ses: Koyraboro senni
-shi: ⵜⴰⵛⵍⵃⵉⵜ
-sin: සිංහල
-slk: slovenčina
-slv: slovenščina
-sme: davvisámegiella
-smn: anarâškielâ
-sna: chiShona
-snd: سنڌي
-som: Soomaali
-spa: español
-sqi: shqip
-srp: српски
-swa: Kiswahili
-swe: svenska
-tam: தமிழ்
-tat: татар
-tel: తెలుగు
-teo: Kiteso
-tgk: тоҷикӣ
-tha: ไทย
-tir: ትግርኛ
-ton: lea fakatonga
-tuk: türkmen dili
-tur: Türkçe
-twq: Tasawaq senni
-tzm: Tamaziɣt n laṭlaṣ
-uig: ئۇيغۇرچە
-ukr: українська
-urd: اردو
-uzb: o‘zbek
-vai: ꕙꔤ
-vie: Tiếng Việt
-vol: Volapük
-vun: Kyivunjo
-wae: Walser
-wol: Wolof
-xho: isiXhosa
-xog: Olusoga
-yav: nuasue
-yid: ייִדיש
-yor: Èdè Yorùbá
-yue: 粵語
-zgh: ⵜⴰⵎⴰⵣⵉⵖⵜ
-zho: 中文
-zul: isiZulu
+afr:
+  af:
+  - null: Afrikaans
+agq:
+  agq:
+  - null: Aghem
+aka:
+  ak:
+  - null: Akan
+amh:
+  am:
+  - null: አማርኛ
+ara:
+  ar:
+  - null: العربية
+asa:
+  asa:
+  - null: Kipare
+asm:
+  as:
+  - null: অসমীয়া
+ast:
+  ast:
+  - null: asturianu
+aze:
+  az:
+  - Cyrl: азәрбајҹан
+  - null: azərbaycan
+bam:
+  bm:
+  - null: bamanakan
+bas:
+  bas:
+  - null: Ɓàsàa
+bel:
+  be:
+  - null: беларуская
+bem:
+  bem:
+  - null: Ichibemba
+ben:
+  bn:
+  - null: বাংলা
+bez:
+  bez:
+  - null: Hibena
+bod:
+  bo:
+  - null: བོད་སྐད་
+bos:
+  bs:
+  - Cyrl: босански
+  - null: bosanski
+bre:
+  br:
+  - null: brezhoneg
+brx:
+  brx:
+  - null: बड़ो
+bul:
+  bg:
+  - null: български
+cat:
+  ca:
+  - null: català
+ccp:
+  ccp:
+  - null: 𑄌𑄋𑄴𑄟𑄳𑄦
+ceb:
+  ceb:
+  - null: Binisaya
+ces:
+  cs:
+  - null: čeština
+cgg:
+  cgg:
+  - null: Rukiga
+che:
+  ce:
+  - null: нохчийн
+chr:
+  chr:
+  - null: ᏣᎳᎩ
+chu:
+  cu:
+  - null: церковнослове́нскїй
+ckb:
+  ckb:
+  - null: کوردیی ناوەندی
+cor:
+  kw:
+  - null: kernewek
+cym:
+  cy:
+  - null: Cymraeg
+dan:
+  da:
+  - null: dansk
+dav:
+  dav:
+  - null: Kitaita
+deu:
+  de:
+  - null: Deutsch
+  de_CH:
+  - null: Schweizer Hochdeutsch
+dje:
+  dje:
+  - null: Zarmaciine
+dsb:
+  dsb:
+  - null: dolnoserbšćina
+dua:
+  dua:
+  - null: duálá
+dyo:
+  dyo:
+  - null: joola
+dzo:
+  dz:
+  - null: རྫོང་ཁ
+ebu:
+  ebu:
+  - null: Kĩembu
+ell:
+  el:
+  - null: Ελληνικά
+eng:
+  en:
+  - null: English
+  en_AU:
+  - null: Australian English
+  en_CA:
+  - null: Canadian English
+  en_GB:
+  - null: British English
+epo:
+  eo:
+  - null: esperanto
+est:
+  et:
+  - null: eesti
+eus:
+  eu:
+  - null: euskara
+ewe:
+  ee:
+  - null: Eʋegbe
+ewo:
+  ewo:
+  - null: ewondo
+fao:
+  fo:
+  - null: føroyskt
+fas:
+  fa:
+  - null: فارسی
+fil:
+  fil:
+  - null: Filipino
+fin:
+  fi:
+  - null: suomi
+fra:
+  fr:
+  - null: français
+  fr_CA:
+  - null: français canadien
+fry:
+  fy:
+  - null: Frysk
+ful:
+  ff:
+  - null: Pulaar
+fur:
+  fur:
+  - null: furlan
+gla:
+  gd:
+  - null: Gàidhlig
+gle:
+  ga:
+  - null: Gaeilge
+glg:
+  gl:
+  - null: galego
+glv:
+  gv:
+  - null: Gaelg
+gsw:
+  gsw:
+  - null: Schwiizertüütsch
+guj:
+  gu:
+  - null: ગુજરાતી
+guz:
+  guz:
+  - null: Ekegusii
+hau:
+  ha:
+  - null: Hausa
+haw:
+  haw:
+  - null: ʻŌlelo Hawaiʻi
+heb:
+  he:
+  - null: עברית
+hin:
+  hi:
+  - null: हिन्दी
+hrv:
+  hr:
+  - null: hrvatski
+hsb:
+  hsb:
+  - null: hornjoserbšćina
+hun:
+  hu:
+  - null: magyar
+hye:
+  hy:
+  - null: հայերեն
+ibo:
+  ig:
+  - null: Asụsụ Igbo
+iii:
+  ii:
+  - null: ꆈꌠꉙ
+ina:
+  ia:
+  - null: interlingua
+ind:
+  id:
+  - null: Indonesia
+isl:
+  is:
+  - null: íslenska
+ita:
+  it:
+  - null: italiano
+jav:
+  jv:
+  - null: Jawa
+jgo:
+  jgo:
+  - null: Ndaꞌa
+jmc:
+  jmc:
+  - null: Kimachame
+jpn:
+  ja:
+  - null: 日本語
+kab:
+  kab:
+  - null: Taqbaylit
+kal:
+  kl:
+  - null: kalaallisut
+kam:
+  kam:
+  - null: Kikamba
+kan:
+  kn:
+  - null: ಕನ್ನಡ
+kas:
+  ks:
+  - null: کٲشُر
+kat:
+  ka:
+  - null: ქართული
+kaz:
+  kk:
+  - null: қазақ тілі
+kde:
+  kde:
+  - null: Chimakonde
+kea:
+  kea:
+  - null: kabuverdianu
+khm:
+  km:
+  - null: ខ្មែរ
+khq:
+  khq:
+  - null: Koyra ciini
+kik:
+  ki:
+  - null: Gikuyu
+kin:
+  rw:
+  - null: Kinyarwanda
+kir:
+  ky:
+  - null: кыргызча
+kkj:
+  kkj:
+  - null: kakɔ
+kln:
+  kln:
+  - null: Kalenjin
+kok:
+  kok:
+  - null: कोंकणी
+kor:
+  ko:
+  - null: 한국어
+ksb:
+  ksb:
+  - null: Kishambaa
+ksf:
+  ksf:
+  - null: rikpa
+ksh:
+  ksh:
+  - null: Kölsch
+kur:
+  ku:
+  - null: kurdî
+lag:
+  lag:
+  - null: Kɨlaangi
+lao:
+  lo:
+  - null: ລາວ
+lav:
+  lv:
+  - null: latviešu
+lin:
+  ln:
+  - null: lingála
+lit:
+  lt:
+  - null: lietuvių
+lkt:
+  lkt:
+  - null: Lakȟólʼiyapi
+lrc:
+  lrc:
+  - null: لۊری شومالی
+ltz:
+  lb:
+  - null: Lëtzebuergesch
+lub:
+  lu:
+  - null: Tshiluba
+lug:
+  lg:
+  - null: Luganda
+luo:
+  luo:
+  - null: Dholuo
+luy:
+  luy:
+  - null: Luluhia
+mal:
+  ml:
+  - null: മലയാളം
+mar:
+  mr:
+  - null: मराठी
+mas:
+  mas:
+  - null: Maa
+mer:
+  mer:
+  - null: Kĩmĩrũ
+mfe:
+  mfe:
+  - null: kreol morisien
+mgh:
+  mgh:
+  - null: Makua
+mgo:
+  mgo:
+  - null: metaʼ
+mkd:
+  mk:
+  - null: македонски
+mlg:
+  mg:
+  - null: Malagasy
+mlt:
+  mt:
+  - null: Malti
+mon:
+  mn:
+  - null: монгол
+mri:
+  mi:
+  - null: Māori
+msa:
+  ms:
+  - null: Melayu
+mua:
+  mua:
+  - null: MUNDAŊ
+mya:
+  my:
+  - null: မြန်မာ
+mzn:
+  mzn:
+  - null: مازرونی
+naq:
+  naq:
+  - null: Khoekhoegowab
+nde:
+  nd:
+  - null: isiNdebele
+nds:
+  nds:
+  - null: Neddersass’sch
+nep:
+  ne:
+  - null: नेपाली
+nld:
+  nl:
+  - null: Nederlands
+nmg:
+  nmg:
+  - null: Kwasio
+nnh:
+  nnh:
+  - null: Shwóŋò ngiembɔɔn
+nno:
+  nn:
+  - null: nynorsk
+nob:
+  nb:
+  - null: norsk bokmål
+nus:
+  nus:
+  - null: Thok Nath
+nyn:
+  nyn:
+  - null: Runyankore
+ori:
+  or:
+  - null: ଓଡ଼ିଆ
+orm:
+  om:
+  - null: Oromoo
+oss:
+  os:
+  - null: ирон
+pan:
+  pa:
+  - Arab: پنجابی
+  - null: ਪੰਜਾਬੀ
+pol:
+  pl:
+  - null: polski
+por:
+  pt:
+  - null: português
+  pt_PT:
+  - null: português europeu
+prg:
+  prg:
+  - null: prūsiskan
+pus:
+  ps:
+  - null: پښتو
+que:
+  qu:
+  - null: Runasimi
+rof:
+  rof:
+  - null: Kihorombo
+roh:
+  rm:
+  - null: rumantsch
+ron:
+  ro:
+  - null: română
+run:
+  rn:
+  - null: Ikirundi
+rus:
+  ru:
+  - null: русский
+rwk:
+  rwk:
+  - null: Kiruwa
+sag:
+  sg:
+  - null: Sängö
+sah:
+  sah:
+  - null: саха тыла
+saq:
+  saq:
+  - null: Kisampur
+sbp:
+  sbp:
+  - null: Ishisangu
+seh:
+  seh:
+  - null: sena
+ses:
+  ses:
+  - null: Koyraboro senni
+shi:
+  shi:
+  - null: ⵜⴰⵛⵍⵃⵉⵜ
+  - Latn: Tashelḥiyt
+sin:
+  si:
+  - null: සිංහල
+slk:
+  sk:
+  - null: slovenčina
+slv:
+  sl:
+  - null: slovenščina
+sme:
+  se:
+  - null: davvisámegiella
+smn:
+  smn:
+  - null: anarâškielâ
+sna:
+  sn:
+  - null: chiShona
+snd:
+  sd:
+  - null: سنڌي
+som:
+  so:
+  - null: Soomaali
+spa:
+  es:
+  - null: español
+  es_419:
+  - null: español latinoamericano
+sqi:
+  sq:
+  - null: shqip
+srp:
+  sr:
+  - Latn: srpski
+  - null: српски
+swa:
+  sw:
+  - null: Kiswahili
+swe:
+  sv:
+  - null: svenska
+tam:
+  ta:
+  - null: தமிழ்
+tat:
+  tt:
+  - null: татар
+tel:
+  te:
+  - null: తెలుగు
+teo:
+  teo:
+  - null: Kiteso
+tgk:
+  tg:
+  - null: тоҷикӣ
+tha:
+  th:
+  - null: ไทย
+tir:
+  ti:
+  - null: ትግርኛ
+ton:
+  to:
+  - null: lea fakatonga
+tuk:
+  tk:
+  - null: türkmen dili
+tur:
+  tr:
+  - null: Türkçe
+twq:
+  twq:
+  - null: Tasawaq senni
+tzm:
+  tzm:
+  - null: Tamaziɣt n laṭlaṣ
+uig:
+  ug:
+  - null: ئۇيغۇرچە
+ukr:
+  uk:
+  - null: українська
+urd:
+  ur:
+  - null: اردو
+uzb:
+  uz:
+  - Arab: اوزبیک
+  - Cyrl: ўзбекча
+  - null: o‘zbek
+vai:
+  vai:
+  - Latn: Vai
+  - null: ꕙꔤ
+vie:
+  vi:
+  - null: Tiếng Việt
+vol:
+  vo:
+  - null: Volapük
+vun:
+  vun:
+  - null: Kyivunjo
+wae:
+  wae:
+  - null: Walser
+wol:
+  wo:
+  - null: Wolof
+xho:
+  xh:
+  - null: isiXhosa
+xog:
+  xog:
+  - null: Olusoga
+yav:
+  yav:
+  - null: nuasue
+yid:
+  yi:
+  - null: ייִדיש
+yor:
+  yo:
+  - null: Èdè Yorùbá
+yue:
+  yue:
+  - Hans: 粤语
+  - null: 粵語
+zgh:
+  zgh:
+  - null: ⵜⴰⵎⴰⵣⵉⵖⵜ
+zho:
+  zh:
+  - Hant: 中文
+  - null: 中文
+zul:
+  zu:
+  - null: isiZulu
