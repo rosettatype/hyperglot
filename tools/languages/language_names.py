@@ -1,4 +1,4 @@
-"""
+__doc__ = """
 A script to fetch language names in their native tongue from two sources:
 - CLDR xml files (copy in this repo)
 - Omniglot webpage: https://www.omniglot.com/language/names.htm
@@ -9,6 +9,11 @@ as a script tag (or None) for the script of the language name, particularly
 when a language can be written in several scripts and naturally has a native 
 name for each script
 """
+
+__copyright__ = "Copyright (c) 2019, Rosetta Type. All rights reserved."
+
+__author__ = "Johannes Neumeier"
+
 import os
 import yaml
 import logging
