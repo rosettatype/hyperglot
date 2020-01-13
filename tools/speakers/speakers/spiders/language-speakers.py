@@ -46,6 +46,15 @@ class LanguageSpider(scrapy.Spider):
                 # Save the URL encoded
                 urls[key] = base % urllib.parse.quote_plus(
                     lang["name"].replace(" ", "_"))
+        
+        # To crawl instead all language speaker for e.g. data/iso-639-3.yaml 
+        # use
+        # NOTE This will crawl a longer time, and will result in a bigger xml
+        #  # for script, languages in data.items():
+        # for key, lang in data.items():
+        #     # Save the URL encoded
+        #     urls[key] = base % urllib.parse.quote_plus(
+        #         lang["names"][0].replace(" ", "_"))
 
     # To run a few languages only for debugging, append e.g. [:5]
     start_urls = [u for u in urls.values()]
