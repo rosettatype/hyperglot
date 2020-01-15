@@ -13,6 +13,11 @@ import scrapy
 import os
 import logging
 import urllib.parse
+import xml.etree.ElementTree as ET
+
+
+OUTPUT = os.path.join(os.path.dirname(__file__), "../../../../",
+                      "data/users.xml")
 
 
 class LanguageSpider(scrapy.Spider):
@@ -46,8 +51,8 @@ class LanguageSpider(scrapy.Spider):
                 # Save the URL encoded
                 urls[key] = base % urllib.parse.quote_plus(
                     lang["name"].replace(" ", "_"))
-        
-        # To crawl instead all language speaker for e.g. data/iso-639-3.yaml 
+
+        # To crawl instead all language speaker for e.g. data/iso-639-3.yaml
         # use
         # NOTE This will crawl a longer time, and will result in a bigger xml
         #  # for script, languages in data.items():
@@ -150,3 +155,35 @@ class LanguageSpider(scrapy.Spider):
             "iso_639_2": iso_639_2,
             "source": response.request.url
         }
+
+
+    def closed(self, reason):
+        # Since the scraped data flows into the XML file as it is gathered and
+        # we are revision-tracking that data, each run will result in changes
+        # because of different order. To avoid this, sort the finished XML
+        # alphabetically a-z by language iso
+        if not os.path.isfile(OUTPUT):
+            logging.warning("No output XML file to sort")
+            return
+
+        tree = ET.parse(OUTPUT)
+        root = tree.getroot()
+        items = root.findall("./item")
+        langs = [l.text for l in root.findall(".//lang")]
+
+        # A simple alpahbetic sort will do
+        langs.sort()
+
+        # Empty the XML tree
+        for i in items:
+            root.remove(i)
+
+        # Add items in lang order
+        for l in langs:
+            for i in items:
+                item = i.find("./[lang='" + l + "']")
+                if item is not None:
+                    root.append(item)
+
+        # Save sorted file
+        tree.write(OUTPUT, "utf-8", True)
