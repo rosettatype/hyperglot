@@ -19,6 +19,11 @@ import xml.etree.ElementTree as ET
 OUTPUT = os.path.join(os.path.dirname(__file__), "../../../../",
                       "data/users.xml")
 
+# Fetch the language names we want to gather speaker info about from this file
+INPUT = os.path.join(os.path.dirname(__file__), "../../../../",
+                    #  "data/rosetta_new.yaml")
+                     "data/iso-639-3.yaml")
+
 
 class LanguageSpider(scrapy.Spider):
     name = 'speakers'
@@ -26,10 +31,6 @@ class LanguageSpider(scrapy.Spider):
     # Keep a dict of scraping URLs and their respective language code from
     # our data, to log our language tag to the gathered data
     urls = {}
-
-    # Fetch the languages we want to gather speaker info about
-    rosetta_yaml = os.path.join(os.path.dirname(__file__), "../../../../",
-                                "data/rosetta_new.yaml")
 
     # We just paste the language name into the URL and hope for a
     # reasonable from wikipedia
@@ -40,26 +41,26 @@ class LanguageSpider(scrapy.Spider):
 
     # Save a dict of iso to URL to later re-associate the crawled data with our
     # data
-    with open(rosetta_yaml, 'r') as stream:
+    with open(INPUT, 'r') as stream:
         try:
             data = yaml.load(stream)
         except yaml.YAMLError as exc:
             print(exc)
 
-        for script, languages in data.items():
-            for key, lang in languages.items():
-                # Save the URL encoded
-                urls[key] = base % urllib.parse.quote_plus(
-                    lang["name"].replace(" ", "_"))
+        # To crawl all rosetta_new.yaml languages use this code
+        # for script, languages in data.items():
+        #     for key, lang in languages.items():
+        #         # Save the URL encoded
+        #         urls[key] = base % urllib.parse.quote_plus(
+        #             lang["name"].replace(" ", "_"))
 
         # To crawl instead all language speaker for e.g. data/iso-639-3.yaml
         # use
         # NOTE This will crawl a longer time, and will result in a bigger xml
-        #  # for script, languages in data.items():
-        # for key, lang in data.items():
-        #     # Save the URL encoded
-        #     urls[key] = base % urllib.parse.quote_plus(
-        #         lang["names"][0].replace(" ", "_"))
+        for key, lang in data.items():
+            # Save the URL encoded
+            urls[key] = base % urllib.parse.quote_plus(
+                lang["names"][0].replace(" ", "_"))
 
     # To run a few languages only for debugging, append e.g. [:5]
     start_urls = [u for u in urls.values()]
@@ -155,7 +156,6 @@ class LanguageSpider(scrapy.Spider):
             "iso_639_2": iso_639_2,
             "source": response.request.url
         }
-
 
     def closed(self, reason):
         # Since the scraped data flows into the XML file as it is gathered and
