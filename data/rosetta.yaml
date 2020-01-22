@@ -344,8 +344,8 @@ aqc:
     a single verb root. Shorter autonym?
 atv:
   orthographies:
-  - autonym: Алтайча
-    inherit: alt
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ј ҥ ӧ ӱ
+    autonym: Алтайча
     script: Cyrl
   name: Altai, Northern
   preferred_name: Northern Altai
@@ -449,12 +449,28 @@ bxr:
   source: [Omniglot, Wikipedia]
   todo_status: strong
 bxu:
-  inherit: bxr
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ү һ ө
+    autonym: Буряад
+    script: Cyrl
+  - base: a b c ç d e f g h i j k l m n o ө p r s ş t u v x y z ƶ
+    autonym: Buryaad
+    script: Latn
+    status: historical
+    nate: Used 1931–1939
   name: Buriat, China
   preferred_name: Chinese Buriat
   speakers: 65000
 bxm:
-  inherit: bxr
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ү һ ө
+    autonym: Буряад
+    script: Cyrl
+  - base: a b c ç d e f g h i j k l m n o ө p r s ş t u v x y z ƶ
+    autonym: Buryaad
+    script: Latn
+    status: historical
+    nate: Used 1931–1939
   name: Buriat, Mongolia
   preferred_name: Mongolian Buriat
   speakers: 35000
@@ -610,7 +626,10 @@ enf:
   source: [Omniglot, Wikipedia]
   todo_status: strong
 enh:
-  inherit: enf
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҫ ӈ ԑ
+    autonym: Онэй база
+    script: Cyrl
   name: Enets, Tundra
   preferred_name: Tundra Enets
   speakers: 5
@@ -875,7 +894,7 @@ koi:
   todo_status: strong
 kpv:
   orthographies:
-  - inherit: koi
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё і ӧ
     autonym: Коми
     script: Cyrl
   name: Komi-Zyrian
@@ -1251,8 +1270,8 @@ ttt:
   orthographies:
   - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
     script: Cyrl
-  - autonym: Tati
-    inherit: aze
+  - base: a b c d e f g h i j k l m n o p q r s t u v x y z ç ö ü ğ İ ı ş ə
+    autonym: Tati
     script: Latn
   name: Muslim Tat
   speakers: 28000
@@ -1368,7 +1387,6 @@ uzn:
 uzs:
   orthographies:
   - autonym: اوزبیکی
-    inherit: pes 
     script: Arab
   name: Southern Uzbek
   speakers: 4200000
@@ -1461,7 +1479,7 @@ heb:
   todo_status: todo
 jpr:
   orthographies:
-  - inherit: heb
+  - base: א ב ג ד ה ו ז ח ט י כ ך ל מ ם נ ן ס ע פ ף צ ץ ק ר ש ת ﭏ
     script: Hebr
   name: Dzhidi
   speakers: 60000
@@ -2185,7 +2203,8 @@ ffm:
   note: Mali, Ghana
 fue:
   orthographies:
-  - inherit: ffm
+  - base: a b c d e f g h i j k l m n o p r s t u w y x ŋ ƴ ɓ ɗ ɲ 
+    autonym: Fulfulde
     script: Latn
   name: Borgu Fulfulde (Benin, Togo)
   source: [Omniglot, Wikipedia, CLDR]
@@ -3040,66 +3059,42 @@ mlg:
   source: [Omniglot, Wikipedia, CLDR]
   todo_status: strong
 xmv:
-  orthographies:
-  - inherit: mlg
   name: Malagasy, Antankarana
   preferred_name: Antankarana Malagasy
 bhr:
-  orthographies:
-  - inherit: mlg
     autonym: Bara Malagasy
   name: Malagasy, Bara
   preferred_name: Bara Malagasy
 buc:
-  orthographies:
-  - inherit: mlg
     autonym: Kibushi
   name: Bushi
 msh:
-  orthographies:
-  - inherit: mlg
   name: Malagasy, Masikoro
   preferred_name: Masikoro Malagasy
 bmm:
-  orthographies:
-  - inherit: mlg
     autonym: Betsimisaraka
   name: Malagasy, Northern Betsimisaraka
   preferred_name: Northern Betsimisaraka Malagasy
 plt:
-  orthographies:
-  - inherit: mlg
   name: Malagasy, Plateau
   preferred_name: Plateau Malagasy
 skg:
-  orthographies:
-  - inherit: mlg
   name: Malagasy, Sakalava
   preferred_name: Sakalava Malagasy
 bzc:
-  orthographies:
-  - inherit: mlg
   name: Malagasy, Southern Betsimisaraka
   preferred_name: Southern Betsimisaraka Malagasy
 tdx:
-  orthographies:
-  - inherit: mlg
     autonym: Antandroy
   name: Malagasy, Tandroy-Mahafaly
   name: Tandroy-Mafahaly Malagasy
 txy:
-  orthographies:
-  - inherit: mlg
   name: Malagasy, Tanosy
   preferred_name: Tanosy Malagasy
 tkg:
-  orthographies:
-  - inherit: mlg
   name: Malagasy, Tesaka
   preferred_name: Tesaka Malagasy
 xmw:
-  orthographies:
-  - inherit: mlg
   name: Malagasy, Tsimihety
   preferred_name: Tsimihety Malagasy
 mlt:
@@ -4283,7 +4278,7 @@ war:
   - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ñ
     autonym: Waray-Waray
     script: Latn
-  - inherit: fil
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ñ
     autonym: Waray-Waray
     script: Latn
     note: Filipino orthography
