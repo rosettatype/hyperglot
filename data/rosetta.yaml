@@ -281,7 +281,7 @@ abk:
     script: Cyrl
   name: Abkhazian
   speakers: 190110
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 abq:
   orthographies:
@@ -290,7 +290,7 @@ abq:
     script: Cyrl
   name: Abaza
   speakers: 49800
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 ady:
   orthographies:
@@ -299,7 +299,7 @@ ady:
     script: Cyrl
   name: Adyghe
   speakers: 575900
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 agx:
   orthographies:
@@ -308,7 +308,7 @@ agx:
     script: Cyrl
   name: Aghul
   speakers: 29300
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 alt:
   orthographies:
@@ -338,7 +338,7 @@ aqc:
     script: Cyrl
   name: Archi
   speakers: 970
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
   note: Mathematically, there are 1,502,839 possible forms that can be derived from
     a single verb root. Shorter autonym?
@@ -360,7 +360,7 @@ ava:
     script: Cyrl
   name: Avar
   speakers: 1000000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 aze:
   orthographies:
@@ -371,7 +371,7 @@ aze:
     script: Latn
   name: Azerbaijani
   speakers: 23000000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 bak:
   orthographies:
@@ -393,7 +393,7 @@ bdk:
     script: Cyrl
   name: Budukh
   speakers: 200
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 bel:
   orthographies:
@@ -446,7 +446,7 @@ bxr:
   name: Buriat, Russia
   preferred_name: Russian Buriat
   speakers: 353113 
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 bxu:
   inherit: bxr
@@ -465,7 +465,7 @@ bul:
     script: Cyrl
   name: Bulgarian
   speakers: 9000000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
   note: localised shapes for л в к г й ф ю etc.
 che:
@@ -486,7 +486,7 @@ chu:
     script: Cyrl
   name: Church Slavonic
   speakers: 0
-  source: Omniglot, Wikipedia, CLDR
+  source: [Omniglot, Wikipedia, CLDR]
   todo_status: strong
 chv:
   orthographies:
@@ -506,7 +506,7 @@ cji:
     script: Cyrl
   name: Chamalal
   speakers: 500
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
   note: Shorter autonym?
 cjs:
@@ -542,7 +542,7 @@ cnr:
     script: Latn
   name: Montenegrin
   speakers: 232600
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 crh:
   orthographies:
@@ -607,7 +607,7 @@ enf:
   name: Enets, Forest
   preferred_name: Forest Enets
   speakers: 5
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 enh:
   inherit: enf
@@ -622,7 +622,7 @@ ess:
   name: Yupik, Saint Lawrence Island
   preferred_name: Saint Lawrence Island Yupik
   speakers: 1200
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 esu:
   orthographies:
@@ -652,7 +652,7 @@ eve:
     script: Cyrl
   name: Even
   speakers: 5700
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 evn:
   orthographies:
@@ -662,7 +662,7 @@ evn:
     script: Cyrl
   name: Evenki
   speakers: 26580
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 gag:
   orthographies:
@@ -720,7 +720,7 @@ itl:
     script: Cyrl
   name: Itelmen
   speakers: 82
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 jct:
   orthographies:
@@ -773,7 +773,7 @@ kap:
     script: Cyrl
   name: Bezhta
   speakers: 6800
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 kaz:
   orthographies:
@@ -836,7 +836,7 @@ kir:
     script: Cyrl
   name: Kirghiz
   speakers: 4300000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 kjh:
   orthographies:
@@ -871,7 +871,7 @@ koi:
     script: Cyrl
   name: Komi-Permyak
   speakers: 63000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 kpv:
   orthographies:
@@ -898,7 +898,7 @@ kpy:
     script: Cyrl
   name: Koryak
   speakers: 1665
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: weak
   note: sources partially disagree. Wikipedia notes қ ң instead of ӄ ӈ.
 krc:
@@ -942,7 +942,7 @@ kur:
     note: alternative 3
   name: Kurdish
   speakers: 30000000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 lbe:
   orthographies:
@@ -951,7 +951,7 @@ lbe:
     script: Cyrl
   name: Lak
   speakers: 152050
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 lez:
   orthographies:
@@ -970,7 +970,7 @@ mdf:
     script: Cyrl
   name: Moksha
   speakers: 430000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 mhr:
   orthographies:
@@ -980,7 +980,7 @@ mhr:
   name: Mari, Meadow
   preferred_name: Meadow Mari
   speakers: 470000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 mkd:
   orthographies:
@@ -989,7 +989,7 @@ mkd:
     script: Cyrl
   name: Macedonian
   speakers: 1400000
-  source: Omniglot, Wikipedia, CLDR
+  source: [Omniglot, Wikipedia, CLDR]
   todo_status: strong
 mns:
   orthographies:
@@ -1009,7 +1009,7 @@ mon:
     script: Cyrl
   name: Mongolian
   speakers: 3600000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 mrj:
   orthographies:
@@ -1019,7 +1019,7 @@ mrj:
   name: Mari, Hill
   preferred_name: Hill Mari
   speakers: 30000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 myv:
   orthographies:
@@ -1028,7 +1028,7 @@ myv:
     script: Cyrl
   name: Erzya
   speakers: 430000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 nio:
   orthographies:
@@ -1045,7 +1045,7 @@ nio:
     note: Wikipedia version
   name: Nganasan
   speakers: 125
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: weak
   note: Sources partially disagree. Wikipedia notes з̌ instead of ҙ.
 niv:
@@ -1057,7 +1057,7 @@ niv:
     script: Cyrl
   name: Gilyak
   speakers: 200
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 nog:
   orthographies:
@@ -1066,7 +1066,7 @@ nog:
     script: Cyrl
   name: Nogai
   speakers: 87000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 oaa:
   orthographies:
@@ -1076,7 +1076,7 @@ oaa:
     script: Cyrl
   name: Orok
   speakers: 26–47
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 oss:
   orthographies:
@@ -1103,7 +1103,7 @@ ron:
     script: Latn
   name: Romanian
   speakers: 26000000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 rue:
   orthographies:
@@ -1112,7 +1112,7 @@ rue:
     script: Cyrl
   name: Rusyn
   speakers: 623500
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 rus:
   orthographies:
@@ -1121,7 +1121,7 @@ rus:
     script: Cyrl
   name: Russian
   speakers: 150000000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
   note: Combinations of vowels and marks are missing (todo).
 rut:
@@ -1142,7 +1142,7 @@ sah:
     script: Cyrl
   name: Yakut
   speakers: 450000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 sel:
   orthographies:
@@ -1189,7 +1189,7 @@ srp:
     script: Latn
   name: Serbian
   speakers: 9500000
-  source: Omniglot, Wikipedia, CLDR
+  source: [Omniglot, Wikipedia, CLDR]
   todo_status: strong
 tab:
   orthographies:
@@ -1219,7 +1219,7 @@ tgk:
     script: Cyrl
   name: Tajik
   speakers: 8400000
-  source: Omniglot, Wikipedia, CLDR
+  source: [Omniglot, Wikipedia, CLDR]
   todo_status: strong
 tkr:
   orthographies:
@@ -1232,7 +1232,7 @@ tkr:
     note: Based on Azerbaijani.
   name: Tsakhur
   speakers: 22300
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 tly:
   orthographies:
@@ -1245,7 +1245,7 @@ tly:
     note: Based on Azerbaijani.
   name: Talysh
   speakers: 218100
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 ttt:
   orthographies:
@@ -1292,7 +1292,7 @@ udi:
     script: Cyrl
   name: Udi
   speakers: 6600
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 udm:
   orthographies:
@@ -1318,7 +1318,7 @@ uig:
     script: Latn
   name: Uyghur
   speakers: 10400000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 ukr:
   orthographies:
@@ -1327,7 +1327,7 @@ ukr:
     script: Cyrl
   name: Ukrainian
   speakers: 35000000
-  source: Omniglot, Wikipedia, CLDR
+  source: [Omniglot, Wikipedia, CLDR]
   todo_status: strong
 uum:
   orthographies:
@@ -1336,7 +1336,7 @@ uum:
     script: Cyrl
   name: Urum
   speakers: 190000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 uzb:
   name: Uzbek
@@ -1383,7 +1383,7 @@ xal:
     script: Cyrl
   name: Kalmyk
   speakers: 80500
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 yai:
   orthographies:
@@ -1393,7 +1393,7 @@ yai:
     script: Cyrl
   name: Yagnobi
   speakers: 12000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 ykg:
   orthographies:
@@ -1426,7 +1426,7 @@ yrk:
     script: Cyrl
   name: Nenets
   speakers: 21926
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 ell:
   orthographies:
@@ -1447,7 +1447,7 @@ grc:
   name: Ancient Greek (pre 1453)
   preferred_name: Ancient Greek
   speakers: 0
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   status: historical
   todo_status: strong
 heb:
@@ -1498,7 +1498,7 @@ aar:
     script: Latn
   name: Afar
   speakers: 1973800
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 aat:
   orthographies:
@@ -1512,7 +1512,7 @@ aat:
   name: Albanian, Arvanitika
   preferred_name: Arvanitika Albanian
   speakers: 50000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 abe:
   orthographies:
@@ -1543,7 +1543,7 @@ aer:
   name: Arrernte, Eastern
   preferred_name: Eastern Arrernte
   speakers: 4537
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
   note: The number of speakers relates to all Arrernte languages
 afr:
@@ -1554,7 +1554,7 @@ afr:
     script: Latn
   name: Afrikaans
   speakers: 7200000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
   note: The use ŉ has been deprecated and is strongly discouraged.
 agq:
@@ -1579,7 +1579,7 @@ fat:
     script: Latn
   name: Fante
   speakers: 2700000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 twi:
   orthographies:
@@ -1588,7 +1588,7 @@ twi:
     script: Latn
   name: Twi
   speakers: 9000000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 abr:
   orthographies:
@@ -1597,7 +1597,7 @@ abr:
     script: Latn
   name: Abron
   speakers: 1400000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 wss:
   orthographies:
@@ -1606,7 +1606,7 @@ wss:
     script: Latn
   name: Wasa
   speakers: 273000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 ami:
   orthographies:
@@ -1635,7 +1635,7 @@ arg:
     script: Latn
   name: Aragonese
   speakers: 10000–12000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 asa:
   orthographies:
@@ -1655,7 +1655,7 @@ ast:
     script: Latn
   name: Asturian
   speakers: 351791
-  source: Omniglot, Wikipedia, CLDR
+  source: [Omniglot, Wikipedia, CLDR]
   todo_status: strong
 aud:
   orthographies:
@@ -1671,7 +1671,7 @@ aym:
   autonym: Aymar
   includes: [ayr, ayc]
   speakers: 1677100
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 ayr:
   orthographies:
@@ -1680,7 +1680,7 @@ ayr:
     script: Latn
   name: Aymara, Central
   preferred_name: Central Aymara
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 ayc:
   orthographies:
@@ -1689,7 +1689,7 @@ ayc:
     script: Latn
   name: Aymara, Southern
   preferred_name: Southern Aymara
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 bam:
   orthographies:
@@ -1699,7 +1699,7 @@ bam:
     script: Latn
   name: Bamanankan
   speakers: 4100000
-  source: Omniglot, Wikipedia, CLDR
+  source: [Omniglot, Wikipedia, CLDR]
   todo_status: strong
 bas:
   orthographies:
@@ -1720,7 +1720,7 @@ bem:
     script: Latn
   name: Bemba
   speakers: 4100000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 bez:
   orthographies:
@@ -1740,7 +1740,7 @@ bik:
     script: Latn
   name: Bikol
   speakers: 78000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
   note: The number of speakers is only for Pandan Bikol.
 bis:
@@ -1759,7 +1759,7 @@ bre:
     script: Latn
   name: Breton
   speakers: 226000
-  source: Omniglot, Wikipedia, CLDR, Alvestrand
+  source: [Omniglot, Wikipedia, CLDR, Alvestrand]
   todo_status: strong
 cak:
   orthographies:
@@ -1779,7 +1779,7 @@ cat:
     script: Latn
   name: Catalan
   speakers: 4100000
-  source: Omniglot, Wikipedia, Alvestrand
+  source: [Omniglot, Wikipedia, Alvestrand]
   todo_status: strong
 cbk:
   orthographies:
@@ -1788,7 +1788,7 @@ cbk:
     script: Latn
   name: Chavacano
   speakers: 689000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 ceb:
   orthographies:
@@ -1797,7 +1797,7 @@ ceb:
     script: Latn
   name: Cebuano
   speakers: 16000000
-  source: Omniglot, Wikipedia, CLDR
+  source: [Omniglot, Wikipedia, CLDR]
   todo_status: strong
 ces:
   orthographies:
@@ -1837,7 +1837,7 @@ cic:
     script: Latn
   name: Chickasaw
   speakers: 75
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 cim:
   orthographies:
@@ -1867,7 +1867,7 @@ cor:
     script: Latn
   name: Cornish
   speakers: 0
-  source: Omniglot, Wikipedia, CLDR
+  source: [Omniglot, Wikipedia, CLDR]
   todo_status: strong
 cos:
   orthographies:
@@ -1876,7 +1876,7 @@ cos:
     script: Latn
   name: Corsican
   speakers: 125000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 crs:
   orthographies:
@@ -1885,7 +1885,7 @@ crs:
     script: Latn
   name: Seychelles Creole French
   speakers: 73000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 csb:
   orthographies:
@@ -1916,7 +1916,7 @@ dan:
     script: Latn
   name: Danish
   speakers: 6000000
-  source: Omniglot, Wikipedia, CLDR
+  source: [Omniglot, Wikipedia, CLDR]
   todo_status: strong
 dav:
   orthographies:
@@ -1940,7 +1940,7 @@ umu:
     script: Latn
   name: Munsee
   speakers: 2
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: weak
 unm:
   name: Unami
@@ -1955,7 +1955,7 @@ deu:
     script: Latn
   name: German
   speakers: 90000000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 dhv:
   orthographies:
@@ -1985,7 +1985,7 @@ dje:
     script: Latn
   name: Zarma
   speakers: 3600000
-  source: Omniglot, Wikipedia, CLDR
+  source: [Omniglot, Wikipedia, CLDR]
   todo_status: strong
 dsb:
   orthographies:
@@ -2037,7 +2037,7 @@ eng:
     script: Latn
   name: English
   speakers: 400000000
-  source: Omniglot, Wikipedia, CLDR, Alvestrand
+  source: [Omniglot, Wikipedia, CLDR, Alvestrand]
   todo_status: done
 epo:
   orthographies:
@@ -2046,7 +2046,7 @@ epo:
     script: Latn
   name: Esperanto
   speakers: 1000
-  source: Omniglot, Alvestrand
+  source: [Omniglot, Alvestrand]
   todo_status: strong
   status: constructed
 est:
@@ -2065,7 +2065,7 @@ eus:
     script: Latn
   name: Basque
   speakers: 750000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 ewe:
   orthographies:
@@ -2087,7 +2087,7 @@ ewo:
     script: Latn
   name: Ewondo
   speakers: 580000
-  source: Omniglot, Wikipedia, CLDR
+  source: [Omniglot, Wikipedia, CLDR]
   todo_status: strong
 fao:
   orthographies:
@@ -2098,7 +2098,7 @@ fao:
     script: Latn
   name: Faroese
   speakers: 72000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 fij:
   orthographies:
@@ -2107,7 +2107,7 @@ fij:
     script: Latn
   name: Fijian
   speakers: 339210
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 fil:
   orthographies:
@@ -2137,7 +2137,7 @@ fra:
     script: Latn
   name: French
   speakers: 76800000
-  source: Omniglot, Wikipedia, CLDR, Alvestrand
+  source: [Omniglot, Wikipedia, CLDR, Alvestrand]
   todo_status: strong
 fry:
   orthographies:
@@ -2147,7 +2147,7 @@ fry:
     script: Latn
   name: Frisian
   speakers: 470000
-  source: Omniglot, Wikipedia, Alvestrand
+  source: [Omniglot, Wikipedia, Alvestrand]
   todo_status: strong
 ful:
   name: Fulah
@@ -2159,7 +2159,7 @@ fuc:
     script: Latn
   name: Pulaar
   speakers: 4450000
-  source: Omniglot, Wikipedia, CLDR
+  source: [Omniglot, Wikipedia, CLDR]
   todo_status: strong
   note: Senegal, Gambia, Mauritania
 fuf:
@@ -2169,7 +2169,7 @@ fuf:
     script: Latn
   name: Pular
   speakers: 3808200
-  source: Omniglot, Wikipedia, CLDR
+  source: [Omniglot, Wikipedia, CLDR]
   todo_status: strong
   note: Guinea, Sierra Leone
 ffm:
@@ -2179,7 +2179,7 @@ ffm:
     script: Latn
   name: Maasina Fulfulde
   speakers: 1000000
-  source: Omniglot, Wikipedia, CLDR
+  source: [Omniglot, Wikipedia, CLDR]
   todo_status: strong
   note: Mali, Ghana
 fue:
@@ -2187,7 +2187,7 @@ fue:
   - inherit: ffm
     script: Latn
   name: Borgu Fulfulde (Benin, Togo)
-  source: Omniglot, Wikipedia, CLDR
+  source: [Omniglot, Wikipedia, CLDR]
   todo_status: strong
   note: Benin, Togo
 fuh:
@@ -2195,7 +2195,7 @@ fuh:
   - base: a b c d e f g h i j k l m n o p r s t u w y x ŋ ƴ ɓ ɗ ɲ 
     script: Latn
   name: Western Niger
-  source: Omniglot, Wikipedia, CLDR
+  source: [Omniglot, Wikipedia, CLDR]
   todo_status: strong
   note: Burkina, Niger
 fuq:
@@ -2203,7 +2203,7 @@ fuq:
   - base: a b c d e f g h i j k l m n o p r s t u w y x ŋ ƴ ɓ ɗ 
     script: Latn
   name: Central–Eastern Niger (Niger)
-  source: Omniglot, Wikipedia, CLDR
+  source: [Omniglot, Wikipedia, CLDR]
   todo_status: strong
   note: Niger
 fuv:
@@ -2211,7 +2211,7 @@ fuv:
   - base: a b c d e f g h i j k l m n o p r s t u w y x ɓ ɗ 
     script: Latn
   name: Nigerian Fulfulde
-  source: Omniglot, Wikipedia, CLDR
+  source: [Omniglot, Wikipedia, CLDR]
   todo_status: strong
   note: Nigeria
 fub:
@@ -2219,7 +2219,7 @@ fub:
   - base: a b c d e f g h i j k l m n o p r s t u w y x ŋ ƴ ɓ ɗ
     script: Latn
   name: Adamawa Fulfulde
-  source: Omniglot, Wikipedia, CLDR
+  source: [Omniglot, Wikipedia, CLDR]
   todo_status: strong
   note: Cameroon, Chad, Sudan
 fui:
@@ -2227,7 +2227,7 @@ fui:
   - base: a b c d e f g h i j k l m n o p r s t u w y x ŋ ƴ ɓ ɗ
     script: Latn
   name: Bagirmi Fulfulde
-  source: Omniglot, Wikipedia, CLDR
+  source: [Omniglot, Wikipedia, CLDR]
   todo_status: strong
   note: Central African Republic
 
@@ -2240,7 +2240,7 @@ fur:
     script: Latn
   name: Friulian
   speakers: 600000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 gcf:
   orthographies:
@@ -2259,7 +2259,7 @@ gil:
     script: Latn
   name: Gilbertese
   speakers: 120000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 gla:
   orthographies:
@@ -2298,7 +2298,7 @@ glv:
     script: Latn
   name: Manx
   speakers: 0
-  source: Omniglot, Wikipedia, CLDR
+  source: [Omniglot, Wikipedia, CLDR]
   todo_status: strong
 gni:
   orthographies:
@@ -2337,7 +2337,7 @@ guc:
     script: Latn
   name: Wayuu
   speakers: 320000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 guz:
   orthographies:
@@ -2357,7 +2357,7 @@ gwi:
     script: Latn
   name: Gwichʼin
   speakers: 560
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 haa:
   orthographies:
@@ -2366,7 +2366,7 @@ haa:
     script: Latn
   name: Hän
   speakers: 20
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 hat:
   orthographies:
@@ -2376,7 +2376,7 @@ hat:
     script: Latn
   name: Haitian Creole
   speakers: 9600000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 hau:
   orthographies:
@@ -2386,7 +2386,7 @@ hau:
     script: Latn
   name: Hausa
   speakers: 40000000
-  source: Omniglot, Wikipedia, CLDR
+  source: [Omniglot, Wikipedia, CLDR]
   todo_status: null
 haw:
   orthographies:
@@ -2415,7 +2415,7 @@ hop:
     script: Latn
   name: Hopi
   speakers: 6780
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 hrv:
   orthographies:
@@ -2454,7 +2454,7 @@ ibo:
     script: Latn
   name: Igbo
   speakers: 27000000
-  source: Omniglot, Wikipedia, CLDR
+  source: [Omniglot, Wikipedia, CLDR]
   todo_status: strong
   note: Shorter autonym?
 ido:
@@ -2464,7 +2464,7 @@ ido:
     script: Latn
   name: Ido
   speakers: 100–200
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
   note: Constructed language
 igs:
@@ -2494,7 +2494,7 @@ ilo:
     script: Latn
   name: Ilocano
   speakers: 9100000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 ina:
   orthographies:
@@ -2513,7 +2513,7 @@ ind:
     script: Latn
   name: Indonesian
   speakers: 43000000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 isl:
   orthographies:
@@ -2523,7 +2523,7 @@ isl:
     script: Latn
   name: Icelandic
   speakers: 314000
-  source: Omniglot, Wikipedia, Alvestrand
+  source: [Omniglot, Wikipedia, Alvestrand]
   todo_status: strong
 ita:
   orthographies:
@@ -2533,7 +2533,7 @@ ita:
     script: Latn
   name: Italian
   speakers: 90000000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 jam:
   orthographies:
@@ -2542,7 +2542,7 @@ jam:
     script: Latn
   name: Jamaican Creole English
   speakers: 3200000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 jav:
   orthographies:
@@ -2551,7 +2551,7 @@ jav:
     script: Latn
   name: Javanese
   speakers: 82000000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 jbo:
   orthographies:
@@ -2560,7 +2560,7 @@ jbo:
     script: Latn
   name: Lojban
   speakers: 0
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
   status: constructed
 jgo:
@@ -2583,7 +2583,7 @@ kab:
     script: Latn
   name: Kabyle
   speakers: 5600000
-  source: Omniglot, Wikipedia, CLDR
+  source: [Omniglot, Wikipedia, CLDR]
   todo_status: strong
 kal:
   orthographies:
@@ -2600,7 +2600,7 @@ kal:
     script: Latn
   name: Kalaallisut
   speakers: 57000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 kam:
   orthographies:
@@ -2629,7 +2629,7 @@ kea:
     script: Latn
   name: Kabuverdianu
   speakers: 871000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 kek:
   orthographies:
@@ -2638,7 +2638,7 @@ kek:
     script: Latn
   name: Kekchí
   speakers: 800000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 kgp:
   orthographies:
@@ -2647,7 +2647,7 @@ kgp:
     script: Latn
   name: Kaingang
   speakers: 18000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 khq:
   orthographies:
@@ -2693,7 +2693,7 @@ kiu:
     script: Latn
   name: Zazaki, Northern
   preferred_name: Northern Zazaki
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 kkj:
   orthographies:
@@ -2715,7 +2715,7 @@ kln:
     script: Latn
   name: Kalenjin
   speakers: 8561574
-  source: Wikipedia, CLDR
+  source: [Wikipedia, CLDR]
   todo_status: weak
   note: A cluster of Nandi–Markweta dialects/languages. 18% of the population of Kenya.
 kon:
@@ -2800,7 +2800,7 @@ ksh:
     script: Latn
   name: Ripuarian
   speakers: 250000
-  source: Wikipedia, CLDR
+  source: [Wikipedia, CLDR]
   todo_status: weak
   note: 25% of the population of Cologne
 kua:
@@ -2830,7 +2830,7 @@ lat:
     script: Latn
   name: Latin
   speakers: 0
-  source: Omniglot, Wikipedia, CLDR, Alvestrand
+  source: [Omniglot, Wikipedia, CLDR, Alvestrand]
   todo_status: done
 lav:
   orthographies:
@@ -2863,7 +2863,7 @@ lin:
     script: Latn
   name: Lingala
   speakers: 15000000
-  source: Omniglot, Wikipedia, CLDR
+  source: [Omniglot, Wikipedia, CLDR]
   todo_status: strong
 lit:
   orthographies:
@@ -2883,7 +2883,7 @@ lkt:
     script: Latn
   name: Lakota
   speakers: 2100
-  source: Omniglot, Wikipedia, CLDR
+  source: [Omniglot, Wikipedia, CLDR]
   todo_status: strong
 lld:
   orthographies:
@@ -2925,7 +2925,7 @@ lua:
     script: Latn
   name: Luba-Lulua
   speakers: 6300000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: weak
 lub:
   orthographies:
@@ -2947,7 +2947,7 @@ lug:
     script: Latn
   name: Ganda
   speakers: 8200000
-  source: Omniglot, Wikipedia, CLDR
+  source: [Omniglot, Wikipedia, CLDR]
   todo_status: strong
 luo:
   orthographies:
@@ -2956,7 +2956,7 @@ luo:
     script: Latn
   name: Dholuo
   speakers: 8000000
-  source: Omniglot, Wikipedia, CLDR
+  source: [Omniglot, Wikipedia, CLDR]
   todo_status: strong
 luy:
   orthographies:
@@ -3035,7 +3035,7 @@ mlg:
     script: Latn
   name: Malagasy
   speakers: 25000000
-  source: Omniglot, Wikipedia, CLDR
+  source: [Omniglot, Wikipedia, CLDR]
   todo_status: strong
 xmv:
   orthographies:
@@ -3107,7 +3107,7 @@ mlt:
     script: Latn
   name: Maltese
   speakers: 520000
-  source: Omniglot, Wikipedia, Alvestrand
+  source: [Omniglot, Wikipedia, Alvestrand]
   todo_status: strong
 moe:
   orthographies:
@@ -3126,7 +3126,7 @@ moh:
     script: Latn
   name: Mohawk
   speakers: 3875
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 mri:
   orthographies:
@@ -3135,7 +3135,7 @@ mri:
     script: Latn
   name: Maori
   speakers: unknown
-  source: Omniglot, Wikipedia, CLDR
+  source: [Omniglot, Wikipedia, CLDR]
   todo_status: strong
 mrq:
   orthographies:
@@ -3169,7 +3169,7 @@ mua:
     script: Latn
   name: Mundang
   speakers: 240000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 mus:
   orthographies:
@@ -3178,7 +3178,7 @@ mus:
     script: Latn
   name: Muskogee
   speakers: 4500
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 mwf:
   orthographies:
@@ -3187,7 +3187,7 @@ mwf:
     script: Latn
   name: Murrinh-Patha
   speakers: 1973
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 mwl:
   orthographies:
@@ -3219,7 +3219,7 @@ mwp:
     script: Latn
   name: Kala Lagaw Ya
   speakers: 957
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 nag:
   orthographies:
@@ -3228,7 +3228,7 @@ nag:
     script: Latn
   name: Naga Pidgin
   speakers: 30000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 nap:
   orthographies:
@@ -3238,7 +3238,7 @@ nap:
     script: Latn
   name: Neapolitan
   speakers: 5700000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 naq:
   orthographies:
@@ -3249,7 +3249,7 @@ naq:
     script: Latn
   name: Khoekhoe
   speakers: 200000
-  source: Omniglot, Wikipedia, CLDR
+  source: [Omniglot, Wikipedia, CLDR]
   todo_status: strong
 nbl:
   orthographies:
@@ -3270,7 +3270,7 @@ nde:
   name: Ndebele (Zimbabwe)
   preferred_name: Northern Ndebele
   speakers: 1600000
-  source: Omniglot, Wikipedia, CLDR
+  source: [Omniglot, Wikipedia, CLDR]
   todo_status: strong
 nds:
   orthographies:
@@ -3290,7 +3290,7 @@ nhn:
   name: Nahuatl, Central
   preferred_name: Central Nahuatl
   speakers: 40000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 niu:
   orthographies:
@@ -3353,7 +3353,7 @@ nor:
   name: Norwegian
   includes: [nno, nob]
   speakers: 5000000
-  source: Omniglot, Wikipedia, CLDR
+  source: [Omniglot, Wikipedia, CLDR]
   todo_status: strong
 non:
   orthographies:
@@ -3397,7 +3397,7 @@ nus:
     script: Latn
   name: Nuer
   speakers: 890000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 nya:
   orthographies:
@@ -3416,7 +3416,7 @@ nyn:
     script: Latn
   name: Nyankore
   speakers: 3400000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 oci:
   orthographies:
@@ -3436,7 +3436,7 @@ orm:
     script: Latn
   name: Oromo
   speakers: 34500000
-  source: Omniglot, Wikipedia, CLDR, Alvestrand
+  source: [Omniglot, Wikipedia, CLDR, Alvestrand]
   todo_status: done
 pam:
   orthographies:
@@ -3450,7 +3450,7 @@ pam:
     note: According to Wikipedia
   name: Pampangan
   speakers: 1900000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 pap:
   orthographies:
@@ -3459,7 +3459,7 @@ pap:
     script: Latn
   name: Papiamentu
   speakers: 341300
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 plz:
   orthographies:
@@ -3509,7 +3509,7 @@ pot:
     script: Latn
   name: Potawatomi
   speakers: 0
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
   note: The language is being revived.
 prg:
@@ -3520,7 +3520,7 @@ prg:
     script: Latn
   name: Old Prussian
   speakers: 0
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 que:
   orthographies:
@@ -3530,7 +3530,7 @@ que:
     script: Latn
   name: Quechua
   speakers: 10000000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 rar:
   orthographies:
@@ -3540,7 +3540,7 @@ rar:
     script: Latn
   name: Cook Islands Maori
   speakers: 21345
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 rof:
   orthographies:
@@ -3559,7 +3559,7 @@ roh:
     script: Latn
   name: Romansh
   speakers: 44354
-  source: Omniglot, Wikipedia, Alvestrand
+  source: [Omniglot, Wikipedia, Alvestrand]
   todo_status: strong
 roo:
   orthographies:
@@ -3568,7 +3568,7 @@ roo:
     script: Latn
   name: Rotokas
   speakers: 4300
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 run:
   orthographies:
@@ -3610,7 +3610,7 @@ ruq:
   name: Romanian, Megleno
   preferred_name: Megleno Romanian
   speakers: 5000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: weak
 rwk:
   orthographies:
@@ -3661,7 +3661,7 @@ scn:
     script: Latn
   name: Sicilian
   speakers: 4700000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 seh:
   orthographies:
@@ -3670,7 +3670,7 @@ seh:
     script: Latn
   name: Sena
   speakers: 1600000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 sei:
   orthographies:
@@ -3700,7 +3700,7 @@ shi:
     script: Latn
   name: Tachelhit
   speakers: 4739021
-  source: Omniglot, Wikipedia, CLDR
+  source: [Omniglot, Wikipedia, CLDR]
   todo_status: strong
 sjw:
   orthographies:
@@ -3753,7 +3753,7 @@ sme:
   name: Saami, North
   preferred_name: Northern Sami
   speakers: 25000
-  source: Omniglot, Alvestrand
+  source: [Omniglot, Alvestrand]
   todo_status: strong
 smj:
   orthographies:
@@ -3852,7 +3852,7 @@ smo:
     script: Latn
   name: Samoan
   speakers: 510000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 sna:
   orthographies:
@@ -3882,7 +3882,7 @@ sot:
   name: Sotho, Southern
   preferred_name: Southern Sotho
   speakers: 5600000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 spa:
   orthographies:
@@ -3900,7 +3900,7 @@ sqi:
     script: Latn
   name: Albanian
   speakers: 5400000
-  source: Omniglot, Wikipedia, CLDR
+  source: [Omniglot, Wikipedia, CLDR]
   todo_status: strong
 srd:
   orthographies:
@@ -3919,7 +3919,7 @@ srm:
     script: Latn
   name: Saramaccan
   speakers: 90000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 srn:
   orthographies:
@@ -3928,7 +3928,7 @@ srn:
     script: Latn
   name: Sranan Tongo
   speakers: 130000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 ssw:
   orthographies:
@@ -3947,7 +3947,7 @@ sun:
     script: Latn
   name: Sunda
   speakers: 40000000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 swa:
   orthographies:
@@ -3957,7 +3957,7 @@ swa:
   name: Swahili
   speakers: 150000000
   includes: [swc, swh, ymk, wmw]
-  source: Omniglot, Wikipedia, CLDR
+  source: [Omniglot, Wikipedia, CLDR]
   todo_status: strong
 swc:
   orthographies:
@@ -3976,7 +3976,7 @@ swh:
     script: Latn
   name: Swahili
   speakers: 150000000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: weak
 ymk:
   orthographies:
@@ -4026,7 +4026,7 @@ tay:
     script: Latn
   name: Atayal
   speakers: 84000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
   note: Single source.
 tdt:
@@ -4036,7 +4036,7 @@ tdt:
     script: Latn
   name: Tetun Dili
   speakers: 390000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 teo:
   orthographies:
@@ -4046,7 +4046,7 @@ teo:
     script: Latn
   name: Teso
   speakers: 1900000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 tgl:
   orthographies:
@@ -4055,7 +4055,7 @@ tgl:
     script: Latn
   name: Tagalog
   speakers: 23800000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 tkl:
   orthographies:
@@ -4064,7 +4064,7 @@ tkl:
     script: Latn
   name: Tokelauan
   speakers: 3517
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 tlh:
   orthographies:
@@ -4084,7 +4084,7 @@ ton:
     script: Latn
   name: Tongan
   speakers: 187000
-  source: Omniglot, Wikipedia, CLDR
+  source: [Omniglot, Wikipedia, CLDR]
   todo_status: strong
 tpi:
   orthographies:
@@ -4123,7 +4123,7 @@ tum:
     script: Latn
   name: Tumbuka
   speakers: 1546000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: weak
 tur:
   orthographies:
@@ -4143,7 +4143,7 @@ tvl:
     script: Latn
   name: Tuvalu
   speakers: 12000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 twq:
   orthographies:
@@ -4164,7 +4164,7 @@ tzm:
   name: Tamazight, Central Atlas
   name: Central Atlas Tamazight
   speakers: 5000000
-  source: Omniglot, Wikipedia, CLDR
+  source: [Omniglot, Wikipedia, CLDR]
   todo_status: strong
 tzo:
   orthographies:
@@ -4173,7 +4173,7 @@ tzo:
     script: Latn
   name: Tzotzil
   speakers: 404704
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 ulk:
   orthographies:
@@ -4193,7 +4193,7 @@ vec:
     script: Latn
   name: Venetian
   speakers: 3900000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 vep:
   orthographies:
@@ -4214,7 +4214,7 @@ vie:
     script: Latn
   name: Vietnamese
   speakers: 76000000
-  source: Omniglot, Wikipedia, CLDR
+  source: [Omniglot, Wikipedia, CLDR]
   todo_status: strong
 vmw:
   orthographies:
@@ -4233,7 +4233,7 @@ vol:
     script: Latn
   name: Volapük
   speakers: 20
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
   status: constructed
 vro:
@@ -4243,7 +4243,7 @@ vro:
     script: Latn
   name: Võro
   speakers: 87000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 vun:
   orthographies:
@@ -4274,7 +4274,7 @@ wae:
     script: Latn
   name: Walser
   speakers: 22780
-  source: Wikipedia, CLDR
+  source: [Wikipedia, CLDR]
   todo_status: strong
 war:
   orthographies:
@@ -4287,7 +4287,7 @@ war:
     note: Filipino orthography
   name: Waray-Waray
   speakers: 2600000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: weak
   note: There is no officially-approved orthography for the language and different writers may use differing orthographic styles. In general, it has become common to write the language following the current orthographic conventions of Filipino.
 wbp:
@@ -4297,7 +4297,7 @@ wbp:
     script: Latn
   name: Warlpiri
   speakers: 2304
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 wim:
   orthographies:
@@ -4346,7 +4346,7 @@ wmw:
     script: Latn
   name: Mwani
   speakers: 100000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 wol:
   orthographies:
@@ -4414,7 +4414,7 @@ xrg:
     script: Latn
   name: Minang
   speakers: 6401000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 yap:
   orthographies:
@@ -4460,7 +4460,7 @@ yor:
     script: Latn
   name: Yoruba
   speakers: 40000000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 zap:
   orthographies:
@@ -4469,7 +4469,7 @@ zap:
     script: Latn
   name: Zapotec
   speakers: 450000
-  source: Omniglot, Wikipedia
+  source: [Omniglot, Wikipedia]
   todo_status: strong
 zlm:
   orthographies:
