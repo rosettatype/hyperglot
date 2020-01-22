@@ -1,0 +1,4547 @@
+ara:
+  name: Arabic
+  includes: [arq, aao, bbz, abv, shu, acy, adf, avl, arz, afb, ayh, acw, ayl, acm, ary, ars, apc, ayp, acx, aec, ayn, ssh, ajp, arb, apd, pga, acq, abh, aeb, auz]
+  speakers: 310000000
+  source: Wikipedia
+fas:
+  name: Persian
+  includes: [pes, prs, tgk, aiq, bhh, haz, jpr, phv, deh, jdt, ttt]
+  speakers: 70000000
+  source: Wikipedia
+yid:
+  name: Yiddish
+  includes: [ydd, yih]
+  speakers: 1500000
+  source: Wikipedia
+aao:
+  orthographies:
+  - autonym: --
+    script: Arab
+  name: Algerian Saharan Arabic
+  speakers: --
+  todo_status: todo
+abh:
+  orthographies:
+  - autonym: --
+    script: Arab
+  name: Tajiki Arabic
+  speakers: --
+  todo_status: todo
+abv:
+  orthographies:
+  - autonym: --
+    script: Arab
+  name: Baharna Arabic
+  speakers: --
+  todo_status: todo
+acm:
+  orthographies:
+  - autonym: --
+    script: Arab
+  name: Mesopotamian Arabic
+  speakers: --
+  todo_status: todo
+acq:
+  orthographies:
+  - autonym: --
+    script: Arab
+  name: Taizzi-Adeni Arabic
+  speakers: --
+  todo_status: todo
+acw:
+  orthographies:
+  - autonym: --
+    script: Arab
+  name: Hijazi Arabic
+  speakers: --
+  todo_status: todo
+acx:
+  orthographies:
+  - autonym: --
+    script: Arab
+  name: Omani Arabic
+  speakers: --
+  todo_status: todo
+acy:
+  orthographies:
+  - autonym: --
+    script: Arab
+  name: Cypriot Arabic
+  speakers: --
+  todo_status: todo
+adf:
+  orthographies:
+  - autonym: --
+    script: Arab
+  name: Dhofari Arabic
+  speakers: --
+  todo_status: todo
+aeb:
+  orthographies:
+  - autonym: --
+    script: Arab
+  name: Tunisian Arabic
+  speakers: --
+  todo_status: todo
+aec:
+  orthographies:
+  - autonym: --
+    script: Arab
+  name: Saidi Arabic
+  speakers: --
+  todo_status: todo
+afb:
+  orthographies:
+  - autonym: --
+    script: Arab
+  name: Gulf Arabic
+  speakers: --
+  todo_status: todo
+aiq:
+  orthographies:
+  - autonym: ایماقی‎
+    script: Arab
+  name: Aimaq
+  speakers: 650000
+  todo_status: todo
+ajp:
+  orthographies:
+  - autonym: --
+    script: Arab
+  name: South Levantine Arabic
+  speakers: --
+  todo_status: todo
+apc:
+  orthographies:
+  - autonym: --
+    script: Arab
+  name: North Levantine Arabic
+  speakers: --
+  todo_status: todo
+apd:
+  orthographies:
+  - autonym: --
+    script: Arab
+  name: Sudanese Arabic
+  speakers: --
+  todo_status: todo
+arb:
+  orthographies:
+  - autonym: العربية
+    script: Arab
+  name: Arabic, Standard
+  preferred_name: Standard Arabic
+  speakers: 270000000
+  todo_status: todo
+  note: The speakers are L2 only (it’s second langauge only).
+arq:
+  orthographies:
+  - autonym: --
+    script: Arab
+  name: Algerian Arabic
+  speakers: --
+  todo_status: todo
+ars:
+  orthographies:
+  - autonym: --
+    script: Arab
+  name: Najdi Arabic
+  speakers: --
+  todo_status: todo
+ary:
+  orthographies:
+  - autonym: الدارجة المغربية
+    script: Arab
+  name: Moroccan Arabic
+  speakers: 30551000
+  todo_status: todo
+arz:
+  orthographies:
+  - autonym: --
+    script: Arab
+  name: Egyptian Arabic
+  speakers: --
+  todo_status: todo
+auz:
+  orthographies:
+  - autonym: --
+    script: Arab
+  name: Uzbeki Arabic
+  speakers: --
+  todo_status: todo
+avl:
+  orthographies:
+  - autonym: --
+    script: Arab
+  name: Eastern Egyptian Bedawi Arabic
+  speakers: --
+  todo_status: todo
+ayh:
+  orthographies:
+  - autonym: --
+    script: Arab
+  name: Hadrami Arabic
+  speakers: --
+  todo_status: todo
+ayl:
+  orthographies:
+  - autonym: --
+    script: Arab
+  name: Libyan Arabic
+  speakers: --
+  todo_status: todo
+ayn:
+  orthographies:
+  - autonym: --
+    script: Arab
+  name: Sanaani Arabic
+  speakers: --
+  todo_status: todo
+ayp:
+  orthographies:
+  - autonym: --
+    script: Arab
+  name: North Mesopotamian Arabic
+  speakers: --
+  todo_status: todo
+bbz:
+  orthographies:
+  - autonym: --
+    script: Arab
+  name: Babalia Creole Arabic
+  speakers: --
+  todo_status: todo
+deh:
+  orthographies:
+  - autonym: دهواری
+    script: Arab
+  name: Dehwari
+  speakers: 14600
+  todo_status: todo
+haz:
+  orthographies:
+  - autonym: آزرگی‎‎
+    script: Arab
+  name: Hazaragi
+  todo_status: todo
+pes:
+  orthographies:
+  - autonym: فارسی
+    script: Arab
+  name: Persian, Iranian
+  preferred_name: Persian
+  speakers: 55600000
+  todo_status: todo
+pga:
+  orthographies:
+  - autonym: --
+    script: Arab
+  name: Sudanese Creole Arabic
+  speakers: --
+  todo_status: todo
+phv:
+  orthographies:
+  - autonym: --
+    script: Arab
+  name: Pahlavani
+  todo_status: todo
+prs:
+  orthographies:
+  - autonym: فارسی‎
+    script: Arab
+  name: Dari
+  speakers: 12500000
+  todo_status: todo
+shu:
+  orthographies:
+  - autonym: --
+    script: Arab
+  name: Chadian Arabic
+  speakers: --
+  todo_status: todo
+ssh:
+  orthographies:
+  - autonym: --
+    script: Arab
+  name: Shihhi Arabic
+  speakers: --
+  todo_status: todo
+urd:
+  orthographies:
+  - autonym: اُردُو‎‎
+    script: Arab
+  name: Urdu
+  speakers: 68620000
+  todo_status: todo
+abk:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я џ қ ҟ ҩ
+      ҭ ҳ ҵ ҷ ҽ ҿ ә ӡ ӷ ԥ
+    autonym: Аҧсшәа‎
+    script: Cyrl
+  name: Abkhazian
+  speakers: 190110
+  source: Omniglot, Wikipedia
+  todo_status: strong
+abq:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё
+    autonym: Абаза
+    script: Cyrl
+  name: Abaza
+  speakers: 49800
+  source: Omniglot, Wikipedia
+  todo_status: strong
+ady:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
+    autonym: Адыгабзэ‎
+    script: Cyrl
+  name: Adyghe
+  speakers: 575900
+  source: Omniglot, Wikipedia
+  todo_status: strong
+agx:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
+    autonym: Агъул‎
+    script: Cyrl
+  name: Aghul
+  speakers: 29300
+  source: Omniglot, Wikipedia
+  todo_status: strong
+alt:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ј ҥ ӧ ӱ
+    autonym: Алтайча
+    script: Cyrl
+  name: Altai, Southern
+  preferred_name: Southern Altai
+  speakers: 55720
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+ani:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
+    autonym: Мицци‎
+    script: Cyrl
+  name: Andi
+  speakers: 5800
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+aqc:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ӏ а́ е́ и́ о́
+    autonym: Аршаттен чӏат
+    script: Cyrl
+  name: Archi
+  speakers: 970
+  source: Omniglot, Wikipedia
+  todo_status: strong
+  note: Mathematically, there are 1,502,839 possible forms that can be derived from
+    a single verb root. Shorter autonym?
+atv:
+  orthographies:
+  - autonym: Алтайча
+    inherit: alt
+    script: Cyrl
+  name: Altai, Northern
+  preferred_name: Northern Altai
+  speakers: 5000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+ava:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
+    autonym: Авар
+    script: Cyrl
+  name: Avar
+  speakers: 1000000
+  source: Omniglot, Wikipedia
+  todo_status: strong
+aze:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ј ғ ҝ ү ҹ һ ә ө ’
+    autonym: Азәрбајҹан
+    script: Cyrl
+  - base: a b c d e f g h i j k l m n o p q r s t u v x y z ç ö ü ğ İ ı ş ə
+    script: Latn
+  name: Azerbaijani
+  speakers: 23000000
+  source: Omniglot, Wikipedia
+  todo_status: strong
+bak:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ғ ҙ ҡ ң ҫ ү һ ә ө
+    autonym: Башҡортса‎
+    script: Cyrl
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ç ö ü č ğ İ ı ķ ņ ś ş š ź
+    script: Latn
+    status: historical
+  name: Bashkort
+  speakers: 1200000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+bdk:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ӏ ә
+    autonym: Будад мез
+    script: Cyrl
+  name: Budukh
+  speakers: 200
+  source: Omniglot, Wikipedia
+  todo_status: strong
+bel:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё і ў ’ ґ
+    autonym: Беларуская
+    script: Cyrl
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ć č ł ń ś š ŭ ź ž
+    autonym: Biełaruskaja
+    script: Latn
+    status: historical
+  name: Belarusian
+  speakers: 5100000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+bhh:
+  orthographies:
+  - autonym: Бухорӣ
+    script: Cyrl
+  - autonym: בוכארי
+    script: Hebr
+  name: Bukharic
+  speakers: 110000
+  todo_status: todo
+bos:
+  orthographies:
+  - base: а б в г д е ж з и к л м н о п р с т у ф х ц ч ш ђ ј љ њ ћ џ
+    autonym: Босански
+    script: Cyrl
+  - base: a b c d e f g h i j k l m n o p r s t u v z ć č đ š ž
+    autonym: Bosanski
+    script: Latn
+  name: Bosnian
+  speakers: 3000000
+  source: Omniglot, CLDR
+  todo_status: strong
+bua:
+  includes: [bxu, bxm, bxr]
+  name: Buriat
+bxr:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ү һ ө
+    autonym: Буряад
+    script: Cyrl
+  - base: a b c ç d e f g h i j k l m n o ө p r s ş t u v x y z ƶ
+    autonym: Buryaad
+    script: Latn
+    status: historical
+    nate: Used 1931–1939
+  name: Buriat, Russia
+  preferred_name: Russian Buriat
+  speakers: 353113 
+  source: Omniglot, Wikipedia
+  todo_status: strong
+bxu:
+  inherit: bxr
+  name: Buriat, China
+  preferred_name: Chinese Buriat
+  speakers: 65000
+bxm:
+  inherit: bxr
+  name: Buriat, Mongolia
+  preferred_name: Mongolian Buriat
+  speakers: 35000
+bul:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ь ю я ѐ ѝ
+    autonym: Български
+    script: Cyrl
+  name: Bulgarian
+  speakers: 9000000
+  source: Omniglot, Wikipedia
+  todo_status: strong
+  note: localised shapes for л в к г й ф ю etc.
+che:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
+    autonym: Нохчийн мотт
+    script: Cyrl
+  name: Chechen
+  speakers: 1400000
+  source: Omniglot
+  todo_status: weak
+  note: Single source. Shorter autonym?
+chu:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь ю є ѕ џ ѥ ѩ ѭ
+      ҁ і ї ѡ ѣ ѧ ѫ ѯ ѱ ѳ ѵ ѷ ѻ ѽ ѿ ꙁ ꙋ ꙍ ꙗ ꙃ
+    autonym: Церковнослове́нскїй
+    script: Cyrl
+  name: Church Slavonic
+  speakers: 0
+  source: Omniglot, Wikipedia, CLDR
+  todo_status: strong
+chv:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҫ ӑ ӗ
+      ӳ
+    autonym: Чӑвашла‎
+    script: Cyrl
+  name: Chuvash
+  speakers: 1042989
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+cji:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
+    autonym: Чамалалдуб мичӏчӏ
+    script: Cyrl
+  name: Chamalal
+  speakers: 500
+  source: Omniglot, Wikipedia
+  todo_status: strong
+  note: Shorter autonym?
+cjs:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ғ қ ң
+      ӧ ӱ
+    autonym: Шор
+    script: Cyrl
+  name: Shor
+  speakers: 2800
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+ckt:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӄ ӈ ԓ ’
+    autonym: Ԓыгъоравэтԓьэн
+    script: Cyrl
+  name: Chukchi
+  speakers: 5095
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+cnr:
+  orthographies:
+  - base: ́ а б в г д е ж з и к л м н о п р с т у ф х ц ч ш ђ ј љ њ ћ џ
+    combinations: '{з́}{с́}'
+    autonym: Црногорски
+    script: Cyrl
+    status: secondary
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ć č đ ś š ź ž
+    autonym: Crnogorski
+    script: Latn
+  name: Montenegrin
+  speakers: 232600
+  source: Omniglot, Wikipedia
+  todo_status: strong
+crh:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё
+    autonym: Къырымтатар тили
+    script: Cyrl
+    status: secondary
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ç ñ ö ü ğ ş
+    autonym: Qırımtatar tili
+    script: Latn
+  name: Crimean Tatar
+  speakers: 540000
+  source: Omniglot
+  todo_status: weak
+  note: Single source. Shorter autonym?
+dar:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
+    autonym: Дарган
+    script: Cyrl
+  name: Dargwa
+  speakers: 490000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+ddo:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у х ц ч ш э ӏ
+    combinations: '{а̄}'
+    autonym: Цез
+    script: Cyrl
+  name: Dido
+  speakers: 13000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+dlg:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ү һ ӈ ө
+    autonym: Дулҕан
+    script: Cyrl
+  name: Dolgan
+  speakers: 1100
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+dng:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ў җ ң ү ә
+    autonym: Хуэйзў
+    script: Cyrl
+  name: Dungan
+  speakers: 110000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+enf:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҫ ӈ ԑ
+    autonym: Онэй база
+    script: Cyrl
+  name: Enets, Forest
+  preferred_name: Forest Enets
+  speakers: 5
+  source: Omniglot, Wikipedia
+  todo_status: strong
+enh:
+  inherit: enf
+  name: Enets, Tundra
+  preferred_name: Tundra Enets
+  speakers: 5
+ess:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ў қ ң ҳ ҕ ’
+    autonym: Юпик
+    script: Cyrl
+  name: Yupik, Saint Lawrence Island
+  preferred_name: Saint Lawrence Island Yupik
+  speakers: 1200
+  source: Omniglot, Wikipedia
+  todo_status: strong
+esu:
+  orthographies:
+  - base: a c g i k l m n p q r s t u v w y ń ə ḿ  ͡ ʼ
+    combinations: {u͡g} {u͡r}
+    autonym: Yupʼik
+    script: Latn
+  name: Yupik, Central
+  preferred_name: Central Alaskan Yupik
+  speakers: 10000
+  source: Wikipedia
+  todo_status: weak
+  note: Single source.
+ems:
+  orthographies:
+  - autonym: Sugpiaq
+    script: Latn
+  name: Yupik, Pacific Gulf
+  preferred_name: Pacific Gulf Yupik
+  speakers: 200
+  todo_status: todo
+eve:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӈ ө ӫ
+      а̄ ө̄ е̄ ӣ ӯ ы̄ э̄ ю̄ я̄
+    autonym: Эвэды торэн
+    script: Cyrl
+  name: Even
+  speakers: 5700
+  source: Omniglot, Wikipedia
+  todo_status: strong
+evn:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӈ
+    combinations: '{а̄}{е̄}{ә̄}{о̄}{ы̄}'
+    autonym: Эвэнки
+    script: Cyrl
+  name: Evenki
+  speakers: 26580
+  source: Omniglot, Wikipedia
+  todo_status: strong
+gag:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӂ ӓ ӧ
+      ӱ
+    status: historical
+    script: Cyrl
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ç ê ö ü ğ İ ı ş ţ
+      ș ț
+    autonym: Gagauzça
+    script: Latn
+  name: Gagauz
+  speakers: 140000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+gld:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӈ
+    combinations: '{а̄}{е̄}{ӣ}{о̄}{ӯ}{э̄}'
+    autonym: Нанай
+    script: Cyrl
+  name: Nanai
+  speakers: 1400
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+huz:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ӏ ә ȧ ӯ
+    combinations: '{а̄}{е̄}{ә̄}{о̄}{э̄}'
+    autonym: Гьонкьос
+    script: Cyrl
+  name: Hunzib
+  speakers: 1400
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+inh:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
+    autonym: Гӏалгӏай‎
+    script: Cyrl
+  name: Ingush
+  speakers: 306000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+itl:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё љ њ ў
+      ҳ ӄ ӆ ӈ ӑ ә ’ ˚
+    combinations: '{о̆}'
+    autonym: Итэнмэн
+    script: Cyrl
+  name: Itelmen
+  speakers: 82
+  source: Omniglot, Wikipedia
+  todo_status: strong
+jct:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ӧ ӱ
+    autonym: Кърымчах
+    script: Cyrl
+  name: Krymchak
+  speakers: 200
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+jdt:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
+    autonym: Жугьури
+    script: Cyrl
+  - base: א אִ אַ אָ אי ב בּ ג ג׳ ד ה ו וּ ז ז׳ ח י כ כּ ל מ נ ס ע פ פּ צ ק ר ש ת
+    autonym: Juwri
+    script: Hebr
+    status: secondary
+  - base: a b c ç d e ə f g h ḩ ћ i j k l m n o p q r s ş t u v x y z
+    autonym: Çuhuri
+    script: Latn
+    status: historical
+  name: Judeo-Tat
+  speakers: 101000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+kaa:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ў ғ қ
+      ң ү ҳ ә ө
+    autonym: Қарақалпақ тили‎
+    script: Cyrl
+    status: secondary
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z á İ ı ǵ ń ú
+    autonym: Qaraqalpaq tili
+    script: Latn
+  name: Karakalpak
+  speakers: 583410
+  source: Omniglot
+  todo_status: weak
+  note: Single source. Shorter autonym?
+kap:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э я ӏ а̄ е̄ ӣ
+      о̄ ӯ э̄
+    autonym: Бежкьалас миц
+    script: Cyrl
+  name: Bezhta
+  speakers: 6800
+  source: Omniglot, Wikipedia
+  todo_status: strong
+kaz:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё і ғ қ
+      ң ү ұ һ ә ө
+    autonym: Қазақ тілі
+    script: Cyrl
+  name: Kazakh
+  speakers: 11700000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+kbd:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
+    autonym: Адыгэбзэ
+    script: Cyrl
+  name: Kabardian
+  speakers: 1600000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+kca:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё є ў қ
+      ң ҳ ҷ ӆ ӈ ӑ ӓ ә ӛ ӧ ө ӫ ӱ ԓ
+    combinations: '{ю̆}{я̆}'
+    autonym: Ханты
+    script: Cyrl
+  name: Khanty
+  speakers: 9600
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+kdr:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ӧ ӱ
+    autonym: Къарай
+    script: Cyrl
+  name: Karaim
+  speakers: 80
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+ket:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӄ ӈ ә
+      ө ӷ ’
+    autonym: Остыганна ӄа’
+    script: Cyrl
+  name: Ket
+  speakers: 213
+  source: Omniglot
+  todo_status: weak
+  note: Single source. Shorter autonym?
+kir:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ң ү ө
+    autonym: Кыргызча
+    script: Cyrl
+  name: Kirghiz
+  speakers: 4300000
+  source: Omniglot, Wikipedia
+  todo_status: strong
+kjh:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё і ғ ң
+      ӌ ӧ ӱ
+    autonym: Хакас тілі
+    script: Cyrl
+  name: Khakas
+  speakers: 43000
+  source: Omniglot
+  todo_status: weak
+  note: Single source. Shorter autonym?
+kjj:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ӏ ә
+    combinations: '{а̃}{е̃}{и̃}{о̃}{у̃}{ә̃}'
+    autonym: Каьтш мицӏ
+    script: Cyrl
+  name: Khinalugh
+  speakers: 1000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+kom:
+  name: Komi
+  speakers: 223000
+  includes: [koi, kpv]
+koi:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё і ӧ
+    autonym: Перем Коми
+    script: Cyrl
+  name: Komi-Permyak
+  speakers: 63000
+  source: Omniglot, Wikipedia
+  todo_status: strong
+kpv:
+  orthographies:
+  - inherit: koi
+    autonym: Коми
+    script: Cyrl
+  name: Komi-Zyrian
+  speakers: 160000
+kpt:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у х ц ч ш щ ъ ы ь э ю я ӏ ã ẽ и̃ õ
+      у̃
+    autonym: Кӏкӏирлӏи мацӏцӏи
+    script: Cyrl
+  name: Karata
+  speakers: 260
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+kpy:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӄ ӈ ’
+    autonym: Нымылг’ын
+    script: Cyrl
+  name: Koryak
+  speakers: 1665
+  source: Omniglot, Wikipedia
+  todo_status: weak
+  note: sources partially disagree. Wikipedia notes қ ң instead of ӄ ӈ.
+krc:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ў
+    autonym: Къарачай-Малкъар
+    script: Cyrl
+  name: Karachay-Balkar
+  speakers: 310000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+kum:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё
+    autonym: Къумукъ‎
+    script: Cyrl
+  name: Kumyk
+  speakers: 450000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+kur:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ь э һ ә ӧ ԛ ԝ
+    autonym: Kurdî
+    script: Cyrl
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ç é ê í î ú ù û ā ă
+      ē ĕ ī ĭ ō ŏ ř ū ü ŭ ș ş ł ň ḥ x̣
+    autonym: Kurdî
+    script: Latn
+    note: alternative 1
+  - base: a b c ç d e ê f g h i î j k l ł m n ň o p q r ř s ş t u û ü v w
+      x y z
+    autonym: Kurdî
+    script: Latn
+    note: alternative 2
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z é í ú ù '
+    autonym: Kurdî
+    script: Latn
+    note: alternative 3
+  name: Kurdish
+  speakers: 30000000
+  source: Omniglot, Wikipedia
+  todo_status: strong
+lbe:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
+    autonym: Лак
+    script: Cyrl
+  name: Lak
+  speakers: 152050
+  source: Omniglot, Wikipedia
+  todo_status: strong
+lez:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
+    autonym: Лезги‎
+    script: Cyrl
+  name: Lezghian
+  speakers: 633610
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+mdf:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё
+    autonym: Мокшень кяль
+    script: Cyrl
+  name: Moksha
+  speakers: 430000
+  source: Omniglot, Wikipedia
+  todo_status: strong
+mhr:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҥ ӧ ӱ
+    autonym: Олык Марий‎
+    script: Cyrl
+  name: Mari, Meadow
+  preferred_name: Meadow Mari
+  speakers: 470000
+  source: Omniglot, Wikipedia
+  todo_status: strong
+mkd:
+  orthographies:
+  - base: а б в г д е ж з и к л м н о п р с т у ф х ц ч ш ѓ ѕ ј љ њ ќ џ
+    autonym: Македонски
+    script: Cyrl
+  name: Macedonian
+  speakers: 1400000
+  source: Omniglot, Wikipedia, CLDR
+  todo_status: strong
+mns:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӈ ӣ ӯ
+    combinations: '{а̄}{е̄}{о̄}{э̄}{ю̄}{я̄}'
+    autonym: Маньси
+    script: Cyrl
+  name: Mansi
+  speakers: 940
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+mon:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ү ө
+    autonym: Монгол
+    script: Cyrl
+  name: Mongolian
+  speakers: 3600000
+  source: Omniglot, Wikipedia
+  todo_status: strong
+mrj:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӓ ӧ ӱ ӹ
+    autonym: Кырык Мары‎
+    script: Cyrl
+  name: Mari, Hill
+  preferred_name: Hill Mari
+  speakers: 30000
+  source: Omniglot, Wikipedia
+  todo_status: strong
+myv:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё
+    autonym: Эрзянь
+    script: Cyrl
+  name: Erzya
+  speakers: 430000
+  source: Omniglot, Wikipedia
+  todo_status: strong
+nio:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҫ ү ӈ
+      ә ө ҙ ”
+    autonym: ня”
+    script: Cyrl
+    note: Omniglot version
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҫ ү ӈ
+      ә ө ”
+    combinations: '{з̌}'
+    autonym: ня”
+    script: Cyrl
+    note: Wikipedia version
+  name: Nganasan
+  speakers: 125
+  source: Omniglot, Wikipedia
+  todo_status: weak
+  note: Sources partially disagree. Wikipedia notes з̌ instead of ҙ.
+niv:
+  orthographies:
+  - base: ʼ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ғ ӄ
+      ӈ ӷ ӻ ӽ ӿ ’
+    combinations: '{р̌}'
+    autonym: нивх
+    script: Cyrl
+  name: Gilyak
+  speakers: 200
+  source: Omniglot, Wikipedia
+  todo_status: strong
+nog:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я
+    autonym: Ногай
+    script: Cyrl
+  name: Nogai
+  speakers: 87000
+  source: Omniglot, Wikipedia
+  todo_status: strong
+oaa:
+  orthographies:
+  - base: ̄ а б в г д е ж з и к л м н о п р с т у ф х ч э ј ӈ ӡ ӣ ө ԩ
+    combinations: '{а̄}{е̄}{о̄}{ө̄}{э̄}'
+    autonym: Уйльта
+    script: Cyrl
+  name: Orok
+  speakers: 26–47
+  source: Omniglot, Wikipedia
+  todo_status: strong
+oss:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӕ
+    autonym: Ирон
+    script: Cyrl
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä æ č š ž
+    script: Latn
+    status: historical
+  name: Ossetian
+  speakers: 600000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+ron:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш ы ь э ю я ӂ
+    autonym: Română
+    script: Cyrl
+    status: secondary
+    note: Moldovan Cyrillic alphabet
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z â î ă ș ț
+    autonym: Română
+    script: Latn
+  name: Romanian
+  speakers: 26000000
+  source: Omniglot, Wikipedia
+  todo_status: strong
+rue:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ь э ю я ё є і ї ґ
+    autonym: Руски
+    script: Cyrl
+  name: Rusyn
+  speakers: 623500
+  source: Omniglot, Wikipedia
+  todo_status: strong
+rus:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё
+    autonym: Русский
+    script: Cyrl
+  name: Russian
+  speakers: 150000000
+  source: Omniglot, Wikipedia
+  todo_status: strong
+  note: Combinations of vowels and marks are missing (todo).
+rut:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
+    autonym: Мыхӏабишды‎
+    script: Cyrl
+  name: Rutul
+  speakers: 36400
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+sah:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҕ ҥ ү
+      һ ө
+    autonym: Сахалыы‎
+    script: Cyrl
+  name: Yakut
+  speakers: 450000
+  source: Omniglot, Wikipedia
+  todo_status: strong
+sel:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё җ ӄ ӈ
+      å ӣ ӧ ө ӭ ӯ ӱ ӷ
+    combinations: '{и̇}'
+    autonym: Шӧльӄумыт
+    script: Cyrl
+  name: Selkup
+  speakers: 1000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+sgh:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш ё ғ қ ҳ ҷ ӣ ӯ
+    combinations: '{а̄}{г̌}{у̊}'
+    autonym: Хуг̌ну̊н зив
+    script: Cyrl
+  name: Shughni
+  speakers: 50000
+  source: Omniglot
+  todo_status: todo
+sjd:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ј ҋ ҍ
+      ҏ һ ӆ ӈ ӊ ӎ ӓ ӭ ’
+    autonym: Кӣллт Са̄мь
+    script: Cyrl
+  name: Saami, Kildin
+  preferred_name: Kildin Sami
+  speakers: 340
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+srp:
+  orthographies:
+  - base: ́ а б в г д е ж з и к л м н о п р с т у ф х ц ч ш ђ ј љ њ ћ џ
+    combinations: '{з́}{с́}'
+    autonym: Српски
+    script: Cyrl
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ć č đ ś š ź ž
+    autonym: Srpski
+    script: Latn
+  name: Serbian
+  speakers: 9500000
+  source: Omniglot, Wikipedia, CLDR
+  todo_status: strong
+tab:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
+    autonym: Табасаран
+    script: Cyrl
+  name: Tabassaran
+  speakers: 126900
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+tat:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё җ ң ү
+      һ ә ө
+    autonym: Татарча‎
+    script: Cyrl
+  name: Tatar
+  speakers: 5200000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+tgk:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ч ш ъ э ю я ё ғ қ ҳ ҷ ӣ ӯ
+    autonym: Тоҷикӣ
+    script: Cyrl
+  name: Tajik
+  speakers: 8400000
+  source: Omniglot, Wikipedia, CLDR
+  todo_status: strong
+tkr:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
+    autonym: Цӏаӏхна миз
+    script: Cyrl
+  - base: a b c d e f g h i j k l m n o p q r s t u v x y z ç ö ü ğ İ ı ş ə
+    autonym: Ts‘əxna miz
+    script: Latn
+    note: Based on Azerbaijani.
+  name: Tsakhur
+  speakers: 22300
+  source: Omniglot, Wikipedia
+  todo_status: strong
+tly:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш ј ғ ҹ ҝ һ ә
+    autonym: Толыши
+    script: Cyrl
+  - base: a b c d e f g h i j k l m n o p q r s t u v x y z ç ö ü ğ İ ı ş ə
+    autonym: Tolışi‎
+    script: Latn
+    note: Based on Azerbaijani.
+  name: Talysh
+  speakers: 218100
+  source: Omniglot, Wikipedia
+  todo_status: strong
+ttt:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
+    script: Cyrl
+  - autonym: Tati
+    inherit: aze
+    script: Latn
+  name: Muslim Tat
+  speakers: 28000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+tuk:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё җ ң ү
+      ә ө
+    autonym: Түркменче
+    script: Cyrl
+    status: secondary
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ç ö ü ý ň ş ž ș
+    autonym: Türkmençe
+    script: Latn
+  name: Turkmen
+  speakers: 6700000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+tyv:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ң ү ө
+    autonym: Тыва‎
+    script: Cyrl
+  name: Tuvan
+  speakers: 280000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+udi:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ҝ
+      ӏ ’
+    autonym: Удин муз
+    script: Cyrl
+  name: Udi
+  speakers: 6600
+  source: Omniglot, Wikipedia
+  todo_status: strong
+udm:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӝ ӟ ӥ
+      ӧ ӵ
+    autonym: Удмурт
+    script: Cyrl
+  name: Udmurt
+  speakers: 340000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+uig:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш ю я ғ җ қ ң ү һ ә ө
+    autonym: Уйғур
+    script: Cyrl
+  - base: ئ ا ب ت ج خ د ر ز س ش غ ف ق ك ل م ن و ي پ چ ژ ڭ گ ھ ۆ ۇ ۈ ۋ ې ە
+    autonym: ئۇيغۇرچە
+    script: Arab
+  - base: a b c d e f g h h i j k l m n o p q r s t u w x y z ë ö ü 
+    autonym: Uighur
+    script: Latn
+  name: Uyghur
+  speakers: 10400000
+  source: Omniglot, Wikipedia
+  todo_status: strong
+ukr:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ь э ю я є і ї ґ ’
+    autonym: Українська
+    script: Cyrl
+  name: Ukrainian
+  speakers: 35000000
+  source: Omniglot, Wikipedia, CLDR
+  todo_status: strong
+uum:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш ы э ґ ӧ ӱ ’
+    autonym: Урум
+    script: Cyrl
+  name: Urum
+  speakers: 190000
+  source: Omniglot, Wikipedia
+  todo_status: strong
+uzb:
+  name: Uzbek
+  includes: [uzn, uzs]
+  speakers: 31200000
+  source: Wikipedia
+uzn:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ғ қ ҳ
+      ӯ
+    autonym: Ўзбекча
+    script: Cyrl
+    note: alternative 1
+    status: secondary
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ў ғ қ
+      ҳ
+    autonym: Ўзбекча
+    script: Cyrl
+    note: alternative 2
+    status: secondary
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    autonym: O‘zbekcha
+    script: Latn
+  name: Northern Uzbek
+  speakers: 27000000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+uzs:
+  orthographies:
+  - autonym: اوزبیکی
+    inherit: pes 
+    script: Arab
+  name: Southern Uzbek
+  speakers: 4200000
+  source: Wikipedia
+  todo_status: weak
+  note: Single source.
+xal:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё җ ң ү
+      һ ә ө
+    autonym: Хальмг
+    script: Cyrl
+  name: Kalmyk
+  speakers: 80500
+  source: Omniglot, Wikipedia
+  todo_status: strong
+yai:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ э ю я ё ғ қ ҳ ҷ ӣ
+      ӯ ԝ
+    autonym: Йағнобӣ
+    script: Cyrl
+  name: Yagnobi
+  speakers: 12000
+  source: Omniglot, Wikipedia
+  todo_status: strong
+ykg:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ғ ң ӧ ԝ
+    autonym: Одул
+    script: Cyrl
+  name: Yukaghir, Northern
+  preferred_name: Northern Yukaghir
+  speakers: 60–70
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+yux:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҕ җ ә
+      қ ө
+    autonym: Одул
+    script: Cyrl
+  name: Yukaghir, Southern
+  preferred_name: Southern Yukaghir
+  speakers: 5
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+yrk:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӈ ӭ ’
+      ”
+    autonym: Ненэц
+    script: Cyrl
+  name: Nenets
+  speakers: 21926
+  source: Omniglot, Wikipedia
+  todo_status: strong
+ell:
+  orthographies:
+  - base: α β γ δ ε ζ η θ ι κ λ μ ν ξ ο π ρ ς σ τ υ φ χ ψ ω ά έ ή ί ό ύ ώ ϊ ϋ ΐ ΰ 
+    autonym: Ελληνικά
+    script: Grek
+  name: Modern Greek
+  speakers: 13400000
+  source: Omniglot, CLDR, Wikipedia
+  todo_status: strong
+grc:
+  orthographies:
+  - base: α β γ δ ε ζ η θ ι κ λ μ ν ξ ο π ρ ς σ τ υ φ χ ψ ω ά έ ή ί ό ύ ώ ϊ ϋ ΐ ΰ 
+      ἀ ἁ ἂ ἃ ἄ ἅ ἆ ἇ ἐ ἑ ἒ ἓ ἔ ἕ ἠ ἡ ἢ ἣ ἤ ἥ ἦ ἧ ἰ ἱ ἲ ἳ ἴ ἵ ἶ ἷ ὂ ὃ ὄ ὐ ὑ ὒ ὓ ὔ ὕ
+      ὖ ὗ ὢ ὣ ὤ ὥ ὦ ὧ ὰ ὲ ὴ ὶ ὸ ὺ ὼ ᾶ ῆ ῒ ῖ ῗ ῢ ῦ ῧ ῶ
+    autonym: Ελληνικά
+    script: Grek
+  name: Ancient Greek (pre 1453)
+  preferred_name: Ancient Greek
+  speakers: 0
+  source: Omniglot, Wikipedia
+  status: historical
+  todo_status: strong
+heb:
+  orthographies:
+  - base: א ב ג ד ה ו ז ח ט י כ ך ל מ ם נ ן ס ע פ ף צ ץ ק ר ש ת ﭏ
+    autonym: עברית
+    script: Hebr
+  name: Hebrew
+  speakers: 9000000
+  todo_status: todo
+jpr:
+  orthographies:
+  - inherit: heb
+    script: Hebr
+  name: Dzhidi
+  speakers: 60000
+  todo_status: todo
+ydd:
+  orthographies:
+  - autonym: ייִדיש
+    script: Hebr
+  name: Eastern Yiddish
+  speakers: 1500000
+  todo_status: todo
+yih:
+  orthographies:
+  - autonym: ייִדיש
+    script: Hebr
+  name: Western Yiddish
+  speakers: 5000
+  todo_status: todo
+aaq:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ô
+    autonym: Wôbanakiôdwawôgan
+    script: Latn
+  name: Abenaki, Eastern
+  preferred_name: Eastern Abenaki
+  speakers: 0
+  source: Omniglot
+  todo_status: weak
+  status: historical
+  note: Single source.
+aar:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    autonym: Qafar
+    script: Latn
+  name: Afar
+  speakers: 1973800
+  source: Omniglot, Wikipedia
+  todo_status: strong
+aat:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z á ä ç è é ë í ï ó ö
+      ú ü ý
+    autonym: Arbërisht
+    script: Latn
+  - base: b d α β γ γ̇ δ ε ε̱ ζ θ ι κ λ μ ν ν̇ ξ ο π ρ σ σ̇ σ̈ τ υ φ χ χ̇ ϳ
+    autonym: Αρβανίτικα
+    script: Grek
+  name: Albanian, Arvanitika
+  preferred_name: Arvanitika Albanian
+  speakers: 50000
+  source: Omniglot, Wikipedia
+  todo_status: strong
+abe:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ô
+    autonym: Wôbanakiôdwawôgan
+    script: Latn
+  name: Abenaki, Western
+  preferred_name: Western Abenaki
+  speakers: 14
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+acz:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ë ï ö ü
+    autonym: Garme
+    script: Latn
+  name: Acheron
+  speakers: 20000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+aer:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    autonym: Arrernte
+    script: Latn
+  name: Arrernte, Eastern
+  preferred_name: Eastern Arrernte
+  speakers: 4537
+  source: Omniglot, Wikipedia
+  todo_status: strong
+  note: The number of speakers relates to all Arrernte languages
+afr:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z è ê ë î ï ö ô
+      û ü
+    autonym: Afrikaans
+    script: Latn
+  name: Afrikaans
+  speakers: 7200000
+  source: Omniglot, Wikipedia
+  todo_status: strong
+  note: The use ŉ has been deprecated and is strongly discouraged.
+agq:
+  orthographies:
+  - base: a b c d e f g h i k l m n o p s t u v w y z à â è ê ì î ò ô ù û ā ē ě ī
+      ŋ ō ū ǎ ǐ ǒ ǔ ɔ ɛ ɨ ʉ ʔ ̀ ̂ ̄ ̌
+    auxiliary: q r x
+    autonym: Aghɨ̂m
+    script: Latn
+  name: Aghem
+  speakers: 27000
+  source: CLDR
+  todo_status: weak
+  note: Single source.
+aka:
+  includes: [fat, twi]
+  name: Akan
+fat:
+  orthographies:
+  - base: a b d e f g h i k m n o p r s t u w y z ɛ ɔ
+    autonym: Fante
+    script: Latn
+  name: Fante
+  speakers: 2700000
+  source: Omniglot, Wikipedia
+  todo_status: strong
+twi:
+  orthographies:
+  - base: a b d e f g h i k l m n o p r s t u w y ɛ ɔ 
+    autonym: Twi
+    script: Latn
+  name: Twi
+  speakers: 9000000
+  source: Omniglot, Wikipedia
+  todo_status: strong
+abr:
+  orthographies:
+  - base: a b d e f g h i k l m n o p r s t u w y ɛ ɔ 
+    autonym: Brong
+    script: Latn
+  name: Abron
+  speakers: 1400000
+  source: Omniglot, Wikipedia
+  todo_status: strong
+wss:
+  orthographies:
+  - base: a b d e f g h i k l m n o p r s t u w y ɛ ɔ 
+    autonym: Wasa
+    script: Latn
+  name: Wasa
+  speakers: 273000
+  source: Omniglot, Wikipedia
+  todo_status: strong
+ami:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    autonym: Amis
+    script: Latn
+  name: Amis
+  speakers: 181000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+aoz:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é ê í ó ú û
+    autonym: Uab Meto
+    script: Latn
+  name: Uab Meto
+  speakers: 800000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+arg:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ñ ó ú
+    autonym: Aragonés
+    script: Latn
+  name: Aragonese
+  speakers: 10000–12000
+  source: Omniglot, Wikipedia
+  todo_status: strong
+asa:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p r s t u v w y z
+    auxiliary: q x
+    autonym: Kipare
+    script: Latn
+  name: Asu
+  speakers: 500000
+  source: CLDR
+  todo_status: weak
+  note: Single source.
+ast:
+  orthographies:
+  - base: a b c d e f g h i l m n o p q r s t u v x y z á é í ñ ó ú ü ḥ ḷ
+    autonym: Asturianu
+    script: Latn
+  name: Asturian
+  speakers: 351791
+  source: Omniglot, Wikipedia, CLDR
+  todo_status: strong
+aud:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ñ ó ú ü
+    autonym: Anuta
+    script: Latn
+  name: Anuta
+  speakers: 270
+  source: Omniglot, CLDR
+  todo_status: strong
+aym:
+  name: Aymara
+  autonym: Aymar
+  includes: [ayr, ayc]
+  speakers: 1677100
+  source: Omniglot, Wikipedia
+  todo_status: strong
+ayr:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ï ñ ü ’
+    autonym: Aymar
+    script: Latn
+  name: Aymara, Central
+  preferred_name: Central Aymara
+  source: Omniglot, Wikipedia
+  todo_status: strong
+ayc:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ï ñ ü ’
+    autonym: Aymar
+    script: Latn
+  name: Aymara, Southern
+  preferred_name: Southern Aymara
+  source: Omniglot, Wikipedia
+  todo_status: strong
+bam:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p r s t u w y z ŋ ɔ ɛ ɲ
+    auxiliary: q v x
+    autonym: Bamanankan
+    script: Latn
+  name: Bamanankan
+  speakers: 4100000
+  source: Omniglot, Wikipedia, CLDR
+  todo_status: strong
+bas:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p r s t u v w y z à á â è é ê ì í î ò ó ô
+      ù ú û ā ē ě ī ń ŋ ō ū ǎ ǐ ǒ ǔ ǹ ɓ ɔ ɛ ̀ ́ ̂ ̄ ̌ ᷆ ᷇
+    auxiliary: q x
+    autonym: Basaa
+    script: Latn
+  name: Basaa
+  speakers: 300000
+  source: CLDR
+  todo_status: weak
+  note: Single source.
+bem:
+  orthographies:
+  - base: a b c d e f g i j k l m n o p s t u v w y
+    autonym: Chibemba
+    script: Latn
+  name: Bemba
+  speakers: 4100000
+  source: Omniglot, Wikipedia
+  todo_status: strong
+bez:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w y z
+    autonym: Ekibena
+    script: Latn
+  name: Bena
+  speakers: 670000
+  source: CLDR
+  todo_status: weak
+  note: Single source.
+bik:
+  orthographies:
+  - base: a b d g h i k l m n o p r s t u w y
+    auxiliary: c e f j q v x z
+    autonym: Bikol
+    script: Latn
+  name: Bikol
+  speakers: 78000
+  source: Omniglot, Wikipedia
+  todo_status: strong
+  note: The number of speakers is only for Pandan Bikol.
+bis:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    autonym: Bislama
+    script: Latn
+  name: Bislama
+  speakers: 10000
+  source: Omniglot, Wikipedia, Bislama dictionary
+  todo_status: strong
+bre:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p r s t u v w x y z ê ñ ù
+    autonym: Brezhoneg
+    script: Latn
+  name: Breton
+  speakers: 226000
+  source: Omniglot, Wikipedia, CLDR, Alvestrand
+  todo_status: strong
+cak:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ë ï ö ü
+    autonym: Kaqchikel Chʼabʼäl
+    script: Latn
+  name: Kaqchikel
+  speakers: 450000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+cat:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z à ç è é í ï ò ó ú ü
+      ŀ
+    autonym: Català
+    script: Latn
+  name: Catalan
+  speakers: 4100000
+  source: Omniglot, Wikipedia, Alvestrand
+  todo_status: strong
+cbk:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ñ
+    autonym: Chavacano
+    script: Latn
+  name: Chavacano
+  speakers: 689000
+  source: Omniglot, Wikipedia
+  todo_status: strong
+ceb:
+  orthographies:
+  - base: a b d e g h i k l m n o p r s t u w y
+    autonym: Binisaya
+    script: Latn
+  name: Cebuano
+  speakers: 16000000
+  source: Omniglot, Wikipedia, CLDR
+  todo_status: strong
+ces:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ó ú ý č ď ě ň
+      ř š ť ů ž
+    autonym: Čeština
+    script: Latn
+  name: Czech
+  speakers: 10700000
+  source: Omniglot, Native
+  todo_status: done
+cgg:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    autonym: Rukiga
+    script: Latn
+  name: Chiga (Tanzania)
+  speakers: 1600000
+  source: Omniglot, CLDR
+  todo_status: strong
+cha:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z å ñ
+    autonym: Chamorru
+    script: Latn
+  name: Chamorro
+  speakers: 58000
+  source: Omniglot, Wikipedia, Chamorro dictionary
+  todo_status: strong
+cic:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ó ú
+    autonym: Chikashshanompa’
+    script: Latn
+  - base: a b c f g h i k l m n o p s t w y a̠ i̠ o̠
+    autonym: Chikashshanompa’
+    script: Latn
+  name: Chickasaw
+  speakers: 75
+  source: Omniglot, Wikipedia
+  todo_status: strong
+cim:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä à è é ì ò ó ô ö ù
+      ü ć
+    autonym: Zimbar
+    script: Latn
+  name: Cimbrian
+  speakers: 400
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+con:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ñ û
+    autonym: A’ingae
+    script: Latn
+  name: Cofán
+  speakers: 2400
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+cor:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z â ê î ô à è ì ò
+    autonym: Kernewek
+    script: Latn
+  name: Cornish
+  speakers: 0
+  source: Omniglot, Wikipedia, CLDR
+  todo_status: strong
+cos:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z à â è ì ï ü ò ù
+    autonym: Corsu
+    script: Latn
+  name: Corsican
+  speakers: 125000
+  source: Omniglot, Wikipedia
+  todo_status: strong
+crs:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    autonym: Seselwa
+    script: Latn
+  name: Seychelles Creole French
+  speakers: 73000
+  source: Omniglot, Wikipedia
+  todo_status: strong
+csb:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ã é ë ò ó ô ù ą ę ł
+      ń ś ż
+    autonym: Kaszëbsczi
+    script: Latn
+  name: Kashubian
+  speakers: 108000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+cym:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ä è é ê ë ì í
+      î ï ò ó ô ö ù ú û ü ý ÿ ŵ ŷ ẁ ẃ ẅ ỳ
+    autonym: Cymraeg
+    script: Latn
+  name: Welsh
+  speakers: 700000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+dan:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z å æ ø
+    autonym: Dansk
+    script: Latn
+  name: Danish
+  speakers: 6000000
+  source: Omniglot, Wikipedia, CLDR
+  todo_status: strong
+dav:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p r s t u v w y z
+    auxiliary: q x
+    autonym: Kidawida
+    script: Latn
+  name: Taita
+  speakers: 370000
+  source: CLDR
+  todo_status: weak
+  note: Single source.
+del:
+  includes: [umu, unm]
+  name: Delaware
+  speakers: 2
+umu:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ó ú ă ŭ
+    autonym: Huluníixsuwaakan
+    script: Latn
+  name: Munsee
+  speakers: 2
+  source: Omniglot, Wikipedia
+  todo_status: weak
+unm:
+  name: Unami
+  speakers: 0
+  status: historical
+  todo_status: todo
+deu:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ß ä ö ü
+    auxiliary: à é
+    autonym: Deutsch
+    script: Latn
+  name: German
+  speakers: 90000000
+  source: Omniglot, Wikipedia
+  todo_status: strong
+dhv:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ë ö
+    autonym: Drehu
+    script: Latn
+  name: Drehu
+  speakers: 13000
+  source: Omniglot
+  todo_status: weak
+  note: Single source. 13000 includes L2 speakers.
+diq:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ç ê î û ü İ ı ş ǧ
+    autonym: Dimlî
+    script: Latn
+  name: Zazaki, Southern
+  preferred_name: Southern Zazaki
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+dje:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ŋ ɲ à á ã ǎ í õ ǒ ô
+      š ẽ ě ê ž
+    autonym: Zarmaciine
+    script: Latn
+  name: Zarma
+  speakers: 3600000
+  source: Omniglot, Wikipedia, CLDR
+  todo_status: strong
+dsb:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ó ć č ě ł ń ř ŕ ś š
+      ź ž
+    autonym: Dolnoserbšćina
+    script: Latn
+  name: Sorbian, Lower
+  preferred_name: Lower Sorbian
+  speakers: 6900
+  source: Omniglot, CLDR, Alvestrand
+  todo_status: strong
+dua:
+  orthographies:
+  - base: a b c d e f g i j k l m n o p r s t u w y á é í ó ú ŋ ū ɓ ɔ ɗ ɛ ́
+    auxiliary: h q v x z
+    autonym: Duálá
+    script: Latn
+  name: Duala
+  speakers: 87700
+  source: Omniglot, CLDR
+  todo_status: strong
+  note: The number of speakers is a conservative estimate.
+dyo:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y á é í ñ ó ú ŋ
+    auxiliary: z
+    autonym: Jóola-Fóoñi
+    script: Latn
+  name: Jola-Fonyi
+  speakers: 410000
+  source: Omniglot, CLDR
+  todo_status: strong
+ebu:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ĩ ũ
+    autonym: Kiembu
+    script: Latn
+  name: Embu
+  speakers: 320000
+  source: CLDR
+  todo_status: weak
+  note: Single source.
+eng:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z æ œ
+    auxiliary: á ç è é ê ë ï ñ ô ö
+    autonym: English
+    script: Latn
+  name: English
+  speakers: 400000000
+  source: Omniglot, Wikipedia, CLDR, Alvestrand
+  todo_status: done
+epo:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ĉ ĝ ĥ ĵ ŝ ŭ
+    autonym: Esperanto
+    script: Latn
+  name: Esperanto
+  speakers: 1000
+  source: Omniglot, Alvestrand
+  todo_status: strong
+  status: constructed
+est:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä õ ö ü š ž
+    autonym: Eesti
+    script: Latn
+  name: Estonian
+  speakers: 1100000
+  source: Omniglot, CLDR, Alvestrand
+  todo_status: done
+eus:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ñ ü
+    autonym: Euskara
+    script: Latn
+  name: Basque
+  speakers: 750000
+  source: Omniglot, Wikipedia
+  todo_status: strong
+ewe:
+  orthographies:
+  - base: a b d e f g h i k l m n o p r s t u v w x y z à á ã è é ì í ò ó õ ù ú ĩ
+      ŋ ũ ƒ ɔ ɖ ɛ ɣ ʋ ̀ ́ ̃ ẽ
+    auxiliary: c j q â ä å æ ç ê ë î ï ñ ô ö ø û ü ÿ ā ă ĕ ĭ ŏ œ ŭ
+    autonym: Èʋegbe
+    script: Latn
+  name: Ewe
+  speakers: 5000000
+  source: Omniglot, CLDR
+  todo_status: strong
+ewo:
+  orthographies:
+  - base: a b d e f g h i k l m n o p r s t u v w y z à á â è é ê ì í î ò ó ô ù ú
+      û ě ń ŋ ǎ ǐ ǒ ǔ ǹ ɔ ə ɛ ̀ ́ ̂ ̌
+    auxiliary: c j q x
+    autonym: Ewondo
+    script: Latn
+  name: Ewondo
+  speakers: 580000
+  source: Omniglot, Wikipedia, CLDR
+  todo_status: strong
+fao:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z á å æ í ð ó ö ú ý
+    alternative: a b c d e f g h i j k l m n o p q r s t u v w x y z á å æ í ð ó ø
+      ú ý
+    autonym: Føroyskt
+    script: Latn
+  name: Faroese
+  speakers: 72000
+  source: Omniglot, Wikipedia
+  todo_status: strong
+fij:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    autonym: Vakaviti
+    script: Latn
+  name: Fijian
+  speakers: 339210
+  source: Omniglot, Wikipedia
+  todo_status: strong
+fil:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ñ
+    autonym: Filipino
+    script: Latn
+  name: Filipino
+  speakers: 45000000
+  source: CLDR
+  todo_status: weak
+  note: Single source.
+fin:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ö
+    auxiliary: æ å õ ø ü š ž
+    autonym: Suomi
+    script: Latn
+  name: Finnish
+  speakers: 5400000
+  source: Omniglot, CLDR, Alvestrand, Native
+  todo_status: done
+fra:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z à â æ ç è é ê ë î ï
+      ô ù û ü ÿ œ
+    autonym: Français
+    script: Latn
+  name: French
+  speakers: 76800000
+  source: Omniglot, Wikipedia, CLDR, Alvestrand
+  todo_status: strong
+fry:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z â ä é ê ë ï ô ö ú û
+      ü
+    autonym: Frysk
+    script: Latn
+  name: Frisian
+  speakers: 470000
+  source: Omniglot, Wikipedia, Alvestrand
+  todo_status: strong
+ful:
+  name: Fulah
+  includes: [fuc, fuf, ffm, fue, fuh, fuq, fuv, fub, fui]
+fuc:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p r s t u w y x ñ ŋ ƴ ɓ ɗ 
+    autonym: Futa Tooro
+    script: Latn
+  name: Pulaar
+  speakers: 4450000
+  source: Omniglot, Wikipedia, CLDR
+  todo_status: strong
+  note: Senegal, Gambia, Mauritania
+fuf:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p r s t u w y ŋ ƴ ɓ ɗ ɠ ɲ
+    autonym: Fuuta Jalon
+    script: Latn
+  name: Pular
+  speakers: 3808200
+  source: Omniglot, Wikipedia, CLDR
+  todo_status: strong
+  note: Guinea, Sierra Leone
+ffm:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p r s t u w y x ŋ ƴ ɓ ɗ ɲ 
+    autonym: Maasinankoore
+    script: Latn
+  name: Maasina Fulfulde
+  speakers: 1000000
+  source: Omniglot, Wikipedia, CLDR
+  todo_status: strong
+  note: Mali, Ghana
+fue:
+  orthographies:
+  - inherit: ffm
+    script: Latn
+  name: Borgu Fulfulde (Benin, Togo)
+  source: Omniglot, Wikipedia, CLDR
+  todo_status: strong
+  note: Benin, Togo
+fuh:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p r s t u w y x ŋ ƴ ɓ ɗ ɲ 
+    script: Latn
+  name: Western Niger
+  source: Omniglot, Wikipedia, CLDR
+  todo_status: strong
+  note: Burkina, Niger
+fuq:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p r s t u w y x ŋ ƴ ɓ ɗ 
+    script: Latn
+  name: Central–Eastern Niger (Niger)
+  source: Omniglot, Wikipedia, CLDR
+  todo_status: strong
+  note: Niger
+fuv:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p r s t u w y x ɓ ɗ 
+    script: Latn
+  name: Nigerian Fulfulde
+  source: Omniglot, Wikipedia, CLDR
+  todo_status: strong
+  note: Nigeria
+fub:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p r s t u w y x ŋ ƴ ɓ ɗ
+    script: Latn
+  name: Adamawa Fulfulde
+  source: Omniglot, Wikipedia, CLDR
+  todo_status: strong
+  note: Cameroon, Chad, Sudan
+fui:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p r s t u w y x ŋ ƴ ɓ ɗ
+    script: Latn
+  name: Bagirmi Fulfulde
+  source: Omniglot, Wikipedia, CLDR
+  todo_status: strong
+  note: Central African Republic
+
+
+
+fur:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ç â ê î ô û à è ì ò ù
+    autonym: Furlan
+    script: Latn
+  name: Friulian
+  speakers: 600000
+  source: Omniglot, Wikipedia
+  todo_status: strong
+gcf:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z è é ò
+    autonym: Kreyol
+    script: Latn
+  name: Guadeloupean Creole French
+  speakers: 1200000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+gil:
+  orthographies:
+  - base: a b e i k m n g o r t u w
+    autonym: Kiribati
+    script: Latn
+  name: Gilbertese
+  speakers: 120000
+  source: Omniglot, Wikipedia
+  todo_status: strong
+gla:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z à è é ì ò ó ù
+    autonym: Gàidhlig
+    script: Latn
+  name: Scottish Gaelic
+  speakers: 57000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+gle:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ó ú
+    autonym: Gaeilge
+    script: Latn
+  name: Irish
+  speakers: 141000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+glg:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ñ ó ú ü
+    autonym: Galego
+    script: Latn
+  name: Galician
+  speakers: 1560000
+  source: Omniglot
+  todo_status: weak
+  note: Single source. 58% of the population of Galicia are L1 speakers.
+glv:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ç
+    autonym: Gaelg
+    script: Latn
+  name: Manx
+  speakers: 0
+  source: Omniglot, Wikipedia, CLDR
+  todo_status: strong
+gni:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ß à ä é ö ü
+    autonym: Gooniyandi
+    script: Latn
+  name: Gooniyandi
+  speakers: 134
+  source: CLDR
+  todo_status: weak
+  note: Single source.
+gqa:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ŋ
+    autonym: Kaandata
+    script: Latn
+  name: Ga’anda
+  speakers: 43000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+gsw:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ö ü
+    autonym: Schwyzerdütsch
+    script: Latn
+  name: German, Swiss
+  preferred_name: Swiss German
+  speakers: 4930000
+  source: Omniglot, CLDR
+  todo_status: strong
+guc:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ñ ü
+    autonym: Wayuunaiki
+    script: Latn
+  name: Wayuu
+  speakers: 320000
+  source: Omniglot, Wikipedia
+  todo_status: strong
+guz:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p r s t u v w y z
+    auxiliary: q x
+    autonym: Ekegusii
+    script: Latn
+  name: Ekegusii
+  speakers: 2200000
+  source: Omniglot, CLDR
+  todo_status: strong
+gwi:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z à ą è é ę ì í ò ó ǫ
+      ù ú ł
+    autonym: Dinju Zhuh K’yuu
+    script: Latn
+  name: Gwichʼin
+  speakers: 560
+  source: Omniglot, Wikipedia
+  todo_status: strong
+haa:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä à â ǎ ą ë
+    autonym: Häł gołan
+    script: Latn
+  name: Hän
+  speakers: 20
+  source: Omniglot, Wikipedia
+  todo_status: strong
+hat:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p r s t u v w y z è ò 
+    auxiliary: q x à á é ó
+    autonym: Kreyòl Ayisyen
+    script: Latn
+  name: Haitian Creole
+  speakers: 9600000
+  source: Omniglot, Wikipedia
+  todo_status: strong
+hau:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o r s t u w y z ƙ ƴ ɓ ɗ ʼ
+    auxiliary: p q v x y à á â è é ê ì í î ò ó ô ù ú û ʼ ̃
+    autonym: Hausa
+    script: Latn
+  name: Hausa
+  speakers: 40000000
+  source: Omniglot, Wikipedia, CLDR
+  todo_status: null
+haw:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ī ō ū
+    autonym: ’Olelo Hawai’i
+    script: Latn
+  name: Hawaiian
+  speakers: 24000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+hil:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    autonym: Ilonggo
+    script: Latn
+  name: Hiligaynon
+  speakers: 9300000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+hop:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ö
+    autonym: Hopilàvayi
+    script: Latn
+  name: Hopi
+  speakers: 6780
+  source: Omniglot, Wikipedia
+  todo_status: strong
+hrv:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ć č đ š ž
+    autonym: Hrvatski
+    script: Latn
+  name: Croatian
+  speakers: 5600000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+hsb:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ó ć č ě ł ń ř ś š ź
+      ž
+    autonym: Hornjoserbšćina
+    script: Latn
+  name: Upper Sorbian
+  speakers: 13000
+  source: Omniglot, CLDR, Alvestrand
+  todo_status: strong
+hun:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ó ö ú ü ő ű
+    autonym: Magyar
+    script: Latn
+  name: Hungarian
+  speakers: 13000000
+  source: Omniglot, Alvestrand, Native
+  todo_status: strong
+ibo:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á è é ì í ò ó ù ú
+      ā ē ī ń ō ū ị ọ ụ ṅ ẹ
+    autonym: Asụsụ Igbo
+    script: Latn
+  name: Igbo
+  speakers: 27000000
+  source: Omniglot, Wikipedia, CLDR
+  todo_status: strong
+  note: Shorter autonym?
+ido:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    autonym: Ido
+    script: Latn
+  name: Ido
+  speakers: 100–200
+  source: Omniglot, Wikipedia
+  todo_status: strong
+  note: Constructed language
+igs:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    autonym: Interglossa
+    script: Latn
+  name: Interglossa
+  speakers: 0
+  source: Omniglot
+  todo_status: strong
+  note: Single source.
+ile:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ó ú
+    autonym: Interlingue
+    script: Latn
+  name: Interlingue
+  speakers: 0
+  source: Omniglot
+  todo_status: strong
+  note: Constructed language, aka Occidental,not Interlingua.
+ilo:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ñ
+    autonym: Ilokano
+    script: Latn
+  name: Ilocano
+  speakers: 9100000
+  source: Omniglot, Wikipedia
+  todo_status: strong
+ina:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    autonym: Interlingua
+    script: Latn
+  name: Interlingua
+  speakers: 1500
+  source: Omniglot
+  todo_status: strong
+  note: Constructed language, not Interlingue.
+ind:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    autonym: Indonesia
+    script: Latn
+  name: Indonesian
+  speakers: 43000000
+  source: Omniglot, Wikipedia
+  todo_status: strong
+isl:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z á æ é í ð ó ö ú ý þ
+    auxiliary: ǽ ǫ œ
+    autonym: Íslenska
+    script: Latn
+  name: Icelandic
+  speakers: 314000
+  source: Omniglot, Wikipedia, Alvestrand
+  todo_status: strong
+ita:
+  orthographies:
+  - base: a b c d e f g h i l m n o p q r s t u v z à á è é ì í ò ó ù ú
+    auxiliary: j k w x y î ï
+    autonym: Italiano
+    script: Latn
+  name: Italian
+  speakers: 90000000
+  source: Omniglot, Wikipedia
+  todo_status: strong
+jam:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    autonym: Jamiekan
+    script: Latn
+  name: Jamaican Creole English
+  speakers: 3200000
+  source: Omniglot, Wikipedia
+  todo_status: strong
+jav:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z é è
+    autonym: Jawa
+    script: Latn
+  name: Javanese
+  speakers: 82000000
+  source: Omniglot, Wikipedia
+  todo_status: strong
+jbo:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    autonym: Lojban
+    script: Latn
+  name: Lojban
+  speakers: 0
+  source: Omniglot, Wikipedia
+  todo_status: strong
+  status: constructed
+jgo:
+  orthographies:
+  - base: a b c d f g h i j k l m n p s t u v w y z á â í î ú û ń ŋ ǎ ǐ ǔ ǹ ɔ ɛ ʉ
+      ̀ ́ ̂ ̄ ̈ ̌ ḿ ẅ ꞌ
+    auxiliary: e o q r x
+    autonym: Cú-Mbɔ́ndaa
+    script: Latn
+  name: Ngomba
+  speakers: 63000
+  source: CLDR
+  todo_status: weak
+  note: Single source.
+kab:
+  orthographies:
+  - base: a b c d e f g h i j k l m n p q r s t u w x y z č ǧ ɛ ɣ ḍ ḥ ṛ ṣ ṭ ẓ
+    auxiliary: o v
+    autonym: Taqbaylit
+    script: Latn
+  name: Kabyle
+  speakers: 5600000
+  source: Omniglot, Wikipedia, CLDR
+  todo_status: strong
+kal:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z á â ã å æ ê í î ĩ ô ø
+      ú û ĸ ũ
+    auxiliary: à ì ù
+    autonym: Kalaallisut
+    script: Latn
+    status: historical
+    note: Alphabet invented by Samuel Kleinschmidt. Used until 1973.
+  - base: a e f g i j k l m n o p q r s t u v
+    auxiliary: b c d h w x y z å æ ø
+    autonym: Kalaallisut
+    script: Latn
+  name: Kalaallisut
+  speakers: 57000
+  source: Omniglot, Wikipedia
+  todo_status: strong
+kam:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w y z ĩ ũ
+    autonym: Kĩĩkamba
+    script: Latn
+  name: Kamba
+  speakers: 3900000
+  source: CLDR
+  todo_status: weak
+  note: Single source.
+kde:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    autonym: Chimakonde
+    script: Latn
+  name: Makonde
+  speakers: 1400000
+  source: Omniglot, CLDR
+  todo_status: strong
+kea:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ã ç è é ê í ò
+      ó ô õ ú ü
+    autonym: Kabuverdianu
+    script: Latn
+  name: Kabuverdianu
+  speakers: 871000
+  source: Omniglot, Wikipedia
+  todo_status: strong
+kek:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    autonym: Q’eqchi’
+    script: Latn
+  name: Kekchí
+  speakers: 800000
+  source: Omniglot, Wikipedia
+  todo_status: strong
+kgp:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z á ã é ó ĩ ỹ
+    autonym: Kanhgág
+    script: Latn
+  name: Kaingang
+  speakers: 18000
+  source: Omniglot, Wikipedia
+  todo_status: strong
+khq:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u w x y z ã õ ŋ š ž ɲ ẽ
+    auxiliary: v
+    autonym: Koyra Chiini
+    script: Latn
+  name: Songhay, Koyra Chiini
+  preferred_name: Koyra Chiini
+  speakers: 200000
+  source: CLDR
+  todo_status: weak
+  note: Single source.
+kik:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ĩ ŋ ũ
+    autonym: Gĩgĩkũyũ
+    script: Latn
+  name: Kikuyu
+  speakers: 10000000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+kin:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    autonym: Kinyarwanda
+    script: Latn
+  name: Kinyarwanda
+  speakers: 9800000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+zza:
+  name: Zaza
+  includes: [kiu, diq]
+  speakers: 1600000
+  source: Wikipedia
+kiu:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ç ê ǧ î ş û
+    autonym: Shar Ma
+    script: Latn
+  name: Zazaki, Northern
+  preferred_name: Northern Zazaki
+  source: Omniglot, Wikipedia
+  todo_status: strong
+kkj:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p r s t u v w y à á â è é ê ì í î ò ó ô ù
+      ú û ŋ ǌ ɓ ɔ ɗ ɛ ̀ ́ ̂ ̧
+    auxiliary: q x z
+    autonym: Kakɔ
+    script: Latn
+  name: Kako
+  speakers: 120000
+  source: CLDR
+  todo_status: weak
+  note: Single source.
+kln:
+  orthographies:
+  - base: a b c d e g h i j k l m n o p r s t u w y
+    auxiliary: f q v x z
+    autonym: Kalenjin
+    script: Latn
+  name: Kalenjin
+  speakers: 8561574
+  source: Wikipedia, CLDR
+  todo_status: weak
+  note: A cluster of Nandi–Markweta dialects/languages. 18% of the population of Kenya.
+kon:
+  name: Kongo
+  autonym: Kikongo
+  includes: [kng, ldi, kwy, yom]
+  speakers: 6500000
+  source: Wikipedia
+kng:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    autonym: Kikongo
+    script: Latn
+  name: Koongo
+  speakers: 6500000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+ldi:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    autonym:
+    script: Latn
+  name: Laari
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+kwy:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    script: Latn
+  name: San Salvador Kongo
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+yom:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    autonym: Kiyoombi
+    script: Latn
+  name: Yombe
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+krl:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ö č š ž
+    autonym: Karjala
+    script: Latn
+  name: Karelian
+  speakers: 36000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+ksb:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p s t u v w y z
+    auxiliary: q r x
+    autonym: Kishambaa
+    script: Latn
+  name: Shambala
+  speakers: 660000
+  source: CLDR
+  todo_status: weak
+  note: Single source.
+ksf:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p r s t u v w y z á é í ó ú ŋ ǝ ɔ ɛ ́
+    auxiliary: q x
+    autonym: Rikpa
+    script: Latn
+  name: Bafia
+  speakers: 60000
+  source: CLDR
+  todo_status: weak
+  note: Single source.
+ksh:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ß ä å æ ë ö ü ė œ ů
+    auxiliary: à á â ã ç è é ê ì í î ï ñ ò ó ô ø ù ú û ÿ ā ă ē ĕ ğ ī ĭ ı ĳ ł ō ŏ ū ŭ
+    autonym: Kölsch
+    script: Latn
+  name: Ripuarian
+  speakers: 250000
+  source: Wikipedia, CLDR
+  todo_status: weak
+  note: 25% of the population of Cologne
+kua:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    autonym: Oshikwanyama
+    script: Latn
+  name: Oshiwambo
+  speakers: 670000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+lag:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ó ú ɨ ʉ
+    autonym: Kɨlaangi
+    script: Latn
+  name: Langi
+  speakers: 410000
+  source: CLDR
+  todo_status: weak
+  note: Single source.
+lat:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    autonym: Latin
+    script: Latn
+  name: Latin
+  speakers: 0
+  source: Omniglot, Wikipedia, CLDR, Alvestrand
+  todo_status: done
+lav:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā č ē ģ ī ķ ļ ņ ō ŗ
+      š ū ž
+    autonym: Latviešu
+    script: Latn
+  name: Latvian
+  speakers: 1750000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+lij:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ä æ è é ê ë ì
+      í î ï ò ó ô ö ù ú
+    autonym: Ligure
+    script: Latn
+  name: Ligurian
+  speakers: 500000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+lin:
+  orthographies:
+  - base: a b c d e f g h i k l m n o p r s t u v w y z á â é ê í î ó ô ú ě ǎ ǐ ǒ
+      ɔ ɛ ́ ̂ ̌
+    auxiliary: j q x
+    autonym: Lingala
+    script: Latn
+  name: Lingala
+  speakers: 15000000
+  source: Omniglot, Wikipedia, CLDR
+  todo_status: strong
+lit:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ą č ė ę į š ū ų ž
+    autonym: Lietuviškai
+    script: Latn
+  name: Lithuanian
+  speakers: 3000000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+lkt:
+  orthographies:
+  - base: a b e g h i k l m n o p s t u w y z á é í ó ú č ŋ š ž ǧ ȟ ʼ
+    auxiliary: c d f j q r s v x
+    autonym: Lakȟótiyapi
+    script: Latn
+  name: Lakota
+  speakers: 2100
+  source: Omniglot, Wikipedia, CLDR
+  todo_status: strong
+lld:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â è é ê ë ì î ò
+      ó ô ö ù û ü ć ś
+    autonym: Ladin
+    script: Latn
+  name: Ladin
+  speakers: 41129
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+lmo:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á è é ì í ò ó ô ø
+      ù ü
+    autonym: Lombard
+    script: Latn
+  name: Lombard
+  speakers: 3900000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+ltz:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ß â ä è é ê ë î ô ö
+      û ü
+    autonym: Lëtzebuergesch
+    script: Latn
+  name: Luxembourgish
+  speakers: 390000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+lua:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p s t u v w y z
+    autonym: Tshiluba
+    script: Latn
+  name: Luba-Lulua
+  speakers: 6300000
+  source: Omniglot, Wikipedia
+  todo_status: weak
+lub:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q s t u v w y z à á è é ì í ò ó ù ú ɔ ɛ
+      ̀ ́
+    auxiliary: g r x
+    autonym: Kiluba
+    script: Latn
+  name: Luba-Katanga
+  speakers: 1505000
+  source: CLDR
+  todo_status: weak
+  note: Single source.
+lug:
+  orthographies:
+  - base: a b c d e f g i j k l m n o p r s t u v w y z ŋ
+    auxiliary: h q x
+    autonym: Luganda
+    script: Latn
+  name: Ganda
+  speakers: 8200000
+  source: Omniglot, Wikipedia, CLDR
+  todo_status: strong
+luo:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    autonym: Dholuo
+    script: Latn
+  name: Dholuo
+  speakers: 8000000
+  source: Omniglot, Wikipedia, CLDR
+  todo_status: strong
+luy:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    autonym: Oluluyia
+    script: Latn
+  name: Oluluyia
+  speakers: 1200000
+  source: CLDR
+  todo_status: weak
+  note: Single source.
+mas:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â è é ê ì í î ɔ
+      ɛ ɨ ʉ ò ó ô ù ú û ŋ
+    autonym: Maa
+    script: Latn
+  name: Maasai
+  speakers: 1500000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+mer:
+  orthographies:
+  - base: a b c d e g h i j k l m n o r t u w y ĩ ũ
+    auxiliary: f p q s v x z
+    autonym: Kimĩĩru
+    script: Latn
+  - base: a b c d e g h i j k l m n o r t u w y î û
+    auxiliary: f p q s v x z
+    autonym: Kimîîru
+  name: Kimîîru
+  speakers: 2700000
+  source: CLDR
+  todo_status: weak
+  note: Single source.
+mfe:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p r s t u v w x y z
+    autonym: Kreol Morisien
+    script: Latn
+  name: Morisyen
+  preferred_name: Mauritian Creole
+  speakers: 1090000
+  source: Omniglot, CLDR
+  todo_status: strong
+mgh:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    autonym: Imeetto
+    script: Latn
+  name: Makhuwa-Meetto
+  speakers: 6600000
+  source: CLDR
+  todo_status: weak
+  note: Single source.
+mgo:
+  orthographies:
+  - base: a b c d e f g h i j k m n o p r s t u w y z à è ì ò ù ŋ ɔ ə ʼ ̀
+    auxiliary: q x
+    autonym: Mɨta’
+    script: Latn
+  name: Meta'
+  speakers: 190000
+  source: CLDR
+  todo_status: weak
+  note: Single source.
+mlg:
+  includes: [xmv, bhr, buc, msh, bmm, plt, skg, bzc, tdx, txy, tkg, xmw]
+  orthographies:
+  - base: a b d e f g h i j k l m n o p r s t v y z à â è é ê ë ì î ï n̈ ô
+    autonym: Malagasy
+    script: Latn
+  - base: a b d e f g h i j k l m n o p r s t v y z à â è é ê ë ì î ï ñ ô
+    autonym: Malagasy
+    script: Latn
+  name: Malagasy
+  speakers: 25000000
+  source: Omniglot, Wikipedia, CLDR
+  todo_status: strong
+xmv:
+  orthographies:
+  - inherit: mlg
+  name: Malagasy, Antankarana
+  preferred_name: Antankarana Malagasy
+bhr:
+  orthographies:
+  - inherit: mlg
+    autonym: Bara Malagasy
+  name: Malagasy, Bara
+  preferred_name: Bara Malagasy
+buc:
+  orthographies:
+  - inherit: mlg
+    autonym: Kibushi
+  name: Bushi
+msh:
+  orthographies:
+  - inherit: mlg
+  name: Malagasy, Masikoro
+  preferred_name: Masikoro Malagasy
+bmm:
+  orthographies:
+  - inherit: mlg
+    autonym: Betsimisaraka
+  name: Malagasy, Northern Betsimisaraka
+  preferred_name: Northern Betsimisaraka Malagasy
+plt:
+  orthographies:
+  - inherit: mlg
+  name: Malagasy, Plateau
+  preferred_name: Plateau Malagasy
+skg:
+  orthographies:
+  - inherit: mlg
+  name: Malagasy, Sakalava
+  preferred_name: Sakalava Malagasy
+bzc:
+  orthographies:
+  - inherit: mlg
+  name: Malagasy, Southern Betsimisaraka
+  preferred_name: Southern Betsimisaraka Malagasy
+tdx:
+  orthographies:
+  - inherit: mlg
+    autonym: Antandroy
+  name: Malagasy, Tandroy-Mahafaly
+  name: Tandroy-Mafahaly Malagasy
+txy:
+  orthographies:
+  - inherit: mlg
+  name: Malagasy, Tanosy
+  preferred_name: Tanosy Malagasy
+tkg:
+  orthographies:
+  - inherit: mlg
+  name: Malagasy, Tesaka
+  preferred_name: Tesaka Malagasy
+xmw:
+  orthographies:
+  - inherit: mlg
+  name: Malagasy, Tsimihety
+  preferred_name: Tsimihety Malagasy
+mlt:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z à è ì î ò ù ċ ġ ħ ż
+    autonym: Malti
+    script: Latn
+  name: Maltese
+  speakers: 520000
+  source: Omniglot, Wikipedia, Alvestrand
+  todo_status: strong
+moe:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z â î û
+    autonym: Innu Aimun
+    script: Latn
+  name: Montagnais
+  speakers: 10075
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+moh:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z á à é è í ì ó ò ú ù
+    autonym: Kanien’kéha
+    script: Latn
+  name: Mohawk
+  speakers: 3875
+  source: Omniglot, Wikipedia
+  todo_status: strong
+mri:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ī ō ū
+    autonym: Māori
+    script: Latn
+  name: Maori
+  speakers: unknown
+  source: Omniglot, Wikipedia, CLDR
+  todo_status: strong
+mrq:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ó ú
+    autonym: ’Eo ’Enana
+    script: Latn
+  name: Marquesan, North
+  preferred_name: Northern Marquesan
+  speakers: 4350
+  source: CLDR
+  todo_status: weak
+  note: Single source. The number of speakers is estimate, a half of total Marquesan language speakers (8700).
+mqm:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ó ú
+    autonym: ʻEo ʻEnata
+    script: Latn
+  name: Marquesan, South
+  preferred_name: Southern Marquesan
+  speakers: 4350
+  source: CLDR
+  todo_status: weak
+  note: Single source. The number of speakers is estimate, a half of total Marquesan language speakers (8700).
+msa:
+  name: Malay
+  includes: [kxd, ind, zsm, jax, meo, kvr, xmm, min, mui, zmi, max, mfa]
+mua:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p r s t u v w y z ã ẽ õ ĩ ŋ ǝ ə̃ ɓ ɗ ṽ
+    autonym: Mundaŋ
+    script: Latn
+  name: Mundang
+  speakers: 240000
+  source: Omniglot, Wikipedia
+  todo_status: strong
+mus:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ē
+    autonym: Mvskoke
+    script: Latn
+  name: Muskogee
+  speakers: 4500
+  source: Omniglot, Wikipedia
+  todo_status: strong
+mwf:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    autonym: Murrinh-Patha
+    script: Latn
+  name: Murrinh-Patha
+  speakers: 1973
+  source: Omniglot, Wikipedia
+  todo_status: strong
+mwl:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z á ç é ê í ó ô ú ũ
+    autonym: Mirandés
+    script: Latn
+  name: Mirandese
+  speakers: 15000
+  source: Omniglot, Native
+  todo_status: done
+mwp:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á ă ā è é ë ĕ ē ì
+      í ĭ ī ò ó ŏ ō œ ù ú ŭ ū
+    autonym: Kala Lagaw Ya
+    script: Latn
+  - base: a ă ­ā b d e ĕ ē g i ĭ ī k l m n n o ŏ ō ò ö ë œ p f r s t u ŭ ū
+      w y z j
+    autonym: Kala Lagaw Ya
+    script: Latn
+  - base: a b d e g i k l m n o p r s t u w y z
+    autonym: Kala Lagaw Ya
+    script: Latn
+  - base: a b d e g k l m n o œ p r s t u w y z ò ö
+    autonym: Kala Lagaw Ya
+    script: Latn
+  - base: a á b d e é g i í k l m n o ó ò œ p r s t u ù ú w y z
+    autonym: Kala Lagaw Ya
+    script: Latn
+  name: Kala Lagaw Ya
+  speakers: 957
+  source: Omniglot, Wikipedia
+  todo_status: strong
+nag:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    autonym: Nagamiz
+    script: Latn
+  name: Naga Pidgin
+  speakers: 30000
+  source: Omniglot, Wikipedia
+  todo_status: strong
+nap:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â è é ê ì í î ò
+      ó ô ù ú û
+    autonym: Napulitano
+    script: Latn
+  name: Neapolitan
+  speakers: 5700000
+  source: Omniglot, Wikipedia
+  todo_status: strong
+naq:
+  orthographies:
+  - base: a b c d e f g h i k m n o p q r s t u w x y z à á ā ä â ã é è ê ë ẽ ē ì
+      í ī ï ĩ ò ó õ ö ô ō ù ú ũ ü û ū ǀ ǁ ǂ ǃ
+    auxiliary: j l v
+    autonym: Khoekhoe
+    script: Latn
+  name: Khoekhoe
+  speakers: 200000
+  source: Omniglot, Wikipedia, CLDR
+  todo_status: strong
+nbl:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    autonym: IsiNdebele
+    script: Latn
+  name: Ndebele (South Africa)
+  preferred_name: Southern Ndebele
+  speakers: 1100000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+nde:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    autonym: IsiNdebele
+    script: Latn
+  name: Ndebele (Zimbabwe)
+  preferred_name: Northern Ndebele
+  speakers: 1600000
+  source: Omniglot, Wikipedia, CLDR
+  todo_status: strong
+nds:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ß ä ë ï ö ü
+    autonym: Niedersächsisch
+    script: Latn
+  name: Saxon, Low
+  preferred_name: Low Saxon
+  speakers: 6700000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+nhn:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ü ā ē ī ō ū ȳ
+    script: Latn
+  name: Nahuatl, Central
+  preferred_name: Central Nahuatl
+  speakers: 40000
+  source: Omniglot, Wikipedia
+  todo_status: strong
+niu:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ī ō ū
+    autonym: Niuē
+    script: Latn
+  name: Niue
+  speakers: 7700
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+nld:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z á â ä è é ê ë í ï ó
+      ô ö ú û ü ĳ
+    combinations: '{ȷ́}'
+    autonym: Nederlands
+    script: Latn
+  name: Dutch
+  speakers: 24000000
+  source: Omniglot, Native
+  todo_status: done
+nmg:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p r s t u v w y á â ä é ê í î ï ó ô ö ú û
+      ā ē ě ī ń ŋ ō ŕ ū ǎ ǐ ǒ ǔ ǝ ɓ ɔ ɛ ́ ̂ ̄ ̌
+    auxiliary: q x z
+    autonym: Kwasio
+    script: Latn
+  name: Kwasio
+  speakers: 26000
+  source: CLDR
+  todo_status: weak
+  note: Single source.
+nnh:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p s t u v w y z à á â è é ê ì í ò ó ô ù ú
+      û ÿ ě ń ŋ ǎ ǒ ǔ ɔ ɛ ʉ ʼ ̀ ́ ̂ ̌ ḿ ẅ
+    auxiliary: q r x
+    autonym: Ngyɛmbɔɔŋ
+    script: Latn
+  name: Ngiemboon
+  speakers: 250000
+  source: CLDR
+  todo_status: weak
+  note: Single source.
+nor:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z á à ä å æ é è ê ò ó
+      ô ö ø ü
+    autonym: Nynorsk
+    autonym: Norwegian Nynorsk
+    script: Latn
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z á à ä å æ é è ê ò ó
+      ô ö ø ü
+    autonym: Bokmål
+    autonym: Norwegian Bokmål
+    script: Latn
+  autonym: Norsk
+  name: Norwegian
+  includes: [nno, nob]
+  speakers: 5000000
+  source: Omniglot, Wikipedia, CLDR
+  todo_status: strong
+non:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z á æ é í ð ó ø ú ý œ
+      ǫ ǽ
+    autonym: Dǫnsk tunga
+    script: Latn
+  name: Old Norse
+  speakers: 0
+  source: Omniglot
+  todo_status: weak
+  status: historical
+  note: Single source.
+nov:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    autonym: Novial
+    script: Latn
+  name: Novial
+  speakers: 0
+  source: Omniglot
+  todo_status: weak
+  status: constructed
+  note: Single source.
+nso:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ê ô š
+    autonym: Sepedi
+    script: Latn
+  name: Sotho, Northern
+  preferred_name: Northern Sotho
+  speakers: 4700000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+nus:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä a̱ ë e̱ ï i̱ ö o̱
+      ŋ ɔ ɔ̱ ɛ ɛ̱ ɛ̈ ɣ ̈ ̱
+    autonym: Naath
+    script: Latn
+  name: Nuer
+  speakers: 890000
+  source: Omniglot, Wikipedia
+  todo_status: strong
+nya:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ŋ ŵ
+    autonym: Chicheŵa
+    script: Latn
+  name: Chichewa
+  speakers: 12000000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+nyn:
+  orthographies:
+  - base: a b c d e f g h i j k m n o p r s t u v w y z
+    autonym: Runyankore
+    script: Latn
+  name: Nyankore
+  speakers: 3400000
+  source: Omniglot, Wikipedia
+  todo_status: strong
+oci:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á ç è é ë í ï ò ó
+      ú ü
+    autonym: Occitan
+    script: Latn
+  name: Occitan
+  speakers: 100000–800000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+orm:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    autonym: Oromo
+    script: Latn
+  name: Oromo
+  speakers: 34500000
+  source: Omniglot, Wikipedia, CLDR, Alvestrand
+  todo_status: done
+pam:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    autonym: Kapampangan
+    script: Latn
+    note: According to Omniglot
+  - base: a b k d e g h i l m n o p r s t u w y
+    autonym: Kapampangan
+    script: Latn
+    note: According to Wikipedia
+  name: Pampangan
+  speakers: 1900000
+  source: Omniglot, Wikipedia
+  todo_status: strong
+pap:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z è ò ù ü ñ
+    autonym: Papiamentu
+    script: Latn
+  name: Papiamentu
+  speakers: 341300
+  source: Omniglot, Wikipedia
+  todo_status: strong
+plz:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    autonym: Paluan
+    script: Latn
+  name: Paluan
+  speakers: 5500
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+pms:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z à ä è ë ì ï ò ö ù ü
+    autonym: Piemontèis
+    script: Latn
+  name: Piemontese
+  speakers: 700000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+pol:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ó ą ć ę ł ń ś ź ż
+    autonym: Polski
+    script: Latn
+  name: Polish
+  speakers: 45000000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+por:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ã ç è é ê í ò
+      ó ô õ ú ü
+    autonym: Português
+    script: Latn
+  name: Portuguese
+  speakers: 223000000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+pot:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z è é ê ë
+    autonym: Bodéwadmimwen
+    script: Latn
+  name: Potawatomi
+  speakers: 0
+  source: Omniglot, Wikipedia
+  todo_status: strong
+  note: The language is being revived.
+prg:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ģ ī ķ ņ ō ŗ š ū
+      ž ț ḑ
+    autonym: Prūsiskan
+    script: Latn
+  name: Old Prussian
+  speakers: 0
+  source: Omniglot, Wikipedia
+  todo_status: strong
+que:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ñ
+    auxiliary: č ĉ š ž
+    autonym: Runa simi
+    script: Latn
+  name: Quechua
+  speakers: 10000000
+  source: Omniglot, Wikipedia
+  todo_status: strong
+rar:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ī ō ū
+    auxiliary: á é í ó ú
+    autonym: Māori,
+    script: Latn
+  name: Cook Islands Maori
+  speakers: 21345
+  source: Omniglot, Wikipedia
+  todo_status: strong
+rof:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p r s t u v w y z
+    auxiliary: q x
+    autonym: Kirombo
+    script: Latn
+  name: Rombo
+  source: CLDR
+  todo_status: weak
+  note: Single source.
+roh:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z à â è é ê î ò ô ö ü
+    autonym: Rumantsch
+    script: Latn
+  name: Romansh
+  speakers: 44354
+  source: Omniglot, Wikipedia, Alvestrand
+  todo_status: strong
+roo:
+  orthographies:
+  - base: a e g i k o p r s t u v
+    autonym: Rotokas
+    script: Latn
+  name: Rotokas
+  speakers: 4300
+  source: Omniglot, Wikipedia
+  todo_status: strong
+run:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    autonym: Ikirundi
+    script: Latn
+  name: Rundi
+  speakers: 8800000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+ruo:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z å ă ľ ń ș ț
+    autonym: Rumârește
+    script: Latn
+  name: Romanian, Istro
+  preferred_name: Istro Romanian
+  speakers: 300
+  source: CLDR
+  todo_status: weak
+  note: Single source.
+rup:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z â ã ă ș ț
+    autonym: Armani
+    script: Latn
+  name: Aromanian
+  speakers: 250000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+ruq:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā â ă ạ ē ë ę ž ł š
+      i̯ ī ō ǫ ū ľ ń ș ț
+    autonym: Vlăheshte
+    script: Latn
+  name: Romanian, Megleno
+  preferred_name: Megleno Romanian
+  speakers: 5000
+  source: Omniglot, Wikipedia
+  todo_status: weak
+rwk:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p r s t u v w y z
+    auxiliary: q x
+    autonym: Rwa
+    script: Latn
+  name: Rwa
+  source: CLDR
+  todo_status: weak
+  note: Single source.
+sag:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z â ä ê ë î ï ô ö û ü
+    autonym: Sängö
+    script: Latn
+  name: Sango
+  speakers: 450000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+saq:
+  orthographies:
+  - base: a b c d e g h i j k l m n o p r s t u v w y
+    auxiliary: f q x z
+    autonym: Sampur
+    script: Latn
+  name: Samburu
+  speakers: 240000
+  source: CLDR
+  todo_status: weak
+  note: Single source.
+sbp:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q s t u v w x y z à á ä â è é ë ê ì í ï
+      î ò ó ö ô ù ú ü û
+    autonym: Shisango
+    script: Latn
+  name: Sangu
+  speakers: 75000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+scn:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z à â è ì ò ù
+    autonym: Sicilianu
+    script: Latn
+  name: Sicilian
+  speakers: 4700000
+  source: Omniglot, Wikipedia
+  todo_status: strong
+seh:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    autonym: Cisena
+    script: Latn
+  name: Sena
+  speakers: 1600000
+  source: Omniglot, Wikipedia
+  todo_status: strong
+sei:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ö
+    autonym: Cmiique Iitom
+    script: Latn
+  name: Seri
+  speakers: 764
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+ses:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ã õ ŋ š ž ɲ ẽ
+    autonym: Koyraboro Senni
+    script: Latn
+  name: Songhay, Koyraboro Senni
+  preferred_name: Koyraboro Senni Songhai
+  speakers: 430000
+  source: CLDR
+  todo_status: weak
+  note: Single source.
+shi:
+  orthographies:
+  - base: a b c d e f g h i j k l m n q r s t u w x y z ɛ ɣ ʷ ḍ ḥ ṛ ṣ ṭ ž
+    autonym: Tachelhit
+    script: Latn
+  name: Tachelhit
+  speakers: 4739021
+  source: Omniglot, Wikipedia, CLDR
+  todo_status: strong
+sjw:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    autonym: Sawanwa
+    script: Latn
+  name: Shawnee
+  speakers: 200
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+slk:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z á ä é í ó ô ú ý č ď
+      ĺ ľ ň ŕ š ť ž
+    autonym: Slovenčina
+    script: Latn
+  name: Slovak
+  speakers: 5200000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+slv:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ö ü ć č đ š ž
+    autonym: Slovenščina
+    script: Latn
+  name: Slovenian
+  speakers: 2500000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+sma:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä å æ ï ö ø
+    autonym: Åarjelsaemiengïele
+    script: Latn
+  name: Saami, South
+  preferred_name: Southern Sami
+  speakers: 600
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+sme:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z á ä å æ ö ø č đ ŋ š
+      ŧ ž
+    autonym: Sámegiella
+    script: Latn
+  name: Saami, North
+  preferred_name: Northern Sami
+  speakers: 25000
+  source: Omniglot, Alvestrand
+  todo_status: strong
+smj:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z á ä å ñ ö ń
+    autonym: Julevusámegiella
+    script: Latn
+    status: historical
+  - base: a b d e f g h i j k l m n o p r s t u v á ä å ŋ 
+    autonym: Julevusámegiella
+    script: Latn
+  name: Saami, Lule
+  preferred_name: Lule Sami
+  speakers: 650
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+smn:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z á â ä å ö č đ ŋ š ž
+    autonym: Anarâškielâ
+    script: Latn
+  name: Saami, Inari
+  preferred_name: Inari Sami
+  speakers: 400
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+sju:
+  orthographies:
+  - base: a b d e f g h i j k l m n o p r s t u v y á ä å ï ö ü đ ŋ ŧ
+    auxiliary: ū ǖ
+    combinations: {å̄ }
+    autonym: Ubmejesámiengiälla
+    script: Latn
+  name: Saami, Ume
+  preferred_name: Ume Sami
+  speakers: 10
+  source: Wikipedia
+  todo_status: weak
+  note: Single source.
+sju:
+  orthographies:
+  - base: a b d e f g h i j k l m n o p r s t u v á ä å đ ŋ ŧ ’ \'
+    autonym: Bidumsámegiella
+    script: Latn
+  name: Saami, Pite
+  preferred_name: Pite Sami
+  speakers: 10–50
+  source: Wikipedia
+  todo_status: weak
+  note: Single source.
+sjk:
+  orthographies:
+  - autonym: Samääškiela
+    script: Latn
+  name: Saami, Kemi
+  preferred_name: Kemi Sami
+  speakers: 0
+  status: historical
+  todo_status: todo
+sms:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v x y z â ä å ö õ č đ ŋ š ž ǥ ǧ ǩ ǯ ʒ ’ ʹ ˈ
+    autonym: Nuõrttsääʹmǩiõll
+    script: Latn
+  name: Saami, Skolt
+  preferred_name: Skolt Sami
+  speakers: 320
+  source: Wikipedia
+  todo_status: weak
+  note: Single source.
+sia:
+  orthographies:
+  - autonym: Bidumsámegiella
+    script: Latn
+  name: Saami, Akkala
+  preferred_name: Akkala Sami
+  status: historical
+  todo_status: todo
+sjt:
+  orthographies:
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ј ҋ ҍ
+      ҏ һ ӆ ӈ ӊ ӎ ӓ ӭ ’
+    autonym: Са̄мькӣлл
+    script: Cyrl
+  name: Saami, Ter
+  preferred_name: Ter Sami
+  speakers: 2
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+smo:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ī ō ū
+    autonym: Sāmoa
+    script: Latn
+  name: Samoan
+  speakers: 510000
+  source: Omniglot, Wikipedia
+  todo_status: strong
+sna:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    autonym: Chishona
+    script: Latn
+  name: Shona
+  speakers: 10800000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+som:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    autonym: Soomaali
+    script: Latn
+  name: Somali
+  speakers: 16000000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+sot:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á é è ē ō ò š
+    autonym: Sesotho
+    script: Latn
+  name: Sotho, Southern
+  preferred_name: Southern Sotho
+  speakers: 5600000
+  source: Omniglot, Wikipedia
+  todo_status: strong
+spa:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ñ ó ú ü ¡ ¿
+    autonym: Español
+    script: Latn
+  name: Spanish
+  speakers: 483000000
+  source: Omniglot, CLDR
+  todo_status: strong
+sqi:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ç ë
+    autonym: Shqip
+    script: Latn
+  name: Albanian
+  speakers: 5400000
+  source: Omniglot, Wikipedia, CLDR
+  todo_status: strong
+srd:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z à ç è ì ò ù
+    autonym: Sardu
+    script: Latn
+  name: Sardinian
+  speakers: 1350000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+srm:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ë ö
+    autonym: Saamáka
+    script: Latn
+  name: Saramaccan
+  speakers: 90000
+  source: Omniglot, Wikipedia
+  todo_status: strong
+srn:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z è ò
+    autonym: Sranan Tongo
+    script: Latn
+  name: Sranan Tongo
+  speakers: 130000
+  source: Omniglot, Wikipedia
+  todo_status: strong
+ssw:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    autonym: Siswati
+    script: Latn
+  name: Swati
+  speakers: 2300000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+sun:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z é
+    autonym: Basa Sunda
+    script: Latn
+  name: Sunda
+  speakers: 40000000
+  source: Omniglot, Wikipedia
+  todo_status: strong
+swa:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p r s t u v w y z
+    autonym: Kiswahili
+    script: Latn
+  name: Swahili
+  speakers: 150000000
+  includes: [swc, swh, ymk, wmw]
+  source: Omniglot, Wikipedia, CLDR
+  todo_status: strong
+swc:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p r s t u v w y z
+    autonym: Kiswahili
+    script: Latn
+  name: Swahili, Congo
+  preferred_name: Congo Swahili
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+swh:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p r s t u v w y z
+    autonym: Kiswahili
+    script: Latn
+  name: Swahili
+  speakers: 150000000
+  source: Omniglot, Wikipedia
+  todo_status: weak
+ymk:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    autonym: Macue
+    script: Latn
+  name: Makwe
+  speakers: 119700
+  source: CLDR
+  todo_status: weak
+  note: Single source.
+swe:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á ä å é ë ö ü
+    autonym: Svenska
+    script: Latn
+  name: Swedish
+  speakers: 10000000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+szl:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ć č ń ř ś š ů ź ż ž
+    autonym: Ślůnsko godka
+    script: Latn
+  name: Silesian
+  speakers: 510000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+tah:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ī ō ū
+    autonym: Reo Tahiti
+    script: Latn
+  name: Tahitian
+  speakers: 68260
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+tay:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ŋ ə ’
+    auxiliary: č š ž ḳ
+    autonym: Tayal
+    script: Latn
+  name: Atayal
+  speakers: 84000
+  source: Omniglot, Wikipedia
+  todo_status: strong
+  note: Single source.
+tdt:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ñ á ó é í
+    autonym: Tetun Dili
+    script: Latn
+  name: Tetun Dili
+  speakers: 390000
+  source: Omniglot, Wikipedia
+  todo_status: strong
+teo:
+  orthographies:
+  - base: a b c d e g h i j k l m n o p r s t u v w x y ŋ
+    auxiliary: f q z
+    autonym: Ateso
+    script: Latn
+  name: Teso
+  speakers: 1900000
+  source: Omniglot, Wikipedia
+  todo_status: strong
+tgl:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z á à é í ì ó ú
+    autonym: Tagalog
+    script: Latn
+  name: Tagalog
+  speakers: 23800000
+  source: Omniglot, Wikipedia
+  todo_status: strong
+tkl:
+  orthographies:
+  - base: a e i o u f g k l m n p h t v ā ē ī ō ū
+    autonym: Tokelau
+    script: Latn
+  name: Tokelauan
+  speakers: 3517
+  source: Omniglot, Wikipedia
+  todo_status: strong
+tlh:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    autonym: tlhIngan Hol
+    script: Latn
+  name: Klingon
+  speakers: 0
+  source: Omniglot
+  status: constructed
+  todo_status: weak
+  note: Single source.
+ton:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā á ē é ī í ō ó ū ú
+    autonym: Faka Tonga
+    script: Latn
+  name: Tongan
+  speakers: 187000
+  source: Omniglot, Wikipedia, CLDR
+  todo_status: strong
+tpi:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    autonym: Tok Pisin
+    script: Latn
+  name: Tok Pisin
+  speakers: 120000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+tsn:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ê ô š
+    autonym: Setswana
+    script: Latn
+  name: Setswana
+  speakers: 5200000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+tso:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    autonym: Xitsonga
+    script: Latn
+  name: Tsonga
+  speakers: 12000000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+tum:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    autonym: Chitumbuka
+    script: Latn
+  name: Tumbuka
+  speakers: 1546000
+  source: Omniglot, Wikipedia
+  todo_status: weak
+tur:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z â ç î ö û ü ğ İ ı ș
+    autonym: Türkçe
+    script: Latn
+  name: Turkish
+  speakers: 75700000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+tvl:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā á à ǎ ē é è ě ī í
+      ì ǐ ō ó ò ǒ ū ú ù ǔ
+    autonym: Te ’gana Tūvalu
+    script: Latn
+  name: Tuvalu
+  speakers: 12000
+  source: Omniglot, Wikipedia
+  todo_status: strong
+twq:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u w x y z ã õ ŋ š ž ɲ ẽ
+    auxiliary: v
+    autonym: Ingalkoyyu’
+    script: Latn
+  name: Tasawaq
+  speakers: 8000
+  source: CLDR
+  todo_status: weak
+  note: Single source.
+tzm:
+  orthographies:
+  - base: a b c d e f g h i j k l m n q r s t u w x y z ɛ ɣ ʷ ḍ ḥ ṛ ṣ ṭ
+    autonym: Tamaziɣt
+    script: Latn
+  name: Tamazight, Central Atlas
+  name: Central Atlas Tamazight
+  speakers: 5000000
+  source: Omniglot, Wikipedia, CLDR
+  todo_status: strong
+tzo:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    autonym: Bats’i k’op
+    script: Latn
+  name: Tzotzil
+  speakers: 404704
+  source: Omniglot, Wikipedia
+  todo_status: strong
+ulk:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ì ò ù
+    autonym: Meriam Mir
+    script: Latn
+  name: Meriam Mir
+  speakers: 217
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+vec:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á ç è é ì í ò ó ù
+      ł ž
+    autonym: Vèneto
+    script: Latn
+  name: Venetian
+  speakers: 3900000
+  source: Omniglot, Wikipedia
+  todo_status: strong
+vep:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ö ü č š ž
+    autonym: Vepsä
+    script: Latn
+  name: Veps
+  speakers: 1600
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+vie:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ã è é ê ì í ò
+      ó ô õ ù ú ý ă đ ĩ ũ ơ ư ạ ả ấ ầ ẩ ẫ ậ ắ ằ ẳ ẵ ặ ẹ ẻ ẽ ế ề ể ễ ệ ỉ ị ọ ỏ ố ồ
+      ổ ỗ ộ ớ ờ ở ỡ ợ ụ ủ ứ ừ ử ữ ự ỳ ỵ ỷ ỹ
+    autonym: Tiếng Việt
+    script: Latn
+  name: Vietnamese
+  speakers: 76000000
+  source: Omniglot, Wikipedia, CLDR
+  todo_status: strong
+vmw:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z à è ì ò ù
+    autonym: Emakhuwa
+    script: Latn
+  name: Makhuwa
+  speakers: 6600000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+vol:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ö ü
+    autonym: Volapük
+    script: Latn
+  name: Volapük
+  speakers: 20
+  source: Omniglot, Wikipedia
+  todo_status: strong
+  status: constructed
+vro:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä õ ö ü š ž
+    autonym: Võro kiil
+    script: Latn
+  name: Võro
+  speakers: 87000
+  source: Omniglot, Wikipedia
+  todo_status: strong
+vun:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p r s t u v w y z
+    auxiliary: q x
+    autonym: Vunjo
+    script: Latn
+  name: Vunjo
+  source: CLDR
+  todo_status: weak
+  note: Single source.
+old:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p r s t u v w y z
+    auxiliary: q x
+    autonym: Mochi
+    script: Latn
+  name: Mochi
+  source: CLDR
+  todo_status: weak
+  note: Single source.
+wae:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z á ã ä é í ó õ ö ú ü
+      č š ũ
+    auxiliary: ß à â å æ ç è ê ë ì î ï ñ ò ô ø ù û ÿ ā ă ē ĕ ī ĭ ō ŏ œ ū ŭ
+    autonym: Walscher
+    script: Latn
+  name: Walser
+  speakers: 22780
+  source: Wikipedia, CLDR
+  todo_status: strong
+war:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ñ
+    autonym: Waray-Waray
+    script: Latn
+  - inherit: fil
+    autonym: Waray-Waray
+    script: Latn
+    note: Filipino orthography
+  name: Waray-Waray
+  speakers: 2600000
+  source: Omniglot, Wikipedia
+  todo_status: weak
+  note: There is no officially-approved orthography for the language and different writers may use differing orthographic styles. In general, it has become common to write the language following the current orthographic conventions of Filipino.
+wbp:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    autonym: Warlpiri
+    script: Latn
+  name: Warlpiri
+  speakers: 2304
+  source: Omniglot, Wikipedia
+  todo_status: strong
+wim:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    autonym: Wik-Mungknh
+    script: Latn
+  name: Wik-Mungkan
+  speakers: 450
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+win:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ą ğ į š ų ž
+    autonym: Ho-Chunk
+    script: Latn
+  name: Ho-Chunk
+  speakers: 250
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+wln:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z â å ç è é ê î ô û
+    autonym: Walon
+    script: Latn
+  name: Walloon
+  speakers: 600000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+wls:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ī ō ū
+    autonym: Fakaʻuvea
+    script: Latn
+  name: Wallisian
+  speakers: 10400
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+wmw:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p r s t u v w y z
+    autonym: Kimwani
+    script: Latn
+  name: Mwani
+  speakers: 100000
+  source: Omniglot, Wikipedia
+  todo_status: strong
+wol:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z à ã é ë ñ ó ŋ
+    autonym: Wolof
+    script: Latn
+  name: Wolof
+  speakers: 5454000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+wrh:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    autonym: Wiradjuri
+    script: Latn
+  name: Wiradjuri
+  speakers: 30
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+wyb:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    autonym: Ngiyambaa
+    script: Latn
+  name: Wangaaybuwan-Ngiyambaa
+  speakers: 2
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+xav:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ã é ô õ ö ĩ
+    autonym: A’uwẽ
+    script: Latn
+  name: Xavánte
+  speakers: 9600
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+xho:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    autonym: isiXhosa
+    script: Latn
+  name: Xhosa
+  speakers: 8200000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+xog:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    autonym: Lusoga
+    script: Latn
+  name: Soga
+  speakers: 3600000
+  source: Omniglot, CLDR
+  todo_status: strong
+xrg:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    autonym: Minangkabau
+    script: Latn
+  name: Minang
+  speakers: 6401000
+  source: Omniglot, Wikipedia
+  todo_status: strong
+yap:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ë ö
+    autonym: Waab
+    script: Latn
+  name: Yapese
+  speakers: 5130
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+yav:
+  orthographies:
+  - base: a b c d e f g h i k l m n o p s t u v w y à á â è é ì í î ò ó ô ù ú û ā
+      ī ŋ ō ū ǎ ǒ ǔ ɔ ɛ ̀ ́
+    auxiliary: g j q r x z
+    autonym: Nuasue
+    script: Latn
+  name: Yangben
+  speakers: 17000
+  source: CLDR
+  todo_status: weak
+  note: Single source.
+yij:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    autonym: Burnugundi
+    script: Latn
+  name: Yindjibarndi
+  speakers: 377
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+yor:
+  orthographies:
+  - base: a b d e f g h i j k l m n o p r s t u w y à á ā è é ē ẹ ì í ī ò ó ō ọ ù
+      ú ū ṣ ̀ ́
+    autonym: Èdè Yorùbá
+    script: Latn
+  - base: a b d e f g h i j k l m n o p r s t u w y à á ā è é ē ẹ ì í ī ò ó
+      ō ọ ù ú ū ṣ ɔ ɛ ̀ ́
+    autonym: Èdè Yorùbá
+    script: Latn
+  name: Yoruba
+  speakers: 40000000
+  source: Omniglot, Wikipedia
+  todo_status: strong
+zap:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z á à è é ë ì ü s̨ ñ ž
+      z̨
+    script: Latn
+  name: Zapotec
+  speakers: 450000
+  source: Omniglot, Wikipedia
+  todo_status: strong
+zlm:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    autonym: Melayu
+    script: Latn
+  name: Malay
+  speakers: 77000000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+kxd:
+  name: Brunei Malay
+  speakers: --
+  todo_status: todo
+zsm:
+  name: Malaysian
+  speakers: --
+  todo_status: todo
+jax:
+  name: Jambi Malay
+  speakers: --
+  todo_status: todo
+meo:
+  name: Kedah Malay
+  speakers: --
+  todo_status: todo
+kvr:
+  name: Kerinci
+  speakers: --
+  todo_status: todo
+xmm:
+  name: Manado Malay
+  speakers: --
+  todo_status: todo
+min:
+  name: Minangkabau
+  speakers: --
+  todo_status: todo
+mui:
+  name: Musi
+  speakers: --
+  todo_status: todo
+zmi:
+  name: Negeri Sembilan
+  speakers: --
+  todo_status: todo
+max:
+  name: North Moluccan Malay
+  speakers: --
+  todo_status: todo
+mfa:
+  name: Kelantan-Pattani Malay
+  speakers: --
+  todo_status: todo
+zul:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    autonym: isiZulu
+    script: Latn
+  name: Zulu
+  speakers: 12000000
+  source: Omniglot
+  todo_status: weak
+  note: Single source.
+zun:
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ł
+    autonym: Shiwiʼma
+    script: Latn
+  name: Zuni
+  speakers: 9620
+  source: Omniglot
+  todo_status: weak
+  note: Single source.

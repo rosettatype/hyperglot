@@ -64,9 +64,9 @@ def load_yaml(path):
     with codecs.open(path, "r", encoding="utf-8") as f:
         try:
             data = ordered_load(f, yaml.SafeLoader)
+            return data
         except yaml.YAMLError as exc:
             logging.warning(exc)
-    return data
 
 
 def save_yaml(data, path, allow_unicode=True, default_flow_style=False):
