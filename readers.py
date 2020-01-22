@@ -664,19 +664,19 @@ if __name__ == '__main__':
     iso_639_3_retirements = read_iso_639_3_retirements(path)
     save_yaml(iso_639_3_retirements, os.path.join("data", "iso-639-3_retirements.yaml"))
 
-    # Save Latin Plus to YAML
-    path = os.path.join("data", "latin-plus",
-                        "underware-latin-plus-data_1.txt")
-    latin_plus = read_latin_plus(path)
-    save_yaml(latin_plus, os.path.join("data", "latin-plus.yaml"))
-
     # Save CLDR to YAML
     path = os.path.join("data", "cldr", "common", "main")
     cldr = read_cldr(path, iso_639_3)
     save_yaml(cldr, os.path.join("data", "cldr.yaml"))
 
+    # Save Latin Plus to YAML
+    path = os.path.join("data", "other", "latin-plus",
+                        "underware-latin-plus-data_1.txt")
+    latin_plus = read_latin_plus(path)
+    save_yaml(latin_plus, os.path.join("data", "other", "latin-plus.yaml"))
+
     # Save Rosetta old XML to YAML
-    path = os.path.join("data", "rosetta", "rosetta-language-support_old.xml")
+    path = os.path.join("data", "other", "rosetta", "rosetta-language-support_old.xml")
     rstt = read_rosetta(path, iso_639_3)
     save_yaml(rstt, os.path.join("data", "rosetta_old.yaml"))
 

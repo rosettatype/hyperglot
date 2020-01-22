@@ -1,4 +1,7 @@
-"""Make test website."""
+"""
+Make website with database comparisons
+between Rosetta, CLDR, Latin Plus, and Alvestrand.
+"""
 
 from copy import copy
 import os
@@ -33,11 +36,11 @@ def comparison(r, s):
 
 iso_639_3 = load_yaml(os.path.join("..", "data", "iso-639-3.yaml"))
 db = {}
-db["latin_plus"] = OrderedDict()
-db["latin_plus"]["Latn"] = load_yaml(os.path.join("..", "data", "latin-plus.yaml"))
+db["rstt"] = load_yaml(os.path.join("..", "data", "rosetta.yaml"))
 db["cldr"] = load_yaml(os.path.join("..", "data", "cldr.yaml"))
-db["rstt"] = load_yaml(os.path.join("..", "data", "rosetta_old.yaml"))
 db["avst"] = load_yaml(os.path.join("..", "data", "alvestrand.yaml"))
+db["latin_plus"] = OrderedDict()
+db["latin_plus"]["Latn"] = load_yaml(os.path.join("..", "data", "other", "latin-plus.yaml"))
 
 # merge data together
 for script_name, script in SCRIPT_TAGS.items():

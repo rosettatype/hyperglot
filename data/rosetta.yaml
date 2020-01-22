@@ -1433,7 +1433,8 @@ ell:
   - base: α β γ δ ε ζ η θ ι κ λ μ ν ξ ο π ρ ς σ τ υ φ χ ψ ω ά έ ή ί ό ύ ώ ϊ ϋ ΐ ΰ 
     autonym: Ελληνικά
     script: Grek
-  name: Modern Greek
+  name: Modern Greek (1453-)
+  preferred_name: Modern Greek
   speakers: 13400000
   source: Omniglot, CLDR, Wikipedia
   todo_status: strong
@@ -2486,7 +2487,7 @@ ile:
   speakers: 0
   source: Omniglot
   todo_status: strong
-  note: Constructed language, aka Occidental,not Interlingua.
+  note: Constructed language, aka Occidental, not Interlingua.
 ilo:
   orthographies:
   - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ñ
@@ -2501,7 +2502,8 @@ ina:
   - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
     autonym: Interlingua
     script: Latn
-  name: Interlingua
+  name: Interlingua (International Auxiliary Language Association)
+  preferred_name: Interlingua
   speakers: 1500
   source: Omniglot
   todo_status: strong
