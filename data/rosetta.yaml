@@ -646,7 +646,7 @@ ess:
 esu:
   orthographies:
   - base: a c g i k l m n p q r s t u v w y ń ə ḿ  ͡ ʼ
-    combinations: {u͡g} {u͡r}
+    combinations: '{u͡g} {u͡r}'
     autonym: Yupʼik
     script: Latn
   name: Yupik, Central
@@ -3062,17 +3062,17 @@ xmv:
   name: Malagasy, Antankarana
   preferred_name: Antankarana Malagasy
 bhr:
-    autonym: Bara Malagasy
+  autonym: Bara Malagasy
   name: Malagasy, Bara
   preferred_name: Bara Malagasy
 buc:
-    autonym: Kibushi
+  autonym: Kibushi
   name: Bushi
 msh:
   name: Malagasy, Masikoro
   preferred_name: Masikoro Malagasy
 bmm:
-    autonym: Betsimisaraka
+  autonym: Betsimisaraka
   name: Malagasy, Northern Betsimisaraka
   preferred_name: Northern Betsimisaraka Malagasy
 plt:
@@ -3085,7 +3085,7 @@ bzc:
   name: Malagasy, Southern Betsimisaraka
   preferred_name: Southern Betsimisaraka Malagasy
 tdx:
-    autonym: Antandroy
+  autonym: Antandroy
   name: Malagasy, Tandroy-Mahafaly
   name: Tandroy-Mafahaly Malagasy
 txy:
