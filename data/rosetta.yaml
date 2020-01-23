@@ -1187,8 +1187,8 @@ sgh:
   todo_status: todo
 sjd:
   orthographies:
-  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ј ҋ ҍ
-      ҏ һ ӆ ӈ ӊ ӎ ӓ ӭ ’
+  - base: а ӓ б в г д е ё ж з һ ’ и ӣ й ј ҋ к л ӆ м ӎ н ӊ ӈ о п р ҏ с т у ӯ ф х ц ч ш щ ъ ы ь ҍ э ӭ ю я   
+    combinations: '{а̄}{е̄}{ё̄}{ӣ}{о̄}{э̄}{ю̄}{я̄}'
     autonym: Кӣллт Са̄мь
     script: Cyrl
   name: Saami, Kildin
@@ -1931,6 +1931,7 @@ cym:
 dan:
   orthographies:
   - base: a b c d e f g h i j k l m n o p q r s t u v w x y z å æ ø
+    auxiliary: ǻ
     autonym: Dansk
     script: Latn
   name: Danish
