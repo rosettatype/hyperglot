@@ -30,9 +30,9 @@ We are also providing a command-line tool to automate the analysis of language s
 3. a language can contain a list of `orthographies`
 4. in case a language is a macrolanguage, it has an attributed `includes` which is a list of language codes of the sub-languages. If a sub-language does not have any orthography defined, it can use one defined for the macrolanguage. If there is one.
 5. an orthography is a list of character sets:
-	- `base` is a list of characters from the language’s standard alphabet, syllabary, or an approximation of those.
-	- `auxiliary` is a list of characters that are used in very common loan words or in reference literature (e.g. linguistic)
-	- `combinations` is a list of combinations of characters or characters and marks.
+	- `base` is a string of space-separated characters from the language’s standard alphabet, syllabary, or an approximation of those.
+	- `auxiliary` is a string of space-separated characters that are used in very common loan words or in reference literature (e.g. linguistic)
+	- `combinations` is a string with combinations of characters or characters and marks that should be supported by the font.
 6. each orthography has a `script` specified with a four-letter Unicode tag (Latn, Arab, Cyrl, …)
 7. an `autonym` (name of the language in the language itself) is typically specified on the level of orthographies, but sometimes it is specified for a language, e.g. for a macrolanguage. The orthography autonym and name override the corresponding attributes of the language.
 8. each languages can have the following additional attributs:
