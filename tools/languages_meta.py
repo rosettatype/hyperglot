@@ -13,17 +13,17 @@ import yaml
 import xml.etree.ElementTree as ET
 
 NAMES = os.path.abspath(os.path.join(os.path.dirname(
-    os.path.abspath(__file__)), "../data/language-names.yaml"))
+    os.path.abspath(__file__)), "../data/other/language-names.yaml"))
 
 SPEAKERS = os.path.abspath(os.path.join(os.path.dirname(
-    os.path.abspath(__file__)), "../data/speakers.xml"))
+    os.path.abspath(__file__)), "../data/other/speakers.xml"))
 
 ROSETTA_LANGS = os.path.abspath(os.path.join(os.path.dirname(
     os.path.abspath(__file__)), "../data/rosetta_new.yaml"))
 
 # Where to store the parsed output
 OUTPUT = os.path.abspath(os.path.join(os.path.dirname(
-    os.path.abspath(__file__)), "../data/rosetta_new_meta.yaml"))
+    os.path.abspath(__file__)), "../data/other/rosetta_new_meta.yaml"))
 
 
 def get_language_names():
