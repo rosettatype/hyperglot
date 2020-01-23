@@ -2,14 +2,13 @@
 
 @Johannes
 
-- [ ] double check if YAML is well formed, list-type fields are always lists etc.
-- [ ] compare scraped speaker counts with those currently in the DB: this could lead to improved RE and migh help us update the existing counts in the DB. I would prefer to do this manually.
-- [ ] add language names and speaker counts where missing or where -- is used
-- [ ] add a date (year) for the speaker count information, to the field `speakers_date`.
 - [ ] add langtool, refactor to work with the new format
 - [ ] langtool should subset the rosetta.yaml per font
-
-- [ ] add licence to this repo
+- [ ] double check if YAML is well formed, list-type fields are always lists etc.
+- [ ] add language names and speaker counts where missing or where -- is used
+- [ ] add a date (year) for the speaker count information, to the field `speakers_date`.
+- [ ] compare scraped speaker counts with those currently in the DB: this could lead to improved regular expression and migh help us update the existing counts in the DB. I would prefer to do this manually.
+- [ ] add a licence document to this repo
 
 Notes:
 
