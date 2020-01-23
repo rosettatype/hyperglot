@@ -1,9 +1,5 @@
 # TODO
 
-- [ ] consider including Extensis character sets
-- [ ] consider including Speak Easy
-- [ ] consider including Adobe spreadsheets
-
 @Johannes
 
 - [ ] double check if YAML is well formed, list-type fields are always lists etc.
@@ -25,6 +21,9 @@ Notes:
 
 @David
 
+- [ ] review combinations (are all codepoints combining, …)
+- [ ] review auxiliary
+- [ ] check Cyrillic orthographies agains https://en.wiktionary.org/wiki/Appendix:Cyrillic_script
 - [ ] double check Swahili macrolanguage
 - [ ] srd -> macrolanguage, Sardinian
 - [ ] orm-> macrolanguage, Oromo
@@ -32,3 +31,11 @@ Notes:
 - [ ] aze -> inclusive language, Azerbaijani
 - [ ] que -> macrolanguage, Quechua
 - [ ] complete Arabic, Persian, and Malay sub-languages
+
+## Other
+
+- [ ] ask others to check non-done languages (Ukrainian, Russian, Albanian, Polish, Spanish, Italian, …)
+- [ ] work on presentation
+- [ ] consider including Extensis character sets
+- [ ] consider including Speak Easy
+- [ ] consider including Adobe spreadsheets
