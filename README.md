@@ -67,9 +67,38 @@ fas:
   source: [Wikipedia]
 ```
 
-## The command-line tool
+## The fontlang command-line tool (0.1.3)
 
-todo
+A simple CLI tool is provided to output language support data for a passed in font file.
+
+### Installation
+
+Install via repo and pip:
+
+```
+$ git clone git@bitbucket.org:rosettatype/fontlang.git && cd fontlang
+$ pip install --update --user .
+```
+
+### Usage
+
+`$ fontlang path/to/font.otf`
+
+**Additional options**:
+
+- `-s, --support`: Specify what level of support to check against (curretly options are "base" (default if omitted) or "aux")
+- `-a, --autonyms`: Output the language names in their native language and script
+- `-u, --users`: Also output language user count (where available)
+- `-o, --output`: Supply a file path to write the output to, in yaml format
+
+### Development
+
+To run the script during development without having to constantly reinstall the pip package, you can use:
+
+```
+$ git clone git@bitbucket.org:rosettatype/fontlang.git && cd fontlang
+$ pip install --update --user --editable .
+```
 
 ## Other databases included in this repo
 
