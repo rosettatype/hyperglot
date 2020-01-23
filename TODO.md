@@ -39,3 +39,5 @@ Notes:
 - [ ] consider including Extensis character sets
 - [ ] consider including Speak Easy
 - [ ] consider including Adobe spreadsheets
+- [ ] punctuation used by a language
+- [ ] list OpenType features needed to support a language with a brief note about what the feature should do.
