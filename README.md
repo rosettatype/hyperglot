@@ -42,7 +42,7 @@ We are also providing a command-line tool to automate the analysis of language s
 
 The database is stored in a YAML file `data/rosetta.yaml`. Here are two basic examples:
 
-### Common language with one orthography
+### An individual language with one orthography
 
 ```
 dan:
