@@ -67,6 +67,10 @@ fas:
   source: [Wikipedia]
 ```
 
+### Validating the database yaml file
+
+A simple python3 CLI script is included in `lib/fontlang/validate.py` to verify the data integrity of `data/rosetta.yaml` and point out possible formatting errors.
+
 ## The fontlang command-line tool (0.1.3)
 
 A simple CLI tool is provided to output language support data for a passed in font file.
