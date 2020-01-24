@@ -50,8 +50,11 @@ class Language(dict):
                 return ort["name"]
         # Without script fall back to main dict name, if one exists
         try:
+            if "preferred_name" in self:
+                return self["preferred_name"]
             return self["name"]
         except KeyError:
+            # If neither are found
             return False
 
         return False

@@ -1,5 +1,8 @@
 # A changelog for the lib/fontlang CLI tool
 
+# 0.1.4 (WIP - add as you commit)
+- TWEAK: Make sure to print `preferred_name` if available
+
 # 0.1.3 (23.01.2020)
 - TWEAK: Merged `fontlang` with Rosetta Language DB repo
 - TWEAK: Updated data structure in YAML and added `Language` class for convenience
