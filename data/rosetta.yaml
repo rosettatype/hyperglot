@@ -725,8 +725,8 @@ ess:
   todo_status: strong
 esu:
   orthographies:
-  - base: a c g i k l m n p q r s t u v w y ń ə ḿ  ͡ ʼ
-    combinations: '{u͡g} {u͡r}'
+  - base: a c g i k l m n p q r s t u v w y ń ə ḿ ͡ ʼ
+    combinations: '{u͡g}{u͡r}'
     autonym: Yupʼik
     script: Latn
   name: Central Yupik
@@ -4205,8 +4205,7 @@ sju:
   orthographies:
   - base: a b d e f g h i j k l m n o p r s t u v y á ä å ï ö ü đ ŋ ŧ
     auxiliary: ū ǖ
-    combinations:
-      å̄: null
+    combinations: '{å̄l}'
     autonym: Ubmejesámiengiälla
     script: Latn
   name: Ume Sami
