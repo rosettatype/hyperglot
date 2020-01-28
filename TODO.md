@@ -10,7 +10,7 @@
 - [x] langtool should subset the rosetta.yaml per font
 - [ ] check if all macrolanguages have been covered, i.e. if all ISO 639-3 languages marked as macrolanguages have a non-empty `includes` field. List those that do not.
 - [ ] check if all names are iso-639-3, print output. The update might need to be done manually not to overwrite our preferred names.
-- [ ] make sure characters used in autonyms are also in the base for corresponding orthography
+- [x] make sure characters used in autonyms are also in the base for corresponding orthography
 - [ ] add licence to this repo
 
 Notes:
@@ -120,4 +120,90 @@ Notes:
 - [ ] consider including Speak Easy
 - [ ] consider including Adobe spreadsheets
 - [ ] punctuation used by a language
+	- [ ] include punctuation in checking that an autonym can be spelled in its provided orthography
 - [ ] list OpenType features needed to support a language with a brief note about what the feature should do.
+
+## Double check those errors:
+
+- 'aao' has an orthography which is missing a 'base' attribute
+- 'abh' has an orthography which is missing a 'base' attribute
+- 'abv' has an orthography which is missing a 'base' attribute
+- 'acm' has an orthography which is missing a 'base' attribute
+- 'acq' has an orthography which is missing a 'base' attribute
+- 'acw' has an orthography which is missing a 'base' attribute
+- 'acx' has an orthography which is missing a 'base' attribute
+- 'acy' has an orthography which is missing a 'base' attribute
+- 'adf' has an orthography which is missing a 'base' attribute
+- 'aeb' has an orthography which is missing a 'base' attribute
+- 'aec' has an orthography which is missing a 'base' attribute
+- 'afb' has an orthography which is missing a 'base' attribute
+- 'aiq' has an orthography which is missing a 'base' attribute
+- 'ajp' has an orthography which is missing a 'base' attribute
+- 'apc' has an orthography which is missing a 'base' attribute
+- 'apd' has an orthography which is missing a 'base' attribute
+- 'arb' has an orthography which is missing a 'base' attribute
+- 'arq' has an orthography which is missing a 'base' attribute
+- 'ars' has an orthography which is missing a 'base' attribute
+- 'ary' has an orthography which is missing a 'base' attribute
+- 'arz' has an orthography which is missing a 'base' attribute
+- 'auz' has an orthography which is missing a 'base' attribute
+- 'avl' has an orthography which is missing a 'base' attribute
+- 'ayh' has an orthography which is missing a 'base' attribute
+- 'ayl' has an orthography which is missing a 'base' attribute
+- 'ayn' has an orthography which is missing a 'base' attribute
+- 'ayp' has an orthography which is missing a 'base' attribute
+- 'bbz' has an orthography which is missing a 'base' attribute
+- 'deh' has an orthography which is missing a 'base' attribute
+- 'haz' has an orthography which is missing a 'base' attribute
+- 'pes' has an orthography which is missing a 'base' attribute
+- 'pga' has an orthography which is missing a 'base' attribute
+- 'phv' has an orthography which is missing a 'base' attribute
+- 'prs' has an orthography which is missing a 'base' attribute
+- 'shu' has an orthography which is missing a 'base' attribute
+- 'ssh' has an orthography which is missing a 'base' attribute
+- 'urd' has an orthography which is missing a 'base' attribute
+- 'bhh' has an orthography which is missing a 'base' attribute
+- 'bhh' has an orthography which is missing a 'base' attribute
+- 'ems' has an orthography which is missing a 'base' attribute
+- 'uzs' has an orthography which is missing a 'base' attribute
+- 'ydd' has an orthography which is missing a 'base' attribute
+- 'yih' has an orthography which is missing a 'base' attribute
+- 'sjk' has an orthography which is missing a 'base' attribute
+- 'sia' has an orthography which is missing a 'base' attribute
+
+- 'aze' has an orthography which is missing an 'autonym'
+- 'bak' has an orthography which is missing an 'autonym'
+- 'gag' has an orthography which is missing an 'autonym'
+- 'jpr' has an orthography which is missing an 'autonym'
+- 'fuh' has an orthography which is missing an 'autonym'
+- 'fuq' has an orthography which is missing an 'autonym'
+- 'fuv' has an orthography which is missing an 'autonym'
+- 'fub' has an orthography which is missing an 'autonym'
+- 'fui' has an orthography which is missing an 'autonym'
+- 'ldi' has an orthography which is missing an 'autonym'
+- 'kwy' has an orthography which is missing an 'autonym'
+- 'zap' has an orthography which is missing an 'autonym'
+- 'oss' has an orthography which is missing an 'autonym'
+- 'ttt' has an orthography which is missing an 'autonym'
+- 'nhn' has an orthography which is missing an 'autonym'
+
+- 'abk' has invalid autonym 'Аҧсшәа‎' which cannot be spelled with that orthography's charset 'ҵнучҩҿлқжҟҳыдрию тксщџӷзҷԥаяәҭецэӡбгшмфхҽйоъпвь' - missing 'ҧ'
+- 'crh' has invalid autonym 'Qırımtatar tili' which cannot be spelled with that orthography's charset 'maocpi jçwdlsvfğekgşbzöüqtrunhñxy' - missing 'ı'
+- 'dlg' has invalid autonym 'Дулҕан' which cannot be spelled with that orthography's charset 'нучлӈжүыдрию тксщзаяецэёөбгшмфхйоъпвһь' - missing 'ҕ'
+- 'jdt' has invalid autonym 'Juwri' which cannot be spelled with that orthography's charset 'ִַבזצתחכעקש לי׳נרהאפָמגוסדּ' - missing 'rjuwi'
+- 'kur' has invalid autonym 'Kurdî' which cannot be spelled with that orthography's charset 'нучлждри ӧтксщԝԛзаәецэбгшмфхйопвһь' - missing 'rkudî'
+- 'kur' has invalid autonym 'Kurdî' which cannot be spelled with that orthography's charset 'méùaíocpi j'wdlsvfekgbzqtrúunhxy' - missing 'î'
+- 'oaa' has invalid autonym 'Уйльта' which cannot be spelled with that orthography's charset 'нучлӈждрӣ тксзјӣаеэӡөбԩгмфхопв' - missing 'йь'
+- 'ron' has invalid autonym 'Română' which cannot be spelled with that orthography's charset 'нучлжыдрию тксӂзаяецэбгшмфхйопвь' - missing 'mârnăo'
+- 'tly' has invalid autonym 'Толыши' which cannot be spelled with that orthography's charset 'нучлждри тксзјаәецбгшмфҹҝхйопвһғ' - missing 'ы'
+- 'uzn' has invalid autonym 'Ўзбекча' which cannot be spelled with that orthography's charset 'ӯнучлқжҳыдрию тксщзаяецэёбгшмфхйоъпвьғ' - missing 'ў'
+- 'aat' has invalid autonym 'Αρβανίτικα' which cannot be spelled with that orthography's charset 'οαξμδικπβ γϳυχdτζ̱̇σbλρ̈ενφθ' - missing 'ί'
+- 'bem' has invalid autonym 'Chibemba' which cannot be spelled with that orthography's charset 'maocpi jwdlsvfekgbtuny' - missing 'h'
+- 'fao' has invalid autonym 'Føroyskt' which cannot be spelled with that orthography's charset 'maíocpi jwdlsvfåekgóýbðzöqtrúunæhxáy' - missing 'ø'
+- 'haa' has invalid autonym 'Häł gołan' which cannot be spelled with that orthography's charset 'maocpài jäwdląsvfâekgbǎzqtrëunhxy' - missing 'ł'
+- 'hop' has invalid autonym 'Hopilàvayi' which cannot be spelled with that orthography's charset 'maocpi jwdlsvfekgbzöqtrunhxy' - missing 'à'
+- 'mgo' has invalid autonym 'Mɨta’' which cannot be spelled with that orthography's charset 'mùaocpàiè jŋʼwds̀fekgbɔzòtrunìhyə' - missing 'ɨ'
+- 'ruo' has invalid autonym 'Rumârește' which cannot be spelled with that orthography's charset 'mașăocpiľ jwdlsvfåekgbzńqtrunhxyț' - missing 'â'
+- 'sjt' has invalid autonym 'Са̄мькӣлл' which cannot be spelled with that orthography's charset 'ӆнучлӈжыдрию тксщӭзјӊая’ецӓэёбҏгшмфҍхӎйоъпвҋһь' - missing 'ӣ'
+- 'srm' has invalid autonym 'Saamáka' which cannot be spelled with that orthography's charset 'maocpi jwdlsvfekgbzöqtrëunhxy' - missing 'á'
+- 'xav' has invalid autonym 'A’uwẽ' which cannot be spelled with that orthography's charset 'méaocpi jwĩdlõsvfekgbzôöãqtrunhxy' - missing 'ẽ'

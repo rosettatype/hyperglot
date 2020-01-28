@@ -4,16 +4,17 @@ A CLI script to check rosetta.yaml is well-formed
 import logging
 import yaml
 import re
-from Languages import Languages, Language
+from Languages import Languages
 
 
 VALID_TODOS = ["done", "weak", "todo", "strong"]
+
 
 def check_yaml():
     logging.info("Checking yaml structure...")
 
     try:
-        Langs = Languages()
+        Languages()
     except yaml.scanner.ScannerError as e:
         logging.error("Malformed yaml:")
         print(e)
@@ -109,7 +110,50 @@ def check_is_valid_combation_string(combos):
     return True
 
 
+def check_names():
+    Langs = Languages()
+
+    for iso, lang in Langs.items():
+        if "orthographies" in lang:
+            for o in lang["orthographies"]:
+                if "base" not in o:
+                    logging.error("'%s' has an orthography which is missing a "
+                                  "'base' attribute" % iso)
+                    continue
+                if "autonym" not in o:
+                    logging.error("'%s' has an orthography which is missing an"
+                                  " 'autonym'" % iso)
+                    continue
+                autonym_ok, chars, missing = check_autonym_spelling(o)
+                if not autonym_ok:
+                    logging.error("'%s' has invalid autonym '%s' which cannot "
+                                  "be spelled with that orthography's charset "
+                                  "'%s' - missing '%s'"
+                                  % (iso, o["autonym"], "".join(chars),
+                                     "".join(missing)))
+
+
+def check_autonym_spelling(ort):
+    chars = ort["base"]
+    if "auxiliary" in ort:
+        chars = chars + ort["auxiliary"]
+
+    chars = set(ort["base"])
+
+    # Use the autonym in lowercase and without any "non-word" marks (hyphens,
+    # apostrophes, etc.)
+    ignore_punctuation = re.compile("|".join(["\W", "ʼ", "ʻ"])) # noqa
+    autonym = ort["autonym"].lower()
+    autonym = ignore_punctuation.sub("", autonym)
+
+    autonym = set(autonym)
+    missing = list(autonym.difference(chars))
+
+    return autonym.issubset(chars), list(chars), missing
+
+
 if __name__ == "__main__":
     logging.getLogger().setLevel(logging.DEBUG)
     check_yaml()
     check_types()
+    check_names()

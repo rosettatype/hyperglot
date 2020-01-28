@@ -117,7 +117,7 @@ class Languages(dict):
 
         # for script in self:
         for lang in self:
-            l = self[lang]
+            l = self[lang] # noqa
             if "todo_status" in l and "todo_status" == "todo":
                 logging.info("Skipping language '%s' with 'todo' status" %
                              lang)
