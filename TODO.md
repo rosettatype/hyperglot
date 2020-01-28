@@ -8,7 +8,8 @@
 - [ ] compare scraped speaker counts with those currently in the DB: this could lead to improved regular expression and migh help us update the existing counts in the DB. I would prefer to do this manually.
 - [x] add langtool, refactor to work with the new format
 - [x] langtool should subset the rosetta.yaml per font
-- [ ] check if all macrolanguages have been covered, i.e. if all ISO 639-3 languages marked as macrolanguages have a non-empty `includes` field. List those that do not.
+- [x] check if all macrolanguages have been covered, i.e. if all ISO 639-3 languages marked as macrolanguages have a non-empty `includes` field. List those that do not.
+	- NOTE: Currently also cross-checking iso data against rosetta data and emitting a warning if the rosetta data is missing one of those macrolanguages altogether
 - [x] check if all names are iso-639-3, print output. The update might need to be done manually not to overwrite our preferred names.
 	- NOTE: The only two cases of difference were quotes: 'Ta’izzi-Adeni Arabic' (iso: 'Ta'izzi-Adeni Arabic') and 'Ga’anda' (iso:'Ga'anda')
 - [x] make sure characters used in autonyms are also in the base for corresponding orthography

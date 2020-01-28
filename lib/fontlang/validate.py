@@ -11,6 +11,16 @@ from Languages import Languages
 VALID_TODOS = ["done", "weak", "todo", "strong"]
 
 ISO_639_3 = "../../data/iso-639-3.yaml"
+logging.info("Loading iso-639-3.yaml for names and macro language checks")
+try:
+    iso_db = os.path.abspath(os.path.join(os.path.dirname(__file__),
+                                          ISO_639_3))
+    with open(iso_db) as f:
+        iso_data = yaml.load(f, Loader=yaml.Loader)
+except Exception as e:
+    logging.error(e)
+    import sys
+    sys.exit()
 
 
 def check_yaml():
@@ -116,16 +126,6 @@ def check_is_valid_combation_string(combos):
 def check_names():
     Langs = Languages()
 
-    logging.info("Loading iso-639-3.yaml for names check")
-    try:
-        iso_db = os.path.abspath(os.path.join(os.path.dirname(__file__),
-                                              ISO_639_3))
-        with open(iso_db) as f:
-            iso_data = yaml.load(f, Loader=yaml.Loader)
-    except Exception as e:
-        logging.error(e)
-        return
-
     for iso, lang in Langs.items():
         if "orthographies" in lang:
             for o in lang["orthographies"]:
@@ -159,6 +159,35 @@ def check_names():
                                 % iso)
 
 
+def check_macrolanguages():
+    Langs = Languages()
+
+    for iso, lang in iso_data.items():
+        for name in lang["names"]:
+            if "macrolanguage" in name:
+                if iso not in Langs.keys():
+                    logging.warning("'%s' is marked as macrolanguage in iso "
+                                    "data, but does not existing in rosetta "
+                                    "data" % iso)
+                    continue
+                if not check_includes(Langs[iso]):
+                    logging.error("'%s' is marked as macrolanguage in the iso "
+                                  "data, but has no 'includes'." % iso)
+
+
+def check_includes(lang):
+    if "includes" not in lang:
+        return False
+
+    if type(lang["includes"]) is not list:
+        return False
+
+    if len("includes") < 1:
+        return False
+
+    return True
+
+
 def check_autonym_spelling(ort):
     chars = ort["base"]
     if "auxiliary" in ort:
@@ -183,3 +212,4 @@ if __name__ == "__main__":
     check_yaml()
     check_types()
     check_names()
+    check_macrolanguages()
