@@ -9,7 +9,8 @@
 - [x] add langtool, refactor to work with the new format
 - [x] langtool should subset the rosetta.yaml per font
 - [ ] check if all macrolanguages have been covered, i.e. if all ISO 639-3 languages marked as macrolanguages have a non-empty `includes` field. List those that do not.
-- [ ] check if all names are iso-639-3, print output. The update might need to be done manually not to overwrite our preferred names.
+- [x] check if all names are iso-639-3, print output. The update might need to be done manually not to overwrite our preferred names.
+	- NOTE: The only two cases of difference were quotes: 'Ta’izzi-Adeni Arabic' (iso: 'Ta'izzi-Adeni Arabic') and 'Ga’anda' (iso:'Ga'anda')
 - [x] make sure characters used in autonyms are also in the base for corresponding orthography
 - [ ] add licence to this repo
 

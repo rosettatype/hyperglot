@@ -3,11 +3,14 @@ A CLI script to check rosetta.yaml is well-formed
 """
 import logging
 import yaml
+import os
 import re
 from Languages import Languages
 
 
 VALID_TODOS = ["done", "weak", "todo", "strong"]
+
+ISO_639_3 = "../../data/iso-639-3.yaml"
 
 
 def check_yaml():
@@ -113,6 +116,16 @@ def check_is_valid_combation_string(combos):
 def check_names():
     Langs = Languages()
 
+    logging.info("Loading iso-639-3.yaml for names check")
+    try:
+        iso_db = os.path.abspath(os.path.join(os.path.dirname(__file__),
+                                              ISO_639_3))
+        with open(iso_db) as f:
+            iso_data = yaml.load(f, Loader=yaml.Loader)
+    except Exception as e:
+        logging.error(e)
+        return
+
     for iso, lang in Langs.items():
         if "orthographies" in lang:
             for o in lang["orthographies"]:
@@ -132,6 +145,19 @@ def check_names():
                                   % (iso, o["autonym"], "".join(chars),
                                      "".join(missing)))
 
+        if iso not in iso_data.keys():
+            logging.error("'%s' not found in iso data" % iso)
+        else:
+            if "names" in iso_data[iso]:
+                if lang["name"] not in iso_data[iso]["names"]:
+                    logging.warning("'%s' name ('%s') not found in iso data "
+                                    "('%s')"
+                                    % (iso, lang["name"],
+                                       ", ".join(iso_data[iso]["names"])))
+            else:
+                logging.warning("'%s' has no 'names' attribute in iso data"
+                                % iso)
+
 
 def check_autonym_spelling(ort):
     chars = ort["base"]
@@ -142,7 +168,7 @@ def check_autonym_spelling(ort):
 
     # Use the autonym in lowercase and without any "non-word" marks (hyphens,
     # apostrophes, etc.)
-    ignore_punctuation = re.compile("|".join(["\W", "ʼ", "ʻ"])) # noqa
+    ignore_punctuation = re.compile("|".join(["\W", "ʼ", "ʻ"]))  # noqa
     autonym = ort["autonym"].lower()
     autonym = ignore_punctuation.sub("", autonym)
 
