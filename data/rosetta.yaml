@@ -32,6 +32,7 @@ ara:
   - aeb
   - auz
   speakers: 310000000
+  speakers_date: 2011-2016
   source: [Wikipedia]
 fas:
   name: Persian
@@ -61,84 +62,96 @@ aao:
   - autonym: --
     script: Arab
   name: Algerian Saharan Arabic
-  speakers: --
+  speakers: 110000
+  speakers_date: 1996-1998
   todo_status: todo
 abh:
   orthographies:
   - autonym: --
     script: Arab
   name: Tajiki Arabic
-  speakers: --
+  speakers: 2000
+  speakers_date: 1997-2003
   todo_status: todo
 abv:
   orthographies:
   - autonym: --
     script: Arab
   name: Baharna Arabic
-  speakers: --
+  speakers: 730000
+  speakers_date: 2001-2013
   todo_status: todo
 acm:
   orthographies:
   - autonym: --
     script: Arab
   name: Mesopotamian Arabic
-  speakers: --
+  speakers: 15700000
+  speakers_date: 2014-2016
   todo_status: todo
 acq:
   orthographies:
   - autonym: --
     script: Arab
   name: Ta’izzi-Adeni Arabic
-  speakers: --
+  speakers: 10480000
+  speakers_date: 2015-2016
   todo_status: todo
 acw:
   orthographies:
   - autonym: --
     script: Arab
   name: Hijazi Arabic
-  speakers: --
+  speakers: 145000000
+  speakers_date: 2011
   todo_status: todo
 acx:
   orthographies:
   - autonym: --
     script: Arab
   name: Omani Arabic
-  speakers: --
+  speakers: 1055000
+  speakers_date: 1995-1996
   todo_status: todo
 acy:
   orthographies:
   - autonym: --
     script: Arab
   name: Cypriot Arabic
-  speakers: --
+  speakers: 140
+  speakers_date: 2013
   todo_status: todo
 adf:
   orthographies:
   - autonym: --
     script: Arab
   name: Dhofari Arabic
-  speakers: --
+  speakers: 70000
+  speakers_date: 1996
   todo_status: todo
 aeb:
   orthographies:
   - autonym: --
     script: Arab
   name: Tunisian Arabic
-  speakers: --
+  speakers: 11200000
+  speakers_date: 2014
   todo_status: todo
 aec:
   orthographies:
   - autonym: --
     script: Arab
   name: Saidi Arabic
-  speakers: --
+  speakers: 22400000
+  speakers_date: 2016
   todo_status: todo
 afb:
   orthographies:
   - autonym: --
     script: Arab
   name: Gulf Arabic
-  speakers: --
+  speakers: 6800000
+  speakers_date: 2016
   todo_status: todo
 aiq:
   orthographies:
@@ -146,27 +159,31 @@ aiq:
     script: Arab
   name: Aimaq
   speakers: 650000
+  speakers_date: 1993
   todo_status: todo
 ajp:
   orthographies:
   - autonym: --
     script: Arab
   name: South Levantine Arabic
-  speakers: --
+  speakers: 6700000
+  speakers_date: 2016
   todo_status: todo
 apc:
   orthographies:
   - autonym: --
     script: Arab
   name: North Levantine Arabic
-  speakers: --
+  speakers: 24200000
+  speakers_date: 2014-2015
   todo_status: todo
 apd:
   orthographies:
   - autonym: --
     script: Arab
   name: Sudanese Arabic
-  speakers: --
+  speakers: 31900000
+  speakers_date: 2015
   todo_status: todo
 arb:
   orthographies:
@@ -181,14 +198,16 @@ arq:
   - autonym: --
     script: Arab
   name: Algerian Arabic
-  speakers: --
+  speakers: 27000000
+  speakers_date: 2012
   todo_status: todo
 ars:
   orthographies:
   - autonym: --
     script: Arab
   name: Najdi Arabic
-  speakers: --
+  speakers: 4050000
+  speakers_date: 2011-2015
   todo_status: todo
 ary:
   orthographies:
@@ -196,69 +215,77 @@ ary:
     script: Arab
   name: Moroccan Arabic
   speakers: 30551000
+  speakers_date: 2014
   todo_status: todo
 arz:
   orthographies:
   - autonym: --
     script: Arab
   name: Egyptian Arabic
-  speakers: --
+  speakers: 64422000
+  speakers_date: 2016
   todo_status: todo
 auz:
   orthographies:
   - autonym: --
     script: Arab
   name: Uzbeki Arabic
-  speakers: --
+  speakers: 2000
+  speakers_date: 1997-2003
   todo_status: todo
 avl:
   orthographies:
   - autonym: --
     script: Arab
   name: Eastern Egyptian Bedawi Arabic
-  speakers: --
+  speakers: 2240000
+  speakers_date: 2015-2016
   todo_status: todo
 ayh:
   orthographies:
   - autonym: --
     script: Arab
   name: Hadrami Arabic
-  speakers: --
+  speakers: 4560000
+  speakers_date: 2015
   todo_status: todo
 ayl:
   orthographies:
   - autonym: --
     script: Arab
   name: Libyan Arabic
-  speakers: --
+  speakers: 4325000
+  speakers_date: 1998-2006
   todo_status: todo
 ayn:
   orthographies:
   - autonym: --
     script: Arab
   name: Sanaani Arabic
-  speakers: --
+  speakers: 11100000
+  speakers_date: 2015
   todo_status: todo
 ayp:
   orthographies:
   - autonym: --
     script: Arab
   name: North Mesopotamian Arabic
-  speakers: --
+  speakers: 8700000
+  speakers_date: 1992-2014
   todo_status: todo
 bbz:
   orthographies:
-  - autonym: --
-    script: Arab
+  - script: Arab
   name: Babalia Creole Arabic
-  speakers: --
-  todo_status: todo
+  todo_status: historical
+  note: Suprious languages, iso code retired 2019 (see https://en.wikipedia.org/wiki/ISO_639_macrolanguage)
 deh:
   orthographies:
   - autonym: دهواری
     script: Arab
   name: Dehwari
   speakers: 14600
+  speakers_date: 2004
   todo_status: todo
 haz:
   orthographies:
@@ -272,14 +299,17 @@ pes:
     script: Arab
   name: Iranian Persian
   speakers: 55600000
+  speakers_date: 2015
   todo_status: todo
 pga:
   orthographies:
   - autonym: --
     script: Arab
   name: Sudanese Creole Arabic
-  speakers: --
+  speakers: 20000
+  speakers_date: 1987
   todo_status: todo
+  note: Also called Juba Arabic
 phv:
   orthographies:
   - autonym: --
@@ -292,20 +322,23 @@ prs:
     script: Arab
   name: Dari
   speakers: 12500000
+  speakers_date: 2000-2011
   todo_status: todo
 shu:
   orthographies:
   - autonym: --
     script: Arab
   name: Chadian Arabic
-  speakers: --
+  speakers: 1600000
+  speakers_date: 2015
   todo_status: todo
 ssh:
   orthographies:
   - autonym: --
     script: Arab
   name: Shihhi Arabic
-  speakers: --
+  speakers: 15000
+  speakers_date: 2001-2003
   todo_status: todo
 urd:
   orthographies:
@@ -313,6 +346,7 @@ urd:
     script: Arab
   name: Urdu
   speakers: 68620000
+  speakers_date: 2019
   todo_status: todo
 abk:
   orthographies:
@@ -322,6 +356,7 @@ abk:
     script: Cyrl
   name: Abkhazian
   speakers: 190110
+  speakers_date: 2014-2015
   source:
   - Omniglot
   - Wikipedia
@@ -333,6 +368,7 @@ abq:
     script: Cyrl
   name: Abaza
   speakers: 49800
+  speakers_date: 2010-2014
   source:
   - Omniglot
   - Wikipedia
@@ -344,6 +380,7 @@ ady:
     script: Cyrl
   name: Adyghe
   speakers: 575900
+  speakers_date: 2005-2015
   source:
   - Omniglot
   - Wikipedia
@@ -355,6 +392,7 @@ agx:
     script: Cyrl
   name: Aghul
   speakers: 29300
+  speakers_date: 2010
   source:
   - Omniglot
   - Wikipedia
@@ -367,6 +405,7 @@ alt:
     script: Cyrl
   name: Southern Altai
   speakers: 55720
+  speakers_date: 2010
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -377,6 +416,7 @@ ani:
     script: Cyrl
   name: Andi
   speakers: 5800
+  speakers_date: 2010
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -387,6 +427,7 @@ aqc:
     script: Cyrl
   name: Archi
   speakers: 970
+  speakers_date: 2010
   source:
   - Omniglot
   - Wikipedia
@@ -411,6 +452,7 @@ ava:
     script: Cyrl
   name: Avaric
   speakers: 1000000
+  speakers_date: 2010
   source:
   - Omniglot
   - Wikipedia
@@ -425,6 +467,7 @@ aze:
     script: Latn
   name: Azerbaijani
   speakers: 23000000
+  speakers_date: 2018
   source:
   - Omniglot
   - Wikipedia
@@ -441,6 +484,7 @@ bak:
     status: historical
   name: Bashkir
   speakers: 1200000
+  speakers_date: 2010
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -451,6 +495,7 @@ bdk:
     script: Cyrl
   name: Budukh
   speakers: 200
+  speakers_date: 2010
   source:
   - Omniglot
   - Wikipedia
@@ -467,6 +512,7 @@ bel:
     status: historical
   name: Belarusian
   speakers: 5100000
+  speakers_date: 2009
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -478,7 +524,9 @@ bhh:
     script: Hebr
   name: Bukharic
   speakers: 110000
+  speakers_date: 1995
   todo_status: todo
+  note: Speaker count date for Isreal and Uzbekistan, others unknown.
 bos:
   orthographies:
   - base: а б в г д е ж з и к л м н о п р с т у ф х ц ч ш ђ ј љ њ ћ џ
@@ -489,6 +537,7 @@ bos:
     script: Latn
   name: Bosnian
   speakers: 3000000
+  speakers_date: 2008
   source: [Omniglot, CLDR]
   todo_status: strong
 bua:
@@ -510,6 +559,7 @@ bxr:
   name: Russia Buriat
   preferred_name: Russian Buriat
   speakers: 353113
+  speakers_date: 2010
   source:
   - Omniglot
   - Wikipedia
@@ -527,6 +577,7 @@ bxu:
   name: China Buriat
   preferred_name: Chinese Buriat
   speakers: 65000
+  speakers_date: 1982
 bxm:
   orthographies:
   - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ү һ ө
@@ -540,6 +591,7 @@ bxm:
   name: Mongolia Buriat
   preferred_name: Mongolian Buriat
   speakers: 35000
+  speakers_date: 2010
 bul:
   orthographies:
   - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ь ю я ѐ ѝ
@@ -547,6 +599,7 @@ bul:
     script: Cyrl
   name: Bulgarian
   speakers: 9000000
+  speakers_date: 2011
   source:
   - Omniglot
   - Wikipedia
@@ -559,6 +612,7 @@ che:
     script: Cyrl
   name: Chechen
   speakers: 1400000
+  speakers_date: 2010
   source: [Omniglot]
   todo_status: weak
   note: Single source. Shorter autonym?
@@ -593,6 +647,7 @@ cji:
     script: Cyrl
   name: Chamalal
   speakers: 500
+  speakers_date: 2010
   source:
   - Omniglot
   - Wikipedia
@@ -606,6 +661,7 @@ cjs:
     script: Cyrl
   name: Shor
   speakers: 2800
+  speakers_date: 2010
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -617,9 +673,10 @@ ckt:
     script: Cyrl
   name: Chukot
   speakers: 5095
+  speakers_date: 2010
   source: [Omniglot]
   todo_status: weak
-  note: Single source.
+  note: Single source. Speakers count based on 32% of ethnic population.
 cnr:
   orthographies:
   - base: ́ а б в г д е ж з и к л м н о п р с т у ф х ц ч ш ђ ј љ њ ћ џ
@@ -632,6 +689,7 @@ cnr:
     script: Latn
   name: Montenegrin
   speakers: 232600
+  speakers_date: 2011
   source:
   - Omniglot
   - Wikipedia
@@ -647,6 +705,7 @@ crh:
     script: Latn
   name: Crimean Tatar
   speakers: 540000
+  speakers_date: 2006-2011
   source: [Omniglot]
   todo_status: weak
   note: Single source. Shorter autonym?
@@ -657,6 +716,7 @@ dar:
     script: Cyrl
   name: Dargwa
   speakers: 490000
+  speakers_date: 2010
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -668,6 +728,7 @@ ddo:
     script: Cyrl
   name: Dido
   speakers: 13000
+  speakers_date: 2010
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -679,6 +740,7 @@ dlg:
     script: Cyrl
   name: Dolgan
   speakers: 1100
+  speakers_date: 2010
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -700,6 +762,7 @@ enf:
     script: Cyrl
   name: Forest Enets
   speakers: 5
+  speakers_date: 2010
   source:
   - Omniglot
   - Wikipedia
@@ -711,6 +774,7 @@ enh:
     script: Cyrl
   name: Tundra Enets
   speakers: 5
+  speakers_date: 2010
 ess:
   orthographies:
   - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ў қ ң
@@ -719,6 +783,7 @@ ess:
     script: Cyrl
   name: Central Siberian Yupik
   speakers: 1200
+  speakers_date: 2010
   source:
   - Omniglot
   - Wikipedia
@@ -732,6 +797,7 @@ esu:
   name: Central Yupik
   preferred_name: Central Alaskan Yupik
   speakers: 10000
+  speakers_date: 2010
   source: [Wikipedia]
   todo_status: weak
   note: Single source.
@@ -741,6 +807,7 @@ ems:
     script: Latn
   name: Pacific Gulf Yupik
   speakers: 200
+  speakers_date: 2010
   todo_status: todo
 eve:
   orthographies:
@@ -750,6 +817,7 @@ eve:
     script: Cyrl
   name: Even
   speakers: 5700
+  speakers_date: 2010
   source:
   - Omniglot
   - Wikipedia
@@ -762,6 +830,7 @@ evn:
     script: Cyrl
   name: Evenki
   speakers: 26580
+  speakers_date: 2007-2010
   source:
   - Omniglot
   - Wikipedia
@@ -778,6 +847,7 @@ gag:
     script: Latn
   name: Gagauz
   speakers: 140000
+  speakers_date: 2009
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -789,6 +859,7 @@ gld:
     script: Cyrl
   name: Nanai
   speakers: 1400
+  speakers_date: 2010
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -800,6 +871,7 @@ huz:
     script: Cyrl
   name: Hunzib
   speakers: 1400
+  speakers_date: 2006-2010
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -810,6 +882,7 @@ inh:
     script: Cyrl
   name: Ingush
   speakers: 306000
+  speakers_date: 1999-2010
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -822,6 +895,7 @@ itl:
     script: Cyrl
   name: Itelmen
   speakers: 82
+  speakers_date: 2010
   source:
   - Omniglot
   - Wikipedia
@@ -833,6 +907,7 @@ jct:
     script: Cyrl
   name: Krymchak
   speakers: 200
+  speakers_date: 2007
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -866,6 +941,7 @@ kaa:
     script: Latn
   name: Kara-Kalpak
   speakers: 583410
+  speakers_date: 2010
   source: [Omniglot]
   todo_status: weak
   note: Single source. Shorter autonym?
@@ -877,6 +953,7 @@ kap:
     script: Cyrl
   name: Bezhta
   speakers: 6800
+  speakers_date: 2006-2010
   source:
   - Omniglot
   - Wikipedia
@@ -889,6 +966,7 @@ kaz:
     script: Cyrl
   name: Kazakh
   speakers: 11700000
+  speakers_date: 2009
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -899,6 +977,7 @@ kbd:
     script: Cyrl
   name: Kabardian
   speakers: 1600000
+  speakers_date: 2005-2010
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -911,6 +990,7 @@ kca:
     script: Cyrl
   name: Khanty
   speakers: 9600
+  speakers_date: 2010
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -921,6 +1001,7 @@ kdr:
     script: Cyrl
   name: Karaim
   speakers: 80
+  speakers_date: 2014
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -932,6 +1013,7 @@ ket:
     script: Cyrl
   name: Ket
   speakers: 213
+  speakers_date: 2010
   source: [Omniglot]
   todo_status: weak
   note: Single source. Shorter autonym?
@@ -942,6 +1024,7 @@ kir:
     script: Cyrl
   name: Kirghiz
   speakers: 4300000
+  speakers_date: 2009
   source:
   - Omniglot
   - Wikipedia
@@ -954,6 +1037,7 @@ kjh:
     script: Cyrl
   name: Khakas
   speakers: 43000
+  speakers_date: 2010
   source: [Omniglot]
   todo_status: weak
   note: Single source. Shorter autonym?
@@ -965,12 +1049,14 @@ kjj:
     script: Cyrl
   name: Khinalugh
   speakers: 1000
+  speakers_date: 2007
   source: [Omniglot]
   todo_status: weak
   note: Single source.
 kom:
   name: Komi
   speakers: 223000
+  speakers_date: 2010
   includes:
   - koi
   - kpv
@@ -981,6 +1067,7 @@ koi:
     script: Cyrl
   name: Komi-Permyak
   speakers: 63000
+  speakers_date: 2010
   source:
   - Omniglot
   - Wikipedia
@@ -992,6 +1079,7 @@ kpv:
     script: Cyrl
   name: Komi-Zyrian
   speakers: 160000
+  speakers_date: 2010
 kpt:
   orthographies:
   - base: а б в г д е ж з и й к л м н о п р с т у х ц ч ш щ ъ ы ь э ю я ӏ ã ẽ и̃ õ
@@ -1000,6 +1088,7 @@ kpt:
     script: Cyrl
   name: Karata
   speakers: 260
+  speakers_date: 2010
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -1010,6 +1099,7 @@ kpy:
     script: Cyrl
   name: Koryak
   speakers: 1665
+  speakers_date: 2010
   source:
   - Omniglot
   - Wikipedia
@@ -1022,6 +1112,7 @@ krc:
     script: Cyrl
   name: Karachay-Balkar
   speakers: 310000
+  speakers_date: 2010
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -1032,6 +1123,7 @@ kum:
     script: Cyrl
   name: Kumyk
   speakers: 450000
+  speakers_date: 2010
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -1066,6 +1158,7 @@ lbe:
     script: Cyrl
   name: Lak
   speakers: 152050
+  speakers_date: 2010
   source:
   - Omniglot
   - Wikipedia
@@ -1077,6 +1170,7 @@ lez:
     script: Cyrl
   name: Lezghian
   speakers: 633610
+  speakers_date: 2010
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -1087,6 +1181,7 @@ mdf:
     script: Cyrl
   name: Moksha
   speakers: 430000
+  speakers_date: 2010
   source:
   - Omniglot
   - Wikipedia
@@ -1098,6 +1193,7 @@ mhr:
     script: Cyrl
   name: Eastern Mari
   speakers: 470000
+  speakers_date: 2012
   source:
   - Omniglot
   - Wikipedia
@@ -1122,6 +1218,7 @@ mns:
     script: Cyrl
   name: Mansi
   speakers: 940
+  speakers_date: 2010
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -1132,6 +1229,7 @@ mon:
     script: Cyrl
   name: Mongolian
   speakers: 3600000
+  speakers_date: 2014
   source:
   - Omniglot
   - Wikipedia
@@ -1144,6 +1242,7 @@ mrj:
     script: Cyrl
   name: Western Mari
   speakers: 30000
+  speakers_date: 2012
   source:
   - Omniglot
   - Wikipedia
@@ -1155,6 +1254,7 @@ myv:
     script: Cyrl
   name: Erzya
   speakers: 430000
+  speakers_date: 2010
   source:
   - Omniglot
   - Wikipedia
@@ -1174,6 +1274,7 @@ nio:
     note: Wikipedia version
   name: Nganasan
   speakers: 125
+  speakers_date: 2010
   source:
   - Omniglot
   - Wikipedia
@@ -1188,6 +1289,7 @@ niv:
     script: Cyrl
   name: Gilyak
   speakers: 200
+  speakers_date: 2010
   source:
   - Omniglot
   - Wikipedia
@@ -1199,6 +1301,7 @@ nog:
     script: Cyrl
   name: Nogai
   speakers: 87000
+  speakers_date: 2010
   source:
   - Omniglot
   - Wikipedia
@@ -1211,6 +1314,7 @@ oaa:
     script: Cyrl
   name: Orok
   speakers: 26–47
+  speakers_date: 2010
   source:
   - Omniglot
   - Wikipedia
@@ -1225,6 +1329,7 @@ oss:
     status: historical
   name: Ossetian
   speakers: 600000
+  speakers_date: 2010
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -1240,6 +1345,7 @@ ron:
     script: Latn
   name: Romanian
   speakers: 26000000
+  speakers_date: 2016
   source:
   - Omniglot
   - Wikipedia
@@ -1251,6 +1357,7 @@ rue:
     script: Cyrl
   name: Rusyn
   speakers: 623500
+  speakers_date: 2000-2006
   source:
   - Omniglot
   - Wikipedia
@@ -1262,6 +1369,7 @@ rus:
     script: Cyrl
   name: Russian
   speakers: 150000000
+  speakers_date: 2012
   source:
   - Omniglot
   - Wikipedia
@@ -1274,6 +1382,7 @@ rut:
     script: Cyrl
   name: Rutul
   speakers: 36400
+  speakers_date: 2010
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -1285,6 +1394,7 @@ sah:
     script: Cyrl
   name: Yakut
   speakers: 450000
+  speakers_date: 2010
   source:
   - Omniglot
   - Wikipedia
@@ -1298,6 +1408,7 @@ sel:
     script: Cyrl
   name: Selkup
   speakers: 1000
+  speakers_date: 2010
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -1309,6 +1420,7 @@ sgh:
     script: Cyrl
   name: Shughni
   speakers: 50000
+  speakers_date: 1990
   source: [Omniglot]
   todo_status: todo
 sjd:
@@ -1320,6 +1432,7 @@ sjd:
     script: Cyrl
   name: Kildin Sami
   speakers: 340
+  speakers_date: 2010
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -1334,6 +1447,7 @@ srp:
     script: Latn
   name: Serbian
   speakers: 9500000
+  speakers_date: 2016
   source:
   - Omniglot
   - Wikipedia
@@ -1346,6 +1460,7 @@ tab:
     script: Cyrl
   name: Tabassaran
   speakers: 126900
+  speakers_date: 2010
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -1357,6 +1472,7 @@ tat:
     script: Cyrl
   name: Tatar
   speakers: 5200000
+  speakers_date: 2015
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -1367,6 +1483,7 @@ tgk:
     script: Cyrl
   name: Tajik
   speakers: 8400000
+  speakers_date: 2015
   source:
   - Omniglot
   - Wikipedia
@@ -1383,6 +1500,7 @@ tkr:
     note: Based on Azerbaijani.
   name: Tsakhur
   speakers: 22300
+  speakers_date: 2010-2011
   source:
   - Omniglot
   - Wikipedia
@@ -1398,6 +1516,7 @@ tly:
     note: Based on Azerbaijani.
   name: Talysh
   speakers: 218100
+  speakers_date: 2011-2014
   source:
   - Omniglot
   - Wikipedia
@@ -1426,6 +1545,7 @@ tuk:
     script: Latn
   name: Turkmen
   speakers: 6700000
+  speakers_date: 2009-2015
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -1436,6 +1556,7 @@ tyv:
     script: Cyrl
   name: Tuvinian
   speakers: 280000
+  speakers_date: 2010
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -1446,6 +1567,7 @@ udi:
     script: Cyrl
   name: Udi
   speakers: 6600
+  speakers_date: 2009
   source:
   - Omniglot
   - Wikipedia
@@ -1458,6 +1580,7 @@ udm:
     script: Cyrl
   name: Udmurt
   speakers: 340000
+  speakers_date: 2010
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -1474,6 +1597,7 @@ uig:
     script: Latn
   name: Uighur
   speakers: 10400000
+  speakers_date: 2016
   source:
   - Omniglot
   - Wikipedia
@@ -1485,6 +1609,7 @@ ukr:
     script: Cyrl
   name: Ukrainian
   speakers: 35000000
+  speakers_date: 2000
   source:
   - Omniglot
   - Wikipedia
@@ -1497,6 +1622,7 @@ uum:
     script: Cyrl
   name: Urum
   speakers: 190000
+  speakers_date: 2000
   source:
   - Omniglot
   - Wikipedia
@@ -1507,6 +1633,7 @@ uzb:
   - uzn
   - uzs
   speakers: 31200000
+  speakers_date: 2015-2017
   source: [Wikipedia]
 uzn:
   orthographies:
@@ -1527,6 +1654,7 @@ uzn:
     script: Latn
   name: Northern Uzbek
   speakers: 27000000
+  speakers_date: 2015
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -1536,6 +1664,7 @@ uzs:
     script: Arab
   name: Southern Uzbek
   speakers: 4200000
+  speakers_date: 2017
   source: [Wikipedia]
   todo_status: weak
   note: Single source.
@@ -1547,6 +1676,7 @@ xal:
     script: Cyrl
   name: Kalmyk
   speakers: 80500
+  speakers_date: 2010
   source:
   - Omniglot
   - Wikipedia
@@ -1559,6 +1689,7 @@ yai:
     script: Cyrl
   name: Yagnobi
   speakers: 12000
+  speakers_date: 2004
   source:
   - Omniglot
   - Wikipedia
@@ -1571,6 +1702,7 @@ ykg:
     script: Cyrl
   name: Northern Yukaghir
   speakers: 60–70
+  speakers_date: 2010
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -1582,6 +1714,7 @@ yux:
     script: Cyrl
   name: Southern Yukaghir
   speakers: 5
+  speakers_date: 2010
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -1593,6 +1726,7 @@ yrk:
     script: Cyrl
   name: Nenets
   speakers: 21926
+  speakers_date: 2010
   source:
   - Omniglot
   - Wikipedia
@@ -1605,6 +1739,7 @@ ell:
   name: Modern Greek (1453-)
   preferred_name: Modern Greek
   speakers: 13400000
+  speakers_date: 2007
   source: [Omniglot, CLDR, Wikipedia]
   todo_status: strong
 grc:
@@ -1636,6 +1771,7 @@ jpr:
     script: Hebr
   name: Judeo-Persian
   speakers: 60000
+  speakers_date: 1995
   todo_status: todo
 ydd:
   orthographies:
@@ -1669,6 +1805,7 @@ aar:
     script: Latn
   name: Afar
   speakers: 1973800
+  speakers_date: 2017
   source:
   - Omniglot
   - Wikipedia
@@ -1684,6 +1821,7 @@ aat:
     script: Grek
   name: Arvanitika Albanian
   speakers: 50000
+  speakers_date: 2007
   source:
   - Omniglot
   - Wikipedia
@@ -1695,6 +1833,7 @@ abe:
     script: Latn
   name: Western Abnaki
   speakers: 14
+  speakers_date: 2007-2012
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -1705,6 +1844,7 @@ acz:
     script: Latn
   name: Acheron
   speakers: 20000
+  speakers_date: 2006
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -1715,6 +1855,7 @@ aer:
     script: Latn
   name: Eastern Arrernte
   speakers: 4537
+  speakers_date: 2016
   source:
   - Omniglot
   - Wikipedia
@@ -1727,6 +1868,7 @@ afr:
     script: Latn
   name: Afrikaans
   speakers: 7200000
+  speakers_date: 2016
   source:
   - Omniglot
   - Wikipedia
@@ -1741,6 +1883,7 @@ agq:
     script: Latn
   name: Aghem
   speakers: 27000
+  speakers_date: 2000
   source: [CLDR]
   todo_status: weak
   note: Single source.
@@ -1756,6 +1899,7 @@ fat:
     script: Latn
   name: Fanti
   speakers: 2700000
+  speakers_date: 2019
   source:
   - Omniglot
   - Wikipedia
@@ -1767,6 +1911,7 @@ twi:
     script: Latn
   name: Twi
   speakers: 9000000
+  speakers_date: 2015
   source:
   - Omniglot
   - Wikipedia
@@ -1778,6 +1923,7 @@ abr:
     script: Latn
   name: Abron
   speakers: 1400000
+  speakers_date: 2013
   source:
   - Omniglot
   - Wikipedia
@@ -1789,6 +1935,7 @@ wss:
     script: Latn
   name: Wasa
   speakers: 273000
+  speakers_date: 2013
   source:
   - Omniglot
   - Wikipedia
@@ -1800,6 +1947,7 @@ ami:
     script: Latn
   name: Amis
   speakers: 181000
+  speakers_date: 2009
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -1810,6 +1958,7 @@ aoz:
     script: Latn
   name: Uab Meto
   speakers: 800000
+  speakers_date: 2009-2011
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -1820,6 +1969,7 @@ arg:
     script: Latn
   name: Aragonese
   speakers: 10000–12000
+  speakers_date: 2017
   source:
   - Omniglot
   - Wikipedia
@@ -1832,6 +1982,7 @@ asa:
     script: Latn
   name: Asu (Tanzania)
   speakers: 500000
+  speakers_date: 2000
   source: [CLDR]
   todo_status: weak
   note: Single source.
@@ -1842,6 +1993,7 @@ ast:
     script: Latn
   name: Asturian
   speakers: 351791
+  speakers_date: 2017
   source:
   - Omniglot
   - Wikipedia
@@ -1854,6 +2006,7 @@ aud:
     script: Latn
   name: Anuta
   speakers: 270
+  speakers_date: 1999
   source: [Omniglot, CLDR]
   todo_status: strong
 aym:
@@ -1863,6 +2016,7 @@ aym:
   - ayr
   - ayc
   speakers: 1677100
+  speakers_date: 2007-2011
   source:
   - Omniglot
   - Wikipedia
@@ -1895,6 +2049,7 @@ bam:
     script: Latn
   name: Bambara
   speakers: 4100000
+  speakers_date: 2012
   source:
   - Omniglot
   - Wikipedia
@@ -1919,6 +2074,7 @@ bem:
     script: Latn
   name: Bemba (Zambia)
   speakers: 4100000
+  speakers_date: 2000-2010
   source:
   - Omniglot
   - Wikipedia
@@ -1930,6 +2086,7 @@ bez:
     script: Latn
   name: Bena (Tanzania)
   speakers: 670000
+  speakers_date: 2001
   source: [CLDR]
   todo_status: weak
   note: Single source.
@@ -1953,6 +2110,7 @@ bis:
     script: Latn
   name: Bislama
   speakers: 10000
+  speakers_date: 2011
   source: [Omniglot, Wikipedia, Bislama dictionary]
   todo_status: strong
 bre:
@@ -1962,6 +2120,7 @@ bre:
     script: Latn
   name: Breton
   speakers: 226000
+  speakers_date: 2018
   source:
   - Omniglot
   - Wikipedia
@@ -1986,6 +2145,7 @@ cat:
     script: Latn
   name: Catalan
   speakers: 4100000
+  speakers_date: 2012
   source:
   - Omniglot
   - Wikipedia
@@ -1998,6 +2158,7 @@ cbk:
     script: Latn
   name: Chavacano
   speakers: 689000
+  speakers_date: 1992
   source:
   - Omniglot
   - Wikipedia
@@ -2009,6 +2170,7 @@ ceb:
     script: Latn
   name: Cebuano
   speakers: 16000000
+  speakers_date: 2005
   source:
   - Omniglot
   - Wikipedia
@@ -2022,6 +2184,7 @@ ces:
     script: Latn
   name: Czech
   speakers: 10700000
+  speakers_date: 2015
   source: [Omniglot, Native]
   todo_status: done
 cgg:
@@ -2031,6 +2194,7 @@ cgg:
     script: Latn
   name: Chiga
   speakers: 1600000
+  speakers_date: 2002
   source: [Omniglot, CLDR]
   todo_status: strong
 cha:
@@ -2040,6 +2204,7 @@ cha:
     script: Latn
   name: Chamorro
   speakers: 58000
+  speakers_date: 2005-2015
   source: [Omniglot, Wikipedia, Chamorro dictionary]
   todo_status: strong
 cic:
@@ -2052,6 +2217,7 @@ cic:
     script: Latn
   name: Chickasaw
   speakers: 75
+  speakers_date: 2017
   source:
   - Omniglot
   - Wikipedia
@@ -2064,6 +2230,7 @@ cim:
     script: Latn
   name: Cimbrian
   speakers: 400
+  speakers_date: 2000
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -2074,6 +2241,7 @@ con:
     script: Latn
   name: Cofán
   speakers: 2400
+  speakers_date: 2001-2008
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -2096,6 +2264,7 @@ cos:
     script: Latn
   name: Corsican
   speakers: 125000
+  speakers_date: 2009
   source:
   - Omniglot
   - Wikipedia
@@ -2107,6 +2276,7 @@ crs:
     script: Latn
   name: Seselwa Creole French
   speakers: 73000
+  speakers_date: 1998
   source:
   - Omniglot
   - Wikipedia
@@ -2119,6 +2289,7 @@ csb:
     script: Latn
   name: Kashubian
   speakers: 108000
+  speakers_date: 2011
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -2130,6 +2301,7 @@ cym:
     script: Latn
   name: Welsh
   speakers: 700000
+  speakers_date: 2012
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -2141,6 +2313,7 @@ dan:
     script: Latn
   name: Danish
   speakers: 6000000
+  speakers_date: 2019
   source:
   - Omniglot
   - Wikipedia
@@ -2154,6 +2327,7 @@ dav:
     script: Latn
   name: Taita
   speakers: 370000
+  speakers_date: 1992-2009
   source: [CLDR]
   todo_status: weak
   note: Single source.
@@ -2163,6 +2337,7 @@ del:
   - unm
   name: Delaware
   speakers: 2
+  speakers_date: 2018
 umu:
   orthographies:
   - base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ó ú ă ŭ
@@ -2170,6 +2345,7 @@ umu:
     script: Latn
   name: Munsee
   speakers: 2
+  speakers_date: 2018
   source:
   - Omniglot
   - Wikipedia
@@ -2187,6 +2363,7 @@ deu:
     script: Latn
   name: German
   speakers: 90000000
+  speakers_date: 2010
   source:
   - Omniglot
   - Wikipedia
@@ -2198,6 +2375,7 @@ dhv:
     script: Latn
   name: Dehu
   speakers: 13000
+  speakers_date: 2009
   source: [Omniglot]
   todo_status: weak
   note: Single source. 13000 includes L2 speakers.
@@ -2219,6 +2397,7 @@ dje:
     script: Latn
   name: Zarma
   speakers: 3600000
+  speakers_date: 2019
   source:
   - Omniglot
   - Wikipedia
@@ -2232,6 +2411,7 @@ dsb:
     script: Latn
   name: Lower Sorbian
   speakers: 6900
+  speakers_date: 2007
   source: [Omniglot, CLDR, Alvestrand]
   todo_status: strong
 dua:
@@ -2242,6 +2422,7 @@ dua:
     script: Latn
   name: Duala
   speakers: 87700
+  speakers_date: 1982
   source: [Omniglot, CLDR]
   todo_status: strong
   note: The number of speakers is a conservative estimate.
@@ -2262,6 +2443,7 @@ ebu:
     script: Latn
   name: Embu
   speakers: 320000
+  speakers_date: 2009
   source: [CLDR]
   todo_status: weak
   note: Single source.
@@ -2273,6 +2455,7 @@ eng:
     script: Latn
   name: English
   speakers: 400000000
+  speakers_date: 2006
   source:
   - Omniglot
   - Wikipedia
@@ -2298,6 +2481,7 @@ est:
     script: Latn
   name: Estonian
   speakers: 1100000
+  speakers_date: 2012
   source: [Omniglot, CLDR, Alvestrand]
   todo_status: done
 eus:
@@ -2307,6 +2491,7 @@ eus:
     script: Latn
   name: Basque
   speakers: 750000
+  speakers_date: 2016
   source:
   - Omniglot
   - Wikipedia
@@ -2320,6 +2505,7 @@ ewe:
     script: Latn
   name: Ewe
   speakers: 5000000
+  speakers_date: 1991-2013
   source: [Omniglot, CLDR]
   todo_status: strong
 ewo:
@@ -2331,6 +2517,7 @@ ewo:
     script: Latn
   name: Ewondo
   speakers: 580000
+  speakers_date: 1982
   source:
   - Omniglot
   - Wikipedia
@@ -2345,6 +2532,7 @@ fao:
     script: Latn
   name: Faroese
   speakers: 72000
+  speakers_date: 2007
   source:
   - Omniglot
   - Wikipedia
@@ -2356,6 +2544,7 @@ fij:
     script: Latn
   name: Fijian
   speakers: 339210
+  speakers_date: 1996
   source:
   - Omniglot
   - Wikipedia
@@ -2367,6 +2556,7 @@ fil:
     script: Latn
   name: Filipino
   speakers: 45000000
+  speakers_date: 2013
   source: [CLDR]
   todo_status: weak
   note: Single source.
@@ -2378,6 +2568,7 @@ fin:
     script: Latn
   name: Finnish
   speakers: 5400000
+  speakers_date: 2009-2012
   source: [Omniglot, CLDR, Alvestrand, Native]
   todo_status: done
 fra:
@@ -2388,6 +2579,7 @@ fra:
     script: Latn
   name: French
   speakers: 76800000
+  speakers_date: 2014
   source:
   - Omniglot
   - Wikipedia
@@ -2402,6 +2594,7 @@ fry:
     script: Latn
   name: Western Frisian
   speakers: 470000
+  speakers_date: 2001
   source:
   - Omniglot
   - Wikipedia
@@ -2426,6 +2619,7 @@ fuc:
     script: Latn
   name: Pulaar
   speakers: 4450000
+  speakers_date: 2019
   source:
   - Omniglot
   - Wikipedia
@@ -2439,6 +2633,7 @@ fuf:
     script: Latn
   name: Pular
   speakers: 3808200
+  speakers_date: 1991-2016
   source:
   - Omniglot
   - Wikipedia
@@ -2452,6 +2647,7 @@ ffm:
     script: Latn
   name: Maasina Fulfulde
   speakers: 1000000
+  speakers_date: 2007
   source:
   - Omniglot
   - Wikipedia
@@ -2533,10 +2729,12 @@ fur:
     script: Latn
   name: Friulian
   speakers: 600000
+  speakers_date: 2015
   source:
   - Omniglot
   - Wikipedia
   todo_status: strong
+  note: Speaker count includes up to 180000 non-native speakers.
 gcf:
   orthographies:
   - base: a b c d e f g h i j k l m n o p q r s t u v w x y z è é ò
@@ -2544,6 +2742,7 @@ gcf:
     script: Latn
   name: Guadeloupean Creole French
   speakers: 1200000
+  speakers_date: 1998-2001
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -2554,6 +2753,7 @@ gil:
     script: Latn
   name: Gilbertese
   speakers: 120000
+  speakers_date: 1988-2010
   source:
   - Omniglot
   - Wikipedia
@@ -2565,6 +2765,7 @@ gla:
     script: Latn
   name: Scottish Gaelic
   speakers: 57000
+  speakers_date: 2011
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -2575,6 +2776,7 @@ gle:
     script: Latn
   name: Irish
   speakers: 141000
+  speakers_date: 2012
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -2585,6 +2787,7 @@ glg:
     script: Latn
   name: Galician
   speakers: 1560000
+  speakers_date: 2007
   source: [Omniglot]
   todo_status: weak
   note: Single source. 58% of the population of Galicia are L1 speakers.
@@ -2607,6 +2810,7 @@ gni:
     script: Latn
   name: Gooniyandi
   speakers: 134
+  speakers_date: 2016
   source: [CLDR]
   todo_status: weak
   note: Single source.
@@ -2617,6 +2821,7 @@ gqa:
     script: Latn
   name: Ga’anda
   speakers: 43000
+  speakers_date: 1992
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -2627,6 +2832,7 @@ gsw:
     script: Latn
   name: Swiss German
   speakers: 4930000
+  speakers_date: 2013
   source: [Omniglot, CLDR]
   todo_status: strong
 guc:
@@ -2636,6 +2842,7 @@ guc:
     script: Latn
   name: Wayuu
   speakers: 320000
+  speakers_date: 2001-2007
   source:
   - Omniglot
   - Wikipedia
@@ -2648,6 +2855,7 @@ guz:
     script: Latn
   name: Gusii
   speakers: 2200000
+  speakers_date: 2009
   source: [Omniglot, CLDR]
   todo_status: strong
 gwi:
@@ -2658,6 +2866,7 @@ gwi:
     script: Latn
   name: Gwichʼin
   speakers: 560
+  speakers_date: 2007-2016
   source:
   - Omniglot
   - Wikipedia
@@ -2669,6 +2878,7 @@ haa:
     script: Latn
   name: Han
   speakers: 20
+  speakers_date: 1997-2007
   source:
   - Omniglot
   - Wikipedia
@@ -2681,6 +2891,7 @@ hat:
     script: Latn
   name: Haitian
   speakers: 9600000
+  speakers_date: 2007
   source:
   - Omniglot
   - Wikipedia
@@ -2693,6 +2904,7 @@ hau:
     script: Latn
   name: Hausa
   speakers: 40000000
+  speakers_date: 2015-2016
   source:
   - Omniglot
   - Wikipedia
@@ -2705,6 +2917,7 @@ haw:
     script: Latn
   name: Hawaiian
   speakers: 24000
+  speakers_date: 2008
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -2715,6 +2928,7 @@ hil:
     script: Latn
   name: Hiligaynon
   speakers: 9300000
+  speakers_date: 2010
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -2725,6 +2939,7 @@ hop:
     script: Latn
   name: Hopi
   speakers: 6780
+  speakers_date: 2010
   source:
   - Omniglot
   - Wikipedia
@@ -2736,6 +2951,7 @@ hrv:
     script: Latn
   name: Croatian
   speakers: 5600000
+  speakers_date: 1991-2006
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -2747,6 +2963,7 @@ hsb:
     script: Latn
   name: Upper Sorbian
   speakers: 13000
+  speakers_date: 2007
   source: [Omniglot, CLDR, Alvestrand]
   todo_status: strong
 hun:
@@ -2756,6 +2973,7 @@ hun:
     script: Latn
   name: Hungarian
   speakers: 13000000
+  speakers_date: 2003-2014
   source: [Omniglot, Alvestrand, Native]
   todo_status: strong
 ibo:
@@ -2766,6 +2984,7 @@ ibo:
     script: Latn
   name: Igbo
   speakers: 27000000
+  speakers_date: 2015
   source:
   - Omniglot
   - Wikipedia
@@ -2779,6 +2998,7 @@ ido:
     script: Latn
   name: Ido
   speakers: 100–200
+  speakers_date: 2015
   source:
   - Omniglot
   - Wikipedia
@@ -2811,6 +3031,7 @@ ilo:
     script: Latn
   name: Iloko
   speakers: 9100000
+  speakers_date: 2015
   source:
   - Omniglot
   - Wikipedia
@@ -2823,6 +3044,7 @@ ina:
   name: Interlingua (International Auxiliary Language Association)
   preferred_name: Interlingua
   speakers: 1500
+  speakers_date: 2000
   source: [Omniglot]
   todo_status: strong
   note: Constructed language, not Interlingue.
@@ -2833,6 +3055,7 @@ ind:
     script: Latn
   name: Indonesian
   speakers: 43000000
+  speakers_date: 2010
   source:
   - Omniglot
   - Wikipedia
@@ -2845,6 +3068,7 @@ isl:
     script: Latn
   name: Icelandic
   speakers: 314000
+  speakers_date: 2015
   source:
   - Omniglot
   - Wikipedia
@@ -2858,6 +3082,7 @@ ita:
     script: Latn
   name: Italian
   speakers: 90000000
+  speakers_date: 2012
   source:
   - Omniglot
   - Wikipedia
@@ -2869,6 +3094,7 @@ jam:
     script: Latn
   name: Jamaican Creole English
   speakers: 3200000
+  speakers_date: 2000-2001
   source:
   - Omniglot
   - Wikipedia
@@ -2880,6 +3106,7 @@ jav:
     script: Latn
   name: Javanese
   speakers: 82000000
+  speakers_date: 2007
   source:
   - Omniglot
   - Wikipedia
@@ -2905,6 +3132,7 @@ jgo:
     script: Latn
   name: Ngomba
   speakers: 63000
+  speakers_date: 1999
   source: [CLDR]
   todo_status: weak
   note: Single source.
@@ -2916,6 +3144,7 @@ kab:
     script: Latn
   name: Kabyle
   speakers: 5600000
+  speakers_date: 2012
   source:
   - Omniglot
   - Wikipedia
@@ -2936,6 +3165,7 @@ kal:
     script: Latn
   name: Kalaallisut
   speakers: 57000
+  speakers_date: 2007
   source:
   - Omniglot
   - Wikipedia
@@ -2947,6 +3177,7 @@ kam:
     script: Latn
   name: Kamba (Kenya)
   speakers: 3900000
+  speakers_date: 2009
   source: [CLDR]
   todo_status: weak
   note: Single source.
@@ -2957,6 +3188,7 @@ kde:
     script: Latn
   name: Makonde
   speakers: 1400000
+  speakers_date: 2006
   source: [Omniglot, CLDR]
   todo_status: strong
 kea:
@@ -2967,6 +3199,7 @@ kea:
     script: Latn
   name: Kabuverdianu
   speakers: 871000
+  speakers_date: 2017
   source:
   - Omniglot
   - Wikipedia
@@ -2978,6 +3211,7 @@ kek:
     script: Latn
   name: Kekchí
   speakers: 800000
+  speakers_date: 2009
   source:
   - Omniglot
   - Wikipedia
@@ -2989,6 +3223,7 @@ kgp:
     script: Latn
   name: Kaingang
   speakers: 18000
+  speakers_date: 1989
   source:
   - Omniglot
   - Wikipedia
@@ -3001,6 +3236,7 @@ khq:
     script: Latn
   name: Koyra Chiini Songhay
   speakers: 200000
+  speakers_date: 1999
   source: [CLDR]
   todo_status: weak
   note: Single source.
@@ -3011,6 +3247,7 @@ kik:
     script: Latn
   name: Kikuyu
   speakers: 10000000
+  speakers_date: 2009
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -3021,6 +3258,7 @@ kin:
     script: Latn
   name: Kinyarwanda
   speakers: 9800000
+  speakers_date: 2018
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -3030,6 +3268,7 @@ zza:
   - kiu
   - diq
   speakers: 1600000
+  speakers_date: 1998
   source: [Wikipedia]
 kiu:
   orthographies:
@@ -3051,6 +3290,7 @@ kkj:
     script: Latn
   name: Kako
   speakers: 120000
+  speakers_date: 1996-2003
   source: [CLDR]
   todo_status: weak
   note: Single source.
@@ -3076,14 +3316,15 @@ kon:
   - kwy
   - yom
   speakers: 6500000
+  speakers_date: 1982-2012
   source: [Wikipedia]
+  note: Speaker count for all included languages.
 kng:
   orthographies:
   - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
     autonym: Kikongo
     script: Latn
   name: Koongo
-  speakers: 6500000
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -3119,6 +3360,7 @@ krl:
     script: Latn
   name: Karelian
   speakers: 36000
+  speakers_date: 1994-2010
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -3130,6 +3372,7 @@ ksb:
     script: Latn
   name: Shambala
   speakers: 660000
+  speakers_date: 2001
   source: [CLDR]
   todo_status: weak
   note: Single source.
@@ -3141,6 +3384,7 @@ ksf:
     script: Latn
   name: Bafia
   speakers: 60000
+  speakers_date: 1991
   source: [CLDR]
   todo_status: weak
   note: Single source.
@@ -3165,6 +3409,7 @@ kua:
     script: Latn
   name: Kuanyama
   speakers: 670000
+  speakers_date: 1993-2006
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -3175,6 +3420,7 @@ lag:
     script: Latn
   name: Langi
   speakers: 410000
+  speakers_date: 2007
   source: [CLDR]
   todo_status: weak
   note: Single source.
@@ -3199,6 +3445,7 @@ lav:
     script: Latn
   name: Latvian
   speakers: 1750000
+  speakers_date: 2015
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -3210,6 +3457,7 @@ lij:
     script: Latn
   name: Ligurian
   speakers: 500000
+  speakers_date: 2002
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -3222,6 +3470,7 @@ lin:
     script: Latn
   name: Lingala
   speakers: 15000000
+  speakers_date: 2017
   source:
   - Omniglot
   - Wikipedia
@@ -3234,6 +3483,7 @@ lit:
     script: Latn
   name: Lithuanian
   speakers: 3000000
+  speakers_date: 2012
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -3245,6 +3495,7 @@ lkt:
     script: Latn
   name: Lakota
   speakers: 2100
+  speakers_date: 1997
   source:
   - Omniglot
   - Wikipedia
@@ -3258,6 +3509,7 @@ lld:
     script: Latn
   name: Ladin
   speakers: 41129
+  speakers_date: 2006-2011
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -3269,6 +3521,7 @@ lmo:
     script: Latn
   name: Lombard
   speakers: 3900000
+  speakers_date: 2002
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -3280,6 +3533,7 @@ ltz:
     script: Latn
   name: Luxembourgish
   speakers: 390000
+  speakers_date: 2010
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -3290,6 +3544,7 @@ lua:
     script: Latn
   name: Luba-Lulua
   speakers: 6300000
+  speakers_date: 1991
   source:
   - Omniglot
   - Wikipedia
@@ -3303,6 +3558,7 @@ lub:
     script: Latn
   name: Luba-Katanga
   speakers: 1505000
+  speakers_date: 1991
   source: [CLDR]
   todo_status: weak
   note: Single source.
@@ -3325,12 +3581,14 @@ luo:
     autonym: Dholuo
     script: Latn
   name: Luo (Kenya and Tanzania)
-  speakers: 8000000
+  speakers: 4200000
+  speakers_date: 2009
   source:
   - Omniglot
   - Wikipedia
   - CLDR
   todo_status: strong
+  note: Alternative speaker count of 8000000 unconfirmed.
 luy:
   orthographies:
   - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
@@ -3338,6 +3596,7 @@ luy:
     script: Latn
   name: Luyia
   speakers: 1200000
+  speakers_date: 2009
   source: [CLDR]
   todo_status: weak
   note: Single source.
@@ -3349,6 +3608,7 @@ mas:
     script: Latn
   name: Masai
   speakers: 1500000
+  speakers_date: 2009-2016
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -3362,10 +3622,11 @@ mer:
     auxiliary: f p q s v x z
     autonym: Kimîîru
   name: Meru
-  speakers: 2700000
+  speakers: 2000000
+  speakers_date: 2009
   source: [CLDR]
   todo_status: weak
-  note: Single source.
+  note: Single source. Alternative speaker count of 2300000 unconfirmed.
 mfe:
   orthographies:
   - base: a b c d e f g h i j k l m n o p r s t u v w x y z
@@ -3374,6 +3635,7 @@ mfe:
   name: Morisyen
   preferred_name: Mauritian Creole
   speakers: 1090000
+  speakers_date: 2016
   source: [Omniglot, CLDR]
   todo_status: strong
 mgh:
@@ -3383,6 +3645,7 @@ mgh:
     script: Latn
   name: Makhuwa-Meetto
   speakers: 6600000
+  speakers_date: 2006
   source: [CLDR]
   todo_status: weak
   note: Single source.
@@ -3394,6 +3657,7 @@ mgo:
     script: Latn
   name: Meta'
   speakers: 190000
+  speakers_date: 2010
   source: [CLDR]
   todo_status: weak
   note: Single source.
@@ -3420,6 +3684,7 @@ mlg:
     script: Latn
   name: Malagasy
   speakers: 25000000
+  speakers_date: 2015
   source:
   - Omniglot
   - Wikipedia
@@ -3460,6 +3725,7 @@ mlt:
     script: Latn
   name: Maltese
   speakers: 520000
+  speakers_date: 2012
   source:
   - Omniglot
   - Wikipedia
@@ -3472,6 +3738,7 @@ moe:
     script: Latn
   name: Montagnais
   speakers: 10075
+  speakers_date: 2016
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -3482,6 +3749,7 @@ moh:
     script: Latn
   name: Mohawk
   speakers: 3875
+  speakers_date: 2011-2016
   source:
   - Omniglot
   - Wikipedia
@@ -3505,6 +3773,7 @@ mrq:
     script: Latn
   name: North Marquesan
   speakers: 4350
+  speakers_date: 2007
   source: [CLDR]
   todo_status: weak
   note: Single source. The number of speakers is estimate, a half of total Marquesan
@@ -3516,6 +3785,7 @@ mqm:
     script: Latn
   name: South Marquesan
   speakers: 4350
+  speakers_date: 2007
   source: [CLDR]
   todo_status: weak
   note: Single source. The number of speakers is estimate, a half of total Marquesan
@@ -3542,6 +3812,7 @@ mua:
     script: Latn
   name: Mundang
   speakers: 240000
+  speakers_date: 1982-2006
   source:
   - Omniglot
   - Wikipedia
@@ -3553,6 +3824,7 @@ mus:
     script: Latn
   name: Creek
   speakers: 4500
+  speakers_date: 2015
   source:
   - Omniglot
   - Wikipedia
@@ -3564,6 +3836,7 @@ mwf:
     script: Latn
   name: Murrinh-Patha
   speakers: 1973
+  speakers_date: 2016
   source:
   - Omniglot
   - Wikipedia
@@ -3575,6 +3848,7 @@ mwl:
     script: Latn
   name: Mirandese
   speakers: 15000
+  speakers_date: 2000
   source: [Omniglot, Native]
   todo_status: done
 mwp:
@@ -3597,6 +3871,7 @@ mwp:
     script: Latn
   name: Kala Lagaw Ya
   speakers: 957
+  speakers_date: 2016
   source:
   - Omniglot
   - Wikipedia
@@ -3608,6 +3883,7 @@ nag:
     script: Latn
   name: Naga Pidgin
   speakers: 30000
+  speakers_date: 1989
   source:
   - Omniglot
   - Wikipedia
@@ -3620,6 +3896,7 @@ nap:
     script: Latn
   name: Neapolitan
   speakers: 5700000
+  speakers_date: 2002
   source:
   - Omniglot
   - Wikipedia
@@ -3633,6 +3910,7 @@ naq:
     script: Latn
   name: Khoekhoe
   speakers: 200000
+  speakers_date: 2011
   source:
   - Omniglot
   - Wikipedia
@@ -3645,6 +3923,7 @@ nbl:
     script: Latn
   name: South Ndebele
   speakers: 1100000
+  speakers_date: 2011
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -3655,6 +3934,7 @@ nde:
     script: Latn
   name: North Ndebele
   speakers: 1600000
+  speakers_date: 2012
   source:
   - Omniglot
   - Wikipedia
@@ -3676,6 +3956,7 @@ nhn:
     script: Latn
   name: Central Nahuatl
   speakers: 40000
+  speakers_date: 1980
   source:
   - Omniglot
   - Wikipedia
@@ -3687,9 +3968,10 @@ niu:
     script: Latn
   name: Niuean
   speakers: 7700
+  speakers_date: 1998
   source: [Omniglot]
   todo_status: weak
-  note: Single source.
+  note: Single source. Speaker count date for 2000 in Niue only.
 nld:
   orthographies:
   - base: a b c d e f g h i j k l m n o p q r s t u v w x y z á â ä è é ê ë í ï ó
@@ -3699,6 +3981,7 @@ nld:
     script: Latn
   name: Dutch
   speakers: 24000000
+  speakers_date: 2016
   source: [Omniglot, Native]
   todo_status: done
 nmg:
@@ -3710,6 +3993,7 @@ nmg:
     script: Latn
   name: Kwasio
   speakers: 26000
+  speakers_date: 1982-2012
   source: [CLDR]
   todo_status: weak
   note: Single source.
@@ -3722,6 +4006,7 @@ nnh:
     script: Latn
   name: Ngiemboon
   speakers: 250000
+  speakers_date: 2000
   source: [CLDR]
   todo_status: weak
   note: Single source.
@@ -3740,7 +4025,8 @@ nor:
   includes:
   - nno
   - nob
-  speakers: 5000000
+  speakers: 4320000
+  speakers_date: 2012
   source:
   - Omniglot
   - Wikipedia
@@ -3776,6 +4062,7 @@ nso:
     script: Latn
   name: Pedi
   speakers: 4700000
+  speakers_date: 2011
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -3787,6 +4074,7 @@ nus:
     script: Latn
   name: Nuer
   speakers: 890000
+  speakers_date: 1982-2007
   source:
   - Omniglot
   - Wikipedia
@@ -3798,6 +4086,7 @@ nya:
     script: Latn
   name: Nyanja
   speakers: 12000000
+  speakers_date: 2007
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -3808,6 +4097,7 @@ nyn:
     script: Latn
   name: Nyankole
   speakers: 3400000
+  speakers_date: 2014
   source:
   - Omniglot
   - Wikipedia
@@ -3821,6 +4111,7 @@ oci:
   name: Occitan (post 1500)
   preferred_name: Occitan
   speakers: 100000–800000
+  speakers_date: 2007-2012
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -3830,7 +4121,8 @@ orm:
     autonym: Oromo
     script: Latn
   name: Oromo
-  speakers: 34500000
+  speakers: 34542000
+  speakers_date: 2015
   source:
   - Omniglot
   - Wikipedia
@@ -3849,6 +4141,7 @@ pam:
     note: According to Wikipedia
   name: Pampanga
   speakers: 1900000
+  speakers_date: 1990
   source:
   - Omniglot
   - Wikipedia
@@ -3871,6 +4164,7 @@ plz:
     script: Latn
   name: Paluan
   speakers: 5500
+  speakers_date: 2000
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -3881,6 +4175,7 @@ pms:
     script: Latn
   name: Piemontese
   speakers: 700000
+  speakers_date: 2012
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -3902,6 +4197,7 @@ por:
     script: Latn
   name: Portuguese
   speakers: 223000000
+  speakers_date: 2012-2016
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -3949,6 +4245,7 @@ rar:
     script: Latn
   name: Rarotongan
   speakers: 21345
+  speakers_date: 2011-2013
   source:
   - Omniglot
   - Wikipedia
@@ -3970,6 +4267,7 @@ roh:
     script: Latn
   name: Romansh
   speakers: 44354
+  speakers_date: 2017
   source:
   - Omniglot
   - Wikipedia
@@ -3982,6 +4280,7 @@ roo:
     script: Latn
   name: Rotokas
   speakers: 4300
+  speakers_date: 1981
   source:
   - Omniglot
   - Wikipedia
@@ -3993,6 +4292,7 @@ run:
     script: Latn
   name: Rundi
   speakers: 8800000
+  speakers_date: 2007
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -4003,6 +4303,7 @@ ruo:
     script: Latn
   name: Istro Romanian
   speakers: 300
+  speakers_date: 2007
   source: [CLDR]
   todo_status: weak
   note: Single source.
@@ -4013,6 +4314,7 @@ rup:
     script: Latn
   name: Macedo-Romanian
   speakers: 250000
+  speakers_date: 1997
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -4024,6 +4326,7 @@ ruq:
     script: Latn
   name: Megleno Romanian
   speakers: 5000
+  speakers_date: 2002
   source:
   - Omniglot
   - Wikipedia
@@ -4045,6 +4348,7 @@ sag:
     script: Latn
   name: Sango
   speakers: 450000
+  speakers_date: 1988
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -4056,6 +4360,7 @@ saq:
     script: Latn
   name: Samburu
   speakers: 240000
+  speakers_date: 2009
   source: [CLDR]
   todo_status: weak
   note: Single source.
@@ -4067,6 +4372,7 @@ sbp:
     script: Latn
   name: Sangu (Tanzania)
   speakers: 75000
+  speakers_date: 1987
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -4077,6 +4383,7 @@ scn:
     script: Latn
   name: Sicilian
   speakers: 4700000
+  speakers_date: 2002
   source:
   - Omniglot
   - Wikipedia
@@ -4088,6 +4395,7 @@ seh:
     script: Latn
   name: Sena
   speakers: 1600000
+  speakers_date: 2001-2006
   source:
   - Omniglot
   - Wikipedia
@@ -4099,6 +4407,7 @@ sei:
     script: Latn
   name: Seri
   speakers: 764
+  speakers_date: 2010
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -4109,6 +4418,7 @@ ses:
     script: Latn
   name: Koyraboro Senni Songhai
   speakers: 430000
+  speakers_date: 2007
   source: [CLDR]
   todo_status: weak
   note: Single source.
@@ -4124,6 +4434,7 @@ shi:
   - Wikipedia
   - CLDR
   todo_status: strong
+  note: Speaker count equals approximately 14.1% of Moroccan population.
 sjw:
   orthographies:
   - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
@@ -4131,6 +4442,7 @@ sjw:
     script: Latn
   name: Shawnee
   speakers: 200
+  speakers_date: 2002
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -4142,6 +4454,7 @@ slk:
     script: Latn
   name: Slovak
   speakers: 5200000
+  speakers_date: 2011-2012
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -4152,6 +4465,7 @@ slv:
     script: Latn
   name: Slovenian
   speakers: 2500000
+  speakers_date: 2010
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -4162,6 +4476,7 @@ sma:
     script: Latn
   name: Southern Sami
   speakers: 600
+  speakers_date: 1992
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -4173,6 +4488,7 @@ sme:
     script: Latn
   name: Northern Sami
   speakers: 25000
+  speakers_date: 1992-2013
   source:
   - Omniglot
   - Alvestrand
@@ -4188,6 +4504,7 @@ smj:
     script: Latn
   name: Lule Sami
   speakers: 650
+  speakers_date: 2015
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -4198,6 +4515,7 @@ smn:
     script: Latn
   name: Inari Sami
   speakers: 400
+  speakers_date: 2018
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -4210,6 +4528,7 @@ sju:
     script: Latn
   name: Ume Sami
   speakers: 10
+  speakers_date: 2000
   source: [Wikipedia]
   todo_status: weak
   note: Single source.
@@ -4219,7 +4538,8 @@ sje:
     autonym: Bidumsámegiella
     script: Latn
   name: Pite Sami
-  speakers: 10–50
+  speakers: 25–50
+  speakers_date: 2010
   source: [Wikipedia]
   todo_status: weak
   note: Single source.
@@ -4239,6 +4559,7 @@ sms:
     script: Latn
   name: Skolt Sami
   speakers: 320
+  speakers_date: 1995-2007
   source: [Wikipedia]
   todo_status: weak
   note: Single source.
@@ -4247,6 +4568,7 @@ sia:
   - autonym: Bidumsámegiella
     script: Latn
   name: Akkala Sami
+  speakers: 0
   status: historical
   todo_status: todo
 sjt:
@@ -4257,6 +4579,7 @@ sjt:
     script: Cyrl
   name: Ter Sami
   speakers: 2
+  speakers_date: 2010
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -4267,6 +4590,7 @@ smo:
     script: Latn
   name: Samoan
   speakers: 510000
+  speakers_date: 2015
   source:
   - Omniglot
   - Wikipedia
@@ -4278,6 +4602,7 @@ sna:
     script: Latn
   name: Shona
   speakers: 10800000
+  speakers_date: 2000-2007
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -4288,6 +4613,7 @@ som:
     script: Latn
   name: Somali
   speakers: 16000000
+  speakers_date: 2015
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -4298,6 +4624,7 @@ sot:
     script: Latn
   name: Southern Sotho
   speakers: 5600000
+  speakers_date: 2001-2011
   source:
   - Omniglot
   - Wikipedia
@@ -4309,6 +4636,7 @@ spa:
     script: Latn
   name: Spanish
   speakers: 483000000
+  speakers_date: 2019
   source: [Omniglot, CLDR]
   todo_status: strong
 sqi:
@@ -4318,6 +4646,7 @@ sqi:
     script: Latn
   name: Albanian
   speakers: 5400000
+  speakers_date: 2011
   source:
   - Omniglot
   - Wikipedia
@@ -4330,6 +4659,7 @@ srd:
     script: Latn
   name: Sardinian
   speakers: 1350000
+  speakers_date: 2016
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -4340,6 +4670,7 @@ srm:
     script: Latn
   name: Saramaccan
   speakers: 90000
+  speakers_date: 2013
   source:
   - Omniglot
   - Wikipedia
@@ -4351,6 +4682,7 @@ srn:
     script: Latn
   name: Sranan Tongo
   speakers: 130000
+  speakers_date: 1993
   source:
   - Omniglot
   - Wikipedia
@@ -4362,6 +4694,7 @@ ssw:
     script: Latn
   name: Swati
   speakers: 2300000
+  speakers_date: 2006-2011
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -4372,6 +4705,7 @@ sun:
     script: Latn
   name: Sundanese
   speakers: 40000000
+  speakers_date: 2016
   source:
   - Omniglot
   - Wikipedia
@@ -4383,6 +4717,7 @@ swa:
     script: Latn
   name: Swahili (macrolanguage)
   speakers: 150000000
+  speakers_date: 2012
   includes:
   - swc
   - swh
@@ -4393,6 +4728,7 @@ swa:
   - Wikipedia
   - CLDR
   todo_status: strong
+  note: Speaker counts estimate between 2 and 150 million.
 swc:
   orthographies:
   - base: a b c d e f g h i j k l m n o p r s t u v w y z
@@ -4410,10 +4746,13 @@ swh:
   name: Swahili (individual language)
   preferred_name: Swahili
   speakers: 150000000
+  speakers_date: 2012
   source:
   - Omniglot
   - Wikipedia
   todo_status: weak
+  todo_status: strong
+  note: Speaker counts estimate between 2 and 150 million.
 ymk:
   orthographies:
   - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
@@ -4421,6 +4760,7 @@ ymk:
     script: Latn
   name: Makwe
   speakers: 119700
+  speakers_date: 2003-2009
   source: [CLDR]
   todo_status: weak
   note: Single source.
@@ -4431,6 +4771,7 @@ swe:
     script: Latn
   name: Swedish
   speakers: 10000000
+  speakers_date: 2018
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -4441,6 +4782,7 @@ szl:
     script: Latn
   name: Silesian
   speakers: 510000
+  speakers_date: 2011
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -4451,9 +4793,10 @@ tah:
     script: Latn
   name: Tahitian
   speakers: 68260
+  speakers_date: 2007
   source: [Omniglot]
   todo_status: weak
-  note: Single source.
+  note: Single source. Speaker count based on 37% of the ethnic population.
 tay:
   orthographies:
   - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ŋ ə ’
@@ -4462,6 +4805,7 @@ tay:
     script: Latn
   name: Atayal
   speakers: 84000
+  speakers_date: 2002
   source:
   - Omniglot
   - Wikipedia
@@ -4474,6 +4818,7 @@ tdt:
     script: Latn
   name: Tetun Dili
   speakers: 390000
+  speakers_date: 2009
   source:
   - Omniglot
   - Wikipedia
@@ -4486,6 +4831,7 @@ teo:
     script: Latn
   name: Teso
   speakers: 1900000
+  speakers_date: 2002-2009
   source:
   - Omniglot
   - Wikipedia
@@ -4497,6 +4843,7 @@ tgl:
     script: Latn
   name: Tagalog
   speakers: 23800000
+  speakers_date: 2019
   source:
   - Omniglot
   - Wikipedia
@@ -4508,6 +4855,7 @@ tkl:
     script: Latn
   name: Tokelau
   speakers: 3517
+  speakers_date: 1987-2006
   source:
   - Omniglot
   - Wikipedia
@@ -4530,11 +4878,13 @@ ton:
     script: Latn
   name: Tonga (Tonga Islands)
   speakers: 187000
+  speakers_date: 1998
   source:
   - Omniglot
   - Wikipedia
   - CLDR
   todo_status: strong
+  note: Speaker date references 1998 census in Tonga, others unknown.
 tpi:
   orthographies:
   - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
@@ -4542,6 +4892,7 @@ tpi:
     script: Latn
   name: Tok Pisin
   speakers: 120000
+  speakers_date: 2004
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -4552,6 +4903,7 @@ tsn:
     script: Latn
   name: Tswana
   speakers: 5200000
+  speakers_date: 1993-2011
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -4562,6 +4914,7 @@ tso:
     script: Latn
   name: Tsonga
   speakers: 12000000
+  speakers_date: 2006-2011
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -4572,6 +4925,7 @@ tum:
     script: Latn
   name: Tumbuka
   speakers: 1546000
+  speakers_date: 2009-2010
   source:
   - Omniglot
   - Wikipedia
@@ -4583,6 +4937,7 @@ tur:
     script: Latn
   name: Turkish
   speakers: 75700000
+  speakers_date: 2002-2018
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -4594,10 +4949,12 @@ tvl:
     script: Latn
   name: Tuvalu
   speakers: 12000
+  speakers_date: 2015
   source:
   - Omniglot
   - Wikipedia
   todo_status: strong
+  note: Speaker count date for 10000 speakers in Tuvalu, rest unknown.
 twq:
   orthographies:
   - base: a b c d e f g h i j k l m n o p q r s t u w x y z ã õ ŋ š ž ɲ ẽ
@@ -4606,6 +4963,7 @@ twq:
     script: Latn
   name: Tasawaq
   speakers: 8000
+  speakers_date: 1998
   source: [CLDR]
   todo_status: weak
   note: Single source.
@@ -4616,6 +4974,7 @@ tzm:
     script: Latn
   name: Central Atlas Tamazight
   speakers: 5000000
+  speakers_date: 2019
   source:
   - Omniglot
   - Wikipedia
@@ -4628,6 +4987,7 @@ tzo:
     script: Latn
   name: Tzotzil
   speakers: 404704
+  speakers_date: 2010
   source:
   - Omniglot
   - Wikipedia
@@ -4639,6 +4999,7 @@ ulk:
     script: Latn
   name: Meriam Mir
   speakers: 217
+  speakers_date: 2016
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -4650,6 +5011,7 @@ vec:
     script: Latn
   name: Venetian
   speakers: 3900000
+  speakers_date: 2002
   source:
   - Omniglot
   - Wikipedia
@@ -4660,6 +5022,7 @@ vep:
     autonym: Vepsä
     script: Latn
   name: Veps
+  speakers_date: 2010
   speakers: 1600
   source: [Omniglot]
   todo_status: weak
@@ -4673,6 +5036,7 @@ vie:
     script: Latn
   name: Vietnamese
   speakers: 76000000
+  speakers_date: 2009
   source:
   - Omniglot
   - Wikipedia
@@ -4685,6 +5049,7 @@ vmw:
     script: Latn
   name: Makhuwa
   speakers: 6600000
+  speakers_date: 2006
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -4695,6 +5060,7 @@ vol:
     script: Latn
   name: Volapük
   speakers: 20
+  speakers_date: 2000
   source:
   - Omniglot
   - Wikipedia
@@ -4707,6 +5073,7 @@ vro:
     script: Latn
   name: Võro
   speakers: 87000
+  speakers_date: 2011
   source:
   - Omniglot
   - Wikipedia
@@ -4740,6 +5107,7 @@ wae:
     script: Latn
   name: Walser
   speakers: 22780
+  speakers_date: 2004
   source:
   - Wikipedia
   - CLDR
@@ -4755,6 +5123,7 @@ war:
     note: Filipino orthography
   name: Waray (Philippines)
   speakers: 2600000
+  speakers_date: 2005
   source:
   - Omniglot
   - Wikipedia
@@ -4769,6 +5138,7 @@ wbp:
     script: Latn
   name: Warlpiri
   speakers: 2304
+  speakers_date: 2016
   source:
   - Omniglot
   - Wikipedia
@@ -4780,6 +5150,7 @@ wim:
     script: Latn
   name: Wik-Mungkan
   speakers: 450
+  speakers_date: 2016
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -4790,6 +5161,7 @@ win:
     script: Latn
   name: Ho-Chunk
   speakers: 250
+  speakers_date: 2007
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -4800,6 +5172,7 @@ wln:
     script: Latn
   name: Walloon
   speakers: 600000
+  speakers_date: 2007
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -4810,6 +5183,7 @@ wls:
     script: Latn
   name: Wallisian
   speakers: 10400
+  speakers_date: 2000
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -4820,6 +5194,7 @@ wmw:
     script: Latn
   name: Mwani
   speakers: 100000
+  speakers_date: 2006
   source:
   - Omniglot
   - Wikipedia
@@ -4831,6 +5206,7 @@ wol:
     script: Latn
   name: Wolof
   speakers: 5454000
+  speakers_date: 2001-2016
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -4841,6 +5217,7 @@ wrh:
     script: Latn
   name: Wiradjuri
   speakers: 30
+  speakers_date: 2005
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -4851,6 +5228,7 @@ wyb:
     script: Latn
   name: Wangaaybuwan-Ngiyambaa
   speakers: 2
+  speakers_date: 2005
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -4861,6 +5239,7 @@ xav:
     script: Latn
   name: Xavánte
   speakers: 9600
+  speakers_date: 2006
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -4871,6 +5250,7 @@ xho:
     script: Latn
   name: Xhosa
   speakers: 8200000
+  speakers_date: 2011
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -4881,6 +5261,7 @@ xog:
     script: Latn
   name: Soga
   speakers: 3600000
+  speakers_date: 2014
   source: [Omniglot, CLDR]
   todo_status: strong
 xrg:
@@ -4890,6 +5271,7 @@ xrg:
     script: Latn
   name: Minang
   speakers: 6401000
+  speakers_date: 2007-2016
   source:
   - Omniglot
   - Wikipedia
@@ -4901,6 +5283,7 @@ yap:
     script: Latn
   name: Yapese
   speakers: 5130
+  speakers_date: 2005
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -4913,6 +5296,7 @@ yav:
     script: Latn
   name: Yangben
   speakers: 17000
+  speakers_date: 1982-2014
   source: [CLDR]
   todo_status: weak
   note: Single source.
@@ -4923,6 +5307,7 @@ yij:
     script: Latn
   name: Yindjibarndi
   speakers: 377
+  speakers_date: 2016
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -4938,6 +5323,7 @@ yor:
     script: Latn
   name: Yoruba
   speakers: 40000000
+  speakers_date: 2015
   source:
   - Omniglot
   - Wikipedia
@@ -4949,6 +5335,7 @@ zap:
     script: Latn
   name: Zapotec
   speakers: 450000
+  speakers_date: 2010
   source:
   - Omniglot
   - Wikipedia
@@ -4961,52 +5348,63 @@ zlm:
   name: Malay (individual language)
   preferred_name: Malay
   speakers: 77000000
+  speakers_date: 2007
   source: [Omniglot]
   todo_status: weak
   note: Single source.
 kxd:
   name: Brunei
-  speakers: --
   todo_status: todo
 zsm:
   name: Standard Malay
-  speakers: --
+  speakers: 77000000
+  speakers_date: 2009
   todo_status: todo
 jax:
   name: Jambi Malay
-  speakers: --
+  speakers: 1000000
+  speakers_date: 2000
   todo_status: todo
 meo:
   name: Kedah Malay
-  speakers: --
+  speakers: 2600000
+  speakers_date: 2004
   todo_status: todo
 kvr:
   name: Kerinci
-  speakers: --
+  speakers: 290000
+  speakers_date: 2000
   todo_status: todo
 xmm:
   name: Manado Malay
-  speakers: --
+  speakers: 850000
+  speakers_date: 2001
   todo_status: todo
 min:
   name: Minangkabau
-  speakers: --
+  speakers: 6401000
+  speakers_date: 2007-2016
   todo_status: todo
 mui:
   name: Musi
-  speakers: --
+  speakers: 3100000
+  speakers_date: 2000
   todo_status: todo
 zmi:
   name: Negeri Sembilan Malay
-  speakers: --
+  speakers: 508000
+  speakers_date: 2004
   todo_status: todo
+  note: Speaker count based on ethnic population Minangkabau in Negeri Malay
 max:
   name: North Moluccan Malay
-  speakers: --
+  speakers: 700000
+  speakers_date: 2001
   todo_status: todo
 mfa:
   name: Pattani Malay
-  speakers: --
+  speakers: 5000000
+  speakers_date: 2006
   todo_status: todo
 zul:
   orthographies:
@@ -5015,6 +5413,7 @@ zul:
     script: Latn
   name: Zulu
   speakers: 12000000
+  speakers_date: 2011
   source: [Omniglot]
   todo_status: weak
   note: Single source.
@@ -5025,6 +5424,7 @@ zun:
     script: Latn
   name: Zuni
   speakers: 9620
+  speakers_date: 2015
   source: [Omniglot]
   todo_status: weak
   note: Single source.

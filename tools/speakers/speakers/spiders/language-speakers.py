@@ -17,11 +17,11 @@ import xml.etree.ElementTree as ET
 
 
 OUTPUT = os.path.join(os.path.dirname(__file__), "../../../../",
-                      "data/users.xml")
+                      "data/users_iso.xml")
 
 # Fetch the language names we want to gather speaker info about from this file
 INPUT = os.path.join(os.path.dirname(__file__), "../../../../",
-                    #  "data/rosetta_new.yaml")
+                     #  "data/rosetta_new.yaml")
                      "data/iso-639-3.yaml")
 
 
@@ -37,7 +37,13 @@ class LanguageSpider(scrapy.Spider):
     # The info we are interested in is usually found in a table.infobox on the
     # righthand side of the page. We are searching for tr elements with certain
     # text (label) and then parse that row's data (text)
-    base = "https://en.wikipedia.org/wiki/%s_language"
+
+    # TODO For many language names it is more safe to search "... language" but
+    # scraped data has shown that in some instances scraping directly the page
+    # of only the language name would be better or deliver results where the
+    # "... language" search came up with an disambiguation or empty page
+    base_plain = "https://en.wikipedia.org/wiki/%s"
+    base_lang = "https://en.wikipedia.org/wiki/%s_language"
 
     # Save a dict of iso to URL to later re-associate the crawled data with our
     # data
@@ -51,15 +57,19 @@ class LanguageSpider(scrapy.Spider):
         # for script, languages in data.items():
         #     for key, lang in languages.items():
         #         # Save the URL encoded
-        #         urls[key] = base % urllib.parse.quote_plus(
-        #             lang["name"].replace(" ", "_"))
+            # urls[key] = base_plain % urllib.parse.quote_plus(
+            #     lang["names"][0].replace(" ", "_"))
+            # urls[key] = base_lang % urllib.parse.quote_plus(
+            #     lang["names"][0].replace(" ", "_"))
 
         # To crawl instead all language speaker for e.g. data/iso-639-3.yaml
         # use
         # NOTE This will crawl a longer time, and will result in a bigger xml
         for key, lang in data.items():
             # Save the URL encoded
-            urls[key] = base % urllib.parse.quote_plus(
+            urls[key] = base_plain % urllib.parse.quote_plus(
+                lang["names"][0].replace(" ", "_"))
+            urls[key] = base_lang % urllib.parse.quote_plus(
                 lang["names"][0].replace(" ", "_"))
 
     # To run a few languages only for debugging, append e.g. [:5]
@@ -101,6 +111,11 @@ class LanguageSpider(scrapy.Spider):
             # 1.2-2.3
             # 10 million
             # All UK speakers: 700,000+ (2012)[1]
+            # 8[1]–9[2][3][4][5] million (2011)
+
+            # First replace any "[1]"-type reference links to make the data a
+            # bit more easy to process
+            numbers = re.sub(r"\[\d+\]", "", speakers.lower())
             numbers = re.findall(r"^\D*([0-9,\.\-]*)[\s+]+(million|billion)?",
                                  speakers.lower())
             speakers = "unknown"
@@ -148,14 +163,18 @@ class LanguageSpider(scrapy.Spider):
             else:
                 lang = "not found"
 
-        yield {
-            "lang": lang,
-            "speakers": speakers,
-            "speakers_raw": speakers_raw,
-            "iso_639_1": iso_639_1,
-            "iso_639_2": iso_639_2,
-            "source": response.request.url
-        }
+        # Since we are essentially scraping two guessed pages per language try
+        # not to add a result if there wasn't even a lang extracted (likely a
+        # disambiguation or 404 page)
+        if lang != "not found":
+            yield {
+                "lang": lang,
+                "speakers": speakers,
+                "speakers_raw": speakers_raw,
+                "iso_639_1": iso_639_1,
+                "iso_639_2": iso_639_2,
+                "source": response.request.url
+            }
 
     def closed(self, reason):
         # Since the scraped data flows into the XML file as it is gathered and

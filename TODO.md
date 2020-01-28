@@ -3,9 +3,10 @@
 @Johannes
 
 - [x] double check if YAML is well formed, list-type fields are always lists etc.
-- [ ] add language names and speaker counts where missing or where -- is used
-- [ ] add a date (year) for the speaker count information, to the field `speakers_date`.
-- [ ] compare scraped speaker counts with those currently in the DB: this could lead to improved regular expression and migh help us update the existing counts in the DB. I would prefer to do this manually.
+- [ ] add language names where missing or where -- is used
+- [x] add speaker counts where missing or where -- is used
+- [x] add a date (year) for the speaker count information, to the field `speakers_date`.
+- [x] compare scraped speaker counts with those currently in the DB: this could lead to improved regular expression and migh help us update the existing counts in the DB. I would prefer to do this manually.
 - [x] add langtool, refactor to work with the new format
 - [x] langtool should subset the rosetta.yaml per font
 - [x] check if all macrolanguages have been covered, i.e. if all ISO 639-3 languages marked as macrolanguages have a non-empty `includes` field. List those that do not.
@@ -14,6 +15,8 @@
 	- NOTE: The only two cases of difference were quotes: 'Ta’izzi-Adeni Arabic' (iso: 'Ta'izzi-Adeni Arabic') and 'Ga’anda' (iso:'Ga'anda')
 - [x] make sure characters used in autonyms are also in the base for corresponding orthography
 - [ ] add licence to this repo
+- [ ] sort rosetta.yaml dict by key a-z
+- [ ] CLI option to pass several files and compute union (and why not also intersect) of supported languages
 
 Notes:
 

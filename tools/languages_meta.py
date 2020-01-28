@@ -10,13 +10,14 @@ __author__ = "Johannes Neumeier"
 import os
 import logging
 import yaml
+import re
 import xml.etree.ElementTree as ET
 
 NAMES = os.path.abspath(os.path.join(os.path.dirname(
     os.path.abspath(__file__)), "../data/other/language-names.yaml"))
 
 SPEAKERS = os.path.abspath(os.path.join(os.path.dirname(
-    os.path.abspath(__file__)), "../data/other/speakers.xml"))
+    os.path.abspath(__file__)), "../data/other/users.xml"))
 
 ROSETTA_LANGS = os.path.abspath(os.path.join(os.path.dirname(
     os.path.abspath(__file__)), "../data/rosetta_new.yaml"))
@@ -51,6 +52,23 @@ def get_language_speakers():
             speakers[iso.text] = num_speakers
 
     return speakers
+
+
+def get_languages_raw():
+    tree = ET.parse(SPEAKERS)
+    root = tree.getroot()
+    speakers_raw = {}
+    for lang in root.findall("./item"):
+        iso = lang.find("./lang")
+        num = lang.find("./speakers_raw")
+
+        if iso is not None and num is not None:
+            num_speakers_raw = num.text
+            if num_speakers_raw == "None" or num_speakers_raw is None:
+                num_speakers_raw = "unknown"
+            speakers_raw[iso.text] = num_speakers_raw
+
+    return speakers_raw
 
 
 def get_rosetta_isos():
@@ -89,7 +107,6 @@ if __name__ == "__main__":
                     meta[iso]["speakers"] = int(speakers[iso])
                 except ValueError:
                     meta[iso]["speakers"] = speakers[iso]
-
 
         name_keys = list(names.keys())
         if iso in name_keys:
