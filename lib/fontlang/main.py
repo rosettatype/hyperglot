@@ -11,16 +11,17 @@ def validate_font(ctx, param, value):
     """
     Validation method to ensure we can work with the passed in font file
     """
-    if os.path.splitext(value)[1][1:] not in ["ttf", "otf"]:
-        raise click.BadParameter("The passed in font file does not appear to "
-                                 "be of ttf or otf format")
+    for v in value:
+        if os.path.splitext(v)[1][1:] not in ["ttf", "otf"]:
+            raise click.BadParameter("The passed in font file does not appear to "
+                                     "be of ttf or otf format")
 
-    try:
-        _font = TTFont(value, lazy=True)
-        _font.close()
-    except Exception as e:
-        raise click.BadParameter("Could not convert TTFont from passed in "
-                                 "font file (%s)" % str(e))
+        try:
+            _font = TTFont(v, lazy=True)
+            _font.close()
+        except Exception as e:
+            raise click.BadParameter("Could not convert TTFont from passed in "
+                                     "font file (%s)" % str(e))
 
     return value
 
@@ -51,6 +52,71 @@ def language_list(langs, native=False, users=False, script=None, seperator=", ")
     return seperator.join(items)
 
 
+def print_to_cli(font, title, autonyms, users, script):
+    print()
+    print("=" * len(title))
+    print(title)
+    print("=" * len(title))
+    print()
+    if "done" in font:
+        done = font["done"]
+        for script in done:
+            count = len(done[script])
+            if count > 0:
+                print()
+                title = "%d %s of %s script:" % \
+                    (count, "language" if count == 1 else "languages",
+                     SCRIPTNAMES[script])
+                print(title)
+                print("-" * len(title))
+                print(language_list(done[script], autonyms, users, script))
+
+    if "weak" in font:
+        print()
+        weak = font["weak"]
+        for script in weak:
+            count = len(weak[script])
+            if count > 0:
+                print()
+                title = "There are %d %s of %s script that might be " \
+                    "supported, but we cannot confirm it with our " \
+                    "current database:" % \
+                    (count, "langauage" if count == 1 else "languages",
+                     SCRIPTNAMES[script])
+                print(title)
+                print("-" * len(title))
+                print(language_list(weak[script], autonyms, users, script))
+
+
+def prune_intersect(intersection, res, level):
+    """
+    Helper method to prune the intersection object against the res, which both
+    may or may not have script keys with iso-to-language dicts
+
+    Return intersection with only those dict values that are both in 
+    intersection and in res
+    """
+    if level in intersection:
+        if level not in res:
+            del(intersection[level])
+        delete_script = []
+        for script in intersection[level].keys():
+            delete_iso = []
+            if script not in res[level]:
+                delete_script.append(script)
+                continue
+            for iso, lang in intersection[level][script].items():
+                if iso not in res[level][script].keys():
+                    delete_iso.append(iso)
+            for d in delete_iso:
+                del(intersection[level][script][d])
+
+        for d in delete_script:
+            del(intersection[level][d])
+
+    return intersection
+
+
 def write_yaml(file, data):
     """
     Output of a CLI result into a yaml file.
@@ -60,8 +126,12 @@ def write_yaml(file, data):
     yaml.dump(data, file, default_flow_style=False, allow_unicode=True)
 
 
+MODES = ["individual", "union", "intersection"]
+
+
 @click.command()
-@click.argument("font", type=click.Path(exists=True), callback=validate_font)
+@click.argument("fonts", type=click.Path(exists=True), callback=validate_font,
+                nargs=-1)
 @click.option("-s", "--support",
               type=click.Choice(SUPPORTLEVELS.keys(), case_sensitive=False),
               default="base", show_default=True,
@@ -69,64 +139,101 @@ def write_yaml(file, data):
 @click.option("-a", "--autonyms", is_flag=True, default=False)
 @click.option("-u", "--users", is_flag=True, default=False)
 @click.option("-o", "--output", type=click.File(mode="w", encoding="utf-8"))
+@click.option("-m", "--mode", type=click.Choice(MODES, case_sensitive=False),
+              default=MODES[0], show_default=True)
 # TODO Implement --include-historical flag
 # TODO Implement --log-level flag
-def cli(font, support, autonyms, users, output):
+def cli(fonts, support, autonyms, users, output, mode):
     """
     Main entry point for checking language support of a font binary
     """
-    _font = TTFont(font, lazy=True)
-    cmap = _font["cmap"]
-    chars = [chr(c) for c in cmap.getBestCmap().keys()]
-    Lang = Languages()
-    langs = Lang.from_chars(chars, )
-    done = {}
-    weak = {}
-    done_statuses = ["done", "strong"]  # plus "status" not in dict
-    level = SUPPORTLEVELS[support]
+    if fonts == ():
+        print("Provide at least one path to a font or --help for more "
+              "information")
 
-    for script in langs:
-        if script not in done:
-            done[script] = {}
-        if script not in weak:
-            weak[script] = {}
+    # A dict with each file and its results for done and weak, e.g.
+    # { 'filea.otf': { 'done': {..}, 'weak': {..} }, 'fileb.otf: .. }
+    results = {}
 
-        if level not in langs[script]:
-            continue
-        for iso, l in langs[script][level].items():
-            # TODO add sort key from name/autonym
-            if "todo_status" not in l or l["todo_status"] in done_statuses:
-                done[script][iso] = l
-            else:
-                weak[script][iso] = l
+    for font in fonts:
+        _font = TTFont(font, lazy=True)
+        cmap = _font["cmap"]
+        chars = [chr(c) for c in cmap.getBestCmap().keys()]
+        Lang = Languages()
+        langs = Lang.from_chars(chars, False)
+        done = {}
+        weak = {}
+        done_statuses = ["done", "strong"]  # plus "status" not in dict
+        level = SUPPORTLEVELS[support]
 
-    print()
-    print("%s has %s support for:" % (os.path.basename(font),
-                                      level.lower()))
+        # Sort the results for this font by db status
+        for script in langs:
+            if script not in done:
+                done[script] = {}
+            if script not in weak:
+                weak[script] = {}
 
-    if done:
-        for script in done:
-            count = len(done[script])
-            if count > 0:
-                print()
-                print("%d %s of %s script:" %
-                      (count, "language" if count == 1 else "languages",
-                       SCRIPTNAMES[script]))
-                print(language_list(done[script], autonyms, users, script))
+            if level not in langs[script]:
+                continue
+            for iso, l in langs[script][level].items():
+                # TODO add sort key from name/autonym
+                if "todo_status" not in l or l["todo_status"] in done_statuses:
+                    done[script][iso] = l
+                else:
+                    weak[script][iso] = l
 
-    if weak:
-        for script in weak:
-            count = len(weak[script])
-            if count > 0:
-                print()
-                print("There are %d %s of %s script that might be "
-                      "supported, but we cannot confirm it with our current "
-                      "database:" %
-                      (count, "langauage" if count == 1 else "languages",
-                       SCRIPTNAMES[script]))
-                print(language_list(weak[script], autonyms, users, script))
+        results[font] = {}
+
+        if done:
+            results[font]["done"] = done
+
+        if weak:
+            results[font]["weak"] = weak
+        _font.close()
+
+    if mode == "individual":
+        for font in fonts:
+            title = "%s has %s support for:" % (os.path.basename(font),
+                                                level.lower())
+            print_to_cli(results[font], title, autonyms, users, script)
+        data = results
+    elif mode == "union":
+        union = {}
+        for font in fonts:
+            res = results[font]
+            if "done" in res:
+                if "done" not in union:
+                    union["done"] = {}
+
+            for iso, lang in res["done"].items():
+                if iso not in union["done"]:
+                    union["done"][iso] = lang
+
+            if "weak" in res:
+                if "weak" not in union:
+                    union["weak"] = {}
+            for iso, lang in res["weak"].items():
+                if iso not in union["weak"]:
+                    union["weak"][iso] = lang
+
+        title = "Fonts %s together have %s support for:" % \
+            (", ".join([os.path.basename(f) for f in fonts]), level.lower())
+        print_to_cli(union, title, autonyms, users, script)
+        data = union
+
+    elif mode == "intersection":
+        print("intersection")
+        intersection = results[fonts[0]]
+        for font in fonts[1:]:
+            res = results[font]
+
+            intersection = prune_intersect(intersection, res, "done")
+            intersection = prune_intersect(intersection, res, "weak")
+
+        title = "Fonts %s all have common %s support for:" % \
+            (", ".join([os.path.basename(f) for f in fonts]), level.lower())
+        print_to_cli(intersection, title, autonyms, users, script)
+        data = intersection
 
     if output:
-        write_yaml(output, done)
-
-    _font.close()
+        write_yaml(output, data)
