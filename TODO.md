@@ -176,22 +176,6 @@ Notes:
 - 'sjk' has an orthography which is missing a 'base' attribute
 - 'sia' has an orthography which is missing a 'base' attribute
 
-- 'aze' has an orthography which is missing an 'autonym'
-- 'bak' has an orthography which is missing an 'autonym'
-- 'gag' has an orthography which is missing an 'autonym'
-- 'jpr' has an orthography which is missing an 'autonym'
-- 'fuh' has an orthography which is missing an 'autonym'
-- 'fuq' has an orthography which is missing an 'autonym'
-- 'fuv' has an orthography which is missing an 'autonym'
-- 'fub' has an orthography which is missing an 'autonym'
-- 'fui' has an orthography which is missing an 'autonym'
-- 'ldi' has an orthography which is missing an 'autonym'
-- 'kwy' has an orthography which is missing an 'autonym'
-- 'zap' has an orthography which is missing an 'autonym'
-- 'oss' has an orthography which is missing an 'autonym'
-- 'ttt' has an orthography which is missing an 'autonym'
-- 'nhn' has an orthography which is missing an 'autonym'
-
 - 'abk' has invalid autonym 'Аҧсшәа‎' which cannot be spelled with that orthography's charset 'ҵнучҩҿлқжҟҳыдрию тксщџӷзҷԥаяәҭецэӡбгшмфхҽйоъпвь' - missing 'ҧ'
 - 'crh' has invalid autonym 'Qırımtatar tili' which cannot be spelled with that orthography's charset 'maocpi jçwdlsvfğekgşbzöüqtrunhñxy' - missing 'ı'
 - 'dlg' has invalid autonym 'Дулҕан' which cannot be spelled with that orthography's charset 'нучлӈжүыдрию тксщзаяецэёөбгшмфхйоъпвһь' - missing 'ҕ'
@@ -212,3 +196,6 @@ Notes:
 - 'sjt' has invalid autonym 'Са̄мькӣлл' which cannot be spelled with that orthography's charset 'ӆнучлӈжыдрию тксщӭзјӊая’ецӓэёбҏгшмфҍхӎйоъпвҋһь' - missing 'ӣ'
 - 'srm' has invalid autonym 'Saamáka' which cannot be spelled with that orthography's charset 'maocpi jwdlsvfekgbzöqtrëunhxy' - missing 'á'
 - 'xav' has invalid autonym 'A’uwẽ' which cannot be spelled with that orthography's charset 'méaocpi jwĩdlõsvfekgbzôöãqtrunhxy' - missing 'ẽ'
+
+- Included language 'nno' not found in data
+- 'nor' has invalid included languages

@@ -133,10 +133,10 @@ def check_names():
                     logging.error("'%s' has an orthography which is missing a "
                                   "'base' attribute" % iso)
                     continue
+
                 if "autonym" not in o:
-                    logging.error("'%s' has an orthography which is missing an"
-                                  " 'autonym'" % iso)
                     continue
+
                 autonym_ok, chars, missing = check_autonym_spelling(o)
                 if not autonym_ok:
                     logging.error("'%s' has invalid autonym '%s' which cannot "
@@ -173,6 +173,20 @@ def check_macrolanguages():
                 if not check_includes(Langs[iso]):
                     logging.error("'%s' is marked as macrolanguage in the iso "
                                   "data, but has no 'includes'." % iso)
+
+    for iso, lang in Langs.items():
+        if "includes" in lang:
+            if not check_includes_are_valid(lang):
+                logging.error("'%s' has invalid included languages" % iso)
+
+
+def check_includes_are_valid(lang):
+    keys = Languages().keys()
+    for l in lang["includes"]:
+        if l not in keys:
+            logging.error("Included language '%s' not found in data" % (l))
+            return False
+    return True
 
 
 def check_includes(lang):
