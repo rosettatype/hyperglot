@@ -10,6 +10,7 @@ SCRIPTNAMES = {
     "Cyrl": "Cyrillic",
     "Grek": "Greek",
     "Arab": "Arabic",
+    "Hebr": "Hebrew"
 }
 
 SUPPORTLEVELS = {
