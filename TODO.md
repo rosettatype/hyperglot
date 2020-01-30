@@ -23,7 +23,7 @@ Notes:
 - name and autonym of an orthography override those of languages (probably not needed now)
 - [ ]if there is not any orthography for a language, check if there is a macrolanguage which includes this language with some orthography. If so, use that.
 - [x] when checking for language support in a font, ignore entries with `todo_status: todo`, set aside those with `todo_status: weak`. 
-- [ ] Ignore orthographies with `status: historical` and provide switch to ignore languages with status `historical` or `constructed`, but include by default.
+- [x] Ignore orthographies with `status: historical` and provide switch to ignore languages with status `historical` or `constructed`, but include by default.
 
 @David
 

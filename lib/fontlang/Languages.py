@@ -28,12 +28,12 @@ class Language(dict):
 
     # TODO this should return all orthographies for a script, not the first it
     # hits
+    # TODO include_historical check
     def get_orthography(self, script=None):
         if "orthographies" not in self:
             return False
 
         for o in self["orthographies"]:
-            # TODO and check historical
             if script is not None and "script" in o and o["script"] == script:
                 return o
 
@@ -67,6 +67,40 @@ class Language(dict):
             return self["autonym"]
         except KeyError:
             return False
+
+        return False
+
+    def is_historical(self, orthography=None):
+        """
+        Check if a language or a specific orthography of a language is marked
+        as historical
+
+        If a language has a "historical" top level entry all orthographies are by
+        implication historical.
+        """
+        if "status" in self and self["status"] == "historical":
+            return True
+
+        if orthography is not None and "status" in orthography and \
+                orthography["status"] == "historical":
+            return True
+
+        return False
+
+    def is_constructed(self, orthography=None):
+        """
+        Check if a language or a specific orthography of a language is marked
+        as constructed
+
+        If a language has a "constructed" top level entry all orthographies are by
+        implication constructed.
+        """
+        if "status" in self and self["status"] == "constructed":
+            return True
+
+        if orthography is not None and "status" in orthography and \
+                orthography["status"] == "constructed":
+            return True
 
         return False
 
@@ -141,7 +175,9 @@ class Languages(dict):
             return self[tag]
         return False
 
-    def from_chars(self, chars, includeHistorical=False,
+    def from_chars(self, chars,
+                   includeHistorical=False,
+                   includeConstructed=False,
                    pruneOrthographies=True):
         chars = set(chars)
         support = {}
@@ -154,15 +190,18 @@ class Languages(dict):
                              lang)
                 continue
 
-            historical_lang = "status" in l and l["status"] == "historical"
-            if historical_lang is True and includeHistorical is False:
-                logging.info("Skipping language '%s' with 'historical' "
-                             "status" % lang)
+            if includeHistorical and l.is_historical():
+                logging.info("Including historical languae '%s'" %
+                             l.get_name())
+            elif includeHistorical is False and l.is_historical():
+                logging.info("Skipping historical language '%s'" % lang)
                 continue
 
-            if "orthographies" not in l:
-                logging.info("Skipping language '%s' without orthography "
-                             "entries" % lang)
+            if includeConstructed and l.is_constructed():
+                logging.info("Including constructed languae '%s'" %
+                             l.get_name())
+            elif includeConstructed is False and l.is_constructed():
+                logging.info("Skipping constructed language '%s'" % lang)
                 continue
 
             # Do the support check on the Language level, and with the prune

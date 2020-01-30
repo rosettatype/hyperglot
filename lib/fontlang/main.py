@@ -1,11 +1,11 @@
 import click
 import os
+import re
 import yaml
 import logging
 from collections import OrderedDict
 from fontTools.ttLib import TTFont
-from . import DB
-from . import SCRIPTNAMES, SUPPORTLEVELS
+from . import __version__, DB, SCRIPTNAMES, SUPPORTLEVELS
 from .languages import Languages, Language
 
 
@@ -43,12 +43,14 @@ def language_list(langs, native=False, users=False, script=None, seperator=", ")
 
         if name is False:
             name = "(iso: %s)" % iso
+            logging.info("No autonym found for language '%s'" % lang)
+        else:
+            name = re.sub(r"^\W*|\W*$", "", name)
 
         if users and "speakers" in l:
             items.append("%s (%s)" % (name, str(l["speakers"])))
-            continue
-
-        items.append("%s" % name)
+        else:
+            items.append("%s" % name)
 
     return seperator.join(items)
 
@@ -166,9 +168,18 @@ MODES = ["individual", "union", "intersection"]
 @click.option("-o", "--output", type=click.File(mode="w", encoding="utf-8"))
 @click.option("-m", "--mode", type=click.Choice(MODES, case_sensitive=False),
               default=MODES[0], show_default=True)
-# TODO Implement --include-historical flag
-# TODO Implement --log-level flag
-def cli(fonts, support, autonyms, users, output, mode):
+@click.option("--include-historical", is_flag=True, default=False)
+@click.option("--include-constructed", is_flag=True, default=False)
+@click.option("-v", "--verbose", is_flag=True, default=False)
+@click.option("-V", "--version", is_flag=True, default=False)
+def cli(fonts, support, autonyms, users, output, mode, include_historical,
+        include_constructed, verbose, version):
+
+    if version:
+        import sys
+        sys.exit("Fontlang version: %s" % __version__)
+
+    logging.getLogger().setLevel(logging.DEBUG if verbose else logging.WARNING)
     """
     Main entry point for checking language support of a font binaries
     """
@@ -185,7 +196,7 @@ def cli(fonts, support, autonyms, users, output, mode):
         cmap = _font["cmap"]
         chars = [chr(c) for c in cmap.getBestCmap().keys()]
         Lang = Languages()
-        langs = Lang.from_chars(chars, False)
+        langs = Lang.from_chars(chars, include_historical, include_constructed)
         done = {}
         weak = {}
         done_statuses = ["done", "strong"]  # plus "status" not in dict

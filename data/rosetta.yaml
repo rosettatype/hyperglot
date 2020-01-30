@@ -654,7 +654,9 @@ bbz:
   note: Suprious languages, iso code retired 2019 (see https://en.wikipedia.org/wiki/ISO_639_macrolanguage)
   orthographies:
   - script: Arab
-  todo_status: historical
+  status: historical
+  todo_status: todo
+  note: Language was marked as todo_status 'historical' and requires review.
 bdk:
   name: Budukh
   orthographies:

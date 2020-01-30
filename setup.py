@@ -1,7 +1,8 @@
 from setuptools import setup
+from lib.fontlang import __version__
 
 setup(name="fontlang",
-      version="0.1.5",
+      version=__version__,
       description="Detect language support for font binaries",
       author="Johannes Neumeier - Rosetta",
       author_email="johannes@rosettatype.com",
