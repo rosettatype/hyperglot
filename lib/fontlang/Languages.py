@@ -27,12 +27,22 @@ class Language(dict):
     options for convenience
     """
 
-    def __init__(self, data):
+    def __init__(self, data, iso):
+        """
+        Init a single Language with the data from rosetta.yaml
+        @param data dict: The raw data as found in the yaml
+        @param iso str: Iso 3 letter iso code that is the key in the yaml. Keep
+            this a private attribute, not dict items, so it does not get 
+            printed out when converting this Language back to yaml for output
+        """
         self.update(data)
+        self.iso = iso
 
     def __repr__(self):
         return self.get_name()
 
+    # TODO this should return all orthographies for a script, not the first it
+    # hits
     def get_orthography(self, script=None):
         if "orthographies" not in self:
             return False
@@ -75,6 +85,58 @@ class Language(dict):
 
         return False
 
+    def has_support(self, chars, pruneOrthographies=True):
+        """
+        Return a dict with language support based on the passed in chars
+
+        @param chars set: Set of chars to check against
+        @param pruneOthographies bool: Flag to remove non-supported 
+            orthographies from this Language object
+        @return dict: Dict sorted by 1) script 2) support level 3) list of isos
+        """
+        support = {}
+        if "orthographies" not in self:
+            return support
+
+        pruned = []
+
+        for ort in self["orthographies"]:
+            supported = False
+            if "script" not in ort:
+                # TODO Confirm this is also caught by validate.py
+                logging.warning("Skipping an orthography in language '%s',"
+                                " because it has no 'script'" % self.iso)
+                continue
+
+            if "base" in ort:
+                script = ort["script"]
+                base = set(ort["base"])
+                if base.issubset(chars):
+                    if script not in support:
+                        support[script] = {}
+                    if "base" not in support[script]:
+                        support[script]["base"] = []
+
+                    support[script]["base"].append(self.iso)
+                    supported = True
+
+                    # Only check aux if base is supported also
+                    if "auxiliary" in ort:
+                        aux = set(ort["auxiliary"])
+                        if aux.issubset(chars):
+                            if "auxiliary" not in support[script]:
+                                support[script]["auxiliary"] = []
+
+                            support[script]["auxiliary"].append(self.iso)
+                            supported = True
+            if supported:
+                pruned.append(ort)
+
+        if pruneOrthographies:
+            self["orthographies"] = pruned
+
+        return support
+
 
 class Languages(dict):
     """
@@ -91,37 +153,23 @@ class Languages(dict):
         with open(db_path) as f:
             data = yaml.load(f, Loader=yaml.Loader)
             self.update(data)
-            # Save the iso as entry in the lang's dict so we can access is
-            # later when returning the lang
-            # for script, langs in self.items():
-            #     for iso in langs.keys():
-            #         self[script][iso]["iso"] = iso
 
     def get_lang(self, tag):
         """
-        Use a language tag to retieve that language’s glyph data
+        Use a language tag to retieve that language’s data
         """
-        # for script in self:
-        #     for lang in self[script]:
-        #         if lang == tag:
-        #             return self[script][lang]
         if tag in self:
             return self[tag]
         return False
 
-    def from_chars(self, chars, includeHistorical=False):
+    def from_chars(self, chars, includeHistorical=False,
+                   pruneOrthographies=True):
         chars = set(chars)
-        # base_support = {}
-        # aux_support = {}
-
         support = {}
-        # script: {}
-        #   level: {}
-        #       iso: {}
 
-        # for script in self:
         for lang in self:
-            l = self[lang]  # noqa
+            l = Language(self[lang], lang)  # noqa, let's keep l short
+
             if "todo_status" in l and "todo_status" == "todo":
                 logging.info("Skipping language '%s' with 'todo' status" %
                              lang)
@@ -138,39 +186,20 @@ class Languages(dict):
                              "entries" % lang)
                 continue
 
-            for ort in l["orthographies"]:
-                historical_orth = "status" in ort and \
-                    ort["status"] == "historical"
-                if historical_orth is True and includeHistorical is False:
-                    logging.info("Skipping orthography ('%s') for language "
-                                 "'%s' with 'historical' status" %
-                                 (ort["autonym"] if "autonym" in ort else "",
-                                  lang))
-                    continue
+            # Do the support check on the Language level, and with the prune
+            # flag the resulting Language object will have only those
+            # orthographies that are supported with chars
+            lang_sup = l.has_support(chars, pruneOrthographies)
 
-                if "script" not in ort:
-                    logging.warning("Cannot add language '%s' orthography "
-                                    "without script" % lang)
-                    continue
+            for script, levels in lang_sup.items():
+                if script not in support.keys():
+                    support[script] = {}
 
-                if "base" in ort:
-                    script = ort["script"]
-                    base = set(ort["base"])
-                    if base.issubset(chars):
-                        if script not in support:
-                            support[script] = {}
-                        if "base" not in support[script]:
-                            support[script]["base"] = {}
+                for level, isos in levels.items():
+                    if level not in support[script]:
+                        support[script][level] = {}
 
-                        support[script]["base"][lang] = l
-
-                        # Only check aux is base is supported also
-                        if "auxiliary" in ort:
-                            aux = set(ort["auxiliary"])
-                            if aux.issubset(chars):
-                                if "auxiliary" not in support[script]:
-                                    support[script]["auxiliary"] = {}
-
-                                support[script]["auxiliary"][lang] = l
+                    for iso in isos:
+                        support[script][level][iso] = l
 
         return support

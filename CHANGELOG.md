@@ -2,6 +2,7 @@
 
 ## 0.1.5 (WIP - add as you commit)
 - TWEAK: `-o` output is now of same structure for single file input, and indexed by file name for several file input
+- TWEAK: `-o` filters the languages' orthographies to only supported ones
 - FIX: More robust relative file path loading for database file
 
 ## 0.1.4 (28.01.2020)

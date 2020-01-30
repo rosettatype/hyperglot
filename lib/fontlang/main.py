@@ -30,8 +30,7 @@ def language_list(langs, native=False, users=False, script=None, seperator=", ")
     """
     items = []
     for iso, l in langs.items():
-        l["iso"] = iso
-        lang = Language(l)
+        lang = Language(l, iso)
 
         if native and script:
             name = lang.get_autonym(script)
@@ -130,6 +129,8 @@ def write_yaml(file, data):
             for script, languages in langs_by_status.items():
                 if path not in write:
                     write[path] = {}
+                # Coerce l back  to dict from type Language
+                languages = {iso: dict(l) for iso, l in languages.items()}
                 write[path].update(languages)
     if len(data.keys()) == 1:
         # Single file input, write directly to top level by re-writing the
