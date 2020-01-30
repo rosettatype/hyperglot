@@ -3621,6 +3621,7 @@ mer:
   - base: a b c d e g h i j k l m n o r t u w y î û
     auxiliary: f p q s v x z
     autonym: Kimîîru
+    script: Latn
   name: Meru
   speakers: 2000000
   speakers_date: 2009
