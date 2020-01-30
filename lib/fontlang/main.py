@@ -1,8 +1,12 @@
 import click
 import os
 import yaml
+import logging
+from collections import OrderedDict
 from fontTools.ttLib import TTFont
-from .languages import Languages, Language, SCRIPTNAMES, SUPPORTLEVELS
+from . import DB
+from . import SCRIPTNAMES, SUPPORTLEVELS
+from .languages import Languages, Language
 
 
 def validate_font(ctx, param, value):
@@ -166,7 +170,7 @@ MODES = ["individual", "union", "intersection"]
 # TODO Implement --log-level flag
 def cli(fonts, support, autonyms, users, output, mode):
     """
-    Main entry point for checking language support of a font binary
+    Main entry point for checking language support of a font binaries
     """
     if fonts == ():
         print("Provide at least one path to a font or --help for more "
@@ -258,3 +262,17 @@ def cli(fonts, support, autonyms, users, output, mode):
 
     if output:
         write_yaml(output, data)
+
+
+def save_sorted():
+    """
+    Helper script to re-save the rosetta.yaml sorted alphabetically
+    """
+    logging.getLogger().setLevel(logging.DEBUG)
+    Langs = Languages()
+
+    # Sort by keys
+    alphabetic = dict(OrderedDict(sorted(Langs.items())))
+
+    file = open(DB, "w")
+    yaml.dump(alphabetic, file, default_flow_style=False, allow_unicode=True)

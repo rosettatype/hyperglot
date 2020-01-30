@@ -11,7 +11,9 @@ setup(name="fontlang",
       ],
       entry_points={
           "console_scripts": [
-              "fontlang = lib.fontlang.main:cli"
+              "fontlang = lib.fontlang.main:cli",
+              "fontlang-validate = lib.fontlang.validate:validate",
+              "fontlang-save = lib.fontlang.main:save_sorted"
           ]
       },
       include_package_data=True,

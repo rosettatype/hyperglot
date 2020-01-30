@@ -5,8 +5,7 @@ import logging
 import yaml
 import os
 import re
-from languages import Languages
-
+from .languages import Languages
 
 VALID_TODOS = ["done", "weak", "todo", "strong"]
 
@@ -225,7 +224,7 @@ def check_autonym_spelling(ort):
     return autonym.issubset(chars), list(chars), missing
 
 
-if __name__ == "__main__":
+def validate():
     logging.getLogger().setLevel(logging.DEBUG)
     check_yaml()
     check_types()

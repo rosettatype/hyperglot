@@ -5,6 +5,8 @@
 - TWEAK: `-o` output is now of same structure for single file input, and indexed by file name for several file input
 - TWEAK: `-o` filters the languages' orthographies to only supported ones
 - TWEAK: Added validation check to confirm orthographies have a 'script'
+- TWEAK: Refactored validation script to `fontlang-validate` CLI command
+- FEATURE: Added `fontlang-save` CLI command to re-save the `rosetta.yaml` sorted alphabetically
 
 ## 0.1.4 (28.01.2020)
 - FEATURE: Added `-m` option ('individual', 'union', 'intersection') to compute a support comparison of several passed in fonts
