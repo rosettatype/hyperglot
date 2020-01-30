@@ -257,7 +257,9 @@ def cli(fonts, support, autonyms, users, output, mode, include_historical,
         title = "Fonts %s together have %s support for:" % \
             (", ".join([os.path.basename(f) for f in fonts]), level.lower())
         print_to_cli(union, title, autonyms, users, script)
-        data = union
+        # Wrap in "single file" 'union' top level, which will be removed when 
+        # writing the data
+        data = {"union": union}
 
     elif mode == "intersection":
         print("intersection")
@@ -271,7 +273,9 @@ def cli(fonts, support, autonyms, users, output, mode, include_historical,
         title = "Fonts %s all have common %s support for:" % \
             (", ".join([os.path.basename(f) for f in fonts]), level.lower())
         print_to_cli(intersection, title, autonyms, users, script)
-        data = intersection
+        # Wrap in "single file" 'intersection' top level, which will be removed
+        # when writing the data
+        data = {"intersection": intersection}
 
     if output:
         write_yaml(output, data)
