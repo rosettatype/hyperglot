@@ -257,7 +257,7 @@ def cli(fonts, support, autonyms, users, output, mode, include_historical,
         title = "Fonts %s together have %s support for:" % \
             (", ".join([os.path.basename(f) for f in fonts]), level.lower())
         print_to_cli(union, title, autonyms, users, script)
-        # Wrap in "single file" 'union' top level, which will be removed when 
+        # Wrap in "single file" 'union' top level, which will be removed when
         # writing the data
         data = {"union": union}
 

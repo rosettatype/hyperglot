@@ -84,6 +84,10 @@ $ pip install --update --user .
 
 `$ fontlang path/to/font.otf`
 
+or to check several fonts at once, or their combined coverage (with `-m union`)
+
+`$ fontlang path/to/font.otf path/to/anotherfont.otf ...`
+
 **Additional options**:
 
 - `-s, --support`: Specify what level of support to check against (currently options are "base" (default if omitted) or "aux")
