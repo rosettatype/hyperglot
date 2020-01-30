@@ -86,10 +86,15 @@ $ pip install --update --user .
 
 **Additional options**:
 
-- `-s, --support`: Specify what level of support to check against (curretly options are "base" (default if omitted) or "aux")
+- `-s, --support`: Specify what level of support to check against (currently options are "base" (default if omitted) or "aux")
 - `-a, --autonyms`: Output the language names in their native language and script
 - `-u, --users`: Also output language user count (where available)
-- `-o, --output`: Supply a file path to write the output to, in yaml format
+- `-o, --output`: Supply a file path to write the output to, in yaml format. For a single input font this will be a subset of rosetta.yaml with the languages and orthographies that the font supports. If several fonts are provided the yaml file will have a top level dict key for each file. If the `-m` option is provided the yaml file will contain the specific intersection or union result
+- `-m, --mode`: How to process input if several files are provided (currently options are "individual", "union" and "intersection")
+- `--include-historical`: option to include languages and orthographies marked as historical (default is False)
+- `--include-constructed`: option to include languages and orthographies that are marked as constructed (default is False)
+- `-v, --verbose`: More logging information (default is False)
+- `-V, --version`: Print the version fontlang version number (default is False)
 
 ### Validating and sorting the database yaml file
 
