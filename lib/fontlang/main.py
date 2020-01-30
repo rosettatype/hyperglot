@@ -1,10 +1,8 @@
 import click
 import os
-import logging
 import yaml
-import re
 from fontTools.ttLib import TTFont
-from .Languages import Languages, Language, SCRIPTNAMES, SUPPORTLEVELS
+from .languages import Languages, Language, SCRIPTNAMES, SUPPORTLEVELS
 
 
 def validate_font(ctx, param, value):

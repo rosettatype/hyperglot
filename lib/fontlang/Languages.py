@@ -1,10 +1,12 @@
 """
 Helper classes to work with the rosetta.yaml data in more pythonic way
 """
-import os
+from os import path
 import yaml
 import logging
 
+# Add full script names from data/other/iana/language-subtag-registry.txt as
+# needed when new scripts are encountered in rosetta.yaml
 SCRIPTNAMES = {
     "Latn": "Latin",
     "Cyrl": "Cyrillic",
@@ -83,8 +85,9 @@ class Languages(dict):
     source = "../../data/rosetta.yaml"
 
     def __init__(self):
-        db_path = os.path.abspath(os.path.join(os.path.dirname(__file__),
-                                               self.source))
+        db_path = path.join(path.abspath(path.dirname(__file__)),
+                            *path.split(self.source))
+
         with open(db_path) as f:
             data = yaml.load(f, Loader=yaml.Loader)
             self.update(data)
@@ -118,7 +121,7 @@ class Languages(dict):
 
         # for script in self:
         for lang in self:
-            l = self[lang] # noqa
+            l = self[lang]  # noqa
             if "todo_status" in l and "todo_status" == "todo":
                 logging.info("Skipping language '%s' with 'todo' status" %
                              lang)

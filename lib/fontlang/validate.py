@@ -5,7 +5,7 @@ import logging
 import yaml
 import os
 import re
-from Languages import Languages
+from languages import Languages
 
 
 VALID_TODOS = ["done", "weak", "todo", "strong"]
