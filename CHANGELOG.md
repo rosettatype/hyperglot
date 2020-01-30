@@ -1,7 +1,8 @@
 # A changelog for the lib/fontlang CLI tool
 
 ## 0.1.5 (WIP - add as you commit)
-- 
+- TWEAK: `-o` output is now of same structure for single file input, and indexed by file name for several file input
+- FIX: More robust relative file path loading for database file
 
 ## 0.1.4 (28.01.2020)
 - FEATURE: Added `-m` option ('individual', 'union', 'intersection') to compute a support comparison of several passed in fonts

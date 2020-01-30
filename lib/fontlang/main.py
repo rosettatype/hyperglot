@@ -119,9 +119,31 @@ def write_yaml(file, data):
     """
     Output of a CLI result into a yaml file.
 
-    For now no data-transformation performed
+    Transform the data into the same structure as the rosetta.yaml, e.g. with
+    language iso top level keys only
     """
-    yaml.dump(data, file, default_flow_style=False, allow_unicode=True)
+    write = {}
+    for path, results in data.items():
+        # Use only the font's file name as index, not the entire path
+        path = os.path.basename(path)
+        for langs_by_status in results.values():
+            for script, languages in langs_by_status.items():
+                if path not in write:
+                    write[path] = {}
+                write[path].update(languages)
+    if len(data.keys()) == 1:
+        # Single file input, write directly to top level by re-writing the
+        # output dict without the filename level
+        write = next(iter(write.values()))
+    else:
+        # Several file input, write path keys under which each file's support
+        # results are listed
+        # That's already how the data is :)
+        pass
+    yaml.dump(write, file, default_flow_style=False, allow_unicode=True)
+
+    print()
+    print("Wrote support information to %s" % file.name)
 
 
 MODES = ["individual", "union", "intersection"]
