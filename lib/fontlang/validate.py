@@ -9,6 +9,9 @@ from .languages import Languages
 
 VALID_TODOS = ["done", "weak", "todo", "strong"]
 
+# note that "secondary" as status is also used, but on orthographies!
+VALID_STATUS = ["historical", "constructed"]
+
 ISO_639_3 = "../../data/iso-639-3.yaml"
 logging.info("Loading iso-639-3.yaml for names and macro language checks")
 try:
@@ -26,7 +29,7 @@ def check_yaml():
     logging.info("Checking yaml structure...")
 
     try:
-        Languages()
+        return Languages()
     except yaml.scanner.ScannerError as e:
         logging.error("Malformed yaml:")
         print(e)
@@ -35,9 +38,7 @@ def check_yaml():
         print(e)
 
 
-def check_types():
-    Langs = Languages()
-
+def check_types(Langs):
     for iso, lang in Langs.items():
         if "includes" in lang:
             if not check_is_valid_list(lang["includes"]):
@@ -72,6 +73,9 @@ def check_types():
 
         if "todo_status" in lang and lang["todo_status"] not in VALID_TODOS:
             logging.error("'%s' has an invalid 'todo_status'" % iso)
+
+        if "status" in lang and lang["status"] not in VALID_STATUS:
+            logging.error("'%s' has an invalid 'status'" % iso)
 
 
 def check_is_valid_list(item):
@@ -122,9 +126,7 @@ def check_is_valid_combation_string(combos):
     return True
 
 
-def check_names():
-    Langs = Languages()
-
+def check_names(Langs):
     for iso, lang in Langs.items():
         if "orthographies" in lang:
             for o in lang["orthographies"]:
@@ -162,9 +164,7 @@ def check_names():
                                 % iso)
 
 
-def check_macrolanguages():
-    Langs = Languages()
-
+def check_macrolanguages(Langs):
     for iso, lang in iso_data.items():
         for name in lang["names"]:
             if "macrolanguage" in name:
@@ -179,12 +179,12 @@ def check_macrolanguages():
 
     for iso, lang in Langs.items():
         if "includes" in lang:
-            if not check_includes_are_valid(lang):
+            if not check_includes_are_valid(lang, Langs):
                 logging.error("'%s' has invalid included languages" % iso)
 
 
-def check_includes_are_valid(lang):
-    keys = Languages().keys()
+def check_includes_are_valid(lang, Langs):
+    keys = Langs.keys()
     for l in lang["includes"]:
         if l not in keys:
             logging.error("Included language '%s' not found in data" % (l))
@@ -226,7 +226,7 @@ def check_autonym_spelling(ort):
 
 def validate():
     logging.getLogger().setLevel(logging.DEBUG)
-    check_yaml()
-    check_types()
-    check_names()
-    check_macrolanguages()
+    Langs = check_yaml()
+    check_types(Langs)
+    check_names(Langs)
+    check_macrolanguages(Langs)

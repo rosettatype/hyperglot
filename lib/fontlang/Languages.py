@@ -17,7 +17,7 @@ class Language(dict):
         Init a single Language with the data from rosetta.yaml
         @param data dict: The raw data as found in the yaml
         @param iso str: Iso 3 letter iso code that is the key in the yaml. Keep
-            this a private attribute, not dict items, so it does not get 
+            this a private attribute, not dict items, so it does not get
             printed out when converting this Language back to yaml for output
         """
         self.update(data)
@@ -75,8 +75,8 @@ class Language(dict):
         Check if a language or a specific orthography of a language is marked
         as historical
 
-        If a language has a "historical" top level entry all orthographies are by
-        implication historical.
+        If a language has a "historical" top level entry all orthographies are
+        by implication historical.
         """
         if "status" in self and self["status"] == "historical":
             return True
@@ -92,8 +92,8 @@ class Language(dict):
         Check if a language or a specific orthography of a language is marked
         as constructed
 
-        If a language has a "constructed" top level entry all orthographies are by
-        implication constructed.
+        If a language has a "constructed" top level entry all orthographies
+        are by implication constructed.
         """
         if "status" in self and self["status"] == "constructed":
             return True
@@ -167,13 +167,29 @@ class Languages(dict):
             data = yaml.load(f, Loader=yaml.Loader)
             self.update(data)
 
-    def get_lang(self, tag):
+            self.inherit_orthographies_from_macrolanguage()
+
+    def inherit_orthographies_from_macrolanguage(self):
         """
-        Use a language tag to retieve that language’s data
+        Check through all languages and if a language has no orthographies see
+        if this language is included in a macrolanguage that has orthographies.
+        If so, apply the macrolanguage's orthographies to this language
         """
-        if tag in self:
-            return self[tag]
-        return False
+
+        macrolanguages = {iso: lang for iso,
+                          lang in self.items() if "includes" in lang}
+
+        for lang in self:
+            if "orthographies" not in self:
+
+                for iso, m in macrolanguages.items():
+                    if lang in m["includes"] and "orthographies" in m:
+                        logging.debug("Inheriting macrolanguage '%s' "
+                                      "orthographies to language '%s'"
+                                      % (iso, lang))
+                        # Make an explicit copy to keep the two languages
+                        # separate
+                        self[lang]["orthographies"] = m["orthographies"].copy()
 
     def from_chars(self, chars,
                    includeHistorical=False,

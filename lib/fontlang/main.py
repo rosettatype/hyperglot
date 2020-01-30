@@ -15,8 +15,8 @@ def validate_font(ctx, param, value):
     """
     for v in value:
         if os.path.splitext(v)[1][1:] not in ["ttf", "otf"]:
-            raise click.BadParameter("The passed in font file does not appear to "
-                                     "be of ttf or otf format")
+            raise click.BadParameter("The passed in font file does not appear "
+                                     "to be of ttf or otf format")
 
         try:
             _font = TTFont(v, lazy=True)
@@ -28,7 +28,8 @@ def validate_font(ctx, param, value):
     return value
 
 
-def language_list(langs, native=False, users=False, script=None, seperator=", "):
+def language_list(langs, native=False, users=False, script=None,
+                  seperator=", "):
     """
     Return a printable string for all languages
     """
@@ -45,6 +46,7 @@ def language_list(langs, native=False, users=False, script=None, seperator=", ")
             name = "(iso: %s)" % iso
             logging.info("No autonym found for language '%s'" % lang)
         else:
+            # Trim whitespace and also 200E left to right marks
             name = re.sub(r"^\W*|\W*$", "", name)
 
         if users and "speakers" in l:
@@ -96,7 +98,7 @@ def prune_intersect(intersection, res, level):
     Helper method to prune the intersection object against the res, which both
     may or may not have script keys with iso-to-language dicts
 
-    Return intersection with only those dict values that are both in 
+    Return intersection with only those dict values that are both in
     intersection and in res
     """
     if level in intersection:
@@ -279,7 +281,7 @@ def save_sorted():
     """
     Helper script to re-save the rosetta.yaml sorted alphabetically
     """
-    logging.getLogger().setLevel(logging.DEBUG)
+    logging.getLogger().setLevel(logging.WARNING)
     Langs = Languages()
 
     # Sort by keys

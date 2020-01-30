@@ -3,7 +3,7 @@
 @Johannes
 
 - [x] double check if YAML is well formed, list-type fields are always lists etc.
-- [ ] add language names where missing or where -- is used
+- [x] add language names where missing or where -- is used
 - [x] add speaker counts where missing or where -- is used
 - [x] add a date (year) for the speaker count information, to the field `speakers_date`.
 - [x] compare scraped speaker counts with those currently in the DB: this could lead to improved regular expression and migh help us update the existing counts in the DB. I would prefer to do this manually.
@@ -21,7 +21,7 @@
 Notes:
 
 - name and autonym of an orthography override those of languages (probably not needed now)
-- [ ]if there is not any orthography for a language, check if there is a macrolanguage which includes this language with some orthography. If so, use that.
+- [x]if there is not any orthography for a language, check if there is a macrolanguage which includes this language with some orthography. If so, use that.
 - [x] when checking for language support in a font, ignore entries with `todo_status: todo`, set aside those with `todo_status: weak`. 
 - [x] Ignore orthographies with `status: historical` and provide switch to ignore languages with status `historical` or `constructed`, but include by default.
 

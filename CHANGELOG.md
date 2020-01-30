@@ -6,6 +6,7 @@
 - TWEAK: `-o` filters the languages' orthographies to only supported ones
 - TWEAK: Added validation check to confirm orthographies have a 'script'
 - TWEAK: Refactored validation script to `fontlang-validate` CLI command
+- TWEAK: Languages without orthographies that are included in macrolanguages that do have orthographies silently inherit the macrolanguage's orthographies
 - FEATURE: Added `fontlang-save` CLI command to re-save the `rosetta.yaml` sorted alphabetically
 - FEATURE: Added `--include-historical` and `--include-constructed` flags to include those languages in results
 - FEATURE: Added `--version` and `--verbose` flags
