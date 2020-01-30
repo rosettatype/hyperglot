@@ -137,6 +137,10 @@ def check_names():
                 if "autonym" not in o:
                     continue
 
+                if "script" not in o:
+                    logging.error("'%s' has no 'script' attribute" % iso)
+                    continue
+
                 autonym_ok, chars, missing = check_autonym_spelling(o)
                 if not autonym_ok:
                     logging.error("'%s' has invalid autonym '%s' which cannot "

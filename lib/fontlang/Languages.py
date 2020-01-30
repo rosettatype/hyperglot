@@ -103,7 +103,6 @@ class Language(dict):
         for ort in self["orthographies"]:
             supported = False
             if "script" not in ort:
-                # TODO Confirm this is also caught by validate.py
                 logging.warning("Skipping an orthography in language '%s',"
                                 " because it has no 'script'" % self.iso)
                 continue

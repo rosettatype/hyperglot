@@ -16,7 +16,7 @@
 - [x] make sure characters used in autonyms are also in the base for corresponding orthography
 - [ ] add licence to this repo
 - [ ] sort rosetta.yaml dict by key a-z
-- [ ] CLI option to pass several files and compute union (and why not also intersect) of supported languages
+- [x] CLI option to pass several files and compute union (and why not also intersect) of supported languages
 
 Notes:
 
