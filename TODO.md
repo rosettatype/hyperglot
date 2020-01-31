@@ -30,6 +30,7 @@ Notes:
 - [x] check if all macrolanguages have been covered, i.e. if all ISO 639-3 languages marked as macrolanguages have a non-empty `includes` field. List those that do not.
 - [x] check if all names are iso-639-3, print output. The update might need to be done manually not to overwrite our preferred names.
 - [x] make sure characters used in autonyms are also in the base for corresponding orthography
+- [ ] review historical statuses!!
 - [ ] review combinations (are all codepoints combining, …)
 - [ ] review auxiliary
 - [ ] check Cyrillic orthographies agains https://en.wiktionary.org/wiki/Appendix:Cyrillic_script
