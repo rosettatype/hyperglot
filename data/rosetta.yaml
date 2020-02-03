@@ -2064,7 +2064,7 @@ heb:
   orthographies:
   - autonym: עברית
     base: א ב ג ד ה ו ז ח ט י כ ך ל מ ם נ ן ס ע פ ף צ ץ ק ר ש ת
-    #combinations: {שׁ }{שׂ}{בּ}{תּ}{כּ }{ךּ}{פּ }{ףּ}{ג׳}{ז׳}{צ׳}{ו׳}{וו}{ד׳}{ת׳}{ח׳}{ר׳}{ע׳}
+    combinations: '{שׁ }{שׂ}{בּ}{תּ}{כּ }{ךּ}{פּ }{ףּ}{ג׳}{ז׳}{צ׳}{ו׳}{וו}{ד׳}{ת׳}{ח׳}{ר׳}{ע׳}'
     script: Hebr
   speakers: 9000000
   todo_status: todo
@@ -2346,7 +2346,7 @@ jdt:
     script: Cyrl
   - autonym: ז׳אוּהאוּראִ
     base: א ב ג ד ה ו וּ ז ח י י כ ל מ נ ס ע פ צ ק ר ש ת ׳
-    # combinations: {אִ }{אַ }{אָ}{בּ}{כּ}{פּ}
+    combinations: '{אִ }{אַ }{אָ}{בּ}{כּ}{פּ}'
     script: Hebr
     status: secondary
   - autonym: Çuhuri
@@ -5578,7 +5578,7 @@ ydd:
   orthographies:
   - autonym: ייִדיש
     base: א ב ג ד ה ו ז ח ט י כ ך ל מ ם נ ן ס ע פ ף צ ץ ק ר ש ת
-    # combinations: {אָ }{יִ}
+    combinations: '{אָ }{יִ}'
     script: Hebr
   speakers: 1500000
   todo_status: weak
@@ -5595,7 +5595,7 @@ yih:
   orthographies:
   - autonym: ייִדיש
     base: א ב ג ד ה ו ז ח ט י כ ך ל מ ם נ ן ס ע פ ף צ ץ ק ר ש ת
-    # combinations: {אָ }{יִ}
+    combinations: '{אָ }{יִ}'
     script: Hebr
   speakers: 5000
   todo_status: weak
