@@ -34,17 +34,18 @@ Notes:
 - [+] double check Swahili macrolanguage
 - [+] set up aze Azerbaijani as macrolanguage
 - [+] set up kur Kurdish as macrolanguage
-- [ ] set up mon Mongolian as macrolanguage
-- [ ] set up bik Bikol as macrolanguage
-- [ ] set up est Estonian as macrolanguage
-- [ ] set up kln Kalenjin as macrolanguage
-- [ ] set up lav Latvian as macrolanguage
+- [+] set up mon Mongolian as macrolanguage
+- [+] set up bik Bikol as macrolanguage
+- [+] set up est Estonian as macrolanguage
+- [+] set up kln Kalenjin as macrolanguage
+- [+] set up lav Latvian as macrolanguage
 - [ ] set up luy Luyia as macrolanguage
 - [ ] set up orm Oromo as macrolanguage
 - [ ] set up que Quechua as macrolanguage
 - [ ] set up sqi Albanian as macrolanguage
 - [ ] set up srd Sardinian as macrolanguage
 - [ ] set up zap Zapotec as macrolanguage
+- [ ] revise orthographies in macrolanguages, use inherit attribute instead (?), e.g. Malagasy
 - [ ] double check these autonyms:
 	abk Abkhazian - Аҧсшәа‎
 	ady Adyghe - Адыгабзэ‎

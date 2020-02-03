@@ -764,13 +764,35 @@ bhh:
   speakers_date: 1995
   todo_status: todo
 bhr:
-  autonym: Bara Malagasy
   name: Bara Malagasy
 bik:
   name: Bikol
-  note: The number of speakers is only for Pandan Bikol.
+  includes:
+  - bcl
+  - bhk
+  - bln
+  - bto
+  - cts
+  - fbl
+  - lbl
+  - rbl
+  - ubl
+bcl:
+  name: Central Bikol
+  todo_status: todo
+bhk:
+  name: Albay Bicolano
+  todo_status: todo
+bln:
+  name: Southern Catanduanes Bikol
+  todo_status: todo
+bto:
+  name: Rinconada Bikol
+  todo_status: todo
+cts:
+  name: Northern Catanduanes Bikol
   orthographies:
-  - autonym: Bikol
+  - autonym: Pandan Bikol
     auxiliary: c e f j q v x z
     base: a b d g h i k l m n o p r s t u w y
     script: Latn
@@ -778,7 +800,20 @@ bik:
   - Omniglot
   - Wikipedia
   speakers: 78000
+  speakers_date: 2000
   todo_status: strong
+fbl:
+  name: West Albay Bikol
+  todo_status: todo
+lbl:
+  name: Libon Bikol
+  todo_status: todo
+rbl:
+  name: Miraya Bikol
+  todo_status: todo
+ubl:
+  name: Buhi'non Bikol
+  todo_status: todo
 bis:
   name: Bislama
   orthographies:
@@ -1471,6 +1506,11 @@ ess:
   todo_status: strong
 est:
   name: Estonian
+  includes:
+  - ekk
+  - vro
+ekk:
+  name: Standard Estonian
   orthographies:
   - autonym: Eesti
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä õ ö ü š ž
@@ -1482,6 +1522,17 @@ est:
   speakers: 1100000
   speakers_date: 2012
   todo_status: done
+vro:
+  name: Võro
+  orthographies:
+  - autonym: Võro
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä õ ö ü š ž '
+    script: Latn
+  speakers: 87000
+  speakers_date: 2011
+  source:
+  - Wikipedia
+  todo_status: strong
 esu:
   name: Central Yupik
   note: Single source.
@@ -2668,17 +2719,64 @@ kkj:
   todo_status: weak
 kln:
   name: Kalenjin
-  note: A cluster of Nandi–Markweta dialects/languages. 18% of the population of Kenya.
   orthographies:
   - autonym: Kalenjin
+  note: A cluster of Nandi–Markweta dialects/languages.
     auxiliary: f q v x z
     base: a b c d e g h i j k l m n o p r s t u w y
     script: Latn
   source:
   - Wikipedia
   - CLDR
+  includes:
+  - enb
+  - eyo
+  - niq
+  - oki
+  - pko
+  - sgc
+  - spy
+  - tec
+  - tuy
+enb:
+  name: Markweeta
   speakers: 8561574
+  note: 18% of the population of Kenya.
   todo_status: weak
+eyo:
+  name: Keiyo
+  todo_status: todo
+niq:
+  name: Nandi
+  source:
+  - Wikipedia
+  todo_status: todo
+oki:
+  name: Okiek
+  source:
+  - Wikipedia
+  speakers: 79000
+  speakers_date: 2009
+  todo_status: weak
+pko:
+  name: Pökoot
+  source:
+  - Wikipedia
+  speakers: 700000
+  speakers_date: 2002–2009
+  todo_status: weak
+sgc:
+  name: Kipsigis 
+  todo_status: todo
+spy:
+  name: Sabaot 
+  todo_status: todo
+tec:
+  name: Terik
+  todo_status: todo
+tuy:
+  name: Tugen
+  todo_status: todo
 kng:
   name: Koongo
   note: Single source.
@@ -2947,11 +3045,28 @@ lat:
   todo_status: done
 lav:
   name: Latvian
+  includes:
+  - ltg
+  - lvs
+ltg:
+  name: Latgalian
+  orthographies:
+  - autonym: Latgalīšu
+    base: a ā b c č d e ē f g ģ h i ī j k ķ l ļ m n ņ o ō p r s š t u ū v y z ž
+    auxiliary: q w x 
+    script: Latn
+  speakers: 150000–200000
+  speakers_date: 2009
+  source:
+  - Wikipedia
+  status: strong
+lvs:
+  name: Standard Latvian
   note: Single source.
   orthographies:
   - autonym: Latviešu
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā č ē ģ ī ķ ļ ņ ō ŗ
-      š ū ž
+    base: a ā b c č d e ē f g ģ h i ī j k ķ l ļ m n ņ o p r s š t u ū v z ž
+    auxiliary: q w x y
     script: Latn
   source:
   - Omniglot
@@ -3354,6 +3469,11 @@ moh:
   todo_status: strong
 mon:
   name: Mongolian
+  includes:
+  - khk
+  - mvf
+khk:
+  name: Halh Mongolian
   orthographies:
   - autonym: Монгол
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ү ө
@@ -3364,6 +3484,9 @@ mon:
   speakers: 3600000
   speakers_date: 2014
   todo_status: strong
+mvf:
+  name: Peripheral Mongolian
+  todo_status: todo
 mqm:
   name: South Marquesan
   note: Single source. The number of speakers is estimate, a half of total Marquesan
@@ -5284,18 +5407,6 @@ vol:
   speakers: 20
   speakers_date: 2000
   status: constructed
-  todo_status: strong
-vro:
-  name: Võro
-  orthographies:
-  - autonym: Võro kiil
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä õ ö ü š ž
-    script: Latn
-  source:
-  - Omniglot
-  - Wikipedia
-  speakers: 87000
-  speakers_date: 2011
   todo_status: strong
 vun:
   name: Vunjo
