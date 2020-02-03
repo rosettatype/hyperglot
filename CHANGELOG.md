@@ -1,6 +1,9 @@
 # A changelog for the lib/fontlang CLI tool
 
-## 0.1.5 (WIP - add as you commit)
+## 0.1.6 (WIP)
+- TWEAK: Implemented orthography attribute `inherit` to inherit another language's orthography for that `script` (if one exists)
+
+## 0.1.5 (30.01.2020)
 - FIX: More robust relative file path loading for database file
 - TWEAK: `-o` output is now of same structure for single file input, and indexed by file name for several file input
 - TWEAK: `-o` filters the languages' orthographies to only supported ones

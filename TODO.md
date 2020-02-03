@@ -3,7 +3,7 @@
 @Johannes
 
 - [ ] set status based on ISO (extinct, historical, …)
-- [ ] implement inherit attribute for orthographies
+- [+] implement inherit attribute for orthographies
 
 - [+] double check if YAML is well formed, list-type fields are always lists etc.
 - [+] add language names where missing or where -- is used
