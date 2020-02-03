@@ -130,7 +130,7 @@ def check_names(Langs):
     for iso, lang in Langs.items():
         if "orthographies" in lang:
             for o in lang["orthographies"]:
-                if "base" not in o:
+                if "base" not in o and "inherit" not in o:
                     logging.error("'%s' has an orthography which is missing a "
                                   "'base' attribute" % iso)
                     continue
@@ -140,6 +140,13 @@ def check_names(Langs):
 
                 if "script" not in o:
                     logging.error("'%s' has no 'script' attribute" % iso)
+                    continue
+
+                if "inherit" in o:
+                    if not check_inheritted(o["inherit"], Langs):
+                        logging.error("'%s' has an orthography which inherits "
+                                      "from '%s', but that language was not "
+                                      "found" % (iso, o["inherit"]))
                     continue
 
                 autonym_ok, chars, missing = check_autonym_spelling(o)
@@ -162,6 +169,10 @@ def check_names(Langs):
             else:
                 logging.warning("'%s' has no 'names' attribute in iso data"
                                 % iso)
+
+
+def check_inheritted(iso, Langs):
+    return iso in Langs.keys()
 
 
 def check_macrolanguages(Langs):

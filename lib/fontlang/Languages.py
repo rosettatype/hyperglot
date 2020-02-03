@@ -168,6 +168,30 @@ class Languages(dict):
             self.update(data)
 
             self.inherit_orthographies_from_macrolanguage()
+            self.inherit_orthographies()
+
+    def inherit_orthographies(self):
+        """
+        Check through all languages and if an orthography inherits from another
+        language copy those orthographies
+        """
+        for iso, lang in self.items():
+            if "orthographies" in lang:
+                for o in lang["orthographies"]:
+                    if "inherit" in o and "script" in o:
+                        ref = Language(self[o["inherit"]], o["inherit"])
+                        ort = ref.get_orthography(o["script"])
+                        if ort:
+                            logging.debug("'%s' inheriting orthography from "
+                                          "'%s'" % (iso, o["inherit"]))
+                            # Copy all the attributes we want to inherit
+                            for attr in ["base", "auxiliary", "combinations",
+                                         "status"]:
+                                if attr in ort:
+                                    # Wrap in type constructor, to copy, not
+                                    # reference
+                                    ty = type(ort[attr])
+                                    o[attr] = ty(ort[attr])
 
     def inherit_orthographies_from_macrolanguage(self):
         """
