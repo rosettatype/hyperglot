@@ -28,7 +28,7 @@ We are also providing a command-line tool to automate the analysis of language s
 1. language records are indexed by ISO 639-3 three-letter codes
 2. a language `name` is also based on ISO 639-3. There is an option to override this and set a `preferred_name` in case the ISO name is pejorative or racist. We also use this to simplify very long names and where we have a preference (e.g. Sami over Saami).
 3. a language can contain a list of `orthographies`
-4. in case a language is a macrolanguage, it has an attributed `includes` which is a list of language codes of the sub-languages. If a sub-language does not have any orthography defined, it can use one defined for the macrolanguage. If there is one.
+4. in case a language is a macrolanguage, it has an attribute `includes` which is a list of language codes of the sub-languages. If a sub-language does not have any orthography defined, it can use one defined for the macrolanguage. If there is one. A macrolanguages are not typically presented. In case there are too many individual sub-languages with insufficient information, we use attribute `preferred_as_individual: true` to indicate that this macrolanguage will be treated exceptionally as an individual language.
 5. an orthography is a list of character sets:
 	- `base` is a string of space-separated characters from the language’s standard alphabet, syllabary, or an approximation of those.
 	- `auxiliary` is a string of space-separated characters that are used in very common loan words or in reference literature (e.g. linguistic)
@@ -39,6 +39,7 @@ We are also providing a command-line tool to automate the analysis of language s
 	- a number of native `speakers`. Note that this is a number of speakers, thus one needs to account for literacy rate in particular language. This can be a range. To indicate how up to date the number is, a `speakers_date` is provided referring to the publication date of a reference used on Wikipedia.
 	- a `status` which can be `historical`, `constructed`, or `living` (default when the attribute is missing).
 	- `source` is a list of sources used to define the orthographies.
+
 
 The database is stored in a YAML file `data/rosetta.yaml`. Here are two basic examples:
 

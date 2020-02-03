@@ -361,36 +361,35 @@ aqc:
   todo_status: strong
 ara:
   includes:
-  - arq
-  - aao
-  - bbz
-  - abv
-  - shu
-  - acy
-  - adf
-  - avl
-  - arz
-  - afb
-  - ayh
-  - acw
-  - ayl
-  - acm
-  - ary
-  - ars
-  - apc
-  - ayp
-  - acx
-  - aec
-  - ayn
-  - ssh
-  - ajp
-  - arb
-  - apd
-  - pga
-  - acq
-  - abh
-  - aeb
-  - auz
+  - aao  # Algerian Saharan Arabic
+  - abh  # Tajiki Arabic
+  - abv  # Baharna Arabic
+  - acm  # Mesopotamian Arabic
+  - acq  # Ta'izzi-Adeni Arabic
+  - acw  # Hijazi Arabic
+  - acx  # Omani Arabic
+  - acy  # Cypriot Arabic
+  - adf  # Dhofari Arabic
+  - aeb  # Tunisian Arabic
+  - aec  # Saidi Arabic
+  - afb  # Gulf Arabic
+  - ajp  # South Levantine Arabic
+  - apc  # North Levantine Arabic
+  - apd  # Sudanese Arabic
+  - arb  # Standard Arabic
+  - arq  # Algerian Arabic
+  - ars  # Najdi Arabic
+  - ary  # Moroccan Arabic
+  - arz  # Egyptian Arabic
+  - auz  # Uzbeki Arabic
+  - avl  # Eastern Egyptian Bedawi Arabic
+  - ayh  # Hadrami Arabic
+  - ayl  # Libyan Arabic
+  - ayn  # Sanaani Arabic
+  - ayp  # North Mesopotamian Arabic
+  - pga  # Sudanese Creole Arabic
+  - shu  # Chadian Arabic
+  - ssh  # Shihhi Arabic
   name: Arabic
   source:
   - Wikipedia
@@ -608,7 +607,7 @@ azj:
     script: Cyrl
     status: local
     note: Official in Dagestan (Russia).
-  - base: a b c d e f g h i j k l m n o p q r s t u v x y z ç ö ü ğ İ ı ş ə
+  - base: a b c d e f g h i j k l m n o p q r s t u v x y z ç ö ü ğ İ ı ş ə ‘
     script: Latn
   source:
   - Omniglot
@@ -765,8 +764,6 @@ bhh:
   speakers: 110000
   speakers_date: 1995
   todo_status: todo
-bhr:
-  name: Bara Malagasy
 bik:
   name: Bikol
   includes:
@@ -779,20 +776,6 @@ bik:
   - lbl
   - rbl
   - ubl
-bcl:
-  name: Central Bikol
-  todo_status: todo
-bhk:
-  name: Albay Bicolano
-  todo_status: todo
-bln:
-  name: Southern Catanduanes Bikol
-  todo_status: todo
-bto:
-  name: Rinconada Bikol
-  todo_status: todo
-cts:
-  name: Northern Catanduanes Bikol
   orthographies:
   - autonym: Pandan Bikol
     auxiliary: c e f j q v x z
@@ -804,18 +787,7 @@ cts:
   speakers: 78000
   speakers_date: 2000
   todo_status: strong
-fbl:
-  name: West Albay Bikol
-  todo_status: todo
-lbl:
-  name: Libon Bikol
-  todo_status: todo
-rbl:
-  name: Miraya Bikol
-  todo_status: todo
-ubl:
-  name: Buhi'non Bikol
-  todo_status: todo
+  preferred_as_individual: true
 bis:
   name: Bislama
   orthographies:
@@ -829,9 +801,6 @@ bis:
   speakers: 10000
   speakers_date: 2011
   todo_status: strong
-bmm:
-  autonym: Betsimisaraka
-  name: Northern Betsimisaraka Malagasy
 bos:
   name: Bosnian
   orthographies:
@@ -870,6 +839,16 @@ bua:
 buc:
   autonym: Kibushi
   name: Bushi
+  orthographies:
+  - autonym: Shibushi
+    base: a b d e f g h i k l m n o p r s t u v w x y z ɓ ɗ n̈
+    auxiliary: c j q
+    script: Latn
+  source:
+  - Wikipedia
+  speakers: 47900
+  speakers_date: 2012
+  todo_status: weak
 bul:
   name: Bulgarian
   note: localised shapes for л в к г й ф ю etc.
@@ -929,8 +908,6 @@ bxu:
   preferred_name: Chinese Buriat
   speakers: 65000
   speakers_date: 1982
-bzc:
-  name: Southern Betsimisaraka Malagasy
 cak:
   name: Kaqchikel
   note: Single source.
@@ -1632,17 +1609,8 @@ fao:
   todo_status: strong
 fas:
   includes:
-  - pes
-  - prs
-  - tgk
-  - aiq
-  - bhh
-  - haz
-  - jpr
-  - phv
-  - deh
-  - jdt
-  - ttt
+  - pes  # Iranian Persian
+  - prs  # Dari
   name: Persian
   source:
   - Wikipedia
@@ -1664,7 +1632,7 @@ ffm:
   note: Mali, Ghana
   orthographies:
   - autonym: Maasinankoore
-    base: a b c d e f g h i j k l m n o p r s t u w y x ŋ ƴ ɓ ɗ ɲ
+    inherit: fue
     script: Latn
   source:
   - Omniglot
@@ -1796,7 +1764,8 @@ fuh:
   name: Western Niger Fulfulde
   note: Burkina, Niger
   orthographies:
-  - base: a b c d e f g h i j k l m n o p r s t u w y x ŋ ƴ ɓ ɗ ɲ
+  - autonym: Fulfulde
+    inherit: fue
     script: Latn
   source:
   - Omniglot
@@ -2115,7 +2084,7 @@ heb:
   orthographies:
   - autonym: עברית
     base: א ב ג ד ה ו ז ח ט י כ ך ל מ ם נ ן ס ע פ ף צ ץ ק ר ש ת
-    combinations: '{שׁ }{שׂ}{בּ}{תּ}{כּ }{ךּ}{פּ }{ףּ}{ג׳}{ז׳}{צ׳}{ו׳}{וו}{ד׳}{ת׳}{ח׳}{ר׳}{ע׳}'
+    combinations: '{שׁ}{שׂ}{בּ}{תּ}{כּ }{ךּ}{פּ}{ףּ}{ג׳}{ז׳}{צ׳}{ו׳}{וו}{ד׳}{ת׳}{ח׳}{ר׳}{ע׳}'
     script: Hebr
   speakers: 9000000
   todo_status: todo
@@ -2270,18 +2239,6 @@ ina:
   speakers: 1500
   speakers_date: 2000
   todo_status: strong
-ind:
-  name: Indonesian
-  orthographies:
-  - autonym: Indonesia
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    script: Latn
-  source:
-  - Omniglot
-  - Wikipedia
-  speakers: 43000000
-  speakers_date: 2010
-  todo_status: strong
 inh:
   name: Ingush
   note: Single source.
@@ -2359,11 +2316,6 @@ jav:
   speakers: 82000000
   speakers_date: 2007
   todo_status: strong
-jax:
-  name: Jambi Malay
-  speakers: 1000000
-  speakers_date: 2000
-  todo_status: todo
 jbo:
   name: Lojban
   orthographies:
@@ -2721,12 +2673,7 @@ kkj:
   todo_status: weak
 kln:
   name: Kalenjin
-  orthographies:
-  - autonym: Kalenjin
   note: A cluster of Nandi–Markweta dialects/languages.
-    auxiliary: f q v x z
-    base: a b c d e g h i j k l m n o p r s t u w y
-    script: Latn
   source:
   - Wikipedia
   - CLDR
@@ -2740,45 +2687,15 @@ kln:
   - spy
   - tec
   - tuy
-enb:
-  name: Markweeta
+  orthographies:
+  - autonym: Markweta
+    auxiliary: f q v x z
+    base: a b c d e g h i j k l m n o p r s t u w y
+    script: Latn
   speakers: 8561574
   note: 18% of the population of Kenya.
   todo_status: weak
-eyo:
-  name: Keiyo
-  todo_status: todo
-niq:
-  name: Nandi
-  source:
-  - Wikipedia
-  todo_status: todo
-oki:
-  name: Okiek
-  source:
-  - Wikipedia
-  speakers: 79000
-  speakers_date: 2009
-  todo_status: weak
-pko:
-  name: Pökoot
-  source:
-  - Wikipedia
-  speakers: 700000
-  speakers_date: 2002–2009
-  todo_status: weak
-sgc:
-  name: Kipsigis 
-  todo_status: todo
-spy:
-  name: Sabaot 
-  todo_status: todo
-tec:
-  name: Terik
-  todo_status: todo
-tuy:
-  name: Tugen
-  todo_status: todo
+  preferred_as_individual: true
 kng:
   name: Koongo
   note: Single source.
@@ -3004,11 +2921,6 @@ lki:
   source:
   - Wikipedia
   todo_status: todo
-kvr:
-  name: Kerinci
-  speakers: 290000
-  speakers_date: 2000
-  todo_status: todo
 kwy:
   name: San Salvador Kongo
   note: Single source.
@@ -3018,9 +2930,6 @@ kwy:
   source:
   - Omniglot
   todo_status: weak
-kxd:
-  name: Brunei
-  todo_status: todo
 lag:
   name: Langi
   note: Single source.
@@ -3255,18 +3164,6 @@ luo:
   speakers: 4200000
   speakers_date: 2009
   todo_status: strong
-luy:
-  name: Luyia
-  note: Single source.
-  orthographies:
-  - autonym: Oluluyia
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    script: Latn
-  source:
-  - CLDR
-  speakers: 1200000
-  speakers_date: 2009
-  todo_status: weak
 mas:
   name: Masai
   note: Single source.
@@ -3280,11 +3177,6 @@ mas:
   speakers: 1500000
   speakers_date: 2009-2016
   todo_status: weak
-max:
-  name: North Moluccan Malay
-  speakers: 700000
-  speakers_date: 2001
-  todo_status: todo
 mdf:
   name: Moksha
   orthographies:
@@ -3297,11 +3189,6 @@ mdf:
   speakers: 430000
   speakers_date: 2010
   todo_status: strong
-meo:
-  name: Kedah Malay
-  speakers: 2600000
-  speakers_date: 2004
-  todo_status: todo
 mer:
   name: Meru
   note: Single source. Alternative speaker count of 2300000 unconfirmed.
@@ -3319,11 +3206,6 @@ mer:
   speakers: 2000000
   speakers_date: 2009
   todo_status: weak
-mfa:
-  name: Pattani Malay
-  speakers: 5000000
-  speakers_date: 2006
-  todo_status: todo
 mfe:
   name: Morisyen
   orthographies:
@@ -3374,11 +3256,6 @@ mhr:
   speakers: 470000
   speakers_date: 2012
   todo_status: strong
-min:
-  name: Minangkabau
-  speakers: 6401000
-  speakers_date: 2007-2016
-  todo_status: todo
 mkd:
   name: Macedonian
   orthographies:
@@ -3393,17 +3270,16 @@ mkd:
   todo_status: strong
 mlg:
   includes:
-  - xmv
   - bhr
-  - buc
-  - msh
   - bmm
+  - bzc
+  - msh
   - plt
   - skg
-  - bzc
   - tdx
-  - txy
   - tkg
+  - txy
+  - xmv
   - xmw
   name: Malagasy
   orthographies:
@@ -3541,23 +3417,31 @@ mrq:
   speakers: 4350
   speakers_date: 2007
   todo_status: weak
-msa:
-  includes:
-  - kxd
-  - ind
-  - zsm
-  - jax
-  - meo
-  - kvr
-  - xmm
-  - min
-  - mui
-  - zmi
-  - max
-  - mfa
-  name: Malay (macrolanguage)
-msh:
-  name: Masikoro Malagasy
+ind:
+  name: Indonesian
+  orthographies:
+  - autonym: Indonesia
+    inherit: zlm
+    script: Latn
+  source:
+  - Omniglot
+  - Wikipedia
+  speakers: 43000000
+  speakers_date: 2010
+  todo_status: strong
+zlm:
+  name: Malay (individual language)
+  note: Single source.
+  orthographies:
+  - autonym: Melayu
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    script: Latn
+  preferred_name: Malay
+  source:
+  - Omniglot
+  speakers: 77000000
+  speakers_date: 2007
+  todo_status: weak
 mua:
   name: Mundang
   orthographies:
@@ -3570,11 +3454,6 @@ mua:
   speakers: 240000
   speakers_date: 1982-2006
   todo_status: strong
-mui:
-  name: Musi
-  speakers: 3100000
-  speakers_date: 2000
-  todo_status: todo
 mus:
   name: Creek
   orthographies:
@@ -3972,18 +3851,59 @@ old:
   todo_status: weak
 orm:
   name: Oromo
+  includes:
+  - gax
+  - gaz
+  - hae
+  - orc
+gax:
+  name: Borana-Arsi-Guji Oromo
   orthographies:
-  - autonym: Oromo
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+  - autonym: Borana
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z '
     script: Latn
   source:
   - Omniglot
   - Wikipedia
   - CLDR
   - Alvestrand
-  speakers: 34542000
+  speakers: 3900000
+  speakers_date: 2000-2009
+  todo_status: strong
+gaz:
+  name: West Central Oromo
+  orthographies:
+  - autonym: Afaan Oromoo
+    inherit: gax
+    script: Latn
+  source:
+  - Wikipedia
+  speakers: 26000000
   speakers_date: 2015
-  todo_status: done
+  todo_status: strong
+  note: Speakers count is an estimate based on total for Oromo macrolanguage.
+hae:
+  name: Eastern Oromo
+  orthographies:
+  - autonym: Harar
+    inherit: gax
+    script: Latn
+  source:
+  - Wikipedia
+  speakers: 4500000
+  speakers_date: 1994
+  todo_status: strong
+orc:
+  name: Orma
+  orthographies:
+  - autonym: Orma
+    inherit: gax
+    script: Latn
+  source:
+  - Wikipedia
+  speakers: 66000
+  speakers_date: 2009
+  todo_status: strong
 oss:
   name: Ossetian
   note: Single source.
@@ -4053,8 +3973,6 @@ phv:
   - autonym: --
     script: Arab
   todo_status: todo
-plt:
-  name: Plateau Malagasy
 plz:
   name: Paluan
   note: Single source.
@@ -4131,14 +4049,59 @@ prs:
   name: Dari
   orthographies:
   - autonym: فارسی
+    inherit: pes
     script: Arab
   speakers: 12500000
   speakers_date: 2000-2011
-  todo_status: todo
+  todo_status: done
 que:
   name: Quechua
+  includes:
+  - qub
+  - qud
+  - quf
+  - qug
+  - quh
+  - quk
+  - qul
+  - qup
+  - qur
+  - qus
+  - quw
+  - qux
+  - quy
+  - quz
+  - qva
+  - qvc
+  - qve
+  - qvh
+  - qvi
+  - qvj
+  - qvl
+  - qvm
+  - qvn
+  - qvo
+  - qvp
+  - qvs
+  - qvw
+  - qvz
+  - qwa
+  - qwc
+  - qwh
+  - qws
+  - qxa
+  - qxc
+  - qxh
+  - qxl
+  - qxn
+  - qxo
+  - qxp
+  - qxr
+  - qxt
+  - qxu
+  - qxw
   orthographies:
-  - autonym: Runa simi
+  - autonym: Runa Simi
     auxiliary: č ĉ š ž
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ñ
     script: Latn
@@ -4146,7 +4109,9 @@ que:
   - Omniglot
   - Wikipedia
   speakers: 10000000
+  speakers_date: 2004
   todo_status: strong
+  preferred_as_individual: true
 rar:
   name: Rarotongan
   orthographies:
@@ -4537,8 +4502,6 @@ sjw:
   speakers: 200
   speakers_date: 2002
   todo_status: weak
-skg:
-  name: Sakalava Malagasy
 slk:
   name: Slovak
   note: Single source.
@@ -4692,20 +4655,55 @@ spa:
   todo_status: strong
 sqi:
   name: Albanian
+  includes:
+  - aae
+  - aat
+  - aln
+  - als
+aae:
+  name: Arbëreshë Albanian
   orthographies:
-  - autonym: Shqip
+  - autonym: Arbërisht
+    inherit: aln
+    script: Latn
+  speakers: 100000
+  speakers_date: 2007
+  source:
+  - Wikipedia
+  todo_status: weak
+aln:
+  name: Gheg Albanian
+  orthographies:
+  - autonym: Gegnisht
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ç ë
     script: Latn
   source:
   - Omniglot
   - Wikipedia
   - CLDR
-  speakers: 5400000
+  speakers: 3450000
+  speakers_date: 2000–2001
+  source:
+  - Wikipedia
+  todo_status: weak
+als:
+  name: Tosk Albanian
+  orthographies:
+  - autonym: Shqip
+    inherit: aln
+    script: Latn
+  speakers: 1800000
   speakers_date: 2011
-  todo_status: strong
+  source:
+  - Wikipedia
+  todo_status: weak
 srd:
   name: Sardinian
-  note: Single source.
+  includes:
+  - sdc
+  - sdn
+  - src
+  - sro
   orthographies:
   - autonym: Sardu
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z à ç è ì ò ù
@@ -4715,6 +4713,7 @@ srd:
   speakers: 1350000
   speakers_date: 2016
   todo_status: weak
+  preferred_as_individual: true
 srm:
   name: Saramaccan
   orthographies:
@@ -4796,10 +4795,6 @@ swa:
   - wmw
   name: Swahili (macrolanguage)
   note: Speaker counts estimate between 2 and 150 million.
-  orthographies:
-  - autonym: Kiswahili
-    base: a b c d e f g h i j k l m n o p r s t u v w y z
-    script: Latn
   source:
   - Omniglot
   - Wikipedia
@@ -4812,7 +4807,7 @@ swc:
   note: Single source.
   orthographies:
   - autonym: Kiswahili
-    base: a b c d e f g h i j k l m n o p r s t u v w y z
+    inherit: swh
     script: Latn
   source:
   - Omniglot
@@ -4918,9 +4913,6 @@ tdt:
   speakers: 390000
   speakers_date: 2009
   todo_status: strong
-tdx:
-  autonym: Antandroy
-  name: Tandroy-Mahafaly Malagasy
 teo:
   name: Teso
   orthographies:
@@ -4959,8 +4951,6 @@ tgl:
   speakers: 23800000
   speakers_date: 2019
   todo_status: strong
-tkg:
-  name: Tesaka Malagasy
 tkl:
   name: Tokelau
   orthographies:
@@ -5158,8 +5148,6 @@ twq:
   speakers: 8000
   speakers_date: 1998
   todo_status: weak
-txy:
-  name: Tanosy Malagasy
 tyv:
   name: Tuvinian
   note: Single source.
@@ -5519,7 +5507,7 @@ wmw:
   name: Mwani
   orthographies:
   - autonym: Kimwani
-    base: a b c d e f g h i j k l m n o p r s t u v w y z
+    inherit: swh
     script: Latn
   source:
   - Omniglot
@@ -5612,15 +5600,6 @@ xho:
   speakers: 8200000
   speakers_date: 2011
   todo_status: weak
-xmm:
-  name: Manado Malay
-  speakers: 850000
-  speakers_date: 2001
-  todo_status: todo
-xmv:
-  name: Antankarana Malagasy
-xmw:
-  name: Tsimihety Malagasy
 xog:
   name: Soga
   orthographies:
@@ -5689,7 +5668,7 @@ ydd:
   orthographies:
   - autonym: ייִדיש
     base: א ב ג ד ה ו ז ח ט י כ ך ל מ ם נ ן ס ע פ ף צ ץ ק ר ש ת
-    combinations: '{אָ }{יִ}'
+    combinations: '{אָ}{יִ}'
     script: Hebr
   speakers: 1500000
   todo_status: weak
@@ -5705,8 +5684,7 @@ yih:
   name: Western Yiddish
   orthographies:
   - autonym: ייִדיש
-    base: א ב ג ד ה ו ז ח ט י כ ך ל מ ם נ ן ס ע פ ף צ ץ ק ר ש ת
-    combinations: '{אָ }{יִ}'
+    inherit: ydd
     script: Hebr
   speakers: 5000
   todo_status: weak
@@ -5802,6 +5780,64 @@ yux:
   todo_status: weak
 zap:
   name: Zapotec
+  includes:
+  - zaa  # Sierra de Juárez Zapotec
+  - zab  # Western Tlacolula Valley Zapotec
+  - zac  # Ocotlán Zapotec
+  - zad  # Cajonos Zapotec
+  - zae  # Yareni Zapotec
+  - zaf  # Ayoquesco Zapotec
+  - zai  # Isthmus Zapotec
+  - zam  # Miahuatlán Zapotec
+  - zao  # Ozolotepec Zapotec
+  - zaq  # Aloápam Zapotec
+  - zar  # Rincón Zapotec
+  - zas  # Santo Domingo Albarradas Zapotec
+  - zat  # Tabaa Zapotec
+  - zav  # Yatzachi Zapotec
+  - zaw  # Mitla Zapotec
+  - zax  # Xadani Zapotec
+  - zca  # Coatecas Altas Zapotec
+  - zoo  # Asunción Mixtepec Zapotec
+  - zpa  # Lachiguiri Zapotec
+  - zpb  # Yautepec Zapotec
+  - zpc  # Choapan Zapotec
+  - zpd  # Southeastern Ixtlán Zapotec
+  - zpe  # Petapa Zapotec
+  - zpf  # San Pedro Quiatoni Zapotec
+  - zpg  # Guevea De Humboldt Zapotec
+  - zph  # Totomachapan Zapotec
+  - zpi  # Santa María Quiegolani Zapotec
+  - zpj  # Quiavicuzas Zapotec
+  - zpk  # Tlacolulita Zapotec
+  - zpl  # Lachixío Zapotec
+  - zpm  # Mixtepec Zapotec
+  - zpn  # Santa Inés Yatzechi Zapotec
+  - zpo  # Amatlán Zapotec
+  - zpp  # El Alto Zapotec
+  - zpq  # Zoogocho Zapotec
+  - zpr  # Santiago Xanica Zapotec
+  - zps  # Coatlán Zapotec
+  - zpt  # San Vicente Coatlán Zapotec
+  - zpu  # Yalálag Zapotec
+  - zpv  # Chichicapan Zapotec
+  - zpw  # Zaniza Zapotec
+  - zpx  # San Baltazar Loxicha Zapotec
+  - zpy  # Mazaltepec Zapotec
+  - zpz  # Texmelucan Zapotec
+  - zsr  # Southern Rincon Zapotec
+  - zte  # Elotepec Zapotec
+  - ztg  # Xanaguía Zapotec
+  - ztl  # Lapaguía-Guivini Zapotec
+  - ztm  # San Agustín Mixtepec Zapotec
+  - ztn  # Santa Catarina Albarradas Zapotec
+  - ztp  # Loxicha Zapotec
+  - ztq  # Quioquitani-Quierí Zapotec
+  - zts  # Tilquiapan Zapotec
+  - ztt  # Tejalapan Zapotec
+  - ztu  # Güilá Zapotec
+  - ztx  # Zaachila Zapotec
+  - zty  # Yatee Zapotec
   orthographies:
   - base: a b c d e f g h i j k l m n o p q r s t u v w x y z á à è é ë ì ü s̨ ñ ž
       z̨
@@ -5812,30 +5848,7 @@ zap:
   speakers: 450000
   speakers_date: 2010
   todo_status: strong
-zlm:
-  name: Malay (individual language)
-  note: Single source.
-  orthographies:
-  - autonym: Melayu
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    script: Latn
-  preferred_name: Malay
-  source:
-  - Omniglot
-  speakers: 77000000
-  speakers_date: 2007
-  todo_status: weak
-zmi:
-  name: Negeri Sembilan Malay
-  note: Speaker count based on ethnic population Minangkabau in Negeri Malay
-  speakers: 508000
-  speakers_date: 2004
-  todo_status: todo
-zsm:
-  name: Standard Malay
-  speakers: 77000000
-  speakers_date: 2009
-  todo_status: todo
+  preferred_as_individual: true
 zul:
   name: Zulu
   note: Single source.

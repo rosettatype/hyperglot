@@ -4,6 +4,8 @@
 
 - [ ] set status based on ISO (extinct, historical, …)
 - [+] implement inherit attribute for orthographies
+- [ ] for orthography, do not inherit autonym! Sorry for wrong instructions.
+- [ ] add support for `preferred_as_individual: true` (default is false)
 
 - [+] double check if YAML is well formed, list-type fields are always lists etc.
 - [+] add language names where missing or where -- is used
@@ -39,13 +41,15 @@ Notes:
 - [+] set up est Estonian as macrolanguage
 - [+] set up kln Kalenjin as macrolanguage
 - [+] set up lav Latvian as macrolanguage
-- [ ] set up luy Luyia as macrolanguage
-- [ ] set up orm Oromo as macrolanguage
-- [ ] set up que Quechua as macrolanguage
-- [ ] set up sqi Albanian as macrolanguage
-- [ ] set up srd Sardinian as macrolanguage
-- [ ] set up zap Zapotec as macrolanguage
-- [ ] revise orthographies in macrolanguages, use inherit attribute instead (?), e.g. Malagasy
+- [+] remove luy Luyia
+- [+] set up orm Oromo as macrolanguage
+- [+] set up que Quechua as macrolanguage
+- [+] set up sqi Albanian as macrolanguage
+- [+] set up srd Sardinian as macrolanguage
+- [+] set up zap Zapotec as macrolanguage
+- [+] represented Bikol, Malagasy, Kalenjin, Sardinian, Quechua, Zapotec as individual language
+- [+] revise Yiddish & Hebrew
+- [+] resolve Malay
 - [ ] double check these autonyms:
 	abk Abkhazian - Аҧсшәа‎
 	ady Adyghe - Адыгабзэ‎
@@ -98,8 +102,22 @@ Notes:
 	tzo Tzotzil - Bats’i k’op
 	wls Wallisian - Fakaʻuvea
 	xav Xavánte - A’uwẽ
-- [ ] complete Arabic, Persian, and Malay sub-languages
-- [+] revise Yiddish & Hebrew
+- [ ] complete Arabic
+- [ ] revise pes Persian
+- [ ] revise aiq Aimaq
+- [ ] revise bhh Bukhori
+- [ ] revise haz
+- [ ] revise jpr
+- [ ] revise phv
+- [ ] revise deh
+- [ ] revise jdt
+- [ ] revise ttt
+- [ ] add zsm Malaysian
+- [ ] add Musi?
+
+Ask to check:
+- Albanian
+- Hebrew & Yiddish
 
 Later:
 
