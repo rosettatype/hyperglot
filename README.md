@@ -33,11 +33,11 @@ We are also providing a command-line tool to automate the analysis of language s
 	- `base` is a string of space-separated characters from the language’s standard alphabet, syllabary, or an approximation of those.
 	- `auxiliary` is a string of space-separated characters that are used in very common loan words or in reference literature (e.g. linguistic)
 	- `combinations` is a string with combinations of characters or characters and marks that should be supported by the font.
-6. each orthography has a `script` specified with a four-letter Unicode tag (Latn, Arab, Cyrl, …)
+6. each orthography has a `script` specified with a four-letter Unicode tag (Latn, Arab, Cyrl, …) and `status` which can be `deprecated`, `secondary`, `local` or `living/active` (default when the attribute is missing). Both `deprecated` and `secondary` are ignored when claiming a support for a particular language and orthography. The value `local` refers to an orthography which is used only is specific region.
 7. an `autonym` (name of the language in the language itself) is typically specified on the level of orthographies, but sometimes it is specified for a language, e.g. for a macrolanguage. The orthography autonym and name override the corresponding attributes of the language.
-8. each languages can have the following additional attributs:
-	- a number of native `speakers`. Note that this is a number of speakers, thus one needs to account for literacy rate in particular language. This can be a range.
-	- a `status` which refers to a living language by default (when missing), or `historical`, or `constructed`.
+8. each languages can also have the following additional attributes:
+	- a number of native `speakers`. Note that this is a number of speakers, thus one needs to account for literacy rate in particular language. This can be a range. To indicate how up to date the number is, a `speakers_date` is provided referring to the publication date of a reference used on Wikipedia.
+	- a `status` which can be `historical`, `constructed`, or `living` (default when the attribute is missing).
 	- `source` is a list of sources used to define the orthographies.
 
 The database is stored in a YAML file `data/rosetta.yaml`. Here are two basic examples:

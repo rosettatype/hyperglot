@@ -2,59 +2,54 @@
 
 @Johannes
 
-- [x] double check if YAML is well formed, list-type fields are always lists etc.
-- [x] add language names where missing or where -- is used
-- [x] add speaker counts where missing or where -- is used
-- [x] add a date (year) for the speaker count information, to the field `speakers_date`.
-- [x] compare scraped speaker counts with those currently in the DB: this could lead to improved regular expression and migh help us update the existing counts in the DB. I would prefer to do this manually.
-- [x] add langtool, refactor to work with the new format
-- [x] langtool should subset the rosetta.yaml per font
-- [x] check if all macrolanguages have been covered, i.e. if all ISO 639-3 languages marked as macrolanguages have a non-empty `includes` field. List those that do not.
+- [ ] set status based on ISO (extinct, historical, …)
+- [ ] implement inherit attribute for orthographies
+
+- [+] double check if YAML is well formed, list-type fields are always lists etc.
+- [+] add language names where missing or where -- is used
+- [+] add speaker counts where missing or where -- is used
+- [+] add a date (year) for the speaker count information, to the field `speakers_date`.
+- [+] compare scraped speaker counts with those currently in the DB: this could lead to improved regular expression and migh help us update the existing counts in the DB. I would prefer to do this manually.
+- [+] add langtool, refactor to work with the new format
+- [+] langtool should subset the rosetta.yaml per font
+- [+] check if all macrolanguages have been covered, i.e. if all ISO 639-3 languages marked as macrolanguages have a non-empty `includes` field. List those that do not.
 	- NOTE: Currently also cross-checking iso data against rosetta data and emitting a warning if the rosetta data is missing one of those macrolanguages altogether
-- [x] check if all names are iso-639-3, print output. The update might need to be done manually not to overwrite our preferred names.
+- [+] check if all names are iso-639-3, print output. The update might need to be done manually not to overwrite our preferred names.
 	- NOTE: The only two cases of difference were quotes: 'Ta’izzi-Adeni Arabic' (iso: 'Ta'izzi-Adeni Arabic') and 'Ga’anda' (iso:'Ga'anda')
-- [x] make sure characters used in autonyms are also in the base for corresponding orthography
-- [x] add licence to this repo
-- [x] sort rosetta.yaml dict by key a-z
-- [x] CLI option to pass several files and compute union (and why not also intersect) of supported languages
+- [+] make sure characters used in autonyms are also in the base for corresponding orthography
+- [+] add licence to this repo
+- [+] sort rosetta.yaml dict by key a-z
+- [+] CLI option to pass several files and compute union (and why not also intersect) of supported languages
 
 Notes:
 
 - name and autonym of an orthography override those of languages (probably not needed now)
-- [x]if there is not any orthography for a language, check if there is a macrolanguage which includes this language with some orthography. If so, use that.
-- [x] when checking for language support in a font, ignore entries with `todo_status: todo`, set aside those with `todo_status: weak`. 
-- [x] Ignore orthographies with `status: historical` and provide switch to ignore languages with status `historical` or `constructed`, but include by default.
+- [+] if there is not any orthography for a language, check if there is a macrolanguage which includes this language with some orthography. If so, use that.
+- [+] when checking for language support in a font, ignore entries with `todo_status: todo`, set aside those with `todo_status: weak`. 
+- [+] Ignore orthographies with `status: historical` and provide switch to ignore languages with status `historical` or `constructed`, but include by default.
 
 @David
 
-- [x] check if all macrolanguages have been covered, i.e. if all ISO 639-3 languages marked as macrolanguages have a non-empty `includes` field. List those that do not.
-- [x] check if all names are iso-639-3, print output. The update might need to be done manually not to overwrite our preferred names.
-- [x] make sure characters used in autonyms are also in the base for corresponding orthography
-- [ ] review historical statuses!!
-- [ ] review combinations (are all codepoints combining, …)
-- [ ] review auxiliary
-- [ ] check Cyrillic orthographies agains https://en.wiktionary.org/wiki/Appendix:Cyrillic_script
-- [ ] double check Swahili macrolanguage
-- [ ] convert these to macrolanguages:
-	aze Azerbaijani
-	kur Kurdish
-	mon Mongolian
-	bik Bikol
-	est Estonian
-	kln Kalenjin
-	lav Latvian
-	luy Luyia
-	orm Oromo
-	que Quechua
-	sqi Albanian
-	srd Sardinian
-	zap Zapotec
+- [+] review historical statuses!!
+- [+] double check Swahili macrolanguage
+- [+] set up aze Azerbaijani as macrolanguage
+- [+] set up kur Kurdish as macrolanguage
+- [ ] set up mon Mongolian as macrolanguage
+- [ ] set up bik Bikol as macrolanguage
+- [ ] set up est Estonian as macrolanguage
+- [ ] set up kln Kalenjin as macrolanguage
+- [ ] set up lav Latvian as macrolanguage
+- [ ] set up luy Luyia as macrolanguage
+- [ ] set up orm Oromo as macrolanguage
+- [ ] set up que Quechua as macrolanguage
+- [ ] set up sqi Albanian as macrolanguage
+- [ ] set up srd Sardinian as macrolanguage
+- [ ] set up zap Zapotec as macrolanguage
 - [ ] double check these autonyms:
 	abk Abkhazian - Аҧсшәа‎
 	ady Adyghe - Адыгабзэ‎
 	agx Aghul - Агъул‎
 	ani Andi - Мицци‎
-	bak Bashkir - Башҡортса‎
 	bhh Bukharic - Бухорӣ
 	bhh Bukharic - בוכארי
 	chu Church Slavic - Церковнослове́нскїй
@@ -63,14 +58,6 @@ Notes:
 	dlg Dolgan - Дулҕан
 	ems Pacific Gulf Yupik - Sugpiaq
 	inh Ingush - Гӏалгӏай‎
-	jdt Judeo-Tat - Juwri
-	kaa Kara-Kalpak - Қарақалпақ тили‎
-	kum Kumyk - Къумукъ‎
-	kur Kurdish - Kurdî
-	kur Kurdish - Kurdî
-	lez Lezghian - Лезги‎
-	mhr Eastern Mari - Олык Марий‎
-	mrj Western Mari - Кырык Мары‎
 	oaa Orok - Уйльта
 	ron Romanian - Română
 	rut Rutul - Мыхӏабишды‎
@@ -85,13 +72,9 @@ Notes:
 	uzn Northern Uzbek - Ўзбекча
 	uzn Northern Uzbek - O‘zbekcha
 	uzs Southern Uzbek - اوزبیکی
-	ydd Eastern Yiddish - ייִדיש
-	yih Western Yiddish - ייִדיש
 	aat Arvanitika Albanian - Αρβανίτικα
 	bem Bemba (Zambia) - Chibemba
 	cak Kaqchikel - Kaqchikel Chʼabʼäl
-	cic Chickasaw - Chikashshanompa’
-	cic Chickasaw - Chikashshanompa’
 	con Cofán - A’ingae
 	fao Faroese - Føroyskt
 	gwi Gwichʼin - Dinju Zhuh K’yuu
@@ -112,11 +95,16 @@ Notes:
 	tvl Tuvalu - Te ’gana Tūvalu
 	twq Tasawaq - Ingalkoyyu’
 	tzo Tzotzil - Bats’i k’op
-	vie Vietnamese - Tiếng Việt
 	wls Wallisian - Fakaʻuvea
 	xav Xavánte - A’uwẽ
-	zun Zuni - Shiwiʼma
 - [ ] complete Arabic, Persian, and Malay sub-languages
+- [+] revise Yiddish & Hebrew
+
+Later:
+
+- [ ] review combinations (are all codepoints combining, …)
+- [ ] review auxiliary
+- [ ] check Cyrillic orthographies against: https://en.wiktionary.org/wiki/Appendix:Cyrillic_script
 
 ## Other
 

@@ -69,7 +69,7 @@ abh:
 abk:
   name: Abkhazian
   orthographies:
-  - autonym: Аҧсшәа‎
+  - autonym: Аҧсшәа
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я џ қ ҟ ҩ
       ҭ ҳ ҵ ҷ ҽ ҿ ә ӡ ӷ ԥ
     script: Cyrl
@@ -174,7 +174,7 @@ adf:
 ady:
   name: Adyghe
   orthographies:
-  - autonym: Адыгабзэ‎
+  - autonym: Адыгабзэ
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
     script: Cyrl
   source:
@@ -250,7 +250,7 @@ agq:
 agx:
   name: Aghul
   orthographies:
-  - autonym: Агъул‎
+  - autonym: Агъул
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
     script: Cyrl
   source:
@@ -262,7 +262,7 @@ agx:
 aiq:
   name: Aimaq
   orthographies:
-  - autonym: ایماقی‎
+  - autonym: ایماقی
     script: Arab
   speakers: 650000
   speakers_date: 1993
@@ -309,7 +309,7 @@ ani:
   name: Andi
   note: Single source.
   orthographies:
-  - autonym: Мицци‎
+  - autonym: Мицци
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
     script: Cyrl
   source:
@@ -592,11 +592,22 @@ ayr:
   todo_status: strong
 aze:
   name: Azerbaijani
+  speakers: 23000000
+  speakers_date: 2018
+  includes:
+  - azj
+  - azb
+  - slq
+  - qxq
+azj:
+  name: North Azerbaijani
   orthographies:
   - autonym: Азәрбајҹан
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ј ғ ҝ ү
       ҹ һ ә ө ’
     script: Cyrl
+    status: local
+    note: Official in Dagestan (Russia).
   - base: a b c d e f g h i j k l m n o p q r s t u v x y z ç ö ü ğ İ ı ş ə
     script: Latn
   source:
@@ -605,18 +616,48 @@ aze:
   speakers: 23000000
   speakers_date: 2018
   todo_status: strong
+azb:
+  name: South Azerbaijani
+  - autonym: آذربایجانجا
+    base: ؤ ئ ا خ ع ن پ چ ژ ک گ ۆ ۇ ی ە ݣ ﺏ ﺕ ﺙ ﺝ ﺡ ﺩ ﺫ ﺭ ﺯ ﺱ ﺵ ﺹ ﺽ ﻁ ﻅ ﻍ ﻑ ﻕ ﻝ ﻡ ﻥ ﻩ ﻭ
+    combinations:  {یٛ} {وْ}
+    script: Arab
+  - base: a b c d e f g h i j k l m n o p q r s t u v x y z ç ö ü ğ İ ı ş ə
+    script: Latn
+  source:
+  - Wikipedia
+  speakers: 13823350
+  speakers_date: 2016
+  status: historical
+  todo_status: weak
+slq:
+  name: Salchuq
+  source:
+  - Wikipedia
+  status: historical
+  todo_status: todo
+qxq:
+  name: Qashqa'i
+  - autonym: قاشقای ديلى
+    inherit: pes
+    script: Arab
+  source:
+  - Wikipedia
+  speakers: 949000
+  speakers_date: 2015
+  todo_status: weak
 bak:
   name: Bashkir
   note: Single source.
   orthographies:
-  - autonym: Башҡортса‎
+  - autonym: Башҡортса
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ғ ҙ ҡ
       ң ҫ ү һ ә ө
     script: Cyrl
   - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ç ö ü č ğ İ ı ķ ņ
       ś ş š ź
     script: Latn
-    status: historical
+    status: deprecated
   source:
   - Omniglot
   speakers: 1200000
@@ -654,6 +695,7 @@ bbz:
   note: Suprious languages, iso code retired 2019 (see https://en.wikipedia.org/wiki/ISO_639_macrolanguage)
   orthographies:
   - script: Arab
+  speakers: 0
   status: historical
   todo_status: todo
   note: Language was marked as todo_status 'historical' and requires review.
@@ -680,7 +722,7 @@ bel:
   - autonym: Biełaruskaja
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ć č ł ń ś š ŭ ź ž
     script: Latn
-    status: historical
+    status: deprecated
   source:
   - Omniglot
   speakers: 5100000
@@ -812,9 +854,9 @@ bxm:
     script: Cyrl
   - autonym: Buryaad
     base: a b c ç d e f g h i j k l m n o ө p r s ş t u v x y z ƶ
-    nate: Used 1931–1939
+    note: Used 1931–1939
     script: Latn
-    status: historical
+    status: deprecated
   preferred_name: Mongolian Buriat
   speakers: 35000
   speakers_date: 2010
@@ -826,9 +868,9 @@ bxr:
     script: Cyrl
   - autonym: Buryaad
     base: a b c ç d e f g h i j k l m n o ө p r s ş t u v x y z ƶ
-    nate: Used 1931–1939
+    note: Used 1931–1939
     script: Latn
-    status: historical
+    status: deprecated
   preferred_name: Russian Buriat
   source:
   - Omniglot
@@ -844,9 +886,9 @@ bxu:
     script: Cyrl
   - autonym: Buryaad
     base: a b c ç d e f g h i j k l m n o ө p r s ş t u v x y z ƶ
-    nate: Used 1931–1939
+    note: Used 1931–1939
     script: Latn
-    status: historical
+    status: deprecated
   preferred_name: Chinese Buriat
   speakers: 65000
   speakers_date: 1982
@@ -969,7 +1011,7 @@ chv:
   name: Chuvash
   note: Single source.
   orthographies:
-  - autonym: Чӑвашла‎
+  - autonym: Чӑвашла
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҫ ӑ ӗ
       ӳ
     script: Cyrl
@@ -980,11 +1022,11 @@ chv:
 cic:
   name: Chickasaw
   orthographies:
-  - autonym: Chikashshanompa’
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ó ú
+  - autonym: Chikashshanompa'
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ó ú '
     script: Latn
-  - autonym: Chikashshanompa’
-    base: a b c f g h i k l m n o p s t w y a̠ i̠ o̠
+  - autonym: Chikashshanompa'
+    base: a b c f g h i k l m n o p s t w y a̠ i̠ o̠ '
     script: Latn
   source:
   - Omniglot
@@ -1105,7 +1147,7 @@ crh:
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё
     script: Cyrl
     status: secondary
-  - autonym: Qırımtatar tili
+  - autonym: Qırımtatar
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ç ñ ö ü ğ ş
     script: Latn
   source:
@@ -1774,7 +1816,7 @@ gag:
   - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӂ ӓ ӧ
       ӱ
     script: Cyrl
-    status: historical
+    status: deprecated
   - autonym: Gagauzça
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ç ê ö ü ğ İ ı ş ţ
       ș ț
@@ -2012,14 +2054,15 @@ haw:
 haz:
   name: Hazaragi
   orthographies:
-  - autonym: آزرگی‎‎
+  - autonym: آزرگی
     script: Arab
   todo_status: todo
 heb:
   name: Hebrew
   orthographies:
   - autonym: עברית
-    base: א ב ג ד ה ו ז ח ט י כ ך ל מ ם נ ן ס ע פ ף צ ץ ק ר ש ת ﭏ
+    base: א ב ג ד ה ו ז ח ט י כ ך ל מ ם נ ן ס ע פ ף צ ץ ק ר ש ת
+    combinations: {שׁ }{שׂ}{בּ}{תּ}{כּ }{ךּ}{פּ }{ףּ}{ג׳}{ז׳}{צ׳}{ו׳}{וו}{ד׳}{ת׳}{ח׳}{ר׳}{ע׳}
     script: Hebr
   speakers: 9000000
   todo_status: todo
@@ -2190,7 +2233,7 @@ inh:
   name: Ingush
   note: Single source.
   orthographies:
-  - autonym: Гӏалгӏай‎
+  - autonym: Гӏалгӏай
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
     script: Cyrl
   source:
@@ -2299,14 +2342,15 @@ jdt:
   - autonym: Жугьури
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
     script: Cyrl
-  - autonym: Juwri
-    base: א אִ אַ אָ אי ב בּ ג ג׳ ד ה ו וּ ז ז׳ ח י כ כּ ל מ נ ס ע פ פּ צ ק ר ש ת
+  - autonym: ז׳אוּהאוּראִ
+    base: א ב ג ד ה ו וּ ז ח י י כ ל מ נ ס ע פ צ ק ר ש ת ׳
+    combinations: {אִ }{אַ }{אָ}{בּ}{כּ}{פּ}
     script: Hebr
     status: secondary
   - autonym: Çuhuri
     base: a b c ç d e ə f g h ḩ ћ i j k l m n o p q r s ş t u v x y z
     script: Latn
-    status: historical
+    status: deprecated
   source:
   - Omniglot
   speakers: 101000
@@ -2337,12 +2381,12 @@ kaa:
   name: Kara-Kalpak
   note: Single source. Shorter autonym?
   orthographies:
-  - autonym: Қарақалпақ тили‎
+  - autonym: Қарақалпақ
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ў ғ қ
       ң ү ҳ ә ө
     script: Cyrl
     status: secondary
-  - autonym: Qaraqalpaq tili
+  - autonym: Qaraqalpaq
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z á İ ı ǵ ń ú
     script: Latn
   source:
@@ -2373,7 +2417,7 @@ kal:
       ø ú û ĸ ũ
     note: Alphabet invented by Samuel Kleinschmidt. Used until 1973.
     script: Latn
-    status: historical
+    status: deprecated
   - autonym: Kalaallisut
     auxiliary: b c d h w x y z å æ ø
     base: a e f g i j k l m n o p q r s t u v
@@ -2791,7 +2835,7 @@ kum:
   name: Kumyk
   note: Single source.
   orthographies:
-  - autonym: Къумукъ‎
+  - autonym: Къумукъ
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё
     script: Cyrl
   source:
@@ -2801,28 +2845,64 @@ kum:
   todo_status: weak
 kur:
   name: Kurdish
+  includes:
+  - ckb
+  - kmr
+  - sdh
+ckb:
+  name: Central Kurdish
   orthographies:
-  - autonym: Kurdî
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ь э һ ә ӧ ԛ ԝ
-    script: Cyrl
-  - autonym: Kurdî
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ç é ê í î ú ù û ā ă
-      ē ĕ ī ĭ ō ŏ ř ū ü ŭ ș ş ł ň ḥ x̣
-    note: alternative 1
+  - autonym: Soranî
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ç ê î ş û ł ň ř ü
+    auxiliary: ḧ ẍ '
     script: Latn
-  - autonym: Kurdî
-    base: a b c ç d e ê f g h i î j k l ł m n ň o p q r ř s ş t u û ü v w x y z
-    note: alternative 2
-    script: Latn
-  - autonym: Kurdî
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z é í ú ù '
-    note: alternative 3
-    script: Latn
+    note: Kurdish Latin alphabet
+  - autonym: سۆرانی
+    base: ا ب ت ج ح خ د ر ز س ش ع غ ف ق ل م ن و پ چ ڕ ژ ڤ ک گ ڵ ھ ۆ ی ێ ە 
+    script: Arab
+  speakers: 7250000
+  speakers_date: 2014
   source:
-  - Omniglot
   - Wikipedia
-  speakers: 30000000
-  todo_status: strong
+  todo_status: weak
+kmr:
+  name: Northern Kurdish
+  orthographies:
+  - autonym: Kurmancî
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ç ê î ş û
+    auxiliary: ḧ ẍ '
+    script: Latn
+  - autonym: Kurmancî
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ç ê î ş û ł ň ř ü
+    auxiliary: ḧ ẍ '
+    script: Latn
+    note: Kurdish Latin alphabet
+  - base: а б в г д е ә ж з ж й к л м н о ӧ п р с т у ф х һ ч ш щ ь э ԛ ԝ ' 
+    script: Cyrl
+    note: Used in Russia and Armenia.
+  speakers: 15000000
+  speakers_date: 2009
+  source:
+  - Wikipedia
+  todo_status: weak
+sdh:
+  name: Southern Kurdish
+  orthographies:
+  - autonym: کوردی خوارگ
+    inherit: ckb
+    script: Arab
+  speakers: 3000000
+  speakers_date: 2000
+  source:
+  - Wikipedia
+  todo_status: weak
+lki: Laki
+  speakers:
+  speakers_date: 1000000
+  orthographies: 2000
+  source:
+  - Wikipedia
+  todo_status: todo
 kvr:
   name: Kerinci
   speakers: 290000
@@ -2903,7 +2983,7 @@ lez:
   name: Lezghian
   note: Single source.
   orthographies:
-  - autonym: Лезги‎
+  - autonym: Лезги
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
     script: Cyrl
   source:
@@ -3167,7 +3247,7 @@ mgo:
 mhr:
   name: Eastern Mari
   orthographies:
-  - autonym: Олык Марий‎
+  - autonym: Олык Марий
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҥ ӧ ӱ
     script: Cyrl
   source:
@@ -3312,7 +3392,7 @@ mri:
 mrj:
   name: Western Mari
   orthographies:
-  - autonym: Кырык Мары‎
+  - autonym: Кырык Мары
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӓ ӧ ӱ
       ӹ
     script: Cyrl
@@ -3787,7 +3867,7 @@ oss:
     script: Cyrl
   - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä æ č š ž
     script: Latn
-    status: historical
+    status: deprecated
   source:
   - Omniglot
   speakers: 600000
@@ -3825,10 +3905,13 @@ pes:
   name: Iranian Persian
   orthographies:
   - autonym: فارسی
+    base: ء أ ؤ ئ ا ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ل م ن ه و پ چ ژ ک گ ی 
     script: Arab
   speakers: 55600000
   speakers_date: 2015
-  todo_status: todo
+  source:
+  - Wikipedia
+  todo_status: weak
 pga:
   name: Sudanese Creole Arabic
   note: Also called Juba Arabic
@@ -3921,7 +4004,7 @@ prg:
 prs:
   name: Dari
   orthographies:
-  - autonym: فارسی‎
+  - autonym: فارسی
     script: Arab
   speakers: 12500000
   speakers_date: 2000-2011
@@ -3982,7 +4065,7 @@ ron:
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш ы ь э ю я ӂ
     note: Moldovan Cyrillic alphabet
     script: Cyrl
-    status: secondary
+    status: local
   - autonym: Română
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z â î ă ș ț
     script: Latn
@@ -4082,7 +4165,7 @@ rut:
   name: Rutul
   note: Single source.
   orthographies:
-  - autonym: Мыхӏабишды‎
+  - autonym: Мыхӏабишды
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
     script: Cyrl
   source:
@@ -4116,7 +4199,7 @@ sag:
 sah:
   name: Yakut
   orthographies:
-  - autonym: Сахалыы‎
+  - autonym: Сахалыы
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҕ ҥ ү
       һ ө
     script: Cyrl
@@ -4387,7 +4470,7 @@ smj:
   - autonym: Julevusámegiella
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z á ä å ñ ö ń
     script: Latn
-    status: historical
+    status: deprecated
   - autonym: Julevusámegiella
     base: a b d e f g h i j k l m n o p r s t u v á ä å ŋ
     script: Latn
@@ -4674,7 +4757,7 @@ tat:
   name: Tatar
   note: Single source.
   orthographies:
-  - autonym: Татарча‎
+  - autonym: Татарча
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё җ ң ү
       һ ә ө
     script: Cyrl
@@ -4771,8 +4854,7 @@ tkr:
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
     script: Cyrl
   - autonym: Ts‘əxna miz
-    base: a b c d e f g h i j k l m n o p q r s t u v x y z ç ö ü ğ İ ı ş ə
-    note: Based on Azerbaijani.
+    inherit: azj
     script: Latn
   source:
   - Omniglot
@@ -4798,9 +4880,8 @@ tly:
   - autonym: Толыши
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш ј ғ ҹ ҝ һ ә
     script: Cyrl
-  - autonym: Tolışi‎
-    base: a b c d e f g h i j k l m n o p q r s t u v x y z ç ö ü ğ İ ı ş ə
-    note: Based on Azerbaijani.
+  - autonym: Tolışi
+    inherit: azj
     script: Latn
   source:
   - Omniglot
@@ -4957,7 +5038,7 @@ tyv:
   name: Tuvinian
   note: Single source.
   orthographies:
-  - autonym: Тыва‎
+  - autonym: Тыва
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ң ү ө
     script: Cyrl
   source:
@@ -5078,7 +5159,7 @@ unm:
 urd:
   name: Urdu
   orthographies:
-  - autonym: اُردُو‎‎
+  - autonym: اُردُو
     script: Arab
   speakers: 68620000
   speakers_date: 2019
@@ -5493,9 +5574,11 @@ ydd:
   name: Eastern Yiddish
   orthographies:
   - autonym: ייִדיש
+    base: א ב ג ד ה ו ז ח ט י כ ך ל מ ם נ ן ס ע פ ף צ ץ ק ר ש ת
+    combinations: {אָ }{יִ}
     script: Hebr
   speakers: 1500000
-  todo_status: todo
+  todo_status: weak
 yid:
   includes:
   - ydd
@@ -5508,9 +5591,11 @@ yih:
   name: Western Yiddish
   orthographies:
   - autonym: ייִדיש
+    base: א ב ג ד ה ו ז ח ט י כ ך ל מ ם נ ן ס ע פ ף צ ץ ק ר ש ת
+    combinations: {אָ }{יִ}
     script: Hebr
   speakers: 5000
-  todo_status: todo
+  todo_status: weak
 yij:
   name: Yindjibarndi
   note: Single source.
@@ -5654,7 +5739,7 @@ zun:
   note: Single source.
   orthographies:
   - autonym: Shiwiʼma
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ł
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ł ʼ
     script: Latn
   source:
   - Omniglot
