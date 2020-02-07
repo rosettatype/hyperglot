@@ -2,6 +2,7 @@
 
 ## 0.1.6 (WIP)
 - TWEAK: Implemented orthography attribute `inherit` to inherit another language's orthography for that `script` (if one exists)
+- FIX: Language names with countries in brackets no longer have their closing parenthesis cut off
 
 ## 0.1.5 (30.01.2020)
 - FIX: More robust relative file path loading for database file

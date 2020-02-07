@@ -41,13 +41,15 @@ def language_list(langs, native=False, users=False, script=None,
             name = lang.get_autonym(script)
         else:
             name = lang.get_name(script)
+            print(name)
 
         if name is False:
             name = "(iso: %s)" % iso
             logging.info("No autonym found for language '%s'" % lang)
         else:
-            # Trim whitespace and also 200E left to right marks
-            name = re.sub(r"^\W*|\W*$", "", name)
+            # Trim whitespace and also 200E left to right marks, but allow ")"
+            # as last character
+            name = re.sub(r"^\W*|(?<=\))(\W*$)", "", name)
 
         if users and "speakers" in l:
             items.append("%s (%s)" % (name, str(l["speakers"])))
