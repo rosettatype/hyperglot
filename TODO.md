@@ -103,14 +103,14 @@ Notes:
 	wls Wallisian - Fakaʻuvea
 	xav Xavánte - A’uwẽ
 - [+] complete Arabic varietes
-	- [+] aao - Algerian Saharan Arabic  # not doing
-	- [+] abh - Tajiki Arabic  # not doing
+	- [+] aao - Algerian Saharan Arabic  # not including
+	- [+] abh - Tajiki Arabic  # not including
 	- [+] abv - Baharna Arabic
 	- [+] acm - Mesopotamian Arabic
 	- [+] acq - Ta'izzi-Adeni Arabic
 	- [+] acw - Hijazi Arabic
 	- [+] acx - Omani Arabic
-	- [+] acy - Cypriot Arabic  # not doing
+	- [+] acy - Cypriot Arabic  # not including
 	- [+] adf - Dhofari Arabic
 	- [+] aeb - Tunisian Arabic
 	- [+] aec - Saidi Arabic
@@ -123,7 +123,7 @@ Notes:
 	- [+] ars - Najdi Arabic
 	- [+] ary - Moroccan Arabic
 	- [+] arz - Egyptian Arabic
-	- [+] auz - Uzbeki Arabic  # not doing
+	- [+] auz - Uzbeki Arabic  # not including
 	- [+] avl - Eastern Egyptian Bedawi Arabic
 	- [+] ayh - Hadrami Arabic
 	- [+] ayl - Libyan Arabic
@@ -131,7 +131,7 @@ Notes:
 	- [+] ayp - North Mesopotamian Arabic
 	- [+] pga - Sudanese Creole Arabic
 	- [+] shu - Chadian Arabic
-	- [+] ssh - Shihhi Arabic  # not doing
+	- [+] ssh - Shihhi Arabic  # not including
 - [ ] revise pes Persian (macrolanguage)
 	- [+] pes – Iranian Persian
 	- [+] prs – Dari

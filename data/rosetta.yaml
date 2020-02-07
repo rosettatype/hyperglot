@@ -1,6 +1,5 @@
 aaq:
   name: Eastern Abnaki
-  note: Single source.
   orthographies:
   - autonym: Wôbanakiôdwawôgan
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ô
@@ -40,7 +39,6 @@ aat:
   todo_status: strong
 abe:
   name: Western Abnaki
-  note: Single source.
   orthographies:
   - autonym: Wôbanakiôdwawôgan
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ô
@@ -151,7 +149,6 @@ acx:
   note: Initial, medial, and final forms of the letters and some ligatures are also required.
 acz:
   name: Acheron
-  note: Single source.
   orthographies:
   - autonym: Garme
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ë ï ö ü
@@ -248,7 +245,6 @@ afr:
   todo_status: strong
 agq:
   name: Aghem
-  note: Single source.
   orthographies:
   - autonym: Aghɨ̂m
     auxiliary: q r x
@@ -305,7 +301,6 @@ aka:
   name: Akan
 alt:
   name: Southern Altai
-  note: Single source.
   orthographies:
   - autonym: Алтайча
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ј ҥ ӧ
@@ -318,7 +313,6 @@ alt:
   todo_status: weak
 ami:
   name: Amis
-  note: Single source.
   orthographies:
   - autonym: Amis
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
@@ -330,7 +324,6 @@ ami:
   todo_status: weak
 ani:
   name: Andi
-  note: Single source.
   orthographies:
   - autonym: Мицци
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
@@ -342,7 +335,6 @@ ani:
   todo_status: weak
 aoz:
   name: Uab Meto
-  note: Single source.
   orthographies:
   - autonym: Uab Meto
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é ê í ó ú û
@@ -509,7 +501,6 @@ arz:
   note: Initial, medial, and final forms of the letters and some ligatures are also required.
 asa:
   name: Asu (Tanzania)
-  note: Single source.
   orthographies:
   - autonym: Kipare
     auxiliary: q x
@@ -535,7 +526,6 @@ ast:
   todo_status: strong
 atv:
   name: Northern Altai
-  note: Single source.
   orthographies:
   - autonym: Алтайча
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ј ҥ ӧ
@@ -718,7 +708,6 @@ qxq:
   todo_status: weak
 bak:
   name: Bashkir
-  note: Single source.
   orthographies:
   - autonym: Башҡортса
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ғ ҙ ҡ
@@ -749,7 +738,6 @@ bam:
   todo_status: strong
 bas:
   name: Basa (Cameroon)
-  note: Single source.
   orthographies:
   - autonym: Basaa
     auxiliary: q x
@@ -774,7 +762,6 @@ bdk:
   todo_status: strong
 bel:
   name: Belarusian
-  note: Single source.
   orthographies:
   - autonym: Беларуская
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё і ў ’
@@ -803,7 +790,6 @@ bem:
   todo_status: strong
 bez:
   name: Bena (Tanzania)
-  note: Single source.
   orthographies:
   - autonym: Ekibena
     base: a b c d e f g h i j k l m n o p q r s t u v w y z
@@ -969,7 +955,6 @@ bxu:
   speakers_date: 1982
 cak:
   name: Kaqchikel
-  note: Single source.
   orthographies:
   - autonym: Kaqchikel Chʼabʼäl
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ë ï ö ü
@@ -1082,7 +1067,6 @@ chu:
   todo_status: strong
 chv:
   name: Chuvash
-  note: Single source.
   orthographies:
   - autonym: Чӑвашла
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҫ ӑ ӗ
@@ -1109,7 +1093,6 @@ cic:
   todo_status: strong
 cim:
   name: Cimbrian
-  note: Single source.
   orthographies:
   - autonym: Zimbar
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä à è é ì ò ó ô ö ù
@@ -1135,7 +1118,6 @@ cji:
   todo_status: strong
 cjs:
   name: Shor
-  note: Single source.
   orthographies:
   - autonym: Шор
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ғ қ ң
@@ -1178,7 +1160,6 @@ cnr:
   todo_status: strong
 con:
   name: Cofán
-  note: Single source.
   orthographies:
   - autonym: A’ingae
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ñ û
@@ -1242,7 +1223,6 @@ crs:
   todo_status: strong
 csb:
   name: Kashubian
-  note: Single source.
   orthographies:
   - autonym: Kaszëbsczi
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ã é ë ò ó ô ù ą ę ł
@@ -1255,7 +1235,6 @@ csb:
   todo_status: weak
 cym:
   name: Welsh
-  note: Single source.
   orthographies:
   - autonym: Cymraeg
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ä è é ê ë ì í
@@ -1282,7 +1261,6 @@ dan:
   todo_status: strong
 dar:
   name: Dargwa
-  note: Single source.
   orthographies:
   - autonym: Дарган
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
@@ -1294,7 +1272,6 @@ dar:
   todo_status: weak
 dav:
   name: Taita
-  note: Single source.
   orthographies:
   - autonym: Kidawida
     auxiliary: q x
@@ -1307,7 +1284,6 @@ dav:
   todo_status: weak
 ddo:
   name: Dido
-  note: Single source.
   orthographies:
   - autonym: Цез
     base: а б в г д е ж з и й к л м н о п р с т у х ц ч ш э ӏ
@@ -1364,7 +1340,6 @@ dhv:
   todo_status: weak
 diq:
   name: Dimli (individual language)
-  note: Single source.
   orthographies:
   - autonym: Dimlî
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ç ê î û ü İ ı ş ǧ
@@ -1389,7 +1364,6 @@ dje:
   todo_status: strong
 dlg:
   name: Dolgan
-  note: Single source.
   orthographies:
   - autonym: Дулҕан
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ү һ ӈ
@@ -1402,7 +1376,6 @@ dlg:
   todo_status: weak
 dng:
   name: Dungan
-  note: Single source.
   orthographies:
   - autonym: Хуэйзў
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ў җ ң
@@ -1454,7 +1427,6 @@ dyo:
   todo_status: strong
 ebu:
   name: Embu
-  note: Single source.
   orthographies:
   - autonym: Kiembu
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ĩ ũ
@@ -1577,7 +1549,6 @@ vro:
   todo_status: strong
 esu:
   name: Central Yupik
-  note: Single source.
   orthographies:
   - autonym: Yupʼik
     base: a c g i k l m n p q r s t u v w y ń ə ḿ ͡ ʼ
@@ -1719,7 +1690,6 @@ fij:
   todo_status: strong
 fil:
   name: Filipino
-  note: Single source.
   orthographies:
   - autonym: Filipino
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ñ
@@ -1897,7 +1867,6 @@ fuv:
   todo_status: strong
 gag:
   name: Gagauz
-  note: Single source.
   orthographies:
   - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӂ ӓ ӧ
       ӱ
@@ -1914,7 +1883,6 @@ gag:
   todo_status: weak
 gcf:
   name: Guadeloupean Creole French
-  note: Single source.
   orthographies:
   - autonym: Kreyol
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z è é ò
@@ -1938,7 +1906,6 @@ gil:
   todo_status: strong
 gla:
   name: Scottish Gaelic
-  note: Single source.
   orthographies:
   - autonym: Gàidhlig
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z à è é ì ò ó ù
@@ -1950,7 +1917,6 @@ gla:
   todo_status: weak
 gld:
   name: Nanai
-  note: Single source.
   orthographies:
   - autonym: Нанай
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӈ
@@ -1963,7 +1929,6 @@ gld:
   todo_status: weak
 gle:
   name: Irish
-  note: Single source.
   orthographies:
   - autonym: Gaeilge
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ó ú
@@ -1999,7 +1964,6 @@ glv:
   todo_status: strong
 gni:
   name: Gooniyandi
-  note: Single source.
   orthographies:
   - autonym: Gooniyandi
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ß à ä é ö ü
@@ -2011,7 +1975,6 @@ gni:
   todo_status: weak
 gqa:
   name: Ga’anda
-  note: Single source.
   orthographies:
   - autonym: Kaandata
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ŋ
@@ -2127,7 +2090,6 @@ hau:
   todo_status: todo
 haw:
   name: Hawaiian
-  note: Single source.
   orthographies:
   - autonym: ’Olelo Hawai’i
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ī ō ū
@@ -2158,7 +2120,6 @@ heb:
   todo_status: todo
 hil:
   name: Hiligaynon
-  note: Single source.
   orthographies:
   - autonym: Ilonggo
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
@@ -2182,7 +2143,6 @@ hop:
   todo_status: strong
 hrv:
   name: Croatian
-  note: Single source.
   orthographies:
   - autonym: Hrvatski
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ć č đ š ž
@@ -2221,7 +2181,6 @@ hun:
   todo_status: strong
 huz:
   name: Hunzib
-  note: Single source.
   orthographies:
   - autonym: Гьонкьос
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ӏ ә ȧ ӯ
@@ -2262,7 +2221,6 @@ ido:
   todo_status: strong
 igs:
   name: Interglossa
-  note: Single source.
   orthographies:
   - autonym: Interglossa
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
@@ -2309,7 +2267,6 @@ ina:
   todo_status: strong
 inh:
   name: Ingush
-  note: Single source.
   orthographies:
   - autonym: Гӏалгӏай
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
@@ -2398,7 +2355,6 @@ jbo:
   todo_status: strong
 jct:
   name: Krymchak
-  note: Single source.
   orthographies:
   - autonym: Кърымчах
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ӧ ӱ
@@ -2410,7 +2366,6 @@ jct:
   todo_status: weak
 jdt:
   name: Judeo-Tat
-  note: Single source.
   orthographies:
   - autonym: Жугьури
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
@@ -2430,7 +2385,6 @@ jdt:
   todo_status: weak
 jgo:
   name: Ngomba
-  note: Single source.
   orthographies:
   - autonym: Cú-Mbɔ́ndaa
     auxiliary: e o q r x
@@ -2503,7 +2457,6 @@ kal:
   todo_status: strong
 kam:
   name: Kamba (Kenya)
-  note: Single source.
   orthographies:
   - autonym: Kĩĩkamba
     base: a b c d e f g h i j k l m n o p q r s t u v w y z ĩ ũ
@@ -2528,7 +2481,6 @@ kap:
   todo_status: strong
 kaz:
   name: Kazakh
-  note: Single source.
   orthographies:
   - autonym: Қазақ тілі
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё і ғ қ
@@ -2541,7 +2493,6 @@ kaz:
   todo_status: weak
 kbd:
   name: Kabardian
-  note: Single source.
   orthographies:
   - autonym: Адыгэбзэ
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
@@ -2553,7 +2504,6 @@ kbd:
   todo_status: weak
 kca:
   name: Khanty
-  note: Single source.
   orthographies:
   - autonym: Ханты
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё є ў қ
@@ -2579,7 +2529,6 @@ kde:
   todo_status: strong
 kdr:
   name: Karaim
-  note: Single source.
   orthographies:
   - autonym: Къарай
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ӧ ӱ
@@ -2641,7 +2590,6 @@ kgp:
   todo_status: strong
 khq:
   name: Koyra Chiini Songhay
-  note: Single source.
   orthographies:
   - autonym: Koyra Chiini
     auxiliary: v
@@ -2654,7 +2602,6 @@ khq:
   todo_status: weak
 kik:
   name: Kikuyu
-  note: Single source.
   orthographies:
   - autonym: Gĩgĩkũyũ
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ĩ ŋ ũ
@@ -2666,7 +2613,6 @@ kik:
   todo_status: weak
 kin:
   name: Kinyarwanda
-  note: Single source.
   orthographies:
   - autonym: Kinyarwanda
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
@@ -2714,7 +2660,6 @@ kjh:
   todo_status: weak
 kjj:
   name: Khinalugh
-  note: Single source.
   orthographies:
   - autonym: Каьтш мицӏ
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ӏ ә
@@ -2727,7 +2672,6 @@ kjj:
   todo_status: weak
 kkj:
   name: Kako
-  note: Single source.
   orthographies:
   - autonym: Kakɔ
     auxiliary: q x z
@@ -2766,7 +2710,6 @@ kln:
   preferred_as_individual: true
 kng:
   name: Koongo
-  note: Single source.
   orthographies:
   - autonym: Kikongo
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
@@ -2808,7 +2751,6 @@ kon:
   speakers_date: 1982-2012
 kpt:
   name: Karata
-  note: Single source.
   orthographies:
   - autonym: Кӏкӏирлӏи мацӏцӏи
     base: а б в г д е ж з и й к л м н о п р с т у х ц ч ш щ ъ ы ь э ю я ӏ ã ẽ и̃ õ
@@ -2842,7 +2784,6 @@ kpy:
   todo_status: weak
 krc:
   name: Karachay-Balkar
-  note: Single source.
   orthographies:
   - autonym: Къарачай-Малкъар
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ў
@@ -2854,7 +2795,6 @@ krc:
   todo_status: weak
 krl:
   name: Karelian
-  note: Single source.
   orthographies:
   - autonym: Karjala
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ö č š ž
@@ -2866,7 +2806,6 @@ krl:
   todo_status: weak
 ksb:
   name: Shambala
-  note: Single source.
   orthographies:
   - autonym: Kishambaa
     auxiliary: q r x
@@ -2879,7 +2818,6 @@ ksb:
   todo_status: weak
 ksf:
   name: Bafia
-  note: Single source.
   orthographies:
   - autonym: Rikpa
     auxiliary: q x
@@ -2906,7 +2844,6 @@ ksh:
   todo_status: weak
 kua:
   name: Kuanyama
-  note: Single source.
   orthographies:
   - autonym: Oshikwanyama
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
@@ -2918,7 +2855,6 @@ kua:
   todo_status: weak
 kum:
   name: Kumyk
-  note: Single source.
   orthographies:
   - autonym: Къумукъ
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё
@@ -2992,7 +2928,6 @@ lki:
   todo_status: todo
 kwy:
   name: San Salvador Kongo
-  note: Single source.
   orthographies:
   - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
     script: Latn
@@ -3001,7 +2936,6 @@ kwy:
   todo_status: weak
 lag:
   name: Langi
-  note: Single source.
   orthographies:
   - autonym: Kɨlaangi
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ó ú ɨ ʉ
@@ -3043,7 +2977,6 @@ ltg:
   status: strong
 lvs:
   name: Standard Latvian
-  note: Single source.
   orthographies:
   - autonym: Latviešu
     base: a ā b c č d e ē f g ģ h i ī j k ķ l ļ m n ņ o p r s š t u ū v z ž
@@ -3068,7 +3001,6 @@ lbe:
   todo_status: strong
 ldi:
   name: Laari
-  note: Single source.
   orthographies:
   - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
     script: Latn
@@ -3077,7 +3009,6 @@ ldi:
   todo_status: weak
 lez:
   name: Lezghian
-  note: Single source.
   orthographies:
   - autonym: Лезги
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
@@ -3089,7 +3020,6 @@ lez:
   todo_status: weak
 lij:
   name: Ligurian
-  note: Single source.
   orthographies:
   - autonym: Ligure
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ä æ è é ê ë ì
@@ -3117,7 +3047,6 @@ lin:
   todo_status: strong
 lit:
   name: Lithuanian
-  note: Single source.
   orthographies:
   - autonym: Lietuviškai
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ą č ė ę į š ū ų ž
@@ -3143,7 +3072,6 @@ lkt:
   todo_status: strong
 lld:
   name: Ladin
-  note: Single source.
   orthographies:
   - autonym: Ladin
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â è é ê ë ì î ò
@@ -3156,7 +3084,6 @@ lld:
   todo_status: weak
 lmo:
   name: Lombard
-  note: Single source.
   orthographies:
   - autonym: Lombard
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á è é ì í ò ó ô ø
@@ -3169,7 +3096,6 @@ lmo:
   todo_status: weak
 ltz:
   name: Luxembourgish
-  note: Single source.
   orthographies:
   - autonym: Lëtzebuergesch
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ß â ä è é ê ë î ô ö
@@ -3194,7 +3120,6 @@ lua:
   todo_status: weak
 lub:
   name: Luba-Katanga
-  note: Single source.
   orthographies:
   - autonym: Kiluba
     auxiliary: g r x
@@ -3235,7 +3160,6 @@ luo:
   todo_status: strong
 mas:
   name: Masai
-  note: Single source.
   orthographies:
   - autonym: Maa
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â è é ê ì í î ɔ
@@ -3290,7 +3214,6 @@ mfe:
   todo_status: strong
 mgh:
   name: Makhuwa-Meetto
-  note: Single source.
   orthographies:
   - autonym: Imeetto
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
@@ -3302,7 +3225,6 @@ mgh:
   todo_status: weak
 mgo:
   name: Meta'
-  note: Single source.
   orthographies:
   - autonym: Mɨta’
     auxiliary: q x
@@ -3380,7 +3302,6 @@ mlt:
   todo_status: strong
 mns:
   name: Mansi
-  note: Single source.
   orthographies:
   - autonym: Маньси
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӈ ӣ ӯ
@@ -3393,7 +3314,6 @@ mns:
   todo_status: weak
 moe:
   name: Montagnais
-  note: Single source.
   orthographies:
   - autonym: Innu Aimun
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z â î û
@@ -3534,14 +3454,13 @@ msa:
   - vkk  # Kaur
   - vkt  # Tenggarong Kutai Malay
   - xmm  # Manado Malay
-  - zsm  # Malay (individual language)
+  - zlm  # Malay (individual language)
   - zmi  # Negeri Sembilan Malay
   - zsm  # Standard Malay
   speakers: 200000000–250000000
   speakers_date: 2009
-zsm:
+zlm:
   name: Malay (individual language)
-  note: Single source.
   orthographies:
   - autonym: Melayu
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
@@ -3695,7 +3614,6 @@ naq:
   todo_status: strong
 nbl:
   name: South Ndebele
-  note: Single source.
   orthographies:
   - autonym: IsiNdebele
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
@@ -3720,7 +3638,6 @@ nde:
   todo_status: strong
 nds:
   name: Low German
-  note: Single source.
   orthographies:
   - autonym: Niedersächsisch
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ß ä ë ï ö ü
@@ -3803,7 +3720,6 @@ nld:
   todo_status: done
 nmg:
   name: Kwasio
-  note: Single source.
   orthographies:
   - autonym: Kwasio
     auxiliary: q x z
@@ -3817,7 +3733,6 @@ nmg:
   todo_status: weak
 nnh:
   name: Ngiemboon
-  note: Single source.
   orthographies:
   - autonym: Ngyɛmbɔɔŋ
     auxiliary: q r x
@@ -3843,7 +3758,6 @@ nog:
   todo_status: strong
 non:
   name: Old Norse
-  note: Single source.
   orthographies:
   - autonym: Dǫnsk tunga
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z á æ é í ð ó ø ú ý œ
@@ -3878,7 +3792,6 @@ nor:
   todo_status: strong
 nov:
   name: Novial
-  note: Single source.
   orthographies:
   - autonym: Novial
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
@@ -3890,7 +3803,6 @@ nov:
   todo_status: weak
 nso:
   name: Pedi
-  note: Single source.
   orthographies:
   - autonym: Sepedi
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ê ô š
@@ -3915,7 +3827,6 @@ nus:
   todo_status: strong
 nya:
   name: Nyanja
-  note: Single source.
   orthographies:
   - autonym: Chicheŵa
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ŋ ŵ
@@ -3952,7 +3863,6 @@ oaa:
   todo_status: strong
 oci:
   name: Occitan (post 1500)
-  note: Single source.
   orthographies:
   - autonym: Occitan
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á ç è é ë í ï ò ó
@@ -3966,7 +3876,6 @@ oci:
   todo_status: weak
 old:
   name: Mochi
-  note: Single source.
   orthographies:
   - autonym: Mochi
     auxiliary: q x
@@ -4032,7 +3941,6 @@ orc:
   todo_status: strong
 oss:
   name: Ossetian
-  note: Single source.
   orthographies:
   - autonym: Ирон
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӕ
@@ -4101,7 +4009,6 @@ pga:
   note: Initial, medial, and final forms of the letters and some ligatures are also required.
 plz:
   name: Paluan
-  note: Single source.
   orthographies:
   - autonym: Paluan
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
@@ -4113,7 +4020,6 @@ plz:
   todo_status: weak
 pms:
   name: Piemontese
-  note: Single source.
   orthographies:
   - autonym: Piemontèis
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z à ä è ë ì ï ò ö ù ü
@@ -4125,7 +4031,6 @@ pms:
   todo_status: weak
 pol:
   name: Polish
-  note: Single source.
   orthographies:
   - autonym: Polski
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ó ą ć ę ł ń ś ź ż
@@ -4136,7 +4041,6 @@ pol:
   todo_status: weak
 por:
   name: Portuguese
-  note: Single source.
   orthographies:
   - autonym: Português
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ã ç è é ê í ò
@@ -4253,7 +4157,6 @@ rar:
   todo_status: strong
 rof:
   name: Rombo
-  note: Single source.
   orthographies:
   - autonym: Kirombo
     auxiliary: q x
@@ -4318,7 +4221,6 @@ rue:
   todo_status: strong
 run:
   name: Rundi
-  note: Single source.
   orthographies:
   - autonym: Ikirundi
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
@@ -4330,7 +4232,6 @@ run:
   todo_status: weak
 ruo:
   name: Istro Romanian
-  note: Single source.
   orthographies:
   - autonym: Rumârește
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z å ă ľ ń ș ț
@@ -4342,7 +4243,6 @@ ruo:
   todo_status: weak
 rup:
   name: Macedo-Romanian
-  note: Single source.
   orthographies:
   - autonym: Armani
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z â ã ă ș ț
@@ -4380,7 +4280,6 @@ rus:
   todo_status: strong
 rut:
   name: Rutul
-  note: Single source.
   orthographies:
   - autonym: Мыхӏабишды
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
@@ -4392,7 +4291,6 @@ rut:
   todo_status: weak
 rwk:
   name: Rwa
-  note: Single source.
   orthographies:
   - autonym: Rwa
     auxiliary: q x
@@ -4403,7 +4301,6 @@ rwk:
   todo_status: weak
 sag:
   name: Sango
-  note: Single source.
   orthographies:
   - autonym: Sängö
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z â ä ê ë î ï ô ö û ü
@@ -4428,7 +4325,6 @@ sah:
   todo_status: strong
 saq:
   name: Samburu
-  note: Single source.
   orthographies:
   - autonym: Sampur
     auxiliary: f q x z
@@ -4441,7 +4337,6 @@ saq:
   todo_status: weak
 sbp:
   name: Sangu (Tanzania)
-  note: Single source.
   orthographies:
   - autonym: Shisango
     base: a b c d e f g h i j k l m n o p q s t u v w x y z à á ä â è é ë ê ì í ï
@@ -4478,7 +4373,6 @@ seh:
   todo_status: strong
 sei:
   name: Seri
-  note: Single source.
   orthographies:
   - autonym: Cmiique Iitom
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ö
@@ -4490,7 +4384,6 @@ sei:
   todo_status: weak
 sel:
   name: Selkup
-  note: Single source.
   orthographies:
   - autonym: Шӧльӄумыт
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё җ ӄ ӈ
@@ -4504,7 +4397,6 @@ sel:
   todo_status: weak
 ses:
   name: Koyraboro Senni Songhai
-  note: Single source.
   orthographies:
   - autonym: Koyraboro Senni
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ã õ ŋ š ž ɲ ẽ
@@ -4561,7 +4453,6 @@ sia:
   todo_status: todo
 sjd:
   name: Kildin Sami
-  note: Single source.
   orthographies:
   - autonym: Кӣллт Са̄мь
     base: а ӓ б в г д е ё ж з һ ’ и ӣ й ј ҋ к л ӆ м ӎ н ӊ ӈ о п р ҏ с т у ӯ ф х ц
@@ -4575,7 +4466,6 @@ sjd:
   todo_status: weak
 sje:
   name: Pite Sami
-  note: Single source.
   orthographies:
   - autonym: Bidumsámegiella
     base: a b d e f g h i j k l m n o p r s t u v á ä å đ ŋ ŧ ’ \'
@@ -4595,7 +4485,6 @@ sjk:
   todo_status: todo
 sjt:
   name: Ter Sami
-  note: Single source.
   orthographies:
   - autonym: Са̄мькӣлл
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ј ҋ ҍ
@@ -4608,7 +4497,6 @@ sjt:
   todo_status: weak
 sju:
   name: Ume Sami
-  note: Single source.
   orthographies:
   - autonym: Ubmejesámiengiälla
     auxiliary: ū ǖ
@@ -4622,7 +4510,6 @@ sju:
   todo_status: weak
 sjw:
   name: Shawnee
-  note: Single source.
   orthographies:
   - autonym: Sawanwa
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
@@ -4634,7 +4521,6 @@ sjw:
   todo_status: weak
 slk:
   name: Slovak
-  note: Single source.
   orthographies:
   - autonym: Slovenčina
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z á ä é í ó ô ú ý č ď
@@ -4647,7 +4533,6 @@ slk:
   todo_status: weak
 slv:
   name: Slovenian
-  note: Single source.
   orthographies:
   - autonym: Slovenščina
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ö ü ć č đ š ž
@@ -4659,7 +4544,6 @@ slv:
   todo_status: weak
 sma:
   name: Southern Sami
-  note: Single source.
   orthographies:
   - autonym: Åarjelsaemiengïele
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä å æ ï ö ø
@@ -4684,7 +4568,6 @@ sme:
   todo_status: strong
 smj:
   name: Lule Sami
-  note: Single source.
   orthographies:
   - autonym: Julevusámegiella
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z á ä å ñ ö ń
@@ -4700,7 +4583,6 @@ smj:
   todo_status: weak
 smn:
   name: Inari Sami
-  note: Single source.
   orthographies:
   - autonym: Anarâškielâ
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z á â ä å ö č đ ŋ š ž
@@ -4724,7 +4606,6 @@ smo:
   todo_status: strong
 sms:
   name: Skolt Sami
-  note: Single source.
   orthographies:
   - autonym: Nuõrttsääʹmǩiõll
     base: a b c d e f g h i j k l m n o p q r s t u v x y z â ä å ö õ č đ ŋ š ž ǥ
@@ -4737,7 +4618,6 @@ sms:
   todo_status: weak
 sna:
   name: Shona
-  note: Single source.
   orthographies:
   - autonym: Chishona
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
@@ -4749,7 +4629,6 @@ sna:
   todo_status: weak
 som:
   name: Somali
-  note: Single source.
   orthographies:
   - autonym: Soomaali
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
@@ -4887,7 +4766,6 @@ srp:
   todo_status: strong
 ssw:
   name: Swati
-  note: Single source.
   orthographies:
   - autonym: Siswati
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
@@ -4926,7 +4804,6 @@ swa:
   todo_status: strong
 swc:
   name: Congo Swahili
-  note: Single source.
   orthographies:
   - autonym: Kiswahili
     inherit: swh
@@ -4936,7 +4813,6 @@ swc:
   todo_status: weak
 swe:
   name: Swedish
-  note: Single source.
   orthographies:
   - autonym: Svenska
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á ä å é ë ö ü
@@ -4962,7 +4838,6 @@ swh:
   todo_status: strong
 szl:
   name: Silesian
-  note: Single source.
   orthographies:
   - autonym: Ślůnsko godka
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ć č ń ř ś š ů ź ż ž
@@ -4974,7 +4849,6 @@ szl:
   todo_status: weak
 tab:
   name: Tabassaran
-  note: Single source.
   orthographies:
   - autonym: Табасаран
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
@@ -4998,7 +4872,6 @@ tah:
   todo_status: weak
 tat:
   name: Tatar
-  note: Single source.
   orthographies:
   - autonym: Татарча
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё җ ң ү
@@ -5011,7 +4884,6 @@ tat:
   todo_status: weak
 tay:
   name: Atayal
-  note: Single source.
   orthographies:
   - autonym: Tayal
     auxiliary: č š ž ḳ
@@ -5102,7 +4974,6 @@ tkr:
   todo_status: strong
 tlh:
   name: Klingon
-  note: Single source.
   orthographies:
   - autonym: tlhIngan Hol
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
@@ -5143,7 +5014,6 @@ ton:
   todo_status: strong
 tpi:
   name: Tok Pisin
-  note: Single source.
   orthographies:
   - autonym: Tok Pisin
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
@@ -5155,7 +5025,6 @@ tpi:
   todo_status: weak
 tsn:
   name: Tswana
-  note: Single source.
   orthographies:
   - autonym: Setswana
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ê ô š
@@ -5167,7 +5036,6 @@ tsn:
   todo_status: weak
 tso:
   name: Tsonga
-  note: Single source.
   orthographies:
   - autonym: Xitsonga
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
@@ -5179,7 +5047,6 @@ tso:
   todo_status: weak
 ttt:
   name: Muslim Tat
-  note: Single source.
   orthographies:
   - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
     script: Cyrl
@@ -5192,7 +5059,6 @@ ttt:
   todo_status: weak
 tuk:
   name: Turkmen
-  note: Single source.
   orthographies:
   - autonym: Түркменче
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё җ ң ү
@@ -5221,7 +5087,6 @@ tum:
   todo_status: weak
 tur:
   name: Turkish
-  note: Single source.
   orthographies:
   - autonym: Türkçe
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z â ç î ö û ü ğ İ ı ș
@@ -5259,7 +5124,6 @@ twi:
   todo_status: strong
 twq:
   name: Tasawaq
-  note: Single source.
   orthographies:
   - autonym: Ingalkoyyu’
     auxiliary: v
@@ -5272,7 +5136,6 @@ twq:
   todo_status: weak
 tyv:
   name: Tuvinian
-  note: Single source.
   orthographies:
   - autonym: Тыва
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ң ү ө
@@ -5321,7 +5184,6 @@ udi:
   todo_status: strong
 udm:
   name: Udmurt
-  note: Single source.
   orthographies:
   - autonym: Удмурт
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӝ ӟ ӥ
@@ -5365,7 +5227,6 @@ ukr:
   todo_status: strong
 ulk:
   name: Meriam Mir
-  note: Single source.
   orthographies:
   - autonym: Meriam Mir
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ì ò ù
@@ -5428,7 +5289,6 @@ uzb:
   speakers_date: 2015-2017
 uzn:
   name: Northern Uzbek
-  note: Single source.
   orthographies:
   - autonym: Ўзбекча
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ғ қ ҳ
@@ -5452,7 +5312,6 @@ uzn:
   todo_status: weak
 uzs:
   name: Southern Uzbek
-  note: Single source.
   orthographies:
   - autonym: اوزبیکی
     script: Arab
@@ -5476,7 +5335,6 @@ vec:
   todo_status: strong
 vep:
   name: Veps
-  note: Single source.
   orthographies:
   - autonym: Vepsä
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ö ü č š ž
@@ -5503,7 +5361,6 @@ vie:
   todo_status: strong
 vmw:
   name: Makhuwa
-  note: Single source.
   orthographies:
   - autonym: Emakhuwa
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z à è ì ò ù
@@ -5528,7 +5385,6 @@ vol:
   todo_status: strong
 vun:
   name: Vunjo
-  note: Single source.
   orthographies:
   - autonym: Vunjo
     auxiliary: q x
@@ -5584,7 +5440,6 @@ wbp:
   todo_status: strong
 wim:
   name: Wik-Mungkan
-  note: Single source.
   orthographies:
   - autonym: Wik-Mungknh
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
@@ -5596,7 +5451,6 @@ wim:
   todo_status: weak
 win:
   name: Ho-Chunk
-  note: Single source.
   orthographies:
   - autonym: Ho-Chunk
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ą ğ į š ų ž
@@ -5608,7 +5462,6 @@ win:
   todo_status: weak
 wln:
   name: Walloon
-  note: Single source.
   orthographies:
   - autonym: Walon
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z â å ç è é ê î ô û
@@ -5620,7 +5473,6 @@ wln:
   todo_status: weak
 wls:
   name: Wallisian
-  note: Single source.
   orthographies:
   - autonym: Fakaʻuvea
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ī ō ū
@@ -5644,7 +5496,6 @@ wmw:
   todo_status: strong
 wol:
   name: Wolof
-  note: Single source.
   orthographies:
   - autonym: Wolof
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z à ã é ë ñ ó ŋ
@@ -5656,7 +5507,6 @@ wol:
   todo_status: weak
 wrh:
   name: Wiradjuri
-  note: Single source.
   orthographies:
   - autonym: Wiradjuri
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
@@ -5680,7 +5530,6 @@ wss:
   todo_status: strong
 wyb:
   name: Wangaaybuwan-Ngiyambaa
-  note: Single source.
   orthographies:
   - autonym: Ngiyambaa
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
@@ -5705,7 +5554,6 @@ xal:
   todo_status: strong
 xav:
   name: Xavánte
-  note: Single source.
   orthographies:
   - autonym: A’uwẽ
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ã é ô õ ö ĩ
@@ -5717,7 +5565,6 @@ xav:
   todo_status: weak
 xho:
   name: Xhosa
-  note: Single source.
   orthographies:
   - autonym: isiXhosa
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
@@ -5766,7 +5613,6 @@ yai:
   todo_status: strong
 yap:
   name: Yapese
-  note: Single source.
   orthographies:
   - autonym: Waab
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ë ö
@@ -5778,7 +5624,6 @@ yap:
   todo_status: weak
 yav:
   name: Yangben
-  note: Single source.
   orthographies:
   - autonym: Nuasue
     auxiliary: g j q r x z
@@ -5817,7 +5662,6 @@ yih:
   todo_status: weak
 yij:
   name: Yindjibarndi
-  note: Single source.
   orthographies:
   - autonym: Burnugundi
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
@@ -5829,7 +5673,6 @@ yij:
   todo_status: weak
 ykg:
   name: Northern Yukaghir
-  note: Single source.
   orthographies:
   - autonym: Одул
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ғ ң ӧ
@@ -5842,7 +5685,6 @@ ykg:
   todo_status: weak
 ymk:
   name: Makwe
-  note: Single source.
   orthographies:
   - autonym: Macue
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
@@ -5854,7 +5696,6 @@ ymk:
   todo_status: weak
 yom:
   name: Yombe
-  note: Single source.
   orthographies:
   - autonym: Kiyoombi
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
@@ -5894,7 +5735,6 @@ yrk:
   todo_status: strong
 yux:
   name: Southern Yukaghir
-  note: Single source.
   orthographies:
   - autonym: Одул
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҕ җ ә
@@ -5978,7 +5818,6 @@ zap:
   preferred_as_individual: true
 zul:
   name: Zulu
-  note: Single source.
   orthographies:
   - autonym: isiZulu
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
@@ -5990,7 +5829,6 @@ zul:
   todo_status: weak
 zun:
   name: Zuni
-  note: Single source.
   orthographies:
   - autonym: Shiwiʼma
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ł ʼ
