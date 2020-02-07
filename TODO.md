@@ -6,11 +6,13 @@
 - [ ] for orthography, do not inherit autonym, but inherit `numerals` if they exist.
 - [+] add support for `preferred_as_individual: true` (default is false)
 - [ ] simplify validation:
-	- do not report errors for `todo_status: todo`
-	- simply ignore spaces in combinations and characters sets (no need to report, no?)
-	- no need to report missing macrolanguages
-	- not all included languages need to be in the data
-	- (bonus) use auxiliary and combinations to check for autonym name
+	- [+] do not report errors for `todo_status: todo`
+	- [ ] simply ignore spaces in combinations and characters sets (no need to report, no?)
+		- NOTE: I'd keep these, just to get better data sanitization
+	- [+] no need to report missing macrolanguages
+	- [+] not all included languages need to be in the data
+		- NOTE: In the long run this makes it hard to distinguish if a macro language is not being displayed because it is not supported, or because the data is faulty (i.e. a referenced sub language does not exist). We can re-instate these checks later.
+	- [+] (bonus) use auxiliary and combinations to check for autonym name
 
 - [+] check if all macrolanguages have been covered, i.e. if all ISO 639-3 languages marked as macrolanguages have a non-empty `includes` field. List those that do not.
 	- NOTE: Currently also cross-checking iso data against rosetta data and emitting a warning if the rosetta data is missing one of those macrolanguages altogether

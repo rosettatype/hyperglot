@@ -5,9 +5,9 @@ import logging
 import yaml
 import os
 import re
-from .languages import Languages
+from .languages import Languages, parse_combinations
 
-VALID_TODOS = ["done", "weak", "todo", "strong"]
+# VALID_TODOS = ["done", "weak", "todo", "strong"]
 
 # note that "secondary" as status is also used, but on orthographies!
 VALID_STATUS = ["historical", "constructed"]
@@ -71,8 +71,8 @@ def check_types(Langs):
             logging.error("'%s' has 'name' and 'preferred_name', but they are "
                           "identical" % iso)
 
-        if "todo_status" in lang and lang["todo_status"] not in VALID_TODOS:
-            logging.error("'%s' has an invalid 'todo_status'" % iso)
+        # if "todo_status" in lang and lang["todo_status"] not in VALID_TODOS:
+        #     logging.error("'%s' has an invalid 'todo_status'" % iso)
 
         if "status" in lang and lang["status"] not in VALID_STATUS:
             logging.error("'%s' has an invalid 'status'" % iso)
@@ -210,19 +210,19 @@ def check_macrolanguages(Langs):
                     logging.error("'%s' is marked as macrolanguage in the iso "
                                   "data, but has no 'includes'." % iso)
 
-    for iso, lang in Langs.items():
-        if "includes" in lang:
-            if not check_includes_are_valid(lang, Langs):
-                logging.error("'%s' has invalid included languages" % iso)
+    # for iso, lang in Langs.items():
+    #     if "includes" in lang:
+    #         if not check_includes_are_valid(lang, Langs):
+    #             logging.error("'%s' has invalid included languages" % iso)
 
 
-def check_includes_are_valid(lang, Langs):
-    keys = Langs.keys()
-    for l in lang["includes"]:
-        if l not in keys:
-            logging.error("Included language '%s' not found in data" % (l))
-            return False
-    return True
+# def check_includes_are_valid(lang, Langs):
+#     keys = Langs.keys()
+#     for l in lang["includes"]:
+#         if l not in keys:
+#             logging.error("Included language '%s' not found in data" % (l))
+#             return False
+#     return True
 
 
 def check_includes(lang):
@@ -242,8 +242,13 @@ def check_autonym_spelling(ort):
     chars = ort["base"]
     if "auxiliary" in ort:
         chars = chars + ort["auxiliary"]
+    if "combinations" in ort:
+        comb = parse_combinations(ort["combinations"])
+        if comb:
+            chars = chars + " ".join(comb)
 
-    chars = set(ort["base"])
+    # It is implied, but force unique to be sure
+    chars = set(chars)
 
     # Use the autonym in lowercase and without any "non-word" marks (hyphens,
     # apostrophes, etc.)

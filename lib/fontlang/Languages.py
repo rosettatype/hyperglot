@@ -3,7 +3,22 @@ Helper classes to work with the rosetta.yaml data in more pythonic way
 """
 import yaml
 import logging
+import re
 from . import DB
+
+
+def parse_combinations(comb):
+    """
+    Return a string like '{γ̇}{ε̱}{ν̇}{σ̇}{σ̈}{χ̇}{ε̰}' as a list of the chars
+    between {}
+    """
+    try:
+        return [s for s in re.split(r"\{|\}", comb) if s.strip() != ""]
+    except Exception as e:
+        logging.error(e)
+        return False
+
+    return False
 
 
 class Language(dict):
