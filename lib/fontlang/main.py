@@ -41,7 +41,6 @@ def language_list(langs, native=False, users=False, script=None,
             name = lang.get_autonym(script)
         else:
             name = lang.get_name(script)
-            print(name)
 
         if name is False:
             name = "(iso: %s)" % iso
