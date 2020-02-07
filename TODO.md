@@ -4,7 +4,7 @@
 
 - [ ] set status based on ISO (extinct, historical, …)
 - [+] implement inherit attribute for orthographies
-- [ ] for orthography, do not inherit autonym! Sorry for wrong instructions.
+- [ ] for orthography, do not inherit autonym, but inherit numerals if they exist.
 - [ ] add support for `preferred_as_individual: true` (default is false)
 
 - [+] double check if YAML is well formed, list-type fields are always lists etc.
@@ -102,30 +102,49 @@ Notes:
 	tzo Tzotzil - Bats’i k’op
 	wls Wallisian - Fakaʻuvea
 	xav Xavánte - A’uwẽ
-- [ ] add Arabic languages
-	- Moroccan
-	- Algerian
-	- Tunisian
-	- Standard
-	- Hijazi
-	- Najdi
-	https://en.wikipedia.org/wiki/Varieties_of_Arabic
-	https://en.wikipedia.org/wiki/Arabic_alphabet
-- [ ] not doing:
-	- Tajiki Arabic
-	- Shihhi Arabic
-- [ ] revise pes Persian
-- [ ] revise aiq Aimaq
-- [ ] revise bhh Bukhori
-- [ ] revise haz
-- [ ] revise jpr
-- [ ] revise phv
-- [ ] revise deh
-- [ ] revise jdt
-- [ ] revise ttt
-- [ ] revise urd Urdu
-- [ ] add zsm Malaysian
-- [ ] add Musi?
+- [+] complete Arabic varietes
+	- [+] aao - Algerian Saharan Arabic  # not doing
+	- [+] abh - Tajiki Arabic  # not doing
+	- [+] abv - Baharna Arabic
+	- [+] acm - Mesopotamian Arabic
+	- [+] acq - Ta'izzi-Adeni Arabic
+	- [+] acw - Hijazi Arabic
+	- [+] acx - Omani Arabic
+	- [+] acy - Cypriot Arabic  # not doing
+	- [+] adf - Dhofari Arabic
+	- [+] aeb - Tunisian Arabic
+	- [+] aec - Saidi Arabic
+	- [+] afb - Gulf Arabic
+	- [+] ajp - South Levantine Arabic
+	- [+] apc - North Levantine Arabic
+	- [+] apd - Sudanese Arabic
+	- [+] arb - Standard Arabic
+	- [+] arq - Algerian Arabic
+	- [+] ars - Najdi Arabic
+	- [+] ary - Moroccan Arabic
+	- [+] arz - Egyptian Arabic
+	- [+] auz - Uzbeki Arabic  # not doing
+	- [+] avl - Eastern Egyptian Bedawi Arabic
+	- [+] ayh - Hadrami Arabic
+	- [+] ayl - Libyan Arabic
+	- [+] ayn - Sanaani Arabic
+	- [+] ayp - North Mesopotamian Arabic
+	- [+] pga - Sudanese Creole Arabic
+	- [+] shu - Chadian Arabic
+	- [+] ssh - Shihhi Arabic  # not doing
+- [ ] revise pes Persian (macrolanguage)
+	- [+] pes – Iranian Persian
+	- [+] prs – Dari
+	- [+] aiq – Aimaq dialect
+	- [+] bhh – Bukhori dialect  # left as todo 
+	- [+] haz – Hazaragi dialect
+	- [+] jpr – Judeo-Persian  # left as todo
+	- [+] phv – Pahlavani  # not including
+	- [+] deh – Dehwari
+	- [+] jdt – Judeo-Tat
+	- [+] ttt – Muslim Tat
+- [+] revise urd Urdu
+- [+] add zsm Malaysian
 
 Ask to check:
 - Albanian
