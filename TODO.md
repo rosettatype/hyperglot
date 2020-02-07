@@ -28,6 +28,7 @@ Notes:
 @David
 
 - [ ] add vowel combinations to Russian, Church Slavic, Ukrainian, Montenegrin
+- [ ] note that non-written languages should not generally be included
 
 Ask to check:
 - Albanian

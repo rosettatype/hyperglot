@@ -161,13 +161,6 @@ acz:
   speakers: 20000
   speakers_date: 2006
   todo_status: weak
-adf:
-  name: Dhofari Arabic
-  orthographies:
-  - script: Arab
-  speakers: 70000
-  speakers_date: 1996
-  todo_status: todo
 ady:
   name: Adyghe
   orthographies:
@@ -634,11 +627,14 @@ ayn:
 ayp:
   name: North Mesopotamian Arabic
   orthographies:
-  - inherit: arb
+  - autonym: مصلاوي‎ 
+    inherit: arb
     script: Arab
   speakers: 8700000
   speakers_date: 1992-2014
-  todo_status: todo
+  source:
+  - Wikipedia
+  todo_status: weak
   note: Initial, medial, and final forms of the letters and some ligatures are also required.
 ayr:
   name: Central Aymara
@@ -691,12 +687,6 @@ azb:
   speakers_date: 2016
   status: historical
   todo_status: weak
-slq:
-  name: Salchuq
-  source:
-  - Wikipedia
-  status: historical
-  todo_status: todo
 qxq:
   name: Qashqa'i
   orthographies:
@@ -810,7 +800,7 @@ bhh:
     script: Hebr
   speakers: 110000
   speakers_date: 1995
-  todo_status: todo
+  todo_status: weak
 bik:
   name: Bikol
   includes:
@@ -1454,14 +1444,6 @@ ell:
   speakers: 13400000
   speakers_date: 2007
   todo_status: strong
-ems:
-  name: Pacific Gulf Yupik
-  orthographies:
-  - autonym: Sugpiaq
-    script: Latn
-  speakers: 200
-  speakers_date: 2010
-  todo_status: todo
 enf:
   name: Forest Enets
   orthographies:
@@ -2104,6 +2086,7 @@ hau:
   - autonym: Hausa
     auxiliary: p q v x y à á â è é ê ì í î ò ó ô ù ú û ʼ ̃
     base: a b c d e f g h i j k l m n o r s t u w y z ƙ ƴ ɓ ɗ ʼ
+    combinations: '{r̃}'
     script: Latn
   source:
   - Omniglot
@@ -2111,7 +2094,7 @@ hau:
   - CLDR
   speakers: 40000000
   speakers_date: 2015-2016
-  todo_status: todo
+  todo_status: strong
 haw:
   name: Hawaiian
   orthographies:
@@ -2141,7 +2124,7 @@ heb:
     combinations: '{שׁ}{שׂ}{בּ}{תּ}{כּ}{ךּ}{פּ}{ףּ}{ג׳}{ז׳}{צ׳}{ו׳}{וו}{ד׳}{ת׳}{ח׳}{ר׳}{ע׳}'
     script: Hebr
   speakers: 9000000
-  todo_status: todo
+  todo_status: weak
 hil:
   name: Hiligaynon
   orthographies:
@@ -2427,7 +2410,7 @@ jpr:
     script: Hebr
   speakers: 60000
   speakers_date: 1995
-  todo_status: todo
+  todo_status: weak
 kaa:
   name: Kara-Kalpak
   note: Shorter autonym?
@@ -2942,14 +2925,6 @@ sdh:
   source:
   - Wikipedia
   todo_status: weak
-lki: 
-  name: Laki
-  # orthographies: 
-  speakers: 1000000
-  speakers_date: 2000
-  source:
-  - Wikipedia
-  todo_status: todo
 kwy:
   name: San Salvador Kongo
   orthographies:
@@ -3377,9 +3352,6 @@ khk:
   speakers: 3600000
   speakers_date: 2014
   todo_status: strong
-mvf:
-  name: Peripheral Mongolian
-  todo_status: todo
 mqm:
   name: South Marquesan
   note: The number of speakers is estimate, a half of total Marquesan
@@ -4443,7 +4415,7 @@ sgh:
   - Omniglot
   speakers: 50000
   speakers_date: 1990
-  todo_status: todo
+  todo_status: weak
 shi:
   name: Tachelhit
   note: Speaker count equals approximately 14.1% of Moroccan population.
@@ -5263,11 +5235,6 @@ umu:
   speakers: 2
   speakers_date: 2018
   todo_status: weak
-unm:
-  name: Unami
-  speakers: 0
-  status: historical
-  todo_status: todo
 urd:
   name: Urdu
   orthographies:
