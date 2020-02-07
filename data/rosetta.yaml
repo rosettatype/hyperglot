@@ -29,8 +29,9 @@ aat:
       ú ü ý
     script: Latn
   - autonym: Αρbε̰ρίσ̈τ
-    base: α β b ϳ γ δ d ε ζ θ ι κ λ μ ν ξ ο π ρ σ τ υ φ χ
-    combinations: {γ̇}{ε̱}{ν̇}{σ̇}{σ̈}{χ̇}{ε̰}
+    base: α β b ϳ γ δ d ε ζ θ ι κ λ μ ν ξ ο π ρ σ ς τ υ φ χ
+    auxiliary: η ψ ω ά έ ή ί ό ύ ώ ϊ ϋ ΐ ΰ
+    combinations: '{γ̇}{ε̱}{ν̇}{σ̇}{σ̈}{χ̇}{ε̰}'
     script: Grek
   source:
   - Omniglot
@@ -102,7 +103,7 @@ acm:
   name: Mesopotamian Arabic
   orthographies:
   - autonym: العراقية
-    inherit: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ ڤ پ گ
+    base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ ڤ پ گ ة
     auxiliary: ڛ ڢ ٯ ڧ ک ی ڥ چ گ ڨ ڭ ڠ
     numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ ١٠
     script: Arab
@@ -111,7 +112,8 @@ acm:
   todo_status: weak
   note: Initial, medial, and final forms of the letters and some ligatures are also required.
 acq:
-  name: Ta’izzi-Adeni Arabic
+  name: Ta'izzi-Adeni Arabic
+  preferred_name: Ta’izzi-Adeni Arabic
   orthographies:
   - autonym: يمني
     inherit: arb
@@ -221,10 +223,9 @@ afb:
   name: Gulf Arabic
   orthographies:
   - autonym: خليجي
-    inherit: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ ڤ پ گ
+    base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ ڤ پ گ
     auxiliary: ڛ ڢ ٯ ڧ ک ی ڥ چ گ ڨ ڭ ڠ
     numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ ١٠
-    script: Arab
     script: Arab
   speakers: 6800000
   speakers_date: 2016
@@ -285,7 +286,7 @@ ajp:
   name: South Levantine Arabic
   orthographies:
   - autonym: فلسطيني
-    inherit: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ ڤ پ چ
+    base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ ڤ پ چ
     auxiliary: ڛ ڢ ٯ ڧ ک ی ڥ گ ڨ ڭ ڠ
     numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ ١٠
     script: Arab
@@ -361,7 +362,7 @@ apd:
   name: Sudanese Arabic
   orthographies:
   - autonym: سوداني
-    inherit: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ ی 
+    base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ ی 
     auxiliary: ڛ ڢ ٯ ڧ ک ڤ ڥ پ چ گ ڨ ڭ ڠ
     numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ ١٠
     script: Arab
@@ -426,7 +427,7 @@ arb:
   note: The speakers are L2 only (it’s second langauge only).
   orthographies:
   - autonym: العربية
-    inherit: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ
+    base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ ة
     auxiliary: ڛ ڢ ٯ ڧ ک ی ڤ ڥ پ چ گ ڨ ڭ ڠ
     numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ ١٠
     script: Arab
@@ -462,7 +463,7 @@ ars:
   name: Najdi Arabic
   orthographies:
   - autonym: النجدية
-    base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ پ ڤ
+    base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ پ ڤ ة
     auxiliary: ڛ ڢ ٯ ڧ ک ی ڥ چ گ ڨ ڭ ڠ
     numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ ١٠
     script: Arab
@@ -476,7 +477,7 @@ ary:
   name: Moroccan Arabic
   orthographies:
   - autonym: الدارجة
-    base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ ڭ گ ڥ پ
+    base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ ڭ گ ڥ پ ة
     auxiliary: ڛ ڢ ٯ ڧ ک ی ڤ چ ڨ ڠ
     numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ ١٠
     script: Arab
@@ -490,7 +491,7 @@ arz:
   name: Egyptian Arabic
   orthographies:
   - autonym: مصرى
-    inherit: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ ڤ پ ی چ
+    base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ ڤ پ ی چ ة ى
     auxiliary: ڛ ڢ ٯ ڧ ک ڥ گ ڨ ڭ ڠ
     numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ ١٠
     script: Arab
@@ -679,7 +680,7 @@ azb:
   name: South Azerbaijani
   orthographies:
   - autonym: آذربایجانجا
-    base: ؤ ئ ا خ ع ن پ چ ژ ک گ ۆ ۇ ی ە ݣ ﺏ ﺕ ﺙ ﺝ ﺡ ﺩ ﺫ ﺭ ﺯ ﺱ ﺵ ﺹ ﺽ ﻁ ﻅ ﻍ ﻑ ﻕ ﻝ ﻡ ﻥ ﻩ ﻭ
+    base: ؤ ئ ا خ ع ن پ چ ژ ک گ ۆ ۇ ی ە ݣ ﺏ ﺕ ﺙ ﺝ ﺡ ﺩ ﺫ ﺭ ﺯ ﺱ ﺵ ﺹ ﺽ ﻁ ﻅ ﻍ ﻑ ﻕ ﻝ ﻡ ﻥ ﻩ ﻭ آ ج ب ذ ر
     combinations: '{یٛ}{وْ}'
     script: Arab
   - base: a b c d e f g h i j k l m n o p q r s t u v x y z ç ö ü ğ İ ı ş ə
@@ -1059,7 +1060,7 @@ chu:
   - autonym: Церковнослове́нскїй
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь ю є ѕ џ ѥ ѩ ѭ
       ҁ і ї ѡ ѣ ѧ ѫ ѯ ѱ ѳ ѵ ѷ ѻ ѽ ѿ ꙁ ꙋ ꙍ ꙗ ꙃ
-    combinations: {е́}
+    combinations: '{е́}'
     script: Cyrl
   source:
   - Omniglot
@@ -1068,6 +1069,7 @@ chu:
   speakers: 0
   status: historical
   todo_status: strong
+  note: Need to add combinations with accents.
 chv:
   name: Chuvash
   orthographies:
@@ -1641,6 +1643,26 @@ fao:
   speakers: 72000
   speakers_date: 2007
   todo_status: strong
+doi:
+  includes:
+  - dgo  # Dogri (individual language)
+  - xnr  # Kangri
+  name: Dogri (macrolanguage)
+kok:
+  includes:
+  - gom  # Goan Konkani
+  - knn  # Konkani (individual language)
+  name: Konkani (macrolanguage)
+nep:
+  includes:
+  - dty  # Dotyali
+  - npi  # Nepali (individual language)
+  name: Nepali (macrolanguage)
+ori:
+  includes:
+  - ory  # Odia
+  - spv  # Sambalpuri
+  name: Oriya (macrolanguage)
 fas:
   includes:
   - pes  # Iranian Persian
@@ -1974,7 +1996,8 @@ gni:
   speakers_date: 2016
   todo_status: weak
 gqa:
-  name: Ga’anda
+  name: Ga'anda
+  preferred_name: Ga’anda
   orthographies:
   - autonym: Kaandata
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ŋ
@@ -2115,7 +2138,7 @@ heb:
   orthographies:
   - autonym: עברית
     base: א ב ג ד ה ו ז ח ט י כ ך ל מ ם נ ן ס ע פ ף צ ץ ק ר ש ת
-    combinations: '{שׁ}{שׂ}{בּ}{תּ}{כּ }{ךּ}{פּ}{ףּ}{ג׳}{ז׳}{צ׳}{ו׳}{וו}{ד׳}{ת׳}{ח׳}{ר׳}{ע׳}'
+    combinations: '{שׁ}{שׂ}{בּ}{תּ}{כּ}{ךּ}{פּ}{ףּ}{ג׳}{ז׳}{צ׳}{ו׳}{וו}{ד׳}{ת׳}{ח׳}{ר׳}{ע׳}'
     script: Hebr
   speakers: 9000000
   todo_status: todo
@@ -2373,7 +2396,7 @@ jdt:
     script: Cyrl
   - autonym: ז׳אוּהאוּראִ
     base: א ב ג ד ה ו וּ ז ח י י כ ל מ נ ס ע פ צ ק ר ש ת ׳
-    combinations: '{אִ }{אַ}{אָ}{בּ}{כּ}{פּ}'
+    combinations: '{אִ}{אַ}{אָ}{בּ}{כּ}{פּ}'
     script: Hebr
     status: secondary
   - autonym: Çuhuri
@@ -2975,7 +2998,7 @@ ltg:
   speakers_date: 2009
   source:
   - Wikipedia
-  status: strong
+  todo_status: strong
 lvs:
   name: Standard Latvian
   orthographies:
@@ -3225,7 +3248,8 @@ mgh:
   speakers_date: 2006
   todo_status: weak
 mgo:
-  name: Meta’
+  name: Meta'
+  preferred_name: Meta’
   orthographies:
   - autonym: Mɨta’
     auxiliary: q x
@@ -3853,7 +3877,7 @@ oaa:
   name: Orok
   orthographies:
   - autonym: Уйльта
-    base: ̄ а б в г д е ж з и й к л м н о п р с т у ф х ч э ј ӈ ӡ ӣ ө ԩ
+    base: ̄ а б в г д е ж з и й к л м н о п р с т у ф х ч э ј ӈ ӡ ӣ ө ԩ ь
     combinations: '{а̄}{е̄}{о̄}{ө̄}{э̄}'
     script: Cyrl
   source:
@@ -4076,6 +4100,7 @@ prg:
   - Wikipedia
   speakers: 0
   todo_status: strong
+  note: Need to add combinations with accents.
 prs:
   name: Dari
   orthographies:
@@ -4444,14 +4469,6 @@ shu:
   - Wikipedia
   todo_status: weak
   note: Initial, medial, and final forms of the letters and some ligatures are also required.
-sia:
-  name: Akkala Sami
-  orthographies:
-  - autonym: Bidumsámegiella
-    script: Latn
-  speakers: 0
-  status: historical
-  todo_status: todo
 sjd:
   name: Kildin Sami
   orthographies:
@@ -4476,21 +4493,13 @@ sje:
   speakers: 25–50
   speakers_date: 2010
   todo_status: weak
-sjk:
-  name: Kemi Sami
-  orthographies:
-  - autonym: Samääškiela
-    script: Latn
-  speakers: 0
-  status: historical
-  todo_status: todo
 sjt:
   name: Ter Sami
   orthographies:
   - autonym: Са̄мькӣлл
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ј ҋ ҍ
       ҏ һ ӆ ӈ ӊ ӎ ӓ ӭ ӣ ’
-    combinations: {а̄}
+    combinations: '{а̄}'
     script: Cyrl
   source:
   - Omniglot
@@ -4989,7 +4998,7 @@ tly:
   name: Talysh
   orthographies:
   - autonym: Толыши
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш ј ғ ҹ ҝ һ ә
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш ј ғ ҹ ҝ һ ә ы
     script: Cyrl
   - autonym: Tolışi
     inherit: azj
@@ -5230,6 +5239,7 @@ ukr:
   speakers: 35000000
   speakers_date: 2000
   todo_status: strong
+  note: Need to add combinations with accents.
 ulk:
   name: Meriam Mir
   orthographies:
@@ -5856,10 +5866,11 @@ bal:
   - bgp  # Eastern Balochi
   - bgn  # Western Balochi
   - bcc  # Southern Balochi
-  name: Balochi
+  name: Baluchi
+  preferred_name: Balochi
   orthographies:
   - autonym: بلۏچی
-    base: ء آ ا ب ت ج د ر ز س ش ل م ن ه و ٹ پ چ ڈ ژ ک گ ی ۏ ے ݔ ࢣ  َ ُ ِ 
+    base: ء آ ا ب ت ج د ر ز س ش ل م ن ه و ٹ پ چ ڈ ژ ک گ ی ۏ ے ݔ ࢣ َ ُ ِ 
     numerals: ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹
     script: Arab
   source:

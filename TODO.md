@@ -3,25 +3,20 @@
 @Johannes
 
 - [ ] set status based on ISO (extinct, historical, …)
-- [+] implement inherit attribute for orthographies
-- [ ] for orthography, do not inherit autonym, but inherit numerals if they exist.
+- [ ] for orthography, do not inherit autonym, but inherit `numerals` if they exist.
 - [ ] add support for `preferred_as_individual: true` (default is false)
+- [ ] simplify validation:
+	- do not report errors for `todo_status: todo`
+	- simply ignore spaces in combinations and characters sets (no need to report, no?)
+	- no need to report missing macrolanguages
+	- not all included languages need to be in the data
+	- (bonus) use auxiliary and combinations to check for autonym name
 
-- [+] double check if YAML is well formed, list-type fields are always lists etc.
-- [+] add language names where missing or where -- is used
-- [+] add speaker counts where missing or where -- is used
-- [+] add a date (year) for the speaker count information, to the field `speakers_date`.
-- [+] compare scraped speaker counts with those currently in the DB: this could lead to improved regular expression and migh help us update the existing counts in the DB. I would prefer to do this manually.
-- [+] add langtool, refactor to work with the new format
-- [+] langtool should subset the rosetta.yaml per font
 - [+] check if all macrolanguages have been covered, i.e. if all ISO 639-3 languages marked as macrolanguages have a non-empty `includes` field. List those that do not.
 	- NOTE: Currently also cross-checking iso data against rosetta data and emitting a warning if the rosetta data is missing one of those macrolanguages altogether
 - [+] check if all names are iso-639-3, print output. The update might need to be done manually not to overwrite our preferred names.
 	- NOTE: The only two cases of difference were quotes: 'Ta’izzi-Adeni Arabic' (iso: 'Ta'izzi-Adeni Arabic') and 'Ga’anda' (iso:'Ga'anda')
-- [+] make sure characters used in autonyms are also in the base for corresponding orthography
-- [+] add licence to this repo
-- [+] sort rosetta.yaml dict by key a-z
-- [+] CLI option to pass several files and compute union (and why not also intersect) of supported languages
+
 
 Notes:
 
@@ -32,68 +27,7 @@ Notes:
 
 @David
 
-- [+] review historical statuses!!
-- [+] double check Swahili macrolanguage
-- [+] set up aze Azerbaijani as macrolanguage
-- [+] set up kur Kurdish as macrolanguage
-- [+] set up mon Mongolian as macrolanguage
-- [+] set up bik Bikol as macrolanguage
-- [+] set up est Estonian as macrolanguage
-- [+] set up kln Kalenjin as macrolanguage
-- [+] set up lav Latvian as macrolanguage
-- [+] remove luy Luyia
-- [+] set up orm Oromo as macrolanguage
-- [+] set up que Quechua as macrolanguage
-- [+] set up sqi Albanian as macrolanguage
-- [+] set up srd Sardinian as macrolanguage
-- [+] set up zap Zapotec as macrolanguage
-- [+] represented Bikol, Malagasy, Kalenjin, Sardinian, Quechua, Zapotec as individual language
-- [+] revise Yiddish & Hebrew
-- [+] resolve Malay
-- [+] fix/check autonyms
-- [+] complete Arabic varietes
-	- [+] aao - Algerian Saharan Arabic  # not including
-	- [+] abh - Tajiki Arabic  # not including
-	- [+] abv - Baharna Arabic
-	- [+] acm - Mesopotamian Arabic
-	- [+] acq - Ta'izzi-Adeni Arabic
-	- [+] acw - Hijazi Arabic
-	- [+] acx - Omani Arabic
-	- [+] acy - Cypriot Arabic  # not including
-	- [+] adf - Dhofari Arabic
-	- [+] aeb - Tunisian Arabic
-	- [+] aec - Saidi Arabic
-	- [+] afb - Gulf Arabic
-	- [+] ajp - South Levantine Arabic
-	- [+] apc - North Levantine Arabic
-	- [+] apd - Sudanese Arabic
-	- [+] arb - Standard Arabic
-	- [+] arq - Algerian Arabic
-	- [+] ars - Najdi Arabic
-	- [+] ary - Moroccan Arabic
-	- [+] arz - Egyptian Arabic
-	- [+] auz - Uzbeki Arabic  # not including
-	- [+] avl - Eastern Egyptian Bedawi Arabic
-	- [+] ayh - Hadrami Arabic
-	- [+] ayl - Libyan Arabic
-	- [+] ayn - Sanaani Arabic
-	- [+] ayp - North Mesopotamian Arabic
-	- [+] pga - Sudanese Creole Arabic
-	- [+] shu - Chadian Arabic
-	- [+] ssh - Shihhi Arabic  # not including
-- [ ] revise pes Persian (macrolanguage)
-	- [+] pes – Iranian Persian
-	- [+] prs – Dari
-	- [+] aiq – Aimaq dialect
-	- [+] bhh – Bukhori dialect  # left as todo 
-	- [+] haz – Hazaragi dialect
-	- [+] jpr – Judeo-Persian  # left as todo
-	- [+] phv – Pahlavani  # not including
-	- [+] deh – Dehwari
-	- [+] jdt – Judeo-Tat
-	- [+] ttt – Muslim Tat
-- [+] revise urd Urdu
-- [+] add zsm Malaysian
+- [ ] add vowel combinations to Russian, Church Slavic, Ukrainian, Montenegrin
 
 Ask to check:
 - Albanian
@@ -116,74 +50,9 @@ Later:
 	- [ ] include punctuation in checking that an autonym can be spelled in its provided orthography
 - [ ] list OpenType features needed to support a language with a brief note about what the feature should do.
 
-## Double check those errors:
+## Missing macrolanguages
 
-- 'aao' has an orthography which is missing a 'base' attribute
-- 'abh' has an orthography which is missing a 'base' attribute
-- 'abv' has an orthography which is missing a 'base' attribute
-- 'acm' has an orthography which is missing a 'base' attribute
-- 'acq' has an orthography which is missing a 'base' attribute
-- 'acw' has an orthography which is missing a 'base' attribute
-- 'acx' has an orthography which is missing a 'base' attribute
-- 'acy' has an orthography which is missing a 'base' attribute
-- 'adf' has an orthography which is missing a 'base' attribute
-- 'aeb' has an orthography which is missing a 'base' attribute
-- 'aec' has an orthography which is missing a 'base' attribute
-- 'afb' has an orthography which is missing a 'base' attribute
-- 'aiq' has an orthography which is missing a 'base' attribute
-- 'ajp' has an orthography which is missing a 'base' attribute
-- 'apc' has an orthography which is missing a 'base' attribute
-- 'apd' has an orthography which is missing a 'base' attribute
-- 'arb' has an orthography which is missing a 'base' attribute
-- 'arq' has an orthography which is missing a 'base' attribute
-- 'ars' has an orthography which is missing a 'base' attribute
-- 'ary' has an orthography which is missing a 'base' attribute
-- 'arz' has an orthography which is missing a 'base' attribute
-- 'auz' has an orthography which is missing a 'base' attribute
-- 'avl' has an orthography which is missing a 'base' attribute
-- 'ayh' has an orthography which is missing a 'base' attribute
-- 'ayl' has an orthography which is missing a 'base' attribute
-- 'ayn' has an orthography which is missing a 'base' attribute
-- 'ayp' has an orthography which is missing a 'base' attribute
-- 'bbz' has an orthography which is missing a 'base' attribute
-- 'deh' has an orthography which is missing a 'base' attribute
-- 'haz' has an orthography which is missing a 'base' attribute
-- 'pes' has an orthography which is missing a 'base' attribute
-- 'pga' has an orthography which is missing a 'base' attribute
-- 'phv' has an orthography which is missing a 'base' attribute
-- 'prs' has an orthography which is missing a 'base' attribute
-- 'shu' has an orthography which is missing a 'base' attribute
-- 'ssh' has an orthography which is missing a 'base' attribute
-- 'urd' has an orthography which is missing a 'base' attribute
-- 'bhh' has an orthography which is missing a 'base' attribute
-- 'bhh' has an orthography which is missing a 'base' attribute
-- 'ems' has an orthography which is missing a 'base' attribute
-- 'uzs' has an orthography which is missing a 'base' attribute
-- 'ydd' has an orthography which is missing a 'base' attribute
-- 'yih' has an orthography which is missing a 'base' attribute
-- 'sjk' has an orthography which is missing a 'base' attribute
-- 'sia' has an orthography which is missing a 'base' attribute
-
-- 'abk' has invalid autonym 'Аҧсшәа‎' which cannot be spelled with that orthography's charset 'ҵнучҩҿлқжҟҳыдрию тксщџӷзҷԥаяәҭецэӡбгшмфхҽйоъпвь' - missing 'ҧ'
-- 'crh' has invalid autonym 'Qırımtatar tili' which cannot be spelled with that orthography's charset 'maocpi jçwdlsvfğekgşbzöüqtrunhñxy' - missing 'ı'
-- 'dlg' has invalid autonym 'Дулҕан' which cannot be spelled with that orthography's charset 'нучлӈжүыдрию тксщзаяецэёөбгшмфхйоъпвһь' - missing 'ҕ'
-- 'jdt' has invalid autonym 'Juwri' which cannot be spelled with that orthography's charset 'ִַבזצתחכעקש לי׳נרהאפָמגוסדּ' - missing 'rjuwi'
-- 'kur' has invalid autonym 'Kurdî' which cannot be spelled with that orthography's charset 'нучлждри ӧтксщԝԛзаәецэбгшмфхйопвһь' - missing 'rkudî'
-- 'kur' has invalid autonym 'Kurdî' which cannot be spelled with that orthography's charset 'méùaíocpi j'wdlsvfekgbzqtrúunhxy' - missing 'î'
-- 'oaa' has invalid autonym 'Уйльта' which cannot be spelled with that orthography's charset 'нучлӈждрӣ тксзјӣаеэӡөбԩгмфхопв' - missing 'йь'
-- 'ron' has invalid autonym 'Română' which cannot be spelled with that orthography's charset 'нучлжыдрию тксӂзаяецэбгшмфхйопвь' - missing 'mârnăo'
-- 'tly' has invalid autonym 'Толыши' which cannot be spelled with that orthography's charset 'нучлждри тксзјаәецбгшмфҹҝхйопвһғ' - missing 'ы'
-- 'uzn' has invalid autonym 'Ўзбекча' which cannot be spelled with that orthography's charset 'ӯнучлқжҳыдрию тксщзаяецэёбгшмфхйоъпвьғ' - missing 'ў'
-- 'aat' has invalid autonym 'Αρβανίτικα' which cannot be spelled with that orthography's charset 'οαξμδικπβ γϳυχdτζ̱̇σbλρ̈ενφθ' - missing 'ί'
-- 'bem' has invalid autonym 'Chibemba' which cannot be spelled with that orthography's charset 'maocpi jwdlsvfekgbtuny' - missing 'h'
-- 'fao' has invalid autonym 'Føroyskt' which cannot be spelled with that orthography's charset 'maíocpi jwdlsvfåekgóýbðzöqtrúunæhxáy' - missing 'ø'
-- 'haa' has invalid autonym 'Häł gołan' which cannot be spelled with that orthography's charset 'maocpài jäwdląsvfâekgbǎzqtrëunhxy' - missing 'ł'
-- 'hop' has invalid autonym 'Hopilàvayi' which cannot be spelled with that orthography's charset 'maocpi jwdlsvfekgbzöqtrunhxy' - missing 'à'
-- 'mgo' has invalid autonym 'Mɨta’' which cannot be spelled with that orthography's charset 'mùaocpàiè jŋʼwds̀fekgbɔzòtrunìhyə' - missing 'ɨ'
-- 'ruo' has invalid autonym 'Rumârește' which cannot be spelled with that orthography's charset 'mașăocpiľ jwdlsvfåekgbzńqtrunhxyț' - missing 'â'
-- 'sjt' has invalid autonym 'Са̄мькӣлл' which cannot be spelled with that orthography's charset 'ӆнучлӈжыдрию тксщӭзјӊая’ецӓэёбҏгшмфҍхӎйоъпвҋһь' - missing 'ӣ'
-- 'srm' has invalid autonym 'Saamáka' which cannot be spelled with that orthography's charset 'maocpi jwdlsvfekgbzöqtrëunhxy' - missing 'á'
-- 'xav' has invalid autonym 'A’uwẽ' which cannot be spelled with that orthography's charset 'méaocpi jwĩdlõsvfekgbzôöãqtrunhxy' - missing 'ẽ'
-
-- Included language 'nno' not found in data
-- 'nor' has invalid included languages
+- doi
+- kok
+- nep
+- ori
