@@ -1,6 +1,8 @@
 # A changelog for the lib/fontlang CLI tool
 
-## 0.1.6 (WIP)
+## 0.1.6 (07.02.2020)
+- FEATURE: Implemented support for the `preferred_as_individual` attribute on macro languages
+- FEATURE: Added `--strict` flag to display language names and macrolanguages as per ISO data
 - TWEAK: Implemented orthography attribute `inherit` to inherit another language's orthography for that `script` (if one exists)
 - FIX: Language names with countries in brackets no longer have their closing parenthesis cut off
 

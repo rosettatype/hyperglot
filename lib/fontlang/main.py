@@ -28,7 +28,7 @@ def validate_font(ctx, param, value):
     return value
 
 
-def language_list(langs, native=False, users=False, script=None,
+def language_list(langs, native=False, users=False, script=None, strict=False,
                   seperator=", "):
     """
     Return a printable string for all languages
@@ -40,7 +40,7 @@ def language_list(langs, native=False, users=False, script=None,
         if native and script:
             name = lang.get_autonym(script)
         else:
-            name = lang.get_name(script)
+            name = lang.get_name(script, strict)
 
         if name is False:
             name = "(iso: %s)" % iso
@@ -58,7 +58,7 @@ def language_list(langs, native=False, users=False, script=None,
     return seperator.join(items)
 
 
-def print_to_cli(font, title, autonyms, users, script):
+def print_to_cli(font, title, autonyms, users, script, strict):
     print()
     print("=" * len(title))
     print(title)
@@ -75,7 +75,8 @@ def print_to_cli(font, title, autonyms, users, script):
                      SCRIPTNAMES[script])
                 print(title)
                 print("-" * len(title))
-                print(language_list(done[script], autonyms, users, script))
+                print(language_list(done[script],
+                                    autonyms, users, script, strict))
 
     if "weak" in font:
         print()
@@ -91,7 +92,8 @@ def print_to_cli(font, title, autonyms, users, script):
                      SCRIPTNAMES[script])
                 print(title)
                 print("-" * len(title))
-                print(language_list(weak[script], autonyms, users, script))
+                print(language_list(weak[script],
+                                    autonyms, users, script, strict))
 
 
 def prune_intersect(intersection, res, level):
@@ -165,27 +167,44 @@ MODES = ["individual", "union", "intersection"]
 @click.option("-s", "--support",
               type=click.Choice(SUPPORTLEVELS.keys(), case_sensitive=False),
               default="base", show_default=True,
+              help="What level of language support to check the fonts for."
               )
-@click.option("-a", "--autonyms", is_flag=True, default=False)
-@click.option("-u", "--users", is_flag=True, default=False)
-@click.option("-o", "--output", type=click.File(mode="w", encoding="utf-8"))
+@click.option("-a", "--autonyms", is_flag=True, default=False,
+              help="Flag to render languages names in their native name.")
+@click.option("-u", "--users", is_flag=True, default=False,
+              help="Flag to show how many users each languages has.")
+@click.option("-o", "--output", type=click.File(mode="w", encoding="utf-8"),
+              help="Provide a name to a yaml file to write support "
+              "information to.")
 @click.option("-m", "--mode", type=click.Choice(MODES, case_sensitive=False),
-              default=MODES[0], show_default=True)
-@click.option("--include-historical", is_flag=True, default=False)
-@click.option("--include-constructed", is_flag=True, default=False)
+              default=MODES[0], show_default=True,
+              help="When checking more than one file, a comparison can be "
+              "generated. By default each file's support is listed "
+              "individually. 'union' shows support for all languages "
+              "supported by the combination of the passed in fonts. "
+              "'intersection' shows the support all files have in common.")
+@click.option("--include-historical", is_flag=True, default=False,
+              help="Flag to include otherwise ignored historical languages.")
+@click.option("--include-constructed", is_flag=True, default=False,
+              help="Flag to include otherwise ignored contructed languages.")
+@click.option("--strict", is_flag=True, default=False,
+              help="Flag to display names and macrolanguage data "
+              "strictly abiding to ISO data. Without it apply some gentle "
+              "transforms to show preferred languages names and "
+              "macrolanguage structure that deviates from ISO data.")
 @click.option("-v", "--verbose", is_flag=True, default=False)
 @click.option("-V", "--version", is_flag=True, default=False)
 def cli(fonts, support, autonyms, users, output, mode, include_historical,
-        include_constructed, verbose, version):
+        include_constructed, strict, verbose, version):
+    """
+    Pass in one or more fonts to check their languages support
+    """
 
     if version:
         import sys
         sys.exit("Fontlang version: %s" % __version__)
 
     logging.getLogger().setLevel(logging.DEBUG if verbose else logging.WARNING)
-    """
-    Main entry point for checking language support of a font binaries
-    """
     if fonts == ():
         print("Provide at least one path to a font or --help for more "
               "information")
@@ -198,7 +217,7 @@ def cli(fonts, support, autonyms, users, output, mode, include_historical,
         _font = TTFont(font, lazy=True)
         cmap = _font["cmap"]
         chars = [chr(c) for c in cmap.getBestCmap().keys()]
-        Lang = Languages()
+        Lang = Languages(strict)
         langs = Lang.from_chars(chars, include_historical, include_constructed)
         done = {}
         weak = {}
@@ -215,7 +234,6 @@ def cli(fonts, support, autonyms, users, output, mode, include_historical,
             if level not in langs[script]:
                 continue
             for iso, l in langs[script][level].items():
-                # TODO add sort key from name/autonym
                 if "todo_status" not in l or l["todo_status"] in done_statuses:
                     done[script][iso] = l
                 else:
@@ -234,7 +252,7 @@ def cli(fonts, support, autonyms, users, output, mode, include_historical,
         for font in fonts:
             title = "%s has %s support for:" % (os.path.basename(font),
                                                 level.lower())
-            print_to_cli(results[font], title, autonyms, users, script)
+            print_to_cli(results[font], title, autonyms, users, script, strict)
         data = results
     elif mode == "union":
         union = {}
@@ -257,7 +275,7 @@ def cli(fonts, support, autonyms, users, output, mode, include_historical,
 
         title = "Fonts %s together have %s support for:" % \
             (", ".join([os.path.basename(f) for f in fonts]), level.lower())
-        print_to_cli(union, title, autonyms, users, script)
+        print_to_cli(union, title, autonyms, users, script, strict)
         # Wrap in "single file" 'union' top level, which will be removed when
         # writing the data
         data = {"union": union}
@@ -273,7 +291,7 @@ def cli(fonts, support, autonyms, users, output, mode, include_historical,
 
         title = "Fonts %s all have common %s support for:" % \
             (", ".join([os.path.basename(f) for f in fonts]), level.lower())
-        print_to_cli(intersection, title, autonyms, users, script)
+        print_to_cli(intersection, title, autonyms, users, script, strict)
         # Wrap in "single file" 'intersection' top level, which will be removed
         # when writing the data
         data = {"intersection": intersection}

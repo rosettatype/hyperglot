@@ -41,14 +41,14 @@ class Language(dict):
         # first best
         return self["orthographies"][0]
 
-    def get_name(self, script=None):
+    def get_name(self, script=None, strict=False):
         if script is not None:
             ort = self.get_orthography(script)
             if "name" in ort:
                 return ort["name"]
         # Without script fall back to main dict name, if one exists
         try:
-            if "preferred_name" in self:
+            if not strict and "preferred_name" in self:
                 return self["preferred_name"]
             return self["name"]
         except KeyError:
@@ -162,13 +162,43 @@ class Languages(dict):
     options for convenience
     """
 
-    def __init__(self):
+    def __init__(self, strict=False):
         with open(DB) as f:
             data = yaml.load(f, Loader=yaml.Loader)
             self.update(data)
 
             self.inherit_orthographies_from_macrolanguage()
             self.inherit_orthographies()
+
+            if not strict:
+                self.lax_macrolanguages()
+
+    def lax_macrolanguages(self):
+        """
+        Unless specifically choosing the ISO macrolanguage model, we will
+        bundle some macrolanguages and show them as single language
+        This means: Remove includes attributes, remove included languages
+        """
+        pruned = dict(self)
+        for iso, lang in self.items():
+            if "preferred_as_individual" in lang:
+                if "orthographies" not in lang:
+                    logging.warning("'%s' cannot be treated as individual, "
+                                    "because it does not have orthographies"
+                                    % iso)
+                    continue
+
+                if "includes" not in lang:
+                    # This should not be the case, but let's not warn about it
+                    # either; it just means there is no sub-languages to worry
+                    # about
+                    continue
+
+                # Remove the included languages from the main dict altogether
+                pruned = {key: data for key, data in pruned.items()
+                          if key not in lang["includes"]}
+
+        self = pruned
 
     def inherit_orthographies(self):
         """
@@ -242,14 +272,14 @@ class Languages(dict):
                 continue
 
             if includeHistorical and l.is_historical():
-                logging.info("Including historical languae '%s'" %
+                logging.info("Including historical language '%s'" %
                              l.get_name())
             elif includeHistorical is False and l.is_historical():
                 logging.info("Skipping historical language '%s'" % lang)
                 continue
 
             if includeConstructed and l.is_constructed():
-                logging.info("Including constructed languae '%s'" %
+                logging.info("Including constructed language '%s'" %
                              l.get_name())
             elif includeConstructed is False and l.is_constructed():
                 logging.info("Skipping constructed language '%s'" % lang)

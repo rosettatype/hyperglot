@@ -4,7 +4,7 @@
 
 - [ ] set status based on ISO (extinct, historical, …)
 - [ ] for orthography, do not inherit autonym, but inherit `numerals` if they exist.
-- [ ] add support for `preferred_as_individual: true` (default is false)
+- [+] add support for `preferred_as_individual: true` (default is false)
 - [ ] simplify validation:
 	- do not report errors for `todo_status: todo`
 	- simply ignore spaces in combinations and characters sets (no need to report, no?)
