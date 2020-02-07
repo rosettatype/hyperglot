@@ -28,8 +28,9 @@ aat:
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z á ä ç è é ë í ï ó ö
       ú ü ý
     script: Latn
-  - autonym: Αρβανίτικα
-    base: b d α β γ γ̇ δ ε ε̱ ζ θ ι κ λ μ ν ν̇ ξ ο π ρ σ σ̇ σ̈ τ υ φ χ χ̇ ϳ
+  - autonym: Αρbε̰ρίσ̈τ
+    base: α β b ϳ γ δ d ε ζ θ ι κ λ μ ν ξ ο π ρ σ τ υ φ χ
+    combinations: {γ̇}{ε̱}{ν̇}{σ̇}{σ̈}{χ̇}{ε̰}
     script: Grek
   source:
   - Omniglot
@@ -51,7 +52,7 @@ abe:
 abk:
   name: Abkhazian
   orthographies:
-  - autonym: Аҧсшәа
+  - autonym: Аԥсшәа
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я џ қ ҟ ҩ
       ҭ ҳ ҵ ҷ ҽ ҿ ә ӡ ӷ ԥ
     script: Cyrl
@@ -780,7 +781,7 @@ bem:
   name: Bemba (Zambia)
   orthographies:
   - autonym: Chibemba
-    base: a b c d e f g i j k l m n o p s t u v w y
+    base: a b c d e f g h i j k l m n o p s t u v w y
     script: Latn
   source:
   - Omniglot
@@ -957,7 +958,7 @@ cak:
   name: Kaqchikel
   orthographies:
   - autonym: Kaqchikel Chʼabʼäl
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ë ï ö ü
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ë ï ö ü ʼ
     script: Latn
   source:
   - Omniglot
@@ -1042,7 +1043,7 @@ cha:
   todo_status: strong
 che:
   name: Chechen
-  note: Single source. Shorter autonym?
+  note: Shorter autonym?
   orthographies:
   - autonym: Нохчийн мотт
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
@@ -1058,12 +1059,14 @@ chu:
   - autonym: Церковнослове́нскїй
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь ю є ѕ џ ѥ ѩ ѭ
       ҁ і ї ѡ ѣ ѧ ѫ ѯ ѱ ѳ ѵ ѷ ѻ ѽ ѿ ꙁ ꙋ ꙍ ꙗ ꙃ
+    combinations: {е́}
     script: Cyrl
   source:
   - Omniglot
   - Wikipedia
   - CLDR
   speakers: 0
+  status: historical
   todo_status: strong
 chv:
   name: Chuvash
@@ -1130,7 +1133,7 @@ cjs:
   todo_status: weak
 ckt:
   name: Chukot
-  note: Single source. Speakers count based on 32% of ethnic population.
+  note: Speakers count based on 32% of ethnic population.
   orthographies:
   - autonym: Ԓыгъоравэтԓьэн
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӄ ӈ ԓ
@@ -1162,7 +1165,7 @@ con:
   name: Cofán
   orthographies:
   - autonym: A’ingae
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ñ û
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ñ û ’
     script: Latn
   source:
   - Omniglot
@@ -1195,14 +1198,13 @@ cos:
   todo_status: strong
 crh:
   name: Crimean Tatar
-  note: Single source. Shorter autonym?
   orthographies:
-  - autonym: Къырымтатар тили
+  - autonym: Къырымтатар
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё
     script: Cyrl
     status: secondary
   - autonym: Qırımtatar
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ç ñ ö ü ğ ş
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ç ñ ö ü ğ ş ı
     script: Latn
   source:
   - Omniglot
@@ -1328,7 +1330,7 @@ deu:
   todo_status: strong
 dhv:
   name: Dehu
-  note: Single source. 13000 includes L2 speakers.
+  note: 13000 includes L2 speakers.
   orthographies:
   - autonym: Drehu
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ë ö
@@ -1367,7 +1369,7 @@ dlg:
   orthographies:
   - autonym: Дулҕан
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ү һ ӈ
-      ө
+      ө ҕ
     script: Cyrl
   source:
   - Omniglot
@@ -1630,10 +1632,8 @@ ewo:
 fao:
   name: Faroese
   orthographies:
-  - alternative: a b c d e f g h i j k l m n o p q r s t u v w x y z á å æ í ð ó ø
-      ú ý
-    autonym: Føroyskt
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á å æ í ð ó ö ú ý
+  - autonym: Føroyskt
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á å æ í ð ó ø ú ý
     script: Latn
   source:
   - Omniglot
@@ -1940,7 +1940,7 @@ gle:
   todo_status: weak
 glg:
   name: Galician
-  note: Single source. 58% of the population of Galicia are L1 speakers.
+  note: 58% of the population of Galicia are L1 speakers.
   orthographies:
   - autonym: Galego
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ñ ó ú ü
@@ -2040,7 +2040,7 @@ gwi:
   name: Gwichʼin
   orthographies:
   - autonym: Dinju Zhuh K’yuu
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à ą è é ę ì í ò ó ǫ
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à ą è é ę ì í ò ó ǫ ’
       ù ú ł
     script: Latn
   source:
@@ -2051,9 +2051,10 @@ gwi:
   todo_status: strong
 haa:
   name: Han
+  preferred_name: Hän
   orthographies:
-  - autonym: Häł gołan
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä à â ǎ ą ë
+  - autonym: Tr’ondëk Hwëch’in
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä à â ǎ ą ë ’
     script: Latn
   source:
   - Omniglot
@@ -2092,7 +2093,7 @@ haw:
   name: Hawaiian
   orthographies:
   - autonym: ’Olelo Hawai’i
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ī ō ū
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ī ō ū ’
     script: Latn
   source:
   - Omniglot
@@ -2133,7 +2134,7 @@ hop:
   name: Hopi
   orthographies:
   - autonym: Hopilàvayi
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ö
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à ö
     script: Latn
   source:
   - Omniglot
@@ -2406,7 +2407,7 @@ jpr:
   todo_status: todo
 kaa:
   name: Kara-Kalpak
-  note: Single source. Shorter autonym?
+  note: Shorter autonym?
   orthographies:
   - autonym: Қарақалпақ
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ў ғ қ
@@ -2555,7 +2556,7 @@ kek:
   name: Kekchí
   orthographies:
   - autonym: Q’eqchi’
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ’
     script: Latn
   source:
   - Omniglot
@@ -2565,7 +2566,7 @@ kek:
   todo_status: strong
 ket:
   name: Ket
-  note: Single source. Shorter autonym?
+  note: Shorter autonym?
   orthographies:
   - autonym: Остыганна ӄа’
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӄ ӈ ә
@@ -2647,7 +2648,7 @@ kiu:
   todo_status: strong
 kjh:
   name: Khakas
-  note: Single source. Shorter autonym?
+  note: Shorter autonym?
   orthographies:
   - autonym: Хакас тілі
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё і ғ ң
@@ -3184,7 +3185,7 @@ mdf:
   todo_status: strong
 mer:
   name: Meru
-  note: Single source. Alternative speaker count of 2300000 unconfirmed.
+  note: Alternative speaker count of 2300000 unconfirmed.
   orthographies:
   - autonym: Kimĩĩru
     auxiliary: f p q s v x z
@@ -3224,11 +3225,11 @@ mgh:
   speakers_date: 2006
   todo_status: weak
 mgo:
-  name: Meta'
+  name: Meta’
   orthographies:
   - autonym: Mɨta’
     auxiliary: q x
-    base: a b c d e f g h i j k m n o p r s t u w y z à è ì ò ù ŋ ɔ ə ʼ ̀
+    base: a b c d e f g h i j k m n o p r s t u w y z à è ì ò ù ŋ ɔ ə ɨ ʼ ̀
     script: Latn
   source:
   - CLDR
@@ -3327,7 +3328,7 @@ moh:
   name: Mohawk
   orthographies:
   - autonym: Kanien’kéha
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á à é è í ì ó ò ú ù
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á à é è í ì ó ò ú ù ’
     script: Latn
   source:
   - Omniglot
@@ -3357,11 +3358,11 @@ mvf:
   todo_status: todo
 mqm:
   name: South Marquesan
-  note: Single source. The number of speakers is estimate, a half of total Marquesan
+  note: The number of speakers is estimate, a half of total Marquesan
     language speakers (8700).
   orthographies:
   - autonym: ʻEo ʻEnata
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ó ú
+    inherit: mrq
     script: Latn
   source:
   - CLDR
@@ -3395,11 +3396,11 @@ mrj:
   todo_status: strong
 mrq:
   name: North Marquesan
-  note: Single source. The number of speakers is estimate, a half of total Marquesan
+  note: The number of speakers is estimate, a half of total Marquesan
     language speakers (8700).
   orthographies:
   - autonym: ’Eo ’Enana
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ó ú
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ó ú ʻ
     script: Latn
   source:
   - CLDR
@@ -3680,7 +3681,7 @@ nio:
   todo_status: weak
 niu:
   name: Niuean
-  note: Single source. Speaker count date for 2000 in Niue only.
+  note: Speaker count date for 2000 in Niue only.
   orthographies:
   - autonym: Niuē
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ī ō ū
@@ -3852,7 +3853,7 @@ oaa:
   name: Orok
   orthographies:
   - autonym: Уйльта
-    base: ̄ а б в г д е ж з и к л м н о п р с т у ф х ч э ј ӈ ӡ ӣ ө ԩ
+    base: ̄ а б в г д е ж з и й к л м н о п р с т у ф х ч э ј ӈ ӡ ӣ ө ԩ
     combinations: '{а̄}{е̄}{о̄}{ө̄}{э̄}'
     script: Cyrl
   source:
@@ -4181,7 +4182,7 @@ roh:
 ron:
   name: Romanian
   orthographies:
-  - autonym: Română
+  - autonym: Молдовеняскэ
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш ы ь э ю я ӂ
     note: Moldovan Cyrillic alphabet
     script: Cyrl
@@ -4234,7 +4235,7 @@ ruo:
   name: Istro Romanian
   orthographies:
   - autonym: Rumârește
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z å ă ľ ń ș ț
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z å ă â ê ľ ń ș ț
     script: Latn
   source:
   - CLDR
@@ -4455,8 +4456,8 @@ sjd:
   name: Kildin Sami
   orthographies:
   - autonym: Кӣллт Са̄мь
-    base: а ӓ б в г д е ё ж з һ ’ и ӣ й ј ҋ к л ӆ м ӎ н ӊ ӈ о п р ҏ с т у ӯ ф х ц
-      ч ш щ ъ ы ь ҍ э ӭ ю я
+    base: а ӓ б в г д е ё ж з һ и ӣ й ј ҋ к л ӆ м ӎ н ӊ ӈ о п р ҏ с т у ӯ ф х ц
+      ч ш щ ъ ы ь ҍ э ӭ ю я ’
     combinations: '{а̄}{е̄}{ё̄}{ӣ}{о̄}{э̄}{ю̄}{я̄}'
     script: Cyrl
   source:
@@ -4488,7 +4489,8 @@ sjt:
   orthographies:
   - autonym: Са̄мькӣлл
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ј ҋ ҍ
-      ҏ һ ӆ ӈ ӊ ӎ ӓ ӭ ’
+      ҏ һ ӆ ӈ ӊ ӎ ӓ ӭ ӣ ’
+    combinations: {а̄}
     script: Cyrl
   source:
   - Omniglot
@@ -4727,7 +4729,7 @@ srm:
   name: Saramaccan
   orthographies:
   - autonym: Saamáka
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ë ö
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á ë ö
     script: Latn
   source:
   - Omniglot
@@ -4860,7 +4862,7 @@ tab:
   todo_status: weak
 tah:
   name: Tahitian
-  note: Single source. Speaker count based on 37% of the ethnic population.
+  note: Speaker count based on 37% of the ethnic population.
   orthographies:
   - autonym: Reo Tahiti
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ī ō ū
@@ -4992,6 +4994,9 @@ tly:
   - autonym: Tolışi
     inherit: azj
     script: Latn
+  - autonym: تالشه
+    inherit: pes
+    script: Arab
   source:
   - Omniglot
   - Wikipedia
@@ -5102,7 +5107,7 @@ tvl:
   orthographies:
   - autonym: Te ’gana Tūvalu
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā á à ǎ ē é è ě ī í
-      ì ǐ ō ó ò ǒ ū ú ù ǔ
+      ì ǐ ō ó ò ǒ ū ú ù ǔ ’
     script: Latn
   source:
   - Omniglot
@@ -5127,7 +5132,7 @@ twq:
   orthographies:
   - autonym: Ingalkoyyu’
     auxiliary: v
-    base: a b c d e f g h i j k l m n o p q r s t u w x y z ã õ ŋ š ž ɲ ẽ
+    base: a b c d e f g h i j k l m n o p q r s t u w x y z ã õ ŋ š ž ɲ ẽ ’
     script: Latn
   source:
   - CLDR
@@ -5162,7 +5167,7 @@ tzo:
   name: Tzotzil
   orthographies:
   - autonym: Bats’i k’op
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ’
     script: Latn
   source:
   - Omniglot
@@ -5290,21 +5295,19 @@ uzb:
 uzn:
   name: Northern Uzbek
   orthographies:
-  - autonym: Ўзбекча
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ғ қ ҳ
-      ӯ
-    note: alternative 1
-    script: Cyrl
-    status: secondary
-  - autonym: Ўзбекча
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ў ғ қ
-      ҳ
-    note: alternative 2
-    script: Cyrl
-    status: secondary
   - autonym: O‘zbekcha
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ‘
     script: Latn
+  - autonym: Ўзбекча
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ў ғ қ ҳ
+    note: Alternative 2
+    script: Cyrl
+    status: secondary
+  - autonym: Ӯзбекча
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӯ ғ қ ҳ
+    note: Alternative 2
+    script: Cyrl
+    status: secondary
   source:
   - Omniglot
   speakers: 27000000
@@ -5313,7 +5316,8 @@ uzn:
 uzs:
   name: Southern Uzbek
   orthographies:
-  - autonym: اوزبیکی
+  - autonym: ﯣزبېک‎
+    inherit: pes
     script: Arab
   source:
   - Wikipedia
@@ -5475,7 +5479,7 @@ wls:
   name: Wallisian
   orthographies:
   - autonym: Fakaʻuvea
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ī ō ū
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ī ō ū ʻ
     script: Latn
   source:
   - Omniglot
@@ -5556,7 +5560,7 @@ xav:
   name: Xavánte
   orthographies:
   - autonym: A’uwẽ
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ã é ô õ ö ĩ
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ã é ẽ ô õ ö ĩ ’
     script: Latn
   source:
   - Omniglot
