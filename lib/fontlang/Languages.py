@@ -242,7 +242,7 @@ class Languages(dict):
                                           "'%s'" % (iso, parent_iso))
                             # Copy all the attributes we want to inherit
                             for attr in ["base", "auxiliary", "combinations",
-                                         "status"]:
+                                         "numerals", "status"]:
                                 if attr in ort:
                                     # Wrap in type constructor, to copy, not
                                     # reference
