@@ -179,11 +179,22 @@ class Languages(dict):
             if "orthographies" in lang:
                 for o in lang["orthographies"]:
                     if "inherit" in o and "script" in o:
-                        ref = Language(self[o["inherit"]], o["inherit"])
+                        parent_iso = o["inherit"]
+                        if len(parent_iso) != 3:
+                            logging.warning("'%s' failed to inherit "
+                                            "orthography — not a language iso "
+                                            "code" % iso)
+                            continue
+                        if parent_iso not in self:
+                            logging.warning("'%s' inherits an orthography from"
+                                            " '%s', but no such language was "
+                                            "found" % (iso, parent_iso))
+                            continue
+                        ref = Language(self[parent_iso], parent_iso)
                         ort = ref.get_orthography(o["script"])
                         if ort:
                             logging.debug("'%s' inheriting orthography from "
-                                          "'%s'" % (iso, o["inherit"]))
+                                          "'%s'" % (iso, parent_iso))
                             # Copy all the attributes we want to inherit
                             for attr in ["base", "auxiliary", "combinations",
                                          "status"]:
