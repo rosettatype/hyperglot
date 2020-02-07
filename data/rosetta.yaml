@@ -30,7 +30,7 @@ aat:
     script: Latn
   - autonym: Αρbε̰ρίσ̈τ
     base: α β b ϳ γ δ d ε ζ θ ι κ λ μ ν ξ ο π ρ σ τ υ φ χ
-    combinations: {γ̇}{ε̱}{ν̇}{σ̇}{σ̈}{χ̇}{ε̰}
+    combinations: '{γ̇}{ε̱}{ν̇}{σ̇}{σ̈}{χ̇}{ε̰}'
     script: Grek
   source:
   - Omniglot
