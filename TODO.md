@@ -30,6 +30,7 @@ Notes:
 @David
 
 - [ ] add vowel combinations to Russian, Church Slavic, Ukrainian, Montenegrin
+- [ ] note that non-written languages should not generally be included
 
 Ask to check:
 - Albanian
@@ -51,10 +52,3 @@ Later:
 - [ ] punctuation used by a language
 	- [ ] include punctuation in checking that an autonym can be spelled in its provided orthography
 - [ ] list OpenType features needed to support a language with a brief note about what the feature should do.
-
-## Missing macrolanguages
-
-- doi
-- kok
-- nep
-- ori
