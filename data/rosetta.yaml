@@ -6,6 +6,7 @@ aao:
   speakers: 110000
   speakers_date: 1996-1998
   todo_status: todo
+  note: Initial, medial, and final forms of the letters and some ligatures are also required.
 aaq:
   name: Eastern Abnaki
   note: Single source.
@@ -58,14 +59,6 @@ abe:
   speakers: 14
   speakers_date: 2007-2012
   todo_status: weak
-abh:
-  name: Tajiki Arabic
-  orthographies:
-  - autonym: --
-    script: Arab
-  speakers: 2000
-  speakers_date: 1997-2003
-  todo_status: todo
 abk:
   name: Abkhazian
   orthographies:
@@ -111,6 +104,7 @@ abv:
   speakers: 730000
   speakers_date: 2001-2013
   todo_status: todo
+  note: Initial, medial, and final forms of the letters and some ligatures are also required.
 acm:
   name: Mesopotamian Arabic
   orthographies:
@@ -119,6 +113,7 @@ acm:
   speakers: 15700000
   speakers_date: 2014-2016
   todo_status: todo
+  note: Initial, medial, and final forms of the letters and some ligatures are also required.
 acq:
   name: Ta’izzi-Adeni Arabic
   orthographies:
@@ -127,14 +122,21 @@ acq:
   speakers: 10480000
   speakers_date: 2015-2016
   todo_status: todo
+  note: Initial, medial, and final forms of the letters and some ligatures are also required.
 acw:
   name: Hijazi Arabic
   orthographies:
-  - autonym: --
+  - autonym: حجازي
+    base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ پ ڤ
+    auxiliary: ڛ ڢ ٯ ڧ ک ی ڥ چ گ ڨ ڭ ڠ
+    numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ ١٠
     script: Arab
   speakers: 145000000
   speakers_date: 2011
-  todo_status: todo
+  source:
+  - Wikipedia
+  todo_status: weak
+  note: Initial, medial, and final forms of the letters and some ligatures are also required.
 acx:
   name: Omani Arabic
   orthographies:
@@ -143,14 +145,7 @@ acx:
   speakers: 1055000
   speakers_date: 1995-1996
   todo_status: todo
-acy:
-  name: Cypriot Arabic
-  orthographies:
-  - autonym: --
-    script: Arab
-  speakers: 140
-  speakers_date: 2013
-  todo_status: todo
+  note: Initial, medial, and final forms of the letters and some ligatures are also required.
 acz:
   name: Acheron
   note: Single source.
@@ -186,11 +181,17 @@ ady:
 aeb:
   name: Tunisian Arabic
   orthographies:
-  - autonym: --
+  - autonym: تونسي
+    base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ ڨ ڥ پ
+    auxiliary: ڛ ڢ ٯ ڧ ک ی ڤ چ گ ڭ ڠ
+    numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ ١٠
     script: Arab
   speakers: 11200000
   speakers_date: 2014
-  todo_status: todo
+  source:
+  - Wikipedia
+  todo_status: weak
+  note: Initial, medial, and final forms of the letters and some ligatures are also required.
 aec:
   name: Saidi Arabic
   orthographies:
@@ -199,6 +200,7 @@ aec:
   speakers: 22400000
   speakers_date: 2016
   todo_status: todo
+  note: Initial, medial, and final forms of the letters and some ligatures are also required.
 aer:
   name: Eastern Arrernte
   note: The number of speakers relates to all Arrernte languages
@@ -400,9 +402,14 @@ arb:
   note: The speakers are L2 only (it’s second langauge only).
   orthographies:
   - autonym: العربية
+    inherit: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ
+    auxiliary: ڛ ڢ ٯ ڧ ک ی ڤ ڥ پ چ گ ڨ ڭ ڠ
+    numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ ١٠
     script: Arab
   speakers: 270000000
-  todo_status: todo
+  source:
+  - Wikipedia
+  todo_status: weak
 arg:
   name: Aragonese
   orthographies:
@@ -418,27 +425,43 @@ arg:
 arq:
   name: Algerian Arabic
   orthographies:
-  - autonym: --
+  - autonym: الدارجة
+    inherit: aeb
     script: Arab
   speakers: 27000000
   speakers_date: 2012
-  todo_status: todo
+  source:
+  - Wikipedia
+  todo_status: weak
+  note: Initial, medial, and final forms of the letters and some ligatures are also required.
 ars:
   name: Najdi Arabic
   orthographies:
-  - autonym: --
+  - autonym: النجدية
+    base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ پ ڤ
+    auxiliary: ڛ ڢ ٯ ڧ ک ی ڥ چ گ ڨ ڭ ڠ
+    numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ ١٠
     script: Arab
   speakers: 4050000
   speakers_date: 2011-2015
-  todo_status: todo
+  source:
+  - Wikipedia
+  todo_status: weak
+  note: Initial, medial, and final forms of the letters and some ligatures are also required.
 ary:
   name: Moroccan Arabic
   orthographies:
-  - autonym: الدارجة المغربية
+  - autonym: الدارجة
+    base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ ڭ گ ڥ پ
+    auxiliary: ڛ ڢ ٯ ڧ ک ی ڤ چ ڨ ڠ
+    numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ ١٠
     script: Arab
   speakers: 30551000
   speakers_date: 2014
-  todo_status: todo
+  source:
+  - Wikipedia
+  todo_status: weak
+  note: Initial, medial, and final forms of the letters and some ligatures are also required.
 arz:
   name: Egyptian Arabic
   orthographies:
@@ -447,6 +470,7 @@ arz:
   speakers: 64422000
   speakers_date: 2016
   todo_status: todo
+  note: Initial, medial, and final forms of the letters and some ligatures are also required.
 asa:
   name: Asu (Tanzania)
   note: Single source.
@@ -505,6 +529,7 @@ auz:
   speakers: 2000
   speakers_date: 1997-2003
   todo_status: todo
+  note: Initial, medial, and final forms of the letters and some ligatures are also required.
 ava:
   name: Avaric
   orthographies:
@@ -525,6 +550,7 @@ avl:
   speakers: 2240000
   speakers_date: 2015-2016
   todo_status: todo
+  note: Initial, medial, and final forms of the letters and some ligatures are also required.
 ayc:
   name: Southern Aymara
   orthographies:
@@ -543,6 +569,7 @@ ayh:
   speakers: 4560000
   speakers_date: 2015
   todo_status: todo
+  note: Initial, medial, and final forms of the letters and some ligatures are also required.
 ayl:
   name: Libyan Arabic
   orthographies:
@@ -551,6 +578,7 @@ ayl:
   speakers: 4325000
   speakers_date: 1998-2006
   todo_status: todo
+  note: Initial, medial, and final forms of the letters and some ligatures are also required.
 aym:
   autonym: Aymar
   includes:
@@ -571,6 +599,7 @@ ayn:
   speakers: 11100000
   speakers_date: 2015
   todo_status: todo
+  note: Initial, medial, and final forms of the letters and some ligatures are also required.
 ayp:
   name: North Mesopotamian Arabic
   orthographies:
@@ -579,6 +608,7 @@ ayp:
   speakers: 8700000
   speakers_date: 1992-2014
   todo_status: todo
+  note: Initial, medial, and final forms of the letters and some ligatures are also required.
 ayr:
   name: Central Aymara
   orthographies:
@@ -691,15 +721,6 @@ bas:
   - CLDR
   speakers: 300000
   todo_status: weak
-bbz:
-  name: Babalia Creole Arabic
-  note: Suprious languages, iso code retired 2019 (see https://en.wikipedia.org/wiki/ISO_639_macrolanguage)
-  orthographies:
-  - script: Arab
-  speakers: 0
-  status: historical
-  todo_status: todo
-  note: Language was marked as todo_status 'historical' and requires review.
 bdk:
   name: Budukh
   orthographies:
@@ -3952,6 +3973,7 @@ pes:
   orthographies:
   - autonym: فارسی
     base: ء أ ؤ ئ ا ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ل م ن ه و پ چ ژ ک گ ی 
+    numerals: ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹
     script: Arab
   speakers: 55600000
   speakers_date: 2015
@@ -3967,6 +3989,7 @@ pga:
   speakers: 20000
   speakers_date: 1987
   todo_status: todo
+  note: Initial, medial, and final forms of the letters and some ligatures are also required.
 phv:
   name: Pahlavani
   orthographies:
@@ -4421,6 +4444,7 @@ shu:
   speakers: 1600000
   speakers_date: 2015
   todo_status: todo
+  note: Initial, medial, and final forms of the letters and some ligatures are also required.
 sia:
   name: Akkala Sami
   orthographies:
@@ -4755,14 +4779,6 @@ srp:
   speakers: 9500000
   speakers_date: 2016
   todo_status: strong
-ssh:
-  name: Shihhi Arabic
-  orthographies:
-  - autonym: --
-    script: Arab
-  speakers: 15000
-  speakers_date: 2001-2003
-  todo_status: todo
 ssw:
   name: Swati
   note: Single source.
@@ -5274,6 +5290,8 @@ urd:
   name: Urdu
   orthographies:
   - autonym: اُردُو
+    base:
+    numerals: ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹
     script: Arab
   speakers: 68620000
   speakers_date: 2019

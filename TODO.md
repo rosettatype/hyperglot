@@ -102,7 +102,18 @@ Notes:
 	tzo Tzotzil - Bats’i k’op
 	wls Wallisian - Fakaʻuvea
 	xav Xavánte - A’uwẽ
-- [ ] complete Arabic
+- [ ] add Arabic languages
+	- Moroccan
+	- Algerian
+	- Tunisian
+	- Standard
+	- Hijazi
+	- Najdi
+	https://en.wikipedia.org/wiki/Varieties_of_Arabic
+	https://en.wikipedia.org/wiki/Arabic_alphabet
+- [ ] not doing:
+	- Tajiki Arabic
+	- Shihhi Arabic
 - [ ] revise pes Persian
 - [ ] revise aiq Aimaq
 - [ ] revise bhh Bukhori
@@ -112,6 +123,7 @@ Notes:
 - [ ] revise deh
 - [ ] revise jdt
 - [ ] revise ttt
+- [ ] revise urd Urdu
 - [ ] add zsm Malaysian
 - [ ] add Musi?
 
