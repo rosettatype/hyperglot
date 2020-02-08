@@ -5,7 +5,7 @@ import yaml
 import logging
 from collections import OrderedDict
 from fontTools.ttLib import TTFont
-from . import __version__, DB, SCRIPTNAMES, SUPPORTLEVELS
+from . import __version__, DB, SUPPORTLEVELS
 from .languages import Languages, Language
 
 
@@ -72,7 +72,7 @@ def print_to_cli(font, title, autonyms, users, script, strict):
                 print()
                 title = "%d %s of %s script:" % \
                     (count, "language" if count == 1 else "languages",
-                     SCRIPTNAMES[script])
+                     script)
                 print(title)
                 print("-" * len(title))
                 print(language_list(done[script],
@@ -89,7 +89,7 @@ def print_to_cli(font, title, autonyms, users, script, strict):
                     "supported, but we cannot confirm it with our " \
                     "current database:" % \
                     (count, "langauage" if count == 1 else "languages",
-                     SCRIPTNAMES[script])
+                     script)
                 print(title)
                 print("-" * len(title))
                 print(language_list(weak[script],
