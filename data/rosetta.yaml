@@ -606,12 +606,21 @@ aym:
   - ayr
   - ayc
   name: Aymara
+  orthographies:
+  - autonym: Aymar
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ï ñ ü ’
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  todo_status: strong
   source:
   - Omniglot
   - Wikipedia
   speakers: 1677100
   speakers_date: 2007-2011
   todo_status: strong
+  preferred_as_individual: true
 ayn:
   name: Sanaani Arabic
   orthographies:
@@ -913,6 +922,7 @@ bxm:
   preferred_name: Mongolian Buriat
   speakers: 35000
   speakers_date: 2010
+  todo_status: weak
 bxr:
   name: Russia Buriat
   orthographies:
@@ -945,6 +955,7 @@ bxu:
   preferred_name: Chinese Buriat
   speakers: 65000
   speakers_date: 1982
+  todo_status: weak
 cak:
   name: Kaqchikel
   orthographies:
@@ -2112,10 +2123,12 @@ haz:
   - autonym: آزرگی
     inherit: pes
     script: Arabic
+  speakers: 8000000
+  speakers_date: 2014
   source:
   - Wikipedia
   todo_status: weak
-  note: Initial, medial, and final forms of the letters and some ligatures are also required.
+  note: Initial, medial, and final forms of the letters and some ligatures are also required. The number of speakers is an estimate based on the Hazaras population.
 heb:
   name: Hebrew
   orthographies:
@@ -2745,6 +2758,9 @@ kom:
   speakers_date: 2010
 kon:
   autonym: Kikongo
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    script: Latin
   includes:
   - kng
   - ldi
@@ -2756,6 +2772,8 @@ kon:
   - Wikipedia
   speakers: 6500000
   speakers_date: 1982-2012
+  status: weak
+  preferred_as_individual: true
 kpt:
   name: Karata
   orthographies:
@@ -2776,6 +2794,7 @@ kpv:
     script: Cyrillic
   speakers: 160000
   speakers_date: 2010
+  todo_status: weak
 kpy:
   name: Koryak
   note: sources partially disagree. Wikipedia notes қ ң instead of ӄ ӈ.
@@ -3275,10 +3294,10 @@ mlg:
   name: Malagasy
   orthographies:
   - autonym: Malagasy
-    base: a b d e f g h i j k l m n o p r s t v y z à â è é ê ë ì î ï n̈ ô
+    base: a b d e f g h i j k l m n o p r s t v y z à â è é ê ë ì î ï ñ ô
     script: Latin
   - autonym: Malagasy
-    base: a b d e f g h i j k l m n o p r s t v y z à â è é ê ë ì î ï ñ ô
+    base: a b d e f g h i j k l m n o p r s t v y z à â è é ê ë ì î ï n̈ ô
     script: Latin
   source:
   - Omniglot
@@ -3375,7 +3394,6 @@ mri:
   - Omniglot
   - Wikipedia
   - CLDR
-  speakers: unknown
   todo_status: strong
 mrj:
   name: Western Mari
@@ -3767,16 +3785,41 @@ non:
   todo_status: weak
 nor:
   autonym: Norsk
+  orthographies:
+  - autonym: Norsk
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á à ä å æ é è ê ò ó
+      ô ö ø ü
+    script: Latin
   includes:
   - nno
   - nob
   name: Norwegian
+  source:
+  - Omniglot
+  - Wikipedia
+  - CLDR
+  speakers: 4320000
+  speakers_date: 2012
+  todo_status: strong
+  preferred_as_individual: true
+nno:
+  name: Norwegian Nynorsk
   orthographies:
-  - autonym: Norwegian Nynorsk
+  - autonym: Nynorsk
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z á à ä å æ é è ê ò ó
       ô ö ø ü
     script: Latin
-  - autonym: Norwegian Bokmål
+  source:
+  - Omniglot
+  - Wikipedia
+  - CLDR
+  speakers: 4320000
+  speakers_date: 2012
+  todo_status: strong
+nob:
+  name: Norwegian Bokmål
+  orthographies:
+  - autonym: Bokmål
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z á à ä å æ é è ê ò ó
       ô ö ø ü
     script: Latin
@@ -3880,7 +3923,7 @@ old:
     script: Latin
   source:
   - CLDR
-  todo_status: weak
+  todo_status: todo
 orm:
   name: Oromo
   includes:
@@ -4162,7 +4205,7 @@ rof:
     script: Latin
   source:
   - CLDR
-  todo_status: weak
+  todo_status: todo
 roh:
   name: Romansh
   orthographies:
@@ -4296,7 +4339,7 @@ rwk:
     script: Latin
   source:
   - CLDR
-  todo_status: weak
+  todo_status: todo
 sag:
   name: Sango
   orthographies:
@@ -5186,12 +5229,14 @@ uig:
   - autonym: Уйғур
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш ю я ғ җ қ ң ү һ ә ө
     script: Cyrillic
+    status: secondary
   - autonym: ئۇيغۇرچە
     base: ئ ا ب ت ج خ د ر ز س ش غ ف ق ك ل م ن و ي پ چ ژ ڭ گ ھ ۆ ۇ ۈ ۋ ې ە
     script: Arabic
   - autonym: Uighur
     base: a b c d e f g h h i j k l m n o p q r s t u w x y z ë ö ü
     script: Latin
+    status: secondary
   source:
   - Omniglot
   - Wikipedia
@@ -5282,7 +5327,7 @@ uzn:
     status: secondary
   - autonym: Ӯзбекча
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӯ ғ қ ҳ
-    note: Alternative 2
+    note: Alternative 3
     script: Cyrillic
     status: secondary
   source:
@@ -5373,7 +5418,7 @@ vun:
     script: Latin
   source:
   - CLDR
-  todo_status: weak
+  todo_status: todo
 wae:
   name: Walser
   orthographies:
@@ -5394,9 +5439,6 @@ war:
     writers may use differing orthographic styles. In general, it has become common
     to write the language following the current orthographic conventions of Filipino.
   orthographies:
-  - autonym: Waray-Waray
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ñ
-    script: Latin
   - autonym: Waray-Waray
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ñ
     note: Filipino orthography
