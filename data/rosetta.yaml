@@ -2546,8 +2546,8 @@ ilo:
   status: living
   todo_status: strong
 ina:
-  name: Interlingua (International Auxiliary Language Association)
-  note: Constructed language, not Interlingue.
+  name: Interlingua
+  note: Do not confuse with Interlingue.
   orthographies:
   - autonym: Interlingua
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
@@ -5755,15 +5755,15 @@ uzn:
 uzs:
   name: Southern Uzbek
   orthographies:
-  - autonym: ﯣزبېک‎
-    inherit: pes
+  - autonym: وزبیکی
+    base: ء ئ ا ب ت ج ح خ د ر ز س ش غ ف ق ك ل م ن ه و ى ي پ چ ژ ڭ گ ھ ۇ ۋ ې ک
     script: Arabic
   source:
   - Wikipedia
   speakers: 4200000
   speakers_date: 2017
   status: living
-  todo_status: weak
+  todo_status: todo
 vec:
   name: Venetian
   orthographies:
