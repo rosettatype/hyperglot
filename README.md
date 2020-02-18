@@ -68,7 +68,7 @@ fas:
   source: [Wikipedia]
 ```
 
-## The fontlang command-line tool (0.1.5)
+## The fontlang command-line tool
 
 A simple CLI tool is provided to output language support data for a passed in font file.
 

@@ -2,7 +2,7 @@
 
 @Johannes
 
-- [ ] set status based on ISO (extinct, historical, …)
+- [+] set status based on ISO (extinct, historical, …)
 - [+] for orthography, do not inherit autonym, but inherit `numerals` if they exist.
 - [+] add support for `preferred_as_individual: true` (default is false)
 - [+] simplify validation:

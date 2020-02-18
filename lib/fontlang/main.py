@@ -300,12 +300,15 @@ def cli(fonts, support, autonyms, users, output, mode, include_historical,
         write_yaml(output, data)
 
 
-def save_sorted():
+def save_sorted(Langs=None):
     """
-    Helper script to re-save the rosetta.yaml sorted alphabetically
+    Helper script to re-save the rosetta.yaml sorted alphabetically, 
+    alternatively from the passed in Langs object (which can have been 
+    modified)
     """
     logging.getLogger().setLevel(logging.WARNING)
-    Langs = Languages(inherit=False)
+    if Langs is None:
+        Langs = Languages(inherit=False)
 
     # Sort by keys
     alphabetic = dict(OrderedDict(sorted(Langs.items())))
