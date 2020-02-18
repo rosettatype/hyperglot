@@ -135,7 +135,7 @@ acm:
   status: living
   todo_status: weak
 acq:
-  name: Ta'izzi-Adeni Arabic
+  name: Taʽizzi-Adeni Arabic
   note: Initial, medial, and final forms of the letters and some ligatures are also
     required.
   orthographies:
@@ -4533,8 +4533,9 @@ qxq:
   todo_status: weak
 rar:
   name: Rarotongan
+  preferred_name: Cook Islands Māori
   orthographies:
-  - autonym: Māori,
+  - autonym: Māori Kūki 'Āirani
     auxiliary: á é í ó ú
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ī ō ū
     script: Latin
