@@ -96,6 +96,10 @@ def check_is_valid_glyph_string(glyphs):
     if type(glyphs) is not str or len(glyphs) < 1:
         return False
 
+    if re.findall(r"\n", glyphs):
+        logging.error("Glyph sequences should not contain line breaks")
+        return False
+
     if re.findall(r" {2,}", glyphs):
         logging.error("More than single space in '%s'" % glyphs)
         return False

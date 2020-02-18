@@ -613,10 +613,6 @@ aym:
   source:
   - Omniglot
   - Wikipedia
-  todo_status: strong
-  source:
-  - Omniglot
-  - Wikipedia
   speakers: 1677100
   speakers_date: 2007-2011
   todo_status: strong
@@ -2705,7 +2701,6 @@ kkj:
   todo_status: weak
 kln:
   name: Kalenjin
-  note: A cluster of Nandi–Markweta dialects/languages.
   source:
   - Wikipedia
   - CLDR
@@ -2725,7 +2720,7 @@ kln:
     base: a b c d e g h i j k l m n o p r s t u w y
     script: Latin
   speakers: 8561574
-  note: 18% of the population of Kenya.
+  note: A cluster of Nandi–Markweta dialects/languages. 18% of the population of Kenya.
   todo_status: weak
   preferred_as_individual: true
 kng:
@@ -2772,14 +2767,13 @@ kon:
   - Wikipedia
   speakers: 6500000
   speakers_date: 1982-2012
-  status: weak
+  todo_status: weak
   preferred_as_individual: true
 kpt:
   name: Karata
   orthographies:
   - autonym: Кӏкӏирлӏи мацӏцӏи
-    base: а б в г д е ж з и й к л м н о п р с т у х ц ч ш щ ъ ы ь э ю я ӏ ã ẽ и̃ õ
-      у̃
+    base: а б в г д е ж з и й к л м н о п р с т у х ц ч ш щ ъ ы ь э ю я ӏ ã ẽ и̃ õ у̃
     script: Cyrillic
   source:
   - Omniglot
@@ -3040,8 +3034,7 @@ lij:
   name: Ligurian
   orthographies:
   - autonym: Ligure
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ä æ è é ê ë ì
-      í î ï ò ó ô ö ù ú
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ä æ è é ê ë ì í î ï ò ó ô ö ù ú
     script: Latin
   source:
   - Omniglot
@@ -3053,8 +3046,7 @@ lin:
   orthographies:
   - autonym: Lingala
     auxiliary: j q x
-    base: a b c d e f g h i k l m n o p r s t u v w y z á â é ê í î ó ô ú ě ǎ ǐ ǒ
-      ɔ ɛ ́ ̂ ̌
+    base: a b c d e f g h i k l m n o p r s t u v w y z á â é ê í î ó ô ú ě ǎ ǐ ǒ ɔ ɛ ́ ̂ ̌
     script: Latin
   source:
   - Omniglot
@@ -3104,8 +3096,7 @@ lmo:
   name: Lombard
   orthographies:
   - autonym: Lombard
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á è é ì í ò ó ô ø
-      ù ü
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á è é ì í ò ó ô ø ù ü
     script: Latin
   source:
   - Omniglot
@@ -3116,8 +3107,7 @@ ltz:
   name: Luxembourgish
   orthographies:
   - autonym: Lëtzebuergesch
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ß â ä è é ê ë î ô ö
-      û ü
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ß â ä è é ê ë î ô ö û ü
     script: Latin
   source:
   - Omniglot
@@ -3141,8 +3131,7 @@ lub:
   orthographies:
   - autonym: Kiluba
     auxiliary: g r x
-    base: a b c d e f g h i j k l m n o p q s t u v w y z à á è é ì í ò ó ù ú ɔ ɛ
-      ̀ ́
+    base: a b c d e f g h i j k l m n o p q s t u v w y z à á è é ì í ò ó ù ú ɔ ɛ ̀ ́
     script: Latin
   source:
   - CLDR
@@ -4036,7 +4025,6 @@ pes:
   note: Initial, medial, and final forms of the letters and some ligatures are also required.
 pga:
   name: Sudanese Creole Arabic
-  note: Also called Juba Arabic
   orthographies:
   - autonym: جوبا
     inherit: apd
@@ -4046,7 +4034,7 @@ pga:
   source:
   - Wikipedia
   todo_status: weak
-  note: Initial, medial, and final forms of the letters and some ligatures are also required.
+  note: Also called Juba Arabic. Initial, medial, and final forms of the letters and some ligatures are also required.
 plz:
   name: Paluan
   orthographies:
@@ -4718,8 +4706,6 @@ aln:
   - CLDR
   speakers: 3450000
   speakers_date: 2000–2001
-  source:
-  - Wikipedia
   todo_status: weak
 als:
   name: Tosk Albanian
@@ -5886,7 +5872,5 @@ bal:
   - Wikipedia
   speakers: 7600000
   speakers_date: 2007
-  source:
-  - Wikipedia
   todo_status: weak
   preferred_as_individual: true
