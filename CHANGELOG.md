@@ -1,5 +1,10 @@
 # A changelog for the lib/fontlang CLI tool
 
+## 0.1.7 & 0.1.8 (18.02.2020)
+- FIX: Made sure `preferred_as_individual` in fact also removes the language that is being inheritted from the matches
+- TWEAK: Update `fontlang-save` and sorting to not include inheritted attributes
+- TWEAK: Updated and fixed validation for `status` attributes
+
 ## 0.1.6 (07.02.2020)
 - FEATURE: Implemented support for the `preferred_as_individual` attribute on macro languages
 - FEATURE: Added `--strict` flag to display language names and macrolanguages as per ISO data
