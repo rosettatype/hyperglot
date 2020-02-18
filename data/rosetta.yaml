@@ -135,7 +135,7 @@ acm:
   status: living
   todo_status: weak
 acq:
-  name: Ta'izzi-Adeni Arabic
+  name: Taʽizzi-Adeni Arabic
   note: Initial, medial, and final forms of the letters and some ligatures are also
     required.
   orthographies:
@@ -670,7 +670,7 @@ ayc:
   name: Southern Aymara
   orthographies:
   - autonym: Aymar
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ï ñ ü ’
+    inherit: aym
     script: Latin
   source:
   - Omniglot
@@ -755,7 +755,7 @@ ayr:
   name: Central Aymara
   orthographies:
   - autonym: Aymar
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ï ñ ü ’
+    inherit: aym
     script: Latin
   source:
   - Omniglot
@@ -2546,8 +2546,8 @@ ilo:
   status: living
   todo_status: strong
 ina:
-  name: Interlingua (International Auxiliary Language Association)
-  note: Constructed language, not Interlingue.
+  name: Interlingua
+  note: Do not confuse with Interlingue.
   orthographies:
   - autonym: Interlingua
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
@@ -3953,7 +3953,7 @@ naq:
 nbl:
   name: South Ndebele
   orthographies:
-  - autonym: IsiNdebele
+  - autonym: isiNdebele
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
     script: Latin
   source:
@@ -3965,7 +3965,7 @@ nbl:
 nde:
   name: North Ndebele
   orthographies:
-  - autonym: IsiNdebele
+  - autonym: isiNdebele
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
     script: Latin
   source:
@@ -4533,8 +4533,9 @@ qxq:
   todo_status: weak
 rar:
   name: Rarotongan
+  preferred_name: Cook Islands Māori
   orthographies:
-  - autonym: Māori,
+  - autonym: Māori Kūki 'Āirani
     auxiliary: á é í ó ú
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ī ō ū
     script: Latin
@@ -5755,15 +5756,15 @@ uzn:
 uzs:
   name: Southern Uzbek
   orthographies:
-  - autonym: ﯣزبېک‎
-    inherit: pes
+  - autonym: وزبیکی
+    base: ء ئ ا ب ت ج ح خ د ر ز س ش غ ف ق ك ل م ن ه و ى ي پ چ ژ ڭ گ ھ ۇ ۋ ې ک
     script: Arabic
   source:
   - Wikipedia
   speakers: 4200000
   speakers_date: 2017
   status: living
-  todo_status: weak
+  todo_status: todo
 vec:
   name: Venetian
   orthographies:
