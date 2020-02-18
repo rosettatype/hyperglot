@@ -305,7 +305,7 @@ def save_sorted():
     Helper script to re-save the rosetta.yaml sorted alphabetically
     """
     logging.getLogger().setLevel(logging.WARNING)
-    Langs = Languages()
+    Langs = Languages(inherit=False)
 
     # Sort by keys
     alphabetic = dict(OrderedDict(sorted(Langs.items())))

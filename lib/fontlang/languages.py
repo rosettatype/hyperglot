@@ -177,13 +177,14 @@ class Languages(dict):
     options for convenience
     """
 
-    def __init__(self, strict=False):
+    def __init__(self, strict=False, inherit=True):
         with open(DB) as f:
             data = yaml.load(f, Loader=yaml.Loader)
             self.update(data)
 
-            self.inherit_orthographies_from_macrolanguage()
-            self.inherit_orthographies()
+            if inherit:
+                self.inherit_orthographies_from_macrolanguage()
+                self.inherit_orthographies()
 
             if not strict:
                 self.lax_macrolanguages()

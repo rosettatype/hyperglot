@@ -1,3 +1,14 @@
+aae:
+  name: Arbëreshë Albanian
+  orthographies:
+  - autonym: Arbërisht
+    inherit: aln
+    script: Latin
+  source:
+  - Wikipedia
+  speakers: 100000
+  speakers_date: 2007
+  todo_status: weak
 aaq:
   name: Eastern Abnaki
   orthographies:
@@ -29,8 +40,8 @@ aat:
       ú ü ý
     script: Latin
   - autonym: Αρbε̰ρίσ̈τ
-    base: α β b ϳ γ δ d ε ζ θ ι κ λ μ ν ξ ο π ρ σ ς τ υ φ χ
     auxiliary: η ψ ω ά έ ή ί ό ύ ώ ϊ ϋ ΐ ΰ
+    base: α β b ϳ γ δ d ε ζ θ ι κ λ μ ν ξ ο π ρ σ ς τ υ φ χ
     combinations: '{γ̇}{ε̱}{ν̇}{σ̇}{σ̈}{χ̇}{ε̰}'
     script: Greek
   source:
@@ -89,67 +100,73 @@ abr:
   todo_status: strong
 abv:
   name: Baharna Arabic
+  note: Initial, medial, and final forms of the letters and some ligatures are also
+    required.
   orthographies:
   - autonym: البحرانية
     inherit: arb
     script: Arabic
-  speakers: 730000
-  speakers_date: 2001-2013
   source:
   - Wikipedia
+  speakers: 730000
+  speakers_date: 2001-2013
   todo_status: weak
-  note: Initial, medial, and final forms of the letters and some ligatures are also required.
 acm:
   name: Mesopotamian Arabic
+  note: Initial, medial, and final forms of the letters and some ligatures are also
+    required.
   orthographies:
   - autonym: العراقية
-    base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ ڤ پ گ ة
     auxiliary: ڛ ڢ ٯ ڧ ک ی ڥ چ گ ڨ ڭ ڠ
+    base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ ڤ پ گ
+      ة
     numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ ١٠
     script: Arabic
   speakers: 15700000
   speakers_date: 2014-2016
   todo_status: weak
-  note: Initial, medial, and final forms of the letters and some ligatures are also required.
 acq:
   name: Ta'izzi-Adeni Arabic
-  preferred_name: Ta’izzi-Adeni Arabic
+  note: Initial, medial, and final forms of the letters and some ligatures are also
+    required.
   orthographies:
   - autonym: يمني
     inherit: arb
     script: Arabic
+  preferred_name: Ta’izzi-Adeni Arabic
+  source:
+  - Wikipedia
   speakers: 10480000
   speakers_date: 2015-2016
-  source:
-  - Wikipedia
   todo_status: weak
-  note: Initial, medial, and final forms of the letters and some ligatures are also required.
 acw:
   name: Hijazi Arabic
+  note: Initial, medial, and final forms of the letters and some ligatures are also
+    required.
   orthographies:
   - autonym: حجازي
-    base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ پ ڤ
     auxiliary: ڛ ڢ ٯ ڧ ک ی ڥ چ گ ڨ ڭ ڠ
+    base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ پ ڤ
     numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ ١٠
     script: Arabic
-  speakers: 145000000
-  speakers_date: 2011
   source:
   - Wikipedia
+  speakers: 145000000
+  speakers_date: 2011
   todo_status: weak
-  note: Initial, medial, and final forms of the letters and some ligatures are also required.
 acx:
   name: Omani Arabic
+  note: Initial, medial, and final forms of the letters and some ligatures are also
+    required.
   orthographies:
   - autonym: عماني
     inherit: arb
     script: Arabic
-  speakers: 1055000
-  speakers_date: 1995-1996
   source:
   - Wikipedia
+  speakers: 1055000
+  speakers_date: 1995-1996
   todo_status: weak
-  note: Initial, medial, and final forms of the letters and some ligatures are also required.
 acz:
   name: Acheron
   orthographies:
@@ -175,30 +192,32 @@ ady:
   todo_status: strong
 aeb:
   name: Tunisian Arabic
+  note: Initial, medial, and final forms of the letters and some ligatures are also
+    required.
   orthographies:
   - autonym: تونسي
-    base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ ڨ ڥ پ
     auxiliary: ڛ ڢ ٯ ڧ ک ی ڤ چ گ ڭ ڠ
+    base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ ڨ ڥ پ
     numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ ١٠
     script: Arabic
-  speakers: 11200000
-  speakers_date: 2014
   source:
   - Wikipedia
+  speakers: 11200000
+  speakers_date: 2014
   todo_status: weak
-  note: Initial, medial, and final forms of the letters and some ligatures are also required.
 aec:
   name: Saidi Arabic
+  note: Initial, medial, and final forms of the letters and some ligatures are also
+    required.
   orthographies:
   - autonym: صعيدى
     inherit: arz
     script: Arabic
-  speakers: 22400000
-  speakers_date: 2016
   source:
   - Wikipedia
+  speakers: 22400000
+  speakers_date: 2016
   todo_status: weak
-  note: Initial, medial, and final forms of the letters and some ligatures are also required.
 aer:
   name: Eastern Arrernte
   note: The number of speakers relates to all Arrernte languages
@@ -216,14 +235,14 @@ afb:
   name: Gulf Arabic
   orthographies:
   - autonym: خليجي
-    base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ ڤ پ گ
     auxiliary: ڛ ڢ ٯ ڧ ک ی ڥ چ گ ڨ ڭ ڠ
+    base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ ڤ پ گ
     numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ ١٠
     script: Arabic
-  speakers: 6800000
-  speakers_date: 2016
   source:
   - Wikipedia
+  speakers: 6800000
+  speakers_date: 2016
   todo_status: weak
 afr:
   name: Afrikaans
@@ -265,35 +284,61 @@ agx:
   todo_status: strong
 aiq:
   name: Aimaq
+  note: Initial, medial, and final forms of the letters and some ligatures are also
+    required.
   orthographies:
   - autonym: ایماقی
     inherit: pes
     script: Arabic
+  source:
+  - Wikipedia
   speakers: 650000
   speakers_date: 1993
-  source:
-  - Wikipedia
   todo_status: weak
-  note: Initial, medial, and final forms of the letters and some ligatures are also required.
 ajp:
   name: South Levantine Arabic
+  note: Initial, medial, and final forms of the letters and some ligatures are also
+    required.
   orthographies:
   - autonym: فلسطيني
-    base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ ڤ پ چ
     auxiliary: ڛ ڢ ٯ ڧ ک ی ڥ گ ڨ ڭ ڠ
+    base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ ڤ پ چ
     numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ ١٠
     script: Arabic
-  speakers: 5100000
-  speakers_date: 2014–2016
   source:
   - Wikipedia
+  speakers: 5100000
+  speakers_date: 2014–2016
   todo_status: weak
-  note: Initial, medial, and final forms of the letters and some ligatures are also required.
 aka:
   includes:
   - fat
   - twi
   name: Akan
+aln:
+  name: Gheg Albanian
+  orthographies:
+  - autonym: Gegnisht
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ç ë
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  - CLDR
+  speakers: 3450000
+  speakers_date: 2000–2001
+  todo_status: weak
+als:
+  name: Tosk Albanian
+  orthographies:
+  - autonym: Shqip
+    inherit: aln
+    script: Latin
+  source:
+  - Wikipedia
+  speakers: 1800000
+  speakers_date: 2011
+  todo_status: weak
 alt:
   name: Southern Altai
   orthographies:
@@ -341,30 +386,32 @@ aoz:
   todo_status: weak
 apc:
   name: North Levantine Arabic
+  note: Initial, medial, and final forms of the letters and some ligatures are also
+    required.
   orthographies:
   - autonym: لبناني
     inherit: arb
     script: Arabic
+  source:
+  - Wikipedia
   speakers: 24200000
   speakers_date: 2014-2015
-  source:
-  - Wikipedia
   todo_status: weak
-  note: Initial, medial, and final forms of the letters and some ligatures are also required.
 apd:
   name: Sudanese Arabic
+  note: Initial, medial, and final forms of the letters and some ligatures are also
+    required.
   orthographies:
   - autonym: سوداني
-    base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ ی 
     auxiliary: ڛ ڢ ٯ ڧ ک ڤ ڥ پ چ گ ڨ ڭ ڠ
+    base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ ی
     numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ ١٠
     script: Arabic
-  speakers: 31900000
-  speakers_date: 2015
   source:
   - Wikipedia
+  speakers: 31900000
+  speakers_date: 2015
   todo_status: weak
-  note: Initial, medial, and final forms of the letters and some ligatures are also required.
 aqc:
   name: Archi
   note: Mathematically, there are 1,502,839 possible forms that can be derived from
@@ -381,35 +428,35 @@ aqc:
   todo_status: strong
 ara:
   includes:
-  - aao  # Algerian Saharan Arabic
-  - abh  # Tajiki Arabic
-  - abv  # Baharna Arabic
-  - acm  # Mesopotamian Arabic
-  - acq  # Ta'izzi-Adeni Arabic
-  - acw  # Hijazi Arabic
-  - acx  # Omani Arabic
-  - acy  # Cypriot Arabic
-  - adf  # Dhofari Arabic
-  - aeb  # Tunisian Arabic
-  - aec  # Saidi Arabic
-  - afb  # Gulf Arabic
-  - ajp  # South Levantine Arabic
-  - apc  # North Levantine Arabic
-  - apd  # Sudanese Arabic
-  - arb  # Standard Arabic
-  - arq  # Algerian Arabic
-  - ars  # Najdi Arabic
-  - ary  # Moroccan Arabic
-  - arz  # Egyptian Arabic
-  - auz  # Uzbeki Arabic
-  - avl  # Eastern Egyptian Bedawi Arabic
-  - ayh  # Hadrami Arabic
-  - ayl  # Libyan Arabic
-  - ayn  # Sanaani Arabic
-  - ayp  # North Mesopotamian Arabic
-  - pga  # Sudanese Creole Arabic
-  - shu  # Chadian Arabic
-  - ssh  # Shihhi Arabic
+  - aao
+  - abh
+  - abv
+  - acm
+  - acq
+  - acw
+  - acx
+  - acy
+  - adf
+  - aeb
+  - aec
+  - afb
+  - ajp
+  - apc
+  - apd
+  - arb
+  - arq
+  - ars
+  - ary
+  - arz
+  - auz
+  - avl
+  - ayh
+  - ayl
+  - ayn
+  - ayp
+  - pga
+  - shu
+  - ssh
   name: Arabic
   source:
   - Wikipedia
@@ -420,13 +467,13 @@ arb:
   note: The speakers are L2 only (it’s second langauge only).
   orthographies:
   - autonym: العربية
-    base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ ة
     auxiliary: ڛ ڢ ٯ ڧ ک ی ڤ ڥ پ چ گ ڨ ڭ ڠ
+    base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ ة
     numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ ١٠
     script: Arabic
-  speakers: 270000000
   source:
   - Wikipedia
+  speakers: 270000000
   todo_status: weak
 arg:
   name: Aragonese
@@ -442,58 +489,64 @@ arg:
   todo_status: strong
 arq:
   name: Algerian Arabic
+  note: Initial, medial, and final forms of the letters and some ligatures are also
+    required.
   orthographies:
   - autonym: الدارجة
     inherit: aeb
     script: Arabic
+  source:
+  - Wikipedia
   speakers: 27000000
   speakers_date: 2012
-  source:
-  - Wikipedia
   todo_status: weak
-  note: Initial, medial, and final forms of the letters and some ligatures are also required.
 ars:
   name: Najdi Arabic
+  note: Initial, medial, and final forms of the letters and some ligatures are also
+    required.
   orthographies:
   - autonym: النجدية
-    base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ پ ڤ ة
     auxiliary: ڛ ڢ ٯ ڧ ک ی ڥ چ گ ڨ ڭ ڠ
+    base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ پ ڤ ة
     numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ ١٠
     script: Arabic
+  source:
+  - Wikipedia
   speakers: 4050000
   speakers_date: 2011-2015
-  source:
-  - Wikipedia
   todo_status: weak
-  note: Initial, medial, and final forms of the letters and some ligatures are also required.
 ary:
   name: Moroccan Arabic
+  note: Initial, medial, and final forms of the letters and some ligatures are also
+    required.
   orthographies:
   - autonym: الدارجة
-    base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ ڭ گ ڥ پ ة
     auxiliary: ڛ ڢ ٯ ڧ ک ی ڤ چ ڨ ڠ
+    base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ ڭ گ ڥ
+      پ ة
     numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ ١٠
     script: Arabic
+  source:
+  - Wikipedia
   speakers: 30551000
   speakers_date: 2014
-  source:
-  - Wikipedia
   todo_status: weak
-  note: Initial, medial, and final forms of the letters and some ligatures are also required.
 arz:
   name: Egyptian Arabic
+  note: Initial, medial, and final forms of the letters and some ligatures are also
+    required.
   orthographies:
   - autonym: مصرى
-    base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ ڤ پ ی چ ة ى
     auxiliary: ڛ ڢ ٯ ڧ ک ڥ گ ڨ ڭ ڠ
+    base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ ڤ پ ی
+      چ ة ى
     numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ ١٠
     script: Arabic
-  speakers: 64422000
-  speakers_date: 2016
   source:
   - Wikipedia
+  speakers: 64422000
+  speakers_date: 2016
   todo_status: weak
-  note: Initial, medial, and final forms of the letters and some ligatures are also required.
 asa:
   name: Asu (Tanzania)
   orthographies:
@@ -556,16 +609,17 @@ ava:
   todo_status: strong
 avl:
   name: Eastern Egyptian Bedawi Arabic
+  note: Initial, medial, and final forms of the letters and some ligatures are also
+    required.
   orthographies:
   - autonym: بدوي
     inherit: ajp
     script: Arabic
-  speakers: 2240000
-  speakers_date: 2015-2016
   source:
   - Wikipedia
+  speakers: 2240000
+  speakers_date: 2015-2016
   todo_status: weak
-  note: Initial, medial, and final forms of the letters and some ligatures are also required.
 ayc:
   name: Southern Aymara
   orthographies:
@@ -578,28 +632,30 @@ ayc:
   todo_status: strong
 ayh:
   name: Hadrami Arabic
+  note: Initial, medial, and final forms of the letters and some ligatures are also
+    required.
   orthographies:
   - autonym: حضرمي
     inherit: arb
     script: Arabic
-  speakers: 4560000
-  speakers_date: 2015
   source:
   - Wikipedia
+  speakers: 4560000
+  speakers_date: 2015
   todo_status: weak
-  note: Initial, medial, and final forms of the letters and some ligatures are also required.
 ayl:
   name: Libyan Arabic
+  note: Initial, medial, and final forms of the letters and some ligatures are also
+    required.
   orthographies:
   - autonym: ليبي
     inherit: arb
     script: Arabic
-  speakers: 4325000
-  speakers_date: 1998-2006
   source:
   - Wikipedia
+  speakers: 4325000
+  speakers_date: 1998-2006
   todo_status: weak
-  note: Initial, medial, and final forms of the letters and some ligatures are also required.
 aym:
   autonym: Aymar
   includes:
@@ -610,37 +666,39 @@ aym:
   - autonym: Aymar
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ï ñ ü ’
     script: Latin
+  preferred_as_individual: true
   source:
   - Omniglot
   - Wikipedia
   speakers: 1677100
   speakers_date: 2007-2011
   todo_status: strong
-  preferred_as_individual: true
 ayn:
   name: Sanaani Arabic
+  note: Initial, medial, and final forms of the letters and some ligatures are also
+    required.
   orthographies:
   - autonym: يمني‎
     inherit: arb
     script: Arabic
+  source:
+  - Wikipedia
   speakers: 11100000
   speakers_date: 2015
-  source:
-  - Wikipedia
   todo_status: weak
-  note: Initial, medial, and final forms of the letters and some ligatures are also required.
 ayp:
   name: North Mesopotamian Arabic
+  note: Initial, medial, and final forms of the letters and some ligatures are also
+    required.
   orthographies:
-  - autonym: مصلاوي‎ 
+  - autonym: مصلاوي‎
     inherit: arb
     script: Arabic
-  speakers: 8700000
-  speakers_date: 1992-2014
   source:
   - Wikipedia
+  speakers: 8700000
+  speakers_date: 1992-2014
   todo_status: weak
-  note: Initial, medial, and final forms of the letters and some ligatures are also required.
 ayr:
   name: Central Aymara
   orthographies:
@@ -651,37 +709,12 @@ ayr:
   - Omniglot
   - Wikipedia
   todo_status: strong
-aze:
-  name: Azerbaijani
-  speakers: 23000000
-  speakers_date: 2018
-  includes:
-  - azj
-  - azb
-  - slq
-  - qxq
-azj:
-  name: North Azerbaijani
-  orthographies:
-  - autonym: Азәрбајҹан
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ј ғ ҝ ү
-      ҹ һ ә ө ’
-    script: Cyrillic
-    status: local
-    note: Official in Dagestan (Russia).
-  - base: a b c d e f g h i j k l m n o p q r s t u v x y z ç ö ü ğ İ ı ş ə ‘
-    script: Latin
-  source:
-  - Omniglot
-  - Wikipedia
-  speakers: 23000000
-  speakers_date: 2018
-  todo_status: strong
 azb:
   name: South Azerbaijani
   orthographies:
   - autonym: آذربایجانجا
-    base: ؤ ئ ا خ ع ن پ چ ژ ک گ ۆ ۇ ی ە ݣ ﺏ ﺕ ﺙ ﺝ ﺡ ﺩ ﺫ ﺭ ﺯ ﺱ ﺵ ﺹ ﺽ ﻁ ﻅ ﻍ ﻑ ﻕ ﻝ ﻡ ﻥ ﻩ ﻭ آ ج ب ذ ر
+    base: ؤ ئ ا خ ع ن پ چ ژ ک گ ۆ ۇ ی ە ݣ ﺏ ﺕ ﺙ ﺝ ﺡ ﺩ ﺫ ﺭ ﺯ ﺱ ﺵ ﺹ ﺽ ﻁ ﻅ ﻍ ﻑ ﻕ ﻝ ﻡ
+      ﻥ ﻩ ﻭ آ ج ب ذ ر
     combinations: '{یٛ}{وْ}'
     script: Arabic
   - base: a b c d e f g h i j k l m n o p q r s t u v x y z ç ö ü ğ İ ı ş ə
@@ -692,17 +725,32 @@ azb:
   speakers_date: 2016
   status: historical
   todo_status: weak
-qxq:
-  name: Qashqa'i
+aze:
+  includes:
+  - azj
+  - azb
+  - slq
+  - qxq
+  name: Azerbaijani
+  speakers: 23000000
+  speakers_date: 2018
+azj:
+  name: North Azerbaijani
   orthographies:
-  - autonym: قاشقای ديلى
-    inherit: pes
-    script: Arabic
+  - autonym: Азәрбајҹан
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ј ғ ҝ ү
+      ҹ һ ә ө ’
+    note: Official in Dagestan (Russia).
+    script: Cyrillic
+    status: local
+  - base: a b c d e f g h i j k l m n o p q r s t u v x y z ç ö ü ğ İ ı ş ə ‘
+    script: Latin
   source:
+  - Omniglot
   - Wikipedia
-  speakers: 949000
-  speakers_date: 2015
-  todo_status: weak
+  speakers: 23000000
+  speakers_date: 2018
+  todo_status: strong
 bak:
   name: Bashkir
   orthographies:
@@ -718,6 +766,24 @@ bak:
   - Omniglot
   speakers: 1200000
   speakers_date: 2010
+  todo_status: weak
+bal:
+  includes:
+  - bgp
+  - bgn
+  - bcc
+  name: Baluchi
+  orthographies:
+  - autonym: بلۏچی
+    base: ء آ ا ب ت ج د ر ز س ش ل م ن ه و ٹ پ چ ڈ ژ ک گ ی ۏ ے ݔ ࢣ َ ُ ِ
+    numerals: ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹
+    script: Arabic
+  preferred_as_individual: true
+  preferred_name: Balochi
+  source:
+  - Wikipedia
+  speakers: 7600000
+  speakers_date: 2007
   todo_status: weak
 bam:
   name: Bambara
@@ -807,7 +873,6 @@ bhh:
   speakers_date: 1995
   todo_status: weak
 bik:
-  name: Bikol
   includes:
   - bcl
   - bhk
@@ -818,18 +883,19 @@ bik:
   - lbl
   - rbl
   - ubl
+  name: Bikol
   orthographies:
   - autonym: Pandan Bikol
     auxiliary: c e f j q v x z
     base: a b d g h i k l m n o p r s t u w y
     script: Latin
+  preferred_as_individual: true
   source:
   - Omniglot
   - Wikipedia
   speakers: 78000
   speakers_date: 2000
   todo_status: strong
-  preferred_as_individual: true
 bis:
   name: Bislama
   orthographies:
@@ -883,8 +949,8 @@ buc:
   name: Bushi
   orthographies:
   - autonym: Shibushi
-    base: a b d e f g h i k l m n o p r s t u v w x y z ɓ ɗ n̈
     auxiliary: c j q
+    base: a b d e f g h i k l m n o p r s t u v w x y z ɓ ɗ n̈
     script: Latin
   source:
   - Wikipedia
@@ -1053,6 +1119,7 @@ che:
   todo_status: weak
 chu:
   name: Church Slavic
+  note: Need to add combinations with accents.
   orthographies:
   - autonym: Церковнослове́нскїй
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь ю є ѕ џ ѥ ѩ ѭ
@@ -1066,7 +1133,6 @@ chu:
   speakers: 0
   status: historical
   todo_status: strong
-  note: Need to add combinations with accents.
 chv:
   name: Chuvash
   orthographies:
@@ -1129,6 +1195,23 @@ cjs:
   - Omniglot
   speakers: 2800
   speakers_date: 2010
+  todo_status: weak
+ckb:
+  name: Central Kurdish
+  orthographies:
+  - autonym: Soranî
+    auxiliary: ḧ ẍ '
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ç ê î ş û ł ň ř ü
+    note: Kurdish Latin alphabet
+    script: Latin
+  - autonym: سۆرانی
+    base: ا ب ت ج ح خ د ر ز س ش ع غ ف ق ل م ن و پ چ ڕ ژ ڤ ک گ ڵ ھ ۆ ی ێ ە
+    note: Central Kurdish alphabet
+    script: Arabic
+  source:
+  - Wikipedia
+  speakers: 7250000
+  speakers_date: 2014
   todo_status: weak
 ckt:
   name: Chukot
@@ -1297,16 +1380,17 @@ ddo:
   todo_status: weak
 deh:
   name: Dehwari
+  note: Initial, medial, and final forms of the letters and some ligatures are also
+    required.
   orthographies:
   - autonym: دهواری
     inherit: pes
     script: Arabic
-  speakers: 14600
-  speakers_date: 2004
   source:
   - Wikipedia
+  speakers: 14600
+  speakers_date: 2004
   todo_status: weak
-  note: Initial, medial, and final forms of the letters and some ligatures are also required.
 del:
   includes:
   - umu
@@ -1386,6 +1470,11 @@ dng:
   - Omniglot
   speakers: 110000
   todo_status: weak
+doi:
+  includes:
+  - dgo
+  - xnr
+  name: Dogri (macrolanguage)
 dsb:
   name: Lower Sorbian
   orthographies:
@@ -1437,6 +1526,19 @@ ebu:
   speakers: 320000
   speakers_date: 2009
   todo_status: weak
+ekk:
+  name: Standard Estonian
+  orthographies:
+  - autonym: Eesti
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä õ ö ü š ž
+    script: Latin
+  source:
+  - Omniglot
+  - CLDR
+  - Alvestrand
+  speakers: 1100000
+  speakers_date: 2012
+  todo_status: done
 ell:
   name: Modern Greek (1453-)
   orthographies:
@@ -1512,34 +1614,10 @@ ess:
   speakers_date: 2010
   todo_status: strong
 est:
-  name: Estonian
   includes:
   - ekk
   - vro
-ekk:
-  name: Standard Estonian
-  orthographies:
-  - autonym: Eesti
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä õ ö ü š ž
-    script: Latin
-  source:
-  - Omniglot
-  - CLDR
-  - Alvestrand
-  speakers: 1100000
-  speakers_date: 2012
-  todo_status: done
-vro:
-  name: Võro
-  orthographies:
-  - autonym: Võro
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä õ ö ü š ž '
-    script: Latin
-  speakers: 87000
-  speakers_date: 2011
-  source:
-  - Wikipedia
-  todo_status: strong
+  name: Estonian
 esu:
   name: Central Yupik
   orthographies:
@@ -1632,30 +1710,10 @@ fao:
   speakers: 72000
   speakers_date: 2007
   todo_status: strong
-doi:
-  includes:
-  - dgo  # Dogri (individual language)
-  - xnr  # Kangri
-  name: Dogri (macrolanguage)
-kok:
-  includes:
-  - gom  # Goan Konkani
-  - knn  # Konkani (individual language)
-  name: Konkani (macrolanguage)
-nep:
-  includes:
-  - dty  # Dotyali
-  - npi  # Nepali (individual language)
-  name: Nepali (macrolanguage)
-ori:
-  includes:
-  - ory  # Odia
-  - spv  # Sambalpuri
-  name: Oriya (macrolanguage)
 fas:
   includes:
-  - pes  # Iranian Persian
-  - prs  # Dari
+  - pes
+  - prs
   name: Persian
   source:
   - Wikipedia
@@ -1892,6 +1950,32 @@ gag:
   speakers: 140000
   speakers_date: 2009
   todo_status: weak
+gax:
+  name: Borana-Arsi-Guji Oromo
+  orthographies:
+  - autonym: Borana
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z '
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  - CLDR
+  - Alvestrand
+  speakers: 3900000
+  speakers_date: 2000-2009
+  todo_status: strong
+gaz:
+  name: West Central Oromo
+  note: Speakers count is an estimate based on total for Oromo macrolanguage.
+  orthographies:
+  - autonym: Afaan Oromoo
+    inherit: gax
+    script: Latin
+  source:
+  - Wikipedia
+  speakers: 26000000
+  speakers_date: 2015
+  todo_status: strong
 gcf:
   name: Guadeloupean Creole French
   orthographies:
@@ -1986,11 +2070,11 @@ gni:
   todo_status: weak
 gqa:
   name: Ga'anda
-  preferred_name: Ga’anda
   orthographies:
   - autonym: Kaandata
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ŋ
     script: Latin
+  preferred_name: Ga’anda
   source:
   - Omniglot
   speakers: 43000
@@ -2052,8 +2136,8 @@ gwi:
   name: Gwichʼin
   orthographies:
   - autonym: Dinju Zhuh K’yuu
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à ą è é ę ì í ò ó ǫ ’
-      ù ú ł
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à ą è é ę ì í ò ó ǫ
+      ’ ù ú ł
     script: Latin
   source:
   - Omniglot
@@ -2063,16 +2147,27 @@ gwi:
   todo_status: strong
 haa:
   name: Han
-  preferred_name: Hän
   orthographies:
   - autonym: Tr’ondëk Hwëch’in
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä à â ǎ ą ë ’
     script: Latin
+  preferred_name: Hän
   source:
   - Omniglot
   - Wikipedia
   speakers: 20
   speakers_date: 1997-2007
+  todo_status: strong
+hae:
+  name: Eastern Oromo
+  orthographies:
+  - autonym: Harar
+    inherit: gax
+    script: Latin
+  source:
+  - Wikipedia
+  speakers: 4500000
+  speakers_date: 1994
   todo_status: strong
 hat:
   name: Haitian
@@ -2115,16 +2210,17 @@ haw:
   todo_status: weak
 haz:
   name: Hazaragi
+  note: Initial, medial, and final forms of the letters and some ligatures are also
+    required. The number of speakers is an estimate based on the Hazaras population.
   orthographies:
   - autonym: آزرگی
     inherit: pes
     script: Arabic
-  speakers: 8000000
-  speakers_date: 2014
   source:
   - Wikipedia
+  speakers: 8000000
+  speakers_date: 2014
   todo_status: weak
-  note: Initial, medial, and final forms of the letters and some ligatures are also required. The number of speakers is an estimate based on the Hazaras population.
 heb:
   name: Hebrew
   orthographies:
@@ -2280,6 +2376,18 @@ ina:
   - Omniglot
   speakers: 1500
   speakers_date: 2000
+  todo_status: strong
+ind:
+  name: Indonesian
+  orthographies:
+  - autonym: Indonesia
+    inherit: zsm
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  speakers: 43000000
+  speakers_date: 2010
   todo_status: strong
 inh:
   name: Ingush
@@ -2604,6 +2712,18 @@ kgp:
   speakers: 18000
   speakers_date: 1989
   todo_status: strong
+khk:
+  name: Halh Mongolian
+  orthographies:
+  - autonym: Монгол
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ү ө
+    script: Cyrillic
+  source:
+  - Omniglot
+  - Wikipedia
+  speakers: 3600000
+  speakers_date: 2014
+  todo_status: strong
 khq:
   name: Koyra Chiini Songhay
   orthographies:
@@ -2700,10 +2820,6 @@ kkj:
   speakers_date: 1996-2003
   todo_status: weak
 kln:
-  name: Kalenjin
-  source:
-  - Wikipedia
-  - CLDR
   includes:
   - enb
   - eyo
@@ -2714,15 +2830,39 @@ kln:
   - spy
   - tec
   - tuy
+  name: Kalenjin
+  note: A cluster of Nandi–Markweta dialects/languages. 18% of the population of Kenya.
   orthographies:
   - autonym: Markweta
     auxiliary: f q v x z
     base: a b c d e g h i j k l m n o p r s t u w y
     script: Latin
-  speakers: 8561574
-  note: A cluster of Nandi–Markweta dialects/languages. 18% of the population of Kenya.
-  todo_status: weak
   preferred_as_individual: true
+  source:
+  - Wikipedia
+  - CLDR
+  speakers: 8561574
+  todo_status: weak
+kmr:
+  name: Northern Kurdish
+  orthographies:
+  - autonym: Kurmancî
+    auxiliary: ḧ ẍ '
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ç ê î ş û
+    script: Latin
+  - autonym: Kurmancî
+    auxiliary: ḧ ẍ '
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ç ê î ş û ł ň ř ü
+    note: Kurdish Latin alphabet
+    script: Latin
+  - base: а б в г д е ә ж з ж й к л м н о ӧ п р с т у ф х һ ч ш щ ь э ԛ ԝ '
+    note: Used in Russia and Armenia.
+    script: Cyrillic
+  source:
+  - Wikipedia
+  speakers: 15000000
+  speakers_date: 2009
+  todo_status: weak
 kng:
   name: Koongo
   orthographies:
@@ -2744,6 +2884,11 @@ koi:
   speakers: 63000
   speakers_date: 2010
   todo_status: strong
+kok:
+  includes:
+  - gom
+  - knn
+  name: Konkani (macrolanguage)
 kom:
   includes:
   - koi
@@ -2753,9 +2898,6 @@ kom:
   speakers_date: 2010
 kon:
   autonym: Kikongo
-  orthographies:
-  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    script: Latin
   includes:
   - kng
   - ldi
@@ -2763,17 +2905,21 @@ kon:
   - yom
   name: Kongo
   note: Speaker count for all included languages.
+  orthographies:
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    script: Latin
+  preferred_as_individual: true
   source:
   - Wikipedia
   speakers: 6500000
   speakers_date: 1982-2012
   todo_status: weak
-  preferred_as_individual: true
 kpt:
   name: Karata
   orthographies:
   - autonym: Кӏкӏирлӏи мацӏцӏи
-    base: а б в г д е ж з и й к л м н о п р с т у х ц ч ш щ ъ ы ь э ю я ӏ ã ẽ и̃ õ у̃
+    base: а б в г д е ж з и й к л м н о п р с т у х ц ч ш щ ъ ы ь э ю я ӏ ã ẽ и̃ õ
+      у̃
     script: Cyrillic
   source:
   - Omniglot
@@ -2885,59 +3031,11 @@ kum:
   speakers_date: 2010
   todo_status: weak
 kur:
-  name: Kurdish
   includes:
   - ckb
   - kmr
   - sdh
-ckb:
-  name: Central Kurdish
-  orthographies:
-  - autonym: Soranî
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ç ê î ş û ł ň ř ü
-    auxiliary: ḧ ẍ '
-    script: Latin
-    note: Kurdish Latin alphabet
-  - autonym: سۆرانی
-    base: ا ب ت ج ح خ د ر ز س ش ع غ ف ق ل م ن و پ چ ڕ ژ ڤ ک گ ڵ ھ ۆ ی ێ ە 
-    script: Arabic
-    note: Central Kurdish alphabet
-  speakers: 7250000
-  speakers_date: 2014
-  source:
-  - Wikipedia
-  todo_status: weak
-kmr:
-  name: Northern Kurdish
-  orthographies:
-  - autonym: Kurmancî
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ç ê î ş û
-    auxiliary: ḧ ẍ '
-    script: Latin
-  - autonym: Kurmancî
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ç ê î ş û ł ň ř ü
-    auxiliary: ḧ ẍ '
-    script: Latin
-    note: Kurdish Latin alphabet
-  - base: а б в г д е ә ж з ж й к л м н о ӧ п р с т у ф х һ ч ш щ ь э ԛ ԝ ' 
-    script: Cyrillic
-    note: Used in Russia and Armenia.
-  speakers: 15000000
-  speakers_date: 2009
-  source:
-  - Wikipedia
-  todo_status: weak
-sdh:
-  name: Southern Kurdish
-  orthographies:
-  - autonym: کوردی خوارگ
-    inherit: ckb
-    script: Arabic
-  speakers: 3000000
-  speakers_date: 2000
-  source:
-  - Wikipedia
-  todo_status: weak
+  name: Kurdish
 kwy:
   name: San Salvador Kongo
   orthographies:
@@ -2971,34 +3069,10 @@ lat:
   speakers: 0
   todo_status: done
 lav:
-  name: Latvian
   includes:
   - ltg
   - lvs
-ltg:
-  name: Latgalian
-  orthographies:
-  - autonym: Latgalīšu
-    base: a ā b c č d e ē f g ģ h i ī j k ķ l ļ m n ņ o ō p r s š t u ū v y z ž
-    auxiliary: q w x 
-    script: Latin
-  speakers: 150000–200000
-  speakers_date: 2009
-  source:
-  - Wikipedia
-  todo_status: strong
-lvs:
-  name: Standard Latvian
-  orthographies:
-  - autonym: Latviešu
-    base: a ā b c č d e ē f g ģ h i ī j k ķ l ļ m n ņ o p r s š t u ū v z ž
-    auxiliary: q w x y
-    script: Latin
-  source:
-  - Omniglot
-  speakers: 1750000
-  speakers_date: 2015
-  todo_status: weak
+  name: Latvian
 lbe:
   name: Lak
   orthographies:
@@ -3034,7 +3108,8 @@ lij:
   name: Ligurian
   orthographies:
   - autonym: Ligure
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ä æ è é ê ë ì í î ï ò ó ô ö ù ú
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ä æ è é ê ë ì
+      í î ï ò ó ô ö ù ú
     script: Latin
   source:
   - Omniglot
@@ -3046,7 +3121,8 @@ lin:
   orthographies:
   - autonym: Lingala
     auxiliary: j q x
-    base: a b c d e f g h i k l m n o p r s t u v w y z á â é ê í î ó ô ú ě ǎ ǐ ǒ ɔ ɛ ́ ̂ ̌
+    base: a b c d e f g h i k l m n o p r s t u v w y z á â é ê í î ó ô ú ě ǎ ǐ ǒ
+      ɔ ɛ ́ ̂ ̌
     script: Latin
   source:
   - Omniglot
@@ -3096,18 +3172,32 @@ lmo:
   name: Lombard
   orthographies:
   - autonym: Lombard
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á è é ì í ò ó ô ø ù ü
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á è é ì í ò ó ô ø
+      ù ü
     script: Latin
   source:
   - Omniglot
   speakers: 3900000
   speakers_date: 2002
   todo_status: weak
+ltg:
+  name: Latgalian
+  orthographies:
+  - autonym: Latgalīšu
+    auxiliary: q w x
+    base: a ā b c č d e ē f g ģ h i ī j k ķ l ļ m n ņ o ō p r s š t u ū v y z ž
+    script: Latin
+  source:
+  - Wikipedia
+  speakers: 150000–200000
+  speakers_date: 2009
+  todo_status: strong
 ltz:
   name: Luxembourgish
   orthographies:
   - autonym: Lëtzebuergesch
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ß â ä è é ê ë î ô ö û ü
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ß â ä è é ê ë î ô ö
+      û ü
     script: Latin
   source:
   - Omniglot
@@ -3131,7 +3221,8 @@ lub:
   orthographies:
   - autonym: Kiluba
     auxiliary: g r x
-    base: a b c d e f g h i j k l m n o p q s t u v w y z à á è é ì í ò ó ù ú ɔ ɛ ̀ ́
+    base: a b c d e f g h i j k l m n o p q s t u v w y z à á è é ì í ò ó ù ú ɔ ɛ
+      ̀ ́
     script: Latin
   source:
   - CLDR
@@ -3165,6 +3256,18 @@ luo:
   speakers: 4200000
   speakers_date: 2009
   todo_status: strong
+lvs:
+  name: Standard Latvian
+  orthographies:
+  - autonym: Latviešu
+    auxiliary: q w x y
+    base: a ā b c č d e ē f g ģ h i ī j k ķ l ļ m n ņ o p r s š t u ū v z ž
+    script: Latin
+  source:
+  - Omniglot
+  speakers: 1750000
+  speakers_date: 2015
+  todo_status: weak
 mas:
   name: Masai
   orthographies:
@@ -3232,12 +3335,12 @@ mgh:
   todo_status: weak
 mgo:
   name: Meta'
-  preferred_name: Meta’
   orthographies:
   - autonym: Mɨta’
     auxiliary: q x
     base: a b c d e f g h i j k m n o p r s t u w y z à è ì ò ù ŋ ɔ ə ɨ ʼ ̀
     script: Latin
+  preferred_name: Meta’
   source:
   - CLDR
   speakers: 190000
@@ -3335,7 +3438,8 @@ moh:
   name: Mohawk
   orthographies:
   - autonym: Kanien’kéha
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á à é è í ì ó ò ú ù ’
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á à é è í ì ó ò ú ù
+      ’
     script: Latin
   source:
   - Omniglot
@@ -3344,26 +3448,14 @@ moh:
   speakers_date: 2011-2016
   todo_status: strong
 mon:
-  name: Mongolian
   includes:
   - khk
   - mvf
-khk:
-  name: Halh Mongolian
-  orthographies:
-  - autonym: Монгол
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ү ө
-    script: Cyrillic
-  source:
-  - Omniglot
-  - Wikipedia
-  speakers: 3600000
-  speakers_date: 2014
-  todo_status: strong
+  name: Mongolian
 mqm:
   name: South Marquesan
-  note: The number of speakers is estimate, a half of total Marquesan
-    language speakers (8700).
+  note: The number of speakers is estimate, a half of total Marquesan language speakers
+    (8700).
   orthographies:
   - autonym: ʻEo ʻEnata
     inherit: mrq
@@ -3399,8 +3491,8 @@ mrj:
   todo_status: strong
 mrq:
   name: North Marquesan
-  note: The number of speakers is estimate, a half of total Marquesan
-    language speakers (8700).
+  note: The number of speakers is estimate, a half of total Marquesan language speakers
+    (8700).
   orthographies:
   - autonym: ’Eo ’Enana
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ó ú ʻ
@@ -3410,87 +3502,47 @@ mrq:
   speakers: 4350
   speakers_date: 2007
   todo_status: weak
-ind:
-  name: Indonesian
-  orthographies:
-  - autonym: Indonesia
-    inherit: zsm
-    script: Latin
-  source:
-  - Omniglot
-  - Wikipedia
-  speakers: 43000000
-  speakers_date: 2010
-  todo_status: strong
 msa:
-  name: Malay (macrolanguage)
   includes:
-  - bjn  # Banjar
-  - btj  # Bacanese Malay
-  - bve  # Berau Malay
-  - bvu  # Bukit Malay
-  - coa  # Cocos Islands Malay
-  - dup  # Duano
-  - hji  # Haji
-  - ind  # Indonesian
-  - jak  # Jakun
-  - jax  # Jambi Malay
-  - kvb  # Kubu
-  - kvr  # Kerinci
-  - kxd  # Brunei
-  - lce  # Loncong
-  - lcf  # Lubu
-  - liw  # Col
-  - max  # North Moluccan Malay
-  - meo  # Kedah Malay
-  - mfa  # Pattani Malay
-  - mfb  # Bangka
-  - min  # Minangkabau
-  - mqg  # Kota Bangun Kutai Malay
-  - msi  # Sabah Malay
-  - mui  # Musi
-  - orn  # Orang Kanaq
-  - ors  # Orang Seletar
-  - pel  # Pekal
-  - pse  # Central Malay
-  - tmw  # Temuan
-  - urk  # Urak Lawoi'
-  - vkk  # Kaur
-  - vkt  # Tenggarong Kutai Malay
-  - xmm  # Manado Malay
-  - zlm  # Malay (individual language)
-  - zmi  # Negeri Sembilan Malay
-  - zsm  # Standard Malay
+  - bjn
+  - btj
+  - bve
+  - bvu
+  - coa
+  - dup
+  - hji
+  - ind
+  - jak
+  - jax
+  - kvb
+  - kvr
+  - kxd
+  - lce
+  - lcf
+  - liw
+  - max
+  - meo
+  - mfa
+  - mfb
+  - min
+  - mqg
+  - msi
+  - mui
+  - orn
+  - ors
+  - pel
+  - pse
+  - tmw
+  - urk
+  - vkk
+  - vkt
+  - xmm
+  - zlm
+  - zmi
+  - zsm
+  name: Malay (macrolanguage)
   speakers: 200000000–250000000
   speakers_date: 2009
-zlm:
-  name: Malay (individual language)
-  orthographies:
-  - autonym: Melayu
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    script: Latin
-  preferred_name: Malaysian
-  source:
-  - Omniglot
-  speakers: 77000000
-  speakers_date: 2007
-  todo_status: weak
-zsm:
-  name: Standard Malay
-  orthographies:
-  - autonym: Malaysia
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    script: Latin
-  - autonym: مليسيا‎
-    base: ء‎ ا‎ ب‎ ة‎ ت‎ ث‎ ج‎ ح‎ خ‎ د‎ ذ‎ ر‎ ز‎ س‎ ش‎ ص‎ ض‎ ط‎ ظ‎ ع‎ غ‎ ف‎ ق‎ ل‎ م‎ ن‎ ه‎ و‎ ى‎ ي‎ چ‎ ڠ‎ ڤ‎ ک‎ ڽ‎ ۏ‎ ݢ‎
-    numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ ١٠
-    script: Arabic
-    note: Jawi
-  source:
-  - Wikipedia
-  speakers: 32772100
-  speakers_date: 2019
-  todo_status: weak
 mua:
   name: Mundang
   orthographies:
@@ -3650,6 +3702,11 @@ nds:
   - Omniglot
   speakers: 6700000
   todo_status: weak
+nep:
+  includes:
+  - dty
+  - npi
+  name: Nepali (macrolanguage)
 nhn:
   name: Central Nahuatl
   orthographies:
@@ -3748,6 +3805,34 @@ nnh:
   speakers: 250000
   speakers_date: 2000
   todo_status: weak
+nno:
+  name: Norwegian Nynorsk
+  orthographies:
+  - autonym: Nynorsk
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á à ä å æ é è ê ò ó
+      ô ö ø ü
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  - CLDR
+  speakers: 4320000
+  speakers_date: 2012
+  todo_status: strong
+nob:
+  name: Norwegian Bokmål
+  orthographies:
+  - autonym: Bokmål
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á à ä å æ é è ê ò ó
+      ô ö ø ü
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  - CLDR
+  speakers: 4320000
+  speakers_date: 2012
+  todo_status: strong
 nog:
   name: Nogai
   orthographies:
@@ -3774,44 +3859,16 @@ non:
   todo_status: weak
 nor:
   autonym: Norsk
+  includes:
+  - nno
+  - nob
+  name: Norwegian
   orthographies:
   - autonym: Norsk
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z á à ä å æ é è ê ò ó
       ô ö ø ü
     script: Latin
-  includes:
-  - nno
-  - nob
-  name: Norwegian
-  source:
-  - Omniglot
-  - Wikipedia
-  - CLDR
-  speakers: 4320000
-  speakers_date: 2012
-  todo_status: strong
   preferred_as_individual: true
-nno:
-  name: Norwegian Nynorsk
-  orthographies:
-  - autonym: Nynorsk
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á à ä å æ é è ê ò ó
-      ô ö ø ü
-    script: Latin
-  source:
-  - Omniglot
-  - Wikipedia
-  - CLDR
-  speakers: 4320000
-  speakers_date: 2012
-  todo_status: strong
-nob:
-  name: Norwegian Bokmål
-  orthographies:
-  - autonym: Bokmål
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á à ä å æ é è ê ò ó
-      ô ö ø ü
-    script: Latin
   source:
   - Omniglot
   - Wikipedia
@@ -3913,50 +3970,6 @@ old:
   source:
   - CLDR
   todo_status: todo
-orm:
-  name: Oromo
-  includes:
-  - gax
-  - gaz
-  - hae
-  - orc
-gax:
-  name: Borana-Arsi-Guji Oromo
-  orthographies:
-  - autonym: Borana
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z '
-    script: Latin
-  source:
-  - Omniglot
-  - Wikipedia
-  - CLDR
-  - Alvestrand
-  speakers: 3900000
-  speakers_date: 2000-2009
-  todo_status: strong
-gaz:
-  name: West Central Oromo
-  orthographies:
-  - autonym: Afaan Oromoo
-    inherit: gax
-    script: Latin
-  source:
-  - Wikipedia
-  speakers: 26000000
-  speakers_date: 2015
-  todo_status: strong
-  note: Speakers count is an estimate based on total for Oromo macrolanguage.
-hae:
-  name: Eastern Oromo
-  orthographies:
-  - autonym: Harar
-    inherit: gax
-    script: Latin
-  source:
-  - Wikipedia
-  speakers: 4500000
-  speakers_date: 1994
-  todo_status: strong
 orc:
   name: Orma
   orthographies:
@@ -3968,6 +3981,18 @@ orc:
   speakers: 66000
   speakers_date: 2009
   todo_status: strong
+ori:
+  includes:
+  - ory
+  - spv
+  name: Oriya (macrolanguage)
+orm:
+  includes:
+  - gax
+  - gaz
+  - hae
+  - orc
+  name: Oromo
 oss:
   name: Ossetian
   orthographies:
@@ -4012,29 +4037,32 @@ pap:
   todo_status: strong
 pes:
   name: Iranian Persian
+  note: Initial, medial, and final forms of the letters and some ligatures are also
+    required.
   orthographies:
   - autonym: فارسی
-    base: ء أ ؤ ئ ا ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ل م ن ه و پ چ ژ ک گ ی َ ُ ِ ْ ٰ
+    base: ء أ ؤ ئ ا ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ل م ن ه و پ چ ژ ک گ ی
+      َ ُ ِ ْ ٰ
     numerals: ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹
     script: Arabic
-  speakers: 55600000
-  speakers_date: 2015
   source:
   - Wikipedia
+  speakers: 55600000
+  speakers_date: 2015
   todo_status: weak
-  note: Initial, medial, and final forms of the letters and some ligatures are also required.
 pga:
   name: Sudanese Creole Arabic
+  note: Also called Juba Arabic. Initial, medial, and final forms of the letters and
+    some ligatures are also required.
   orthographies:
   - autonym: جوبا
     inherit: apd
     script: Arabic
-  speakers: 20000
-  speakers_date: 1987
   source:
   - Wikipedia
+  speakers: 20000
+  speakers_date: 1987
   todo_status: weak
-  note: Also called Juba Arabic. Initial, medial, and final forms of the letters and some ligatures are also required.
 plz:
   name: Paluan
   orthographies:
@@ -4093,6 +4121,7 @@ pot:
   todo_status: strong
 prg:
   name: Prussian
+  note: Need to add combinations with accents.
   orthographies:
   - autonym: Prūsiskan
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ģ ī ķ ņ ō ŗ š ū
@@ -4103,7 +4132,6 @@ prg:
   - Wikipedia
   speakers: 0
   todo_status: strong
-  note: Need to add combinations with accents.
 prs:
   name: Dari
   orthographies:
@@ -4114,7 +4142,6 @@ prs:
   speakers_date: 2000-2011
   todo_status: done
 que:
-  name: Quechua
   includes:
   - qub
   - qud
@@ -4159,18 +4186,30 @@ que:
   - qxt
   - qxu
   - qxw
+  name: Quechua
   orthographies:
   - autonym: Runa Simi
     auxiliary: č ĉ š ž
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ñ
     script: Latin
+  preferred_as_individual: true
   source:
   - Omniglot
   - Wikipedia
   speakers: 10000000
   speakers_date: 2004
   todo_status: strong
-  preferred_as_individual: true
+qxq:
+  name: Qashqa'i
+  orthographies:
+  - autonym: قاشقای ديلى
+    inherit: pes
+    script: Arabic
+  source:
+  - Wikipedia
+  speakers: 949000
+  speakers_date: 2015
+  todo_status: weak
 rar:
   name: Rarotongan
   orthographies:
@@ -4388,6 +4427,17 @@ scn:
   speakers: 4700000
   speakers_date: 2002
   todo_status: strong
+sdh:
+  name: Southern Kurdish
+  orthographies:
+  - autonym: کوردی خوارگ
+    inherit: ckb
+    script: Arabic
+  source:
+  - Wikipedia
+  speakers: 3000000
+  speakers_date: 2000
+  todo_status: weak
 seh:
   name: Sena
   orthographies:
@@ -4462,22 +4512,23 @@ shi:
   todo_status: strong
 shu:
   name: Chadian Arabic
+  note: Initial, medial, and final forms of the letters and some ligatures are also
+    required.
   orthographies:
   - autonym: تشادية
     inherit: apd
     script: Arabic
-  speakers: 1600000
-  speakers_date: 2015
   source:
   - Wikipedia
+  speakers: 1600000
+  speakers_date: 2015
   todo_status: weak
-  note: Initial, medial, and final forms of the letters and some ligatures are also required.
 sjd:
   name: Kildin Sami
   orthographies:
   - autonym: Кӣллт Са̄мь
-    base: а ӓ б в г д е ё ж з һ и ӣ й ј ҋ к л ӆ м ӎ н ӊ ӈ о п р ҏ с т у ӯ ф х ц
-      ч ш щ ъ ы ь ҍ э ӭ ю я ’
+    base: а ӓ б в г д е ё ж з һ и ӣ й ј ҋ к л ӆ м ӎ н ӊ ӈ о п р ҏ с т у ӯ ф х ц ч
+      ш щ ъ ы ь ҍ э ӭ ю я ’
     combinations: '{а̄}{е̄}{ё̄}{ӣ}{о̄}{э̄}{ю̄}{я̄}'
     script: Cyrillic
   source:
@@ -4677,64 +4728,29 @@ spa:
   speakers_date: 2019
   todo_status: strong
 sqi:
-  name: Albanian
   includes:
   - aae
   - aat
   - aln
   - als
-aae:
-  name: Arbëreshë Albanian
-  orthographies:
-  - autonym: Arbërisht
-    inherit: aln
-    script: Latin
-  speakers: 100000
-  speakers_date: 2007
-  source:
-  - Wikipedia
-  todo_status: weak
-aln:
-  name: Gheg Albanian
-  orthographies:
-  - autonym: Gegnisht
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ç ë
-    script: Latin
-  source:
-  - Omniglot
-  - Wikipedia
-  - CLDR
-  speakers: 3450000
-  speakers_date: 2000–2001
-  todo_status: weak
-als:
-  name: Tosk Albanian
-  orthographies:
-  - autonym: Shqip
-    inherit: aln
-    script: Latin
-  speakers: 1800000
-  speakers_date: 2011
-  source:
-  - Wikipedia
-  todo_status: weak
+  name: Albanian
 srd:
-  name: Sardinian
   includes:
   - sdc
   - sdn
   - src
   - sro
+  name: Sardinian
   orthographies:
   - autonym: Sardu
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z à ç è ì ò ù
     script: Latin
+  preferred_as_individual: true
   source:
   - Omniglot
   speakers: 1350000
   speakers_date: 2016
   todo_status: weak
-  preferred_as_individual: true
 srm:
   name: Saramaccan
   orthographies:
@@ -5231,6 +5247,7 @@ uig:
   todo_status: strong
 ukr:
   name: Ukrainian
+  note: Need to add combinations with accents.
   orthographies:
   - autonym: Українська
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ь э ю я є і ї ґ ’
@@ -5242,7 +5259,6 @@ ukr:
   speakers: 35000000
   speakers_date: 2000
   todo_status: strong
-  note: Need to add combinations with accents.
 ulk:
   name: Meriam Mir
   orthographies:
@@ -5268,17 +5284,19 @@ umu:
   todo_status: weak
 urd:
   name: Urdu
+  note: Initial, medial, and final forms of the letters and some ligatures are also
+    required.
   orthographies:
   - autonym: اُردُو
-    base: ء ا ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ل م ن و ٹ پ چ ڈ ڑ ژ ک گ ں ھ ہ ی َ ُ ِ ْ ٰ
+    base: ء ا ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ل م ن و ٹ پ چ ڈ ڑ ژ ک گ ں ھ
+      ہ ی َ ُ ِ ْ ٰ
     numerals: ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹
     script: Arabic
-  speakers: 68620000
-  speakers_date: 2019
   source:
   - Wikipedia
+  speakers: 68620000
+  speakers_date: 2019
   todo_status: weak
-  note: Initial, medial, and final forms of the letters and some ligatures are also required.
 uum:
   name: Urum
   orthographies:
@@ -5307,12 +5325,14 @@ uzn:
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ‘
     script: Latin
   - autonym: Ўзбекча
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ў ғ қ ҳ
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ў ғ қ
+      ҳ
     note: Alternative 2
     script: Cyrillic
     status: secondary
   - autonym: Ӯзбекча
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӯ ғ қ ҳ
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӯ ғ қ
+      ҳ
     note: Alternative 3
     script: Cyrillic
     status: secondary
@@ -5394,6 +5414,17 @@ vol:
   speakers: 20
   speakers_date: 2000
   status: constructed
+  todo_status: strong
+vro:
+  name: Võro
+  orthographies:
+  - autonym: Võro
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä õ ö ü š ž '
+    script: Latin
+  source:
+  - Wikipedia
+  speakers: 87000
+  speakers_date: 2011
   todo_status: strong
 vun:
   name: Vunjo
@@ -5755,76 +5786,105 @@ yux:
   speakers_date: 2010
   todo_status: weak
 zap:
-  name: Zapotec
   includes:
-  - zaa  # Sierra de Juárez Zapotec
-  - zab  # Western Tlacolula Valley Zapotec
-  - zac  # Ocotlán Zapotec
-  - zad  # Cajonos Zapotec
-  - zae  # Yareni Zapotec
-  - zaf  # Ayoquesco Zapotec
-  - zai  # Isthmus Zapotec
-  - zam  # Miahuatlán Zapotec
-  - zao  # Ozolotepec Zapotec
-  - zaq  # Aloápam Zapotec
-  - zar  # Rincón Zapotec
-  - zas  # Santo Domingo Albarradas Zapotec
-  - zat  # Tabaa Zapotec
-  - zav  # Yatzachi Zapotec
-  - zaw  # Mitla Zapotec
-  - zax  # Xadani Zapotec
-  - zca  # Coatecas Altas Zapotec
-  - zoo  # Asunción Mixtepec Zapotec
-  - zpa  # Lachiguiri Zapotec
-  - zpb  # Yautepec Zapotec
-  - zpc  # Choapan Zapotec
-  - zpd  # Southeastern Ixtlán Zapotec
-  - zpe  # Petapa Zapotec
-  - zpf  # San Pedro Quiatoni Zapotec
-  - zpg  # Guevea De Humboldt Zapotec
-  - zph  # Totomachapan Zapotec
-  - zpi  # Santa María Quiegolani Zapotec
-  - zpj  # Quiavicuzas Zapotec
-  - zpk  # Tlacolulita Zapotec
-  - zpl  # Lachixío Zapotec
-  - zpm  # Mixtepec Zapotec
-  - zpn  # Santa Inés Yatzechi Zapotec
-  - zpo  # Amatlán Zapotec
-  - zpp  # El Alto Zapotec
-  - zpq  # Zoogocho Zapotec
-  - zpr  # Santiago Xanica Zapotec
-  - zps  # Coatlán Zapotec
-  - zpt  # San Vicente Coatlán Zapotec
-  - zpu  # Yalálag Zapotec
-  - zpv  # Chichicapan Zapotec
-  - zpw  # Zaniza Zapotec
-  - zpx  # San Baltazar Loxicha Zapotec
-  - zpy  # Mazaltepec Zapotec
-  - zpz  # Texmelucan Zapotec
-  - zsr  # Southern Rincon Zapotec
-  - zte  # Elotepec Zapotec
-  - ztg  # Xanaguía Zapotec
-  - ztl  # Lapaguía-Guivini Zapotec
-  - ztm  # San Agustín Mixtepec Zapotec
-  - ztn  # Santa Catarina Albarradas Zapotec
-  - ztp  # Loxicha Zapotec
-  - ztq  # Quioquitani-Quierí Zapotec
-  - zts  # Tilquiapan Zapotec
-  - ztt  # Tejalapan Zapotec
-  - ztu  # Güilá Zapotec
-  - ztx  # Zaachila Zapotec
-  - zty  # Yatee Zapotec
+  - zaa
+  - zab
+  - zac
+  - zad
+  - zae
+  - zaf
+  - zai
+  - zam
+  - zao
+  - zaq
+  - zar
+  - zas
+  - zat
+  - zav
+  - zaw
+  - zax
+  - zca
+  - zoo
+  - zpa
+  - zpb
+  - zpc
+  - zpd
+  - zpe
+  - zpf
+  - zpg
+  - zph
+  - zpi
+  - zpj
+  - zpk
+  - zpl
+  - zpm
+  - zpn
+  - zpo
+  - zpp
+  - zpq
+  - zpr
+  - zps
+  - zpt
+  - zpu
+  - zpv
+  - zpw
+  - zpx
+  - zpy
+  - zpz
+  - zsr
+  - zte
+  - ztg
+  - ztl
+  - ztm
+  - ztn
+  - ztp
+  - ztq
+  - zts
+  - ztt
+  - ztu
+  - ztx
+  - zty
+  name: Zapotec
   orthographies:
   - base: a b c d e f g h i j k l m n o p q r s t u v w x y z á à è é ë ì ü s̨ ñ ž
       z̨
     script: Latin
+  preferred_as_individual: true
   source:
   - Omniglot
   - Wikipedia
   speakers: 450000
   speakers_date: 2010
   todo_status: strong
-  preferred_as_individual: true
+zlm:
+  name: Malay (individual language)
+  orthographies:
+  - autonym: Melayu
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    script: Latin
+  preferred_name: Malaysian
+  source:
+  - Omniglot
+  speakers: 77000000
+  speakers_date: 2007
+  todo_status: weak
+zsm:
+  name: Standard Malay
+  orthographies:
+  - autonym: Malaysia
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    script: Latin
+  - autonym: مليسيا‎
+    base: ء‎ ا‎ ب‎ ة‎ ت‎ ث‎ ج‎ ح‎ خ‎ د‎ ذ‎ ر‎ ز‎ س‎ ش‎ ص‎ ض‎ ط‎ ظ‎ ع‎ غ‎ ف‎ ق‎ ل‎
+      م‎ ن‎ ه‎ و‎ ى‎ ي‎ چ‎ ڠ‎ ڤ‎ ک‎ ڽ‎ ۏ‎ ݢ‎
+    note: Jawi
+    numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ ١٠
+    script: Arabic
+  source:
+  - Wikipedia
+  speakers: 32772100
+  speakers_date: 2019
+  todo_status: weak
 zul:
   name: Zulu
   orthographies:
@@ -5856,21 +5916,3 @@ zza:
   - Wikipedia
   speakers: 1600000
   speakers_date: 1998
-bal:
-  includes:
-  - bgp  # Eastern Balochi
-  - bgn  # Western Balochi
-  - bcc  # Southern Balochi
-  name: Baluchi
-  preferred_name: Balochi
-  orthographies:
-  - autonym: بلۏچی
-    base: ء آ ا ب ت ج د ر ز س ش ل م ن ه و ٹ پ چ ڈ ژ ک گ ی ۏ ے ݔ ࢣ َ ُ ِ 
-    numerals: ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹
-    script: Arabic
-  source:
-  - Wikipedia
-  speakers: 7600000
-  speakers_date: 2007
-  todo_status: weak
-  preferred_as_individual: true
