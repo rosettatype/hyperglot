@@ -670,7 +670,7 @@ ayc:
   name: Southern Aymara
   orthographies:
   - autonym: Aymar
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ï ñ ü ’
+    inherit: aym
     script: Latin
   source:
   - Omniglot
@@ -755,7 +755,7 @@ ayr:
   name: Central Aymara
   orthographies:
   - autonym: Aymar
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ï ñ ü ’
+    inherit: aym
     script: Latin
   source:
   - Omniglot
@@ -3953,7 +3953,7 @@ naq:
 nbl:
   name: South Ndebele
   orthographies:
-  - autonym: IsiNdebele
+  - autonym: isiNdebele
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
     script: Latin
   source:
@@ -3965,7 +3965,7 @@ nbl:
 nde:
   name: North Ndebele
   orthographies:
-  - autonym: IsiNdebele
+  - autonym: isiNdebele
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
     script: Latin
   source:
