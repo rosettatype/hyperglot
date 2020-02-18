@@ -10,7 +10,8 @@ from .languages import Languages, parse_combinations
 # VALID_TODOS = ["done", "weak", "todo", "strong"]
 
 # note that "secondary" as status is also used, but on orthographies!
-VALID_STATUS = ["historical", "constructed"]
+VALID_STATUS = ["historical", "constructed", "ancient", "living", "extinct",
+                "deprecated"]
 
 ISO_639_3 = "../../data/iso-639-3.yaml"
 logging.info("Loading iso-639-3.yaml for names and macro language checks")

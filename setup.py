@@ -21,7 +21,7 @@ setup(name="fontlang",
       install_requires=[
           "click>=7.0",
           "fonttools>=4.0.2",
-          "pyaml>=19.4.1"
+          "pyyaml>=5.3"
       ],
       data_files=[("database", ["data/rosetta.yaml"])]
       )

@@ -772,13 +772,13 @@ azb:
     script: Arabic
   - base: a b c d e f g h i j k l m n o p q r s t u v x y z ç ö ü ğ İ ı ş ə
     script: Latin
+    status: secondary
   source:
   - Wikipedia
   speakers: 13823350
   speakers_date: 2016
   status: living
   todo_status: weak
-  note: This was marked as status 'historical' - was that meant to apply to a specific orthography?
 aze:
   includes:
   - azj
