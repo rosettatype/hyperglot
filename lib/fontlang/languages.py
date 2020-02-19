@@ -212,7 +212,7 @@ class Languages(dict):
 
                 # Remove the macro language from the main dict altogether
                 pruned = {key: data for key, data in pruned.items()
-                          if key != iso}
+                          if key not in lang["includes"]}
 
         self.clear()
         self.update(pruned)

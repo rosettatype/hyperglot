@@ -1,5 +1,8 @@
 # A changelog for the lib/fontlang CLI tool
 
+## 0.1.9 (19.2.2020)
+- FIX: "Inverted" the `preferred_as_individual` outcome, e.g. those languages should suppress any included languages from being listed and be listed as one language instead
+
 ## 0.1.7 & 0.1.8 (18.02.2020)
 - FIX: Made sure `preferred_as_individual` in fact also removes the language that is being inheritted from the matches
 - TWEAK: Update `fontlang-save` and sorting to not include inheritted attributes
