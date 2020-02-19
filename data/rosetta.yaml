@@ -135,7 +135,7 @@ acm:
   status: living
   todo_status: weak
 acq:
-  name: Taʽizzi-Adeni Arabic
+  name: Ta'izzi-Adeni Arabic
   note: Initial, medial, and final forms of the letters and some ligatures are also
     required.
   orthographies:
@@ -210,9 +210,10 @@ aeb:
     required.
   orthographies:
   - autonym: تونسي
-    auxiliary: ڛ ڢ ٯ ڧ ک ی ڤ چ گ ڭ ڠ
-    base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ ڨ ڥ پ
-    numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ ١٠
+    #auxiliary: ڛ ڢ ٯ ڧ ک ی ڤ چ گ ڭ ڠ
+    #base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ ڨ ڥ پ
+    #numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ ١٠
+    inherit: arb
     script: Arabic
   source:
   - Wikipedia
@@ -559,10 +560,11 @@ ary:
     required.
   orthographies:
   - autonym: الدارجة
-    auxiliary: ڛ ڢ ٯ ڧ ک ی ڤ چ ڨ ڠ
-    base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ ڭ گ ڥ
-      پ ة
-    numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ ١٠
+    #auxiliary: ڛ ڢ ٯ ڧ ک ی ڤ چ ڨ ڠ
+    #base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ ڭ گ ڥ
+    #  پ ة
+    #numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ ١٠
+    inherit: arb
     script: Arabic
   source:
   - Wikipedia
