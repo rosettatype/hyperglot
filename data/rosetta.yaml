@@ -110,7 +110,7 @@ abv:
   note: Initial, medial, and final forms of the letters and some ligatures are also
     required.
   orthographies:
-  - autonym: البحرانية
+  - autonym: بحراني
     inherit: arb
     script: Arabic
   source:
@@ -124,12 +124,13 @@ acm:
   note: Initial, medial, and final forms of the letters and some ligatures are also
     required.
   orthographies:
-  - autonym: العراقية
+  - autonym: عراقي
     auxiliary: ڛ ڢ ٯ ڧ ک ی ڥ چ گ ڨ ڭ ڠ
     base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ ڤ پ گ
       ة
     numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ ١٠
     script: Arabic
+  preferred_name: Iraqi Arabic
   speakers: 15700000
   speakers_date: 2014-2016
   status: living
@@ -226,7 +227,7 @@ aec:
   note: Initial, medial, and final forms of the letters and some ligatures are also
     required.
   orthographies:
-  - autonym: صعيدى
+  - autonym: صعيدي
     inherit: arz
     script: Arabic
   source:
@@ -529,7 +530,7 @@ arq:
   note: Initial, medial, and final forms of the letters and some ligatures are also
     required.
   orthographies:
-  - autonym: الدارجة
+  - autonym: دارجة جزائرية
     inherit: aeb
     script: Arabic
   source:
@@ -543,7 +544,7 @@ ars:
   note: Initial, medial, and final forms of the letters and some ligatures are also
     required.
   orthographies:
-  - autonym: النجدية
+  - autonym: نجدي
     auxiliary: ڛ ڢ ٯ ڧ ک ی ڥ چ گ ڨ ڭ ڠ
     base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ پ ڤ ة
     numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ ١٠
@@ -559,7 +560,7 @@ ary:
   note: Initial, medial, and final forms of the letters and some ligatures are also
     required.
   orthographies:
-  - autonym: الدارجة
+  - autonym: دارجة مغربية
     #auxiliary: ڛ ڢ ٯ ڧ ک ی ڤ چ ڨ ڠ
     #base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ ڭ گ ڥ
     #  پ ة
@@ -4455,7 +4456,7 @@ prg:
 prs:
   name: Dari
   orthographies:
-  - autonym: فارسی
+  - autonym: دری
     inherit: pes
     script: Arabic
   speakers: 12500000
