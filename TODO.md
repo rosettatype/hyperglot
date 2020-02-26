@@ -33,12 +33,14 @@ Notes:
 - [ ] note that non-written languages should not generally be included
 
 Ask to check:
-- Albanian
-- Hebrew & Yiddish
+- [ ] Albanian
+- [ ] Hebrew & Yiddish
+- [+] Romanian
 
 Later:
 
-- [ ] review combinations (are all codepoints combining, …)
+- [ ] languages with some speakers should never be marked extinct
+- [ ] review combinations (are all codepoints combining, …), maybe a better system?
 - [ ] review auxiliary
 - [ ] check Cyrillic orthographies against: https://en.wiktionary.org/wiki/Appendix:Cyrillic_script
 
