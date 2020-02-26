@@ -4584,6 +4584,7 @@ ron:
     status: local
   - autonym: Română
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z â î ă ș ț
+    auxiliary: ş ţ
     script: Latin
   source:
   - Omniglot
@@ -4591,7 +4592,7 @@ ron:
   speakers: 26000000
   speakers_date: 2016
   status: living
-  todo_status: strong
+  todo_status: done
 roo:
   name: Rotokas
   orthographies:
@@ -5986,7 +5987,6 @@ wrh:
   - Omniglot
   speakers: 30
   speakers_date: 2005
-  status: extinct
   todo_status: weak
 wss:
   name: Wasa
