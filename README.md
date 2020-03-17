@@ -114,6 +114,15 @@ $ git clone git@bitbucket.org:rosettatype/fontlang.git && cd fontlang
 $ pip install --update --user --editable .
 ```
 
+Additionally, to dynamically link the information in `data/rosetta.yaml` into the python package to be used, link them into the package:
+
+```
+$ rm lib/fontlang/rosetta.yaml
+$ ln data/rosetta.yaml lib/fontlang/rosetta.yaml
+```
+
+It is `lib/fontlang/rosetta.yaml` that gets packages with the `fontlang` CLI command!
+
 ## Other databases included in this repo
 
 The following are YAML files distilled from the original data stored in subfolders with corresponding names.
