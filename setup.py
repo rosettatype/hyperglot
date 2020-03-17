@@ -23,5 +23,5 @@ setup(name="fontlang",
           "fonttools>=4.0.2",
           "pyyaml>=5.3"
       ],
-      data_files=[("database", ["data/rosetta.yaml"])]
+      data_files=[("data", ["data/rosetta.yaml"])]
       )
