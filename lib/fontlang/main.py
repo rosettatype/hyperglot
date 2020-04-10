@@ -302,8 +302,8 @@ def cli(fonts, support, autonyms, users, output, mode, include_historical,
 
 def save_sorted(Langs=None):
     """
-    Helper script to re-save the rosetta.yaml sorted alphabetically, 
-    alternatively from the passed in Langs object (which can have been 
+    Helper script to re-save the rosetta.yaml sorted alphabetically,
+    alternatively from the passed in Langs object (which can have been
     modified)
     """
     logging.getLogger().setLevel(logging.WARNING)
@@ -315,3 +315,17 @@ def save_sorted(Langs=None):
 
     file = open(DB, "w")
     yaml.dump(alphabetic, file, default_flow_style=False, allow_unicode=True)
+
+
+@click.command()
+@click.argument("output", type=click.Path())
+def export(output):
+    """
+    Helper script to export rosetta.yaml with all inhereted orthographies
+    expanded
+    """
+    logging.getLogger().setLevel(logging.WARNING)
+    Langs = dict(Languages(inherit=True).items())
+
+    file = open(output, "w")
+    yaml.dump(Langs, file, default_flow_style=False, allow_unicode=True)

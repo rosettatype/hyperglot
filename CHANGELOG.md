@@ -1,5 +1,8 @@
 # A changelog for the lib/fontlang CLI tool
 
+## 0.1.10 (10.4.2020)
+- FEATURE: Implemented `fontlang-export` CLI script to export the rosetta.yaml with expanded inherits to a file, usage: `$ fontlang-export thefile.yaml`
+
 ## 0.1.9 (19.2.2020)
 - FIX: "Inverted" the `preferred_as_individual` outcome, e.g. those languages should suppress any included languages from being listed and be listed as one language instead
 
