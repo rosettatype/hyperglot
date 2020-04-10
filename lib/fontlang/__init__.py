@@ -1,10 +1,11 @@
 """
 Gather a few package wide constants
 """
-import os
-__version__ = "0.1.10"
+from os import path
+__version__ = "0.1.11"
 
-DB = os.path.join(os.path.dirname(__file__), "rosetta.yaml")
+DB = path.join(path.abspath(path.dirname(__file__)),
+               *path.split("../../data/rosetta.yaml"))
 
 SUPPORTLEVELS = {
     "base": "base",

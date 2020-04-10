@@ -1,5 +1,8 @@
 # A changelog for the lib/fontlang CLI tool
 
+## 0.1.11 (10.4.2020)
+- FEATURE: Implemented `fontlang-export` CLI script to export the rosetta.yaml with expanded inherits to a file, usage: `$ fontlang-export thefile.yaml`
+
 ## 0.1.10 (17.3.2020)
 - FIX: Refactored `setup.py` to include the databased file relative to the package
 

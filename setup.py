@@ -18,7 +18,8 @@ setup(name="fontlang",
           "console_scripts": [
               "fontlang = fontlang.main:cli",
               "fontlang-validate = fontlang.validate:validate",
-              "fontlang-save = fontlang.main:save_sorted"
+              "fontlang-save = fontlang.main:save_sorted",
+              "fontlang-export = lib.fontlang.main:export"
           ]
       },
       install_requires=[
