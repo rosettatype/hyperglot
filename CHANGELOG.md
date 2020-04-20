@@ -1,5 +1,8 @@
 # A changelog for the lib/fontlang CLI tool
 
+## 0.1.10 (17.3.2020)
+- FIX: Refactored `setup.py` to include the databased file relative to the package
+
 ## 0.1.9 (19.2.2020)
 - FIX: "Inverted" the `preferred_as_individual` outcome, e.g. those languages should suppress any included languages from being listed and be listed as one language instead
 

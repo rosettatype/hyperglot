@@ -302,8 +302,8 @@ def cli(fonts, support, autonyms, users, output, mode, include_historical,
 
 def save_sorted(Langs=None):
     """
-    Helper script to re-save the rosetta.yaml sorted alphabetically, 
-    alternatively from the passed in Langs object (which can have been 
+    Helper script to re-save the rosetta.yaml sorted alphabetically,
+    alternatively from the passed in Langs object (which can have been
     modified)
     """
     logging.getLogger().setLevel(logging.WARNING)
