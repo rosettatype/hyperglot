@@ -54,3 +54,5 @@ Later:
 - [ ] punctuation used by a language
 	- [ ] include punctuation in checking that an autonym can be spelled in its provided orthography
 - [ ] list OpenType features needed to support a language with a brief note about what the feature should do.
+- [ ] add Armenian
+- [ ] when adding Devanagari, include individual Bihari, Dogri, and Konkani languages
