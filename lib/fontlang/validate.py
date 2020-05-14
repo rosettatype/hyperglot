@@ -5,7 +5,8 @@ import logging
 import yaml
 import os
 import re
-from .languages import Languages, parse_combinations
+import unicodedata2
+from .languages import Languages, parse_combinations, parse_chars
 
 # VALID_TODOS = ["done", "weak", "todo", "strong"]
 
@@ -30,7 +31,8 @@ def check_yaml():
     logging.info("Checking yaml structure...")
 
     try:
-        return Languages()
+        # Use prune=False to validate the orthographies raw
+        return Languages(prune=False)
     except yaml.scanner.ScannerError as e:
         logging.error("Malformed yaml:")
         print(e)
@@ -55,6 +57,13 @@ def check_types(Langs):
 
             for o in lang["orthographies"]:
                 if "base" in o:
+                    if iso == "arg":
+                        for i, c in enumerate(list(o["base"].replace(" ", ""))):
+                            if unicodedata2.category(c).startswith("Z"):
+                                logging.error("'%s' has invalid whitespace "
+                                              "characters '%s' at %d" %
+                                              (iso, unicodedata2.name(c), i))
+
                     if not check_is_valid_glyph_string(o["base"]):
                         logging.error("'%s' has invalid 'base' glyph list"
                                       % iso)
@@ -100,6 +109,13 @@ def check_is_valid_glyph_string(glyphs):
     if re.findall(r"\n", glyphs):
         logging.error("Glyph sequences should not contain line breaks")
         return False
+
+    # for c in parse_chars(glyphs):
+    #     print(unicodedata2.category(c))
+        # if len(c) > 1:
+        #     logging.warning("Only single, space-separated, characters are "
+        #                   "allowed, but got '%s' (length %d)" % (c, len(c)))
+        #     return False
 
     if re.findall(r" {2,}", glyphs):
         logging.error("More than single space in '%s'" % glyphs)
@@ -246,11 +262,11 @@ def check_includes(lang):
 def check_autonym_spelling(ort):
     chars = ort["base"]
     if "auxiliary" in ort:
-        chars = chars + ort["auxiliary"]
+        chars = set(list(chars) + list(ort["auxiliary"]))
     if "combinations" in ort:
         comb = parse_combinations(ort["combinations"])
         if comb:
-            chars = chars + " ".join(comb)
+            chars = set(list(chars) + comb)
 
     # It is implied, but force unique to be sure
     chars = set(chars)

@@ -25,6 +25,8 @@ setup(name="fontlang",
       install_requires=[
           "click>=7.0",
           "fonttools>=4.0.2",
-          "pyyaml>=5.3"
+          "pyyaml>=5.3",
+          # For validation script only:
+          "unicodedata2>=13.0.0"
       ],
       )

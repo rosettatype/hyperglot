@@ -1,5 +1,11 @@
 # A changelog for the lib/fontlang CLI tool
 
+## 0.1.12 (14.5.2020)
+- FEATURE: Added `--strict-support` flag (default False) to explicitly trigger warning about languages with unconfirmed status. Since those languages have well researched charset information but just have not been confirmed by several expert sources we still want to include them in the count. Using `--strict-support` excludes (but lists separately) all those languages which we have not been able to confirm
+- TWEAK: Renamed `--strict` flag to `--strict-iso` to be more discriptive
+- TWEAK: Database file linking, one more time... as per 0.1.10
+- TWEAK: Added validation check to prevent non-space separators in character list data
+
 ## 0.1.11 (10.4.2020)
 - FEATURE: Implemented `fontlang-export` CLI script to export the rosetta.yaml with expanded inherits to a file, usage: `$ fontlang-export thefile.yaml`
 

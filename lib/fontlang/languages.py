@@ -21,6 +21,28 @@ def parse_combinations(comb):
     return False
 
 
+def parse_chars(characters):
+    """
+    From a string of characters get a set of unique unicode codepoints needed
+    Note this will "decompose" combinging characters/marks and remove any
+    standard whitespace characters (space, line break) but treat special
+    whitespace characters as part of the charset (e.g. non breaking, enspace,
+    etc.)
+    Use this on all orthography base/auxiliary data
+    """
+    try:
+        if type(characters) is set:
+            characters = list(characters)
+
+        if type(characters) is list:
+            characters = "".join(characters)
+
+        return set(re.sub("\s*", "", characters))
+    except Exception as e:
+        logging.error(e)
+        return set()
+
+
 class Language(dict):
     """
     A dict wrapper around a language data yaml entry with additional querying
@@ -143,7 +165,7 @@ class Language(dict):
 
             if "base" in ort:
                 script = ort["script"]
-                base = set(ort["base"])
+                base = parse_chars(ort["base"])
                 if base.issubset(chars):
                     if script not in support:
                         support[script] = {}
@@ -155,7 +177,7 @@ class Language(dict):
 
                     # Only check aux if base is supported also
                     if "auxiliary" in ort:
-                        aux = set(ort["auxiliary"])
+                        aux = parse_chars(ort["auxiliary"])
                         if aux.issubset(chars):
                             if "auxiliary" not in support[script]:
                                 support[script]["auxiliary"] = []
@@ -177,7 +199,7 @@ class Languages(dict):
     options for convenience
     """
 
-    def __init__(self, strict=False, inherit=True):
+    def __init__(self, strict=False, inherit=True, prune=True):
         with open(DB) as f:
             data = yaml.load(f, Loader=yaml.Loader)
             self.update(data)
@@ -188,6 +210,18 @@ class Languages(dict):
 
             if not strict:
                 self.lax_macrolanguages()
+
+            if prune:
+                # Transform all orthography character lists to pruned python sets
+                self.prune_chars()
+
+    def prune_chars(self):
+        for iso, lang in self.items():
+            if "orthographies" in lang:
+                for o in lang["orthographies"]:
+                    for type in ["base", "auxiliary", "numerals"]:
+                        if type in o:
+                            o[type] = parse_chars(o[type])
 
     def lax_macrolanguages(self):
         """
@@ -273,10 +307,10 @@ class Languages(dict):
                         # separate
                         self[lang]["orthographies"] = m["orthographies"].copy()
 
-    def from_chars(self, chars,
-                   includeHistorical=False,
-                   includeConstructed=False,
-                   pruneOrthographies=True):
+    def get_support_from_chars(self, chars,
+                               includeHistorical=False,
+                               includeConstructed=False,
+                               pruneOrthographies=True):
         chars = set(chars)
         support = {}
 

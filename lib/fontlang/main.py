@@ -28,7 +28,7 @@ def validate_font(ctx, param, value):
     return value
 
 
-def language_list(langs, native=False, users=False, script=None, strict=False,
+def language_list(langs, native=False, users=False, script=None, strict_iso=False,
                   seperator=", "):
     """
     Return a printable string for all languages
@@ -40,7 +40,7 @@ def language_list(langs, native=False, users=False, script=None, strict=False,
         if native and script:
             name = lang.get_autonym(script)
         else:
-            name = lang.get_name(script, strict)
+            name = lang.get_name(script, strict_iso)
 
         if name is False:
             name = "(iso: %s)" % iso
@@ -58,7 +58,7 @@ def language_list(langs, native=False, users=False, script=None, strict=False,
     return seperator.join(items)
 
 
-def print_to_cli(font, title, autonyms, users, script, strict):
+def print_to_cli(font, title, autonyms, users, script, strict_iso):
     print()
     print("=" * len(title))
     print(title)
@@ -66,6 +66,7 @@ def print_to_cli(font, title, autonyms, users, script, strict):
     print()
     if "done" in font:
         done = font["done"]
+        total = 0
         for script in done:
             count = len(done[script])
             if count > 0:
@@ -76,7 +77,12 @@ def print_to_cli(font, title, autonyms, users, script, strict):
                 print(title)
                 print("-" * len(title))
                 print(language_list(done[script],
-                                    autonyms, users, script, strict))
+                                    autonyms, users, script, strict_iso))
+                total = total + count
+        if total > 0:
+            print()
+            print("%d languages supported in total." % total)
+            print()
 
     if "weak" in font:
         print()
@@ -85,15 +91,15 @@ def print_to_cli(font, title, autonyms, users, script, strict):
             count = len(weak[script])
             if count > 0:
                 print()
-                title = "There are %d %s of %s script that might be " \
-                    "supported, but we cannot confirm it with our " \
-                    "current database:" % \
+                title = "There are %d %s of %s script that are likely " \
+                    "supported, but the database lacks independent " \
+                    "confirmation:" % \
                     (count, "langauage" if count == 1 else "languages",
                      script)
                 print(title)
                 print("-" * len(title))
                 print(language_list(weak[script],
-                                    autonyms, users, script, strict))
+                                    autonyms, users, script, strict_iso))
 
 
 def prune_intersect(intersection, res, level):
@@ -187,7 +193,12 @@ MODES = ["individual", "union", "intersection"]
               help="Flag to include otherwise ignored historical languages.")
 @click.option("--include-constructed", is_flag=True, default=False,
               help="Flag to include otherwise ignored contructed languages.")
-@click.option("--strict", is_flag=True, default=False,
+@click.option("--strict-support", is_flag=True, default=False,
+              help="Flag to exclude language support data that has not "
+              "undergone confirmation through several independend expert "
+              "resources. All language data is carefully compiled from "
+              "reliable sources and can be considered fairly reliable.")
+@click.option("--strict-iso", is_flag=True, default=False,
               help="Flag to display names and macrolanguage data "
               "strictly abiding to ISO data. Without it apply some gentle "
               "transforms to show preferred languages names and "
@@ -195,7 +206,7 @@ MODES = ["individual", "union", "intersection"]
 @click.option("-v", "--verbose", is_flag=True, default=False)
 @click.option("-V", "--version", is_flag=True, default=False)
 def cli(fonts, support, autonyms, users, output, mode, include_historical,
-        include_constructed, strict, verbose, version):
+        include_constructed, strict_support, strict_iso, verbose, version):
     """
     Pass in one or more fonts to check their languages support
     """
@@ -217,8 +228,9 @@ def cli(fonts, support, autonyms, users, output, mode, include_historical,
         _font = TTFont(font, lazy=True)
         cmap = _font["cmap"]
         chars = [chr(c) for c in cmap.getBestCmap().keys()]
-        Lang = Languages(strict)
-        langs = Lang.from_chars(chars, include_historical, include_constructed)
+        Lang = Languages(strict_iso)
+        langs = Lang.get_support_from_chars(
+            chars, include_historical, include_constructed)
         done = {}
         weak = {}
         done_statuses = ["done", "strong"]  # plus "status" not in dict
@@ -241,18 +253,35 @@ def cli(fonts, support, autonyms, users, output, mode, include_historical,
 
         results[font] = {}
 
-        if done:
-            results[font]["done"] = done
+        if strict_support:
+            if done:
+                results[font]["done"] = done
 
-        if weak:
-            results[font]["weak"] = weak
+            if weak:
+                results[font]["weak"] = weak
+        else:
+            merged = {}
+            if done:
+                merged = done
+            if weak:
+                if merged == {}:
+                    merged = weak
+                else:
+                    for script, data in weak.items():
+                        if script in merged:
+                            merged[script].update(weak[script])
+                        else:
+                            merged[script] = weak[script]
+            results[font]["done"] = merged
         _font.close()
 
+    # Mode for comparison of several files
     if mode == "individual":
         for font in fonts:
             title = "%s has %s support for:" % (os.path.basename(font),
                                                 level.lower())
-            print_to_cli(results[font], title, autonyms, users, script, strict)
+            print_to_cli(results[font], title, autonyms,
+                         users, script, strict_iso)
         data = results
     elif mode == "union":
         union = {}
@@ -275,7 +304,7 @@ def cli(fonts, support, autonyms, users, output, mode, include_historical,
 
         title = "Fonts %s together have %s support for:" % \
             (", ".join([os.path.basename(f) for f in fonts]), level.lower())
-        print_to_cli(union, title, autonyms, users, script, strict)
+        print_to_cli(union, title, autonyms, users, script, strict_iso)
         # Wrap in "single file" 'union' top level, which will be removed when
         # writing the data
         data = {"union": union}
@@ -291,7 +320,7 @@ def cli(fonts, support, autonyms, users, output, mode, include_historical,
 
         title = "Fonts %s all have common %s support for:" % \
             (", ".join([os.path.basename(f) for f in fonts]), level.lower())
-        print_to_cli(intersection, title, autonyms, users, script, strict)
+        print_to_cli(intersection, title, autonyms, users, script, strict_iso)
         # Wrap in "single file" 'intersection' top level, which will be removed
         # when writing the data
         data = {"intersection": intersection}
