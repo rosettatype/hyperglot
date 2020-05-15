@@ -1,5 +1,8 @@
 # A changelog for the lib/fontlang CLI tool
 
+## 0.1.13 (15.5.2020)
+- FIX: Improved character set parsing from database properly decomposing any combining characters into their parts and checking against those
+
 ## 0.1.12 (14.5.2020)
 - FEATURE: Added `--strict-support` flag (default False) to explicitly trigger warning about languages with unconfirmed status. Since those languages have well researched charset information but just have not been confirmed by several expert sources we still want to include them in the count. Using `--strict-support` excludes (but lists separately) all those languages which we have not been able to confirm
 - TWEAK: Renamed `--strict` flag to `--strict-iso` to be more discriptive

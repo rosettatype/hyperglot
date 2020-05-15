@@ -4,6 +4,7 @@ Helper classes to work with the rosetta.yaml data in more pythonic way
 import yaml
 import logging
 import re
+import unicodedata2
 from . import DB
 
 
@@ -37,7 +38,19 @@ def parse_chars(characters):
         if type(characters) is list:
             characters = "".join(characters)
 
-        return set(re.sub("\s*", "", characters))
+        unique_strings = set(re.sub("\s*", "", characters))
+        unique_chars = []
+        for c in unique_strings:
+            # decomposition is either "" or a space separated string of 
+            # zero-filled unicode hex values like "0075 0308"
+            decomposition = unicodedata2.decomposition(c)
+            if decomposition != "":
+                for unihexstr in decomposition.split(" "):
+                    unique_chars.append(chr(int(unihexstr, 16)))
+            else:
+                unique_chars.append(c)
+        unique_chars = set(unique_chars)
+        return unique_chars
     except Exception as e:
         logging.error(e)
         return set()

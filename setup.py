@@ -26,7 +26,7 @@ setup(name="fontlang",
           "click>=7.0",
           "fonttools>=4.0.2",
           "pyyaml>=5.3",
-          # For validation script only:
+          # For validation and decomposition
           "unicodedata2>=13.0.0"
       ],
       )
