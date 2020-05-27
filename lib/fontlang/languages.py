@@ -240,7 +240,8 @@ class Languages(dict):
                 self.lax_macrolanguages()
 
             if prune:
-                # Transform all orthography character lists to pruned python sets
+                # Transform all orthography character lists to pruned python
+                # sets
                 self.prune_chars()
 
     def prune_chars(self):
