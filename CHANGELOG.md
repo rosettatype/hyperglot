@@ -1,5 +1,8 @@
 # A changelog for the lib/fontlang CLI tool
 
+## 0.1.14 (27.5.2020)
+- FIX: Refined character parsing to also include the encoded form of any decomposable glyphs
+
 ## 0.1.13 (15.5.2020)
 - FIX: Improved character set parsing from database properly decomposing any combining characters into their parts and checking against those
 

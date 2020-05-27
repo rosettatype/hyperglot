@@ -31,6 +31,7 @@ def parse_chars(characters):
     etc.)
     Use this on all orthography base/auxiliary data
     """
+    unique_chars = []
     try:
         if type(characters) is set:
             characters = list(characters)
@@ -39,21 +40,35 @@ def parse_chars(characters):
             characters = "".join(characters)
 
         unique_strings = set(re.sub("\s*", "", characters))
-        unique_chars = []
         for c in unique_strings:
-            # decomposition is either "" or a space separated string of 
+            # decomposition is either "" or a space separated string of
             # zero-filled unicode hex values like "0075 0308"
             decomposition = unicodedata2.decomposition(c)
+
             if decomposition != "":
+                # found = []
+                # error = False
                 for unihexstr in decomposition.split(" "):
-                    unique_chars.append(chr(int(unihexstr, 16)))
-            else:
-                unique_chars.append(c)
+                    # Not _entirely_ sure why those can be parts of the
+                    # decomposition but let's ignore them when encountered
+                    if unihexstr in ["<isolated>", "<compat>", "<super>"]:
+                        continue
+                    try:
+                        unique_chars.append(chr(int(unihexstr, 16)))
+                    except Exception as e:
+                        logging.error("Error getting glyph from decomposition "
+                                      "part '%s' of '%s' (decomposition '%s'):"
+                                      " %s" % (unihexstr, c, decomposition, e))
+
+            # Either way this glyph should be included, decomposable or not
+            unique_chars.append(c)
+
         unique_chars = set(unique_chars)
         return unique_chars
     except Exception as e:
-        logging.error(e)
-        return set()
+        logging.error("Error parsing characters '%s': %s" % (characters, e))
+
+    return unique_chars
 
 
 class Language(dict):
