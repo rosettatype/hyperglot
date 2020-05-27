@@ -77,8 +77,7 @@ A simple CLI tool is provided to output language support data for a passed in fo
 Install via repo and pip:
 
 ```
-$ git clone git@bitbucket.org:rosettatype/fontlang.git && cd fontlang
-$ pip install --update --user .
+$ pip install git+https://github.com/rosettatype/langs-db
 ```
 
 ### Usage
@@ -111,7 +110,7 @@ To run the script during development without having to constantly reinstall the 
 
 ```
 $ git clone git@bitbucket.org:rosettatype/fontlang.git && cd fontlang
-$ pip install --update --user --editable .
+$ pip install --upgrade --user --editable .
 ```
 
 Additionally, to dynamically link the information in `data/rosetta.yaml` into the python package to be used, link them into the package:
