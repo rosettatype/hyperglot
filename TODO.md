@@ -29,6 +29,11 @@ Notes:
 
 @David
 
+Readme notes:
+- are sub-languages included when macrolanguage is `preferred_as_individual`?
+- If a sub-language does not have an orthography defined, it can use one defined for the macrolanguage. If there is one. A macrolanguages are not typically presented.
+- Both `deprecated` and `secondary` are ignored when claiming a support for a particular language and orthography.
+
 - [ ] add vowel combinations to Russian, Church Slavic, Ukrainian, Montenegrin
 - [ ] note that non-written languages should not generally be included
 

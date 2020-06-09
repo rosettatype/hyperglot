@@ -4,18 +4,18 @@ A database of languages and standard characters required for their representatio
 
 This project started with a seemingly simple question: when can one claim that a font *F* supports a language *L*. This is needed for several reasons:
 
-1. to organize and serve fonts to customers
-2. to better promote fonts with extensive langauge support
-3. to build character sets (and glyph sets) before development
-4. to test fonts, e.g. to heuristically create kerning pairs for consideration
-5. and probably quite a few reasons unrelated to typeface design
+1. to organize and serve fonts to customers.
+2. to better promote fonts with extensive langauge support.
+3. to build character sets (and glyph sets) before development.
+4. to test fonts, e.g. to heuristically create kerning pairs for consideration.
+5. and probably quite a few reasons unrelated to typeface design.
 
 A few notes to illustrate why the question of language support is complicated:
 
-1. a single language can be written using different orthographies in one or more scripts
-2. languages are not isolated, there are loan word, names etc. from other languages
-3. what one person considers a dialect, is a language for someone else
-4. different kinds of texts require differnt vocabulary and hence different characters
+1. a single language can be written using different orthographies in one or more scripts.
+2. languages are not isolated, there are loan word, names etc. from other languages.
+3. what one person considers a dialect, is a language for someone else.
+4. different kinds of texts require differnt vocabulary and hence different characters.
 
 We have decided to take a pragmatic approach and reduce the problem to finding standard character set of each language (typically an official alphabet or syllabary or its approximation) and occassionally we provide a list of auxiliary characters used in reference literature (linguistics) or in very common loan words. In case the script used is bicameral, only lowercase versions of characters are provided with a few exceptions.
 
@@ -23,27 +23,54 @@ We are also providing a command-line tool to automate the analysis of language s
 
 **This is a work in progress provided AS IS. If you want to contribute, do get in touch!**
 
-## Structure of the Rosetta database
-
-1. language records are indexed by ISO 639-3 three-letter codes
-2. a language `name` is also based on ISO 639-3. There is an option to override this and set a `preferred_name` in case the ISO name is pejorative or racist. We also use this to simplify very long names and where we have a preference (e.g. Sami over Saami).
-3. a language can contain a list of `orthographies`
-4. in case a language is a macrolanguage, it has an attribute `includes` which is a list of language codes of the sub-languages. If a sub-language does not have any orthography defined, it can use one defined for the macrolanguage. If there is one. A macrolanguages are not typically presented. In case there are too many individual sub-languages with insufficient information, we use attribute `preferred_as_individual: true` to indicate that this macrolanguage will be treated exceptionally as an individual language.
-5. an orthography is a list of character sets:
-	- `base` is a string of space-separated characters from the language’s standard alphabet, syllabary, or an approximation of those.
-	- `auxiliary` is a string of space-separated characters that are used in very common loan words or in reference literature (e.g. linguistic)
-	- `combinations` is a string with combinations of characters or characters and marks that should be supported by the font.
-6. each orthography has a `script` specified with a four-letter Unicode tag (Latn, Arab, Cyrl, …) and `status` which can be `deprecated`, `secondary`, `local` or `living/active` (default when the attribute is missing). Both `deprecated` and `secondary` are ignored when claiming a support for a particular language and orthography. The value `local` refers to an orthography which is used only is specific region.
-7. an `autonym` (name of the language in the language itself) is typically specified on the level of orthographies, but sometimes it is specified for a language, e.g. for a macrolanguage. The orthography autonym and name override the corresponding attributes of the language.
-8. each languages can also have the following additional attributes:
-	- a number of native `speakers`. Note that this is a number of speakers, thus one needs to account for literacy rate in particular language. This can be a range. To indicate how up to date the number is, a `speakers_date` is provided referring to the publication date of a reference used on Wikipedia.
-	- a `status` which can be `historical`, `constructed`, or `living` (default when the attribute is missing).
-	- `source` is a list of sources used to define the orthographies.
 
 
-The database is stored in a YAML file `data/rosetta.yaml`. Here are two basic examples:
+## Database
 
-### An individual language with one orthography
+The database is stored in the YAML file `hyperglot.yaml`.
+
+
+### Languages
+
+The highest level entries represent languages indexed using the ISO 639-3 code.
+
+A brief note about a special kind of languages, first. [Macrolanguages](https://en.wikipedia.org/wiki/ISO_639_macrolanguage) are used by the ISO standard to keep ISO 639-2 and ISO 639-3 compatible in situations where one language entry was replaced by many. In this database macrolanguages group multiple individual languages. Most of them are not presented in any listings. The individual languages they contain are shown instead. However, in some situations, it is our preference to present some of the macrolanguages as if they were individual languages. This is mainly to simplify the listings or to deal with scarcity of information for the individual languages.
+
+Each language entry can have these attributes which default to empty string or list unless stated otherwise:
+
+- `name` (required): the English name of the language. This is also based on ISO 639-3. 
+- `preferred_name` (optional): an override of the ISO 639-3 name. This is useful when the ISO 639-3 name  is pejorative or racist. We also use this to simplify very long names and where we have a preference (e.g. Sami over Saami).
+- `autonym` (optional): the name of the language in the language itself.
+- `orthographies` (optional): a list of orthographies for this language. They are described below. If missing, it is inherited from a parent macrolanguage if this exist.
+- `includes` (optional) is used for macrolanguages only, contains a list of ISO 639-3 codes referring to the sub-languages of the macrolanguage. See below for a note about macrolanguages.
+- `preferred_as_individual` (optional, defaults to: `false`), used for macrolanguages only: `true` or `false`, indicates that the macrolanguage will be presented exceptionally as single individual language. We use this when there are too many individual sub-languages with insufficient information.
+- `speakers` (optional) is a number of L1 speakers obtained from Wikipedia. Note that this is a number of speakers, thus one needs to account for literacy rate in particular language. This can an integer or a range.
+- `speakers_date` (optional) is the publication date of the reference used for the speakers count on Wikipedia.
+- `status` (required, defaults to `living`) may be one of `historical, constructed, living`.
+- `source` (optional) is a list of source names used to define the orthographies, e.g. Wikipedia, Omniglot, Alvestrand. See below for the complete list.
+- `todo_status` (required, defaults to `todo`): one of `todo, done, confirmed` with the following meaning:
+  - `todo` for unfinished entries which may be used to detect a potential language support with little certainty.
+  - `done` for entries we have checked with at least two sources.
+  - `confirmed` for entries confirmed by a native speaker or a linguist.
+- `note` (optional): a note of any kind.
+
+The attributes starting with `preferred_` are set according to our preference. They can be turned off when using the database via the CLI tool or module to strictly adhere to ISO 639-3.
+
+
+### Orthographies
+
+A language can refer to one or more orthographies. Macrolanguages *typically* do not refer to any. An orthography specifies the script and characters from this script used to represent the language. There can be multiple orthographies for the same language using the same script. Each orthographic entry can have these attributes which default to empty string or list unless stated otherwise:
+
+- `required` (required): a string of characters or combinations of characters that are required to represent the language in common texts. This typically maps to a standard alphabet or syllabary for the language or am approximation of thereof.
+- `auxiliary` (optional): a string of characters or combinations of characters that are not part of the standard alphabet, but appear in very common loan words or in reference literature. Deprecated characters can be included here too, e.g. `ş ţ` for Romanian.
+- `numerals` (optional, defaults to `0123456789`): a string of numeric characters required for this language in this orthography.
+- `autonym` (optional): the name of the language in the language itself using this orthography. If missing, the `autonym` defined in the parent language entry is used.
+- `script` (required): a four-letter Unicode tag referring to a script of this orthography, e.g. Latn, Arab, Cyrl.
+- `status` (required, defaults to `living`): one of: `deprecated, secondary, local, living`. The value `local` refers to an orthography which is used only is specific region.
+- `note` (optional): a note of any kind.
+
+
+### Example of individual language with one orthography
 
 ```
 dan:
@@ -58,7 +85,8 @@ dan:
   todo_status: strong  # status of the database record
 ```
 
-### A macrolanguage
+
+### Example of macrolanguage entry
 
 ```
 fas:
@@ -68,9 +96,12 @@ fas:
   source: [Wikipedia]
 ```
 
-## The fontlang command-line tool
+
+
+## Command-line tool
 
 A simple CLI tool is provided to output language support data for a passed in font file.
+
 
 ### Installation
 
@@ -79,6 +110,7 @@ Install via repo and pip:
 ```
 $ pip install git+https://github.com/rosettatype/langs-db
 ```
+
 
 ### Usage
 
@@ -100,9 +132,11 @@ or to check several fonts at once, or their combined coverage (with `-m union`)
 - `-v, --verbose`: More logging information (default is False)
 - `-V, --version`: Print the version fontlang version number (default is False)
 
+
 ### Validating and sorting the database yaml file
 
 Simple validation and sorting script to verify the data integrity of `data/rosetta.yaml` and point out possible formatting errors is included as `fontlang-validate` (prints problems to terminal) and `fontlang-save` (saves the rosetta.yaml sorted alphabetically by iso keys)
+
 
 ### Development
 
@@ -122,6 +156,7 @@ $ ln data/rosetta.yaml lib/fontlang/rosetta.yaml
 
 It is `lib/fontlang/rosetta.yaml` that gets packages with the `fontlang` CLI command!
 
+
 ## Other databases included in this repo
 
 The following are YAML files distilled from the original data stored in subfolders with corresponding names.
@@ -139,6 +174,7 @@ The following data is not used or used only to build comparisons:
 - `data/other/iana` – from [IANA language subtag registry](https://www.iana.org/assignments/lang-subtags-templates/lang-subtags-templates.xhtml)
 - `data/other/latin-plus` - data from a [Latin-only database compiled by Underware](https://underware.nl/latin_plus/)
 
+
 ## Sources
 
 The main sources we used to build the database are:
@@ -150,7 +186,10 @@ The main sources we used to build the database are:
 
 The autonyms were sourced from Ethnologue, Wikipedia, and Omniglot (in this order preferrably). The speaker counts are from Wikipedia.
 
+
 ## Credits
+
+This project is supported by [Rosetta Type Foundry](http://rosettatype.com).
 
 - David Březina  
 - Sergio Martins  
