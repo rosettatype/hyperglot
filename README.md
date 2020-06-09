@@ -46,7 +46,7 @@ Each language entry can have these attributes which default to empty string or l
 - `preferred_as_individual` (optional, defaults to: `false`), used for macrolanguages only: `true` or `false`, indicates that the macrolanguage will be presented exceptionally as single individual language. We use this when there are too many individual sub-languages with insufficient information.
 - `speakers` (optional) is a number of L1 speakers obtained from Wikipedia. Note that this is a number of speakers, thus one needs to account for literacy rate in particular language. This can an integer or a range.
 - `speakers_date` (optional) is the publication date of the reference used for the speakers count on Wikipedia.
-- `status` (required, defaults to `living`) may be one of `historical, constructed, living`.
+- `status` (required, defaults to `living`) the status of the language, may be one of `historical, constructed, living`.
 - `source` (optional) is a list of source names used to define the orthographies, e.g. Wikipedia, Omniglot, Alvestrand. See below for the complete list.
 - `todo_status` (required, defaults to `todo`): one of `todo, done, confirmed` with the following meaning:
   - `todo` for unfinished entries which may be used to detect a potential language support with little certainty.
@@ -66,7 +66,7 @@ A language can refer to one or more orthographies. Macrolanguages *typically* do
 - `numerals` (optional, defaults to `0123456789`): a string of numeric characters required for this language in this orthography.
 - `autonym` (optional): the name of the language in the language itself using this orthography. If missing, the `autonym` defined in the parent language entry is used.
 - `script` (required): a four-letter Unicode tag referring to a script of this orthography, e.g. Latn, Arab, Cyrl.
-- `status` (required, defaults to `living`): one of: `deprecated, secondary, local, living`. The value `local` refers to an orthography which is used only is specific region.
+- `status` (required, defaults to `living`): the status of the orthography, may be one of: `deprecated, secondary, local, living`. The value `local` refers to an orthography which is used only is specific region.
 - `note` (optional): a note of any kind.
 
 
