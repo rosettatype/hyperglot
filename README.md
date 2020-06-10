@@ -32,9 +32,10 @@ Each language entry can have these attributes which default to empty string or l
 - `speakers_date` (optional) is the publication date of the reference used for the speakers count on Wikipedia.
 - `status` (required, defaults to `living`) the status of the language, may be one of `historical, constructed, living`.
 - `source` (optional) is a list of source names used to define the orthographies, e.g. Wikipedia, Omniglot, Alvestrand. See below for the complete list.
-- `todo_status` (required, defaults to `todo`): one of the following:
-  - `todo` for unfinished entries which may be used to detect a potential language support with little certainty.
-  - `done` for entries we have checked with at least two online sources.
+- `validity` (required, defaults to `todo`): one of the following:
+  - `todo` for unfinished entries which may be used to detect a potential language support with little certainty,
+  - `weak` for entries that are complete but have not been checked, yet,
+  - `done` for entries we have checked with at least two online sources,
   - `verified` for entries confirmed by a native speaker or a linguist.
 - `note` (optional): a note of any kind.
 
@@ -55,7 +56,7 @@ A language can refer to one or more orthographies. An orthography specifies the 
 
 ### Macrolanguages
 
-[Macrolanguages](https://en.wikipedia.org/wiki/ISO_639_macrolanguage) are used in the ISO 639-3 standard to keep it compatible with ISO 639-2 in situations where one language entry in ISO 639-2 corresponds to a group of languages in ISO 639-3. Macrolanguages are typically not used by the Hyperglot’s main database. They are stored in a separate file in `hyperglot_macrolanguages.yaml` for convenience. However, in some situations, it is our preference to include some of the macrolanguages as if they were regular ISO 639-3 languages. This is done to simplify the listings or to deal with scarcity of information for its sub-languages. Besides the same attributes as language entries, macrolanguages can use the following:
+[Macrolanguages](https://en.wikipedia.org/wiki/ISO_639_macrolanguage) are used in the ISO 639-3 standard to keep it compatible with ISO 639-2 in situations where one language entry in ISO 639-2 corresponds to a group of languages in ISO 639-3. Macrolanguages are typically not used by the Hyperglot’s main database. They are stored in a separate file in `other/hyperglot_macrolanguages.yaml` for convenience. However, in some situations, it is our preference to include some of the macrolanguages as if they were regular ISO 639-3 languages. This is done to simplify the listings or to deal with scarcity of information for its sub-languages. Besides the same attributes as language entries, macrolanguages can use the following:
 
 - `includes` (required) contains a list of ISO 639-3 codes referring to sub-languages of the macrolanguage.
 - `preferred_as_individual` (optional, defaults to `false`): set to `true` signifies that the macrolanguage us included in the main database as if it was a regular language.
@@ -88,6 +89,16 @@ fas:
   source: [Wikipedia]
 ```
 
+## Detecting language support
+
+1. A list of codepoints is obtained from a font.
+2. The database can be accessed in two modes:
+- `default` combinations of a base character with mark characters are represented with a single code point where this exists, Codepoints for base characters and combining mark characters from these combinations are also included.
+- `decomposed` all combinations of a base character with mark characters are represented as a codepoint for the base character and individual codepoints for the combining mark characters.
+3. Specified `validity` level is used to filter out language entries according to a user’s preference.
+4. If requested, `base` and `auxiliary` lists of codepoints are combined to achieve more strict criteria.
+5. If a the list of code points in the font includes all code points from the list of codepoints for an orthography of given language, the font is considered to support this language orthography. In listings these may be grouped by scripts.
+
 
 
 ## Command-line tool
@@ -106,11 +117,11 @@ $ pip install git+https://github.com/rosettatype/langs-db
 
 ### Usage
 
-`$ fontlang path/to/font.otf`
+`$ hyperglot path/to/font.otf`
 
 or to check several fonts at once, or their combined coverage (with `-m union`)
 
-`$ fontlang path/to/font.otf path/to/anotherfont.otf ...`
+`$ hyperglot path/to/font.otf path/to/anotherfont.otf ...`
 
 **Additional options**:
 
@@ -122,12 +133,12 @@ or to check several fonts at once, or their combined coverage (with `-m union`)
 - `--include-historical`: option to include languages and orthographies marked as historical (default is False)
 - `--include-constructed`: option to include languages and orthographies that are marked as constructed (default is False)
 - `-v, --verbose`: More logging information (default is False)
-- `-V, --version`: Print the version fontlang version number (default is False)
+- `-V, --version`: Print the version hyperglot version number (default is False)
 
 
 ### Validating and sorting the database yaml file
 
-Simple validation and sorting script to verify the data integrity of `data/rosetta.yaml` and point out possible formatting errors is included as `fontlang-validate` (prints problems to terminal) and `fontlang-save` (saves the rosetta.yaml sorted alphabetically by iso keys)
+Simple validation and sorting script to verify the data integrity of `data/rosetta.yaml` and point out possible formatting errors is included as `hyperglot-validate` (prints problems to terminal) and `hyperglot-save` (saves the rosetta.yaml sorted alphabetically by iso keys)
 
 
 ### Development
@@ -135,36 +146,18 @@ Simple validation and sorting script to verify the data integrity of `data/roset
 To run the script during development without having to constantly reinstall the pip package, you can use:
 
 ```
-$ git clone git@bitbucket.org:rosettatype/fontlang.git && cd fontlang
+$ git clone git@bitbucket.org:rosettatype/hyperglot.git && cd hyperglot
 $ pip install --upgrade --user --editable .
 ```
 
 Additionally, to dynamically link the information in `data/rosetta.yaml` into the python package to be used, link them into the package:
 
 ```
-$ rm lib/fontlang/rosetta.yaml
-$ ln data/rosetta.yaml lib/fontlang/rosetta.yaml
+$ rm lib/hyperglot/rosetta.yaml
+$ ln data/rosetta.yaml lib/hyperglot/rosetta.yaml
 ```
 
-It is `lib/fontlang/rosetta.yaml` that gets packages with the `fontlang` CLI command!
-
-
-## Other databases included in this repo
-
-The following are YAML files distilled from the original data stored in subfolders with corresponding names.
-
-- `other/alvestrand.yaml` – data (indexed by ISO 639-3 codes) scraped from Alvestrand (see Sources below).
-- `other/cldr.yaml` - data (indexed by 4-letter script tags and ISO 639-3 language codes) from Unicode’s CLDR database.
-- `other/iso-639-3.yaml` – data from IS0 639-3 (three-letter codes) with corresponding ISO 639-2 (older three-letter codes) and ISO 639-1 (two-letter codes) where available. Also includes language names and attributes from ISO 639-3.
-- `other/iso-639-3_retirements.yaml` – language codes no longer available in ISO 639-3
-- `other/iso-639-2_collections.yaml` – language collections from ISO 639-2 (no longer available in ISO 639-3)
-- `other/opentype-language-tags.yaml` –OpenType language tags and names with their corresponding ISO 639-3 language codes
-
-The following data is not used or it used only to build comparative previews:
-
-- `other/other/extensis` – character sets compiled by Extensis/WebINK
-- `other/other/iana` – from [IANA language subtag registry](https://www.iana.org/assignments/lang-subtags-templates/lang-subtags-templates.xhtml)
-- `other/other/latin-plus` - data from a [Latin-only database compiled by Underware](https://underware.nl/latin_plus/)
+It is `lib/hyperglot/rosetta.yaml` that gets packages with the `hyperglot` CLI command!
 
 
 ## Sources
@@ -190,3 +183,21 @@ This project is supported by [Rosetta Type Foundry](http://rosettatype.com).
 - Sergio Martins  
 - Johannes Neumeier
 - Toshi Omagari
+
+
+## Other databases included in this repo
+
+The following are YAML files distilled from the original data stored in subfolders with corresponding names.
+
+- `other/alvestrand.yaml` – data (indexed by ISO 639-3 codes) scraped from Alvestrand (see Sources below).
+- `other/cldr.yaml` - data (indexed by 4-letter script tags and ISO 639-3 language codes) from Unicode’s CLDR database.
+- `other/iso-639-3.yaml` – data from IS0 639-3 (three-letter codes) with corresponding ISO 639-2 (older three-letter codes) and ISO 639-1 (two-letter codes) where available. Also includes language names and attributes from ISO 639-3.
+- `other/iso-639-3_retirements.yaml` – language codes no longer available in ISO 639-3
+- `other/iso-639-2_collections.yaml` – language collections from ISO 639-2 (no longer available in ISO 639-3)
+- `other/opentype-language-tags.yaml` –OpenType language tags and names with their corresponding ISO 639-3 language codes
+
+The following data was not used to built the Hyperglot database, but it used to build comparative previews:
+
+- `other/extensis` – character sets compiled by Extensis/WebINK
+- `other/iana` – from [IANA language subtag registry](https://www.iana.org/assignments/lang-subtags-templates/lang-subtags-templates.xhtml)
+- `other/latin-plus` - data from a [Latin-only database compiled by Underware](https://underware.nl/latin_plus/)
