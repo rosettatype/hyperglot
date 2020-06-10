@@ -50,8 +50,7 @@ aat:
     script: Latin
   - autonym: Αρbε̰ρίσ̈τ
     auxiliary: η ψ ω ά έ ή ί ό ύ ώ ϊ ϋ ΐ ΰ
-    base: α β b ϳ γ δ d ε ζ θ ι κ λ μ ν ξ ο π ρ σ ς τ υ φ χ
-    combinations: '{γ̇}{ε̱}{ν̇}{σ̇}{σ̈}{χ̇}{ε̰}'
+    base: α β b ϳ γ δ d ε ζ θ ι κ λ μ ν ξ ο π ρ σ ς τ υ φ χ γ̇ ε̱ ν̇ σ̇ σ̈ χ̇ ε̰
     script: Greek
   source:
   - Omniglot
@@ -715,9 +714,8 @@ azb:
   name: South Azerbaijani
   orthographies:
   - autonym: آذربایجانجا
-    base: ؤ ئ ا خ ع ن پ چ ژ ک گ ۆ ۇ ی ە ݣ ﺏ ﺕ ﺙ ﺝ ﺡ ﺩ ﺫ ﺭ ﺯ ﺱ ﺵ ﺹ ﺽ ﻁ ﻅ ﻍ ﻑ ﻕ ﻝ ﻡ
+    base: وْ ؤ ئ ا خ ع ن پ چ ژ ک گ ۆ ۇ ی ە ݣ ﺏ ﺕ ﺙ ﺝ ﺡ ﺩ ﺫ ﺭ ﺯ ﺱ ﺵ ﺹ ﺽ ﻁ ﻅ ﻍ ﻑ ﻕ ﻝ ﻡ یٛ
       ﻥ ﻩ ﻭ آ ج ب ذ ر
-    combinations: '{یٛ}{وْ}'
     script: Arabic
   - base: a b c d e f g h i j k l m n o p q r s t u v x y z ç ö ü ğ İ ı ş ə
     script: Latin
@@ -1139,8 +1137,7 @@ chu:
   orthographies:
   - autonym: Церковнослове́нскїй
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь ю є ѕ џ ѥ ѩ ѭ
-      ҁ і ї ѡ ѣ ѧ ѫ ѯ ѱ ѳ ѵ ѷ ѻ ѽ ѿ ꙁ ꙋ ꙍ ꙗ ꙃ
-    combinations: '{е́}'
+      ҁ і ї ѡ ѣ ѧ ѫ ѯ ѱ ѳ ѵ ѷ ѻ ѽ ѿ ꙁ ꙋ ꙍ ꙗ ꙃ е́
     script: Cyrillic
   source:
   - Omniglot
@@ -1253,8 +1250,7 @@ cnr:
   name: Montenegrin
   orthographies:
   - autonym: Црногорски
-    base: ́ а б в г д е ж з и к л м н о п р с т у ф х ц ч ш ђ ј љ њ ћ џ
-    combinations: '{з́}{с́}'
+    base: ́ а б в г д е ж з и к л м н о п р с т у ф х ц ч ш ђ ј љ њ ћ џ з́ с́
     script: Cyrillic
     status: secondary
   - autonym: Crnogorski
@@ -1404,8 +1400,7 @@ ddo:
   name: Dido
   orthographies:
   - autonym: Цез
-    base: а б в г д е ж з и й к л м н о п р с т у х ц ч ш э ӏ
-    combinations: '{а̄}'
+    base: а б в г д е ж з и й к л м н о п р с т у х ц ч ш э ӏ а̄
     script: Cyrillic
   source:
   - Omniglot
@@ -1657,8 +1652,7 @@ esu:
   name: Central Yupik
   orthographies:
   - autonym: Yupʼik
-    base: a c g i k l m n p q r s t u v w y ń ə ḿ ͡ ʼ
-    combinations: '{u͡g}{u͡r}'
+    base: a c g i k l m n p q r s t u v w y ń ə ḿ  ͡  ʼ {u͡g} {u͡r}
     script: Latin
   preferred_name: Central Alaskan Yupik
   source:
@@ -1698,8 +1692,7 @@ evn:
   name: Evenki
   orthographies:
   - autonym: Эвэнки
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӈ
-    combinations: '{а̄}{е̄}{ә̄}{о̄}{ы̄}'
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӈ а̄ е̄ ә̄ о̄ ы̄
     script: Cyrillic
   source:
   - Omniglot
@@ -2057,8 +2050,7 @@ gld:
   name: Nanai
   orthographies:
   - autonym: Нанай
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӈ
-    combinations: '{а̄}{е̄}{ӣ}{о̄}{ӯ}{э̄}'
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӈ а̄ е̄ ӣ о̄ ӯ э̄
     script: Cyrillic
   source:
   - Omniglot
@@ -2243,8 +2235,7 @@ hau:
   orthographies:
   - autonym: Hausa
     auxiliary: p q v x y à á â è é ê ì í î ò ó ô ù ú û ʼ ̃
-    base: a b c d e f g h i j k l m n o r s t u w y z ƙ ƴ ɓ ɗ ʼ
-    combinations: '{r̃}'
+    base: a b c d e f g h i j k l m n o r s t u w y z ƙ ƴ ɓ ɗ ʼ r̃
     script: Latin
   source:
   - Omniglot
@@ -2284,8 +2275,7 @@ heb:
   name: Hebrew
   orthographies:
   - autonym: עברית
-    base: א ב ג ד ה ו ז ח ט י כ ך ל מ ם נ ן ס ע פ ף צ ץ ק ר ש ת
-    combinations: '{שׁ}{שׂ}{בּ}{תּ}{כּ}{ךּ}{פּ}{ףּ}{ג׳}{ז׳}{צ׳}{ו׳}{וו}{ד׳}{ת׳}{ח׳}{ר׳}{ע׳}'
+    base: א ב ג ד ה ו ז ח ט י כ ך ל מ ם נ ן ס ע פ ף צ ץ ק ר ש ת שׁ שׂ בּ תּ כּ ךּ פּ ףּ ג׳ ז׳ צ׳ ו׳ וו ד׳ ת׳ ח׳ ר׳ ע׳
     script: Hebrew
   speakers: 9000000
   status: living
@@ -2360,8 +2350,7 @@ huz:
   name: Hunzib
   orthographies:
   - autonym: Гьонкьос
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ӏ ә ȧ ӯ
-    combinations: '{а̄}{е̄}{ә̄}{о̄}{э̄}'
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ӏ ә ȧ ӯ а̄ е̄ ә̄ о̄ э̄
     script: Cyrillic
   source:
   - Omniglot
@@ -2507,8 +2496,7 @@ itl:
   orthographies:
   - autonym: Итэнмэн
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё љ њ ў
-      ҳ ӄ ӆ ӈ ӑ ә ’ ˚
-    combinations: '{о̆}'
+      ҳ ӄ ӆ ӈ ӑ ә ’ ˚ о̆
     script: Cyrillic
   source:
   - Omniglot
@@ -2574,8 +2562,7 @@ jdt:
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
     script: Cyrillic
   - autonym: ז׳אוּהאוּראִ
-    base: א ב ג ד ה ו וּ ז ח י י כ ל מ נ ס ע פ צ ק ר ש ת ׳
-    combinations: '{אִ}{אַ}{אָ}{בּ}{כּ}{פּ}'
+    base: א ב ג ד ה ו וּ ז ח י י כ ל מ נ ס ע פ צ ק ר ש ת ׳ אִ אַ אָ בּ כּ פּ}
     script: Hebrew
     status: secondary
   - autonym: Çuhuri
@@ -2720,8 +2707,7 @@ kca:
   orthographies:
   - autonym: Ханты
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё є ў қ
-      ң ҳ ҷ ӆ ӈ ӑ ӓ ә ӛ ӧ ө ӫ ӱ ԓ
-    combinations: '{ю̆}{я̆}'
+      ң ҳ ҷ ӆ ӈ ӑ ӓ ә ӛ ӧ ө ӫ ӱ ԓ ю̆ я̆
     script: Cyrillic
   source:
   - Omniglot
@@ -2901,8 +2887,7 @@ kjj:
   name: Khinalugh
   orthographies:
   - autonym: Каьтш мицӏ
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ӏ ә
-    combinations: '{а̃}{е̃}{и̃}{о̃}{у̃}{ә̃}'
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ӏ ә а̃ е̃ и̃ о̃ у̃ ә̃
     script: Cyrillic
   source:
   - Omniglot
@@ -3542,8 +3527,7 @@ mns:
   name: Mansi
   orthographies:
   - autonym: Маньси
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӈ ӣ ӯ
-    combinations: '{а̄}{е̄}{о̄}{э̄}{ю̄}{я̄}'
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӈ ӣ ӯ а̄ е̄ о̄ э̄ ю̄ я̄
     script: Cyrillic
   source:
   - Omniglot
@@ -3825,8 +3809,7 @@ nio:
     script: Cyrillic
   - autonym: ня”
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҫ ү ӈ
-      ә ө ”
-    combinations: '{з̌}'
+      ә ө ” з̌
     note: Wikipedia version
     script: Cyrillic
   source:
@@ -3854,8 +3837,7 @@ niv:
   orthographies:
   - autonym: нивх
     base: ʼ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ғ ӄ
-      ӈ ӷ ӻ ӽ ӿ ’
-    combinations: '{р̌}'
+      ӈ ӷ ӻ ӽ ӿ ’ р̌
     script: Cyrillic
   source:
   - Omniglot
@@ -3869,8 +3851,7 @@ nld:
   orthographies:
   - autonym: Nederlands
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z á â ä è é ê ë í ï ó
-      ô ö ú û ü ĳ
-    combinations: '{ȷ́}'
+      ô ö ú û ü ĳ ȷ́
     script: Latin
   source:
   - Omniglot
@@ -4048,8 +4029,7 @@ oaa:
   name: Orok
   orthographies:
   - autonym: Уйльта
-    base: ̄ а б в г д е ж з и й к л м н о п р с т у ф х ч э ј ӈ ӡ ӣ ө ԩ ь
-    combinations: '{а̄}{е̄}{о̄}{ө̄}{э̄}'
+    base: ̄ а б в г д е ж з и й к л м н о п р с т у ф х ч э ј ӈ ӡ ӣ ө ԩ ь а̄ е̄ о̄ ө̄ э̄
     script: Cyrillic
   source:
   - Omniglot
@@ -4605,8 +4585,7 @@ sel:
   orthographies:
   - autonym: Шӧльӄумыт
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё җ ӄ ӈ
-      å ӣ ӧ ө ӭ ӯ ӱ ӷ
-    combinations: '{и̇}'
+      å ӣ ӧ ө ӭ ӯ ӱ ӷ и̇
     script: Cyrillic
   source:
   - Omniglot
@@ -4630,8 +4609,7 @@ sgh:
   name: Shughni
   orthographies:
   - autonym: Хуг̌ну̊н зив
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш ё ғ қ ҳ ҷ ӣ ӯ
-    combinations: '{а̄}{г̌}{у̊}'
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш ё ғ қ ҳ ҷ ӣ ӯ а̄ г̌ у̊
     script: Cyrillic
   source:
   - Omniglot
@@ -4672,8 +4650,7 @@ sjd:
   orthographies:
   - autonym: Кӣллт Са̄мь
     base: а ӓ б в г д е ё ж з һ и ӣ й ј ҋ к л ӆ м ӎ н ӊ ӈ о п р ҏ с т у ӯ ф х ц ч
-      ш щ ъ ы ь ҍ э ӭ ю я ’
-    combinations: '{а̄}{е̄}{ё̄}{ӣ}{о̄}{э̄}{ю̄}{я̄}'
+      ш щ ъ ы ь ҍ э ӭ ю я ’ а̄ е̄ ё̄ ӣ о̄ э̄ ю̄ я̄
     script: Cyrillic
   source:
   - Omniglot
@@ -4698,8 +4675,7 @@ sjt:
   orthographies:
   - autonym: Са̄мькӣлл
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ј ҋ ҍ
-      ҏ һ ӆ ӈ ӊ ӎ ӓ ӭ ӣ ’
-    combinations: '{а̄}'
+      ҏ һ ӆ ӈ ӊ ӎ ӓ ӭ ӣ ’ а̄
     script: Cyrillic
   source:
   - Omniglot
@@ -4712,8 +4688,7 @@ sju:
   orthographies:
   - autonym: Ubmejesámiengiälla
     auxiliary: ū ǖ
-    base: a b d e f g h i j k l m n o p r s t u v y á ä å ï ö ü đ ŋ ŧ
-    combinations: '{å̄l}'
+    base: a b d e f g h i j k l m n o p r s t u v y á ä å ï ö ü đ ŋ ŧ å̄
     script: Latin
   source:
   - Wikipedia
@@ -4936,8 +4911,7 @@ srp:
   name: Serbian
   orthographies:
   - autonym: Српски
-    base: ́ а б в г д е ж з и к л м н о п р с т у ф х ц ч ш ђ ј љ њ ћ џ
-    combinations: '{з́}{с́}'
+    base: ́ а б в г д е ж з и к л м н о п р с т у ф х ц ч ш ђ ј љ њ ћ џ з́ с́
     script: Cyrillic
   - autonym: Srpski
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ć č đ ś š ź ž
@@ -5880,8 +5854,7 @@ ydd:
   name: Eastern Yiddish
   orthographies:
   - autonym: ייִדיש
-    base: א ב ג ד ה ו ז ח ט י כ ך ל מ ם נ ן ס ע פ ף צ ץ ק ר ש ת
-    combinations: '{אָ}{יִ}'
+    base: א ב ג ד ה ו ז ח ט י כ ך ל מ ם נ ן ס ע פ ף צ ץ ק ר ש ת יִ אָ
     script: Hebrew
   speakers: 1500000
   status: living
