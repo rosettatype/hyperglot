@@ -1,29 +1,17 @@
-# Rosetta’s database of languages
+# Hyperglot – Rosetta’s database and tool for detecting language support in fonts
 
-A database of languages and standard characters required for their representation.
+**Warning: this is a work is still in progress and provided AS IS. If you would like to contribute, do get in touch!**
 
-This project started with a seemingly simple question: when can one claim that a font *F* supports a language *L*. This is needed for several reasons:
-
-1. to organize and serve fonts to customers.
-2. to better promote fonts with extensive langauge support.
-3. to build character sets (and glyph sets) before development.
-4. to test fonts, e.g. to heuristically create kerning pairs for consideration.
-5. and probably quite a few reasons unrelated to typeface design.
+Characters are represented using [Unicode](https://unicode.org) code points in digital texts, e.g. the Latin-script letter `a` has a code point `U+0061`. Digital OpenType fonts map these code points to glyphs, visual representations of characters. In order to find whether one can use a font for texts in a particular language, one needs to know which character code points are required for the language. This is what Hyperglot database is for.
 
 A few notes to illustrate why the question of language support is complicated:
 
-1. a single language can be written using different orthographies in one or more scripts.
-2. languages are not isolated, there are loan word, names etc. from other languages.
-3. what one person considers a dialect, is a language for someone else.
-4. different kinds of texts require differnt vocabulary and hence different characters.
+1. a single language can be written using different orthographies in one or more scripts,
+2. languages are not isolated, there are loan word, names etc. from other languages, thus finding what is essential character set for a language is largerly a question of convention,
+3. what one person considers a dialect, is a language for someone else,
+4. different kinds of texts require different vocabulary and hence different characters.
 
-We have decided to take a pragmatic approach and reduce the problem to finding standard character set of each language (typically an official alphabet or syllabary or its approximation) and occassionally we provide a list of auxiliary characters used in reference literature (linguistics) or in very common loan words. In case the script used is bicameral, only lowercase versions of characters are provided with a few exceptions.
-
-We are also providing a command-line tool to automate the analysis of language support
-
-**This is a work in progress provided AS IS. If you want to contribute, do get in touch!**
-
-
+We have decided to take a pragmatic approach and reduce the problem to finding standard character set of each language (typically an official alphabet or syllabary or its approximation) for each orthography it uses. We only occassionally provide a list of auxiliary characters used in reference literature (linguistics) or in very common loan words.
 
 ## Database
 
@@ -34,40 +22,44 @@ The database is stored in the YAML file `hyperglot.yaml`.
 
 The highest level entries represent languages indexed using the ISO 639-3 code.
 
-A brief note about a special kind of languages, first. [Macrolanguages](https://en.wikipedia.org/wiki/ISO_639_macrolanguage) are used by the ISO standard to keep ISO 639-2 and ISO 639-3 compatible in situations where one language entry was replaced by many. In this database macrolanguages group multiple individual languages. Most of them are not presented in any listings. The individual languages they contain are shown instead. However, in some situations, it is our preference to present some of the macrolanguages as if they were individual languages. This is mainly to simplify the listings or to deal with scarcity of information for the individual languages.
-
 Each language entry can have these attributes which default to empty string or list unless stated otherwise:
 
 - `name` (required): the English name of the language. This is also based on ISO 639-3. 
-- `preferred_name` (optional): an override of the ISO 639-3 name. This is useful when the ISO 639-3 name  is pejorative or racist. We also use this to simplify very long names and where we have a preference (e.g. Sami over Saami).
+- `preferred_name` (optional): an override of the ISO 639-3 name. This is useful when the ISO 639-3 name  is pejorative or racist. We also use this to simplify very long names and where we have a preference (e.g. Sami over Saami). This can be turned off when using the database via the CLI tool or module to adhere strictly to ISO 639-3.
 - `autonym` (optional): the name of the language in the language itself.
-- `orthographies` (optional): a list of orthographies for this language. They are described below. If missing, it is inherited from a parent macrolanguage if this exist.
-- `includes` (optional) is used for macrolanguages only, contains a list of ISO 639-3 codes referring to the sub-languages of the macrolanguage. See below for a note about macrolanguages.
-- `preferred_as_individual` (optional, defaults to: `false`), used for macrolanguages only: `true` or `false`, indicates that the macrolanguage will be presented exceptionally as single individual language. We use this when there are too many individual sub-languages with insufficient information.
+- `orthographies` (optional): a list of orthographies for this language. See below.
 - `speakers` (optional) is a number of L1 speakers obtained from Wikipedia. Note that this is a number of speakers, thus one needs to account for literacy rate in particular language. This can an integer or a range.
 - `speakers_date` (optional) is the publication date of the reference used for the speakers count on Wikipedia.
 - `status` (required, defaults to `living`) the status of the language, may be one of `historical, constructed, living`.
 - `source` (optional) is a list of source names used to define the orthographies, e.g. Wikipedia, Omniglot, Alvestrand. See below for the complete list.
-- `todo_status` (required, defaults to `todo`): one of `todo, done, confirmed` with the following meaning:
+- `todo_status` (required, defaults to `todo`): one of the following:
   - `todo` for unfinished entries which may be used to detect a potential language support with little certainty.
-  - `done` for entries we have checked with at least two sources.
-  - `confirmed` for entries confirmed by a native speaker or a linguist.
+  - `done` for entries we have checked with at least two online sources.
+  - `verified` for entries confirmed by a native speaker or a linguist.
 - `note` (optional): a note of any kind.
-
-The attributes starting with `preferred_` are set according to our preference. They can be turned off when using the database via the CLI tool or module to strictly adhere to ISO 639-3.
 
 
 ### Orthographies
 
-A language can refer to one or more orthographies. Macrolanguages *typically* do not refer to any. An orthography specifies the script and characters from this script used to represent the language. There can be multiple orthographies for the same language using the same script. Each orthographic entry can have these attributes which default to empty string or list unless stated otherwise:
+A language can refer to one or more orthographies. An orthography specifies the script and characters from this script used to represent the language. There can be multiple orthographies for the same language using the same script. Each orthographic entry can have these attributes which default to empty string or list unless stated otherwise:
 
-- `required` (required): a string of characters or combinations of characters that are required to represent the language in common texts. This typically maps to a standard alphabet or syllabary for the language or am approximation of thereof.
-- `auxiliary` (optional): a string of characters or combinations of characters that are not part of the standard alphabet, but appear in very common loan words or in reference literature. Deprecated characters can be included here too, e.g. `ş ţ` for Romanian.
+- `base` (required or use `inherit`): a string of space-separated characters or combinations of characters and combining marks that are required to represent the language in common texts. This typically maps to a standard alphabet or syllabary for the language or am approximation of thereof. In case the script used is bicameral, only lowercase versions of characters are provided with a few exceptions, e.g. the Turkish `İ`.
+- `auxiliary` (optional): a string of space-separated characters or combinations of characters and combining marks that are not part of the standard alphabet, but appear in very common loan words or in reference literature. Deprecated characters can be included here too, e.g. `ş ţ` for Romanian.
 - `numerals` (optional, defaults to `0123456789`): a string of numeric characters required for this language in this orthography.
 - `autonym` (optional): the name of the language in the language itself using this orthography. If missing, the `autonym` defined in the parent language entry is used.
-- `script` (required): a four-letter Unicode tag referring to a script of this orthography, e.g. Latn, Arab, Cyrl.
+- `inherit` (required or use `base`): the code of a language to copy the `base` and `auxiliary` strings from. In case the language has multiple orthographies, the first one for the same script is used.
+- `script` (required): English name of the script, e.g. Latin, Arabic, Armenian, Cyrillic, Greek, Hebrew.
 - `status` (required, defaults to `living`): the status of the orthography, may be one of: `deprecated, secondary, local, living`. The value `local` refers to an orthography which is used only is specific region.
 - `note` (optional): a note of any kind.
+
+
+### Macrolanguages
+
+[Macrolanguages](https://en.wikipedia.org/wiki/ISO_639_macrolanguage) are used in the ISO 639-3 standard to keep it compatible with ISO 639-2 in situations where one language entry in ISO 639-2 corresponds to a group of languages in ISO 639-3. Macrolanguages are typically not used by the Hyperglot’s main database. They are stored in a separate file in `hyperglot_macrolanguages.yaml` for convenience. However, in some situations, it is our preference to include some of the macrolanguages as if they were regular ISO 639-3 languages. This is done to simplify the listings or to deal with scarcity of information for its sub-languages. Besides the same attributes as language entries, macrolanguages can use the following:
+
+- `includes` (required) contains a list of ISO 639-3 codes referring to sub-languages of the macrolanguage.
+- `preferred_as_individual` (optional, defaults to `false`): set to `true` signifies that the macrolanguage us included in the main database as if it was a regular language.
+
 
 
 ### Example of individual language with one orthography
@@ -161,30 +153,33 @@ It is `lib/fontlang/rosetta.yaml` that gets packages with the `fontlang` CLI com
 
 The following are YAML files distilled from the original data stored in subfolders with corresponding names.
 
-- `data/alvestrand.yaml` – data (indexed by ISO 639-3 codes) scraped from Alvestrand (see Sources below).
-- `data/cldr.yaml` - data (indexed by 4-letter script tags and ISO 639-3 language codes) from Unicode’s CLDR database.
-- `data/iso-639-3.yaml` – data from IS0 639-3 (three-letter codes) with corresponding ISO 639-2 (older three-letter codes) and ISO 639-1 (two-letter codes) where available. Also includes language names and attributes from ISO 639-3.
-- `data/iso-639-3_retirements.yaml` – language codes no longer available in ISO 639-3
-- `data/iso-639-2_collections.yaml` – language collections from ISO 639-2 (no longer available in ISO 639-3)
-- `data/opentype-language-tags.yaml` –OpenType language tags and names with their corresponding ISO 639-3 language codes
+- `other/alvestrand.yaml` – data (indexed by ISO 639-3 codes) scraped from Alvestrand (see Sources below).
+- `other/cldr.yaml` - data (indexed by 4-letter script tags and ISO 639-3 language codes) from Unicode’s CLDR database.
+- `other/iso-639-3.yaml` – data from IS0 639-3 (three-letter codes) with corresponding ISO 639-2 (older three-letter codes) and ISO 639-1 (two-letter codes) where available. Also includes language names and attributes from ISO 639-3.
+- `other/iso-639-3_retirements.yaml` – language codes no longer available in ISO 639-3
+- `other/iso-639-2_collections.yaml` – language collections from ISO 639-2 (no longer available in ISO 639-3)
+- `other/opentype-language-tags.yaml` –OpenType language tags and names with their corresponding ISO 639-3 language codes
 
-The following data is not used or used only to build comparisons:
+The following data is not used or it used only to build comparative previews:
 
-- `data/other/extensis` – character sets compiled by Extensis/WebINK
-- `data/other/iana` – from [IANA language subtag registry](https://www.iana.org/assignments/lang-subtags-templates/lang-subtags-templates.xhtml)
-- `data/other/latin-plus` - data from a [Latin-only database compiled by Underware](https://underware.nl/latin_plus/)
+- `other/other/extensis` – character sets compiled by Extensis/WebINK
+- `other/other/iana` – from [IANA language subtag registry](https://www.iana.org/assignments/lang-subtags-templates/lang-subtags-templates.xhtml)
+- `other/other/latin-plus` - data from a [Latin-only database compiled by Underware](https://underware.nl/latin_plus/)
 
 
 ## Sources
 
 The main sources we used to build the database are:
 
+- Alvestrand, Harald Tveit. Characters and character sets for various languages. 1995.
+- [Ethnologue](http://ethnologue.org)
+- [ISO 639-3 ](http://iso639-3.sil.org)
+- [Omniglot](http://omniglot.com)
 - [Unicode CLDR](http://unicode.org)
 - [Wikipedia](http://wikipedia.org)
-- [Omniglot](http://omniglot.com)
-- Alvestrand, Harald Tveit. Characters and character sets for various languages. 1995.
 
-The autonyms were sourced from Ethnologue, Wikipedia, and Omniglot (in this order preferrably). The speaker counts are from Wikipedia.
+The autonyms were sourced from Ethnologue, Wikipedia, and Omniglot (in this order preferrably).
+The speaker counts are from Wikipedia.
 
 
 ## Credits
