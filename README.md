@@ -50,7 +50,7 @@ A language can refer to one or more orthographies. An orthography specifies the 
 - `autonym` (optional): the name of the language in the language itself using this orthography. If missing, the `autonym` defined in the parent language entry is used.
 - `inherit` (required or use `base`): the code of a language to copy the `base` and `auxiliary` strings from. In case the language has multiple orthographies, the first one for the same script is used.
 - `script` (required): English name of the script, e.g. Latin, Arabic, Armenian, Cyrillic, Greek, Hebrew.
-- `status` (required, defaults to `living`): the status of the orthography, may be one of: `deprecated, secondary, local, living`. The value `local` refers to an orthography which is used only is specific region.
+- `status` (required, defaults to `living`): the status of the orthography, may be one of: `deprecated, secondary, local, living`. The value `local` refers to an orthography which is used only is specific region. Orthographies with `deprecated` and `secondary` status are included only for the sake of completeness and ignored during language support detection.
 - `note` (optional): a note of any kind.
 
 
@@ -97,7 +97,8 @@ fas:
 - `decomposed` all combinations of a base character with mark characters are represented as a codepoint for the base character and individual codepoints for the combining mark characters.
 3. Specified `validity` level is used to filter out language entries according to a user’s preference.
 4. If requested, `base` and `auxiliary` lists of codepoints are combined to achieve more strict criteria.
-5. If a the list of code points in the font includes all code points from the list of codepoints for an orthography of given language, the font is considered to support this language orthography. In listings these may be grouped by scripts.
+5. Orthographies with `deprecated` or `secondary` status are ignored.
+6. If a the list of code points in the font includes all code points from the list of codepoints for an orthography of given language, the font is considered to support this language orthography. In listings these may be grouped by scripts.
 
 
 
@@ -183,6 +184,13 @@ This project is supported by [Rosetta Type Foundry](http://rosettatype.com).
 - Sergio Martins  
 - Johannes Neumeier
 - Toshi Omagari
+
+## Contributing
+
+A few random notes:
+
+- Languages that are not written should not be included. Obviously.
+- Languages that have some speakers should not be marked as `extinct` even if ISO standard says so.
 
 
 ## Other databases included in this repo

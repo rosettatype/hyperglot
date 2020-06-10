@@ -2,6 +2,14 @@
 
 @Johannes
 
+- [ ] review the README:
+	- detection process
+	- are all attributes listed
+	- are all required attributes really required
+	- do the defaults for the attributes correspond?
+- [ ] I have removed all unnecessary macrolanguages and put them in a separate file. The only ones left are those that are included as individual. Hopefully it makes things simpler. I believe there should be no need for inheritance from a macrolanguage. Can you check this.
+- [ ] how should we handle combinations in {} for Central Yupik? Two characters with a combining mark over them. Aha!!
+- [ ] run analysis of characters in UDHR and compare this to our records, provide an error log
 - [+] set status based on ISO (extinct, historical, …)
 - [+] for orthography, do not inherit autonym, but inherit `numerals` if they exist.
 - [+] add support for `preferred_as_individual: true` (default is false)
@@ -29,25 +37,19 @@ Notes:
 
 @David
 
-Readme notes:
-- are sub-languages included when macrolanguage is `preferred_as_individual`?
-- If a sub-language does not have an orthography defined, it can use one defined for the macrolanguage. If there is one. A macrolanguages are not typically presented.
-- Both `deprecated` and `secondary` are ignored when claiming a support for a particular language and orthography.
-
+- [+] added header with a made up version number to both YAML files
+- [+] separated macrolanguages to a new file in `hyperglot_macrolanguages.yaml`
+- [ ] how to handle combinations in {} for Central Yupik?
+- [ ] double check combinations for Hebrew
 - [ ] add vowel combinations to Russian, Church Slavic, Ukrainian, Montenegrin
-- [ ] note that non-written languages should not generally be included
-
-Ask to check:
-- [ ] Albanian
-- [ ] Hebrew & Yiddish
-- [+] Romanian
-
-Later:
-
-- [ ] languages with some speakers should never be marked extinct
-- [ ] review combinations (are all codepoints combining, …), maybe a better system?
 - [ ] review auxiliary
 - [ ] check Cyrillic orthographies against: https://en.wiktionary.org/wiki/Appendix:Cyrillic_script
+- [ ] add Armenian
+- [ ] when adding Devanagari, include individual Bihari, Dogri, and Konkani languages
+
+Ask externists to check:
+- [ ] Albanian
+- [ ] Hebrew & Yiddish
 
 ## Other
 
@@ -59,5 +61,3 @@ Later:
 - [ ] punctuation used by a language
 	- [ ] include punctuation in checking that an autonym can be spelled in its provided orthography
 - [ ] list OpenType features needed to support a language with a brief note about what the feature should do.
-- [ ] add Armenian
-- [ ] when adding Devanagari, include individual Bihari, Dogri, and Konkani languages
