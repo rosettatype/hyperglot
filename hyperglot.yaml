@@ -1,3 +1,10 @@
+# -----------------------------------------------------------------------------
+#
+#  Hyperglot v0.5
+#  Rosetta’s database and tool for detecting language support in fonts
+#
+# -----------------------------------------------------------------------------
+
 aae:
   name: Arbëreshë Albanian
   orthographies:
@@ -335,12 +342,6 @@ ajp:
   speakers_date: 2014–2016
   status: living
   todo_status: weak
-aka:
-  includes:
-  - fat
-  - twi
-  name: Akan
-  status: living
 aln:
   name: Gheg Albanian
   orthographies:
@@ -461,43 +462,6 @@ aqc:
   speakers_date: 2010
   status: living
   todo_status: strong
-ara:
-  includes:
-  - aao
-  - abh
-  - abv
-  - acm
-  - acq
-  - acw
-  - acx
-  - acy
-  - adf
-  - aeb
-  - aec
-  - afb
-  - ajp
-  - apc
-  - apd
-  - arb
-  - arq
-  - ars
-  - ary
-  - arz
-  - auz
-  - avl
-  - ayh
-  - ayl
-  - ayn
-  - ayp
-  - pga
-  - shu
-  - ssh
-  name: Arabic
-  source:
-  - Wikipedia
-  speakers: 310000000
-  speakers_date: 2011-2016
-  status: living
 arb:
   name: Standard Arabic
   note: The speakers are L2 only (it’s second langauge only).
@@ -673,7 +637,7 @@ ayc:
   name: Southern Aymara
   orthographies:
   - autonym: Aymar
-    inherit: aym
+    inherit: ayr
     script: Latin
   source:
   - Omniglot
@@ -708,24 +672,6 @@ ayl:
   speakers_date: 1998-2006
   status: living
   todo_status: weak
-aym:
-  autonym: Aymar
-  includes:
-  - ayr
-  - ayc
-  name: Aymara
-  orthographies:
-  - autonym: Aymar
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ï ñ ü ’
-    script: Latin
-  preferred_as_individual: true
-  source:
-  - Omniglot
-  - Wikipedia
-  speakers: 1677100
-  speakers_date: 2007-2011
-  status: living
-  todo_status: strong
 ayn:
   name: Sanaani Arabic
   note: Initial, medial, and final forms of the letters and some ligatures are also
@@ -758,7 +704,7 @@ ayr:
   name: Central Aymara
   orthographies:
   - autonym: Aymar
-    inherit: aym
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ï ñ ü ’
     script: Latin
   source:
   - Omniglot
@@ -782,16 +728,7 @@ azb:
   speakers_date: 2016
   status: living
   todo_status: weak
-aze:
-  includes:
-  - azj
-  - azb
-  - slq
-  - qxq
-  name: Azerbaijani
-  speakers: 23000000
-  speakers_date: 2018
-  status: living
+
 azj:
   name: North Azerbaijani
   orthographies:
@@ -1010,13 +947,6 @@ bre:
   speakers_date: 2018
   status: living
   todo_status: strong
-bua:
-  includes:
-  - bxu
-  - bxm
-  - bxr
-  name: Buriat
-  status: living
 buc:
   autonym: Kibushi
   name: Bushi
@@ -1497,14 +1427,6 @@ deh:
   speakers_date: 2004
   status: living
   todo_status: weak
-del:
-  includes:
-  - umu
-  - unm
-  name: Delaware
-  speakers: 2
-  speakers_date: 2018
-  status: living
 deu:
   name: German
   orthographies:
@@ -1583,12 +1505,6 @@ dng:
   speakers: 110000
   status: living
   todo_status: weak
-doi:
-  includes:
-  - dgo
-  - xnr
-  name: Dogri (macrolanguage)
-  status: living
 dsb:
   name: Lower Sorbian
   orthographies:
@@ -1737,12 +1653,6 @@ ess:
   speakers_date: 2010
   status: living
   todo_status: strong
-est:
-  includes:
-  - ekk
-  - vro
-  name: Estonian
-  status: living
 esu:
   name: Central Yupik
   orthographies:
@@ -1842,16 +1752,6 @@ fao:
   speakers_date: 2007
   status: living
   todo_status: strong
-fas:
-  includes:
-  - pes
-  - prs
-  name: Persian
-  source:
-  - Wikipedia
-  speakers: 70000000
-  speakers_date: 2019
-  status: living
 fat:
   name: Fanti
   orthographies:
@@ -2032,19 +1932,6 @@ fui:
   - CLDR
   status: living
   todo_status: strong
-ful:
-  includes:
-  - fuc
-  - fuf
-  - ffm
-  - fue
-  - fuh
-  - fuq
-  - fuv
-  - fub
-  - fui
-  name: Fulah
-  status: living
 fuq:
   name: Central-Eastern Niger Fulfulde
   note: Niger
@@ -3106,20 +2993,6 @@ koi:
   speakers_date: 2010
   status: living
   todo_status: strong
-kok:
-  includes:
-  - gom
-  - knn
-  name: Konkani (macrolanguage)
-  status: living
-kom:
-  includes:
-  - koi
-  - kpv
-  name: Komi
-  speakers: 223000
-  speakers_date: 2010
-  status: living
 kon:
   autonym: Kikongo
   includes:
@@ -3265,13 +3138,6 @@ kum:
   speakers_date: 2010
   status: living
   todo_status: weak
-kur:
-  includes:
-  - ckb
-  - kmr
-  - sdh
-  name: Kurdish
-  status: living
 kwy:
   name: San Salvador Kongo
   orthographies:
@@ -3307,12 +3173,6 @@ lat:
   speakers: 0
   status: ancient
   todo_status: done
-lav:
-  includes:
-  - ltg
-  - lvs
-  name: Latvian
-  status: living
 lbe:
   name: Lak
   orthographies:
@@ -3717,12 +3577,6 @@ moh:
   speakers_date: 2011-2016
   status: living
   todo_status: strong
-mon:
-  includes:
-  - khk
-  - mvf
-  name: Mongolian
-  status: living
 mqm:
   name: South Marquesan
   note: The number of speakers is estimate, a half of total Marquesan language speakers
@@ -3777,48 +3631,6 @@ mrq:
   speakers_date: 2007
   status: living
   todo_status: weak
-msa:
-  includes:
-  - bjn
-  - btj
-  - bve
-  - bvu
-  - coa
-  - dup
-  - hji
-  - ind
-  - jak
-  - jax
-  - kvb
-  - kvr
-  - kxd
-  - lce
-  - lcf
-  - liw
-  - max
-  - meo
-  - mfa
-  - mfb
-  - min
-  - mqg
-  - msi
-  - mui
-  - orn
-  - ors
-  - pel
-  - pse
-  - tmw
-  - urk
-  - vkk
-  - vkt
-  - xmm
-  - zlm
-  - zmi
-  - zsm
-  name: Malay (macrolanguage)
-  speakers: 200000000–250000000
-  speakers_date: 2009
-  status: living
 mua:
   name: Mundang
   orthographies:
@@ -3990,12 +3802,6 @@ nds:
   speakers: 6700000
   status: living
   todo_status: weak
-nep:
-  includes:
-  - dty
-  - npi
-  name: Nepali (macrolanguage)
-  status: living
 nhn:
   name: Central Nahuatl
   orthographies:
@@ -4289,20 +4095,6 @@ orc:
   speakers_date: 2009
   status: living
   todo_status: strong
-ori:
-  includes:
-  - ory
-  - spv
-  name: Oriya (macrolanguage)
-  status: living
-orm:
-  includes:
-  - gax
-  - gaz
-  - hae
-  - orc
-  name: Oromo
-  status: living
 oss:
   name: Ossetian
   orthographies:
@@ -4462,7 +4254,7 @@ prs:
   speakers: 12500000
   speakers_date: 2000-2011
   status: living
-  todo_status: done
+  todo_status: weak
 que:
   includes:
   - qub
@@ -5096,14 +4888,6 @@ spa:
   speakers_date: 2019
   status: living
   todo_status: strong
-sqi:
-  includes:
-  - aae
-  - aat
-  - aln
-  - als
-  name: Albanian
-  status: living
 srd:
   includes:
   - sdc
@@ -5189,22 +4973,6 @@ sun:
   - Wikipedia
   speakers: 40000000
   speakers_date: 2016
-  status: living
-  todo_status: strong
-swa:
-  includes:
-  - swc
-  - swh
-  - ymk
-  - wmw
-  name: Swahili (macrolanguage)
-  note: Speaker counts estimate between 2 and 150 million.
-  source:
-  - Omniglot
-  - Wikipedia
-  - CLDR
-  speakers: 150000000
-  speakers_date: 2012
   status: living
   todo_status: strong
 swc:
@@ -5723,16 +5491,6 @@ uum:
   speakers_date: 2000
   status: living
   todo_status: strong
-uzb:
-  includes:
-  - uzn
-  - uzs
-  name: Uzbek
-  source:
-  - Wikipedia
-  speakers: 31200000
-  speakers_date: 2015-2017
-  status: living
 uzn:
   name: Northern Uzbek
   orthographies:
@@ -6128,15 +5886,6 @@ ydd:
   speakers: 1500000
   status: living
   todo_status: weak
-yid:
-  includes:
-  - ydd
-  - yih
-  name: Yiddish
-  source:
-  - Wikipedia
-  speakers: 1500000
-  status: living
 yih:
   name: Western Yiddish
   orthographies:
@@ -6365,13 +6114,3 @@ zun:
   speakers_date: 2015
   status: living
   todo_status: weak
-zza:
-  includes:
-  - kiu
-  - diq
-  name: Zaza
-  source:
-  - Wikipedia
-  speakers: 1600000
-  speakers_date: 1998
-  status: living

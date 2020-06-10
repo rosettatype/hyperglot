@@ -1,0 +1,505 @@
+# -----------------------------------------------------------------------------
+#
+#  Hyperglot macrolanguages v0.5
+#  Rosetta’s database and tool for detecting language support in fonts
+#
+# -----------------------------------------------------------------------------
+
+aka:
+  includes:
+  - fat
+  - twi
+  name: Akan
+  status: living
+ara:
+  includes:
+  - aao
+  - abh
+  - abv
+  - acm
+  - acq
+  - acw
+  - acx
+  - acy
+  - adf
+  - aeb
+  - aec
+  - afb
+  - ajp
+  - apc
+  - apd
+  - arb
+  - arq
+  - ars
+  - ary
+  - arz
+  - auz
+  - avl
+  - ayh
+  - ayl
+  - ayn
+  - ayp
+  - pga
+  - shu
+  - ssh
+  name: Arabic
+  source:
+  - Wikipedia
+  speakers: 310000000
+  speakers_date: 2011-2016
+  status: living
+aym:
+  autonym: Aymar
+  includes:
+  - ayr
+  - ayc
+  name: Aymara
+  source:
+  - Omniglot
+  - Wikipedia
+  speakers: 1677100
+  speakers_date: 2007-2011
+  status: living
+aze:
+  includes:
+  - azj
+  - azb
+  - slq
+  - qxq
+  name: Azerbaijani
+  speakers: 23000000
+  speakers_date: 2018
+  status: living
+bal:
+  includes:
+  - bgp
+  - bgn
+  - bcc
+  name: Baluchi
+  preferred_as_individual: true
+  preferred_name: Balochi
+  source:
+  - Wikipedia
+  speakers: 7600000
+  speakers_date: 2007
+  status: living
+bik:
+  includes:
+  - bcl
+  - bhk
+  - bln
+  - bto
+  - cts
+  - fbl
+  - lbl
+  - rbl
+  - ubl
+  name: Bikol
+  preferred_as_individual: true
+  source:
+  - Omniglot
+  - Wikipedia
+  speakers: 78000
+  speakers_date: 2000
+  status: living
+bua:
+  includes:
+  - bxu
+  - bxm
+  - bxr
+  name: Buriat
+  status: living
+del:
+  includes:
+  - umu
+  - unm
+  name: Delaware
+  speakers: 2
+  speakers_date: 2018
+  status: living
+doi:
+  includes:
+  - dgo
+  - xnr
+  name: Dogri (macrolanguage)
+  status: living
+est:
+  includes:
+  - ekk
+  - vro
+  name: Estonian
+  status: living
+fas:
+  includes:
+  - pes
+  - prs
+  name: Persian
+  source:
+  - Wikipedia
+  speakers: 70000000
+  speakers_date: 2019
+  status: living
+ful:
+  includes:
+  - fuc
+  - fuf
+  - ffm
+  - fue
+  - fuh
+  - fuq
+  - fuv
+  - fub
+  - fui
+  name: Fulah
+  status: living
+kln:
+  includes:
+  - enb
+  - eyo
+  - niq
+  - oki
+  - pko
+  - sgc
+  - spy
+  - tec
+  - tuy
+  name: Kalenjin
+  note: A cluster of Nandi–Markweta dialects/languages. 18% of the population of Kenya.
+  preferred_as_individual: true
+  source:
+  - Wikipedia
+  - CLDR
+  speakers: 8561574
+  status: living
+kon:
+  autonym: Kikongo
+  includes:
+  - kng
+  - ldi
+  - kwy
+  - yom
+  name: Kongo
+  note: Speaker count for all included languages.
+  preferred_as_individual: true
+  source:
+  - Wikipedia
+  speakers: 6500000
+  speakers_date: 1982-2012
+  status: living
+kok:
+  includes:
+  - gom
+  - knn
+  name: Konkani (macrolanguage)
+  status: living
+kom:
+  includes:
+  - koi
+  - kpv
+  name: Komi
+  speakers: 223000
+  speakers_date: 2010
+  status: living
+kur:
+  includes:
+  - ckb
+  - kmr
+  - sdh
+  name: Kurdish
+  status: living
+lav:
+  includes:
+  - ltg
+  - lvs
+  name: Latvian
+  status: living
+mlg:
+  includes:
+  - bhr
+  - bmm
+  - bzc
+  - msh
+  - plt
+  - skg
+  - tdx
+  - tkg
+  - txy
+  - xmv
+  - xmw
+  name: Malagasy
+  source:
+  - Omniglot
+  - Wikipedia
+  - CLDR
+  speakers: 25000000
+  speakers_date: 2015
+  status: living
+  preferred_as_individual: true
+mon:
+  includes:
+  - khk
+  - mvf
+  name: Mongolian
+  status: living
+msa:
+  includes:
+  - bjn
+  - btj
+  - bve
+  - bvu
+  - coa
+  - dup
+  - hji
+  - ind
+  - jak
+  - jax
+  - kvb
+  - kvr
+  - kxd
+  - lce
+  - lcf
+  - liw
+  - max
+  - meo
+  - mfa
+  - mfb
+  - min
+  - mqg
+  - msi
+  - mui
+  - orn
+  - ors
+  - pel
+  - pse
+  - tmw
+  - urk
+  - vkk
+  - vkt
+  - xmm
+  - zlm
+  - zmi
+  - zsm
+  name: Malay (macrolanguage)
+  speakers: 200000000–250000000
+  speakers_date: 2009
+  status: living
+nep:
+  includes:
+  - dty
+  - npi
+  name: Nepali (macrolanguage)
+  status: living
+nor:
+  autonym: Norsk
+  includes:
+  - nno
+  - nob
+  name: Norwegian
+  preferred_as_individual: true
+  source:
+  - Omniglot
+  - Wikipedia
+  - CLDR
+  speakers: 4320000
+  speakers_date: 2012
+  status: living
+ori:
+  includes:
+  - ory
+  - spv
+  name: Oriya (macrolanguage)
+  status: living
+orm:
+  includes:
+  - gax
+  - gaz
+  - hae
+  - orc
+  name: Oromo
+  status: living
+que:
+  includes:
+  - qub
+  - qud
+  - quf
+  - qug
+  - quh
+  - quk
+  - qul
+  - qup
+  - qur
+  - qus
+  - quw
+  - qux
+  - quy
+  - quz
+  - qva
+  - qvc
+  - qve
+  - qvh
+  - qvi
+  - qvj
+  - qvl
+  - qvm
+  - qvn
+  - qvo
+  - qvp
+  - qvs
+  - qvw
+  - qvz
+  - qwa
+  - qwc
+  - qwh
+  - qws
+  - qxa
+  - qxc
+  - qxh
+  - qxl
+  - qxn
+  - qxo
+  - qxp
+  - qxr
+  - qxt
+  - qxu
+  - qxw
+  name: Quechua
+  orthographies:
+  preferred_as_individual: true
+  source:
+  - Omniglot
+  - Wikipedia
+  speakers: 10000000
+  speakers_date: 2004
+  status: living
+sqi:
+  includes:
+  - aae
+  - aat
+  - aln
+  - als
+  name: Albanian
+  status: living
+swa:
+  includes:
+  - swc
+  - swh
+  - ymk
+  - wmw
+  name: Swahili (macrolanguage)
+  note: Speaker counts estimate between 2 and 150 million.
+  source:
+  - Omniglot
+  - Wikipedia
+  - CLDR
+  speakers: 150000000
+  speakers_date: 2012
+  status: living
+srd:
+  includes:
+  - sdc
+  - sdn
+  - src
+  - sro
+  name: Sardinian
+  preferred_as_individual: true
+  source:
+  - Omniglot
+  speakers: 1350000
+  speakers_date: 2016
+  status: living
+uzb:
+  includes:
+  - uzn
+  - uzs
+  name: Uzbek
+  source:
+  - Wikipedia
+  speakers: 31200000
+  speakers_date: 2015-2017
+  status: living
+yid:
+  includes:
+  - ydd
+  - yih
+  name: Yiddish
+  source:
+  - Wikipedia
+  speakers: 1500000
+  status: living
+zap:
+  includes:
+  - zaa
+  - zab
+  - zac
+  - zad
+  - zae
+  - zaf
+  - zai
+  - zam
+  - zao
+  - zaq
+  - zar
+  - zas
+  - zat
+  - zav
+  - zaw
+  - zax
+  - zca
+  - zoo
+  - zpa
+  - zpb
+  - zpc
+  - zpd
+  - zpe
+  - zpf
+  - zpg
+  - zph
+  - zpi
+  - zpj
+  - zpk
+  - zpl
+  - zpm
+  - zpn
+  - zpo
+  - zpp
+  - zpq
+  - zpr
+  - zps
+  - zpt
+  - zpu
+  - zpv
+  - zpw
+  - zpx
+  - zpy
+  - zpz
+  - zsr
+  - zte
+  - ztg
+  - ztl
+  - ztm
+  - ztn
+  - ztp
+  - ztq
+  - zts
+  - ztt
+  - ztu
+  - ztx
+  - zty
+  name: Zapotec
+  preferred_as_individual: true
+  source:
+  - Omniglot
+  - Wikipedia
+  speakers: 450000
+  speakers_date: 2010
+  status: living
+zza:
+  includes:
+  - kiu
+  - diq
+  name: Zaza
+  source:
+  - Wikipedia
+  speakers: 1600000
+  speakers_date: 1998
+  status: living
