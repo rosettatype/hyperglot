@@ -5,7 +5,7 @@ import yaml
 import logging
 import re
 import unicodedata2
-from . import DB
+from . import DB, VALIDITY
 
 
 def parse_combinations(comb):
@@ -169,14 +169,14 @@ class Language(dict):
 
         return False
 
-    def has_support(self, chars, pruneOrthographies=True):
+    def has_support(self, chars, level="base", pruneOrthographies=True):
         """
         Return a dict with language support based on the passed in chars
 
         @param chars set: Set of chars to check against
         @param pruneOthographies bool: Flag to remove non-supported
             orthographies from this Language object
-        @return dict: Dict sorted by 1) script 2) support level 3) list of isos
+        @return dict: Dict sorted by 1) script 2) list of isos
         """
         support = {}
         if "orthographies" not in self:
@@ -191,26 +191,34 @@ class Language(dict):
                                 " because it has no 'script'" % self.iso)
                 continue
 
+            # Any support check needs 'base'
             if "base" in ort:
                 script = ort["script"]
                 base = parse_chars(ort["base"])
                 if base.issubset(chars):
                     if script not in support:
-                        support[script] = {}
-                    if "base" not in support[script]:
-                        support[script]["base"] = []
+                        support[script] = []
 
-                    support[script]["base"].append(self.iso)
-                    supported = True
+                    support[script].append(self.iso)
 
-                    # Only check aux if base is supported also
-                    if "auxiliary" in ort:
-                        aux = parse_chars(ort["auxiliary"])
-                        if aux.issubset(chars):
-                            if "auxiliary" not in support[script]:
-                                support[script]["auxiliary"] = []
+                    if level == "base":
+                        supported = True
 
-                            support[script]["auxiliary"].append(self.iso)
+                    # Only check aux if base is supported to begin with
+                    # and level is "aux"
+                    if level == "aux":
+                        if "auxiliary" in ort:
+                            aux = parse_chars(ort["auxiliary"])
+                            if aux.issubset(chars):
+                                if "auxiliary" not in support[script]:
+                                    support[script]["auxiliary"] = []
+
+                                support[script]["auxiliary"].append(self.iso)
+                                supported = True
+                        else:
+                            # aux level requested, but orthography has no such
+                            # attribute, meaning there is no required chars to
+                            # quality for "aux" support, thus return true
                             supported = True
             if supported:
                 pruned.append(ort)
@@ -336,7 +344,7 @@ class Languages(dict):
                         # separate
                         self[lang]["orthographies"] = m["orthographies"].copy()
 
-    def get_support_from_chars(self, chars,
+    def get_support_from_chars(self, chars, validity=VALIDITY[1],
                                includeHistorical=False,
                                includeConstructed=False,
                                pruneOrthographies=True):
@@ -346,9 +354,15 @@ class Languages(dict):
         for lang in self:
             l = Language(self[lang], lang)  # noqa, let's keep l short
 
-            if "todo_status" in l and "todo_status" == "todo":
-                logging.info("Skipping language '%s' with 'todo' status" %
-                             lang)
+            if "validity" not in l:
+                logging.info("Skipping langauge '%s' which is missing "
+                             "'validity'" % lang)
+                continue
+
+            # Skip languages below the currently selected validity level
+            if VALIDITY.index(l["validity"]) < VALIDITY.index(validity):
+                logging.info("Skipping language '%s' which has lower "
+                             "'validity'" % lang)
                 continue
 
             if includeHistorical and l.is_historical():
@@ -368,17 +382,24 @@ class Languages(dict):
             # Do the support check on the Language level, and with the prune
             # flag the resulting Language object will have only those
             # orthographies that are supported with chars
-            lang_sup = l.has_support(chars, pruneOrthographies)
+            lang_sup = l.has_support(chars, "base", pruneOrthographies)
+            # print("LANG_SUP", lang_sup)
 
-            for script, levels in lang_sup.items():
+            for script in lang_sup:
                 if script not in support.keys():
                     support[script] = {}
-
-                for level, isos in levels.items():
-                    if level not in support[script]:
-                        support[script][level] = {}
-
+                
+                # print(script, lang_sup)
+                for script, isos in lang_sup.items():
+                    # print("ISOS", isos)
                     for iso in isos:
-                        support[script][level][iso] = l
+                        support[script][iso] = l
+
+                # for level, isos in levels.items():
+                #     if level not in support[script]:
+                #         support[script][level] = {}
+
+                #     for iso in isos:
+                #         support[script][level][iso] = l
 
         return support

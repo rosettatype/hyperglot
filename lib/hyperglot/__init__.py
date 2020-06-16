@@ -10,3 +10,5 @@ SUPPORTLEVELS = {
     "base": "base",
     "aux": "auxiliary"
 }
+
+VALIDITY = ["todo", "weak", "done", "verified"]

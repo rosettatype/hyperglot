@@ -2,6 +2,7 @@
 
 ## 0.2.0 (WIP)
 - TWEAK: Renamed module and database to `hyperglot`
+- TWEAK: `--strict-support` refactored to `--validity` with default `weak` to pick the level of required validity on the languages that should get matched
 
 ## 0.1.14 (27.5.2020)
 - FIX: Refined character parsing to also include the encoded form of any decomposable glyphs

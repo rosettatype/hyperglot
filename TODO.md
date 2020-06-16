@@ -16,7 +16,8 @@
 	- [ ] Confirm default behaviour of extracting bases and marks from all charset characters, check precomposed codepoints where they exists, bases and marks too
 	- [ ] Disregard precomposed codepoints and require only extracted bases + marks
 - [ ] Confirm CLI --support for "base/aux"
-- [ ] Implement CLI --validity so users can choose a level over the default
+- [+] Implement CLI --validity so users can choose a level over the default
+- [ ] Refactor `save` script to remove redundant combining marks which are already implicitly listed via base+mark combinations
 - [+] Implement "hyperglot" rename to database file and module
 - [+] set status based on ISO (extinct, historical, …)
 - [+] for orthography, do not inherit autonym, but inherit `numerals` if they exist.
