@@ -1,4 +1,7 @@
-# A changelog for the lib/fontlang CLI tool
+# A changelog for the lib/hyperglot CLI tool
+
+## 0.2.0 (WIP)
+- TWEAK: Renamed module and database to `hyperglot`
 
 ## 0.1.14 (27.5.2020)
 - FIX: Refined character parsing to also include the encoded form of any decomposable glyphs

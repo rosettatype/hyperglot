@@ -16,7 +16,7 @@
 	- [ ] Disregard precomposed codepoints and require only extracted bases + marks
 - [ ] Confirm CLI --support for "base/aux"
 - [ ] Implement CLI --validity so users can choose a level over the default
-- [ ] Implement "hyperglot" rename to database file and module
+- [+] Implement "hyperglot" rename to database file and module
 - [+] set status based on ISO (extinct, historical, …)
 - [+] for orthography, do not inherit autonym, but inherit `numerals` if they exist.
 - [+] add support for `preferred_as_individual: true` (default is false)

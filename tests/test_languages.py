@@ -1,7 +1,7 @@
 """
 A humble start is better than none
 """
-from fontlang.languages import parse_chars
+from hyperglot.languages import parse_chars
 
 
 def test_parse_chars():
