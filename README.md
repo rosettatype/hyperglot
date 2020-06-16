@@ -7,7 +7,7 @@ Characters are represented using [Unicode](https://unicode.org) code points in d
 A few notes to illustrate why the question of language support is complicated:
 
 1. a single language can be written using different orthographies in one or more scripts,
-2. languages are not isolated, there are loan word, names etc. from other languages, thus finding what is essential character set for a language is largerly a question of convention,
+2. languages are not isolated, there are loan words, names etc. from other languages, thus finding what is an essential character set for a language is largerly a question of convention,
 3. what one person considers a dialect, is a language for someone else,
 4. different kinds of texts require different vocabulary and hence different characters.
 
@@ -42,7 +42,7 @@ Each language entry can have these attributes which default to empty string or l
 
 ### Orthographies
 
-A language can refer to one or more orthographies. An orthography specifies the script and characters from this script used to represent the language. There can be multiple orthographies for the same language using the same script. Each orthographic entry can have these attributes which default to empty string or list unless stated otherwise:
+A language can refer to one or more orthographies. An orthography specifies the script and characters from this script used to represent the language. There can be multiple orthographies for the same language using the same or different scripts. Each orthographic entry can have these attributes which default to an empty string or list unless stated otherwise:
 
 - `base` (required or use `inherit`): a string of space-separated characters or combinations of characters and combining marks that are required to represent the language in common texts. This typically maps to a standard alphabet or syllabary for the language or am approximation of thereof. In case the script used is bicameral, only lowercase versions of characters are provided with a few exceptions, e.g. the Turkish `İ`.
 - `auxiliary` (optional): a string of space-separated characters or combinations of characters and combining marks that are not part of the standard alphabet, but appear in very common loan words or in reference literature. Deprecated characters can be included here too, e.g. `ş ţ` for Romanian.
@@ -71,7 +71,7 @@ dan:
   - base: a b c d e f g h i j k l m n o p q r s t u v w x y z å æ ø
     auxiliary: ǻ  # this character is used only in linguistic literature for Danish
     autonym: Dansk
-    script: Latn
+    script: Latin
   name: Danish
   speakers: 6000000
   source: [Omniglot, Wikipedia, CLDR]
@@ -98,7 +98,7 @@ fas:
 3. Specified `validity` level is used to filter out language entries according to a user’s preference.
 4. If requested, `base` and `auxiliary` lists of codepoints are combined to achieve more strict criteria.
 5. Orthographies with `deprecated` or `secondary` status are ignored.
-6. If a the list of code points in the font includes all code points from the list of codepoints for an orthography of given language, the font is considered to support this language orthography. In listings these may be grouped by scripts.
+6. If the list of code points in the font includes all code points from the list of codepoints for an orthography of given language, the font is considered to support this language orthography. In listings these may be grouped by scripts.
 
 
 
@@ -112,7 +112,7 @@ A simple CLI tool is provided to output language support data for a passed in fo
 Install via repo and pip:
 
 ```
-$ pip install git+https://github.com/rosettatype/langs-db
+$ pip install git+https://github.com/rosettatype/hyperglot
 ```
 
 
@@ -129,7 +129,7 @@ or to check several fonts at once, or their combined coverage (with `-m union`)
 - `-s, --support`: Specify what level of support to check against (currently options are "base" (default if omitted) or "aux")
 - `-a, --autonyms`: Output the language names in their native language and script
 - `-u, --users`: Also output language user count (where available)
-- `-o, --output`: Supply a file path to write the output to, in yaml format. For a single input font this will be a subset of rosetta.yaml with the languages and orthographies that the font supports. If several fonts are provided the yaml file will have a top level dict key for each file. If the `-m` option is provided the yaml file will contain the specific intersection or union result
+- `-o, --output`: Supply a file path to write the output to, in yaml format. For a single input font this will be a subset of the Hyperglot database with the languages and orthographies that the font supports. If several fonts are provided the yaml file will have a top level dict key for each file. If the `-m` option is provided the yaml file will contain the specific intersection or union result
 - `-m, --mode`: How to process input if several files are provided (currently options are "individual", "union" and "intersection")
 - `--include-historical`: option to include languages and orthographies marked as historical (default is False)
 - `--include-constructed`: option to include languages and orthographies that are marked as constructed (default is False)
@@ -139,7 +139,7 @@ or to check several fonts at once, or their combined coverage (with `-m union`)
 
 ### Validating and sorting the database yaml file
 
-Simple validation and sorting script to verify the data integrity of `data/rosetta.yaml` and point out possible formatting errors is included as `hyperglot-validate` (prints problems to terminal) and `hyperglot-save` (saves the rosetta.yaml sorted alphabetically by iso keys)
+Simple validation and sorting script to verify the data integrity of `hyperglot.yaml` and point out possible formatting errors is included as `hyperglot-validate` (prints problems to terminal) and `hyperglot-save` (saves the hyperglot.yaml sorted alphabetically by iso keys)
 
 
 ### Development
@@ -147,18 +147,18 @@ Simple validation and sorting script to verify the data integrity of `data/roset
 To run the script during development without having to constantly reinstall the pip package, you can use:
 
 ```
-$ git clone git@bitbucket.org:rosettatype/hyperglot.git && cd hyperglot
+$ git clone https://github.com/rosettatype/hyperglot.git && cd hyperglot
 $ pip install --upgrade --user --editable .
 ```
 
-Additionally, to dynamically link the information in `data/rosetta.yaml` into the python package to be used, link them into the package:
+Additionally, to dynamically link the information in `hyperglot.yaml` into the python package to be used, link them into the package:
 
 ```
-$ rm lib/hyperglot/rosetta.yaml
-$ ln data/rosetta.yaml lib/hyperglot/rosetta.yaml
+$ rm lib/hyperglot/hyperglot.yaml
+$ ln hyperglot.yaml lib/hyperglot/hyperglot.yaml
 ```
 
-It is `lib/hyperglot/rosetta.yaml` that gets packages with the `hyperglot` CLI command!
+NOTE: It is `lib/hyperglot/hyperglot.yaml` that gets packages with the `hyperglot` CLI command!
 
 
 ## Sources

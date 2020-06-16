@@ -10,6 +10,13 @@
 - [ ] I have removed all unnecessary macrolanguages and put them in a separate file. The only ones left are those that are included as individual. Hopefully it makes things simpler. I believe there should be no need for inheritance from a macrolanguage. Can you check this.
 - [ ] how should we handle combinations in {} for Central Yupik? Two characters with a combining mark over them. Aha!!
 - [ ] run analysis of characters in UDHR and compare this to our records, provide an error log
+- [ ] check script adheres to README re "Orthographies with `deprecated` and `secondary` status are included only for the sake of completeness and ignored during language support detection."
+- [ ] review and refactor decomposition rules and flags based on input charset:
+	- [ ] Confirm default behaviour of extracting bases and marks from all charset characters, check precomposed codepoints where they exists, bases and marks too
+	- [ ] Disregard precomposed codepoints and require only extracted bases + marks
+- [ ] Confirm CLI --support for "base/aux"
+- [ ] Implement CLI --validity so users can choose a level over the default
+- [ ] Implement "hyperglot" rename to database file and module
 - [+] set status based on ISO (extinct, historical, …)
 - [+] for orthography, do not inherit autonym, but inherit `numerals` if they exist.
 - [+] add support for `preferred_as_individual: true` (default is false)
