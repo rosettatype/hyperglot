@@ -1652,7 +1652,7 @@ esu:
   name: Central Yupik
   orthographies:
   - autonym: Yupʼik
-    base: a c g i k l m n p q r s t u v w y ń ə ḿ  ͡  ʼ {u͡g} {u͡r}
+    base: a c g i k l m n p q r s t u v w y ń ə ḿ u͡g u͡r ʼ
     script: Latin
   preferred_name: Central Alaskan Yupik
   source:
