@@ -100,7 +100,8 @@ class Language(dict):
 
         return False
 
-    def has_support(self, chars, level="base", pruneOrthographies=True):
+    def has_support(self, chars, level="base", decomposed=False,
+                    pruneOrthographies=True):
         """
         Return a dict with language support based on the passed in chars
 
@@ -125,7 +126,8 @@ class Language(dict):
             # Any support check needs 'base'
             if "base" in ort:
                 script = ort["script"]
-                base = parse_chars(ort["base"])
+                base = set(parse_chars(ort["base"], decomposed))
+
                 if base.issubset(chars):
                     if script not in support:
                         support[script] = []
@@ -139,7 +141,8 @@ class Language(dict):
                     # and level is "aux"
                     if level == "aux":
                         if "auxiliary" in ort:
-                            aux = parse_chars(ort["auxiliary"])
+                            aux = set(parse_chars(
+                                ort["auxiliary"], decomposed))
                             if aux.issubset(chars):
                                 if "auxiliary" not in support[script]:
                                     support[script]["auxiliary"] = []
@@ -151,6 +154,7 @@ class Language(dict):
                             # attribute, meaning there is no required chars to
                             # quality for "aux" support, thus return true
                             supported = True
+
             if supported:
                 pruned.append(ort)
 

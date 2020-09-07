@@ -28,10 +28,14 @@ class Languages(dict):
 
             if prune:
                 # Transform all orthography character lists to pruned python
-                # sets
+                # sets; this will decompose and remove precomposed chars
                 self.prune_chars()
 
     def prune_chars(self):
+        """
+        A helper to parse all orthographies' charsets in all languages. This
+        decomposes glyphs and prune any glyphs that are redundant.
+        """
         for iso, lang in self.items():
             if "orthographies" in lang:
                 for o in lang["orthographies"]:
@@ -124,6 +128,7 @@ class Languages(dict):
                         self[lang]["orthographies"] = m["orthographies"].copy()
 
     def get_support_from_chars(self, chars, validity=VALIDITYLEVELS[1],
+                               decomposed=False,
                                includeHistorical=False,
                                includeConstructed=False,
                                pruneOrthographies=True):
@@ -162,24 +167,15 @@ class Languages(dict):
             # Do the support check on the Language level, and with the prune
             # flag the resulting Language object will have only those
             # orthographies that are supported with chars
-            lang_sup = l.has_support(chars, "base", pruneOrthographies)
-            # print("LANG_SUP", lang_sup)
+            lang_sup = l.has_support(chars, "base", decomposed=decomposed,
+                                     pruneOrthographies=pruneOrthographies)
 
             for script in lang_sup:
                 if script not in support.keys():
                     support[script] = {}
 
-                # print(script, lang_sup)
                 for script, isos in lang_sup.items():
-                    # print("ISOS", isos)
                     for iso in isos:
                         support[script][iso] = l
-
-                # for level, isos in levels.items():
-                #     if level not in support[script]:
-                #         support[script][level] = {}
-
-                #     for iso in isos:
-                #         support[script][level][iso] = l
 
         return support

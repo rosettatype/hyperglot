@@ -93,12 +93,12 @@ fas:
 
 1. A list of codepoints is obtained from a font.
 2. The database can be accessed in two modes:
-- `default` combinations of a base character with mark characters are represented with a single code point where this exists, Codepoints for base characters and combining mark characters from these combinations are also included.
-- `decomposed` all combinations of a base character with mark characters are represented as a codepoint for the base character and individual codepoints for the combining mark characters.
+- by **default** combinations of a base character with marks are required as single code point where this exists (e.g. `ä`), codepoints for base characters and combining mark characters (e.g. `a` and combining `¨`) from these combinations are also required.
+- Using the `decomposed` flag checked fonts are required to contain the base character and combining marks for a language (e.g. languages with `ä` will match for fonts that only have `a` and combining `¨` but not `ä` as single encoded glyph).
 3. Specified `validity` level is used to filter out language entries according to a user’s preference.
 4. If requested, `base` and `auxiliary` lists of codepoints are combined to achieve more strict criteria.
 5. Orthographies with `deprecated` or `secondary` status are ignored.
-6. If the list of code points in the font includes all code points from the list of codepoints for an orthography of given language, the font is considered to support this language orthography. In listings these may be grouped by scripts.
+6. If the list of code points in the font includes all code points from the list of codepoints for an orthography of given language, the font is considered to support this language orthography. In listings these are be grouped by scripts.
 
 
 
@@ -127,12 +127,15 @@ or to check several fonts at once, or their combined coverage (with `-m union`)
 **Additional options**:
 
 - `-s, --support`: Specify what level of support to check against (currently options are "base" (default if omitted) or "aux")
+- `-d, --decomposed`: Flag to signal a font should be considered supporting a language as long as it has all base glyphs and marks to write a language - by default also encoded precomposed glyphs are required (default is False)
 - `-a, --autonyms`: Output the language names in their native language and script
 - `-u, --users`: Also output language user count (where available)
 - `-o, --output`: Supply a file path to write the output to, in yaml format. For a single input font this will be a subset of the Hyperglot database with the languages and orthographies that the font supports. If several fonts are provided the yaml file will have a top level dict key for each file. If the `-m` option is provided the yaml file will contain the specific intersection or union result
 - `-m, --mode`: How to process input if several files are provided (currently options are "individual", "union" and "intersection")
+- `--validity`: Specifiy to filter by the level of certainty the database information has for languages (default is "done")
 - `--include-historical`: option to include languages and orthographies marked as historical (default is False)
 - `--include-constructed`: option to include languages and orthographies that are marked as constructed (default is False)
+- `--strict-iso`: Display language names and macrolanguage data strictly according to ISO (default is False)
 - `-v, --verbose`: More logging information (default is False)
 - `-V, --version`: Print the version hyperglot version number (default is False)
 

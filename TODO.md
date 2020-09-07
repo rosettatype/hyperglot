@@ -14,14 +14,15 @@
 - [ ] check script adheres to README re "Orthographies with `deprecated` and `secondary` status are included only for the sake of completeness and ignored during language support detection."
 
 
-- [ ] review and refactor decomposition rules and flags based on input charset:
-	- [ ] Confirm default behaviour of extracting bases and marks from all charset characters, check precomposed codepoints where they exists, bases and marks too
-	- [ ] Disregard precomposed codepoints and require only extracted bases + marks
+- [+] review and refactor decomposition rules and flags based on input charset:
+	- [+] Confirm default behaviour of extracting bases and marks from all charset characters, check precomposed codepoints where they exists, bases and marks too
+	- [+] Disregard precomposed codepoints and require only extracted bases + marks
+	- [+] Implement updated default/decomposed flag
 
 
-- [ ] Confirm CLI --support for "base/aux"
+- [+] Confirm CLI --support for "base/aux"
 - [+] Implement CLI --validity so users can choose a level over the default
-- [ ] Refactor `save` script to remove redundant combining marks which are already implicitly listed via base+mark combinations
+- [+] Refactor `save` script to remove redundant combining marks which are already implicitly listed via base+mark combinations
 - [+] Implement "hyperglot" rename to database file and module
 - [+] set status based on ISO (extinct, historical, …)
 - [+] for orthography, do not inherit autonym, but inherit `numerals` if they exist.

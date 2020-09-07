@@ -34,14 +34,19 @@ def character_list_from_string(string, normalize=True):
     # are in fact transformed to precomposed characters; otherwise the
     # "listifying" will split base and mark(s) into several list items (chars)
     if normalize:
-        # NormalFormComposed
+        # Make sure we are in fact dealing with a string, not a list
+        if isinstance(string, list):
+            string = "".join(string)
+
+        # N_ormal F_orm C_omposed
+        # See more https://docs.python.org/3/library/unicodedata.html#unicodedata.normalize # noqa
         string = unicodedata2.normalize("NFC", string)
     li = list(string)
     li = list_unique([c for c in li if c.strip() != ""])
     return li
 
 
-def parse_chars(characters, decompose=True):
+def parse_chars(characters, decompose=True, retainDecomposed=False):
     """
     From a string of characters get a set of unique unicode codepoints needed
     Note this will "decompose" combinging characters/marks and remove any
@@ -61,13 +66,16 @@ def parse_chars(characters, decompose=True):
             return character_list_from_string(unique_strings)
 
         for c in unique_strings:
-            # Either way this glyph should be included as such, decomposable
-            # or not
-            unique_chars.append(c)
 
             # decomposition is either "" or a space separated string of
             # zero-filled unicode hex values like "0075 0308"
             decomposition = unicodedata2.decomposition(c)
+
+            # This glyph should be part of the list if either it cannot be
+            # decomposed or if we want to keep also decomposable ones (e.g.
+            # when pruning and saving the DB)
+            if decomposition == "" or retainDecomposed:
+                unique_chars.append(c)
 
             if decomposition != "":
                 for unihexstr in decomposition.split(" "):
@@ -115,14 +123,7 @@ def prune_superflous_marks(string):
     if removed == []:
         return unique_strings, ()
 
-    # print(unique_strings, removed)
-    # pruned = set(unique_strings).difference(removed)
     pruned = [c for c in unique_strings if c not in removed]
     removed = list_unique(removed)
-
-    # print("="*20)
-    # print("STRING", string)
-    # print("PRUNED", pruned)
-    # print("="*20)
 
     return pruned, removed

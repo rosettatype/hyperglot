@@ -173,6 +173,10 @@ MODES = ["individual", "union", "intersection"]
               help="Option to test only for the language's base charset, or to"
               " also test for presence of all auxilliary characters, if "
               "present in the database.")
+@click.option("-d", "--decomposed", is_flag=True, default=False,
+              help="When set composable characters are not required as "
+              "precomposed characters, but a font is valid if it has the "
+              "required base and mark characters.")
 @click.option("--validity", type=click.Choice(VALIDITYLEVELS,
                                               case_sensitive=False),
               default=VALIDITYLEVELS[1], show_default=True,
@@ -205,7 +209,7 @@ MODES = ["individual", "union", "intersection"]
               "macrolanguage structure that deviates from ISO data.")
 @click.option("-v", "--verbose", is_flag=True, default=False)
 @click.option("-V", "--version", is_flag=True, default=False)
-def cli(fonts, support, validity, autonyms, users, output, mode,
+def cli(fonts, support, decomposed, validity, autonyms, users, output, mode,
         include_historical, include_constructed, strict_iso, verbose, version):
     """
     Pass in one or more fonts to check their languages support
@@ -227,9 +231,11 @@ def cli(fonts, support, validity, autonyms, users, output, mode,
         _font = TTFont(font, lazy=True)
         cmap = _font["cmap"]
         chars = [chr(c) for c in cmap.getBestCmap().keys()]
-        Lang = Languages(strict_iso)
+
+        Lang = Languages(strict=strict_iso, prune=False)
         langs = Lang.get_support_from_chars(
-            chars, validity, include_historical, include_constructed)
+            chars, validity, decomposed, include_historical,
+            include_constructed)
         level = SUPPORTLEVELS[support]
 
         results[font] = {}
@@ -298,7 +304,7 @@ def save_sorted(Langs=None):
     """
     logging.getLogger().setLevel(logging.WARNING)
     if Langs is None:
-        Langs = Languages(inherit=False)
+        Langs = Languages(inherit=False, prune=False)
 
         # Save with removed superflous marks
         for iso, lang in Langs.items():
