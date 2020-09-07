@@ -3,230 +3,9 @@ Helper classes to work with the rosetta.yaml data in more pythonic way
 """
 import yaml
 import logging
-import re
-import unicodedata2
-from . import DB, VALIDITY
-
-
-def parse_combinations(comb):
-    """
-    Return a string like '{γ̇}{ε̱}{ν̇}{σ̇}{σ̈}{χ̇}{ε̰}' as a list of the chars
-    between {}
-    """
-    try:
-        return [s for s in re.split(r"\{|\}", comb) if s.strip() != ""]
-    except Exception as e:
-        logging.error(e)
-        return False
-
-    return False
-
-
-def parse_chars(characters):
-    """
-    From a string of characters get a set of unique unicode codepoints needed
-    Note this will "decompose" combinging characters/marks and remove any
-    standard whitespace characters (space, line break) but treat special
-    whitespace characters as part of the charset (e.g. non breaking, enspace,
-    etc.)
-    Use this on all orthography base/auxiliary data
-    """
-    unique_chars = []
-    try:
-        if type(characters) is set:
-            characters = list(characters)
-
-        if type(characters) is list:
-            characters = "".join(characters)
-
-        unique_strings = set(re.sub("\s*", "", characters))
-        for c in unique_strings:
-            # decomposition is either "" or a space separated string of
-            # zero-filled unicode hex values like "0075 0308"
-            decomposition = unicodedata2.decomposition(c)
-
-            if decomposition != "":
-                # found = []
-                # error = False
-                for unihexstr in decomposition.split(" "):
-                    # Not _entirely_ sure why those can be parts of the
-                    # decomposition but let's ignore them when encountered
-                    if unihexstr in ["<isolated>", "<compat>", "<super>"]:
-                        continue
-                    try:
-                        unique_chars.append(chr(int(unihexstr, 16)))
-                    except Exception as e:
-                        logging.error("Error getting glyph from decomposition "
-                                      "part '%s' of '%s' (decomposition '%s'):"
-                                      " %s" % (unihexstr, c, decomposition, e))
-
-            # Either way this glyph should be included, decomposable or not
-            unique_chars.append(c)
-
-        unique_chars = set(unique_chars)
-        return unique_chars
-    except Exception as e:
-        logging.error("Error parsing characters '%s': %s" % (characters, e))
-
-    return unique_chars
-
-
-class Language(dict):
-    """
-    A dict wrapper around a language data yaml entry with additional querying
-    options for convenience
-    """
-
-    def __init__(self, data, iso):
-        """
-        Init a single Language with the data from rosetta.yaml
-        @param data dict: The raw data as found in the yaml
-        @param iso str: Iso 3 letter iso code that is the key in the yaml. Keep
-            this a private attribute, not dict items, so it does not get
-            printed out when converting this Language back to yaml for output
-        """
-        self.update(data)
-        self.iso = iso
-
-    def __repr__(self):
-        return self.get_name()
-
-    # TODO this should return all orthographies for a script, not the first it
-    # hits
-    # TODO include_historical check
-    def get_orthography(self, script=None):
-        if "orthographies" not in self:
-            return False
-
-        for o in self["orthographies"]:
-            if script is not None and "script" in o and o["script"] == script:
-                return o
-
-        # No script provided or no orthography found for that script, return
-        # first best
-        return self["orthographies"][0]
-
-    def get_name(self, script=None, strict=False):
-        if script is not None:
-            ort = self.get_orthography(script)
-            if "name" in ort:
-                return ort["name"]
-        # Without script fall back to main dict name, if one exists
-        try:
-            if not strict and "preferred_name" in self:
-                return self["preferred_name"]
-            return self["name"]
-        except KeyError:
-            # If neither are found
-            return False
-
-        return False
-
-    def get_autonym(self, script=None):
-        if script is not None:
-            ort = self.get_orthography(script)
-            if "autonym" in ort:
-                return ort["autonym"]
-        # Without script fall back to main dict autonym, if one exists
-        try:
-            return self["autonym"]
-        except KeyError:
-            return False
-
-        return False
-
-    def is_historical(self, orthography=None):
-        """
-        Check if a language or a specific orthography of a language is marked
-        as historical
-
-        If a language has a "historical" top level entry all orthographies are
-        by implication historical.
-        """
-        if "status" in self and self["status"] == "historical":
-            return True
-
-        if orthography is not None and "status" in orthography and \
-                orthography["status"] == "historical":
-            return True
-
-        return False
-
-    def is_constructed(self, orthography=None):
-        """
-        Check if a language or a specific orthography of a language is marked
-        as constructed
-
-        If a language has a "constructed" top level entry all orthographies
-        are by implication constructed.
-        """
-        if "status" in self and self["status"] == "constructed":
-            return True
-
-        if orthography is not None and "status" in orthography and \
-                orthography["status"] == "constructed":
-            return True
-
-        return False
-
-    def has_support(self, chars, level="base", pruneOrthographies=True):
-        """
-        Return a dict with language support based on the passed in chars
-
-        @param chars set: Set of chars to check against
-        @param pruneOthographies bool: Flag to remove non-supported
-            orthographies from this Language object
-        @return dict: Dict sorted by 1) script 2) list of isos
-        """
-        support = {}
-        if "orthographies" not in self:
-            return support
-
-        pruned = []
-
-        for ort in self["orthographies"]:
-            supported = False
-            if "script" not in ort:
-                logging.warning("Skipping an orthography in language '%s',"
-                                " because it has no 'script'" % self.iso)
-                continue
-
-            # Any support check needs 'base'
-            if "base" in ort:
-                script = ort["script"]
-                base = parse_chars(ort["base"])
-                if base.issubset(chars):
-                    if script not in support:
-                        support[script] = []
-
-                    support[script].append(self.iso)
-
-                    if level == "base":
-                        supported = True
-
-                    # Only check aux if base is supported to begin with
-                    # and level is "aux"
-                    if level == "aux":
-                        if "auxiliary" in ort:
-                            aux = parse_chars(ort["auxiliary"])
-                            if aux.issubset(chars):
-                                if "auxiliary" not in support[script]:
-                                    support[script]["auxiliary"] = []
-
-                                support[script]["auxiliary"].append(self.iso)
-                                supported = True
-                        else:
-                            # aux level requested, but orthography has no such
-                            # attribute, meaning there is no required chars to
-                            # quality for "aux" support, thus return true
-                            supported = True
-            if supported:
-                pruned.append(ort)
-
-        if pruneOrthographies:
-            self["orthographies"] = pruned
-
-        return support
+from .parse import parse_chars
+from .language import Language
+from . import DB, VALIDITYLEVELS
 
 
 class Languages(dict):
@@ -258,7 +37,7 @@ class Languages(dict):
                 for o in lang["orthographies"]:
                     for type in ["base", "auxiliary", "numerals"]:
                         if type in o:
-                            o[type] = parse_chars(o[type])
+                            o[type] = parse_chars(o[type], True)
 
     def lax_macrolanguages(self):
         """
@@ -344,7 +123,7 @@ class Languages(dict):
                         # separate
                         self[lang]["orthographies"] = m["orthographies"].copy()
 
-    def get_support_from_chars(self, chars, validity=VALIDITY[1],
+    def get_support_from_chars(self, chars, validity=VALIDITYLEVELS[1],
                                includeHistorical=False,
                                includeConstructed=False,
                                pruneOrthographies=True):
@@ -360,7 +139,8 @@ class Languages(dict):
                 continue
 
             # Skip languages below the currently selected validity level
-            if VALIDITY.index(l["validity"]) < VALIDITY.index(validity):
+            if VALIDITYLEVELS.index(l["validity"]) < \
+                    VALIDITYLEVELS.index(validity):
                 logging.info("Skipping language '%s' which has lower "
                              "'validity'" % lang)
                 continue
@@ -388,7 +168,7 @@ class Languages(dict):
             for script in lang_sup:
                 if script not in support.keys():
                     support[script] = {}
-                
+
                 # print(script, lang_sup)
                 for script, isos in lang_sup.items():
                     # print("ISOS", isos)

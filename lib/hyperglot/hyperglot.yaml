@@ -1,10 +1,3 @@
-# -----------------------------------------------------------------------------
-#
-#  Hyperglot v0.5
-#  Rosetta’s database and tool for detecting language support in fonts
-#
-# -----------------------------------------------------------------------------
-
 aae:
   name: Arbëreshë Albanian
   orthographies:
@@ -45,12 +38,11 @@ aat:
   name: Arvanitika Albanian
   orthographies:
   - autonym: Arbërisht
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á ä ç è é ë í ï ó ö
-      ú ü ý
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á ä ç è é ë í ï ó ö ú ü ý
     script: Latin
   - autonym: Αρbε̰ρίσ̈τ
     auxiliary: η ψ ω ά έ ή ί ό ύ ώ ϊ ϋ ΐ ΰ
-    base: α β b ϳ γ δ d ε ζ θ ι κ λ μ ν ξ ο π ρ σ ς τ υ φ χ γ̇ ε̱ ν̇ σ̇ σ̈ χ̇ ε̰
+    base: α β b ϳ γ δ d ε ζ θ ι κ λ μ ν ξ ο π ρ σ ς τ υ φ χ ̇ ̱ ̈ ̰
     script: Greek
   source:
   - Omniglot
@@ -75,8 +67,7 @@ abk:
   name: Abkhazian
   orthographies:
   - autonym: Аԥсшәа
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я џ қ ҟ ҩ
-      ҭ ҳ ҵ ҷ ҽ ҿ ә ӡ ӷ ԥ
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я џ қ ҟ ҩ ҭ ҳ ҵ ҷ ҽ ҿ ә ӡ ӷ ԥ
     script: Cyrillic
   source:
   - Omniglot
@@ -113,8 +104,7 @@ abr:
   validity: verified
 abv:
   name: Baharna Arabic
-  note: Initial, medial, and final forms of the letters and some ligatures are also
-    required.
+  note: Initial, medial, and final forms of the letters and some ligatures are also required.
   orthographies:
   - autonym: بحراني
     inherit: arb
@@ -127,14 +117,12 @@ abv:
   validity: weak
 acm:
   name: Mesopotamian Arabic
-  note: Initial, medial, and final forms of the letters and some ligatures are also
-    required.
+  note: Initial, medial, and final forms of the letters and some ligatures are also required.
   orthographies:
   - autonym: عراقي
-    auxiliary: ڛ ڢ ٯ ڧ ک ی ڥ چ گ ڨ ڭ ڠ
-    base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ ڤ پ گ
-      ة
-    numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ ١٠
+    auxiliary: ڛ ڢ ٯ ڧ ک ی ڥ چ ڨ ڭ ڠ
+    base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ ڤ پ گ ة
+    numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩
     script: Arabic
   preferred_name: Iraqi Arabic
   speakers: 15700000
@@ -143,8 +131,7 @@ acm:
   validity: weak
 acq:
   name: Ta'izzi-Adeni Arabic
-  note: Initial, medial, and final forms of the letters and some ligatures are also
-    required.
+  note: Initial, medial, and final forms of the letters and some ligatures are also required.
   orthographies:
   - autonym: يمني
     inherit: arb
@@ -158,13 +145,12 @@ acq:
   validity: weak
 acw:
   name: Hijazi Arabic
-  note: Initial, medial, and final forms of the letters and some ligatures are also
-    required.
+  note: Initial, medial, and final forms of the letters and some ligatures are also required.
   orthographies:
   - autonym: حجازي
     auxiliary: ڛ ڢ ٯ ڧ ک ی ڥ چ گ ڨ ڭ ڠ
     base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ پ ڤ
-    numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ ١٠
+    numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩
     script: Arabic
   source:
   - Wikipedia
@@ -174,8 +160,7 @@ acw:
   validity: weak
 acx:
   name: Omani Arabic
-  note: Initial, medial, and final forms of the letters and some ligatures are also
-    required.
+  note: Initial, medial, and final forms of the letters and some ligatures are also required.
   orthographies:
   - autonym: عماني
     inherit: arb
@@ -213,13 +198,9 @@ ady:
   validity: verified
 aeb:
   name: Tunisian Arabic
-  note: Initial, medial, and final forms of the letters and some ligatures are also
-    required.
+  note: Initial, medial, and final forms of the letters and some ligatures are also required.
   orthographies:
   - autonym: تونسي
-    #auxiliary: ڛ ڢ ٯ ڧ ک ی ڤ چ گ ڭ ڠ
-    #base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ ڨ ڥ پ
-    #numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ ١٠
     inherit: arb
     script: Arabic
   source:
@@ -230,8 +211,7 @@ aeb:
   validity: weak
 aec:
   name: Saidi Arabic
-  note: Initial, medial, and final forms of the letters and some ligatures are also
-    required.
+  note: Initial, medial, and final forms of the letters and some ligatures are also required.
   orthographies:
   - autonym: صعيدي
     inherit: arz
@@ -260,9 +240,9 @@ afb:
   name: Gulf Arabic
   orthographies:
   - autonym: خليجي
-    auxiliary: ڛ ڢ ٯ ڧ ک ی ڥ چ گ ڨ ڭ ڠ
+    auxiliary: ڛ ڢ ٯ ڧ ک ی ڥ چ ڨ ڭ ڠ
     base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ ڤ پ گ
-    numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ ١٠
+    numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩
     script: Arabic
   source:
   - Wikipedia
@@ -289,8 +269,7 @@ agq:
   orthographies:
   - autonym: Aghɨ̂m
     auxiliary: q r x
-    base: a b c d e f g h i k l m n o p s t u v w y z à â è ê ì î ò ô ù û ā ē ě ī
-      ŋ ō ū ǎ ǐ ǒ ǔ ɔ ɛ ɨ ʉ ʔ ̀ ̂ ̄ ̌
+    base: a b c d e f g h i k l m n o p s t u v w y z à â è ê ì î ò ô ù û ā ē ě ī ŋ ō ū ǎ ǐ ǒ ǔ ɔ ɛ ɨ ʉ ʔ
     script: Latin
   source:
   - CLDR
@@ -313,8 +292,7 @@ agx:
   validity: verified
 aiq:
   name: Aimaq
-  note: Initial, medial, and final forms of the letters and some ligatures are also
-    required.
+  note: Initial, medial, and final forms of the letters and some ligatures are also required.
   orthographies:
   - autonym: ایماقی
     inherit: pes
@@ -327,13 +305,12 @@ aiq:
   validity: weak
 ajp:
   name: South Levantine Arabic
-  note: Initial, medial, and final forms of the letters and some ligatures are also
-    required.
+  note: Initial, medial, and final forms of the letters and some ligatures are also required.
   orthographies:
   - autonym: فلسطيني
     auxiliary: ڛ ڢ ٯ ڧ ک ی ڥ گ ڨ ڭ ڠ
     base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ ڤ پ چ
-    numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ ١٠
+    numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩
     script: Arabic
   source:
   - Wikipedia
@@ -371,8 +348,7 @@ alt:
   name: Southern Altai
   orthographies:
   - autonym: Алтайча
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ј ҥ ӧ
-      ӱ
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ј ҥ ӧ ӱ
     script: Cyrillic
   source:
   - Omniglot
@@ -418,8 +394,7 @@ aoz:
   validity: weak
 apc:
   name: North Levantine Arabic
-  note: Initial, medial, and final forms of the letters and some ligatures are also
-    required.
+  note: Initial, medial, and final forms of the letters and some ligatures are also required.
   orthographies:
   - autonym: لبناني
     inherit: arb
@@ -432,13 +407,12 @@ apc:
   validity: weak
 apd:
   name: Sudanese Arabic
-  note: Initial, medial, and final forms of the letters and some ligatures are also
-    required.
+  note: Initial, medial, and final forms of the letters and some ligatures are also required.
   orthographies:
   - autonym: سوداني
     auxiliary: ڛ ڢ ٯ ڧ ک ڤ ڥ پ چ گ ڨ ڭ ڠ
     base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ ی
-    numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ ١٠
+    numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩
     script: Arabic
   source:
   - Wikipedia
@@ -448,11 +422,10 @@ apd:
   validity: weak
 aqc:
   name: Archi
-  note: Mathematically, there are 1,502,839 possible forms that can be derived from
-    a single verb root. Shorter autonym?
+  note: Mathematically, there are 1,502,839 possible forms that can be derived from a single verb root. Shorter autonym?
   orthographies:
   - autonym: Аршаттен чӏат
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ӏ а́ е́ и́ о́
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ӏ ́
     script: Cyrillic
   source:
   - Omniglot
@@ -468,7 +441,7 @@ arb:
   - autonym: العربية
     auxiliary: ڛ ڢ ٯ ڧ ک ی ڤ ڥ پ چ گ ڨ ڭ ڠ
     base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ ة
-    numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ ١٠
+    numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩
     script: Arabic
   source:
   - Wikipedia
@@ -490,8 +463,7 @@ arg:
   validity: verified
 arq:
   name: Algerian Arabic
-  note: Initial, medial, and final forms of the letters and some ligatures are also
-    required.
+  note: Initial, medial, and final forms of the letters and some ligatures are also required.
   orthographies:
   - autonym: دارجة جزائرية
     inherit: aeb
@@ -504,13 +476,12 @@ arq:
   validity: weak
 ars:
   name: Najdi Arabic
-  note: Initial, medial, and final forms of the letters and some ligatures are also
-    required.
+  note: Initial, medial, and final forms of the letters and some ligatures are also required.
   orthographies:
   - autonym: نجدي
     auxiliary: ڛ ڢ ٯ ڧ ک ی ڥ چ گ ڨ ڭ ڠ
     base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ پ ڤ ة
-    numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ ١٠
+    numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩
     script: Arabic
   source:
   - Wikipedia
@@ -520,14 +491,9 @@ ars:
   validity: weak
 ary:
   name: Moroccan Arabic
-  note: Initial, medial, and final forms of the letters and some ligatures are also
-    required.
+  note: Initial, medial, and final forms of the letters and some ligatures are also required.
   orthographies:
   - autonym: دارجة مغربية
-    #auxiliary: ڛ ڢ ٯ ڧ ک ی ڤ چ ڨ ڠ
-    #base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ ڭ گ ڥ
-    #  پ ة
-    #numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ ١٠
     inherit: arb
     script: Arabic
   source:
@@ -538,14 +504,12 @@ ary:
   validity: weak
 arz:
   name: Egyptian Arabic
-  note: Initial, medial, and final forms of the letters and some ligatures are also
-    required.
+  note: Initial, medial, and final forms of the letters and some ligatures are also required.
   orthographies:
   - autonym: مصرى
     auxiliary: ڛ ڢ ٯ ڧ ک ڥ گ ڨ ڭ ڠ
-    base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ ڤ پ ی
-      چ ة ى
-    numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ ١٠
+    base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ ڤ پ ی چ ة ى
+    numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩
     script: Arabic
   source:
   - Wikipedia
@@ -584,8 +548,7 @@ atv:
   name: Northern Altai
   orthographies:
   - autonym: Алтайча
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ј ҥ ӧ
-      ӱ
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ј ҥ ӧ ӱ
     script: Cyrillic
   source:
   - Omniglot
@@ -620,8 +583,7 @@ ava:
   validity: verified
 avl:
   name: Eastern Egyptian Bedawi Arabic
-  note: Initial, medial, and final forms of the letters and some ligatures are also
-    required.
+  note: Initial, medial, and final forms of the letters and some ligatures are also required.
   orthographies:
   - autonym: بدوي
     inherit: ajp
@@ -645,8 +607,7 @@ ayc:
   validity: verified
 ayh:
   name: Hadrami Arabic
-  note: Initial, medial, and final forms of the letters and some ligatures are also
-    required.
+  note: Initial, medial, and final forms of the letters and some ligatures are also required.
   orthographies:
   - autonym: حضرمي
     inherit: arb
@@ -659,8 +620,7 @@ ayh:
   validity: weak
 ayl:
   name: Libyan Arabic
-  note: Initial, medial, and final forms of the letters and some ligatures are also
-    required.
+  note: Initial, medial, and final forms of the letters and some ligatures are also required.
   orthographies:
   - autonym: ليبي
     inherit: arb
@@ -673,8 +633,7 @@ ayl:
   validity: weak
 ayn:
   name: Sanaani Arabic
-  note: Initial, medial, and final forms of the letters and some ligatures are also
-    required.
+  note: Initial, medial, and final forms of the letters and some ligatures are also required.
   orthographies:
   - autonym: يمني‎
     inherit: arb
@@ -687,8 +646,7 @@ ayn:
   validity: weak
 ayp:
   name: North Mesopotamian Arabic
-  note: Initial, medial, and final forms of the letters and some ligatures are also
-    required.
+  note: Initial, medial, and final forms of the letters and some ligatures are also required.
   orthographies:
   - autonym: مصلاوي‎
     inherit: arb
@@ -714,10 +672,9 @@ azb:
   name: South Azerbaijani
   orthographies:
   - autonym: آذربایجانجا
-    base: وْ ؤ ئ ا خ ع ن پ چ ژ ک گ ۆ ۇ ی ە ݣ ﺏ ﺕ ﺙ ﺝ ﺡ ﺩ ﺫ ﺭ ﺯ ﺱ ﺵ ﺹ ﺽ ﻁ ﻅ ﻍ ﻑ ﻕ ﻝ ﻡ یٛ
-      ﻥ ﻩ ﻭ آ ج ب ذ ر
+    base: و ْ ؤ ئ ي ا خ ع ن پ چ ژ ک گ ۆ ۇ ی ە ݣ ﺏ ب ﺕ ت ﺙ ث ﺝ ج ﺡ ح ﺩ د ﺫ ذ ﺭ ر ﺯ ز ﺱ س ﺵ ش ﺹ ص ﺽ ض ﻁ ط ﻅ ظ ﻍ غ ﻑ ف ﻕ ق ﻝ ل ﻡ م ٛ ﻥ ﻩ ه ﻭ آ
     script: Arabic
-  - base: a b c d e f g h i j k l m n o p q r s t u v x y z ç ö ü ğ İ ı ş ə
+  - base: a b c d e f g h i j k l m n o p q r s t u v x y z ç ö ü ğ İ I ı ş ə
     script: Latin
     status: secondary
   source:
@@ -726,17 +683,15 @@ azb:
   speakers_date: 2016
   status: living
   validity: weak
-
 azj:
   name: North Azerbaijani
   orthographies:
   - autonym: Азәрбајҹан
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ј ғ ҝ ү
-      ҹ һ ә ө ’
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ј ғ ҝ ү ҹ һ ә ө ’
     note: Official in Dagestan (Russia).
     script: Cyrillic
     status: local
-  - base: a b c d e f g h i j k l m n o p q r s t u v x y z ç ö ü ğ İ ı ş ə ‘
+  - base: a b c d e f g h i j k l m n o p q r s t u v x y z ç ö ü ğ İ I ı ş ə ‘
     script: Latin
   source:
   - Omniglot
@@ -749,11 +704,9 @@ bak:
   name: Bashkir
   orthographies:
   - autonym: Башҡортса
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ғ ҙ ҡ
-      ң ҫ ү һ ә ө
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ғ ҙ ҡ ң ҫ ү һ ә ө
     script: Cyrillic
-  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ç ö ü č ğ İ ı ķ ņ
-      ś ş š ź
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ç ö ü č ğ İ I ı ķ ņ ś ş š ź
     script: Latin
     status: deprecated
   source:
@@ -801,8 +754,7 @@ bas:
   orthographies:
   - autonym: Basaa
     auxiliary: q x
-    base: a b c d e f g h i j k l m n o p r s t u v w y z à á â è é ê ì í î ò ó ô
-      ù ú û ā ē ě ī ń ŋ ō ū ǎ ǐ ǒ ǔ ǹ ɓ ɔ ɛ ̀ ́ ̂ ̄ ̌ ᷆ ᷇
+    base: a b c d e f g h i j k l m n o p r s t u v w y z à á â è é ê ì í î ò ó ô ù ú û ā ē ě ī ń ŋ ō ū ǎ ǐ ǒ ǔ ǹ ɓ ɔ ɛ ᷆ ᷇
     script: Latin
   source:
   - CLDR
@@ -826,8 +778,7 @@ bel:
   name: Belarusian
   orthographies:
   - autonym: Беларуская
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё і ў ’
-      ґ
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё і ў ’ ґ
     script: Cyrillic
   - autonym: Biełaruskaja
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ć č ł ń ś š ŭ ź ž
@@ -951,7 +902,7 @@ buc:
   orthographies:
   - autonym: Shibushi
     auxiliary: c j q
-    base: a b d e f g h i k l m n o p r s t u v w x y z ɓ ɗ n̈
+    base: a b d e f g h i k l m n o p r s t u v w x y z ɓ ɗ ̈
     script: Latin
   source:
   - Wikipedia
@@ -1039,8 +990,7 @@ cat:
   name: Catalan
   orthographies:
   - autonym: Català
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à ç è é í ï ò ó ú ü
-      ŀ
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à ç è é í ï ò ó ú ü ŀ ·
     script: Latin
   source:
   - Omniglot
@@ -1081,8 +1031,7 @@ ces:
   name: Czech
   orthographies:
   - autonym: Čeština
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ó ú ý č ď ě ň
-      ř š ť ů ž
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ó ú ý č ď ě ň ř š ť ů ž
     script: Latin
   source:
   - Omniglot
@@ -1136,8 +1085,7 @@ chu:
   note: Need to add combinations with accents.
   orthographies:
   - autonym: Церковнослове́нскїй
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь ю є ѕ џ ѥ ѩ ѭ
-      ҁ і ї ѡ ѣ ѧ ѫ ѯ ѱ ѳ ѵ ѷ ѻ ѽ ѿ ꙁ ꙋ ꙍ ꙗ ꙃ е́
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь ю є ѕ џ ѥ ѩ ѭ ҁ і ї ѡ ѣ ѧ ѫ ѯ ѱ ѳ ѵ ѷ ѻ ѽ ѿ ꙁ ꙋ ꙍ ꙗ ꙃ ́
     script: Cyrillic
   source:
   - Omniglot
@@ -1150,8 +1098,7 @@ chv:
   name: Chuvash
   orthographies:
   - autonym: Чӑвашла
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҫ ӑ ӗ
-      ӳ
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҫ ӑ ӗ ӳ
     script: Cyrillic
   source:
   - Omniglot
@@ -1165,7 +1112,7 @@ cic:
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ó ú '
     script: Latin
   - autonym: Chikashshanompa'
-    base: a b c f g h i k l m n o p s t w y a̠ i̠ o̠ '
+    base: a b c f g h i k l m n o p s t w y ̠ '
     script: Latin
   source:
   - Omniglot
@@ -1178,8 +1125,7 @@ cim:
   name: Cimbrian
   orthographies:
   - autonym: Zimbar
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä à è é ì ò ó ô ö ù
-      ü ć
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä à è é ì ò ó ô ö ù ü ć
     script: Latin
   source:
   - Omniglot
@@ -1205,8 +1151,7 @@ cjs:
   name: Shor
   orthographies:
   - autonym: Шор
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ғ қ ң
-      ӧ ӱ
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ғ қ ң ӧ ӱ
     script: Cyrillic
   source:
   - Omniglot
@@ -1237,8 +1182,7 @@ ckt:
   note: Speakers count based on 32% of ethnic population.
   orthographies:
   - autonym: Ԓыгъоравэтԓьэн
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӄ ӈ ԓ
-      ’
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӄ ӈ ԓ ’
     script: Cyrillic
   source:
   - Omniglot
@@ -1250,7 +1194,7 @@ cnr:
   name: Montenegrin
   orthographies:
   - autonym: Црногорски
-    base: ́ а б в г д е ж з и к л м н о п р с т у ф х ц ч ш ђ ј љ њ ћ џ з́ с́
+    base: ́ а б в г д е ж з и к л м н о п р с т у ф х ц ч ш ђ ј љ њ ћ џ
     script: Cyrillic
     status: secondary
   - autonym: Crnogorski
@@ -1334,8 +1278,7 @@ csb:
   name: Kashubian
   orthographies:
   - autonym: Kaszëbsczi
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ã é ë ò ó ô ù ą ę ł
-      ń ś ż
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ã é ë ò ó ô ù ą ę ł ń ś ż
     script: Latin
   source:
   - Omniglot
@@ -1347,8 +1290,7 @@ cym:
   name: Welsh
   orthographies:
   - autonym: Cymraeg
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ä è é ê ë ì í
-      î ï ò ó ô ö ù ú û ü ý ÿ ŵ ŷ ẁ ẃ ẅ ỳ
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ä è é ê ë ì í î ï ò ó ô ö ù ú û ü ý ÿ ŵ ŷ ẁ ẃ ẅ ỳ
     script: Latin
   source:
   - Omniglot
@@ -1400,7 +1342,7 @@ ddo:
   name: Dido
   orthographies:
   - autonym: Цез
-    base: а б в г д е ж з и й к л м н о п р с т у х ц ч ш э ӏ а̄
+    base: а б в г д е ж з и й к л м н о п р с т у х ц ч ш э ӏ ̄
     script: Cyrillic
   source:
   - Omniglot
@@ -1410,8 +1352,7 @@ ddo:
   validity: weak
 deh:
   name: Dehwari
-  note: Initial, medial, and final forms of the letters and some ligatures are also
-    required.
+  note: Initial, medial, and final forms of the letters and some ligatures are also required.
   orthographies:
   - autonym: دهواری
     inherit: pes
@@ -1453,7 +1394,7 @@ diq:
   name: Dimli (individual language)
   orthographies:
   - autonym: Dimlî
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ç ê î û ü İ ı ş ǧ
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ç ê î û ü İ I ı ş ǧ
     script: Latin
   preferred_name: Dimli
   source:
@@ -1464,8 +1405,7 @@ dje:
   name: Zarma
   orthographies:
   - autonym: Zarmaciine
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ŋ ɲ à á ã ǎ í õ ǒ ô
-      š ẽ ě ê ž
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ŋ ɲ à á ã ǎ í õ ǒ ô š ẽ ě ê ž
     script: Latin
   source:
   - Omniglot
@@ -1479,8 +1419,7 @@ dlg:
   name: Dolgan
   orthographies:
   - autonym: Дулҕан
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ү һ ӈ
-      ө ҕ
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ү һ ӈ ө ҕ
     script: Cyrillic
   source:
   - Omniglot
@@ -1492,8 +1431,7 @@ dng:
   name: Dungan
   orthographies:
   - autonym: Хуэйзў
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ў җ ң
-      ү ә
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ў җ ң ү ә
     script: Cyrillic
   source:
   - Omniglot
@@ -1504,8 +1442,7 @@ dsb:
   name: Lower Sorbian
   orthographies:
   - autonym: Dolnoserbšćina
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ó ć č ě ł ń ř ŕ ś š
-      ź ž
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ó ć č ě ł ń ř ŕ ś š ź ž
     script: Latin
   source:
   - Omniglot
@@ -1521,7 +1458,7 @@ dua:
   orthographies:
   - autonym: Duálá
     auxiliary: h q v x z
-    base: a b c d e f g i j k l m n o p r s t u w y á é í ó ú ŋ ū ɓ ɔ ɗ ɛ ́
+    base: a b c d e f g i j k l m n o p r s t u w y á é í ó ú ŋ ū ɓ ɔ ɗ ɛ
     script: Latin
   source:
   - Omniglot
@@ -1638,8 +1575,7 @@ ess:
   name: Central Siberian Yupik
   orthographies:
   - autonym: Юпик
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ў қ ң
-      ҳ ҕ ’
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ў қ ң ҳ ҕ ’
     script: Cyrillic
   source:
   - Omniglot
@@ -1652,7 +1588,7 @@ esu:
   name: Central Yupik
   orthographies:
   - autonym: Yupʼik
-    base: a c g i k l m n p q r s t u v w y ń ə ḿ u͡g u͡r ʼ
+    base: a c g i k l m n p q r s t u v w y ń ə ḿ ͡ ʼ
     script: Latin
   preferred_name: Central Alaskan Yupik
   source:
@@ -1678,8 +1614,7 @@ eve:
   name: Even
   orthographies:
   - autonym: Эвэды торэн
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӈ ө ӫ
-      а̄ ө̄ е̄ ӣ ӯ ы̄ э̄ ю̄ я̄
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӈ ө ӫ ӣ ӯ
     script: Cyrillic
   source:
   - Omniglot
@@ -1692,7 +1627,7 @@ evn:
   name: Evenki
   orthographies:
   - autonym: Эвэнки
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӈ а̄ е̄ ә̄ о̄ ы̄
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӈ ̄ ә
     script: Cyrillic
   source:
   - Omniglot
@@ -1706,8 +1641,7 @@ ewe:
   orthographies:
   - autonym: Èʋegbe
     auxiliary: c j q â ä å æ ç ê ë î ï ñ ô ö ø û ü ÿ ā ă ĕ ĭ ŏ œ ŭ
-    base: a b d e f g h i k l m n o p r s t u v w x y z à á ã è é ì í ò ó õ ù ú ĩ
-      ŋ ũ ƒ ɔ ɖ ɛ ɣ ʋ ̀ ́ ̃ ẽ
+    base: a b d e f g h i k l m n o p r s t u v w x y z à á ã è é ì í ò ó õ ù ú ĩ ŋ ũ ƒ ɔ ɖ ɛ ɣ ʋ ẽ
     script: Latin
   source:
   - Omniglot
@@ -1721,8 +1655,7 @@ ewo:
   orthographies:
   - autonym: Ewondo
     auxiliary: c j q x
-    base: a b d e f g h i k l m n o p r s t u v w y z à á â è é ê ì í î ò ó ô ù ú
-      û ě ń ŋ ǎ ǐ ǒ ǔ ǹ ɔ ə ɛ ̀ ́ ̂ ̌
+    base: a b d e f g h i k l m n o p r s t u v w y z à á â è é ê ì í î ò ó ô ù ú û ě ń ŋ ǎ ǐ ǒ ǔ ǹ ɔ ə ɛ
     script: Latin
   source:
   - Omniglot
@@ -1818,8 +1751,7 @@ fra:
   name: French
   orthographies:
   - autonym: Français
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à â æ ç è é ê ë î ï
-      ô ù û ü ÿ œ
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à â æ ç è é ê ë î ï ô ù û ü ÿ œ
     script: Latin
   source:
   - Omniglot
@@ -1834,8 +1766,7 @@ fry:
   name: Western Frisian
   orthographies:
   - autonym: Frysk
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z â ä é ê ë ï ô ö ú û
-      ü
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z â ä é ê ë ï ô ö ú û ü
     script: Latin
   source:
   - Omniglot
@@ -1942,8 +1873,7 @@ fur:
   note: Speaker count includes up to 180000 non-native speakers.
   orthographies:
   - autonym: Furlan
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ç â ê î ô û à è ì ò
-      ù
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ç â ê î ô û à è ì ò ù
     script: Latin
   source:
   - Omniglot
@@ -1967,13 +1897,11 @@ fuv:
 gag:
   name: Gagauz
   orthographies:
-  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӂ ӓ ӧ
-      ӱ
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӂ ӓ ӧ ӱ
     script: Cyrillic
     status: deprecated
   - autonym: Gagauzça
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ç ê ö ü ğ İ ı ş ţ
-      ș ț
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ç ê ö ü ğ İ I ı ş ţ ș ț
     script: Latin
   source:
   - Omniglot
@@ -2050,7 +1978,7 @@ gld:
   name: Nanai
   orthographies:
   - autonym: Нанай
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӈ а̄ е̄ ӣ о̄ ӯ э̄
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӈ ӣ ӯ
     script: Cyrillic
   source:
   - Omniglot
@@ -2125,9 +2053,7 @@ grc:
   name: Ancient Greek (to 1453)
   orthographies:
   - autonym: Ελληνικά
-    base: α β γ δ ε ζ η θ ι κ λ μ ν ξ ο π ρ ς σ τ υ φ χ ψ ω ά έ ή ί ό ύ ώ ϊ ϋ ΐ ΰ
-      ἀ ἁ ἂ ἃ ἄ ἅ ἆ ἇ ἐ ἑ ἒ ἓ ἔ ἕ ἠ ἡ ἢ ἣ ἤ ἥ ἦ ἧ ἰ ἱ ἲ ἳ ἴ ἵ ἶ ἷ ὂ ὃ ὄ ὐ ὑ ὒ ὓ ὔ
-      ὕ ὖ ὗ ὢ ὣ ὤ ὥ ὦ ὧ ὰ ὲ ὴ ὶ ὸ ὺ ὼ ᾶ ῆ ῒ ῖ ῗ ῢ ῦ ῧ ῶ
+    base: α β γ δ ε ζ η θ ι κ λ μ ν ξ ο π ρ ς σ τ υ φ χ ψ ω ά έ ή ί ό ύ ώ ϊ ϋ ΐ ΰ ἀ ἁ ἂ ἃ ἄ ἅ ἆ ἇ ἐ ἑ ἒ ἓ ἔ ἕ ἠ ἡ ἢ ἣ ἤ ἥ ἦ ἧ ἰ ἱ ἲ ἳ ἴ ἵ ἶ ἷ ὂ ὀ ὃ ὁ ὄ ὐ ὑ ὒ ὓ ὔ ὕ ὖ ὗ ὢ ὠ ὣ ὡ ὤ ὥ ὦ ὧ ὰ ὲ ὴ ὶ ὸ ὺ ὼ ᾶ ῆ ῒ ῖ ῗ ῢ ῦ ῧ ῶ
     script: Greek
   preferred_name: Ancient Greek
   source:
@@ -2180,8 +2106,7 @@ gwi:
   name: Gwichʼin
   orthographies:
   - autonym: Dinju Zhuh K’yuu
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à ą è é ę ì í ò ó ǫ
-      ’ ù ú ł
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à ą è é ę ì í ò ó ǫ ’ ù ú ł
     script: Latin
   source:
   - Omniglot
@@ -2234,8 +2159,8 @@ hau:
   name: Hausa
   orthographies:
   - autonym: Hausa
-    auxiliary: p q v x y à á â è é ê ì í î ò ó ô ù ú û ʼ ̃
-    base: a b c d e f g h i j k l m n o r s t u w y z ƙ ƴ ɓ ɗ ʼ r̃
+    auxiliary: p q v x à á â è é ê ì í î ò ó ô ù ú û
+    base: a b c d e f g h i j k l m n o r s t u w y z ƙ ƴ ɓ ɗ ʼ ̃
     script: Latin
   source:
   - Omniglot
@@ -2259,8 +2184,7 @@ haw:
   validity: weak
 haz:
   name: Hazaragi
-  note: Initial, medial, and final forms of the letters and some ligatures are also
-    required. The number of speakers is an estimate based on the Hazaras population.
+  note: Initial, medial, and final forms of the letters and some ligatures are also required. The number of speakers is an estimate based on the Hazaras population.
   orthographies:
   - autonym: هزارگی
     inherit: pes
@@ -2275,7 +2199,7 @@ heb:
   name: Hebrew
   orthographies:
   - autonym: עברית
-    base: א ב ג ד ה ו ז ח ט י כ ך ל מ ם נ ן ס ע פ ף צ ץ ק ר ש ת שׁ שׂ בּ תּ כּ ךּ פּ ףּ ג׳ ז׳ צ׳ ו׳ וו ד׳ ת׳ ח׳ ר׳ ע׳
+    base: א ב ג ד ה ו ז ח ט י כ ך ל מ ם נ ן ס ע פ ף צ ץ ק ר ש ת ׁ ׂ ּ ׳
     script: Hebrew
   speakers: 9000000
   status: living
@@ -2321,8 +2245,7 @@ hsb:
   name: Upper Sorbian
   orthographies:
   - autonym: Hornjoserbšćina
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ó ć č ě ł ń ř ś š ź
-      ž
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ó ć č ě ł ń ř ś š ź ž
     script: Latin
   source:
   - Omniglot
@@ -2350,7 +2273,7 @@ huz:
   name: Hunzib
   orthographies:
   - autonym: Гьонкьос
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ӏ ә ȧ ӯ а̄ е̄ ә̄ о̄ э̄
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ӏ ә ȧ a ӯ
     script: Cyrillic
   source:
   - Omniglot
@@ -2363,8 +2286,7 @@ ibo:
   note: Shorter autonym?
   orthographies:
   - autonym: Asụsụ Igbo
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á è é ì í ò ó ù ú
-      ā ē ī ń ō ū ị ọ ụ ṅ ẹ
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á è é ì í ò ó ù ú ā ē ī ń ō ū ị ọ ụ ṅ ẹ
     script: Latin
   source:
   - Omniglot
@@ -2427,8 +2349,7 @@ ina:
   name: Interlingua
   note: Do not confuse with Interlingue.
   orthographies:
-  - autonym: Interlingua
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
     script: Latin
   preferred_name: Interlingua
   source:
@@ -2495,8 +2416,7 @@ itl:
   name: Itelmen
   orthographies:
   - autonym: Итэнмэн
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё љ њ ў
-      ҳ ӄ ӆ ӈ ӑ ә ’ ˚ о̆
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё љ њ ў ҳ ӄ ӆ ӈ ӑ ә ’ ˚
     script: Cyrillic
   source:
   - Omniglot
@@ -2562,7 +2482,7 @@ jdt:
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
     script: Cyrillic
   - autonym: ז׳אוּהאוּראִ
-    base: א ב ג ד ה ו וּ ז ח י י כ ל מ נ ס ע פ צ ק ר ש ת ׳ אִ אַ אָ בּ כּ פּ}
+    base: א ב ג ד ה ו ּ ז ח י כ ל מ נ ס ע פ צ ק ר ש ת ׳ ִ ַ ָ }
     script: Hebrew
     status: secondary
   - autonym: Çuhuri
@@ -2579,8 +2499,7 @@ jgo:
   orthographies:
   - autonym: Cú-Mbɔ́ndaa
     auxiliary: e o q r x
-    base: a b c d f g h i j k l m n p s t u v w y z á â í î ú û ń ŋ ǎ ǐ ǔ ǹ ɔ ɛ ʉ
-      ̀ ́ ̂ ̄ ̈ ̌ ḿ ẅ ꞌ
+    base: a b c d f g h i j k l m n p s t u v w y z á â í î ú û ń ŋ ǎ ǐ ǔ ǹ ɔ ɛ ʉ ̄ ḿ ẅ ꞌ
     script: Latin
   source:
   - CLDR
@@ -2602,12 +2521,11 @@ kaa:
   note: Shorter autonym?
   orthographies:
   - autonym: Қарақалпақ
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ў ғ қ
-      ң ү ҳ ә ө
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ў ғ қ ң ү ҳ ә ө
     script: Cyrillic
     status: secondary
   - autonym: Qaraqalpaq
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á İ ı ǵ ń ú
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á İ I ı ǵ ń ú
     script: Latin
   source:
   - Omniglot
@@ -2635,8 +2553,7 @@ kal:
   orthographies:
   - autonym: Kalaallisut
     auxiliary: à ì ù
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á â ã å æ ê í î ĩ ô
-      ø ú û ĸ ũ
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á â ã å æ ê í î ĩ ô ø ú û ĸ ũ
     note: Alphabet invented by Samuel Kleinschmidt. Used until 1973.
     script: Latin
     status: deprecated
@@ -2667,8 +2584,7 @@ kap:
   name: Bezhta
   orthographies:
   - autonym: Бежкьалас миц
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э я ӏ а̄ е̄ ӣ
-      о̄ ӯ э̄
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э я ӏ ӣ ӯ
     script: Cyrillic
   source:
   - Omniglot
@@ -2681,8 +2597,7 @@ kaz:
   name: Kazakh
   orthographies:
   - autonym: Қазақ тілі
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё і ғ қ
-      ң ү ұ һ ә ө
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё і ғ қ ң ү ұ һ ә ө
     script: Cyrillic
   source:
   - Omniglot
@@ -2706,8 +2621,7 @@ kca:
   name: Khanty
   orthographies:
   - autonym: Ханты
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё є ў қ
-      ң ҳ ҷ ӆ ӈ ӑ ӓ ә ӛ ӧ ө ӫ ӱ ԓ ю̆ я̆
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё є ў қ ң ҳ ҷ ӆ ӈ ӑ ӓ ә ӛ ӧ ө ӫ ӱ ԓ
     script: Cyrillic
   source:
   - Omniglot
@@ -2744,8 +2658,7 @@ kea:
   name: Kabuverdianu
   orthographies:
   - autonym: Kabuverdianu
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ã ç è é ê í ò
-      ó ô õ ú ü
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ã ç è é ê í ò ó ô õ ú ü
     script: Latin
   source:
   - Omniglot
@@ -2772,8 +2685,7 @@ ket:
   note: Shorter autonym?
   orthographies:
   - autonym: Остыганна ӄа’
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӄ ӈ ә
-      ө ӷ ’
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӄ ӈ ә ө ӷ ’
     script: Cyrillic
   source:
   - Omniglot
@@ -2874,8 +2786,7 @@ kjh:
   note: Shorter autonym?
   orthographies:
   - autonym: Хакас тілі
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё і ғ ң
-      ӌ ӧ ӱ
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё і ғ ң ӌ ӧ ӱ
     script: Cyrillic
   source:
   - Omniglot
@@ -2887,7 +2798,7 @@ kjj:
   name: Khinalugh
   orthographies:
   - autonym: Каьтш мицӏ
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ӏ ә а̃ е̃ и̃ о̃ у̃ ә̃
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ӏ ә ̃
     script: Cyrillic
   source:
   - Omniglot
@@ -2900,8 +2811,7 @@ kkj:
   orthographies:
   - autonym: Kakɔ
     auxiliary: q x z
-    base: a b c d e f g h i j k l m n o p r s t u v w y à á â è é ê ì í î ò ó ô ù
-      ú û ŋ ǌ ɓ ɔ ɗ ɛ ̀ ́ ̂ ̧
+    base: a b c d e f g h i j k l m n o p r s t u v w y à á â è é ê ì í î ò ó ô ù ú û ŋ ǌ ɓ ɔ ɗ ɛ ̧
     script: Latin
   source:
   - CLDR
@@ -2946,23 +2856,13 @@ kmr:
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ç ê î ş û ł ň ř ü
     note: Kurdish Latin alphabet
     script: Latin
-  - base: а б в г д е ә ж з ж й к л м н о ӧ п р с т у ф х һ ч ш щ ь э ԛ ԝ '
+  - base: а б в г д е ә ж з й и к л м н о ӧ п р с т у ф х һ ч ш щ ь э ԛ ԝ '
     note: Used in Russia and Armenia.
     script: Cyrillic
   source:
   - Wikipedia
   speakers: 15000000
   speakers_date: 2009
-  status: living
-  validity: weak
-kng:
-  name: Koongo
-  orthographies:
-  - autonym: Kikongo
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    script: Latin
-  source:
-  - Omniglot
   status: living
   validity: weak
 koi:
@@ -3001,8 +2901,7 @@ kpt:
   name: Karata
   orthographies:
   - autonym: Кӏкӏирлӏи мацӏцӏи
-    base: а б в г д е ж з и й к л м н о п р с т у х ц ч ш щ ъ ы ь э ю я ӏ ã ẽ и̃ õ
-      у̃
+    base: а б в г д е ж з и й к л м н о п р с т у х ц ч ш щ ъ ы ь э ю я ӏ ã a ẽ e õ o
     script: Cyrillic
   source:
   - Omniglot
@@ -3076,7 +2975,7 @@ ksf:
   orthographies:
   - autonym: Rikpa
     auxiliary: q x
-    base: a b c d e f g h i j k l m n o p r s t u v w y z á é í ó ú ŋ ǝ ɔ ɛ ́
+    base: a b c d e f g h i j k l m n o p r s t u v w y z á é í ó ú ŋ ǝ ɔ ɛ
     script: Latin
   source:
   - CLDR
@@ -3089,8 +2988,7 @@ ksh:
   note: 25% of the population of Cologne
   orthographies:
   - autonym: Kölsch
-    auxiliary: à á â ã ç è é ê ì í î ï ñ ò ó ô ø ù ú û ÿ ā ă ē ĕ ğ ī ĭ ı ĳ ł ō ŏ ū
-      ŭ
+    auxiliary: à á â ã ç è é ê ì í î ï ñ ò ó ô ø ù ú û ÿ ā ă ē ĕ ğ ī ĭ ı ĳ ł ō ŏ ū ŭ
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ß ä å æ ë ö ü ė œ ů
     script: Latin
   source:
@@ -3121,15 +3019,6 @@ kum:
   - Omniglot
   speakers: 450000
   speakers_date: 2010
-  status: living
-  validity: weak
-kwy:
-  name: San Salvador Kongo
-  orthographies:
-  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    script: Latin
-  source:
-  - Omniglot
   status: living
   validity: weak
 lag:
@@ -3171,15 +3060,6 @@ lbe:
   speakers_date: 2010
   status: living
   validity: verified
-ldi:
-  name: Laari
-  orthographies:
-  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    script: Latin
-  source:
-  - Omniglot
-  status: living
-  validity: weak
 lez:
   name: Lezghian
   orthographies:
@@ -3196,8 +3076,7 @@ lij:
   name: Ligurian
   orthographies:
   - autonym: Ligure
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ä æ è é ê ë ì
-      í î ï ò ó ô ö ù ú
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ä æ è é ê ë ì í î ï ò ó ô ö ù ú
     script: Latin
   source:
   - Omniglot
@@ -3210,8 +3089,7 @@ lin:
   orthographies:
   - autonym: Lingala
     auxiliary: j q x
-    base: a b c d e f g h i k l m n o p r s t u v w y z á â é ê í î ó ô ú ě ǎ ǐ ǒ
-      ɔ ɛ ́ ̂ ̌
+    base: a b c d e f g h i k l m n o p r s t u v w y z á â é ê í î ó ô ú ě ǎ ǐ ǒ ɔ ɛ
     script: Latin
   source:
   - Omniglot
@@ -3237,8 +3115,8 @@ lkt:
   name: Lakota
   orthographies:
   - autonym: Lakȟótiyapi
-    auxiliary: c d f j q r s v x
-    base: a b e g h i k l m n o p s t u w y z á é í ó ú č ŋ š ž ǧ ȟ ʼ
+    auxiliary: d f j q r v x
+    base: a b e g h i k l m n o p s t u w y z á é í ó ú č c ŋ š ž ǧ ȟ ʼ
     script: Latin
   source:
   - Omniglot
@@ -3252,8 +3130,7 @@ lld:
   name: Ladin
   orthographies:
   - autonym: Ladin
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â è é ê ë ì î ò
-      ó ô ö ù û ü ć ś
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â è é ê ë ì î ò ó ô ö ù û ü ć ś
     script: Latin
   source:
   - Omniglot
@@ -3265,8 +3142,7 @@ lmo:
   name: Lombard
   orthographies:
   - autonym: Lombard
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á è é ì í ò ó ô ø
-      ù ü
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á è é ì í ò ó ô ø ù ü
     script: Latin
   source:
   - Omniglot
@@ -3291,8 +3167,7 @@ ltz:
   name: Luxembourgish
   orthographies:
   - autonym: Lëtzebuergesch
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ß â ä è é ê ë î ô ö
-      û ü
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ß â ä è é ê ë î ô ö û ü
     script: Latin
   source:
   - Omniglot
@@ -3317,9 +3192,8 @@ lub:
   name: Luba-Katanga
   orthographies:
   - autonym: Kiluba
-    auxiliary: g r x
+    auxiliary: r x
     base: a b c d e f g h i j k l m n o p q s t u v w y z à á è é ì í ò ó ù ú ɔ ɛ
-      ̀ ́
     script: Latin
   source:
   - CLDR
@@ -3373,8 +3247,7 @@ mas:
   name: Masai
   orthographies:
   - autonym: Maa
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â è é ê ì í î ɔ
-      ɛ ɨ ʉ ò ó ô ù ú û ŋ
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â è é ê ì í î ɔ ɛ ɨ ʉ ò ó ô ù ú û ŋ
     script: Latin
   source:
   - Omniglot
@@ -3444,7 +3317,7 @@ mgo:
   orthographies:
   - autonym: Mɨta’
     auxiliary: q x
-    base: a b c d e f g h i j k m n o p r s t u w y z à è ì ò ù ŋ ɔ ə ɨ ʼ ̀
+    base: a b c d e f g h i j k m n o p r s t u w y z à è ì ò ù ŋ ɔ ə ɨ ʼ
     script: Latin
   preferred_name: Meta’
   source:
@@ -3498,8 +3371,9 @@ mlg:
     base: a b d e f g h i j k l m n o p r s t v y z à â è é ê ë ì î ï ñ ô
     script: Latin
   - autonym: Malagasy
-    base: a b d e f g h i j k l m n o p r s t v y z à â è é ê ë ì î ï n̈ ô
+    base: a b d e f g h i j k l m n o p r s t v y z à â è é ê ë ì î ï ô
     script: Latin
+  preferred_as_individual: true
   source:
   - Omniglot
   - Wikipedia
@@ -3508,7 +3382,6 @@ mlg:
   speakers_date: 2015
   status: living
   validity: verified
-  preferred_as_individual: true
 mlt:
   name: Maltese
   orthographies:
@@ -3527,7 +3400,7 @@ mns:
   name: Mansi
   orthographies:
   - autonym: Маньси
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӈ ӣ ӯ а̄ е̄ о̄ э̄ ю̄ я̄
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӈ ӣ ӯ
     script: Cyrillic
   source:
   - Omniglot
@@ -3551,8 +3424,7 @@ moh:
   name: Mohawk
   orthographies:
   - autonym: Kanien’kéha
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á à é è í ì ó ò ú ù
-      ’
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á à é è í ì ó ò ú ù ’
     script: Latin
   source:
   - Omniglot
@@ -3563,8 +3435,7 @@ moh:
   validity: verified
 mqm:
   name: South Marquesan
-  note: The number of speakers is estimate, a half of total Marquesan language speakers
-    (8700).
+  note: The number of speakers is estimate, a half of total Marquesan language speakers (8700).
   orthographies:
   - autonym: ʻEo ʻEnata
     inherit: mrq
@@ -3591,8 +3462,7 @@ mrj:
   name: Western Mari
   orthographies:
   - autonym: Кырык Мары
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӓ ӧ ӱ
-      ӹ
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӓ ӧ ӱ ӹ
     script: Cyrillic
   source:
   - Omniglot
@@ -3603,8 +3473,7 @@ mrj:
   validity: verified
 mrq:
   name: North Marquesan
-  note: The number of speakers is estimate, a half of total Marquesan language speakers
-    (8700).
+  note: The number of speakers is estimate, a half of total Marquesan language speakers (8700).
   orthographies:
   - autonym: ’Eo ’Enana
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ó ú ʻ
@@ -3619,7 +3488,7 @@ mua:
   name: Mundang
   orthographies:
   - autonym: Mundaŋ
-    base: a b c d e f g h i j k l m n o p r s t u v w y z ã ẽ õ ĩ ŋ ǝ ə̃ ɓ ɗ ṽ
+    base: a b c d e f g h i j k l m n o p r s t u v w y z ã ẽ õ ĩ ŋ ǝ ə ɓ ɗ ṽ
     script: Latin
   source:
   - Omniglot
@@ -3671,11 +3540,10 @@ mwp:
   name: Kala Lagaw Ya
   orthographies:
   - autonym: Kala Lagaw Ya
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á ă ā è é ë ĕ ē ì
-      í ĭ ī ò ó ŏ ō œ ù ú ŭ ū
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á ă ā è é ë ĕ ē ì í ĭ ī ò ó ŏ ō œ ù ú ŭ ū
     script: Latin
   - autonym: Kala Lagaw Ya
-    base: a ă ­ā b d e ĕ ē g i ĭ ī k l m n n o ŏ ō ò ö ë œ p f r s t u ŭ ū w y z j
+    base: a ă ­ ā b d e ĕ ē g i ĭ ī k l m n o ŏ ō ò ö ë œ p f r s t u ŭ ū w y z j
     script: Latin
   - autonym: Kala Lagaw Ya
     base: a b d e g i k l m n o p r s t u w y z
@@ -3723,8 +3591,7 @@ nap:
   name: Neapolitan
   orthographies:
   - autonym: Napulitano
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â è é ê ì í î ò
-      ó ô ù ú û
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â è é ê ì í î ò ó ô ù ú û
     script: Latin
   source:
   - Omniglot
@@ -3738,8 +3605,7 @@ naq:
   orthographies:
   - autonym: Khoekhoe
     auxiliary: j l v
-    base: a b c d e f g h i k m n o p q r s t u w x y z à á ā ä â ã é è ê ë ẽ ē ì
-      í ī ï ĩ ò ó õ ö ô ō ù ú ũ ü û ū ǀ ǁ ǂ ǃ
+    base: a b c d e f g h i k m n o p q r s t u w x y z à á ā ä â ã é è ê ë ẽ ē ì í ī ï ĩ ò ó õ ö ô ō ù ú ũ ü û ū ǀ ǁ ǂ ǃ
     script: Latin
   source:
   - Omniglot
@@ -3803,13 +3669,11 @@ nio:
   note: Sources partially disagree. Wikipedia notes з̌ instead of ҙ.
   orthographies:
   - autonym: ня”
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҫ ү ӈ
-      ә ө ҙ ”
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҫ ү ӈ ә ө ҙ ”
     note: Omniglot version
     script: Cyrillic
   - autonym: ня”
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҫ ү ӈ
-      ә ө ” з̌
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҫ ү ӈ ә ө ” ̌
     note: Wikipedia version
     script: Cyrillic
   source:
@@ -3836,8 +3700,7 @@ niv:
   name: Gilyak
   orthographies:
   - autonym: нивх
-    base: ʼ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ғ ӄ
-      ӈ ӷ ӻ ӽ ӿ ’ р̌
+    base: ʼ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ғ ӄ ӈ ӷ ӻ ӽ ӿ ’ ̌
     script: Cyrillic
   source:
   - Omniglot
@@ -3850,8 +3713,7 @@ nld:
   name: Dutch
   orthographies:
   - autonym: Nederlands
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á â ä è é ê ë í ï ó
-      ô ö ú û ü ĳ ȷ́
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á â ä è é ê ë í ï ó ô ö ú û ü ĳ ȷ
     script: Latin
   source:
   - Omniglot
@@ -3865,8 +3727,7 @@ nmg:
   orthographies:
   - autonym: Kwasio
     auxiliary: q x z
-    base: a b c d e f g h i j k l m n o p r s t u v w y á â ä é ê í î ï ó ô ö ú û
-      ā ē ě ī ń ŋ ō ŕ ū ǎ ǐ ǒ ǔ ǝ ɓ ɔ ɛ ́ ̂ ̄ ̌
+    base: a b c d e f g h i j k l m n o p r s t u v w y á â ä é ê í î ï ó ô ö ú û ā ē ě ī ń ŋ ō ŕ ū ǎ ǐ ǒ ǔ ǝ ɓ ɔ ɛ
     script: Latin
   source:
   - CLDR
@@ -3879,8 +3740,7 @@ nnh:
   orthographies:
   - autonym: Ngyɛmbɔɔŋ
     auxiliary: q r x
-    base: a b c d e f g h i j k l m n o p s t u v w y z à á â è é ê ì í ò ó ô ù ú
-      û ÿ ě ń ŋ ǎ ǒ ǔ ɔ ɛ ʉ ʼ ̀ ́ ̂ ̌ ḿ ẅ
+    base: a b c d e f g h i j k l m n o p s t u v w y z à á â è é ê ì í ò ó ô ù ú û ÿ ě ń ŋ ǎ ǒ ǔ ɔ ɛ ʉ ʼ ḿ ẅ
     script: Latin
   source:
   - CLDR
@@ -3888,36 +3748,6 @@ nnh:
   speakers_date: 2000
   status: living
   validity: weak
-nno:
-  name: Norwegian Nynorsk
-  orthographies:
-  - autonym: Nynorsk
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á à ä å æ é è ê ò ó
-      ô ö ø ü
-    script: Latin
-  source:
-  - Omniglot
-  - Wikipedia
-  - CLDR
-  speakers: 4320000
-  speakers_date: 2012
-  status: living
-  validity: verified
-nob:
-  name: Norwegian Bokmål
-  orthographies:
-  - autonym: Bokmål
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á à ä å æ é è ê ò ó
-      ô ö ø ü
-    script: Latin
-  source:
-  - Omniglot
-  - Wikipedia
-  - CLDR
-  speakers: 4320000
-  speakers_date: 2012
-  status: living
-  validity: verified
 nog:
   name: Nogai
   orthographies:
@@ -3935,8 +3765,7 @@ non:
   name: Old Norse
   orthographies:
   - autonym: Dǫnsk tunga
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á æ é í ð ó ø ú ý œ
-      ǫ ǽ
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á æ é í ð ó ø ú ý œ ǫ ǽ
     script: Latin
   source:
   - Omniglot
@@ -3951,8 +3780,7 @@ nor:
   name: Norwegian
   orthographies:
   - autonym: Norsk
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á à ä å æ é è ê ò ó
-      ô ö ø ü
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á à ä å æ é è ê ò ó ô ö ø ü
     script: Latin
   preferred_as_individual: true
   source:
@@ -3990,8 +3818,7 @@ nus:
   name: Nuer
   orthographies:
   - autonym: Naath
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä a̱ ë e̱ ï i̱ ö o̱
-      ŋ ɔ ɔ̱ ɛ ɛ̱ ɛ̈ ɣ ̈ ̱
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ̱ ë ï ö ŋ ɔ ɛ ɣ
     script: Latin
   source:
   - Omniglot
@@ -4029,7 +3856,7 @@ oaa:
   name: Orok
   orthographies:
   - autonym: Уйльта
-    base: ̄ а б в г д е ж з и й к л м н о п р с т у ф х ч э ј ӈ ӡ ӣ ө ԩ ь а̄ е̄ о̄ ө̄ э̄
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ч э ј ӈ ӡ ӣ ө ԩ ь
     script: Cyrillic
   source:
   - Omniglot
@@ -4042,8 +3869,7 @@ oci:
   name: Occitan (post 1500)
   orthographies:
   - autonym: Occitan
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á ç è é ë í ï ò ó
-      ú ü
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á ç è é ë í ï ò ó ú ü
     script: Latin
   preferred_name: Occitan
   source:
@@ -4122,12 +3948,10 @@ pap:
   validity: verified
 pes:
   name: Iranian Persian
-  note: Initial, medial, and final forms of the letters and some ligatures are also
-    required.
+  note: Initial, medial, and final forms of the letters and some ligatures are also required.
   orthographies:
   - autonym: فارسی
-    base: ء أ ؤ ئ ا ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ل م ن ه و پ چ ژ ک گ ی
-      َ ُ ِ ْ ٰ
+    base: ء أ ا ؤ و ئ ي ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ل م ن ه پ چ ژ ک گ ی َ ُ ِ ْ ٰ
     numerals: ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹
     script: Arabic
   source:
@@ -4138,8 +3962,7 @@ pes:
   validity: weak
 pga:
   name: Sudanese Creole Arabic
-  note: Also called Juba Arabic. Initial, medial, and final forms of the letters and
-    some ligatures are also required.
+  note: Also called Juba Arabic. Initial, medial, and final forms of the letters and some ligatures are also required.
   orthographies:
   - autonym: جوبا
     inherit: apd
@@ -4189,8 +4012,7 @@ por:
   name: Portuguese
   orthographies:
   - autonym: Português
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ã ç è é ê í ò
-      ó ô õ ú ü
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ã ç è é ê í ò ó ô õ ú ü
     script: Latin
   source:
   - Omniglot
@@ -4216,8 +4038,7 @@ prg:
   note: Need to add combinations with accents.
   orthographies:
   - autonym: Prūsiskan
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ģ ī ķ ņ ō ŗ š ū
-      ž ț ḑ
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ģ ī ķ ņ ō ŗ š ū ž ț ḑ
     script: Latin
   source:
   - Omniglot
@@ -4308,12 +4129,12 @@ qxq:
   validity: weak
 rar:
   name: Rarotongan
-  preferred_name: Cook Islands Māori
   orthographies:
   - autonym: Māori Kūki 'Āirani
     auxiliary: á é í ó ú
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ī ō ū
     script: Latin
+  preferred_name: Cook Islands Māori
   source:
   - Omniglot
   - Wikipedia
@@ -4355,8 +4176,8 @@ ron:
     script: Cyrillic
     status: local
   - autonym: Română
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z â î ă ș ț
     auxiliary: ş ţ
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z â î ă ș ț
     script: Latin
   source:
   - Omniglot
@@ -4431,8 +4252,7 @@ ruq:
   name: Megleno Romanian
   orthographies:
   - autonym: Vlăheshte
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā â ă ạ ē ë ę ž ł š
-      i̯ ī ō ǫ ū ľ ń ș ț
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā â ă ạ ē ë ę ž ł š ̯ ī ō ǫ ū ľ ń ș ț
     script: Latin
   source:
   - Omniglot
@@ -4494,8 +4314,7 @@ sah:
   name: Yakut
   orthographies:
   - autonym: Сахалыы
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҕ ҥ ү
-      һ ө
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҕ ҥ ү һ ө
     script: Cyrillic
   source:
   - Omniglot
@@ -4521,8 +4340,7 @@ sbp:
   name: Sangu (Tanzania)
   orthographies:
   - autonym: Shisango
-    base: a b c d e f g h i j k l m n o p q s t u v w x y z à á ä â è é ë ê ì í ï
-      î ò ó ö ô ù ú ü û
+    base: a b c d e f g h i j k l m n o p q s t u v w x y z à á ä â è é ë ê ì í ï î ò ó ö ô ù ú ü û
     script: Latin
   source:
   - Omniglot
@@ -4584,8 +4402,7 @@ sel:
   name: Selkup
   orthographies:
   - autonym: Шӧльӄумыт
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё җ ӄ ӈ
-      å ӣ ӧ ө ӭ ӯ ӱ ӷ и̇
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё җ ӄ ӈ å a ӣ ӧ ө ӭ ӯ ӱ ӷ ̇
     script: Cyrillic
   source:
   - Omniglot
@@ -4609,7 +4426,7 @@ sgh:
   name: Shughni
   orthographies:
   - autonym: Хуг̌ну̊н зив
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш ё ғ қ ҳ ҷ ӣ ӯ а̄ г̌ у̊
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш ё ғ қ ҳ ҷ ӣ ӯ ̌ ̊
     script: Cyrillic
   source:
   - Omniglot
@@ -4633,8 +4450,7 @@ shi:
   validity: verified
 shu:
   name: Chadian Arabic
-  note: Initial, medial, and final forms of the letters and some ligatures are also
-    required.
+  note: Initial, medial, and final forms of the letters and some ligatures are also required.
   orthographies:
   - autonym: تشادية
     inherit: apd
@@ -4649,8 +4465,7 @@ sjd:
   name: Kildin Sami
   orthographies:
   - autonym: Кӣллт Са̄мь
-    base: а ӓ б в г д е ё ж з һ и ӣ й ј ҋ к л ӆ м ӎ н ӊ ӈ о п р ҏ с т у ӯ ф х ц ч
-      ш щ ъ ы ь ҍ э ӭ ю я ’ а̄ е̄ ё̄ ӣ о̄ э̄ ю̄ я̄
+    base: а ӓ б в г д е ё ж з һ и ӣ й ј ҋ к л ӆ м ӎ н ӊ ӈ о п р ҏ с т у ӯ ф х ц ч ш щ ъ ы ь ҍ э ӭ ю я ’
     script: Cyrillic
   source:
   - Omniglot
@@ -4662,7 +4477,7 @@ sje:
   name: Pite Sami
   orthographies:
   - autonym: Bidumsámegiella
-    base: a b d e f g h i j k l m n o p r s t u v á ä å đ ŋ ŧ ’ \'
+    base: a b d e f g h i j k l m n o p r s t u v á ä å đ ŋ ŧ ’ \ '
     script: Latin
   source:
   - Wikipedia
@@ -4674,8 +4489,7 @@ sjt:
   name: Ter Sami
   orthographies:
   - autonym: Са̄мькӣлл
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ј ҋ ҍ
-      ҏ һ ӆ ӈ ӊ ӎ ӓ ӭ ӣ ’ а̄
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ј ҋ ҍ ҏ һ ӆ ӈ ӊ ӎ ӓ ӭ ӣ ’
     script: Cyrillic
   source:
   - Omniglot
@@ -4688,7 +4502,7 @@ sju:
   orthographies:
   - autonym: Ubmejesámiengiälla
     auxiliary: ū ǖ
-    base: a b d e f g h i j k l m n o p r s t u v y á ä å ï ö ü đ ŋ ŧ å̄
+    base: a b d e f g h i j k l m n o p r s t u v y á ä å ï ö ü đ ŋ ŧ ̄
     script: Latin
   source:
   - Wikipedia
@@ -4712,8 +4526,7 @@ slk:
   name: Slovak
   orthographies:
   - autonym: Slovenčina
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á ä é í ó ô ú ý č ď
-      ĺ ľ ň ŕ š ť ž
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á ä é í ó ô ú ý č ď ĺ ľ ň ŕ š ť ž
     script: Latin
   source:
   - Omniglot
@@ -4749,8 +4562,7 @@ sme:
   name: Northern Sami
   orthographies:
   - autonym: Sámegiella
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á ä å æ ö ø č đ ŋ š
-      ŧ ž
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á ä å æ ö ø č đ ŋ š ŧ ž
     script: Latin
   source:
   - Omniglot
@@ -4804,8 +4616,7 @@ sms:
   name: Skolt Sami
   orthographies:
   - autonym: Nuõrttsääʹmǩiõll
-    base: a b c d e f g h i j k l m n o p q r s t u v x y z â ä å ö õ č đ ŋ š ž ǥ
-      ǧ ǩ ǯ ʒ ’ ʹ ˈ
+    base: a b c d e f g h i j k l m n o p q r s t u v x y z â ä å ö õ č đ ŋ š ž ǥ ǧ ǩ ǯ ʒ ’ ʹ ˈ
     script: Latin
   source:
   - Wikipedia
@@ -4841,7 +4652,7 @@ sot:
   name: Southern Sotho
   orthographies:
   - autonym: Sesotho
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á é è ē ō ò š
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á é è ē ō ò š
     script: Latin
   source:
   - Omniglot
@@ -4911,7 +4722,7 @@ srp:
   name: Serbian
   orthographies:
   - autonym: Српски
-    base: ́ а б в г д е ж з и к л м н о п р с т у ф х ц ч ш ђ ј љ њ ћ џ з́ с́
+    base: ́ а б в г д е ж з и к л м н о п р с т у ф х ц ч ш ђ ј љ њ ћ џ
     script: Cyrillic
   - autonym: Srpski
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ć č đ ś š ź ž
@@ -5027,8 +4838,7 @@ tat:
   name: Tatar
   orthographies:
   - autonym: Татарча
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё җ ң ү
-      һ ә ө
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё җ ң ү һ ә ө
     script: Cyrillic
   source:
   - Omniglot
@@ -5231,8 +5041,7 @@ tuk:
   name: Turkmen
   orthographies:
   - autonym: Түркменче
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё җ ң ү
-      ә ө
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё җ ң ү ә ө
     script: Cyrillic
     status: secondary
   - autonym: Türkmençe
@@ -5261,7 +5070,7 @@ tur:
   name: Turkish
   orthographies:
   - autonym: Türkçe
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z â ç î ö û ü ğ İ ı ș
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z â ç î ö û ü ğ İ I ı ș
     script: Latin
   source:
   - Omniglot
@@ -5274,8 +5083,7 @@ tvl:
   note: Speaker count date for 10000 speakers in Tuvalu, rest unknown.
   orthographies:
   - autonym: Te ’gana Tūvalu
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā á à ǎ ē é è ě ī í
-      ì ǐ ō ó ò ǒ ū ú ù ǔ ’
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā á à ǎ ē é è ě ī í ì ǐ ō ó ò ǒ ū ú ù ǔ ’
     script: Latin
   source:
   - Omniglot
@@ -5366,8 +5174,7 @@ udm:
   name: Udmurt
   orthographies:
   - autonym: Удмурт
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӝ ӟ ӥ
-      ӧ ӵ
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӝ ӟ ӥ ӧ ӵ
     script: Cyrillic
   source:
   - Omniglot
@@ -5383,10 +5190,10 @@ uig:
     script: Cyrillic
     status: secondary
   - autonym: ئۇيغۇرچە
-    base: ئ ا ب ت ج خ د ر ز س ش غ ف ق ك ل م ن و ي پ چ ژ ڭ گ ھ ۆ ۇ ۈ ۋ ې ە
+    base: ئ ي ا ب ت ج خ د ر ز س ش غ ف ق ك ل م ن و پ چ ژ ڭ گ ھ ۆ ۇ ۈ ۋ ې ە
     script: Arabic
   - autonym: Uighur
-    base: a b c d e f g h h i j k l m n o p q r s t u w x y z ë ö ü
+    base: a b c d e f g h i j k l m n o p q r s t u w x y z ë ö ü
     script: Latin
     status: secondary
   source:
@@ -5438,12 +5245,10 @@ umu:
   validity: weak
 urd:
   name: Urdu
-  note: Initial, medial, and final forms of the letters and some ligatures are also
-    required.
+  note: Initial, medial, and final forms of the letters and some ligatures are also required.
   orthographies:
   - autonym: اُردُو
-    base: ء ا ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ل م ن و ٹ پ چ ڈ ڑ ژ ک گ ں ھ
-      ہ ی َ ُ ِ ْ ٰ
+    base: ء ا ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ل م ن و ٹ پ چ ڈ ڑ ژ ک گ ں ھ ہ ی َ ُ ِ ْ ٰ
     numerals: ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹
     script: Arabic
   source:
@@ -5472,14 +5277,12 @@ uzn:
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ‘
     script: Latin
   - autonym: Ўзбекча
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ў ғ қ
-      ҳ
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ў ғ қ ҳ
     note: Alternative 2
     script: Cyrillic
     status: secondary
   - autonym: Ӯзбекча
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӯ ғ қ
-      ҳ
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӯ ғ қ ҳ
     note: Alternative 3
     script: Cyrillic
     status: secondary
@@ -5493,7 +5296,7 @@ uzs:
   name: Southern Uzbek
   orthographies:
   - autonym: وزبیکی
-    base: ء ئ ا ب ت ج ح خ د ر ز س ش غ ف ق ك ل م ن ه و ى ي پ چ ژ ڭ گ ھ ۇ ۋ ې ک
+    base: ء ئ ي ا ب ت ج ح خ د ر ز س ش غ ف ق ك ل م ن ه و ى پ چ ژ ڭ گ ھ ۇ ۋ ې ک
     script: Arabic
   source:
   - Wikipedia
@@ -5505,8 +5308,7 @@ vec:
   name: Venetian
   orthographies:
   - autonym: Vèneto
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á ç è é ì í ò ó ù
-      ł ž
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á ç è é ì í ò ó ù ł ž
     script: Latin
   source:
   - Omniglot
@@ -5531,9 +5333,7 @@ vie:
   name: Vietnamese
   orthographies:
   - autonym: Tiếng Việt
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ã è é ê ì í ò
-      ó ô õ ù ú ý ă đ ĩ ũ ơ ư ạ ả ấ ầ ẩ ẫ ậ ắ ằ ẳ ẵ ặ ẹ ẻ ẽ ế ề ể ễ ệ ỉ ị ọ ỏ ố ồ
-      ổ ỗ ộ ớ ờ ở ỡ ợ ụ ủ ứ ừ ử ữ ự ỳ ỵ ỷ ỹ
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ã è é ê ì í ò ó ô õ ù ú ý ă đ ĩ ũ ơ ư ạ ả ấ ầ ẩ ẫ ậ ắ ằ ẳ ẵ ặ ẹ ẻ ẽ ế ề ể ễ ệ ỉ ị ọ ỏ ố ồ ổ ỗ ộ ớ ờ ở ỡ ợ ụ ủ ứ ừ ử ữ ự ỳ ỵ ỷ ỹ
     script: Latin
   source:
   - Omniglot
@@ -5596,8 +5396,7 @@ wae:
   orthographies:
   - autonym: Walscher
     auxiliary: ß à â å æ ç è ê ë ì î ï ñ ò ô ø ù û ÿ ā ă ē ĕ ī ĭ ō ŏ œ ū ŭ
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á ã ä é í ó õ ö ú ü
-      č š ũ
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á ã ä é í ó õ ö ú ü č š ũ
     script: Latin
   source:
   - Wikipedia
@@ -5608,9 +5407,7 @@ wae:
   validity: verified
 war:
   name: Waray (Philippines)
-  note: There is no officially-approved orthography for the language and different
-    writers may use differing orthographic styles. In general, it has become common
-    to write the language following the current orthographic conventions of Filipino.
+  note: There is no officially-approved orthography for the language and different writers may use differing orthographic styles. In general, it has become common to write the language following the current orthographic conventions of Filipino.
   orthographies:
   - autonym: Waray-Waray
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ñ
@@ -5749,8 +5546,7 @@ xal:
   name: Kalmyk
   orthographies:
   - autonym: Хальмг
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё җ ң ү
-      һ ә ө
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё җ ң ү һ ә ө
     script: Cyrillic
   source:
   - Omniglot
@@ -5798,6 +5594,7 @@ xog:
   validity: verified
 xrg:
   name: Minang
+  note: iso-639-3 has this language marked as 'extinct'.
   orthographies:
   - autonym: Minangkabau
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
@@ -5809,13 +5606,11 @@ xrg:
   speakers_date: 2007-2016
   status: living
   validity: verified
-  note: iso-639-3 has this language marked as 'extinct'.
 yai:
   name: Yagnobi
   orthographies:
   - autonym: Йағнобӣ
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ э ю я ё ғ қ ҳ ҷ ӣ
-      ӯ ԝ
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ э ю я ё ғ қ ҳ ҷ ӣ ӯ ԝ
     script: Cyrillic
   source:
   - Omniglot
@@ -5840,9 +5635,8 @@ yav:
   name: Yangben
   orthographies:
   - autonym: Nuasue
-    auxiliary: g j q r x z
-    base: a b c d e f g h i k l m n o p s t u v w y à á â è é ì í î ò ó ô ù ú û ā
-      ī ŋ ō ū ǎ ǒ ǔ ɔ ɛ ̀ ́
+    auxiliary: j q r x z
+    base: a b c d e f g h i k l m n o p s t u v w y à á â è é ì í î ò ó ô ù ú û ā ī ŋ ō ū ǎ ǒ ǔ ɔ ɛ
     script: Latin
   source:
   - CLDR
@@ -5854,7 +5648,7 @@ ydd:
   name: Eastern Yiddish
   orthographies:
   - autonym: ייִדיש
-    base: א ב ג ד ה ו ז ח ט י כ ך ל מ ם נ ן ס ע פ ף צ ץ ק ר ש ת יִ אָ
+    base: א ב ג ד ה ו ז ח ט י כ ך ל מ ם נ ן ס ע פ ף צ ץ ק ר ש ת ִ ָ
     script: Hebrew
   speakers: 1500000
   status: living
@@ -5884,8 +5678,7 @@ ykg:
   name: Northern Yukaghir
   orthographies:
   - autonym: Одул
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ғ ң ӧ
-      ԝ
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ғ ң ӧ ԝ
     script: Cyrillic
   source:
   - Omniglot
@@ -5905,26 +5698,14 @@ ymk:
   speakers_date: 2003-2009
   status: living
   validity: weak
-yom:
-  name: Yombe
-  orthographies:
-  - autonym: Kiyoombi
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    script: Latin
-  source:
-  - Omniglot
-  status: living
-  validity: weak
 yor:
   name: Yoruba
   orthographies:
   - autonym: Èdè Yorùbá
-    base: a b d e f g h i j k l m n o p r s t u w y à á ā è é ē ẹ ì í ī ò ó ō ọ ù
-      ú ū ṣ ̀ ́
+    base: a b d e f g h i j k l m n o p r s t u w y à á ā è é ē ẹ ì í ī ò ó ō ọ ù ú ū ṣ
     script: Latin
   - autonym: Èdè Yorùbá
-    base: a b d e f g h i j k l m n o p r s t u w y à á ā è é ē ẹ ì í ī ò ó ō ọ ù
-      ú ū ṣ ɔ ɛ ̀ ́
+    base: a b d e f g h i j k l m n o p r s t u w y à á ā è é ē ẹ ì í ī ò ó ō ọ ù ú ū ṣ ɔ ɛ
     script: Latin
   source:
   - Omniglot
@@ -5937,8 +5718,7 @@ yrk:
   name: Nenets
   orthographies:
   - autonym: Ненэц
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӈ ӭ ’
-      ”
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӈ ӭ ’ ”
     script: Cyrillic
   source:
   - Omniglot
@@ -5951,8 +5731,7 @@ yux:
   name: Southern Yukaghir
   orthographies:
   - autonym: Одул
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҕ җ ә
-      қ ө
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҕ җ ә қ ө
     script: Cyrillic
   source:
   - Omniglot
@@ -6021,8 +5800,7 @@ zap:
   - zty
   name: Zapotec
   orthographies:
-  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z á à è é ë ì ü s̨ ñ ž
-      z̨
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z á à è é ë ì ü ̨ ñ ž
     script: Latin
   preferred_as_individual: true
   source:
@@ -6052,10 +5830,9 @@ zsm:
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
     script: Latin
   - autonym: مليسيا‎
-    base: ء‎ ا‎ ب‎ ة‎ ت‎ ث‎ ج‎ ح‎ خ‎ د‎ ذ‎ ر‎ ز‎ س‎ ش‎ ص‎ ض‎ ط‎ ظ‎ ع‎ غ‎ ف‎ ق‎ ل‎
-      م‎ ن‎ ه‎ و‎ ى‎ ي‎ چ‎ ڠ‎ ڤ‎ ک‎ ڽ‎ ۏ‎ ݢ‎
+    base: ء ‎ ا ب ة ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ل م ن ه و ى ي چ ڠ ڤ ک ڽ ۏ ݢ
     note: Jawi
-    numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ ١٠
+    numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩
     script: Arabic
   source:
   - Wikipedia

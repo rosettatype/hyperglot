@@ -5,8 +5,24 @@ import yaml
 import logging
 from collections import OrderedDict
 from fontTools.ttLib import TTFont
-from . import __version__, DB, SUPPORTLEVELS, VALIDITY
-from .languages import Languages, Language
+from . import __version__, DB, SUPPORTLEVELS, VALIDITYLEVELS
+from .languages import Languages
+from .language import Language
+from .parse import prune_superflous_marks
+
+# All YAML dumps have these same additional arguments to make sure the unicode
+# dumping and formatting is kosher.
+DUMP_ARGS = {
+    # Aka "make human readable"
+    "default_flow_style": False,
+
+    # D'ah
+    "allow_unicode": True,
+
+    # When dumping to yaml make sure not to intruduce line breaks in the
+    # character lists (this will mess with the order in RTL strings).
+    "width": 999
+}
 
 
 def validate_font(ctx, param, value):
@@ -28,8 +44,8 @@ def validate_font(ctx, param, value):
     return value
 
 
-def language_list(langs, native=False, users=False, script=None, strict_iso=False,
-                  seperator=", "):
+def language_list(langs, native=False, users=False, script=None,
+                  strict_iso=False, seperator=", "):
     """
     Return a printable string for all languages
     """
@@ -139,7 +155,7 @@ def write_yaml(file, data):
         # results are listed
         # That's already how the data is :)
         pass
-    yaml.dump(write, file, default_flow_style=False, allow_unicode=True)
+    yaml.dump(write, file, **DUMP_ARGS)
 
     print()
     print("Wrote support information to %s" % file.name)
@@ -157,8 +173,9 @@ MODES = ["individual", "union", "intersection"]
               help="Option to test only for the language's base charset, or to"
               " also test for presence of all auxilliary characters, if "
               "present in the database.")
-@click.option("--validity", type=click.Choice(VALIDITY, case_sensitive=False),
-              default=VALIDITY[1], show_default=True,
+@click.option("--validity", type=click.Choice(VALIDITYLEVELS,
+                                              case_sensitive=False),
+              default=VALIDITYLEVELS[1], show_default=True,
               help="The level of validity for languages matched against the "
               "font. Weaker levels always include more strict levels. The "
               "default includes all languages for which the database has "
@@ -275,7 +292,7 @@ def cli(fonts, support, validity, autonyms, users, output, mode,
 
 def save_sorted(Langs=None):
     """
-    Helper script to re-save the rosetta.yaml sorted alphabetically,
+    Helper script to re-save the hyperglot.yaml sorted alphabetically,
     alternatively from the passed in Langs object (which can have been
     modified)
     """
@@ -283,22 +300,51 @@ def save_sorted(Langs=None):
     if Langs is None:
         Langs = Languages(inherit=False)
 
+        # Save with removed superflous marks
+        for iso, lang in Langs.items():
+            if "orthographies" in lang:
+                for i, o in enumerate(lang["orthographies"]):
+                    for type in ["base", "auxiliary", "numerals"]:
+                        if type in o:
+                            chars = o[type]
+                            pruned, removed = prune_superflous_marks(
+                                " ".join(o[type]))
+
+                            if len(removed) > 0:
+
+                                logging.info("Saving '%s' with '%s' pruned of "
+                                             "superfluous marks (implicitly "
+                                             "included in combining glyphs): "
+                                             "%s"
+                                             % (iso, type, "','".join(removed))
+                                             )
+
+                            chars = pruned
+
+                            if "base" in o and type != "base":
+                                chars = [
+                                    c for c in chars if c not in o["base"]]
+
+                            joined = " ".join(chars)
+
+                            Langs[iso]["orthographies"][i][type] = joined
+
     # Sort by keys
     alphabetic = dict(OrderedDict(sorted(Langs.items())))
 
     file = open(DB, "w")
-    yaml.dump(alphabetic, file, default_flow_style=False, allow_unicode=True)
+    yaml.dump(alphabetic, file, **DUMP_ARGS)
 
 
 @click.command()
 @click.argument("output", type=click.Path())
 def export(output):
     """
-    Helper script to export rosetta.yaml with all inhereted orthographies
+    Helper script to export hyperglot.yaml with all inhereted orthographies
     expanded
     """
     logging.getLogger().setLevel(logging.WARNING)
     Langs = dict(Languages(inherit=True).items())
 
     file = open(output, "w")
-    yaml.dump(Langs, file, default_flow_style=False, allow_unicode=True)
+    yaml.dump(Langs, file, **DUMP_ARGS)

@@ -26,7 +26,7 @@ setup(name="hyperglot",
           "click>=7.0",
           "fonttools>=4.0.2",
           "pyyaml>=5.3",
-          # For validation and decomposition
+          # For validation and decompositionq
           "unicodedata2>=13.0.0"
       ],
       )

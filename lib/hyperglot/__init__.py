@@ -11,4 +11,20 @@ SUPPORTLEVELS = {
     "aux": "auxiliary"
 }
 
-VALIDITY = ["todo", "weak", "done", "verified"]
+VALIDITYLEVELS = [
+    "todo",
+    "weak",
+    "done",
+    "verified"
+]
+
+
+# note that "secondary" as status is also used, but on orthographies!
+STATUSES = [
+    "historical",
+    "constructed",
+    "ancient",
+    "living",
+    "extinct",
+    "deprecated"
+]
