@@ -12,7 +12,7 @@
 - [+] how should we handle combinations in {} for Central Yupik? Two characters with a combining mark over them. Aha!!
 	- The combing double inverted breve U+0361 is just any other mark. For "u͡g" the normalization will decompose to u, g, combining mark, which is what we want.
 - [ ] run analysis of characters in UDHR and compare this to our records, provide an error log
-- [ ] check script adheres to README re "Orthographies with `deprecated` and `secondary` status are included only for the sake of completeness and ignored during language support detection."
+- [+] check script adheres to README re "Orthographies with `deprecated` and `secondary` status are included only for the sake of completeness and ignored during language support detection."
 
 
 - [+] review and refactor decomposition rules and flags based on input charset:

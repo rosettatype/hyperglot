@@ -100,6 +100,40 @@ class Language(dict):
 
         return False
 
+    def is_deprecated(self, orthography=None):
+        """
+        Check if a language or a specific orthography of a language is marked
+        as deprecated
+
+        If a language has a "deprecated" top level entry all orthographies
+        are by implication deprecated.
+        """
+        if "status" in self and self["status"] == "deprecated":
+            return True
+
+        if orthography is not None and "status" in orthography and \
+                orthography["status"] == "deprecated":
+            return True
+
+        return False
+
+    def is_secondary(self, orthography=None):
+        """
+        Check if a language or a specific orthography of a language is marked
+        as secondary
+
+        If a language has a "secondary" top level entry all orthographies
+        are by implication secondary.
+        """
+        if "status" in self and self["status"] == "secondary":
+            return True
+
+        if orthography is not None and "status" in orthography and \
+                orthography["status"] == "secondary":
+            return True
+
+        return False
+
     def has_support(self, chars, level="base", decomposed=False,
                     pruneOrthographies=True):
         """
@@ -122,6 +156,10 @@ class Language(dict):
                 logging.warning("Skipping an orthography in language '%s',"
                                 " because it has no 'script'" % self.iso)
                 continue
+
+            if self.is_secondary(ort) or self.is_deprecated(ort):
+                logging.info("Skipping orthography in '%s' because it is "
+                             "deprecated or secondary" % self.iso)
 
             # Any support check needs 'base'
             if "base" in ort:
