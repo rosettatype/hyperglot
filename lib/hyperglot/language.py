@@ -6,6 +6,9 @@ class Language(dict):
     """
     A dict wrapper around a language data yaml entry with additional querying
     options for convenience
+
+    TODO all the getter functions could be rewritten as object parameter
+    getters
     """
 
     def __init__(self, data, iso):

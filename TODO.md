@@ -2,7 +2,7 @@
 
 @Johannes
 
-- [ ] review the README:
+- [+] review the README:
 	- detection process
 	- are all attributes listed
 	- are all required attributes really required
@@ -62,6 +62,7 @@ Notes:
 - [ ] add Armenian
 - [ ] when adding Devanagari, include individual Bihari, Dogri, and Konkani languages
 - [ ] Check Tundra Enets (enh) - was missing validity and marked as 'weak' now
+- [ ] `numerals` attribute unused so far (we talked about a `0123456789` default) — should the default for be script-dependent? Do we actually want to fail fonts without numerals?
 
 Ask externists to check:
 - [ ] Albanian

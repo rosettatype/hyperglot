@@ -46,7 +46,6 @@ A language can refer to one or more orthographies. An orthography specifies the 
 
 - `base` (required or use `inherit`): a string of space-separated characters or combinations of characters and combining marks that are required to represent the language in common texts. This typically maps to a standard alphabet or syllabary for the language or am approximation of thereof. In case the script used is bicameral, only lowercase versions of characters are provided with a few exceptions, e.g. the Turkish `İ`.
 - `auxiliary` (optional): a string of space-separated characters or combinations of characters and combining marks that are not part of the standard alphabet, but appear in very common loan words or in reference literature. Deprecated characters can be included here too, e.g. `ş ţ` for Romanian.
-- `numerals` (optional, defaults to `0123456789`): a string of numeric characters required for this language in this orthography.
 - `autonym` (optional): the name of the language in the language itself using this orthography. If missing, the `autonym` defined in the parent language entry is used.
 - `inherit` (required or use `base`): the code of a language to copy the `base` and `auxiliary` strings from. In case the language has multiple orthographies, the first one for the same script is used.
 - `script` (required): English name of the script, e.g. Latin, Arabic, Armenian, Cyrillic, Greek, Hebrew.
@@ -93,11 +92,11 @@ fas:
 
 1. A list of codepoints is obtained from a font.
 2. The database can be accessed in two modes:
-- by **default** combinations of a base character with marks are required as single code point where this exists (e.g. `ä`), codepoints for base characters and combining mark characters (e.g. `a` and combining `¨`) from these combinations are also required.
-- Using the `decomposed` flag checked fonts are required to contain the base character and combining marks for a language (e.g. languages with `ä` will match for fonts that only have `a` and combining `¨` but not `ä` as single encoded glyph).
+	- By **default** combinations of a base character with marks are required as single code point where this exists (e.g. encoded `ä`), codepoints for base characters and combining mark characters (e.g. `a` and combining `¨`) from these combinations are also required.
+	- Using the `decomposed` flag fonts are required to contain the base character and combining marks for a language (e.g. languages with `ä` will match for fonts that only have `a` and combining `¨` but not `ä` as  encoded glyph).
 3. Specified `validity` level is used to filter out language entries according to a user’s preference.
-4. If requested, `base` and `auxiliary` lists of codepoints are combined to achieve more strict criteria.
-5. Orthographies with `deprecated` or `secondary` status are ignored.
+4. If requested, `base` and `aux` (auxiliary) lists of codepoints are combined to achieve more strict criteria by using the `--support` option.
+5. Orthographies with `deprecated` or `secondary` status are ignored and are listed in the database for completeness only.
 6. If the list of code points in the font includes all code points from the list of codepoints for an orthography of given language, the font is considered to support this language orthography. In listings these are be grouped by scripts.
 
 
@@ -142,7 +141,7 @@ or to check several fonts at once, or their combined coverage (with `-m union`)
 
 ### Validating and sorting the database yaml file
 
-Simple validation and sorting script to verify the data integrity of `hyperglot.yaml` and point out possible formatting errors is included as `hyperglot-validate` (prints problems to terminal) and `hyperglot-save` (saves the hyperglot.yaml sorted alphabetically by iso keys)
+Simple validation and sorting script to verify the data integrity of `hyperglot.yaml` and point out possible formatting errors is included as `hyperglot-validate` (prints problems to terminal) and `hyperglot-save` (saves the `hyperglot.yaml` sorted alphabetically and pruned by iso keys)
 
 
 ### Development
@@ -163,6 +162,11 @@ $ ln hyperglot.yaml lib/hyperglot/hyperglot.yaml
 
 NOTE: It is `lib/hyperglot/hyperglot.yaml` that gets packages with the `hyperglot` CLI command!
 
+To test the codebases after making changes run the `pytest` test suite:
+
+```
+pytest
+```
 
 ## Sources
 
