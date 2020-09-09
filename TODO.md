@@ -61,6 +61,7 @@ Notes:
 - [ ] check Cyrillic orthographies against: https://en.wiktionary.org/wiki/Appendix:Cyrillic_script
 - [ ] add Armenian
 - [ ] when adding Devanagari, include individual Bihari, Dogri, and Konkani languages
+- [ ] Check Tundra Enets (enh) - was missing validity and marked as 'weak' now
 
 Ask externists to check:
 - [ ] Albanian

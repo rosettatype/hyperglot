@@ -1622,6 +1622,7 @@ enh:
   speakers: 5
   speakers_date: 2010
   status: living
+  validity: weak
 epo:
   name: Esperanto
   orthographies:
