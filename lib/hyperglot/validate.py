@@ -214,6 +214,7 @@ def check_inheritted(iso, script, Langs):
 
 
 def check_macrolanguages(Langs):
+    # Compare with ISO data
     for iso, lang in iso_data.items():
         for name in lang["names"]:
             if "macrolanguage" in name:
@@ -225,6 +226,21 @@ def check_macrolanguages(Langs):
                 if not check_includes(Langs[iso]):
                     logging.error("'%s' is marked as macrolanguage in the iso "
                                   "data, but has no 'includes'." % iso)
+
+    for iso, lang in Langs.items():
+        if "includes" in lang:
+            # Skip checking included languages if this language is preferred as
+            # individual language
+            if "preferred_as_individual" not in lang:
+                continue
+            
+            if lang["preferred_as_individual"] is True:
+                continue
+
+            for i in lang["includes"]:
+                if i not in Langs.keys():
+                    logging.error("'%s' includes language '%s' but it was "
+                                "missing from the data" % (iso, i))
 
 
 def check_includes(lang):

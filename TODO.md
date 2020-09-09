@@ -7,7 +7,8 @@
 	- are all attributes listed
 	- are all required attributes really required
 	- do the defaults for the attributes correspond?
-- [ ] I have removed all unnecessary macrolanguages and put them in a separate file. The only ones left are those that are included as individual. Hopefully it makes things simpler. I believe there should be no need for inheritance from a macrolanguage. Can you check this.
+- [+] I have removed all unnecessary macrolanguages and put them in a separate file. The only ones left are those that are included as individual. Hopefully it makes things simpler. I believe there should be no need for inheritance from a macrolanguage. Can you check this.
+	I've added a check in `hyperglot-validate` for this and can confirm it did not have any matches with the current data.
 - [+] how should we handle combinations in {} for Central Yupik? Two characters with a combining mark over them. Aha!!
 	- The combing double inverted breve U+0361 is just any other mark. For "u͡g" the normalization will decompose to u, g, combining mark, which is what we want.
 - [ ] run analysis of characters in UDHR and compare this to our records, provide an error log
@@ -29,7 +30,7 @@
 - [+] add support for `preferred_as_individual: true` (default is false)
 - [+] simplify validation:
 	- [+] do not report errors for `todo_status: todo`
-	- [ ] simply ignore spaces in combinations and characters sets (no need to report, no?)
+	- [+] simply ignore spaces in combinations and characters sets (no need to report, no?)
 		- NOTE: I'd keep these, just to get better data sanitization
 	- [+] no need to report missing macrolanguages
 	- [+] not all included languages need to be in the data
