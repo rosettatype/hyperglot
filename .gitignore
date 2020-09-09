@@ -3,5 +3,6 @@ build/
 *.ipynb*
 data/cldr/
 data/speakeasy/
+tools/udhr/
 *.egg-info
 *.egg
