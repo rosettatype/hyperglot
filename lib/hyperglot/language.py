@@ -153,6 +153,8 @@ class Language(dict):
 
         pruned = []
 
+        chars = set(chars)
+
         for ort in self["orthographies"]:
             supported = False
             if "script" not in ort:

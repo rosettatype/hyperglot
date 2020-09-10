@@ -11,9 +11,14 @@
 	I've added a check in `hyperglot-validate` for this and can confirm it did not have any matches with the current data.
 - [+] how should we handle combinations in {} for Central Yupik? Two characters with a combining mark over them. Aha!!
 	- The combing double inverted breve U+0361 is just any other mark. For "u͡g" the normalization will decompose to u, g, combining mark, which is what we want.
-- [ ] run analysis of characters in UDHR and compare this to our records, provide an error log
 - [+] check script adheres to README re "Orthographies with `deprecated` and `secondary` status are included only for the sake of completeness and ignored during language support detection."
-
+- [+] run analysis of characters in UDHR and compare this to our records, provide an error log
+	Done, output in tools/udhr_comparison.yaml
+	The important keys to look for are:
+	- `db_chars_valid` - is our data covering the UDHR text?
+	- `iso_in_db` and `iso_in_db_macrolang` - if both are false we are missing this language that has a UDHR text!
+	- `missing_from_db` - a list of chars that are missing from the database (NOTE that this can be an entire script) - compare with `not_in_db`, which is a list of (precomposed) chars not in the DB (since the DB does not necessarily encode those, but only the parts; `missing_from_db` is the truth of what the DB is missing!)
+	- `found_in_text` groups other encountered groups for future use - `chars` is all that has been extracted from the UDHR and used for the comparison to the DB
 
 - [+] review and refactor decomposition rules and flags based on input charset:
 	- [+] Confirm default behaviour of extracting bases and marks from all charset characters, check precomposed codepoints where they exists, bases and marks too

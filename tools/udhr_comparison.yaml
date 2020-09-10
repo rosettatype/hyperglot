@@ -1,0 +1,4809 @@
+aar:
+  udhr_aar.xml:
+    db_chars_valid: false
+    found_in_text:
+      chars: a b c d e f g h i k l m n o q r s t u w x y â é î ô ù ̀ ́ ̂
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', - . ; ’'
+      uppercase: A B D E F G H I K L M N Q R S T U W X
+    iso_in_db: true
+    missing_from_db: ̀ ́ ̂
+    not_in_db: â é î ô ù ̀ ́ ̂
+    not_in_text: j p v z
+abk:
+  udhr_abk.xml:
+    db_chars_valid: false
+    found_in_text:
+      chars: а б в г д е ж з и к л м н о п р с т у ф х ц ч ш ы ь џ ҕ қ ҟ ҧ ҩ ҭ ҳ ҵ
+        ҷ ҽ ҿ ә ӡ
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', . ; ‐ –'
+      uppercase: А Д Е З И Н Р У Х
+    iso_in_db: true
+    missing_from_db: ҕ ҧ
+    not_in_db: ҕ ҧ
+    not_in_text: ̆ щ ъ э ю я ӷ ԥ
+ace:
+  udhr_ace.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u w y
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ( ) , . ; ‐ “ ”
+      uppercase: A B C E G H I K M N O P R S T U Y
+    iso_in_db: false
+    iso_in_db_macrolang: false
+acu:
+  udhr_acu.xml:
+    found_in_text:
+      chars: a b c d e g h i j k l m n o p r s t u w y à á é í ú ̀ ́
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' ( ) , . : ? · ¿'
+      uppercase: A C E G H I J K M N P R S T U W Y
+    iso_in_db: false
+    iso_in_db_macrolang: false
+  udhr_acu_1.xml:
+    found_in_text:
+      chars: a c e h i j k l m n o p r s t u w y à á é í ú ̀ ́
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '( ) , . : ·'
+      uppercase: A E H I J K M N P R S T U W Y
+    iso_in_db: false
+ada:
+  udhr_ada.xml:
+    found_in_text:
+      chars: a b d e f g h i j k l m n o p s t u w y z í ɔ ɛ ́
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', .'
+      uppercase: A B D E F H I J K L M N O P S T U W Y Ɔ Ɛ
+    iso_in_db: false
+    iso_in_db_macrolang: false
+ady:
+  udhr_ady.xml:
+    db_chars_valid: false
+    found_in_text:
+      chars: a c d e f i l n o r s t u ̆ а б в г д е ж з и й к л м н о п р с т у ф
+        х ц ч ш щ ъ ы ь э ю я
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ( ) , - . / ;
+      uppercase: A C F I K І А Г Д З К М Н П С Т У Ф Х Ц
+    iso_in_db: true
+    missing_from_db: a c d e f i l n o r s t u
+    not_in_db: a c d e f i l n o r s t u й
+    not_in_text: ̈ ӏ
+afr:
+  udhr_afr.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b d e f g h i j k l m n o p r s t u v w y ê ̂
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', . ; ‐ ’'
+      uppercase: A D E G H I L M N O R S T U V
+    iso_in_db: true
+    not_in_db: ê
+    not_in_text: c q x z ̀ ̈
+agr:
+  udhr_agr.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u w y á í ́
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '( ) , . : ; \ ¡ ¿ ‐'
+      uppercase: A B C D E G I J K M N S T U Y
+    iso_in_db: false
+    iso_in_db_macrolang: false
+aii:
+  udhr_aii.xml:
+    found_in_text:
+      chars: ̰ ܐ ܒ ܓ ܕ ܗ ܘ ܙ ܚ ܛ ܝ ܟ ܠ ܡ ܢ ܣ ܥ ܦ ܨ ܩ ܪ ܫ ܬ ܵ ܹ ܼ ݂
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: . ܆
+      uppercase: ''
+    iso_in_db: false
+    iso_in_db_macrolang: false
+ajg:
+  udhr_ajg.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u v w x y z à á è é ì í ò ó õ ù
+        ŋ ɔ ɖ ɛ ʒ ̀ ́ ̃
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', . : ;'
+      uppercase: A B C E F G I J K L N O S T U W Y Ú Ŋ Ɔ Ɖ Ɛ
+    iso_in_db: false
+    iso_in_db_macrolang: false
+aka:
+  udhr_aka_akuapem.xml:
+    found_in_text:
+      chars: a b d e f g h i j k m n o p r s t u w y z ã ò õ ɔ ɛ ̀ ̃
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' ( ) , - . : ;'
+      uppercase: A B D E F G H I K M N O P R S U W Y Z Ɔ Ɛ
+    iso_in_db: false
+  udhr_aka_asante.xml:
+    found_in_text:
+      chars: a b d e f g h i j k m n o p r s t u w y z ã ò õ ɔ ɛ ̀ ̃
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' ( ) , - . : ;'
+      uppercase: A B D E F G H I K M N O P R S U W Y Z Ɔ Ɛ
+    iso_in_db: false
+    iso_in_db_macrolang: false
+  udhr_aka_fante.xml:
+    found_in_text:
+      chars: a b d e f g h i k m n o p r s t u w y z ã õ ɔ ɛ ̃
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' ( ) , - . : ;'
+      uppercase: A B D E F G H I K M N O P R S U W Y Z Ɔ Ɛ
+    iso_in_db: false
+als:
+  udhr_als.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p q r s t u v x y z ç ë ̈ ̧
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' , . : ;'
+      uppercase: A B D E F G H I J K L M N P R S T U V Y
+    iso_in_db: true
+    not_in_db: ç ë
+    not_in_text: w
+alt:
+  udhr_alt.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: ̆ ̈ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ј
+        ҥ ӧ ӱ
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ( ) , . ; ‐
+      uppercase: Ј А Б Г Д И К М Н О Т У Ч Ш Э Ӧ Ӱ
+    iso_in_db: true
+    not_in_db: й ӧ ӱ
+    not_in_text: ''
+amc:
+  udhr_amc.xml:
+    found_in_text:
+      chars: a b c d e f g h i j l m n o p q r s t u v x y z ó ́
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '" , . [ ]'
+      uppercase: A B C D E G H J L M N P Q R T U V X Y
+    iso_in_db: false
+    iso_in_db_macrolang: false
+ame:
+  udhr_ame.xml:
+    found_in_text:
+      chars: a b c d e f g h i j l m n o p q r s t u v y z á ë í ñ ó ́ ̃ ̈
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' , - . : ;'
+      uppercase: A B C D E G H J L M N O P R S T U Y Ñ
+    iso_in_db: false
+    iso_in_db_macrolang: false
+amh:
+  udhr_amh.xml:
+    found_in_text:
+      chars: ሀ ሁ ሃ ሄ ህ ሆ ለ ሉ ሊ ላ ሌ ል ሎ ሏ ሐ ሔ ሕ መ ሙ ሚ ማ ም ሞ ሠ ሥ ረ ሩ ሪ ራ ር ሮ ሰ ሱ ሲ ሳ
+        ሴ ስ ሶ ሸ ሻ ሽ ቀ ቁ ቂ ቃ ቄ ቅ ቆ ቋ በ ቡ ቢ ባ ቤ ብ ቦ ተ ቱ ቲ ታ ቴ ት ቶ ቸ ቹ ቻ ች ኀ ነ ኑ ኒ ና
+        ኔ ን ኖ ኘ ኙ ኛ ኝ አ ኢ ኤ እ ከ ኩ ኪ ካ ክ ኮ ወ ዊ ዋ ው ዎ ዓ ዕ ዘ ዚ ዛ ዜ ዝ ዞ የ ዩ ያ ይ ዮ ደ ዱ
+        ዲ ዳ ዴ ድ ዶ ጀ ጃ ጅ ጆ ገ ጉ ጊ ጋ ግ ጎ ጠ ጡ ጢ ጣ ጤ ጥ ጨ ጫ ጭ ጮ ጵ ጸ ጹ ጻ ጽ ጾ ፀ ፃ ፅ ፈ ፊ ፋ
+        ፍ ፖ
+      numerals: ፩ ፪ ፫ ፬ ፭ ፮ ፯ ፰ ፱ ፲ ፳ ፴
+      punctuation: ፡ ። ፣ ፤
+      uppercase: ''
+    iso_in_db: false
+    iso_in_db_macrolang: false
+ami:
+  udhr_ami.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i k l m n o p r s t u w y
+      numerals: ''
+      punctuation: ', .'
+      uppercase: A B C H I K N P S T U
+    iso_in_db: true
+    not_in_db: ''
+    not_in_text: j q v x z
+amr:
+  udhr_amr.xml:
+    found_in_text:
+      chars: a b c d e g h i j k l m n o p r s t u v y ̱
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' , - . : ? ¿ ’'
+      uppercase: A B C D E G H I J K M N O P R S T U Y
+    iso_in_db: false
+    iso_in_db_macrolang: false
+arb:
+  udhr_arb.xml:
+    db_chars_valid: false
+    found_in_text:
+      chars: ء آ أ ؤ إ ئ ا ب ة ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ك ل م ن ه و ى
+        ي ً ُ ّ ٓ ٔ ٕ
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ( ) - . / ،
+      uppercase: ''
+    iso_in_db: true
+    missing_from_db: ء ى ً ّ ٓ ٔ ٕ
+    not_in_db: ء آ أ ؤ إ ئ ى ً ّ ٓ ٔ ٕ
+    not_in_text: َ ِ ْ ٯ ٰ پ چ ڛ ڠ ڢ ڤ ڥ ڧ ڨ ک ڭ گ ی
+arl:
+  udhr_arl.xml:
+    found_in_text:
+      chars: a b c d e h i j l m n o p q r s t u y ú ́
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', - . : ; ¿'
+      uppercase: A C E H I J M N O P R S T U Y
+    iso_in_db: false
+    iso_in_db_macrolang: false
+arn:
+  udhr_arn.xml:
+    found_in_text:
+      chars: a b c d e f g i j k l m n o p q r s t u v w x y z á í ñ ó ́ ̃
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '" ( ) , - . : ;'
+      uppercase: A C E F G I J K L M N P R T U V W X Y Ñ
+    iso_in_db: false
+    iso_in_db_macrolang: false
+ast:
+  udhr_ast.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i l m n o p q r s t u v x y z á é í ñ ó ú ́ ̃
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' ( ) , - . ;'
+      uppercase: A C D E H I L M N O P R S T U V X Y Ó
+    iso_in_db: true
+    not_in_db: á é í ñ ó ú
+    not_in_text: ̈ ̣
+auc:
+  udhr_auc.xml:
+    found_in_text:
+      chars: a b d e g i k l m n o p q r t w y é í ñ ó ́ ̃
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', . ;'
+      uppercase: A E K M N O P T W Y Ñ
+    iso_in_db: false
+    iso_in_db_macrolang: false
+auv:
+  udhr_auv.xml:
+    found_in_text:
+      chars: a b c d e f g h i j l m n o p q r s t u v z à â é ê ë î ï ù ü ̀ ́ ̂ ̈
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' ( ) , - . ; [ ]'
+      uppercase: A B C D E F I J L M N O P Q R S T U Z À É Ú
+    iso_in_db: false
+    iso_in_db_macrolang: false
+ayr:
+  udhr_ayr.xml:
+    db_chars_valid: false
+    found_in_text:
+      chars: a c e f h i j k l m n o p q r s t u w y á ä ë í ï ñ ú ́ ̃ ̈
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' , - . : ;'
+      uppercase: A C E H I J K L M N O P Q R S T U W Y Ñ
+    iso_in_db: true
+    missing_from_db: ́
+    not_in_db: á ä ë í ï ñ ú ́
+    not_in_text: b d g v x z ’
+azj:
+  udhr_azj_cyrl.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i k l m n o p q r s t u v x y z ç ö ü ğ ı ş ə ̆ ̇ ̈ ̧
+        а б в г д е з и к л м н о п р с т у ф х ч ш ы ј ғ ҝ ү ҹ һ ә ө
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', - . ;'
+      uppercase: A B C D E H I K L M N O P Q R S T U V X Y Ö Ü İ Ə Ј А Б В Г Д Е И
+        К Л М Н О П Р С Т У Х Ы Ү Ҹ Һ Ә Ө
+    iso_in_db: true
+    not_in_db: ç ö ü ğ ş
+    not_in_text: I j ж ц щ ъ ь э ю я ‘ ’
+  udhr_azj_latn.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i k l m n o p q r s t u v x y z ç ö ü ğ ı ş ə ̆ ̇ ̈ ̧
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', - . ;'
+      uppercase: A B C D E H I K L M N O P Q R S T U V X Y Ö Ü İ Ə
+    iso_in_db: true
+    not_in_db: ç ö ü ğ ş
+    not_in_text: I j а б в г д е ж з и к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я
+      ј ғ ҝ ү ҹ һ ә ө ‘ ’
+bam:
+  udhr_bam.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u w y ɔ ɛ ɲ
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', - . : ; [ ] ’'
+      uppercase: A B C D F H I J K L M O S T U W
+    iso_in_db: true
+    not_in_db: ''
+    not_in_text: q v x z ŋ
+ban:
+  udhr_ban.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u w y z
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ( ) , - . / ;
+      uppercase: A B E H I J K L M N P R S T U
+    iso_in_db: false
+    iso_in_db_macrolang: false
+bax:
+  udhr_bax.xml:
+    found_in_text:
+      chars: a b d e f g h i j k l m n o p r s t u v w y z ̀ ́ ̂ ̇ ̈
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ( ) , - . ; ‘ ’
+      uppercase: A E F G H I J K L M N P S T U W Y
+    iso_in_db: false
+    iso_in_db_macrolang: false
+bba:
+  udhr_bba.xml:
+    found_in_text:
+      chars: a b d e f g i k l m n o p r s t u w y à è é ó ù ɔ ɛ ̀ ́
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '( ) , - . : ;'
+      uppercase: B D G K M N O S T U W Y
+    iso_in_db: false
+    iso_in_db_macrolang: false
+bci:
+  udhr_bci.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u v w y z á ɑ ɔ ɛ ́
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '" '' , - . : ;'
+      uppercase: A B D F I K L M N S T Y
+    iso_in_db: false
+    iso_in_db_macrolang: false
+bcl:
+  udhr_bcl.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u v w x y z
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', - . ;'
+      uppercase: A C D E G H I K M N P S U
+    iso_in_db: false
+    iso_in_db_macrolang: true
+bel:
+  udhr_bel.xml:
+    db_chars_valid: false
+    found_in_text:
+      chars: ʼ ̆ ̈ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш ы ь э ю я ё і
+        ў
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', . : ; « » ‐'
+      uppercase: Ў А Б В Г Д Е Ж К Л М Н О П Р С Т У Ц Ч Ш Ы Ь Э Я
+    iso_in_db: true
+    missing_from_db: ʼ
+    not_in_db: ʼ й ё ў
+    not_in_text: a b c d e f g h i j k l m n o p q r s t u v w x y z ł ́ ̌ щ ъ ґ ’
+bem:
+  udhr_bem.xml:
+    db_chars_valid: false
+    found_in_text:
+      chars: a b c d e f g h i k l m n o p r s t u v w y
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' ( ) , . ;'
+      uppercase: A B C E F G H I K L M N O P S T U W Y
+    iso_in_db: true
+    missing_from_db: r
+    not_in_db: r
+    not_in_text: j
+ben:
+  udhr_ben.xml:
+    found_in_text:
+      chars: ঁ ং ঃ অ আ ই উ এ ঐ ও ক খ গ ঘ ঙ চ ছ জ ঝ ঞ ট ঠ ড ঢ ণ ত থ দ ধ ন প ফ ব ভ ম
+        য র ল শ ষ স হ ় া ি ী ু ূ ৃ ে ৈ ো ৌ ্ ৗ য় ‌ ‍
+      numerals: ০ ১ ২ ৩ ৪ ৫ ৬ ৭ ৮ ৯
+      punctuation: ', - ; ।'
+      uppercase: ''
+    iso_in_db: false
+    iso_in_db_macrolang: false
+bfa:
+  udhr_bfa.xml:
+    found_in_text:
+      chars: a b c d e g h i j k l m n o p r s t u w y ö ď ŋ ̀ ̈ ̌ ỳ
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '& '' ( ) , . / : ‘ ’'
+      uppercase: A B C D E F G H I J K L M N O P R S T U V W Y Ö Ď Ŋ
+    iso_in_db: false
+    iso_in_db_macrolang: false
+bho:
+  udhr_bho.xml:
+    found_in_text:
+      chars: g i m n s ं अ आ इ ई उ ए ऐ ओ औ क ख ग घ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प
+        फ ब भ म य र ल व श ष स ह ़ ा ि ी ु ू ृ े ै ो ौ ्
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', - . : ? [ ] ।'
+      uppercase: ''
+    iso_in_db: false
+    iso_in_db_macrolang: false
+bin:
+  udhr_bin.xml:
+    found_in_text:
+      chars: a b d e f g h i k l m n o p r s t u v w y z
+      numerals: 1 4 8 9
+      punctuation: ( ) , - . ; –
+      uppercase: A B D E G H I K L M N O R T U V W Y Z
+    iso_in_db: false
+    iso_in_db_macrolang: false
+bis:
+  udhr_bis.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b d e f g h i j k l m n o p r s t u v w y
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', - . ;'
+      uppercase: A B D E F G H I J K L M N O P R S T U W
+    iso_in_db: true
+    not_in_db: ''
+    not_in_text: c q x z
+blt:
+  udhr_blt.xml:
+    found_in_text:
+      chars: g i m n s ꪀ ꪁ ꪄ ꪅ ꪈ ꪉ ꪊ ꪋ ꪎ ꪏ ꪐ ꪑ ꪒ ꪔ ꪕ ꪖ ꪗ ꪘ ꪙ ꪚ ꪜ ꪝ ꪠ ꪡ ꪢ ꪣ ꪤ ꪥ ꪨ ꪩ
+        ꪪ ꪫ ꪬ ꪭ ꪮ ꪯ ꪰ ꪱ ꪲ ꪳ ꪴ ꪵ ꪶ ꪷ ꪸ ꪹ ꪺ ꪻ ꪼ ꪽ ꪾ ꫛ ꫜ
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '( ) , - . : [ ]'
+      uppercase: I
+    iso_in_db: false
+    iso_in_db_macrolang: false
+blu:
+  udhr_blu.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p q r s t u v w x y z
+      numerals: 0 1 2 4 7 8 9
+      punctuation: ( ) , . ; ]
+      uppercase: A B C D E H I J K L N O R S T U X Z
+    iso_in_db: false
+    iso_in_db_macrolang: false
+boa:
+  udhr_boa.xml:
+    found_in_text:
+      chars: a b c d e g h i j k l m n o p r s t u v w y á é í ñ ó ú ɨ ́ ̃ ̏
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '" '' , - . : ;'
+      uppercase: A C D E I M N P T U Á Ɨ Ȉ
+    iso_in_db: false
+    iso_in_db_macrolang: false
+bod:
+  udhr_bod.xml:
+    found_in_text:
+      chars: ཀ ཁ ག ང ཅ ཆ ཇ ཉ ཏ ཐ ད ན པ ཕ བ མ ཙ ཚ ཛ ཞ ཟ འ ཡ ར ལ ཤ ས ཧ ཨ ི ུ ེ ོ ྐ ྒ
+        ྔ ྕ ྗ ྙ ྟ ྡ ྣ ྤ ྦ ྨ ྩ ྫ ྱ ྲ ླ ྷ
+      numerals: ''
+      punctuation: ༄ ༅ ༈ ་ ༌ ། ༎
+      uppercase: ''
+    iso_in_db: false
+    iso_in_db_macrolang: false
+bos:
+  udhr_bos_cyrl.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: а б в г д е ж з и к л м н о п р с т у х ц ч ш ђ ј љ њ
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', . ;'
+      uppercase: Ђ Ј Њ А Б В Г Д Е И К Л М Н О П Р С Т У Х Ц Ч Ш
+    iso_in_db: true
+    not_in_db: ''
+    not_in_text: a b c d e f g h i j k l m n o p r s t u v z đ ́ ̌ ф ћ џ
+  udhr_bos_latn.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e g h i j k l m n o p r s t u v z ć č đ š ž ́ ̌ а б в г д е ж
+        з и к л м н о п р с т у х ц ч ш ђ ј љ њ
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', . ;'
+      uppercase: A B C D E G H I J K L M N O P R S T U V Ć Č Š Ђ Ј Њ А Б В Г Д Е И
+        К Л М Н О П Р С Т У Х Ц Ч Ш
+    iso_in_db: true
+    not_in_db: ć č š ž
+    not_in_text: f ф ћ џ
+bre:
+  udhr_bre.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u v w y z ê ñ ù ̀ ̂ ̃
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '( ) , - . : ; – ’'
+      uppercase: A B D E G H I K L M N O P R S U V W Y Z Ù
+    iso_in_db: true
+    not_in_db: ê ñ ù
+    not_in_text: x
+btb:
+  udhr_btb.xml:
+    found_in_text:
+      chars: a b d e f g h i k l m n o p r s t u v w y z á é ñ ó ô ń ō ́ ̂ ̃ ̄
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' , - . : ;'
+      uppercase: A B D E F G I K L M N O S T U V Y Ń Ō
+    iso_in_db: false
+    iso_in_db_macrolang: false
+buc:
+  udhr_buc.xml:
+    db_chars_valid: false
+    found_in_text:
+      chars: a b d e f g h i j k l m n o p r s t u v w y z à ã ì ĩ ŋ ɓ ̀ ̃
+      numerals: ''
+      punctuation: '( ) , - . : ; ’'
+      uppercase: A B D E F H I K L M N O R S T U V W Z Ì Ŋ Ɓ
+    iso_in_db: true
+    missing_from_db: ŋ ̀ ̃
+    not_in_db: à ã ì ĩ ŋ ̀ ̃
+    not_in_text: c q x ɗ ̈
+bug:
+  udhr_bug.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u w y
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' , - . :'
+      uppercase: A B D E G H I J K L M N O P R S T U Y
+    iso_in_db: false
+    iso_in_db_macrolang: false
+bul:
+  udhr_bul.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: ̆ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ю я
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', . : ; ‐ –'
+      uppercase: А Б В Д Е З И К Л М Н О П Р С Т У Ц Ч Щ Ъ Ю Я
+    iso_in_db: true
+    not_in_db: й
+    not_in_text: ̀ ь
+cab:
+  udhr_cab.xml:
+    found_in_text:
+      chars: a b c d e f g h i k l m n o p r s t u w y á è é í ñ ó ú ü ̀ ́ ̃ ̈
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '( ) , - . : ;'
+      uppercase: A D G K L M S T U Y
+    iso_in_db: false
+    iso_in_db_macrolang: false
+cak:
+  udhr_cak.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c e h i j k l m n o p q r s t u w x y z ä ï ö ü ̈
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' ( ) , . ; [ ]'
+      uppercase: A B C E H I J K L M N O P Q R S T U W X Ä
+    iso_in_db: true
+    not_in_db: ä ï ö ü
+    not_in_text: d f g v ʼ
+cat:
+  udhr_cat.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j l m n o p q r s t u v x y z à ç è é í ï ò ó ú ̀ ́
+        ̈ ̧
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '( ) , - . : ; · ’'
+      uppercase: A B C D E G H I L M N O P R S T U À
+    iso_in_db: true
+    not_in_db: à ç è é í ï ò ó ú
+    not_in_text: k w ·
+cbi:
+  udhr_cbi.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u v w y z ~ á é í ñ ó ú ́ ̃
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '" '' ) , - . / : ; ¡ ¿'
+      uppercase: A B C D E G I J K L M N O P S T U Y
+    iso_in_db: false
+    iso_in_db_macrolang: false
+cbr:
+  udhr_cbr.xml:
+    found_in_text:
+      chars: a b c d e f g h i j l m n o p q r s t u v x á é ë í ñ ó ú ́ ̃ ̈
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' , . : ; ¿'
+      uppercase: A B C D E G I M N P Q R S T U X Ë Ñ
+    iso_in_db: false
+    iso_in_db_macrolang: false
+cbs:
+  udhr_cbs.xml:
+    found_in_text:
+      chars: a b c d e g h i j k l m n o p r s t u v x y í ́
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' , - . ? ¿'
+      uppercase: A B C D E G I J K M N P S T U V X Y Í
+    iso_in_db: false
+    iso_in_db_macrolang: false
+cbt:
+  udhr_cbt.xml:
+    found_in_text:
+      chars: a b c d e g h i l m n o p q r s t u v x y ë í ó ́ ̈
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' , - . ¿'
+      uppercase: A C D E H I M N O P Q R S T U Y Ë
+    iso_in_db: false
+    iso_in_db_macrolang: false
+cbu:
+  udhr_cbu.xml:
+    found_in_text:
+      chars: a b c d e g h i k l m n o p r s t u v x y z á í ́
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', - . : ; ? [ ] ¡ ¿'
+      uppercase: A C D G H I K L M N O P R S T V X Y Z
+    iso_in_db: false
+    iso_in_db_macrolang: false
+ccp:
+  udhr_ccp.xml:
+    found_in_text:
+      chars: 𑄁 𑄃 𑄅 𑄇 𑄈 𑄉 𑄊 𑄋 𑄌 𑄍 𑄎 𑄏 𑄑 𑄒 𑄓 𑄕 𑄖 𑄗 𑄘 𑄙 𑄚 𑄛 𑄜 𑄝 𑄞 𑄟 𑄠 𑄡 𑄢 𑄣 𑄥 𑄦 𑄧 𑄨 𑄩
+        𑄪 𑄫 𑄬 𑄭 𑄮 𑄯 𑄰 𑄱 𑄲 𑄳 𑄴
+      numerals: 𑄶 𑄷 𑄸 𑄹 𑄺 𑄻 𑄼 𑄽 𑄾 𑄿
+      punctuation: ', - ; 𑅁'
+      uppercase: ''
+    iso_in_db: false
+    iso_in_db_macrolang: false
+ccx:
+  udhr_ccx.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p q r s t u v w x y z
+      numerals: 1 3
+      punctuation: ''' ( ) , . ; ‐'
+      uppercase: A B C D E F G H I J K L M N O Q R S T U V Y Z
+    iso_in_db: false
+    iso_in_db_macrolang: false
+ceb:
+  udhr_ceb.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b d e g h i k l m n o p r s t u w y
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '" '' ( ) , - . / : ; [ ]'
+      uppercase: A D E G H K L M N O P R S T U W Y
+    iso_in_db: true
+    not_in_db: ''
+    not_in_text: ''
+ces:
+  udhr_ces.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u v y z á é í ú ý č ď ě ň ř š ť
+        ů ž ́ ̊ ̌
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', - . ;'
+      uppercase: A B C D E H I J K L M N O P R S T U V Y Z Á Ú Ý Č Š Ž
+    iso_in_db: true
+    not_in_db: á é í ú ý č ď ě ň ř š ť ů ž
+    not_in_text: q w x
+cha:
+  udhr_cha.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p q r s t u v x y z
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' ( ) , - . ; ’'
+      uppercase: A C D E G H I K L M N O P R S T U V
+    iso_in_db: true
+    not_in_db: ''
+    not_in_text: w ̃ ̊
+chj:
+  udhr_chj.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u v y ° á ä é ë í ï ñ ó ö ú ü ́
+        ̃ ̈
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' , - . : ; –'
+      uppercase: A C D E F G H I J K L N O R S T U
+    iso_in_db: false
+    iso_in_db_macrolang: false
+chk:
+  udhr_chk.xml:
+    found_in_text:
+      chars: a c d e f g h i k l m n o p r s t u v w x y
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ( ) , - . ;
+      uppercase: A B C E F G I K L M N O P R S T U W Y
+    iso_in_db: false
+    iso_in_db_macrolang: false
+chr:
+  udhr_chr_cased.xml:
+    found_in_text:
+      chars: ᏸ ᏹ ᏺ ᏻ ᏼ ꭰ ꭱ ꭲ ꭳ ꭴ ꭵ ꭶ ꭷ ꭸ ꭹ ꭺ ꭻ ꭼ ꭽ ꭾ ꭿ ꮀ ꮁ ꮂ ꮃ ꮄ ꮅ ꮆ ꮇ ꮈ ꮎ ꮏ ꮑ ꮒ ꮓ
+        ꮔ ꮕ ꮖ ꮗ ꮘ ꮙ ꮚ ꮜ ꮝ ꮞ ꮟ ꮠ ꮡ ꮢ ꮣ ꮤ ꮥ ꮦ ꮧ ꮨ ꮩ ꮪ ꮫ ꮬ ꮭ ꮯ ꮰ ꮱ ꮲ ꮳ ꮴ ꮵ ꮶ ꮷ ꮸ ꮹ ꮺ
+        ꮻ ꮼ ꮽ ꮿ
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', - . ;'
+      uppercase: Ꭰ Ꭲ Ꭴ Ꭵ Ꭷ Ꭼ Ꭿ Ꮎ Ꮒ Ꮧ Ꮭ Ꮷ
+    iso_in_db: false
+  udhr_chr_uppercase.xml:
+    found_in_text:
+      chars: ᏸ ᏹ ᏺ ᏻ ᏼ ꭰ ꭱ ꭲ ꭳ ꭴ ꭵ ꭶ ꭷ ꭸ ꭹ ꭺ ꭻ ꭼ ꭽ ꭾ ꭿ ꮀ ꮁ ꮂ ꮃ ꮄ ꮅ ꮆ ꮇ ꮈ ꮎ ꮏ ꮑ ꮒ ꮓ
+        ꮔ ꮕ ꮖ ꮗ ꮘ ꮙ ꮚ ꮜ ꮝ ꮞ ꮟ ꮠ ꮡ ꮢ ꮣ ꮤ ꮥ ꮦ ꮧ ꮨ ꮩ ꮪ ꮫ ꮬ ꮭ ꮯ ꮰ ꮱ ꮲ ꮳ ꮴ ꮵ ꮶ ꮷ ꮸ ꮹ ꮺ
+        ꮻ ꮼ ꮽ ꮿ
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', - . ;'
+      uppercase: Ꭰ Ꭱ Ꭲ Ꭳ Ꭴ Ꭵ Ꭶ Ꭷ Ꭸ Ꭹ Ꭺ Ꭻ Ꭼ Ꭽ Ꭾ Ꭿ Ꮀ Ꮁ Ꮂ Ꮃ Ꮄ Ꮅ Ꮆ Ꮇ Ꮈ Ꮎ Ꮏ Ꮑ Ꮒ Ꮓ Ꮔ Ꮕ Ꮖ
+        Ꮗ Ꮘ Ꮙ Ꮚ Ꮜ Ꮝ Ꮞ Ꮟ Ꮠ Ꮡ Ꮢ Ꮣ Ꮤ Ꮥ Ꮦ Ꮧ Ꮨ Ꮩ Ꮪ Ꮫ Ꮬ Ꮭ Ꮯ Ꮰ Ꮱ Ꮲ Ꮳ Ꮴ Ꮵ Ꮶ Ꮷ Ꮸ Ꮹ Ꮺ Ꮻ Ꮼ Ꮽ
+        Ꮿ Ᏸ Ᏹ Ᏺ Ᏻ Ᏼ
+    iso_in_db: false
+    iso_in_db_macrolang: false
+cic:
+  udhr_cic.xml:
+    db_chars_valid: false
+    found_in_text:
+      chars: a b c e f g h i k l m n o p r s t u v w y á í ó ́ ̱
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' , - . : ; —'
+      uppercase: A C G H I K M N T U Y Á
+    iso_in_db: true
+    missing_from_db: ̱
+    not_in_db: á í ó ̱
+    not_in_text: ''' d j q x z ̠'
+cjk:
+  udhr_cjk.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u v w x y z º ç ó ́ ̧
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '( ) , . : ; ?'
+      uppercase: A B C D E F G H I J K L M N O P S T U V W X Y Z
+    iso_in_db: false
+    iso_in_db_macrolang: false
+  udhr_cjk_AO.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u v w y z º ç ó ́ ̧
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '( ) , . : ;'
+      uppercase: A B C D E F H I J K L M N O P S T U W Y Z
+    iso_in_db: false
+cjs:
+  udhr_cjs.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: ̆ ̈ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш ъ ы ь э ю я ғ қ
+        ң ӧ ӱ
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ( ) , - . ;
+      uppercase: A I А Б В Г Е З И К Л М Н О П Р С Т У Ы Э Ӧ
+    iso_in_db: true
+    not_in_db: й ӧ ӱ
+    not_in_text: щ
+cjy:
+  udhr_cjy.xml:
+    found_in_text:
+      chars: 一 七 三 上 下 不 与 且 世 业 严 丧 个 中 临 为 主 举 乃 义 之 乏 九 也 买 予 事 二 于 五 些 产 享 人 今
+        介 他 代 以 们 仰 件 价 任 休 优 会 传 伺 位 低 住 体 作 使 依 侮 侵 促 保 信 候 倚 值 假 偏 做 健 元 兄 充 先
+        免 全 八 公 六 共 关 其 具 内 准 凡 出 击 分 切 刑 则 创 初 判 利 别 到 制 前 剥 副 力 加 务 动 势 包 化 匮 区
+        医 十 单 卖 原 去 参 及 友 双 反 发 受 变 叛 只 可 各 合 同 名 否 告 员 命 和 咧 咾 品 哪 唤 唯 啦 善 四 回 因
+        团 固 国 土 在 地 均 坏 基 处 大 天 失 头 夺 女 奴 好 如 妈 姻 娃 婚 媒 嫁 子 学 宅 安 完 宗 定 实 审 宣 宪 害
+        家 容 密 富 对 将 尊 小 少 居 展 属 工 已 布 帮 干 平 年 并 庇 序 应 底 府 废 度 庭 康 开 式 弟 张 强 当 形 待
+        很 律 得 徙 德 心 必 忍 志 念 思 性 息 想 意 慰 憷 成 戒 或 房 所 才 打 托 找 承 技 投 抚 护 报 抵 拜 择 括 持
+        指 据 接 控 措 提 援 支 改 攻 放 政 救 教 敢 文 方 施 旁 族 无 旨 时 是 晓 普 暇 暴 有 服 望 期 未 本 术 机 权
+        条 来 构 某 样 根 格 欺 止 正 此 步 歧 死 残 段 母 每 比 民 水 求 污 没 治 法 活 济 消 涉 渐 然 煽 父 物 特 犯
+        独 现 玷 理 甚 生 用 由 申 男 界 疗 病 的 益 目 直 相 真 着 破 础 确 示 礼 社 神 票 禁 福 离 私 种 科 秘 秩 移
+        程 立 章 第 等 箍 管 籍 类 精 系 级 组 织 经 结 给 绩 维 缔 罚 罪 美 老 者 而 职 联 肤 育 背 能 自 至 致 良 色
+        艺 荣 获 薪 行 衣 补 表 衰 被 裳 要 见 规 视 解 言 誉 认 讯 记 许 论 证 诉 该 语 诲 谁 谊 谋 谱 负 财 质 资 赋
+        走 起 践 身 轰 载 较 辅 辩 辱 迁 返 这 进 违 迫 适 选 递 通 逮 遇 遍 道 遭 遵 避 都 鄙 酬 酷 释 里 重 鉴 铤 闲
+        间 闺 阶 际 限 险 隶 集 需 非 面 项 领 食 高 默
+      numerals: ''
+      punctuation: . 、 。 ， ；
+      uppercase: ''
+    iso_in_db: false
+    iso_in_db_macrolang: false
+ckb:
+  udhr_ckb.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p q r s t u v w x y z ç ê î û ş ̂ ̧
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ( ) , . ;
+      uppercase: B C D E G H J L M N T V Y
+    iso_in_db: true
+    not_in_db: ç ê î û ş
+    not_in_text: ''' ł ̈ ̌ ا ب ت ج ح خ د ر ز س ش ع غ ف ق ل م ن و پ چ ڕ ژ ڤ ک گ ڵ ھ
+      ۆ ی ێ ە'
+cmn:
+  udhr_cmn_hans.xml:
+    found_in_text:
+      chars: 一 七 三 上 下 不 与 且 世 业 严 並 丧 个 中 临 为 主 举 乃 义 之 乏 九 买 了 予 事 二 于 五 些 亦 产 享
+        亲 人 介 他 代 以 们 仰 件 价 任 休 优 会 传 位 住 体 何 作 使 來 依 侮 侵 係 促 保 信 個 們 倚 值 假 偏 健 傳
+        價 優 儿 元 兄 充 先 免 兒 內 全 八 公 六 共 关 其 具 内 决 况 准 凡 出 击 分 切 刑 则 创 初 判 別 利 别 到 制
+        則 前 剝 剥 創 力 加 务 动 助 努 動 務 包 化 匮 匱 区 医 區 十 协 協 单 卖 历 压 原 参 參 及 友 双 反 发 受 变
+        叛 只 可 史 号 各 合 同 名 后 否 告 员 命 和 品 員 唯 善 喪 單 嚴 四 回 因 团 固 国 國 團 土 在 地 均 坏 基 報
+        境 壓 壞 处 大 天 失 夺 奪 女 奴 好 如 姻 婚 媒 嫁 子 学 學 宅 守 安 完 宗 定 实 审 宣 宪 害 家 容 密 寡 實 審
+        对 寻 尊 尋 對 少 居 展 属 屬 工 已 布 常 干 平 年 并 广 庇 序 应 府 废 度 庭 康 廢 开 式 弟 张 張 強 强 当 形
+        役 待 很 律 得 徙 德 心 必 忍 志 念 思 性 恐 息 情 惧 想 意 愿 憲 應 懼 成 戒 或 房 所 才 托 承 技 投 护 报 拘
+        拜 择 括 持 指 捕 据 接 控 措 提 援 播 撰 擇 擊 據 改 攻 放 政 效 救 教 文 方 於 施 旁 族 无 日 旨 时 是 時 普
+        暇 暴 最 會 月 有 服 望 期 未 本 术 机 权 条 来 构 某 标 校 样 根 格 條 業 榮 構 標 樣 機 權 止 正 此 步 歧 残
+        殘 段 母 每 民 水 求 污 治 沾 況 法 活 济 消 涉 渐 源 準 漸 濟 為 無 然 照 煽 父 物 特 犯 独 獨 獲 现 玷 現 理
+        生 產 用 由 申 男 界 當 疗 疾 病 痩 療 發 的 益 目 直 相 真 着 破 础 确 確 礎 示 礼 社 神 票 禁 福 禮 离 私 种
+        科 秘 秩 移 程 種 立 章 童 符 第 等 管 籍 类 精 系 約 級 組 結 給 經 維 締 績 織 约 级 组 织 经 结 给 绩 维 缔
+        罚 罪 罰 美 義 老 者 而 职 联 聯 職 肤 育 背 能 膚 臨 自 至 致 與 舉 良 色 艺 荣 获 蔑 薪 藝 號 蛮 蠻 行 術 衣
+        补 表 衰 被 補 要 見 規 覑 視 親 见 规 视 解 言 訊 記 設 許 訴 誉 認 誓 語 誨 誼 論 謀 證 議 護 譽 變 认 议 讯
+        记 许 论 设 证 诉 该 语 诲 读 谊 谋 負 財 買 費 資 賣 賦 質 负 财 质 费 资 赋 走 起 践 踐 身 較 載 輔 轄 载 较
+        辅 辖 辩 辯 辱 迁 过 返 这 进 违 迫 述 适 选 逐 递 這 通 逮 進 遇 遍 過 道 違 遞 適 遭 遵 遷 選 避 都 酬 酷 醫
+        释 釋 重 野 鉴 銘 鋌 鑑 铤 铭 開 閒 間 關 闲 间 阅 阐 阶 际 限 除 险 階 際 障 險 隶 隸 集 雙 離 需 非 面 項 領
+        願 類 项 顾 颁 领 食 體 高 默
+      numerals: 0 1 2 4 7 8 9
+      punctuation: ( ) , ; “ ” 、 。 《 》 ， ： ；
+      uppercase: A I
+    iso_in_db: false
+    iso_in_db_macrolang: false
+  udhr_cmn_hant.xml:
+    found_in_text:
+      chars: 一 七 三 上 下 不 世 並 中 主 乃 之 乏 九 了 予 事 二 五 些 亦 享 人 介 他 代 以 仰 件 任 休 住 何 作 使
+        來 依 侮 侵 係 促 保 信 個 們 倚 值 假 偏 健 傳 價 優 元 兄 充 先 免 兒 內 全 八 公 六 共 其 具 凡 出 分 切 刑
+        初 判 別 利 到 制 則 前 剝 創 力 加 助 努 動 務 包 化 匱 區 十 協 原 參 及 友 反 受 叛 只 可 各 合 同 名 否 告
+        命 和 品 員 唯 善 喪 單 嚴 四 回 因 固 國 團 土 在 地 均 基 報 境 壓 壞 大 天 失 奪 女 奴 好 如 姻 婚 媒 嫁 子
+        學 宅 守 安 完 宗 定 宣 害 家 容 密 寡 實 審 尊 尋 對 少 居 展 屬 工 已 布 常 干 平 年 庇 序 府 度 庭 康 廢 式
+        弟 張 強 形 役 待 很 律 得 徙 德 心 必 忍 志 念 思 性 恐 息 情 想 意 憲 應 懼 成 戒 或 房 所 才 承 技 投 拘 拜
+        括 持 指 捕 接 控 措 提 援 撰 擇 擊 據 改 攻 放 政 效 救 教 文 方 於 施 旁 族 日 旨 是 時 普 暇 暴 最 會 月 有
+        服 望 期 未 本 某 根 格 條 業 榮 構 標 樣 機 權 止 正 此 步 歧 殘 段 母 每 民 水 求 污 治 沾 況 法 活 消 涉 源
+        準 漸 濟 為 無 然 照 煽 父 物 特 犯 獨 獲 現 理 生 產 用 由 申 男 界 當 疾 病 痩 療 發 的 益 目 直 相 真 破 確
+        礎 示 社 神 票 禁 福 禮 私 科 秘 秩 移 程 種 立 章 童 符 第 等 管 籍 精 約 級 組 結 給 經 維 締 績 織 罪 罰 美
+        義 老 者 而 聯 職 育 背 能 膚 臨 自 至 致 與 舉 良 色 蔑 薪 藝 號 蠻 行 術 衣 表 衰 被 補 要 見 規 覑 視 親 解
+        言 訊 記 設 許 訴 認 誓 語 誨 誼 論 謀 證 議 護 譽 變 負 財 買 費 資 賣 賦 質 走 踐 身 較 載 輔 轄 辯 辱 返 迫
+        逐 這 通 逮 進 遇 遍 過 道 違 遞 適 遭 遵 遷 選 避 都 酬 酷 醫 釋 重 野 銘 鋌 鑑 開 閒 間 關 限 除 階 際 障 險
+        隸 集 雙 離 需 非 面 項 領 願 類 食 體 高 默
+      numerals: 1 2 7
+      punctuation: ( ) 、 。 ， ；
+      uppercase: A I
+    iso_in_db: false
+cnh:
+  udhr_cnh.xml:
+    found_in_text:
+      chars: a b c d e f g h i k l m n o p r s t u v w y z
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ( ) , .
+      uppercase: A B C D F G H I L M N P R S T U
+    iso_in_db: false
+    iso_in_db_macrolang: false
+cni:
+  udhr_cni.xml:
+    found_in_text:
+      chars: a b c d e f g h i j l m n o p q r s t u v y á é ́
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '" , . : ;'
+      uppercase: A B C E G I J L M N O P Q R S T U Y
+    iso_in_db: false
+    iso_in_db_macrolang: false
+cof:
+  udhr_cof.xml:
+    found_in_text:
+      chars: a b c d e f h i j k l m n o p r s t u v w y í ́
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' , .'
+      uppercase: A B C D E H I J K L M N O P R S T W Y
+    iso_in_db: false
+    iso_in_db_macrolang: false
+cos:
+  udhr_cos.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j l m n o p q r s t u v z à è ì ò ù ̀
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', . ; ’'
+      uppercase: A C D E H I J L M N O P R S T U V Z
+    iso_in_db: true
+    not_in_db: à è ì ò ù
+    not_in_text: k w x y ̂ ̈
+cot:
+  udhr_cot.xml:
+    found_in_text:
+      chars: a b c d e f g h i j l m n o p q r s t u v y ó ́
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '" , . : ; ¿'
+      uppercase: A B C E G H I J L M N O P Q R S T U V
+    iso_in_db: false
+    iso_in_db_macrolang: false
+cpu:
+  udhr_cpu.xml:
+    found_in_text:
+      chars: a c d e f g h i j l m n o p q r s t u v y z á é ñ ́ ̃
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '" , - . : ;'
+      uppercase: A C E H I J M N O P Q R S T U Y Z Ñ
+    iso_in_db: false
+    iso_in_db_macrolang: false
+crh:
+  udhr_crh.xml:
+    db_chars_valid: false
+    found_in_text:
+      chars: a b c d e f g h i k l m n o p q r s t u v y z â ç ñ ö ü ğ ı ş ̂ ̃ ̆ ̇
+        ̈ ̧
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ( ) , - . ; –
+      uppercase: A B C D E H I K L M N O Q R S T U Y Ç Ñ Ö İ
+    iso_in_db: true
+    missing_from_db: ̂ ̇
+    not_in_db: â ç ñ ö ü ğ ş ̂ ̇
+    not_in_text: j w x а б в г д е ж з и к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю
+      я
+crs:
+  udhr_crs.xml:
+    db_chars_valid: false
+    found_in_text:
+      chars: a b d e f g i k l m n o p r s t u v w y z í ́
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', - . ; ’'
+      uppercase: A B D I K L M N P S T Z
+    iso_in_db: true
+    missing_from_db: ́
+    not_in_db: í ́
+    not_in_text: c h j q x
+csa:
+  udhr_csa.xml:
+    found_in_text:
+      chars: a c d e g h i j k l m n o p r s t u w x y á ä é ë í ï ñ ó ö ú ü ɇ ́ ̃
+        ̈ ̍ ̎ ̱
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' ( ) , . ; †'
+      uppercase: A B E I J K L M N O R S T U Ñ Ö Ü
+    iso_in_db: false
+    iso_in_db_macrolang: false
+csw:
+  udhr_csw.xml:
+    found_in_text:
+      chars: ᐁ ᐃ ᐅ ᐊ ᐌ ᐎ ᐗ ᐟ ᐠ ᐡ ᐢ ᐣ ᐤ ᐨ ᐯ ᐱ ᐳ ᐸ ᐺ ᑊ ᑌ ᑎ ᑐ ᑕ ᑗ ᑡ ᑫ ᑭ ᑯ ᑲ ᑴ ᑺ ᑾ ᒋ ᒣ
+        ᒥ ᒧ ᒪ ᒬ ᒶ ᒼ ᓀ ᓂ ᓄ ᓇ ᓉ ᓋ ᓯ ᓱ ᓴ ᓶ ᔀ ᔑ ᔓ ᔕ ᔗ ᔡ ᔦ ᔭ ᔾ
+      numerals: 0 1 2 4 7 8 9
+      punctuation: ( ) , ᙮
+      uppercase: A I
+    iso_in_db: false
+    iso_in_db_macrolang: false
+ctd:
+  udhr_ctd.xml:
+    found_in_text:
+      chars: a b c d e g h i k l m n o p r s t u v w y z
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', - . ’'
+      uppercase: A G H I K L M N P S T
+    iso_in_db: false
+    iso_in_db_macrolang: false
+cym:
+  udhr_cym.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i l m n o p r s t u w y â ô ̂
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', . ; ’'
+      uppercase: A C D E F G H I L N O R S T U W Y
+    iso_in_db: true
+    not_in_db: â ô
+    not_in_text: j k q v x z ̀ ́ ̈
+dag:
+  udhr_dag.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u v w y z ŋ ɔ ɛ ɣ ʒ
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' , - . : ;'
+      uppercase: A B D E F G H I J K L M N O P R S T U W Y Z Ŋ Ɔ Ɛ
+    iso_in_db: false
+    iso_in_db_macrolang: false
+dan:
+  udhr_dan.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u v y å æ ø ̊
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '" , - . : ;'
+      uppercase: A D E F G H I K L M N O P R S T U V Æ
+    iso_in_db: true
+    not_in_db: ''
+    not_in_text: q w x z ́
+ddn:
+  udhr_ddn.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o r s t u w y z â ã õ ŋ ǎ ǒ ɔ ɖ ɛ ̂ ̃ ̌
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ( ) , - . ;
+      uppercase: A B C D E F G H I K L M N O R S T U W Y Z Ã Ɔ Ɛ
+    iso_in_db: false
+    iso_in_db_macrolang: false
+deu:
+  udhr_deu_1901.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u v w x y z ß ä ö ü ̈
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ( ) , . ; ‐
+      uppercase: A B C D E F G H I J K L M N O P R S T U V W Z Ä Ü
+    iso_in_db: true
+    not_in_db: ä ö ü
+    not_in_text: q ̀ ́
+  udhr_deu_1996.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u v w x y z ß ä ö ü ̈
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ( ) , . ; ‐
+      uppercase: A B C D E F G H I J K L M N O P R S T U V W Z Ä Ü
+    iso_in_db: true
+    not_in_db: ä ö ü
+    not_in_text: q ̀ ́
+dga:
+  udhr_dga.xml:
+    found_in_text:
+      chars: a b c d e f g i k l m n o p r s t u v w y z ã ɔ ɛ ̃
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' , - . : ;'
+      uppercase: A B D E G I K L M N O P S T U Y Z Ɔ Ɛ
+    iso_in_db: false
+    iso_in_db_macrolang: false
+dip:
+  udhr_dip.xml:
+    found_in_text:
+      chars: a b c d e g h i j k l m n o p r t u w y ä ë ï ö ü ŋ ɔ ɛ ɣ ̈
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' ( ) , .'
+      uppercase: A K M N R T U W Y
+    iso_in_db: false
+    iso_in_db_macrolang: false
+div:
+  udhr_div.xml:
+    found_in_text:
+      chars: ހ ށ ނ ރ ބ ޅ ކ އ ވ މ ފ ދ ތ ލ ގ ޏ ސ ޑ ޒ ޓ ޔ ޕ ޖ ޗ ޘ ޙ ޚ ޛ ޝ ޞ ޟ ޠ ޢ ޣ ޤ
+        ަ ާ ި ީ ު ޫ ެ ޭ ޮ ޯ ް
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: . ? [ ] ، ؛
+      uppercase: ''
+    iso_in_db: false
+    iso_in_db_macrolang: false
+dyo:
+  udhr_dyo.xml:
+    db_chars_valid: false
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u w y ° à á é í ñ ó ú ŋ ̀ ́ ̃
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '" '' ( ) , . : ; “ ”'
+      uppercase: A B D E F I J K L M N O R S T U W Y
+    iso_in_db: true
+    missing_from_db: ° ̀
+    not_in_db: ° à á é í ñ ó ú ̀
+    not_in_text: q v x z
+dyu:
+  udhr_dyu.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u w y à á è é ì í ò ó ù ú ŋ ɔ ɛ
+        ɲ ̀ ́
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', - . : ; ‘ ’'
+      uppercase: A B C D F G H I J K L M N O S T U W Y Ɔ Ɛ
+    iso_in_db: false
+    iso_in_db_macrolang: false
+dzo:
+  udhr_dzo.xml:
+    found_in_text:
+      chars: ཀ ཁ ག ང ཅ ཆ ཇ ཉ ཏ ཐ ད ན པ ཕ བ མ ཙ ཚ ཛ ཝ ཞ ཟ འ ཡ ར ལ ཤ ས ཧ ཨ ཱ ི ུ ེ ོ
+        ྐ ྒ ྔ ྕ ྙ ྟ ྡ ྣ ྤ ྦ ྨ ྩ ྱ ྲ ླ ྷ
+      numerals: ༠ ༡ ༢ ༣ ༤ ༥ ༦ ༧ ༨ ༩
+      punctuation: ་ །
+      uppercase: ''
+    iso_in_db: false
+    iso_in_db_macrolang: false
+ell:
+  udhr_ell_monotonic.xml:
+    db_chars_valid: false
+    found_in_text:
+      chars: ̀ ́ ̈ ̓ ̔ ͂ ά έ ή ί α β γ δ ε ζ η θ ι κ λ μ ν ξ ο π ρ ς σ τ υ φ χ ψ ω
+        ϊ ό ύ ώ ἀ ἁ ἂ ἄ ἐ ἑ ἔ ἕ ἠ ἡ ἢ ἰ ἱ ἴ ἶ ὀ ὁ ὄ ὅ ὐ ὑ ὔ ὠ ὡ ὣ ὥ ὰ ά ὲ έ ὴ ή ὶ
+        ί ὸ ό ὺ ύ ὼ ώ ᾶ ῆ ῖ ῦ ῶ
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', .'
+      uppercase: Ό Α Β Γ Δ Ε Η Θ Ι Κ Λ Μ Ν Ξ Ο Π Ρ Σ Τ Υ Χ Ω Ἀ Ἐ Ἔ Ἡ Ὀ Ὅ
+    iso_in_db: true
+    missing_from_db: ̀ ̓ ̔ ͂
+    not_in_db: ̀ ̓ ̔ ͂ ά έ ή ί ό ύ ώ ἀ ἁ ἂ ἄ ἐ ἑ ἔ ἕ ἠ ἡ ἢ ἰ ἱ ἴ ἶ ὀ ὁ ὄ ὅ ὐ ὑ ὔ ὠ
+      ὡ ὣ ὥ ὰ ά ὲ έ ὴ ή ὶ ί ὸ ό ὺ ύ ὼ ώ ᾶ ῆ ῖ ῦ ῶ
+    not_in_text: ϋ
+  udhr_ell_polytonic.xml:
+    db_chars_valid: false
+    found_in_text:
+      chars: ̀ ́ ̈ ̓ ̔ ͂ ά έ ή ί α β γ δ ε ζ η θ ι κ λ μ ν ξ ο π ρ ς σ τ υ φ χ ψ ω
+        ϊ ύ ἀ ἁ ἂ ἄ ἐ ἑ ἔ ἕ ἠ ἡ ἢ ἰ ἱ ἴ ἶ ὀ ὁ ὄ ὅ ὐ ὑ ὔ ὠ ὡ ὣ ὥ ὰ ά ὲ έ ὴ ή ὶ ί ὸ
+        ό ὺ ύ ὼ ώ ᾶ ῆ ῖ ῦ ῶ
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', .'
+      uppercase: Α Β Γ Δ Ε Η Θ Ι Κ Λ Μ Ν Ξ Ο Π Ρ Σ Τ Υ Χ Ω Ἀ Ἐ Ἔ Ἡ Ὀ Ὅ
+    iso_in_db: true
+    missing_from_db: ̀ ̓ ̔ ͂
+    not_in_db: ̀ ̓ ̔ ͂ ά έ ή ί ύ ἀ ἁ ἂ ἄ ἐ ἑ ἔ ἕ ἠ ἡ ἢ ἰ ἱ ἴ ἶ ὀ ὁ ὄ ὅ ὐ ὑ ὔ ὠ ὡ ὣ
+      ὥ ὰ ά ὲ έ ὴ ή ὶ ί ὸ ό ὺ ύ ὼ ώ ᾶ ῆ ῖ ῦ ῶ
+    not_in_text: ϋ
+emk:
+  udhr_emk.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o r s t u w y ɔ ɛ ɲ
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '" , . : ;'
+      uppercase: A B D F H I J K L M N O S T U W Ɛ Ɲ
+    iso_in_db: false
+    iso_in_db_macrolang: false
+eml:
+  udhr_eml.xml:
+    found_in_text:
+      chars: a b c d e f g h i j l m n o p q r s t u v z à è é ì ò ù ̀ ́
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' ( ) , - . : ;'
+      uppercase: A B C D E G H I L M N O P R S T U V Z
+    iso_in_db: false
+    iso_in_db_macrolang: false
+eng:
+  udhr_eng.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p q r s t u v w x y z
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', . ; ‐'
+      uppercase: A C D E F G H I M N P R S T U W
+    iso_in_db: true
+    not_in_db: ''
+    not_in_text: æ œ ̀ ́ ̂ ̃ ̈ ̧
+epo:
+  udhr_epo.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u v z ĉ ĝ ĵ ŝ ŭ ̂ ̆
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ( ) , - . ;
+      uppercase: A C D E G H I L M N P R S T U Ĉ Ĝ Ŝ
+    iso_in_db: true
+    not_in_db: ĉ ĝ ĵ ŝ ŭ
+    not_in_text: q w x y
+ese:
+  udhr_ese.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p q r s t u y í ñ ́ ̃
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' , - . _ ’'
+      uppercase: A B C E J M O Q S T
+    iso_in_db: false
+    iso_in_db_macrolang: false
+est:
+  udhr_est.xml:
+    found_in_text:
+      chars: a b d e f g h i j k l m n o p r s t u v ä õ ö ü ̃ ̈
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', - . ;'
+      uppercase: A E H I K L N O P R S T U V Ü
+    iso_in_db: false
+    iso_in_db_macrolang: false
+eus:
+  udhr_eus.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b d e f g h i j k l m n o p r s t u x z
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', - . ;'
+      uppercase: A B D E F G H I J K L N O P R S T U Z
+    iso_in_db: true
+    not_in_db: ''
+    not_in_text: c q v w y ̃ ̈
+eve:
+  udhr_eve.xml:
+    db_chars_valid: false
+    found_in_text:
+      chars: g i m n s ̆ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь
+        э ю я ѳ ҥ һ ө
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', . [ ] ‐'
+      uppercase: А Б Г Д З И К М Н О С Т Ы Э Я Ҥ Һ Ө
+    iso_in_db: true
+    missing_from_db: g i m n s ѳ ҥ һ
+    not_in_db: g i m n s й ѳ ҥ һ
+    not_in_text: ̄ ̈ ӈ
+evn:
+  udhr_evn.xml:
+    db_chars_valid: false
+    found_in_text:
+      chars: ̄ ̆ ̈ а б в г д е ж з и й к л м н о п р с т у ф х ц ч щ ъ ы ь э ю я ё
+        ң һ
+      numerals: 1 2 4 7 8 9
+      punctuation: '( ) , - . : ; –'
+      uppercase: A I А Б Г Д Е И М Н О Т У Э Ң Һ
+    iso_in_db: true
+    missing_from_db: ң һ
+    not_in_db: й ё ң һ
+    not_in_text: ш ӈ ә
+ewe:
+  udhr_ewe.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b d e f g h i k l m n o p r s t u v w x y z ã é í ò ŋ ƒ ɔ ɖ ɛ ʋ ̀ ́
+        ̃
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', - . :'
+      uppercase: A B D E F G H I K L M N O P S T U V W X Y Z Ã Ŋ Ɔ Ɖ Ƒ
+    iso_in_db: true
+    not_in_db: ã é í ò
+    not_in_text: c j q æ ø œ ɣ ̂ ̄ ̆ ̈ ̊ ̧
+fao:
+  udhr_fao.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b d e f g h i j k l m n o p r s t u v y á æ í ð ó ø ú ý ́
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' ( ) , - . ;'
+      uppercase: A D E F G H I L M N R S T U V Y Æ Í Ð Ø Ú Ý
+    iso_in_db: true
+    not_in_db: á í ó ú ý
+    not_in_text: c q w x z ̊
+fij:
+  udhr_fij.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e g i k l m n o p q r s t u v w y
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', . ; ? [ ] “ ”'
+      uppercase: A B D E I K L M N O R S T U V W
+    iso_in_db: true
+    not_in_db: ''
+    not_in_text: f h j x z
+fin:
+  udhr_fin.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b d e g h i j k l m n o p r s t u v y ä ö ̈
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '" , - . : ;'
+      uppercase: A D E H I J K L M N O P S T U V Y Ä
+    iso_in_db: true
+    not_in_db: ä ö
+    not_in_text: c f q w x z æ ø ̃ ̊ ̌
+fkv:
+  udhr_fkv.xml:
+    found_in_text:
+      chars: a b d e f g h i j k l m n o p r s t u v y ä ö ̈
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', - . ;'
+      uppercase: A D E H I J K L M N O P R S T U V Y Ä
+    iso_in_db: false
+    iso_in_db_macrolang: false
+flm:
+  udhr_flm.xml:
+    found_in_text:
+      chars: a b c d e f g h i k l m n o p r s t u v w y z
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ( ) , - . ; ?
+      uppercase: A C D F H I K L M N O P R T U Z
+    iso_in_db: false
+    iso_in_db_macrolang: false
+fon:
+  udhr_fon.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p s t u v w x y z à á è é ì í ò ó ù ú ě
+        ǎ ǐ ǔ ɔ ɖ ɛ ̀ ́ ̌
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' , . : ;'
+      uppercase: A B C D E F G H I J K L M N O P S T U V W X Y Ó Đ Ɔ Ɖ Ɛ
+    iso_in_db: false
+    iso_in_db_macrolang: false
+fra:
+  udhr_fra.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j l m n o p q r s t u v x y à â è é ê ô ù û ̀ ́ ̂
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', . ; ‐ ’'
+      uppercase: A C D E I L M N O P Q T U É
+    iso_in_db: true
+    not_in_db: à â è é ê ô ù û
+    not_in_text: k w z æ œ ̈ ̧
+fri:
+  udhr_fri.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u v w y z â ê ë ï ò ô ú û ̀ ́ ̂
+        ̈
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' , - . : ;'
+      uppercase: A B D E F G H I K L M N O P R S U Y
+    iso_in_db: false
+    iso_in_db_macrolang: false
+fuf:
+  udhr_fuf.xml:
+    db_chars_valid: false
+    found_in_text:
+      chars: e h i r ŋ ƭ 𞤢 𞤣 𞤤 𞤥 𞤦 𞤧 𞤨 𞤩 𞤪 𞤫 𞤬 𞤭 𞤮 𞤯 𞤰 𞤱 𞤲 𞤳 𞤴 𞤵 𞤶 𞤷 𞤸 𞤺 𞤻 𞤼 𞤾 𞥄 𞥅
+        𞥆
+      numerals: 0 1 2 3 4 5 6 7 8 9 𞥐 𞥑 𞥒 𞥓 𞥔 𞥕 𞥖 𞥗 𞥘 𞥙
+      punctuation: '" '' ( ) , - . / : ; ، ؛ ’ ⹁'
+      uppercase: A B D E F G H I J K L M N O P R S T U W X Y 𞤀 𞤁 𞤂 𞤃 𞤅 𞤇 𞤈 𞤉 𞤋 𞤌 𞤍
+        𞤐 𞤑 𞤒 𞤔 𞤕 𞤖 𞤘 𞤚
+    iso_in_db: true
+    missing_from_db: ƭ 𞤢 𞤣 𞤤 𞤥 𞤦 𞤧 𞤨 𞤩 𞤪 𞤫 𞤬 𞤭 𞤮 𞤯 𞤰 𞤱 𞤲 𞤳 𞤴 𞤵 𞤶 𞤷 𞤸 𞤺 𞤻 𞤼 𞤾 𞥄 𞥅 𞥆
+    not_in_db: ƭ 𞤢 𞤣 𞤤 𞤥 𞤦 𞤧 𞤨 𞤩 𞤪 𞤫 𞤬 𞤭 𞤮 𞤯 𞤰 𞤱 𞤲 𞤳 𞤴 𞤵 𞤶 𞤷 𞤸 𞤺 𞤻 𞤼 𞤾 𞥄 𞥅 𞥆
+    not_in_text: a b c d f g j k l m n o p s t u w y ƴ ɓ ɗ ɠ ɲ
+  udhr_fuf_adlm.xml:
+    db_chars_valid: false
+    found_in_text:
+      chars: ŋ ƭ 𞤢 𞤣 𞤤 𞤥 𞤦 𞤧 𞤨 𞤩 𞤪 𞤫 𞤬 𞤭 𞤮 𞤯 𞤰 𞤱 𞤲 𞤳 𞤴 𞤵 𞤶 𞤷 𞤸 𞤺 𞤻 𞤼 𞤾 𞥄 𞥅 𞥆
+      numerals: 𞥐 𞥑 𞥒 𞥓 𞥔 𞥕 𞥖 𞥗 𞥘 𞥙
+      punctuation: ''' ( ) - . / : ، ؛ ’ ⹁'
+      uppercase: 𞤀 𞤁 𞤂 𞤃 𞤅 𞤇 𞤈 𞤉 𞤋 𞤌 𞤍 𞤐 𞤑 𞤒 𞤔 𞤕 𞤖 𞤘 𞤚
+    iso_in_db: true
+    missing_from_db: ƭ 𞤢 𞤣 𞤤 𞤥 𞤦 𞤧 𞤨 𞤩 𞤪 𞤫 𞤬 𞤭 𞤮 𞤯 𞤰 𞤱 𞤲 𞤳 𞤴 𞤵 𞤶 𞤷 𞤸 𞤺 𞤻 𞤼 𞤾 𞥄 𞥅 𞥆
+    not_in_db: ƭ 𞤢 𞤣 𞤤 𞤥 𞤦 𞤧 𞤨 𞤩 𞤪 𞤫 𞤬 𞤭 𞤮 𞤯 𞤰 𞤱 𞤲 𞤳 𞤴 𞤵 𞤶 𞤷 𞤸 𞤺 𞤻 𞤼 𞤾 𞥄 𞥅 𞥆
+    not_in_text: a b c d e f g h i j k l m n o p r s t u w y ƴ ɓ ɗ ɠ ɲ
+fur:
+  udhr_fur.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j l m n o p r s t u v z à â ç è ê ì î ò ô ù û ̀ ̂ ̧
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ( ) , . ; ’
+      uppercase: A C D E F G I L M N O P R S T U V Z Â
+    iso_in_db: true
+    not_in_db: à â ç è ê ì î ò ô ù û
+    not_in_text: k q w x y
+fuv:
+  udhr_fuv.xml:
+    db_chars_valid: false
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u v w y ñ ŋ ƭ ƴ ɓ ɗ ̃
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '( ) , - . / : ; ’'
+      uppercase: A C D E G H I J K L M N O R S T W Y Ɗ
+    iso_in_db: true
+    missing_from_db: v ŋ ƭ ƴ ̃
+    not_in_db: v ñ ŋ ƭ ƴ ̃
+    not_in_text: x
+  udhr_fuv2.xml:
+    db_chars_valid: false
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u v w y ñ ŋ ƭ ƴ ɓ ɗ ̃
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '( ) , - . / : ; ’'
+      uppercase: A B C D E F G H I J K L M N O R S T U W Y Ɓ Ɗ
+    iso_in_db: true
+    missing_from_db: v ŋ ƭ ƴ ̃
+    not_in_db: v ñ ŋ ƭ ƴ ̃
+    not_in_text: x
+gaa:
+  udhr_gaa.xml:
+    found_in_text:
+      chars: a b d e f g h i j k l m n o p r s t u w y ŋ ɔ ɛ ̃
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', . : ;'
+      uppercase: A B D E F G H I J K L M N O P S T W Ŋ Ɔ Ɛ
+    iso_in_db: false
+    iso_in_db_macrolang: false
+gag:
+  udhr_gag.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i k l m n o p r s t u v y z ä ç ê ö ü ı ş ţ ̂ ̇ ̈ ̧
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ( ) , - . ; —
+      uppercase: A B C D E G H I K L M N O P R S T U Y Ü İ
+    iso_in_db: true
+    not_in_db: ä ç ê ö ü ş ţ
+    not_in_text: I j q w x ̆ ̦ а б в г д е ж з и к л м н о п р с т у ф х ц ч ш щ ъ
+      ы ь э ю я
+gan:
+  udhr_gan.xml:
+    found_in_text:
+      chars: 一 七 三 上 下 不 与 且 世 业 丧 个 中 临 为 主 举 乃 义 之 乏 九 也 买 了 予 事 二 于 五 产 享 亲 人 介
+        他 代 以 们 仰 件 价 任 休 优 会 伢 似 位 住 体 何 作 使 依 侮 侵 促 保 信 倚 值 假 偏 做 健 儿 元 兄 充 先 免
+        全 八 公 六 共 关 其 具 内 冒 决 况 准 凡 出 击 分 切 刑 则 创 初 判 利 别 到 制 前 剥 力 加 务 动 助 努 包 化
+        匮 区 医 十 单 卖 压 原 参 及 友 反 发 受 变 叛 只 可 各 合 同 名 向 否 告 员 命 和 品 唯 善 四 回 因 团 固 国
+        土 在 地 均 坏 基 境 大 天 失 头 夺 女 奴 妻 姻 婚 媒 嫁 子 学 宅 守 安 宗 定 实 审 宣 宪 害 家 容 寡 对 寻 尊
+        小 少 居 展 属 工 己 已 布 常 干 平 年 并 庇 序 应 底 府 废 度 庭 康 开 式 弟 张 强 当 形 役 彼 待 律 得 徙 德
+        心 必 忍 志 念 思 性 恐 息 情 惧 想 意 愿 成 戒 或 房 所 才 托 承 技 把 投 护 报 拘 拜 择 括 持 指 捕 据 接 控
+        措 提 援 改 攻 放 政 效 救 教 文 方 施 旁 族 无 旨 时 昧 是 普 暴 最 有 服 望 期 本 术 机 权 条 来 构 某 查 标
+        样 根 格 止 正 此 步 歧 残 段 母 每 民 气 水 求 污 治 法 活 济 消 涉 渐 渠 源 然 煽 父 物 特 犯 独 现 玷 理 生
+        用 由 申 男 界 疗 疾 病 的 益 目 直 相 真 知 破 础 确 示 礼 社 神 票 禁 福 离 私 种 科 秩 移 程 立 章 笑 符 第
+        等 简 箇 管 籍 类 精 系 级 组 细 织 经 结 给 绩 维 缔 罚 罪 美 老 者 而 耻 职 联 肤 育 能 自 至 致 舞 良 色 艺
+        荣 获 落 薪 蛮 行 衣 补 表 衰 被 裳 要 见 规 视 解 言 誉 誓 认 记 讲 许 论 设 证 诉 该 语 诲 谊 谋 负 财 质 贴
+        费 资 赋 走 起 跟 践 身 载 较 辅 辖 辩 辱 迁 过 返 进 迫 送 适 选 逐 通 逮 遇 遍 道 遭 遵 避 都 酬 酷 释 重 野
+        鉴 铤 问 间 阶 际 限 险 障 隶 集 需 非 面 项 领 食 高 默
+      numerals: ''
+      punctuation: . 、 。 ， ；
+      uppercase: ''
+    iso_in_db: false
+    iso_in_db_macrolang: false
+gax:
+  udhr_gax.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p q r s t u w x y
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' ( ) , - . : ;'
+      uppercase: A B D E F H K L M N Q R S U W Y
+    iso_in_db: true
+    not_in_db: ''
+    not_in_text: ''' v z'
+gjn:
+  udhr_gjn.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u w y ŋ ɔ ɛ
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '" , - . / : ;'
+      uppercase: A B D E F G H I K L M N O P R S T U Y Ŋ Ɛ
+    iso_in_db: false
+    iso_in_db_macrolang: false
+gkp:
+  udhr_gkp.xml:
+    found_in_text:
+      chars: a b d e g h i j k l m n o p t u v w y z ĝ ŋ ɓ ɔ ə ɛ ɲ ̂
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '( ) , - . : ;'
+      uppercase: A D G H I J K L M N O P T U Y Ɓ Ɛ
+    iso_in_db: false
+    iso_in_db_macrolang: false
+gla:
+  udhr_gla.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i l m n o p r s t u à è ì ò ù ̀
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '" '' ( ) , - . ;'
+      uppercase: A B C D E F G H I L M N O P R S T U
+    iso_in_db: true
+    not_in_db: à è ì ò ù
+    not_in_text: j k q v w x y z ́
+gld:
+  udhr_gld.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: ̄ ̆ ̈ а б в г д е ж з и к л м н о п р с т у ф х ц ч щ ъ ь э ю я ӈ
+      numerals: 1 2 4 7 8 9
+      punctuation: '( ) , - . : ; ? [ ] –'
+      uppercase: A I А В Г Д И К Н О Т У Х Ч Э
+    iso_in_db: true
+    not_in_db: ''
+    not_in_text: ш ы
+gle:
+  udhr_gle.xml:
+    db_chars_valid: false
+    found_in_text:
+      chars: a b c d e f g h i l m n o p q r s t u ´ á é í ó ú ́
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' , - . ;'
+      uppercase: A B C D E F G H I L N O R S T U Ú
+    iso_in_db: true
+    missing_from_db: ' '
+    not_in_db: ´ á é í ó ú
+    not_in_text: j k v w x y z
+glg:
+  udhr_glg.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i l m n o p q r s t u v x z ª á é í ñ ó ú ́ ̃
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', . ;'
+      uppercase: A C D E N O P S T U X
+    iso_in_db: true
+    not_in_db: ª á é í ñ ó ú
+    not_in_text: j k w y ̈
+glv:
+  udhr_glv.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p q r s t u v w y
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', - . ; ’'
+      uppercase: A B C D E F G H I J K L M N O R S T U V Y
+    iso_in_db: true
+    not_in_db: ''
+    not_in_text: x z ̧
+guc:
+  udhr_guc.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a c e h i j k l m n o p r s t u w y ñ ü ̃ ̈
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '" '' ( ) , . ;'
+      uppercase: A C E H I J K L M N O P R S T U W Y Ü
+    iso_in_db: true
+    not_in_db: ñ ü
+    not_in_text: b d f g q v x z
+gug:
+  udhr_gug.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u v y z á ã è é í ñ ó õ ú ĩ ũ ʼ
+        ̀ ́ ̃ ẽ
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '( ) , - . : ; [ ]'
+      uppercase: A C D E F H I K L M N O P R S T U V Y Ĩ
+    iso_in_db: false
+    iso_in_db_macrolang: false
+guj:
+  udhr_guj.xml:
+    found_in_text:
+      chars: ં ઃ અ આ ઇ ઉ ઊ એ ઓ ક ખ ગ ઘ ચ છ જ ઝ ઞ ટ ઠ ડ ઢ ણ ત થ દ ધ ન પ ફ બ ભ મ ય ર
+        લ ળ વ શ ષ સ હ ા િ ી ુ ૂ ૃ ે ૈ ો ૌ ્
+      numerals: ૦ ૧ ૨ ૩ ૪ ૫ ૬ ૭ ૮ ૯
+      punctuation: ', - . : ;'
+      uppercase: ''
+    iso_in_db: false
+    iso_in_db_macrolang: false
+guu:
+  udhr_guu.xml:
+    found_in_text:
+      chars: a c d e h i k m n o p r s t u w y ã ë í õ ĩ ũ ́ ̃ ̈ ẽ
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', . ;'
+      uppercase: A B E H I K L M N O P R S T U W Y Á Ã Ë Ĩ
+    iso_in_db: false
+    iso_in_db_macrolang: false
+gyr:
+  udhr_gyr.xml:
+    found_in_text:
+      chars: a b c d e g h i k l m n o p r s t u v w y z ~ ä é ë ï ñ ö ü ́ ̃ ̈
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', - . [ ] ’'
+      uppercase: A C I K M N O T Y Ñ
+    iso_in_db: false
+    iso_in_db_macrolang: false
+hak:
+  udhr_hak.xml:
+    found_in_text:
+      chars: 一 丁 七 三 上 下 不 与 且 世 业 严 丧 个 临 为 主 举 义 之 乏 九 买 了 予 事 二 于 五 些 亦 产 享 亲 人
+        介 他 代 以 仰 件 价 任 休 优 会 传 位 住 体 作 佢 使 依 侮 侵 促 保 信 候 倚 值 假 偏 健 像 儿 元 兄 充 先 免
+        全 八 公 六 共 关 其 具 内 决 准 凡 出 击 分 切 刑 则 创 初 判 利 别 到 制 刺 前 剥 力 办 加 务 动 努 包 化 匮
+        区 医 十 单 卖 原 参 及 友 双 反 发 叔 受 变 叛 只 可 各 合 同 名 否 告 员 命 和 品 唔 唯 善 喜 四 因 团 国 土
+        在 地 均 坏 基 墙 处 大 天 失 头 夺 女 奴 好 如 姻 婚 媒 子 学 宅 守 安 完 宗 定 实 宣 宪 害 家 容 密 寡 对 寻
+        尊 少 尾 居 展 属 工 己 已 布 干 平 年 并 庇 序 应 府 废 度 庭 康 开 式 弟 张 强 当 录 形 役 待 律 得 徙 德 心
+        必 忍 志 念 思 性 恐 息 惧 想 意 愿 成 戒 或 房 所 才 打 托 扶 承 技 抓 投 护 报 拜 择 括 持 指 据 接 控 措 提
+        援 收 改 攻 放 政 效 救 教 文 方 施 旁 族 无 旨 时 普 暇 暴 最 有 服 望 期 未 本 术 机 权 条 来 构 某 查 标 样
+        根 格 欺 止 正 此 步 歧 死 残 段 母 每 比 民 气 水 污 治 法 活 济 消 涉 渐 源 然 照 煽 爱 父 物 特 犯 独 现 玷
+        理 生 用 田 由 申 男 界 留 疗 病 的 益 目 直 相 真 着 知 破 础 确 示 礼 社 神 票 禁 福 私 种 科 秘 秩 移 程 立
+        章 符 第 等 管 籍 类 精 系 约 级 组 细 织 经 给 绩 维 罚 罪 美 老 者 而 职 联 肤 育 背 能 脉 脚 自 至 色 艺 荣
+        获 薪 蛮 行 衣 补 表 衰 被 要 见 规 视 解 言 誉 誓 认 记 许 论 设 证 该 语 诲 谊 谋 象 负 财 质 费 资 赋 走 起
+        践 身 转 较 辅 辖 辩 辱 迁 这 进 违 迫 适 选 逐 递 通 遇 遍 道 遭 遵 避 都 酬 酷 释 里 重 鉴 铤 问 闲 间 阶 际
+        限 除 险 隶 集 需 非 面 项 领 食 高 鬼 默
+      numerals: ''
+      punctuation: . 、 。 ， ；
+      uppercase: ''
+    iso_in_db: false
+    iso_in_db_macrolang: false
+hat:
+  udhr_hat_kreyol.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p q r s t u v w x y z è é ò ̀ ́
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' , - . ; [ ]'
+      uppercase: A C D E I J L M N O P R S T V W Y Z
+    iso_in_db: true
+    not_in_db: è é ò
+    not_in_text: ''
+  udhr_hat_popular.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p q r s t u v w x y z è é ò ̀ ́
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' ( ) , - . : ; [ ]'
+      uppercase: A C D E G I J K L M N O P R S T V W Y Z
+    iso_in_db: true
+    not_in_db: è é ò
+    not_in_text: ''
+hau:
+  udhr_hau_NE.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o r s t u w y z ƙ ƴ ɓ ɗ
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' ( ) , . : ; ‐ ’'
+      uppercase: A B D G H I J K M S T Y Ɗ Ƴ
+    iso_in_db: true
+    not_in_db: ''
+    not_in_text: p q v x ʼ ̀ ́ ̂ ̃
+  udhr_hau_NG.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o r s t u w y z ƙ ƴ ɓ ɗ
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' ( ) , - . : ; ‐ ‘ ’'
+      uppercase: A B D G H I J K M S T Y Ɗ Ƴ
+    iso_in_db: true
+    not_in_db: ''
+    not_in_text: p q v x ʼ ̀ ́ ̂ ̃
+haw:
+  udhr_haw.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a c e f g h i k l m n o p r s t u v w ā ē ī ō ū ̄
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', . ; ‘ ’ “ ”'
+      uppercase: A D E H I K L M N O P R U V Ā Ī Ō
+    iso_in_db: true
+    not_in_db: ā ē ī ō ū
+    not_in_text: b d j q x y z ’
+hea:
+  udhr_hea.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p q r s t u v w x y z
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', . : ;'
+      uppercase: A B C D F G H I J L M N O P Q R T U X Y Z
+    iso_in_db: false
+    iso_in_db_macrolang: false
+heb:
+  udhr_heb.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: א ב ג ד ה ו ז ח ט י ך כ ל ם מ ן נ ס ע ף פ ץ צ ק ר ש ת
+      numerals: ''
+      punctuation: ', - . ;'
+      uppercase: ''
+    iso_in_db: true
+    not_in_db: ''
+    not_in_text: ּ ׁ ׂ ׳
+hil:
+  udhr_hil.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e g h i k l m n o p r s t u w y
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', - . ; [ ]'
+      uppercase: A B D E G H I K L M N O P R S T U W Y
+    iso_in_db: true
+    not_in_db: ''
+    not_in_text: f j q v x z
+hin:
+  udhr_hin.xml:
+    found_in_text:
+      chars: ं ः अ आ इ ई उ ऊ ए ऐ ओ औ क ख ग घ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ
+        म य र ल व श ष स ह ़ ा ि ी ु ू ृ े ै ो ौ ् क़ ज़ ड़ ढ़ फ़
+      numerals: ० १ २ ३ ४ ५ ६ ७ ८ ९
+      punctuation: ( ) , - . । —
+      uppercase: ''
+    iso_in_db: false
+    iso_in_db_macrolang: false
+hlt:
+  udhr_hlt.xml:
+    found_in_text:
+      chars: a b c d e f g h i k l m n o p r s t u v w y z
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '( ) , - . : ; [ ] ’'
+      uppercase: A B C D E G H I K L M N O P R S T U Y
+    iso_in_db: false
+    iso_in_db_macrolang: false
+hms:
+  udhr_hms.xml:
+    found_in_text:
+      chars: < > a b c d e f g h i j k l m n o p q r s t u w x y z
+      numerals: ''
+      punctuation: ', .'
+      uppercase: A C D G J L M N R T W X Y Z
+    iso_in_db: false
+    iso_in_db_macrolang: false
+hna:
+  udhr_hna.xml:
+    found_in_text:
+      chars: ^ a b c d e f g h i j k l m n o p r s t u v w x y z à á è é ì í ò ó ù
+        ú ŋ ǐ ǒ ǔ ɔ ɖ ɛ ̀ ́ ̌
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' ( ) , - . ;'
+      uppercase: A B E F G I J K L M N O S T U V W X Y Ŋ Ɔ Ɖ Ɛ
+    iso_in_db: false
+    iso_in_db_macrolang: false
+hni:
+  udhr_hni.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p q s t u v w x y z
+      numerals: ''
+      punctuation: ''' , . : ; ’'
+      uppercase: A B C D E F G H I J K L M N O P Q S T U V X Y Z
+    iso_in_db: false
+    iso_in_db_macrolang: false
+hns:
+  udhr_hns.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u v w y à á è ê ë í ò ̀ ́ ̂ ̈
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '( ) , - . / : ; [ ] ‘ ’'
+      uppercase: A B C D E G J K M N O P R S T V Ò
+    iso_in_db: false
+    iso_in_db_macrolang: false
+hrv:
+  udhr_hrv.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e g h i j k l m n o p r s t u v z ć š ́ ̌
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', . ;'
+      uppercase: A B C D E I J K L M N O P R S T U V Ć Š
+    iso_in_db: true
+    not_in_db: ć š
+    not_in_text: f q w x y đ
+hsb:
+  udhr_hsb.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u w y z ó ć č ě ł ń š ź ž ́ ̌
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', - . ;'
+      uppercase: A D E F G K M N P R S T W Z
+    iso_in_db: true
+    not_in_db: ó ć č ě ń š ź ž
+    not_in_text: q v x
+hsf:
+  udhr_hsf.xml:
+    found_in_text:
+      chars: a b c d e g h i j k l m n o p r s t u v w x y ° à á é í ó ú ̀ ́
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', - . ;'
+      uppercase: A B C D E H I J K L N O P S T U X Y
+    iso_in_db: false
+    iso_in_db_macrolang: false
+hun:
+  udhr_hun.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u v y z á é í ó ö ú ü ő ű ́ ̈ ̋
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', - . ;'
+      uppercase: A B E H J M N S T U
+    iso_in_db: true
+    not_in_db: á é í ó ö ú ü ő ű
+    not_in_text: q w x
+hus:
+  udhr_hus.xml:
+    found_in_text:
+      chars: a b c d e h i j k l m n o p r s t u w x y í ́
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' , - . : ;'
+      uppercase: A B C E H I J K L M N O S T U W X Y
+    iso_in_db: false
+    iso_in_db_macrolang: false
+huu:
+  udhr_huu.xml:
+    found_in_text:
+      chars: a b c d e f g i j l m n o p r s t u v z á ñ ú ɨ ́ ̃
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', - . :'
+      uppercase: A B C D E F G I J M N P R S U Ɨ
+    iso_in_db: false
+    iso_in_db_macrolang: false
+hva:
+  udhr_hva.xml:
+    found_in_text:
+      chars: a b c d e h i j k l m n o p r s t u w x y á é í ó ú ́
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '" '' ( ) , . : ; { ’'
+      uppercase: A B D E H I J K L M N O P S T U W X Y Á É Í
+    iso_in_db: false
+    iso_in_db_macrolang: false
+hye:
+  udhr_hye.xml:
+    found_in_text:
+      chars: ա բ գ դ ե զ է ը թ ժ ի լ խ ծ կ հ ձ ղ ճ մ յ ն շ ո չ պ ջ ռ ս վ տ ր ց ւ փ
+        ք օ և
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', - « ՝ ։ ․'
+      uppercase: Ա Բ Գ Դ Ե Զ Ը Թ Ժ Ի Լ Խ Ծ Կ Հ Ղ Մ Յ Ն Ո Չ Պ Ռ Ս Վ Տ Ր Ւ Ք
+    iso_in_db: false
+    iso_in_db_macrolang: false
+ibb:
+  udhr_ibb.xml:
+    found_in_text:
+      chars: a b d e f g h i k l m n o p r s t u w y ñ ̃
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '" , - . : ;'
+      uppercase: A B D E I K M N O S T U W
+    iso_in_db: false
+    iso_in_db_macrolang: false
+ibo:
+  udhr_ibo.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u w y z ̣ ị ọ ụ
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' , . : ; ‐'
+      uppercase: A B C D E G I K L M N O P R S T U W Y Z Ị Ọ Ụ
+    iso_in_db: true
+    not_in_db: ị ọ ụ
+    not_in_text: q v x ̀ ́ ̄ ̇
+ido:
+  udhr_ido.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p q r s t u v x y z
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' ( ) , - . ; ? [ ]'
+      uppercase: A C D E F G H I J K L M N O P S T U V Y
+    iso_in_db: true
+    not_in_db: ''
+    not_in_text: w
+iii:
+  udhr_iii.xml:
+    found_in_text:
+      chars: ꀀ ꀁ ꀂ ꀉ ꀊ ꀋ ꀐ ꀑ ꀒ ꀙ ꀜ ꀞ ꀤ ꀥ ꀧ ꀨ ꀱ ꀹ ꀻ ꀿ ꁁ ꁈ ꁊ ꁌ ꁏ ꁒ ꁢ ꁦ ꁧ ꁨ ꁮ ꁱ ꁳ ꁴ ꁵ
+        ꂁ ꂄ ꂒ ꂓ ꂘ ꂛ ꂠ ꂡ ꂤ ꂥ ꂮ ꂯ ꂱ ꂲ ꂴ ꂶ ꂷ ꂻ ꂽ ꂿ ꃀ ꃄ ꃅ ꃆ ꃈ ꃘ ꃛ ꃝ ꃢ ꃤ ꃪ ꃰ ꃴ ꃷ ꃹ ꃼ ꄀ
+        ꄂ ꄇ ꄉ ꄎ ꄐ ꄓ ꄙ ꄚ ꄜ ꄟ ꄡ ꄮ ꄯ ꄷ ꄸ ꄹ ꄺ ꄻ ꄿ ꅀ ꅇ ꅉ ꅊ ꅍ ꅐ ꅑ ꅓ ꅔ ꅜ ꅝ ꅠ ꅢ ꅪ ꅫ ꅮ ꅲ ꅷ
+        ꅹ ꅿ ꆀ ꆄ ꆅ ꆈ ꆉ ꆍ ꆏ ꆐ ꆜ ꆠ ꆧ ꆷ ꆹ ꆼ ꆽ ꆿ ꇁ ꇅ ꇇ ꇈ ꇊ ꇋ ꇎ ꇏ ꇐ ꇑ ꇓ ꇔ ꇕ ꇖ ꇢ ꇤ ꇧ ꇩ ꇪ
+        ꇫ ꇬ ꇭ ꇮ ꇯ ꇱ ꇴ ꇽ ꈀ ꈁ ꈂ ꈆ ꈉ ꈋ ꈌ ꈍ ꈐ ꈓ ꈚ ꈜ ꈢ ꈧ ꈨ ꈬ ꈲ ꈴ ꈹ ꈽ ꈾ ꉂ ꉆ ꉈ ꉉ ꉌ ꉐ ꉗ ꉙ
+        ꉚ ꉜ ꉪ ꉬ ꉭ ꉮ ꉹ ꉺ ꉻ ꉼ ꊂ ꊇ ꊋ ꊌ ꊎ ꊏ ꊐ ꊒ ꊢ ꊥ ꊧ ꊨ ꊪ ꊭ ꊯ ꊰ ꊼ ꊽ ꊾ ꊿ ꋅ ꋉ ꋊ ꋋ ꋌ ꋍ ꋒ
+        ꋠ ꋦ ꋧ ꋩ ꋬ ꋭ ꋯ ꋰ ꋽ ꌅ ꌊ ꌋ ꌌ ꌐ ꌔ ꌕ ꌟ ꌠ ꌤ ꌦ ꌧ ꌬ ꌭ ꌳ ꌶ ꌷ ꌺ ꍀ ꍂ ꍅ ꍆ ꍍ ꍔ ꍝ ꍞ ꍣ ꍬ
+        ꍸ ꍹ ꎀ ꎆ ꎕ ꎪ ꎭ ꎹ ꎺ ꎻ ꏁ ꏂ ꏃ ꏅ ꏑ ꏓ ꏗ ꏚ ꏡ ꏢ ꏣ ꏤ ꏥ ꏦ ꏭ ꏯ ꏱ ꏲ ꏽ ꏾ ꐀ ꐆ ꐊ ꐎ ꐙ ꐚ ꐛ
+        ꐤ ꐥ ꐧ ꐨ ꐪ ꐬ ꐮ ꐯ ꐳ ꐽ ꑇ ꑋ ꑌ ꑍ ꑗ ꑘ ꑞ ꑟ ꑠ ꑣ ꑪ ꑬ ꑮ ꑱ ꑲ ꑳ ꑴ ꑵ ꑽ ꑿ ꒃ ꒆ ꒈ ꒉ
+      numerals: ''
+      punctuation: 、 。 《 》 （ ） ， ：
+      uppercase: ''
+    iso_in_db: false
+    iso_in_db_macrolang: false
+ike:
+  udhr_ike.xml:
+    found_in_text:
+      chars: ᐃ ᐅ ᐆ ᐊ ᐋ ᐱ ᐳ ᐸ ᐹ ᑉ ᑎ ᑏ ᑐ ᑑ ᑕ ᑖ ᑦ ᑭ ᑯ ᑰ ᑲ ᒃ ᒋ ᒌ ᒍ ᒎ ᒐ ᒡ ᒥ ᒦ ᒧ ᒨ ᒪ ᒫ ᒻ
+        ᓂ ᓃ ᓄ ᓅ ᓇ ᓈ ᓐ ᓕ ᓖ ᓗ ᓘ ᓚ ᓛ ᓪ ᓯ ᓰ ᓱ ᓲ ᓴ ᓵ ᔅ ᔨ ᔪ ᔫ ᔭ ᔮ ᔾ ᕆ ᕇ ᕈ ᕋ ᕌ ᕐ ᕕ ᕗ ᕙ ᕝ
+        ᕿ ᖁ ᖂ ᖃ ᖅ ᖏ ᖑ ᖓ ᖔ ᖕ ᖢ ᖤ ᙱ ᙳ ᙵ
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '" ( ) , . ;'
+      uppercase: ''
+    iso_in_db: false
+    iso_in_db_macrolang: false
+ilo:
+  udhr_ilo.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b d e g h i k l m n o p r s t u w y
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' , - . [ ]'
+      uppercase: A B D E G H I K L M N O P R S T U W
+    iso_in_db: true
+    not_in_db: ''
+    not_in_text: c f j q v x z ̃
+ina:
+  udhr_ina.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j l m n o p q r s t u v x y
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '( ) , - . : ; @'
+      uppercase: A B C D E G H I L M N O P R S T U V
+    iso_in_db: true
+    not_in_db: ''
+    not_in_text: k w z
+ind:
+  udhr_ind.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u v w y
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ( ) , - . ;
+      uppercase: A B D H J K M N O P S T U
+    iso_in_db: true
+    not_in_db: ''
+    not_in_text: q x z
+isl:
+  udhr_isl.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b d e f g h i j k l m n o p r s t u v y z á æ é í ð ó ö ú ý þ ́ ̈
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', - .'
+      uppercase: A B E F H I K M N O R S T V Í Ö Þ
+    iso_in_db: true
+    not_in_db: á é í ó ö ú ý
+    not_in_text: c q w x œ ̨
+ita:
+  udhr_ita.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i l m n o p q r s t u v z à è é ò ù ̀ ́
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' , . ;'
+      uppercase: A B C D E G H I L M N O P Q R S T U V Z
+    iso_in_db: true
+    not_in_db: à è é ò ù
+    not_in_text: j k w x y ̂ ̈
+jav:
+  udhr_jav.xml:
+    db_chars_valid: false
+    found_in_text:
+      chars: = a b c d e f g h i j k l m n o p r s t u v w y
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '( ) , - . / : ;'
+      uppercase: A B D E G H I J K L M N O P R S T U Y
+    iso_in_db: true
+    missing_from_db: '='
+    not_in_db: '='
+    not_in_text: q x z ̀ ́
+  udhr_jav_java.xml:
+    db_chars_valid: false
+    found_in_text:
+      chars: = a b c d e f g h i j k l m n o p r s t u v w y ~ ​ ꦁ ꦂ ꦃ ꦄ ꦆ ꦈ ꦉ ꦊ ꦌ
+        ꦏ ꦒ ꦔ ꦕ ꦗ ꦚ ꦛ ꦝ ꦠ ꦢ ꦤ ꦥ ꦧ ꦩ ꦪ ꦫ ꦭ ꦮ ꦱ ꦲ ꦳ ꦴ ꦶ ꦸ ꦺ ꦼ ꦽ ꦾ ꦿ ꧀
+      numerals: 0 1 2 3 4 5 6 7 8 9 ꧐ ꧑ ꧒ ꧓ ꧔ ꧕ ꧖ ꧗ ꧘ ꧙
+      punctuation: '( ) , - . / : ; ꧇ ꧈ ꧉ ꧋'
+      uppercase: A B D E G H I J K L M N O P R S T U Y
+    iso_in_db: true
+    missing_from_db: = ~ ​ ꦁ ꦂ ꦃ ꦄ ꦆ ꦈ ꦉ ꦊ ꦌ ꦏ ꦒ ꦔ ꦕ ꦗ ꦚ ꦛ ꦝ ꦠ ꦢ ꦤ ꦥ ꦧ ꦩ ꦪ ꦫ ꦭ ꦮ ꦱ
+      ꦲ ꦳ ꦴ ꦶ ꦸ ꦺ ꦼ ꦽ ꦾ ꦿ ꧀
+    not_in_db: = ~ ​ ꦁ ꦂ ꦃ ꦄ ꦆ ꦈ ꦉ ꦊ ꦌ ꦏ ꦒ ꦔ ꦕ ꦗ ꦚ ꦛ ꦝ ꦠ ꦢ ꦤ ꦥ ꦧ ꦩ ꦪ ꦫ ꦭ ꦮ ꦱ ꦲ ꦳ ꦴ
+      ꦶ ꦸ ꦺ ꦼ ꦽ ꦾ ꦿ ꧀
+    not_in_text: q x z ̀ ́
+jiv:
+  udhr_jiv.xml:
+    found_in_text:
+      chars: a c d e h i j k l m n o p r s t u w y á é í ú ́
+      numerals: 0 1 4 8 9
+      punctuation: ''' ( ) , - . ; ]'
+      uppercase: A C D E H I J K M N R S T U W Y Á É Í Ú
+    iso_in_db: false
+    iso_in_db_macrolang: false
+jpn:
+  udhr_jpn.xml:
+    found_in_text:
+      chars: 々 あ い う え お か が き く け げ こ さ し じ す ず せ そ た ち っ つ て で と な に の は ば ぱ ひ び
+        ふ へ べ ほ ま み む め も ゆ よ ら り る れ わ を ん ゙ ゚ 一 上 下 不 与 世 両 並 中 主 乏 事 互 亡 享 人 他
+        代 仰 件 任 休 会 伝 位 住 体 何 余 作 使 価 侮 侵 係 促 保 信 個 値 健 偶 働 儀 償 優 充 先 児 入 全 公 共 内
+        再 出 分 刑 初 判 別 利 到 制 則 前 創 力 加 助 努 労 効 動 務 化 医 十 協 単 原 厳 去 参 又 及 友 反 取 受 可
+        各 合 同 名 向 否 含 命 和 品 員 問 回 因 団 固 国 圧 地 域 基 報 場 境 増 壊 売 変 大 失 奪 女 奴 好 姻 婚 嫡
+        子 学 守 安 完 宗 定 実 宣 害 家 容 密 寛 審 対 専 尊 導 少 居 屈 展 属 層 差 己 布 帰 常 干 平 年 序 度 庭 康
+        弁 式 弟 強 当 形 役 律 後 従 徳 心 必 応 念 怖 思 性 恐 恩 息 恵 情 想 意 憲 成 所 手 扱 承 技 投 抗 択 拘 拝
+        拷 持 指 挙 捕 授 採 接 推 措 掲 援 撃 支 攻 放 政 救 教 文 施 族 明 時 普 暇 更 最 有 服 望 期 本 条 来 果 格
+        業 構 権 機 欠 止 正 歩 死 残 段 母 民 水 求 決 治 法 活 消 済 渉 満 源 準 為 無 然 物 特 犯 独 現 理 生 産 用
+        由 男 界 疾 病 療 発 的 皮 益 盟 目 直 相 真 破 確 礎 礼 社 祉 神 票 禁 福 私 科 秘 秩 移 種 立 章 童 第 等 管
+        籍 精 約 組 経 結 給 統 続 維 総 織 罪 置 罰 美 義 老 者 職 肝 育 胞 能 膚 自 般 良 色 芸 苦 虐 蛮 行 術 衣 表
+        裁 補 要 見 規 視 親 解 言 託 設 訴 証 誉 認 誓 語 課 論 諸 譲 護 負 財 責 買 資 賞 質 越 踏 身 転 軽 轄 辱 迫
+        追 逆 通 連 逮 進 遍 道 達 違 適 遵 選 避 配 酬 釈 重 野 鑑 門 開 間 関 限 階 際 障 隷 集 難 非 頭 願 類 食 高
+        齢
+      numerals: 0 1 2 3 4 5 6 7 8 9 １ ２ ３ ４ ５ ６ ７ ８ ９
+      punctuation: . 、 。 〈 〉 『 』 （ ）
+      uppercase: ''
+    iso_in_db: false
+    iso_in_db_macrolang: false
+kal:
+  udhr_kal.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a c e f g i j k l m n o p q r s t u v
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', . / ; [ ]'
+      uppercase: A F G I K L M N O P Q R S T U
+    iso_in_db: true
+    not_in_db: ''
+    not_in_text: b d h w x y z æ ø ĸ ̀ ́ ̂ ̃ ̊
+kan:
+  udhr_kan.xml:
+    found_in_text:
+      chars: ಂ ಃ ಅ ಆ ಇ ಈ ಉ ಎ ಏ ಒ ಔ ಕ ಖ ಗ ಘ ಚ ಛ ಜ ಞ ಟ ಠ ಡ ಢ ಣ ತ ಥ ದ ಧ ನ ಪ ಫ ಬ ಭ ಮ ಯ
+        ರ ಲ ಳ ವ ಶ ಷ ಸ ಹ ಾ ಿ ೀ ು ೂ ೃ ೆ ೇ ೈ ೊ ೋ ೌ ್ ೕ ೖ ‌
+      numerals: ೦ ೧ ೨ ೩ ೪ ೫ ೬ ೭ ೮ ೯
+      punctuation: ', . ; “ ”'
+      uppercase: ''
+    iso_in_db: false
+    iso_in_db_macrolang: false
+kat:
+  udhr_kat.xml:
+    found_in_text:
+      chars: ა ბ გ დ ე ვ ზ თ ი კ ლ მ ნ ო პ რ ს ტ უ ფ ქ ღ ყ შ ჩ ც ძ წ ჭ ხ ჯ ჰ
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', - . ;'
+      uppercase: ''
+    iso_in_db: false
+    iso_in_db_macrolang: false
+kaz:
+  udhr_kaz.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: ̆ а б в г д е ж з и й к л м н о п р с т у х ц ш ъ ы ь э ю я і ғ қ ң ү
+        ұ ә ө
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', . ; ‐ –'
+      uppercase: І А Б Д Е Ж З И Й К Л М Н О П Р С Т У Х Ц Ы Я Ғ Қ Ң Ұ Ә Ө
+    iso_in_db: true
+    not_in_db: й
+    not_in_text: ̈ ф ч щ һ
+kbd:
+  udhr_kbd.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: ̆ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ӏ
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ( ) , - . / ;
+      uppercase: I І А Г Д З И К М П С Т У Х Ц
+    iso_in_db: true
+    not_in_db: й
+    not_in_text: ̈
+kbp:
+  udhr_kbp.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u v w y z ñ ŋ ɔ ɖ ɛ ɣ ɩ ʊ ̃
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', - . : ;'
+      uppercase: A B D E G H I J K L M N P S T U W Y Z Ŋ Ɔ Ɖ Ɛ Ɣ Ʊ
+    iso_in_db: false
+    iso_in_db_macrolang: false
+kde:
+  udhr_kde.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p s t u v w y
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ( ) , - . ’
+      uppercase: A B C D E H I K L M N O P S T U V W Y
+    iso_in_db: true
+    not_in_db: ''
+    not_in_text: q r x z
+kdh:
+  udhr_kdh.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u v w y z á é í ó ú ÿ ń ŋ ɔ ɖ ɛ
+        ɩ ʊ ́ ̈ ḿ
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', - . : ;'
+      uppercase: A B C K N T U W Á Ɩ
+    iso_in_db: false
+    iso_in_db_macrolang: false
+kea:
+  udhr_kea.xml:
+    db_chars_valid: false
+    found_in_text:
+      chars: "a b c d e f g h i j l m n o p q r s t u v x z \x92 º à á â ã ç è é ê\
+        \ í ò ó ô õ ú ̀ ́ ̂ ̃ ̧"
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '" ( ) , - . : ;'
+      uppercase: A C D E F G H I M N O P Q R S T U V Ê
+    iso_in_db: true
+    missing_from_db: "\x92"
+    not_in_db: "\x92 º à á â ã ç è é ê í ò ó ô õ ú"
+    not_in_text: k w y ̈
+kek:
+  udhr_kek.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e h i j k l m n o p q r s t u w x y z
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' ( ) , . ; [ ]'
+      uppercase: A B C E H I J K L M N O P Q R S T U W X Y
+    iso_in_db: true
+    not_in_db: ''
+    not_in_text: f g v ’
+kha:
+  udhr_kha.xml:
+    found_in_text:
+      chars: a b c d e g h i j k l m n o p r s t u w y ï ñ ̃ ̈
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ( ) , - . / ;
+      uppercase: A B D E F G H I J K L M N O P R S T U W Y Ï
+    iso_in_db: false
+    iso_in_db_macrolang: false
+khk:
+  udhr_khk.xml:
+    db_chars_valid: false
+    found_in_text:
+      chars: ̆ ̈ а б в г д е ж з и й к л м н о р с т у х ц ч ш ъ ы ь э ю я ё ү ө ᠎
+        ᠠ ᠡ ᠢ ᠣ ᠤ ᠥ ᠦ ᠨ ᠪ ᠬ ᠭ ᠮ ᠯ ᠰ ᠲ ᠳ ᠴ ᠵ ᠶ ᠷ
+      numerals: ''
+      punctuation: ', . : ᠂ ᠃'
+      uppercase: А Б Г Д Е З И Й Л М Н О Р Т У Х Ш Э Ү
+    iso_in_db: true
+    missing_from_db: ᠎ ᠠ ᠡ ᠢ ᠣ ᠤ ᠥ ᠦ ᠨ ᠪ ᠬ ᠭ ᠮ ᠯ ᠰ ᠲ ᠳ ᠴ ᠵ ᠶ ᠷ
+    not_in_db: й ё ᠎ ᠠ ᠡ ᠢ ᠣ ᠤ ᠥ ᠦ ᠨ ᠪ ᠬ ᠭ ᠮ ᠯ ᠰ ᠲ ᠳ ᠴ ᠵ ᠶ ᠷ
+    not_in_text: п ф щ
+  udhr_khk_mong.xml:
+    db_chars_valid: false
+    found_in_text:
+      chars: ᠎ ᠠ ᠡ ᠢ ᠣ ᠤ ᠥ ᠦ ᠨ ᠪ ᠬ ᠭ ᠮ ᠯ ᠰ ᠲ ᠳ ᠴ ᠵ ᠶ ᠷ
+      numerals: ''
+      punctuation: ᠂ ᠃
+      uppercase: ''
+    iso_in_db: true
+    missing_from_db: ᠎ ᠠ ᠡ ᠢ ᠣ ᠤ ᠥ ᠦ ᠨ ᠪ ᠬ ᠭ ᠮ ᠯ ᠰ ᠲ ᠳ ᠴ ᠵ ᠶ ᠷ
+    not_in_db: ᠎ ᠠ ᠡ ᠢ ᠣ ᠤ ᠥ ᠦ ᠨ ᠪ ᠬ ᠭ ᠮ ᠯ ᠰ ᠲ ᠳ ᠴ ᠵ ᠶ ᠷ
+    not_in_text: ̆ ̈ а б в г д е ж з и к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я
+      ү ө
+khm:
+  udhr_khm.xml:
+    found_in_text:
+      chars: ក ខ គ ឃ ង ច ឆ ជ ឈ ញ ដ ឋ ឌ ឍ ណ ត ថ ទ ធ ន ប ផ ព ភ ម យ រ ល វ ស ហ ឡ អ ឥ ឧ
+        ឪ ឬ ឯ ឱ ា ិ ី ឹ ឺ ុ ូ ួ ើ ឿ ៀ េ ែ ៃ ោ ៅ ំ ះ ៈ ៉ ់ ៌ ៍ ៏ ័ ្ ៗ
+      numerals: ០ ១ ២ ៣ ៤ ៥ ៦ ៧ ៨ ៩
+      punctuation: ( ) ។ ៖
+      uppercase: A I
+    iso_in_db: false
+    iso_in_db_macrolang: false
+kin:
+  udhr_kin.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p q r s t u v w y z
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' , - . :'
+      uppercase: A B C E G H I K L M N O R S T U Y Z
+    iso_in_db: true
+    not_in_db: ''
+    not_in_text: x
+kir:
+  udhr_kir.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: ̆ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш ъ ы ь э ю я ң ү ө
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', . ; ‐'
+      uppercase: А Б Г Д Е Ж К Л М Н П Р Т У Э Ө
+    iso_in_db: true
+    not_in_db: й
+    not_in_text: ̈ щ
+kjh:
+  udhr_kjh.xml:
+    db_chars_valid: false
+    found_in_text:
+      chars: ̆ а б в г д е ж з и й к л м н о п р с т у ф х ц ч щ ъ ы ь э ю я і ј ғ
+        ң ҷ
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ( ) , - . ;
+      uppercase: A I І Ј А Д Е И Н О П С Т У Х Ч
+    iso_in_db: true
+    missing_from_db: ј ҷ
+    not_in_db: й ј ҷ
+    not_in_text: ̈ ш ӌ
+kkh:
+  udhr_kkh_lana.xml:
+    found_in_text:
+      chars: ᨠ ᨡ ᨣ ᨤ ᨥ ᨦ ᨧ ᨨ ᨩ ᨪ ᨬ ᨭ ᨮ ᨯ ᨰ ᨱ ᨲ ᨳ ᨴ ᨵ ᨶ ᨷ ᨸ ᨹ ᨻ ᨼ ᨽ ᨾ ᨿ ᩀ ᩁ ᩃ ᩅ ᩈ ᩉ
+        ᩋ ᩐ ᩑ ᩓ ᩔ ᩕ ᩖ ᩛ ᩠ ᩡ ᩢ ᩣ ᩤ ᩥ ᩦ ᩧ ᩨ ᩩ ᩪ ᩫ ᩭ ᩮ ᩯ ᩰ ᩱ ᩳ ᩴ ᩵ ᩶ ᩼ ᪧ
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''
+      uppercase: ''
+    iso_in_db: false
+    iso_in_db_macrolang: false
+kmb:
+  udhr_kmb.xml:
+    found_in_text:
+      chars: a b d e f g h i j k l m n o p s t u v w x y z â ê ô ̂
+      numerals: 1 2 3 4 8 9
+      punctuation: ( ) , - . ; ? [ ] ’
+      uppercase: A B D E G H I K L M N O P S T U V W X Y
+    iso_in_db: false
+    iso_in_db_macrolang: false
+kmr:
+  udhr_kmr.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p q r s t u v w x y z ç ê î û ş ̂ ̧
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ( ) , . ;
+      uppercase: B C D E G H J L M N T V Y
+    iso_in_db: true
+    not_in_db: ç ê î û ş
+    not_in_text: ''' ł ̆ ̈ ̌ а б в г д е ж з и к л м н о п р с т у ф х ч ш щ ь э һ
+      ә ԛ ԝ'
+knc:
+  udhr_knc.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u w y z ə
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', - .'
+      uppercase: A B D H I K L M N S T W Y
+    iso_in_db: false
+    iso_in_db_macrolang: false
+kng:
+  udhr_kng.xml:
+    found_in_text:
+      chars: a b d e f g i j k l m n o p s t u v w y z
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', - . ;'
+      uppercase: A B D K L M N Y
+    iso_in_db: false
+  udhr_kng_AO.xml:
+    found_in_text:
+      chars: "a b c d e f g h i j k l m n o p r s t u v w y z \x92 ´ ã ç é ó ́ ̃ ̧"
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '" ( ) , - . / ;'
+      uppercase: A B D E G H I K L M N O P S T U V W Y Z
+    iso_in_db: false
+    iso_in_db_macrolang: true
+koi:
+  udhr_koi.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: ̆ ̈ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё
+        і ӧ
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ( ) , - . ; –
+      uppercase: А Б В Г Д Е И Й К Л М Н О П Р С Т Ч Ь Э Я Ӧ
+    iso_in_db: true
+    not_in_db: й ё ӧ
+    not_in_text: ''
+koo:
+  udhr_koo.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u v w x y z
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' ( ) , - . : ; [ ]'
+      uppercase: A B C D E F G H I K L M N O P R S T U W Y
+    iso_in_db: false
+    iso_in_db_macrolang: false
+kor:
+  udhr_kor.xml:
+    found_in_text:
+      chars: ᄀ ᄁ ᄂ ᄃ ᄄ ᄅ ᄆ ᄇ ᄈ ᄉ ᄋ ᄌ ᄎ ᄏ ᄐ ᄑ ᄒ ᅡ ᅢ ᅣ ᅥ ᅦ ᅧ ᅨ ᅩ ᅪ ᅬ ᅭ ᅮ ᅯ ᅱ ᅲ ᅳ ᅴ ᅵ
+        ᆨ ᆫ ᆭ ᆮ ᆯ ᆲ ᆷ ᆸ ᆹ ᆺ ᆻ ᆼ ᆾ ᇀ ᇁ ᇂ 가 각 간 강 같 개 거 건 것 게 격 견 결 경 계 고 공 과 관 괴 교
+        구 국 굴 권 규 그 근 금 급 기 까 나 난 날 남 내 냐 넓 녀 념 녕 노 놓 누 느 는 능 니 다 단 달 담 당 대 더 덕 던
+        도 독 돌 동 되 된 될 든 들 등 디 따 때 떠 떤 또 라 란 람 래 러 런 려 력 령 로 록 론 롭 료 룰 류 률 른 를 리 린
+        릴 립 마 막 만 망 매 머 며 면 멸 명 모 목 무 문 물 므 민 밀 및 박 반 받 발 방 배 벌 범 법 변 별 병 보 복 본 부
+        분 불 비 뿐 사 산 상 색 생 서 석 선 섭 성 세 소 속 수 술 스 습 시 식 신 실 심 아 안 않 압 았 앙 앞 애 야 약 양
+        어 억 언 얻 엄 업 없 었 에 여 역 연 열 였 영 예 올 와 완 왔 요 욕 용 우 운 원 위 유 육 으 은 을 응 의 이 익 인
+        일 임 입 있 자 작 잔 장 재 적 전 절 점 접 정 제 조 족 존 종 죄 주 준 중 증 지 직 진 질 짐 집 차 참 창 처 천 체
+        초 촉 총 최 추 출 충 취 치 칙 침 키 타 탁 탈 태 택 터 토 통 투 특 파 판 편 평 포 폭 표 피 필 핍 하 학 한 할 함
+        합 항 해 행 향 헌 현 혐 협 형 혜 호 혹 혼 화 확 활 황 회 효 휴 히
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', . ·'
+      uppercase: ''
+    iso_in_db: false
+    iso_in_db_macrolang: false
+kqn:
+  udhr_kqn.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u v w y z
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ( ) , - . ;
+      uppercase: A B E F G H I K L M N O P S T U V W Y Z
+    iso_in_db: false
+    iso_in_db_macrolang: false
+kqs:
+  udhr_kqs.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u v w y é ́
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', . ‘ ’ “ ”'
+      uppercase: B D E K M N O T U W Y
+    iso_in_db: false
+    iso_in_db_macrolang: false
+kri:
+  udhr_kri.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u v w y z ŋ ɔ ɛ
+      numerals: '1'
+      punctuation: ( ) , . ; ? [ ] –
+      uppercase: A B D E F G I J K L M N P R S T W Y
+    iso_in_db: false
+    iso_in_db_macrolang: false
+krl:
+  udhr_krl.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u v y z ä ö č š ž ̈ ̌
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', - . ; ’'
+      uppercase: A D H J K M N O P R T U V Y
+    iso_in_db: true
+    not_in_db: ä ö č š ž
+    not_in_text: q w x
+ktu:
+  udhr_ktu.xml:
+    found_in_text:
+      chars: a b d e f g i j k l m n o p s t u v w y z
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', - . ;'
+      uppercase: A B D E I K L M N S T U V Y Z
+    iso_in_db: false
+    iso_in_db_macrolang: false
+kwi:
+  udhr_kwi.xml:
+    found_in_text:
+      chars: + a b c d e f h i j k l m n o p q r s t u v w x y z à á â ç é ê ë ñ ó
+        ù ̀ ́ ̂ ̃ ̈ ̧
+      numerals: 5 6
+      punctuation: ''' , - . : ? [ ] ·'
+      uppercase: A C F G H I J K L M N P R S T U W Z Ç
+    iso_in_db: false
+    iso_in_db_macrolang: false
+lad:
+  udhr_lad.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u v x y z í ́
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', - . ; –'
+      uppercase: A D E I J K L M N O P T U
+    iso_in_db: false
+    iso_in_db_macrolang: false
+lao:
+  udhr_lao.xml:
+    found_in_text:
+      chars: ກ ຂ ຄ ງ ຈ ຊ ຍ ດ ຕ ຖ ທ ນ ບ ປ ຜ ພ ຟ ມ ຢ ລ ວ ສ ຫ ອ ຮ ະ ັ າ ຳ ິ ີ ຶ ື ຸ ູ
+        ົ ຼ ຽ ເ ແ ໂ ໃ ໄ ໆ ່ ້ ໍ ໜ ໝ
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' ( ) , . : ;'
+      uppercase: ''
+    iso_in_db: false
+    iso_in_db_macrolang: false
+lat:
+  udhr_lat.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j l m n o p q r s t u v x y
+      numerals: ''
+      punctuation: '( ) , . : ;'
+      uppercase: A B C D E F G H I J L M N O P Q R S T U V X
+    iso_in_db: true
+    not_in_db: ''
+    not_in_text: k w z
+  udhr_lat_1.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j l m n o p q r s t u v x y
+      numerals: ''
+      punctuation: ( ) , . ;
+      uppercase: A C D E F H I J L M N O P Q R S T U V X
+    iso_in_db: true
+    not_in_db: ''
+    not_in_text: k w z
+lav:
+  udhr_lav.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u v z ā č ē ģ ī ķ ļ ņ š ū ž ̄ ̌
+        ̧
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', . ;'
+      uppercase: A B C D E G I J K L M N O P R S T U V Ā Ē Ģ Ī Š
+    iso_in_db: false
+    iso_in_db_macrolang: false
+lia:
+  udhr_lia.xml:
+    found_in_text:
+      chars: a b c d e f g h i k l m n o p r s t u w y ŋ ɔ ɛ
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', - . / : ? [ ]'
+      uppercase: B H K M N P U W
+    iso_in_db: false
+    iso_in_db_macrolang: false
+lij:
+  udhr_lij.xml:
+    db_chars_valid: false
+    found_in_text:
+      chars: a b c d e f g h i j l m n o p q r s t u v x z à â æ ç é ê î ò ô ö ù ̀
+        ́ ̂ ̈ ̧
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', - . ; ’'
+      uppercase: A C D E G I L M N O P Q R S T U V Ç Ò
+    iso_in_db: true
+    missing_from_db: ̧
+    not_in_db: à â ç é ê î ò ô ö ù ̧
+    not_in_text: k w y
+lin:
+  udhr_lin.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b d e f g i k l m n o p s t u v w y z ɔ ɛ ́ ̂ ̌
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ( ) , - . ; ‐ ’
+      uppercase: A B E G I K L M N O S T Y Ɔ
+    iso_in_db: true
+    not_in_db: ''
+    not_in_text: c h j q r x
+  udhr_lin_tones.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b d e f g i k l m n o p s t u v w y z ɔ ɛ ́ ̂ ̌
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ( ) , . ; ‐ ’
+      uppercase: A B E G I K L M N O S T Y Ɔ
+    iso_in_db: true
+    not_in_db: ''
+    not_in_text: c h j q r x
+lit:
+  udhr_lit.xml:
+    db_chars_valid: false
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u v y z é ą č ė ę į š ū ų ž ́ ̄
+        ̇ ̌ ̨
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', - . : ;'
+      uppercase: A B C D E G I J K L M N O P R S T U V Z Ė Į Š Ų Ž
+    iso_in_db: true
+    missing_from_db: ́
+    not_in_db: é ą č ė ę į š ū ų ž ́
+    not_in_text: q w x
+lld:
+  udhr_lld.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j l m n o p r s t u v y z à â è é ê ë ì î ò ó ô ö ù
+        û ü ć ̀ ́ ̂ ̈
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ( ) , . ; ’
+      uppercase: A C D E G I L N P R S U V Ë
+    iso_in_db: true
+    not_in_db: à â è é ê ë ì î ò ó ô ö ù û ü ć
+    not_in_text: k q w x
+lnc:
+  udhr_lnc.xml:
+    found_in_text:
+      chars: a b c d e f g h i j l m n o p q r s t u v x z à á ç è é í ï ò ó ú ü ̀
+        ́ ̈ ̧
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' , - . ;'
+      uppercase: A C D E G H I L M N O P R S T U V
+    iso_in_db: false
+    iso_in_db_macrolang: false
+lns:
+  udhr_lns.xml:
+    found_in_text:
+      chars: '` a b c d e f g h i j k l m n o r s t u v w y z à á è é ì í ò ó ù ú
+        ŋ ə ̀ ́'
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' ( ) , . / ; ’'
+      uppercase: A B D F G K L M N R S T V W Y Á Ŋ
+    iso_in_db: false
+    iso_in_db_macrolang: false
+lob:
+  udhr_lob.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u v w y à á ä ɔ ɛ ɩ ʋ ʔ ̀ ́ ̈
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', . ;'
+      uppercase: A B C D G H J K M N S T V W Ɛ
+    iso_in_db: false
+    iso_in_db_macrolang: false
+lot:
+  udhr_lot.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u v w y
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ( ) , . / ; [ ]
+      uppercase: A B C E F G H I J L M N O R T U V
+    iso_in_db: false
+    iso_in_db_macrolang: false
+loz:
+  udhr_loz.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u w y z
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' , . : ; [ ]'
+      uppercase: A B C E G H I K L M N O R S T U W Y Z
+    iso_in_db: false
+    iso_in_db_macrolang: false
+ltz:
+  udhr_ltz.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u v w x y z à ä é ê ë ô ö ü ̀ ́
+        ̂ ̈
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' , - . : ;'
+      uppercase: A B C D E F G H I J K L M N O P R S T U V W Z Ä É Ë Ö
+    iso_in_db: true
+    not_in_db: à ä é ê ë ô ö ü
+    not_in_text: q ß
+lua:
+  udhr_lua.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p s t u v w y z
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '( ) , - . : ;'
+      uppercase: A B C D E G H I J K L M N O P S T U W Y
+    iso_in_db: true
+    not_in_db: ''
+    not_in_text: ''
+lue:
+  udhr_lue.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p s t u v w y z
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', .'
+      uppercase: A C E G H K L M N P S T U V W Y Z
+    iso_in_db: false
+    iso_in_db_macrolang: false
+lug:
+  udhr_lug.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u v w y z
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' ( ) , - . : ; [ ]'
+      uppercase: A B C D E F G I J K L M N O R S T U W Y
+    iso_in_db: true
+    not_in_db: ''
+    not_in_text: q x ŋ
+lun:
+  udhr_lun.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p s t u v w y z
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' ( ) , .'
+      uppercase: A B C D E G H I J K L M N P R S T U W Y
+    iso_in_db: false
+    iso_in_db_macrolang: false
+lus:
+  udhr_lus.xml:
+    found_in_text:
+      chars: a b c d e f g h i k l m n o p r s t u v w y z â ã ê î û ̂ ̃
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ( ) , - . ; ?
+      uppercase: A C D E F G H I K L M N O P R S T U V Z
+    iso_in_db: false
+    iso_in_db_macrolang: false
+mad:
+  udhr_mad.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u v w y
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' ( ) , - . : ;'
+      uppercase: A B D E H I J K L M N O P R S T U Y
+    iso_in_db: false
+    iso_in_db_macrolang: false
+mag:
+  udhr_mag.xml:
+    found_in_text:
+      chars: g i m n s ँ ं अ आ इ ई उ ए ऐ ओ औ क ख ग घ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न
+        प फ ब भ म य र ल व श ष स ह ़ ा ि ी ु ू ृ े ै ो ौ ्
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', - . : ? [ ] ।'
+      uppercase: ''
+    iso_in_db: false
+    iso_in_db_macrolang: false
+mah:
+  udhr_mah.xml:
+    found_in_text:
+      chars: a b c d e i j k l m n o p r s t u v w y
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ( ) , - . ;
+      uppercase: A B E G I J K L M N O R U W
+    iso_in_db: false
+    iso_in_db_macrolang: false
+mai:
+  udhr_mai.xml:
+    found_in_text:
+      chars: ʼ ँ ं ः अ आ इ ई उ ए ऐ ओ क ख ग घ ङ च छ ज ञ ट ठ ड ढ ण त थ द ध न प फ ब भ
+        म य र ल व श ष स ह ़ ा ि ी ु ू ृ े ै ो ौ ्
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ( ) , ; । –
+      uppercase: ''
+    iso_in_db: false
+    iso_in_db_macrolang: false
+mal:
+  udhr_mal.xml:
+    found_in_text:
+      chars: a b e l m n r s y ം അ ആ ഇ ഈ ഉ ഊ എ ഏ ഐ ഒ ക ഖ ഗ ഘ ങ ച ജ ഞ ട ഠ ഡ ണ ത ഥ ദ
+        ധ ന പ ഫ ബ ഭ മ യ ര റ ല ള ഴ വ ശ ഷ സ ഹ ാ ി ീ ു ൂ ൃ െ േ ൈ ൊ ോ ൌ ് ൗ ‌ ‍
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ( ) , .
+      uppercase: A G
+    iso_in_db: false
+  udhr_mal_chillus.xml:
+    found_in_text:
+      chars: a b e l m n r s y ം അ ആ ഇ ഈ ഉ ഊ എ ഏ ഐ ഒ ക ഖ ഗ ഘ ങ ച ജ ഞ ട ഠ ഡ ണ ത ഥ ദ
+        ധ ന പ ഫ ബ ഭ മ യ ര റ ല ള ഴ വ ശ ഷ സ ഹ ാ ി ീ ു ൂ ൃ െ േ ൈ ൊ ോ ൌ ് ൗ ൻ ർ ൽ ൾ ‌
+        ‍
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ( ) , .
+      uppercase: A G
+    iso_in_db: false
+    iso_in_db_macrolang: false
+mam:
+  udhr_mam.xml:
+    found_in_text:
+      chars: a b c e g h i j k l m n o p q r s t u v w x y z
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' ( ) , - . ; [ ]'
+      uppercase: A B I J K L M N O P Q T U W X Y
+    iso_in_db: false
+    iso_in_db_macrolang: false
+mar:
+  udhr_mar.xml:
+    found_in_text:
+      chars: ँ ं ः अ आ इ ई उ ए औ क ख ग घ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य
+        र ल ळ व श ष स ह ा ि ी ु ू ृ े ै ो ौ ् ‌ ‍
+      numerals: ० १ २ ३ ४ ५ ६ ७ ८ ९
+      punctuation: ', - . : ;'
+      uppercase: ''
+    iso_in_db: false
+    iso_in_db_macrolang: false
+maz:
+  udhr_maz.xml:
+    found_in_text:
+      chars: a b c d e g h i j k l m n o p r s t u x y z ñ ̃ ̱ ̸
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' ( ) , . ; _'
+      uppercase: A C D E H I J K M N O P R S T U X Y Z Ñ
+    iso_in_db: false
+    iso_in_db_macrolang: false
+mcd:
+  udhr_mcd.xml:
+    found_in_text:
+      chars: a b c e f h i l m n o p q r s t u y á í ó ú ́
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' , - . : ? [ ] ¿'
+      uppercase: A C F M N P R S T U Y
+    iso_in_db: false
+    iso_in_db_macrolang: false
+mcf:
+  udhr_mcf.xml:
+    found_in_text:
+      chars: a b c d e h i j l m n o p q r s t u y z ~ ë ̈
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' , - . : ?'
+      uppercase: A B C D E I M N O P Q S T U Y Ë
+    iso_in_db: false
+    iso_in_db_macrolang: false
+men:
+  udhr_men.xml:
+    found_in_text:
+      chars: a b d e f g h i j k l m n o p s t u v w y ŋ ɔ ɛ
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', . ‐ –'
+      uppercase: A B D F G H I J K L M N P S T V W Y
+    iso_in_db: false
+    iso_in_db_macrolang: false
+mfq:
+  udhr_mfq.xml:
+    found_in_text:
+      chars: a b c d e f g i j k l m n o p s t u w y ń ŋ ɔ ɛ ́
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ) , - . ; ’
+      uppercase: A B C D G I J K L N P S U Y Ŋ
+    iso_in_db: false
+    iso_in_db_macrolang: false
+mic:
+  udhr_mic.xml:
+    found_in_text:
+      chars: a b c e g i j k l m n o p q r s t u w y
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', - . : ; ’'
+      uppercase: A E J K M N P T W
+    iso_in_db: false
+    iso_in_db_macrolang: false
+min:
+  udhr_min.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u v w y z
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '( ) , - . : ; –'
+      uppercase: A B D H I K L M N P S T U
+    iso_in_db: false
+    iso_in_db_macrolang: false
+miq:
+  udhr_miq.xml:
+    found_in_text:
+      chars: a b d e g h i k l m n p r s t u v w y á â ́ ̂
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', . : ; ? [ ]'
+      uppercase: A B D G K L M N P R S T U W
+    iso_in_db: false
+    iso_in_db_macrolang: false
+mkd:
+  udhr_mkd.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: ́ а б в г д е ж з и к л м н о п р с т у ф х ц ч ш ѓ ј њ ќ
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '( ) , . : ; –'
+      uppercase: A I Ј А Б В Г Д Е З И К Л М Н О П Р С Т У Ц Ч
+    iso_in_db: true
+    not_in_db: ѓ ќ
+    not_in_text: ѕ љ џ
+mlt:
+  udhr_mlt.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p q r s t u v w x z à ù ċ ġ ħ ż ̀ ̇
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', - . ; ’'
+      uppercase: A B D E F G H I J K L M N O Q R S T U V W X Ġ Ħ
+    iso_in_db: true
+    not_in_db: à ù ċ ġ ż
+    not_in_text: y ̂
+mly:
+  udhr_mly_arab.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u v w y z ù ̀ أ ؤ ئ ا ب ت ج ح خ
+        د ذ ر ز س ش ص ط ظ ع ف ق ك ل م ن ه و ي ٔ چ ڠ ڤ ڬ ڽ ۏ
+      numerals: 0 1 2 3 4 5 6 7 8 9 ٢
+      punctuation: ) , - . ; ،
+      uppercase: A B D E G H I J K L M N P R S T U Y
+    iso_in_db: false
+    iso_in_db_macrolang: false
+  udhr_mly_latn.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u v w y z ù ̀
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ) , - . ;
+      uppercase: A B D E G H I J K L M N P R S T U Y
+    iso_in_db: false
+mnw:
+  udhr_mnw.xml:
+    found_in_text:
+      chars: က ခ ဂ စ ဆ ဇ ဉ ည ဋ ဌ ဍ ဏ တ ထ ဒ ဓ န ပ ဖ ဗ ဘ မ ယ ရ လ ဝ သ ဟ ဠ အ ဥ ါ ာ ိ ီ
+        ု ူ ေ ဲ ဳ ဴ ဵ ံ း ္ ် ျ ြ ွ ှ ဿ ၚ ၜ ၞ ၟ ၠ
+      numerals: ၀ ၁ ၂ ၃ ၄ ၅ ၆ ၇ ၈ ၉
+      punctuation: ( ) . ၊ ။
+      uppercase: ''
+    iso_in_db: false
+    iso_in_db_macrolang: false
+mos:
+  udhr_mos.xml:
+    found_in_text:
+      chars: a b d e f g i k l m n o p r s t u v w y z ã õ ĩ œ ũ ɛ ɩ ʊ ̃
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' ( ) , - . ; [ ] ’'
+      uppercase: A B D K L M N P S T V Y Z
+    iso_in_db: false
+    iso_in_db_macrolang: false
+mri:
+  udhr_mri.xml:
+    db_chars_valid: false
+    found_in_text:
+      chars: a e g h i k m n o p r s t u w ï ̈
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', - . : ; ? [ ]'
+      uppercase: A E G H I K M N O P R T U W
+    iso_in_db: true
+    missing_from_db: ̈
+    not_in_db: ï ̈
+    not_in_text: b c d f j l q v x y z ̄
+mto:
+  udhr_mto.xml:
+    found_in_text:
+      chars: a b c d e g i j k l m n o p r s t u v x y ä é ë ö ü ́ ̈
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ( ) , . ; ’
+      uppercase: A C D E F G H I J K L M N O P R S T U V X Y Ä Ë Ö Ü
+    iso_in_db: false
+    iso_in_db_macrolang: false
+mxi:
+  udhr_mxi.xml:
+    found_in_text:
+      chars: a b c d e f g h i l m n o p q r s t u v x z à è ò ù ̀
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' , . ; ’'
+      uppercase: A B C D E G H I L M N O P R S T U À
+    iso_in_db: false
+    iso_in_db_macrolang: false
+mxv:
+  udhr_mxv.xml:
+    found_in_text:
+      chars: a b c d e g h i j k l m n o q r s t u v x y z á é ì í ñ ó ú ̀ ́ ̃ ̱
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' , - .'
+      uppercase: A D E G I J K M N P S T U V Y Í Ñ
+    iso_in_db: false
+    iso_in_db_macrolang: false
+mya:
+  udhr_mya.xml:
+    found_in_text:
+      chars: က ခ ဂ င စ ဆ ဇ ဉ ည ဋ ဌ ဏ တ ထ ဒ ဓ န ပ ဖ ဘ မ ယ ရ လ ဝ သ ဟ အ ဤ ဥ ဦ ါ ာ ိ ီ
+        ု ူ ေ ဲ ံ ့ း ္ ် ျ ြ ွ ှ
+      numerals: ၀ ၁ ၂ ၃ ၄ ၅ ၆ ၇ ၈ ၉
+      punctuation: . ၊ ။ ၌ ၍ ၏
+      uppercase: ''
+    iso_in_db: false
+    iso_in_db_macrolang: false
+mzi:
+  udhr_mzi.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o r s t u v x y á é í ñ ó ́ ̃
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', - . ; [ ] ’'
+      uppercase: A C E F J K M N T U X Y
+    iso_in_db: false
+    iso_in_db_macrolang: false
+nan:
+  udhr_nan.xml:
+    found_in_text:
+      chars: 一 七 丈 三 上 下 不 与 且 世 业 严 丧 个 中 临 为 主 举 乃 义 之 乏 九 买 了 予 事 二 于 互 五 亦 产 享
+        亲 人 介 仔 他 代 以 仰 件 价 任 伊 休 优 会 传 位 住 体 何 作 使 依 侮 促 保 信 倒 倚 值 假 偏 做 健 傍 元 兄
+        充 先 免 兜 全 八 公 六 共 关 其 具 内 决 准 凡 出 击 分 切 刑 则 创 初 判 利 别 到 制 前 剥 力 加 务 动 勿 包
+        化 匮 区 医 十 单 卖 即 厄 厝 原 去 参 及 友 双 反 发 受 变 叛 只 号 各 合 同 名 否 告 员 命 和 咒 品 唯 善 四
+        囝 因 团 固 国 在 地 坏 基 境 处 大 天 夫 失 头 夺 女 奴 好 姻 婚 媒 嫁 子 学 守 安 完 宗 定 实 审 宣 宪 害 家
+        容 密 寡 对 尊 少 尼 展 属 工 己 已 布 带 干 平 年 并 庇 序 应 底 府 废 度 庭 康 开 式 弟 张 强 当 形 役 待 律
+        得 徙 德 心 必 忍 志 念 思 性 恐 息 情 惧 想 意 成 戒 房 所 托 批 承 技 抑 投 护 报 拘 拜 拢 择 括 持 指 据 接
+        控 措 提 援 搭 改 攻 放 政 效 救 教 散 敨 文 斗 方 施 旁 族 无 旨 时 是 普 暴 最 有 服 期 本 术 机 杀 权 条 来
+        构 枇 某 查 标 样 根 格 款 止 正 此 步 歧 残 段 母 每 比 民 水 求 污 汰 治 法 活 济 消 涉 渐 源 然 照 煽 爸 物
+        特 犯 独 现 玷 理 生 用 由 界 疗 病 的 益 目 直 相 真 着 知 破 础 确 示 礼 社 神 票 禁 福 私 种 科 秘 秩 移 程
+        空 立 章 符 第 等 管 籍 类 精 系 约 级 组 织 经 结 给 绩 维 缔 罚 罪 置 美 老 者 而 联 肤 育 胃 能 脱 脾 自 至
+        致 色 艺 荣 获 薪 行 衣 补 表 衰 要 见 规 视 解 言 誉 誓 认 讨 讯 记 讲 许 论 设 证 诉 语 诲 谊 负 财 败 质 费
+        资 赋 赤 起 趁 路 践 身 载 较 辄 辖 辩 辱 迁 过 这 进 违 适 逆 选 逐 递 通 遇 遍 道 遭 遵 避 配 酬 酷 释 重 野
+        鉴 闭 闲 间 阶 际 限 除 隶 雄 集 需 非 面 项 顾 食 高 默
+      numerals: ''
+      punctuation: . 、 。 ， ；
+      uppercase: ''
+    iso_in_db: false
+    iso_in_db_macrolang: false
+nav:
+  udhr_nav.xml:
+    found_in_text:
+      chars: a b c d e g h i j k l m n o p r s t w y z á é í ó ą ę į ł ǫ ʼ ́ ̨
+      numerals: ''
+      punctuation: ', . : ; [ ]'
+      uppercase: A B C D E G H I J K N O T Y Á Ł
+    iso_in_db: false
+    iso_in_db_macrolang: false
+nba:
+  udhr_nba.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u v w x y z ñ ̃
+      numerals: 1 4 8 9
+      punctuation: '( ) , - . : ;'
+      uppercase: A B C E F G I K L M N O P S T U V W X Y
+    iso_in_db: false
+    iso_in_db_macrolang: false
+nbl:
+  udhr_nbl.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p q r s t u v w x y z
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '" ( ) , - . : ; [ ]'
+      uppercase: A B D E G H I J K L M N O P T U W Y Z
+    iso_in_db: true
+    not_in_db: ''
+    not_in_text: ''
+ndo:
+  udhr_ndo.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u v w y z
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' ( ) , - . ;'
+      uppercase: A B E G H I K M N O S T U W Y
+    iso_in_db: false
+    iso_in_db_macrolang: false
+nds:
+  udhr_nds.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p q r s t u v w y z ä ö ü ̈
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', - . : ’'
+      uppercase: A B C D E F G H I K L M N O P R S T U V W Ä Ö Ü
+    iso_in_db: true
+    not_in_db: ä ö ü
+    not_in_text: x ß
+nep:
+  udhr_nep.xml:
+    found_in_text:
+      chars: ँ ं ः अ आ इ ई उ ए औ क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म
+        य र ल व श ष स ह ा ि ी ु ू ृ े ै ो ौ ् ‍
+      numerals: ० १ २ ३ ४ ५ ६ ७ ८ ९
+      punctuation: ', - ।'
+      uppercase: ''
+    iso_in_db: false
+    iso_in_db_macrolang: false
+nhn:
+  udhr_nhn.xml:
+    db_chars_valid: false
+    found_in_text:
+      chars: a b c d e h i j k l m n o p r s t u v x y í ́
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '" ( ) , . : ;'
+      uppercase: A C E H I J K L M N O P R S T U Y
+    iso_in_db: true
+    missing_from_db: ́
+    not_in_db: í ́
+    not_in_text: f g q w z ̄ ̈
+nio:
+  udhr_nio.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: ̆ а б в г д е ж з и й к л м н о п р с т у х ц ч щ ъ ы ь э ю я ҫ ү ӈ ә
+        ө
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '( ) , - . : ; ”'
+      uppercase: А Б Г Д К М Н О С Т У
+    iso_in_db: true
+    not_in_db: й
+    not_in_text: ̈ ̌ ф ш ҙ ”
+niu:
+  udhr_niu.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a e f g h i k l m n o p s t u v ā ū ̄
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', . ;'
+      uppercase: F H K L M N T
+    iso_in_db: true
+    not_in_db: ā ū
+    not_in_text: b c d j q r w x y z
+njo:
+  udhr_njo.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p q r s t u v w y z ü ̈
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ( ) , - .
+      uppercase: A C D E F G H I J K L M N O P R S T U
+    iso_in_db: false
+    iso_in_db_macrolang: false
+nku:
+  udhr_nku.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u w y z ŋ ɔ ɛ ɩ ɲ ʋ
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', - . [ ] ’'
+      uppercase: A B H I M N Y Ɩ
+    iso_in_db: false
+    iso_in_db_macrolang: false
+nld:
+  udhr_nld.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u v w y z ë ̈
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', - . : ;'
+      uppercase: A C D E G H I K L M N O P R S T U V Z
+    iso_in_db: true
+    not_in_db: ë
+    not_in_text: q x ȷ ̀ ́ ̂
+nno:
+  udhr_nno.xml:
+    found_in_text:
+      chars: a b d e f g h i j k l m n o p r s t u v y å æ ø ̊
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', - .'
+      uppercase: A D E F G H I J K L M N O R S T U V Å
+    iso_in_db: false
+    iso_in_db_macrolang: true
+nob:
+  udhr_nob.xml:
+    found_in_text:
+      chars: a b d e f g h i j k l m n o p r s t u v y å æ ø ̊
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '" , - . :'
+      uppercase: A D E F G H I K L M N O P R S T U V Æ
+    iso_in_db: false
+    iso_in_db_macrolang: true
+not:
+  udhr_not.xml:
+    found_in_text:
+      chars: a b c d e g h i j l m n o p q r s t u v y á ë í ñ ó ́ ̃ ̈
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '" , - . : [ ]'
+      uppercase: A B C E G H I J M N O P Q R S T U
+    iso_in_db: false
+    iso_in_db_macrolang: false
+nso:
+  udhr_nso.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b d e f g h i j k l m n o p r s t u w y š ̌
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', . :'
+      uppercase: A B D E F G H I J K L M N O R S T Š
+    iso_in_db: true
+    not_in_db: š
+    not_in_text: c q v x z ̂
+nya:
+  udhr_nya_chechewa.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u v w y z
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' ( ) , - . ;'
+      uppercase: A B C D E G H I K L M N O P R S T U V W Y Z
+    iso_in_db: true
+    not_in_db: ''
+    not_in_text: q x ŋ ̂
+  udhr_nya_chinyanja.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u v w y z
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' ( ) , - . ;'
+      uppercase: A B C D E G H I K L M N O P R S T U V W Y Z
+    iso_in_db: true
+    not_in_db: ''
+    not_in_text: q x ŋ ̂
+nym:
+  udhr_nym.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u w y z
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', . ; ’'
+      uppercase: A B D E G H I K L M N O S T U W Y
+    iso_in_db: false
+    iso_in_db_macrolang: false
+nyn:
+  udhr_nyn.xml:
+    db_chars_valid: false
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u v w y z
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '" '' ( ) , . ? [ ]'
+      uppercase: A B E G H I K L M N O P R S T U Y
+    iso_in_db: true
+    missing_from_db: l
+    not_in_db: l
+    not_in_text: ''
+nzi:
+  udhr_nzi.xml:
+    found_in_text:
+      chars: a b d e f g h i k l m n o p r s t u v w y z ɔ ɛ
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '" ( ) , . ;'
+      uppercase: A B C D E F G I K L M N O R S W Y Ɔ Ɛ
+    iso_in_db: false
+    iso_in_db_macrolang: false
+oaa:
+  udhr_oaa.xml:
+    db_chars_valid: false
+    found_in_text:
+      chars: j u ɲ ̄ а б в г д е з и к л м н о п р с т у х ч э ӈ ӡ ө ԩ
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '( ) , - . : ; ? [ ] –'
+      uppercase: I А Г Д М Н О С Т У Х Ч Э Ӈ
+    iso_in_db: true
+    missing_from_db: j u ɲ
+    not_in_db: j u ɲ
+    not_in_text: ̆ ж ф ь ј
+oci:
+  udhr_oci_1.xml:
+    db_chars_valid: false
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p q r s t u v x y z à á â ç è é ê î ï ò
+        ó ô ù ú û ̀ ́ ̂ ̈ ̧
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '( ) , - . : ; « » — ’'
+      uppercase: A B C D E G H I K L M N O P Q R S T U V Y Z À Â È É
+    iso_in_db: true
+    missing_from_db: ̂
+    not_in_db: à á â ç è é ê î ï ò ó ô ù ú û ̂
+    not_in_text: w
+  udhr_oci_2.xml:
+    db_chars_valid: false
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p q r s t u v x y z à á â ç è é ê î ï ò
+        ó ô ù ú û ̀ ́ ̂ ̈ ̧
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '( ) , - . : ; — ’'
+      uppercase: A B C D E G H I K L M N O P Q R S T U V Y Z À Â È É
+    iso_in_db: true
+    missing_from_db: ̂
+    not_in_db: à á â ç è é ê î ï ò ó ô ù ú û ̂
+    not_in_text: w
+  udhr_oci_3.xml:
+    db_chars_valid: false
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p q r s t u v x y z à á â ç è é ê î ï ó
+        ô ù ú û ̀ ́ ̂ ̈ ̧
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '( ) , - . : ; ’'
+      uppercase: A B C D E G H I L M N O P Q R S T U V Y Z À Â
+    iso_in_db: true
+    missing_from_db: ̂
+    not_in_db: à á â ç è é ê î ï ó ô ù ú û ̂
+    not_in_text: w
+  udhr_oci_4.xml:
+    db_chars_valid: false
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u v x y z à á â ç è é ê ï ó ô ú
+        ̀ ́ ̂ ̈ ̧
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ( ) , - . ; ’
+      uppercase: A C D E H I L N O P R S T
+    iso_in_db: true
+    missing_from_db: ̂
+    not_in_db: à á â ç è é ê ï ó ô ú ̂
+    not_in_text: q w
+ojb:
+  udhr_ojb.xml:
+    found_in_text:
+      chars: g i n s ᐁ ᐃ ᐅ ᐊ ᐌ ᐎ ᐗ ᐤ ᐨ ᐯ ᐱ ᐸ ᐺ ᐼ ᑄ ᑉ ᑌ ᑎ ᑐ ᑕ ᑡ ᑦ ᑫ ᑭ ᑯ ᑲ ᑴ ᑶ ᑺ ᑾ ᒃ
+        ᒋ ᒐ ᒡ ᒣ ᒥ ᒧ ᒪ ᒬ ᒻ ᓀ ᓂ ᓄ ᓇ ᓉ ᓐ ᓪ ᓭ ᓯ ᓱ ᓴ ᓶ ᔅ ᔐ ᔑ ᔕ ᔗ ᔝ ᔡ ᔥ ᔦ ᔭ
+      numerals: 0 1 2 4 7 8 9
+      punctuation: ( ) , . [ ]
+      uppercase: A I M
+    iso_in_db: false
+    iso_in_db_macrolang: false
+oki:
+  udhr_oki.xml:
+    found_in_text:
+      chars: a b c d e g h i j k l m n o p r s t u w y
+      numerals: ''
+      punctuation: ', .'
+      uppercase: A B C D E G I K L M N O P S T U W Y
+    iso_in_db: false
+    iso_in_db_macrolang: true
+orh:
+  udhr_orh.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u w y z ü ̈
+      numerals: ''
+      punctuation: ', - . ;'
+      uppercase: A B C D E F G H I K L N R S T U Y Z
+    iso_in_db: false
+    iso_in_db_macrolang: false
+oss:
+  udhr_oss.xml:
+    db_chars_valid: false
+    found_in_text:
+      chars: '` g i n s ̆ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ъ ы ь э
+        ю ӕ'
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' , . : ; [ ] ‐'
+      uppercase: M А Б Г Д З И Й М Н О Р С Т У Х Ц Ы Ӕ
+    iso_in_db: true
+    missing_from_db: '`'
+    not_in_db: '` й'
+    not_in_text: a b c d e f h j k l m o p q r t u v w x y z æ ̈ ̌ ш щ я
+ote:
+  udhr_ote.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u x y z á ä è é í ñ ö ú ü ̀ ́ ̃
+        ̈ ̱
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' ( ) , . ;'
+      uppercase: A B C G H I J K M N O P R S T U X Y Ñ
+    iso_in_db: false
+    iso_in_db_macrolang: false
+pam:
+  udhr_pam.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b d e g h i k l m n o p r s t u v w y
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' , - . ;'
+      uppercase: A B D E I K L M P S U Y
+    iso_in_db: true
+    not_in_db: ''
+    not_in_text: c f j q x z
+pan:
+  udhr_pan.xml:
+    found_in_text:
+      chars: g i m n s ਂ ਅ ਆ ਇ ਈ ਉ ਊ ਏ ਐ ਓ ਔ ਕ ਖ ਗ ਘ ਚ ਛ ਜ ਝ ਟ ਠ ਡ ਢ ਣ ਤ ਥ ਦ ਧ ਨ ਪ
+        ਫ ਬ ਭ ਮ ਯ ਰ ਲ ਵ ਸ਼ ਸ ਹ ਼ ਾ ਿ ੀ ੁ ੂ ੇ ੈ ੋ ੌ ੍ ਜ਼ ੜ ਫ਼ ੰ ੱ
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '( ) , - . : [ ] ।'
+      uppercase: ''
+    iso_in_db: false
+    iso_in_db_macrolang: false
+pap:
+  udhr_pap.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u v w x y z ñ ̃
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', . ; ’'
+      uppercase: A B C D E F G H I L M N O P R S T U V
+    iso_in_db: true
+    not_in_db: ñ
+    not_in_text: q ̀ ̈
+pau:
+  udhr_pau.xml:
+    found_in_text:
+      chars: a b c d e g h i k l m n o p r s t u v w y z
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' ( ) , . ;'
+      uppercase: A B C D E G H K L M N O R S T U Y
+    iso_in_db: false
+    iso_in_db_macrolang: false
+pbb:
+  udhr_pbb.xml:
+    found_in_text:
+      chars: a b c d e f g h i k l m n p s t u v w y z á ä ë ï ü ́ ̈
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' , . : ;'
+      uppercase: A B C D E F H I K L M N P S T U V W Y Ü
+    iso_in_db: false
+    iso_in_db_macrolang: false
+pbu:
+  udhr_pbu.xml:
+    found_in_text:
+      chars: آ أ ئ ا ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ل م ن ه و ي ً َ ٓ ٔ ټ
+        پ ځ څ چ ډ ړ ږ ژ ښ ک ګ ۍ ې ے
+      numerals: ۰ ۱ ۲ ۳ ۴ ۷ ۸ ۹
+      punctuation: '( ) : ، ؍ ؟ ۔'
+      uppercase: ''
+    iso_in_db: false
+    iso_in_db_macrolang: false
+pcd:
+  udhr_pcd.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p q r s t u v w y z ° å ç è é î ô û ̀ ́
+        ̂ ̊ ̧
+      numerals: ''
+      punctuation: ''' , - . ; [ ]'
+      uppercase: A C D E I L N O P R S T U V X
+    iso_in_db: false
+    iso_in_db_macrolang: false
+pcm:
+  udhr_pcm.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p q r s t u v w x y z
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ( ) , . [ ]
+      uppercase: A B C D E F G H I M N P R S T U W
+    iso_in_db: false
+    iso_in_db_macrolang: false
+pes:
+  udhr_pes_1.xml:
+    db_chars_valid: false
+    found_in_text:
+      chars: ء آ أ ئ ا ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ل م ن ه و ي ً ِ ٓ ٔ
+        ٕ پ چ ژ ک گ ی ‌
+      numerals: ۱ ۲ ۴ ۸ ۹
+      punctuation: '( ) . : ، ‐'
+      uppercase: ''
+    iso_in_db: true
+    missing_from_db: ً ٓ ٕ ‌
+    not_in_db: آ أ ئ ً ٓ ٕ ‌
+    not_in_text: َ ُ ْ ٰ
+  udhr_pes_2.xml:
+    db_chars_valid: false
+    found_in_text:
+      chars: ء آ أ ئ ا ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ل م ن ه و ي ً ٓ ٔ پ
+        چ ژ ک گ ی ‌
+      numerals: ۱ ۲ ۴ ۸ ۹
+      punctuation: '( ) . : ، ‐'
+      uppercase: ''
+    iso_in_db: true
+    missing_from_db: ً ٓ ‌
+    not_in_db: آ أ ئ ً ٓ ‌
+    not_in_text: َ ُ ِ ْ ٰ
+pis:
+  udhr_pis.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u v w x y
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', .'
+      uppercase: A C D E F G H K L M N O P R S T U
+    iso_in_db: false
+    iso_in_db_macrolang: false
+piu:
+  udhr_piu.xml:
+    found_in_text:
+      chars: a c d e f g h i j k l m n o p r s t u v w y
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '! ( ) , . ?'
+      uppercase: D H K L M N P R T U W Y
+    iso_in_db: false
+    iso_in_db_macrolang: false
+plt:
+  udhr_plt.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t v y z
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '" '' , - . : ;'
+      uppercase: A B D E F H I K L M N O P R S T V Y Z
+    iso_in_db: false
+    iso_in_db_macrolang: true
+pnb:
+  udhr_pnb.xml:
+    found_in_text:
+      chars: g i n s آ ئ ا ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ل م ن و ي ُ ٓ ٔ
+        ٹ پ چ ڈ ڑ ک گ ں ھ ہ ی ے ‌
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '[ ] ، ۔'
+      uppercase: M
+    iso_in_db: false
+    iso_in_db_macrolang: false
+pol:
+  udhr_pol.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u w y z ó ą ć ę ł ń ś ź ż ́ ̇ ̨
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', - . ;'
+      uppercase: A C D E G H I J K L M N O P R S T U W Y Z Ó Ł Ż
+    iso_in_db: true
+    not_in_db: ó ą ć ę ń ś ź ż
+    not_in_text: q v x
+pon:
+  udhr_pon.xml:
+    found_in_text:
+      chars: a b d e g h i k l m n o p r s t u v w y
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '" '' , - . ; ? [ ]'
+      uppercase: A C D E G H I K M N O P R S T U W
+    iso_in_db: false
+    iso_in_db_macrolang: false
+por:
+  udhr_por_BR.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j l m n o p q r s t u v x z à á â ã ç é ê í ó ô õ ú
+        ̀ ́ ̂ ̃ ̧
+      numerals: 1 4 8 9
+      punctuation: ', . ; ‐'
+      uppercase: A C D E G H I M N O P S T U V X
+    iso_in_db: true
+    not_in_db: à á â ã ç é ê í ó ô õ ú
+    not_in_text: k w y ̈
+  udhr_por_PT.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j l m n o p q r s t u v x z º à á â ã ç é ê í ó ô õ
+        ú ̀ ́ ̂ ̃ ̧
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', . : ; ‐'
+      uppercase: A C D E G H I M N O P Q S T U V X
+    iso_in_db: true
+    not_in_db: º à á â ã ç é ê í ó ô õ ú
+    not_in_text: k w y ̈
+pov:
+  udhr_pov.xml:
+    found_in_text:
+      chars: a b c d e f g i j k l m n o p r s t u v y z ñ ̃
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ( ) , . ;
+      uppercase: A D E F I J K M N O P S T U V
+    iso_in_db: false
+    iso_in_db_macrolang: false
+ppl:
+  udhr_ppl.xml:
+    found_in_text:
+      chars: a c d e g h i k l m n p q s t u w x y z á é ́
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ( ) , . ;
+      uppercase: A E G I L M N P T U W X
+    iso_in_db: false
+    iso_in_db_macrolang: false
+prq:
+  udhr_prq.xml:
+    found_in_text:
+      chars: a b c d e g h i j k l m n o p r s t u v x y í ́
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' , - . ? ¿'
+      uppercase: A B C D E G I J K M N P S T U V X Y Í
+    iso_in_db: false
+    iso_in_db_macrolang: false
+prv:
+  udhr_prv.xml:
+    found_in_text:
+      chars: a b c d e f g h i j l m n o p q r s t u v à ç è é ì ï ò ó ù ̀ ́ ̈ ̧
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' , - . ;'
+      uppercase: A C D E L M N P Q R S T U
+    iso_in_db: false
+    iso_in_db_macrolang: false
+quc:
+  udhr_quc.xml:
+    found_in_text:
+      chars: a b c e h i j k l m n o p q r s t u w x y z
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '" '' ( ) , . : ; [ ]'
+      uppercase: A B C E H I J K L M N O P Q R S T U W X Y
+    iso_in_db: false
+    iso_in_db_macrolang: false
+qud:
+  udhr_qud.xml:
+    found_in_text:
+      chars: a c d e g h i j l m n o p q r s t u y z á í ñ ́ ̃
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', . ;'
+      uppercase: A C D H I L M N P Q R S T U Y
+    iso_in_db: false
+    iso_in_db_macrolang: true
+qug:
+  udhr_qug.xml:
+    found_in_text:
+      chars: a b c d e f g h i k l m n o p r s t u v w y ~ á é í ñ ó ú ́ ̃
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' ( ) , . : ;'
+      uppercase: A C H I K L M N P R S T U V W Y Ñ
+    iso_in_db: false
+    iso_in_db_macrolang: true
+quy:
+  udhr_quy.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p q r s t u v w y z á í ñ ó ́ ̃
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '( ) , - . : ;'
+      uppercase: A C D E F G H I K L M N O P Q R S T U W Y Ñ
+    iso_in_db: false
+    iso_in_db_macrolang: true
+quz:
+  udhr_quz.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p q r s t u v w y z á í ñ ó ú ́ ̃
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '" '' ( ) , - . : ; ? [ ]'
+      uppercase: A C D E H I J K L M N O P Q R S T U W Y Ñ
+    iso_in_db: false
+    iso_in_db_macrolang: true
+qva:
+  udhr_qva.xml:
+    found_in_text:
+      chars: '> a b c d e f g h i j k l m n o p q r s t u w y ~ á ä í ñ ó ü ́ ̃ ̈'
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '" '' ( ) , - . ; [ ]'
+      uppercase: A B C D E G H I J K L M N O P Q R S T U W Y Ä
+    iso_in_db: false
+    iso_in_db_macrolang: true
+qvc:
+  udhr_qvc.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p q r s t u v w x y ñ ̃
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '" '' ( ) , . : ; ? [ ] ¿'
+      uppercase: A C D H I J K M N O P Q R S T U W Y
+    iso_in_db: false
+    iso_in_db_macrolang: true
+qvh:
+  udhr_qvh.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p q r s t u w y ä ë ñ ó ö ú ́ ̃ ̈
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '! " '' ( ) , . ; [ ]'
+      uppercase: A C E F H I J K L M N O P Q R S T U V W Y Ä
+    iso_in_db: false
+    iso_in_db_macrolang: true
+qvm:
+  udhr_qvm.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p q r s t u w y ä ë ï ñ ö ú ́ ̃ ̈
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '! " '' ( ) , . :'
+      uppercase: A B C D E H I J K L M N O P Q R S T U W Y Ë
+    iso_in_db: false
+    iso_in_db_macrolang: true
+qvn:
+  udhr_qvn.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p q r s t u w y í ñ ́ ̃
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '! " '' , - . : ; [ ]'
+      uppercase: A B C D H I J K L M N O P Q R S T U W Y
+    iso_in_db: false
+    iso_in_db_macrolang: true
+qwh:
+  udhr_qwh.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p q r s t u w y á ä ë ñ ú ́ ̃ ̈
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '! '' ( ) , - . : ; ]'
+      uppercase: A C D E H I J K L M N O P Q R S T U W Y
+    iso_in_db: false
+    iso_in_db_macrolang: true
+qxa:
+  udhr_qxa.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p q r s t u v w y z é ì ñ ó ̀ ́ ̃
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' ( ) , . : ; [ ]'
+      uppercase: A C D E H I J K L M N O P Q R S T U W Y Ñ
+    iso_in_db: false
+    iso_in_db_macrolang: true
+qxn:
+  udhr_qxn.xml:
+    found_in_text:
+      chars: a b c d f g h i j k l m n p q r s t u v w y í ñ ́ ̃
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '( ) , - . : ;'
+      uppercase: A C D H I K L M N P Q R S T U W Y
+    iso_in_db: false
+    iso_in_db_macrolang: true
+qxu:
+  udhr_qxu.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p q r s t u v w y z ~ á í ñ ́ ̃
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '" '' ( ) , - . : ? [ ]'
+      uppercase: A C D E H I J K L M N O P Q R S T U W Y Ñ
+    iso_in_db: false
+    iso_in_db_macrolang: true
+rar:
+  udhr_rar.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a e g i k l m n o p r s t u v
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ( ) , - . ; ‘ ’ “ ”
+      uppercase: A B E G I K M N O T U
+    iso_in_db: true
+    not_in_db: ''
+    not_in_text: b c d f h j q w x y z ́ ̄
+rmn:
+  udhr_rmn.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p q r s t u v x z à è ì ò õ ù ă ą ć č ě
+        ģ ň ő ŕ ś š ů ű ź ž ɵ ̀ ́ ̂ ̃ ̆ ̊ ̋ ̌ ̧ ̨
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '( ) , - . : ;'
+      uppercase: A B C D E G H I J K L M N O P Q R S T U V Z À Â Č Š
+    iso_in_db: false
+    iso_in_db_macrolang: false
+  udhr_rmn_1.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u v x z ć č š ž ́ ̌
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '( ) , - . : ;'
+      uppercase: A B C D E G I J K L M N O P R S U V Z Č Š
+    iso_in_db: false
+rmy:
+  udhr_rmy.xml:
+    found_in_text:
+      chars: a b c d e f g h i j l m n o p r s t u v x z â ̂ ̃
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', - . : ; [ ]'
+      uppercase: A B C D E H I L M N O P R S T U V Z Ã
+    iso_in_db: false
+    iso_in_db_macrolang: false
+roh:
+  udhr_roh.xml:
+    db_chars_valid: false
+    found_in_text:
+      chars: '` a b c d e f g h i j l m n o p q r s t u v x z à â è é ê ì ò ô ö ù
+        ü ̀ ́ ̂ ̈'
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' ( ) , - . : ; ’'
+      uppercase: A C D E G H I L M N O P Q R T U Ü
+    iso_in_db: true
+    missing_from_db: '`'
+    not_in_db: '` à â è é ê ì ò ô ö ù ü'
+    not_in_text: k w y
+  udhr_roh_puter.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j l m n o p q r s t u v x z à è é ê ì ò ô ö ü ̀ ́ ̂
+        ̈
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', - . : ; ’'
+      uppercase: A C D E H I L M N O P Q T U Ü
+    iso_in_db: true
+    not_in_db: à è é ê ì ò ô ö ü
+    not_in_text: k w y
+  udhr_roh_rumgr.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j l m n o p q r s t u v x z à è ì ̀
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', - . : ; ’'
+      uppercase: A C D E I L M N O P Q T U
+    iso_in_db: true
+    not_in_db: à è ì
+    not_in_text: k w y ́ ̂ ̈
+  udhr_roh_surmiran.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j l m n o p q r s t u v x z à è ì ò ô ̀ ̂
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', - . : ; ’'
+      uppercase: A C D E I L M N O P Q T U
+    iso_in_db: true
+    not_in_db: à è ì ò ô
+    not_in_text: k w y ́ ̈
+  udhr_roh_sursilv.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j l m n o p q r s t u v x z à è é ì ò ô ̀ ́ ̂
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', - . : ; ’'
+      uppercase: A C D E I L M N O P Q T U
+    iso_in_db: true
+    not_in_db: à è é ì ò ô
+    not_in_text: k w y ̈
+  udhr_roh_sutsilv.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j l m n o p q r s t u v x z à â è é ê ì ò ô ö ù ü ̀
+        ́ ̂ ̈
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', - . : ; ’'
+      uppercase: A C D E H I L M N O P Q R T U Ü
+    iso_in_db: true
+    not_in_db: à â è é ê ì ò ô ö ù ü
+    not_in_text: k w y
+  udhr_roh_vallader.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j l m n o p q r s t u v x z à è é ì ò ô ö ü ̀ ́ ̂ ̈
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', - . : ; ’'
+      uppercase: A C D E H I L M N O P Q T U
+    iso_in_db: true
+    not_in_db: à è é ì ò ô ö ü
+    not_in_text: k w y
+ron:
+  udhr_ron_1953.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j l m n o p r s t u v x z î ă ș ț ̂ ̆ ̦
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', . ; ‐'
+      uppercase: A C D E F G I L M N O P R S T U V Î Ă Ț
+    iso_in_db: true
+    not_in_db: î ă ș ț
+    not_in_text: k q w y ̧ а б в г д е ж з и к л м н о п р с т у ф х ц ч ш ы ь э ю
+      я
+  udhr_ron_1993.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j l m n o p r s t u v x z â î ă ș ț ̂ ̆ ̦
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', . ; ‐'
+      uppercase: A C D E F G I L M N O P R S T U V Î Ă Ț
+    iso_in_db: true
+    not_in_db: â î ă ș ț
+    not_in_text: k q w y ̧ а б в г д е ж з и к л м н о п р с т у ф х ц ч ш ы ь э ю
+      я
+  udhr_ron_2006.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j l m n o p r s t u v x z â î ă ș ț ̂ ̆ ̦
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', . ; ‐'
+      uppercase: A C D E F G I L M N O P R S T U V Î Ă Ț
+    iso_in_db: true
+    not_in_db: â î ă ș ț
+    not_in_text: k q w y ̧ а б в г д е ж з и к л м н о п р с т у ф х ц ч ш ы ь э ю
+      я
+run:
+  udhr_run.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u v w y z
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' , . : ;'
+      uppercase: A B E G H I J K M N O R S T U V W Y Z
+    iso_in_db: true
+    not_in_db: ''
+    not_in_text: q x
+rus:
+  udhr_rus.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: ̆ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ( ) , - . ;
+      uppercase: I А Б В Г Д Е К Л М Н О П Р С Т У Э
+    iso_in_db: true
+    not_in_db: й
+    not_in_text: ̈
+sag:
+  udhr_sag.xml:
+    db_chars_valid: false
+    found_in_text:
+      chars: a b d e f g h i k l m n o p r s t u v w y z â ä é ê ë î ï ô ö û ü ́ ̂
+        ̈
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', - . ;'
+      uppercase: A B D E F G I K L M N O P R S T Z Ä Ê Î Ï Ö
+    iso_in_db: true
+    missing_from_db: ́
+    not_in_db: â ä é ê ë î ï ô ö û ü ́
+    not_in_text: c j q x
+sah:
+  udhr_sah.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: ̆ а б в г д е ж з и й к л м н о п р с т у ф х ц ч щ ъ ы ь э ю я ҕ ҥ ү
+        һ ө
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '( ) , - . : ;'
+      uppercase: I А Б Г Д И К М Н П С Т У Х Ы Э Ү
+    iso_in_db: true
+    not_in_db: й
+    not_in_text: ̈ ш
+san:
+  udhr_san.xml:
+    found_in_text:
+      chars: ं ः अ आ इ उ ए क ख ग घ च छ ज ञ ट ठ ड ढ ण त थ द ध न प ब भ म य र ल व श ष
+        स ह ़ ऽ ा ि ी ु ू ृ े ै ो ौ ्
+      numerals: 1 2 3 4 7 8 9 ० १ २ ३ ४ ५ ६ ७ ८ ९
+      punctuation: ', - ; { } ।'
+      uppercase: ''
+    iso_in_db: false
+  udhr_san_gran.xml:
+    found_in_text:
+      chars: g i m n s ं ः अ आ इ उ ए क ख ग घ च छ ज ञ ट ठ ड ढ ण त थ द ध न प ब भ म य
+        र ल व श ष स ह ़ ऽ ा ि ी ु ू ृ े ै ो ौ ् 𑌂 𑌃 𑌅 𑌆 𑌇 𑌉 𑌏 𑌕 𑌗 𑌘 𑌚 𑌛 𑌜 𑌞 𑌟 𑌠 𑌡
+        𑌢 𑌣 𑌤 𑌥 𑌦 𑌧 𑌨 𑌪 𑌬 𑌭 𑌮 𑌯 𑌰 𑌲 𑌵 𑌶 𑌷 𑌸 𑌹 𑌼 𑌽 𑌾 𑌿 𑍀 𑍁 𑍂 𑍃 𑍇 𑍈 𑍋 𑍌 𑍍 𑍗
+      numerals: 0 1 2 3 4 5 6 7 8 9 ० १ २ ३ ४ ५ ६ ७ ८ ९
+      punctuation: ', - ; ? [ ] { } ।'
+      uppercase: ''
+    iso_in_db: false
+    iso_in_db_macrolang: false
+sco:
+  udhr_sco.xml:
+    found_in_text:
+      chars: "a b c d e f g h i j k l m n o p q r s t u v w x y \x91"
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ( ) , - . ;
+      uppercase: A C D E F G H I L M N O P R S T U
+    iso_in_db: false
+    iso_in_db_macrolang: false
+sey:
+  udhr_sey.xml:
+    found_in_text:
+      chars: a b c d e h i j k l m n o p r s t u w y à é ë ñ ̀ ́ ̃ ̈ ̱
+      numerals: ''
+      punctuation: ''' , - .'
+      uppercase: A B C E H I J K M N O P R S T U W Y Ë Ñ
+    iso_in_db: false
+    iso_in_db_macrolang: false
+shk:
+  udhr_shk.xml:
+    found_in_text:
+      chars: a b c d e g h i j k l m n o p r s t u w y à á ä ë ì í ï ó ö ø ̀ ́ ̈
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ( ) , - . / ;
+      uppercase: A B C D E G H I J K L M N O P R T U W Y Á Ä Ë Ï Ó Ö Ø
+    iso_in_db: false
+    iso_in_db_macrolang: false
+shn:
+  udhr_shn.xml:
+    found_in_text:
+      chars: င တ ထ ပ မ ယ ရ လ ဝ သ ဢ ိ ီ ု ူ ေ ဵ း ် ြ ွ ၢ ၵ ၶ ၸ ၺ ၼ ၽ ၾ ႁ ႂ ႃ ႄ ႅ ႆ
+        ႇ ႈ ႉ ႊ
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: . ၊ ။
+      uppercase: ''
+    iso_in_db: false
+    iso_in_db_macrolang: false
+shp:
+  udhr_shp.xml:
+    found_in_text:
+      chars: a b c d e h i j l m n o p q r s t u y á é í ñ ó ú ́ ̃
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '" '' ( ) , - . ; ¿'
+      uppercase: A B C D E H I J L M N O Q R S T U Y Á É Í
+    iso_in_db: false
+    iso_in_db_macrolang: false
+sin:
+  udhr_sin.xml:
+    found_in_text:
+      chars: ං අ ආ ඇ ඉ ඊ උ එ ඒ ඓ ඔ ඕ ක ඛ ග ඝ ඟ ච ඡ ජ ඥ ට ඨ ඩ ණ ඬ ත ථ ද ධ න ඳ ප ඵ බ
+        භ ම ඹ ය ර ල ව ශ ෂ ස හ ළ ් ා ැ ෑ ි ී ු ූ ෘ ෙ ේ ො ෝ ෞ ෟ ෲ ‍
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ( ) , . “ ”
+      uppercase: ''
+    iso_in_db: false
+    iso_in_db_macrolang: false
+skr:
+  udhr_skr.xml:
+    found_in_text:
+      chars: آ ئ ا ب ة ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ل م ن و ي ُ ٓ ٔ ٹ ٻ پ
+        ڄ چ ڈ ڋ ڑ ڔ ک گ ڱ ں ڻ ھ ہ ی ے
+      numerals: 1 4 8 9 ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹
+      punctuation: ، ۔
+      uppercase: ''
+    iso_in_db: false
+    iso_in_db_macrolang: false
+slk:
+  udhr_slk.xml:
+    db_chars_valid: false
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u v y z á é í ô ú ý č ď ľ ň š ť
+        ű ž ́ ̂ ̋ ̌
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' ( ) , - . : ;'
+      uppercase: A B C D E H I K L M N O P R S T U V Y Z Á É Ú Ý Č Š Ž
+    iso_in_db: true
+    missing_from_db: ̋
+    not_in_db: á é í ô ú ý č ď ľ ň š ť ű ž ̋
+    not_in_text: q w x ̈
+slv:
+  udhr_slv.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u v z č š ž ̌
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', . ;'
+      uppercase: D G I M N O P S T U V Z Š
+    iso_in_db: true
+    not_in_db: č š ž
+    not_in_text: q w x y đ ́ ̈
+sme:
+  udhr_sme.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u v z á č đ ŋ š ŧ ž ́ ̌
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', - . :'
+      uppercase: A B C D E G H I J K L M N O P S T U V Á Č Đ Š
+    iso_in_db: true
+    not_in_db: á č š ž
+    not_in_text: q w x y æ ø ̈ ̊
+smo:
+  udhr_smo.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a e f g i k l m n o p r s t u v
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ( ) , - . ; – ’
+      uppercase: A E F G I K L M N O P S T U
+    iso_in_db: true
+    not_in_db: ''
+    not_in_text: b c d h j q w x y z ̄
+sna:
+  udhr_sna.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j k m n o p r s t u v w y z
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '" ( ) , - . : ;'
+      uppercase: A B C D E F G H I J K M N O P R S T U V W Y Z
+    iso_in_db: true
+    not_in_db: ''
+    not_in_text: l q x
+snk:
+  udhr_snk.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p q r s t u v w x y ñ ŋ ̃
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ( ) , - .
+      uppercase: A B D E F G H I J K M N O P Q R S T U W X Y
+    iso_in_db: false
+    iso_in_db_macrolang: false
+snn:
+  udhr_snn.xml:
+    found_in_text:
+      chars: a b c d e g h i j l m n o p q r s t u y é ë í ñ ́ ̃ ̈ ̱
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' , - . : ;'
+      uppercase: A B C D E G H I J M N O Q R S T U Y Ë Ñ
+    iso_in_db: false
+    iso_in_db_macrolang: false
+som:
+  udhr_som.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o q r s t u w x y
+      numerals: ''
+      punctuation: ''' ( ) , - . ;'
+      uppercase: A B C D E G H I J K L M N Q R S T U V W X
+    iso_in_db: true
+    not_in_db: ''
+    not_in_text: p v z
+sot:
+  udhr_sot.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b d e f g h i j k l m n o p q r s t u v w y
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', . ;'
+      uppercase: A B D E G H I J K L M N O P Q R S T W Y
+    iso_in_db: true
+    not_in_db: ''
+    not_in_text: c x z ̀ ́ ̄ ̌
+spa:
+  udhr_spa.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j l m n o p q r s t u v x y z á é í ñ ó ú ́ ̃
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ( ) , . ;
+      uppercase: A C D E G H I L M N O P S T U
+    iso_in_db: true
+    not_in_db: á é í ñ ó ú
+    not_in_text: k w ¡ ¿ ̈
+src:
+  udhr_src.xml:
+    found_in_text:
+      chars: a b c d e f g h i j l m n o p r s t u v z à è ì ò ù ̀
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' , - . ; [ ]'
+      uppercase: A B C D E I L M N O P R S T U V Z Ò
+    iso_in_db: false
+    iso_in_db_macrolang: true
+srp:
+  udhr_srp_cyrl.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: а б в г д е ж з и к л м н о п р с т у ф х ц ч ш ђ ј љ њ ћ
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', . : ;'
+      uppercase: Ј А Б В Г Д Е И К Л М Н О П Р С Т У Ц Ч Ш
+    iso_in_db: true
+    not_in_db: ''
+    not_in_text: a b c d e f g h i j k l m n o p q r s t u v w x y z đ ́ ̌ џ
+  udhr_srp_latn.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u v z ć č đ š ž ́ ̌ а б в г д е
+        ж з и к л м н о п р с т у ф х ц ч ш ђ ј љ њ ћ
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', . : ;'
+      uppercase: A B C D E G I J K L M N O P R S T U V Č Š Ј А Б В Г Д Е И К Л М Н
+        О П Р С Т У Ц Ч Ш
+    iso_in_db: true
+    not_in_db: ć č š ž
+    not_in_text: q w x y џ
+srr:
+  udhr_srr.xml:
+    found_in_text:
+      chars: a b c d e f g i j k l m n o p q r s t u w x y ñ ć ŋ ƭ ƴ ɓ ɗ ́ ̃
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' ( ) , - . : [ ]'
+      uppercase: A B D E F G I J K M N O P R S T W Y
+    iso_in_db: false
+    iso_in_db_macrolang: false
+ssw:
+  udhr_ssw.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u v w y z
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '" ( ) , . ; ‐'
+      uppercase: A B C D E F G H I K L M N O P S T U W Y
+    iso_in_db: true
+    not_in_db: ''
+    not_in_text: q x
+suk:
+  udhr_suk.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p s t u w y z
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ( ) , - . ; – ‘ ’
+      uppercase: A B E G H I J K L M N O S U W Y
+    iso_in_db: false
+    iso_in_db_macrolang: false
+sun:
+  udhr_sun.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u v w y
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ( ) , - . ;
+      uppercase: A B D E G H I J K L M N P R S T U Y
+    iso_in_db: true
+    not_in_db: ''
+    not_in_text: q x z ́
+sus:
+  udhr_sus.xml:
+    found_in_text:
+      chars: a b d e f g h i k l m n o r s t u w x y ɔ ɛ ɲ
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '( ) , - . : ; [ ]'
+      uppercase: A B D E F G I K L M N O P R S T U W X Y Ɛ Ɲ
+    iso_in_db: false
+    iso_in_db_macrolang: false
+swb:
+  udhr_swb.xml:
+    found_in_text:
+      chars: a b d e f g h i j k l m n o p r s t u v w y z ã ĩ ɓ ɗ ̃ ẽ
+      numerals: ''
+      punctuation: ( ) , - . ;
+      uppercase: A D E F G H I J K L M N O R S T U W Y Z Ɓ
+    iso_in_db: false
+    iso_in_db_macrolang: false
+swe:
+  udhr_swe.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u v x y ä å ö ̈ ̊
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '" , - . : ;'
+      uppercase: A D E F G H I K L M N O R S T U V Y Ä Å Ö
+    iso_in_db: true
+    not_in_db: ä å ö
+    not_in_text: q w z ̀ ́
+swh:
+  udhr_swh.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u v w y z
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '" '' , - . ;'
+      uppercase: A B D E F G H I J K L M N O P R S T U W Y Z
+    iso_in_db: true
+    not_in_db: ''
+    not_in_text: ''
+tah:
+  udhr_tah.xml:
+    db_chars_valid: false
+    found_in_text:
+      chars: a c e f h i l m n o p r t u v ~ ā ē ī ō ū ̄
+      numerals: '3'
+      punctuation: ''' , - . ;'
+      uppercase: A E F H I M N O P R T U V
+    iso_in_db: true
+    missing_from_db: '~'
+    not_in_db: ~ ā ē ī ō ū
+    not_in_text: b d g j k q s w x y z
+taj:
+  udhr_taj.xml:
+    found_in_text:
+      chars: क ग ङ च छ ज ट त थ द न प ब भ म य र ल व श स ह ा ि ी ु े ो ्
+      numerals: १
+      punctuation: ( ) - ।
+      uppercase: ''
+    iso_in_db: false
+    iso_in_db_macrolang: false
+tam:
+  udhr_tam.xml:
+    found_in_text:
+      chars: அ ஆ இ ஈ உ ஊ எ ஏ ஐ ஒ ஓ க ங ச ஞ ட ண த ந ன ப ம ய ர ற ல ள ழ வ ஸ ா ி ீ ு ூ
+        ெ ே ை ொ ோ ்
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '" , . : ; —'
+      uppercase: ''
+    iso_in_db: false
+  udhr_tam_LK.xml:
+    found_in_text:
+      chars: அ ஆ இ ஈ உ ஊ எ ஏ ஐ ஒ ஓ க ங ச ஞ ட ண த ந ன ப ம ய ர ற ல ள ழ வ ஸ ா ி ீ ு ூ
+        ெ ே ை ொ ோ ்
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '" , . : ; —'
+      uppercase: ''
+    iso_in_db: false
+    iso_in_db_macrolang: false
+tat:
+  udhr_tat.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: ̆ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш ъ ы ь э ю я җ ң ү
+        һ ә ө
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', - . ; ? [ ]'
+      uppercase: А Б Г Д З К М Н О П С Т У Х Ш Э Я Җ Ү Һ Ө
+    iso_in_db: true
+    not_in_db: й
+    not_in_text: ̈ щ
+tbz:
+  udhr_tbz.xml:
+    found_in_text:
+      chars: a b c d e f h i k l m n o p r s t u v w y à ã ì ó ù ú ĩ ŋ ũ ɔ ɖ ɛ ̀ ́
+        ̃
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', . : ;'
+      uppercase: A B F I K N O T W Y Ɖ
+    iso_in_db: false
+    iso_in_db_macrolang: false
+tca:
+  udhr_tca.xml:
+    found_in_text:
+      chars: a b c d e f g h i l m n o p q r s t u v w x y á ã é í ñ ó õ ú ü ĩ ũ ́
+        ̃ ̈ ̱ ͟ ẽ
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', . : [ ]'
+      uppercase: A B C E G H I L M N O P R T U W X Y Ã Ü Ĩ Ẽ
+    iso_in_db: false
+    iso_in_db_macrolang: false
+tel:
+  udhr_tel.xml:
+    found_in_text:
+      chars: ం ః అ ఆ ఇ ఈ ఉ ఎ ఏ ఐ ఒ క ఖ గ ఘ చ ఛ జ ఞ ట ఠ డ ఢ ణ త థ ద ధ న ప ఫ బ భ మ య
+        ర ఱ ల ళ వ శ ష స హ ా ి ీ ు ూ ృ ె ే ై ొ ో ౌ ్ ౖ
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', - .'
+      uppercase: ''
+    iso_in_db: false
+    iso_in_db_macrolang: false
+tem:
+  udhr_tem.xml:
+    found_in_text:
+      chars: a b c d e f g h i k l m n o p r s t u w y ŋ ɔ ə ɛ ʌ
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', . : ; ? [ ] ‐'
+      uppercase: A C K M N O R S T U W Ŋ Ɔ Ə Ʌ
+    iso_in_db: false
+    iso_in_db_macrolang: false
+tet:
+  udhr_tet.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u v z
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' , - . ;'
+      uppercase: A B C D E F G H I K L M N P R S T U V
+    iso_in_db: false
+    iso_in_db_macrolang: false
+tgk:
+  udhr_tgk.xml:
+    db_chars_valid: false
+    found_in_text:
+      chars: ̄ ̆ ̈ а б в г д е ж з и й к л м н о п р с т у ф х ч ш ъ ь э ю я ё ғ қ
+        ҳ ҷ ӣ ӯ
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', . ;'
+      uppercase: А Б В Г Д И К М О П С Т У Э Ғ Ҳ
+    iso_in_db: true
+    missing_from_db: ь
+    not_in_db: й ь ё ӣ ӯ
+    not_in_text: ''
+tgl:
+  udhr_tgl.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b d e g h i k l m n o p r s t u w x y
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '" '' , - . ;'
+      uppercase: A B C D E G H I K L M N O P R S T U W Y
+    iso_in_db: true
+    not_in_db: ''
+    not_in_text: c f j q v z ̀ ́
+  udhr_tgl_tglg.xml:
+    db_chars_valid: false
+    found_in_text:
+      chars: a b d e g h i k l m n o p r s t u w x y ᜀ ᜁ ᜂ ᜃ ᜄ ᜅ ᜆ ᜇ ᜈ ᜉ ᜊ ᜋ ᜌ ᜎ ᜏ
+        ᜐ ᜑ ᜒ ᜓ ᜔
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '" '' , - . ; ᜶'
+      uppercase: A B C D E G H I K L M N O P R S T U W Y
+    iso_in_db: true
+    missing_from_db: ᜀ ᜁ ᜂ ᜃ ᜄ ᜅ ᜆ ᜇ ᜈ ᜉ ᜊ ᜋ ᜌ ᜎ ᜏ ᜐ ᜑ ᜒ ᜓ ᜔
+    not_in_db: ᜀ ᜁ ᜂ ᜃ ᜄ ᜅ ᜆ ᜇ ᜈ ᜉ ᜊ ᜋ ᜌ ᜎ ᜏ ᜐ ᜑ ᜒ ᜓ ᜔
+    not_in_text: c f j q v z ̀ ́
+tha:
+  udhr_tha.xml:
+    found_in_text:
+      chars: ก ข ค ง จ ฉ ช ซ ญ ฎ ฏ ฐ ฒ ณ ด ต ถ ท ธ น บ ป ผ พ ภ ม ย ร ฤ ล ว ศ ษ ส ห
+        อ ะ ั า ำ ิ ี ึ ื ุ ู เ แ โ ใ ไ ๆ ็ ่ ้ ์ ํ
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ( ) . [ ]
+      uppercase: I
+    iso_in_db: false
+    iso_in_db_macrolang: false
+  udhr_tha2.xml:
+    found_in_text:
+      chars: ก ข ค ง จ ฉ ช ซ ญ ฎ ฏ ฐ ฒ ณ ด ต ถ ท ธ น บ ป ผ พ ภ ม ย ร ล ว ศ ษ ส ห อ
+        ะ ั า ำ ิ ี ึ ื ุ ู เ แ โ ใ ไ ๆ ็ ่ ้ ์ ํ
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ( ) .
+      uppercase: I
+    iso_in_db: false
+tir:
+  udhr_tir.xml:
+    found_in_text:
+      chars: ሂ ሃ ሄ ህ ለ ሉ ሊ ላ ል ሎ ሐ ሑ ሒ ሓ ሕ ሖ መ ሚ ማ ሜ ም ሞ ሩ ሪ ራ ር ሮ ሰ ሱ ሲ ሳ ስ ሸ ሻ ሽ
+        ቀ ቁ ቂ ቅ ቈ ቋ ቐ ቑ ቓ ቕ በ ቡ ቢ ባ ቤ ብ ቦ ተ ቱ ቲ ታ ቴ ት ቶ ቹ ቻ ነ ኑ ኒ ና ን ኖ ኛ ኝ ኡ ኢ ኣ
+        ኤ እ ኦ ከ ኩ ኪ ካ ክ ኮ ኸ ኹ ኺ ኻ ኽ ኾ ዃ ወ ዉ ዊ ዋ ዌ ው ዎ ዑ ዒ ዓ ዕ ዘ ዚ ዛ ዜ ዝ ዞ የ ዩ ዪ ያ
+        ይ ዮ ደ ዱ ዲ ዳ ዴ ድ ዶ ጀ ጃ ጅ ገ ጉ ጊ ጋ ግ ጎ ጠ ጡ ጢ ጣ ጥ ጭ ፀ ፁ ፂ ፃ ፅ ፆ ፈ ፋ ፍ ፖ
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ) - . ፡ ፣ ’
+      uppercase: I
+    iso_in_db: false
+    iso_in_db_macrolang: false
+tiv:
+  udhr_tiv.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u v w y z ô ̂
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', - . ;'
+      uppercase: A B C D E F G H I K L M N O R S T U V W Y Z
+    iso_in_db: false
+    iso_in_db_macrolang: false
+tly:
+  udhr_tly.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p q r s t u v x y z ç ğ ı ş ə ̆ ̇ ̧
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '( ) , - . : ;'
+      uppercase: A B C D H I K L M N O P R S T U V X Y Ç İ Ə
+    iso_in_db: true
+    not_in_db: ç ğ ş
+    not_in_text: I ̈ а б в г д е ж з и к л м н о п р с т у ф х ц ч ш ы ј ғ ҝ ҹ һ ә
+      ء ا ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ل م ن ه و ي َ ُ ِ ْ ٔ ٰ پ چ ژ ک
+      گ ی ‘
+tob:
+  udhr_tob.xml:
+    found_in_text:
+      chars: '> a c d e g h i j l m n o p q r s t u v x y ́ ̃ ỹ'
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' , . ;'
+      uppercase: A C D E H I L M N O P Q R S T U X Y Í Ỹ
+    iso_in_db: false
+    iso_in_db_macrolang: false
+toi:
+  udhr_toi.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u v w y z
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' ( ) , - . : ; [ ]'
+      uppercase: A B C D E G I J K L M N O P S T U W Y Z
+    iso_in_db: false
+    iso_in_db_macrolang: false
+toj:
+  udhr_toj.xml:
+    found_in_text:
+      chars: a b c d e h i j k l m n o p r s t u w x y
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ( ) , - . ; ’
+      uppercase: A B C E I J K L M N O P S T U W X Y
+    iso_in_db: false
+    iso_in_db_macrolang: false
+ton:
+  udhr_ton.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a e f g h i k l m n o p s t u v
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '( ) , - . : ; ‘ ’'
+      uppercase: A E F G H I K L M N O P S T U V
+    iso_in_db: true
+    not_in_db: ''
+    not_in_text: b c d j q r w x y z ́ ̄
+top:
+  udhr_top.xml:
+    found_in_text:
+      chars: a b c d e g h i j k l m n o p r s t u w x y
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' , . ; [ ]'
+      uppercase: A C H I J K L M N P T U W X Y
+    iso_in_db: false
+    iso_in_db_macrolang: false
+tpi:
+  udhr_tpi.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u v w y
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', . / – ”'
+      uppercase: A B D E F G H I J K L M N O P R S T U V W Y
+    iso_in_db: true
+    not_in_db: ''
+    not_in_text: q x z
+tsn:
+  udhr_tsn.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b d e f g h i j k l m n o p r s t u w y š ̌
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', . ; · ‐'
+      uppercase: A B D E G H I J K L M N O P S T U W Y
+    iso_in_db: true
+    not_in_db: š
+    not_in_text: c q v x z ̂
+tso:
+  udhr_tso_MZ.xml:
+    db_chars_valid: false
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p q r s t u v w x y z à á ã ç è é ì í ò
+        ù ú ̀ ́ ̃ ̧
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' ( ) , . ;'
+      uppercase: A D G H I K L M N O P R S T V W X Y À
+    iso_in_db: true
+    missing_from_db: ̀ ́ ̃ ̧
+    not_in_db: à á ã ç è é ì í ò ù ú ̀ ́ ̃ ̧
+    not_in_text: ''
+  udhr_tso_ZW.xml:
+    db_chars_valid: false
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p q r s t u v w x y z à á ã ç è é ì í ò
+        ù ú ̀ ́ ̃ ̧
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' ( ) , . ; ? [ ] ’'
+      uppercase: A C D E F G H I K L M N O P R S T U V W X Y À
+    iso_in_db: true
+    missing_from_db: ̀ ́ ̃ ̧
+    not_in_db: à á ã ç è é ì í ò ù ú ̀ ́ ̃ ̧
+    not_in_text: ''
+tsz:
+  udhr_tsz.xml:
+    found_in_text:
+      chars: a b c d e g h i j k l m n o p r s t u x á é í ï ŋ ɑ ʋ ́ ̈
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' , . ;'
+      uppercase: A B C D E G H I J K M N O P R S T U
+    iso_in_db: false
+    iso_in_db_macrolang: false
+tuk:
+  udhr_tuk_cyrl.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u w y z ä ç ö ü ý ň ş ž ́ ̆ ̈ ̌
+        ̧ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш ъ ы э ю я ё җ ң ү ә ө
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', . : ; ‐ –'
+      uppercase: A B D E G H I J K L M N O R S T U Y Z Ä Ö Ý Ň Ş А Б Г Д К М Н О С
+        Т У Х Ш Э Җ
+    iso_in_db: true
+    not_in_db: ä ç ö ü ý ň ş ž й ё
+    not_in_text: q v x ̦ щ ь
+  udhr_tuk_latn.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u w y z ä ç ö ü ý ň ş ž ́ ̈ ̌ ̧
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', . : ; ‐'
+      uppercase: A B D E G H I J K L M N O R S T U Y Z Ä Ö Ý Ň Ş
+    iso_in_db: true
+    not_in_db: ä ç ö ü ý ň ş ž
+    not_in_text: q v x ̆ ̦ а б в г д е ж з и к л м н о п р с т у ф х ц ч ш щ ъ ы ь
+      э ю я җ ң ү ә ө
+tur:
+  udhr_tur.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u v y z â ç ö ü ğ ı ş ̂ ̆ ̇ ̈ ̧
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', . ;'
+      uppercase: A B E G H I K M O T U Y Ö Ü İ
+    iso_in_db: true
+    not_in_db: â ç ö ü ğ ş
+    not_in_text: I q w x ̦
+tyv:
+  udhr_tyv.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: ̆ ̈ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш ъ ы ь э ю я ё ң
+        ү ө
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ( ) , - . ;
+      uppercase: I А Б Г Д Е Ж З И К Л Н О Р Т У Ч Ы Э Ң Ү Ө
+    iso_in_db: true
+    not_in_db: й ё
+    not_in_text: щ
+tzc:
+  udhr_tzc.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p q r s t u v x y z á é í ó ú ́
+      numerals: 1 2 4 7 8 9
+      punctuation: '( ) , - . : ; ’'
+      uppercase: A B C D E G H I J K L M N O P S T U V X Y
+    iso_in_db: false
+    iso_in_db_macrolang: false
+tzh:
+  udhr_tzh.xml:
+    found_in_text:
+      chars: a b c d e h i j k l m n o p r s t u v w x y ´ ́
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ( ) , - .
+      uppercase: A B C D E H I J K L M N O P R S T U W X Y
+    iso_in_db: false
+    iso_in_db_macrolang: false
+tzm:
+  udhr_tzm.xml:
+    db_chars_valid: false
+    found_in_text:
+      chars: a b c d e f g h i j k l m n q r s t u w y z â ç é ́ ̂ ̣ ̧
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' ( ) , - . : ;'
+      uppercase: A C D E F G H I K L M N R S T U W Y Z
+    iso_in_db: true
+    missing_from_db: ́ ̂ ̧
+    not_in_db: â ç é ́ ̂ ̧
+    not_in_text: x ɛ ɣ
+  udhr_tzm_tfng.xml:
+    db_chars_valid: false
+    found_in_text:
+      chars: a b c d e f g h i j k l m n q r s t u w y z â ç é ́ ̂ ̣ ̧ ⴰ ⴳ ⴷ ⴻ ⴼ ⴽ
+        ⵃ ⵇ ⵉ ⵍ ⵎ ⵏ ⵓ ⵔ ⵕ ⵖ ⵙ ⵜ ⵡ ⵢ ⵣ
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' ( ) , - . : ;'
+      uppercase: A C D E F G H I K L M N R S T U W Y Z
+    iso_in_db: true
+    missing_from_db: ́ ̂ ̧ ⴰ ⴳ ⴷ ⴻ ⴼ ⴽ ⵃ ⵇ ⵉ ⵍ ⵎ ⵏ ⵓ ⵔ ⵕ ⵖ ⵙ ⵜ ⵡ ⵢ ⵣ
+    not_in_db: â ç é ́ ̂ ̧ ⴰ ⴳ ⴷ ⴻ ⴼ ⴽ ⵃ ⵇ ⵉ ⵍ ⵎ ⵏ ⵓ ⵔ ⵕ ⵖ ⵙ ⵜ ⵡ ⵢ ⵣ
+    not_in_text: x ɛ ɣ
+uig:
+  udhr_uig_arab.xml:
+    db_chars_valid: false
+    found_in_text:
+      chars: a b c d e g h i j k l m n o p q r s t u w x y z é ö ü ́ ̈ ئ ا ب ت ج خ
+        د ر ز س ش غ ق ك ل م ن و ى ي ٔ پ چ ڭ گ ھ ۆ ۇ ۈ ۋ ې ە
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' , - . : ، ؛ ’'
+      uppercase: B H U
+    iso_in_db: true
+    missing_from_db: ́ ى
+    not_in_db: é ö ü ́ ئ ى
+    not_in_text: f ̆ а б в г д е ж з и к л м н о п р с т у ф х ц ч ш ю я ғ җ қ ң ү
+      һ ә ө ف ژ
+  udhr_uig_latn.xml:
+    db_chars_valid: false
+    found_in_text:
+      chars: a b c d e g h i j k l m n o p q r s t u w x y z é ö ü ́ ̈
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' , - . : ’'
+      uppercase: B H U
+    iso_in_db: true
+    missing_from_db: ́
+    not_in_db: é ö ü ́
+    not_in_text: f ̆ а б в г д е ж з и к л м н о п р с т у ф х ц ч ш ю я ғ җ қ ң ү
+      һ ә ө ا ب ت ج خ د ر ز س ش غ ف ق ك ل م ن و ي ٔ پ چ ژ ڭ گ ھ ۆ ۇ ۈ ۋ ې ە
+ukr:
+  udhr_ukr.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: ̆ ̈ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ь ю я є і ї ґ
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' , . ; ‐'
+      uppercase: І А Б В Г Д Е З И К Л М Н О П Р С Т У Ц Ч Ш Ь Ю Я
+    iso_in_db: true
+    not_in_db: й ї
+    not_in_text: э ’
+umb:
+  udhr_umb.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u v w y â ã ê î ñ õ ̂ ̃
+      numerals: 0 1 2
+      punctuation: '( ) , . : ; ’'
+      uppercase: A B C D E H I K L M N O P S T U V W Y Ã
+    iso_in_db: false
+    iso_in_db_macrolang: false
+ura:
+  udhr_ura.xml:
+    found_in_text:
+      chars: a b c d e f g h i j l m n o p q r s t u í ó ú ́
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '" , - . ; ? [ ]'
+      uppercase: A B C E H I J L M N O Q R S T U
+    iso_in_db: false
+    iso_in_db_macrolang: false
+urd:
+  udhr_urd.xml:
+    db_chars_valid: false
+    found_in_text:
+      chars: a b d e h i k m n p r s t w y ؁ ء آ ؤ ئ ا ب ت ث ج ح خ د ذ ر ز س ش ص ض
+        ط ظ ع غ ف ق ل م ن و ي ً َ ُ ِ ّ ٓ ٔ ٰ ٹ پ چ ڈ ڑ ک گ ں ھ ہ ۂ ی ے
+      numerals: ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹
+      punctuation: ', . / @ [ ] ، ؍ ؛ ۔ “ ”'
+      uppercase: A I P R S T
+    iso_in_db: true
+    missing_from_db: a b d e h i k m n p r s t w y ؁ ي ً ّ ٓ ٔ ے
+    not_in_db: a b d e h i k m n p r s t w y ؁ آ ؤ ئ ي ً ّ ٓ ٔ ۂ ے
+    not_in_text: ْ ژ
+  udhr_urd_2.xml:
+    db_chars_valid: false
+    found_in_text:
+      chars: ؁ ء آ ؤ ئ ا ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ل م ن و ي ً َ ُ ِ
+        ّ ٓ ٔ ٰ ٹ پ چ ڈ ڑ ک گ ں ھ ہ ۂ ی ے
+      numerals: ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹
+      punctuation: ، ؍ ؛ ۔ “ ”
+      uppercase: ''
+    iso_in_db: true
+    missing_from_db: ؁ ي ً ّ ٓ ٔ ے
+    not_in_db: ؁ آ ؤ ئ ي ً ّ ٓ ٔ ۂ ے
+    not_in_text: ْ ژ
+uzn:
+  udhr_uzn_cyrl.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: ̆ ̈ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш ъ э ю я ё ў ғ қ
+        ҳ
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ( ) , . ; ‐ –
+      uppercase: A I А Б Д Е Ж И К Л М Н О П Р С Т У Х Ц Ш Я Қ Ҳ
+    iso_in_db: true
+    not_in_db: й ё ў
+    not_in_text: a b c d e f g h i j k l m n o p q r s t u v w x y z ̄ щ ы ь ‘
+  udhr_uzn_latn.xml:
+    db_chars_valid: false
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p q r s t u v x y z ʻ ʼ ̆ ̈ а б в г д е
+        ж з и й к л м н о п р с т у ф х ц ч ш ъ э ю я ё ў ғ қ ҳ
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ( ) , . ; ‐ –
+      uppercase: A B D E H I J K L M N O P Q R S T U X Y А Б Д Е Ж И К Л М Н О П Р
+        С Т У Х Ц Ш Я Қ Ҳ
+    iso_in_db: true
+    missing_from_db: ʻ ʼ
+    not_in_db: ʻ ʼ й ё ў
+    not_in_text: w ̄ щ ы ь ‘
+vai:
+  udhr_vai.xml:
+    found_in_text:
+      chars: ꔀ ꔇ ꔉ ꔋ ꔌ ꔎ ꔒ ꔔ ꔕ ꔖ ꔛ ꔜ ꔝ ꔞ ꔟ ꔢ ꔤ ꔦ ꔧ ꔪ ꔫ ꔬ ꔰ ꔱ ꔳ ꔵ ꔷ ꔺ ꔻ ꔽ ꕀ ꕃ ꕆ ꕇ ꕈ
+        ꕉ ꕊ ꕋ ꕌ ꕍ ꕎ ꕐ ꕒ ꕓ ꕔ ꕕ ꕖ ꕗ ꕘ ꕙ ꕚ ꕜ ꕞ ꕡ ꕢ ꕧ ꕨ ꕩ ꕪ ꕬ ꕮ ꕯ ꕰ ꕱ ꕴ ꕶ ꕷ ꕸ ꕺ ꕼ ꕾ ꕿ
+        ꖃ ꖇ ꖏ ꖕ ꖝ ꖡ ꖢ ꖤ ꖦ ꖨ ꖫ ꖬ ꖴ ꖷ ꖸ ꖺ ꖻ ꗃ ꗆ ꗉ ꗋ ꗏ ꗒ ꗓ ꗔ ꗘ ꗚ ꗛ ꗝ ꗞ ꗠ ꗡ ꗢ ꗣ ꗦ ꗨ ꗪ
+        ꗫ ꗬ ꗯ ꗱ ꗳ ꗷ ꗸ ꗺ ꗻ ꗽ ꘀ ꘂ ꘃ ꘆ ꘈ ꘉ ꘊ ꘋ
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ( ) , - . ;
+      uppercase: ''
+    iso_in_db: false
+    iso_in_db_macrolang: false
+vec:
+  udhr_vec.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j l m n o p r s t u v z à è é ì ò ó ù ł ̀ ́
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', . ; ’'
+      uppercase: A C D E I L M N O P S T U Ò Ł
+    iso_in_db: true
+    not_in_db: à è é ì ò ó ù
+    not_in_text: k q w x y ̌ ̧
+ven:
+  udhr_ven.xml:
+    found_in_text:
+      chars: a b d e f g h i k l m n o p r s t u v w y z ̇ ̭ ḓ ḽ ṅ ṋ ṱ
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ( ) , - . / ; [ ] – ’ “ ”
+      uppercase: A B C D E F G H I K L M N O P R S T U V W Y Z Ḽ Ṱ
+    iso_in_db: false
+    iso_in_db_macrolang: false
+  udhr_ven2.xml:
+    found_in_text:
+      chars: a b d e f g h i k l m n o p r s t u v w y z ̇ ̭ ḓ ḽ ṅ ṋ ṱ
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ( ) , - . / ; [ ] – ’ “ ”
+      uppercase: A B C D E F H I K L M N O P R S T U V Y Z Ḽ Ṱ
+    iso_in_db: false
+vep:
+  udhr_vep.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u v z ä ö ü č š ž ̈ ̌
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', - . ; ’'
+      uppercase: A D E H J K M N O P R S T U V Ü
+    iso_in_db: true
+    not_in_db: ä ö ü č š ž
+    not_in_text: q w x y
+vie:
+  udhr_vie.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e g h i k l m n o p q r s t u v x y â ê ô ă đ ơ ư ̀ ́ ̂ ̃ ̆ ̉
+        ̛ ̣
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '( ) , . : ;'
+      uppercase: B C G H I K L M N P Q S T V Y Đ
+    iso_in_db: true
+    not_in_db: ''
+    not_in_text: f j w z ạ ẹ ọ
+  udhr_vie_han.xml:
+    db_chars_valid: false
+    found_in_text:
+      chars: a b c d e g h i k l m n o p q r s t u v x y â ê ô ă đ ơ ư ̀ ́ ̂ ̃ ̆ ̉
+        ̛ ̣ 㐌 㛪 㥋 㫻 㭲 㳻 䁛 䏧 一 下 不 丕 世 主 亂 事 互 享 人 仍 他 代 仰 件 似 位 住 作 併 侵 便 係 促 保 信
+        個 值 傳 價 儗 優 先 免 入 全 公 共 兵 具 出 分 切 刑 別 刨 利 制 刷 則 削 劍 力 加 助 努 動 務 勞 勤 勸 化 卑
+        協 卬 卻 原 參 友 只 可 各 合 同 名 吏 吝 吧 吶 呢 和 咍 咹 品 員 哴 哿 唯 單 嚮 因 國 圍 團 土 在 地 坦 坭 型
+        埃 基 場 塊 塞 境 增 壓 壞 外 大 失 奉 奪 奮 女 奴 如 妬 姅 委 威 娶 婆 婚 婦 媄 嫁 存 學 安 完 宗 定 客 宣 家
+        寔 寡 實 審 尊 尋 對 小 少 就 局 居 展 屬 工 布 常 干 平 年 序 度 座 庭 廛 式 引 強 形 役 待 律 得 德 心 志 念
+        性 恪 情 意 慬 憑 憲 應 成 或 所 手 扒 打 承 技 抵 押 拖 拧 拫 拱 挵 掋 接 推 搊 搠 播 撻 擔 據 攄 收 政 效 教
+        數 文 斷 方 於 族 明 時 普 智 暴 曉 書 會 有 朋 望 期 本 朱 果 查 格 案 梗 條 業 極 標 檢 權 欣 欺 款 正 步 歲
+        歸 殘 每 民 求 決 沛 治 法 活 浽 涉 添 渃 源 演 激 濟 無 然 爫 爲 版 物 特 犯 狀 猛 獨 現 理 環 甘 生 產 用 由
+        男 界 留 畢 當 疾 瘖 發 的 益 監 目 直 相 眾 破 硶 確 礎 社 神 票 禁 福 禮 私 科 秩 程 種 稱 積 空 窮 立 章 符
+        等 答 管 節 範 籍 精 糧 系 素 終 組 結 統 經 織 續 罪 罰 羅 群 義 者 聯 肯 育 能 膮 自 舉 良 芇 藝 虐 處 行 術
+        衞 被 褒 要 見 規 觀 解 言 計 訊 記 訴 認 語 調 論 謹 證 識 議 護 譽 豫 財 責 費 資 賞 質 越 踷 身 辦 辭 追 通
+        造 進 逼 過 道 違 適 遶 邊 都 酬 醫 重 開 閾 關 附 限 際 險 隸 集 離 難 面 順 頒 領 頭 願 類 餒 饒 駭 驅 體 高
+        鬥 點 𠁀 𠁑 𠃣 𠄩 𠉞 𠊛 𠊝 𠍣 𠓀 𠓨 𠚢 𠢞 𠫆 𠬃 𠬠 𠱊 𠱋 𠳒 𠹾 𠽖 𡀮 𡄰 𡏦 𡖡 𡝃 𡥵 𡧲 𡱩 𡳳 𢆥 𢖵 𢗖 𢚸 𢜝 𢟙
+        𢣂 𢧚 𢩿 𢫈 𢭲 𢱜 𢴐 𢵬 𢵻 𢶢 𢷮 𢺺 𣅶 𣇞 𣈜 𣎃 𣎏 𣗓 𣞪 𣱆 𤍊 𤕔 𤯨 𤯩 𤴬 𥋳 𥗾 𥘷 𥚤 𥢆 𥩯 𥪝 𥰊 𦄾 𦓅 𦓡 𦤾
+        𧗱 𧵑 𧶭 𧿨 𨁥 𨉟 𨕭 𨸾 𩈘 𪟽 𪠞 𪦆 𪸝 𫃚 𫅴 𫡔 𫡽 𫯳 𫼩 𫼳 𬜝 𬡶 𬥓 𬧐 𬨴 𬩢
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '( ) , . : ; 、 。 （ ） ： ；'
+      uppercase: B C G H I K L M N P Q S T V Y Đ
+    iso_in_db: true
+    missing_from_db: 㐌 㛪 㥋 㫻 㭲 㳻 䁛 䏧 一 下 不 丕 世 主 亂 事 互 享 人 仍 他 代 仰 件 似 位 住 作 併 侵 便
+      係 促 保 信 個 值 傳 價 儗 優 先 免 入 全 公 共 兵 具 出 分 切 刑 別 刨 利 制 刷 則 削 劍 力 加 助 努 動 務 勞 勤
+      勸 化 卑 協 卬 卻 原 參 友 只 可 各 合 同 名 吏 吝 吧 吶 呢 和 咍 咹 品 員 哴 哿 唯 單 嚮 因 國 圍 團 土 在 地 坦
+      坭 型 埃 基 場 塊 塞 境 增 壓 壞 外 大 失 奉 奪 奮 女 奴 如 妬 姅 委 威 娶 婆 婚 婦 媄 嫁 存 學 安 完 宗 定 客 宣
+      家 寔 寡 實 審 尊 尋 對 小 少 就 局 居 展 屬 工 布 常 干 平 年 序 度 座 庭 廛 式 引 強 形 役 待 律 得 德 心 志 念
+      性 恪 情 意 慬 憑 憲 應 成 或 所 手 扒 打 承 技 抵 押 拖 拧 拫 拱 挵 掋 接 推 搊 搠 播 撻 擔 據 攄 收 政 效 教 數
+      文 斷 方 於 族 明 時 普 智 暴 曉 書 會 有 朋 望 期 本 朱 果 查 格 案 梗 條 業 極 標 檢 權 欣 欺 款 正 步 歲 歸 殘
+      每 民 求 決 沛 治 法 活 浽 涉 添 渃 源 演 激 濟 無 然 爫 爲 版 物 特 犯 狀 猛 獨 現 理 環 甘 生 產 用 由 男 界 留
+      畢 當 疾 瘖 發 的 益 監 目 直 相 眾 破 硶 確 礎 社 神 票 禁 福 禮 私 科 秩 程 種 稱 積 空 窮 立 章 符 等 答 管 節
+      範 籍 精 糧 系 素 終 組 結 統 經 織 續 罪 罰 羅 群 義 者 聯 肯 育 能 膮 自 舉 良 芇 藝 虐 處 行 術 衞 被 褒 要 見
+      規 觀 解 言 計 訊 記 訴 認 語 調 論 謹 證 識 議 護 譽 豫 財 責 費 資 賞 質 越 踷 身 辦 辭 追 通 造 進 逼 過 道 違
+      適 遶 邊 都 酬 醫 重 開 閾 關 附 限 際 險 隸 集 離 難 面 順 頒 領 頭 願 類 餒 饒 駭 驅 體 高 鬥 點 𠁀 𠁑 𠃣 𠄩 𠉞
+      𠊛 𠊝 𠍣 𠓀 𠓨 𠚢 𠢞 𠫆 𠬃 𠬠 𠱊 𠱋 𠳒 𠹾 𠽖 𡀮 𡄰 𡏦 𡖡 𡝃 𡥵 𡧲 𡱩 𡳳 𢆥 𢖵 𢗖 𢚸 𢜝 𢟙 𢣂 𢧚 𢩿 𢫈 𢭲 𢱜 𢴐 𢵬
+      𢵻 𢶢 𢷮 𢺺 𣅶 𣇞 𣈜 𣎃 𣎏 𣗓 𣞪 𣱆 𤍊 𤕔 𤯨 𤯩 𤴬 𥋳 𥗾 𥘷 𥚤 𥢆 𥩯 𥪝 𥰊 𦄾 𦓅 𦓡 𦤾 𧗱 𧵑 𧶭 𧿨 𨁥 𨉟 𨕭 𨸾 𩈘
+      𪟽 𪠞 𪦆 𪸝 𫃚 𫅴 𫡔 𫡽 𫯳 𫼩 𫼳 𬜝 𬡶 𬥓 𬧐 𬨴 𬩢
+    not_in_db: 㐌 㛪 㥋 㫻 㭲 㳻 䁛 䏧 一 下 不 丕 世 主 亂 事 互 享 人 仍 他 代 仰 件 似 位 住 作 併 侵 便 係 促 保
+      信 個 值 傳 價 儗 優 先 免 入 全 公 共 兵 具 出 分 切 刑 別 刨 利 制 刷 則 削 劍 力 加 助 努 動 務 勞 勤 勸 化 卑
+      協 卬 卻 原 參 友 只 可 各 合 同 名 吏 吝 吧 吶 呢 和 咍 咹 品 員 哴 哿 唯 單 嚮 因 國 圍 團 土 在 地 坦 坭 型 埃
+      基 場 塊 塞 境 增 壓 壞 外 大 失 奉 奪 奮 女 奴 如 妬 姅 委 威 娶 婆 婚 婦 媄 嫁 存 學 安 完 宗 定 客 宣 家 寔 寡
+      實 審 尊 尋 對 小 少 就 局 居 展 屬 工 布 常 干 平 年 序 度 座 庭 廛 式 引 強 形 役 待 律 得 德 心 志 念 性 恪 情
+      意 慬 憑 憲 應 成 或 所 手 扒 打 承 技 抵 押 拖 拧 拫 拱 挵 掋 接 推 搊 搠 播 撻 擔 據 攄 收 政 效 教 數 文 斷 方
+      於 族 明 時 普 智 暴 曉 書 會 有 朋 望 期 本 朱 果 查 格 案 梗 條 業 極 標 檢 權 欣 欺 款 正 步 歲 歸 殘 每 民 求
+      決 沛 治 法 活 浽 涉 添 渃 源 演 激 濟 無 然 爫 爲 版 物 特 犯 狀 猛 獨 現 理 環 甘 生 產 用 由 男 界 留 畢 當 疾
+      瘖 發 的 益 監 目 直 相 眾 破 硶 確 礎 社 神 票 禁 福 禮 私 科 秩 程 種 稱 積 空 窮 立 章 符 等 答 管 節 範 籍 精
+      糧 系 素 終 組 結 統 經 織 續 罪 罰 羅 群 義 者 聯 肯 育 能 膮 自 舉 良 芇 藝 虐 處 行 術 衞 被 褒 要 見 規 觀 解
+      言 計 訊 記 訴 認 語 調 論 謹 證 識 議 護 譽 豫 財 責 費 資 賞 質 越 踷 身 辦 辭 追 通 造 進 逼 過 道 違 適 遶 邊
+      都 酬 醫 重 開 閾 關 附 限 際 險 隸 集 離 難 面 順 頒 領 頭 願 類 餒 饒 駭 驅 體 高 鬥 點 𠁀 𠁑 𠃣 𠄩 𠉞 𠊛 𠊝 𠍣
+      𠓀 𠓨 𠚢 𠢞 𠫆 𠬃 𠬠 𠱊 𠱋 𠳒 𠹾 𠽖 𡀮 𡄰 𡏦 𡖡 𡝃 𡥵 𡧲 𡱩 𡳳 𢆥 𢖵 𢗖 𢚸 𢜝 𢟙 𢣂 𢧚 𢩿 𢫈 𢭲 𢱜 𢴐 𢵬 𢵻 𢶢 𢷮
+      𢺺 𣅶 𣇞 𣈜 𣎃 𣎏 𣗓 𣞪 𣱆 𤍊 𤕔 𤯨 𤯩 𤴬 𥋳 𥗾 𥘷 𥚤 𥢆 𥩯 𥪝 𥰊 𦄾 𦓅 𦓡 𦤾 𧗱 𧵑 𧶭 𧿨 𨁥 𨉟 𨕭 𨸾 𩈘 𪟽 𪠞 𪦆
+      𪸝 𫃚 𫅴 𫡔 𫡽 𫯳 𫼩 𫼳 𬜝 𬡶 𬥓 𬧐 𬨴 𬩢
+    not_in_text: f j w z ạ ẹ ọ
+vmw:
+  udhr_vmw.xml:
+    db_chars_valid: false
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u v w y z ã ç õ ̃ ̧
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ( ) , . ; ’ …
+      uppercase: A D E G I J K M N O P R S T U W Y
+    iso_in_db: true
+    missing_from_db: ̃ ̧
+    not_in_db: ã ç õ ̃ ̧
+    not_in_text: q x ̀
+war:
+  udhr_war.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i k l m n o p r s t u w y
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', - . ;'
+      uppercase: A B D E G H I K L M N O P R S T U W Y
+    iso_in_db: true
+    not_in_db: ''
+    not_in_text: j q v x z ̃
+wln:
+  udhr_wln.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p q r s t u v w y z à â å ç è é ê î ô û
+        ̀ ́ ̂ ̊ ̧
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' ( ) , - . : ; [ ]'
+      uppercase: A B C D E G I L M N O P Q R S T U V Y Å È É Ê Û
+    iso_in_db: true
+    not_in_db: à â å ç è é ê î ô û
+    not_in_text: x
+wol:
+  udhr_wol.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g i j k l m n o p q r s t u w x y à é ë ñ ó ̀ ́ ̃ ̈
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', - . ; [ ]'
+      uppercase: A B C D E F G I J K L M N O P R S T U W X Ë Ñ
+    iso_in_db: true
+    not_in_db: à é ë ñ ó
+    not_in_text: h v z ŋ
+wuu:
+  udhr_wuu.xml:
+    found_in_text:
+      chars: 一 七 三 上 下 不 与 且 世 业 严 丧 个 中 临 为 主 举 义 之 乏 九 买 了 予 事 二 于 五 产 享 人 介 仔 他
+        代 以 仰 件 价 任 伊 休 优 会 传 位 住 体 何 作 使 依 侪 侮 侵 促 保 信 倚 值 假 偏 健 元 兄 充 先 光 免 全 八
+        公 六 共 关 其 内 决 况 准 凡 出 击 分 切 刑 则 创 初 判 利 别 到 制 前 剥 力 加 务 动 助 努 勿 包 化 匮 区 医
+        十 协 单 卖 压 原 参 及 友 双 反 发 受 变 叛 只 可 各 合 同 名 否 告 员 命 和 品 唯 啥 善 四 回 因 囡 团 固 国
+        土 在 地 场 均 坏 基 境 处 大 天 失 夺 女 奴 好 妈 姻 婚 媒 嫁 学 宅 守 安 完 宗 定 实 审 宣 宪 害 家 容 密 寡
+        对 寻 尊 小 少 居 展 属 工 已 布 常 干 平 年 并 庇 序 应 府 废 度 庭 康 开 式 弗 弟 张 强 当 形 役 待 律 得 徙
+        德 心 必 忍 志 念 思 性 恐 息 情 惧 想 意 愿 成 戒 或 房 所 才 托 承 技 投 护 报 拉 拘 拜 择 括 持 指 捕 据 排
+        接 控 措 掰 提 援 改 攻 放 政 效 救 教 文 方 施 旁 族 无 旨 时 是 普 暇 暴 有 服 望 期 未 本 术 机 权 条 来 构
+        某 标 样 根 格 歇 止 正 此 步 歧 残 段 每 民 水 求 污 治 法 活 济 消 涉 渐 源 点 然 照 煽 爹 物 特 犯 独 现 玷
+        理 生 用 由 申 男 界 疗 疾 病 的 益 目 直 相 真 眼 着 破 础 确 示 礼 社 神 票 禁 福 离 私 种 科 秘 秩 移 程 立
+        章 符 第 等 管 籍 类 精 系 约 级 组 织 经 结 给 绩 维 缔 罚 罪 美 老 者 而 职 联 肤 育 背 能 脱 自 至 良 色 艺
+        荣 获 葛 蔑 薪 蛮 行 衣 补 表 衰 被 要 见 规 视 解 言 誉 誓 认 讯 记 许 论 设 证 诉 语 诲 谊 谋 负 财 质 资 赋
+        走 起 践 身 载 较 辅 辖 辩 辰 辱 迁 过 返 这 进 违 迫 适 选 逐 递 通 逮 遇 遍 道 遭 遵 避 酬 酷 释 里 重 野 量
+        鉴 钱 铤 闲 间 阶 际 限 除 险 障 隶 集 需 非 面 项 顾 领 食 高 默
+      numerals: ''
+      punctuation: . @ 、 。 ， ；
+      uppercase: ''
+    iso_in_db: false
+    iso_in_db_macrolang: false
+wwa:
+  udhr_wwa.xml:
+    found_in_text:
+      chars: a b c d e f i k l m n o p r s t u w y à ã è ì ù ŋ ɔ ɛ ̀ ̃
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '( ) , - . : ; [ ]'
+      uppercase: B D F K N P S T W Y
+    iso_in_db: false
+    iso_in_db_macrolang: false
+xho:
+  udhr_xho.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p q r s t u v w x y z
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', . ; ‐'
+      uppercase: A B C E F G I J K L M N O R S T U W X Y Z
+    iso_in_db: true
+    not_in_db: ''
+    not_in_text: ''
+xsm:
+  udhr_xsm.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u v w y z ŋ ɔ ɛ
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '" , - . ;'
+      uppercase: A B C D E F G I J K L M N O P S T U W Y Ŋ Ɛ
+    iso_in_db: false
+    iso_in_db_macrolang: false
+yad:
+  udhr_yad.xml:
+    found_in_text:
+      chars: a b c d e f h i j l m n o p q r s t u v y £ á í ñ ́ ̃ ⁄
+      numerals: 0 1 2 3 4 5 6 7 8 9 ½
+      punctuation: '% '' ( , - . : ;'
+      uppercase: A B C D E H I J L M N O Q R S T U V Y É
+    iso_in_db: false
+    iso_in_db_macrolang: false
+yao:
+  udhr_yao.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u v w y z
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' ( ) , - .'
+      uppercase: A B C D G H I L M N O P R S T U W Y
+    iso_in_db: false
+    iso_in_db_macrolang: false
+yap:
+  udhr_yap.xml:
+    db_chars_valid: false
+    found_in_text:
+      chars: a b c d e f g h i k l m n o p r s t u w y z ʼ
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ( ) , . ; ‐
+      uppercase: A B C D E F G H I L M N O R S T U W Y
+    iso_in_db: true
+    missing_from_db: ʼ
+    not_in_db: ʼ
+    not_in_text: j q v x ̈
+ydd:
+  udhr_ydd.xml:
+    db_chars_valid: false
+    found_in_text:
+      chars: ִ ַ ָ ּ ֿ א ב ג ד ה ו ז ח ט י ך כ ל ם מ ן נ ס ע ף פ ץ צ ק ר ש ת װ ױ ײ
+        ‬ ‮
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: '( ) , . : ; ־ ׳'
+      uppercase: A
+    iso_in_db: true
+    missing_from_db: ַ ּ ֿ װ ױ ײ ‬ ‮
+    not_in_db: ַ ּ ֿ װ ױ ײ ‬ ‮
+    not_in_text: ''
+ykg:
+  udhr_ykg.xml:
+    db_chars_valid: false
+    found_in_text:
+      chars: g i m n s w ̆ а б в г д е ж з и й к л м н о п р с т у ф х ц ч щ ы ь э
+        ю я ѳ ҕ қ ҥ ө
+      numerals: ''
+      punctuation: '" ( ) , - . ; [ ]'
+      uppercase: W Д И Й К Л М Н О П С Т У Ч Э
+    iso_in_db: true
+    missing_from_db: g i m n s w ѳ ҕ қ ҥ ө
+    not_in_db: g i m n s w й ѳ ҕ қ ҥ ө
+    not_in_text: ̈ ш ъ ғ ң ԝ
+yor:
+  udhr_yor.xml:
+    db_chars_valid: false
+    found_in_text:
+      chars: a b d e f g h i j k l m n o p r s t u w y à á è é ì í ò ó ù ú ń ̀ ́ ̄
+        ̩
+      numerals: ''
+      punctuation: ', . ; ‐'
+      uppercase: A B D E F G I K M N O R S T U W Y À Á È É Ì Í Ò Ó Ú
+    iso_in_db: true
+    missing_from_db: ̩
+    not_in_db: à á è é ì í ò ó ù ú ń ̩
+    not_in_text: ɔ ɛ ̣
+yua:
+  udhr_yua.xml:
+    found_in_text:
+      chars: a b c d e g h i j k l m n o p r s t u w x y z á é í ó ú ʼ ́
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', . ; [ ] ‐'
+      uppercase: A B C D E I J K L M N O P S T U W X Y Z Í Ó
+    iso_in_db: false
+    iso_in_db_macrolang: false
+yue:
+  udhr_yue.xml:
+    found_in_text:
+      chars: 一 七 三 上 下 不 与 且 世 业 严 丧 个 中 临 为 主 举 义 九 买 了 予 事 二 于 五 些 产 享 人 介 他 代 以
+        仰 件 价 任 休 优 会 传 位 住 体 何 作 佢 使 依 侮 侵 係 促 保 信 俾 倚 值 假 偏 健 元 兄 充 先 免 全 八 公 六
+        共 关 其 兼 内 冇 冚 决 况 准 凡 出 击 分 切 刑 则 创 初 判 利 别 到 制 前 剥 力 加 务 动 助 努 包 化 区 医 十
+        协 单 卖 原 参 及 友 双 反 发 受 变 叛 只 可 各 合 同 名 否 告 员 呢 命 咁 和 咗 品 哋 唔 唯 啲 善 喺 嘅 嘢 嚟
+        四 回 因 团 固 国 土 在 地 均 坏 埋 基 境 够 大 天 失 夺 女 奴 好 妈 姻 婚 媒 嫁 孥 学 宅 守 安 完 宗 定 实 审
+        宣 宪 害 家 容 密 寡 对 寻 尊 少 居 展 属 工 已 布 希 干 平 年 并 庇 序 应 府 废 度 庭 康 开 式 弟 张 强 当 形
+        役 待 律 得 徙 德 心 必 忍 志 念 思 性 息 情 惊 想 意 愿 成 戒 或 房 所 才 托 承 技 投 护 报 拘 拜 择 括 持 指
+        捕 据 接 控 措 提 援 改 攻 放 政 效 救 教 文 方 施 旁 族 无 日 旨 时 普 暇 暴 最 有 服 望 期 未 本 术 机 权 条
+        构 某 标 样 根 格 止 正 此 步 歧 残 段 每 民 水 求 污 治 法 活 济 消 涉 渐 源 然 照 煽 爸 物 特 犯 独 现 玷 理
+        生 用 由 申 男 界 疗 疾 病 的 益 目 直 相 真 着 破 础 确 示 礼 社 神 票 禁 福 离 私 种 科 秘 秩 移 程 穷 立 章
+        符 第 等 管 籍 类 精 系 约 级 组 细 织 经 结 给 绩 维 缔 罚 罪 美 老 者 而 职 联 肤 育 背 能 自 至 良 色 艺 荣
+        获 蔑 薪 蛮 行 衣 补 表 衰 要 见 规 视 解 言 誉 誓 认 讯 记 许 论 设 证 诉 该 语 诲 谂 谊 谋 负 财 质 费 资 赋
+        走 起 践 身 载 较 辅 辖 辩 辱 边 迁 过 返 进 违 迫 适 选 逐 递 通 逮 遇 遍 道 遭 遵 都 酬 酷 释 重 野 鉴 铤 闲
+        间 阶 阿 际 限 除 险 障 隶 集 需 非 面 项 顾 领 食 高 默
+      numerals: ''
+      punctuation: 、 。 ， ： ；
+      uppercase: ''
+    iso_in_db: false
+    iso_in_db_macrolang: false
+zam:
+  udhr_zam.xml:
+    found_in_text:
+      chars: a b c d e g h i j k l m n o p r s t u x y z á í ñ ó ʼ ́ ̃
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ( ) , . ;
+      uppercase: B C D G K M N O R T V X Y
+    iso_in_db: false
+    iso_in_db_macrolang: true
+zdj:
+  udhr_zdj.xml:
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p r s t u v w y z
+      numerals: 1 2 3 4 5 6 7 8
+      punctuation: ', - . ;'
+      uppercase: A B D E F G H I K L M N O R S T U W Y Z
+    iso_in_db: false
+    iso_in_db_macrolang: false
+zgh:
+  udhr_zgh.xml:
+    found_in_text:
+      chars: a c d e g i l m n o r s t u v é ́ ⴰ ⴱ ⴳ ⴷ ⴹ ⴻ ⴼ ⴽ ⵀ ⵃ ⵅ ⵇ ⵉ ⵊ ⵍ ⵎ ⵏ ⵓ
+        ⵔ ⵕ ⵖ ⵙ ⵚ ⵛ ⵜ ⵟ ⵡ ⵢ ⵣ ⵥ ⵯ
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', . : ; – ’'
+      uppercase: A D E G H I M P T U Z
+    iso_in_db: false
+    iso_in_db_macrolang: false
+zro:
+  udhr_zro.xml:
+    found_in_text:
+      chars: a c e h i j k m n o p q r s t u w y ñ ̃
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', - . ?'
+      uppercase: A C H I J K M N P R S T U W Y
+    iso_in_db: false
+    iso_in_db_macrolang: false
+ztu:
+  udhr_ztu.xml:
+    found_in_text:
+      chars: a b c d e f g h i j l m n o p q r s t u w x y z é ë í ́ ̈
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ''' ( ) , - . : ;'
+      uppercase: A B C D E G I N R S T U W X Z
+    iso_in_db: false
+    iso_in_db_macrolang: true
+zul:
+  udhr_zul.xml:
+    db_chars_valid: true
+    found_in_text:
+      chars: a b c d e f g h i j k l m n o p q r s t u v w x y z
+      numerals: 0 1 2 3 4 5 6 7 8 9
+      punctuation: ', . ‐'
+      uppercase: A B C D E G H I J K L M N O Q S T U W Y Z
+    iso_in_db: true
+    not_in_db: ''
+    not_in_text: ''
