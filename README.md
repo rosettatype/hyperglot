@@ -155,7 +155,7 @@ $ rm lib/hyperglot/hyperglot.yaml
 $ ln hyperglot.yaml lib/hyperglot/hyperglot.yaml
 ```
 
-NOTE: It is `lib/hyperglot/hyperglot.yaml` that gets packages with the `hyperglot` CLI command!
+NOTE: It is `lib/hyperglot/hyperglot.yaml` that gets packaged with the `hyperglot` CLI command!
 
 To test the codebases after making changes run the `pytest` test suite:
 
