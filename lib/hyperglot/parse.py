@@ -1,5 +1,6 @@
 import unicodedata2
 import logging
+from fontTools.ttLib import TTFont
 
 
 def list_unique(li):
@@ -127,3 +128,16 @@ def prune_superflous_marks(string):
     removed = list_unique(removed)
 
     return pruned, removed
+
+
+def parse_font_chars(path):
+    """
+    Open the provided font path and extract the codepoints encoded in the font
+    @return list of characters
+    """
+    font = TTFont(path, lazy=True)
+    cmap = font["cmap"]
+    font.close()
+
+    # The cmap keys are int codepoints
+    return [chr(c) for c in cmap.getBestCmap().keys()]

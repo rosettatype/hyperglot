@@ -1,5 +1,6 @@
 import logging
 from .parse import parse_chars
+from . import SUPPORTLEVELS
 
 
 class Language(dict):
@@ -143,6 +144,8 @@ class Language(dict):
         Return a dict with language support based on the passed in chars
 
         @param chars set: Set of chars to check against
+        @param level str: Support level for which to check
+        @param decomposed Bool: Flag to decompose the passed in chars
         @param pruneOthographies bool: Flag to remove non-supported
             orthographies from this Language object
         @return dict: Dict sorted by 1) script 2) list of isos
@@ -150,6 +153,11 @@ class Language(dict):
         support = {}
         if "orthographies" not in self:
             return support
+
+        if level not in SUPPORTLEVELS.keys():
+            logging.warning("Provided support level '%s' not valid, "
+                            "defaulting to 'base'" % level)
+            level = "base"
 
         pruned = []
 
@@ -170,35 +178,21 @@ class Language(dict):
             if "base" in ort:
                 script = ort["script"]
                 base = set(parse_chars(ort["base"], decomposed))
+                supported = base.issubset(chars)
 
-                if base.issubset(chars):
-                    if script not in support:
-                        support[script] = []
-
-                    support[script].append(self.iso)
-
-                    if level == "base":
-                        supported = True
-
+                if supported:
                     # Only check aux if base is supported to begin with
-                    # and level is "aux"
-                    if level == "aux":
-                        if "auxiliary" in ort:
-                            aux = set(parse_chars(
-                                ort["auxiliary"], decomposed))
-                            if aux.issubset(chars):
-                                if "auxiliary" not in support[script]:
-                                    support[script]["auxiliary"] = []
-
-                                support[script]["auxiliary"].append(self.iso)
-                                supported = True
-                        else:
-                            # aux level requested, but orthography has no such
-                            # attribute, meaning there is no required chars to
-                            # quality for "aux" support, thus return true
-                            supported = True
+                    # and level is "aux" and orthography has "auxiliary"
+                    # defined - if orthography has no "auxiliary" we consider
+                    # it supported on "auxiliary" level, too
+                    if level == "aux" and "auxiliary" in ort:
+                        aux = set(parse_chars(ort["auxiliary"], decomposed))
+                        supported = aux.issubset(chars)
 
             if supported:
+                if script not in support:
+                    support[script] = []
+                support[script].append(self.iso)
                 pruned.append(ort)
 
         if pruneOrthographies:

@@ -8,7 +8,7 @@ from fontTools.ttLib import TTFont
 from . import __version__, DB, SUPPORTLEVELS, VALIDITYLEVELS
 from .languages import Languages
 from .language import Language
-from .parse import prune_superflous_marks
+from .parse import prune_superflous_marks, parse_font_chars
 
 # All YAML dumps have these same additional arguments to make sure the unicode
 # dumping and formatting is kosher.
@@ -228,20 +228,16 @@ def cli(fonts, support, decomposed, validity, autonyms, users, output, mode,
     results = {}
 
     for font in fonts:
-        _font = TTFont(font, lazy=True)
-        cmap = _font["cmap"]
-        chars = [chr(c) for c in cmap.getBestCmap().keys()]
+        chars = parse_font_chars(font)
 
         Lang = Languages(strict=strict_iso, prune=False)
         langs = Lang.get_support_from_chars(
-            chars, validity, decomposed, include_historical,
+            chars, support, validity, decomposed, include_historical,
             include_constructed)
         level = SUPPORTLEVELS[support]
 
         results[font] = {}
         results[font] = langs
-
-        _font.close()
 
     # Mode for comparison of several files
     if mode == "individual":
@@ -277,7 +273,6 @@ def cli(fonts, support, decomposed, validity, autonyms, users, output, mode,
         data = {"union": union}
 
     elif mode == "intersection":
-        print("intersection")
         intersection = results[fonts[0]]
         for font in fonts[1:]:
             res = results[font]

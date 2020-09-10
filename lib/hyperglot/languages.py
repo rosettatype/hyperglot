@@ -5,7 +5,7 @@ import yaml
 import logging
 from .parse import parse_chars
 from .language import Language
-from . import DB, VALIDITYLEVELS
+from . import DB, VALIDITYLEVELS, SUPPORTLEVELS
 
 
 class Languages(dict):
@@ -126,7 +126,9 @@ class Languages(dict):
                         # separate
                         self[lang]["orthographies"] = m["orthographies"].copy()
 
-    def get_support_from_chars(self, chars, validity=VALIDITYLEVELS[1],
+    def get_support_from_chars(self, chars,
+                               supportlevel=list(SUPPORTLEVELS.keys())[0],
+                               validity=VALIDITYLEVELS[1],
                                decomposed=False,
                                includeHistorical=False,
                                includeConstructed=False,
@@ -166,7 +168,8 @@ class Languages(dict):
             # Do the support check on the Language level, and with the prune
             # flag the resulting Language object will have only those
             # orthographies that are supported with chars
-            lang_sup = l.has_support(chars, "base", decomposed=decomposed,
+            lang_sup = l.has_support(chars, supportlevel,
+                                     decomposed=decomposed,
                                      pruneOrthographies=pruneOrthographies)
 
             for script in lang_sup:

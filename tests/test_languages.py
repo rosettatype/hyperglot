@@ -1,46 +1,22 @@
-"""
-A humble start is better than none
-"""
-from hyperglot.parse import (parse_chars,
-                             character_list_from_string,
-                             list_unique)
+import os
+from hyperglot.parse import parse_font_chars
+from hyperglot.languages import Languages
 
 
-def test_parse_chars():
-    # Verify composites get decomposed correctly and their order is as expected
-    assert(["ĳ", "i", "j"] == parse_chars("ĳ"))
-    assert(["â", "a", "̂", "å", "̊"] == parse_chars("â å"))
+def test_languages_basic():
+    path = os.path.abspath("tests/Eczar-v1.004/otf/Eczar-Regular.otf")
 
-    # Check basic splitting
-    assert(5 == len(parse_chars("abcde")))
-    assert(5 == len(parse_chars("a b c d e")))
+    chars = parse_font_chars(path)
 
-    # Check whitespace separation
-    assert(["a", "b", "c"] == parse_chars("abc"))
-    assert(["a", "b", "c"] == parse_chars("a   bc"))
+    Langs = Languages()
+    supported = Langs.get_support_from_chars(chars)
 
-    # Check whitespaces get stripped
-    # Non breaking, em space
-    for uni in ["00A0", "2003"]:
-        assert(["a", "b"] == parse_chars("a" + chr(int(uni, 16)) + "b"))
+    # Detected scripts
+    assert "Latin" in supported.keys()
+    assert "Arabic" not in supported.keys()
 
-    # Check "whitespace" control characters do not get stripped
-    # joiners, directional overwrites
-    for uni in ["200D", "200E", "200F"]:
-        unichr = chr(int(uni, 16))
-        assert(["a", unichr, "b"] == parse_chars("a" + unichr + "b"))
+    # Obvisouly this will change if the test font ever gets updated
+    assert len(supported["Latin"].keys()) == 201
 
-    assert(len(parse_chars("а̄")) == 2)
-    assert(parse_chars("ä") == ["ä", "a", "̈"])
-
-
-def test_character_list_from_string():
-    # Check list formation from (whitespace separated) input string with
-    assert(["a", "b", "c"] == character_list_from_string("abc"))
-    assert(["a", "b", "c"] == character_list_from_string("a b c"))
-    assert(["a", "b", "c"] == character_list_from_string("a  b  c"))
-    assert(["a", "b", "c"] == character_list_from_string("a a b a c"))
-
-
-def test_list_unique():
-    assert(["a", "b", "c"] == list_unique(["a", "a", "b", "c"]))
+    # Detected arbitrary language
+    assert "zul" in supported["Latin"]
