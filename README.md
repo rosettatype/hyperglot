@@ -198,6 +198,7 @@ A few random notes:
 
 - Languages that are not written should not be included. Obviously.
 - Languages that have some speakers should not be marked as `extinct` even if ISO standard says so.
+- When adding or editing language data use the CLI commands `hyperglot-validate` to check your new data is compatible and use `hyperglot-save` to actually "save" the database in a standardized way (clean up, sorting, etc)
 
 
 ## Other databases included in this repo
