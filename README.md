@@ -1,49 +1,68 @@
-# Rosetta’s database of languages
+# Hyperglot – Rosetta’s database and tool for detecting language support in fonts
 
-A database of languages and standard characters required for their representation.
+**Warning: this is a work is still in progress and provided AS IS. If you would like to contribute, do get in touch!**
 
-This project started with a seemingly simple question: when can one claim that a font *F* supports a language *L*. This is needed for several reasons:
-
-1. to organize and serve fonts to customers
-2. to better promote fonts with extensive langauge support
-3. to build character sets (and glyph sets) before development
-4. to test fonts, e.g. to heuristically create kerning pairs for consideration
-5. and probably quite a few reasons unrelated to typeface design
+Characters are represented using [Unicode](https://unicode.org) code points in digital texts, e.g. the Latin-script letter `a` has a code point `U+0061`. Digital OpenType fonts map these code points to glyphs, visual representations of characters. In order to find whether one can use a font for texts in a particular language, one needs to know which character code points are required for the language. This is what Hyperglot database is for.
 
 A few notes to illustrate why the question of language support is complicated:
 
-1. a single language can be written using different orthographies in one or more scripts
-2. languages are not isolated, there are loan word, names etc. from other languages
-3. what one person considers a dialect, is a language for someone else
-4. different kinds of texts require differnt vocabulary and hence different characters
+1. a single language can be written using different orthographies in one or more scripts,
+2. languages are not isolated, there are loan words, names etc. from other languages, thus finding what is an essential character set for a language is largerly a question of convention,
+3. what one person considers a dialect, is a language for someone else,
+4. different kinds of texts require different vocabulary and hence different characters.
 
-We have decided to take a pragmatic approach and reduce the problem to finding standard character set of each language (typically an official alphabet or syllabary or its approximation) and occassionally we provide a list of auxiliary characters used in reference literature (linguistics) or in very common loan words. In case the script used is bicameral, only lowercase versions of characters are provided with a few exceptions.
+We have decided to take a pragmatic approach and reduce the problem to finding standard character set of each language (typically an official alphabet or syllabary or its approximation) for each orthography it uses. We only occassionally provide a list of auxiliary characters used in reference literature (linguistics) or in very common loan words.
 
-We are also providing a command-line tool to automate the analysis of language support
+## Database
 
-**This is a work in progress provided AS IS. If you want to contribute, do get in touch!**
-
-## Structure of the Rosetta database
-
-1. language records are indexed by ISO 639-3 three-letter codes
-2. a language `name` is also based on ISO 639-3. There is an option to override this and set a `preferred_name` in case the ISO name is pejorative or racist. We also use this to simplify very long names and where we have a preference (e.g. Sami over Saami).
-3. a language can contain a list of `orthographies`
-4. in case a language is a macrolanguage, it has an attribute `includes` which is a list of language codes of the sub-languages. If a sub-language does not have any orthography defined, it can use one defined for the macrolanguage. If there is one. A macrolanguages are not typically presented. In case there are too many individual sub-languages with insufficient information, we use attribute `preferred_as_individual: true` to indicate that this macrolanguage will be treated exceptionally as an individual language.
-5. an orthography is a list of character sets:
-	- `base` is a string of space-separated characters from the language’s standard alphabet, syllabary, or an approximation of those.
-	- `auxiliary` is a string of space-separated characters that are used in very common loan words or in reference literature (e.g. linguistic)
-	- `combinations` is a string with combinations of characters or characters and marks that should be supported by the font.
-6. each orthography has a `script` specified with a four-letter Unicode tag (Latn, Arab, Cyrl, …) and `status` which can be `deprecated`, `secondary`, `local` or `living/active` (default when the attribute is missing). Both `deprecated` and `secondary` are ignored when claiming a support for a particular language and orthography. The value `local` refers to an orthography which is used only is specific region.
-7. an `autonym` (name of the language in the language itself) is typically specified on the level of orthographies, but sometimes it is specified for a language, e.g. for a macrolanguage. The orthography autonym and name override the corresponding attributes of the language.
-8. each languages can also have the following additional attributes:
-	- a number of native `speakers`. Note that this is a number of speakers, thus one needs to account for literacy rate in particular language. This can be a range. To indicate how up to date the number is, a `speakers_date` is provided referring to the publication date of a reference used on Wikipedia.
-	- a `status` which can be `historical`, `constructed`, or `living` (default when the attribute is missing).
-	- `source` is a list of sources used to define the orthographies.
+The database is stored in the YAML file `hyperglot.yaml`.
 
 
-The database is stored in a YAML file `data/rosetta.yaml`. Here are two basic examples:
+### Languages
 
-### An individual language with one orthography
+The highest level entries represent languages indexed using the ISO 639-3 code.
+
+Each language entry can have these attributes which default to empty string or list unless stated otherwise:
+
+- `name` (required): the English name of the language. This is also based on ISO 639-3. 
+- `preferred_name` (optional): an override of the ISO 639-3 name. This is useful when the ISO 639-3 name  is pejorative or racist. We also use this to simplify very long names and where we have a preference (e.g. Sami over Saami). This can be turned off when using the database via the CLI tool or module to adhere strictly to ISO 639-3.
+- `autonym` (optional): the name of the language in the language itself.
+- `orthographies` (optional): a list of orthographies for this language. See below.
+- `speakers` (optional) is a number of L1 speakers obtained from Wikipedia. Note that this is a number of speakers, thus one needs to account for literacy rate in particular language. This can an integer or a range.
+- `speakers_date` (optional) is the publication date of the reference used for the speakers count on Wikipedia.
+- `status` (required, defaults to `living`) the status of the language, may be one of `historical, constructed, living`.
+- `source` (optional) is a list of source names used to define the orthographies, e.g. Wikipedia, Omniglot, Alvestrand. See below for the complete list.
+- `validity` (required, defaults to `todo`): one of the following:
+  - `todo` for unfinished entries which may be used to detect a potential language support with little certainty,
+  - `weak` for entries that are complete but have not been checked, yet,
+  - `done` for entries we have checked with at least two online sources,
+  - `verified` for entries confirmed by a native speaker or a linguist.
+- `note` (optional): a note of any kind.
+
+
+### Orthographies
+
+A language can refer to one or more orthographies. An orthography specifies the script and characters from this script used to represent the language. There can be multiple orthographies for the same language using the same or different scripts. Each orthographic entry can have these attributes which default to an empty string or list unless stated otherwise:
+
+- `base` (required or use `inherit`): a string of space-separated characters or combinations of characters and combining marks that are required to represent the language in common texts. This typically maps to a standard alphabet or syllabary for the language or am approximation of thereof. In case the script used is bicameral, only lowercase versions of characters are provided with a few exceptions, e.g. the Turkish `İ`.
+- `auxiliary` (optional): a string of space-separated characters or combinations of characters and combining marks that are not part of the standard alphabet, but appear in very common loan words or in reference literature. Deprecated characters can be included here too, e.g. `ş ţ` for Romanian.
+- `autonym` (optional): the name of the language in the language itself using this orthography. If missing, the `autonym` defined in the parent language entry is used.
+- `inherit` (required or use `base`): the code of a language to copy the `base` and `auxiliary` strings from. In case the language has multiple orthographies, the first one for the same script is used.
+- `script` (required): English name of the script, e.g. Latin, Arabic, Armenian, Cyrillic, Greek, Hebrew.
+- `status` (required, defaults to `living`): the status of the orthography, may be one of: `deprecated, secondary, local, living`. The value `local` refers to an orthography which is used only is specific region. Orthographies with `deprecated` and `secondary` status are included only for the sake of completeness and ignored during language support detection.
+- `note` (optional): a note of any kind.
+
+
+### Macrolanguages
+
+[Macrolanguages](https://en.wikipedia.org/wiki/ISO_639_macrolanguage) are used in the ISO 639-3 standard to keep it compatible with ISO 639-2 in situations where one language entry in ISO 639-2 corresponds to a group of languages in ISO 639-3. Macrolanguages are typically not used by the Hyperglot’s main database. They are stored in a separate file in `other/hyperglot_macrolanguages.yaml` for convenience. However, in some situations, it is our preference to include some of the macrolanguages as if they were regular ISO 639-3 languages. This is done to simplify the listings or to deal with scarcity of information for its sub-languages. Besides the same attributes as language entries, macrolanguages can use the following:
+
+- `includes` (required) contains a list of ISO 639-3 codes referring to sub-languages of the macrolanguage.
+- `preferred_as_individual` (optional, defaults to `false`): set to `true` signifies that the macrolanguage us included in the main database as if it was a regular language.
+
+
+
+### Example of individual language with one orthography
 
 ```
 dan:
@@ -51,7 +70,7 @@ dan:
   - base: a b c d e f g h i j k l m n o p q r s t u v w x y z å æ ø
     auxiliary: ǻ  # this character is used only in linguistic literature for Danish
     autonym: Dansk
-    script: Latn
+    script: Latin
   name: Danish
   speakers: 6000000
   source: [Omniglot, Wikipedia, CLDR]
@@ -68,7 +87,20 @@ fas:
   source: [Wikipedia]
 ```
 
-## The fontlang command-line tool
+## Detecting language support
+
+1. A list of codepoints is obtained from a font.
+2. The database can be accessed in two modes:
+	- By **default** combinations of a base character with marks are required as single code point where this exists (e.g. encoded `ä`), codepoints for base characters and combining mark characters (e.g. `a` and combining `¨`) from these combinations are also required.
+	- Using the `decomposed` flag fonts are required to contain the base character and combining marks for a language (e.g. languages with `ä` will match for fonts that only have `a` and combining `¨` but not `ä` as  encoded glyph).
+3. Specified `validity` level is used to filter out language entries according to a user’s preference.
+4. If requested, `base` and `aux` (auxiliary) lists of codepoints are combined to achieve more strict criteria by using the `--support` option.
+5. Orthographies with `deprecated` or `secondary` status are ignored and are listed in the database for completeness only.
+6. If the list of code points in the font includes all code points from the list of codepoints for an orthography of given language, the font is considered to support this language orthography. In listings these are be grouped by scripts.
+
+
+
+## Command-line tool
 
 A simple CLI tool is provided to output language support data for a passed in font file.
 
@@ -77,78 +109,73 @@ A simple CLI tool is provided to output language support data for a passed in fo
 Install via repo and pip:
 
 ```
-$ pip install git+https://github.com/rosettatype/langs-db
+$ pip install git+https://github.com/rosettatype/hyperglot
 ```
 
 ### Usage
 
-`$ fontlang path/to/font.otf`
+`$ hyperglot path/to/font.otf`
 
 or to check several fonts at once, or their combined coverage (with `-m union`)
 
-`$ fontlang path/to/font.otf path/to/anotherfont.otf ...`
+`$ hyperglot path/to/font.otf path/to/anotherfont.otf ...`
 
 **Additional options**:
 
 - `-s, --support`: Specify what level of support to check against (currently options are "base" (default if omitted) or "aux")
+- `-d, --decomposed`: Flag to signal a font should be considered supporting a language as long as it has all base glyphs and marks to write a language - by default also encoded precomposed glyphs are required (default is False)
 - `-a, --autonyms`: Output the language names in their native language and script
 - `-u, --users`: Also output language user count (where available)
-- `-o, --output`: Supply a file path to write the output to, in yaml format. For a single input font this will be a subset of rosetta.yaml with the languages and orthographies that the font supports. If several fonts are provided the yaml file will have a top level dict key for each file. If the `-m` option is provided the yaml file will contain the specific intersection or union result
+- `-o, --output`: Supply a file path to write the output to, in yaml format. For a single input font this will be a subset of the Hyperglot database with the languages and orthographies that the font supports. If several fonts are provided the yaml file will have a top level dict key for each file. If the `-m` option is provided the yaml file will contain the specific intersection or union result
 - `-m, --mode`: How to process input if several files are provided (currently options are "individual", "union" and "intersection")
+- `--validity`: Specifiy to filter by the level of certainty the database information has for languages (default is "done")
 - `--include-historical`: option to include languages and orthographies marked as historical (default is False)
 - `--include-constructed`: option to include languages and orthographies that are marked as constructed (default is False)
+- `--strict-iso`: Display language names and macrolanguage data strictly according to ISO (default is False)
 - `-v, --verbose`: More logging information (default is False)
-- `-V, --version`: Print the version fontlang version number (default is False)
+- `-V, --version`: Print the version hyperglot version number (default is False)
 
 ### Validating and sorting the database yaml file
 
-Simple validation and sorting script to verify the data integrity of `data/rosetta.yaml` and point out possible formatting errors is included as `fontlang-validate` (prints problems to terminal) and `fontlang-save` (saves the rosetta.yaml sorted alphabetically by iso keys)
+Simple validation and sorting script to verify the data integrity of `hyperglot.yaml` and point out possible formatting errors is included as `hyperglot-validate` (prints problems to terminal) and `hyperglot-save` (saves the `hyperglot.yaml` sorted alphabetically and pruned by iso keys)
 
 ### Development
 
 To run the script during development without having to constantly reinstall the pip package, you can use:
 
 ```
-$ git clone git@bitbucket.org:rosettatype/fontlang.git && cd fontlang
+$ git clone https://github.com/rosettatype/hyperglot.git && cd hyperglot
 $ pip install --upgrade --user --editable .
 ```
 
-Additionally, to dynamically link the information in `data/rosetta.yaml` into the python package to be used, link them into the package:
+Additionally, to dynamically link the information in `hyperglot.yaml` into the python package to be used, link them into the package:
 
 ```
-$ rm lib/fontlang/rosetta.yaml
-$ ln data/rosetta.yaml lib/fontlang/rosetta.yaml
+$ rm lib/hyperglot/hyperglot.yaml
+$ ln hyperglot.yaml lib/hyperglot/hyperglot.yaml
 ```
 
-It is `lib/fontlang/rosetta.yaml` that gets packages with the `fontlang` CLI command!
+NOTE: It is `lib/hyperglot/hyperglot.yaml` that gets packages with the `hyperglot` CLI command!
 
-## Other databases included in this repo
+To test the codebases after making changes run the `pytest` test suite:
 
-The following are YAML files distilled from the original data stored in subfolders with corresponding names.
-
-- `data/alvestrand.yaml` – data (indexed by ISO 639-3 codes) scraped from Alvestrand (see Sources below).
-- `data/cldr.yaml` - data (indexed by 4-letter script tags and ISO 639-3 language codes) from Unicode’s CLDR database.
-- `data/iso-639-3.yaml` – data from IS0 639-3 (three-letter codes) with corresponding ISO 639-2 (older three-letter codes) and ISO 639-1 (two-letter codes) where available. Also includes language names and attributes from ISO 639-3.
-- `data/iso-639-3_retirements.yaml` – language codes no longer available in ISO 639-3
-- `data/iso-639-2_collections.yaml` – language collections from ISO 639-2 (no longer available in ISO 639-3)
-- `data/opentype-language-tags.yaml` –OpenType language tags and names with their corresponding ISO 639-3 language codes
-
-The following data is not used or used only to build comparisons:
-
-- `data/other/extensis` – character sets compiled by Extensis/WebINK
-- `data/other/iana` – from [IANA language subtag registry](https://www.iana.org/assignments/lang-subtags-templates/lang-subtags-templates.xhtml)
-- `data/other/latin-plus` - data from a [Latin-only database compiled by Underware](https://underware.nl/latin_plus/)
+```
+pytest
+```
 
 ## Sources
 
 The main sources we used to build the database are:
 
+- Alvestrand, Harald Tveit. Characters and character sets for various languages. 1995.
+- [Ethnologue](http://ethnologue.org)
+- [ISO 639-3 ](http://iso639-3.sil.org)
+- [Omniglot](http://omniglot.com)
 - [Unicode CLDR](http://unicode.org)
 - [Wikipedia](http://wikipedia.org)
-- [Omniglot](http://omniglot.com)
-- Alvestrand, Harald Tveit. Characters and character sets for various languages. 1995.
 
-The autonyms were sourced from Ethnologue, Wikipedia, and Omniglot (in this order preferrably). The speaker counts are from Wikipedia.
+The autonyms were sourced from Ethnologue, Wikipedia, and Omniglot (in this order preferrably).
+The speaker counts are from Wikipedia.
 
 ## Credits
 
@@ -156,3 +183,30 @@ The autonyms were sourced from Ethnologue, Wikipedia, and Omniglot (in this orde
 - Sergio Martins  
 - Johannes Neumeier
 - Toshi Omagari
+
+## Contributing
+
+A few random notes:
+
+- Languages that are not written should not be included. Obviously.
+- Languages that have some speakers should not be marked as `extinct` even if ISO standard says so.
+- When adding or editing language data use the CLI commands `hyperglot-validate` to check your new data is compatible and use `hyperglot-save` to actually "save" the database in a standardized way (clean up, sorting, etc).
+- When contributing code make sure to install the `pytest` module and run `pytest` and make sure no errors are detected. Ideally, write tests for any code additions or changes you added.
+
+
+## Other databases included in this repo
+
+The following are YAML files distilled from the original data stored in subfolders with corresponding names.
+
+- `other/alvestrand.yaml` – data (indexed by ISO 639-3 codes) scraped from Alvestrand (see Sources below).
+- `other/cldr.yaml` - data (indexed by 4-letter script tags and ISO 639-3 language codes) from Unicode’s CLDR database.
+- `other/iso-639-3.yaml` – data from IS0 639-3 (three-letter codes) with corresponding ISO 639-2 (older three-letter codes) and ISO 639-1 (two-letter codes) where available. Also includes language names and attributes from ISO 639-3.
+- `other/iso-639-3_retirements.yaml` – language codes no longer available in ISO 639-3
+- `other/iso-639-2_collections.yaml` – language collections from ISO 639-2 (no longer available in ISO 639-3)
+- `other/opentype-language-tags.yaml` –OpenType language tags and names with their corresponding ISO 639-3 language codes
+
+The following data was not used to built the Hyperglot database, but it used to build comparative previews:
+
+- `other/extensis` – character sets compiled by Extensis/WebINK
+- `other/iana` – from [IANA language subtag registry](https://www.iana.org/assignments/lang-subtags-templates/lang-subtags-templates.xhtml)
+- `other/latin-plus` - data from a [Latin-only database compiled by Underware](https://underware.nl/latin_plus/)

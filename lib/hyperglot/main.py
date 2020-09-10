@@ -5,8 +5,24 @@ import yaml
 import logging
 from collections import OrderedDict
 from fontTools.ttLib import TTFont
-from . import __version__, DB, SUPPORTLEVELS
-from .languages import Languages, Language
+from . import __version__, DB, SUPPORTLEVELS, VALIDITYLEVELS
+from .languages import Languages
+from .language import Language
+from .parse import prune_superflous_marks, parse_font_chars
+
+# All YAML dumps have these same additional arguments to make sure the unicode
+# dumping and formatting is kosher.
+DUMP_ARGS = {
+    # Aka "make human readable"
+    "default_flow_style": False,
+
+    # D'ah
+    "allow_unicode": True,
+
+    # When dumping to yaml make sure not to intruduce line breaks in the
+    # character lists (this will mess with the order in RTL strings).
+    "width": 999
+}
 
 
 def validate_font(ctx, param, value):
@@ -28,8 +44,8 @@ def validate_font(ctx, param, value):
     return value
 
 
-def language_list(langs, native=False, users=False, script=None, strict_iso=False,
-                  seperator=", "):
+def language_list(langs, native=False, users=False, script=None,
+                  strict_iso=False, seperator=", "):
     """
     Return a printable string for all languages
     """
@@ -58,48 +74,29 @@ def language_list(langs, native=False, users=False, script=None, strict_iso=Fals
     return seperator.join(items)
 
 
-def print_to_cli(font, title, autonyms, users, script, strict_iso):
+def print_to_cli(font, title, autonyms, users, strict_iso):
     print()
     print("=" * len(title))
     print(title)
     print("=" * len(title))
     print()
-    if "done" in font:
-        done = font["done"]
-        total = 0
-        for script in done:
-            count = len(done[script])
-            if count > 0:
-                print()
-                title = "%d %s of %s script:" % \
-                    (count, "language" if count == 1 else "languages",
-                     script)
-                print(title)
-                print("-" * len(title))
-                print(language_list(done[script],
-                                    autonyms, users, script, strict_iso))
-                total = total + count
-        if total > 0:
+    total = 0
+    for script in font:
+        count = len(font[script])
+        if count > 0:
             print()
-            print("%d languages supported in total." % total)
-            print()
-
-    if "weak" in font:
+            title = "%d %s of %s script:" % \
+                (count, "language" if count == 1 else "languages",
+                    script)
+            print(title)
+            print("-" * len(title))
+            print(language_list(font[script],
+                                autonyms, users, script, strict_iso))
+            total = total + count
+    if total > 0:
         print()
-        weak = font["weak"]
-        for script in weak:
-            count = len(weak[script])
-            if count > 0:
-                print()
-                title = "There are %d %s of %s script that are likely " \
-                    "supported, but the database lacks independent " \
-                    "confirmation:" % \
-                    (count, "langauage" if count == 1 else "languages",
-                     script)
-                print(title)
-                print("-" * len(title))
-                print(language_list(weak[script],
-                                    autonyms, users, script, strict_iso))
+        print("%d languages supported in total." % total)
+        print()
 
 
 def prune_intersect(intersection, res, level):
@@ -158,7 +155,7 @@ def write_yaml(file, data):
         # results are listed
         # That's already how the data is :)
         pass
-    yaml.dump(write, file, default_flow_style=False, allow_unicode=True)
+    yaml.dump(write, file, **DUMP_ARGS)
 
     print()
     print("Wrote support information to %s" % file.name)
@@ -173,31 +170,38 @@ MODES = ["individual", "union", "intersection"]
 @click.option("-s", "--support",
               type=click.Choice(SUPPORTLEVELS.keys(), case_sensitive=False),
               default="base", show_default=True,
-              help="What level of language support to check the fonts for."
-              )
+              help="Option to test only for the language's base charset, or to"
+              " also test for presence of all auxilliary characters, if "
+              "present in the database.")
+@click.option("-d", "--decomposed", is_flag=True, default=False,
+              help="When set composable characters are not required as "
+              "precomposed characters, but a font is valid if it has the "
+              "required base and mark characters.")
+@click.option("--validity", type=click.Choice(VALIDITYLEVELS,
+                                              case_sensitive=False),
+              default=VALIDITYLEVELS[1], show_default=True,
+              help="The level of validity for languages matched against the "
+              "font. Weaker levels always include more strict levels. The "
+              "default includes all languages for which the database has "
+              "charset data.")
 @click.option("-a", "--autonyms", is_flag=True, default=False,
               help="Flag to render languages names in their native name.")
 @click.option("-u", "--users", is_flag=True, default=False,
               help="Flag to show how many users each languages has.")
 @click.option("-o", "--output", type=click.File(mode="w", encoding="utf-8"),
-              help="Provide a name to a yaml file to write support "
+              help="Provide a name for a yaml file to write support "
               "information to.")
 @click.option("-m", "--mode", type=click.Choice(MODES, case_sensitive=False),
               default=MODES[0], show_default=True,
-              help="When checking more than one file, a comparison can be "
+              help="When passing in more than one file, a comparison can be "
               "generated. By default each file's support is listed "
               "individually. 'union' shows support for all languages "
               "supported by the combination of the passed in fonts. "
-              "'intersection' shows the support all files have in common.")
+              "'intersection' shows the support all fonts have in common.")
 @click.option("--include-historical", is_flag=True, default=False,
               help="Flag to include otherwise ignored historical languages.")
 @click.option("--include-constructed", is_flag=True, default=False,
               help="Flag to include otherwise ignored contructed languages.")
-@click.option("--strict-support", is_flag=True, default=False,
-              help="Flag to exclude language support data that has not "
-              "undergone confirmation through several independend expert "
-              "resources. All language data is carefully compiled from "
-              "reliable sources and can be considered fairly reliable.")
 @click.option("--strict-iso", is_flag=True, default=False,
               help="Flag to display names and macrolanguage data "
               "strictly abiding to ISO data. Without it apply some gentle "
@@ -205,8 +209,8 @@ MODES = ["individual", "union", "intersection"]
               "macrolanguage structure that deviates from ISO data.")
 @click.option("-v", "--verbose", is_flag=True, default=False)
 @click.option("-V", "--version", is_flag=True, default=False)
-def cli(fonts, support, autonyms, users, output, mode, include_historical,
-        include_constructed, strict_support, strict_iso, verbose, version):
+def cli(fonts, support, decomposed, validity, autonyms, users, output, mode,
+        include_historical, include_constructed, strict_iso, verbose, version):
     """
     Pass in one or more fonts to check their languages support
     """
@@ -220,68 +224,27 @@ def cli(fonts, support, autonyms, users, output, mode, include_historical,
         print("Provide at least one path to a font or --help for more "
               "information")
 
-    # A dict with each file and its results for done and weak, e.g.
-    # { 'filea.otf': { 'done': {..}, 'weak': {..} }, 'fileb.otf: .. }
+    # A dict with each file and its results for each script
     results = {}
 
     for font in fonts:
-        _font = TTFont(font, lazy=True)
-        cmap = _font["cmap"]
-        chars = [chr(c) for c in cmap.getBestCmap().keys()]
-        Lang = Languages(strict_iso)
+        chars = parse_font_chars(font)
+
+        Lang = Languages(strict=strict_iso, prune=False)
         langs = Lang.get_support_from_chars(
-            chars, include_historical, include_constructed)
-        done = {}
-        weak = {}
-        done_statuses = ["done", "strong"]  # plus "status" not in dict
+            chars, support, validity, decomposed, include_historical,
+            include_constructed)
         level = SUPPORTLEVELS[support]
 
-        # Sort the results for this font by db status
-        for script in langs:
-            if script not in done:
-                done[script] = {}
-            if script not in weak:
-                weak[script] = {}
-
-            if level not in langs[script]:
-                continue
-            for iso, l in langs[script][level].items():
-                if "todo_status" not in l or l["todo_status"] in done_statuses:
-                    done[script][iso] = l
-                else:
-                    weak[script][iso] = l
-
         results[font] = {}
-
-        if strict_support:
-            if done:
-                results[font]["done"] = done
-
-            if weak:
-                results[font]["weak"] = weak
-        else:
-            merged = {}
-            if done:
-                merged = done
-            if weak:
-                if merged == {}:
-                    merged = weak
-                else:
-                    for script, data in weak.items():
-                        if script in merged:
-                            merged[script].update(weak[script])
-                        else:
-                            merged[script] = weak[script]
-            results[font]["done"] = merged
-        _font.close()
+        results[font] = langs
 
     # Mode for comparison of several files
     if mode == "individual":
         for font in fonts:
             title = "%s has %s support for:" % (os.path.basename(font),
                                                 level.lower())
-            print_to_cli(results[font], title, autonyms,
-                         users, script, strict_iso)
+            print_to_cli(results[font], title, autonyms, users, strict_iso)
         data = results
     elif mode == "union":
         union = {}
@@ -304,13 +267,12 @@ def cli(fonts, support, autonyms, users, output, mode, include_historical,
 
         title = "Fonts %s together have %s support for:" % \
             (", ".join([os.path.basename(f) for f in fonts]), level.lower())
-        print_to_cli(union, title, autonyms, users, script, strict_iso)
+        print_to_cli(union, title, autonyms, users, strict_iso)
         # Wrap in "single file" 'union' top level, which will be removed when
         # writing the data
         data = {"union": union}
 
     elif mode == "intersection":
-        print("intersection")
         intersection = results[fonts[0]]
         for font in fonts[1:]:
             res = results[font]
@@ -320,7 +282,7 @@ def cli(fonts, support, autonyms, users, output, mode, include_historical,
 
         title = "Fonts %s all have common %s support for:" % \
             (", ".join([os.path.basename(f) for f in fonts]), level.lower())
-        print_to_cli(intersection, title, autonyms, users, script, strict_iso)
+        print_to_cli(intersection, title, autonyms, users, strict_iso)
         # Wrap in "single file" 'intersection' top level, which will be removed
         # when writing the data
         data = {"intersection": intersection}
@@ -331,30 +293,59 @@ def cli(fonts, support, autonyms, users, output, mode, include_historical,
 
 def save_sorted(Langs=None):
     """
-    Helper script to re-save the rosetta.yaml sorted alphabetically,
+    Helper script to re-save the hyperglot.yaml sorted alphabetically,
     alternatively from the passed in Langs object (which can have been
     modified)
     """
     logging.getLogger().setLevel(logging.WARNING)
     if Langs is None:
-        Langs = Languages(inherit=False)
+        Langs = Languages(inherit=False, prune=False)
+
+        # Save with removed superflous marks
+        for iso, lang in Langs.items():
+            if "orthographies" in lang:
+                for i, o in enumerate(lang["orthographies"]):
+                    for type in ["base", "auxiliary", "numerals"]:
+                        if type in o:
+                            chars = o[type]
+                            pruned, removed = prune_superflous_marks(
+                                " ".join(o[type]))
+
+                            if len(removed) > 0:
+
+                                logging.info("Saving '%s' with '%s' pruned of "
+                                             "superfluous marks (implicitly "
+                                             "included in combining glyphs): "
+                                             "%s"
+                                             % (iso, type, "','".join(removed))
+                                             )
+
+                            chars = pruned
+
+                            if "base" in o and type != "base":
+                                chars = [
+                                    c for c in chars if c not in o["base"]]
+
+                            joined = " ".join(chars)
+
+                            Langs[iso]["orthographies"][i][type] = joined
 
     # Sort by keys
     alphabetic = dict(OrderedDict(sorted(Langs.items())))
 
     file = open(DB, "w")
-    yaml.dump(alphabetic, file, default_flow_style=False, allow_unicode=True)
+    yaml.dump(alphabetic, file, **DUMP_ARGS)
 
 
 @click.command()
 @click.argument("output", type=click.Path())
 def export(output):
     """
-    Helper script to export rosetta.yaml with all inhereted orthographies
+    Helper script to export hyperglot.yaml with all inhereted orthographies
     expanded
     """
     logging.getLogger().setLevel(logging.WARNING)
     Langs = dict(Languages(inherit=True).items())
 
     file = open(output, "w")
-    yaml.dump(Langs, file, default_flow_style=False, allow_unicode=True)
+    yaml.dump(Langs, file, **DUMP_ARGS)

@@ -1,14 +1,22 @@
-"""
-A humble start is better than none
-"""
-from fontlang.languages import parse_chars
+import os
+from hyperglot.parse import parse_font_chars
+from hyperglot.languages import Languages
 
 
-def test_parse_chars():
-    # Verify composites get decomposed correctly
-    assert({"j", "ĳ", "i"} == parse_chars("ĳ"))
-    assert({"å", "̊", "a", "̂", "â"} == parse_chars("â å"))
+def test_languages_basic():
+    path = os.path.abspath("tests/Eczar-v1.004/otf/Eczar-Regular.otf")
 
-    # Check basic splitting
-    assert(5 == len(parse_chars("abcde")))
-    assert(5 == len(parse_chars("a b c d e")))
+    chars = parse_font_chars(path)
+
+    Langs = Languages()
+    supported = Langs.get_support_from_chars(chars)
+
+    # Detected scripts
+    assert "Latin" in supported.keys()
+    assert "Arabic" not in supported.keys()
+
+    # Obvisouly this will change if the test font ever gets updated
+    assert len(supported["Latin"].keys()) == 201
+
+    # Detected arbitrary language
+    assert "zul" in supported["Latin"]

@@ -9,7 +9,7 @@ aae:
   speakers: 100000
   speakers_date: 2007
   status: living
-  todo_status: weak
+  validity: weak
 aaq:
   name: Eastern Abnaki
   orthographies:
@@ -20,7 +20,7 @@ aaq:
   - Omniglot
   speakers: 0
   status: extinct
-  todo_status: weak
+  validity: weak
 aar:
   name: Afar
   orthographies:
@@ -33,18 +33,16 @@ aar:
   speakers: 1973800
   speakers_date: 2017
   status: living
-  todo_status: strong
+  validity: verified
 aat:
   name: Arvanitika Albanian
   orthographies:
   - autonym: Arbërisht
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á ä ç è é ë í ï ó ö
-      ú ü ý
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á ä ç è é ë í ï ó ö ú ü ý
     script: Latin
   - autonym: Αρbε̰ρίσ̈τ
     auxiliary: η ψ ω ά έ ή ί ό ύ ώ ϊ ϋ ΐ ΰ
-    base: α β b ϳ γ δ d ε ζ θ ι κ λ μ ν ξ ο π ρ σ ς τ υ φ χ
-    combinations: '{γ̇}{ε̱}{ν̇}{σ̇}{σ̈}{χ̇}{ε̰}'
+    base: α β b ϳ γ δ d ε ζ θ ι κ λ μ ν ξ ο π ρ σ ς τ υ φ χ ̇ ̱ ̈ ̰
     script: Greek
   source:
   - Omniglot
@@ -52,7 +50,7 @@ aat:
   speakers: 50000
   speakers_date: 2007
   status: living
-  todo_status: strong
+  validity: verified
 abe:
   name: Western Abnaki
   orthographies:
@@ -64,13 +62,12 @@ abe:
   speakers: 14
   speakers_date: 2007-2012
   status: living
-  todo_status: weak
+  validity: weak
 abk:
   name: Abkhazian
   orthographies:
   - autonym: Аԥсшәа
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я џ қ ҟ ҩ
-      ҭ ҳ ҵ ҷ ҽ ҿ ә ӡ ӷ ԥ
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я џ қ ҟ ҩ ҭ ҳ ҵ ҷ ҽ ҿ ә ӡ ӷ ԥ
     script: Cyrillic
   source:
   - Omniglot
@@ -78,7 +75,7 @@ abk:
   speakers: 190110
   speakers_date: 2014-2015
   status: living
-  todo_status: strong
+  validity: verified
 abq:
   name: Abaza
   orthographies:
@@ -91,7 +88,7 @@ abq:
   speakers: 49800
   speakers_date: 2010-2014
   status: living
-  todo_status: strong
+  validity: verified
 abr:
   name: Abron
   orthographies:
@@ -104,11 +101,10 @@ abr:
   speakers: 1400000
   speakers_date: 2013
   status: living
-  todo_status: strong
+  validity: verified
 abv:
   name: Baharna Arabic
-  note: Initial, medial, and final forms of the letters and some ligatures are also
-    required.
+  note: Initial, medial, and final forms of the letters and some ligatures are also required.
   orthographies:
   - autonym: بحراني
     inherit: arb
@@ -118,27 +114,24 @@ abv:
   speakers: 730000
   speakers_date: 2001-2013
   status: living
-  todo_status: weak
+  validity: weak
 acm:
   name: Mesopotamian Arabic
-  note: Initial, medial, and final forms of the letters and some ligatures are also
-    required.
+  note: Initial, medial, and final forms of the letters and some ligatures are also required.
   orthographies:
   - autonym: عراقي
-    auxiliary: ڛ ڢ ٯ ڧ ک ی ڥ چ گ ڨ ڭ ڠ
-    base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ ڤ پ گ
-      ة
-    numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ ١٠
+    auxiliary: ڛ ڢ ٯ ڧ ک ی ڥ چ ڨ ڭ ڠ
+    base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ ڤ پ گ ة
+    numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩
     script: Arabic
   preferred_name: Iraqi Arabic
   speakers: 15700000
   speakers_date: 2014-2016
   status: living
-  todo_status: weak
+  validity: weak
 acq:
   name: Ta'izzi-Adeni Arabic
-  note: Initial, medial, and final forms of the letters and some ligatures are also
-    required.
+  note: Initial, medial, and final forms of the letters and some ligatures are also required.
   orthographies:
   - autonym: يمني
     inherit: arb
@@ -149,27 +142,25 @@ acq:
   speakers: 10480000
   speakers_date: 2015-2016
   status: living
-  todo_status: weak
+  validity: weak
 acw:
   name: Hijazi Arabic
-  note: Initial, medial, and final forms of the letters and some ligatures are also
-    required.
+  note: Initial, medial, and final forms of the letters and some ligatures are also required.
   orthographies:
   - autonym: حجازي
     auxiliary: ڛ ڢ ٯ ڧ ک ی ڥ چ گ ڨ ڭ ڠ
     base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ پ ڤ
-    numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ ١٠
+    numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩
     script: Arabic
   source:
   - Wikipedia
   speakers: 145000000
   speakers_date: 2011
   status: living
-  todo_status: weak
+  validity: weak
 acx:
   name: Omani Arabic
-  note: Initial, medial, and final forms of the letters and some ligatures are also
-    required.
+  note: Initial, medial, and final forms of the letters and some ligatures are also required.
   orthographies:
   - autonym: عماني
     inherit: arb
@@ -179,7 +170,7 @@ acx:
   speakers: 1055000
   speakers_date: 1995-1996
   status: living
-  todo_status: weak
+  validity: weak
 acz:
   name: Acheron
   orthographies:
@@ -191,7 +182,7 @@ acz:
   speakers: 20000
   speakers_date: 2006
   status: living
-  todo_status: weak
+  validity: weak
 ady:
   name: Adyghe
   orthographies:
@@ -204,16 +195,12 @@ ady:
   speakers: 575900
   speakers_date: 2005-2015
   status: living
-  todo_status: strong
+  validity: verified
 aeb:
   name: Tunisian Arabic
-  note: Initial, medial, and final forms of the letters and some ligatures are also
-    required.
+  note: Initial, medial, and final forms of the letters and some ligatures are also required.
   orthographies:
   - autonym: تونسي
-    #auxiliary: ڛ ڢ ٯ ڧ ک ی ڤ چ گ ڭ ڠ
-    #base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ ڨ ڥ پ
-    #numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ ١٠
     inherit: arb
     script: Arabic
   source:
@@ -221,11 +208,10 @@ aeb:
   speakers: 11200000
   speakers_date: 2014
   status: living
-  todo_status: weak
+  validity: weak
 aec:
   name: Saidi Arabic
-  note: Initial, medial, and final forms of the letters and some ligatures are also
-    required.
+  note: Initial, medial, and final forms of the letters and some ligatures are also required.
   orthographies:
   - autonym: صعيدي
     inherit: arz
@@ -235,7 +221,7 @@ aec:
   speakers: 22400000
   speakers_date: 2016
   status: living
-  todo_status: weak
+  validity: weak
 aer:
   name: Eastern Arrernte
   note: The number of speakers relates to all Arrernte languages
@@ -249,21 +235,21 @@ aer:
   speakers: 4537
   speakers_date: 2016
   status: living
-  todo_status: strong
+  validity: verified
 afb:
   name: Gulf Arabic
   orthographies:
   - autonym: خليجي
-    auxiliary: ڛ ڢ ٯ ڧ ک ی ڥ چ گ ڨ ڭ ڠ
+    auxiliary: ڛ ڢ ٯ ڧ ک ی ڥ چ ڨ ڭ ڠ
     base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ ڤ پ گ
-    numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ ١٠
+    numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩
     script: Arabic
   source:
   - Wikipedia
   speakers: 6800000
   speakers_date: 2016
   status: living
-  todo_status: weak
+  validity: weak
 afr:
   name: Afrikaans
   note: The use ŉ has been deprecated and is strongly discouraged.
@@ -277,21 +263,20 @@ afr:
   speakers: 7200000
   speakers_date: 2016
   status: living
-  todo_status: strong
+  validity: verified
 agq:
   name: Aghem
   orthographies:
   - autonym: Aghɨ̂m
     auxiliary: q r x
-    base: a b c d e f g h i k l m n o p s t u v w y z à â è ê ì î ò ô ù û ā ē ě ī
-      ŋ ō ū ǎ ǐ ǒ ǔ ɔ ɛ ɨ ʉ ʔ ̀ ̂ ̄ ̌
+    base: a b c d e f g h i k l m n o p s t u v w y z à â è ê ì î ò ô ù û ā ē ě ī ŋ ō ū ǎ ǐ ǒ ǔ ɔ ɛ ɨ ʉ ʔ
     script: Latin
   source:
   - CLDR
   speakers: 27000
   speakers_date: 2000
   status: living
-  todo_status: weak
+  validity: weak
 agx:
   name: Aghul
   orthographies:
@@ -304,11 +289,10 @@ agx:
   speakers: 29300
   speakers_date: 2010
   status: living
-  todo_status: strong
+  validity: verified
 aiq:
   name: Aimaq
-  note: Initial, medial, and final forms of the letters and some ligatures are also
-    required.
+  note: Initial, medial, and final forms of the letters and some ligatures are also required.
   orthographies:
   - autonym: ایماقی
     inherit: pes
@@ -318,29 +302,22 @@ aiq:
   speakers: 650000
   speakers_date: 1993
   status: living
-  todo_status: weak
+  validity: weak
 ajp:
   name: South Levantine Arabic
-  note: Initial, medial, and final forms of the letters and some ligatures are also
-    required.
+  note: Initial, medial, and final forms of the letters and some ligatures are also required.
   orthographies:
   - autonym: فلسطيني
     auxiliary: ڛ ڢ ٯ ڧ ک ی ڥ گ ڨ ڭ ڠ
     base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ ڤ پ چ
-    numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ ١٠
+    numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩
     script: Arabic
   source:
   - Wikipedia
   speakers: 5100000
   speakers_date: 2014–2016
   status: living
-  todo_status: weak
-aka:
-  includes:
-  - fat
-  - twi
-  name: Akan
-  status: living
+  validity: weak
 aln:
   name: Gheg Albanian
   orthographies:
@@ -354,7 +331,7 @@ aln:
   speakers: 3450000
   speakers_date: 2000–2001
   status: living
-  todo_status: weak
+  validity: weak
 als:
   name: Tosk Albanian
   orthographies:
@@ -366,20 +343,19 @@ als:
   speakers: 1800000
   speakers_date: 2011
   status: living
-  todo_status: weak
+  validity: weak
 alt:
   name: Southern Altai
   orthographies:
   - autonym: Алтайча
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ј ҥ ӧ
-      ӱ
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ј ҥ ӧ ӱ
     script: Cyrillic
   source:
   - Omniglot
   speakers: 55720
   speakers_date: 2010
   status: living
-  todo_status: weak
+  validity: weak
 ami:
   name: Amis
   orthographies:
@@ -391,7 +367,7 @@ ami:
   speakers: 181000
   speakers_date: 2009
   status: living
-  todo_status: weak
+  validity: weak
 ani:
   name: Andi
   orthographies:
@@ -403,7 +379,7 @@ ani:
   speakers: 5800
   speakers_date: 2010
   status: living
-  todo_status: weak
+  validity: weak
 aoz:
   name: Uab Meto
   orthographies:
@@ -415,11 +391,10 @@ aoz:
   speakers: 800000
   speakers_date: 2009-2011
   status: living
-  todo_status: weak
+  validity: weak
 apc:
   name: North Levantine Arabic
-  note: Initial, medial, and final forms of the letters and some ligatures are also
-    required.
+  note: Initial, medial, and final forms of the letters and some ligatures are also required.
   orthographies:
   - autonym: لبناني
     inherit: arb
@@ -429,30 +404,28 @@ apc:
   speakers: 24200000
   speakers_date: 2014-2015
   status: living
-  todo_status: weak
+  validity: weak
 apd:
   name: Sudanese Arabic
-  note: Initial, medial, and final forms of the letters and some ligatures are also
-    required.
+  note: Initial, medial, and final forms of the letters and some ligatures are also required.
   orthographies:
   - autonym: سوداني
     auxiliary: ڛ ڢ ٯ ڧ ک ڤ ڥ پ چ گ ڨ ڭ ڠ
     base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ ی
-    numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ ١٠
+    numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩
     script: Arabic
   source:
   - Wikipedia
   speakers: 31900000
   speakers_date: 2015
   status: living
-  todo_status: weak
+  validity: weak
 aqc:
   name: Archi
-  note: Mathematically, there are 1,502,839 possible forms that can be derived from
-    a single verb root. Shorter autonym?
+  note: Mathematically, there are 1,502,839 possible forms that can be derived from a single verb root. Shorter autonym?
   orthographies:
   - autonym: Аршаттен чӏат
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ӏ а́ е́ и́ о́
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ӏ ́
     script: Cyrillic
   source:
   - Omniglot
@@ -460,44 +433,7 @@ aqc:
   speakers: 970
   speakers_date: 2010
   status: living
-  todo_status: strong
-ara:
-  includes:
-  - aao
-  - abh
-  - abv
-  - acm
-  - acq
-  - acw
-  - acx
-  - acy
-  - adf
-  - aeb
-  - aec
-  - afb
-  - ajp
-  - apc
-  - apd
-  - arb
-  - arq
-  - ars
-  - ary
-  - arz
-  - auz
-  - avl
-  - ayh
-  - ayl
-  - ayn
-  - ayp
-  - pga
-  - shu
-  - ssh
-  name: Arabic
-  source:
-  - Wikipedia
-  speakers: 310000000
-  speakers_date: 2011-2016
-  status: living
+  validity: verified
 arb:
   name: Standard Arabic
   note: The speakers are L2 only (it’s second langauge only).
@@ -505,13 +441,13 @@ arb:
   - autonym: العربية
     auxiliary: ڛ ڢ ٯ ڧ ک ی ڤ ڥ پ چ گ ڨ ڭ ڠ
     base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ ة
-    numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ ١٠
+    numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩
     script: Arabic
   source:
   - Wikipedia
   speakers: 270000000
   status: living
-  todo_status: weak
+  validity: weak
 arg:
   name: Aragonese
   orthographies:
@@ -524,11 +460,10 @@ arg:
   speakers: 10000–12000
   speakers_date: 2017
   status: living
-  todo_status: strong
+  validity: verified
 arq:
   name: Algerian Arabic
-  note: Initial, medial, and final forms of the letters and some ligatures are also
-    required.
+  note: Initial, medial, and final forms of the letters and some ligatures are also required.
   orthographies:
   - autonym: دارجة جزائرية
     inherit: aeb
@@ -538,33 +473,27 @@ arq:
   speakers: 27000000
   speakers_date: 2012
   status: living
-  todo_status: weak
+  validity: weak
 ars:
   name: Najdi Arabic
-  note: Initial, medial, and final forms of the letters and some ligatures are also
-    required.
+  note: Initial, medial, and final forms of the letters and some ligatures are also required.
   orthographies:
   - autonym: نجدي
     auxiliary: ڛ ڢ ٯ ڧ ک ی ڥ چ گ ڨ ڭ ڠ
     base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ پ ڤ ة
-    numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ ١٠
+    numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩
     script: Arabic
   source:
   - Wikipedia
   speakers: 4050000
   speakers_date: 2011-2015
   status: living
-  todo_status: weak
+  validity: weak
 ary:
   name: Moroccan Arabic
-  note: Initial, medial, and final forms of the letters and some ligatures are also
-    required.
+  note: Initial, medial, and final forms of the letters and some ligatures are also required.
   orthographies:
   - autonym: دارجة مغربية
-    #auxiliary: ڛ ڢ ٯ ڧ ک ی ڤ چ ڨ ڠ
-    #base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ ڭ گ ڥ
-    #  پ ة
-    #numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ ١٠
     inherit: arb
     script: Arabic
   source:
@@ -572,24 +501,22 @@ ary:
   speakers: 30551000
   speakers_date: 2014
   status: living
-  todo_status: weak
+  validity: weak
 arz:
   name: Egyptian Arabic
-  note: Initial, medial, and final forms of the letters and some ligatures are also
-    required.
+  note: Initial, medial, and final forms of the letters and some ligatures are also required.
   orthographies:
   - autonym: مصرى
     auxiliary: ڛ ڢ ٯ ڧ ک ڥ گ ڨ ڭ ڠ
-    base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ ڤ پ ی
-      چ ة ى
-    numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ ١٠
+    base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ ڤ پ ی چ ة ى
+    numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩
     script: Arabic
   source:
   - Wikipedia
   speakers: 64422000
   speakers_date: 2016
   status: living
-  todo_status: weak
+  validity: weak
 asa:
   name: Asu (Tanzania)
   orthographies:
@@ -602,7 +529,7 @@ asa:
   speakers: 500000
   speakers_date: 2000
   status: living
-  todo_status: weak
+  validity: weak
 ast:
   name: Asturian
   orthographies:
@@ -616,19 +543,18 @@ ast:
   speakers: 351791
   speakers_date: 2017
   status: living
-  todo_status: strong
+  validity: verified
 atv:
   name: Northern Altai
   orthographies:
   - autonym: Алтайча
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ј ҥ ӧ
-      ӱ
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ј ҥ ӧ ӱ
     script: Cyrillic
   source:
   - Omniglot
   speakers: 5000
   status: living
-  todo_status: weak
+  validity: weak
 aud:
   name: Anuta
   orthographies:
@@ -641,7 +567,7 @@ aud:
   speakers: 270
   speakers_date: 1999
   status: living
-  todo_status: strong
+  validity: verified
 ava:
   name: Avaric
   orthographies:
@@ -654,11 +580,10 @@ ava:
   speakers: 1000000
   speakers_date: 2010
   status: living
-  todo_status: strong
+  validity: verified
 avl:
   name: Eastern Egyptian Bedawi Arabic
-  note: Initial, medial, and final forms of the letters and some ligatures are also
-    required.
+  note: Initial, medial, and final forms of the letters and some ligatures are also required.
   orthographies:
   - autonym: بدوي
     inherit: ajp
@@ -668,22 +593,21 @@ avl:
   speakers: 2240000
   speakers_date: 2015-2016
   status: living
-  todo_status: weak
+  validity: weak
 ayc:
   name: Southern Aymara
   orthographies:
   - autonym: Aymar
-    inherit: aym
+    inherit: ayr
     script: Latin
   source:
   - Omniglot
   - Wikipedia
   status: living
-  todo_status: strong
+  validity: verified
 ayh:
   name: Hadrami Arabic
-  note: Initial, medial, and final forms of the letters and some ligatures are also
-    required.
+  note: Initial, medial, and final forms of the letters and some ligatures are also required.
   orthographies:
   - autonym: حضرمي
     inherit: arb
@@ -693,11 +617,10 @@ ayh:
   speakers: 4560000
   speakers_date: 2015
   status: living
-  todo_status: weak
+  validity: weak
 ayl:
   name: Libyan Arabic
-  note: Initial, medial, and final forms of the letters and some ligatures are also
-    required.
+  note: Initial, medial, and final forms of the letters and some ligatures are also required.
   orthographies:
   - autonym: ليبي
     inherit: arb
@@ -707,29 +630,10 @@ ayl:
   speakers: 4325000
   speakers_date: 1998-2006
   status: living
-  todo_status: weak
-aym:
-  autonym: Aymar
-  includes:
-  - ayr
-  - ayc
-  name: Aymara
-  orthographies:
-  - autonym: Aymar
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ï ñ ü ’
-    script: Latin
-  preferred_as_individual: true
-  source:
-  - Omniglot
-  - Wikipedia
-  speakers: 1677100
-  speakers_date: 2007-2011
-  status: living
-  todo_status: strong
+  validity: weak
 ayn:
   name: Sanaani Arabic
-  note: Initial, medial, and final forms of the letters and some ligatures are also
-    required.
+  note: Initial, medial, and final forms of the letters and some ligatures are also required.
   orthographies:
   - autonym: يمني‎
     inherit: arb
@@ -739,11 +643,10 @@ ayn:
   speakers: 11100000
   speakers_date: 2015
   status: living
-  todo_status: weak
+  validity: weak
 ayp:
   name: North Mesopotamian Arabic
-  note: Initial, medial, and final forms of the letters and some ligatures are also
-    required.
+  note: Initial, medial, and final forms of the letters and some ligatures are also required.
   orthographies:
   - autonym: مصلاوي‎
     inherit: arb
@@ -753,25 +656,23 @@ ayp:
   speakers: 8700000
   speakers_date: 1992-2014
   status: living
-  todo_status: weak
+  validity: weak
 ayr:
   name: Central Aymara
   orthographies:
   - autonym: Aymar
-    inherit: aym
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ï ñ ü ’
     script: Latin
   source:
   - Omniglot
   - Wikipedia
   status: living
-  todo_status: strong
+  validity: verified
 azb:
   name: South Azerbaijani
   orthographies:
   - autonym: آذربایجانجا
-    base: ؤ ئ ا خ ع ن پ چ ژ ک گ ۆ ۇ ی ە ݣ ﺏ ﺕ ﺙ ﺝ ﺡ ﺩ ﺫ ﺭ ﺯ ﺱ ﺵ ﺹ ﺽ ﻁ ﻅ ﻍ ﻑ ﻕ ﻝ ﻡ
-      ﻥ ﻩ ﻭ آ ج ب ذ ر
-    combinations: '{یٛ}{وْ}'
+    base: و ْ ؤ ئ ا خ ع ن پ چ ژ ک گ ۆ ۇ ی ە ݣ ﺏ ﺕ ﺙ ﺝ ﺡ ﺩ ﺫ ﺭ ﺯ ﺱ ﺵ ﺹ ﺽ ﻁ ﻅ ﻍ ﻑ ﻕ ﻝ ﻡ ٛ ﻥ ﻩ ﻭ آ ج ب ذ ر
     script: Arabic
   - base: a b c d e f g h i j k l m n o p q r s t u v x y z ç ö ü ğ İ ı ş ə
     script: Latin
@@ -781,23 +682,12 @@ azb:
   speakers: 13823350
   speakers_date: 2016
   status: living
-  todo_status: weak
-aze:
-  includes:
-  - azj
-  - azb
-  - slq
-  - qxq
-  name: Azerbaijani
-  speakers: 23000000
-  speakers_date: 2018
-  status: living
+  validity: weak
 azj:
   name: North Azerbaijani
   orthographies:
   - autonym: Азәрбајҹан
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ј ғ ҝ ү
-      ҹ һ ә ө ’
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ј ғ ҝ ү ҹ һ ә ө ’
     note: Official in Dagestan (Russia).
     script: Cyrillic
     status: local
@@ -809,16 +699,14 @@ azj:
   speakers: 23000000
   speakers_date: 2018
   status: living
-  todo_status: strong
+  validity: verified
 bak:
   name: Bashkir
   orthographies:
   - autonym: Башҡортса
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ғ ҙ ҡ
-      ң ҫ ү һ ә ө
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ғ ҙ ҡ ң ҫ ү һ ә ө
     script: Cyrillic
-  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ç ö ü č ğ İ ı ķ ņ
-      ś ş š ź
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ç ö ü č ğ İ ı ķ ņ ś ş š ź
     script: Latin
     status: deprecated
   source:
@@ -826,7 +714,7 @@ bak:
   speakers: 1200000
   speakers_date: 2010
   status: living
-  todo_status: weak
+  validity: weak
 bal:
   includes:
   - bgp
@@ -845,7 +733,7 @@ bal:
   speakers: 7600000
   speakers_date: 2007
   status: living
-  todo_status: weak
+  validity: weak
 bam:
   name: Bambara
   orthographies:
@@ -860,20 +748,19 @@ bam:
   speakers: 4100000
   speakers_date: 2012
   status: living
-  todo_status: strong
+  validity: verified
 bas:
   name: Basa (Cameroon)
   orthographies:
   - autonym: Basaa
     auxiliary: q x
-    base: a b c d e f g h i j k l m n o p r s t u v w y z à á â è é ê ì í î ò ó ô
-      ù ú û ā ē ě ī ń ŋ ō ū ǎ ǐ ǒ ǔ ǹ ɓ ɔ ɛ ̀ ́ ̂ ̄ ̌ ᷆ ᷇
+    base: a b c d e f g h i j k l m n o p r s t u v w y z à á â è é ê ì í î ò ó ô ù ú û ā ē ě ī ń ŋ ō ū ǎ ǐ ǒ ǔ ǹ ɓ ɔ ɛ ᷆ ᷇
     script: Latin
   source:
   - CLDR
   speakers: 300000
   status: living
-  todo_status: weak
+  validity: weak
 bdk:
   name: Budukh
   orthographies:
@@ -886,13 +773,12 @@ bdk:
   speakers: 200
   speakers_date: 2010
   status: living
-  todo_status: strong
+  validity: verified
 bel:
   name: Belarusian
   orthographies:
   - autonym: Беларуская
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё і ў ’
-      ґ
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё і ў ’ ґ
     script: Cyrillic
   - autonym: Biełaruskaja
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ć č ł ń ś š ŭ ź ž
@@ -903,7 +789,7 @@ bel:
   speakers: 5100000
   speakers_date: 2009
   status: living
-  todo_status: weak
+  validity: weak
 bem:
   name: Bemba (Zambia)
   orthographies:
@@ -916,7 +802,7 @@ bem:
   speakers: 4100000
   speakers_date: 2000-2010
   status: living
-  todo_status: strong
+  validity: verified
 bez:
   name: Bena (Tanzania)
   orthographies:
@@ -928,7 +814,7 @@ bez:
   speakers: 670000
   speakers_date: 2001
   status: living
-  todo_status: weak
+  validity: weak
 bhh:
   name: Bukharic
   note: Speaker count date for Isreal and Uzbekistan, others unknown.
@@ -939,7 +825,7 @@ bhh:
   speakers: 110000
   speakers_date: 1995
   status: living
-  todo_status: weak
+  validity: weak
 bik:
   includes:
   - bcl
@@ -964,7 +850,7 @@ bik:
   speakers: 78000
   speakers_date: 2000
   status: living
-  todo_status: strong
+  validity: verified
 bis:
   name: Bislama
   orthographies:
@@ -978,7 +864,7 @@ bis:
   speakers: 10000
   speakers_date: 2011
   status: living
-  todo_status: strong
+  validity: verified
 bos:
   name: Bosnian
   orthographies:
@@ -994,7 +880,7 @@ bos:
   speakers: 3000000
   speakers_date: 2008
   status: living
-  todo_status: strong
+  validity: verified
 bre:
   name: Breton
   orthographies:
@@ -1009,28 +895,21 @@ bre:
   speakers: 226000
   speakers_date: 2018
   status: living
-  todo_status: strong
-bua:
-  includes:
-  - bxu
-  - bxm
-  - bxr
-  name: Buriat
-  status: living
+  validity: verified
 buc:
   autonym: Kibushi
   name: Bushi
   orthographies:
   - autonym: Shibushi
     auxiliary: c j q
-    base: a b d e f g h i k l m n o p r s t u v w x y z ɓ ɗ n̈
+    base: a b d e f g h i k l m n o p r s t u v w x y z ɓ ɗ ̈
     script: Latin
   source:
   - Wikipedia
   speakers: 47900
   speakers_date: 2012
   status: living
-  todo_status: weak
+  validity: weak
 bul:
   name: Bulgarian
   note: localised shapes for л в к г й ф ю etc.
@@ -1044,7 +923,7 @@ bul:
   speakers: 9000000
   speakers_date: 2011
   status: living
-  todo_status: strong
+  validity: verified
 bxm:
   name: Mongolia Buriat
   orthographies:
@@ -1060,7 +939,7 @@ bxm:
   speakers: 35000
   speakers_date: 2010
   status: living
-  todo_status: weak
+  validity: weak
 bxr:
   name: Russia Buriat
   orthographies:
@@ -1079,7 +958,7 @@ bxr:
   speakers: 353113
   speakers_date: 2010
   status: living
-  todo_status: strong
+  validity: verified
 bxu:
   name: China Buriat
   orthographies:
@@ -1095,7 +974,7 @@ bxu:
   speakers: 65000
   speakers_date: 1982
   status: living
-  todo_status: weak
+  validity: weak
 cak:
   name: Kaqchikel
   orthographies:
@@ -1106,13 +985,12 @@ cak:
   - Omniglot
   speakers: 450000
   status: living
-  todo_status: weak
+  validity: weak
 cat:
   name: Catalan
   orthographies:
   - autonym: Català
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à ç è é í ï ò ó ú ü
-      ŀ
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à ç è é í ï ò ó ú ü ŀ
     script: Latin
   source:
   - Omniglot
@@ -1121,7 +999,7 @@ cat:
   speakers: 4100000
   speakers_date: 2012
   status: living
-  todo_status: strong
+  validity: verified
 cbk:
   name: Chavacano
   orthographies:
@@ -1134,7 +1012,7 @@ cbk:
   speakers: 689000
   speakers_date: 1992
   status: living
-  todo_status: strong
+  validity: verified
 ceb:
   name: Cebuano
   orthographies:
@@ -1148,13 +1026,12 @@ ceb:
   speakers: 16000000
   speakers_date: 2005
   status: living
-  todo_status: strong
+  validity: verified
 ces:
   name: Czech
   orthographies:
   - autonym: Čeština
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ó ú ý č ď ě ň
-      ř š ť ů ž
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ó ú ý č ď ě ň ř š ť ů ž
     script: Latin
   source:
   - Omniglot
@@ -1162,7 +1039,7 @@ ces:
   speakers: 10700000
   speakers_date: 2015
   status: living
-  todo_status: done
+  validity: done
 cgg:
   name: Chiga
   orthographies:
@@ -1175,7 +1052,7 @@ cgg:
   speakers: 1600000
   speakers_date: 2002
   status: living
-  todo_status: strong
+  validity: verified
 cha:
   name: Chamorro
   orthographies:
@@ -1189,7 +1066,7 @@ cha:
   speakers: 58000
   speakers_date: 2005-2015
   status: living
-  todo_status: strong
+  validity: verified
 che:
   name: Chechen
   note: Shorter autonym?
@@ -1202,15 +1079,13 @@ che:
   speakers: 1400000
   speakers_date: 2010
   status: living
-  todo_status: weak
+  validity: weak
 chu:
   name: Church Slavic
   note: Need to add combinations with accents.
   orthographies:
   - autonym: Церковнослове́нскїй
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь ю є ѕ џ ѥ ѩ ѭ
-      ҁ і ї ѡ ѣ ѧ ѫ ѯ ѱ ѳ ѵ ѷ ѻ ѽ ѿ ꙁ ꙋ ꙍ ꙗ ꙃ
-    combinations: '{е́}'
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь ю є ѕ џ ѥ ѩ ѭ ҁ і ї ѡ ѣ ѧ ѫ ѯ ѱ ѳ ѵ ѷ ѻ ѽ ѿ ꙁ ꙋ ꙍ ꙗ ꙃ ́
     script: Cyrillic
   source:
   - Omniglot
@@ -1218,19 +1093,18 @@ chu:
   - CLDR
   speakers: 0
   status: ancient
-  todo_status: strong
+  validity: verified
 chv:
   name: Chuvash
   orthographies:
   - autonym: Чӑвашла
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҫ ӑ ӗ
-      ӳ
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҫ ӑ ӗ ӳ
     script: Cyrillic
   source:
   - Omniglot
   speakers: 1042989
   status: living
-  todo_status: weak
+  validity: weak
 cic:
   name: Chickasaw
   orthographies:
@@ -1238,7 +1112,7 @@ cic:
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ó ú '
     script: Latin
   - autonym: Chikashshanompa'
-    base: a b c f g h i k l m n o p s t w y a̠ i̠ o̠ '
+    base: a b c f g h i k l m n o p s t w y ̠ '
     script: Latin
   source:
   - Omniglot
@@ -1246,20 +1120,19 @@ cic:
   speakers: 75
   speakers_date: 2017
   status: living
-  todo_status: strong
+  validity: verified
 cim:
   name: Cimbrian
   orthographies:
   - autonym: Zimbar
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä à è é ì ò ó ô ö ù
-      ü ć
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä à è é ì ò ó ô ö ù ü ć
     script: Latin
   source:
   - Omniglot
   speakers: 400
   speakers_date: 2000
   status: living
-  todo_status: weak
+  validity: weak
 cji:
   name: Chamalal
   note: Shorter autonym?
@@ -1273,20 +1146,19 @@ cji:
   speakers: 500
   speakers_date: 2010
   status: living
-  todo_status: strong
+  validity: verified
 cjs:
   name: Shor
   orthographies:
   - autonym: Шор
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ғ қ ң
-      ӧ ӱ
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ғ қ ң ӧ ӱ
     script: Cyrillic
   source:
   - Omniglot
   speakers: 2800
   speakers_date: 2010
   status: living
-  todo_status: weak
+  validity: weak
 ckb:
   name: Central Kurdish
   orthographies:
@@ -1304,27 +1176,25 @@ ckb:
   speakers: 7250000
   speakers_date: 2014
   status: living
-  todo_status: weak
+  validity: weak
 ckt:
   name: Chukot
   note: Speakers count based on 32% of ethnic population.
   orthographies:
   - autonym: Ԓыгъоравэтԓьэн
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӄ ӈ ԓ
-      ’
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӄ ӈ ԓ ’
     script: Cyrillic
   source:
   - Omniglot
   speakers: 5095
   speakers_date: 2010
   status: living
-  todo_status: weak
+  validity: weak
 cnr:
   name: Montenegrin
   orthographies:
   - autonym: Црногорски
     base: ́ а б в г д е ж з и к л м н о п р с т у ф х ц ч ш ђ ј љ њ ћ џ
-    combinations: '{з́}{с́}'
     script: Cyrillic
     status: secondary
   - autonym: Crnogorski
@@ -1336,7 +1206,7 @@ cnr:
   speakers: 232600
   speakers_date: 2011
   status: living
-  todo_status: strong
+  validity: verified
 con:
   name: Cofán
   orthographies:
@@ -1348,7 +1218,7 @@ con:
   speakers: 2400
   speakers_date: 2001-2008
   status: living
-  todo_status: weak
+  validity: weak
 cor:
   name: Cornish
   orthographies:
@@ -1361,7 +1231,7 @@ cor:
   - CLDR
   speakers: 0
   status: living
-  todo_status: strong
+  validity: verified
 cos:
   name: Corsican
   orthographies:
@@ -1374,7 +1244,7 @@ cos:
   speakers: 125000
   speakers_date: 2009
   status: living
-  todo_status: strong
+  validity: verified
 crh:
   name: Crimean Tatar
   orthographies:
@@ -1390,7 +1260,7 @@ crh:
   speakers: 540000
   speakers_date: 2006-2011
   status: living
-  todo_status: weak
+  validity: weak
 crs:
   name: Seselwa Creole French
   orthographies:
@@ -1403,33 +1273,31 @@ crs:
   speakers: 73000
   speakers_date: 1998
   status: living
-  todo_status: strong
+  validity: verified
 csb:
   name: Kashubian
   orthographies:
   - autonym: Kaszëbsczi
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ã é ë ò ó ô ù ą ę ł
-      ń ś ż
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ã é ë ò ó ô ù ą ę ł ń ś ż
     script: Latin
   source:
   - Omniglot
   speakers: 108000
   speakers_date: 2011
   status: living
-  todo_status: weak
+  validity: weak
 cym:
   name: Welsh
   orthographies:
   - autonym: Cymraeg
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ä è é ê ë ì í
-      î ï ò ó ô ö ù ú û ü ý ÿ ŵ ŷ ẁ ẃ ẅ ỳ
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ä è é ê ë ì í î ï ò ó ô ö ù ú û ü ý ÿ ŵ ŷ ẁ ẃ ẅ ỳ
     script: Latin
   source:
   - Omniglot
   speakers: 700000
   speakers_date: 2012
   status: living
-  todo_status: weak
+  validity: weak
 dan:
   name: Danish
   orthographies:
@@ -1444,7 +1312,7 @@ dan:
   speakers: 6000000
   speakers_date: 2019
   status: living
-  todo_status: strong
+  validity: verified
 dar:
   name: Dargwa
   orthographies:
@@ -1456,7 +1324,7 @@ dar:
   speakers: 490000
   speakers_date: 2010
   status: living
-  todo_status: weak
+  validity: weak
 dav:
   name: Taita
   orthographies:
@@ -1469,24 +1337,22 @@ dav:
   speakers: 370000
   speakers_date: 1992-2009
   status: living
-  todo_status: weak
+  validity: weak
 ddo:
   name: Dido
   orthographies:
   - autonym: Цез
-    base: а б в г д е ж з и й к л м н о п р с т у х ц ч ш э ӏ
-    combinations: '{а̄}'
+    base: а б в г д е ж з и й к л м н о п р с т у х ц ч ш э ӏ ̄
     script: Cyrillic
   source:
   - Omniglot
   speakers: 13000
   speakers_date: 2010
   status: living
-  todo_status: weak
+  validity: weak
 deh:
   name: Dehwari
-  note: Initial, medial, and final forms of the letters and some ligatures are also
-    required.
+  note: Initial, medial, and final forms of the letters and some ligatures are also required.
   orthographies:
   - autonym: دهواری
     inherit: pes
@@ -1496,15 +1362,7 @@ deh:
   speakers: 14600
   speakers_date: 2004
   status: living
-  todo_status: weak
-del:
-  includes:
-  - umu
-  - unm
-  name: Delaware
-  speakers: 2
-  speakers_date: 2018
-  status: living
+  validity: weak
 deu:
   name: German
   orthographies:
@@ -1518,7 +1376,7 @@ deu:
   speakers: 90000000
   speakers_date: 2010
   status: living
-  todo_status: strong
+  validity: verified
 dhv:
   name: Dehu
   note: 13000 includes L2 speakers.
@@ -1531,7 +1389,7 @@ dhv:
   speakers: 13000
   speakers_date: 2009
   status: living
-  todo_status: weak
+  validity: weak
 diq:
   name: Dimli (individual language)
   orthographies:
@@ -1542,13 +1400,12 @@ diq:
   source:
   - Omniglot
   status: living
-  todo_status: weak
+  validity: weak
 dje:
   name: Zarma
   orthographies:
   - autonym: Zarmaciine
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ŋ ɲ à á ã ǎ í õ ǒ ô
-      š ẽ ě ê ž
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ŋ ɲ à á ã ǎ í õ ǒ ô š ẽ ě ê ž
     script: Latin
   source:
   - Omniglot
@@ -1557,44 +1414,35 @@ dje:
   speakers: 3600000
   speakers_date: 2019
   status: living
-  todo_status: strong
+  validity: verified
 dlg:
   name: Dolgan
   orthographies:
   - autonym: Дулҕан
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ү һ ӈ
-      ө ҕ
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ү һ ӈ ө ҕ
     script: Cyrillic
   source:
   - Omniglot
   speakers: 1100
   speakers_date: 2010
   status: living
-  todo_status: weak
+  validity: weak
 dng:
   name: Dungan
   orthographies:
   - autonym: Хуэйзў
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ў җ ң
-      ү ә
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ў җ ң ү ә
     script: Cyrillic
   source:
   - Omniglot
   speakers: 110000
   status: living
-  todo_status: weak
-doi:
-  includes:
-  - dgo
-  - xnr
-  name: Dogri (macrolanguage)
-  status: living
+  validity: weak
 dsb:
   name: Lower Sorbian
   orthographies:
   - autonym: Dolnoserbšćina
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ó ć č ě ł ń ř ŕ ś š
-      ź ž
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ó ć č ě ł ń ř ŕ ś š ź ž
     script: Latin
   source:
   - Omniglot
@@ -1603,14 +1451,14 @@ dsb:
   speakers: 6900
   speakers_date: 2007
   status: living
-  todo_status: strong
+  validity: verified
 dua:
   name: Duala
   note: The number of speakers is a conservative estimate.
   orthographies:
   - autonym: Duálá
     auxiliary: h q v x z
-    base: a b c d e f g i j k l m n o p r s t u w y á é í ó ú ŋ ū ɓ ɔ ɗ ɛ ́
+    base: a b c d e f g i j k l m n o p r s t u w y á é í ó ú ŋ ū ɓ ɔ ɗ ɛ
     script: Latin
   source:
   - Omniglot
@@ -1618,7 +1466,7 @@ dua:
   speakers: 87700
   speakers_date: 1982
   status: living
-  todo_status: strong
+  validity: verified
 dyo:
   name: Jola-Fonyi
   orthographies:
@@ -1631,7 +1479,7 @@ dyo:
   - CLDR
   speakers: 410000
   status: living
-  todo_status: strong
+  validity: verified
 ebu:
   name: Embu
   orthographies:
@@ -1643,7 +1491,7 @@ ebu:
   speakers: 320000
   speakers_date: 2009
   status: living
-  todo_status: weak
+  validity: weak
 ekk:
   name: Standard Estonian
   orthographies:
@@ -1657,7 +1505,7 @@ ekk:
   speakers: 1100000
   speakers_date: 2012
   status: living
-  todo_status: done
+  validity: done
 ell:
   name: Modern Greek (1453-)
   orthographies:
@@ -1672,7 +1520,7 @@ ell:
   speakers: 13400000
   speakers_date: 2007
   status: living
-  todo_status: strong
+  validity: verified
 enf:
   name: Forest Enets
   orthographies:
@@ -1685,7 +1533,7 @@ enf:
   speakers: 5
   speakers_date: 2010
   status: living
-  todo_status: strong
+  validity: verified
 eng:
   name: English
   orthographies:
@@ -1701,7 +1549,7 @@ eng:
   speakers: 400000000
   speakers_date: 2006
   status: living
-  todo_status: done
+  validity: done
 enh:
   name: Tundra Enets
   orthographies:
@@ -1711,6 +1559,7 @@ enh:
   speakers: 5
   speakers_date: 2010
   status: living
+  validity: weak
 epo:
   name: Esperanto
   orthographies:
@@ -1722,13 +1571,12 @@ epo:
   - Alvestrand
   speakers: 1000
   status: constructed
-  todo_status: strong
+  validity: verified
 ess:
   name: Central Siberian Yupik
   orthographies:
   - autonym: Юпик
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ў қ ң
-      ҳ ҕ ’
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ў қ ң ҳ ҕ ’
     script: Cyrillic
   source:
   - Omniglot
@@ -1736,19 +1584,12 @@ ess:
   speakers: 1200
   speakers_date: 2010
   status: living
-  todo_status: strong
-est:
-  includes:
-  - ekk
-  - vro
-  name: Estonian
-  status: living
+  validity: verified
 esu:
   name: Central Yupik
   orthographies:
   - autonym: Yupʼik
     base: a c g i k l m n p q r s t u v w y ń ə ḿ ͡ ʼ
-    combinations: '{u͡g}{u͡r}'
     script: Latin
   preferred_name: Central Alaskan Yupik
   source:
@@ -1756,7 +1597,7 @@ esu:
   speakers: 10000
   speakers_date: 2010
   status: living
-  todo_status: weak
+  validity: weak
 eus:
   name: Basque
   orthographies:
@@ -1769,13 +1610,12 @@ eus:
   speakers: 750000
   speakers_date: 2016
   status: living
-  todo_status: strong
+  validity: verified
 eve:
   name: Even
   orthographies:
   - autonym: Эвэды торэн
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӈ ө ӫ
-      а̄ ө̄ е̄ ӣ ӯ ы̄ э̄ ю̄ я̄
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӈ ө ӫ ӣ ӯ
     script: Cyrillic
   source:
   - Omniglot
@@ -1783,13 +1623,12 @@ eve:
   speakers: 5700
   speakers_date: 2010
   status: living
-  todo_status: strong
+  validity: verified
 evn:
   name: Evenki
   orthographies:
   - autonym: Эвэнки
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӈ
-    combinations: '{а̄}{е̄}{ә̄}{о̄}{ы̄}'
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӈ ̄ ә
     script: Cyrillic
   source:
   - Omniglot
@@ -1797,14 +1636,13 @@ evn:
   speakers: 26580
   speakers_date: 2007-2010
   status: living
-  todo_status: strong
+  validity: verified
 ewe:
   name: Ewe
   orthographies:
   - autonym: Èʋegbe
     auxiliary: c j q â ä å æ ç ê ë î ï ñ ô ö ø û ü ÿ ā ă ĕ ĭ ŏ œ ŭ
-    base: a b d e f g h i k l m n o p r s t u v w x y z à á ã è é ì í ò ó õ ù ú ĩ
-      ŋ ũ ƒ ɔ ɖ ɛ ɣ ʋ ̀ ́ ̃ ẽ
+    base: a b d e f g h i k l m n o p r s t u v w x y z à á ã è é ì í ò ó õ ù ú ĩ ŋ ũ ƒ ɔ ɖ ɛ ɣ ʋ ẽ
     script: Latin
   source:
   - Omniglot
@@ -1812,14 +1650,13 @@ ewe:
   speakers: 5000000
   speakers_date: 1991-2013
   status: living
-  todo_status: strong
+  validity: verified
 ewo:
   name: Ewondo
   orthographies:
   - autonym: Ewondo
     auxiliary: c j q x
-    base: a b d e f g h i k l m n o p r s t u v w y z à á â è é ê ì í î ò ó ô ù ú
-      û ě ń ŋ ǎ ǐ ǒ ǔ ǹ ɔ ə ɛ ̀ ́ ̂ ̌
+    base: a b d e f g h i k l m n o p r s t u v w y z à á â è é ê ì í î ò ó ô ù ú û ě ń ŋ ǎ ǐ ǒ ǔ ǹ ɔ ə ɛ
     script: Latin
   source:
   - Omniglot
@@ -1828,7 +1665,7 @@ ewo:
   speakers: 580000
   speakers_date: 1982
   status: living
-  todo_status: strong
+  validity: verified
 fao:
   name: Faroese
   orthographies:
@@ -1841,17 +1678,7 @@ fao:
   speakers: 72000
   speakers_date: 2007
   status: living
-  todo_status: strong
-fas:
-  includes:
-  - pes
-  - prs
-  name: Persian
-  source:
-  - Wikipedia
-  speakers: 70000000
-  speakers_date: 2019
-  status: living
+  validity: verified
 fat:
   name: Fanti
   orthographies:
@@ -1864,7 +1691,7 @@ fat:
   speakers: 2700000
   speakers_date: 2019
   status: living
-  todo_status: strong
+  validity: verified
 ffm:
   name: Maasina Fulfulde
   note: Mali, Ghana
@@ -1879,7 +1706,7 @@ ffm:
   speakers: 1000000
   speakers_date: 2007
   status: living
-  todo_status: strong
+  validity: verified
 fij:
   name: Fijian
   orthographies:
@@ -1892,7 +1719,7 @@ fij:
   speakers: 339210
   speakers_date: 1996
   status: living
-  todo_status: strong
+  validity: verified
 fil:
   name: Filipino
   orthographies:
@@ -1904,13 +1731,13 @@ fil:
   speakers: 45000000
   speakers_date: 2013
   status: living
-  todo_status: weak
+  validity: weak
 fin:
   name: Finnish
   orthographies:
   - autonym: Suomi
-    auxiliary: æ å õ ø ü š ž
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ö
+    auxiliary: æ õ ø ü š ž
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ö å
     script: Latin
   source:
   - Omniglot
@@ -1920,13 +1747,12 @@ fin:
   speakers: 5400000
   speakers_date: 2009-2012
   status: living
-  todo_status: done
+  validity: done
 fra:
   name: French
   orthographies:
   - autonym: Français
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à â æ ç è é ê ë î ï
-      ô ù û ü ÿ œ
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à â æ ç è é ê ë î ï ô ù û ü ÿ œ
     script: Latin
   source:
   - Omniglot
@@ -1936,13 +1762,12 @@ fra:
   speakers: 76800000
   speakers_date: 2014
   status: living
-  todo_status: strong
+  validity: verified
 fry:
   name: Western Frisian
   orthographies:
   - autonym: Frysk
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z â ä é ê ë ï ô ö ú û
-      ü
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z â ä é ê ë ï ô ö ú û ü
     script: Latin
   source:
   - Omniglot
@@ -1951,7 +1776,7 @@ fry:
   speakers: 470000
   speakers_date: 2001
   status: living
-  todo_status: strong
+  validity: verified
 fub:
   name: Adamawa Fulfulde
   note: Cameroon, Chad, Sudan
@@ -1963,7 +1788,7 @@ fub:
   - Wikipedia
   - CLDR
   status: living
-  todo_status: strong
+  validity: verified
 fuc:
   name: Pulaar
   note: Senegal, Gambia, Mauritania
@@ -1978,7 +1803,7 @@ fuc:
   speakers: 4450000
   speakers_date: 2019
   status: living
-  todo_status: strong
+  validity: verified
 fue:
   name: Borgu Fulfulde
   note: Benin, Togo
@@ -1991,7 +1816,7 @@ fue:
   - Wikipedia
   - CLDR
   status: living
-  todo_status: strong
+  validity: verified
 fuf:
   name: Pular
   note: Guinea, Sierra Leone
@@ -2006,7 +1831,7 @@ fuf:
   speakers: 3808200
   speakers_date: 1991-2016
   status: living
-  todo_status: strong
+  validity: verified
 fuh:
   name: Western Niger Fulfulde
   note: Burkina, Niger
@@ -2019,7 +1844,7 @@ fuh:
   - Wikipedia
   - CLDR
   status: living
-  todo_status: strong
+  validity: verified
 fui:
   name: Bagirmi Fulfulde
   note: Central African Republic
@@ -2031,20 +1856,7 @@ fui:
   - Wikipedia
   - CLDR
   status: living
-  todo_status: strong
-ful:
-  includes:
-  - fuc
-  - fuf
-  - ffm
-  - fue
-  - fuh
-  - fuq
-  - fuv
-  - fub
-  - fui
-  name: Fulah
-  status: living
+  validity: verified
 fuq:
   name: Central-Eastern Niger Fulfulde
   note: Niger
@@ -2056,14 +1868,13 @@ fuq:
   - Wikipedia
   - CLDR
   status: living
-  todo_status: strong
+  validity: verified
 fur:
   name: Friulian
   note: Speaker count includes up to 180000 non-native speakers.
   orthographies:
   - autonym: Furlan
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ç â ê î ô û à è ì ò
-      ù
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ç â ê î ô û à è ì ò ù
     script: Latin
   source:
   - Omniglot
@@ -2071,7 +1882,7 @@ fur:
   speakers: 600000
   speakers_date: 2015
   status: living
-  todo_status: strong
+  validity: verified
 fuv:
   name: Nigerian Fulfulde
   note: Nigeria
@@ -2083,24 +1894,22 @@ fuv:
   - Wikipedia
   - CLDR
   status: living
-  todo_status: strong
+  validity: verified
 gag:
   name: Gagauz
   orthographies:
-  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӂ ӓ ӧ
-      ӱ
+  - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӂ ӓ ӧ ӱ
     script: Cyrillic
     status: deprecated
   - autonym: Gagauzça
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ç ê ö ü ğ İ ı ş ţ
-      ș ț
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ç ê ö ü ğ İ ı ş ţ ș ț
     script: Latin
   source:
   - Omniglot
   speakers: 140000
   speakers_date: 2009
   status: living
-  todo_status: weak
+  validity: weak
 gax:
   name: Borana-Arsi-Guji Oromo
   orthographies:
@@ -2115,7 +1924,7 @@ gax:
   speakers: 3900000
   speakers_date: 2000-2009
   status: living
-  todo_status: strong
+  validity: verified
 gaz:
   name: West Central Oromo
   note: Speakers count is an estimate based on total for Oromo macrolanguage.
@@ -2128,7 +1937,7 @@ gaz:
   speakers: 26000000
   speakers_date: 2015
   status: living
-  todo_status: strong
+  validity: verified
 gcf:
   name: Guadeloupean Creole French
   orthographies:
@@ -2140,7 +1949,7 @@ gcf:
   speakers: 1200000
   speakers_date: 1998-2001
   status: living
-  todo_status: weak
+  validity: weak
 gil:
   name: Gilbertese
   orthographies:
@@ -2153,7 +1962,7 @@ gil:
   speakers: 120000
   speakers_date: 1988-2010
   status: living
-  todo_status: strong
+  validity: verified
 gla:
   name: Scottish Gaelic
   orthographies:
@@ -2165,20 +1974,19 @@ gla:
   speakers: 57000
   speakers_date: 2011
   status: living
-  todo_status: weak
+  validity: weak
 gld:
   name: Nanai
   orthographies:
   - autonym: Нанай
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӈ
-    combinations: '{а̄}{е̄}{ӣ}{о̄}{ӯ}{э̄}'
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӈ ̄
     script: Cyrillic
   source:
   - Omniglot
   speakers: 1400
   speakers_date: 2010
   status: living
-  todo_status: weak
+  validity: weak
 gle:
   name: Irish
   orthographies:
@@ -2190,7 +1998,7 @@ gle:
   speakers: 141000
   speakers_date: 2012
   status: living
-  todo_status: weak
+  validity: weak
 glg:
   name: Galician
   note: 58% of the population of Galicia are L1 speakers.
@@ -2203,7 +2011,7 @@ glg:
   speakers: 1560000
   speakers_date: 2007
   status: living
-  todo_status: weak
+  validity: weak
 glv:
   name: Manx
   orthographies:
@@ -2216,7 +2024,7 @@ glv:
   - CLDR
   speakers: 0
   status: living
-  todo_status: strong
+  validity: verified
 gni:
   name: Gooniyandi
   orthographies:
@@ -2228,7 +2036,7 @@ gni:
   speakers: 134
   speakers_date: 2016
   status: living
-  todo_status: weak
+  validity: weak
 gqa:
   name: Ga'anda
   orthographies:
@@ -2241,14 +2049,12 @@ gqa:
   speakers: 43000
   speakers_date: 1992
   status: living
-  todo_status: weak
+  validity: weak
 grc:
   name: Ancient Greek (to 1453)
   orthographies:
   - autonym: Ελληνικά
-    base: α β γ δ ε ζ η θ ι κ λ μ ν ξ ο π ρ ς σ τ υ φ χ ψ ω ά έ ή ί ό ύ ώ ϊ ϋ ΐ ΰ
-      ἀ ἁ ἂ ἃ ἄ ἅ ἆ ἇ ἐ ἑ ἒ ἓ ἔ ἕ ἠ ἡ ἢ ἣ ἤ ἥ ἦ ἧ ἰ ἱ ἲ ἳ ἴ ἵ ἶ ἷ ὂ ὃ ὄ ὐ ὑ ὒ ὓ ὔ
-      ὕ ὖ ὗ ὢ ὣ ὤ ὥ ὦ ὧ ὰ ὲ ὴ ὶ ὸ ὺ ὼ ᾶ ῆ ῒ ῖ ῗ ῢ ῦ ῧ ῶ
+    base: α β γ δ ε ζ η θ ι κ λ μ ν ξ ο π ρ ς σ τ υ φ χ ψ ω ά έ ή ί ό ύ ώ ϊ ϋ ΐ ΰ ἀ ἁ ἂ ἃ ἄ ἅ ἆ ἇ ἐ ἑ ἒ ἓ ἔ ἕ ἠ ἡ ἢ ἣ ἤ ἥ ἦ ἧ ἰ ἱ ἲ ἳ ἴ ἵ ἶ ἷ ὂ ὃ ὄ ὐ ὑ ὒ ὓ ὔ ὕ ὖ ὗ ὢ ὣ ὤ ὥ ὦ ὧ ὰ ὲ ὴ ὶ ὸ ὺ ὼ ᾶ ῆ ῒ ῖ ῗ ῢ ῦ ῧ ῶ
     script: Greek
   preferred_name: Ancient Greek
   source:
@@ -2256,7 +2062,7 @@ grc:
   - Wikipedia
   speakers: 0
   status: historical
-  todo_status: strong
+  validity: verified
 gsw:
   name: Swiss German
   orthographies:
@@ -2269,7 +2075,7 @@ gsw:
   speakers: 4930000
   speakers_date: 2013
   status: living
-  todo_status: strong
+  validity: verified
 guc:
   name: Wayuu
   orthographies:
@@ -2282,7 +2088,7 @@ guc:
   speakers: 320000
   speakers_date: 2001-2007
   status: living
-  todo_status: strong
+  validity: verified
 guz:
   name: Gusii
   orthographies:
@@ -2296,13 +2102,12 @@ guz:
   speakers: 2200000
   speakers_date: 2009
   status: living
-  todo_status: strong
+  validity: verified
 gwi:
   name: Gwichʼin
   orthographies:
   - autonym: Dinju Zhuh K’yuu
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à ą è é ę ì í ò ó ǫ
-      ’ ù ú ł
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à ą è é ę ì í ò ó ǫ ’ ù ú ł
     script: Latin
   source:
   - Omniglot
@@ -2310,7 +2115,7 @@ gwi:
   speakers: 560
   speakers_date: 2007-2016
   status: living
-  todo_status: strong
+  validity: verified
 haa:
   name: Han
   orthographies:
@@ -2324,7 +2129,7 @@ haa:
   speakers: 20
   speakers_date: 1997-2007
   status: living
-  todo_status: strong
+  validity: verified
 hae:
   name: Eastern Oromo
   orthographies:
@@ -2336,7 +2141,7 @@ hae:
   speakers: 4500000
   speakers_date: 1994
   status: living
-  todo_status: strong
+  validity: verified
 hat:
   name: Haitian
   orthographies:
@@ -2350,14 +2155,13 @@ hat:
   speakers: 9600000
   speakers_date: 2007
   status: living
-  todo_status: strong
+  validity: verified
 hau:
   name: Hausa
   orthographies:
   - autonym: Hausa
-    auxiliary: p q v x y à á â è é ê ì í î ò ó ô ù ú û ʼ ̃
-    base: a b c d e f g h i j k l m n o r s t u w y z ƙ ƴ ɓ ɗ ʼ
-    combinations: '{r̃}'
+    auxiliary: p q v x à á â è é ê ì í î ò ó ô ù ú û
+    base: a b c d e f g h i j k l m n o r s t u w y z ƙ ƴ ɓ ɗ ʼ ̃
     script: Latin
   source:
   - Omniglot
@@ -2366,7 +2170,7 @@ hau:
   speakers: 40000000
   speakers_date: 2015-2016
   status: living
-  todo_status: strong
+  validity: verified
 haw:
   name: Hawaiian
   orthographies:
@@ -2378,11 +2182,10 @@ haw:
   speakers: 24000
   speakers_date: 2008
   status: living
-  todo_status: weak
+  validity: weak
 haz:
   name: Hazaragi
-  note: Initial, medial, and final forms of the letters and some ligatures are also
-    required. The number of speakers is an estimate based on the Hazaras population.
+  note: Initial, medial, and final forms of the letters and some ligatures are also required. The number of speakers is an estimate based on the Hazaras population.
   orthographies:
   - autonym: هزارگی
     inherit: pes
@@ -2392,17 +2195,16 @@ haz:
   speakers: 8000000
   speakers_date: 2014
   status: living
-  todo_status: weak
+  validity: weak
 heb:
   name: Hebrew
   orthographies:
   - autonym: עברית
-    base: א ב ג ד ה ו ז ח ט י כ ך ל מ ם נ ן ס ע פ ף צ ץ ק ר ש ת
-    combinations: '{שׁ}{שׂ}{בּ}{תּ}{כּ}{ךּ}{פּ}{ףּ}{ג׳}{ז׳}{צ׳}{ו׳}{וו}{ד׳}{ת׳}{ח׳}{ר׳}{ע׳}'
+    base: א ב ג ד ה ו ז ח ט י כ ך ל מ ם נ ן ס ע פ ף צ ץ ק ר ש ת ׁ ׂ ּ ׳
     script: Hebrew
   speakers: 9000000
   status: living
-  todo_status: weak
+  validity: weak
 hil:
   name: Hiligaynon
   orthographies:
@@ -2414,7 +2216,7 @@ hil:
   speakers: 9300000
   speakers_date: 2010
   status: living
-  todo_status: weak
+  validity: weak
 hop:
   name: Hopi
   orthographies:
@@ -2427,7 +2229,7 @@ hop:
   speakers: 6780
   speakers_date: 2010
   status: living
-  todo_status: strong
+  validity: verified
 hrv:
   name: Croatian
   orthographies:
@@ -2439,13 +2241,12 @@ hrv:
   speakers: 5600000
   speakers_date: 1991-2006
   status: living
-  todo_status: weak
+  validity: weak
 hsb:
   name: Upper Sorbian
   orthographies:
   - autonym: Hornjoserbšćina
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ó ć č ě ł ń ř ś š ź
-      ž
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ó ć č ě ł ń ř ś š ź ž
     script: Latin
   source:
   - Omniglot
@@ -2454,7 +2255,7 @@ hsb:
   speakers: 13000
   speakers_date: 2007
   status: living
-  todo_status: strong
+  validity: verified
 hun:
   name: Hungarian
   orthographies:
@@ -2468,27 +2269,25 @@ hun:
   speakers: 13000000
   speakers_date: 2003-2014
   status: living
-  todo_status: strong
+  validity: verified
 huz:
   name: Hunzib
   orthographies:
   - autonym: Гьонкьос
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ӏ ә ȧ ӯ
-    combinations: '{а̄}{е̄}{ә̄}{о̄}{э̄}'
     script: Cyrillic
   source:
   - Omniglot
   speakers: 1400
   speakers_date: 2006-2010
   status: living
-  todo_status: weak
+  validity: weak
 ibo:
   name: Igbo
   note: Shorter autonym?
   orthographies:
   - autonym: Asụsụ Igbo
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á è é ì í ò ó ù ú
-      ā ē ī ń ō ū ị ọ ụ ṅ ẹ
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á è é ì í ò ó ù ú ā ē ī ń ō ū ị ọ ụ ṅ ẹ
     script: Latin
   source:
   - Omniglot
@@ -2497,7 +2296,7 @@ ibo:
   speakers: 27000000
   speakers_date: 2015
   status: living
-  todo_status: strong
+  validity: verified
 ido:
   name: Ido
   orthographies:
@@ -2510,7 +2309,7 @@ ido:
   speakers: 100–200
   speakers_date: 2015
   status: constructed
-  todo_status: strong
+  validity: verified
 igs:
   name: Interglossa
   orthographies:
@@ -2521,7 +2320,7 @@ igs:
   - Omniglot
   speakers: 0
   status: constructed
-  todo_status: strong
+  validity: verified
 ile:
   name: Interlingue
   note: Constructed language, aka Occidental, not Interlingua.
@@ -2533,7 +2332,7 @@ ile:
   - Omniglot
   speakers: 0
   status: constructed
-  todo_status: strong
+  validity: verified
 ilo:
   name: Iloko
   orthographies:
@@ -2546,7 +2345,7 @@ ilo:
   speakers: 9100000
   speakers_date: 2015
   status: living
-  todo_status: strong
+  validity: verified
 ina:
   name: Interlingua
   note: Do not confuse with Interlingue.
@@ -2554,13 +2353,12 @@ ina:
   - autonym: Interlingua
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
     script: Latin
-  preferred_name: Interlingua
   source:
   - Omniglot
   speakers: 1500
   speakers_date: 2000
   status: constructed
-  todo_status: strong
+  validity: verified
 ind:
   name: Indonesian
   orthographies:
@@ -2573,7 +2371,7 @@ ind:
   speakers: 43000000
   speakers_date: 2010
   status: living
-  todo_status: strong
+  validity: verified
 inh:
   name: Ingush
   orthographies:
@@ -2585,7 +2383,7 @@ inh:
   speakers: 306000
   speakers_date: 1999-2010
   status: living
-  todo_status: weak
+  validity: weak
 isl:
   name: Icelandic
   orthographies:
@@ -2600,7 +2398,7 @@ isl:
   speakers: 314000
   speakers_date: 2015
   status: living
-  todo_status: strong
+  validity: verified
 ita:
   name: Italian
   orthographies:
@@ -2614,14 +2412,12 @@ ita:
   speakers: 90000000
   speakers_date: 2012
   status: living
-  todo_status: strong
+  validity: verified
 itl:
   name: Itelmen
   orthographies:
   - autonym: Итэнмэн
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё љ њ ў
-      ҳ ӄ ӆ ӈ ӑ ә ’ ˚
-    combinations: '{о̆}'
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё љ њ ў ҳ ӄ ӆ ӈ ӑ ә ’ ˚
     script: Cyrillic
   source:
   - Omniglot
@@ -2629,7 +2425,7 @@ itl:
   speakers: 82
   speakers_date: 2010
   status: living
-  todo_status: strong
+  validity: verified
 jam:
   name: Jamaican Creole English
   orthographies:
@@ -2642,7 +2438,7 @@ jam:
   speakers: 3200000
   speakers_date: 2000-2001
   status: living
-  todo_status: strong
+  validity: verified
 jav:
   name: Javanese
   orthographies:
@@ -2655,7 +2451,7 @@ jav:
   speakers: 82000000
   speakers_date: 2007
   status: living
-  todo_status: strong
+  validity: verified
 jbo:
   name: Lojban
   orthographies:
@@ -2667,7 +2463,7 @@ jbo:
   - Wikipedia
   speakers: 0
   status: constructed
-  todo_status: strong
+  validity: verified
 jct:
   name: Krymchak
   orthographies:
@@ -2679,7 +2475,7 @@ jct:
   speakers: 200
   speakers_date: 2007
   status: living
-  todo_status: weak
+  validity: weak
 jdt:
   name: Judeo-Tat
   orthographies:
@@ -2687,8 +2483,7 @@ jdt:
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
     script: Cyrillic
   - autonym: ז׳אוּהאוּראִ
-    base: א ב ג ד ה ו וּ ז ח י י כ ל מ נ ס ע פ צ ק ר ש ת ׳
-    combinations: '{אִ}{אַ}{אָ}{בּ}{כּ}{פּ}'
+    base: א ב ג ד ה ו ּ ז ח י כ ל מ נ ס ע פ צ ק ר ש ת ׳ ִ ַ ָ }
     script: Hebrew
     status: secondary
   - autonym: Çuhuri
@@ -2699,21 +2494,20 @@ jdt:
   - Omniglot
   speakers: 101000
   status: living
-  todo_status: weak
+  validity: weak
 jgo:
   name: Ngomba
   orthographies:
   - autonym: Cú-Mbɔ́ndaa
     auxiliary: e o q r x
-    base: a b c d f g h i j k l m n p s t u v w y z á â í î ú û ń ŋ ǎ ǐ ǔ ǹ ɔ ɛ ʉ
-      ̀ ́ ̂ ̄ ̈ ̌ ḿ ẅ ꞌ
+    base: a b c d f g h i j k l m n p s t u v w y z á â í î ú û ń ŋ ǎ ǐ ǔ ǹ ɔ ɛ ʉ ̄ ḿ ẅ ꞌ
     script: Latin
   source:
   - CLDR
   speakers: 63000
   speakers_date: 1999
   status: living
-  todo_status: weak
+  validity: weak
 jpr:
   name: Judeo-Persian
   orthographies:
@@ -2722,14 +2516,13 @@ jpr:
   speakers: 60000
   speakers_date: 1995
   status: living
-  todo_status: weak
+  validity: weak
 kaa:
   name: Kara-Kalpak
   note: Shorter autonym?
   orthographies:
   - autonym: Қарақалпақ
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ў ғ қ
-      ң ү ҳ ә ө
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ў ғ қ ң ү ҳ ә ө
     script: Cyrillic
     status: secondary
   - autonym: Qaraqalpaq
@@ -2740,7 +2533,7 @@ kaa:
   speakers: 583410
   speakers_date: 2010
   status: living
-  todo_status: weak
+  validity: weak
 kab:
   name: Kabyle
   orthographies:
@@ -2755,14 +2548,13 @@ kab:
   speakers: 5600000
   speakers_date: 2012
   status: living
-  todo_status: strong
+  validity: verified
 kal:
   name: Kalaallisut
   orthographies:
   - autonym: Kalaallisut
     auxiliary: à ì ù
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á â ã å æ ê í î ĩ ô
-      ø ú û ĸ ũ
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á â ã å æ ê í î ĩ ô ø ú û ĸ ũ
     note: Alphabet invented by Samuel Kleinschmidt. Used until 1973.
     script: Latin
     status: deprecated
@@ -2776,7 +2568,7 @@ kal:
   speakers: 57000
   speakers_date: 2007
   status: living
-  todo_status: strong
+  validity: verified
 kam:
   name: Kamba (Kenya)
   orthographies:
@@ -2788,13 +2580,12 @@ kam:
   speakers: 3900000
   speakers_date: 2009
   status: living
-  todo_status: weak
+  validity: weak
 kap:
   name: Bezhta
   orthographies:
   - autonym: Бежкьалас миц
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э я ӏ а̄ е̄ ӣ
-      о̄ ӯ э̄
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э я ӏ ̄
     script: Cyrillic
   source:
   - Omniglot
@@ -2802,20 +2593,19 @@ kap:
   speakers: 6800
   speakers_date: 2006-2010
   status: living
-  todo_status: strong
+  validity: verified
 kaz:
   name: Kazakh
   orthographies:
   - autonym: Қазақ тілі
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё і ғ қ
-      ң ү ұ һ ә ө
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё і ғ қ ң ү ұ һ ә ө
     script: Cyrillic
   source:
   - Omniglot
   speakers: 11700000
   speakers_date: 2009
   status: living
-  todo_status: weak
+  validity: weak
 kbd:
   name: Kabardian
   orthographies:
@@ -2827,21 +2617,19 @@ kbd:
   speakers: 1600000
   speakers_date: 2005-2010
   status: living
-  todo_status: weak
+  validity: weak
 kca:
   name: Khanty
   orthographies:
   - autonym: Ханты
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё є ў қ
-      ң ҳ ҷ ӆ ӈ ӑ ӓ ә ӛ ӧ ө ӫ ӱ ԓ
-    combinations: '{ю̆}{я̆}'
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё є ў қ ң ҳ ҷ ӆ ӈ ӑ ӓ ә ӛ ӧ ө ӫ ӱ ԓ
     script: Cyrillic
   source:
   - Omniglot
   speakers: 9600
   speakers_date: 2010
   status: living
-  todo_status: weak
+  validity: weak
 kde:
   name: Makonde
   orthographies:
@@ -2854,7 +2642,7 @@ kde:
   speakers: 1400000
   speakers_date: 2006
   status: living
-  todo_status: strong
+  validity: verified
 kdr:
   name: Karaim
   orthographies:
@@ -2866,13 +2654,12 @@ kdr:
   speakers: 80
   speakers_date: 2014
   status: living
-  todo_status: weak
+  validity: weak
 kea:
   name: Kabuverdianu
   orthographies:
   - autonym: Kabuverdianu
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ã ç è é ê í ò
-      ó ô õ ú ü
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ã ç è é ê í ò ó ô õ ú ü
     script: Latin
   source:
   - Omniglot
@@ -2880,7 +2667,7 @@ kea:
   speakers: 871000
   speakers_date: 2017
   status: living
-  todo_status: strong
+  validity: verified
 kek:
   name: Kekchí
   orthographies:
@@ -2893,21 +2680,20 @@ kek:
   speakers: 800000
   speakers_date: 2009
   status: living
-  todo_status: strong
+  validity: verified
 ket:
   name: Ket
   note: Shorter autonym?
   orthographies:
   - autonym: Остыганна ӄа’
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӄ ӈ ә
-      ө ӷ ’
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӄ ӈ ә ө ӷ ’
     script: Cyrillic
   source:
   - Omniglot
   speakers: 213
   speakers_date: 2010
   status: living
-  todo_status: weak
+  validity: weak
 kgp:
   name: Kaingang
   orthographies:
@@ -2920,7 +2706,7 @@ kgp:
   speakers: 18000
   speakers_date: 1989
   status: living
-  todo_status: strong
+  validity: verified
 khk:
   name: Halh Mongolian
   orthographies:
@@ -2933,7 +2719,7 @@ khk:
   speakers: 3600000
   speakers_date: 2014
   status: living
-  todo_status: strong
+  validity: verified
 khq:
   name: Koyra Chiini Songhay
   orthographies:
@@ -2946,7 +2732,7 @@ khq:
   speakers: 200000
   speakers_date: 1999
   status: living
-  todo_status: weak
+  validity: weak
 kik:
   name: Kikuyu
   orthographies:
@@ -2958,7 +2744,7 @@ kik:
   speakers: 10000000
   speakers_date: 2009
   status: living
-  todo_status: weak
+  validity: weak
 kin:
   name: Kinyarwanda
   orthographies:
@@ -2970,7 +2756,7 @@ kin:
   speakers: 9800000
   speakers_date: 2018
   status: living
-  todo_status: weak
+  validity: weak
 kir:
   name: Kirghiz
   orthographies:
@@ -2983,7 +2769,7 @@ kir:
   speakers: 4300000
   speakers_date: 2009
   status: living
-  todo_status: strong
+  validity: verified
 kiu:
   name: Kirmanjki (individual language)
   orthographies:
@@ -2995,48 +2781,45 @@ kiu:
   - Omniglot
   - Wikipedia
   status: living
-  todo_status: strong
+  validity: verified
 kjh:
   name: Khakas
   note: Shorter autonym?
   orthographies:
   - autonym: Хакас тілі
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё і ғ ң
-      ӌ ӧ ӱ
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё і ғ ң ӌ ӧ ӱ
     script: Cyrillic
   source:
   - Omniglot
   speakers: 43000
   speakers_date: 2010
   status: living
-  todo_status: weak
+  validity: weak
 kjj:
   name: Khinalugh
   orthographies:
   - autonym: Каьтш мицӏ
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ӏ ә
-    combinations: '{а̃}{е̃}{и̃}{о̃}{у̃}{ә̃}'
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ӏ ә ̃
     script: Cyrillic
   source:
   - Omniglot
   speakers: 1000
   speakers_date: 2007
   status: living
-  todo_status: weak
+  validity: weak
 kkj:
   name: Kako
   orthographies:
   - autonym: Kakɔ
     auxiliary: q x z
-    base: a b c d e f g h i j k l m n o p r s t u v w y à á â è é ê ì í î ò ó ô ù
-      ú û ŋ ǌ ɓ ɔ ɗ ɛ ̀ ́ ̂ ̧
+    base: a b c d e f g h i j k l m n o p r s t u v w y à á â è é ê ì í î ò ó ô ù ú û ŋ ǌ ɓ ɔ ɗ ɛ ̧
     script: Latin
   source:
   - CLDR
   speakers: 120000
   speakers_date: 1996-2003
   status: living
-  todo_status: weak
+  validity: weak
 kln:
   includes:
   - enb
@@ -3061,7 +2844,7 @@ kln:
   - CLDR
   speakers: 8561574
   status: living
-  todo_status: weak
+  validity: weak
 kmr:
   name: Northern Kurdish
   orthographies:
@@ -3074,7 +2857,7 @@ kmr:
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ç ê î ş û ł ň ř ü
     note: Kurdish Latin alphabet
     script: Latin
-  - base: а б в г д е ә ж з ж й к л м н о ӧ п р с т у ф х һ ч ш щ ь э ԛ ԝ '
+  - base: а б в г д е ә ж з й к л м н о ӧ п р с т у ф х һ ч ш щ ь э ԛ ԝ '
     note: Used in Russia and Armenia.
     script: Cyrillic
   source:
@@ -3082,17 +2865,7 @@ kmr:
   speakers: 15000000
   speakers_date: 2009
   status: living
-  todo_status: weak
-kng:
-  name: Koongo
-  orthographies:
-  - autonym: Kikongo
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    script: Latin
-  source:
-  - Omniglot
-  status: living
-  todo_status: weak
+  validity: weak
 koi:
   name: Komi-Permyak
   orthographies:
@@ -3105,21 +2878,7 @@ koi:
   speakers: 63000
   speakers_date: 2010
   status: living
-  todo_status: strong
-kok:
-  includes:
-  - gom
-  - knn
-  name: Konkani (macrolanguage)
-  status: living
-kom:
-  includes:
-  - koi
-  - kpv
-  name: Komi
-  speakers: 223000
-  speakers_date: 2010
-  status: living
+  validity: verified
 kon:
   autonym: Kikongo
   includes:
@@ -3138,20 +2897,19 @@ kon:
   speakers: 6500000
   speakers_date: 1982-2012
   status: living
-  todo_status: weak
+  validity: weak
 kpt:
   name: Karata
   orthographies:
   - autonym: Кӏкӏирлӏи мацӏцӏи
-    base: а б в г д е ж з и й к л м н о п р с т у х ц ч ш щ ъ ы ь э ю я ӏ ã ẽ и̃ õ
-      у̃
+    base: а б в г д е ж з и й к л м н о п р с т у х ц ч ш щ ъ ы ь э ю я ӏ ã ẽ õ
     script: Cyrillic
   source:
   - Omniglot
   speakers: 260
   speakers_date: 2010
   status: living
-  todo_status: weak
+  validity: weak
 kpv:
   name: Komi-Zyrian
   orthographies:
@@ -3161,7 +2919,7 @@ kpv:
   speakers: 160000
   speakers_date: 2010
   status: living
-  todo_status: weak
+  validity: weak
 kpy:
   name: Koryak
   note: sources partially disagree. Wikipedia notes қ ң instead of ӄ ӈ.
@@ -3175,7 +2933,7 @@ kpy:
   speakers: 1665
   speakers_date: 2010
   status: living
-  todo_status: weak
+  validity: weak
 krc:
   name: Karachay-Balkar
   orthographies:
@@ -3187,7 +2945,7 @@ krc:
   speakers: 310000
   speakers_date: 2010
   status: living
-  todo_status: weak
+  validity: weak
 krl:
   name: Karelian
   orthographies:
@@ -3199,7 +2957,7 @@ krl:
   speakers: 36000
   speakers_date: 1994-2010
   status: living
-  todo_status: weak
+  validity: weak
 ksb:
   name: Shambala
   orthographies:
@@ -3212,27 +2970,26 @@ ksb:
   speakers: 660000
   speakers_date: 2001
   status: living
-  todo_status: weak
+  validity: weak
 ksf:
   name: Bafia
   orthographies:
   - autonym: Rikpa
     auxiliary: q x
-    base: a b c d e f g h i j k l m n o p r s t u v w y z á é í ó ú ŋ ǝ ɔ ɛ ́
+    base: a b c d e f g h i j k l m n o p r s t u v w y z á é í ó ú ŋ ǝ ɔ ɛ
     script: Latin
   source:
   - CLDR
   speakers: 60000
   speakers_date: 1991
   status: living
-  todo_status: weak
+  validity: weak
 ksh:
   name: Kölsch
   note: 25% of the population of Cologne
   orthographies:
   - autonym: Kölsch
-    auxiliary: à á â ã ç è é ê ì í î ï ñ ò ó ô ø ù ú û ÿ ā ă ē ĕ ğ ī ĭ ı ĳ ł ō ŏ ū
-      ŭ
+    auxiliary: à á â ã ç è é ê ì í î ï ñ ò ó ô ø ù ú û ÿ ā ă ē ĕ ğ ī ĭ ı ĳ ł ō ŏ ū ŭ
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ß ä å æ ë ö ü ė œ ů
     script: Latin
   source:
@@ -3240,7 +2997,7 @@ ksh:
   - CLDR
   speakers: 250000
   status: living
-  todo_status: weak
+  validity: weak
 kua:
   name: Kuanyama
   orthographies:
@@ -3252,7 +3009,7 @@ kua:
   speakers: 670000
   speakers_date: 1993-2006
   status: living
-  todo_status: weak
+  validity: weak
 kum:
   name: Kumyk
   orthographies:
@@ -3264,23 +3021,7 @@ kum:
   speakers: 450000
   speakers_date: 2010
   status: living
-  todo_status: weak
-kur:
-  includes:
-  - ckb
-  - kmr
-  - sdh
-  name: Kurdish
-  status: living
-kwy:
-  name: San Salvador Kongo
-  orthographies:
-  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    script: Latin
-  source:
-  - Omniglot
-  status: living
-  todo_status: weak
+  validity: weak
 lag:
   name: Langi
   orthographies:
@@ -3292,7 +3033,7 @@ lag:
   speakers: 410000
   speakers_date: 2007
   status: living
-  todo_status: weak
+  validity: weak
 lat:
   name: Latin
   orthographies:
@@ -3306,13 +3047,7 @@ lat:
   - Alvestrand
   speakers: 0
   status: ancient
-  todo_status: done
-lav:
-  includes:
-  - ltg
-  - lvs
-  name: Latvian
-  status: living
+  validity: done
 lbe:
   name: Lak
   orthographies:
@@ -3325,16 +3060,7 @@ lbe:
   speakers: 152050
   speakers_date: 2010
   status: living
-  todo_status: strong
-ldi:
-  name: Laari
-  orthographies:
-  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    script: Latin
-  source:
-  - Omniglot
-  status: living
-  todo_status: weak
+  validity: verified
 lez:
   name: Lezghian
   orthographies:
@@ -3346,27 +3072,25 @@ lez:
   speakers: 633610
   speakers_date: 2010
   status: living
-  todo_status: weak
+  validity: weak
 lij:
   name: Ligurian
   orthographies:
   - autonym: Ligure
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ä æ è é ê ë ì
-      í î ï ò ó ô ö ù ú
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ä æ è é ê ë ì í î ï ò ó ô ö ù ú
     script: Latin
   source:
   - Omniglot
   speakers: 500000
   speakers_date: 2002
   status: living
-  todo_status: weak
+  validity: weak
 lin:
   name: Lingala
   orthographies:
   - autonym: Lingala
     auxiliary: j q x
-    base: a b c d e f g h i k l m n o p r s t u v w y z á â é ê í î ó ô ú ě ǎ ǐ ǒ
-      ɔ ɛ ́ ̂ ̌
+    base: a b c d e f g h i k l m n o p r s t u v w y z á â é ê í î ó ô ú ě ǎ ǐ ǒ ɔ ɛ
     script: Latin
   source:
   - Omniglot
@@ -3375,7 +3099,7 @@ lin:
   speakers: 15000000
   speakers_date: 2017
   status: living
-  todo_status: strong
+  validity: verified
 lit:
   name: Lithuanian
   orthographies:
@@ -3387,12 +3111,12 @@ lit:
   speakers: 3000000
   speakers_date: 2012
   status: living
-  todo_status: weak
+  validity: weak
 lkt:
   name: Lakota
   orthographies:
   - autonym: Lakȟótiyapi
-    auxiliary: c d f j q r s v x
+    auxiliary: c d f j q r v x
     base: a b e g h i k l m n o p s t u w y z á é í ó ú č ŋ š ž ǧ ȟ ʼ
     script: Latin
   source:
@@ -3402,33 +3126,31 @@ lkt:
   speakers: 2100
   speakers_date: 1997
   status: living
-  todo_status: strong
+  validity: verified
 lld:
   name: Ladin
   orthographies:
   - autonym: Ladin
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â è é ê ë ì î ò
-      ó ô ö ù û ü ć ś
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â è é ê ë ì î ò ó ô ö ù û ü ć ś
     script: Latin
   source:
   - Omniglot
   speakers: 41129
   speakers_date: 2006-2011
   status: living
-  todo_status: weak
+  validity: weak
 lmo:
   name: Lombard
   orthographies:
   - autonym: Lombard
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á è é ì í ò ó ô ø
-      ù ü
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á è é ì í ò ó ô ø ù ü
     script: Latin
   source:
   - Omniglot
   speakers: 3900000
   speakers_date: 2002
   status: living
-  todo_status: weak
+  validity: weak
 ltg:
   name: Latgalian
   orthographies:
@@ -3441,20 +3163,19 @@ ltg:
   speakers: 150000–200000
   speakers_date: 2009
   status: living
-  todo_status: strong
+  validity: verified
 ltz:
   name: Luxembourgish
   orthographies:
   - autonym: Lëtzebuergesch
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ß â ä è é ê ë î ô ö
-      û ü
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ß â ä è é ê ë î ô ö û ü
     script: Latin
   source:
   - Omniglot
   speakers: 390000
   speakers_date: 2010
   status: living
-  todo_status: weak
+  validity: weak
 lua:
   name: Luba-Lulua
   orthographies:
@@ -3467,21 +3188,20 @@ lua:
   speakers: 6300000
   speakers_date: 1991
   status: living
-  todo_status: weak
+  validity: weak
 lub:
   name: Luba-Katanga
   orthographies:
   - autonym: Kiluba
-    auxiliary: g r x
+    auxiliary: r x
     base: a b c d e f g h i j k l m n o p q s t u v w y z à á è é ì í ò ó ù ú ɔ ɛ
-      ̀ ́
     script: Latin
   source:
   - CLDR
   speakers: 1505000
   speakers_date: 1991
   status: living
-  todo_status: weak
+  validity: weak
 lug:
   name: Ganda
   orthographies:
@@ -3495,7 +3215,7 @@ lug:
   - CLDR
   speakers: 8200000
   status: living
-  todo_status: strong
+  validity: verified
 luo:
   name: Luo (Kenya and Tanzania)
   note: Alternative speaker count of 8000000 unconfirmed.
@@ -3510,7 +3230,7 @@ luo:
   speakers: 4200000
   speakers_date: 2009
   status: living
-  todo_status: strong
+  validity: verified
 lvs:
   name: Standard Latvian
   orthographies:
@@ -3523,20 +3243,19 @@ lvs:
   speakers: 1750000
   speakers_date: 2015
   status: living
-  todo_status: weak
+  validity: weak
 mas:
   name: Masai
   orthographies:
   - autonym: Maa
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â è é ê ì í î ɔ
-      ɛ ɨ ʉ ò ó ô ù ú û ŋ
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â è é ê ì í î ɔ ɛ ɨ ʉ ò ó ô ù ú û ŋ
     script: Latin
   source:
   - Omniglot
   speakers: 1500000
   speakers_date: 2009-2016
   status: living
-  todo_status: weak
+  validity: weak
 mdf:
   name: Moksha
   orthographies:
@@ -3549,7 +3268,7 @@ mdf:
   speakers: 430000
   speakers_date: 2010
   status: living
-  todo_status: strong
+  validity: verified
 mer:
   name: Meru
   note: Alternative speaker count of 2300000 unconfirmed.
@@ -3567,7 +3286,7 @@ mer:
   speakers: 2000000
   speakers_date: 2009
   status: living
-  todo_status: weak
+  validity: weak
 mfe:
   name: Morisyen
   orthographies:
@@ -3581,7 +3300,7 @@ mfe:
   speakers: 1090000
   speakers_date: 2016
   status: living
-  todo_status: strong
+  validity: verified
 mgh:
   name: Makhuwa-Meetto
   orthographies:
@@ -3593,13 +3312,13 @@ mgh:
   speakers: 6600000
   speakers_date: 2006
   status: living
-  todo_status: weak
+  validity: weak
 mgo:
   name: Meta'
   orthographies:
   - autonym: Mɨta’
     auxiliary: q x
-    base: a b c d e f g h i j k m n o p r s t u w y z à è ì ò ù ŋ ɔ ə ɨ ʼ ̀
+    base: a b c d e f g h i j k m n o p r s t u w y z à è ì ò ù ŋ ɔ ə ɨ ʼ
     script: Latin
   preferred_name: Meta’
   source:
@@ -3607,7 +3326,7 @@ mgo:
   speakers: 190000
   speakers_date: 2010
   status: living
-  todo_status: weak
+  validity: weak
 mhr:
   name: Eastern Mari
   orthographies:
@@ -3620,7 +3339,7 @@ mhr:
   speakers: 470000
   speakers_date: 2012
   status: living
-  todo_status: strong
+  validity: verified
 mkd:
   name: Macedonian
   orthographies:
@@ -3633,7 +3352,7 @@ mkd:
   - CLDR
   speakers: 1400000
   status: living
-  todo_status: strong
+  validity: verified
 mlg:
   includes:
   - bhr
@@ -3653,8 +3372,9 @@ mlg:
     base: a b d e f g h i j k l m n o p r s t v y z à â è é ê ë ì î ï ñ ô
     script: Latin
   - autonym: Malagasy
-    base: a b d e f g h i j k l m n o p r s t v y z à â è é ê ë ì î ï n̈ ô
+    base: a b d e f g h i j k l m n o p r s t v y z à â è é ê ë ì î ï ô
     script: Latin
+  preferred_as_individual: true
   source:
   - Omniglot
   - Wikipedia
@@ -3662,8 +3382,7 @@ mlg:
   speakers: 25000000
   speakers_date: 2015
   status: living
-  todo_status: strong
-  preferred_as_individual: true
+  validity: verified
 mlt:
   name: Maltese
   orthographies:
@@ -3677,20 +3396,19 @@ mlt:
   speakers: 520000
   speakers_date: 2012
   status: living
-  todo_status: strong
+  validity: verified
 mns:
   name: Mansi
   orthographies:
   - autonym: Маньси
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӈ ӣ ӯ
-    combinations: '{а̄}{е̄}{о̄}{э̄}{ю̄}{я̄}'
     script: Cyrillic
   source:
   - Omniglot
   speakers: 940
   speakers_date: 2010
   status: living
-  todo_status: weak
+  validity: weak
 moe:
   name: Montagnais
   orthographies:
@@ -3702,13 +3420,12 @@ moe:
   speakers: 10075
   speakers_date: 2016
   status: living
-  todo_status: weak
+  validity: weak
 moh:
   name: Mohawk
   orthographies:
   - autonym: Kanien’kéha
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á à é è í ì ó ò ú ù
-      ’
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á à é è í ì ó ò ú ù ’
     script: Latin
   source:
   - Omniglot
@@ -3716,17 +3433,10 @@ moh:
   speakers: 3875
   speakers_date: 2011-2016
   status: living
-  todo_status: strong
-mon:
-  includes:
-  - khk
-  - mvf
-  name: Mongolian
-  status: living
+  validity: verified
 mqm:
   name: South Marquesan
-  note: The number of speakers is estimate, a half of total Marquesan language speakers
-    (8700).
+  note: The number of speakers is estimate, a half of total Marquesan language speakers (8700).
   orthographies:
   - autonym: ʻEo ʻEnata
     inherit: mrq
@@ -3736,7 +3446,7 @@ mqm:
   speakers: 4350
   speakers_date: 2007
   status: living
-  todo_status: weak
+  validity: weak
 mri:
   name: Maori
   orthographies:
@@ -3748,13 +3458,12 @@ mri:
   - Wikipedia
   - CLDR
   status: living
-  todo_status: strong
+  validity: verified
 mrj:
   name: Western Mari
   orthographies:
   - autonym: Кырык Мары
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӓ ӧ ӱ
-      ӹ
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӓ ӧ ӱ ӹ
     script: Cyrillic
   source:
   - Omniglot
@@ -3762,11 +3471,10 @@ mrj:
   speakers: 30000
   speakers_date: 2012
   status: living
-  todo_status: strong
+  validity: verified
 mrq:
   name: North Marquesan
-  note: The number of speakers is estimate, a half of total Marquesan language speakers
-    (8700).
+  note: The number of speakers is estimate, a half of total Marquesan language speakers (8700).
   orthographies:
   - autonym: ’Eo ’Enana
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ó ú ʻ
@@ -3776,54 +3484,12 @@ mrq:
   speakers: 4350
   speakers_date: 2007
   status: living
-  todo_status: weak
-msa:
-  includes:
-  - bjn
-  - btj
-  - bve
-  - bvu
-  - coa
-  - dup
-  - hji
-  - ind
-  - jak
-  - jax
-  - kvb
-  - kvr
-  - kxd
-  - lce
-  - lcf
-  - liw
-  - max
-  - meo
-  - mfa
-  - mfb
-  - min
-  - mqg
-  - msi
-  - mui
-  - orn
-  - ors
-  - pel
-  - pse
-  - tmw
-  - urk
-  - vkk
-  - vkt
-  - xmm
-  - zlm
-  - zmi
-  - zsm
-  name: Malay (macrolanguage)
-  speakers: 200000000–250000000
-  speakers_date: 2009
-  status: living
+  validity: weak
 mua:
   name: Mundang
   orthographies:
   - autonym: Mundaŋ
-    base: a b c d e f g h i j k l m n o p r s t u v w y z ã ẽ õ ĩ ŋ ǝ ə̃ ɓ ɗ ṽ
+    base: a b c d e f g h i j k l m n o p r s t u v w y z ã ẽ õ ĩ ŋ ǝ ə ɓ ɗ ṽ
     script: Latin
   source:
   - Omniglot
@@ -3831,7 +3497,7 @@ mua:
   speakers: 240000
   speakers_date: 1982-2006
   status: living
-  todo_status: strong
+  validity: verified
 mus:
   name: Creek
   orthographies:
@@ -3844,7 +3510,7 @@ mus:
   speakers: 4500
   speakers_date: 2015
   status: living
-  todo_status: strong
+  validity: verified
 mwf:
   name: Murrinh-Patha
   orthographies:
@@ -3857,7 +3523,7 @@ mwf:
   speakers: 1973
   speakers_date: 2016
   status: living
-  todo_status: strong
+  validity: verified
 mwl:
   name: Mirandese
   orthographies:
@@ -3870,16 +3536,15 @@ mwl:
   speakers: 15000
   speakers_date: 2000
   status: living
-  todo_status: done
+  validity: done
 mwp:
   name: Kala Lagaw Ya
   orthographies:
   - autonym: Kala Lagaw Ya
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á ă ā è é ë ĕ ē ì
-      í ĭ ī ò ó ŏ ō œ ù ú ŭ ū
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á ă ā è é ë ĕ ē ì í ĭ ī ò ó ŏ ō œ ù ú ŭ ū
     script: Latin
   - autonym: Kala Lagaw Ya
-    base: a ă ­ā b d e ĕ ē g i ĭ ī k l m n n o ŏ ō ò ö ë œ p f r s t u ŭ ū w y z j
+    base: a ă ­ ā b d e ĕ ē g i ĭ ī k l m n o ŏ ō ò ö ë œ p f r s t u ŭ ū w y z j
     script: Latin
   - autonym: Kala Lagaw Ya
     base: a b d e g i k l m n o p r s t u w y z
@@ -3896,7 +3561,7 @@ mwp:
   speakers: 957
   speakers_date: 2016
   status: living
-  todo_status: strong
+  validity: verified
 myv:
   name: Erzya
   orthographies:
@@ -3909,7 +3574,7 @@ myv:
   speakers: 430000
   speakers_date: 2010
   status: living
-  todo_status: strong
+  validity: verified
 nag:
   name: Naga Pidgin
   orthographies:
@@ -3922,13 +3587,12 @@ nag:
   speakers: 30000
   speakers_date: 1989
   status: living
-  todo_status: strong
+  validity: verified
 nap:
   name: Neapolitan
   orthographies:
   - autonym: Napulitano
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â è é ê ì í î ò
-      ó ô ù ú û
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â è é ê ì í î ò ó ô ù ú û
     script: Latin
   source:
   - Omniglot
@@ -3936,14 +3600,13 @@ nap:
   speakers: 5700000
   speakers_date: 2002
   status: living
-  todo_status: strong
+  validity: verified
 naq:
   name: Khoekhoe
   orthographies:
   - autonym: Khoekhoe
     auxiliary: j l v
-    base: a b c d e f g h i k m n o p q r s t u w x y z à á ā ä â ã é è ê ë ẽ ē ì
-      í ī ï ĩ ò ó õ ö ô ō ù ú ũ ü û ū ǀ ǁ ǂ ǃ
+    base: a b c d e f g h i k m n o p q r s t u w x y z à á ā ä â ã é è ê ë ẽ ē ì í ī ï ĩ ò ó õ ö ô ō ù ú ũ ü û ū ǀ ǁ ǂ ǃ
     script: Latin
   source:
   - Omniglot
@@ -3952,7 +3615,7 @@ naq:
   speakers: 200000
   speakers_date: 2011
   status: living
-  todo_status: strong
+  validity: verified
 nbl:
   name: South Ndebele
   orthographies:
@@ -3964,7 +3627,7 @@ nbl:
   speakers: 1100000
   speakers_date: 2011
   status: living
-  todo_status: weak
+  validity: weak
 nde:
   name: North Ndebele
   orthographies:
@@ -3978,7 +3641,7 @@ nde:
   speakers: 1600000
   speakers_date: 2012
   status: living
-  todo_status: strong
+  validity: verified
 nds:
   name: Low German
   orthographies:
@@ -3989,13 +3652,7 @@ nds:
   - Omniglot
   speakers: 6700000
   status: living
-  todo_status: weak
-nep:
-  includes:
-  - dty
-  - npi
-  name: Nepali (macrolanguage)
-  status: living
+  validity: weak
 nhn:
   name: Central Nahuatl
   orthographies:
@@ -4007,20 +3664,17 @@ nhn:
   speakers: 40000
   speakers_date: 1980
   status: living
-  todo_status: strong
+  validity: verified
 nio:
   name: Nganasan
   note: Sources partially disagree. Wikipedia notes з̌ instead of ҙ.
   orthographies:
   - autonym: ня”
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҫ ү ӈ
-      ә ө ҙ ”
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҫ ү ӈ ә ө ҙ ”
     note: Omniglot version
     script: Cyrillic
   - autonym: ня”
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҫ ү ӈ
-      ә ө ”
-    combinations: '{з̌}'
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҫ ү ӈ ә ө ” ̌
     note: Wikipedia version
     script: Cyrillic
   source:
@@ -4029,7 +3683,7 @@ nio:
   speakers: 125
   speakers_date: 2010
   status: living
-  todo_status: weak
+  validity: weak
 niu:
   name: Niuean
   note: Speaker count date for 2000 in Niue only.
@@ -4042,14 +3696,12 @@ niu:
   speakers: 7700
   speakers_date: 1998
   status: living
-  todo_status: weak
+  validity: weak
 niv:
   name: Gilyak
   orthographies:
   - autonym: нивх
-    base: ʼ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ғ ӄ
-      ӈ ӷ ӻ ӽ ӿ ’
-    combinations: '{р̌}'
+    base: ʼ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ғ ӄ ӈ ӷ ӻ ӽ ӿ ’ ̌
     script: Cyrillic
   source:
   - Omniglot
@@ -4057,14 +3709,12 @@ niv:
   speakers: 200
   speakers_date: 2010
   status: living
-  todo_status: strong
+  validity: verified
 nld:
   name: Dutch
   orthographies:
   - autonym: Nederlands
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á â ä è é ê ë í ï ó
-      ô ö ú û ü ĳ
-    combinations: '{ȷ́}'
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á â ä è é ê ë í ï ó ô ö ú û ü ĳ ȷ
     script: Latin
   source:
   - Omniglot
@@ -4072,65 +3722,33 @@ nld:
   speakers: 24000000
   speakers_date: 2016
   status: living
-  todo_status: done
+  validity: done
 nmg:
   name: Kwasio
   orthographies:
   - autonym: Kwasio
     auxiliary: q x z
-    base: a b c d e f g h i j k l m n o p r s t u v w y á â ä é ê í î ï ó ô ö ú û
-      ā ē ě ī ń ŋ ō ŕ ū ǎ ǐ ǒ ǔ ǝ ɓ ɔ ɛ ́ ̂ ̄ ̌
+    base: a b c d e f g h i j k l m n o p r s t u v w y á â ä é ê í î ï ó ô ö ú û ā ē ě ī ń ŋ ō ŕ ū ǎ ǐ ǒ ǔ ǝ ɓ ɔ ɛ
     script: Latin
   source:
   - CLDR
   speakers: 26000
   speakers_date: 1982-2012
   status: living
-  todo_status: weak
+  validity: weak
 nnh:
   name: Ngiemboon
   orthographies:
   - autonym: Ngyɛmbɔɔŋ
     auxiliary: q r x
-    base: a b c d e f g h i j k l m n o p s t u v w y z à á â è é ê ì í ò ó ô ù ú
-      û ÿ ě ń ŋ ǎ ǒ ǔ ɔ ɛ ʉ ʼ ̀ ́ ̂ ̌ ḿ ẅ
+    base: a b c d e f g h i j k l m n o p s t u v w y z à á â è é ê ì í ò ó ô ù ú û ÿ ě ń ŋ ǎ ǒ ǔ ɔ ɛ ʉ ʼ ḿ ẅ
     script: Latin
   source:
   - CLDR
   speakers: 250000
   speakers_date: 2000
   status: living
-  todo_status: weak
-nno:
-  name: Norwegian Nynorsk
-  orthographies:
-  - autonym: Nynorsk
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á à ä å æ é è ê ò ó
-      ô ö ø ü
-    script: Latin
-  source:
-  - Omniglot
-  - Wikipedia
-  - CLDR
-  speakers: 4320000
-  speakers_date: 2012
-  status: living
-  todo_status: strong
-nob:
-  name: Norwegian Bokmål
-  orthographies:
-  - autonym: Bokmål
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á à ä å æ é è ê ò ó
-      ô ö ø ü
-    script: Latin
-  source:
-  - Omniglot
-  - Wikipedia
-  - CLDR
-  speakers: 4320000
-  speakers_date: 2012
-  status: living
-  todo_status: strong
+  validity: weak
 nog:
   name: Nogai
   orthographies:
@@ -4143,19 +3761,18 @@ nog:
   speakers: 87000
   speakers_date: 2010
   status: living
-  todo_status: strong
+  validity: verified
 non:
   name: Old Norse
   orthographies:
   - autonym: Dǫnsk tunga
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á æ é í ð ó ø ú ý œ
-      ǫ ǽ
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á æ é í ð ó ø ú ý œ ǫ ǽ
     script: Latin
   source:
   - Omniglot
   speakers: 0
   status: historical
-  todo_status: weak
+  validity: weak
 nor:
   autonym: Norsk
   includes:
@@ -4164,8 +3781,7 @@ nor:
   name: Norwegian
   orthographies:
   - autonym: Norsk
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á à ä å æ é è ê ò ó
-      ô ö ø ü
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á à ä å æ é è ê ò ó ô ö ø ü
     script: Latin
   preferred_as_individual: true
   source:
@@ -4175,7 +3791,7 @@ nor:
   speakers: 4320000
   speakers_date: 2012
   status: living
-  todo_status: strong
+  validity: verified
 nov:
   name: Novial
   orthographies:
@@ -4186,7 +3802,7 @@ nov:
   - Omniglot
   speakers: 0
   status: constructed
-  todo_status: weak
+  validity: weak
 nso:
   name: Pedi
   orthographies:
@@ -4198,13 +3814,12 @@ nso:
   speakers: 4700000
   speakers_date: 2011
   status: living
-  todo_status: weak
+  validity: weak
 nus:
   name: Nuer
   orthographies:
   - autonym: Naath
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä a̱ ë e̱ ï i̱ ö o̱
-      ŋ ɔ ɔ̱ ɛ ɛ̱ ɛ̈ ɣ ̈ ̱
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ̱ ë ï ö ŋ ɔ ɛ ɣ
     script: Latin
   source:
   - Omniglot
@@ -4212,7 +3827,7 @@ nus:
   speakers: 890000
   speakers_date: 1982-2007
   status: living
-  todo_status: strong
+  validity: verified
 nya:
   name: Nyanja
   orthographies:
@@ -4224,7 +3839,7 @@ nya:
   speakers: 12000000
   speakers_date: 2007
   status: living
-  todo_status: weak
+  validity: weak
 nyn:
   name: Nyankole
   orthographies:
@@ -4237,13 +3852,12 @@ nyn:
   speakers: 3400000
   speakers_date: 2014
   status: living
-  todo_status: strong
+  validity: verified
 oaa:
   name: Orok
   orthographies:
   - autonym: Уйльта
-    base: ̄ а б в г д е ж з и й к л м н о п р с т у ф х ч э ј ӈ ӡ ӣ ө ԩ ь
-    combinations: '{а̄}{е̄}{о̄}{ө̄}{э̄}'
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ч э ј ӈ ӡ ӣ ө ԩ ь
     script: Cyrillic
   source:
   - Omniglot
@@ -4251,13 +3865,12 @@ oaa:
   speakers: 26–47
   speakers_date: 2010
   status: living
-  todo_status: strong
+  validity: verified
 oci:
   name: Occitan (post 1500)
   orthographies:
   - autonym: Occitan
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á ç è é ë í ï ò ó
-      ú ü
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á ç è é ë í ï ò ó ú ü
     script: Latin
   preferred_name: Occitan
   source:
@@ -4265,7 +3878,7 @@ oci:
   speakers: 100000–800000
   speakers_date: 2007-2012
   status: living
-  todo_status: weak
+  validity: weak
 old:
   name: Mochi
   orthographies:
@@ -4276,7 +3889,7 @@ old:
   source:
   - CLDR
   status: living
-  todo_status: todo
+  validity: todo
 orc:
   name: Orma
   orthographies:
@@ -4288,21 +3901,7 @@ orc:
   speakers: 66000
   speakers_date: 2009
   status: living
-  todo_status: strong
-ori:
-  includes:
-  - ory
-  - spv
-  name: Oriya (macrolanguage)
-  status: living
-orm:
-  includes:
-  - gax
-  - gaz
-  - hae
-  - orc
-  name: Oromo
-  status: living
+  validity: verified
 oss:
   name: Ossetian
   orthographies:
@@ -4317,7 +3916,7 @@ oss:
   speakers: 600000
   speakers_date: 2010
   status: living
-  todo_status: weak
+  validity: weak
 pam:
   name: Pampanga
   orthographies:
@@ -4335,7 +3934,7 @@ pam:
   speakers: 1900000
   speakers_date: 1990
   status: living
-  todo_status: strong
+  validity: verified
 pap:
   name: Papiamento
   orthographies:
@@ -4347,15 +3946,13 @@ pap:
   - Wikipedia
   speakers: 341300
   status: living
-  todo_status: strong
+  validity: verified
 pes:
   name: Iranian Persian
-  note: Initial, medial, and final forms of the letters and some ligatures are also
-    required.
+  note: Initial, medial, and final forms of the letters and some ligatures are also required.
   orthographies:
   - autonym: فارسی
-    base: ء أ ؤ ئ ا ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ل م ن ه و پ چ ژ ک گ ی
-      َ ُ ِ ْ ٰ
+    base: ء أ ؤ ئ ا ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ل م ن ه و پ چ ژ ک گ ی َ ُ ِ ْ ٰ
     numerals: ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹
     script: Arabic
   source:
@@ -4363,11 +3960,10 @@ pes:
   speakers: 55600000
   speakers_date: 2015
   status: living
-  todo_status: weak
+  validity: weak
 pga:
   name: Sudanese Creole Arabic
-  note: Also called Juba Arabic. Initial, medial, and final forms of the letters and
-    some ligatures are also required.
+  note: Also called Juba Arabic. Initial, medial, and final forms of the letters and some ligatures are also required.
   orthographies:
   - autonym: جوبا
     inherit: apd
@@ -4377,7 +3973,7 @@ pga:
   speakers: 20000
   speakers_date: 1987
   status: living
-  todo_status: weak
+  validity: weak
 plz:
   name: Paluan
   orthographies:
@@ -4389,7 +3985,7 @@ plz:
   speakers: 5500
   speakers_date: 2000
   status: living
-  todo_status: weak
+  validity: weak
 pms:
   name: Piemontese
   orthographies:
@@ -4401,7 +3997,7 @@ pms:
   speakers: 700000
   speakers_date: 2012
   status: living
-  todo_status: weak
+  validity: weak
 pol:
   name: Polish
   orthographies:
@@ -4412,20 +4008,19 @@ pol:
   - Omniglot
   speakers: 45000000
   status: living
-  todo_status: weak
+  validity: weak
 por:
   name: Portuguese
   orthographies:
   - autonym: Português
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ã ç è é ê í ò
-      ó ô õ ú ü
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ã ç è é ê í ò ó ô õ ú ü
     script: Latin
   source:
   - Omniglot
   speakers: 223000000
   speakers_date: 2012-2016
   status: living
-  todo_status: weak
+  validity: weak
 pot:
   name: Potawatomi
   note: The language is being revived.
@@ -4438,21 +4033,20 @@ pot:
   - Wikipedia
   speakers: 0
   status: living
-  todo_status: strong
+  validity: verified
 prg:
   name: Prussian
   note: Need to add combinations with accents.
   orthographies:
   - autonym: Prūsiskan
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ģ ī ķ ņ ō ŗ š ū
-      ž ț ḑ
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ģ ī ķ ņ ō ŗ š ū ž ț ḑ
     script: Latin
   source:
   - Omniglot
   - Wikipedia
   speakers: 0
   status: living
-  todo_status: strong
+  validity: verified
 prs:
   name: Dari
   orthographies:
@@ -4462,7 +4056,7 @@ prs:
   speakers: 12500000
   speakers_date: 2000-2011
   status: living
-  todo_status: done
+  validity: weak
 que:
   includes:
   - qub
@@ -4521,7 +4115,7 @@ que:
   speakers: 10000000
   speakers_date: 2004
   status: living
-  todo_status: strong
+  validity: verified
 qxq:
   name: Qashqa'i
   orthographies:
@@ -4533,22 +4127,22 @@ qxq:
   speakers: 949000
   speakers_date: 2015
   status: living
-  todo_status: weak
+  validity: weak
 rar:
   name: Rarotongan
-  preferred_name: Cook Islands Māori
   orthographies:
   - autonym: Māori Kūki 'Āirani
     auxiliary: á é í ó ú
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ī ō ū
     script: Latin
+  preferred_name: Cook Islands Māori
   source:
   - Omniglot
   - Wikipedia
   speakers: 21345
   speakers_date: 2011-2013
   status: living
-  todo_status: strong
+  validity: verified
 rof:
   name: Rombo
   orthographies:
@@ -4559,7 +4153,7 @@ rof:
   source:
   - CLDR
   status: living
-  todo_status: todo
+  validity: todo
 roh:
   name: Romansh
   orthographies:
@@ -4573,7 +4167,7 @@ roh:
   speakers: 44354
   speakers_date: 2017
   status: living
-  todo_status: strong
+  validity: verified
 ron:
   name: Romanian
   orthographies:
@@ -4583,8 +4177,8 @@ ron:
     script: Cyrillic
     status: local
   - autonym: Română
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z â î ă ș ț
     auxiliary: ş ţ
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z â î ă ș ț
     script: Latin
   source:
   - Omniglot
@@ -4592,7 +4186,7 @@ ron:
   speakers: 26000000
   speakers_date: 2016
   status: living
-  todo_status: done
+  validity: done
 roo:
   name: Rotokas
   orthographies:
@@ -4605,7 +4199,7 @@ roo:
   speakers: 4300
   speakers_date: 1981
   status: living
-  todo_status: strong
+  validity: verified
 rue:
   name: Rusyn
   orthographies:
@@ -4618,7 +4212,7 @@ rue:
   speakers: 623500
   speakers_date: 2000-2006
   status: living
-  todo_status: strong
+  validity: verified
 run:
   name: Rundi
   orthographies:
@@ -4630,7 +4224,7 @@ run:
   speakers: 8800000
   speakers_date: 2007
   status: living
-  todo_status: weak
+  validity: weak
 ruo:
   name: Istro Romanian
   orthographies:
@@ -4642,7 +4236,7 @@ ruo:
   speakers: 300
   speakers_date: 2007
   status: living
-  todo_status: weak
+  validity: weak
 rup:
   name: Macedo-Romanian
   orthographies:
@@ -4654,13 +4248,12 @@ rup:
   speakers: 250000
   speakers_date: 1997
   status: living
-  todo_status: weak
+  validity: weak
 ruq:
   name: Megleno Romanian
   orthographies:
   - autonym: Vlăheshte
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā â ă ạ ē ë ę ž ł š
-      i̯ ī ō ǫ ū ľ ń ș ț
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā â ă ạ ē ë ę ž ł š ̯ ī ō ǫ ū ľ ń ș ț
     script: Latin
   source:
   - Omniglot
@@ -4668,7 +4261,7 @@ ruq:
   speakers: 5000
   speakers_date: 2002
   status: living
-  todo_status: weak
+  validity: weak
 rus:
   name: Russian
   note: Combinations of vowels and marks are missing (todo).
@@ -4682,7 +4275,7 @@ rus:
   speakers: 150000000
   speakers_date: 2012
   status: living
-  todo_status: strong
+  validity: verified
 rut:
   name: Rutul
   orthographies:
@@ -4694,7 +4287,7 @@ rut:
   speakers: 36400
   speakers_date: 2010
   status: living
-  todo_status: weak
+  validity: weak
 rwk:
   name: Rwa
   orthographies:
@@ -4705,7 +4298,7 @@ rwk:
   source:
   - CLDR
   status: living
-  todo_status: todo
+  validity: todo
 sag:
   name: Sango
   orthographies:
@@ -4717,13 +4310,12 @@ sag:
   speakers: 450000
   speakers_date: 1988
   status: living
-  todo_status: weak
+  validity: weak
 sah:
   name: Yakut
   orthographies:
   - autonym: Сахалыы
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҕ ҥ ү
-      һ ө
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҕ ҥ ү һ ө
     script: Cyrillic
   source:
   - Omniglot
@@ -4731,7 +4323,7 @@ sah:
   speakers: 450000
   speakers_date: 2010
   status: living
-  todo_status: strong
+  validity: verified
 saq:
   name: Samburu
   orthographies:
@@ -4744,20 +4336,19 @@ saq:
   speakers: 240000
   speakers_date: 2009
   status: living
-  todo_status: weak
+  validity: weak
 sbp:
   name: Sangu (Tanzania)
   orthographies:
   - autonym: Shisango
-    base: a b c d e f g h i j k l m n o p q s t u v w x y z à á ä â è é ë ê ì í ï
-      î ò ó ö ô ù ú ü û
+    base: a b c d e f g h i j k l m n o p q s t u v w x y z à á ä â è é ë ê ì í ï î ò ó ö ô ù ú ü û
     script: Latin
   source:
   - Omniglot
   speakers: 75000
   speakers_date: 1987
   status: living
-  todo_status: weak
+  validity: weak
 scn:
   name: Sicilian
   orthographies:
@@ -4770,7 +4361,7 @@ scn:
   speakers: 4700000
   speakers_date: 2002
   status: living
-  todo_status: strong
+  validity: verified
 sdh:
   name: Southern Kurdish
   orthographies:
@@ -4782,7 +4373,7 @@ sdh:
   speakers: 3000000
   speakers_date: 2000
   status: living
-  todo_status: weak
+  validity: weak
 seh:
   name: Sena
   orthographies:
@@ -4795,7 +4386,7 @@ seh:
   speakers: 1600000
   speakers_date: 2001-2006
   status: living
-  todo_status: strong
+  validity: verified
 sei:
   name: Seri
   orthographies:
@@ -4807,21 +4398,19 @@ sei:
   speakers: 764
   speakers_date: 2010
   status: living
-  todo_status: weak
+  validity: weak
 sel:
   name: Selkup
   orthographies:
   - autonym: Шӧльӄумыт
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё җ ӄ ӈ
-      å ӣ ӧ ө ӭ ӯ ӱ ӷ
-    combinations: '{и̇}'
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё җ ӄ ӈ a ̊ ӣ ӧ ө ӭ ӯ ӱ ӷ ̇
     script: Cyrillic
   source:
   - Omniglot
   speakers: 1000
   speakers_date: 2010
   status: living
-  todo_status: weak
+  validity: weak
 ses:
   name: Koyraboro Senni Songhai
   orthographies:
@@ -4833,20 +4422,19 @@ ses:
   speakers: 430000
   speakers_date: 2007
   status: living
-  todo_status: weak
+  validity: weak
 sgh:
   name: Shughni
   orthographies:
   - autonym: Хуг̌ну̊н зив
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш ё ғ қ ҳ ҷ ӣ ӯ
-    combinations: '{а̄}{г̌}{у̊}'
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш ё ғ қ ҳ ҷ ӣ ӯ ̌ ̊
     script: Cyrillic
   source:
   - Omniglot
   speakers: 50000
   speakers_date: 1990
   status: living
-  todo_status: weak
+  validity: weak
 shi:
   name: Tachelhit
   note: Speaker count equals approximately 14.1% of Moroccan population.
@@ -4860,11 +4448,10 @@ shi:
   - CLDR
   speakers: 4739021
   status: living
-  todo_status: strong
+  validity: verified
 shu:
   name: Chadian Arabic
-  note: Initial, medial, and final forms of the letters and some ligatures are also
-    required.
+  note: Initial, medial, and final forms of the letters and some ligatures are also required.
   orthographies:
   - autonym: تشادية
     inherit: apd
@@ -4874,61 +4461,56 @@ shu:
   speakers: 1600000
   speakers_date: 2015
   status: living
-  todo_status: weak
+  validity: weak
 sjd:
   name: Kildin Sami
   orthographies:
   - autonym: Кӣллт Са̄мь
-    base: а ӓ б в г д е ё ж з һ и ӣ й ј ҋ к л ӆ м ӎ н ӊ ӈ о п р ҏ с т у ӯ ф х ц ч
-      ш щ ъ ы ь ҍ э ӭ ю я ’
-    combinations: '{а̄}{е̄}{ё̄}{ӣ}{о̄}{э̄}{ю̄}{я̄}'
+    base: а ӓ б в г д е ё ж з һ и ӣ й ј ҋ к л ӆ м ӎ н ӊ ӈ о п р ҏ с т у ӯ ф х ц ч ш щ ъ ы ь ҍ э ӭ ю я ’
     script: Cyrillic
   source:
   - Omniglot
   speakers: 340
   speakers_date: 2010
   status: living
-  todo_status: weak
+  validity: weak
 sje:
   name: Pite Sami
   orthographies:
   - autonym: Bidumsámegiella
-    base: a b d e f g h i j k l m n o p r s t u v á ä å đ ŋ ŧ ’ \'
+    base: a b d e f g h i j k l m n o p r s t u v á ä å đ ŋ ŧ ’ \ '
     script: Latin
   source:
   - Wikipedia
   speakers: 25–50
   speakers_date: 2010
   status: living
-  todo_status: weak
+  validity: weak
 sjt:
   name: Ter Sami
   orthographies:
   - autonym: Са̄мькӣлл
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ј ҋ ҍ
-      ҏ һ ӆ ӈ ӊ ӎ ӓ ӭ ӣ ’
-    combinations: '{а̄}'
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ј ҋ ҍ ҏ һ ӆ ӈ ӊ ӎ ӓ ӭ ӣ ’
     script: Cyrillic
   source:
   - Omniglot
   speakers: 2
   speakers_date: 2010
   status: living
-  todo_status: weak
+  validity: weak
 sju:
   name: Ume Sami
   orthographies:
   - autonym: Ubmejesámiengiälla
     auxiliary: ū ǖ
-    base: a b d e f g h i j k l m n o p r s t u v y á ä å ï ö ü đ ŋ ŧ
-    combinations: '{å̄l}'
+    base: a b d e f g h i j k l m n o p r s t u v y á ä å ï ö ü đ ŋ ŧ ̄
     script: Latin
   source:
   - Wikipedia
   speakers: 10
   speakers_date: 2000
   status: living
-  todo_status: weak
+  validity: weak
 sjw:
   name: Shawnee
   orthographies:
@@ -4940,20 +4522,19 @@ sjw:
   speakers: 200
   speakers_date: 2002
   status: living
-  todo_status: weak
+  validity: weak
 slk:
   name: Slovak
   orthographies:
   - autonym: Slovenčina
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á ä é í ó ô ú ý č ď
-      ĺ ľ ň ŕ š ť ž
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á ä é í ó ô ú ý č ď ĺ ľ ň ŕ š ť ž
     script: Latin
   source:
   - Omniglot
   speakers: 5200000
   speakers_date: 2011-2012
   status: living
-  todo_status: weak
+  validity: weak
 slv:
   name: Slovenian
   orthographies:
@@ -4965,7 +4546,7 @@ slv:
   speakers: 2500000
   speakers_date: 2010
   status: living
-  todo_status: weak
+  validity: weak
 sma:
   name: Southern Sami
   orthographies:
@@ -4977,13 +4558,12 @@ sma:
   speakers: 600
   speakers_date: 1992
   status: living
-  todo_status: weak
+  validity: weak
 sme:
   name: Northern Sami
   orthographies:
   - autonym: Sámegiella
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á ä å æ ö ø č đ ŋ š
-      ŧ ž
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á ä å æ ö ø č đ ŋ š ŧ ž
     script: Latin
   source:
   - Omniglot
@@ -4991,7 +4571,7 @@ sme:
   speakers: 25000
   speakers_date: 1992-2013
   status: living
-  todo_status: strong
+  validity: verified
 smj:
   name: Lule Sami
   orthographies:
@@ -5007,7 +4587,7 @@ smj:
   speakers: 650
   speakers_date: 2015
   status: living
-  todo_status: weak
+  validity: weak
 smn:
   name: Inari Sami
   orthographies:
@@ -5019,7 +4599,7 @@ smn:
   speakers: 400
   speakers_date: 2018
   status: living
-  todo_status: weak
+  validity: weak
 smo:
   name: Samoan
   orthographies:
@@ -5032,20 +4612,19 @@ smo:
   speakers: 510000
   speakers_date: 2015
   status: living
-  todo_status: strong
+  validity: verified
 sms:
   name: Skolt Sami
   orthographies:
   - autonym: Nuõrttsääʹmǩiõll
-    base: a b c d e f g h i j k l m n o p q r s t u v x y z â ä å ö õ č đ ŋ š ž ǥ
-      ǧ ǩ ǯ ʒ ’ ʹ ˈ
+    base: a b c d e f g h i j k l m n o p q r s t u v x y z â ä å ö õ č đ ŋ š ž ǥ ǧ ǩ ǯ ʒ ’ ʹ ˈ
     script: Latin
   source:
   - Wikipedia
   speakers: 320
   speakers_date: 1995-2007
   status: living
-  todo_status: weak
+  validity: weak
 sna:
   name: Shona
   orthographies:
@@ -5057,7 +4636,7 @@ sna:
   speakers: 10800000
   speakers_date: 2000-2007
   status: living
-  todo_status: weak
+  validity: weak
 som:
   name: Somali
   orthographies:
@@ -5069,12 +4648,12 @@ som:
   speakers: 16000000
   speakers_date: 2015
   status: living
-  todo_status: weak
+  validity: weak
 sot:
   name: Southern Sotho
   orthographies:
   - autonym: Sesotho
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á é è ē ō ò š
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á é ̄ š
     script: Latin
   source:
   - Omniglot
@@ -5082,7 +4661,7 @@ sot:
   speakers: 5600000
   speakers_date: 2001-2011
   status: living
-  todo_status: strong
+  validity: verified
 spa:
   name: Spanish
   orthographies:
@@ -5095,15 +4674,7 @@ spa:
   speakers: 483000000
   speakers_date: 2019
   status: living
-  todo_status: strong
-sqi:
-  includes:
-  - aae
-  - aat
-  - aln
-  - als
-  name: Albanian
-  status: living
+  validity: verified
 srd:
   includes:
   - sdc
@@ -5121,7 +4692,7 @@ srd:
   speakers: 1350000
   speakers_date: 2016
   status: living
-  todo_status: weak
+  validity: weak
 srm:
   name: Saramaccan
   orthographies:
@@ -5134,7 +4705,7 @@ srm:
   speakers: 90000
   speakers_date: 2013
   status: living
-  todo_status: strong
+  validity: verified
 srn:
   name: Sranan Tongo
   orthographies:
@@ -5147,13 +4718,12 @@ srn:
   speakers: 130000
   speakers_date: 1993
   status: living
-  todo_status: strong
+  validity: verified
 srp:
   name: Serbian
   orthographies:
   - autonym: Српски
     base: ́ а б в г д е ж з и к л м н о п р с т у ф х ц ч ш ђ ј љ њ ћ џ
-    combinations: '{з́}{с́}'
     script: Cyrillic
   - autonym: Srpski
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ć č đ ś š ź ž
@@ -5165,7 +4735,7 @@ srp:
   speakers: 9500000
   speakers_date: 2016
   status: living
-  todo_status: strong
+  validity: verified
 ssw:
   name: Swati
   orthographies:
@@ -5177,7 +4747,7 @@ ssw:
   speakers: 2300000
   speakers_date: 2006-2011
   status: living
-  todo_status: weak
+  validity: weak
 sun:
   name: Sundanese
   orthographies:
@@ -5190,23 +4760,7 @@ sun:
   speakers: 40000000
   speakers_date: 2016
   status: living
-  todo_status: strong
-swa:
-  includes:
-  - swc
-  - swh
-  - ymk
-  - wmw
-  name: Swahili (macrolanguage)
-  note: Speaker counts estimate between 2 and 150 million.
-  source:
-  - Omniglot
-  - Wikipedia
-  - CLDR
-  speakers: 150000000
-  speakers_date: 2012
-  status: living
-  todo_status: strong
+  validity: verified
 swc:
   name: Congo Swahili
   orthographies:
@@ -5216,7 +4770,7 @@ swc:
   source:
   - Omniglot
   status: living
-  todo_status: weak
+  validity: weak
 swe:
   name: Swedish
   orthographies:
@@ -5228,7 +4782,7 @@ swe:
   speakers: 10000000
   speakers_date: 2018
   status: living
-  todo_status: weak
+  validity: weak
 swh:
   name: Swahili (individual language)
   note: Speaker counts estimate between 2 and 150 million.
@@ -5243,7 +4797,7 @@ swh:
   speakers: 150000000
   speakers_date: 2012
   status: living
-  todo_status: strong
+  validity: verified
 szl:
   name: Silesian
   orthographies:
@@ -5255,7 +4809,7 @@ szl:
   speakers: 510000
   speakers_date: 2011
   status: living
-  todo_status: weak
+  validity: weak
 tab:
   name: Tabassaran
   orthographies:
@@ -5267,7 +4821,7 @@ tab:
   speakers: 126900
   speakers_date: 2010
   status: living
-  todo_status: weak
+  validity: weak
 tah:
   name: Tahitian
   note: Speaker count based on 37% of the ethnic population.
@@ -5280,20 +4834,19 @@ tah:
   speakers: 68260
   speakers_date: 2007
   status: living
-  todo_status: weak
+  validity: weak
 tat:
   name: Tatar
   orthographies:
   - autonym: Татарча
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё җ ң ү
-      һ ә ө
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё җ ң ү һ ә ө
     script: Cyrillic
   source:
   - Omniglot
   speakers: 5200000
   speakers_date: 2015
   status: living
-  todo_status: weak
+  validity: weak
 tay:
   name: Atayal
   orthographies:
@@ -5307,7 +4860,7 @@ tay:
   speakers: 84000
   speakers_date: 2002
   status: living
-  todo_status: strong
+  validity: verified
 tdt:
   name: Tetun Dili
   orthographies:
@@ -5320,7 +4873,7 @@ tdt:
   speakers: 390000
   speakers_date: 2009
   status: living
-  todo_status: strong
+  validity: verified
 teo:
   name: Teso
   orthographies:
@@ -5334,7 +4887,7 @@ teo:
   speakers: 1900000
   speakers_date: 2002-2009
   status: living
-  todo_status: strong
+  validity: verified
 tgk:
   name: Tajik
   orthographies:
@@ -5348,7 +4901,7 @@ tgk:
   speakers: 8400000
   speakers_date: 2015
   status: living
-  todo_status: strong
+  validity: verified
 tgl:
   name: Tagalog
   orthographies:
@@ -5361,7 +4914,7 @@ tgl:
   speakers: 23800000
   speakers_date: 2019
   status: living
-  todo_status: strong
+  validity: verified
 tkl:
   name: Tokelau
   orthographies:
@@ -5374,7 +4927,7 @@ tkl:
   speakers: 3517
   speakers_date: 1987-2006
   status: living
-  todo_status: strong
+  validity: verified
 tkr:
   name: Tsakhur
   orthographies:
@@ -5390,7 +4943,7 @@ tkr:
   speakers: 22300
   speakers_date: 2010-2011
   status: living
-  todo_status: strong
+  validity: verified
 tlh:
   name: Klingon
   orthographies:
@@ -5401,7 +4954,7 @@ tlh:
   - Omniglot
   speakers: 0
   status: constructed
-  todo_status: weak
+  validity: weak
 tly:
   name: Talysh
   orthographies:
@@ -5420,7 +4973,7 @@ tly:
   speakers: 218100
   speakers_date: 2011-2014
   status: living
-  todo_status: strong
+  validity: verified
 ton:
   name: Tonga (Tonga Islands)
   note: Speaker date references 1998 census in Tonga, others unknown.
@@ -5435,7 +4988,7 @@ ton:
   speakers: 187000
   speakers_date: 1998
   status: living
-  todo_status: strong
+  validity: verified
 tpi:
   name: Tok Pisin
   orthographies:
@@ -5447,7 +5000,7 @@ tpi:
   speakers: 120000
   speakers_date: 2004
   status: living
-  todo_status: weak
+  validity: weak
 tsn:
   name: Tswana
   orthographies:
@@ -5459,7 +5012,7 @@ tsn:
   speakers: 5200000
   speakers_date: 1993-2011
   status: living
-  todo_status: weak
+  validity: weak
 tso:
   name: Tsonga
   orthographies:
@@ -5471,7 +5024,7 @@ tso:
   speakers: 12000000
   speakers_date: 2006-2011
   status: living
-  todo_status: weak
+  validity: weak
 ttt:
   name: Muslim Tat
   orthographies:
@@ -5484,13 +5037,12 @@ ttt:
   - Omniglot
   speakers: 28000
   status: living
-  todo_status: weak
+  validity: weak
 tuk:
   name: Turkmen
   orthographies:
   - autonym: Түркменче
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё җ ң ү
-      ә ө
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё җ ң ү ә ө
     script: Cyrillic
     status: secondary
   - autonym: Türkmençe
@@ -5501,7 +5053,7 @@ tuk:
   speakers: 6700000
   speakers_date: 2009-2015
   status: living
-  todo_status: weak
+  validity: weak
 tum:
   name: Tumbuka
   orthographies:
@@ -5514,7 +5066,7 @@ tum:
   speakers: 1546000
   speakers_date: 2009-2010
   status: living
-  todo_status: weak
+  validity: weak
 tur:
   name: Turkish
   orthographies:
@@ -5526,14 +5078,13 @@ tur:
   speakers: 75700000
   speakers_date: 2002-2018
   status: living
-  todo_status: weak
+  validity: weak
 tvl:
   name: Tuvalu
   note: Speaker count date for 10000 speakers in Tuvalu, rest unknown.
   orthographies:
   - autonym: Te ’gana Tūvalu
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā á à ǎ ē é è ě ī í
-      ì ǐ ō ó ò ǒ ū ú ù ǔ ’
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā á à ǎ ē é è ě ī í ì ǐ ō ó ò ǒ ū ú ù ǔ ’
     script: Latin
   source:
   - Omniglot
@@ -5541,7 +5092,7 @@ tvl:
   speakers: 12000
   speakers_date: 2015
   status: living
-  todo_status: strong
+  validity: verified
 twi:
   name: Twi
   orthographies:
@@ -5554,7 +5105,7 @@ twi:
   speakers: 9000000
   speakers_date: 2015
   status: living
-  todo_status: strong
+  validity: verified
 twq:
   name: Tasawaq
   orthographies:
@@ -5567,7 +5118,7 @@ twq:
   speakers: 8000
   speakers_date: 1998
   status: living
-  todo_status: weak
+  validity: weak
 tyv:
   name: Tuvinian
   orthographies:
@@ -5579,7 +5130,7 @@ tyv:
   speakers: 280000
   speakers_date: 2010
   status: living
-  todo_status: weak
+  validity: weak
 tzm:
   name: Central Atlas Tamazight
   orthographies:
@@ -5593,7 +5144,7 @@ tzm:
   speakers: 5000000
   speakers_date: 2019
   status: living
-  todo_status: strong
+  validity: verified
 tzo:
   name: Tzotzil
   orthographies:
@@ -5606,7 +5157,7 @@ tzo:
   speakers: 404704
   speakers_date: 2010
   status: living
-  todo_status: strong
+  validity: verified
 udi:
   name: Udi
   orthographies:
@@ -5619,20 +5170,19 @@ udi:
   speakers: 6600
   speakers_date: 2009
   status: living
-  todo_status: strong
+  validity: verified
 udm:
   name: Udmurt
   orthographies:
   - autonym: Удмурт
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӝ ӟ ӥ
-      ӧ ӵ
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӝ ӟ ӥ ӧ ӵ
     script: Cyrillic
   source:
   - Omniglot
   speakers: 340000
   speakers_date: 2010
   status: living
-  todo_status: weak
+  validity: weak
 uig:
   name: Uighur
   orthographies:
@@ -5644,7 +5194,7 @@ uig:
     base: ئ ا ب ت ج خ د ر ز س ش غ ف ق ك ل م ن و ي پ چ ژ ڭ گ ھ ۆ ۇ ۈ ۋ ې ە
     script: Arabic
   - autonym: Uighur
-    base: a b c d e f g h h i j k l m n o p q r s t u w x y z ë ö ü
+    base: a b c d e f g h i j k l m n o p q r s t u w x y z ë ö ü
     script: Latin
     status: secondary
   source:
@@ -5653,7 +5203,7 @@ uig:
   speakers: 10400000
   speakers_date: 2016
   status: living
-  todo_status: strong
+  validity: verified
 ukr:
   name: Ukrainian
   note: Need to add combinations with accents.
@@ -5668,7 +5218,7 @@ ukr:
   speakers: 35000000
   speakers_date: 2000
   status: living
-  todo_status: strong
+  validity: verified
 ulk:
   name: Meriam Mir
   orthographies:
@@ -5680,7 +5230,7 @@ ulk:
   speakers: 217
   speakers_date: 2016
   status: living
-  todo_status: weak
+  validity: weak
 umu:
   name: Munsee
   orthographies:
@@ -5693,15 +5243,13 @@ umu:
   speakers: 2
   speakers_date: 2018
   status: living
-  todo_status: weak
+  validity: weak
 urd:
   name: Urdu
-  note: Initial, medial, and final forms of the letters and some ligatures are also
-    required.
+  note: Initial, medial, and final forms of the letters and some ligatures are also required.
   orthographies:
   - autonym: اُردُو
-    base: ء ا ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ل م ن و ٹ پ چ ڈ ڑ ژ ک گ ں ھ
-      ہ ی َ ُ ِ ْ ٰ
+    base: ء ا ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ل م ن و ٹ پ چ ڈ ڑ ژ ک گ ں ھ ہ ی َ ُ ِ ْ ٰ
     numerals: ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹
     script: Arabic
   source:
@@ -5709,7 +5257,7 @@ urd:
   speakers: 68620000
   speakers_date: 2019
   status: living
-  todo_status: weak
+  validity: weak
 uum:
   name: Urum
   orthographies:
@@ -5722,17 +5270,7 @@ uum:
   speakers: 190000
   speakers_date: 2000
   status: living
-  todo_status: strong
-uzb:
-  includes:
-  - uzn
-  - uzs
-  name: Uzbek
-  source:
-  - Wikipedia
-  speakers: 31200000
-  speakers_date: 2015-2017
-  status: living
+  validity: verified
 uzn:
   name: Northern Uzbek
   orthographies:
@@ -5740,14 +5278,12 @@ uzn:
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ‘
     script: Latin
   - autonym: Ўзбекча
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ў ғ қ
-      ҳ
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ў ғ қ ҳ
     note: Alternative 2
     script: Cyrillic
     status: secondary
   - autonym: Ӯзбекча
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӯ ғ қ
-      ҳ
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӯ ғ қ ҳ
     note: Alternative 3
     script: Cyrillic
     status: secondary
@@ -5756,7 +5292,7 @@ uzn:
   speakers: 27000000
   speakers_date: 2015
   status: living
-  todo_status: weak
+  validity: weak
 uzs:
   name: Southern Uzbek
   orthographies:
@@ -5768,13 +5304,12 @@ uzs:
   speakers: 4200000
   speakers_date: 2017
   status: living
-  todo_status: todo
+  validity: todo
 vec:
   name: Venetian
   orthographies:
   - autonym: Vèneto
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á ç è é ì í ò ó ù
-      ł ž
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á ç è é ì í ò ó ù ł ž
     script: Latin
   source:
   - Omniglot
@@ -5782,7 +5317,7 @@ vec:
   speakers: 3900000
   speakers_date: 2002
   status: living
-  todo_status: strong
+  validity: verified
 vep:
   name: Veps
   orthographies:
@@ -5794,14 +5329,12 @@ vep:
   speakers: 1600
   speakers_date: 2010
   status: living
-  todo_status: weak
+  validity: weak
 vie:
   name: Vietnamese
   orthographies:
   - autonym: Tiếng Việt
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ã è é ê ì í ò
-      ó ô õ ù ú ý ă đ ĩ ũ ơ ư ạ ả ấ ầ ẩ ẫ ậ ắ ằ ẳ ẵ ặ ẹ ẻ ẽ ế ề ể ễ ệ ỉ ị ọ ỏ ố ồ
-      ổ ỗ ộ ớ ờ ở ỡ ợ ụ ủ ứ ừ ử ữ ự ỳ ỵ ỷ ỹ
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ã è é ê ì í ò ó ô õ ù ú ý ă đ ĩ ũ ơ ư ạ ả ấ ầ ẩ ẫ ậ ắ ằ ẳ ẵ ặ ẹ ẻ ẽ ế ề ể ễ ệ ỉ ị ọ ỏ ố ồ ổ ỗ ộ ớ ờ ở ỡ ợ ụ ủ ứ ừ ử ữ ự ỳ ỵ ỷ ỹ
     script: Latin
   source:
   - Omniglot
@@ -5810,7 +5343,7 @@ vie:
   speakers: 76000000
   speakers_date: 2009
   status: living
-  todo_status: strong
+  validity: verified
 vmw:
   name: Makhuwa
   orthographies:
@@ -5822,7 +5355,7 @@ vmw:
   speakers: 6600000
   speakers_date: 2006
   status: living
-  todo_status: weak
+  validity: weak
 vol:
   name: Volapük
   orthographies:
@@ -5835,7 +5368,7 @@ vol:
   speakers: 20
   speakers_date: 2000
   status: constructed
-  todo_status: strong
+  validity: verified
 vro:
   name: Võro
   orthographies:
@@ -5847,7 +5380,7 @@ vro:
   speakers: 87000
   speakers_date: 2011
   status: living
-  todo_status: strong
+  validity: verified
 vun:
   name: Vunjo
   orthographies:
@@ -5858,14 +5391,13 @@ vun:
   source:
   - CLDR
   status: living
-  todo_status: todo
+  validity: todo
 wae:
   name: Walser
   orthographies:
   - autonym: Walscher
     auxiliary: ß à â å æ ç è ê ë ì î ï ñ ò ô ø ù û ÿ ā ă ē ĕ ī ĭ ō ŏ œ ū ŭ
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á ã ä é í ó õ ö ú ü
-      č š ũ
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z á ã ä é í ó õ ö ú ü č š ũ
     script: Latin
   source:
   - Wikipedia
@@ -5873,12 +5405,10 @@ wae:
   speakers: 22780
   speakers_date: 2004
   status: living
-  todo_status: strong
+  validity: verified
 war:
   name: Waray (Philippines)
-  note: There is no officially-approved orthography for the language and different
-    writers may use differing orthographic styles. In general, it has become common
-    to write the language following the current orthographic conventions of Filipino.
+  note: There is no officially-approved orthography for the language and different writers may use differing orthographic styles. In general, it has become common to write the language following the current orthographic conventions of Filipino.
   orthographies:
   - autonym: Waray-Waray
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ñ
@@ -5890,7 +5420,7 @@ war:
   speakers: 2600000
   speakers_date: 2005
   status: living
-  todo_status: weak
+  validity: weak
 wbp:
   name: Warlpiri
   orthographies:
@@ -5903,7 +5433,7 @@ wbp:
   speakers: 2304
   speakers_date: 2016
   status: living
-  todo_status: strong
+  validity: verified
 wim:
   name: Wik-Mungkan
   orthographies:
@@ -5915,7 +5445,7 @@ wim:
   speakers: 450
   speakers_date: 2016
   status: living
-  todo_status: weak
+  validity: weak
 win:
   name: Ho-Chunk
   orthographies:
@@ -5927,7 +5457,7 @@ win:
   speakers: 250
   speakers_date: 2007
   status: living
-  todo_status: weak
+  validity: weak
 wln:
   name: Walloon
   orthographies:
@@ -5939,7 +5469,7 @@ wln:
   speakers: 600000
   speakers_date: 2007
   status: living
-  todo_status: weak
+  validity: weak
 wls:
   name: Wallisian
   orthographies:
@@ -5951,7 +5481,7 @@ wls:
   speakers: 10400
   speakers_date: 2000
   status: living
-  todo_status: weak
+  validity: weak
 wmw:
   name: Mwani
   orthographies:
@@ -5964,7 +5494,7 @@ wmw:
   speakers: 100000
   speakers_date: 2006
   status: living
-  todo_status: strong
+  validity: verified
 wol:
   name: Wolof
   orthographies:
@@ -5976,7 +5506,7 @@ wol:
   speakers: 5454000
   speakers_date: 2001-2016
   status: living
-  todo_status: weak
+  validity: weak
 wrh:
   name: Wiradjuri
   orthographies:
@@ -5987,7 +5517,7 @@ wrh:
   - Omniglot
   speakers: 30
   speakers_date: 2005
-  todo_status: weak
+  validity: weak
 wss:
   name: Wasa
   orthographies:
@@ -6000,7 +5530,7 @@ wss:
   speakers: 273000
   speakers_date: 2013
   status: living
-  todo_status: strong
+  validity: verified
 wyb:
   name: Wangaaybuwan-Ngiyambaa
   orthographies:
@@ -6012,13 +5542,12 @@ wyb:
   speakers: 2
   speakers_date: 2005
   status: living
-  todo_status: weak
+  validity: weak
 xal:
   name: Kalmyk
   orthographies:
   - autonym: Хальмг
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё җ ң ү
-      һ ә ө
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё җ ң ү һ ә ө
     script: Cyrillic
   source:
   - Omniglot
@@ -6026,7 +5555,7 @@ xal:
   speakers: 80500
   speakers_date: 2010
   status: living
-  todo_status: strong
+  validity: verified
 xav:
   name: Xavánte
   orthographies:
@@ -6038,7 +5567,7 @@ xav:
   speakers: 9600
   speakers_date: 2006
   status: living
-  todo_status: weak
+  validity: weak
 xho:
   name: Xhosa
   orthographies:
@@ -6050,7 +5579,7 @@ xho:
   speakers: 8200000
   speakers_date: 2011
   status: living
-  todo_status: weak
+  validity: weak
 xog:
   name: Soga
   orthographies:
@@ -6063,9 +5592,10 @@ xog:
   speakers: 3600000
   speakers_date: 2014
   status: living
-  todo_status: strong
+  validity: verified
 xrg:
   name: Minang
+  note: iso-639-3 has this language marked as 'extinct'.
   orthographies:
   - autonym: Minangkabau
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
@@ -6076,14 +5606,12 @@ xrg:
   speakers: 6401000
   speakers_date: 2007-2016
   status: living
-  todo_status: strong
-  note: iso-639-3 has this language marked as 'extinct'.
+  validity: verified
 yai:
   name: Yagnobi
   orthographies:
   - autonym: Йағнобӣ
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ э ю я ё ғ қ ҳ ҷ ӣ
-      ӯ ԝ
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ э ю я ё ғ қ ҳ ҷ ӣ ӯ ԝ
     script: Cyrillic
   source:
   - Omniglot
@@ -6091,7 +5619,7 @@ yai:
   speakers: 12000
   speakers_date: 2004
   status: living
-  todo_status: strong
+  validity: verified
 yap:
   name: Yapese
   orthographies:
@@ -6103,40 +5631,29 @@ yap:
   speakers: 5130
   speakers_date: 2005
   status: living
-  todo_status: weak
+  validity: weak
 yav:
   name: Yangben
   orthographies:
   - autonym: Nuasue
-    auxiliary: g j q r x z
-    base: a b c d e f g h i k l m n o p s t u v w y à á â è é ì í î ò ó ô ù ú û ā
-      ī ŋ ō ū ǎ ǒ ǔ ɔ ɛ ̀ ́
+    auxiliary: j q r x z
+    base: a b c d e f g h i k l m n o p s t u v w y à á â è é ì í î ò ó ô ù ú û ā ī ŋ ō ū ǎ ǒ ǔ ɔ ɛ
     script: Latin
   source:
   - CLDR
   speakers: 17000
   speakers_date: 1982-2014
   status: living
-  todo_status: weak
+  validity: weak
 ydd:
   name: Eastern Yiddish
   orthographies:
   - autonym: ייִדיש
-    base: א ב ג ד ה ו ז ח ט י כ ך ל מ ם נ ן ס ע פ ף צ ץ ק ר ש ת
-    combinations: '{אָ}{יִ}'
+    base: א ב ג ד ה ו ז ח ט י כ ך ל מ ם נ ן ס ע פ ף צ ץ ק ר ש ת ִ ָ
     script: Hebrew
   speakers: 1500000
   status: living
-  todo_status: weak
-yid:
-  includes:
-  - ydd
-  - yih
-  name: Yiddish
-  source:
-  - Wikipedia
-  speakers: 1500000
-  status: living
+  validity: weak
 yih:
   name: Western Yiddish
   orthographies:
@@ -6145,7 +5662,7 @@ yih:
     script: Hebrew
   speakers: 5000
   status: living
-  todo_status: weak
+  validity: weak
 yij:
   name: Yindjibarndi
   orthographies:
@@ -6157,20 +5674,19 @@ yij:
   speakers: 377
   speakers_date: 2016
   status: living
-  todo_status: weak
+  validity: weak
 ykg:
   name: Northern Yukaghir
   orthographies:
   - autonym: Одул
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ғ ң ӧ
-      ԝ
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ғ ң ӧ ԝ
     script: Cyrillic
   source:
   - Omniglot
   speakers: 60–70
   speakers_date: 2010
   status: living
-  todo_status: weak
+  validity: weak
 ymk:
   name: Makwe
   orthographies:
@@ -6182,27 +5698,15 @@ ymk:
   speakers: 119700
   speakers_date: 2003-2009
   status: living
-  todo_status: weak
-yom:
-  name: Yombe
-  orthographies:
-  - autonym: Kiyoombi
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    script: Latin
-  source:
-  - Omniglot
-  status: living
-  todo_status: weak
+  validity: weak
 yor:
   name: Yoruba
   orthographies:
   - autonym: Èdè Yorùbá
-    base: a b d e f g h i j k l m n o p r s t u w y à á ā è é ē ẹ ì í ī ò ó ō ọ ù
-      ú ū ṣ ̀ ́
+    base: a b d e f g h i j k l m n o p r s t u w y à á ā è é ē ẹ ì í ī ò ó ō ọ ù ú ū ṣ
     script: Latin
   - autonym: Èdè Yorùbá
-    base: a b d e f g h i j k l m n o p r s t u w y à á ā è é ē ẹ ì í ī ò ó ō ọ ù
-      ú ū ṣ ɔ ɛ ̀ ́
+    base: a b d e f g h i j k l m n o p r s t u w y à á ā è é ē ẹ ì í ī ò ó ō ọ ù ú ū ṣ ɔ ɛ
     script: Latin
   source:
   - Omniglot
@@ -6210,13 +5714,12 @@ yor:
   speakers: 40000000
   speakers_date: 2015
   status: living
-  todo_status: strong
+  validity: verified
 yrk:
   name: Nenets
   orthographies:
   - autonym: Ненэц
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӈ ӭ ’
-      ”
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӈ ӭ ’ ”
     script: Cyrillic
   source:
   - Omniglot
@@ -6224,20 +5727,19 @@ yrk:
   speakers: 21926
   speakers_date: 2010
   status: living
-  todo_status: strong
+  validity: verified
 yux:
   name: Southern Yukaghir
   orthographies:
   - autonym: Одул
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҕ җ ә
-      қ ө
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҕ җ ә қ ө
     script: Cyrillic
   source:
   - Omniglot
   speakers: 5
   speakers_date: 2010
   status: living
-  todo_status: weak
+  validity: weak
 zap:
   includes:
   - zaa
@@ -6299,8 +5801,7 @@ zap:
   - zty
   name: Zapotec
   orthographies:
-  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z á à è é ë ì ü s̨ ñ ž
-      z̨
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z á à è é ë ì ü ̨ ñ ž
     script: Latin
   preferred_as_individual: true
   source:
@@ -6309,7 +5810,7 @@ zap:
   speakers: 450000
   speakers_date: 2010
   status: living
-  todo_status: strong
+  validity: verified
 zlm:
   name: Malay (individual language)
   orthographies:
@@ -6322,7 +5823,7 @@ zlm:
   speakers: 77000000
   speakers_date: 2007
   status: living
-  todo_status: weak
+  validity: weak
 zsm:
   name: Standard Malay
   orthographies:
@@ -6330,17 +5831,16 @@ zsm:
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
     script: Latin
   - autonym: مليسيا‎
-    base: ء‎ ا‎ ب‎ ة‎ ت‎ ث‎ ج‎ ح‎ خ‎ د‎ ذ‎ ر‎ ز‎ س‎ ش‎ ص‎ ض‎ ط‎ ظ‎ ع‎ غ‎ ف‎ ق‎ ل‎
-      م‎ ن‎ ه‎ و‎ ى‎ ي‎ چ‎ ڠ‎ ڤ‎ ک‎ ڽ‎ ۏ‎ ݢ‎
+    base: ء ‎ ا ب ة ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ل م ن ه و ى ي چ ڠ ڤ ک ڽ ۏ ݢ
     note: Jawi
-    numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ ١٠
+    numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩
     script: Arabic
   source:
   - Wikipedia
   speakers: 32772100
   speakers_date: 2019
   status: living
-  todo_status: weak
+  validity: weak
 zul:
   name: Zulu
   orthographies:
@@ -6352,7 +5852,7 @@ zul:
   speakers: 12000000
   speakers_date: 2011
   status: living
-  todo_status: weak
+  validity: weak
 zun:
   name: Zuni
   orthographies:
@@ -6364,14 +5864,4 @@ zun:
   speakers: 9620
   speakers_date: 2015
   status: living
-  todo_status: weak
-zza:
-  includes:
-  - kiu
-  - diq
-  name: Zaza
-  source:
-  - Wikipedia
-  speakers: 1600000
-  speakers_date: 1998
-  status: living
+  validity: weak

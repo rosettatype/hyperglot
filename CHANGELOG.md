@@ -1,4 +1,14 @@
-# A changelog for the lib/fontlang CLI tool
+# A changelog for the lib/hyperglot CLI tool
+
+## 0.2.0 (10.9.2020)
+- FEATURE: Added `--decomposed` flag that determines if a font is required to have all glyphs of a language as code points, or if supporting all combining marks is sufficient
+- TWEAK: Renamed module and database to `hyperglot`
+- TWEAK: `--strict-support` refactored to `--validity` with default `weak` to pick the level of required validity on the languages that should get matched
+- TWEAK: Saving and validating enforces removal of superflous mark characters that are getting implicitly extracted via glyph decomposition
+- TWEAK: Detection automatically extracts all required mark glyphs for languages and the database has been pruned of any no longer required mark glyphs listed. Using the `hyperglot-save` will apply this pruning and save the database in its cleaned up state
+- TESTS: Added tests for the Language and Languages class
+- TESTS: Added test for the CLI options running against actual font files
+- DOCS: Overhauled and updated the README to all latest changes
 
 ## 0.1.14 (27.5.2020)
 - FIX: Refined character parsing to also include the encoded form of any decomposable glyphs

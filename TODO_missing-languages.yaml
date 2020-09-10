@@ -1,0 +1,711 @@
+ace: 
+  name: Achinese
+  validity: todo
+acu: 
+  name: Achuar-Shiwiar
+  validity: todo
+ada: 
+  name: Adangme
+  validity: todo
+agr: 
+  name: Aguaruna
+  validity: todo
+aii: 
+  name: Assyrian Neo-Aramaic
+  validity: todo
+ajg: 
+  name: Aja (Benin)
+  validity: todo
+amc: 
+  name: Amahuaca
+  validity: todo
+ame: 
+  name: "Yanesha"
+  validity: todo
+amh: 
+  name: Amharic
+  validity: todo
+amr: 
+  name: Amarakaeri
+  validity: todo
+arl: 
+  name: Arabela
+  validity: todo
+arn: 
+  name: Mapudungun
+  validity: todo
+auc: 
+  name: Waorani
+  validity: todo
+auv: 
+  name: -
+  validity: todo
+ayr: 
+  name: Central Aymara
+  validity: todo
+ban: 
+  name: Balinese
+  validity: todo
+bax: 
+  name: Bamun
+  validity: todo
+bba: 
+  name: Baatonum
+  validity: todo
+bci: 
+  name: Baoulé
+  validity: todo
+bcl: 
+  name: Central Bikol
+  validity: todo
+ben: 
+  name: Bengali
+  validity: todo
+bfa: 
+  name: Bari
+  validity: todo
+bho: 
+  name: Bhojpuri
+  validity: todo
+bin: 
+  name: Bini
+  validity: todo
+blt: 
+  name: Tai Dam
+  validity: todo
+blu: 
+  name: -
+  validity: todo
+boa: 
+  name: Bora
+  validity: todo
+bod: 
+  name: Tibetan
+  validity: todo
+btb: 
+  name: -
+  validity: todo
+bug: 
+  name: Buginese
+  validity: todo
+cab: 
+  name: Garifuna
+  validity: todo
+cbi: 
+  name: Chachi
+  validity: todo
+cbr: 
+  name: Cashibo-Cacataibo
+  validity: todo
+cbs: 
+  name: Cashinahua
+  validity: todo
+cbt: 
+  name: Chayahuita
+  validity: todo
+cbu: 
+  name: Candoshi-Shapra
+  validity: todo
+ccp: 
+  name: Chakma
+  validity: todo
+ccx: 
+  name: -
+  validity: todo
+chj: 
+  name: Ojitlán Chinantec
+  validity: todo
+chk: 
+  name: Chuukese
+  validity: todo
+chr: 
+  name: Cherokee
+  validity: todo
+cjk: 
+  name: Chokwe
+  validity: todo
+cjy: 
+  name: Jinyu Chinese
+  validity: todo
+cmn: 
+  name: Mandarin Chinese
+  validity: todo
+cnh: 
+  name: Hakha Chin
+  validity: todo
+cni: 
+  name: Asháninka
+  validity: todo
+cof: 
+  name: Colorado
+  validity: todo
+cot: 
+  name: Caquinte
+  validity: todo
+cpu: 
+  name: Pichis Ashéninka
+  validity: todo
+csa: 
+  name: Chiltepec Chinantec
+  validity: todo
+csw: 
+  name: Swampy Cree
+  validity: todo
+ctd: 
+  name: Tedim Chin
+  validity: todo
+dag: 
+  name: Dagbani
+  validity: todo
+ddn: 
+  name: Dendi (Benin)
+  validity: todo
+dga: 
+  name: Southern Dagaare
+  validity: todo
+dip: 
+  name: Northeastern Dinka
+  validity: todo
+div: 
+  name: Dhivehi
+  validity: todo
+dyu: 
+  name: Dyula
+  validity: todo
+dzo: 
+  name: Dzongkha
+  validity: todo
+emk: 
+  name: Eastern Maninkakan
+  validity: todo
+eml: 
+  name: -
+  validity: todo
+ese: 
+  name: Ese Ejja
+  validity: todo
+fkv: 
+  name: Kven Finnish
+  validity: todo
+flm: 
+  name: -
+  validity: todo
+fon: 
+  name: Fon
+  validity: todo
+fri: 
+  name: -
+  validity: todo
+gaa: 
+  name: Ga
+  validity: todo
+gan: 
+  name: Gan Chinese
+  validity: todo
+gjn: 
+  name: Gonja
+  validity: todo
+gkp: 
+  name: Guinea Kpelle
+  validity: todo
+gug: 
+  name: Paraguayan Guaraní
+  validity: todo
+guj: 
+  name: Gujarati
+  validity: todo
+guu: 
+  name: Yanomamö
+  validity: todo
+gyr: 
+  name: Guarayu
+  validity: todo
+hak: 
+  name: Hakka Chinese
+  validity: todo
+hea: 
+  name: Northern Qiandong Miao
+  validity: todo
+hin: 
+  name: Hindi
+  validity: todo
+hlt: 
+  name: Matu Chin
+  validity: todo
+hms: 
+  name: Southern Qiandong Miao
+  validity: todo
+hna: 
+  name: Mina (Cameroon)
+  validity: todo
+hni: 
+  name: Hani
+  validity: todo
+hns: 
+  name: Caribbean Hindustani
+  validity: todo
+hsf: 
+  name: -
+  validity: todo
+hus: 
+  name: Huastec
+  validity: todo
+huu: 
+  name: Murui Huitoto
+  validity: todo
+hva: 
+  name: -
+  validity: todo
+hye: 
+  name: Armenian
+  validity: todo
+ibb: 
+  name: Ibibio
+  validity: todo
+iii: 
+  name: Sichuan Yi
+  validity: todo
+ike: 
+  name: Eastern Canadian Inuktitut
+  validity: todo
+jiv: 
+  name: Shuar
+  validity: todo
+jpn: 
+  name: Japanese
+  validity: todo
+kan: 
+  name: Kannada
+  validity: todo
+kat: 
+  name: Georgian
+  validity: todo
+kbp: 
+  name: Kabiyè
+  validity: todo
+kdh: 
+  name: Tem
+  validity: todo
+kha: 
+  name: Khasi
+  validity: todo
+khm: 
+  name: Khmer
+  validity: todo
+kkh: 
+  name: Khün
+  validity: todo
+kmb: 
+  name: Kimbundu
+  validity: todo
+knc: 
+  name: Central Kanuri
+  validity: todo
+kng: 
+  name: Koongo
+  validity: todo
+koo: 
+  name: Konzo
+  validity: todo
+kor: 
+  name: Korean
+  validity: todo
+kqn: 
+  name: Kaonde
+  validity: todo
+kqs: 
+  name: Northern Kissi
+  validity: todo
+kri: 
+  name: Krio
+  validity: todo
+ktu: 
+  name: Kituba (Democratic Republic of Congo)
+  validity: todo
+kwi: 
+  name: Awa-Cuaiquer
+  validity: todo
+lad: 
+  name: Ladino
+  validity: todo
+lao: 
+  name: Lao
+  validity: todo
+lia: 
+  name: West-Central Limba
+  validity: todo
+lnc: 
+  name: -
+  validity: todo
+lns: 
+  name: "Lamnso"
+  validity: todo
+lob: 
+  name: Lobi
+  validity: todo
+lot: 
+  name: Otuho
+  validity: todo
+loz: 
+  name: Lozi
+  validity: todo
+lue: 
+  name: Luvale
+  validity: todo
+lun: 
+  name: Lunda
+  validity: todo
+lus: 
+  name: Lushai
+  validity: todo
+mad: 
+  name: Madurese
+  validity: todo
+mag: 
+  name: Magahi
+  validity: todo
+mah: 
+  name: Marshallese
+  validity: todo
+mai: 
+  name: Maithili
+  validity: todo
+mal: 
+  name: Malayalam
+  validity: todo
+mam: 
+  name: Mam
+  validity: todo
+mar: 
+  name: Marathi
+  validity: todo
+maz: 
+  name: Central Mazahua
+  validity: todo
+mcd: 
+  name: Sharanahua
+  validity: todo
+mcf: 
+  name: Matsés
+  validity: todo
+men: 
+  name: Mende (Sierra Leone)
+  validity: todo
+mfq: 
+  name: Moba
+  validity: todo
+mic: 
+  name: "Mikmaq"
+  validity: todo
+min: 
+  name: Minangkabau
+  validity: todo
+miq: 
+  name: Mískito
+  validity: todo
+mly: 
+  name: -
+  validity: todo
+mnw: 
+  name: Mon
+  validity: todo
+mos: 
+  name: Mossi
+  validity: todo
+mto: 
+  name: Totontepec Mixe
+  validity: todo
+mxi: 
+  name: Mozarabic
+  validity: todo
+mxv: 
+  name: Metlatónoc Mixtec
+  validity: todo
+mya: 
+  name: Burmese
+  validity: todo
+mzi: 
+  name: Ixcatlán Mazatec
+  validity: todo
+nan: 
+  name: Min Nan Chinese
+  validity: todo
+nav: 
+  name: Navajo
+  validity: todo
+nba: 
+  name: Nyemba
+  validity: todo
+ndo: 
+  name: Ndonga
+  validity: todo
+njo: 
+  name: Ao Naga
+  validity: todo
+nku: 
+  name: Bouna Kulango
+  validity: todo
+nno: 
+  name: Norwegian Nynorsk
+  validity: todo
+nob: 
+  name: Norwegian Bokmål
+  validity: todo
+not: 
+  name: Nomatsiguenga
+  validity: todo
+nym: 
+  name: Nyamwezi
+  validity: todo
+nzi: 
+  name: Nzima
+  validity: todo
+ojb: 
+  name: Northwestern Ojibwa
+  validity: todo
+oki: 
+  name: Okiek
+  validity: todo
+orh: 
+  name: Oroqen
+  validity: todo
+ote: 
+  name: Mezquital Otomi
+  validity: todo
+pan: 
+  name: Panjabi
+  validity: todo
+pau: 
+  name: Palauan
+  validity: todo
+pbb: 
+  name: Páez
+  validity: todo
+pbu: 
+  name: Northern Pashto
+  validity: todo
+pcd: 
+  name: Picard
+  validity: todo
+pcm: 
+  name: Nigerian Pidgin
+  validity: todo
+pis: 
+  name: Pijin
+  validity: todo
+piu: 
+  name: Pintupi-Luritja
+  validity: todo
+plt: 
+  name: Plateau Malagasy
+  validity: todo
+pnb: 
+  name: Western Panjabi
+  validity: todo
+pon: 
+  name: Pohnpeian
+  validity: todo
+pov: 
+  name: Upper Guinea Crioulo
+  validity: todo
+ppl: 
+  name: Pipil
+  validity: todo
+prq: 
+  name: Ashéninka Perené
+  validity: todo
+prv: 
+  name: -
+  validity: todo
+quc: 
+  name: "Kiche"
+  validity: todo
+qud: 
+  name: Calderón Highland Quichua
+  validity: todo
+qug: 
+  name: Chimborazo Highland Quichua
+  validity: todo
+quy: 
+  name: Ayacucho Quechua
+  validity: todo
+quz: 
+  name: Cusco Quechua
+  validity: todo
+qva: 
+  name: Ambo-Pasco Quechua
+  validity: todo
+qvc: 
+  name: Cajamarca Quechua
+  validity: todo
+qvh: 
+  name: Huamalíes-Dos de Mayo Huánuco Quechua
+  validity: todo
+qvm: 
+  name: Margos-Yarowilca-Lauricocha Quechua
+  validity: todo
+qvn: 
+  name: North Junín Quechua
+  validity: todo
+qwh: 
+  name: Huaylas Ancash Quechua
+  validity: todo
+qxa: 
+  name: Chiquián Ancash Quechua
+  validity: todo
+qxn: 
+  name: Northern Conchucos Ancash Quechua
+  validity: todo
+qxu: 
+  name: Arequipa-La Unión Quechua
+  validity: todo
+rmn: 
+  name: Balkan Romani
+  validity: todo
+rmy: 
+  name: Vlax Romani
+  validity: todo
+san: 
+  name: Sanskrit
+  validity: todo
+sco: 
+  name: Scots
+  validity: todo
+sey: 
+  name: Secoya
+  validity: todo
+shk: 
+  name: Shilluk
+  validity: todo
+shn: 
+  name: Shan
+  validity: todo
+shp: 
+  name: Shipibo-Conibo
+  validity: todo
+sin: 
+  name: Sinhala
+  validity: todo
+skr: 
+  name: Saraiki
+  validity: todo
+snk: 
+  name: Soninke
+  validity: todo
+snn: 
+  name: Siona
+  validity: todo
+src: 
+  name: Logudorese Sardinian
+  validity: todo
+srr: 
+  name: Serer
+  validity: todo
+suk: 
+  name: Sukuma
+  validity: todo
+sus: 
+  name: Susu
+  validity: todo
+swb: 
+  name: Maore Comorian
+  validity: todo
+taj: 
+  name: Eastern Tamang
+  validity: todo
+tam: 
+  name: Tamil
+  validity: todo
+tbz: 
+  name: Ditammari
+  validity: todo
+tca: 
+  name: Ticuna
+  validity: todo
+tel: 
+  name: Telugu
+  validity: todo
+tem: 
+  name: Timne
+  validity: todo
+tet: 
+  name: Tetum
+  validity: todo
+tha: 
+  name: Thai
+  validity: todo
+tir: 
+  name: Tigrinya
+  validity: todo
+tiv: 
+  name: Tiv
+  validity: todo
+tob: 
+  name: Toba
+  validity: todo
+toi: 
+  name: Tonga (Zambia)
+  validity: todo
+toj: 
+  name: Tojolabal
+  validity: todo
+top: 
+  name: Papantla Totonac
+  validity: todo
+tsz: 
+  name: Purepecha
+  validity: todo
+tzc: 
+  name: -
+  validity: todo
+tzh: 
+  name: Tzeltal
+  validity: todo
+umb: 
+  name: Umbundu
+  validity: todo
+ura: 
+  name: Urarina
+  validity: todo
+vai: 
+  name: Vai
+  validity: todo
+ven: 
+  name: Venda
+  validity: todo
+wuu: 
+  name: Wu Chinese
+  validity: todo
+wwa: 
+  name: Waama
+  validity: todo
+xsm: 
+  name: Kasem
+  validity: todo
+yad: 
+  name: Yagua
+  validity: todo
+yao: 
+  name: Yao
+  validity: todo
+yua: 
+  name: Yucateco
+  validity: todo
+yue: 
+  name: Yue Chinese
+  validity: todo
+zam: 
+  name: Miahuatlán Zapotec
+  validity: todo
+zdj: 
+  name: Ngazidja Comorian
+  validity: todo
+zgh: 
+  name: Standard Moroccan Tamazight
+  validity: todo
+zro: 
+  name: Záparo
+  validity: todo
+ztu: 
+  name: Güilá Zapotec
+  validity: todo
