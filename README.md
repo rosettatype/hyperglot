@@ -106,7 +106,7 @@ A simple CLI tool is provided to output language support data for a passed in fo
 
 ### Installation
 
-Install via repo and pip:
+You will need to have Python 3 installed. Install via repo and pip:
 
 ```
 $ pip install git+https://github.com/rosettatype/hyperglot
