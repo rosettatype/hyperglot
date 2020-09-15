@@ -13,6 +13,8 @@ A few notes to illustrate why the question of language support is complicated:
 
 We have decided to take a pragmatic approach and reduce the problem to finding standard character set of each language (typically an official alphabet or syllabary or its approximation) for each orthography it uses. We only occassionally provide a list of auxiliary characters used in reference literature (linguistics) or in very common loan words.
 
+It is important to note that **there is more to language support in fonts than supporting a set of code points**. The font needs to include glyphs with correct shapes of these characters for a particular language (sometimes there are regional or language variations for the same code point) and have these glyphs interact as expected by the convention of a particular script/orthography (some languages/scripts require certain glyph combinations to form ligatures, some glyph combinations require additional kerning). Thus, the report produced by the hyperglot tool should be used only as a first indication suggesting that a font can be used for a particular language.
+
 ## Database
 
 The database is stored in the YAML file `hyperglot.yaml`.
