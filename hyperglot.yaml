@@ -5287,6 +5287,27 @@ oci:
   speakers_date: 2007-2012
   status: living
   validity: weak
+ojb:
+  name: Northwestern Ojibwa
+  note: Most Ojibwa (oji) dialects are separated as different languages. Alphabets differ.
+  orthographies:
+  - autonym: Nakawēmowin
+    base: a b c d e g h i j k m n o p s t w y z '
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
+oji:
+  name: Ojibwa
+  note: oji is the inclusive code for several Ojibwa dialects. Alphabets and scripts differ.
+  orthographies:
+  - autonym: ᐊᓂᔑᓈᐯᒧᐎᓐ
+    base: ᐁ ᐃ ᐅ ᐊ ᐄ ᐆ ᐋ ᐯ ᐱ ᐳ ᐸ ᐲ ᐴ ᐹ ᑉ ᑌ ᑎ ᑐ ᑕ ᑏ ᑑ ᑖ ᑦ ᑫ ᑭ ᑯ ᑲ ᑮ ᑰ ᑳ ᒃ ᒉ ᒋ ᒍ ᒐ ᒌ ᒎ ᒑ ᒡ ᒣ ᒥ ᒧ ᒪ ᒦ ᒨ ᒫ ᒻ ᓀ ᓂ ᓄ ᓇ ᓃ ᓅ ᓈ ᓐ ᓭ ᓯ ᓱ ᓴ ᓰ ᓲ ᓵ ᔅ ᔐ ᔑ ᔓ ᔕ ᔒ ᔔ ᔖ ᔥ ᔦ ᔨ ᔪ ᔭ ᔩ ᔫ ᔮ ᔾ ᐦ
+    script: Ojibwe Syllabics
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 old:
   name: Mochi
   orthographies:
@@ -5310,6 +5331,16 @@ orc:
   speakers_date: 2009
   status: living
   validity: verified
+orh:
+  name: Oroqen
+  orthographies:
+  - autonym: Oroqen
+    base: a b d e f g h i j k l m n o p q r s t u ü w x y
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 oss:
   name: Ossetian
   orthographies:
@@ -5325,6 +5356,16 @@ oss:
   speakers_date: 2010
   status: living
   validity: weak
+ote:
+  name: Mezquital Otomi
+  orthographies:
+  - autonym: Hñahñu
+    base: a b c d e f g h i j k l m n o p r s t u x y z ã ̱ ï ö ü
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 pam:
   name: Pampanga
   orthographies:
@@ -5343,6 +5384,20 @@ pam:
   speakers_date: 1990
   status: living
   validity: verified
+pan:
+  name: Punjabi
+  orthographies:
+  - autonym: ਪੰਜਾਬੀ,
+    base: ਅ ਬ ਭ ਗ ਧ ਢ ੲ ਵ ਦ ਡ ਹ ਘ ਥ ਠ ਯ ਕ ਚ ਲ ਮ ਨ ਣ ਸ ਼ ੳ ਪ ਫ ਖ ਛ ਰ ਤ ਟ ਜ ਾ ਿ ੀ ੁ ੂ ੇ ੈ ੋ ੌ
+    numerals: ੦ ੧ ੨ ੩ ੪ ੫ ੬ ੭ ੮ ੯
+    script: Gurmukhi
+  - autonym: پن٘جابی
+    base: ا ب پ ت ٹ ث ج چ ح خ د ڈ ذ ر ڑ ز ژ س ش ص ض ط ظ ع غ ف ق ک گ ل ؕ م ن ݨ ں و ه ھ ء ی ے
+    script: Arabic
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 pap:
   name: Papiamento
   orthographies:
@@ -5355,6 +5410,54 @@ pap:
   speakers: 341300
   status: living
   validity: verified
+pau:
+  name: Palauan
+  orthographies:
+  - autonym: a tekoi er a Belau
+    base: a b c d e ę f i k l m n o p r s t u z
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
+pbb:
+  name: Páez
+  orthographies:
+  - autonym: Nasa Yuwe
+    base: a ã b c d e ẽ f g i ĩ j l m n ñ p q s t u ũ v w y z '
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
+pbu:
+  name: Northern Pashto
+  orthographies:
+  - autonym: یوسفزئی پښتو
+    base: ﺍ ﺏ پ ﺕ ټ ﺙ ﺝ چ ﺡ ﺥ څ ځ ﺩ ډ ﺫ ﺭ ړ ﺯ ژ ږ ﺱ ﺵ ښ ﺹ ﺽ ﻁ ﻅ ﻉ ﻍ ﻑ ﻕ ک ګ ﻝ ﻡ ﻥ ڼ ﻭ ه ۀ ي ې ی ۍ ئ
+    script: Arabic
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
+pcd:
+  name: Picard
+  orthographies:
+  - autonym: Picard
+    base: a â å b c ç d e ê é è f g i î ï k l h j m n o ô p q r s t u û v w y ŷ z æ œ
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
+pcm:
+  name: Nigerian Pidgin
+  orthographies:
+  - autonym: null
+    script: Latin
+  source:
+  - Wikipedia
+  validity: todo
 pes:
   name: Iranian Persian
   note: Initial, medial, and final forms of the letters and some ligatures are also required.
@@ -5382,6 +5485,26 @@ pga:
   speakers_date: 1987
   status: living
   validity: weak
+pis:
+  name: Pijin
+  orthographies:
+  - autonym: null
+    base: a b c d e f g h i j k l m n o p r s t u v w æ
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
+piu:
+  name: Pintupi-Luritja
+  orthographies:
+  - autonym: null
+    base: a i k l m n p r t u w y
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 plz:
   name: Paluan
   orthographies:
@@ -5406,6 +5529,19 @@ pms:
   speakers_date: 2012
   status: living
   validity: weak
+pnb:
+  name: Western Punjabi
+  orthographies:
+  - autonym: ਪੰਜਾਬੀ,
+    inherit: pan
+    script: Gurmukhi
+  - autonym: پن٘جابی
+    inherit: pan
+    script: Arabic
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 pol:
   name: Polish
   orthographies:
@@ -5417,6 +5553,16 @@ pol:
   speakers: 45000000
   status: living
   validity: weak
+pon:
+  name: Pohnpeian
+  orthographies:
+  - autonym: Pohnpei
+    base: a d e h i k l m n o p r s t u w
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 por:
   name: Portuguese
   orthographies:
@@ -5442,6 +5588,26 @@ pot:
   speakers: 0
   status: living
   validity: verified
+pov:
+  name: Upper Guinea Crioulo
+  orthographies:
+  - autonym: Kriolu
+    base: a b c d e f g i j k l m n o p r s t x u v z '
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
+ppl:
+  name: Pipil
+  orthographies:
+  - autonym: Náhuat
+    base: a c e i j k l m n p s t u w y
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 prg:
   name: Prussian
   note: Need to add combinations with accents.
@@ -5455,6 +5621,16 @@ prg:
   speakers: 0
   status: living
   validity: verified
+prq:
+  name: Ashéninka Perené
+  orthographies:
+  - autonym: null
+    base: a c e i j k m n ñ o p r s t w y z
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 prs:
   name: Dari
   orthographies:
