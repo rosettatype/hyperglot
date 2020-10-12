@@ -115,6 +115,16 @@ abv:
   speakers_date: 2001-2013
   status: living
   validity: weak
+ace:
+  name: Acehnese
+  orthographies:
+  - autonym: Bahsa Acèh
+    base: a b c d e g h i j k l m n o p r s t w y é è ë ô ö '
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 acm:
   name: Mesopotamian Arabic
   note: Initial, medial, and final forms of the letters and some ligatures are also required.
@@ -143,6 +153,16 @@ acq:
   speakers_date: 2015-2016
   status: living
   validity: weak
+acu:
+  name: Achuar-Shiwiar
+  orthographies:
+  - autonym: Achúar chícham
+    base: a b c d e g i j k m n o p r s t u w y ' ã ẽ ĩ ũ ñ
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 acw:
   name: Hijazi Arabic
   note: Initial, medial, and final forms of the letters and some ligatures are also required.
@@ -182,6 +202,15 @@ acz:
   speakers: 20000
   speakers_date: 2006
   status: living
+  validity: weak
+ada:
+  name: Adangme
+  orthographies:
+  - autonym: null
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    script: Latin
+  source:
+  - Wikipedia
   validity: weak
 ady:
   name: Adyghe
@@ -277,6 +306,16 @@ agq:
   speakers_date: 2000
   status: living
   validity: weak
+agr:
+  name: Aguaruna
+  orthographies:
+  - autonym: iinia chichama
+    base: a b c d e g h i j k m n p r s t u w y ã ẽ ĩ ũ í
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 agx:
   name: Aghul
   orthographies:
@@ -290,6 +329,23 @@ agx:
   speakers_date: 2010
   status: living
   validity: verified
+aii:
+  name: Assyrian Neo-Aramaic
+  orthographies:
+  - autonym: Lišānā Āshûrāya / ܐܵܬ݂ܘܼܪܵܝܲܐ ܠܸܫܵܢܵܐ (should be proper rtl)
+    base: ܟ ܝ ܛ ܚ ܙ ܘ ܗ ܕ ܓ ܒ ܐ ܬ ܫ ܪ ܩ ܨ ܦ ܥ ܣ ܢ ܡ ܠ ݇ ݃ ܹ ܸ ܵ ܲ
+    script: Syriac
+  - autonym: Лышана Атураја
+    base: а б в г ԁ е ә ж з и ј к q l м н п р с т t у х һ ч ш ы d
+    script: Cyrillic
+  - autonym: Lišānā Āshûrāya
+    auxiliary: ā ē ë ō ū ḏ ḥ š ṣ ṭ
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 aiq:
   name: Aimaq
   note: Initial, medial, and final forms of the letters and some ligatures are also required.
@@ -303,6 +359,16 @@ aiq:
   speakers_date: 1993
   status: living
   validity: weak
+ajg:
+  name: Aja (Benin)
+  orthographies:
+  - autonym: Adja
+    base: a b c d ɖ e ɛ f g ɣ h i j k l m n ŋ o ɔ p r s t u v w x y z ʒ á à ă â
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 ajp:
   name: South Levantine Arabic
   note: Initial, medial, and final forms of the letters and some ligatures are also required.
@@ -356,6 +422,35 @@ alt:
   speakers_date: 2010
   status: living
   validity: weak
+amc:
+  name: Amawaka
+  orthographies:
+  - autonym: null
+    base: a c h i j m n o p r s t u v x y z
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
+ame:
+  name: Yanesha
+  orthographies:
+  - autonym: null
+    base: a b c e g h j l m n o p q r s t y ë ñ '
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
+amh:
+  name: Amharic
+  orthographies:
+  - autonym: ኣማርኛ
+    script: Ge'ez/Fidel
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: weak
 ami:
   name: Amis
   orthographies:
@@ -368,6 +463,16 @@ ami:
   speakers_date: 2009
   status: living
   validity: weak
+amr:
+  name: Amarakaeri
+  orthographies:
+  - autonym: null
+    base: a b e g h i j k m n o p r s t u y '
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 ani:
   name: Andi
   orthographies:
@@ -461,6 +566,26 @@ arg:
   speakers_date: 2017
   status: living
   validity: verified
+arl:
+  name: Arabela
+  orthographies:
+  - autonym: Tapweyokwaka
+    base: a e h i j k m n p r s t u w y ɨ
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
+arn:
+  name: Mapuche
+  orthographies:
+  - autonym: Mapudungun
+    base: a b c d e f g i j k l m n o p q r s t u w x y z ü ñ
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 arq:
   name: Algerian Arabic
   note: Initial, medial, and final forms of the letters and some ligatures are also required.
@@ -554,6 +679,15 @@ atv:
   - Omniglot
   speakers: 5000
   status: living
+  validity: weak
+auc:
+  name: Waorani
+  orthographies:
+  - autonym: null
+    base: a b d e g i k m n o p r s t w y ã ẽ ĩ õ ñ
+    script: Latin
+  source:
+  - Wikipedia
   validity: weak
 aud:
   name: Anuta
@@ -749,6 +883,17 @@ bam:
   speakers_date: 2012
   status: living
   validity: verified
+ban:
+  name: Balinese
+  orthographies:
+  - autonym: ᬪᬵᬱᬩᬮᬶ
+    auxiliary: ᬡ ᬙ ᬔ ᬥ ᬟ ᬠ ᬣ ᬝ ᬞ ᬰ ᬱ ᬖ ᬪ ᬨ ᬛ
+    base: ᬳ ᬦ ᬘ ᬭ ᬓ ᬤ ᬢ ᬲ ᬯ ᬮ ᬫ ᬕ ᬩ ᬗ ᬧ ᬚ ᬬ ᬜ ᬅ ᬇ ᬋ ᬍ ᬉ ᬏ ᬑ ᬒ ᬐ ᬊ ᬎ ᬌ ᬈ ᬆ
+    script: Balinese
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: weak
 bas:
   name: Basa (Cameroon)
   orthographies:
@@ -761,6 +906,36 @@ bas:
   speakers: 300000
   status: living
   validity: weak
+bax:
+  name: Bamum
+  orthographies:
+  - autonym: ꛀꛣꚧꚳ
+    base: ꚠ ꚰ ꛀ ꛐ ꛠ ꚡ ꚱ ꛁ ꛑ ꛡ ꚢ ꚲ ꛂ ꛒ ꛢ ꛲ ꚣ ꚳ ꛃ ꛓ ꛣ ꛳ ꚤ ꚴ ꛄ ꛔ ꛤ ꛴ ꚥ ꚵ ꛅ ꛕ ꛥ ꛵ ꚦ ꚶ ꛆ ꛖ ꛦ ꛶ ꚧ ꚷ ꛇ ꛗ ꛧ ꛷ ꚨ ꚸ ꛈ ꛘ ꛨ ꚩ ꚹ ꛉ ꛙ ꛩ ꚪ ꚺ ꛊ ꛚ ꛪ ꚫ ꚻ ꛋ ꛛ ꛫ ꚬ ꚼ ꛌ ꛜ ꛬ ꚭ ꚽ ꛍ ꛝ ꛭ ꚮ ꚾ ꛎ ꛞ ꛮ ꚯ ꚿ ꛏ ꛟ ꛯ
+    script: Bamum
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
+bba:
+  name: Bariba
+  orthographies:
+  - autonym: baatɔnum
+    base: a b d e ɛ f g i k l m n o ɔ p r s t u w y
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
+bci:
+  name: Baoulé
+  orthographies:
+  - autonym: null
+    base: a b c d e ɛ f g i j k l m n o ɔ p r s t u v w y z
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 bdk:
   name: Budukh
   orthographies:
@@ -803,6 +978,15 @@ bem:
   speakers_date: 2000-2010
   status: living
   validity: verified
+ben:
+  name: Bengali
+  orthographies:
+  - autonym: বাংলা
+    script: Bengali
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: weak
 bez:
   name: Bena (Tanzania)
   orthographies:
@@ -815,6 +999,16 @@ bez:
   speakers_date: 2001
   status: living
   validity: weak
+bfa:
+  name: Bari
+  orthographies:
+  - autonym: null
+    base: a b d e g i j k l m n o p r s t u w y ŋ ö '
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 bhh:
   name: Bukharic
   note: Speaker count date for Isreal and Uzbekistan, others unknown.
@@ -826,6 +1020,15 @@ bhh:
   speakers_date: 1995
   status: living
   validity: weak
+bho:
+  name: Bhojpuri
+  orthographies:
+  - autonym: भोजपुरी / 𑂦𑂷𑂔𑂣𑂳𑂩𑂲
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 bik:
   includes:
   - bcl
@@ -851,6 +1054,16 @@ bik:
   speakers_date: 2000
   status: living
   validity: verified
+bin:
+  name: Edo
+  orthographies:
+  - autonym: Ẹ̀dó
+    base: a b d e f g h i k l m n o p r s t u v w y z ẹ ọ
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 bis:
   name: Bislama
   orthographies:
@@ -865,6 +1078,39 @@ bis:
   speakers_date: 2011
   status: living
   validity: verified
+blt:
+  name: Tai Dam
+  orthographies:
+  - autonym: ꪼꪕꪒꪾ
+    auxiliary: ꫛ ꫜ ꫝ ꫞ ꫟
+    base: ꪀ ꪁ ꪂ ꪃ ꪄ ꪅ ꪆ ꪇ ꪈ ꪉ ꪊ ꪋ ꪌ ꪍ ꪎ ꪏ ꪐ ꪑ ꪒ ꪓ ꪔ ꪕ ꪖ ꪗ ꪘ ꪙ ꪚ ꪛ ꪜ ꪝ ꪞ ꪟ ꪠ ꪡ ꪢ ꪣ ꪤ ꪥ ꪦ ꪧ ꪨ ꪩ ꪪ ꪫ ꪬ ꪭ ꪮ ꪯ ꪰ ꪱ ꪲ ꪳ ꪴ ꪵ ꪶ ꪷ ꪸ ꪹ ꪺ ꪻ ꪼ ꪽ ꪾ ꪿ ꫀ ꫁ ꫂ
+    script: Tai viet
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
+boa:
+  name: Bora
+  orthographies:
+  - autonym: Meamuyna
+    base: a b c d e g h i j k l m n o p r s t u v w y ɨ ñ
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
+bod:
+  name: Tibetan
+  orthographies:
+  - autonym: བོད་སྐད་
+    base: ཀ ཁ ག ང ཅ ཆ ཇ ཉ ཏ ཐ ད ན པ ཕ བ མ ཙ ཚ ཛ ཝ ཞ ཟ འ ཡ ར ལ ཤ ས ཧ ཨ ི ུ ེ ོ
+    numerals: ༠ ༡ ༢ ༣ ༤ ༥ ༦ ༧ ༨ ༩
+    punctuation: ༄  ༈ ་ ། ༎ ༔ ༺ ༻
+    script: Tibetan
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 bos:
   name: Bosnian
   orthographies:
@@ -910,6 +1156,16 @@ buc:
   speakers_date: 2012
   status: living
   validity: weak
+bug:
+  name: Buginese
+  orthographies:
+  - autonym: ᨅᨔ ᨕᨘᨁᨗ
+    base: a b c d e g i j k l m n o p r s t w y ' ә
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 bul:
   name: Bulgarian
   note: localised shapes for л в к г й ф ю etc.
@@ -975,6 +1231,16 @@ bxu:
   speakers_date: 1982
   status: living
   validity: weak
+cab:
+  name: Garifuna
+  orthographies:
+  - autonym: Garífuna
+    base: a b c d e f g h I i k l m n o p r s t u w y ñ ü
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 cak:
   name: Kaqchikel
   orthographies:
@@ -1000,6 +1266,16 @@ cat:
   speakers_date: 2012
   status: living
   validity: verified
+cbi:
+  name: Cha'palaa
+  orthographies:
+  - autonym: null
+    base: a b c d e f g h i j l m n p r s t u v y ' ã ẽ ĩ ũ ñ
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 cbk:
   name: Chavacano
   orthographies:
@@ -1013,6 +1289,55 @@ cbk:
   speakers_date: 1992
   status: living
   validity: verified
+cbr:
+  name: Kashibo
+  orthographies:
+  - autonym: Cacataibo
+    base: a b c e i m n o p q r s t u x ' ë ï õ ñ
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
+cbs:
+  name: Kashinawa
+  orthographies:
+  - autonym: Hantxa Kuin
+    base: a b c d e i j k m n p s t u v y ' ẽ ĩ ã ũ
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
+cbt:
+  name: Chayahuita
+  orthographies:
+  - autonym: Shawi
+    base: a h u k m n p r s t w ɨ č š
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
+cbu:
+  name: Candoshi-Shapra
+  orthographies:
+  - autonym: null
+    base: a b c d g h i k l m n o p r s t u v x y z '
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
+ccp:
+  name: Chakma
+  orthographies:
+  - autonym: null
+    script: Chakma
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: weak
 ceb:
   name: Cebuano
   orthographies:
@@ -1040,6 +1365,15 @@ ces:
   speakers_date: 2015
   status: living
   validity: done
+cfm:
+  name: Falam Chin
+  orthographies:
+  - autonym: null
+    base: a b c d e f g h i j k l m n o p r s t ṭ u v z
+    script: Latin
+  source:
+  - Wikipedia
+  validity: weak
 cgg:
   name: Chiga
   orthographies:
@@ -1080,6 +1414,37 @@ che:
   speakers_date: 2010
   status: living
   validity: weak
+chj:
+  name: Chinantec of Ojitlán
+  orthographies:
+  - autonym: Chinanteco de San Lucas Ojitlán
+    base: a b c d e f g h i j k l m n o p r s t u ë ø
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
+chk:
+  name: Chuukese
+  orthographies:
+  - autonym: Chuuk
+    base: a e f i k m n o p r s t u w y á é ó ú
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
+chr:
+  name: Cherokee
+  note: Presently almost extinct.
+  orthographies:
+  - autonym: ᏣᎳᎩ ᎦᏬᏂᎯᏍᏗ
+    base: Ꭰ Ꭱ Ꭲ Ꭳ Ꭴ Ꭵ Ꭶ Ꭷ Ꭸ Ꭹ Ꭺ Ꭻ Ꭼ Ꭽ Ꭾ Ꭿ Ꮀ Ꮁ Ꮂ Ꮃ Ꮄ Ꮅ Ꮆ Ꮇ Ꮈ Ꮉ Ꮊ Ꮋ Ꮌ Ꮍ Ꮎ Ꮏ Ꮐ Ꮑ Ꮒ Ꮓ Ꮔ Ꮕ Ꮖ Ꮗ Ꮘ Ꮙ Ꮚ Ꮛ Ꮜ Ꮝ Ꮞ Ꮟ Ꮠ Ꮡ Ꮢ Ꮣ Ꮤ Ꮥ Ꮦ Ꮧ Ꮨ Ꮩ Ꮪ Ꮫ Ꮬ Ꮭ Ꮮ Ꮯ Ꮰ Ꮱ Ꮲ Ꮳ Ꮴ Ꮵ Ꮶ Ꮷ Ꮸ Ꮹ Ꮺ Ꮻ Ꮼ Ꮽ Ꮾ Ꮿ Ᏸ Ᏹ Ᏺ Ᏻ Ᏼ
+    script: Cherokee
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 chu:
   name: Church Slavic
   note: Need to add combinations with accents.
@@ -1147,6 +1512,16 @@ cji:
   speakers_date: 2010
   status: living
   validity: verified
+cjk:
+  name: Chokwe
+  orthographies:
+  - autonym: Ucokwe
+    base: a b c d e f g h i j k l m n o p q r s t u v w y z
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 cjs:
   name: Shor
   orthographies:
@@ -1158,6 +1533,15 @@ cjs:
   speakers: 2800
   speakers_date: 2010
   status: living
+  validity: weak
+cjy:
+  name: Jinyu Chinese
+  orthographies:
+  - autonym: 晋语 / 晉語
+    inherit: cmn
+    script: Chinese
+  source:
+  - Wikipedia
   validity: weak
 ckb:
   name: Central Kurdish
@@ -1190,6 +1574,46 @@ ckt:
   speakers_date: 2010
   status: living
   validity: weak
+cmn:
+  name: Mandarin Chinese
+  note: Latin is required for tonal transliteration and pinyin input method.
+  orthographies:
+  - autonym: 普通话 / 汉语
+    auxiliary: 乒 乓 仂 仓 伞 侣 傈 傣 僳 冥 凉 刨 匕 卑 卞 厘 厦 厨 吕 呣 唇 啤 啮 喱 嗅 噘 噢 坝 堤 墟 奎 妆 婴 媚 宅 寺 尬 尴 屑 屿 巽 巾 弓 彗 惊 戟 扔 扰 扳 抛 挂 捂 摇 撅 撤 杆 杖 柜 柱 栗 栽 桶 棍 棕 棺 楔 楠 榈 槟 橙 洒 浆 涌 淇 滕 滚 滩 灾 烛 烟 焰 煎 犬 猫 瑚 瓢 甫 皱 盆 盔 盲 眨 眯 瞌 矿 碑 祈 祭 祷 禄 稻 竿 笼 筒 篷 粟 粮 纠 纬 缆 缎 耸 脚 舔 舵 艇 艮 芽 苜 苞 菇 菱 葫 葵 蒸 蓿 蔽 薯 蘑 蚂 蛛 蜗 蜘 蜡 蝎 蝴 螃 裹 谍 谬 豚 账 跤 踪 躬 轴 辐 迹 郁 鄙 酢 钉 钥 钮 钯 铂 铅 铛 锄 锑 锚 锤 镑 闺 阱 隧 雕 霾 靴 靶 鞠 颠 馏 驼 骆 髦 魁 鲤 鲸 鳄 鸽
+    base: 一 丁 七 万 丈 三 上 下 丌 不 与 丑 专 且 世 丘 丙 业 东 丝 丢 两 严 丧 个 中 丰 串 临 丸 丹 为 主 丽 举 乃 久 么 义 之 乌 乍 乎 乏 乐 乔 乖 乘 乙 九 也 习 乡 书 买 乱 乾 了 予 争 事 二 于 亏 云 互 五 井 亚 些 亡 交 亥 亦 产 亨 享 京 亮 亲 人 亿 什 仁 仅 仇 今 介 仍 从 仔 他 付 仙 代 令 以 仪 们 仰 仲 件 价 任 份 仿 企 伊 伍 伏 伐 休 众 优 伙 会 伟 传 伤 伦 伯 估 伴 伸 似 伽 但 位 低 住 佐 佑 体 何 余 佛 作 你 佤 佩 佳 使 例 供 依 侠 侦 侧 侨 侬 侯 侵 便 促 俄 俊 俗 保 信 俩 修 俱 俾 倍 倒 候 倚 借 倦 值 倾 假 偌 偏 做 停 健 偶 偷 储 催 傲 傻 像 僧 儒 儿 允 元 兄 充 兆 先 光 克 免 兑 兔 党 入 全 八 公 六 兮 兰 共 关 兴 兵 其 具 典 兹 养 兼 兽 内 冈 册 再 冒 写 军 农 冠 冬 冰 冲 决 况 冷 准 凌 减 凝 几 凡 凤 凭 凯 凰 出 击 函 刀 分 切 刊 刑 划 列 刘 则 刚 创 初 判 利 别 到 制 刷 券 刺 刻 剂 前 剑 剧 剩 剪 副 割 力 劝 办 功 加 务 劣 动 助 努 劫 励 劲 劳 势 勇 勉 勋 勒 勤 勾 勿 包 匆 匈 化 北 匙 匹 区 医 十 千 升 午 半 华 协 卒 卓 单 卖 南 博 占 卡 卢 卫 卯 印 危 即 却 卷 厂 厄 厅 历 厉 压 厌 厍 厚 原 去 县 参 又 叉 及 友 双 反 发 叔 取 受 变 叙 口 古 句 另 只 叫 召 叭 可 台 史 右 叶 号 司 叹 吃 各 合 吉 吊 同 名 后 吐 向 吓 吗 君 吝 吟 否 吧 含 听 启 吵 吸 吹 吻 吾 呀 呆 呈 告 呐 员 呜 呢 呦 周 味 呵 呼 命 和 咖 咦 咧 咨 咪 咬 咯 咱 哀 品 哇 哈 哉 响 哎 哟 哥 哦 哩 哪 哭 哲 唉 唐 唤 唬 售 唯 唱 唷 商 啊 啡 啥 啦 啪 喀 喂 善 喇 喊 喏 喔 喜 喝 喵 喷 喻 嗒 嗨 嗯 嘉 嘛 嘴 嘻 嘿 器 四 回 因 团 园 困 围 固 国 图 圆 圈 土 圣 在 圭 地 圳 场 圾 址 均 坎 坐 坑 块 坚 坛 坜 坡
+      坤 坦 坪 垂 垃 型 垒 埃 埋 城 埔 域 培 基 堂 堆 堕 堡 堪 塑 塔 塞 填 境 增 墨 壁 壤 士 壬 壮 声 处 备 复 夏 夕 外 多 夜 够 夥 大 天 太 夫 央 失 头 夷 夸 夹 夺 奇 奈 奉 奋 奏 契 奔 奖 套 奥 女 奴 奶 她 好 如 妇 妈 妖 妙 妥 妨 妮 妹 妻 姆 姊 始 姐 姑 姓 委 姿 威 娃 娄 娘 娜 娟 娱 婆 婚 媒 嫁 嫌 嫩 子 孔 孕 字 存 孙 孜 孝 孟 季 孤 学 孩 宁 它 宇 守 安 宋 完 宏 宗 官 宙 定 宛 宜 宝 实 审 客 宣 室 宪 害 宴 家 容 宽 宾 宿 寂 寄 寅 密 寇 富 寒 寝 寞 察 寡 寨 寸 对 寻 导 寿 封 射 将 尊 小 少 尔 尖 尘 尚 尝 尤 就 尺 尼 尽 尾 局 屁 层 居 屋 屏 展 属 屠 山 岁 岂 岗 岘 岚 岛 岳 岸 峡 峰 崇 崩 崴 川 州 巡 工 左 巧 巨 巫 差 己 已 巳 巴 巷 币 市 布 帅 师 希 帐 帕 帖 帝 带 席 帮 常 帽 幅 幕 干 平 年 并 幸 幻 幼 幽 广 庆 床 序 库 应 底 店 庙 庚 府 庞 废 度 座 庭 康 庸 廉 廖 延 廷 建 开 异 弃 弄 弊 式 引 弗 弘 弟 张 弥 弦 弯 弱 弹 强 归 当 录 彝 形 彩 彬 彭 彰 影 彷 役 彻 彼 往 征 径 待 很 律 後 徐 徒 得 循 微 徵 德 心 必 忆 忌 忍 志 忘 忙 忠 忧 快 念 忽 怀 态 怎 怒 怕 怖 思 怡 急 性 怨 怪 总 恋 恐 恢 恨 恩 恭 息 恰 恶 恼 悄 悉 悔 悟 悠 患 您 悲 情 惑 惜 惠 惧 惨 惯 想 惹 愁 愈 愉 意 愚 感 愧 慈 慎 慕 慢 慧 慰 憾 懂 懒 戈 戊 戌 戏 成 我 戒 或 战 截 戴 户 房 所 扁 扇 手 才 扎 扑 打 托 扣 执 扩 扫 扬 扭 扮 扯 批 找 承 技 抄 把 抑 抓 投 抗 折 抢 护 报 披 抬 抱 抵 抹 抽 担 拆 拉 拍 拒 拔 拖 拘 招 拜 拟 拥 拦 拨 择 括 拳 拷 拼 拾 拿 持 指 按 挑 挖 挝 挡 挤 挥 挪 振 挺 捉 捐 捕 损 捡 换 据 捷 授 掉 掌 排 探 接 控 推 掩 措 掸 描 提 插 握 援 搜 搞 搬 搭 摄 摆 摊 摔 摘 摩 摸 撒 撞 播 操 擎 擦 支
+      收 改 攻 放 政 故 效 敌 敏 救 教 敝 敢 散 敦 敬 数 敲 整 文 斋 斐 斗 料 斜 斥 断 斯 新 方 於 施 旁 旅 旋 族 旗 无 既 日 旦 旧 旨 早 旭 时 旺 昂 昆 昌 明 昏 易 星 映 春 昨 昭 是 显 晃 晋 晒 晓 晚 晨 普 景 晴 晶 智 暂 暑 暖 暗 暮 暴 曰 曲 更 曹 曼 曾 替 最 月 有 朋 服 朗 望 朝 期 木 未 末 本 札 术 朱 朵 机 杀 杂 权 杉 李 材 村 杜 束 条 来 杨 杯 杰 松 板 极 构 析 林 果 枝 枢 枪 枫 架 柏 某 染 柔 查 柬 柯 柳 柴 标 栋 栏 树 校 样 核 根 格 桃 框 案 桌 桑 档 桥 梁 梅 梦 梯 械 梵 检 棉 棋 棒 棚 森 椅 植 椰 楚 楼 概 榜 模 樱 檀 欠 次 欢 欣 欧 欲 欺 款 歉 歌 止 正 此 步 武 歪 死 殊 残 段 毅 母 每 毒 比 毕 毛 毫 氏 民 气 氛 水 永 求 汇 汉 汗 汝 江 池 污 汤 汪 汶 汽 沃 沈 沉 沙 沟 没 沧 河 油 治 沿 泉 泊 法 泛 泡 波 泣 泥 注 泰 泳 泽 洋 洗 洛 洞 津 洪 洲 活 洽 派 流 浅 测 济 浏 浑 浓 浙 浦 浩 浪 浮 浴 海 涅 消 涉 涛 涨 涯 液 涵 淋 淑 淘 淡 深 混 添 清 渐 渡 渣 温 港 渴 游 湖 湾 源 溜 溪 滋 滑 满 滥 滨 滴 漂 漏 演 漠 漫 潘 潜 潮 澎 澳 激 灌 火 灭 灯 灰 灵 灿 炉 炎 炮 炸 点 烂 烈 烤 烦 烧 热 焦 然 煌 煞 照 煮 熊 熟 燃 燕 爆 爪 爬 爱 爵 父 爷 爸 爽 片 版 牌 牙 牛 牡 牢 牧 物 牲 牵 特 牺 犯 状 犹 狂 狐 狗 狠 独 狮 狱 狼 猛 猜 猪 献 猴 玄 率 玉 王 玛 玩 玫 环 现 玲 玻 珀 珊 珍 珠 班 球 理 琊 琪 琳 琴 琼 瑙 瑜 瑞 瑟 瑰 瑶 璃 瓜 瓦 瓶 甘 甚 甜 生 用 田 由 甲 申 电 男 甸 画 畅 界 留 略 番 疆 疏 疑 疗 疯 疲 疼 疾 病 痕 痛 痴 癸 登 白 百 的 皆 皇 皮 盈 益 监 盒 盖 盘 盛 盟 目 直 相 盼 盾 省 眉 看 真 眠 眼 着 睛 睡 督 瞧 矛 矣 知 短 石 矶 码 砂 砍 研 破 础 硕 硬 确 碍 碎 碗 碟 碧 碰 磁 磅 磨
+      示 礼 社 祖 祚 祝 神 祥 票 祯 祸 禁 禅 福 离 秀 私 秋 种 科 秒 秘 租 秤 秦 秩 积 称 移 稀 程 稍 税 稣 稳 稿 穆 究 穷 穹 空 穿 突 窗 窝 立 站 竞 竟 章 童 端 竹 笑 笔 笛 符 笨 第 等 筋 筑 答 策 筹 签 简 算 管 箭 箱 篇 篮 簿 籍 米 类 粉 粒 粗 粤 粹 精 糊 糕 糖 糟 系 素 索 紧 紫 累 繁 红 约 级 纪 纯 纲 纳 纵 纷 纸 纽 线 练 组 细 织 终 绍 经 结 绕 绘 给 络 绝 统 继 绩 绪 续 维 绵 综 绿 缅 缓 编 缘 缠 缩 缴 缶 缸 缺 罐 网 罕 罗 罚 罢 罪 置 署 羊 美 羞 群 羯 羽 翁 翅 翔 翘 翠 翰 翻 翼 耀 老 考 者 而 耍 耐 耗 耳 耶 聊 职 联 聘 聚 聪 肉 肖 肚 股 肤 肥 肩 肯 育 胁 胆 背 胎 胖 胜 胞 胡 胶 胸 能 脆 脑 脱 脸 腊 腐 腓 腰 腹 腾 腿 臂 臣 自 臭 至 致 舌 舍 舒 舞 舟 航 般 舰 船 良 色 艺 艾 节 芒 芝 芦 芬 芭 花 芳 苍 苏 苗 若 苦 英 茂 范 茨 茫 茶 草 荐 荒 荣 药 荷 莉 莎 莪 莫 莱 莲 获 菜 菩 菲 萄 萍 萤 营 萧 萨 落 著 葛 葡 蒂 蒋 蒙 蓉 蓝 蓬 蔑 蔡 薄 薪 藉 藏 藤 虎 虑 虫 虹 虽 虾 蚁 蛇 蛋 蛙 蛮 蜂 蜜 蝶 融 蟹 蠢 血 行 街 衡 衣 补 表 袋 被 袭 裁 裂 装 裕 裤 西 要 覆 见 观 规 视 览 觉 角 解 言 誉 誓 警 计 订 认 讨 让 训 议 讯 记 讲 讷 许 论 设 访 证 评 识 诉 词 译 试 诗 诚 话 诞 询 该 详 语 误 说 请 诸 诺 读 课 谁 调 谅 谈 谊 谋 谓 谜 谢 谨 谱 谷 豆 象 豪 貌 贝 贞 负 贡 财 责 贤 败 货 质 贩 贪 购 贯 贱 贴 贵 贸 费 贺 贼 贾 资 赋 赌 赏 赐 赔 赖 赚 赛 赞 赠 赢 赤 赫 走 赵 起 趁 超 越 趋 趣 足 跃 跌 跑 距 跟 路 跳 踏 踢 踩 身 躲 车 轨 轩 转 轮 软 轰 轻 载 较 辅 辆 辈 辉 辑 输 辛 辞 辨 辩 辰 辱 边 达 迁 迅 过 迈 迎 运 近 返 还 这 进 远 违 连 迟 迦 迪 迫 述 迷 追 退 送 适 逃 逆 选 逊 透 逐 递 途
+      通 逛 逝 速 造 逢 逸 逻 逼 遇 遍 道 遗 遭 遮 遵 避 邀 邓 那 邦 邪 邮 邱 邻 郎 郑 部 郭 都 鄂 酉 酋 配 酒 酷 酸 醉 醒 采 释 里 重 野 量 金 针 钓 钟 钢 钦 钱 钻 铁 铃 铜 铢 铭 银 铺 链 销 锁 锅 锋 错 锡 锦 键 锺 镇 镜 镭 长 门 闪 闭 问 闰 闲 间 闷 闹 闻 阁 阅 阐 阔 队 阮 防 阳 阴 阵 阶 阻 阿 陀 附 际 陆 陈 降 限 院 除 险 陪 陵 陶 陷 隆 随 隐 隔 障 难 雄 雅 集 雉 雨 雪 雯 雳 零 雷 雾 需 震 霍 霖 露 霸 霹 青 靖 静 非 靠 面 革 靼 鞋 鞑 韦 韩 音 页 顶 项 顺 须 顽 顾 顿 预 领 颇 频 颗 题 额 风 飘 飙 飞 食 餐 饭 饮 饰 饱 饼 馆 首 香 馨 马 驱 驶 驻 驾 验 骑 骗 骚 骤 骨 高 鬼 魂 魅 魔 鱼 鲁 鲜 鸟 鸡 鸣 鸭 鸿 鹅 鹤 鹰 鹿 麦 麻 黄 黎 黑 默 鼓 鼠 鼻 齐 齿 龄 龙 龟
+    numerals: '% + - . 0 1 2 3 4 5 6 7 8 9 ‰ 〇'
+    script: Chinese
+  - autonym: Putong hua
+    base: a b c d e f g h i j k l m n o p q r s t u w x y z
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
+cnh:
+  name: Hakha Chin
+  orthographies:
+  - autonym: Laiṭong
+    base: a b c d e f g h i j k l m n o p r s t u v z ṭ
+    script: Burmese
+  source:
+  - Wikipedia
+  validity: weak
+cni:
+  name: Asháninka
+  note: There seems to be no standardized way to write Asháninka.
+  orthographies:
+  - autonym: null
+    base: a c e i j m n o p q r s t v w x y '
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 cnr:
   name: Montenegrin
   orthographies:
@@ -1207,6 +1631,16 @@ cnr:
   speakers_date: 2011
   status: living
   validity: verified
+cof:
+  name: Tsafiki
+  orthographies:
+  - autonym: null
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ã ẽ ĩ ũ ɨ ñ ʔ
+    script: Latin
+  source:
+  - Wikipedia
+  - Omniglot
+  validity: done
 con:
   name: Cofán
   orthographies:
@@ -1245,6 +1679,26 @@ cos:
   speakers_date: 2009
   status: living
   validity: verified
+cot:
+  name: Caquinte
+  orthographies:
+  - autonym: Poyenisati
+    base: a c e f g i j m n o p q r s t u v y ' ñ
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
+cpu:
+  name: Pichis Ashéninka
+  orthographies:
+  - autonym: null
+    base: a c e i j m n o p r s t w y ñ
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 crh:
   name: Crimean Tatar
   orthographies:
@@ -1274,6 +1728,16 @@ crs:
   speakers_date: 1998
   status: living
   validity: verified
+csa:
+  name: Chiltepec Chinantec
+  orthographies:
+  - autonym: null
+    base: a b c d e f g h i j k l m n o p r s t u ë ø
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 csb:
   name: Kashubian
   orthographies:
@@ -1286,6 +1750,26 @@ csb:
   speakers_date: 2011
   status: living
   validity: weak
+csw:
+  name: Swampy Cree
+  orthographies:
+  - autonym: ᓀᐦᐃᔭᐍᐏᐣ
+    base: ᐁ ᐃ ᐅ ᐊ ᐍ ᐏ ᐑ ᐓ ᐕ ᐘ ᐚ ᐤ ᐯ ᐱ ᐲ ᐳ ᐴ ᐸ ᐹ ᑊ ᑌ ᑎ ᑏ ᑐ ᑑ ᑕ ᑖ ᐟ ᑫ ᑭ ᑮ ᑯ ᑰ ᑲ ᑳ ᐠ ᒉ ᒋ ᒌ ᒍ ᒎ ᒐ ᒑ ᐨ ᒣ ᒥ ᒦ ᒧ ᒨ ᒪ ᒫ ᒼ ᓀ ᓂ ᓃ ᓄ ᓅ ᓇ ᓈ ᐣ ᓭ ᓯ ᓰ ᓱ ᓲ ᓴ ᓵ ᐢ ᔦ ᔨ ᔩ ᔪ ᔫ ᔭ ᔮ ᓬ ᕒ ᐦ ᐩ ᕁ ᑵ ˸
+  script: Cree
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
+ctd:
+  name: Tedim
+  orthographies:
+  - autonym: null
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+  script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 cym:
   name: Welsh
   orthographies:
@@ -1298,6 +1782,16 @@ cym:
   speakers_date: 2012
   status: living
   validity: weak
+dag:
+  name: Dagbani
+  orthographies:
+  - autonym: null
+    base: a b c d e f g h i j k l m n o p r s t u v w y z ' ɛ ɣ ɨ ŋ ɔ ʒ
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 dan:
   name: Danish
   orthographies:
@@ -1338,6 +1832,15 @@ dav:
   speakers_date: 1992-2009
   status: living
   validity: weak
+ddn:
+  name: Dendi
+  orthographies:
+  - autonym: null
+    base: a b ɓ c d ɖ ɗ e ɛ ǝ f ƒ g ɣ h i ɩ j k l m n o ɔ u ʊ à á ǎ â ā è é ě ê ē ə ì í ǐ î ī ḿ ǹ ń ň ò ó ǒ ô ō ù ú ǔ û ū ã ẽ ĩ ṍ ṹ ḛ ḭ ṵ
+    script: Latin
+  source:
+  - Wikipedia
+  validity: weak
 ddo:
   name: Dido
   orthographies:
@@ -1377,6 +1880,16 @@ deu:
   speakers_date: 2010
   status: living
   validity: verified
+dga:
+  name: Southern Dagaare
+  orthographies:
+  - autonym: null
+    base: a b d e ɛ f g h i j k l m n o ɔ p r s t u v w y z
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 dhv:
   name: Dehu
   note: 13000 includes L2 speakers.
@@ -1390,6 +1903,26 @@ dhv:
   speakers_date: 2009
   status: living
   validity: weak
+din:
+  name: Dinka
+  orthographies:
+  - autonym: null
+    base: a b c d e ɛ g ɣ i k l m n ŋ o ɔ p r s t u w y ä ë ï ö
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
+dip:
+  name: Northeastern Dinka
+  orthographies:
+  - autonym: Padang
+    inherit: din
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 diq:
   name: Dimli (individual language)
   orthographies:
@@ -1401,6 +1934,16 @@ diq:
   - Omniglot
   status: living
   validity: weak
+div:
+  name: Dhivehi
+  orthographies:
+  - autonym: ދިވެހި
+    base: އ ކ ޅ ބ ރ ނ ށ ހ ޏ ގ ލ ތ ދ ފ މ ވ ޗ ޖ ޕ ޔ ޓ ޒ ޑ ސ ޭ ެ ޫ ު ީ ި ާ ަ ޱ ‎ ް ޯ ޮ
+    script: Thaana
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 dje:
   name: Zarma
   orthographies:
@@ -1480,6 +2023,29 @@ dyo:
   speakers: 410000
   status: living
   validity: verified
+dyu:
+  name: Dyula
+  orthographies:
+  - autonym: ߖߎ߬ߟߊ߬ߞߊ߲
+    base: a b c d e ɛ f g h i j k l m n ɲ ŋ o ɔ p r s t u v w y z
+    numerals: ߀ ߁ ߂ ߃ ߄ ߅ ߆ ߇ ߈ ߉
+    script: Latin
+    tones: ߯  ߰  ߱  ߮  ߫  ߬  ߭
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: weak
+dzo:
+  name: Dzongkha
+  orthographies:
+  - autonym: རྫོང་ཁ་
+    base: ཀ ཁ ག ང ཅ ཆ ཇ ཉ ཏ ཐ ད ན པ ཕ བ མ ཙ ཚ ཛ ཝ ཞ ཟ འ ཡ ར ལ ཤ ས ཧ ཨ ཊ ཋ ཌ ཎ ཥ ྵ ི ུ ེ ོ
+    numerals: ༠ ༡ ༢ ༣ ༤ ༥ ༦ ༧ ༨ ༩
+    script: Tibetan
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 ebu:
   name: Embu
   orthographies:
@@ -1521,6 +2087,18 @@ ell:
   speakers_date: 2007
   status: living
   validity: verified
+emk:
+  name: Eastern Maninkaka
+  orthographies:
+  - autonym: Maninkakan
+    base: ߐ ߏ ߎ ߍ ߌ ߋ ߊ ߙ ‎ ߘ ߗ ߖ ߕ ߔ ߓ ߡ ߟ ߞ ߝ ߜ ߛ ߚ ߒ ߦ ߥ ߤ ߣ ߢ
+    numerals: ߀ ߁ ߂ ߃ ߄ ߅ ߆ ߇ ߈ ߉
+    script: N'Ko
+    tones: ߯  ߰  ߱  ߮  ߫  ߬  ߭
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 enf:
   name: Forest Enets
   orthographies:
@@ -1572,6 +2150,15 @@ epo:
   speakers: 1000
   status: constructed
   validity: verified
+ese:
+  name: Ese Ejja
+  orthographies:
+  - autonym: null
+    base: b p d t k s j c m n y w ñ
+    script: Latin
+  source:
+  - Wikipedia
+  validity: weak
 ess:
   name: Central Siberian Yupik
   orthographies:
@@ -1748,6 +2335,26 @@ fin:
   speakers_date: 2009-2012
   status: living
   validity: done
+fkv:
+  name: Kven Finnish
+  orthographies:
+  - autonym: Kainun kieli
+    base: a b c d ð e f g h i j k l m n o p q r s š t u v w x y z ä ö
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
+fon:
+  name: Fon
+  orthographies:
+  - autonym: fɔ̀ngbè
+    base: a b c d e f g i j k l m n o p r s t u v w x y z ɖ ɛ ɔ ` ´
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 fra:
   name: French
   orthographies:
@@ -1895,6 +2502,16 @@ fuv:
   - CLDR
   status: living
   validity: verified
+gaa:
+  name: Ga
+  orthographies:
+  - autonym: Gã
+    base: a b d e ɛ f g h i j k l m n ŋ o ɔ p r s t u v w y z
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 gag:
   name: Gagauz
   orthographies:
@@ -1910,6 +2527,20 @@ gag:
   speakers_date: 2009
   status: living
   validity: weak
+gan:
+  name: Gan
+  note: Latin is required for the Pinfa romanization system.
+  orthographies:
+  - autonym: 赣语 / 江西话
+    inherit: cmn
+    script: Chinese
+  - autonym: Gann ua
+    base: b p m f d t l z c s j q x g k h i u y a e o n
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 gax:
   name: Borana-Arsi-Guji Oromo
   orthographies:
@@ -1963,6 +2594,26 @@ gil:
   speakers_date: 1988-2010
   status: living
   validity: verified
+gjn:
+  name: Gonja
+  orthographies:
+  - autonym: Ngbanyito
+    base: a b c d e ɛ f g h i j k l m n ŋ o ɔ p r s t u v w y z '
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
+gkp:
+  name: Guinea Kpelle
+  orthographies:
+  - autonym: Kpɛlɛwoo
+    base: a b ɓ d e ɛ f g ɣ i k l m n ŋ o ɔ p r s t u v w x y z ` ´ ˆ
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 gla:
   name: Scottish Gaelic
   orthographies:
@@ -2089,6 +2740,36 @@ guc:
   speakers_date: 2001-2007
   status: living
   validity: verified
+gug:
+  name: Paraguayan Guaraní
+  orthographies:
+  - autonym: Avañe'ẽ
+    base: a ã c e ẽ g ͂ h i ĩ j k l m n ñ o õ p r s t u ũ v y ỹ '
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
+guj:
+  name: Gujarati
+  orthographies:
+  - autonym: ગુજરાતી
+    base: અ આ ઇ ઈ ઉ ઊ ઋ પ ા િ ી ુ ૂ ૃ એ ઐ ઓ ઔ ં ઃ ે ૈ ો ૌ ક ખ ગ ઘ ઙ ચ છ જ ઝ ઞ ટ ઠ ડ ઢ ણ ત થ દ ધ ન ફ બ ભ મ ય ર લ વ શ ષ સ હ ળ ્
+    numerals: ૦ ૧ ૨ ૩ ૪ ૫ ૬ ૭ ૮ ૯
+    script: Gujarati
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
+guu:
+  name: Yanomamö
+  orthographies:
+  - autonym: Yąnomamɨ
+    base: a e f h i j k m n o p r s t u w ã ẽ ə ĩ ɨ õ ũ
+    script: Latin
+  source:
+  - Wikipedia
+  validity: weak
 guz:
   name: Gusii
   orthographies:
@@ -2142,6 +2823,20 @@ hae:
   speakers_date: 1994
   status: living
   validity: verified
+hak:
+  name: Hakka Chinese
+  note: Latin is required for pinyin romanization.
+  orthographies:
+  - autonym: 客家话 / 客家話
+    inherit: cmn
+    script: Chinese
+  - autonym: hak ga wa
+    base: a b c d e f g h i j k l m n o p q r s t u w x y z
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 hat:
   name: Haitian
   orthographies:
@@ -2196,6 +2891,16 @@ haz:
   speakers_date: 2014
   status: living
   validity: weak
+hea:
+  name: Northern Qiandong Miao
+  orthographies:
+  - autonym: hveb Hmub
+    base: a b c d e f g h i j k l m n o p q r s t u w x y z -
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 heb:
   name: Hebrew
   orthographies:
@@ -2217,6 +2922,48 @@ hil:
   speakers_date: 2010
   status: living
   validity: weak
+hin:
+  name: Hindi
+  orthographies:
+  - autonym: हिन्दी
+    base: अ आ इ ई उ ऊ ऋ ए ऐ ओ औ ं ः प ा ि ी ु ू ृ े ै ो ौ क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न फ ब भ म य र ल व श ष स ह ़
+    numerals: ० १ २ ३ ४ ५ ६ ७ ८ ९
+    script: Devanagari
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
+hms:
+  name: Southern Qiandong Miao
+  orthographies:
+  - autonym: hveb Hmub
+    base: a b c d e f g h i j k l m n o p q r s t u w x y z -
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
+hni:
+  name: Hani
+  orthographies:
+  - autonym: Haqniqdoq
+    base: a b c d e f g h i j k l m n o q r s t u v w x y z
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
+hns:
+  name: Caribbean Hindustani
+  note: Devanagari Kaithi and Urdu are in steep decline of use with Latin being the favoured script.
+  orthographies:
+  - autonym: null
+    base: a b c d e f g h i j k l m n o q r s t u v w x y z ˜
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 hop:
   name: Hopi
   orthographies:
@@ -2270,6 +3017,26 @@ hun:
   speakers_date: 2003-2014
   status: living
   validity: verified
+hus:
+  name: Huasteco
+  orthographies:
+  - autonym: Teenek
+    base: a b c e i j k l m n o p r s t u w x y z '
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
+huu:
+  name: Murui Huitoto
+  orthographies:
+  - autonym: null
+    base: a b c d e f g i j l m n o r s t v ɨ ñ
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 huz:
   name: Hunzib
   orthographies:
@@ -2282,6 +3049,38 @@ huz:
   speakers_date: 2006-2010
   status: living
   validity: weak
+hye:
+  name: Eastern Armenian
+  note: Shares base with Western Armenian.
+  orthographies:
+  - autonym: Հայերէն
+    base: ա բ գ դ ե զ է ը թ ժ ի լ խ ծ կ հ ձ ղ ճ մ յ ն շ ո չ պ ջ ռ ս վ տ ր ց ւ փ ք և օ ֆ
+    script: Armenian
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
+hyw:
+  name: Western Armenian
+  note: Shares base with Eastern Armenian.
+  orthographies:
+  - autonym: Հայերէն
+    base: ա բ գ դ ե զ է ը թ ժ ի լ խ ծ կ հ ձ ղ ճ մ յ ն շ ո չ պ ջ ռ ս վ տ ր ց ւ փ ք և օ ֆ
+    script: Armenian
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
+ibb:
+  name: Ibibio
+  orthographies:
+  - autonym: null
+    base: a b d e f g h i ị k m n ñ o ọ p r s t u ʌ w y
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 ibo:
   name: Igbo
   note: Shorter autonym?
@@ -2321,6 +3120,28 @@ igs:
   speakers: 0
   status: constructed
   validity: verified
+iii:
+  name: Nuosu
+  orthographies:
+  - autonym: ꆈꌠꉙ
+    base: ꀀ ꀖ ꀸ ꁖ ꁶ ꂑ ꂮ ꃍ ꃢ ꄀ ꄚ ꄶ ꅑ ꅨ ꅽ ꆗ ꆷ ꇚ ꇸ ꈔ ꉆ ꉮ ꊍ ꊮ ꋐ ꋭ ꌉ ꌪ ꏠ ꏼ ꐘ ꐱ ꑊ ꑝ ꑱ ꀁ ꀗ ꀹ ꁗ ꁷ ꂒ ꂯ ꃎ ꃣ ꄁ ꄛ ꄷ ꅒ ꅩ ꅾ ꆘ ꆸ ꇛ ꇹ ꈕ ꉇ ꊎ ꊯ ꋑ ꋮ ꌊ ꌫ ꏡ ꏽ ꐙ ꐲ ꑋ ꑞ ꑲ ꀂ ꀘ ꀺ ꁘ ꁸ ꂓ ꂰ ꃏ ꃤ ꄂ ꄜ ꄸ ꅓ ꅪ ꅿ ꆙ ꆹ ꇜ ꇺ ꈖ ꉈ ꊏ ꊰ ꋒ ꋯ ꌋ ꌬ ꏢ ꏾ ꐚ ꐳ ꑌ ꑟ ꑳ ꀃ ꀙ ꀻ ꁙ ꁹ ꂔ ꂱ ꃐ ꃥ ꄃ ꄝ ꄹ ꅔ ꅫ ꆀ ꆚ ꆺ ꇝ ꇻ ꉉ ꊐ ꊱ ꋓ ꋰ ꌌ ꌭ ꏣ ꏿ ꐛ ꐴ ꑍ ꑠ ꑴ ꀄ ꀚ ꁚ ꃦ ꅬ ꆻ ꇞ ꉊ ꊲ ꋔ ꏤ ꐀ ꐜ ꐵ ꑎ ꑡ ꑵ ꀅ ꀛ ꀼ ꁛ ꁺ ꂕ ꂲ ꃧ ꄄ ꄞ ꄺ ꅕ ꅭ ꆁ ꆛ ꆼ ꇟ ꇼ ꈗ ꈰ ꉋ ꉝ ꉯ ꊑ ꊳ ꋕ ꋱ ꌍ ꌮ ꏥ ꐁ ꐝ ꐶ ꑏ ꑢ ꑶ ꀆ ꀜ ꀽ ꁜ ꁻ ꂖ ꂳ ꃨ ꄅ ꄟ ꄻ ꅖ ꅮ ꆂ ꆜ ꆽ ꇠ ꇽ ꈘ ꈱ ꉌ ꉞ ꉰ ꊒ ꊴ ꋖ ꋲ ꌎ ꌯ ꏦ ꐂ ꐞ ꐷ ꑐ ꑣ ꑷ ꀇ ꀝ ꀾ ꁝ ꁼ ꂗ ꂴ ꃩ ꄆ ꄠ ꄼ ꅯ ꆃ ꆝ ꆾ ꇡ ꇾ ꈙ ꉍ ꉟ ꊓ ꊵ ꋗ ꋳ ꌏ ꌰ ꏧ ꐃ ꐟ ꐸ ꑑ ꑤ ꑸ ꀈ ꀞ ꀿ ꁞ ꁽ ꂘ ꂵ ꃑ ꃪ ꄇ ꄡ ꄽ ꅗ ꅰ ꆞ ꆿ ꇢ ꇿ ꈚ ꈲ ꉎ ꉠ ꉱ ꊀ ꊔ ꊶ ꋘ ꋴ ꌐ ꌱ ꍆ ꍡ ꎔ ꎫ ꏆ ꀉ ꀟ ꁀ ꁟ ꁾ ꂙ ꂶ ꃒ ꃫ ꄈ ꄢ ꄾ ꅘ ꅱ ꆄ ꆟ ꇀ ꇣ ꈀ ꈛ ꈳ ꉏ ꉡ ꉲ ꊁ ꊕ ꊷ ꋙ ꋵ ꌑ ꌲ ꍇ ꍢ ꍼ ꎕ ꎬ ꏇ ꀊ ꀠ ꁁ ꁠ ꁿ ꂚ ꂷ ꃓ ꃬ ꄉ ꄣ ꄿ ꅙ ꅲ ꆅ ꆠ ꇁ ꇤ ꈁ ꈜ ꈴ ꉐ ꉢ ꉳ ꊂ ꊖ ꊸ ꋚ ꋶ ꌒ ꌳ ꍈ ꍣ ꍽ ꎖ ꎭ ꏈ ꀋ ꀡ ꁂ ꁡ ꂀ ꂛ ꂸ ꃔ ꃭ ꄊ ꄤ ꅀ ꅚ ꅳ ꆆ ꆡ ꇂ ꇥ ꈂ ꈝ ꈵ ꉑ ꉣ ꉴ ꊃ ꊗ ꊹ ꋛ ꋷ ꌓ ꌴ ꍉ ꍤ ꎗ ꎮ ꏉ ꂹ ꄥ ꇃ ꇦ ꈞ ꉒ ꉤ ꉵ ꍥ ꏨ ꐄ ꑹ ꀌ ꀢ ꁃ ꁢ ꂜ ꂺ ꄋ ꄦ ꅁ ꅴ ꆇ ꆢ ꇄ ꇧ ꈃ ꈟ ꈶ ꉓ ꉥ ꉶ ꊄ ꊘ ꊺ ꋸ ꌔ ꍊ ꍦ ꍾ ꎯ ꏊ ꏩ ꐅ ꐠ ꐹ ꑒ ꑥ ꑺ ꀍ ꀣ ꁄ ꁣ ꂝ ꂻ ꄌ ꄧ ꅂ ꅵ ꆈ ꆣ ꇅ ꇨ ꈄ ꈠ ꈷ ꉔ ꉦ ꉷ ꊅ ꊙ ꊻ ꋹ ꌕ ꍋ ꍧ ꍿ ꎰ ꏋ ꏪ ꐆ ꐡ ꐺ ꑓ ꑦ ꑻ ꀎ ꀤ ꁅ ꁤ ꂞ ꂼ ꄨ
+      ꅃ ꆉ ꆤ ꇆ ꇩ ꈅ ꈡ ꈸ ꉕ ꉸ ꊆ ꊚ ꊼ ꌖ ꍌ ꍨ ꎱ ꏌ ꏫ ꐇ ꐢ ꑔ ꑼ ꀏ ꀥ ꁆ ꁥ ꂁ ꂟ ꂽ ꃮ ꄍ ꄩ ꅄ ꅛ ꅶ ꆊ ꇇ ꇪ ꈆ ꈢ ꈹ ꉖ ꉧ ꉹ ꊛ ꊽ ꌗ ꌵ ꍍ ꍩ ꎀ ꎲ ꏍ ꏬ ꐈ ꐣ ꐻ ꑕ ꑧ ꑽ ꀐ ꀦ ꁇ ꁦ ꂂ ꂠ ꂾ ꃕ ꃯ ꄎ ꄪ ꅅ ꅜ ꅷ ꆋ ꆥ ꇈ ꇫ ꈇ ꈣ ꈺ ꉗ ꉨ ꉺ ꊇ ꊜ ꊾ ꋜ ꋺ ꌘ ꌶ ꍎ ꍪ ꎁ ꎘ ꎳ ꏎ ꏭ ꐉ ꐤ ꐼ ꑖ ꑨ ꑾ ꀑ ꀧ ꁈ ꁧ ꂃ ꂡ ꂿ ꃖ ꃰ ꄏ ꄫ ꅆ ꅝ ꆌ ꆦ ꇉ ꇬ ꈈ ꈤ ꈻ ꉘ ꉩ ꉻ ꊈ ꊝ ꊿ ꋝ ꌙ ꌷ ꍏ ꍫ ꎂ ꎙ ꎴ ꏏ ꏮ ꐊ ꐥ ꐽ ꑗ ꑩ ꑿ ꀒ ꀨ ꁉ ꁨ ꂄ ꂢ ꃀ ꃗ ꃱ ꄐ ꄬ ꅇ ꅞ ꅸ ꆍ ꆧ ꇊ ꇭ ꈉ ꈥ ꈼ ꉙ ꉪ ꉼ ꊉ ꊞ ꋀ ꋞ ꋻ ꌚ ꌸ ꍐ ꍬ ꎃ ꎚ ꎵ ꏐ ꏯ ꐋ ꐦ ꐾ ꑘ ꑪ ꒀ ꇮ ꈊ ꈦ ꍑ ꍭ ꎄ ꎛ ꎶ ꀓ ꀩ ꁩ ꃁ ꃲ ꄑ ꄭ ꅈ ꅟ ꅹ ꆎ ꆨ ꇋ ꇯ ꈋ ꈧ ꈽ ꉚ ꉫ ꉽ ꊊ ꊟ ꋁ ꋟ ꋼ ꌛ ꌹ ꍒ ꍮ ꎅ ꎜ ꎷ ꏑ ꀔ ꀪ ꁪ ꃂ ꄒ ꄮ ꅉ ꅠ ꅺ ꆏ ꆩ ꇌ ꇰ ꈌ ꈨ ꈾ ꉛ ꉬ ꉾ ꊋ ꊠ ꋂ ꋠ ꋽ ꌜ ꌺ ꍓ ꍯ ꎆ ꎝ ꎸ ꏒ ꀫ ꁫ ꃳ ꄓ ꄯ ꅊ ꅡ ꅻ ꆐ ꆪ ꇍ ꇱ ꈍ ꈩ ꈿ ꉜ ꉭ ꉿ ꊌ ꊡ ꋃ ꋡ ꌝ ꌻ ꍔ ꍰ ꎇ ꎞ ꎹ ꏓ ꀬ ꁊ ꁬ ꂅ ꂣ ꃃ ꃘ ꃴ ꄔ ꄰ ꅋ ꅢ ꅼ ꆑ ꆫ ꇎ ꇲ ꈎ ꈪ ꉀ ꊢ ꋄ ꌞ ꌼ ꍕ ꎈ ꎟ ꎺ ꏔ ꏰ ꐌ ꐧ ꑙ ꒁ ꀭ ꁋ ꁭ ꂆ ꂤ ꃄ ꃙ ꃵ ꄕ ꄱ ꅌ ꅣ ꆒ ꆬ ꇏ ꇳ ꈏ ꈫ ꉁ ꊣ ꋅ ꋢ ꋾ ꌟ ꌽ ꍖ ꍱ ꎉ ꎠ ꎻ ꏕ ꏱ ꐍ ꐨ ꐿ ꑚ ꒂ ꀮ ꁌ ꁮ ꂇ ꂥ ꃅ ꃚ ꃶ ꄖ ꄲ ꅍ ꅤ ꆓ ꆭ ꇐ ꇴ ꈐ ꈬ ꉂ ꊤ ꋆ ꋣ ꋿ ꌠ ꌾ ꍗ ꍲ ꎊ ꎡ ꎼ ꏖ ꏲ ꐎ ꐩ ꑀ ꑛ ꒃ ꀯ ꁍ ꁯ ꂈ ꂦ ꃆ ꃛ ꃷ ꄗ ꄳ ꅎ ꅥ ꆔ ꆮ ꇑ ꇵ ꈑ ꈭ ꉃ ꊥ ꋇ ꋤ ꌀ ꌡ ꌿ ꍘ ꍳ ꎋ ꎢ ꎽ ꏗ ꏳ ꐏ ꐪ ꑁ ꑜ ꒄ ꀰ ꁎ ꁰ ꂉ ꂧ ꃇ ꃜ ꃸ ꄘ ꄴ ꅏ ꅦ ꆕ ꆯ ꇒ ꇶ ꈒ ꈮ ꉄ ꊦ ꋈ ꋥ ꌁ ꌢ ꍙ ꍴ ꎌ ꎣ ꎾ ꏘ ꏴ ꐐ ꐫ ꑂ ꒅ ꀱ ꁏ ꁱ ꂊ ꂨ ꃈ ꃝ ꃹ ꄙ ꄵ ꅐ ꅧ ꆖ ꆰ ꇓ ꇷ ꈓ ꈯ ꉅ ꊧ ꋉ ꋦ ꌂ ꌣ
+      ꍚ ꍵ ꎍ ꎤ ꎿ ꏙ ꏵ ꐑ ꐬ ꑃ ꒆ ꀲ ꁐ ꁲ ꂋ ꃉ ꃞ ꃺ ꆱ ꇔ ꊨ ꋊ ꋧ ꌃ ꌤ ꍀ ꍛ ꍶ ꎎ ꎥ ꏀ ꏚ ꏶ ꐒ ꐭ ꑄ ꑫ ꒇ ꀳ ꁑ ꁳ ꂌ ꂩ ꃊ ꃟ ꃻ ꆲ ꇕ ꊩ ꋋ ꋨ ꌄ ꌥ ꍁ ꍜ ꍷ ꎏ ꎦ ꏁ ꏛ ꏷ ꐓ ꐮ ꑅ ꑬ ꒈ ꀴ ꁒ ꁴ ꂍ ꂪ ꃋ ꃠ ꃼ ꆳ ꇖ ꊪ ꋌ ꋩ ꌅ ꌦ ꍂ ꍝ ꍸ ꎐ ꎧ ꏂ ꏜ ꏸ ꐔ ꐯ ꑆ ꑭ ꒉ ꀵ ꁓ ꁵ ꂎ ꂫ ꃌ ꃡ ꃽ ꆴ ꇗ ꊫ ꋍ ꋪ ꌆ ꌧ ꍃ ꍞ ꍹ ꎑ ꎨ ꏃ ꏝ ꏹ ꐕ ꐰ ꑇ ꑮ ꒊ ꀶ ꁔ ꂏ ꂬ ꃾ ꆵ ꇘ ꊬ ꋎ ꋫ ꌇ ꌨ ꍄ ꍟ ꍺ ꎒ ꎩ ꏄ ꏞ ꏺ ꐖ ꑈ ꑯ ꒋ ꀷ ꁕ ꂐ ꂭ ꃿ ꆶ ꇙ ꊭ ꋏ ꋬ ꌈ ꌩ ꍅ ꍠ ꍻ ꎓ ꎪ ꏅ ꏟ ꏻ ꐗ ꑉ ꑰ ꒌ
+    script: Modern Yi script
+  source:
+  - Wikipedia
+  validity: done
+ike:
+  name: Eastern Canadian Inuktitut
+  note: Despite being considered different languages ike and ikt are under the iku inclusive ISO 639-3 code.
+  orthographies:
+  - autonym: ᐃᓄᒃᑎᑐᑦ
+    base: ᐃ ᐄ ᐅ ᐆ ᐊ ᐋ ᐦ ᐱ ᐲ ᐳ ᐴ ᐸ ᐹ ᑉ ᑎ ᑏ ᑐ ᑑ ᑕ ᑖ ᑦ ᑭ ᑮ ᑯ ᑰ ᑲ ᑳ ᒃ ᒋ ᒌ ᒍ ᒎ ᒐ ᒑ ᒡ ᒥ ᒦ ᒧ ᒨ ᒪ ᒫ ᒻ ᓂ ᓃ ᓄ ᓅ ᓇ ᓈ ᓐ ᓯ ᓰ ᓱ ᓲ ᓴ ᓵ ᔅ ᓕ ᓖ ᓗ ᓘ ᓚ ᓛ ᓪ ᔨ ᔩ ᔪ ᔫ ᔭ ᔮ ᔾ ᕕ ᕖ ᕗ ᕘ ᕙ ᕚ ᕝ ᕆ ᕇ ᕈ ᕉ ᕋ ᕌ ᕐ ᕿ ᖀ ᖁ ᖂ ᖃ ᖄ ᖅ ᖏ ᖐ ᖑ ᖒ ᖓ ᖔ ᖕ ᖠ ᖡ ᖢ ᖣ ᖤ ᖥ ᖦ
+    script: Inuktitut Syllabics
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 ile:
   name: Interlingue
   note: Constructed language, aka Occidental, not Interlingua.
@@ -2508,6 +3329,33 @@ jgo:
   speakers_date: 1999
   status: living
   validity: weak
+jiv:
+  name: Shuar
+  orthographies:
+  - autonym: Shiwar chicham
+    base: a c e i j k m n ñ p r s t u w y ' ã ẽ ĩ ũ
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
+jpn:
+  name: Japanese
+  note: Latin script is used for imported acronyms.
+  orthographies:
+  - autonym: 日本語
+    auxiliary: 丑 亥 亨 兌 兎 卯 嘉 壬 寅 巳 庚 弘 戊 戌 拼 昌 楔 猪 癸 祚 禄 禎 辰 酉 錄 閏 雉 鳳 鼠
+    base: 々 ぁ あ ぃ い ぅ う ぇ え ぉ お か が き ぎ く ぐ け げ こ ご さ ざ し じ す ず せ ぜ そ ぞ た だ ち ぢ っ つ づ て で と ど な に ぬ ね の は ば ぱ ひ び ぴ ふ ぶ ぷ へ べ ぺ ほ ぼ ぽ ま み む め も ゃ や ゅ ゆ ょ よ ら り る れ ろ ゎ わ ゐ ゑ を ん ゝ ゞ ァ ア ィ イ ゥ ウ ェ エ ォ オ カ ガ キ ギ ク グ ケ ゲ コ ゴ サ ザ シ ジ ス ズ セ ゼ ソ ゾ タ ダ チ ヂ ッ ツ ヅ テ デ ト ド ナ ニ ヌ ネ ノ ハ バ パ ヒ ビ ピ フ ブ プ ヘ ベ ペ ホ ボ ポ マ ミ ム メ モ ャ ヤ ュ ユ ョ ヨ ラ リ ル レ ロ ヮ ワ ヰ ヱ ヲ ン ヴ ヵ ヶ ー ヽ ヾ 一 丁 七 万 丈 三 上 下 不 与 且 世 丘 丙 両 並 中 丸 丹 主 久 乏 乗 乙 九 乱 乳 乾 亀 了 予 争 事 二 互 五 井 亜 亡 交 享 京 亭 人 仁 今 介 仏 仕 他 付 仙 代 令 以 仮 仰 仲 件 任 企 伏 伐 休 会 伝 伯 伴 伸 伺 似 但 位 低 住 佐 体 何 余 作 佳 併 使 例 侍 供 依 価 侮 侯 侵 便 係 促 俊 俗 保 信 修 俳 俵 俸 俺 倉 個 倍 倒 候 借 倣 値 倫 倹 偉 偏 停 健 側 偵 偶 偽 傍 傑 傘 備 催 債 傷 傾 働 像 僕 僚 僧 儀 億 儒 償 優 元 兄 充 兆 先 光 克 免 児 党 入 全 八 公 六 共 兵 具 典 兼 内 円 冊 再 冒 冗 写 冠 冬 冷 准 凍 凝 凡 処 凶 凸 凹 出 刀 刃 分 切 刈 刊 刑 列 初 判 別 利 到 制 刷 券 刺 刻 則 削 前 剖 剛 剣 剤 剥 副 剰 割 創 劇 力 功 加 劣 助 努 励 労 効 劾 勅 勇 勉 動 勘 務 勝 募 勢 勤 勧 勲 包 化 北 匠 匹 区 医 匿 十 千 升 午 半 卑 卒 卓 協 南 単 博 占 印 危 即 却 卵 卸 厄 厘 厚 原 厳 去 参 又 及 友 双 反 収 叔 取 受 叙 口 古 句 叫 召 可 台 叱 史 右 号 司 各 合 吉 同 名 后 吏 吐 向 君 吟 否 含 吸 吹 呈 呉 告 周 味 呼 命 和 咲 哀 品 員 哲 唆 唇 唐 唯 唱 商
+      問 啓 善 喚 喜 喝 喪 喫 営 嗣 嘆 嘱 器 噴 嚇 囚 四 回 因 団 困 囲 図 固 国 圏 園 土 圧 在 地 坂 均 坊 坑 坪 垂 型 垣 埋 城 域 執 培 基 埼 堀 堂 堅 堕 堤 堪 報 場 塀 塁 塊 塑 塔 塗 塚 塩 填 塾 境 墓 増 墜 墨 墳 墾 壁 壇 壊 壌 士 壮 声 壱 売 変 夏 夕 外 多 夜 夢 大 天 太 夫 央 失 奇 奈 奉 奏 契 奔 奥 奨 奪 奮 女 奴 好 如 妃 妄 妊 妙 妥 妨 妹 妻 姉 始 姓 委 姫 姻 姿 威 娘 娠 娯 婆 婚 婦 婿 媒 嫁 嫌 嫡 嬢 子 孔 字 存 孝 季 孤 学 孫 宅 宇 守 安 完 宗 官 宙 定 宜 宝 実 客 宣 室 宮 宰 害 宴 宵 家 容 宿 寂 寄 密 富 寒 寛 寝 察 寡 寧 審 寮 寸 寺 対 寿 封 専 射 将 尉 尊 尋 導 小 少 尚 就 尺 尼 尽 尾 尿 局 居 屈 届 屋 展 属 層 履 屯 山 岐 岡 岩 岬 岳 岸 峠 峡 峰 島 崇 崎 崩 川 州 巡 巣 工 左 巧 巨 差 己 巻 市 布 帆 希 帝 帥 師 席 帯 帰 帳 常 帽 幅 幕 幣 干 平 年 幸 幹 幻 幼 幽 幾 庁 広 床 序 底 店 府 度 座 庫 庭 庶 康 庸 廃 廉 廊 延 廷 建 弁 弊 式 弐 弓 弔 引 弟 弦 弧 弱 張 強 弾 当 形 彩 彫 彰 影 役 彼 往 征 径 待 律 後 徐 徒 従 得 御 復 循 微 徳 徴 徹 心 必 忌 忍 志 忘 忙 応 忠 快 念 怒 怖 思 怠 急 性 怪 恋 恐 恒 恥 恨 恩 恭 息 恵 悔 悟 悠 患 悦 悩 悪 悲 悼 情 惑 惜 惨 惰 想 愁 愉 意 愚 愛 感 慈 態 慌 慎 慕 慢 慣 慨 慮 慰 慶 憂 憎 憤 憩 憲 憶 憾 懇 懐 懲 懸 成 我 戒 戦 戯 戸 戻 房 所 扇 扉 手 才 打 払 扱 扶 批 承 技 抄 把 抑 投 抗 折 抜 択 披 抱 抵 抹 押 抽 担 拍 拐 拒 拓 拘 拙 招 拝 拠 拡 括 拷 拾 持 指 挑 挙 挟 振 挿 捕 捜 捨 据 掃 授 掌 排 掘 掛 採 探 接 控 推 措 掲 描 提 揚 換 握 揮 援 揺 損 搬 搭 携 搾 摂 摘 摩 撃 撤 撮 撲 擁 操 擦 擬 支 改 攻 放 政 故 敏 救 敗 教 敢 散 敬
+      数 整 敵 敷 文 斉 斎 斗 料 斜 斤 斥 断 新 方 施 旅 旋 族 旗 既 日 旧 旨 早 旬 昆 昇 明 易 昔 星 映 春 昨 昭 是 昼 時 晩 普 景 晴 晶 暁 暇 暑 暖 暗 暦 暫 暮 暴 曇 曜 曲 更 書 曹 替 最 月 有 服 朕 朗 望 朝 期 木 未 末 本 札 朱 朴 机 朽 杉 材 村 束 条 来 杯 東 松 板 析 林 枚 果 枝 枠 枢 枯 架 柄 某 染 柔 柱 柳 査 栄 栓 校 株 核 根 格 栽 桃 案 桑 桜 桟 梅 械 棄 棋 棒 棚 棟 森 棺 植 検 業 極 楼 楽 概 構 様 槽 標 模 権 横 樹 橋 機 欄 欠 次 欧 欲 欺 款 歌 歓 止 正 武 歩 歯 歳 歴 死 殉 殊 残 殖 殴 段 殺 殻 殿 母 毎 毒 比 毛 氏 民 気 水 氷 永 汁 求 汎 汗 汚 江 池 決 汽 沈 沖 没 沢 河 沸 油 治 沼 沿 況 泉 泊 泌 法 泡 波 泣 泥 注 泰 泳 洋 洗 洞 津 洪 活 派 流 浄 浅 浜 浦 浪 浮 浴 海 浸 消 涙 涯 液 涼 淑 淡 深 混 添 清 渇 済 渉 渋 渓 減 渡 渦 温 測 港 湖 湯 湾 湿 満 源 準 溝 溶 滅 滋 滑 滝 滞 滴 漁 漂 漆 漏 演 漠 漢 漫 漬 漸 潔 潜 潟 潤 潮 澄 激 濁 濃 濫 濯 瀬 火 灯 灰 災 炉 炊 炎 炭 点 為 烈 無 焦 然 焼 煙 照 煩 煮 熟 熱 燃 燥 爆 爵 父 片 版 牙 牛 牧 物 牲 特 犠 犬 犯 状 狂 狩 独 狭 猛 猟 猫 献 猶 猿 獄 獣 獲 玄 率 玉 王 珍 珠 班 現 球 理 琴 環 璽 瓶 甘 甚 生 産 用 田 由 甲 申 男 町 画 界 畑 畔 留 畜 畝 略 番 異 畳 疎 疑 疫 疲 疾 病 症 痘 痛 痢 痴 療 癒 癖 発 登 白 百 的 皆 皇 皮 皿 盆 益 盗 盛 盟 監 盤 目 盲 直 相 盾 省 看 県 真 眠 眺 眼 着 睡 督 瞬 矛 矢 知 短 矯 石 砂 研 砕 砲 破 硝 硫 硬 碁 碑 確 磁 磨 礁 礎 示 礼 社 祈 祉 祖 祝 神 祥 票 祭 禁 禅 禍 福 秀 私 秋 科 秒 秘 租 秩 称 移 程 税 稚 種 稲 稼 稿 穀 穂 積 穏 穫 穴 究 空 突 窃 窒 窓 窮 窯 立 竜 章 童 端 競 竹 笑 笛 符 第
+      筆 等 筋 筒 答 策 箇 算 管 箱 節 範 築 篤 簡 簿 籍 米 粉 粋 粒 粗 粘 粛 粧 精 糖 糧 糸 系 糾 紀 約 紅 紋 納 純 紙 級 紛 素 紡 索 紫 累 細 紳 紹 紺 終 組 経 結 絞 絡 給 統 絵 絶 絹 継 続 維 綱 網 綿 緊 総 緑 緒 線 締 編 緩 緯 練 縁 縄 縛 縦 縫 縮 績 繁 繊 織 繕 繭 繰 缶 罪 置 罰 署 罷 羅 羊 美 群 義 羽 翁 翌 習 翻 翼 老 考 者 耐 耕 耗 耳 聖 聞 聴 職 肉 肌 肖 肝 肢 肥 肩 肪 肯 育 肺 胃 胆 背 胎 胞 胴 胸 能 脂 脅 脈 脚 脱 脳 腐 腕 腰 腸 腹 膚 膜 膨 臓 臣 臨 自 臭 至 致 興 舌 舎 舗 舞 舟 航 般 舶 船 艇 艦 良 色 芋 芝 花 芳 芸 芽 苗 若 苦 英 茂 茎 茶 草 荒 荘 荷 菊 菌 菓 菜 華 落 葉 著 葬 蒸 蓄 蔵 薄 薦 薪 薫 薬 藤 藩 藻 虎 虐 虚 虜 虞 虫 蚊 蚕 蛇 蛍 蛮 融 血 衆 行 術 街 衛 衝 衡 衣 表 衰 衷 袋 被 裁 裂 装 裏 裕 補 裸 製 複 褐 褒 襟 襲 西 要 覆 覇 見 規 視 覚 覧 親 観 角 解 触 言 訂 計 討 訓 託 記 訟 訪 設 許 訳 訴 診 証 詐 詔 評 詞 詠 試 詩 詰 話 該 詳 誇 誉 誌 認 誓 誕 誘 語 誠 誤 説 読 誰 課 調 談 請 論 諭 諮 諸 諾 謀 謁 謄 謙 講 謝 謡 謹 識 譜 警 議 譲 護 谷 豆 豊 豚 象 豪 貝 貞 負 財 貢 貧 貨 販 貫 責 貯 貴 買 貸 費 貿 賀 賃 賄 資 賊 賓 賛 賜 賞 賠 賢 賦 質 購 贈 赤 赦 走 赴 起 超 越 趣 足 距 跡 路 跳 践 踊 踏 躍 身 車 軌 軍 軒 軟 転 軸 軽 較 載 輝 輩 輪 輸 轄 辛 辞 辱 農 辺 込 迅 迎 近 返 迫 迭 述 迷 追 退 送 逃 逆 透 逐 逓 途 通 逝 速 造 連 逮 週 進 逸 遂 遅 遇 遊 運 遍 過 道 達 違 遠 遣 適 遭 遮 遵 遷 選 遺 避 還 邦 邪 邸 郊 郎 郡 部 郭 郵 郷 都 酌 配 酒 酔 酢 酪 酬 酵 酷 酸 醜 醸 釈 里 重 野 量 金 針 釣 鈍 鈴 鉄 鉛 鉢 鉱 銀 銃 銅 銘 銭 鋭 鋳 鋼 錠 錬 錯 録 鍛 鎖 鎮
+      鏡 鐘 鑑 長 門 閉 開 閑 間 関 閣 閥 閲 闘 阪 防 阻 附 降 限 陛 院 陣 除 陥 陪 陰 陳 陵 陶 陸 険 陽 隅 隆 隊 階 随 隔 際 障 隠 隣 隷 隻 雄 雅 集 雇 雌 雑 離 難 雨 雪 雰 雲 零 雷 電 需 震 霊 霜 霧 露 青 静 非 面 革 靴 韓 音 韻 響 頂 頃 項 順 預 頑 頒 領 頬 頭 頻 頼 題 額 顔 顕 願 類 顧 風 飛 食 飢 飯 飲 飼 飽 飾 養 餓 館 首 香 馬 駄 駅 駆 駐 騎 騒 験 騰 驚 骨 髄 高 髪 鬼 魂 魅 魔 魚 鮮 鯨 鳥 鳴 鶏 鹿 麗 麦 麻 黄 黒 黙 鼓 鼻 齢
+    numerals: '% + - . 0 1 2 3 4 5 6 7 8 9 ‰'
+    punctuation: '! " # % & ( ) *  - . / : ; ? @ [ \ ] _ § ¶ ‐ — ― ‖ ‘ ’ “ ” † ‡ ‥ … ‰ ′ ″ ※ ‾ 、 。 〃 〈 〉 《 》 「 」 『 』 【 】 〔 〕 〜 ・ ！ ＂ ＃ ％ ＆ ＇ （ ） ＊ ， － ． ／ ： ； ？ ＠ ［ ＼ ］ ＿ ｛ ｝ ｡ ｢ ｣ ､ ･'
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 jpr:
   name: Judeo-Persian
   orthographies:
@@ -2581,6 +3429,17 @@ kam:
   speakers_date: 2009
   status: living
   validity: weak
+kan:
+  name: Kannada
+  orthographies:
+  - autonym: ಕನ್ನಡ
+    base: ಕ ಖ ಗ ಘ ಙ ಚ ಛ ಜ ಝ ಞ ಟ ಠ ಡ ಢ ಣ ತ ಥ ದ ಧ ನ ಪ ಫ ಬ ಭ ಮ ಯ ರ ಲ ವ ಶ ಷ ಸ ಹ ಳ ್ ಅ ಆ ಇ ಈ ಉ ಊ ಋ ೠ ಾ ೀ ು ೃ ೄ ಎ ಏ ಐ ಒ ಓ ಔ ಂ ಃ ೇ ೈ ೋ ೌ
+    numerals: ೧ ೨ ೩ ೪ ೫ ೬ ೭ ೮ ೯ ೦
+    script: Kannada
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 kap:
   name: Bezhta
   orthographies:
@@ -2594,6 +3453,33 @@ kap:
   speakers_date: 2006-2010
   status: living
   validity: verified
+kat:
+  name: Georgian
+  orthographies:
+  - autonym: ქართული
+    base: ა ბ გ დ ე ვ ზ თ ი კ ლ მ ნ ო პ ჟ რ ს ტ უ ფ ქ ღ ყ შ ჩ ც ძ წ ჭ ხ ჯ ჰ
+    script: Georgian
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
+kau:
+  includes:
+  - knc
+  - kby
+  - krt
+  - bms
+  - kbl
+  name: Kanuri
+  note: These are part of a dialect continuuum and therefore not necessary mutually inteligible.
+  orthographies:
+  - autonym: null
+    base: a b c d e ǝ f g h i j k l m n o p r ɍ s t u w y z
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 kaz:
   name: Kazakh
   orthographies:
@@ -2618,6 +3504,15 @@ kbd:
   speakers_date: 2005-2010
   status: living
   validity: weak
+kbp:
+  name: Kabiyè
+  orthographies:
+  - autonym: null
+    base: a b c d ɖ e ɛ f g h i ɩ j k l m n ŋ o ɔ p r s t u ʋ v w y ɤ z ` ´
+    script: Latin
+  source:
+  - Wikipedia
+  validity: done
 kca:
   name: Khanty
   orthographies:
@@ -2643,6 +3538,15 @@ kde:
   speakers_date: 2006
   status: living
   validity: verified
+kdh:
+  name: Tem
+  orthographies:
+  - autonym: Kotokoli
+    base: a b c d ɖ e ɛ f g h i ɩ j k l m n ŋ o ɔ p r s t u ʊ v w y z
+    script: Latin
+  source:
+  - Wikipedia
+  validity: done
 kdr:
   name: Karaim
   orthographies:
@@ -2707,6 +3611,16 @@ kgp:
   speakers_date: 1989
   status: living
   validity: verified
+kha:
+  name: Khasi
+  orthographies:
+  - autonym: Ka Ktien Khasi
+    base: a b k d e g h i ï j l m n ñ o p r s t u w y
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 khk:
   name: Halh Mongolian
   orthographies:
@@ -2720,6 +3634,16 @@ khk:
   speakers_date: 2014
   status: living
   validity: verified
+khm:
+  name: Khmer
+  orthographies:
+  - autonym: ភាសាខ្មែរ
+    base: ក ខ គ ឃ ង ច ឆ ជ ឈ ញ ដ ឋ ឌ ឍ ណ ត ថ ទ ធ ន ប ផ ព ភ ម យ រ ល វ ស ហ ឡ អ ឥ ឦ ឧ ឩ ឪ ឫ ឬ ឭ ឮ ឯ ឰ ឱ ឲ ឳ ា ិ ី ឹ ឺ ុ ូ ួ ើ ឿ ៀ េ ែ ៃ ោ ៅ ំ ះ ៈ ៉ ៊ ់ ៍ ័ ្
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 khq:
   name: Koyra Chiini Songhay
   orthographies:
@@ -2807,6 +3731,16 @@ kjj:
   speakers_date: 2007
   status: living
   validity: weak
+kkh:
+  name: Khün
+  orthographies:
+  - autonym: ᨴᩱ᩠ᨿᨡᩨ᩠ᨶ
+    base: ᨠ ᨡ ᩉ ᩠ ᨦ ᨧ ᨨ ᨬ ᨭ ᨣ ᨤ ᨥ ᨩ ᨫ ᨮ ᨲ ᨳ ᨶ ᨸ ᨹ ᨺ ᨰ ᨱ ᨴ ᨵ ᨻ ᨽ ᨼ ᨾ ᩃ ᩱ ᩁ ᩖ ᩅ ᩆ ᩇ ᨿ ᩓ ᩈ ᩔ ᨪ ᩌ ᩊ ᨯ ᨷ ᩀ ᩋ ᩣ ᩍ ᩎ ᩏ ᩐ ᩑ ᩒ ᩂ ᩄ
+    script: Tai Tham (Lanna)
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 kkj:
   name: Kako
   orthographies:
@@ -2845,6 +3779,16 @@ kln:
   speakers: 8561574
   status: living
   validity: weak
+kmb:
+  name: Kimbundu
+  orthographies:
+  - autonym: null
+    base: a b d e f h i j k l m n o p s t u v x z
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 kmr:
   name: Northern Kurdish
   orthographies:
@@ -2898,6 +3842,29 @@ kon:
   speakers_date: 1982-2012
   status: living
   validity: weak
+koo:
+  name: Konjo
+  orthographies:
+  - autonym: Olukonjo
+    base: a b d e f g h i ï k l m n o p r s t u ü v w y z
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
+kor:
+  name: Korean
+  orthographies:
+  - autonym: 한국어 / 조선말
+    auxiliary: 丘 串 乃 久 乖 九 乞 乫 乾 亂 亘 交 京 仇 今 介 件 价 企 伋 伎 伽 佳 佶 侃 來 侊 供 係 俓 俱 個 倞 倦 倨 假 偈 健 傀 傑 傾 僅 僑 價 儆 儉 儺 光 克 兢 內 公 共 其 具 兼 冀 冠 凱 刊 刮 券 刻 剋 剛 劇 劍 劒 功 加 劤 劫 勁 勍 勘 勤 勸 勻 勾 匡 匣 區 南 卦 却 卵 卷 卿 厥 去 及 口 句 叩 叫 可 各 吉 君 告 呱 呵 咎 咬 哥 哭 啓 喀 喇 喝 喫 喬 嗜 嘉 嘔 器 囊 困 固 圈 國 圭 圻 均 坎 坑 坤 坰 坵 垢 基 埼 堀 堅 堈 堪 堺 塊 塏 境 墾 壙 壞 夔 奇 奈 奎 契 奸 妓 妗 姑 姜 姦 娘 娜 嫁 嬌 孔 季 孤 宏 官 客 宮 家 寄 寇 寡 寬 尻 局 居 屆 屈 岐 岡 岬 崎 崑 崗 嵌 嵐 嶇 嶠 工 巧 巨 己 巾 干 幹 幾 庚 庫 康 廊 廐 廓 廣 建 弓 强 彊 徑 忌 急 怪 怯 恐 恝 恪 恭 悸 愆 感 愧 愷 愾 慊 慣 慤 慨 慶 慷 憩 憬 憾 懃 懇 懦 懶 懼 戈 戒 戟 戡 扱 技 抉 拉 拏 拐 拒 拘 括 拮 拱 拳 拷 拿 捏 据 捲 捺 掘 掛 控 揀 揆 揭 擊 擎 擒 據 擧 攪 攷 改 攻 故 敎 救 敢 敬 敲 斛 斤 旗 旣 昆 昑 景 晷 暇 暖 暠 暻 曠 曲 更 曷 朗 朞 期 机 杆 杞 杰 枏 果 枯 架 枸 柑 柩 柬 柯 校 根 格 桀 桂 桔 桿 梏 梗 械 梱 棄 棋 棍 棘 棨 棺 楗 楠 極 槁 構 槐 槨 槪 槻 槿 樂 橄 橋 橘 機 檄 檎 檢 櫃 欄 權 欺 款 歌 歐 歸 殼 毆 毬 氣 求 江 汨 汲 決 汽 沂 沽 洛 洸 浪 涇 淃 淇 減 渠 渴 湳 溝 溪 滑 滾 漑 潔 潰 澗 激 濫 灌 灸 炅 炚 炬 烙 烱 煖 爛 牽 犬 狂 狗 狡 狼 獗 玖 玘 珂 珏 珖 珙 珞 珪 球 琦 琨 琪 琯 琴 瑾 璂 璟 璣 璥 瓊 瓘 瓜 甄 甘 甲 男 畇 界 畸 畺 畿 疆 疥 疳 痂 痙 痼 癎 癩 癸 皆 皎 皐 盖 監 看 眷 睾 瞰 瞼 瞿 矜 矩 矯 硅 硬 碁 碣 磎 磬 磯 磵 祁 祇 祈 祛 祺 禁 禽 科 稈 稼 稽 稿 穀 究 穹 空 窘 窟 窮 窺 竅 竟 竭 競 竿 筋 筐 筠 箇 箕 箝 管
+      簡 粳 糠 系 糾 紀 納 紘 級 紺 絅 結 絞 給 絳 絹 絿 經 綱 綺 緊 繫 繭 繼 缺 罐 罫 羅 羈 羌 羔 群 羹 翹 考 耆 耉 耕 耭 耿 肌 肝 股 肩 肯 肱 胛 胱 脚 脛 腔 腱 膈 膏 膠 臘 臼 舅 舊 舡 艮 艱 芎 芥 芩 芹 苛 苟 苦 苽 茄 莖 菅 菊 菌 菓 菫 菰 落 葛 葵 蓋 蕎 蕨 薑 藁 藍 藿 蘭 蘿 虔 蚣 蛟 蝎 螺 蠟 蠱 街 衢 衲 衾 衿 袈 袞 袴 裙 裸 褐 襁 襟 襤 見 規 覡 覲 覺 觀 角 計 記 訣 訶 詭 誇 誡 誥 課 諫 諾 謙 講 謳 謹 譏 警 譴 谷 谿 豈 貢 貫 貴 賈 購 赳 起 跏 距 跨 踞 蹇 蹶 躬 軀 車 軌 軍 軻 較 輕 轎 轟 辜 近 迦 迲 适 逑 逕 逵 過 遣 遽 邏 那 邯 邱 郊 郎 郡 郭 酪 醵 金 鈐 鈞 鉀 鉅 鉗 鉤 銶 鋸 鋼 錡 錤 錦 錮 鍋 鍵 鎌 鎧 鏡 鑑 鑒 鑛 開 間 閘 閣 閨 闕 關 降 階 隔 隙 雇 難 鞏 鞠 鞨 鞫 頃 頸 顆 顧 飢 餃 館 饉 饋 饑 駒 駕 駱 騎 騏 騫 驅 驕 驚 驥 骨 高 鬼 魁 鮫 鯤 鯨 鱇 鳩 鵑 鵠 鷄 鷗 鸞 麒 麴 黔 鼓 龕 龜
+    base: ᄀ ᄁ ᄂ ᄃ ᄄ ᄅ ᄆ ᄇ ᄈ ᄉ ᄊ ᄋ ᄌ ㅉ ᄎ ᄏ ᄐ ᄑ ᄒ ᅡ ᅢ ᅣ ᅤ ᅥ ᅦ ᅧ ᅨ ᅩ ᅪ ᅫ ᅬ ᅭ ᅮ ᅯ ᅰ ᅱ ᅲ ᅳ ᅴ ᅵ
+    punctuation: '! " # % & ( ) *  - . / : ; ? @ [ \ ] _ ¡ § ¶ · ¿ ‐ — ― ‘ ’ “ ” † ‡ ‥ … ‰ ′ ″ ※ ‾ 、 。 〃 〈 〉 《 》 「 」 『 』 【 】 〔 〕 〜 ・ ！ ＂ ＃ ％ ＆ ＇ （ ） ＊ ， － ． ／ ： ； ？ ＠ ［ ＼ ］ ＿ ｛ ｝'
+    script: Hanja
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 kpt:
   name: Karata
   orthographies:
@@ -2934,6 +3901,27 @@ kpy:
   speakers_date: 2010
   status: living
   validity: weak
+kqn:
+  name: Kaonde
+  orthographies:
+  - autonym: kiiKaonde
+    base: a b c d e f g h i j k l m n ñ o p s t u v w y z
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: weak
+kqs:
+  name: Northern Kissi
+  note: Northern (kqs) and Southern Kissi (kss) are dialects of Kissi.
+  orthographies:
+  - autonym: null
+    base: a b c d e ɛ f g h i j k l m n o ɔ p s t u w y
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 krc:
   name: Karachay-Balkar
   orthographies:
@@ -2946,6 +3934,16 @@ krc:
   speakers_date: 2010
   status: living
   validity: weak
+kri:
+  name: Krio
+  orthographies:
+  - autonym: null
+    base: a b c d e ɛ f g h i j k l m n ŋ o ɔ p s t u v w y z
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 krl:
   name: Karelian
   orthographies:
@@ -2998,6 +3996,16 @@ ksh:
   speakers: 250000
   status: living
   validity: weak
+ktu:
+  name: Kituba (DRC)
+  orthographies:
+  - autonym: Kikongo ya leta
+    inherit: kon
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 kua:
   name: Kuanyama
   orthographies:
@@ -3022,6 +4030,29 @@ kum:
   speakers_date: 2010
   status: living
   validity: weak
+kwi:
+  name: Awa-Cuaiquer
+  orthographies:
+  - autonym: null
+    base: a ã c e ẽ i ĩ ɨ j k l m n ñ p r s t u ũ v w y z '
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
+lad:
+  name: Ladino
+  orthographies:
+  - autonym: djudeo-espanyol
+    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    script: Latin
+  - autonym: ג'ודיאו-איספאנייול
+    base: א ב ׳ ג ד ה ו ז ח ט י כ ך ל מ ם נ ן ס ע פ ף צ ץ ק ר ש ת
+    script: Hebrew
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 lag:
   name: Langi
   orthographies:
@@ -3034,6 +4065,17 @@ lag:
   speakers_date: 2007
   status: living
   validity: weak
+lao:
+  name: Lao
+  orthographies:
+  - autonym: ພາສາລາວ
+    base: ກ ຂ ຄ ງ ຈ ສ ຊ ຍ ດ ຕ ຖ ທ ນ ບ ປ ຜ ຝ ພ ຟ ມ ຢ ຣ ລ ວ ຫ ອ ຮ ◌ ະ ັ າ ິ ີ ຶ ື ຸ ູ ເ ແ ໂ ົ ໍ ຽ
+    numerals: ໐ ໑ ໒ ໓ ໔ ໕ ໖ ໗ ໘ ໙
+    script: Lao
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 lat:
   name: Latin
   orthographies:
@@ -3073,6 +4115,16 @@ lez:
   speakers_date: 2010
   status: living
   validity: weak
+lia:
+  name: West-Central Limba
+  orthographies:
+  - autonym: Hulimba
+    auxiliary: ñ ɔ
+    base: a b c d e ɛ f g h i j k l m n ň ŋ o ọ p q r s t u v w z
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 lij:
   name: Ligurian
   orthographies:
@@ -3151,6 +4203,44 @@ lmo:
   speakers_date: 2002
   status: living
   validity: weak
+lns:
+  name: Lamnso
+  orthographies:
+  - autonym: Lamnsɔ’
+    base: a b d e ə ɛ f g i j k l m n ŋ o ɔ s t u v w ɣ '
+    script: Latin
+  source:
+  - Wikipedia
+  validity: done
+lob:
+  name: Lobi
+  orthographies:
+  - autonym: null
+    base: a b ɓ c d e ɛ ǝ f g h i ɩ j k l m n o ɔ p r s t u ʋ v w y ƴ ʼ
+    script: Latin
+  source:
+  - Wikipedia
+  validity: done
+lot:
+  name: Otuho
+  orthographies:
+  - autonym: null
+    base: a b c d e ê f g h i j k l m n ŋ o ô p q r s t u û w y ʼ
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
+loz:
+  name: Lozi
+  orthographies:
+  - autonym: siLozi
+    base: a b c d e f g h i j k l m n ñ o p s t u w y z ʼ
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 ltg:
   name: Latgalian
   orthographies:
@@ -3202,6 +4292,12 @@ lub:
   speakers_date: 1991
   status: living
   validity: weak
+lue:
+  name: Luvale
+  orthographies:
+  - autonym: null
+    script: Latin
+  validity: todo
 lug:
   name: Ganda
   orthographies:
@@ -3216,6 +4312,12 @@ lug:
   speakers: 8200000
   status: living
   validity: verified
+lun:
+  name: Lunda
+  orthographies:
+  - autonym: null
+    script: Latin
+  validity: todo
 luo:
   name: Luo (Kenya and Tanzania)
   note: Alternative speaker count of 8000000 unconfirmed.
@@ -3231,6 +4333,16 @@ luo:
   speakers_date: 2009
   status: living
   validity: verified
+lus:
+  name: Mizo
+  orthographies:
+  - autonym: Mizo ṭawng
+    base: a b c d e f g h i j k l m n o p r s t ṭ u v z
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 lvs:
   name: Standard Latvian
   orthographies:
@@ -3244,6 +4356,83 @@ lvs:
   speakers_date: 2015
   status: living
   validity: weak
+mad:
+  name: Madurese
+  note: Latin is the most used nowadays.
+  orthographies:
+  - autonym: Madhurâ
+    base: a b c d ḍ e ɛ ə g i ɨ j ɟ k l m n ŋ o ɔ p r s t ṭ u ɤ w
+    script: Latin
+  - autonym: بَهاسَ مَدورا
+    base: ꦄ ꦆ ꦈ ꦌ ꦎ ꦼ ꦴ ꦲ ꦤ ꦕ ꦗ ꦫ ꦏ ꦒ ꦢ ꦠ ꦱ ꦮ ꦭ ꦥ ꦧ ꦣ ꦪ ꦚ ꦩ ꦛ ꦔ ꦃ
+    script: Javanese
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
+mag:
+  name: Magahi
+  orthographies:
+  - autonym: मगही
+    base: अ आ इ ई उ ऊ ए ऐ ओ औ ँ प ा ि ी ु ू े ै ो ौ क ख ग घ ङ च छ ज झ ञ ट ठ ड ़ ढ ण त थ द ध न फ ब भ म य र ल व श ष स ह
+    script: Devanagari
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
+mah:
+  name: Marshallese
+  orthographies:
+  - autonym: Kajin M̧ajeļ
+    base: a ā b d e i j k l ḷ m n ņ o ō p r t u ū w ¸
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
+mai:
+  name: Maithili
+  orthographies:
+  - autonym: मैथिली
+    base: ँ ं ः अ आ इ ई उ ऊ ऋ ऌ ऍ ए ऐ ऑ ओ औ क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र ऱ ल ळ व श ष स ह ऽ ा ि ी ु ू ृ ॄ ॅ े ै ॉ ो ौ ् ॐ
+    numerals: ० १ २ ३ ४ ५ ६ ७ ८ ९
+    script: Devanagari
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
+mal:
+  name: Malayalam
+  orthographies:
+  - autonym: മലയാളം
+    base: ം ഃ അ ആ ഇ ഈ ഉ ഊ ഋ ഌ എ ഏ ഐ ഒ ഓ ഔ ക ഖ ഗ ഘ ങ ച ഛ ജ ഝ ഞ ട ഠ ഡ ഢ ണ ത ഥ ദ ധ ന പ ഫ ബ ഭ മ യ ര റ ല ള ഴ വ ശ ഷ സ ഹ ി ീ ു ൂ ൃ ൈ ൊ ോ ൌ ് ൠ ൡ ൺ ൻ ർ ൽ ൾ ൿ
+    numerals: ൦ ൧ ൨ ൩ ൪ ൫ ൬ ൭ ൮ ൯
+    script: Malayalam
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
+mam:
+  name: Mam
+  orthographies:
+  - autonym: Qyol Mam
+    base: a b c e i j k l m n o p q r s t u w x ẍ y '
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
+mar:
+  name: Marathi
+  orthographies:
+  - autonym: मराठी
+    base: क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र ल व श ष स ह ळ ् अ आ इ ई उ ऊ ए ऐ ओ औ ं ः ॲ ऑ ा ि ी ु ू े ै ो ौ ॅ ॉ
+    numerals: ० १ २ ३ ४ ५ ६ ७
+    script: Balbodh
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 mas:
   name: Masai
   orthographies:
@@ -3256,6 +4445,37 @@ mas:
   speakers_date: 2009-2016
   status: living
   validity: weak
+maz:
+  name: Central Mazahua
+  orthographies:
+  - autonym: Jñatrjo
+    base: a b c d e g h i j l m n ñ o p r s t u v x z ' ̱ ⱥ ɇ ̵ ʉ
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
+mcd:
+  name: Sharanahua
+  note: Although it has a ISO 639-3 code it's a Yaminawa dialect.
+  orthographies:
+  - autonym: Yaminahua
+    base: a b c d e f i k m n o p r s t w x y ã ẽ ĩ ï ɨ õ č š
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
+mcf:
+  name: Matsés
+  orthographies:
+  - autonym: null
+    base: a b c e g h i j l m n o p q r s t u y ' ā ē ī ō ū
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 mdf:
   name: Moksha
   orthographies:
@@ -3269,6 +4489,16 @@ mdf:
   speakers_date: 2010
   status: living
   validity: verified
+men:
+  name: Mende (Sierra Leone)
+  orthographies:
+  - autonym: Mɛnde yia
+    base: a b d e ɛ f g h i j k l m n o ɔ p s t u v w y
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 mer:
   name: Meru
   note: Alternative speaker count of 2300000 unconfirmed.
@@ -3301,6 +4531,15 @@ mfe:
   speakers_date: 2016
   status: living
   validity: verified
+mfq:
+  name: Moba
+  orthographies:
+  - autonym: null
+    base: a ã b c d e ẽ ɛ f g h i ĩ ɩ j k l m n ŋ o õ ɔ p s t r u v w y
+    script: Latin
+  source:
+  - Wikipedia
+  validity: weak
 mgh:
   name: Makhuwa-Meetto
   orthographies:
@@ -3340,6 +4579,31 @@ mhr:
   speakers_date: 2012
   status: living
   validity: verified
+mic:
+  name: Mi'kmaq
+  orthographies:
+  - autonym: Míkmawísimk
+    base: a e i j k l m n o p q s t u w y ' á é í ɨ ó ú
+min:
+  name: Minangkabau
+  orthographies:
+  - autonym: Baso Minangkabau
+    base: a b c d e f g h i j k l m n o p q r s t u w y ē ñ
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
+miq:
+  name: Miskito
+  orthographies:
+  - autonym: Mískitu
+    base: a b d h i j k l m n o p r s t u w z â î
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 mkd:
   name: Macedonian
   orthographies:
@@ -3409,6 +4673,16 @@ mns:
   speakers_date: 2010
   status: living
   validity: weak
+mnw:
+  name: Mon
+  orthographies:
+  - autonym: ဘာသာ မန်
+    base: က ခ ဂ ဃ င စ ဆ ဇ ဈ ဉ ည ဋ ဌ ဍ ဎ ဏ တ ထ ဒ ဓ န ပ ဖ ဗ ဘ မ ယ ရ လ ဝ သ ဟ ဠ အ ဢ ဣ ဤ ဥ ဦ ဧ ဨ ဩ ဪ ါ ာ ိ ု ူ ေ ဲ ဳ ဴ ဵ ံ ့ း ္ ် ျ ြ ွ ှ ဿ ၀ ၁ ၂ ၃ ၄ ၅ ၆ ၇ ၈ ၉ ၊ ။ ၌ ၍ ၎ ၏ ၐ ၑ ၒ ၓ ၔ ၕ ၖ ၗ ၘ ၙ ၚ ၛ ၜ ၝ ၞ ၟ ၠ ၡ ၢ ၣ ၤ ၥ ၦ ၧ ၨ ၩ ၪ ၫ ၬ ၭ ၮ ၯ ၰ ၱ ၲ ၳ ၴ ၵ ၶ ၷ ၸ ၹ ၺ ၻ ၼ ၽ ၾ ၿ ႀ ႁ ႂ ႃ ႄ ႅ ႆ ႇ ႈ ႉ ႊ ႋ ႌ ႍ ႎ ႏ ႐ ႑ ႒ ႓ ႔ ႕ ႖ ႗ ႘ ႙ ႚ ႛ ႜ ႝ ႞ ႟
+    script: Mon-Burmese
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 moe:
   name: Montagnais
   orthographies:
@@ -3434,6 +4708,16 @@ moh:
   speakers_date: 2011-2016
   status: living
   validity: verified
+mos:
+  name: Mossi
+  orthographies:
+  - autonym: null
+    base: a b d e ɛ f g h i ɩ l m n o p r s t u v ʋ w y z '
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 mqm:
   name: South Marquesan
   note: The number of speakers is estimate, a half of total Marquesan language speakers (8700).
@@ -3484,6 +4768,15 @@ mrq:
   speakers: 4350
   speakers_date: 2007
   status: living
+  validity: weak
+mto:
+  name: Totontepec Mixe
+  orthographies:
+  - autonym: null
+    base: a ̱ c h d e g i j m n o p q s t u v x y
+    script: Latin
+  source:
+  - Wikipedia
   validity: weak
 mua:
   name: Mundang
@@ -3562,6 +4855,26 @@ mwp:
   speakers_date: 2016
   status: living
   validity: verified
+mxv:
+  name: Metlatónic Mixtec
+  orthographies:
+  - autonym: null
+    base: a c d e g i ɨ j k l m n ñ o p r s t u v x y '
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
+mya:
+  name: Burmese
+  orthographies:
+  - autonym: မြန်မာစာ (written) / မြန်မာစကား (spoken)
+    base: က ခ ဂ ဃ င စ ဆ ဇ ဈ ဉ ည ဋ ဌ ဍ ဎ ဏ တ ထ ဒ ဓ န ပ ဖ ဗ ဘ မ ယ ရ လ ဝ သ ဣ ဤ ဥ ဦ ဧ ဩ ဪ ျ ြ ွ ှ ် ္ ့ ာ ◌ း ေ ဲ ု ူ ိ ံ ၖ ၗ ါ
+    script: Burmese
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 myv:
   name: Erzya
   orthographies:
@@ -3575,6 +4888,16 @@ myv:
   speakers_date: 2010
   status: living
   validity: verified
+mzi:
+  name: Ixcatlán Mazatec
+  orthographies:
+  - autonym: null
+    base: a b c e f i j k l m n o p r s t u x y z '
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 nag:
   name: Naga Pidgin
   orthographies:
@@ -3588,6 +4911,15 @@ nag:
   speakers_date: 1989
   status: living
   validity: verified
+nan:
+  name: Min Nan Chinese
+  orthographies:
+  - autonym: 閩南語
+    inherit: cmn
+    script: Chinese
+  source:
+  - Wikipedia
+  validity: weak
 nap:
   name: Neapolitan
   orthographies:
@@ -3616,6 +4948,25 @@ naq:
   speakers_date: 2011
   status: living
   validity: verified
+nav:
+  name: Navajo
+  orthographies:
+  - autonym: Diné Bizaad
+    base: a ą b c d e ę g h i į j k l ł m n o ǫ s t w x y z ' ´
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
+nba:
+  name: Nyemba
+  orthographies:
+  - autonym: null
+    base: a b d e ɛ f g h i j k l m n ŋ o ɔ p s t u w z ` ´
+    script: Latin
+  source:
+  - Wikipedia
+  validity: done
 nbl:
   name: South Ndebele
   orthographies:
@@ -3642,6 +4993,16 @@ nde:
   speakers_date: 2012
   status: living
   validity: verified
+ndo:
+  name: Ndonga
+  orthographies:
+  - autonym: null
+    base: a b d e f g h i j k l m n o p r s t u v w y z
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 nds:
   name: Low German
   orthographies:
@@ -3710,6 +5071,24 @@ niv:
   speakers_date: 2010
   status: living
   validity: verified
+njo:
+  name: Ao Naga
+  orthographies:
+  - autonym: null
+    base: a b c e i j k l m n o p r s t u y z
+    script: Latin
+  source:
+  - Wikipedia
+  validity: weak
+nku:
+  name: Bouna Kulango
+  orthographies:
+  - autonym: null
+    base: a b c d e ɛ f g h i j k l m n ŋ o ɔ p q r s t u v w x y z ɣ ˜ ˆ
+    script: Latin
+  source:
+  - Wikipedia
+  validity: weak
 nld:
   name: Dutch
   orthographies:
@@ -3792,6 +5171,16 @@ nor:
   speakers_date: 2012
   status: living
   validity: verified
+not:
+  name: Nomatsiguenga
+  orthographies:
+  - autonym: inato
+    base: a b c e ë g i j m n o p q r s t y
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 nov:
   name: Novial
   orthographies:
@@ -3840,6 +5229,15 @@ nya:
   speakers_date: 2007
   status: living
   validity: weak
+nym:
+  name: Nyamwezi
+  orthographies:
+  - autonym: null
+    base: a b d e ɛ f g h i j l m n ŋ o ɔ p s t u v w z
+    script: Latin
+  source:
+  - Wikipedia
+  validity: done
 nyn:
   name: Nyankole
   orthographies:
@@ -3853,6 +5251,16 @@ nyn:
   speakers_date: 2014
   status: living
   validity: verified
+nzi:
+  name: Nzima
+  orthographies:
+  - autonym: null
+    base: a b d e ɛ f g h i k l m n o ɔ p r s t u v w y z
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 oaa:
   name: Orok
   orthographies:
