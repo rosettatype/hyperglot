@@ -7159,6 +7159,16 @@ ulk:
   speakers_date: 2016
   status: living
   validity: weak
+umb:
+  name: Umbundu
+  orthographies:
+  - autonym: Úmbúndú
+    base: a b c d e f g h i j k l m n o p r s t u v w y ã ẽ õ ũ
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 umu:
   name: Munsee
   orthographies:
@@ -7172,6 +7182,16 @@ umu:
   speakers_date: 2018
   status: living
   validity: weak
+ura:
+  name: Urarina
+  orthographies:
+  - autonym: Itucale
+    base: a b c d e f i k l m n o p r s y
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 urd:
   name: Urdu
   note: Initial, medial, and final forms of the letters and some ligatures are also required.
@@ -7233,6 +7253,17 @@ uzs:
   speakers_date: 2017
   status: living
   validity: todo
+vai:
+  name: Vai
+  orthographies:
+  - autonym: ꕙꔤ
+    base: ꔀ ꔁ ꔂ ꔃ ꔄ ꔅ ꔆ ꔇ ꔈ ꔉ ꔊ ꔋ ꔌ ꔍ ꔎ ꔏ ꔐ ꔑ ꔒ ꔓ ꔔ ꔕ ꔖ ꔗ ꔘ ꔙ ꔚ ꔛ ꔜ ꔝ ꔞ ꔟ ꔠ ꔡ ꔢ ꔣ ꔤ ꔥ ꔦ ꔧ ꔨ ꔩ ꔪ ꔫ ꔬ ꔭ ꔮ ꔯ ꔰ ꔱ ꔲ ꔳ ꔴ ꔵ ꔶ ꔷ ꔸ ꔹ ꔺ ꔻ ꔼ ꔽ ꔾ ꔿ ꕀ ꕁ ꕂ ꕃ ꕄ ꕅ ꕆ ꕇ ꕈ ꕉ ꕊ ꕋ ꕌ ꕍ ꕎ ꕏ ꕐ ꕑ ꕒ ꕓ ꕔ ꕕ ꕖ ꕗ ꕘ ꕙ ꕚ ꕛ ꕜ ꕝ ꕞ ꕟ ꕠ ꕡ ꕢ ꕣ ꕤ ꕥ ꕦ ꕧ ꕨ ꕩ ꕪ ꕫ ꕬ ꕭ ꕮ ꕯ ꕰ ꕱ ꕲ ꕳ ꕴ ꕵ ꕶ ꕷ ꕸ ꕹ ꕺ ꕻ ꕼ ꕽ ꕾ ꕿ ꖀ ꖁ ꖂ ꖃ ꖄ ꖅ ꖆ ꖇ ꖈ ꖉ ꖊ ꖋ ꖌ ꖍ ꖎ ꖏ ꖐ ꖑ ꖒ ꖓ ꖔ ꖕ ꖖ ꖗ ꖘ ꖙ ꖚ ꖛ ꖜ ꖝ ꖞ ꖟ ꖠ ꖡ ꖢ ꖣ ꖤ ꖥ ꖦ ꖧ ꖨ ꖩ ꖪ ꖫ ꖬ ꖭ ꖮ ꖯ ꖰ ꖱ ꖲ ꖳ ꖴ ꖵ ꖶ ꖷ ꖸ ꖹ ꖺ ꖻ ꖼ ꖽ ꖾ ꖿ ꗀ ꗁ ꗂ ꗃ ꗄ ꗅ ꗆ ꗇ ꗈ ꗉ ꗊ ꗋ ꗌ ꗍ ꗎ ꗏ ꗐ ꗑ ꗒ ꗓ ꗔ ꗕ ꗖ ꗗ ꗘ ꗙ ꗚ ꗛ ꗜ ꗝ ꗞ ꗟ ꗠ ꗡ ꗢ ꗣ ꗤ ꗥ ꗦ ꗧ ꗨ ꗩ ꗪ ꗫ ꗬ ꗭ ꗮ ꗯ ꗰ ꗱ ꗲ ꗳ ꗴ ꗵ ꗶ ꗷ ꗸ ꗹ ꗺ ꗻ ꗼ ꗽ ꗾ ꗿ ꘀ ꘁ ꘂ ꘃ ꘄ ꘅ ꘆ ꘇ ꘈ ꘉ ꘊ ꘋ ꘌ ꘍ ꘎ ꘏ ꘐ ꘑ ꘒ ꘓ ꘔ ꘕ ꘖ ꘗ ꘘ ꘙ ꘚ ꘛ ꘜ ꘝ ꘞ ꘟ ꘠ ꘡ ꘢ ꘣ ꘤ ꘥ ꘦ ꘧ ꘨ ꘩ ꘪ ꘫ
+    script: Vai
+  source:
+  - Omniglot
+  - Wikipedia
+  - CLDR
+  validity: done
 vec:
   name: Venetian
   orthographies:
@@ -7246,6 +7277,16 @@ vec:
   speakers_date: 2002
   status: living
   validity: verified
+ven:
+  name: Venda
+  orthographies:
+  - autonym: Tshivenḓa
+    base: a b d ḓ e f g h i k l ḽ m n ṋ ṅ o p r s t ṱ u v w x y z
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 vep:
   name: Veps
   orthographies:
@@ -7459,6 +7500,25 @@ wss:
   speakers_date: 2013
   status: living
   validity: verified
+wuu:
+  name: Wu Chinese
+  orthographies:
+  - autonym: 吴语
+    inherit: cmn
+    script: Chinese
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
+wwa:
+  name: Waama
+  orthographies:
+  - autonym: Yoabu
+    base: a b c d e ɛ f i k m n ŋ o ɔ p r s t u w y
+    script: Latin
+  source:
+  - Wikipedia
+  validity: weak
 wyb:
   name: Wangaaybuwan-Ngiyambaa
   orthographies:
@@ -7535,6 +7595,25 @@ xrg:
   speakers_date: 2007-2016
   status: living
   validity: verified
+xsm:
+  name: Kasem
+  orthographies:
+  - autonym: kasɩm
+    base: a ǝ b c d e ɛ f g h i ɩ j k l m n ŋ o ɔ p r s t u ʋ v w y z
+    script: Latin
+  source:
+  - Wikipedia
+  validity: done
+yad:
+  name: Yagua
+  orthographies:
+  - autonym: Nijyamïï Nikyejaada
+    base: a č e h i ɨ k m n o p r s t u w y
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 yai:
   name: Yagnobi
   orthographies:
@@ -7548,6 +7627,16 @@ yai:
   speakers_date: 2004
   status: living
   validity: verified
+yao:
+  name: Yao
+  orthographies:
+  - autonym: chiYao
+    base: a b c d e g i j k l m n o p s t u w ŵ y
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 yap:
   name: Yapese
   orthographies:
@@ -7656,6 +7745,26 @@ yrk:
   speakers_date: 2010
   status: living
   validity: verified
+yua:
+  name: Yucateco
+  orthographies:
+  - autonym: Màaya t'àan
+    base: a b c d e i j k l m n o p r s t u w x y '
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
+yue:
+  name: Yue
+  orthographies:
+  - autonym: 粵語 / 粤语
+    inherit: cmn
+    script: Chinese
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 yux:
   name: Southern Yukaghir
   orthographies:
@@ -7739,6 +7848,33 @@ zap:
   speakers_date: 2010
   status: living
   validity: verified
+zdj:
+  name: Ngazidja Comorian
+  orthographies:
+  - autonym: شِكُمُرِ
+    base: ح چ ج ث ت ّ پ ب ا س ز ر ذ د خ ڠ غ ع ظ ط ض ص ش ن م ل ڬ ك ق ڤ ڢ ف ُ ِ َ ي و ه
+    script: Arabic
+  - autonym: Shikomori
+    base: a b c d e f g h i j k l m n o p r s t u v w y z
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
+zgh:
+  name: Standard Moroccan Tamazight
+  orthographies:
+  - autonym: ⵜⴰⵎⴰⵣⵉⵖⵜ
+    base: ⴰ ⴱ ⴳ ⵯ ⴷ ⴹ ⴻ ⴼ ⴽ ⵀ ⵃ ⵄ ⵅ ⵇ ⵉ ⵊ ⵍ ⵎ ⵏ ⵓ ⵔ ⵕ ⵖ ⵙ ⵚ ⵛ ⵜ ⵟ ⵡ ⵢ ⵣ ⵥ ⴲ ⴴ ⴵ ⴶ ⴸ ⴺ ⴾ ⴿ ⵁ ⵂ ⵆ ⵈ ⵋ ⵌ ⵐ ⵑ ⵒ ⵗ ⵘ ⵝ ⵞ ⵤ ⵦ ⵧ
+    script: Tifinagh
+  - autonym: Tamaziɣt
+    base: a b g d ḍ e f k h ḥ x q i j l m n u r ṛ s ṣ c t ṭ w z ẓ
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  - CLDR
+  validity: done
 zlm:
   name: Malay (individual language)
   orthographies:
@@ -7752,6 +7888,16 @@ zlm:
   speakers_date: 2007
   status: living
   validity: weak
+zro:
+  name: Záparo
+  orthographies:
+  - autonym: Záparo
+    base: a c e i j k m n p r s t u w y '
+    script: Latin
+  source:
+  - Omniglot
+  - Wikipedia
+  validity: done
 zsm:
   name: Standard Malay
   orthographies:
