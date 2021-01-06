@@ -6,3 +6,4 @@ data/speakeasy/
 tools/udhr/
 *.egg-info
 *.egg
+venv

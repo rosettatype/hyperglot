@@ -62,17 +62,17 @@ def check_types(Langs):
                         for i, c in enumerate(chars):
                             if unicodedata2.category(c).startswith("Z"):
                                 log.error("'%s' has invalid whitespace "
-                                              "characters '%s' at %d" %
-                                              (iso, unicodedata2.name(c), i))
+                                          "characters '%s' at %d" %
+                                          (iso, unicodedata2.name(c), i))
 
                     if not check_is_valid_glyph_string(o["base"]):
                         log.error("'%s' has invalid 'base' glyph list"
-                                      % iso)
+                                  % iso)
 
                 if "auxiliary" in o:
                     if not check_is_valid_glyph_string(o["auxiliary"]):
                         log.error("'%s' has invalid 'auxiliary' glyph list"
-                                      % iso)
+                                  % iso)
 
         if "name" not in lang and "preferred_name" not in lang:
             log.error("'%s' has neither 'name' nor 'preferred_name'" % iso)
@@ -80,7 +80,7 @@ def check_types(Langs):
         if "name" in lang and "preferred_name" in lang and \
                 lang["name"] == lang["preferred_name"]:
             log.error("'%s' has 'name' and 'preferred_name', but they are "
-                          "identical" % iso)
+                      "identical" % iso)
 
         if "status" in lang and lang["status"] not in STATUSES:
             log.error("'%s' has an invalid 'status'" % iso)
@@ -116,7 +116,7 @@ def check_is_valid_glyph_string(glyphs):
     pruned, removed = prune_superflous_marks(glyphs)
     if len(removed) > 0:
         log.error("Superflous marks that are implicitly extracted via "
-                      "decomposition: '%s'" % "','".join(removed))
+                  "decomposition: '%s'" % "','".join(removed))
         return False
 
     return True
@@ -151,7 +151,7 @@ def check_names(Langs):
             for o in lang["orthographies"]:
                 if "base" not in o and "inherit" not in o:
                     log.error("'%s' has an orthography which is missing a "
-                                  "'base' attribute" % iso)
+                              "'base' attribute" % iso)
                     continue
 
                 if "autonym" not in o:
@@ -164,18 +164,17 @@ def check_names(Langs):
                 if "inherit" in o:
                     if not check_inheritted(o["inherit"], o["script"], Langs):
                         log.error("'%s' has an orthography which inherits "
-                                      "from '%s', but that is not a valid or "
-                                      "existing language" %
-                                      (iso, o["inherit"]))
+                                  "from '%s', but that is not a valid or "
+                                  "existing language" %
+                                  (iso, o["inherit"]))
                     continue
-
                 autonym_ok, chars, missing = check_autonym_spelling(o)
                 if not autonym_ok:
                     log.error("'%s' has invalid autonym '%s' which cannot "
-                                  "be spelled with that orthography's charset "
-                                  "'%s' - missing '%s'"
-                                  % (iso, o["autonym"], "".join(chars),
-                                     "".join(missing)))
+                              "be spelled with that orthography's charset "
+                              "(base + auxiliary) '%s' - missing '%s'"
+                              % (iso, o["autonym"], "".join(chars),
+                                 "".join(missing)))
 
         if iso not in iso_data.keys():
             log.error("'%s' not found in iso data" % iso)
@@ -183,18 +182,18 @@ def check_names(Langs):
             if "names" in iso_data[iso]:
                 if lang["name"] not in iso_data[iso]["names"]:
                     log.warning("'%s' name ('%s') not found in iso data "
-                                    "('%s')"
-                                    % (iso, lang["name"],
-                                       ", ".join(iso_data[iso]["names"])))
+                                "('%s')"
+                                % (iso, lang["name"],
+                                   ", ".join(iso_data[iso]["names"])))
             else:
                 log.warning("'%s' has no 'names' attribute in iso data"
-                                % iso)
+                            % iso)
 
 
 def check_inheritted(iso, script, Langs):
     if len(iso) != 3:
         log.warning("'%s' not a valid 3-letter iso code to inherit from" %
-                        iso)
+                    iso)
         return False
     if iso not in Langs.keys():
         log.warning("'%s' not found in database" % iso)
@@ -223,12 +222,12 @@ def check_macrolanguages(Langs):
             if "macrolanguage" in name:
                 if iso not in Langs.keys():
                     log.info("'%s' is marked as macrolanguage in iso "
-                                 "data, but does not exist in hyperglot "
-                                 "data" % iso)
+                             "data, but does not exist in hyperglot "
+                             "data" % iso)
                     continue
                 if not check_includes(Langs[iso]):
                     log.error("'%s' is marked as macrolanguage in the iso "
-                                  "data, but has no 'includes'." % iso)
+                              "data, but has no 'includes'." % iso)
 
     for iso, lang in Langs.items():
         if "includes" in lang:
@@ -236,14 +235,14 @@ def check_macrolanguages(Langs):
             # individual language
             if "preferred_as_individual" not in lang:
                 continue
-            
+
             if lang["preferred_as_individual"] is True:
                 continue
 
             for i in lang["includes"]:
                 if i not in Langs.keys():
-                    log.error("'%s' includes language '%s' but it was "
-                                "missing from the data" % (iso, i))
+                    logging.error("'%s' includes language '%s' but it was "
+                                  "missing from the data" % (iso, i))
 
 
 def check_includes(lang):
@@ -260,23 +259,20 @@ def check_includes(lang):
 
 
 def check_autonym_spelling(ort):
-    chars = ort["base"]
+    chars = parse_chars(ort["base"])
     if "auxiliary" in ort:
-        chars = set(list(chars) + list(ort["auxiliary"]))
-
-    # It is implied, but force unique to be sure
+        chars = chars + parse_chars(ort["auxiliary"])
     chars = set(chars)
 
-    # Use the autonym in lowercase and without any "non-word" marks (hyphens,
-    # apostrophes, etc.)
-    ignore_punctuation = re.compile("|".join(["\W", "ʼ", "ʻ"]))  # noqa
+    # Use lowercase no non-word-chars version of autonym
     autonym = ort["autonym"].lower()
-    autonym = ignore_punctuation.sub("", autonym)
+    autonym = re.sub(r"\W", "", autonym)
+    autonym_chars = parse_chars(autonym)
+    autonym_chars = set(autonym_chars)
 
-    autonym = set(autonym)
-    missing = list(autonym.difference(chars))
+    missing = list(autonym_chars.difference(chars))
 
-    return autonym.issubset(chars), list(chars), missing
+    return autonym_chars.issubset(chars), list(chars), missing
 
 
 def validate():
