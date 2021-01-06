@@ -2,6 +2,8 @@ import logging
 from .parse import parse_chars
 from . import SUPPORTLEVELS
 
+log = logging.getLogger(__name__)
+
 
 class Language(dict):
     """
@@ -24,7 +26,7 @@ class Language(dict):
         self.iso = iso
 
     def __repr__(self):
-        return self.get_name()
+        return "Language object '%s'" % self.get_name()
 
     # TODO this should return all orthographies for a script, not the first it
     # hits
@@ -155,8 +157,8 @@ class Language(dict):
             return support
 
         if level not in SUPPORTLEVELS.keys():
-            logging.warning("Provided support level '%s' not valid, "
-                            "defaulting to 'base'" % level)
+            log.warning("Provided support level '%s' not valid, "
+                        "defaulting to 'base'" % level)
             level = "base"
 
         pruned = []
@@ -166,13 +168,13 @@ class Language(dict):
         for ort in self["orthographies"]:
             supported = False
             if "script" not in ort:
-                logging.warning("Skipping an orthography in language '%s',"
-                                " because it has no 'script'" % self.iso)
+                log.warning("Skipping an orthography in language '%s',"
+                            " because it has no 'script'" % self.iso)
                 continue
 
             if self.is_secondary(ort) or self.is_deprecated(ort):
-                logging.info("Skipping orthography in '%s' because it is "
-                             "deprecated or secondary" % self.iso)
+                log.info("Skipping orthography in '%s' because it is "
+                         "deprecated or secondary" % self.iso)
 
             # Any support check needs 'base'
             if "base" in ort:

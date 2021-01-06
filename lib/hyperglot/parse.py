@@ -2,6 +2,9 @@ import unicodedata2
 import logging
 from fontTools.ttLib import TTFont
 
+log = logging.getLogger(__name__)
+log.setLevel(logging.INFO)
+
 
 def list_unique(li):
     """
@@ -87,14 +90,14 @@ def parse_chars(characters, decompose=True, retainDecomposed=False):
                     try:
                         unique_chars.append(chr(int(unihexstr, 16)))
                     except Exception as e:
-                        logging.error("Error getting glyph from decomposition "
+                        log.error("Error getting glyph from decomposition "
                                       "part '%s' of '%s' (decomposition '%s'):"
                                       " %s" % (unihexstr, c, decomposition, e))
 
         unique_chars = list_unique(unique_chars)
         return unique_chars
     except Exception as e:
-        logging.error("Error parsing characters '%s': %s" % (characters, e))
+        log.error("Error parsing characters '%s': %s" % (characters, e))
 
     return unique_chars
 

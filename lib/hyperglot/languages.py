@@ -7,6 +7,9 @@ from .parse import parse_chars
 from .language import Language
 from . import DB, VALIDITYLEVELS, SUPPORTLEVELS
 
+log = logging.getLogger(__name__)
+log.setLevel(logging.WARNING)
+
 
 class Languages(dict):
     """
@@ -31,6 +34,9 @@ class Languages(dict):
                 # sets; this will decompose and remove precomposed chars
                 self.prune_chars()
 
+    def __repr__(self):
+        return "Languages DB dict with '%d' languages" % len(self.keys())
+
     def prune_chars(self):
         """
         A helper to parse all orthographies' charsets in all languages. This
@@ -53,9 +59,9 @@ class Languages(dict):
         for iso, lang in self.items():
             if "preferred_as_individual" in lang:
                 if "orthographies" not in lang:
-                    logging.warning("'%s' cannot be treated as individual, "
-                                    "because it does not have orthographies"
-                                    % iso)
+                    log.warning("'%s' cannot be treated as individual, "
+                                "because it does not have orthographies"
+                                % iso)
                     continue
 
                 if "includes" not in lang:
@@ -81,20 +87,20 @@ class Languages(dict):
                     if "inherit" in o and "script" in o:
                         parent_iso = o["inherit"]
                         if len(parent_iso) != 3:
-                            logging.warning("'%s' failed to inherit "
-                                            "orthography — not a language iso "
-                                            "code" % iso)
+                            log.warning("'%s' failed to inherit "
+                                        "orthography — not a language iso "
+                                        "code" % iso)
                             continue
                         if parent_iso not in self:
-                            logging.warning("'%s' inherits an orthography from"
-                                            " '%s', but no such language was "
-                                            "found" % (iso, parent_iso))
+                            log.warning("'%s' inherits an orthography from"
+                                        " '%s', but no such language was "
+                                        "found" % (iso, parent_iso))
                             continue
                         ref = Language(self[parent_iso], parent_iso)
                         ort = ref.get_orthography(o["script"])
                         if ort:
-                            logging.debug("'%s' inheriting orthography from "
-                                          "'%s'" % (iso, parent_iso))
+                            log.debug("'%s' inheriting orthography from "
+                                      "'%s'" % (iso, parent_iso))
                             # Copy all the attributes we want to inherit
                             for attr in ["base", "auxiliary", "combinations",
                                          "numerals", "status"]:
@@ -119,12 +125,12 @@ class Languages(dict):
 
                 for iso, m in macrolanguages.items():
                     if lang in m["includes"] and "orthographies" in m:
-                        logging.debug("Inheriting macrolanguage '%s' "
-                                      "orthographies to language '%s'"
-                                      % (iso, lang))
-                        # Make an explicit copy to keep the two languages
-                        # separate
-                        self[lang]["orthographies"] = m["orthographies"].copy()
+                        log.debug("Inheriting macrolanguage '%s' "
+                                "orthographies to language '%s'"
+                                % (iso, lang))
+        # Make an explicit copy to keep the two languages
+        # separate
+        self[lang]["orthographies"] = m["orthographies"].copy()
 
     def get_support_from_chars(self, chars,
                                supportlevel=list(SUPPORTLEVELS.keys())[0],
@@ -140,29 +146,29 @@ class Languages(dict):
             l = Language(self[lang], lang)  # noqa, let's keep l short
 
             if "validity" not in l:
-                logging.info("Skipping langauge '%s' which is missing "
-                             "'validity'" % lang)
+                log.info("Skipping langauge '%s' which is missing "
+                         "'validity'" % lang)
                 continue
 
             # Skip languages below the currently selected validity level
             if VALIDITYLEVELS.index(l["validity"]) < \
                     VALIDITYLEVELS.index(validity):
-                logging.info("Skipping language '%s' which has lower "
-                             "'validity'" % lang)
+                log.info("Skipping language '%s' which has lower "
+                         "'validity'" % lang)
                 continue
 
             if includeHistorical and l.is_historical():
-                logging.info("Including historical language '%s'" %
-                             l.get_name())
+                log.info("Including historical language '%s'" %
+                         l.get_name())
             elif includeHistorical is False and l.is_historical():
-                logging.info("Skipping historical language '%s'" % lang)
+                log.info("Skipping historical language '%s'" % lang)
                 continue
 
             if includeConstructed and l.is_constructed():
-                logging.info("Including constructed language '%s'" %
-                             l.get_name())
+                log.info("Including constructed language '%s'" %
+                         l.get_name())
             elif includeConstructed is False and l.is_constructed():
-                logging.info("Skipping constructed language '%s'" % lang)
+                log.info("Skipping constructed language '%s'" % lang)
                 continue
 
             # Do the support check on the Language level, and with the prune

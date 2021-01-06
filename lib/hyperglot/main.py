@@ -10,6 +10,9 @@ from .languages import Languages
 from .language import Language
 from .parse import prune_superflous_marks, parse_font_chars
 
+log = logging.getLogger(__name__)
+log.setLevel(logging.WARNING)
+
 # All YAML dumps have these same additional arguments to make sure the unicode
 # dumping and formatting is kosher.
 DUMP_ARGS = {
@@ -60,7 +63,7 @@ def language_list(langs, native=False, users=False, script=None,
 
         if name is False:
             name = "(iso: %s)" % iso
-            logging.info("No autonym found for language '%s'" % lang)
+            log.info("No autonym found for language '%s'" % lang)
         else:
             # Trim whitespace and also 200E left to right marks, but allow ")"
             # as last character
@@ -219,7 +222,7 @@ def cli(fonts, support, decomposed, validity, autonyms, users, output, mode,
         import sys
         sys.exit("Fontlang version: %s" % __version__)
 
-    logging.getLogger().setLevel(logging.DEBUG if verbose else logging.WARNING)
+    log.setLevel(logging.DEBUG if verbose else logging.WARNING)
     if fonts == ():
         print("Provide at least one path to a font or --help for more "
               "information")
@@ -297,7 +300,7 @@ def save_sorted(Langs=None):
     alternatively from the passed in Langs object (which can have been
     modified)
     """
-    logging.getLogger().setLevel(logging.WARNING)
+    log.setLevel(logging.WARNING)
     if Langs is None:
         Langs = Languages(inherit=False, prune=False)
 
@@ -313,12 +316,12 @@ def save_sorted(Langs=None):
 
                             if len(removed) > 0:
 
-                                logging.info("Saving '%s' with '%s' pruned of "
-                                             "superfluous marks (implicitly "
-                                             "included in combining glyphs): "
-                                             "%s"
-                                             % (iso, type, "','".join(removed))
-                                             )
+                                log.info("Saving '%s' with '%s' pruned of "
+                                         "superfluous marks (implicitly "
+                                         "included in combining glyphs): "
+                                         "%s"
+                                         % (iso, type, "','".join(removed))
+                                         )
 
                             chars = pruned
 
@@ -344,7 +347,7 @@ def export(output):
     Helper script to export hyperglot.yaml with all inhereted orthographies
     expanded
     """
-    logging.getLogger().setLevel(logging.WARNING)
+    log.setLevel(logging.WARNING)
     Langs = dict(Languages(inherit=True).items())
 
     file = open(output, "w")
