@@ -261,7 +261,10 @@ def check_autonym_spelling(ort):
         chars = chars + parse_chars(ort["auxiliary"])
     chars = set(chars)
 
-    autonym_chars = parse_chars(ort["autonym"].lower())
+    # Use lowercase no non-word-chars version of autonym
+    autonym = ort["autonym"].lower()
+    autonym = re.sub(r"\W", "", autonym)
+    autonym_chars = parse_chars(autonym)
     autonym_chars = set(autonym_chars)
 
     missing = list(autonym_chars.difference(chars))
