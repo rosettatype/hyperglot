@@ -165,12 +165,11 @@ def check_names(Langs):
                                       "existing language" %
                                       (iso, o["inherit"]))
                     continue
-
                 autonym_ok, chars, missing = check_autonym_spelling(o)
                 if not autonym_ok:
                     logging.error("'%s' has invalid autonym '%s' which cannot "
                                   "be spelled with that orthography's charset "
-                                  "'%s' - missing '%s'"
+                                  "(base + auxiliary) '%s' - missing '%s'"
                                   % (iso, o["autonym"], "".join(chars),
                                      "".join(missing)))
 
@@ -233,14 +232,14 @@ def check_macrolanguages(Langs):
             # individual language
             if "preferred_as_individual" not in lang:
                 continue
-            
+
             if lang["preferred_as_individual"] is True:
                 continue
 
             for i in lang["includes"]:
                 if i not in Langs.keys():
                     logging.error("'%s' includes language '%s' but it was "
-                                "missing from the data" % (iso, i))
+                                  "missing from the data" % (iso, i))
 
 
 def check_includes(lang):
@@ -257,23 +256,17 @@ def check_includes(lang):
 
 
 def check_autonym_spelling(ort):
-    chars = ort["base"]
+    chars = parse_chars(ort["base"])
     if "auxiliary" in ort:
-        chars = set(list(chars) + list(ort["auxiliary"]))
-
-    # It is implied, but force unique to be sure
+        chars = chars + parse_chars(ort["auxiliary"])
     chars = set(chars)
 
-    # Use the autonym in lowercase and without any "non-word" marks (hyphens,
-    # apostrophes, etc.)
-    ignore_punctuation = re.compile("|".join(["\W", "ʼ", "ʻ"]))  # noqa
-    autonym = ort["autonym"].lower()
-    autonym = ignore_punctuation.sub("", autonym)
+    autonym_chars = parse_chars(ort["autonym"].lower())
+    autonym_chars = set(autonym_chars)
 
-    autonym = set(autonym)
-    missing = list(autonym.difference(chars))
+    missing = list(autonym_chars.difference(chars))
 
-    return autonym.issubset(chars), list(chars), missing
+    return autonym_chars.issubset(chars), list(chars), missing
 
 
 def validate():

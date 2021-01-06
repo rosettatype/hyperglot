@@ -215,8 +215,7 @@ acz:
 ada:
   name: Adangme
   orthographies:
-  - autonym: null
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
     script: Latin
   source:
   - Wikipedia
@@ -440,8 +439,7 @@ alt:
 amc:
   name: Amawaka
   orthographies:
-  - autonym: null
-    base: a c h i j m n o p r s t u v x y z
+  - base: a c h i j m n o p r s t u v x y z
     script: Latin
   source:
   - Omniglot
@@ -450,8 +448,7 @@ amc:
 ame:
   name: Yanesha
   orthographies:
-  - autonym: null
-    base: a b c e g h j l m n o p q r s t y ë ñ '
+  - base: a b c e g h j l m n o p q r s t y ë ñ '
     script: Latin
   source:
   - Omniglot
@@ -484,8 +481,7 @@ ami:
 amr:
   name: Amarakaeri
   orthographies:
-  - autonym: null
-    base: a b e g h i j k m n o p r s t u y '
+  - base: a b e g h i j k m n o p r s t u y '
     script: Latin
   source:
   - Omniglot
@@ -707,8 +703,7 @@ atv:
 auc:
   name: Waorani
   orthographies:
-  - autonym: null
-    base: a b d e g i k m n o p r s t w y ã ẽ ĩ õ ñ
+  - base: a b d e g i k m n o p r s t w y ã ẽ ĩ õ ñ
     script: Latin
   source:
   - Wikipedia
@@ -959,8 +954,7 @@ bba:
 bci:
   name: Baoulé
   orthographies:
-  - autonym: null
-    base: a b c d e ɛ f g i j k l m n o ɔ p r s t u v w y z
+  - base: a b c d e ɛ f g i j k l m n o ɔ p r s t u v w y z
     script: Latin
   source:
   - Omniglot
@@ -1037,8 +1031,7 @@ bez:
 bfa:
   name: Bari
   orthographies:
-  - autonym: null
-    base: a b d e g i j k l m n o p r s t u w y ŋ ö '
+  - base: a b d e g i j k l m n o p r s t u w y ŋ ö '
     script: Latin
   source:
   - Omniglot
@@ -1314,8 +1307,7 @@ cat:
 cbi:
   name: Cha'palaa
   orthographies:
-  - autonym: null
-    base: a b c d e f g h i j l m n p r s t u v y ' ã ẽ ĩ ũ ñ
+  - base: a b c d e f g h i j l m n p r s t u v y ' ã ẽ ĩ ũ ñ
     script: Latin
   source:
   - Omniglot
@@ -1367,8 +1359,7 @@ cbt:
 cbu:
   name: Candoshi-Shapra
   orthographies:
-  - autonym: null
-    base: a b c d g h i k l m n o p r s t u v x y z '
+  - base: a b c d g h i k l m n o p r s t u v x y z '
     script: Latin
   source:
   - Omniglot
@@ -1377,8 +1368,7 @@ cbu:
 ccp:
   name: Chakma
   orthographies:
-  - autonym: null
-    base: 𑄀 𑄁 𑄂 𑄃 𑄄 𑄅 𑄆 𑄇 𑄈 𑄉 𑄊 𑄋 𑄌 𑄍 𑄎 𑄏 𑄐 𑄑 𑄒 𑄓 𑄔 𑄕 𑄖 𑄗 𑄘 𑄙 𑄚 𑄛 𑄜 𑄝 𑄞 𑄟 𑄠 𑄡 𑄢 𑄣 𑄤 𑄥 𑄦 𑄨 𑄩 𑄪 𑄫 𑄬 𑄭 𑄮 𑄯 𑄰 𑄳 𑄴
+  - base: 𑄀 𑄁 𑄂 𑄃 𑄄 𑄅 𑄆 𑄇 𑄈 𑄉 𑄊 𑄋 𑄌 𑄍 𑄎 𑄏 𑄐 𑄑 𑄒 𑄓 𑄔 𑄕 𑄖 𑄗 𑄘 𑄙 𑄚 𑄛 𑄜 𑄝 𑄞 𑄟 𑄠 𑄡 𑄢 𑄣 𑄤 𑄥 𑄦 𑄨 𑄩 𑄪 𑄫 𑄬 𑄭 𑄮 𑄯 𑄰 𑄳 𑄴
     numerals: 𑄶 𑄷 𑄸 𑄹 𑄺 𑄻 𑄼 𑄽 𑄾 𑄿
     script: Chakma
   source:
@@ -1416,8 +1406,7 @@ ces:
 cfm:
   name: Falam Chin
   orthographies:
-  - autonym: null
-    base: a b c d e f g h i j k l m n o p r s t ṭ u v z
+  - base: a b c d e f g h i j k l m n o p r s t ṭ u v z
     script: Latin
   source:
   - Wikipedia
@@ -1663,8 +1652,7 @@ cni:
   name: Asháninka
   note: There seems to be no standardized way to write Asháninka.
   orthographies:
-  - autonym: null
-    base: a c e i j m n o p q r s t v w x y '
+  - base: a c e i j m n o p q r s t v w x y '
     script: Latin
   source:
   - Omniglot
@@ -1690,8 +1678,7 @@ cnr:
 cof:
   name: Tsafiki
   orthographies:
-  - autonym: null
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z ã ẽ ĩ ũ ɨ ñ ʔ
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ã ẽ ĩ ũ ɨ ñ ʔ
     script: Latin
   source:
   - Wikipedia
@@ -1749,8 +1736,7 @@ cot:
 cpu:
   name: Pichis Ashéninka
   orthographies:
-  - autonym: null
-    base: a c e i j m n o p r s t w y ñ
+  - base: a c e i j m n o p r s t w y ñ
     script: Latin
   source:
   - Omniglot
@@ -1789,8 +1775,7 @@ crs:
 csa:
   name: Chiltepec Chinantec
   orthographies:
-  - autonym: null
-    base: a b c d e f g h i j k l m n o p r s t u ë ø
+  - base: a b c d e f g h i j k l m n o p r s t u ë ø
     script: Latin
   source:
   - Omniglot
@@ -1814,7 +1799,7 @@ csw:
   orthographies:
   - autonym: ᓀᐦᐃᔭᐍᐏᐣ
     base: ᐁ ᐃ ᐅ ᐊ ᐍ ᐏ ᐑ ᐓ ᐕ ᐘ ᐚ ᐤ ᐯ ᐱ ᐲ ᐳ ᐴ ᐸ ᐹ ᑊ ᑌ ᑎ ᑏ ᑐ ᑑ ᑕ ᑖ ᐟ ᑫ ᑭ ᑮ ᑯ ᑰ ᑲ ᑳ ᐠ ᒉ ᒋ ᒌ ᒍ ᒎ ᒐ ᒑ ᐨ ᒣ ᒥ ᒦ ᒧ ᒨ ᒪ ᒫ ᒼ ᓀ ᓂ ᓃ ᓄ ᓅ ᓇ ᓈ ᐣ ᓭ ᓯ ᓰ ᓱ ᓲ ᓴ ᓵ ᐢ ᔦ ᔨ ᔩ ᔪ ᔫ ᔭ ᔮ ᓬ ᕒ ᐦ ᐩ ᕁ ᑵ ˸
-  script: Cree
+    script: Cree
   source:
   - Omniglot
   - Wikipedia
@@ -1822,9 +1807,8 @@ csw:
 ctd:
   name: Tedim
   orthographies:
-  - autonym: null
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-  script: Latin
+  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
+    script: Latin
   source:
   - Omniglot
   - Wikipedia
@@ -1846,8 +1830,7 @@ cym:
 dag:
   name: Dagbani
   orthographies:
-  - autonym: null
-    base: a b c d e f g h i j k l m n o p r s t u v w y z ' ɛ ɣ ɨ ŋ ɔ ʒ
+  - base: a b c d e f g h i j k l m n o p r s t u v w y z ' ɛ ɣ ɨ ŋ ɔ ʒ
     script: Latin
   source:
   - Omniglot
@@ -1946,8 +1929,7 @@ deu:
 dga:
   name: Southern Dagaare
   orthographies:
-  - autonym: null
-    base: a b d e ɛ f g h i j k l m n o ɔ p r s t u v w y z
+  - base: a b d e ɛ f g h i j k l m n o ɔ p r s t u v w y z
     script: Latin
   source:
   - Omniglot
@@ -1970,8 +1952,7 @@ dhv:
 din:
   name: Dinka
   orthographies:
-  - autonym: null
-    base: a b c d e ɛ g ɣ i k l m n ŋ o ɔ p r s t u w y ä ë ï ö
+  - base: a b c d e ɛ g ɣ i k l m n ŋ o ɔ p r s t u w y ä ë ï ö
     script: Latin
   source:
   - Omniglot
@@ -2223,8 +2204,7 @@ epo:
 ese:
   name: Ese Ejja
   orthographies:
-  - autonym: null
-    base: b p d t k s j c m n y w ñ
+  - base: b p d t k s j c m n y w ñ
     script: Latin
   source:
   - Wikipedia
@@ -3045,8 +3025,7 @@ hns:
   name: Caribbean Hindustani
   note: Devanagari Kaithi and Urdu are in steep decline of use with Latin being the favoured script.
   orthographies:
-  - autonym: null
-    base: a b c d e f g h i j k l m n o q r s t u v w x y z ˜
+  - base: a b c d e f g h i j k l m n o q r s t u v w x y z ˜
     script: Latin
   source:
   - Omniglot
@@ -3120,8 +3099,7 @@ hus:
 huu:
   name: Murui Huitoto
   orthographies:
-  - autonym: null
-    base: a b c d e f g i j l m n o r s t v ɨ ñ
+  - base: a b c d e f g i j l m n o r s t v ɨ ñ
     script: Latin
   source:
   - Omniglot
@@ -3164,8 +3142,7 @@ hyw:
 ibb:
   name: Ibibio
   orthographies:
-  - autonym: null
-    base: a b d e f g h i ị k m n ñ o ọ p r s t u ʌ w y
+  - base: a b d e f g h i ị k m n ñ o ọ p r s t u ʌ w y
     script: Latin
   source:
   - Omniglot
@@ -3569,8 +3546,7 @@ kau:
   name: Kanuri
   note: These are part of a dialect continuuum and therefore not necessary mutually inteligible.
   orthographies:
-  - autonym: null
-    base: a b c d e ǝ f g h i j k l m n o p r ɍ s t u w y z
+  - base: a b c d e ǝ f g h i j k l m n o p r ɍ s t u w y z
     script: Latin
   source:
   - Omniglot
@@ -3606,8 +3582,7 @@ kbd:
 kbp:
   name: Kabiyè
   orthographies:
-  - autonym: null
-    base: a b c d ɖ e ɛ f g h i ɩ j k l m n ŋ o ɔ p r s t u ʋ v w y ɤ z ` ´
+  - base: a b c d ɖ e ɛ f g h i ɩ j k l m n ŋ o ɔ p r s t u ʋ v w y ɤ z ` ´
     script: Latin
   source:
   - Wikipedia
@@ -3890,8 +3865,7 @@ kln:
 kmb:
   name: Kimbundu
   orthographies:
-  - autonym: null
-    base: a b d e f h i j k l m n o p s t u v x z
+  - base: a b d e f h i j k l m n o p s t u v x z
     script: Latin
   source:
   - Omniglot
@@ -4029,8 +4003,7 @@ kqs:
   name: Northern Kissi
   note: Northern (kqs) and Southern Kissi (kss) are dialects of Kissi.
   orthographies:
-  - autonym: null
-    base: a b c d e ɛ f g h i j k l m n o ɔ p s t u w y
+  - base: a b c d e ɛ f g h i j k l m n o ɔ p s t u w y
     script: Latin
   source:
   - Omniglot
@@ -4052,8 +4025,7 @@ krc:
 kri:
   name: Krio
   orthographies:
-  - autonym: null
-    base: a b c d e ɛ f g h i j k l m n ŋ o ɔ p s t u v w y z
+  - base: a b c d e ɛ f g h i j k l m n ŋ o ɔ p s t u v w y z
     script: Latin
   source:
   - Omniglot
@@ -4151,8 +4123,7 @@ kum:
 kwi:
   name: Awa-Cuaiquer
   orthographies:
-  - autonym: null
-    base: a ã c e ẽ i ĩ ɨ j k l m n ñ p r s t u ũ v w y z '
+  - base: a ã c e ẽ i ĩ ɨ j k l m n ñ p r s t u ũ v w y z '
     script: Latin
   source:
   - Omniglot
@@ -4339,8 +4310,7 @@ lns:
 lob:
   name: Lobi
   orthographies:
-  - autonym: null
-    base: a b ɓ c d e ɛ ǝ f g h i ɩ j k l m n o ɔ p r s t u ʋ v w y ƴ ʼ
+  - base: a b ɓ c d e ɛ ǝ f g h i ɩ j k l m n o ɔ p r s t u ʋ v w y ƴ ʼ
     script: Latin
   source:
   - Wikipedia
@@ -4348,8 +4318,7 @@ lob:
 lot:
   name: Otuho
   orthographies:
-  - autonym: null
-    base: a b c d e ê f g h i j k l m n ŋ o ô p q r s t u û w y ʼ
+  - base: a b c d e ê f g h i j k l m n ŋ o ô p q r s t u û w y ʼ
     script: Latin
   source:
   - Omniglot
@@ -4421,8 +4390,7 @@ lub:
 lue:
   name: Luvale
   orthographies:
-  - autonym: null
-    script: Latin
+  - script: Latin
   validity: todo
 lug:
   name: Ganda
@@ -4441,8 +4409,7 @@ lug:
 lun:
   name: Lunda
   orthographies:
-  - autonym: null
-    script: Latin
+  - script: Latin
   validity: todo
 luo:
   name: Luo (Kenya and Tanzania)
@@ -4598,8 +4565,7 @@ mcd:
 mcf:
   name: Matsés
   orthographies:
-  - autonym: null
-    base: a b c e g h i j l m n o p q r s t u y ' ā ē ī ō ū
+  - base: a b c e g h i j l m n o p q r s t u y ' ā ē ī ō ū
     script: Latin
   source:
   - Omniglot
@@ -4664,8 +4630,7 @@ mfe:
 mfq:
   name: Moba
   orthographies:
-  - autonym: null
-    base: a ã b c d e ẽ ɛ f g h i ĩ ɩ j k l m n ŋ o õ ɔ p s t r u v w y
+  - base: a ã b c d e ẽ ɛ f g h i ĩ ɩ j k l m n ŋ o õ ɔ p s t r u v w y
     script: Latin
   source:
   - Wikipedia
@@ -4843,8 +4808,7 @@ moh:
 mos:
   name: Mossi
   orthographies:
-  - autonym: null
-    base: a b d e ɛ f g h i ɩ l m n o p r s t u v ʋ w y z '
+  - base: a b d e ɛ f g h i ɩ l m n o p r s t u v ʋ w y z '
     script: Latin
   source:
   - Omniglot
@@ -4906,8 +4870,7 @@ mrq:
 mto:
   name: Totontepec Mixe
   orthographies:
-  - autonym: null
-    base: a ̱ c h d e g i j m n o p q s t u v x y
+  - base: a ̱ c h d e g i j m n o p q s t u v x y
     script: Latin
   source:
   - Wikipedia
@@ -4992,8 +4955,7 @@ mwp:
 mxv:
   name: Metlatónic Mixtec
   orthographies:
-  - autonym: null
-    base: a c d e g i ɨ j k l m n ñ o p r s t u v x y '
+  - base: a c d e g i ɨ j k l m n ñ o p r s t u v x y '
     script: Latin
   source:
   - Omniglot
@@ -5025,8 +4987,7 @@ myv:
 mzi:
   name: Ixcatlán Mazatec
   orthographies:
-  - autonym: null
-    base: a b c e f i j k l m n o p r s t u x y z '
+  - base: a b c e f i j k l m n o p r s t u x y z '
     script: Latin
   source:
   - Omniglot
@@ -5095,8 +5056,7 @@ nav:
 nba:
   name: Nyemba
   orthographies:
-  - autonym: null
-    base: a b d e ɛ f g h i j k l m n ŋ o ɔ p s t u w z ` ´
+  - base: a b d e ɛ f g h i j k l m n ŋ o ɔ p s t u w z ` ´
     script: Latin
   source:
   - Wikipedia
@@ -5131,8 +5091,7 @@ nde:
 ndo:
   name: Ndonga
   orthographies:
-  - autonym: null
-    base: a b d e f g h i j k l m n o p r s t u v w y z
+  - base: a b d e f g h i j k l m n o p r s t u v w y z
     script: Latin
   source:
   - Omniglot
@@ -5212,8 +5171,7 @@ niv:
 njo:
   name: Ao Naga
   orthographies:
-  - autonym: null
-    base: a b c e i j k l m n o p r s t u y z
+  - base: a b c e i j k l m n o p r s t u y z
     script: Latin
   source:
   - Wikipedia
@@ -5221,8 +5179,7 @@ njo:
 nku:
   name: Bouna Kulango
   orthographies:
-  - autonym: null
-    base: a b c d e ɛ f g h i j k l m n ŋ o ɔ p q r s t u v w x y z ɣ ˜ ˆ
+  - base: a b c d e ɛ f g h i j k l m n ŋ o ɔ p q r s t u v w x y z ɣ ˜ ˆ
     script: Latin
   source:
   - Wikipedia
@@ -5375,8 +5332,7 @@ nya:
 nym:
   name: Nyamwezi
   orthographies:
-  - autonym: null
-    base: a b d e ɛ f g h i j l m n ŋ o ɔ p s t u v w z
+  - base: a b d e ɛ f g h i j l m n ŋ o ɔ p s t u v w z
     script: Latin
   source:
   - Wikipedia
@@ -5397,8 +5353,7 @@ nyn:
 nzi:
   name: Nzima
   orthographies:
-  - autonym: null
-    base: a b d e ɛ f g h i k l m n o ɔ p r s t u v w y z
+  - base: a b d e ɛ f g h i k l m n o ɔ p r s t u v w y z
     script: Latin
   source:
   - Omniglot
@@ -5607,8 +5562,7 @@ pcd:
 pcm:
   name: Nigerian Pidgin
   orthographies:
-  - autonym: null
-    script: Latin
+  - script: Latin
   source:
   - Wikipedia
   validity: todo
@@ -5643,8 +5597,7 @@ pga:
 pis:
   name: Pijin
   orthographies:
-  - autonym: null
-    base: a b c d e f g h i j k l m n o p r s t u v w æ
+  - base: a b c d e f g h i j k l m n o p r s t u v w æ
     script: Latin
   source:
   - Omniglot
@@ -5653,8 +5606,7 @@ pis:
 piu:
   name: Pintupi-Luritja
   orthographies:
-  - autonym: null
-    base: a i k l m n p r t u w y
+  - base: a i k l m n p r t u w y
     script: Latin
   source:
   - Omniglot
@@ -5784,8 +5736,7 @@ prg:
 prq:
   name: Ashéninka Perené
   orthographies:
-  - autonym: null
-    base: a c e i j k m n ñ o p r s t w y z
+  - base: a c e i j k m n ñ o p r s t w y z
     script: Latin
   source:
   - Omniglot
@@ -6283,8 +6234,7 @@ shn:
 shp:
   name: Shipibo-Conibo
   orthographies:
-  - autonym: null
-    base: a b c e i j k l m n o p q r s t u w y
+  - base: a b c e i j k l m n o p q r s t u w y
     script: Latin
   source:
   - Omniglot
