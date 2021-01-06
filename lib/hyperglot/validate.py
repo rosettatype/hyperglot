@@ -9,7 +9,7 @@ import re
 import unicodedata2
 from .languages import Languages
 from .parse import (parse_chars, prune_superflous_marks)
-from . import STATUSES
+from . import (STATUSES, VALIDITYLEVELS)
 
 log = logging.getLogger(__name__)
 log.setLevel(logging.DEBUG)
@@ -84,6 +84,12 @@ def check_types(Langs):
 
         if "status" in lang and lang["status"] not in STATUSES:
             log.error("'%s' has an invalid 'status'" % iso)
+
+        if "validity" not in lang:
+            log.warn("'%s' is missing 'validity'" % iso)
+
+        if "validity" in lang and lang["validity"] not in VALIDITYLEVELS:
+            log.error("'%s' has invalid 'validity'" % iso)
 
 
 def check_is_valid_list(item):
