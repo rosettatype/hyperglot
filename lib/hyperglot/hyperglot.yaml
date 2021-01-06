@@ -5394,6 +5394,7 @@ ojb:
   orthographies:
   - autonym: Nakawēmowin
     base: a b c d e g h i j k m n o p s t w y z '
+    script: Latin
   source:
   - Omniglot
   - Wikipedia
@@ -6754,6 +6755,7 @@ tam:
   - autonym: தமிழ்
     base: அ ஆ இ ஈ உ ஊ எ ஏ ி ீ ு ூ ஐ ஒ ஓ ஔ ஃ ஂ ை ொ ோ ௌ ் க ங ச ஞ ட ண த ந ப ம ய ர ல வ ழ ள ற ன ஜ ஶ ஷ ஸ ஹ
     numerals: 0 ௧ ௨ ௩ ௪ ௫ ௬ ௭ ௮ ௯ ௰ ௱ ௲
+    script: Latin
   source:
   - Omniglot
   - Wikipedia
@@ -6897,6 +6899,7 @@ tha:
     base: ก ข ฃ ค ฅ ฆ ง จ ฉ ช ซ ฌ ญ ฎ ฏ ฐ ฑ ฒ ณ ด ต ถ ท ธ น บ ป ผ ฝ พ ฟ ภ ม ย ร ล ว ศ ษ ส ห ฬ อ ฮ ะ ◌ ั ็ า ิ ̍ ̎ ํ ุ ู เ โ ใ ไ ฤ ๅ ฦ
     numerals: ๐ ๑ ๒ ๓ ๔ ๕ ๖ ๗ ๘ ๙
     punctuation: ๏ ๛
+    script: Thai
   source:
   - Omniglot
   - Wikipedia
