@@ -179,10 +179,9 @@ class Languages(dict):
                                      pruneOrthographies=pruneOrthographies)
 
             for script in lang_sup:
-                if script not in support.keys():
-                    support[script] = {}
-
                 for script, isos in lang_sup.items():
+                    if script not in support.keys():
+                        support[script] = {}
                     for iso in isos:
                         support[script][iso] = l
 
