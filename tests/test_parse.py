@@ -41,6 +41,9 @@ def test_parse_chars():
         unichr = chr(int(uni, 16))
         assert ["a", unichr, "b"] == parse_chars("a" + unichr + "b")
 
+    assert " " not in parse_chars("a   bc")
+    assert " " not in parse_chars("a ą b c d e ę g h i į j k l ł m n o ǫ s t w x y z ' ´")
+
 
 def test_character_list_from_string():
     # Check list formation from (whitespace separated) input string with

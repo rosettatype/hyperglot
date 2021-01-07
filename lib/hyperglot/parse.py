@@ -1,5 +1,6 @@
 import unicodedata2
 import logging
+import re
 from fontTools.ttLib import TTFont
 
 log = logging.getLogger(__name__)
@@ -91,15 +92,14 @@ def parse_chars(characters, decompose=True, retainDecomposed=False):
                         unique_chars.append(chr(int(unihexstr, 16)))
                     except Exception as e:
                         log.error("Error getting glyph from decomposition "
-                                      "part '%s' of '%s' (decomposition '%s'):"
-                                      " %s" % (unihexstr, c, decomposition, e))
+                                  "part '%s' of '%s' (decomposition '%s'):"
+                                  " %s" % (unihexstr, c, decomposition, e))
 
         unique_chars = list_unique(unique_chars)
-        return unique_chars
     except Exception as e:
         log.error("Error parsing characters '%s': %s" % (characters, e))
 
-    return unique_chars
+    return [u for u in unique_chars if not re.match(r"\s", u) and len(u) != 0]
 
 
 def prune_superflous_marks(string):
