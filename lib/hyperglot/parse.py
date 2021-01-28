@@ -82,11 +82,12 @@ def parse_chars(characters, decompose=True, retainDecomposed=False):
             if decomposition == "" or retainDecomposed:
                 unique_chars.append(c)
 
+            ignore = ["<isolated>", "<compat>", "<super>", '<vertical>']
             if decomposition != "":
                 for unihexstr in decomposition.split(" "):
                     # Not _entirely_ sure why the following can be parts of the
                     # decomposition but let's ignore them when encountered
-                    if unihexstr in ["<isolated>", "<compat>", "<super>"]:
+                    if unihexstr in ignore:
                         continue
                     try:
                         unique_chars.append(chr(int(unihexstr, 16)))

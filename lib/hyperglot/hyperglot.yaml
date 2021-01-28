@@ -4725,13 +4725,10 @@ mic:
   - autonym: Míkmawísimk
     base: a e i j k l m n o p q s t u w y ' á é í ɨ ó ú
     script: Latin
-<<<<<<< HEAD
-=======
   source:
   - Omniglot
   - Wikipedia
   validity: done
->>>>>>> dev
 min:
   name: Minangkabau
   orthographies:
@@ -6820,11 +6817,7 @@ tam:
   - autonym: தமிழ்
     base: அ ஆ இ ஈ உ ஊ எ ஏ ி ீ ு ூ ஐ ஒ ஓ ஔ ஃ ஂ ை ொ ோ ௌ ் க ங ச ஞ ட ண த ந ப ம ய ர ல வ ழ ள ற ன ஜ ஶ ஷ ஸ ஹ
     numerals: 0 ௧ ௨ ௩ ௪ ௫ ௬ ௭ ௮ ௯ ௰ ௱ ௲
-<<<<<<< HEAD
-    script: Latin
-=======
     script: Tamil
->>>>>>> dev
   source:
   - Omniglot
   - Wikipedia
@@ -6965,7 +6958,9 @@ tha:
   name: Thai
   orthographies:
   - autonym: ภาษาไทย
-    base: ก ข ฃ ค ฅ ฆ ง จ ฉ ช ซ ฌ ญ ฎ ฏ ฐ ฑ ฒ ณ ด ต ถ ท ธ น บ ป ผ ฝ พ ฟ ภ ม ย ร ล ว ศ ษ ส ห ฬ อ ฮ ะ ◌ ั ็ า ิ ̍ ̎ ํ ุ ู เ โ ใ ไ ฤ ๅ ฦ
+    auxiliary: ̍ ̎
+    base: ก ข ฃ ค ฅ ฆ ง จ ฉ ช ซ ฌ ญ ฎ ฏ ฐ ฑ ฒ ณ ด ต ถ ท ธ น บ ป ผ ฝ พ ฟ ภ ม ย ร ล ว ศ ษ ส ห ฬ อ ฮ ะ ◌ ั ็ า ิ ํ ุ ู เ โ ใ ไ ฤ ๅ ฦ
+    note: Fon thong (written with U+030D) and Fa nu (written with U+030E) always combined with Phinthu i (U+0E34) according to Wikipedia.
     numerals: ๐ ๑ ๒ ๓ ๔ ๕ ๖ ๗ ๘ ๙
     punctuation: ๏ ๛
     script: Thai
