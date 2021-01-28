@@ -1654,7 +1654,8 @@ cnh:
   orthographies:
   - autonym: Laiṭong
     base: a b c d e f g h i j k l m n o p r s t u v z ṭ
-    inherit: mya
+    script: Latin
+  - inherit: mya
     script: Burmese
   source:
   - Wikipedia
