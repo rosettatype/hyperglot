@@ -4570,8 +4570,9 @@ mar:
   orthographies:
   - autonym: मराठी
     base: क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र ल व श ष स ह ळ ् अ आ इ ई उ ऊ ए ऐ ओ औ ं ः ॲ ऑ ा ि ी ु ू े ै ो ौ ॅ ॉ
+    note: Script also referred to as a stylistic variation of Devanagari called Balbodh, using "Eyelash"-Reph and other localized shapes.
     numerals: ० १ २ ३ ४ ५ ६ ७
-    script: Balbodh
+    script: Devanagari
   source:
   - Omniglot
   - Wikipedia
