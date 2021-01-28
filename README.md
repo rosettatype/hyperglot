@@ -48,9 +48,9 @@ A language can refer to one or more orthographies. An orthography specifies the 
 
 - `base` (required or use `inherit`): a string of space-separated characters or combinations of characters and combining marks that are required to represent the language in common texts. This typically maps to a standard alphabet or syllabary for the language or am approximation of thereof. In case the script used is bicameral, only lowercase versions of characters are provided with a few exceptions, e.g. the Turkish `İ`.
 - `auxiliary` (optional): a string of space-separated characters or combinations of characters and combining marks that are not part of the standard alphabet, but appear in very common loan words or in reference literature. Deprecated characters can be included here too, e.g. `ş ţ` for Romanian.
-- `autonym` (optional): the name of the language in the language itself using this orthography. If missing, the `autonym` defined in the parent language entry is used.
+- `autonym` (optional): the name of the language in the language itself using this orthography. If missing, the `autonym` defined in the parent language entry is used. It is expected that the `autonym` can be spelled with the orthography's `base`.
 - `inherit` (required or use `base`): the code of a language to copy the `base` and `auxiliary` strings from. In case the language has multiple orthographies, the first one for the same script is used.
-- `script` (required): English name of the script, e.g. Latin, Arabic, Armenian, Cyrillic, Greek, Hebrew.
+- `script` (required): English name of the script, e.g. Latin, Arabic, Armenian, Cyrillic, Greek, Hebrew. When a language uses a combination of several scripts in conjunction each script forms its own orthography.
 - `status` (required, defaults to `living`): the status of the orthography, may be one of: `deprecated, secondary, local, living`. The value `local` refers to an orthography which is used only is specific region. Orthographies with `deprecated` and `secondary` status are included only for the sake of completeness and ignored during language support detection.
 - `note` (optional): a note of any kind.
 
