@@ -182,7 +182,7 @@ The speaker counts are from Wikipedia.
 ## Credits
 
 - David Březina  
-- Sergio Martins  
+- Sérgio Martins  
 - Johannes Neumeier
 - Toshi Omagari
 
