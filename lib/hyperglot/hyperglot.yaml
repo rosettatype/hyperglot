@@ -128,6 +128,8 @@ ace:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 3500000
+  speakers_data: 2000
   validity: done
 acm:
   name: Mesopotamian Arabic
@@ -170,6 +172,8 @@ acu:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 7000
+  speakers_date: 2007 
   validity: done
 acw:
   name: Hijazi Arabic
@@ -219,6 +223,8 @@ ada:
     script: Latin
   source:
   - Wikipedia
+  speakers: 80000
+  speakers_date: 2004
   validity: weak
 ady:
   name: Adyghe
@@ -327,6 +333,8 @@ agr:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 53400
+  speakers_date: 2007
   validity: done
 agx:
   name: Aghul
@@ -357,6 +365,8 @@ aii:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 828,930
+  speakers_date: 2020
   validity: done
 aiq:
   name: Aimaq
@@ -380,6 +390,8 @@ ajg:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 550000
+  speakers_date: 2006-2012
   validity: done
 ajp:
   name: South Levantine Arabic
@@ -444,6 +456,8 @@ amc:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 25700000
+  speakers_date:  2014-2016
   validity: done
 ame:
   name: Yanesha
@@ -453,6 +467,8 @@ ame:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 9800
+  speakers_date: 2000
   validity: done
 amh:
   name: Amharic
@@ -464,6 +480,8 @@ amh:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 22000000
+  speakers_date: 2007
   validity: done
 ami:
   name: Amis
@@ -486,6 +504,8 @@ amr:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 1600
+  speakers_date: 2007 
   validity: done
 ani:
   name: Andi
@@ -592,6 +612,8 @@ arl:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 50
+  speakers_date: 2002
   validity: done
 arn:
   name: Mapuche
@@ -602,6 +624,8 @@ arn:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 260000
+  speakers_date: 2007
   validity: done
 arq:
   name: Algerian Arabic
@@ -707,6 +731,8 @@ auc:
     script: Latin
   source:
   - Wikipedia
+  speakers: 2000
+  speakers_date: 2004
   validity: weak
 aud:
   name: Anuta
@@ -756,6 +782,8 @@ ayc:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 1677100
+  speakers_date: 2007-2011
   status: living
   validity: verified
 ayh:
@@ -822,6 +850,8 @@ ayr:
   - Omniglot
   - Wikipedia
   status: living
+  speakers: 1677100
+  speakers_date: 2007-2011
   validity: verified
 azb:
   name: South Azerbaijani
@@ -917,6 +947,8 @@ ban:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 3300000
+  speakers_date: 2000
   validity: done
 bas:
   name: Basa (Cameroon)
@@ -940,6 +972,8 @@ bax:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 420000
+  speakers_date: 2005
   validity: done
 bba:
   name: Bariba
@@ -950,6 +984,8 @@ bba:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 560000
+  speakers_date: 1995
   validity: done
 bci:
   name: Baoulé
@@ -959,6 +995,8 @@ bci:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 4700000
+  speakers_date: 2017
   validity: done
 bdk:
   name: Budukh
@@ -1014,6 +1052,8 @@ ben:
   - Omniglot
   - Wikipedia
   - CLDR
+  speakers: 230000000
+  speakers_date: 2011-2017
   validity: done
 bez:
   name: Bena (Tanzania)
@@ -1036,6 +1076,8 @@ bfa:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 750000
+  speakers_date: 2000-2014
   validity: done
 bhh:
   name: Bukharic
@@ -1065,6 +1107,8 @@ bho:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 51000000
+  speakers_date: 2011
   validity: done
 bik:
   includes:
@@ -1100,6 +1144,8 @@ bin:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 1600000
+  speakers_date: 2015
   validity: done
 bis:
   name: Bislama
@@ -1125,6 +1171,8 @@ blt:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 760000
+  speakers_date: 1995-2002
   validity: done
 boa:
   name: Bora
@@ -1135,6 +1183,8 @@ boa:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 2400
+  speakers_date: 2000 
   validity: done
 bod:
   name: Tibetan
@@ -1147,6 +1197,8 @@ bod:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 1200000
+  speakers_date: 1990
   validity: done
 bos:
   name: Bosnian
@@ -1196,7 +1248,7 @@ buc:
   validity: done
 bug:
   name: Buginese
-  note: Lontara seems to be in disuse, with Latin taking over.
+  note: Lontara seems to be in disuse, with Latin taking over. Speakers includes 500000 L2 speakers.
   orthographies:
   - autonym: Basa Ugi
     base: a b c d e g i j k l m n o p r s t u w y ' ә
@@ -1207,6 +1259,8 @@ bug:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 4000000
+  speakers_date: 2015
   validity: done
 bul:
   name: Bulgarian
@@ -1288,6 +1342,9 @@ cab:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 190000
+  speakers_date: 1997
+  note: Speakers number uncertain.
   validity: done
 cak:
   name: Kaqchikel
@@ -1323,6 +1380,8 @@ cbi:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 10000
+  speakers_date: 2013
   validity: done
 cbk:
   name: Chavacano
@@ -1346,6 +1405,8 @@ cbr:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 1200
+  speakers_date: 2007
   validity: done
 cbs:
   name: Cashinauha
@@ -1356,6 +1417,8 @@ cbs:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 1200
+  speakers_date: 2003-2007
   validity: done
 cbt:
   name: Chayahuita
@@ -1366,6 +1429,8 @@ cbt:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 14000
+  speakers_date: 2011
   validity: done
 cbu:
   name: Candoshi-Shapra
@@ -1375,6 +1440,8 @@ cbu:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 1120
+  speakers_date: 2007 
   validity: done
 ccp:
   name: Chakma
@@ -1386,6 +1453,9 @@ ccp:
   - Omniglot
   - Wikipedia
   - CLDR
+  speakers: 554281
+  speakers_date: 2011
+  note: 326000 speakers in Bangladesh, 228281 in India.
   validity: done
 ceb:
   name: Cebuano
@@ -1421,6 +1491,8 @@ cfm:
     script: Latin
   source:
   - Wikipedia
+  speakers: 107000
+  speakers_date: 1983-2001
   validity: weak
 cgg:
   name: Chiga
@@ -1473,6 +1545,8 @@ chj:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 38000
+  speakers_date: 2000
   validity: done
 chk:
   name: Chuukese
@@ -1483,6 +1557,8 @@ chk:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 51330
+  speakers_date: 2000
   validity: done
 chr:
   name: Cherokee
@@ -1494,6 +1570,8 @@ chr:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 1520
+  speakers_date: 2018-2019
   validity: done
 chu:
   name: Church Slavic
@@ -1573,6 +1651,8 @@ cjk:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 980000
+  speakers_date: 1990-1991
   validity: done
 cjs:
   name: Shor
@@ -1596,6 +1676,8 @@ cjy:
   source:
   - Wikipedia
   validity: weak
+  speakers: 63050000
+  speakers_date: 2012
 ckb:
   name: Central Kurdish
   orthographies:
@@ -1631,7 +1713,7 @@ ckt:
   validity: done
 cmn:
   name: Mandarin Chinese
-  note: Latin is required for tonal transliteration and pinyin input method.
+  note: Latin is required for tonal transliteration and pinyin input method. Approximately 200000000 additional L2 speakers.
   orthographies:
   - autonym: 普通话 / 汉语
     auxiliary: 乒 乓 仂 仓 伞 侣 傈 傣 僳 冥 凉 刨 匕 卑 卞 厘 厦 厨 吕 呣 唇 啤 啮 喱 嗅 噘 噢 坝 堤 墟 奎 妆 婴 媚 宅 寺 尬 尴 屑 屿 巽 巾 弓 彗 惊 戟 扔 扰 扳 抛 挂 捂 摇 撅 撤 杆 杖 柜 柱 栗 栽 桶 棍 棕 棺 楔 楠 榈 槟 橙 洒 浆 涌 淇 滕 滚 滩 灾 烛 烟 焰 煎 犬 猫 瑚 瓢 甫 皱 盆 盔 盲 眨 眯 瞌 矿 碑 祈 祭 祷 禄 稻 竿 笼 筒 篷 粟 粮 纠 纬 缆 缎 耸 脚 舔 舵 艇 艮 芽 苜 苞 菇 菱 葫 葵 蒸 蓿 蔽 薯 蘑 蚂 蛛 蜗 蜘 蜡 蝎 蝴 螃 裹 谍 谬 豚 账 跤 踪 躬 轴 辐 迹 郁 鄙 酢 钉 钥 钮 钯 铂 铅 铛 锄 锑 锚 锤 镑 闺 阱 隧 雕 霾 靴 靶 鞠 颠 馏 驼 骆 髦 魁 鲤 鲸 鳄 鸽
@@ -1648,6 +1730,8 @@ cmn:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 920000000
+  speakers_date: 2017
   validity: done
 cnh:
   name: Hakha Chin
@@ -1659,6 +1743,8 @@ cnh:
     script: Burmese
   source:
   - Wikipedia
+  speakers: 130000
+  speakers_date: 1991-2001
   validity: weak
 cni:
   name: Asháninka
@@ -1669,6 +1755,8 @@ cni:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 35000
+  speakers_date: 2007
   validity: done
 cnr:
   name: Montenegrin
@@ -1695,6 +1783,8 @@ cof:
   source:
   - Wikipedia
   - Omniglot
+  speakers: 2300
+  speakers_date: 2000
   validity: done
 con:
   name: Cofán
@@ -1744,6 +1834,8 @@ cot:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 500
+  speakers_date: 2012
   validity: done
 cpu:
   name: Pichis Ashéninka
@@ -1753,6 +1845,8 @@ cpu:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 9881
+  speakers_date: 2017 
   validity: done
 crh:
   name: Crimean Tatar
@@ -1792,6 +1886,9 @@ csa:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 1800
+  speakers_date: 2000
+  note: Speaker number is uncertain.
   validity: done
 csb:
   name: Kashubian
@@ -1815,6 +1912,8 @@ csw:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 1805
+  speakers_date: 2016
   validity: done
 ctd:
   name: Tedim
@@ -1824,6 +1923,8 @@ ctd:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 340000
+  speakers_date: 1990
   validity: done
 cym:
   name: Welsh
@@ -1847,6 +1948,8 @@ dag:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 1160000
+  speakers_date: 2013
   validity: done
 dan:
   name: Danish
@@ -1897,6 +2000,8 @@ ddn:
     script: Latin
   source:
   - Wikipedia
+  speakers: 257050
+  speakers_date: 2000-2016
   validity: weak
 ddo:
   name: Dido
@@ -1946,6 +2051,8 @@ dga:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 1100000
+  speakers_date: 2001-2003
   validity: done
 dhv:
   name: Dehu
@@ -1969,6 +2076,8 @@ din:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 1300000
+  speakers_date: 2008-2016 
   validity: done
 dip:
   name: Northeastern Dinka
@@ -1979,6 +2088,8 @@ dip:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 1300000
+  speakers_date: 2008-2016 
   validity: done
 diq:
   name: Dimli (individual language)
@@ -1990,6 +2101,8 @@ diq:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 1334000
+  speakers_date: 2020
   status: living
   validity: done
 div:
@@ -2001,6 +2114,8 @@ div:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 340000
+  speakers_date: 2012
   validity: done
 dje:
   name: Zarma
@@ -2085,7 +2200,7 @@ dyo:
   validity: verified
 dyu:
   name: Dyula
-  note: N'Ko use is not widespread, due to lack of oficial support.
+  note: N'Ko use is not widespread, due to lack of official support. An additional 10300000 L2 speakers.
   orthographies:
   - autonym: Julakan
     base: a b c d e ɛ f g h i j k l m n ɲ ŋ o ɔ p r s t u v w y z
@@ -2098,6 +2213,8 @@ dyu:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 6852620
+  speakers_date: 2019
   validity: done
 dzo:
   name: Dzongkha
@@ -2109,6 +2226,8 @@ dzo:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 171080
+  speakers_date: 2013
   validity: done
 ebu:
   name: Embu
@@ -2165,6 +2284,8 @@ emk:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 5000000
+  speakers_date: 1999-2012
   validity: done
 enf:
   name: Forest Enets
@@ -2227,6 +2348,8 @@ ese:
     script: Latin
   source:
   - Wikipedia
+  speakers: 700
+  speakers_date: 2007 
   validity: weak
 ess:
   name: Central Siberian Yupik
@@ -2408,14 +2531,16 @@ fin:
   status: living
   validity: done
 fkv:
-  name: Kven Finnish
+  name: Kven
   orthographies:
-  - autonym: Kainun kieli
+  - autonym: Kvääni
     base: a b c d ð e f g h i j k l m n o p q r s š t u v w x y z ä ö
     script: Latin
   source:
   - Omniglot
   - Wikipedia
+  speakers: 8000
+  speakers_date: 2005 
   validity: done
 fon:
   name: Fon
@@ -2426,6 +2551,8 @@ fon:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 2200000
+  speakers_date: 2000-2006
   validity: done
 fra:
   name: French
@@ -2583,6 +2710,8 @@ gaa:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 8500000
+  speakers_date: 2007
   validity: done
 gag:
   name: Gagauz
@@ -2613,6 +2742,8 @@ gan:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 22000000
+  speakers_date: 2018
   validity: done
 gax:
   name: Borana-Arsi-Guji Oromo
@@ -2677,6 +2808,8 @@ gjn:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 230000
+  speakers_date: 2004
   validity: done
 gkp:
   name: Guinea Kpelle
@@ -2687,6 +2820,8 @@ gkp:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 1300000
+  speakers_date: 1991-2012
   validity: done
 gla:
   name: Scottish Gaelic
@@ -2830,6 +2965,8 @@ gug:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 4850000
+  speakers_date: 1995
   validity: done
 guj:
   name: Gujarati
@@ -2841,6 +2978,9 @@ guj:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 56000000
+  speakers_date: 2011
+  note: Gujarati has an addition 4000000 L2 speakers.
   validity: done
 guu:
   name: Yanomamö
@@ -2850,6 +2990,8 @@ guu:
     script: Latin
   source:
   - Wikipedia
+  speakers: 20000
+  speakers_date: 2000-2006
   validity: weak
 guz:
   name: Gusii
@@ -2917,6 +3059,8 @@ hak:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 47800000
+  speakers_date: 2007
   validity: done
 hat:
   name: Haitian
@@ -2984,6 +3128,8 @@ hea:
   - Omniglot
   - Wikipedia
   validity: done
+  speakers: 2100000
+  speakers_date: 1995
 heb:
   name: Hebrew
   orthographies:
@@ -3019,6 +3165,9 @@ hin:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 322000000
+  speakers_date: 2011
+  note: Approximately additional 270000000 L2 speakers.
   validity: done
 hms:
   name: Southern Qiandong Miao
@@ -3029,6 +3178,8 @@ hms:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 2100000
+  speakers_date: 1995
   validity: done
 hni:
   name: Hani
@@ -3039,6 +3190,8 @@ hni:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 1800000
+  speakers_date: 1995-2007
   validity: done
 hns:
   name: Caribbean Hindustani
@@ -3049,6 +3202,7 @@ hns:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 166233
   validity: done
 hop:
   name: Hopi
@@ -3114,6 +3268,8 @@ hus:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 161120
+  speakers_date: 2010
   validity: done
 huu:
   name: Murui Huitoto
@@ -3123,6 +3279,8 @@ huu:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 7800
+  speakers_date: 1995-2002
   validity: done
 huz:
   name: Hunzib
@@ -3146,6 +3304,8 @@ hye:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 6700000
+  speakers_date: 2015
   validity: done
 hyw:
   name: Western Armenian
@@ -3157,6 +3317,8 @@ hyw:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 1400000
+  speakers_date: 2001-2016
   validity: done
 ibb:
   name: Ibibio
@@ -3166,6 +3328,8 @@ ibb:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 2000000
+  speakers_date: 1998
   validity: done
 ibo:
   name: Igbo
@@ -3216,6 +3380,8 @@ iii:
     script: Modern Yi
   source:
   - Wikipedia
+  speakers: 2000000
+  speakers_date: 2000
   validity: done
 ike:
   name: Eastern Canadian Inuktitut
@@ -3227,6 +3393,8 @@ ike:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 39475
+  speakers_date: 2016
   validity: done
 ile:
   name: Interlingue
@@ -3428,6 +3596,8 @@ jiv:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 25000
+  speakers_date: 2007
   validity: done
 jpn:
   name: Japanese
@@ -3450,6 +3620,8 @@ jpn:
   - Omniglot
   - Wikipedia
   - CLDR
+  speakers: 128000000
+  speakers_date: 2020
   validity: done
 jpr:
   name: Judeo-Persian
@@ -3536,6 +3708,9 @@ kan:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 43000000
+  speakers_date: 2011
+  note: An additional 600000 L2 speakers.
   validity: done
 kap:
   name: Bezhta
@@ -3559,6 +3734,8 @@ kat:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 3700000
+  speakers_date: 2014
   validity: done
 kau:
   includes:
@@ -3575,6 +3752,8 @@ kau:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 8600000
+  speakers_date: 1988-2015
   validity: done
 kaz:
   name: Kazakh
@@ -3610,6 +3789,8 @@ kbp:
     script: Latin
   source:
   - Wikipedia
+  speakers: 1000000
+  speakers_date: 2012
   validity: done
 kca:
   name: Khanty
@@ -3645,6 +3826,8 @@ kdh:
     script: Latin
   source:
   - Wikipedia
+  speakers: 340000
+  speakers_date: 1987-2012
   validity: done
 kdr:
   name: Karaim
@@ -3721,6 +3904,8 @@ kha:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 1037964
+  speakers_date: 2011
   validity: done
 khk:
   name: Halh Mongolian
@@ -3744,6 +3929,8 @@ khm:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 16000000
+  speakers_date: 2007
   validity: done
 khq:
   name: Koyra Chiini Songhay
@@ -3846,6 +4033,8 @@ kkh:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 100000
+  speakers_date: 1990
   validity: done
 kkj:
   name: Kako
@@ -3894,6 +4083,8 @@ kmb:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 2100000
+  speakers_date: 2014
   validity: done
 kmr:
   name: Northern Kurdish
@@ -3959,6 +4150,8 @@ koo:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 610000
+  speakers_date: 2002
   validity: done
 kor:
   name: Korean
@@ -3996,6 +4189,8 @@ kor:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 77200000
+  speakers_date: 2010
   validity: done
 kpt:
   name: Karata
@@ -4046,6 +4241,8 @@ kqn:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 240000
+  speakers_date: 1995-2010
   validity: done
 kqs:
   name: Northern Kissi
@@ -4056,6 +4253,8 @@ kqs:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 530000
+  speakers_date: 1991-1995
   validity: done
 krc:
   name: Karachay-Balkar
@@ -4078,6 +4277,8 @@ kri:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 500000
+  speakers_date: 1993
   validity: done
 krl:
   name: Karelian
@@ -4142,6 +4343,8 @@ ktu:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 5400000
+  speakers_date: 1987-1990
   validity: done
 kua:
   name: Kuanyama
@@ -4176,6 +4379,8 @@ kwi:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 13000
+  speakers_date: 2008
   validity: done
 lad:
   name: Ladino
@@ -4189,6 +4394,9 @@ lad:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 400000
+  speakers_date: 2017
+  note: Speaker estimates vary widely.
   validity: done
 lag:
   name: Langi
@@ -4213,6 +4421,7 @@ lao:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 30000000
   validity: done
 lat:
   name: Latin
@@ -4264,6 +4473,8 @@ lia:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 446000
+  speakers_date: 1993-2016
   validity: done
 lij:
   name: Ligurian
@@ -4355,6 +4566,8 @@ lns:
     script: Latin
   source:
   - Wikipedia
+  speakers: 240000
+  speakers_date: 2005
   validity: done
 lob:
   name: Lobi
@@ -4363,6 +4576,8 @@ lob:
     script: Latin
   source:
   - Wikipedia
+  speakers: 440000
+  speakers_date: 1991-1993
   validity: done
 lot:
   name: Otuho
@@ -4372,6 +4587,8 @@ lot:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 140000
+  speakers_date: 1977
   validity: done
 loz:
   name: Lozi
@@ -4382,6 +4599,8 @@ loz:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 725000
+  speakers_date: 1982-2010
   validity: done
 ltg:
   name: Latgalian
@@ -4441,6 +4660,8 @@ lue:
   orthographies:
   - script: Latin
   validity: todo
+  speakers: 640000
+  speakers_date: 2001-2010
 lug:
   name: Ganda
   orthographies:
@@ -4460,6 +4681,9 @@ lun:
   orthographies:
   - script: Latin
   validity: todo
+  speakers: 400000
+  speakers_date: 2001-2010
+  note: Speak count for Zambia and Angola. Additionally significant but unknown number of speakers in Congo.
 luo:
   name: Luo (Kenya and Tanzania)
   note: Alternative speaker count of 8000000 unconfirmed.
@@ -4484,6 +4708,8 @@ lus:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 830846
+  speakers_date: 2011
   validity: done
 lvs:
   name: Standard Latvian
@@ -4512,6 +4738,8 @@ mad:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 6700000
+  speakers_date: 2011
   validity: done
 mag:
   name: Magahi
@@ -4522,6 +4750,8 @@ mag:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 20700000
+  speakers_date: 2011
   validity: done
 mah:
   name: Marshallese
@@ -4532,6 +4762,8 @@ mah:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 55000
+  speakers_date: 1979
   validity: done
 mai:
   name: Maithili
@@ -4543,6 +4775,9 @@ mai:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 33900000
+  speakers_date: 2000
+  note: Speaker counts ambigious, since often regarded as dialect of Hindi.
   validity: done
 mal:
   name: Malayalam
@@ -4554,6 +4789,8 @@ mal:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 45000000
+  speakers_date: 2011-2019
   validity: done
 mam:
   name: Mam
@@ -4564,6 +4801,8 @@ mam:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 478000
+  speakers_date: 2003
   validity: done
 mar:
   name: Marathi
@@ -4576,6 +4815,9 @@ mar:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 83000000
+  speakers_date: 2011
+  note: An additional 12000000 L2 speakers.
   validity: done
 mas:
   name: Masai
@@ -4600,6 +4842,8 @@ maz:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 140000
+  speakers_date: 2010
   validity: done
 mcd:
   name: Sharanahua
@@ -4611,6 +4855,8 @@ mcd:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 2729
+  speakers_date: 2006-2011 
   validity: done
 mcf:
   name: Matsés
@@ -4620,6 +4866,8 @@ mcf:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 2200
+  speakers_date: 2006
   validity: done
 mdf:
   name: Moksha
@@ -4643,6 +4891,8 @@ men:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 15000000
+  speakers_date: 2006
   validity: done
 mer:
   name: Meru
@@ -4680,6 +4930,8 @@ mfq:
     script: Latin
   source:
   - Wikipedia
+  speakers: 2200
+  speakers_date: 1998-2000 
   validity: weak
 mgh:
   name: Makhuwa-Meetto
@@ -4729,6 +4981,9 @@ mic:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 7140
+  speakers_date: 2016
+  note: Speaker count based on a 4% ethnic population.
   validity: done
 min:
   name: Minangkabau
@@ -4739,6 +4994,8 @@ min:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 5500000
+  speakers_date: 2007
   validity: done
 miq:
   name: Miskito
@@ -4749,6 +5006,8 @@ miq:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 150000
+  speakers_date: 2005
   validity: done
 mkd:
   name: Macedonian
@@ -4829,6 +5088,8 @@ mnw:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 1000000
+  speakers_date: 2007
   validity: done
 moe:
   name: Montagnais
@@ -4864,6 +5125,8 @@ mos:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 7830000
+  speakers_date: 1009-2013
   validity: done
 mqm:
   name: South Marquesan
@@ -4889,6 +5152,8 @@ mri:
   - Omniglot
   - Wikipedia
   - CLDR
+  speakers: 50000
+  speakers_date: 2017
   status: living
   validity: verified
 mrj:
@@ -4925,6 +5190,8 @@ mto:
     script: Latin
   source:
   - Wikipedia
+  speakers: 5500
+  speakers_date: 2000 
   validity: weak
 mua:
   name: Mundang
@@ -5011,6 +5278,8 @@ mxv:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 150000
+  speakers_date: 1990
   validity: done
 mya:
   name: Burmese
@@ -5022,6 +5291,8 @@ mya:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 33000000
+  speakers_date: 2007
   validity: done
 myv:
   name: Erzya
@@ -5044,6 +5315,8 @@ mzi:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 8600
+  speakers_date: 2000
   validity: done
 nag:
   name: Naga Pidgin
@@ -5066,6 +5339,9 @@ nan:
     script: Chinese
   source:
   - Wikipedia
+  speakers: 48000000
+  speakers_date: 2017-2018
+  note: Speaker count is approximate.
   validity: weak
 nap:
   name: Neapolitan
@@ -5104,6 +5380,8 @@ nav:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 169359
+  speakers_date: 2011
   validity: done
 nba:
   name: Nyemba
@@ -5112,6 +5390,8 @@ nba:
     script: Latin
   source:
   - Wikipedia
+  speakers: 431000
+  speakers_date: 2010-2014
   validity: done
 nbl:
   name: South Ndebele
@@ -5148,6 +5428,8 @@ ndo:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 810000
+  speakers_date: 2006
   validity: done
 nds:
   name: Low German
@@ -5235,6 +5517,8 @@ nku:
     script: Latin
   source:
   - Wikipedia
+  speakers: 130000
+  speakers_date: 1991-2003
   validity: weak
 nld:
   name: Dutch
@@ -5329,6 +5613,8 @@ not:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 6500
+  speakers_date: 2003 
   validity: done
 nov:
   name: Novial
@@ -5388,6 +5674,8 @@ nym:
     script: Latin
   source:
   - Wikipedia
+  speakers: 1500000
+  speakers_date: 1987-2016
   validity: done
 nyn:
   name: Nyankole
@@ -5410,6 +5698,8 @@ nzi:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 412000
+  speakers_date: 2013
   validity: done
 oaa:
   name: Orok
@@ -5448,6 +5738,8 @@ ojb:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 20000
+  speakers_date: 2000
   validity: done
 oji:
   includes:
@@ -5468,6 +5760,8 @@ oji:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 100880
+  speakers_date: 1990-2010
   validity: done
 old:
   name: Mochi
@@ -5501,6 +5795,8 @@ orh:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 1200
+  speakers_date: 2009
   validity: done
 oss:
   name: Ossetian
@@ -5527,6 +5823,8 @@ ote:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 130000
+  speakers_date: 1990
   validity: done
 pam:
   name: Pampanga
@@ -5559,6 +5857,8 @@ pan:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 125000000
+  speakers_date: 2011-2015
   validity: done
 pap:
   name: Papiamento
@@ -5581,6 +5881,8 @@ pau:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 17000
+  speakers_date: 2008
   validity: done
 pbb:
   name: Páez
@@ -5591,6 +5893,8 @@ pbb:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 60000
+  speakers_date: 2011
   validity: done
 pbu:
   name: Northern Pashto
@@ -5601,6 +5905,8 @@ pbu:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 21000000
+  speakers_date: 2013
   validity: done
 pcd:
   name: Picard
@@ -5611,6 +5917,8 @@ pcd:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 700000
+  speakers_date: 2008
   validity: done
 pcm:
   name: Nigerian Pidgin
@@ -5618,6 +5926,8 @@ pcm:
   - script: Latin
   source:
   - Wikipedia
+  speakers: 30000000
+  note: An additional 40000000 L2 speakers, both counts undated.
   validity: todo
 pes:
   name: Iranian Persian
@@ -5655,6 +5965,9 @@ pis:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 24000
+  speakers_date: 1999
+  note: Pijin has an additional 300000 L2 speakers.
   validity: done
 piu:
   name: Pintupi-Luritja
@@ -5664,6 +5977,8 @@ piu:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 147
+  speakers_date: 2016
   validity: done
 plz:
   name: Paluan
@@ -5725,6 +6040,8 @@ pon:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 29000
+  speakers_date: 2001
   validity: done
 por:
   name: Portuguese
@@ -5762,6 +6079,8 @@ pov:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 1000000
+  speakers_date: 2006-2007
   validity: done
 ppl:
   name: Pipil
@@ -5772,6 +6091,8 @@ ppl:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 500
+  speakers_date: 2015
   validity: done
 prg:
   name: Prussian
@@ -5794,6 +6115,8 @@ prq:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 9881
+  speakers_date: 2017
   validity: done
 prs:
   name: Dari
@@ -5817,6 +6140,8 @@ quc:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 2330000
+  speakers_date: 2000
   validity: done
 que:
   includes:
@@ -5916,6 +6241,9 @@ rmn:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 563670
+  speakers_date: 2013
+  note: Balkan Romani has an additional 200000 L2 speakers.
   validity: done
 rmy:
   name: Vlax Romani
@@ -5926,6 +6254,8 @@ rmy:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 538480
+  speakers_date: 2002-2014
   validity: done
 rof:
   name: Rombo
@@ -6115,7 +6445,7 @@ sah:
   validity: verified
 san:
   name: Sanskrit
-  note: Sanskrit has been written with a variety of Brahmic scrits and, later, also Latin.
+  note: Sanskrit has been written with a variety of Brahmic scrits and, later, also Latin. There a no native speakers of Sanskrit.
   orthographies:
   - autonym: संस्कृतम्
     base: अ आ इ ई उ ऊ ऋ ॠ ल ृ ए ऐ ओ औ क ् ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र व श ष स ह
@@ -6174,6 +6504,8 @@ sco:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 1541693
+  speakers_date: 2011
   validity: done
 sdh:
   name: Southern Kurdish
@@ -6248,6 +6580,8 @@ sey:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 1200
+  speakers_date: 2007 
   validity: done
 sgh:
   name: Shughni
@@ -6285,6 +6619,8 @@ shk:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 175000
+  speakers_date: 1982
   validity: done
 shn:
   name: Shan
@@ -6296,6 +6632,8 @@ shn:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 3300000
+  speakers_date: 2001
   validity: done
 shp:
   name: Shipibo-Conibo
@@ -6305,6 +6643,8 @@ shp:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 26000
+  speakers_date: 2003
   validity: done
 shu:
   name: Chadian Arabic
@@ -6328,6 +6668,9 @@ sin:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 17000000
+  speakers_date: 2012
+  note: Sinhala has an additional 3000000 L2 speakers.
   validity: done
 sjd:
   name: Kildin Sami
@@ -6404,6 +6747,8 @@ skr:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 26000000
+  speakers_date: 2017
   validity: done
 slk:
   name: Slovak
@@ -6537,6 +6882,8 @@ snk:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 2100000
+  speakers_date: 2006-2011
   validity: done
 snn:
   name: Siona
@@ -6547,6 +6894,8 @@ snn:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 500
+  speakers_date: 2000-2008
   validity: done
 som:
   name: Somali
@@ -6659,6 +7008,8 @@ srr:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 1410700
+  speakers_date: 2001-2015
   validity: done
 ssw:
   name: Swati
@@ -6681,6 +7032,8 @@ suk:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 8100000
+  speakers_date: 2016
   validity: done
 sun:
   name: Sundanese
@@ -6704,6 +7057,8 @@ sus:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 1060000
+  speakers_date: 2001-2006
   validity: done
 swb:
   name: Maore Comorian
@@ -6717,6 +7072,8 @@ swb:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 152000
+  speakers_date: 2012
   validity: done
 swc:
   name: Congo Swahili
@@ -6811,6 +7168,8 @@ taj:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 1370154
+  speakers_date: 2011
   validity: done
 tam:
   name: Tamil
@@ -6822,6 +7181,8 @@ tam:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 75000000
+  speakers_date: 2011-2015
   validity: done
 tat:
   name: Tatar
@@ -6858,6 +7219,8 @@ tbz:
     script: Latin
   source:
   - Wikipedia
+  speakers: 150000
+  speakers_date: 2006-2012
   validity: weak
 tca:
   name: Ticuna
@@ -6868,6 +7231,8 @@ tca:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 47000
+  speakers_date: 1998-2008
   validity: done
 tdt:
   name: Tetun Dili
@@ -6893,6 +7258,9 @@ tel:
   - Omniglot
   - Wikipedia
   - CLDR
+  speakers: 82000000
+  speakers_date: 2011
+  note: Telugu has an additional 11000000 L2 speakers.
   validity: done
 tem:
   name: Temne
@@ -6903,6 +7271,8 @@ tem:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 2500000
+  speakers_date: 2006
   validity: done
 teo:
   name: Teso
@@ -6927,6 +7297,9 @@ tet:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 390000
+  speakers_date: 2009
+  note: Tetum has an additional 570000 L2 speakers in East Timor.
   validity: done
 tgk:
   name: Tajik
@@ -6965,11 +7338,14 @@ tha:
     numerals: ๐ ๑ ๒ ๓ ๔ ๕ ๖ ๗ ๘ ๙
     punctuation: ๏ ๛
     script: Thai
+  speakers: 36000000
+  speakers_date: 2000
   source:
   - Omniglot
   - Wikipedia
   - CLDR
   validity: done
+  note: Thai has approximately 44000000 additional L2 speakers.
 tir:
   name: Tigrinya
   orthographies:
@@ -6980,6 +7356,8 @@ tir:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 10800000
+  speakers_date: 2020
   validity: done
 tiv:
   name: Tiv
@@ -6989,6 +7367,8 @@ tiv:
     script: Latin
   source:
   - Wikipedia
+  speakers: 7000000
+  speakers_date: 2020
   validity: weak
 tkl:
   name: Tokelau
@@ -7069,6 +7449,8 @@ toi:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 1500000
+  speakers_date: 2001-2010
   validity: done
 toj:
   name: Tojolabal
@@ -7079,6 +7461,8 @@ toj:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 51733
+  speakers_date: 2010
   validity: done
 ton:
   name: Tonga (Tonga Islands)
@@ -7104,6 +7488,8 @@ top:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 80000
+  speakers_date: 1982
   validity: done
 tpi:
   name: Tok Pisin
@@ -7152,6 +7538,8 @@ tsz:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 124494
+  speakers_date: 2010
   validity: done
 ttt:
   name: Muslim Tat
@@ -7273,6 +7661,8 @@ tzh:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 445856
+  speakers_date: 2010
   validity: done
 tzm:
   name: Central Atlas Tamazight
@@ -7385,6 +7775,7 @@ umb:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 9500000
   validity: done
 umu:
   name: Munsee
@@ -7408,6 +7799,8 @@ ura:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 3000
+  speakers_date: 2002 
   validity: done
 urd:
   name: Urdu
@@ -7485,6 +7878,8 @@ vai:
   - Omniglot
   - Wikipedia
   - CLDR
+  speakers: 120000
+  speakers_date: 1991-2006
   validity: done
 vec:
   name: Venetian
@@ -7508,6 +7903,8 @@ ven:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 1300000
+  speakers_date: 2011
   validity: done
 vep:
   name: Veps
@@ -7737,6 +8134,8 @@ wuu:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 80000000
+  speakers_date: 2007
   validity: done
 wwa:
   name: Waama
@@ -7746,6 +8145,8 @@ wwa:
     script: Latin
   source:
   - Wikipedia
+  speakers: 50000
+  speakers_date: 2000
   validity: weak
 wyb:
   name: Wangaaybuwan-Ngiyambaa
@@ -7832,6 +8233,8 @@ xsm:
     script: Latin
   source:
   - Wikipedia
+  speakers: 250000
+  speakers_date: 1998-2004
   validity: done
 yad:
   name: Yagua
@@ -7842,6 +8245,8 @@ yad:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 5700
+  speakers_date: 2000
   validity: done
 yai:
   name: Yagnobi
@@ -7865,6 +8270,7 @@ yao:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 3100000
   validity: done
 yap:
   name: Yapese
@@ -7988,6 +8394,8 @@ yua:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 792113
+  speakers_date: 2010
   validity: done
 yue:
   name: Yue
@@ -7998,6 +8406,8 @@ yue:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 84000000
+  speakers_date: 2020
   validity: done
 yux:
   name: Southern Yukaghir
@@ -8094,6 +8504,8 @@ zdj:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 1100000
+  speakers_date: 2007-2011
   validity: done
 zgh:
   name: Standard Moroccan Tamazight
@@ -8132,6 +8544,8 @@ zro:
   source:
   - Omniglot
   - Wikipedia
+  speakers: 5
+  speakers_date: 2007
   validity: done
 zsm:
   name: Standard Malay

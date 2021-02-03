@@ -16,7 +16,7 @@ To collect fresh data, use:
 ```
 cd tools/speakers
 cp /dev/null "../../data/other/speakers.xml"
-scrapy crawl speakers -o "../../data/other/users.xml"
+scrapy crawl speakers -o "../../other/users.xml"
 ```
 
 To only test the spider, run as last command instead:

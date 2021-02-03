@@ -17,12 +17,12 @@ import xml.etree.ElementTree as ET
 
 
 OUTPUT = os.path.join(os.path.dirname(__file__), "../../../../",
-                      "data/users_iso.xml")
+                      "other/users_iso.xml")
 
 # Fetch the language names we want to gather speaker info about from this file
 INPUT = os.path.join(os.path.dirname(__file__), "../../../../",
                      #  "data/rosetta_new.yaml")
-                     "data/iso-639-3.yaml")
+                     "other/iso-639-3.yaml")
 
 
 class LanguageSpider(scrapy.Spider):
