@@ -2,7 +2,7 @@
 Gather a few package wide constants
 """
 from os import path
-__version__ = "0.2.0"
+__version__ = "0.2.1"
 
 DB = path.abspath(path.join(path.dirname(__file__), "hyperglot.yaml"))
 

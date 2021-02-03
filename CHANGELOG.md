@@ -1,6 +1,9 @@
 # A changelog for the lib/hyperglot CLI tool
 
-## 0.2.0 (10.9.2020)
+## 0.2.1 (03.02.2021)
+- DATA: Updated and added many scripts and languages and their speaker counts
+
+## 0.2.0 (28.01.2021)
 - FEATURE: Added `--decomposed` flag that determines if a font is required to have all glyphs of a language as code points, or if supporting all combining marks is sufficient
 - TWEAK: Renamed module and database to `hyperglot`
 - TWEAK: `--strict-support` refactored to `--validity` with default `weak` to pick the level of required validity on the languages that should get matched
