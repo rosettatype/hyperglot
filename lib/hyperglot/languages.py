@@ -17,7 +17,19 @@ class Languages(dict):
     options for convenience
     """
 
-    def __init__(self, strict=False, inherit=True, prune=True):
+    def __init__(self, strict=False, inherit=True, prune=True,
+                 validity=VALIDITYLEVELS[1]):
+        """
+        @param strict (Boolean): Use Rosetta macrolanguage definitions (False)
+            or ISO definitions (True). Defaults to False.
+        @param inherit (Boolean): Inherit orthographies. Defaults to True.
+        @param prune (Boolean): Make character lists unicode decomposed python
+            list (True) or keep as strings (False). Defaults to True.
+        @param validity (Hyperglot.VALIDITYLEVEL): Minimum level of validity
+            which languages must have. One of "todo", "weak", "done",
+            "verified". Defaults to "weak" — all languages with basic
+            information, but possibly unconfirmed.
+        """
         with open(DB) as f:
             data = yaml.load(f, Loader=yaml.Loader)
             self.update(data)
@@ -28,6 +40,8 @@ class Languages(dict):
 
             if not strict:
                 self.lax_macrolanguages()
+
+            self.filter_by_validity(validity)
 
             if prune:
                 # Transform all orthography character lists to pruned python
@@ -126,11 +140,25 @@ class Languages(dict):
                 for iso, m in macrolanguages.items():
                     if lang in m["includes"] and "orthographies" in m:
                         log.debug("Inheriting macrolanguage '%s' "
-                                "orthographies to language '%s'"
-                                % (iso, lang))
+                                  "orthographies to language '%s'"
+                                  % (iso, lang))
         # Make an explicit copy to keep the two languages
         # separate
         self[lang]["orthographies"] = m["orthographies"].copy()
+
+    def filter_by_validity(self, validity):
+        if validity not in VALIDITYLEVELS:
+            raise ValueError("Validity level '%s' not valid, must be one of: "
+                             ", ".join(VALIDITYLEVELS) % validity)
+
+        allowed = VALIDITYLEVELS.index(validity)
+        pruned = {}
+        for iso, lang in self.items():
+            if VALIDITYLEVELS.index(lang["validity"]) >= allowed:
+                pruned[iso] = lang
+
+        self.clear()
+        self.update(pruned)
 
     def get_support_from_chars(self, chars,
                                supportlevel=list(SUPPORTLEVELS.keys())[0],

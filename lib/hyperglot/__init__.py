@@ -11,6 +11,7 @@ SUPPORTLEVELS = {
     "aux": "auxiliary"
 }
 
+# Note that order matters, since these may be used like a logging level
 VALIDITYLEVELS = [
     "todo",
     "weak",
@@ -19,7 +20,7 @@ VALIDITYLEVELS = [
 ]
 
 
-# note that "secondary" as status is also used, but on orthographies!
+# Note that "secondary" as status is also used, but on orthographies!
 STATUSES = [
     "historical",
     "constructed",

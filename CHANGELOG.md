@@ -1,5 +1,8 @@
 # A changelog for the lib/hyperglot CLI tool
 
+## WIP
+- TWEAK: `Languages()` now takes a `validity` argument to filter by validity ('weak' or better by default)
+
 ## 0.2.1 (03.02.2021)
 - DATA: Updated and added many scripts and languages and their speaker counts
 

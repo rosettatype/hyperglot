@@ -11,26 +11,27 @@ plex_arabic = os.path.abspath("tests/plex-4.0.2/IBM-Plex-Sans-Arabic/fonts/compl
 def test_main_cli():
     res = runner.invoke(cli, [eczar])
     assert res.exit_code == 0
-    assert "203 languages of Latin script" in res.output
-    assert "203 languages supported in total" in res.output
+    assert "271 languages of Latin script" in res.output
+    assert "7 languages of Devanagari script" in res.output
+    assert "278 languages supported in total" in res.output
 
 
 def test_main_cli_support():
     res = runner.invoke(cli, plex_arabic)
-    assert "201 languages supported in total" in res.output
+    assert "267 languages supported in total" in res.output
     res = runner.invoke(cli, plex_arabic + " --support aux")
-    assert "175 languages supported in total" in res.output
+    assert "240 languages supported in total" in res.output
 
 
 def test_main_cli_decomposed():
     res = runner.invoke(cli, plex_arabic)
-    assert "201 languages supported in total" in res.output
+    assert "267 languages supported in total" in res.output
     res = runner.invoke(cli, plex_arabic + " --decomposed")
-    assert "246 languages supported in total" in res.output
+    assert "329 languages supported in total" in res.output
 
 
 def test_main_cli_include_constructed():
     res = runner.invoke(cli, plex_arabic)
-    assert "201 languages supported in total" in res.output
+    assert "267 languages supported in total" in res.output
     res = runner.invoke(cli, plex_arabic + " --include-constructed")
-    assert "209 languages supported in total" in res.output
+    assert "275 languages supported in total" in res.output
