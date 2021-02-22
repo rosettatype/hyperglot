@@ -2,6 +2,7 @@
 
 ## WIP
 - TWEAK: `Languages()` now takes a `validity` argument to filter by validity ('weak' or better by default)
+- TWEAK: `parse_chars` now will put decomposition components on in the input list to the end of the list
 
 ## 0.2.1 (03.02.2021)
 - DATA: Updated and added many scripts and languages and their speaker counts

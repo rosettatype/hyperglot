@@ -63,6 +63,7 @@ def parse_chars(characters, decompose=True, retainDecomposed=False):
     unique_chars = []
     try:
         unique_strings = "".join(character_list_from_string(characters))
+        unique_chars_additional = []
 
         if not decompose:
             # If we want to just get the string of characters as a list without
@@ -90,13 +91,13 @@ def parse_chars(characters, decompose=True, retainDecomposed=False):
                     if unihexstr in ignore:
                         continue
                     try:
-                        unique_chars.append(chr(int(unihexstr, 16)))
+                        unique_chars_additional.append(chr(int(unihexstr, 16)))
                     except Exception as e:
                         log.error("Error getting glyph from decomposition "
                                   "part '%s' of '%s' (decomposition '%s'):"
                                   " %s" % (unihexstr, c, decomposition, e))
 
-        unique_chars = list_unique(unique_chars)
+        unique_chars = list_unique(unique_chars + unique_chars_additional)
     except Exception as e:
         log.error("Error parsing characters '%s': %s" % (characters, e))
 
