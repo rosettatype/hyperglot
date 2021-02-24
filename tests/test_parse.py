@@ -4,6 +4,7 @@ Tests for basic parsing and decomposition methods
 import os
 from hyperglot.parse import (parse_chars, parse_font_chars,
                              character_list_from_string,
+                             sort_by_character_type,
                              list_unique)
 
 
@@ -42,7 +43,8 @@ def test_parse_chars():
         assert ["a", unichr, "b"] == parse_chars("a" + unichr + "b")
 
     assert " " not in parse_chars("a   bc")
-    assert " " not in parse_chars("a ą b c d e ę g h i į j k l ł m n o ǫ s t w x y z ' ´")
+    assert " " not in parse_chars(
+        "a ą b c d e ę g h i į j k l ł m n o ǫ s t w x y z ' ´")
 
 
 def test_character_list_from_string():
@@ -68,3 +70,10 @@ def test_parse_font_chars():
     # Just some basic sanity checks
     assert "Ä" in chars
     assert "अ" in chars
+
+
+def test_sort_by_character_type():
+    # Test sorting, Letters first, Marks second, rest after, and secondary sort
+    # by ASC unicode
+    expected = ["A", "Z", "a", "z", "̇", ".", "1"]
+    assert sort_by_character_type(expected) == expected

@@ -51,6 +51,32 @@ def character_list_from_string(string, normalize=True):
     return li
 
 
+def sort_key_character_category(c):
+    """
+    Sorting comparator to sort unicode characters by their unicode type, first Letters, then Marks,
+    then anything else, secondary sort by unicode ASC
+    """
+    order = ["L", "M"]
+
+    # Get the first letter of the category
+    cat = unicodedata2.category(c)[:1]
+
+    # Get the index of that letter in the order, or higher if not found
+    order = order.index(cat) if cat in order else len(order)
+
+    # Concat the primary order with the unicode int, so as secondary sort we
+    # get unicode ASC
+    order = "%d-%s" % (order, str(ord(c)).zfill(8))
+    return order
+
+
+def sort_by_character_type(chars):
+    """
+    Just a utility wrapper around sorted for this specific case
+    """
+    return sorted(chars, key=sort_key_character_category)
+
+
 def parse_chars(characters, decompose=True, retainDecomposed=False):
     """
     From a string of characters get a set of unique unicode codepoints needed
@@ -63,7 +89,7 @@ def parse_chars(characters, decompose=True, retainDecomposed=False):
     unique_chars = []
     try:
         unique_strings = "".join(character_list_from_string(characters))
-        unique_chars_additional = []
+        additional = []
 
         if not decompose:
             # If we want to just get the string of characters as a list without
@@ -91,13 +117,17 @@ def parse_chars(characters, decompose=True, retainDecomposed=False):
                     if unihexstr in ignore:
                         continue
                     try:
-                        unique_chars_additional.append(chr(int(unihexstr, 16)))
+                        additional.append(chr(int(unihexstr, 16)))
                     except Exception as e:
                         log.error("Error getting glyph from decomposition "
                                   "part '%s' of '%s' (decomposition '%s'):"
                                   " %s" % (unihexstr, c, decomposition, e))
 
-        unique_chars = list_unique(unique_chars + unique_chars_additional)
+        # Append additional chars retrieved from decomposition to the end, but
+        # sort those so that we have letters, then marks, then anything else
+        additional = sort_by_character_type(additional)
+
+        unique_chars = list_unique(unique_chars + additional)
     except Exception as e:
         log.error("Error parsing characters '%s': %s" % (characters, e))
 
