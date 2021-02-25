@@ -27,6 +27,8 @@ setup(name="hyperglot",
           "fonttools>=4.0.2",
           "pyyaml>=5.3",
           # For validation and decompositionq
-          "unicodedata2>=13.0.0"
+          "unicodedata2>=13.0.0",
+          # For nicer validation output
+          "colorlog>=4.7.2"
       ],
       )

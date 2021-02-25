@@ -42,6 +42,7 @@ class Languages(dict):
                 self.lax_macrolanguages()
 
             self.filter_by_validity(validity)
+            self.set_defaults()
 
             if prune:
                 # Transform all orthography character lists to pruned python
@@ -50,6 +51,18 @@ class Languages(dict):
 
     def __repr__(self):
         return "Languages DB dict with '%d' languages" % len(self.keys())
+
+    def set_defaults(self):
+        """
+        There are some implicit defaults we set if they are not in the data
+        """
+        for iso, lang in self.items():
+            if "orthographies" in lang:
+                if len(lang["orthographies"]) == 1 \
+                        and "status" not in lang["orthographies"][0]:
+                    log.debug("Implicitly setting only orthography of '%s' to "
+                              "'primary'." % iso)
+                    lang["orthographies"][0]["status"] = "primary"
 
     def prune_chars(self):
         """

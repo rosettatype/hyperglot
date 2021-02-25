@@ -3,6 +3,7 @@ A CLI script to check hyperglot.yaml is well-formed, called with:
 $ hyperglot-validate
 """
 import logging
+import colorlog
 import yaml
 import os
 import re
@@ -11,11 +12,21 @@ from .languages import Languages
 from .parse import (parse_chars, prune_superflous_marks)
 from . import (STATUSES, VALIDITYLEVELS)
 
-log = logging.getLogger(__name__)
+handler = colorlog.StreamHandler()
+handler.setFormatter(colorlog.ColoredFormatter('%(log_color)s%(message)s'))
+log = colorlog.getLogger(__name__)
 log.setLevel(logging.DEBUG)
+log.addHandler(handler)
+
+print()
+print("No color = FYI")
+print("Green = FYI, but worth reviewing")
+print("Yellow = Might need fixing")
+print("Red = Requires fixing")
+print()
 
 ISO_639_3 = "../../other/iso-639-3.yaml"
-log.info("Loading iso-639-3.yaml for names and macro language checks")
+log.debug("Loading iso-639-3.yaml for names and macro language checks")
 try:
     iso_db = os.path.abspath(os.path.join(os.path.dirname(__file__),
                                           ISO_639_3))
@@ -28,11 +39,11 @@ except Exception as e:
 
 
 def check_yaml():
-    log.info("Checking yaml structure...")
 
     try:
+        log.debug("yaml structure ok")
         # Use prune=False to validate the orthographies raw
-        return Languages(prune=False)
+        return Languages(prune=False, validity=VALIDITYLEVELS[0])
     except yaml.scanner.ScannerError as e:
         log.error("Malformed yaml:")
         print(e)
@@ -73,6 +84,19 @@ def check_types(Langs):
                     if not check_is_valid_glyph_string(o["auxiliary"]):
                         log.error("'%s' has invalid 'auxiliary' glyph list"
                                   % iso)
+
+                allowed = ["autonym", "inherit", "script", "base",
+                           "auxiliary", "numerals", "status", "note"]
+                invalid = [k for k in o.keys() if k not in allowed]
+                if len(invalid):
+                    log.error("'%s' has invalid orthography keys: '%s'" %
+                              (iso, "', '".join(invalid)))
+
+            primary_orthography = [o for o in lang["orthographies"]
+                                   if "status" in o and
+                                   o["status"] == "primary"]
+            if len(primary_orthography) == 0:
+                log.error("'%s' has no primary orthography" % iso)
 
         if "name" not in lang and "preferred_name" not in lang:
             log.error("'%s' has neither 'name' nor 'preferred_name'" % iso)
@@ -176,10 +200,10 @@ def check_names(Langs):
                     continue
                 autonym_ok, chars, missing = check_autonym_spelling(o)
                 if not autonym_ok:
-                    log.error("'%s' has invalid autonym '%s' which cannot "
-                              "be spelled with that orthography's charset "
-                              "(base + auxiliary) '%s' - missing '%s'"
-                              % (iso, o["autonym"], "".join(chars),
+                    log.warn("'%s' has invalid autonym '%s' which cannot "
+                             "be spelled with that orthography's charset "
+                             "(base + auxiliary) '%s' - missing '%s'"
+                             % (iso, o["autonym"], "".join(chars),
                                  "".join(missing)))
 
         if iso not in iso_data.keys():
@@ -187,10 +211,9 @@ def check_names(Langs):
         else:
             if "names" in iso_data[iso]:
                 if lang["name"] not in iso_data[iso]["names"]:
-                    log.warning("'%s' name ('%s') not found in iso data "
-                                "('%s')"
-                                % (iso, lang["name"],
-                                   ", ".join(iso_data[iso]["names"])))
+                    log.info("'%s' name ('%s') differs from iso data ('%s')"
+                             % (iso, lang["name"],
+                                ", ".join(iso_data[iso]["names"])))
             else:
                 log.warning("'%s' has no 'names' attribute in iso data"
                             % iso)
