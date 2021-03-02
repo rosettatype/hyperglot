@@ -12,7 +12,7 @@ for iso, lang in Langs.items():
             if o["script"] not in bicameral or "inherit" in o:
                 continue
 
-            for level in ["base", "aux"]:
+            for level in ["base", "auxiliary"]:
                 if level in o:
                     caps = []
                     chars = character_list_from_string(o[level])

@@ -67,7 +67,7 @@ def sort_key_character_category(c):
 
     # Concat the primary order with the unicode int, so as secondary sort we
     # get unicode ASC
-    order = "%d-%s" % (order, str(ord(c)).zfill(8))
+    order = "%s-%s" % (str(order).zfill(2), str(ord(c)).zfill(8))
     return order
 
 
