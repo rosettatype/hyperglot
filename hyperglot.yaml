@@ -38,6 +38,7 @@ aar:
   validity: verified
 aat:
   name: Arvanitika Albanian
+  note: currently unclear which orthography is preferred, if any.
   orthographies:
   - autonym: Arbërisht
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z á ä ç è é ë í ï ó ö ú ü ý
@@ -46,6 +47,7 @@ aat:
     auxiliary: η ψ ω ά έ ή ί ό ύ ώ ϊ ϋ ΐ ΰ
     base: α β b ϳ γ δ d ε ζ θ ι κ λ μ ν ξ ο π ρ σ ς τ υ φ χ ̇ ̱ ̈ ̰
     script: Greek
+    validity: done
   source:
   - Omniglot
   - Wikipedia
@@ -355,6 +357,7 @@ aii:
   - autonym: ܐܵܬ݂ܘܼܪܵܝܲܐ ܠܸܫܵܢܵܐ
     base: ܟ ܝ ܛ ܚ ܙ ܘ ܗ ܕ ܓ ܒ ܐ ܬ ܫ ܪ ܩ ܨ ܦ ܥ ܣ ܢ ܡ ܠ ݇ ݃ ܹ ܸ ܵ ܲ
     script: Syriac
+    status: primary
   - autonym: Лышана Атураја
     base: а б в г ԁ е ә ж з и ј к л q l м н п р с т t у х һ ч ш ы d
     script: Cyrillic
@@ -855,13 +858,15 @@ ayr:
   validity: verified
 azb:
   name: South Azerbaijani
+  note: Arabic script is used in Iran, whereas Latin script is used elsewhere.
   orthographies:
   - autonym: آذربایجانجا
     base: و ْ ؤ ئ ا خ ع ن پ چ ژ ک گ ۆ ۇ ی ە ݣ ﺏ ﺕ ﺙ ﺝ ﺡ ﺩ ﺫ ﺭ ﺯ ﺱ ﺵ ﺹ ﺽ ﻁ ﻅ ﻍ ﻑ ﻕ ﻝ ﻡ ٛ ﻥ ﻩ ﻭ آ ج ب ذ ر
     script: Arabic
+    status: primary
   - base: a b c d e f g h i j k l m n o p q r s t u v x y z ç ö ü ğ İ ı ş ə
     script: Latin
-    status: secondary
+    status: primary
   source:
   - Wikipedia
   - done
@@ -876,9 +881,10 @@ azj:
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ј ғ ҝ ү ҹ һ ә ө ’
     note: Official in Dagestan (Russia).
     script: Cyrillic
-    status: local
+    status: primary
   - base: a b c d e f g h i j k l m n o p q r s t u v x y z ç ö ü ğ İ ı ş ə ‘
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -892,6 +898,7 @@ bak:
   - autonym: Башҡортса
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ғ ҙ ҡ ң ҫ ү һ ә ө
     script: Cyrillic
+    status: primary
   - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ç ö ü č ğ İ ı ķ ņ ś ş š ź
     script: Latin
     status: deprecated
@@ -1017,6 +1024,7 @@ bel:
   - autonym: Беларуская
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё і ў ’ ґ
     script: Cyrillic
+    status: primary
   - autonym: Biełaruskaja
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ć č ł ń ś š ŭ ź ž
     script: Latin
@@ -1100,6 +1108,7 @@ bho:
     base: अ आ इ ई उ ऊ ए ऐ ा ि ी ु ू े ै ओ औ ः ँ ो ौ ् क ख ग घ ङ च छ ज झ ञ ट ठ ड ़ ढ ण त थ द ध न प फ ब भ म य र ल व श ष स ह
     numerals: ० १ २ ३ ४ ५ ६ ७ ८ ९
     script: Devanagari
+    status: primary
   - autonym: 𑂦𑂷𑂔𑂣𑂳𑂩𑂲
     base: 𑂃 𑂄 𑂅 𑂆 𑂇 𑂈 𑂉 𑂊 𑂰 𑂲 𑂳 𑂴 𑂵 𑂶 𑂋 𑂌 𑂂 𑂀 𑂸 𑂍 𑂎 𑂏 𑂐 𑂑 𑂒 𑂓 𑂔 𑂕 𑂖 𑂗 𑂘 𑂙 𑂚 𑂛 𑂜 𑂝 𑂞 𑂟 𑂠 𑂡 𑂢 𑂣 𑂤 𑂥 𑂦 𑂧 𑂨 𑂩 𑂪 𑂫 𑂬 𑂭 𑂮 𑂯
     numerals: ० १ २ ३ ४ ५ ६ ७ ८ ९
@@ -1209,6 +1218,7 @@ bos:
   - autonym: Bosanski
     base: a b c d e f g h i j k l m n o p r s t u v z ć č đ š ž
     script: Latin
+    status: primary
   source:
   - Omniglot
   - CLDR
@@ -1253,6 +1263,7 @@ bug:
   - autonym: Basa Ugi
     base: a b c d e g i j k l m n o p r s t u w y ' ә
     script: Latin
+    status: primary
   - autonym: ᨅᨔ ᨕᨘᨁᨗ
     base: ᨀ ᨁ ᨂ ᨃ ᨄ ᨅ ᨆ ᨇ ᨈ ᨉ ᨊ ᨋ ᨌ ᨍ ᨎ ᨏ ᨐ ᨑ ᨒ ᨓ ᨔ ᨕ ᨖ ◌ ᨗ ᨘ ᨙ ᨚ ᨛ ᨞ ᨟
     script: Lontara
@@ -1282,6 +1293,7 @@ bxm:
   - autonym: Буряад
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ү һ ө
     script: Cyrillic
+    status: primary
   - autonym: Buryaad
     base: a b c ç d e f g h i j k l m n o ө p r s ş t u v x y z ƶ
     note: Used 1931–1939
@@ -1301,6 +1313,7 @@ bxr:
   - autonym: Буряад
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ү һ ө
     script: Cyrillic
+    status: primary
   - autonym: Buryaad
     base: a b c ç d e f g h i j k l m n o ө p r s ş t u v x y z ƶ
     note: Used 1931–1939
@@ -1320,6 +1333,7 @@ bxu:
   - autonym: Буряад
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ү һ ө
     script: Cyrillic
+    status: primary
   - autonym: Buryaad
     base: a b c ç d e f g h i j k l m n o ө p r s ş t u v x y z ƶ
     note: Used 1931–1939
@@ -1601,13 +1615,15 @@ chv:
   validity: done
 cic:
   name: Chickasaw
+  note: Two orthographies (Humes and Munro-Willmond) were created. The current standard orthography seems to follow Munro-Willmond.
   orthographies:
   - autonym: Chikashshanompa'
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ó ú '
     script: Latin
   - autonym: Chikashshanompa'
-    base: a b c f g h i k l m n o p s t w y ̠ '
+    base: a b c f g h i k l m n o p s t w y a̠ i̠ o̠ ̠ '
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -1724,9 +1740,11 @@ cmn:
       通 逛 逝 速 造 逢 逸 逻 逼 遇 遍 道 遗 遭 遮 遵 避 邀 邓 那 邦 邪 邮 邱 邻 郎 郑 部 郭 都 鄂 酉 酋 配 酒 酷 酸 醉 醒 采 释 里 重 野 量 金 针 钓 钟 钢 钦 钱 钻 铁 铃 铜 铢 铭 银 铺 链 销 锁 锅 锋 错 锡 锦 键 锺 镇 镜 镭 长 门 闪 闭 问 闰 闲 间 闷 闹 闻 阁 阅 阐 阔 队 阮 防 阳 阴 阵 阶 阻 阿 陀 附 际 陆 陈 降 限 院 除 险 陪 陵 陶 陷 隆 随 隐 隔 障 难 雄 雅 集 雉 雨 雪 雯 雳 零 雷 雾 需 震 霍 霖 露 霸 霹 青 靖 静 非 靠 面 革 靼 鞋 鞑 韦 韩 音 页 顶 项 顺 须 顽 顾 顿 预 领 颇 频 颗 题 额 风 飘 飙 飞 食 餐 饭 饮 饰 饱 饼 馆 首 香 馨 马 驱 驶 驻 驾 验 骑 骗 骚 骤 骨 高 鬼 魂 魅 魔 鱼 鲁 鲜 鸟 鸡 鸣 鸭 鸿 鹅 鹤 鹰 鹿 麦 麻 黄 黎 黑 默 鼓 鼠 鼻 齐 齿 龄 龙 龟
     numerals: '% + - . 0 1 2 3 4 5 6 7 8 9 ‰ 〇'
     script: Chinese
+    status: primary
   - autonym: Putong hua
     base: a b c d e f g h i j k l m n o p q r s t u w x y z
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -1764,10 +1782,10 @@ cnr:
   - autonym: Црногорски
     base: ́ а б в г д е ж з и к л м н о п р с т у ф х ц ч ш ђ ј љ њ ћ џ
     script: Cyrillic
-    status: secondary
   - autonym: Crnogorski
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ć č đ ś š ź ž
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -1854,10 +1872,11 @@ crh:
   - autonym: Къырымтатар
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё
     script: Cyrillic
-    status: secondary
+    note: Widely used in Crimea.
   - autonym: Qırımtatar
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ç ñ ö ü ğ ş ı
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -2205,6 +2224,7 @@ dyu:
   - autonym: Julakan
     base: a b c d e ɛ f g h i j k l m n ɲ ŋ o ɔ p r s t u v w y z
     script: Latin
+    status: primary
   - autonym: ߖߎ߬ߟߊ߬ߞߊ߲
     base: ߐ ߏ ߎ ߍ ߌ ߋ ߊ ߙ ߘ ߗ ߖ ߕ ߔ ߓ ߡ ߟ ߞ ߝ ߜ ߛ ߚ ߒ ߦ ߥ ߤ ߣ ߢ
     numerals: ߀ ߁ ߂ ߃ ߄ ߅ ߆ ߇ ߈ ߉
@@ -2276,6 +2296,7 @@ emk:
   - autonym: Maninkakan
     base: a b c d e ɛ f g h i j k l m n ɲ ŋ o ɔ p r s t u v w y z
     script: Latin
+    status: primary
   - autonym: ߡߊߣߌ߲ߞߊߞߊ߲
     base: ߐ ߏ ߎ ߍ ߌ ߋ ߊ ߙ ‎ ߘ ߗ ߖ ߕ ߔ ߓ ߡ ߟ ߞ ߝ ߜ ߛ ߚ ߒ ߦ ߥ ߤ ߣ ߢ
     numerals: ߀ ߁ ߂ ߃ ߄ ߅ ߆ ߇ ߈ ߉
@@ -2722,6 +2743,7 @@ gag:
   - autonym: Gagauzça
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ç ê ö ü ğ İ ı ş ţ ș ț
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -2731,14 +2753,16 @@ gag:
   validity: done
 gan:
   name: Gan
-  note: Latin is required for the Pinfa romanization system.
   orthographies:
   - autonym: 赣语 / 江西话
     inherit: cmn
     script: Chinese
+    status: primary
   - autonym: Gann ua
     base: b p m f d t l z c s j q x g k h i u y a e o n
     script: Latin
+    status: primary
+    note: Latin is required for the Pinfa romanization system.
   source:
   - Omniglot
   - Wikipedia
@@ -3048,14 +3072,16 @@ hae:
   validity: verified
 hak:
   name: Hakka Chinese
-  note: Latin is required for pinyin romanization.
   orthographies:
   - autonym: 客家话 / 客家話
     inherit: cmn
     script: Chinese
+    status: primary
   - autonym: hak ga wa
     base: a b c d e f g h i j k l m n o p q r s t u w x y z
     script: Latin
+    status: primary
+    note: Latin is required for pinyin romanization.
   source:
   - Omniglot
   - Wikipedia
@@ -3559,10 +3585,11 @@ jdt:
   - autonym: Жугьури
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
     script: Cyrillic
+    status: primary
   - autonym: ז׳אוּהאוּראִ
     base: א ב ג ד ה ו ּ ז ח י כ ל מ נ ס ע פ צ ק ר ש ת ׳ ִ ַ ָ }
     script: Hebrew
-    status: secondary
+    note: Regaining popularity.
   - autonym: Çuhuri
     base: a b c ç d e ə f g h ḩ ћ i j k l m n o p q r s ş t u v x y z
     script: Latin
@@ -3612,10 +3639,13 @@ jpn:
     numerals: '% + - . 0 1 2 3 4 5 6 7 8 9 ‰'
     punctuation: '! " # % & ( ) *  - . / : ; ? @ [ \ ] _ § ¶ ‐ — ― ‖ ‘ ’ “ ” † ‡ ‥ … ‰ ′ ″ ※ ‾ 、 。 〃 〈 〉 《 》 「 」 『 』 【 】 〔 〕 〜 ・ ！ ＂ ＃ ％ ＆ ＇ （ ） ＊ ， － ． ／ ： ； ？ ＠ ［ ＼ ］ ＿ ｛ ｝ ｡ ｢ ｣ ､ ･'
     script: Kanji
+    status: primary
   - base: あ い う え お k か き く け こ g が ぎ ぐ げ ご s さ し す せ そ z ざ じ ず ぜ ぞ t た ち つ て と d だ ぢ づ で ど n な に ぬ ね の h は ひ ふ へ ほ b ば び ぶ べ ぼ p ぱ ぴ ぷ ぺ ぽ m ま み む め も y や ゆ よ r ら り る れ ろ w わ ゐ ゑ を ん っ ゝ ゛ ゜
     script: Hiragana
+    status: primary
   - base: ゠ ァ ア ィ イ ゥ ウ ェ エ ォ オ カ ガ キ ギ ク グ ケ ゲ コ ゴ サ ザ シ ジ ス ズ セ ゼ ソ ゾ タ ダ チ ヂ ッ ツ ヅ テ デ ト ド ナ ニ ヌ ネ ノ ハ バ パ ヒ ビ ピ フ ブ プ ヘ ベ ペ ホ ボ ポ マ ミ ム メ モ ャ ヤ ュ ユ ョ ヨ ラ リ ル レ ロ ヮ ワ ヰ ヱ ヲ ン ヴ ヵ ヶ ヷ ヸ ヹ ヺ ・ ー ヽ ヾ ヿ ㇰ ㇱ ㇲ ㇳ ㇴ ㇵ ㇶ ㇷ ㇸ ㇹ ㇺ ㇻ ㇼ ㇽ ㇾ ㇿ
     script: Katakana
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -3643,6 +3673,7 @@ kaa:
   - autonym: Qaraqalpaq
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z á İ ı ǵ ń ú
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -3678,6 +3709,7 @@ kal:
     auxiliary: b c d h w x y z å æ ø
     base: a e f g i j k l m n o p q r s t u v
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -4098,9 +4130,10 @@ kmr:
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ç ê î ş û ł ň ř ü
     note: Kurdish Latin alphabet
     script: Latin
+    note: Used in Turkey, Syria, Iraq and Iran.
   - base: а б в г д е ә ж з й к л м н о ӧ п р с т у ф х һ ч ш щ ь э ԛ ԝ '
-    note: Used in Russia and Armenia.
     script: Cyrillic
+    note: Used in Russia and Armenia.
   source:
   - Wikipedia
   - Omniglot
@@ -4182,10 +4215,12 @@ kor:
       퓘 퓙 퓚 퓛 퓜 퓝 퓞 퓟 퓠 퓡 퓢 퓣 퓤 퓥 퓦 퓧 퓨 퓩 퓪 퓫 퓬 퓭 퓮 퓯 퓰 퓱 퓲 퓳 퓴 퓵 퓶 퓷 퓸 퓹 퓺 퓻 퓼 퓽 퓾 퓿 픀 픁 픂 픃 프 픅 픆 픇 픈 픉 픊 픋 플 픍 픎 픏 픐 픑 픒 픓 픔 픕 픖 픗 픘 픙 픚 픛 픜 픝 픞 픟 픠 픡 픢 픣 픤 픥 픦 픧 픨 픩 픪 픫 픬 픭 픮 픯 픰 픱 픲 픳 픴 픵 픶 픷 픸 픹 픺 픻 피 픽 픾 픿 핀 핁 핂 핃 필 핅 핆 핇 핈 핉 핊 핋 핌 핍 핎 핏 핐 핑 핒 핓 핔 핕 핖 핗 하 학 핚 핛 한 핝 핞 핟 할 핡 핢 핣 핤 핥 핦 핧 함 합 핪 핫 핬 항 핮 핯 핰 핱 핲 핳 해 핵 핶 핷 핸 핹 핺 핻 핼 핽 핾 핿 햀 햁 햂 햃 햄 햅 햆 햇 했 행 햊 햋 햌 햍 햎 햏 햐 햑 햒 햓 햔 햕 햖 햗 햘 햙 햚 햛 햜 햝 햞 햟 햠 햡 햢 햣 햤 향 햦 햧 햨 햩 햪 햫 햬 햭 햮 햯 햰 햱 햲 햳 햴 햵 햶 햷 햸 햹 햺 햻 햼 햽 햾 햿 헀 헁 헂 헃 헄 헅 헆 헇 허 헉 헊 헋 헌 헍 헎 헏 헐 헑 헒 헓 헔 헕 헖 헗 험 헙 헚 헛 헜 헝 헞 헟 헠 헡 헢 헣 헤 헥 헦 헧 헨 헩 헪 헫 헬 헭 헮 헯 헰 헱 헲 헳 헴 헵 헶 헷 헸 헹 헺 헻 헼 헽 헾 헿 혀 혁 혂 혃 현 혅 혆 혇 혈 혉 혊 혋 혌 혍 혎 혏 혐 협 혒 혓 혔 형 혖 혗 혘 혙 혚 혛 혜 혝 혞 혟 혠 혡 혢 혣 혤 혥 혦 혧 혨 혩 혪 혫 혬 혭 혮 혯 혰 혱 혲 혳 혴 혵 혶 혷 호 혹 혺 혻 혼 혽 혾 혿 홀 홁 홂 홃 홄 홅 홆 홇 홈 홉 홊 홋 홌 홍 홎 홏 홐 홑 홒 홓 화 확 홖 홗 환 홙 홚 홛 활 홝 홞 홟 홠 홡 홢 홣 홤 홥 홦 홧 홨 황 홪 홫 홬 홭 홮 홯 홰 홱 홲 홳 홴 홵 홶 홷 홸 홹 홺 홻 홼 홽 홾 홿 횀 횁 횂 횃 횄 횅 횆 횇 횈 횉 횊 횋 회 획 횎 횏 횐 횑 횒 횓 횔 횕 횖 횗 횘 횙 횚 횛 횜 횝 횞 횟 횠 횡 횢 횣 횤 횥 횦 횧 효 횩 횪 횫 횬 횭 횮 횯 횰 횱 횲 횳 횴 횵 횶 횷 횸 횹 횺 횻 횼 횽 횾 횿 훀 훁 훂 훃 후 훅 훆 훇 훈 훉
       훊 훋 훌 훍 훎 훏 훐 훑 훒 훓 훔 훕 훖 훗 훘 훙 훚 훛 훜 훝 훞 훟 훠 훡 훢 훣 훤 훥 훦 훧 훨 훩 훪 훫 훬 훭 훮 훯 훰 훱 훲 훳 훴 훵 훶 훷 훸 훹 훺 훻 훼 훽 훾 훿 휀 휁 휂 휃 휄 휅 휆 휇 휈 휉 휊 휋 휌 휍 휎 휏 휐 휑 휒 휓 휔 휕 휖 휗 휘 휙 휚 휛 휜 휝 휞 휟 휠 휡 휢 휣 휤 휥 휦 휧 휨 휩 휪 휫 휬 휭 휮 휯 휰 휱 휲 휳 휴 휵 휶 휷 휸 휹 휺 휻 휼 휽 휾 휿 흀 흁 흂 흃 흄 흅 흆 흇 흈 흉 흊 흋 흌 흍 흎 흏 흐 흑 흒 흓 흔 흕 흖 흗 흘 흙 흚 흛 흜 흝 흞 흟 흠 흡 흢 흣 흤 흥 흦 흧 흨 흩 흪 흫 희 흭 흮 흯 흰 흱 흲 흳 흴 흵 흶 흷 흸 흹 흺 흻 흼 흽 흾 흿 힀 힁 힂 힃 힄 힅 힆 힇 히 힉 힊 힋 힌 힍 힎 힏 힐 힑 힒 힓 힔 힕 힖 힗 힘 힙 힚 힛 힜 힝 힞 힟 힠 힡 힢 힣
     script: Hangul
+    status: primary
   - base: 丘 串 乃 久 乖 九 乞 乫 乾 亂 亘 交 京 仇 今 介 件 价 企 伋 伎 伽 佳 佶 侃 來 侊 供 係 俓 俱 個 倞 倦 倨 假 偈 健 傀 傑 傾 僅 僑 價 儆 儉 儺 光 克 兢 內 公 共 其 具 兼 冀 冠 凱 刊 刮 券 刻 剋 剛 劇 劍 劒 功 加 劤 劫 勁 勍 勘 勤 勸 勻 勾 匡 匣 區 南 卦 却 卵 卷 卿 厥 去 及 口 句 叩 叫 可 各 吉 君 告 呱 呵 咎 咬 哥 哭 啓 喀 喇 喝 喫 喬 嗜 嘉 嘔 器 囊 困 固 圈 國 圭 圻 均 坎 坑 坤 坰 坵 垢 基 埼 堀 堅 堈 堪 堺 塊 塏 境 墾 壙 壞 夔 奇 奈 奎 契 奸 妓 妗 姑 姜 姦 娘 娜 嫁 嬌 孔 季 孤 宏 官 客 宮 家 寄 寇 寡 寬 尻 局 居 屆 屈 岐 岡 岬 崎 崑 崗 嵌 嵐 嶇 嶠 工 巧 巨 己 巾 干 幹 幾 庚 庫 康 廊 廐 廓 廣 建 弓 强 彊 徑 忌 急 怪 怯 恐 恝 恪 恭 悸 愆 感 愧 愷 愾 慊 慣 慤 慨 慶 慷 憩 憬 憾 懃 懇 懦 懶 懼 戈 戒 戟 戡 扱 技 抉 拉 拏 拐 拒 拘 括 拮 拱 拳 拷 拿 捏 据 捲 捺 掘 掛 控 揀 揆 揭 擊 擎 擒 據 擧 攪 攷 改 攻 故 敎 救 敢 敬 敲 斛 斤 旗 旣 昆 昑 景 晷 暇 暖 暠 暻 曠 曲 更 曷 朗 朞 期 机 杆 杞 杰 枏 果 枯 架 枸 柑 柩 柬 柯 校 根 格 桀 桂 桔 桿 梏 梗 械 梱 棄 棋 棍 棘 棨 棺 楗 楠 極 槁 構 槐 槨 槪 槻 槿 樂 橄 橋 橘 機 檄 檎 檢 櫃 欄 權 欺 款 歌 歐 歸 殼 毆 毬 氣 求 江 汨 汲 決 汽 沂 沽 洛 洸 浪 涇 淃 淇 減 渠 渴 湳 溝 溪 滑 滾 漑 潔 潰 澗 激 濫 灌 灸 炅 炚 炬 烙 烱 煖 爛 牽 犬 狂 狗 狡 狼 獗 玖 玘 珂 珏 珖 珙 珞 珪 球 琦 琨 琪 琯 琴 瑾 璂 璟 璣 璥 瓊 瓘 瓜 甄 甘 甲 男 畇 界 畸 畺 畿 疆 疥 疳 痂 痙 痼 癎 癩 癸 皆 皎 皐 盖 監 看 眷 睾 瞰 瞼 瞿 矜 矩 矯 硅 硬 碁 碣 磎 磬 磯 磵 祁 祇 祈 祛 祺 禁 禽 科 稈 稼 稽 稿 穀 究 穹 空 窘 窟 窮 窺 竅 竟 竭 競 竿 筋 筐 筠 箇 箕 箝 管 簡 粳 糠
       系 糾 紀 納 紘 級 紺 絅 結 絞 給 絳 絹 絿 經 綱 綺 緊 繫 繭 繼 缺 罐 罫 羅 羈 羌 羔 群 羹 翹 考 耆 耉 耕 耭 耿 肌 肝 股 肩 肯 肱 胛 胱 脚 脛 腔 腱 膈 膏 膠 臘 臼 舅 舊 舡 艮 艱 芎 芥 芩 芹 苛 苟 苦 苽 茄 莖 菅 菊 菌 菓 菫 菰 落 葛 葵 蓋 蕎 蕨 薑 藁 藍 藿 蘭 蘿 虔 蚣 蛟 蝎 螺 蠟 蠱 街 衢 衲 衾 衿 袈 袞 袴 裙 裸 褐 襁 襟 襤 見 規 覡 覲 覺 觀 角 計 記 訣 訶 詭 誇 誡 誥 課 諫 諾 謙 講 謳 謹 譏 警 譴 谷 谿 豈 貢 貫 貴 賈 購 赳 起 跏 距 跨 踞 蹇 蹶 躬 軀 車 軌 軍 軻 較 輕 轎 轟 辜 近 迦 迲 适 逑 逕 逵 過 遣 遽 邏 那 邯 邱 郊 郎 郡 郭 酪 醵 金 鈐 鈞 鉀 鉅 鉗 鉤 銶 鋸 鋼 錡 錤 錦 錮 鍋 鍵 鎌 鎧 鏡 鑑 鑒 鑛 開 間 閘 閣 閨 闕 關 降 階 隔 隙 雇 難 鞏 鞠 鞨 鞫 頃 頸 顆 顧 飢 餃 館 饉 饋 饑 駒 駕 駱 騎 騏 騫 驅 驕 驚 驥 骨 高 鬼 魁 鮫 鯤 鯨 鱇 鳩 鵑 鵠 鷄 鷗 鸞 麒 麴 黔 鼓 龕 龜
     punctuation: '! " # % & ( ) *  - . / : ; ? @ [ \ ] _ ¡ § ¶ · ¿ ‐ — ― ‘ ’ “ ” † ‡ ‥ … ‰ ′ ″ ※ ‾ 、 。 〃 〈 〉 《 》 「 」 『 』 【 】 〔 〕 〜 ・ ！ ＂ ＃ ％ ＆ ＇ （ ） ＊ ， － ． ／ ： ； ？ ＠ ［ ＼ ］ ＿ ｛ ｝'
     script: Hanja
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -4388,6 +4423,7 @@ lad:
   - autonym: djudeo-espanyol
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
     script: Latin
+    status: primary
   - autonym: ג'ודיאו-איספאנייול
     base: א ב ׳ ג ד ה ו ז ח ט י כ ך ל מ ם נ ן ס ע פ ף צ ץ ק ר ש ת
     script: Hebrew
@@ -5247,6 +5283,7 @@ mwl:
   validity: done
 mwp:
   name: Kala Lagaw Ya
+  note: There are a number of orthographies.
   orthographies:
   - autonym: Kala Lagaw Ya
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á ă ā è é ë ĕ ē ì í ĭ ī ò ó ŏ ō œ ù ú ŭ ū
@@ -5804,6 +5841,7 @@ oss:
   - autonym: Ирон
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӕ
     script: Cyrillic
+    status: primary
   - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä æ č š ž
     script: Latin
     status: deprecated
@@ -5851,9 +5889,11 @@ pan:
     base: ਅ ਬ ਭ ਗ ਧ ਢ ੲ ਵ ਦ ਡ ਹ ਘ ਥ ਠ ਯ ਕ ਚ ਲ ਮ ਨ ਣ ਸ ਼ ੳ ਪ ਫ ਖ ਛ ਰ ਤ ਟ ਜ ਾ ਿ ੀ ੁ ੂ ੇ ੈ ੋ ੌ
     numerals: ੦ ੧ ੨ ੩ ੪ ੫ ੬ ੭ ੮ ੯
     script: Gurmukhi
+    note: Used in India.
   - autonym: پن٘جابی
     base: ا ب پ ت ٹ ث ج چ ح خ د ڈ ذ ر ڑ ز ژ س ش ص ض ط ظ ع غ ف ق ک گ ل ؕ م ن ݨ ں و ه ھ ء ی ے
     script: Arabic
+    note: Used in Pakistan.
   source:
   - Omniglot
   - Wikipedia
@@ -6010,10 +6050,12 @@ pnb:
   orthographies:
   - autonym: ਪੰਜਾਬੀ,
     inherit: pan
+    note: Used in India.
     script: Gurmukhi
   - autonym: پن٘جابی
     inherit: pan
     script: Arabic
+    note: Used in Pakistan.
   source:
   - Omniglot
   - Wikipedia
@@ -6236,6 +6278,7 @@ rmn:
   - autonym: řomani ćhib
     base: a ä á b c ć č d e ê é f ğ h i î í j k l m n o ö ó p ṗ q r ř s š t u v w x y z
     script: Latin
+    status: primary
   - base: а б в г д е ё ж з и й к л м н о п р с т у ф х ц ч ш ы ь э ю я
     script: Cyrillic
   source:
@@ -6289,11 +6332,12 @@ ron:
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш ы ь э ю я ӂ
     note: Moldovan Cyrillic alphabet
     script: Cyrillic
-    status: local
+    note: Used in Transnistria.
   - autonym: Română
     auxiliary: ş ţ
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z â î ă ș ț
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -6814,6 +6858,7 @@ smj:
   - autonym: Julevusámegiella
     base: a b d e f g h i j k l m n o p r s t u v á ä å ŋ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -7069,6 +7114,7 @@ swb:
   - autonym: Shikomori
     base: a b c d e f g h i j k l m n o p r s t u v w y z
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -7161,6 +7207,7 @@ taj:
     base: अ आ इ ई उ ऊ ऋ ॠ ल ृ ए ऐ ओ औ क ् ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र व श ष स ह
     numerals: ० १ २ ३ ४ ५ ६ ७ ८ ९
     script: Devanagari
+    status: primary
   - autonym: རྟ་དམག‎
     base: ཀ ཁ ག ང ཅ ཆ ཇ ཉ ཏ ཐ ད ན པ ཕ བ མ ཙ ཚ ཛ ཝ ཞ ཟ འ ཡ ར ལ ཤ ས ཧ ཨ ི ུ ེ ོ
     numerals: ༠ ༡ ༢ ༣ ༤ ༥ ༦ ༧ ༨ ༩
@@ -7389,9 +7436,11 @@ tkr:
   - autonym: Цӏаӏхна миз
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
     script: Cyrillic
+    note: Used in Dagestan.
   - autonym: Ts‘əxna miz
     inherit: azj
     script: Latin
+    note: Used in Azerbaijan.
   source:
   - Omniglot
   - Wikipedia
@@ -7420,9 +7469,11 @@ tly:
   - autonym: Tolışi
     inherit: azj
     script: Latin
+    note: Used in Azerbaijan.
   - autonym: تالشه
     inherit: pes
     script: Arabic
+    note: Used in Iran.
   source:
   - Omniglot
   - Wikipedia
@@ -7546,9 +7597,11 @@ ttt:
   orthographies:
   - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
     script: Cyrillic
+    note: Used in Russia.
   - autonym: Tati
     inherit: azb
     script: Latin
+    note: used in Azerbaijan.
   source:
   - Omniglot
   - Wikipedia
@@ -7565,6 +7618,7 @@ tuk:
   - autonym: Türkmençe
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ç ö ü ý ň ş ž ș
     script: Latin
+    status: primary
   source:
   - Omniglot
   - CLDR
@@ -7727,6 +7781,7 @@ uig:
   - autonym: ئۇيغۇرچە
     base: ئ ا ب ت ج خ د ر ز س ش غ ف ق ك ل م ن و ي پ چ ژ ڭ گ ھ ۆ ۇ ۈ ۋ ې ە
     script: Arabic
+    status: primary
   - autonym: Uighur
     base: a b c d e f g h i j k l m n o p q r s t u w x y z ë ö ü
     script: Latin
@@ -7837,6 +7892,7 @@ uzn:
   - autonym: O‘zbekcha
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ‘
     script: Latin
+    status: primary
   - autonym: Ўзбекча
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ў ғ қ ҳ
     note: Alternative 2
@@ -8501,6 +8557,7 @@ zdj:
   - autonym: Shikomori
     base: a b c d e f g h i j k l m n o p r s t u v w y z
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -8513,6 +8570,7 @@ zgh:
   - autonym: ⵜⴰⵎⴰⵣⵉⵖⵜ
     base: ⴰ ⴱ ⴳ ⵯ ⴷ ⴹ ⴻ ⴼ ⴽ ⵀ ⵃ ⵄ ⵅ ⵇ ⵉ ⵊ ⵍ ⵎ ⵏ ⵓ ⵔ ⵕ ⵖ ⵙ ⵚ ⵛ ⵜ ⵟ ⵡ ⵢ ⵣ ⵥ ⴲ ⴴ ⴵ ⴶ ⴸ ⴺ ⴾ ⴿ ⵁ ⵂ ⵆ ⵈ ⵋ ⵌ ⵐ ⵑ ⵒ ⵗ ⵘ ⵝ ⵞ ⵤ ⵦ ⵧ
     script: Tifinagh
+    status: primary
   - autonym: Tamaziɣt
     base: a b g d ḍ e f k h ḥ x q i j l m n u r ṛ s ṣ c t ṭ w ɣ z ẓ
     script: Latin
@@ -8553,6 +8611,7 @@ zsm:
   - autonym: Malaysia
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
     script: Latin
+    status: primary
   - autonym: مليسيا‎
     base: ء ‎ ا ب ة ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ل م ن ه و ى ي چ ڠ ڤ ک ڽ ۏ ݢ
     note: Jawi

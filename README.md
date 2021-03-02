@@ -51,7 +51,7 @@ A language can refer to one or more orthographies. An orthography specifies the 
 - `autonym` (optional): the name of the language in the language itself using this orthography. If missing, the `autonym` defined in the parent language entry is used. It is expected that the `autonym` can be spelled with the orthography's `base`.
 - `inherit` (required or use `base`): the code of a language to copy the `base` and `auxiliary` strings from. In case the language has multiple orthographies, the first one for the same script is used.
 - `script` (required): English name of the main script used by the orthography, e.g. Latin, Arabic, Armenian, Cyrillic, Greek, Hebrew. When a language uses a combination of several scripts in conjunction each script forms its own orthography.
-- `status` (required, defaults to `living`): the status of the orthography, may be one of: `deprecated, secondary, local, living`. The value `local` refers to an orthography which is used only is specific region. Orthographies with `deprecated` and `secondary` status are included only for the sake of completeness and ignored during language support detection.
+- `status` (required, defaults to `primary`): the status of the orthography, may be one of: `deprecated, secondary, local, primary`. The value `local` refers to an orthography which is used only in a specific region. Orthographies with `secondary` status are ignored during language support detection, but used when detecting `orthography` support. Orthographies with `deprecated` status are included only for the sake of completeness. 
 - `note` (optional): a note of any kind. We will add a note about other support requirements we know, e.g. OpenType features.
 
 
@@ -89,7 +89,7 @@ fas:
   source: [Wikipedia]
 ```
 
-## Detecting language support
+## Detecting support
 
 1. A list of codepoints is obtained from a font.
 2. The database can be accessed in two modes:
@@ -97,8 +97,12 @@ fas:
 	- Using the `decomposed` flag fonts are required to contain the base character and combining marks for a language (e.g. languages with `ä` will match for fonts that only have `a` and combining `¨` but not `ä` as  encoded glyph).
 3. Specified `validity` level is used to filter out language entries according to a user’s preference.
 4. If requested, `base` and `aux` (auxiliary) lists of codepoints are combined to achieve more strict criteria by using the `--support` option.
-5. Orthographies with `deprecated` or `secondary` status are ignored and are listed in the database for completeness only.
-6. If the list of code points in the font includes all code points from the list of codepoints for an orthography of given language, the font is considered to support this language orthography. In listings these are be grouped by scripts.
+5. When detecting language support (default), code points from **all* primary orthographies for a given language are combined (need to be included to detect support of the language). Orthographies with `deprecated` and `secondary` status are ignored.
+6. When detecting orthography support, use `--detect-orthographies`, all orthographies for a given language are checked individually. Orthographies with `secondary` status are included. Orthographies with `deprecated` are ignored.
+7. If the list of code points in the font includes all code points from the list of codepoints from points 5 or 6, the font is considered to support this language/orthography. In listings these are grouped by scripts.
+
+The language-orthography combination means that a language that has multiple orthographies using different scripts (e.g., Serbian or Japanese) will be listed under all of these scripts.
+
 
 
 
@@ -130,6 +134,7 @@ or to check several fonts at once, or their combined coverage (with `-m union`)
 - `-u, --users`: Also output language user count (where available)
 - `-o, --output`: Supply a file path to write the output to, in yaml format. For a single input font this will be a subset of the Hyperglot database with the languages and orthographies that the font supports. If several fonts are provided the yaml file will have a top level dict key for each file. If the `-m` option is provided the yaml file will contain the specific intersection or union result
 - `-m, --mode`: How to process input if several files are provided (currently options are "individual", "union" and "intersection")
+- `--detect-orthographies`: *todo*
 - `--validity`: Specifiy to filter by the level of certainty the database information has for languages (default is "done")
 - `--include-historical`: option to include languages and orthographies marked as historical (default is False)
 - `--include-constructed`: option to include languages and orthographies that are marked as constructed (default is False)
