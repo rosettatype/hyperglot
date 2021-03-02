@@ -17,7 +17,7 @@ It is important to note that **there is more to language support in fonts than s
 
 ## Database
 
-The database is stored in the YAML file `hyperglot.yaml`.
+The database is stored in the YAML file `lib/Hyperglot/hyperglot.yaml`.
 
 
 ### Languages
@@ -154,15 +154,6 @@ To run the script during development without having to constantly reinstall the 
 $ git clone https://github.com/rosettatype/hyperglot.git && cd hyperglot
 $ pip install --upgrade --user --editable .
 ```
-
-Additionally, to dynamically link the information in `hyperglot.yaml` into the python package to be used, link them into the package:
-
-```
-$ rm lib/hyperglot/hyperglot.yaml
-$ ln hyperglot.yaml lib/hyperglot/hyperglot.yaml
-```
-
-NOTE: It is `lib/hyperglot/hyperglot.yaml` that gets packaged with the `hyperglot` CLI command!
 
 To test the codebases after making changes run the `pytest` test suite:
 
