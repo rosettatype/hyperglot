@@ -46,11 +46,15 @@ aat:
   - autonym: Arbërisht
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z á ä ç è é ë í ï ó ö ú ü ý
     script: Latin
+    status: primary
+    note: Used in Italy.
   - autonym: Αρbε̰ρίσ̈τ
     auxiliary: η ψ ω ά έ ή ί ό ύ ώ ϊ ϋ ΐ ΰ
     base: α β b ϳ γ δ d ε ζ θ ι κ λ μ ν ξ ο π ρ σ ς τ υ φ χ ̇ ̱ ̈ ̰
     script: Greek
     validity: done
+    status: primary
+    note: Used in Greece.
   source:
   - Omniglot
   - Wikipedia
@@ -1812,10 +1816,12 @@ ckb:
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ç ê î ş û ł ň ř ü
     note: Kurdish Latin alphabet
     script: Latin
+    status: primary
   - autonym: سۆرانی
     base: ا ب ت ج ح خ د ر ز س ش ع غ ف ق ل م ن و پ چ ڕ ژ ڤ ک گ ڵ ھ ۆ ی ێ ە
     note: Central Kurdish alphabet
     script: Arabic
+    status: primary
   source:
   - Wikipedia
   - Omniglot
@@ -3883,12 +3889,15 @@ jpn:
     punctuation: '! " # % & ( ) *  - . / : ; ? @ [ \ ] _ § ¶ ‐ — ― ‖ ‘ ’ “ ” † ‡ ‥ … ‰ ′ ″ ※ ‾ 、 。 〃 〈 〉 《 》 「 」 『 』 【 】 〔 〕 〜 ・ ！ ＂ ＃ ％ ＆ ＇ （ ） ＊ ， － ． ／ ： ； ？ ＠ ［ ＼ ］ ＿ ｛ ｝ ｡ ｢ ｣ ､ ･'
     script: Kanji
     status: primary
+    preferred_as_group: true
   - base: あ い う え お k か き く け こ g が ぎ ぐ げ ご s さ し す せ そ z ざ じ ず ぜ ぞ t た ち つ て と d だ ぢ づ で ど n な に ぬ ね の h は ひ ふ へ ほ b ば び ぶ べ ぼ p ぱ ぴ ぷ ぺ ぽ m ま み む め も y や ゆ よ r ら り る れ ろ w わ ゐ ゑ を ん っ ゝ ゛ ゜
     script: Hiragana
     status: primary
+    preferred_as_group: true
   - base: ゠ ァ ア ィ イ ゥ ウ ェ エ ォ オ カ ガ キ ギ ク グ ケ ゲ コ ゴ サ ザ シ ジ ス ズ セ ゼ ソ ゾ タ ダ チ ヂ ッ ツ ヅ テ デ ト ド ナ ニ ヌ ネ ノ ハ バ パ ヒ ビ ピ フ ブ プ ヘ ベ ペ ホ ボ ポ マ ミ ム メ モ ャ ヤ ュ ユ ョ ヨ ラ リ ル レ ロ ヮ ワ ヰ ヱ ヲ ン ヴ ヵ ヶ ヷ ヸ ヹ ヺ ・ ー ヽ ヾ ヿ ㇰ ㇱ ㇲ ㇳ ㇴ ㇵ ㇶ ㇷ ㇸ ㇹ ㇺ ㇻ ㇼ ㇽ ㇾ ㇿ
     script: Katakana
     status: primary
+    preferred_as_group: true
   source:
   - Omniglot
   - Wikipedia
@@ -4400,14 +4409,17 @@ kmr:
     auxiliary: ḧ ẍ '
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ç ê î ş û
     script: Latin
+    status: secondary
   - autonym: Kurmancî
     auxiliary: ḧ ẍ '
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ç ê î ş û ł ň ř ü
     note: Used in Turkey, Syria, Iraq and Iran.
     script: Latin
+    status: primary
   - base: а б в г д е ә ж з й к л м н о ӧ п р с т у ф х һ ч ш щ ь э ԛ ԝ '
     note: Used in Russia and Armenia.
     script: Cyrillic
+    status: primary
   source:
   - Wikipedia
   - Omniglot
@@ -5064,14 +5076,16 @@ lvs:
   validity: done
 mad:
   name: Madurese
-  note: Latin is the most used nowadays.
+  note: Latin script is the most used nowadays.
   orthographies:
   - autonym: Madhurâ
     base: a b c d ḍ e ɛ ə g h i ɨ j ɟ k l m n ŋ o ɔ p r s t ṭ u ɤ w â
     script: Latin
+    status: primary
   - autonym: ꦧꦱꦴꦩꦝꦸꦫꦴ
     base: ꦄ ꦆ ꦈ ꦌ ꦎ ꦼ ꦴ ꦲ ꦤ ꦕ ꦗ ꦫ ꦏ ꦒ ꦢ ꦠ ꦱ ꦮ ꦭ ꦥ ꦧ ꦣ ꦪ ꦚ ꦩ ꦛ ꦔ ꦃ ꦝ
     script: Javanese
+    status: secondary
   source:
   - Omniglot
   - Wikipedia
@@ -5399,9 +5413,11 @@ mlg:
   - autonym: Malagasy
     base: a b d e f g h i j k l m n o p r s t v y z à â è é ê ë ì î ï ñ ô
     script: Latin
+    status: primary
   - autonym: Malagasy
     base: a b d e f g h i j k l m n o p r s t v y z à â è é ê ë ì î ï ô
     script: Latin
+    status: secondary
   preferred_as_individual: true
   source:
   - Omniglot
@@ -5626,18 +5642,23 @@ mwp:
   - autonym: Kala Lagaw Ya
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á ă ā è é ë ĕ ē ì í ĭ ī ò ó ŏ ō œ ù ú ŭ ū
     script: Latin
+    status: primary
   - autonym: Kala Lagaw Ya
     base: a ă ­ ā b d e ĕ ē g i ĭ ī k l m n o ŏ ō ò ö ë œ p f r s t u ŭ ū w y z j
     script: Latin
+    status: secondary
   - autonym: Kala Lagaw Ya
     base: a b d e g i k l m n o p r s t u w y z
     script: Latin
+    status: secondary
   - autonym: Kala Lagaw Ya
     base: a b d e g k l m n o œ p r s t u w y z ò ö
     script: Latin
+    status: secondary
   - autonym: Kala Lagaw Ya
     base: a á b d e é g i í k l m n o ó ò œ p r s t u ù ú w y z
     script: Latin
+    status: secondary
   source:
   - Omniglot
   - Wikipedia
@@ -5851,13 +5872,11 @@ nio:
   note: Sources partially disagree. Wikipedia notes з̌ instead of ҙ.
   orthographies:
   - autonym: ня”
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҫ ү ӈ ә ө ҙ ”
+    auxiliary: ҙ
+    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҫ ү ӈ ә ө ”
     note: Omniglot version
     script: Cyrillic
-  - autonym: ня”
-    base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҫ ү ӈ ә ө ” ̌
-    note: Wikipedia version
-    script: Cyrillic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -6235,13 +6254,11 @@ pam:
   name: Pampanga
   orthographies:
   - autonym: Kapampangan
-    base: a b c d e f g h i j k l m n o p q r s t u v w x y z
-    note: According to Omniglot
+    auxiliary: c f j q v x z
+    base: a b d e g h i k l m n o p r s t u w y
+    note: According to Wikipedia. Omniglot lists the full a–z.
     script: Latin
-  - autonym: Kapampangan
-    base: a b k d e g h i l m n o p r s t u w y
-    note: According to Wikipedia
-    script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -6257,10 +6274,12 @@ pan:
     note: Used in India.
     numerals: ੦ ੧ ੨ ੩ ੪ ੫ ੬ ੭ ੮ ੯
     script: Gurmukhi
+    status: primary
   - autonym: پن٘جابی
     base: ا ب پ ت ٹ ث ج چ ح خ د ڈ ذ ر ڑ ز ژ س ش ص ض ط ظ ع غ ف ق ک گ ل ؕ م ن ݨ ں و ه ھ ء ی ے
     note: Used in Pakistan.
     script: Arabic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -6421,10 +6440,12 @@ pnb:
     inherit: pan
     note: Used in India.
     script: Gurmukhi
+    status: primary
   - autonym: پن٘جابی
     inherit: pan
     note: Used in Pakistan.
     script: Arabic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -7456,9 +7477,13 @@ srp:
   - autonym: Српски
     base: ́ а б в г д е ж з и к л м н о п р с т у ф х ц ч ш ђ ј љ њ ћ џ
     script: Cyrillic
+    status: primary
+    preferred_as_group: true
   - autonym: Srpski
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ć č đ ś š ź ž
     script: Latin
+    status: primary
+    preferred_as_group: true
   source:
   - Omniglot
   - Wikipedia
@@ -8922,11 +8947,10 @@ yor:
   name: Yoruba
   orthographies:
   - autonym: Èdè Yorùbá
+    auxiliary: ɔ ɛ
     base: a b d e f g h i j k l m n o p r s t u w y à á ā è é ē ẹ ì í ī ò ó ō ọ ù ú ū ṣ
     script: Latin
-  - autonym: Èdè Yorùbá
-    base: a b d e f g h i j k l m n o p r s t u w y à á ā è é ē ẹ ì í ī ò ó ō ọ ù ú ū ṣ ɔ ɛ
-    script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
