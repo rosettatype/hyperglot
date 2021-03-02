@@ -930,7 +930,7 @@ azb:
     base: و ْ ؤ ئ ا خ ع ن پ چ ژ ک گ ۆ ۇ ی ە ݣ ﺏ ﺕ ﺙ ﺝ ﺡ ﺩ ﺫ ﺭ ﺯ ﺱ ﺵ ﺹ ﺽ ﻁ ﻅ ﻍ ﻑ ﻕ ﻝ ﻡ ٛ ﻥ ﻩ ﻭ آ ج ب ذ ر
     script: Arabic
     status: primary
-  - base: A B C D E F G H I J K L M N O P Q R S T U V X Y Z Ç Ö Ü Ğ I Ş Ə a b c d e f g h i j k l m n o p q r s t u v x y z ç ö ü ğ İ ı ş ə
+  - base: A B C D E F G H I J K L M N O P Q R S T U V X Y Z Ç Ö Ü Ğ Ş Ə a b c d e f g h i j k l m n o p q r s t u v x y z ç ö ü ğ İ ı ş ə
     script: Latin
     status: primary
   source:
@@ -948,7 +948,7 @@ azj:
     note: Official in Dagestan (Russia).
     script: Cyrillic
     status: primary
-  - base: A B C D E F G H I J K L M N O P Q R S T U V X Y Z Ç Ö Ü Ğ I Ş Ə a b c d e f g h i j k l m n o p q r s t u v x y z ç ö ü ğ İ ı ş ə ‘
+  - base: A B C D E F G H I J K L M N O P Q R S T U V X Y Z Ç Ö Ü Ğ Ş Ə a b c d e f g h i j k l m n o p q r s t u v x y z ç ö ü ğ İ ı ş ə ‘
     script: Latin
     status: primary
   source:
@@ -965,7 +965,7 @@ bak:
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ғ Ҙ Ҡ Ң Ҫ Ү Һ Ә Ө а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ғ ҙ ҡ ң ҫ ү һ ә ө
     script: Cyrillic
     status: primary
-  - base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Ç Ö Ü Č Ğ I Ķ Ņ Ś Ş Š Ź a b c d e f g h i j k l m n o p q r s t u v w x y z ä ç ö ü č ğ İ ı ķ ņ ś ş š ź
+  - base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Ç Ö Ü Č Ğ Ķ Ņ Ś Ş Š Ź a b c d e f g h i j k l m n o p q r s t u v w x y z ä ç ö ü č ğ İ ı ķ ņ ś ş š ź
     script: Latin
     status: deprecated
   source:
@@ -1440,7 +1440,7 @@ cab:
   note: Speakers number uncertain.
   orthographies:
   - autonym: Garífuna
-    base: A B C D E F G H I K L M N O P R S T U W Y Ñ Ü a b c d e f g h I i k l m n o p r s t u w y ñ ü ´
+    base: A B C D E F G H I K L M N O P R S T U W Y Ñ Ü a b c d e f g h i k l m n o p r s t u w y ñ ü ´
     script: Latin
     status: primary
   source:
@@ -1998,7 +1998,7 @@ crh:
     note: Widely used in Crimea.
     script: Cyrillic
   - autonym: Qırımtatar
-    base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ç Ñ Ö Ü Ğ Ş I a b c d e f g h i j k l m n o p q r s t u v w x y z ç ñ ö ü ğ ş ı
+    base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ç Ñ Ö Ü Ğ Ş a b c d e f g h i j k l m n o p q r s t u v w x y z ç ñ ö ü ğ ş ı
     script: Latin
     status: primary
   source:
@@ -2190,7 +2190,7 @@ deu:
   orthographies:
   - autonym: Deutsch
     auxiliary: à é
-    base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Ö Ü a b c d e f g h i j k l m n o p q r s t u v w x y z ß ä ö ü
+    base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z ẞ Ä Ö Ü a b c d e f g h i j k l m n o p q r s t u v w x y z ß ä ö ü
     script: Latin
     status: primary
   source:
@@ -2256,7 +2256,7 @@ diq:
   name: Dimli (individual language)
   orthographies:
   - autonym: Dimlî
-    base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ç Ê Î Û Ü I Ş Ǧ a b c d e f g h i j k l m n o p q r s t u v w x y z ç ê î û ü İ ı ş ǧ
+    base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ç Ê Î Û Ü Ş Ǧ a b c d e f g h i j k l m n o p q r s t u v w x y z ç ê î û ü İ ı ş ǧ
     script: Latin
     status: primary
   preferred_name: Dimli
@@ -2432,7 +2432,7 @@ ell:
   name: Modern Greek (1453-)
   orthographies:
   - autonym: Ελληνικά
-    base: Α Β Γ Δ Ε Ζ Η Θ Ι Κ Λ Μ Ν Ξ Ο Π Ρ Σ Σ Τ Υ Φ Χ Ψ Ω Ά Έ Ή Ί Ό Ύ Ώ Ϊ Ϋ α β γ δ ε ζ η θ ι κ λ μ ν ξ ο π ρ ς σ τ υ φ χ ψ ω ά έ ή ί ό ύ ώ ϊ ϋ ΐ ΰ
+    base: Α Β Γ Δ Ε Ζ Η Θ Ι Κ Λ Μ Ν Ξ Ο Π Ρ Σ Τ Υ Φ Χ Ψ Ω Ά Έ Ή Ί Ό Ύ Ώ Ϊ Ϋ α β γ δ ε ζ η θ ι κ λ μ ν ξ ο π ρ ς σ τ υ φ χ ψ ω ά έ ή ί ό ύ ώ ϊ ϋ ΐ ΰ
     script: Greek
     status: primary
   preferred_name: Modern Greek
@@ -2927,7 +2927,7 @@ gag:
     script: Cyrillic
     status: deprecated
   - autonym: Gagauzça
-    base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Ç Ê Ö Ü Ğ I Ş Ţ Ș Ț a b c d e f g h i j k l m n o p q r s t u v w x y z ä ç ê ö ü ğ İ ı ş ţ ș ț
+    base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Ç Ê Ö Ü Ğ Ş Ţ Ș Ț a b c d e f g h i j k l m n o p q r s t u v w x y z ä ç ê ö ü ğ İ ı ş ţ ș ț
     script: Latin
     status: primary
   source:
@@ -3116,7 +3116,7 @@ gni:
   name: Gooniyandi
   orthographies:
   - autonym: Gooniyandi
-    base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Ä É Ö Ü a b c d e f g h i j k l m n o p q r s t u v w x y z ß à ä é ö ü
+    base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z ẞ À Ä É Ö Ü a b c d e f g h i j k l m n o p q r s t u v w x y z ß à ä é ö ü
     script: Latin
     status: primary
   source:
@@ -3144,7 +3144,7 @@ grc:
   name: Ancient Greek (to 1453)
   orthographies:
   - autonym: Ελληνικά
-    base: Α Β Γ Δ Ε Ζ Η Θ Ι Κ Λ Μ Ν Ξ Ο Π Ρ Σ Σ Τ Υ Φ Χ Ψ Ω Ά Έ Ή Ί Ό Ύ Ώ Ϊ Ϋ Ἀ Ἁ Ἂ Ἃ Ἄ Ἅ Ἆ Ἇ Ἐ Ἑ Ἒ Ἓ Ἔ Ἕ Ἠ Ἡ Ἢ Ἣ Ἤ Ἥ Ἦ Ἧ Ἰ Ἱ Ἲ Ἳ Ἴ Ἵ Ἶ Ἷ Ὂ Ὃ Ὄ Ὑ Ὓ Ὕ Ὗ Ὢ Ὣ Ὤ Ὥ Ὦ Ὧ Ὰ Ὲ Ὴ Ὶ Ὸ Ὺ Ὼ α β γ δ ε ζ η θ ι κ λ μ ν ξ ο π ρ ς σ τ υ φ χ ψ ω ά έ ή ί ό ύ ώ ϊ ϋ ΐ ΰ ἀ ἁ ἂ ἃ ἄ ἅ ἆ ἇ ἐ ἑ ἒ ἓ ἔ ἕ ἠ ἡ ἢ ἣ ἤ ἥ ἦ ἧ ἰ ἱ ἲ ἳ ἴ ἵ ἶ ἷ ὂ ὃ ὄ ὐ ὑ ὒ ὓ ὔ ὕ ὖ ὗ ὢ ὣ ὤ ὥ ὦ ὧ ὰ ὲ ὴ ὶ ὸ ὺ ὼ ᾶ ῆ ῒ ῖ ῗ ῢ ῦ ῧ ῶ
+    base: Α Β Γ Δ Ε Ζ Η Θ Ι Κ Λ Μ Ν Ξ Ο Π Ρ Σ Τ Υ Φ Χ Ψ Ω Ά Έ Ή Ί Ό Ύ Ώ Ϊ Ϋ Ἀ Ἁ Ἂ Ἃ Ἄ Ἅ Ἆ Ἇ Ἐ Ἑ Ἒ Ἓ Ἔ Ἕ Ἠ Ἡ Ἢ Ἣ Ἤ Ἥ Ἦ Ἧ Ἰ Ἱ Ἲ Ἳ Ἴ Ἵ Ἶ Ἷ Ὂ Ὃ Ὄ Ὑ Ὓ Ὕ Ὗ Ὢ Ὣ Ὤ Ὥ Ὦ Ὧ Ὰ Ὲ Ὴ Ὶ Ὸ Ὺ Ὼ α β γ δ ε ζ η θ ι κ λ μ ν ξ ο π ρ ς σ τ υ φ χ ψ ω ά έ ή ί ό ύ ώ ϊ ϋ ΐ ΰ ἀ ἁ ἂ ἃ ἄ ἅ ἆ ἇ ἐ ἑ ἒ ἓ ἔ ἕ ἠ ἡ ἢ ἣ ἤ ἥ ἦ ἧ ἰ ἱ ἲ ἳ ἴ ἵ ἶ ἷ ὂ ὃ ὄ ὐ ὑ ὒ ὓ ὔ ὕ ὖ ὗ ὢ ὣ ὤ ὥ ὦ ὧ ὰ ὲ ὴ ὶ ὸ ὺ ὼ ᾶ ῆ ῒ ῖ ῗ ῢ ῦ ῧ ῶ
     script: Greek
     status: primary
   preferred_name: Ancient Greek
@@ -3552,7 +3552,7 @@ hye:
   note: Shares base with Western Armenian.
   orthographies:
   - autonym: Հայերէն
-    base: ա բ գ դ ե զ է ը թ ժ ի լ խ ծ կ հ ձ ղ ճ մ յ ն շ ո չ պ ջ ռ ս վ տ ր ց ւ փ ք և օ ֆ
+    base: Ա Բ Գ Դ Ե Զ Է Ը Թ Ժ Ի Լ Խ Ծ Կ Հ Ձ Ղ Ճ Մ Յ Ն Շ Ո Չ Պ Ջ Ռ Ս Վ Տ Ր Ց Ւ Փ Ք Օ Ֆ ա բ գ դ ե զ է ը թ ժ ի լ խ ծ կ հ ձ ղ ճ մ յ ն շ ո չ պ ջ ռ ս վ տ ր ց ւ փ ք և օ ֆ
     script: Armenian
     status: primary
   source:
@@ -3566,7 +3566,7 @@ hyw:
   note: Shares base with Eastern Armenian.
   orthographies:
   - autonym: Հայերէն
-    base: ա բ գ դ ե զ է ը թ ժ ի լ խ ծ կ հ ձ ղ ճ մ յ ն շ ո չ պ ջ ռ ս վ տ ր ց ւ փ ք և օ ֆ
+    base: Ա Բ Գ Դ Ե Զ Է Ը Թ Ժ Ի Լ Խ Ծ Կ Հ Ձ Ղ Ճ Մ Յ Ն Շ Ո Չ Պ Ջ Ռ Ս Վ Տ Ր Ց Ւ Փ Ք Օ Ֆ ա բ գ դ ե զ է ը թ ժ ի լ խ ծ կ հ ձ ղ ճ մ յ ն շ ո չ պ ջ ռ ս վ տ ր ց ւ փ ք և օ ֆ
     script: Armenian
     status: primary
   source:
@@ -3924,7 +3924,7 @@ kaa:
     script: Cyrillic
     status: secondary
   - autonym: Qaraqalpaq
-    base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á I Ǵ Ń Ú a b c d e f g h i j k l m n o p q r s t u v w x y z á İ ı ǵ ń ú
+    base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á Ǵ Ń Ú a b c d e f g h i j k l m n o p q r s t u v w x y z á İ ı ǵ ń ú
     script: Latin
     status: primary
   source:
@@ -4018,7 +4018,7 @@ kat:
   name: Georgian
   orthographies:
   - autonym: ქართული
-    base: ა ბ გ დ ე ვ ზ თ ი კ ლ მ ნ ო პ ჟ რ ს ტ უ ფ ქ ღ ყ შ ჩ ც ძ წ ჭ ხ ჯ ჰ
+    base: Ა Ბ Გ Დ Ე Ვ Ზ Თ Ი Კ Ლ Მ Ნ Ო Პ Ჟ Რ Ს Ტ Უ Ფ Ქ Ღ Ყ Შ Ჩ Ც Ძ Წ Ჭ Ხ Ჯ Ჰ ა ბ გ დ ე ვ ზ თ ი კ ლ მ ნ ო პ ჟ რ ს ტ უ ფ ქ ღ ყ შ ჩ ც ძ წ ჭ ხ ჯ ჰ
     script: Georgian
     status: primary
   source:
@@ -4659,7 +4659,7 @@ ksh:
   orthographies:
   - autonym: Kölsch
     auxiliary: à á â ã ç è é ê ì í î ï ñ ò ó ô ø ù ú û ÿ ā ă ē ĕ ğ ī ĭ ı ĳ ł ō ŏ ū ŭ
-    base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Å Æ Ë Ö Ü Ė Œ Ů a b c d e f g h i j k l m n o p q r s t u v w x y z ß ä å æ ë ö ü ė œ ů
+    base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z ẞ Ä Å Æ Ë Ö Ü Ė Œ Ů a b c d e f g h i j k l m n o p q r s t u v w x y z ß ä å æ ë ö ü ė œ ů
     script: Latin
     status: primary
   source:
@@ -4975,7 +4975,7 @@ ltz:
   name: Luxembourgish
   orthographies:
   - autonym: Lëtzebuergesch
-    base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Â Ä È É Ê Ë Î Ô Ö Û Ü a b c d e f g h i j k l m n o p q r s t u v w x y z ß â ä è é ê ë î ô ö û ü
+    base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z ẞ Â Ä È É Ê Ë Î Ô Ö Û Ü a b c d e f g h i j k l m n o p q r s t u v w x y z ß â ä è é ê ë î ô ö û ü
     script: Latin
     status: primary
   source:
@@ -5843,7 +5843,7 @@ nds:
   name: Low German
   orthographies:
   - autonym: Niedersächsisch
-    base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Ë Ï Ö Ü a b c d e f g h i j k l m n o p q r s t u v w x y z ß ä ë ï ö ü
+    base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z ẞ Ä Ë Ï Ö Ü a b c d e f g h i j k l m n o p q r s t u v w x y z ß ä ë ï ö ü
     script: Latin
     status: primary
   source:
@@ -8128,7 +8128,7 @@ tur:
   name: Turkish
   orthographies:
   - autonym: Türkçe
-    base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Â Ç Î Ö Û Ü Ğ I Ș a b c d e f g h i j k l m n o p q r s t u v w x y z â ç î ö û ü ğ İ ı ș
+    base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Â Ç Î Ö Û Ü Ğ Ș a b c d e f g h i j k l m n o p q r s t u v w x y z â ç î ö û ü ğ İ ı ș
     script: Latin
     status: primary
   source:

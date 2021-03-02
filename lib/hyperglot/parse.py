@@ -53,13 +53,14 @@ def character_list_from_string(string, normalize=True):
 
 def sort_key_character_category(c):
     """
-    Sorting comparator to sort unicode characters by their unicode type, first Letters, then Marks,
-    then anything else, secondary sort by unicode ASC
+    Sorting comparator to sort unicode characters by their unicode type, first
+    Letters (Uppercase, then lowercase, if applicable), then Marks, then
+    anything else, secondary sort by unicode ASC
     """
-    order = ["L", "M"]
+    order = ["Lu", "Lt", "Ll", "LC", "L", "Lo", "Mn", "Me", "M", "Mc"]
 
     # Get the first letter of the category
-    cat = unicodedata2.category(c)[:1]
+    cat = unicodedata2.category(c)[:2]
 
     # Get the index of that letter in the order, or higher if not found
     order = order.index(cat) if cat in order else len(order)
@@ -159,7 +160,7 @@ def prune_superflous_marks(string):
     if removed == []:
         return unique_strings, ()
 
-    pruned = [c for c in unique_strings if c not in removed]
+    pruned = list_unique([c for c in unique_strings if c not in removed])
     removed = list_unique(removed)
 
     return pruned, removed
