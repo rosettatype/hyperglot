@@ -13,9 +13,9 @@ def test_language_has_support():
 
     # These "chars" represent a font with supposedly those codepoints in it
     fin_chars_missing_a = "bcdefghijklmnopqrstuvwxyzäöå"
-    fin_chars_base = "abcdefghijklmnopqrstuvwxyzäöå ̈ ̊"
-    fin_chars_aux = "abcdefghijklmnopqrstuvwxyzäöåæõøüšž ̈ ̊ ̃ ̌"
-    fin_chars_no_precomposed = "abcdefghijklmnopqrstuvwxyz ̈ ̊"
+    fin_chars_base = "ABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÅabcdefghijklmnopqrstuvwxyzäöå ̈ ̊"
+    fin_chars_aux = "ABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÅÆÕÜŠŽabcdefghijklmnopqrstuvwxyzäöåæõøüšž ̈ ̊ ̃ ̌"
+    fin_chars_no_precomposed = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz ̈ ̊"
 
     # This is what has_support should look like if it determines 'fin' is
     # supported

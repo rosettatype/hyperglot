@@ -16,7 +16,10 @@ def test_parse_chars():
     assert ["ä", "a", "̈"] == parse_chars("ä", decompose=True,
                                           retainDecomposed=True)
     assert ["ä"] == parse_chars("ä", decompose=False)
-    assert ["â", "a", "̂", "å", "̊"] == parse_chars("â å",
+
+    # This tests the decomposing will add first letter components, then mark
+    # components (order!)
+    assert ["â", "å", "a", "̂", "̊"] == parse_chars("â å",
                                                     retainDecomposed=True)
     assert ["a", "̂", "̊"] == parse_chars("â å", retainDecomposed=False)
 

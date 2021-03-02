@@ -1,5 +1,8 @@
 # A changelog for the lib/hyperglot CLI tool
 
+## 0.2.3 (WIP)
+- TWEAK: Improved tests for CLI and improved and fixed some parsing tests
+
 ## 0.2.2 (02.03.2021)
 - TWEAK: `Languages()` now takes a `validity` argument to filter by validity ('weak' or better by default)
 - TWEAK: `parse_chars` now will put decomposition components on in the input list to the end of the list

@@ -11,27 +11,49 @@ plex_arabic = os.path.abspath("tests/plex-4.0.2/IBM-Plex-Sans-Arabic/fonts/compl
 def test_main_cli():
     res = runner.invoke(cli, [eczar])
     assert res.exit_code == 0
-    assert "271 languages of Latin script" in res.output
+    assert "languages of Latin script" in res.output
     assert "7 languages of Devanagari script" in res.output
-    assert "278 languages supported in total" in res.output
+    assert "Czech" in res.output
+    assert "Hindi" in res.output
+    assert "Sanskrit" in res.output
+    assert "Assyrian Neo-Aramaic" in res.output
 
 
-def test_main_cli_support():
+def test_main_cli_support_aux():
+    res = runner.invoke(cli, [eczar])
+    assert res.exit_code == 0
+    assert "Assyrian Neo-Aramaic" in res.output
+
+    res = runner.invoke(cli, eczar + " --support aux")
+    assert "Assyrian Neo-Aramaic" not in res.output
+
     res = runner.invoke(cli, plex_arabic)
-    assert "267 languages supported in total" in res.output
+    assert "languages of Latin script" in res.output
+    assert "languages of Arabic script" in res.output
+    assert "Standard Arabic" in res.output
+    assert "Assyrian Neo-Aramaic" in res.output
+
     res = runner.invoke(cli, plex_arabic + " --support aux")
-    assert "240 languages supported in total" in res.output
+    assert "Standard Arabic" not in res.output
+    assert "Assyrian Neo-Aramaic" not in res.output
 
 
 def test_main_cli_decomposed():
+    """
+    Tests that when requiring only "composable components" the language
+    coverage should be wider (as compared to requiring encoded characters by
+    default)
+    """
     res = runner.invoke(cli, plex_arabic)
-    assert "267 languages supported in total" in res.output
+    assert "Achuar-Shiwiar" not in res.output
+
     res = runner.invoke(cli, plex_arabic + " --decomposed")
-    assert "329 languages supported in total" in res.output
+    assert "Achuar-Shiwiar" in res.output
 
 
 def test_main_cli_include_constructed():
     res = runner.invoke(cli, plex_arabic)
-    assert "267 languages supported in total" in res.output
+    assert "Interlingua" not in res.output
+
     res = runner.invoke(cli, plex_arabic + " --include-constructed")
-    assert "275 languages supported in total" in res.output
+    assert "Interlingua" in res.output
