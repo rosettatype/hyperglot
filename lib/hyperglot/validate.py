@@ -89,8 +89,8 @@ def check_types(Langs):
                            "auxiliary", "numerals", "status", "note"]
                 invalid = [k for k in o.keys() if k not in allowed]
                 if len(invalid):
-                    log.error("'%s' has invalid orthography keys: '%s'" %
-                              (iso, "', '".join(invalid)))
+                    log.warn("'%s' has invalid orthography keys: '%s'" %
+                             (iso, "', '".join(invalid)))
 
             primary_orthography = [o for o in lang["orthographies"]
                                    if "status" in o and
