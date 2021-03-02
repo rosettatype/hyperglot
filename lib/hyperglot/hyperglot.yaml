@@ -4,6 +4,7 @@ aae:
   - autonym: Arbërisht
     inherit: aln
     script: Latin
+    status: primary
   source:
   - Wikipedia
   - Omniglot
@@ -17,6 +18,7 @@ aaq:
   - autonym: Wôbanakiôdwawôgan
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ô
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -29,6 +31,7 @@ aar:
   - autonym: Qafar
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -61,6 +64,7 @@ abe:
   - autonym: Wôbanakiôdwawôgan
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ô
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -74,6 +78,7 @@ abk:
   - autonym: Аԥсшәа
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я џ қ ҟ ҩ ҭ ҳ ҵ ҷ ҽ ҿ ә ӡ ӷ ԥ
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -87,6 +92,7 @@ abq:
   - autonym: Абаза
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -100,6 +106,7 @@ abr:
   - autonym: Brong
     base: a b d e f g h i k l m n o p r s t u w y ɛ ɔ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -114,6 +121,7 @@ abv:
   - autonym: بحراني
     inherit: arb
     script: Arabic
+    status: primary
   source:
   - Wikipedia
   - Omniglot
@@ -127,6 +135,7 @@ ace:
   - autonym: Bahsa Acèh
     base: a b c d e g h i j k l m n o p r s t w y é è ë ô ö '
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -142,6 +151,7 @@ acm:
     base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ ڤ پ گ ة
     numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩
     script: Arabic
+    status: primary
   preferred_name: Iraqi Arabic
   source:
   - Omniglot
@@ -157,6 +167,7 @@ acq:
   - autonym: يمني
     inherit: arb
     script: Arabic
+    status: primary
   preferred_name: Ta’izzi-Adeni Arabic
   source:
   - Wikipedia
@@ -171,11 +182,12 @@ acu:
   - autonym: Achúar chícham
     base: a b c d e g h i j k m n o p r s t u w y ' ã á ẽ ĩ í ũ ú ñ f
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
   speakers: 7000
-  speakers_date: 2007 
+  speakers_date: 2007
   validity: done
 acw:
   name: Hijazi Arabic
@@ -186,6 +198,7 @@ acw:
     base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ پ ڤ
     numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩
     script: Arabic
+    status: primary
   source:
   - Wikipedia
   speakers: 145000000
@@ -199,6 +212,7 @@ acx:
   - autonym: عماني
     inherit: arb
     script: Arabic
+    status: primary
   source:
   - Wikipedia
   speakers: 1055000
@@ -211,6 +225,7 @@ acz:
   - autonym: Garme
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ë ï ö ü
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -223,6 +238,7 @@ ada:
   orthographies:
   - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
     script: Latin
+    status: primary
   source:
   - Wikipedia
   speakers: 80000
@@ -234,6 +250,7 @@ ady:
   - autonym: Адыгабзэ
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -248,6 +265,7 @@ aeb:
   - autonym: تونسي
     inherit: arb
     script: Arabic
+    status: primary
   source:
   - Wikipedia
   - Omniglot
@@ -262,6 +280,7 @@ aec:
   - autonym: صعيدي
     inherit: arz
     script: Arabic
+    status: primary
   source:
   - Wikipedia
   - Omniglot
@@ -276,6 +295,7 @@ aer:
   - autonym: Arrernte
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -291,6 +311,7 @@ afb:
     base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ ڤ پ گ
     numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩
     script: Arabic
+    status: primary
   source:
   - Wikipedia
   - Omniglot
@@ -305,6 +326,7 @@ afr:
   - autonym: Afrikaans
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z è ê ë î ï ö ô û ü
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -319,6 +341,7 @@ agq:
     auxiliary: q r x
     base: a b c d e f g h i k l m n o p s t u v w y z à â è ê ì î ò ô ù û ā ē ě ī ŋ ō ū ǎ ǐ ǒ ǔ ɔ ɛ ɨ ʉ ʔ
     script: Latin
+    status: primary
   source:
   - CLDR
   - Wikipedia
@@ -332,6 +355,7 @@ agr:
   - autonym: iinia chichama
     base: a b c d e g h i j k m n p r s t u w y ã ẽ ĩ ũ í
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -344,6 +368,7 @@ agx:
   - autonym: Агъул
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -378,6 +403,7 @@ aiq:
   - autonym: ایماقی
     inherit: pes
     script: Arabic
+    status: primary
   source:
   - Wikipedia
   speakers: 650000
@@ -390,6 +416,7 @@ ajg:
   - autonym: Adja
     base: a b c d ɖ e ɛ f g ɣ h i j k l m n ŋ o ɔ p r s t u v w x y z ʒ á à ă â
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -405,6 +432,7 @@ ajp:
     base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ ڤ پ چ
     numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩
     script: Arabic
+    status: primary
   source:
   - Wikipedia
   speakers: 5100000
@@ -417,6 +445,7 @@ aln:
   - autonym: Gegnisht
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ç ë
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -431,6 +460,7 @@ als:
   - autonym: Shqip
     inherit: aln
     script: Latin
+    status: primary
   source:
   - Wikipedia
   - Omniglot
@@ -444,6 +474,7 @@ alt:
   - autonym: Алтайча
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ј ҥ ӧ ӱ
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -456,17 +487,19 @@ amc:
   orthographies:
   - base: a c h i j m n o p r s t u v x y z
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
   speakers: 25700000
-  speakers_date:  2014-2016
+  speakers_date: 2014-2016
   validity: done
 ame:
   name: Yanesha
   orthographies:
   - base: a b c e g h j l m n o p q r s t y ë ñ '
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -480,6 +513,7 @@ amh:
     base: ሀ ሁ ሂ ሃ ሄ ህ ሆ ኰ ኲ ኳ ኴ ኵ ለ ሉ ሊ ላ ሌ ል ሎ ዀ ዂ ዃ ዄ ዅ ሐ ሑ ሒ ሓ ሔ ሕ ሖ ወ ዉ ዊ ዋ ዌ ው ዎ መ ሙ ሚ ማ ሜ ም ሞ ዐ ዑ ዒ ዓ ዔ ዕ ዖ ረ ሩ ሪ ራ ሬ ር ሮ ዘ ዙ ዚ ዛ ዜ ዝ ዞ ሰ ሱ ሲ ሳ ሴ ስ ሶ ዠ ዡ ዢ ዣ ዤ ዥ ዦ ሸ ሹ ሺ ሻ ሼ ሽ ሾ የ ዩ ዪ ያ ዬ ይ ዮ ቀ ቁ ቂ ቃ ቄ ቅ ቆ ደ ዱ ዲ ዳ ዴ ድ ዶ ቈ ቊ ቋ ቌ ቍ ጀ ጁ ጂ ጃ ጄ ጅ ጆ ቐ ቑ ቒ ቓ ቔ ቕ ቖ ገ ጉ ጊ ጋ ጌ ግ ጎ ቘ ቚ ቛ ቜ ቝ ጐ ጒ ጓ ጔ ጕ በ ቡ ቢ ባ ቤ ብ ቦ ጠ ጡ ጢ ጣ ጤ ጥ ጦ ተ ቱ ቲ ታ ቴ ት ቶ ጨ ጩ ጪ ጫ ጬ ጭ ጮ ቸ ቹ ቺ ቻ ቼ ች ቾ ጰ ጱ ጲ ጳ ጴ ጵ ጶ ነ ኑ ኒ ና ኔ ን ኖ ጸ ጹ ጺ ጻ ጼ ጽ ጾ ኘ ኙ ኚ ኛ ኜ ኝ ኞ ፈ ፉ ፊ ፋ ፌ ፍ ፎ አ ኡ ኢ ኣ ኤ እ ኦ ፐ ፑ ፒ ፓ ፔ ፕ ፖ ከ ኩ ኪ ካ ኬ ክ ኮ ቨ ቩ ቪ ቫ ቬ ቭ ቮ
     numerals: ፩ ፪ ፫ ፬ ፭ ፮ ፯ ፰ ፱ ፲ ፳ ፴ ፵ ፶ ፷ ፸ ፹ ፺ ፻
     script: Ge'ez/Fidel
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -492,6 +526,7 @@ ami:
   - autonym: Pangcah
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -504,11 +539,12 @@ amr:
   orthographies:
   - base: a b e g h i j k m n o p r s t u y '
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
   speakers: 1600
-  speakers_date: 2007 
+  speakers_date: 2007
   validity: done
 ani:
   name: Andi
@@ -516,6 +552,7 @@ ani:
   - autonym: Мицци
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   speakers: 5800
@@ -528,6 +565,7 @@ aoz:
   - autonym: Uab Metô
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é ê í ó ú û
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -543,6 +581,7 @@ apc:
   - autonym: لبناني
     inherit: arb
     script: Arabic
+    status: primary
   source:
   - Wikipedia
   speakers: 24200000
@@ -558,6 +597,7 @@ apd:
     base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ ی
     numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩
     script: Arabic
+    status: primary
   source:
   - Wikipedia
   speakers: 31900000
@@ -571,6 +611,7 @@ aqc:
   - autonym: Аршаттен чӏат
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ӏ ́
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -587,6 +628,7 @@ arb:
     base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ ة
     numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩
     script: Arabic
+    status: primary
   source:
   - Wikipedia
   - Omniglot
@@ -599,6 +641,7 @@ arg:
   - autonym: Aragonés
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ñ ó ú
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -612,6 +655,7 @@ arl:
   - autonym: Tapweyokwaka
     base: a e h i j k m n o p r s t u w y ɨ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -624,6 +668,7 @@ arn:
   - autonym: Mapudungun
     base: a b c d e f g i j k l m n o p q r s t u w x y z ü ñ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -637,6 +682,7 @@ arq:
   - autonym: دارجة جزائرية
     inherit: aeb
     script: Arabic
+    status: primary
   source:
   - Wikipedia
   - Omniglot
@@ -653,6 +699,7 @@ ars:
     base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ پ ڤ ة
     numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩
     script: Arabic
+    status: primary
   source:
   - Wikipedia
   speakers: 4050000
@@ -666,6 +713,7 @@ ary:
   - autonym: دارجة مغربية
     inherit: arb
     script: Arabic
+    status: primary
   source:
   - Wikipedia
   - Omniglot
@@ -682,6 +730,7 @@ arz:
     base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ ڤ پ ی چ ة ى
     numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩
     script: Arabic
+    status: primary
   source:
   - Wikipedia
   - Omniglot
@@ -696,6 +745,7 @@ asa:
     auxiliary: q x
     base: a b c d e f g h i j k l m n o p r s t u v w y z
     script: Latin
+    status: primary
   source:
   - CLDR
   speakers: 500000
@@ -708,6 +758,7 @@ ast:
   - autonym: Asturianu
     base: a b c d e f g h i l m n o p q r s t u v x y z á é í ñ ó ú ü ḥ ḷ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -722,6 +773,7 @@ atv:
   - autonym: Алтайча
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ј ҥ ӧ ӱ
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   speakers: 5000
@@ -732,6 +784,7 @@ auc:
   orthographies:
   - base: a b d e g i k m n o p r s t w y ã ẽ ĩ õ ñ
     script: Latin
+    status: primary
   source:
   - Wikipedia
   speakers: 2000
@@ -743,6 +796,7 @@ aud:
   - autonym: Anuta
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ñ ó ú ü
     script: Latin
+    status: primary
   source:
   - Omniglot
   - CLDR
@@ -756,6 +810,7 @@ ava:
   - autonym: Авар
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -770,6 +825,7 @@ avl:
   - autonym: بدوي
     inherit: ajp
     script: Arabic
+    status: primary
   source:
   - Wikipedia
   speakers: 2240000
@@ -782,6 +838,7 @@ ayc:
   - autonym: Aymar
     inherit: ayr
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -796,6 +853,7 @@ ayh:
   - autonym: حضرمي
     inherit: arb
     script: Arabic
+    status: primary
   source:
   - Wikipedia
   speakers: 4560000
@@ -809,6 +867,7 @@ ayl:
   - autonym: ليبي
     inherit: arb
     script: Arabic
+    status: primary
   source:
   - Wikipedia
   speakers: 4325000
@@ -822,6 +881,7 @@ ayn:
   - autonym: يمني‎
     inherit: arb
     script: Arabic
+    status: primary
   source:
   - Wikipedia
   - Textbook
@@ -836,6 +896,7 @@ ayp:
   - autonym: مصلاوي‎
     inherit: arb
     script: Arabic
+    status: primary
   source:
   - Wikipedia
   - Omniglot
@@ -849,12 +910,13 @@ ayr:
   - autonym: Aymar
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ï ñ ü ’
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
-  status: living
   speakers: 1677100
   speakers_date: 2007-2011
+  status: living
   validity: verified
 azb:
   name: South Azerbaijani
@@ -920,6 +982,7 @@ bal:
     base: ء آ ا ب ت ج د ر ز س ش ل م ن ه و ٹ پ چ ڈ ژ ک گ ی ۏ ے ݔ ࢣ َ ُ ِ
     numerals: ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹
     script: Arabic
+    status: primary
   preferred_as_individual: true
   preferred_name: Balochi
   source:
@@ -936,6 +999,7 @@ bam:
     auxiliary: q v x
     base: a b c d e f g h i j k l m n o p r s t u w y z ŋ ɔ ɛ ɲ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -951,6 +1015,7 @@ ban:
     auxiliary: ᬡ ᬙ ᬔ ᬥ ᬟ ᬠ ᬣ ᬝ ᬞ ᬰ ᬱ ᬖ ᬪ ᬨ ᬛ
     base: ᬳ ᬦ ᬘ ᬭ ᬓ ᬤ ᬢ ᬲ ᬯ ᬮ ᬫ ᬕ ᬩ ᬗ ᬧ ᬚ ᬬ ᬜ ᬅ ᬇ ᬋ ᬍ ᬉ ᬏ ᬑ ᬒ ᬐ ᬊ ᬎ ᬌ ᬈ ᬆ
     script: Balinese
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -964,6 +1029,7 @@ bas:
     auxiliary: q x
     base: a b c d e f g h i j k l m n o p r s t u v w y z à á â è é ê ì í î ò ó ô ù ú û ā ē ě ī ń ŋ ō ū ǎ ǐ ǒ ǔ ǹ ɓ ɔ ɛ ᷆ ᷇
     script: Latin
+    status: primary
   source:
   - CLDR
   - Wikipedia
@@ -976,6 +1042,7 @@ bax:
   - autonym: ꛀꛣꚧꚳ
     base: ꚠ ꚰ ꛀ ꛐ ꛠ ꚡ ꚱ ꛁ ꛑ ꛡ ꚢ ꚲ ꛂ ꛒ ꛢ ꛲ ꚣ ꚳ ꛃ ꛓ ꛣ ꛳ ꚤ ꚴ ꛄ ꛔ ꛤ ꛴ ꚥ ꚵ ꛅ ꛕ ꛥ ꛵ ꚦ ꚶ ꛆ ꛖ ꛦ ꛶ ꚧ ꚷ ꛇ ꛗ ꛧ ꛷ ꚨ ꚸ ꛈ ꛘ ꛨ ꚩ ꚹ ꛉ ꛙ ꛩ ꚪ ꚺ ꛊ ꛚ ꛪ ꚫ ꚻ ꛋ ꛛ ꛫ ꚬ ꚼ ꛌ ꛜ ꛬ ꚭ ꚽ ꛍ ꛝ ꛭ ꚮ ꚾ ꛎ ꛞ ꛮ ꚯ ꚿ ꛏ ꛟ ꛯ
     script: Bamum
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -988,6 +1055,7 @@ bba:
   - autonym: baatɔnum
     base: a b d e ɛ f g i k l m n o ɔ p r s t u w y
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -999,6 +1067,7 @@ bci:
   orthographies:
   - base: a b c d e ɛ f g i j k l m n o ɔ p r s t u v w y z
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -1011,6 +1080,7 @@ bdk:
   - autonym: Будад мез
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ӏ ә
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -1042,6 +1112,7 @@ bem:
   - autonym: Chibemba
     base: a b c d e f g h i j k l m n o p s t u v w y
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -1056,6 +1127,7 @@ ben:
     auxiliary: ৰ ৱ ৲ ৳ ৴ ৵ ৶ ৷ ৸ ৹
     base: ঁ ং ঃ অ আ ই ঈ উ ঊ ঋ ঌ এ ঐ ও ঔ ক খ গ ঘ ঙ চ ছ জ ঝ ঞ ট ঠ ড ঢ ণ ত থ দ ধ ন প ফ ব ভ ম য র ল শ ষ স হ ় ঽ ি ী ু ূ ৃ ৄ ৈ ো ৌ ্ ৎ ৠ ৡ ৢ ৣ ৺
     script: Bengali
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -1069,6 +1141,7 @@ bez:
   - autonym: Ekibena
     base: a b c d e f g h i j k l m n o p q r s t u v w y z
     script: Latin
+    status: primary
   source:
   - CLDR
   - Wikipedia
@@ -1081,6 +1154,7 @@ bfa:
   orthographies:
   - base: a b d e g i j k l m n o p r s t u w y ŋ ö '
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -1094,6 +1168,7 @@ bhh:
   - autonym: בוכארי
     inherit: heb
     script: Hebrew
+    status: primary
   source:
   - Wikipedia
   speakers: 110000
@@ -1136,6 +1211,7 @@ bik:
     auxiliary: c e f j q v x z
     base: a b d g h i k l m n o p r s t u w y
     script: Latin
+    status: primary
   preferred_as_individual: true
   source:
   - Omniglot
@@ -1150,6 +1226,7 @@ bin:
   - autonym: Ẹ̀dó
     base: a b d e f g h i k l m n o p r s t u v w y z á é è ẹ í ó ò ọ ú '
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -1162,6 +1239,7 @@ bis:
   - autonym: Bislama
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -1177,6 +1255,7 @@ blt:
     auxiliary: ꫛ ꫜ ꫝ ꫞ ꫟
     base: ꪀ ꪁ ꪂ ꪃ ꪄ ꪅ ꪆ ꪇ ꪈ ꪉ ꪊ ꪋ ꪌ ꪍ ꪎ ꪏ ꪐ ꪑ ꪒ ꪓ ꪔ ꪕ ꪖ ꪗ ꪘ ꪙ ꪚ ꪛ ꪜ ꪝ ꪞ ꪟ ꪠ ꪡ ꪢ ꪣ ꪤ ꪥ ꪦ ꪧ ꪨ ꪩ ꪪ ꪫ ꪬ ꪭ ꪮ ꪯ ꪰ ꪱ ꪲ ꪳ ꪴ ꪵ ꪶ ꪷ ꪸ ꪹ ꪺ ꪻ ꪼ ꪽ ꪾ ꪿ ꫀ ꫁ ꫂ
     script: Tai viet
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -1189,11 +1268,12 @@ boa:
   - autonym: Meamuyna
     base: a b c d e g h i j k l m n o p r s t u v w y ɨ ñ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
   speakers: 2400
-  speakers_date: 2000 
+  speakers_date: 2000
   validity: done
 bod:
   name: Tibetan
@@ -1203,6 +1283,7 @@ bod:
     numerals: ༠ ༡ ༢ ༣ ༤ ༥ ༦ ༧ ༨ ༩
     punctuation: ༄  ༈ ་ ། ༎ ༔ ༺ ༻
     script: Tibetan
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -1232,6 +1313,7 @@ bre:
   - autonym: Brezhoneg
     base: a b c d e f g h i j k l m n o p r s t u v w x y z ê ñ ù
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -1249,6 +1331,7 @@ buc:
     auxiliary: c j q
     base: a b d e f g h i k l m n o p r s t u v w x y z ɓ ɗ ̈
     script: Latin
+    status: primary
   source:
   - Wikipedia
   - Omniglot
@@ -1280,6 +1363,7 @@ bul:
   - autonym: Български
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ь ю я ѐ ѝ
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -1349,16 +1433,17 @@ bxu:
   validity: done
 cab:
   name: Garifuna
+  note: Speakers number uncertain.
   orthographies:
   - autonym: Garífuna
     base: a b c d e f g h I i k l m n o p r s t u w y ñ ü ´
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
   speakers: 190000
   speakers_date: 1997
-  note: Speakers number uncertain.
   validity: done
 cak:
   name: Kaqchikel
@@ -1366,6 +1451,7 @@ cak:
   - autonym: Kaqchikel Chʼabʼäl
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ë ï ö ü ʼ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -1378,6 +1464,7 @@ cat:
   - autonym: Català
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z à ç è é í ï ò ó ú ü ŀ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -1391,6 +1478,7 @@ cbi:
   orthographies:
   - base: a b c d e f g h i j l m n p r s t u v y ' ã ẽ ĩ ũ ñ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -1403,6 +1491,7 @@ cbk:
   - autonym: Chavacano
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ñ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -1416,6 +1505,7 @@ cbr:
   - autonym: Cacataibo
     base: a b c e i m n o p q r s t u x ' ë ï õ ñ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -1428,6 +1518,7 @@ cbs:
   - autonym: Hantxa Kuin
     base: a b c d e h i j k m n p s t u v x y ' ẽ ĩ ã ũ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -1440,6 +1531,7 @@ cbt:
   - autonym: Shawi
     base: a h i u k m n p r s t w ɨ č š
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -1451,25 +1543,27 @@ cbu:
   orthographies:
   - base: a b c d g h i k l m n o p r s t u v x y z '
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
   speakers: 1120
-  speakers_date: 2007 
+  speakers_date: 2007
   validity: done
 ccp:
   name: Chakma
+  note: 326000 speakers in Bangladesh, 228281 in India.
   orthographies:
   - base: 𑄀 𑄁 𑄂 𑄃 𑄄 𑄅 𑄆 𑄇 𑄈 𑄉 𑄊 𑄋 𑄌 𑄍 𑄎 𑄏 𑄐 𑄑 𑄒 𑄓 𑄔 𑄕 𑄖 𑄗 𑄘 𑄙 𑄚 𑄛 𑄜 𑄝 𑄞 𑄟 𑄠 𑄡 𑄢 𑄣 𑄤 𑄥 𑄦 𑄨 𑄩 𑄪 𑄫 𑄬 𑄭 𑄮 𑄯 𑄰 𑄳 𑄴
     numerals: 𑄶 𑄷 𑄸 𑄹 𑄺 𑄻 𑄼 𑄽 𑄾 𑄿
     script: Chakma
+    status: primary
   source:
   - Omniglot
   - Wikipedia
   - CLDR
   speakers: 554281
   speakers_date: 2011
-  note: 326000 speakers in Bangladesh, 228281 in India.
   validity: done
 ceb:
   name: Cebuano
@@ -1477,6 +1571,7 @@ ceb:
   - autonym: Binisaya
     base: a b d e g h i k l m n o p r s t u w y
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -1491,6 +1586,7 @@ ces:
   - autonym: Čeština
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ó ú ý č ď ě ň ř š ť ů ž
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Native
@@ -1503,6 +1599,7 @@ cfm:
   orthographies:
   - base: a b c d e f g h i j k l m n o p r s t ṭ u v z
     script: Latin
+    status: primary
   source:
   - Wikipedia
   speakers: 107000
@@ -1514,6 +1611,7 @@ cgg:
   - autonym: Rukiga
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
     script: Latin
+    status: primary
   source:
   - Omniglot
   - CLDR
@@ -1527,6 +1625,7 @@ cha:
   - autonym: Chamorru
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z å ñ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -1542,6 +1641,7 @@ che:
   - autonym: Нохчийн мотт
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -1556,6 +1656,7 @@ chj:
   - autonym: Chinanteco de San Lucas Ojitlán
     base: a b c d e f g h i j k l m n o p r s t u ë ø ´
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -1568,6 +1669,7 @@ chk:
   - autonym: Chuuk
     base: a c e f h i k m n o p r s t u w y á é ó ú
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -1581,6 +1683,7 @@ chr:
   - autonym: ᏣᎳᎩ ᎦᏬᏂᎯᏍᏗ
     base: Ꭰ Ꭱ Ꭲ Ꭳ Ꭴ Ꭵ Ꭶ Ꭷ Ꭸ Ꭹ Ꭺ Ꭻ Ꭼ Ꭽ Ꭾ Ꭿ Ꮀ Ꮁ Ꮂ Ꮃ Ꮄ Ꮅ Ꮆ Ꮇ Ꮈ Ꮉ Ꮊ Ꮋ Ꮌ Ꮍ Ꮎ Ꮏ Ꮐ Ꮑ Ꮒ Ꮓ Ꮔ Ꮕ Ꮖ Ꮗ Ꮘ Ꮙ Ꮚ Ꮛ Ꮜ Ꮝ Ꮞ Ꮟ Ꮠ Ꮡ Ꮢ Ꮣ Ꮤ Ꮥ Ꮦ Ꮧ Ꮨ Ꮩ Ꮪ Ꮫ Ꮬ Ꮭ Ꮮ Ꮯ Ꮰ Ꮱ Ꮲ Ꮳ Ꮴ Ꮵ Ꮶ Ꮷ Ꮸ Ꮹ Ꮺ Ꮻ Ꮼ Ꮽ Ꮾ Ꮿ Ᏸ Ᏹ Ᏺ Ᏻ Ᏼ ꮼ ꮳ ꮧ ꭿ ꭶ ꮝ ꮃ ꮒ ꭹ
     script: Cherokee
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -1594,6 +1697,7 @@ chu:
   - autonym: Церковнослове́нскїй
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь ю є ѕ џ ѥ ѩ ѭ ҁ і ї ѡ ѣ ѧ ѫ ѯ ѱ ѳ ѵ ѷ ѻ ѽ ѿ ꙁ ꙋ ꙍ ꙗ ꙃ ́
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -1607,6 +1711,7 @@ chv:
   - autonym: Чӑвашла
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҫ ӑ ӗ ӳ
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -1621,7 +1726,7 @@ cic:
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ó ú '
     script: Latin
   - autonym: Chikashshanompa'
-    base: a b c f g h i k l m n o p s t w y a̠ i̠ o̠ ̠ '
+    base: a b c f g h i k l m n o p s t w y ̠ '
     script: Latin
     status: primary
   source:
@@ -1637,6 +1742,7 @@ cim:
   - autonym: Zimbar
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä à è é ì ò ó ô ö ù ü ć
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -1651,6 +1757,7 @@ cji:
   - autonym: Чамалалдуб мичӏчӏ
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -1664,6 +1771,7 @@ cjk:
   - autonym: Ucokwe
     base: a b c d e f g h i j k l m n o p q r s t u v w y z
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -1676,6 +1784,7 @@ cjs:
   - autonym: Шор
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ғ қ ң ӧ ӱ
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -1689,11 +1798,12 @@ cjy:
   - autonym: 晋语 / 晉語
     inherit: cmn
     script: Chinese
+    status: primary
   source:
   - Wikipedia
-  validity: weak
   speakers: 63050000
   speakers_date: 2012
+  validity: weak
 ckb:
   name: Central Kurdish
   orthographies:
@@ -1720,6 +1830,7 @@ ckt:
   - autonym: Ԓыгъоравэтԓьэн
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӄ ӈ ԓ ’
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -1770,6 +1881,7 @@ cni:
   orthographies:
   - base: a c e i j m n o p q r s t v w x y '
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -1798,6 +1910,7 @@ cof:
   orthographies:
   - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ã ẽ ĩ ũ ɨ ñ ʔ
     script: Latin
+    status: primary
   source:
   - Wikipedia
   - Omniglot
@@ -1810,6 +1923,7 @@ con:
   - autonym: A’ingae
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ñ û ’
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -1823,6 +1937,7 @@ cor:
   - autonym: Kernewek
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z â ê î ô à è ì ò
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -1836,6 +1951,7 @@ cos:
   - autonym: Corsu
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z à â è ì ï ü ò ù
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -1849,6 +1965,7 @@ cot:
   - autonym: Poyenisati
     base: a c e f g i j m n o p q r s t u v y ' ñ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -1860,19 +1977,20 @@ cpu:
   orthographies:
   - base: a c e i j m n o p r s t w y ñ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
   speakers: 9881
-  speakers_date: 2017 
+  speakers_date: 2017
   validity: done
 crh:
   name: Crimean Tatar
   orthographies:
   - autonym: Къырымтатар
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё
-    script: Cyrillic
     note: Widely used in Crimea.
+    script: Cyrillic
   - autonym: Qırımtatar
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ç ñ ö ü ğ ş ı
     script: Latin
@@ -1890,6 +2008,7 @@ crs:
   - autonym: Seselwa
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -1899,15 +2018,16 @@ crs:
   validity: verified
 csa:
   name: Chiltepec Chinantec
+  note: Speaker number is uncertain.
   orthographies:
   - base: a b c d e f g h i j k l m n o p r s t u ë ø
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
   speakers: 1800
   speakers_date: 2000
-  note: Speaker number is uncertain.
   validity: done
 csb:
   name: Kashubian
@@ -1915,6 +2035,7 @@ csb:
   - autonym: Kaszëbsczi
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ã é ë ò ó ô ù ą ę ł ń ś ż
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -1928,6 +2049,7 @@ csw:
   - autonym: ᓀᐦᐃᔭᐍᐏᐣ
     base: ᐁ ᐃ ᐅ ᐊ ᐍ ᐏ ᐑ ᐓ ᐕ ᐘ ᐚ ᐤ ᐯ ᐱ ᐲ ᐳ ᐴ ᐸ ᐹ ᑊ ᑌ ᑎ ᑏ ᑐ ᑑ ᑕ ᑖ ᐟ ᑫ ᑭ ᑮ ᑯ ᑰ ᑲ ᑳ ᐠ ᒉ ᒋ ᒌ ᒍ ᒎ ᒐ ᒑ ᐨ ᒣ ᒥ ᒦ ᒧ ᒨ ᒪ ᒫ ᒼ ᓀ ᓂ ᓃ ᓄ ᓅ ᓇ ᓈ ᐣ ᓭ ᓯ ᓰ ᓱ ᓲ ᓴ ᓵ ᐢ ᔦ ᔨ ᔩ ᔪ ᔫ ᔭ ᔮ ᓬ ᕒ ᐦ ᐩ ᕁ ᑵ ˸
     script: Cree
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -1939,6 +2061,7 @@ ctd:
   orthographies:
   - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -1951,6 +2074,7 @@ cym:
   - autonym: Cymraeg
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ä è é ê ë ì í î ï ò ó ô ö ù ú û ü ý ÿ ŵ ŷ ẁ ẃ ẅ ỳ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -1964,6 +2088,7 @@ dag:
   orthographies:
   - base: a b c d e f g h i j k l m n o p r s t u v w y z ' ɛ ɣ ɨ ŋ ɔ ʒ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -1977,6 +2102,7 @@ dan:
     auxiliary: ǻ
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z å æ ø
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -1991,6 +2117,7 @@ dar:
   - autonym: Дарган
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -2005,6 +2132,7 @@ dav:
     auxiliary: q x
     base: a b c d e f g h i j k l m n o p r s t u v w y z
     script: Latin
+    status: primary
   source:
   - CLDR
   speakers: 370000
@@ -2017,6 +2145,7 @@ ddn:
   - autonym: Dandawa
     base: a b ɓ c d ɖ ɗ e ɛ ǝ f ƒ g ɣ h i ɩ j k l m n o ɔ u w ʊ à á ǎ â ā è é ě ê ē ə ì í ǐ î ī ḿ ǹ ń ň ò ó ǒ ô ō ù ú ǔ û ū ã ẽ ĩ ṍ ṹ ḛ ḭ ṵ
     script: Latin
+    status: primary
   source:
   - Wikipedia
   speakers: 257050
@@ -2028,6 +2157,7 @@ ddo:
   - autonym: Цез
     base: а б в г д е ж з и й к л м н о п р с т у х ц ч ш э ӏ ̄
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -2042,6 +2172,7 @@ deh:
   - autonym: دهواری
     inherit: pes
     script: Arabic
+    status: primary
   source:
   - Wikipedia
   speakers: 14600
@@ -2055,6 +2186,7 @@ deu:
     auxiliary: à é
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ß ä ö ü
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -2067,6 +2199,7 @@ dga:
   orthographies:
   - base: a b d e ɛ f g h i j k l m n o ɔ p r s t u v w y z
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -2080,6 +2213,7 @@ dhv:
   - autonym: Drehu
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ë ö
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -2092,11 +2226,12 @@ din:
   orthographies:
   - base: a b c d e ɛ g ɣ i k l m n ŋ o ɔ p r s t u w y ä ë ï ö
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
   speakers: 1300000
-  speakers_date: 2008-2016 
+  speakers_date: 2008-2016
   validity: done
 dip:
   name: Northeastern Dinka
@@ -2104,11 +2239,12 @@ dip:
   - autonym: Padang
     inherit: din
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
   speakers: 1300000
-  speakers_date: 2008-2016 
+  speakers_date: 2008-2016
   validity: done
 diq:
   name: Dimli (individual language)
@@ -2116,6 +2252,7 @@ diq:
   - autonym: Dimlî
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ç ê î û ü İ ı ş ǧ
     script: Latin
+    status: primary
   preferred_name: Dimli
   source:
   - Omniglot
@@ -2130,6 +2267,7 @@ div:
   - autonym: ދިވެހި
     base: އ ކ ޅ ބ ރ ނ ށ ހ ޏ ގ ލ ތ ދ ފ މ ވ ޗ ޖ ޕ ޔ ޓ ޒ ޑ ސ ޭ ެ ޫ ު ީ ި ާ ަ ޱ ‎ ް ޯ ޮ
     script: Thaana
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -2142,6 +2280,7 @@ dje:
   - autonym: Zarmaciine
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ŋ ɲ à á ã ǎ í õ ǒ ô š ẽ ě ê ž
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -2156,6 +2295,7 @@ dlg:
   - autonym: Дулҕан
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ү һ ӈ ө ҕ
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -2169,6 +2309,7 @@ dng:
   - autonym: Хуэйзў
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ў җ ң ү ә
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -2181,6 +2322,7 @@ dsb:
   - autonym: Dolnoserbšćina
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ó ć č ě ł ń ř ŕ ś š ź ž
     script: Latin
+    status: primary
   source:
   - Omniglot
   - CLDR
@@ -2197,6 +2339,7 @@ dua:
     auxiliary: h q v x z
     base: a b c d e f g i j k l m n o p r s t u w y á é í ó ú ŋ ū ɓ ɔ ɗ ɛ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - CLDR
@@ -2211,6 +2354,7 @@ dyo:
     auxiliary: z
     base: a b c d e f g h i j k l m n o p q r s t u v w x y á é í ñ ó ú ŋ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - CLDR
@@ -2243,6 +2387,7 @@ dzo:
     base: ཀ ཁ ག ང ཅ ཆ ཇ ཉ ཏ ཐ ད ན པ ཕ བ མ ཙ ཚ ཛ ཝ ཞ ཟ འ ཡ ར ལ ཤ ས ཧ ཨ ཊ ཋ ཌ ཎ ཥ ྵ ི ུ ེ ོ
     numerals: ༠ ༡ ༢ ༣ ༤ ༥ ༦ ༧ ༨ ༩
     script: Tibetan
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -2255,6 +2400,7 @@ ebu:
   - autonym: Kiembu
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ĩ ũ
     script: Latin
+    status: primary
   source:
   - CLDR
   speakers: 320000
@@ -2267,6 +2413,7 @@ ekk:
   - autonym: Eesti
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä õ ö ü š ž
     script: Latin
+    status: primary
   source:
   - Omniglot
   - CLDR
@@ -2281,6 +2428,7 @@ ell:
   - autonym: Ελληνικά
     base: α β γ δ ε ζ η θ ι κ λ μ ν ξ ο π ρ ς σ τ υ φ χ ψ ω ά έ ή ί ό ύ ώ ϊ ϋ ΐ ΰ
     script: Greek
+    status: primary
   preferred_name: Modern Greek
   source:
   - Omniglot
@@ -2314,6 +2462,7 @@ enf:
   - autonym: Онэй база
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҫ ӈ ԑ
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -2328,6 +2477,7 @@ eng:
     auxiliary: á ç è é ê ë ï ñ ô ö
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z æ œ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -2343,6 +2493,7 @@ enh:
   - autonym: Онэй база
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҫ ӈ ԑ
     script: Cyrillic
+    status: primary
   source:
   - Wikipedia
   - Omniglot
@@ -2356,6 +2507,7 @@ epo:
   - autonym: Esperanto
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ĉ ĝ ĥ ĵ ŝ ŭ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Alvestrand
@@ -2367,10 +2519,11 @@ ese:
   orthographies:
   - base: b p d t k s j c m n y w ñ
     script: Latin
+    status: primary
   source:
   - Wikipedia
   speakers: 700
-  speakers_date: 2007 
+  speakers_date: 2007
   validity: weak
 ess:
   name: Central Siberian Yupik
@@ -2378,6 +2531,7 @@ ess:
   - autonym: Юпик
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ў қ ң ҳ ҕ ’
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -2391,6 +2545,7 @@ esu:
   - autonym: Yupʼik
     base: a c g i k l m n p q r s t u v w y ń ə ḿ ͡ ʼ
     script: Latin
+    status: primary
   preferred_name: Central Alaskan Yupik
   source:
   - Wikipedia
@@ -2405,6 +2560,7 @@ eus:
   - autonym: Euskara
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ñ ü
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -2418,6 +2574,7 @@ eve:
   - autonym: Эвэды торэн
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӈ ө ӫ ӣ ӯ
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -2431,6 +2588,7 @@ evn:
   - autonym: Эвэнки
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӈ ̄ ә
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -2445,6 +2603,7 @@ ewe:
     auxiliary: c j q â ä å æ ç ê ë î ï ñ ô ö ø û ü ÿ ā ă ĕ ĭ ŏ œ ŭ
     base: a b d e f g h i k l m n o p r s t u v w x y z à á ã è é ì í ò ó õ ù ú ĩ ŋ ũ ƒ ɔ ɖ ɛ ɣ ʋ ẽ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - CLDR
@@ -2459,6 +2618,7 @@ ewo:
     auxiliary: c j q x
     base: a b d e f g h i k l m n o p r s t u v w y z à á â è é ê ì í î ò ó ô ù ú û ě ń ŋ ǎ ǐ ǒ ǔ ǹ ɔ ə ɛ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -2473,6 +2633,7 @@ fao:
   - autonym: Føroyskt
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z á å æ í ð ó ø ú ý
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -2486,6 +2647,7 @@ fat:
   - autonym: Fante
     base: a b d e f g h i k m n o p r s t u w y z ɛ ɔ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -2500,6 +2662,7 @@ ffm:
   - autonym: Maasinankoore
     inherit: fue
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -2514,6 +2677,7 @@ fij:
   - autonym: Vakaviti
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -2527,6 +2691,7 @@ fil:
   - autonym: Filipino
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ñ
     script: Latin
+    status: primary
   source:
   - CLDR
   - Omniglot
@@ -2542,6 +2707,7 @@ fin:
     auxiliary: æ õ ø ü š ž
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ö å
     script: Latin
+    status: primary
   source:
   - Omniglot
   - CLDR
@@ -2557,11 +2723,12 @@ fkv:
   - autonym: Kvääni
     base: a b c d ð e f g h i j k l m n o p q r s š t u v w x y z ä ö
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
   speakers: 8000
-  speakers_date: 2005 
+  speakers_date: 2005
   validity: done
 fon:
   name: Fon
@@ -2569,6 +2736,7 @@ fon:
   - autonym: fɔ̀ngbè
     base: a b c d e f g i j k l m n o p r s t u v w x y z ɖ ɛ ɔ à á è é ì í ò ó ù ú ` ´
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -2581,6 +2749,7 @@ fra:
   - autonym: Français
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z à â æ ç è é ê ë î ï ô ù û ü ÿ œ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -2596,6 +2765,7 @@ fry:
   - autonym: Frysk
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z â ä é ê ë ï ô ö ú û ü
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -2610,6 +2780,7 @@ fub:
   orthographies:
   - base: a b c d e f g h i j k l m n o p r s t u w y x ŋ ƴ ɓ ɗ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -2623,6 +2794,7 @@ fuc:
   - autonym: Futa Tooro
     base: a b c d e f g h i j k l m n o p r s t u w y x ñ ŋ ƴ ɓ ɗ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -2638,6 +2810,7 @@ fue:
   - autonym: Fulfulde
     base: a b c d e f g h i j k l m n o p r s t u w y x ŋ ƴ ɓ ɗ ɲ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -2651,6 +2824,7 @@ fuf:
   - autonym: Fuuta Jalon
     base: a b c d e f g h i j k l m n o p r s t u w y ŋ ƴ ɓ ɗ ɠ ɲ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -2666,6 +2840,7 @@ fuh:
   - autonym: Fulfulde
     inherit: fue
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -2678,6 +2853,7 @@ fui:
   orthographies:
   - base: a b c d e f g h i j k l m n o p r s t u w y x ŋ ƴ ɓ ɗ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -2690,6 +2866,7 @@ fuq:
   orthographies:
   - base: a b c d e f g h i j k l m n o p r s t u w y x ŋ ƴ ɓ ɗ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -2703,6 +2880,7 @@ fur:
   - autonym: Furlan
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ç â ê î ô û à è ì ò ù
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -2716,6 +2894,7 @@ fuv:
   orthographies:
   - base: a b c d e f g h i j k l m n o p r s t u w y x ɓ ɗ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -2728,6 +2907,7 @@ gaa:
   - autonym: Gã
     base: a b d e ɛ f g h i j k l m n ŋ o ɔ p r s t u v w y z ã ẽ ĩ õ ũ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -2760,9 +2940,9 @@ gan:
     status: primary
   - autonym: Gann ua
     base: b p m f d t l z c s j q x g k h i u y a e o n
+    note: Latin is required for the Pinfa romanization system.
     script: Latin
     status: primary
-    note: Latin is required for the Pinfa romanization system.
   source:
   - Omniglot
   - Wikipedia
@@ -2775,6 +2955,7 @@ gax:
   - autonym: Borana
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z '
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -2791,6 +2972,7 @@ gaz:
   - autonym: Afaan Oromoo
     inherit: gax
     script: Latin
+    status: primary
   source:
   - Wikipedia
   speakers: 26000000
@@ -2803,6 +2985,7 @@ gcf:
   - autonym: Kreyol
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z è é ò
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -2816,6 +2999,7 @@ gil:
   - autonym: Kiribati
     base: a b e i k m n g o r t u w
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -2829,6 +3013,7 @@ gjn:
   - autonym: Ngbanyito
     base: a b c d e ɛ f g h i j k l m n ŋ o ɔ p r s t u v w y z '
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -2841,6 +3026,7 @@ gkp:
   - autonym: Kpɛlɛwoo
     base: a b ɓ d e ɛ f g ɣ i k l m n ŋ o ɔ p r s t u v w x y z ` ´ ˆ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -2853,6 +3039,7 @@ gla:
   - autonym: Gàidhlig
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z à è é ì ò ó ù
     script: Latin
+    status: primary
   source:
   - Omniglot
   - CLDR
@@ -2867,6 +3054,7 @@ gld:
   - autonym: Нанай
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӈ ̄
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -2880,6 +3068,7 @@ gle:
   - autonym: Gaeilge
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ó ú
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -2895,6 +3084,7 @@ glg:
   - autonym: Galego
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ñ ó ú ü
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -2908,6 +3098,7 @@ glv:
   - autonym: Gaelg
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ç
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -2921,6 +3112,7 @@ gni:
   - autonym: Gooniyandi
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ß à ä é ö ü
     script: Latin
+    status: primary
   source:
   - CLDR
   - Omniglot
@@ -2934,6 +3126,7 @@ gqa:
   - autonym: Kaandata
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ŋ
     script: Latin
+    status: primary
   preferred_name: Ga’anda
   source:
   - Omniglot
@@ -2947,6 +3140,7 @@ grc:
   - autonym: Ελληνικά
     base: α β γ δ ε ζ η θ ι κ λ μ ν ξ ο π ρ ς σ τ υ φ χ ψ ω ά έ ή ί ό ύ ώ ϊ ϋ ΐ ΰ ἀ ἁ ἂ ἃ ἄ ἅ ἆ ἇ ἐ ἑ ἒ ἓ ἔ ἕ ἠ ἡ ἢ ἣ ἤ ἥ ἦ ἧ ἰ ἱ ἲ ἳ ἴ ἵ ἶ ἷ ὂ ὃ ὄ ὐ ὑ ὒ ὓ ὔ ὕ ὖ ὗ ὢ ὣ ὤ ὥ ὦ ὧ ὰ ὲ ὴ ὶ ὸ ὺ ὼ ᾶ ῆ ῒ ῖ ῗ ῢ ῦ ῧ ῶ
     script: Greek
+    status: primary
   preferred_name: Ancient Greek
   source:
   - Omniglot
@@ -2960,6 +3154,7 @@ gsw:
   - autonym: Schwyzerdütsch
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ö ü
     script: Latin
+    status: primary
   source:
   - Omniglot
   - CLDR
@@ -2973,6 +3168,7 @@ guc:
   - autonym: Wayuunaiki
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ñ ü
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -2986,6 +3182,7 @@ gug:
   - autonym: Avañe'ẽ
     base: a ã c e ẽ g ͂ h i ĩ j k l m n ñ o õ p r s t u ũ v y ỹ '
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -2994,17 +3191,18 @@ gug:
   validity: done
 guj:
   name: Gujarati
+  note: Gujarati has an addition 4000000 L2 speakers.
   orthographies:
   - autonym: ગુજરાતી
     base: અ આ ઇ ઈ ઉ ઊ ઋ પ ા િ ી ુ ૂ ૃ એ ઐ ઓ ઔ ં ઃ ે ૈ ો ૌ ક ખ ગ ઘ ઙ ચ છ જ ઝ ઞ ટ ઠ ડ ઢ ણ ત થ દ ધ ન ફ બ ભ મ ય ર લ વ શ ષ સ હ ળ ્
     numerals: ૦ ૧ ૨ ૩ ૪ ૫ ૬ ૭ ૮ ૯
     script: Gujarati
+    status: primary
   source:
   - Omniglot
   - Wikipedia
   speakers: 56000000
   speakers_date: 2011
-  note: Gujarati has an addition 4000000 L2 speakers.
   validity: done
 guu:
   name: Yanomamö
@@ -3012,6 +3210,7 @@ guu:
   - autonym: Yąnomamɨ
     base: a e f h i j k m n o p r s t u w y ã ẽ ə ĩ ɨ õ ũ ˛
     script: Latin
+    status: primary
   source:
   - Wikipedia
   speakers: 20000
@@ -3024,6 +3223,7 @@ guz:
     auxiliary: q x
     base: a b c d e f g h i j k l m n o p r s t u v w y z
     script: Latin
+    status: primary
   source:
   - Omniglot
   - CLDR
@@ -3037,6 +3237,7 @@ gwi:
   - autonym: Dinju Zhuh K’yuu
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z à ą è é ę ì í ò ó ǫ ’ ù ú ł
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -3050,6 +3251,7 @@ haa:
   - autonym: Tr’ondëk Hwëch’in
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä à â ǎ ą ë ’
     script: Latin
+    status: primary
   preferred_name: Hän
   source:
   - Omniglot
@@ -3064,6 +3266,7 @@ hae:
   - autonym: Harar
     inherit: gax
     script: Latin
+    status: primary
   source:
   - Wikipedia
   speakers: 4500000
@@ -3079,9 +3282,9 @@ hak:
     status: primary
   - autonym: hak ga wa
     base: a b c d e f g h i j k l m n o p q r s t u w x y z
+    note: Latin is required for pinyin romanization.
     script: Latin
     status: primary
-    note: Latin is required for pinyin romanization.
   source:
   - Omniglot
   - Wikipedia
@@ -3095,6 +3298,7 @@ hat:
     auxiliary: q x à á é ó
     base: a b c d e f g h i j k l m n o p r s t u v w y z è ò
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -3109,6 +3313,7 @@ hau:
     auxiliary: p q v x à á â è é ê ì í î ò ó ô ù ú û
     base: a b c d e f g h i j k l m n o r s t u w y z ƙ ƴ ɓ ɗ ʼ ̃
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -3123,6 +3328,7 @@ haw:
   - autonym: ’Olelo Hawai’i
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ī ō ū ’
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -3138,6 +3344,7 @@ haz:
   - autonym: هزارگی
     inherit: pes
     script: Arabic
+    status: primary
   source:
   - Wikipedia
   speakers: 8000000
@@ -3150,18 +3357,20 @@ hea:
   - autonym: hveb Hmub
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z -
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
-  validity: done
   speakers: 2100000
   speakers_date: 1995
+  validity: done
 heb:
   name: Hebrew
   orthographies:
   - autonym: עברית
     base: א ב ג ד ה ו ז ח ט י כ ך ל מ ם נ ן ס ע פ ף צ ץ ק ר ש ת ׁ ׂ ּ ׳
     script: Hebrew
+    status: primary
   source:
   - Omniglot
   - CLDR
@@ -3174,6 +3383,7 @@ hil:
   - autonym: Ilonggo
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -3183,17 +3393,18 @@ hil:
   validity: done
 hin:
   name: Hindi
+  note: Approximately additional 270000000 L2 speakers.
   orthographies:
   - autonym: हिन्दी
     base: अ आ इ ई उ ऊ ऋ ए ऐ ओ औ ं ः प ा ि ी ु ू ृ े ै ो ौ क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न फ ब भ म य र ल व श ष स ह ़
     numerals: ० १ २ ३ ४ ५ ६ ७ ८ ९
     script: Devanagari
+    status: primary
   source:
   - Omniglot
   - Wikipedia
   speakers: 322000000
   speakers_date: 2011
-  note: Approximately additional 270000000 L2 speakers.
   validity: done
 hms:
   name: Southern Qiandong Miao
@@ -3201,6 +3412,7 @@ hms:
   - autonym: hveb Hmub
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z -
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -3213,6 +3425,7 @@ hni:
   - autonym: Haqniqdoq
     base: a b c d e f g h i j k l m n o q r s t u v w x y z
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -3225,6 +3438,7 @@ hns:
   orthographies:
   - base: a b c d e f g h i j k l m n o q r s t u v w x y z ˜
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -3236,6 +3450,7 @@ hop:
   - autonym: Hopilàvayi
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z à ö
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -3249,6 +3464,7 @@ hrv:
   - autonym: Hrvatski
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ć č đ š ž
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -3263,6 +3479,7 @@ hsb:
   - autonym: Hornjoserbšćina
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ó ć č ě ł ń ř ś š ź ž
     script: Latin
+    status: primary
   source:
   - Omniglot
   - CLDR
@@ -3277,6 +3494,7 @@ hun:
   - autonym: Magyar
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ó ö ú ü ő ű
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Alvestrand
@@ -3291,6 +3509,7 @@ hus:
   - autonym: Teenek
     base: a b c e i j k l m n o p r s t u w x y z '
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -3302,6 +3521,7 @@ huu:
   orthographies:
   - base: a b c d e f g i j l m n o r s t v ɨ ñ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -3314,6 +3534,7 @@ huz:
   - autonym: Гьонкьос
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ӏ ә ȧ ӯ
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   speakers: 1400
@@ -3327,6 +3548,7 @@ hye:
   - autonym: Հայերէն
     base: ա բ գ դ ե զ է ը թ ժ ի լ խ ծ կ հ ձ ղ ճ մ յ ն շ ո չ պ ջ ռ ս վ տ ր ց ւ փ ք և օ ֆ
     script: Armenian
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -3340,6 +3562,7 @@ hyw:
   - autonym: Հայերէն
     base: ա բ գ դ ե զ է ը թ ժ ի լ խ ծ կ հ ձ ղ ճ մ յ ն շ ո չ պ ջ ռ ս վ տ ր ց ւ փ ք և օ ֆ
     script: Armenian
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -3351,6 +3574,7 @@ ibb:
   orthographies:
   - base: a b d e f g h i ị k m n ñ o ọ p r s t u ʌ w y
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -3364,6 +3588,7 @@ ibo:
   - autonym: Asụsụ Igbo
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á è é ì í ò ó ù ú ā ē ī ń ō ū ị ọ ụ ṅ ẹ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -3378,6 +3603,7 @@ ido:
   - autonym: Ido
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -3391,6 +3617,7 @@ igs:
   - autonym: Interglossa
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
     script: Latin
+    status: primary
   source:
   - Omniglot
   speakers: 0
@@ -3404,6 +3631,7 @@ iii:
       ꅃ ꆉ ꆤ ꇆ ꇩ ꈅ ꈡ ꈸ ꉕ ꉸ ꊆ ꊚ ꊼ ꌖ ꍌ ꍨ ꎱ ꏌ ꏫ ꐇ ꐢ ꑔ ꑼ ꀏ ꀥ ꁆ ꁥ ꂁ ꂟ ꂽ ꃮ ꄍ ꄩ ꅄ ꅛ ꅶ ꆊ ꇇ ꇪ ꈆ ꈢ ꈹ ꉖ ꉧ ꉹ ꊛ ꊽ ꌗ ꌵ ꍍ ꍩ ꎀ ꎲ ꏍ ꏬ ꐈ ꐣ ꐻ ꑕ ꑧ ꑽ ꀐ ꀦ ꁇ ꁦ ꂂ ꂠ ꂾ ꃕ ꃯ ꄎ ꄪ ꅅ ꅜ ꅷ ꆋ ꆥ ꇈ ꇫ ꈇ ꈣ ꈺ ꉗ ꉨ ꉺ ꊇ ꊜ ꊾ ꋜ ꋺ ꌘ ꌶ ꍎ ꍪ ꎁ ꎘ ꎳ ꏎ ꏭ ꐉ ꐤ ꐼ ꑖ ꑨ ꑾ ꀑ ꀧ ꁈ ꁧ ꂃ ꂡ ꂿ ꃖ ꃰ ꄏ ꄫ ꅆ ꅝ ꆌ ꆦ ꇉ ꇬ ꈈ ꈤ ꈻ ꉘ ꉩ ꉻ ꊈ ꊝ ꊿ ꋝ ꌙ ꌷ ꍏ ꍫ ꎂ ꎙ ꎴ ꏏ ꏮ ꐊ ꐥ ꐽ ꑗ ꑩ ꑿ ꀒ ꀨ ꁉ ꁨ ꂄ ꂢ ꃀ ꃗ ꃱ ꄐ ꄬ ꅇ ꅞ ꅸ ꆍ ꆧ ꇊ ꇭ ꈉ ꈥ ꈼ ꉙ ꉪ ꉼ ꊉ ꊞ ꋀ ꋞ ꋻ ꌚ ꌸ ꍐ ꍬ ꎃ ꎚ ꎵ ꏐ ꏯ ꐋ ꐦ ꐾ ꑘ ꑪ ꒀ ꇮ ꈊ ꈦ ꍑ ꍭ ꎄ ꎛ ꎶ ꀓ ꀩ ꁩ ꃁ ꃲ ꄑ ꄭ ꅈ ꅟ ꅹ ꆎ ꆨ ꇋ ꇯ ꈋ ꈧ ꈽ ꉚ ꉫ ꉽ ꊊ ꊟ ꋁ ꋟ ꋼ ꌛ ꌹ ꍒ ꍮ ꎅ ꎜ ꎷ ꏑ ꀔ ꀪ ꁪ ꃂ ꄒ ꄮ ꅉ ꅠ ꅺ ꆏ ꆩ ꇌ ꇰ ꈌ ꈨ ꈾ ꉛ ꉬ ꉾ ꊋ ꊠ ꋂ ꋠ ꋽ ꌜ ꌺ ꍓ ꍯ ꎆ ꎝ ꎸ ꏒ ꀫ ꁫ ꃳ ꄓ ꄯ ꅊ ꅡ ꅻ ꆐ ꆪ ꇍ ꇱ ꈍ ꈩ ꈿ ꉜ ꉭ ꉿ ꊌ ꊡ ꋃ ꋡ ꌝ ꌻ ꍔ ꍰ ꎇ ꎞ ꎹ ꏓ ꀬ ꁊ ꁬ ꂅ ꂣ ꃃ ꃘ ꃴ ꄔ ꄰ ꅋ ꅢ ꅼ ꆑ ꆫ ꇎ ꇲ ꈎ ꈪ ꉀ ꊢ ꋄ ꌞ ꌼ ꍕ ꎈ ꎟ ꎺ ꏔ ꏰ ꐌ ꐧ ꑙ ꒁ ꀭ ꁋ ꁭ ꂆ ꂤ ꃄ ꃙ ꃵ ꄕ ꄱ ꅌ ꅣ ꆒ ꆬ ꇏ ꇳ ꈏ ꈫ ꉁ ꊣ ꋅ ꋢ ꋾ ꌟ ꌽ ꍖ ꍱ ꎉ ꎠ ꎻ ꏕ ꏱ ꐍ ꐨ ꐿ ꑚ ꒂ ꀮ ꁌ ꁮ ꂇ ꂥ ꃅ ꃚ ꃶ ꄖ ꄲ ꅍ ꅤ ꆓ ꆭ ꇐ ꇴ ꈐ ꈬ ꉂ ꊤ ꋆ ꋣ ꋿ ꌠ ꌾ ꍗ ꍲ ꎊ ꎡ ꎼ ꏖ ꏲ ꐎ ꐩ ꑀ ꑛ ꒃ ꀯ ꁍ ꁯ ꂈ ꂦ ꃆ ꃛ ꃷ ꄗ ꄳ ꅎ ꅥ ꆔ ꆮ ꇑ ꇵ ꈑ ꈭ ꉃ ꊥ ꋇ ꋤ ꌀ ꌡ ꌿ ꍘ ꍳ ꎋ ꎢ ꎽ ꏗ ꏳ ꐏ ꐪ ꑁ ꑜ ꒄ ꀰ ꁎ ꁰ ꂉ ꂧ ꃇ ꃜ ꃸ ꄘ ꄴ ꅏ ꅦ ꆕ ꆯ ꇒ ꇶ ꈒ ꈮ ꉄ ꊦ ꋈ ꋥ ꌁ ꌢ ꍙ ꍴ ꎌ ꎣ ꎾ ꏘ ꏴ ꐐ ꐫ ꑂ ꒅ ꀱ ꁏ ꁱ ꂊ ꂨ ꃈ ꃝ ꃹ ꄙ ꄵ ꅐ ꅧ ꆖ ꆰ ꇓ ꇷ ꈓ ꈯ ꉅ ꊧ ꋉ ꋦ ꌂ ꌣ
       ꍚ ꍵ ꎍ ꎤ ꎿ ꏙ ꏵ ꐑ ꐬ ꑃ ꒆ ꀲ ꁐ ꁲ ꂋ ꃉ ꃞ ꃺ ꆱ ꇔ ꊨ ꋊ ꋧ ꌃ ꌤ ꍀ ꍛ ꍶ ꎎ ꎥ ꏀ ꏚ ꏶ ꐒ ꐭ ꑄ ꑫ ꒇ ꀳ ꁑ ꁳ ꂌ ꂩ ꃊ ꃟ ꃻ ꆲ ꇕ ꊩ ꋋ ꋨ ꌄ ꌥ ꍁ ꍜ ꍷ ꎏ ꎦ ꏁ ꏛ ꏷ ꐓ ꐮ ꑅ ꑬ ꒈ ꀴ ꁒ ꁴ ꂍ ꂪ ꃋ ꃠ ꃼ ꆳ ꇖ ꊪ ꋌ ꋩ ꌅ ꌦ ꍂ ꍝ ꍸ ꎐ ꎧ ꏂ ꏜ ꏸ ꐔ ꐯ ꑆ ꑭ ꒉ ꀵ ꁓ ꁵ ꂎ ꂫ ꃌ ꃡ ꃽ ꆴ ꇗ ꊫ ꋍ ꋪ ꌆ ꌧ ꍃ ꍞ ꍹ ꎑ ꎨ ꏃ ꏝ ꏹ ꐕ ꐰ ꑇ ꑮ ꒊ ꀶ ꁔ ꂏ ꂬ ꃾ ꆵ ꇘ ꊬ ꋎ ꋫ ꌇ ꌨ ꍄ ꍟ ꍺ ꎒ ꎩ ꏄ ꏞ ꏺ ꐖ ꑈ ꑯ ꒋ ꀷ ꁕ ꂐ ꂭ ꃿ ꆶ ꇙ ꊭ ꋏ ꋬ ꌈ ꌩ ꍅ ꍠ ꍻ ꎓ ꎪ ꏅ ꏟ ꏻ ꐗ ꑉ ꑰ ꒌ
     script: Modern Yi
+    status: primary
   source:
   - Wikipedia
   speakers: 2000000
@@ -3416,6 +3644,7 @@ ike:
   - autonym: ᐃᓄᒃᑎᑐᑦ
     base: ᐃ ᐄ ᐅ ᐆ ᐊ ᐋ ᐦ ᐱ ᐲ ᐳ ᐴ ᐸ ᐹ ᑉ ᑎ ᑏ ᑐ ᑑ ᑕ ᑖ ᑦ ᑭ ᑮ ᑯ ᑰ ᑲ ᑳ ᒃ ᒋ ᒌ ᒍ ᒎ ᒐ ᒑ ᒡ ᒥ ᒦ ᒧ ᒨ ᒪ ᒫ ᒻ ᓂ ᓃ ᓄ ᓅ ᓇ ᓈ ᓐ ᓯ ᓰ ᓱ ᓲ ᓴ ᓵ ᔅ ᓕ ᓖ ᓗ ᓘ ᓚ ᓛ ᓪ ᔨ ᔩ ᔪ ᔫ ᔭ ᔮ ᔾ ᕕ ᕖ ᕗ ᕘ ᕙ ᕚ ᕝ ᕆ ᕇ ᕈ ᕉ ᕋ ᕌ ᕐ ᕿ ᖀ ᖁ ᖂ ᖃ ᖄ ᖅ ᖏ ᖐ ᖑ ᖒ ᖓ ᖔ ᖕ ᖠ ᖡ ᖢ ᖣ ᖤ ᖥ ᖦ
     script: Inuktitut Syllabics
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -3429,6 +3658,7 @@ ile:
   - autonym: Interlingue
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ó ú
     script: Latin
+    status: primary
   source:
   - Omniglot
   speakers: 0
@@ -3440,6 +3670,7 @@ ilo:
   - autonym: Ilokano
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ñ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -3454,6 +3685,7 @@ ina:
   - autonym: Interlingua
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
     script: Latin
+    status: primary
   source:
   - Omniglot
   speakers: 1500
@@ -3466,6 +3698,7 @@ ind:
   - autonym: Indonesia
     inherit: zsm
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -3479,6 +3712,7 @@ inh:
   - autonym: Гӏалгӏай
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -3493,6 +3727,7 @@ isl:
     auxiliary: ǽ ǫ œ
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z á æ é í ð ó ö ú ý þ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -3508,6 +3743,7 @@ ita:
     auxiliary: j k w x y î ï
     base: a b c d e f g h i l m n o p q r s t u v z à á è é ì í ò ó ù ú
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -3521,6 +3757,7 @@ itl:
   - autonym: Итэнмэн
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё љ њ ў ҳ ӄ ӆ ӈ ӑ ә ’ ˚
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -3534,6 +3771,7 @@ jam:
   - autonym: Jamiekan
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -3547,6 +3785,7 @@ jav:
   - autonym: Jawa
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z é è
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -3560,6 +3799,7 @@ jbo:
   - autonym: Lojban
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -3572,6 +3812,7 @@ jct:
   - autonym: Кърымчах
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ӧ ӱ
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -3588,8 +3829,8 @@ jdt:
     status: primary
   - autonym: ז׳אוּהאוּראִ
     base: א ב ג ד ה ו ּ ז ח י כ ל מ נ ס ע פ צ ק ר ש ת ׳ ִ ַ ָ }
-    script: Hebrew
     note: Regaining popularity.
+    script: Hebrew
   - autonym: Çuhuri
     base: a b c ç d e ə f g h ḩ ћ i j k l m n o p q r s ş t u v x y z
     script: Latin
@@ -3607,6 +3848,7 @@ jgo:
     auxiliary: e o q r x
     base: a b c d f g h i j k l m n p s t u v w y z á â í î ú û ń ŋ ǎ ǐ ǔ ǹ ɔ ɛ ʉ ̄ ḿ ẅ ꞌ
     script: Latin
+    status: primary
   source:
   - CLDR
   - Wikipedia
@@ -3620,6 +3862,7 @@ jiv:
   - autonym: Shiwar chicham
     base: a c e h i j k m n ñ p r s t u w y ' ã ẽ ĩ ũ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -3658,6 +3901,7 @@ jpr:
   orthographies:
   - inherit: heb
     script: Hebrew
+    status: primary
   speakers: 60000
   speakers_date: 1995
   status: living
@@ -3688,6 +3932,7 @@ kab:
     auxiliary: o v
     base: a b c d e f g h i j k l m n p q r s t u w x y z č ǧ ɛ ɣ ḍ ḥ ṛ ṣ ṭ ẓ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -3723,6 +3968,7 @@ kam:
   - autonym: Kikamba
     base: a b c d e f g h i j k l m n o p q r s t u v w y z ĩ ũ
     script: Latin
+    status: primary
   source:
   - CLDR
   - Wikipedia
@@ -3732,17 +3978,18 @@ kam:
   validity: done
 kan:
   name: Kannada
+  note: An additional 600000 L2 speakers.
   orthographies:
   - autonym: ಕನ್ನಡ
     base: ಕ ಖ ಗ ಘ ಙ ಚ ಛ ಜ ಝ ಞ ಟ ಠ ಡ ಢ ಣ ತ ಥ ದ ಧ ನ ಪ ಫ ಬ ಭ ಮ ಯ ರ ಲ ವ ಶ ಷ ಸ ಹ ಳ ್ ಅ ಆ ಇ ಈ ಉ ಊ ಋ ೠ ಾ ೀ ು ೃ ೄ ಎ ಏ ಐ ಒ ಓ ಔ ಂ ಃ ೇ ೈ ೋ ೌ
     numerals: ೧ ೨ ೩ ೪ ೫ ೬ ೭ ೮ ೯ ೦
     script: Kannada
+    status: primary
   source:
   - Omniglot
   - Wikipedia
   speakers: 43000000
   speakers_date: 2011
-  note: An additional 600000 L2 speakers.
   validity: done
 kap:
   name: Bezhta
@@ -3750,6 +3997,7 @@ kap:
   - autonym: Бежкьалас миц
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э я ӏ ̄
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -3763,6 +4011,7 @@ kat:
   - autonym: ქართული
     base: ა ბ გ დ ე ვ ზ თ ი კ ლ მ ნ ო პ ჟ რ ს ტ უ ფ ქ ღ ყ შ ჩ ც ძ წ ჭ ხ ჯ ჰ
     script: Georgian
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -3781,6 +4030,7 @@ kau:
   orthographies:
   - base: a b c d e ǝ f g h i j k l m n o p r ɍ s t u w y z
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -3793,6 +4043,7 @@ kaz:
   - autonym: Қазақ тілі
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё і ғ қ ң ү ұ һ ә ө
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -3807,6 +4058,7 @@ kbd:
   - autonym: Адыгэбзэ
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -3819,6 +4071,7 @@ kbp:
   orthographies:
   - base: a b c d ɖ e ɛ f g h i ɩ j k l m n ŋ o ɔ p r s t u ʋ v w y ɤ z ` ´
     script: Latin
+    status: primary
   source:
   - Wikipedia
   speakers: 1000000
@@ -3830,6 +4083,7 @@ kca:
   - autonym: Ханты
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё є ў қ ң ҳ ҷ ӆ ӈ ӑ ӓ ә ӛ ӧ ө ӫ ӱ ԓ
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -3843,6 +4097,7 @@ kde:
   - autonym: Chimakonde
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
     script: Latin
+    status: primary
   source:
   - Omniglot
   - CLDR
@@ -3856,6 +4111,7 @@ kdh:
   - autonym: Kotokoli
     base: a b c d ɖ e ɛ f g h i ɩ j k l m n ŋ o ɔ p r s t u ʊ v w y z
     script: Latin
+    status: primary
   source:
   - Wikipedia
   speakers: 340000
@@ -3867,6 +4123,7 @@ kdr:
   - autonym: Къарай
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ӧ ӱ
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -3880,6 +4137,7 @@ kea:
   - autonym: Kabuverdianu
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ã ç è é ê í ò ó ô õ ú ü
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -3893,6 +4151,7 @@ kek:
   - autonym: Q’eqchi’
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ’
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -3907,6 +4166,7 @@ ket:
   - autonym: Остыганна ӄа’
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӄ ӈ ә ө ӷ ’
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -3920,6 +4180,7 @@ kgp:
   - autonym: Kanhgág
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z á ã é ó ĩ ỹ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -3933,6 +4194,7 @@ kha:
   - autonym: Ka Ktien Khasi
     base: a b k d e g h i ï j l m n ñ o p r s t u w y
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -3945,6 +4207,7 @@ khk:
   - autonym: Монгол
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ү ө
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -3958,6 +4221,7 @@ khm:
   - autonym: ភាសាខ្មែរ
     base: ក ខ គ ឃ ង ច ឆ ជ ឈ ញ ដ ឋ ឌ ឍ ណ ត ថ ទ ធ ន ប ផ ព ភ ម យ រ ល វ ស ហ ឡ អ ឥ ឦ ឧ ឩ ឪ ឫ ឬ ឭ ឮ ឯ ឰ ឱ ឲ ឳ ា ិ ី ឹ ឺ ុ ូ ួ ើ ឿ ៀ េ ែ ៃ ោ ៅ ំ ះ ៈ ៉ ៊ ់ ៍ ័ ្
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -3971,6 +4235,7 @@ khq:
     auxiliary: v
     base: a b c d e f g h i j k l m n o p q r s t u w x y z ã õ ŋ š ž ɲ ẽ
     script: Latin
+    status: primary
   source:
   - CLDR
   speakers: 200000
@@ -3983,6 +4248,7 @@ kik:
   - autonym: Gĩgĩkũyũ
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ĩ ŋ ũ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - CLDR
@@ -3997,6 +4263,7 @@ kin:
   - autonym: Kinyarwanda
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -4010,6 +4277,7 @@ kir:
   - autonym: Кыргызча
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ң ү ө
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -4023,6 +4291,7 @@ kiu:
   - autonym: Shar Ma
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ç ê ǧ î ş û
     script: Latin
+    status: primary
   preferred_name: Kirmanjki
   source:
   - Omniglot
@@ -4036,6 +4305,7 @@ kjh:
   - autonym: Хакас тілі
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё і ғ ң ӌ ӧ ӱ
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -4049,6 +4319,7 @@ kjj:
   - autonym: Каьтш мицӏ
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ӏ ә ̃
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -4062,6 +4333,7 @@ kkh:
   - autonym: ᨴᩱ᩠ᨿᨡᩨ᩠ᨶ
     base: ᨠ ᨡ ᩉ ᩠ ᨦ ᨧ ᨨ ᨬ ᨭ ᨣ ᨤ ᨥ ᨩ ᨫ ᨮ ᨲ ᨳ ᨶ ᨸ ᨹ ᨺ ᨰ ᨱ ᨴ ᨵ ᨻ ᨽ ᨼ ᨾ ᩃ ᩱ ᩁ ᩖ ᩅ ᩆ ᩇ ᨿ ᩓ ᩈ ᩔ ᨪ ᩌ ᩊ ᨯ ᨷ ᩀ ᩋ ᩣ ᩍ ᩎ ᩏ ᩐ ᩑ ᩒ ᩂ ᩄ
     script: Tai Tham (Lanna)
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -4075,6 +4347,7 @@ kkj:
     auxiliary: q x z
     base: a b c d e f g h i j k l m n o p r s t u v w y à á â è é ê ì í î ò ó ô ù ú û ŋ ǌ ɓ ɔ ɗ ɛ ̧
     script: Latin
+    status: primary
   source:
   - CLDR
   - Wikipedia
@@ -4100,6 +4373,7 @@ kln:
     auxiliary: f q v x z
     base: a b c d e g h i j k l m n o p r s t u w y
     script: Latin
+    status: primary
   preferred_as_individual: true
   source:
   - Wikipedia
@@ -4112,6 +4386,7 @@ kmb:
   orthographies:
   - base: a b d e f h i j k l m n o p s t u v x z
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -4128,12 +4403,11 @@ kmr:
   - autonym: Kurmancî
     auxiliary: ḧ ẍ '
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ç ê î ş û ł ň ř ü
-    note: Kurdish Latin alphabet
-    script: Latin
     note: Used in Turkey, Syria, Iraq and Iran.
+    script: Latin
   - base: а б в г д е ә ж з й к л м н о ӧ п р с т у ф х һ ч ш щ ь э ԛ ԝ '
-    script: Cyrillic
     note: Used in Russia and Armenia.
+    script: Cyrillic
   source:
   - Wikipedia
   - Omniglot
@@ -4147,6 +4421,7 @@ koi:
   - autonym: Перем Коми
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё і ӧ
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -4166,6 +4441,7 @@ kon:
   orthographies:
   - base: a b c d e f g h i j k l m n o p q r s t u v w x y z
     script: Latin
+    status: primary
   preferred_as_individual: true
   source:
   - Wikipedia
@@ -4180,6 +4456,7 @@ koo:
   - autonym: Lhukonzo
     base: a b d e f g h i ï k l m n o p r s t u ü v w y z
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -4233,6 +4510,7 @@ kpt:
   - autonym: Кӏкӏирлӏи мацӏцӏи
     base: а б в г д е ж з и й к л м н о п р с т у х ц ч ш щ ъ ы ь э ю я ӏ ã ẽ õ
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -4246,6 +4524,7 @@ kpv:
   - autonym: Коми
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё і ӧ
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -4260,6 +4539,7 @@ kpy:
   - autonym: Нымылг’ын
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӄ ӈ ’
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -4273,6 +4553,7 @@ kqn:
   - autonym: kiiKaonde
     base: a b c d e f g h i j k l m n ñ o p s t u v w y z
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -4285,6 +4566,7 @@ kqs:
   orthographies:
   - base: a b c d e ɛ f g h i j k l m n o ɔ p s t u w y
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -4297,6 +4579,7 @@ krc:
   - autonym: Къарачай-Малкъар
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ў
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -4309,6 +4592,7 @@ kri:
   orthographies:
   - base: a b c d e ɛ f g h i j k l m n ŋ o ɔ p s t u v w y z
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -4321,6 +4605,7 @@ krl:
   - autonym: Karjala
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ö č š ž
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -4335,6 +4620,7 @@ ksb:
     auxiliary: q r x
     base: a b c d e f g h i j k l m n o p s t u v w y z
     script: Latin
+    status: primary
   source:
   - CLDR
   speakers: 660000
@@ -4348,6 +4634,7 @@ ksf:
     auxiliary: q x
     base: a b c d e f g h i j k l m n o p r s t u v w y z á é í ó ú ŋ ǝ ɔ ɛ
     script: Latin
+    status: primary
   source:
   - CLDR
   - Wikipedia
@@ -4363,6 +4650,7 @@ ksh:
     auxiliary: à á â ã ç è é ê ì í î ï ñ ò ó ô ø ù ú û ÿ ā ă ē ĕ ğ ī ĭ ı ĳ ł ō ŏ ū ŭ
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ß ä å æ ë ö ü ė œ ů
     script: Latin
+    status: primary
   source:
   - Wikipedia
   - CLDR
@@ -4375,6 +4663,7 @@ ktu:
   - autonym: Kikongo ya leta
     inherit: kon
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -4387,6 +4676,7 @@ kua:
   - autonym: Oshikwanyama
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
     script: Latin
+    status: primary
   source:
   - Omniglot
   speakers: 670000
@@ -4399,6 +4689,7 @@ kum:
   - autonym: Къумукъ
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -4411,6 +4702,7 @@ kwi:
   orthographies:
   - base: a ã c e ẽ i ĩ ɨ j k l m n ñ p r s t u ũ v w y z '
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -4419,6 +4711,7 @@ kwi:
   validity: done
 lad:
   name: Ladino
+  note: Speaker estimates vary widely.
   orthographies:
   - autonym: djudeo-espanyol
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
@@ -4432,7 +4725,6 @@ lad:
   - Wikipedia
   speakers: 400000
   speakers_date: 2017
-  note: Speaker estimates vary widely.
   validity: done
 lag:
   name: Langi
@@ -4440,6 +4732,7 @@ lag:
   - autonym: Kɨlaangi
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ó ú ɨ ʉ
     script: Latin
+    status: primary
   source:
   - CLDR
   - Wikipedia
@@ -4454,6 +4747,7 @@ lao:
     base: ກ ຂ ຄ ງ ຈ ສ ຊ ຍ ດ ຕ ຖ ທ ນ ບ ປ ຜ ຝ ພ ຟ ມ ຢ ຣ ລ ວ ຫ ອ ຮ ◌ ະ ັ າ ິ ີ ຶ ື ຸ ູ ເ ແ ໂ ົ ໍ ຽ
     numerals: ໐ ໑ ໒ ໓ ໔ ໕ ໖ ໗ ໘ ໙
     script: Lao
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -4465,6 +4759,7 @@ lat:
   - autonym: Latin
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -4479,6 +4774,7 @@ lbe:
   - autonym: Лак
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -4492,6 +4788,7 @@ lez:
   - autonym: Лезги
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -4506,6 +4803,7 @@ lia:
     auxiliary: ñ ɔ
     base: a b c d e ɛ f g h i j k l m n ň ŋ o ọ p q r s t u v w z
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -4518,6 +4816,7 @@ lij:
   - autonym: Ligure
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ä æ è é ê ë ì í î ï ò ó ô ö ù ú
     script: Latin
+    status: primary
   source:
   - Omniglot
   speakers: 500000
@@ -4531,6 +4830,7 @@ lin:
     auxiliary: j q x
     base: a b c d e f g h i k l m n o p r s t u v w y z á â é ê í î ó ô ú ě ǎ ǐ ǒ ɔ ɛ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -4545,6 +4845,7 @@ lit:
   - autonym: Lietuviškai
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ą č ė ę į š ū ų ž
     script: Latin
+    status: primary
   source:
   - Omniglot
   - CLDR
@@ -4560,6 +4861,7 @@ lkt:
     auxiliary: c d f j q r v x
     base: a b e g h i k l m n o p s t u w y z á é í ó ú č ŋ š ž ǧ ȟ ʼ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -4574,6 +4876,7 @@ lld:
   - autonym: Ladin
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â è é ê ë ì î ò ó ô ö ù û ü ć ś
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -4587,6 +4890,7 @@ lmo:
   - autonym: Lombard
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á è é ì í ò ó ô ø ù ü
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -4600,6 +4904,7 @@ lns:
   - autonym: Lamnsɔ’
     base: a b d e ə ɛ f g i j k l m n ŋ o ɔ s t u v w ɣ '
     script: Latin
+    status: primary
   source:
   - Wikipedia
   speakers: 240000
@@ -4610,6 +4915,7 @@ lob:
   orthographies:
   - base: a b ɓ c d e ɛ ǝ f g h i ɩ j k l m n o ɔ p r s t u ʋ v w y ƴ ʼ
     script: Latin
+    status: primary
   source:
   - Wikipedia
   speakers: 440000
@@ -4620,6 +4926,7 @@ lot:
   orthographies:
   - base: a b c d e ê f g h i j k l m n ŋ o ô p q r s t u û w y ʼ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -4632,6 +4939,7 @@ loz:
   - autonym: siLozi
     base: a b c d e f g h i j k l m n ñ o p s t u w y z ʼ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -4645,6 +4953,7 @@ ltg:
     auxiliary: q w x
     base: a ā b c č d e ē f g ģ h i ī j k ķ l ļ m n ņ o ō p r s š t u ū v y z ž
     script: Latin
+    status: primary
   source:
   - Wikipedia
   speakers: 150000–200000
@@ -4657,6 +4966,7 @@ ltz:
   - autonym: Lëtzebuergesch
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ß â ä è é ê ë î ô ö û ü
     script: Latin
+    status: primary
   source:
   - Omniglot
   - CLDR
@@ -4671,6 +4981,7 @@ lua:
   - autonym: Tshiluba
     base: a b c d e f g h i j k l m n o p s t u v w y z
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -4685,19 +4996,13 @@ lub:
     auxiliary: r x
     base: a b c d e f g h i j k l m n o p q s t u v w y z à á è é ì í ò ó ù ú ɔ ɛ
     script: Latin
+    status: primary
   source:
   - CLDR
   speakers: 1505000
   speakers_date: 1991
   status: living
   validity: weak
-lue:
-  name: Luvale
-  orthographies:
-  - script: Latin
-  validity: todo
-  speakers: 640000
-  speakers_date: 2001-2010
 lug:
   name: Ganda
   orthographies:
@@ -4705,6 +5010,7 @@ lug:
     auxiliary: h q x
     base: a b c d e f g i j k l m n o p r s t u v w y z ŋ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -4712,14 +5018,6 @@ lug:
   speakers: 8200000
   status: living
   validity: verified
-lun:
-  name: Lunda
-  orthographies:
-  - script: Latin
-  validity: todo
-  speakers: 400000
-  speakers_date: 2001-2010
-  note: Speak count for Zambia and Angola. Additionally significant but unknown number of speakers in Congo.
 luo:
   name: Luo (Kenya and Tanzania)
   note: Alternative speaker count of 8000000 unconfirmed.
@@ -4727,6 +5025,7 @@ luo:
   - autonym: Dholuo
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -4741,6 +5040,7 @@ lus:
   - autonym: Mizo ṭawng
     base: a b c d e f g h i j k l m n o p r s t ṭ u v w z
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -4754,6 +5054,7 @@ lvs:
     auxiliary: q w x y
     base: a ā b c č d e ē f g ģ h i ī j k ķ l ļ m n ņ o p r s š t u ū v z ž
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -4783,6 +5084,7 @@ mag:
   - autonym: मगही
     base: अ आ इ ई उ ऊ ए ऐ ओ औ ँ प ा ि ी ु ू े ै ो ौ क ख ग घ ङ च छ ज झ ञ ट ठ ड ़ ढ ण त थ द ध न फ ब भ म य र ल व श ष स ह
     script: Devanagari
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -4795,6 +5097,7 @@ mah:
   - autonym: Kajin M̧ajeļ
     base: a ā b d e i j k l ḷ m n ņ o ō p r t u ū w ¸
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -4803,17 +5106,18 @@ mah:
   validity: done
 mai:
   name: Maithili
+  note: Speaker counts ambigious, since often regarded as dialect of Hindi.
   orthographies:
   - autonym: मैथिली
     base: ँ ं ः अ आ इ ई उ ऊ ऋ ऌ ऍ ए ऐ ऑ ओ औ क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र ऱ ल ळ व श ष स ह ऽ ा ि ी ु ू ृ ॄ ॅ े ै ॉ ो ौ ् ॐ
     numerals: ० १ २ ३ ४ ५ ६ ७ ८ ९
     script: Devanagari
+    status: primary
   source:
   - Omniglot
   - Wikipedia
   speakers: 33900000
   speakers_date: 2000
-  note: Speaker counts ambigious, since often regarded as dialect of Hindi.
   validity: done
 mal:
   name: Malayalam
@@ -4822,6 +5126,7 @@ mal:
     base: ം ഃ അ ആ ഇ ഈ ഉ ഊ ഋ ഌ എ ഏ ഐ ഒ ഓ ഔ ക ഖ ഗ ഘ ങ ച ഛ ജ ഝ ഞ ട ഠ ഡ ഢ ണ ത ഥ ദ ധ ന പ ഫ ബ ഭ മ യ ര റ ല ള ഴ വ ശ ഷ സ ഹ ി ീ ു ൂ ൃ ൈ ൊ ോ ൌ ് ൠ ൡ ൺ ൻ ർ ൽ ൾ ൿ
     numerals: ൦ ൧ ൨ ൩ ൪ ൫ ൬ ൭ ൮ ൯
     script: Malayalam
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -4834,6 +5139,7 @@ mam:
   - autonym: Qyol Mam
     base: a b c e i j k l m n o p q r s t u w x ẍ y '
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -4842,18 +5148,19 @@ mam:
   validity: done
 mar:
   name: Marathi
+  note: An additional 12000000 L2 speakers.
   orthographies:
   - autonym: मराठी
     base: क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र ल व श ष स ह ळ ् अ आ इ ई उ ऊ ए ऐ ओ औ ं ः ॲ ऑ ा ि ी ु ू े ै ो ौ ॅ ॉ
     note: Script also referred to as a stylistic variation of Devanagari called Balbodh, using "Eyelash"-Reph and other localized shapes.
     numerals: ० १ २ ३ ४ ५ ६ ७
     script: Devanagari
+    status: primary
   source:
   - Omniglot
   - Wikipedia
   speakers: 83000000
   speakers_date: 2011
-  note: An additional 12000000 L2 speakers.
   validity: done
 mas:
   name: Masai
@@ -4861,6 +5168,7 @@ mas:
   - autonym: Maa
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â è é ê ì í î ɔ ɛ ɨ ʉ ò ó ô ù ú û ŋ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - CLDR
@@ -4875,6 +5183,7 @@ maz:
   - autonym: Jñatrjo
     base: a b c d e g h i j l m n ñ o p r s t u v x z ' ̱ ⱥ ɇ ̵ ʉ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -4888,17 +5197,19 @@ mcd:
   - autonym: Yaminahua
     base: a b c d e f h i k m n o p r s t u w x y ã ẽ ĩ ï ɨ õ č š
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
   speakers: 2729
-  speakers_date: 2006-2011 
+  speakers_date: 2006-2011
   validity: done
 mcf:
   name: Matsés
   orthographies:
   - base: a b c e g h i j l m n o p q r s t u y ' ā ē ī ō ū
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -4911,6 +5222,7 @@ mdf:
   - autonym: Мокшень кяль
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -4924,6 +5236,7 @@ men:
   - autonym: Mɛnde yia
     base: a b d e ɛ f g h i j k l m n o ɔ p s t u v w y
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -4938,6 +5251,7 @@ mer:
     auxiliary: f p q s v x z
     base: a b c d e g h i j k l m n o r t u w y î û
     script: Latin
+    status: primary
   source:
   - CLDR
   - Wikipedia
@@ -4951,6 +5265,7 @@ mfe:
   - autonym: Kreol Morisien
     base: a b c d e f g h i j k l m n o p r s t u v w x y z
     script: Latin
+    status: primary
   preferred_name: Mauritian Creole
   source:
   - Omniglot
@@ -4964,10 +5279,11 @@ mfq:
   orthographies:
   - base: a ã b c d e ẽ ɛ f g h i ĩ ɩ j k l m n ŋ o õ ɔ p s t r u v w y
     script: Latin
+    status: primary
   source:
   - Wikipedia
   speakers: 2200
-  speakers_date: 1998-2000 
+  speakers_date: 1998-2000
   validity: weak
 mgh:
   name: Makhuwa-Meetto
@@ -4975,6 +5291,7 @@ mgh:
   - autonym: Imeetto
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
     script: Latin
+    status: primary
   source:
   - CLDR
   speakers: 6600000
@@ -4988,6 +5305,7 @@ mgo:
     auxiliary: q x
     base: a b c d e f g h i j k m n o p r s t u w y z à è ì ò ù ŋ ɔ ə ɨ ʼ
     script: Latin
+    status: primary
   preferred_name: Meta’
   source:
   - CLDR
@@ -5001,6 +5319,7 @@ mhr:
   - autonym: Олык Марий
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҥ ӧ ӱ
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -5010,16 +5329,17 @@ mhr:
   validity: verified
 mic:
   name: Mi'kmaq
+  note: Speaker count based on a 4% ethnic population.
   orthographies:
   - autonym: Míkmawísimk
     base: a e i j k l m n o p q s t u w y ' á é í ɨ ó ú
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
   speakers: 7140
   speakers_date: 2016
-  note: Speaker count based on a 4% ethnic population.
   validity: done
 min:
   name: Minangkabau
@@ -5027,6 +5347,7 @@ min:
   - autonym: Baso Minangkabau
     base: a b c d e f g h i j k l m n o p q r s t u w y ē ñ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -5039,6 +5360,7 @@ miq:
   - autonym: Mískitu
     base: a b d h i j k l m n o p r s t u w z â î í
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -5051,6 +5373,7 @@ mkd:
   - autonym: Македонски
     base: а б в г д е ж з и к л м н о п р с т у ф х ц ч ш ѓ ѕ ј љ њ ќ џ
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -5094,6 +5417,7 @@ mlt:
   - autonym: Malti
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z à è ì î ò ù ċ ġ ħ ż
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -5108,6 +5432,7 @@ mns:
   - autonym: Маньси
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӈ ӣ ӯ
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -5121,6 +5446,7 @@ mnw:
   - autonym: ဘာသာ မန်
     base: က ခ ဂ ဃ င စ ဆ ဇ ဈ ဉ ည ဋ ဌ ဍ ဎ ဏ တ ထ ဒ ဓ န ပ ဖ ဗ ဘ မ ယ ရ လ ဝ သ ဟ ဠ အ ဢ ဣ ဤ ဥ ဦ ဧ ဨ ဩ ဪ ါ ာ ိ ု ူ ေ ဲ ဳ ဴ ဵ ံ ့ း ္ ် ျ ြ ွ ှ ဿ ၀ ၁ ၂ ၃ ၄ ၅ ၆ ၇ ၈ ၉ ၊ ။ ၌ ၍ ၎ ၏ ၐ ၑ ၒ ၓ ၔ ၕ ၖ ၗ ၘ ၙ ၚ ၛ ၜ ၝ ၞ ၟ ၠ ၡ ၢ ၣ ၤ ၥ ၦ ၧ ၨ ၩ ၪ ၫ ၬ ၭ ၮ ၯ ၰ ၱ ၲ ၳ ၴ ၵ ၶ ၷ ၸ ၹ ၺ ၻ ၼ ၽ ၾ ၿ ႀ ႁ ႂ ႃ ႄ ႅ ႆ ႇ ႈ ႉ ႊ ႋ ႌ ႍ ႎ ႏ ႐ ႑ ႒ ႓ ႔ ႕ ႖ ႗ ႘ ႙ ႚ ႛ ႜ ႝ ႞ ႟
     script: Mon-Burmese
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -5133,6 +5459,7 @@ moe:
   - autonym: Innu Aimun
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z â î û
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -5146,6 +5473,7 @@ moh:
   - autonym: Kanien’kéha
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z á à é è í ì ó ò ú ù ’
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -5158,6 +5486,7 @@ mos:
   orthographies:
   - base: a b d e ɛ f g h i ɩ l m n o p r s t u v ʋ w y z '
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -5171,6 +5500,7 @@ mqm:
   - autonym: ʻEo ʻEnata
     inherit: mrq
     script: Latin
+    status: primary
   source:
   - CLDR
   - Wikipedia
@@ -5184,6 +5514,7 @@ mri:
   - autonym: Māori
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ī ō ū
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -5198,6 +5529,7 @@ mrj:
   - autonym: Кырык Мары
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӓ ӧ ӱ ӹ
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -5212,6 +5544,7 @@ mrq:
   - autonym: ’Eo ’Enana
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ó ú ʻ
     script: Latin
+    status: primary
   source:
   - CLDR
   - Wikipedia
@@ -5224,10 +5557,11 @@ mto:
   orthographies:
   - base: a ̱ c h d e g i j m n o p q s t u v x y
     script: Latin
+    status: primary
   source:
   - Wikipedia
   speakers: 5500
-  speakers_date: 2000 
+  speakers_date: 2000
   validity: weak
 mua:
   name: Mundang
@@ -5235,6 +5569,7 @@ mua:
   - autonym: Mundaŋ
     base: a b c d e f g h i j k l m n o p r s t u v w y z ã ẽ õ ĩ ŋ ǝ ə ɓ ɗ ṽ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -5248,6 +5583,7 @@ mus:
   - autonym: Mvskoke
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ē
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -5261,6 +5597,7 @@ mwf:
   - autonym: Murrinh-Patha
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -5274,6 +5611,7 @@ mwl:
   - autonym: Mirandés
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z á ç é ê í ó ô ú ũ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Native
@@ -5312,6 +5650,7 @@ mxv:
   orthographies:
   - base: a c d e g i ɨ j k l m n ñ o p r s t u v x y '
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -5325,6 +5664,7 @@ mya:
   - autonym: မြန်မာစာ / မြန်မာစကား
     base: က ခ ဂ ဃ င စ ဆ ဇ ဈ ဉ ည ဋ ဌ ဍ ဎ ဏ တ ထ ဒ ဓ န ပ ဖ ဗ ဘ မ ယ ရ လ ဝ သ ဣ ဤ ဥ ဦ ဧ ဩ ဪ ျ ြ ွ ှ ် ္ ့ ာ ◌ း ေ ဲ ု ူ ိ ံ ၖ ၗ ါ
     script: Burmese
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -5337,6 +5677,7 @@ myv:
   - autonym: Эрзянь
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -5349,6 +5690,7 @@ mzi:
   orthographies:
   - base: a b c e f i j k l m n o p r s t u x y z '
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -5361,6 +5703,7 @@ nag:
   - autonym: Nagamiz
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -5370,15 +5713,16 @@ nag:
   validity: verified
 nan:
   name: Min Nan Chinese
+  note: Speaker count is approximate.
   orthographies:
   - autonym: 閩南語
     inherit: cmn
     script: Chinese
+    status: primary
   source:
   - Wikipedia
   speakers: 48000000
   speakers_date: 2017-2018
-  note: Speaker count is approximate.
   validity: weak
 nap:
   name: Neapolitan
@@ -5386,6 +5730,7 @@ nap:
   - autonym: Napulitano
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â è é ê ì í î ò ó ô ù ú û
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -5400,6 +5745,7 @@ naq:
     auxiliary: j l v
     base: a b c d e f g h i k m n o p q r s t u w x y z à á ā ä â ã é è ê ë ẽ ē ì í ī ï ĩ ò ó õ ö ô ō ù ú ũ ü û ū ǀ ǁ ǂ ǃ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -5414,6 +5760,7 @@ nav:
   - autonym: Diné Bizaad
     base: a ą b c d e ę g h i į j k l ł m n o ǫ s t w x y z ' ´
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -5425,6 +5772,7 @@ nba:
   orthographies:
   - base: a b d e ɛ f g h i j k l m n ŋ o ɔ p s t u w z ` ´
     script: Latin
+    status: primary
   source:
   - Wikipedia
   speakers: 431000
@@ -5436,6 +5784,7 @@ nbl:
   - autonym: isiNdebele
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -5449,6 +5798,7 @@ nde:
   - autonym: isiNdebele
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -5462,6 +5812,7 @@ ndo:
   orthographies:
   - base: a b d e f g h i j k l m n o p r s t u v w y z
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -5474,6 +5825,7 @@ nds:
   - autonym: Niedersächsisch
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ß ä ë ï ö ü
     script: Latin
+    status: primary
   source:
   - Omniglot
   - CLDR
@@ -5486,6 +5838,7 @@ nhn:
   orthographies:
   - base: a b c d e f g h i j k l m n o p q r s t u v w x y z ü ā ē ī ō ū ȳ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -5519,6 +5872,7 @@ niu:
   - autonym: Niuē
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ī ō ū
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -5532,6 +5886,7 @@ niv:
   - autonym: нивх
     base: ʼ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ғ ӄ ӈ ӷ ӻ ӽ ӿ ’ ̌
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -5544,6 +5899,7 @@ njo:
   orthographies:
   - base: a b c e i j k l m n o p r s t u y z
     script: Latin
+    status: primary
   source:
   - Wikipedia
   validity: weak
@@ -5552,6 +5908,7 @@ nku:
   orthographies:
   - base: a b c d e ɛ f g h i j k l m n ŋ o ɔ p q r s t u v w x y z ɣ ˜ ˆ
     script: Latin
+    status: primary
   source:
   - Wikipedia
   speakers: 130000
@@ -5563,6 +5920,7 @@ nld:
   - autonym: Nederlands
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z á â ä è é ê ë í ï ó ô ö ú û ü ĳ ȷ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Native
@@ -5577,6 +5935,7 @@ nmg:
     auxiliary: q x z
     base: a b c d e f g h i j k l m n o p r s t u v w y á â ä é ê í î ï ó ô ö ú û ā ē ě ī ń ŋ ō ŕ ū ǎ ǐ ǒ ǔ ǝ ɓ ɔ ɛ
     script: Latin
+    status: primary
   source:
   - CLDR
   speakers: 26000
@@ -5590,6 +5949,7 @@ nnh:
     auxiliary: q r x
     base: a b c d e f g h i j k l m n o p s t u v w y z à á â è é ê ì í ò ó ô ù ú û ÿ ě ń ŋ ǎ ǒ ǔ ɔ ɛ ʉ ʼ ḿ ẅ
     script: Latin
+    status: primary
   source:
   - CLDR
   - Wikipedia
@@ -5603,6 +5963,7 @@ nog:
   - autonym: Ногай
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -5616,6 +5977,7 @@ non:
   - autonym: Dǫnsk tunga
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z á æ é í ð ó ø ú ý œ ǫ ǽ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -5632,6 +5994,7 @@ nor:
   - autonym: Norsk
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z á à ä å æ é è ê ò ó ô ö ø ü
     script: Latin
+    status: primary
   preferred_as_individual: true
   source:
   - Omniglot
@@ -5647,11 +6010,12 @@ not:
   - autonym: inato
     base: a b c e ë g i j m n o p q r s t y
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
   speakers: 6500
-  speakers_date: 2003 
+  speakers_date: 2003
   validity: done
 nov:
   name: Novial
@@ -5659,6 +6023,7 @@ nov:
   - autonym: Novial
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -5671,6 +6036,7 @@ nso:
   - autonym: Sepedi
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ê ô š
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -5684,6 +6050,7 @@ nus:
   - autonym: Naath
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ̱ ë ï ö ŋ ɔ ɛ ɣ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -5697,6 +6064,7 @@ nya:
   - autonym: Chicheŵa
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ŋ ŵ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -5709,6 +6077,7 @@ nym:
   orthographies:
   - base: a b d e ɛ f g h i j l m n ŋ o ɔ p s t u v w z
     script: Latin
+    status: primary
   source:
   - Wikipedia
   speakers: 1500000
@@ -5720,6 +6089,7 @@ nyn:
   - autonym: Runyankore
     base: a b c d e f g h i j k m n o p r s t u v w y z
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -5732,6 +6102,7 @@ nzi:
   orthographies:
   - base: a b d e ɛ f g h i k l m n o ɔ p r s t u v w y z
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -5744,6 +6115,7 @@ oaa:
   - autonym: Уйльта
     base: а б в г д е ж з и й к л м н о п р с т у ф х ч э ј ӈ ӡ ӣ ө ԩ ь
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -5757,6 +6129,7 @@ oci:
   - autonym: Occitan
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á ç è é ë í ï ò ó ú ü
     script: Latin
+    status: primary
   preferred_name: Occitan
   source:
   - Omniglot
@@ -5772,6 +6145,7 @@ ojb:
   - autonym: Nakawēmowin
     base: a b c d e g h i j k m n o p s t w y z '
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -5794,29 +6168,20 @@ oji:
   - autonym: ᐊᓂᔑᓈᐯᒧᐎᓐ
     base: ᐁ ᐃ ᐅ ᐊ ᐄ ᐎ ᐆ ᐋ ᐯ ᐱ ᐳ ᐸ ᐲ ᐴ ᐹ ᑉ ᑌ ᑎ ᑐ ᑕ ᑏ ᑑ ᑖ ᑦ ᑫ ᑭ ᑯ ᑲ ᑮ ᑰ ᑳ ᒃ ᒉ ᒋ ᒍ ᒐ ᒌ ᒎ ᒑ ᒡ ᒣ ᒥ ᒧ ᒪ ᒦ ᒨ ᒫ ᒻ ᓀ ᓂ ᓄ ᓇ ᓃ ᓅ ᓈ ᓐ ᓭ ᓯ ᓱ ᓴ ᓰ ᓲ ᓵ ᔅ ᔐ ᔑ ᔓ ᔕ ᔒ ᔔ ᔖ ᔥ ᔦ ᔨ ᔪ ᔭ ᔩ ᔫ ᔮ ᔾ ᐦ
     script: Ojibwe Syllabics
+    status: primary
   source:
   - Omniglot
   - Wikipedia
   speakers: 100880
   speakers_date: 1990-2010
   validity: done
-old:
-  name: Mochi
-  orthographies:
-  - autonym: Mochi
-    auxiliary: q x
-    base: a b c d e f g h i j k l m n o p r s t u v w y z
-    script: Latin
-  source:
-  - CLDR
-  status: living
-  validity: todo
 orc:
   name: Orma
   orthographies:
   - autonym: Orma
     inherit: gax
     script: Latin
+    status: primary
   source:
   - Wikipedia
   speakers: 66000
@@ -5829,6 +6194,7 @@ orh:
   - autonym: Oroqen
     base: a b d e f g h i j k l m n o p q r s t u ü w x y
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -5858,6 +6224,7 @@ ote:
   - autonym: Hñahñu
     base: a b c d e f g h i j k l m n o p r s t u x y z ã ̱ ï ö ü
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -5887,13 +6254,13 @@ pan:
   orthographies:
   - autonym: ਪੰਜਾਬੀ,
     base: ਅ ਬ ਭ ਗ ਧ ਢ ੲ ਵ ਦ ਡ ਹ ਘ ਥ ਠ ਯ ਕ ਚ ਲ ਮ ਨ ਣ ਸ ਼ ੳ ਪ ਫ ਖ ਛ ਰ ਤ ਟ ਜ ਾ ਿ ੀ ੁ ੂ ੇ ੈ ੋ ੌ
+    note: Used in India.
     numerals: ੦ ੧ ੨ ੩ ੪ ੫ ੬ ੭ ੮ ੯
     script: Gurmukhi
-    note: Used in India.
   - autonym: پن٘جابی
     base: ا ب پ ت ٹ ث ج چ ح خ د ڈ ذ ر ڑ ز ژ س ش ص ض ط ظ ع غ ف ق ک گ ل ؕ م ن ݨ ں و ه ھ ء ی ے
-    script: Arabic
     note: Used in Pakistan.
+    script: Arabic
   source:
   - Omniglot
   - Wikipedia
@@ -5906,6 +6273,7 @@ pap:
   - autonym: Papiamentu
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z è ò ù ü ñ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -5918,6 +6286,7 @@ pau:
   - autonym: a tekoi er a Belau
     base: a b c d e ę f i k l m n o p r s t u z
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -5930,6 +6299,7 @@ pbb:
   - autonym: Nasa Yuwe
     base: a ã b c d e ẽ f g i ĩ j l m n ñ p q s t u ũ v w y z '
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -5942,6 +6312,7 @@ pbu:
   - autonym: یوسفزئی پښتو
     base: ﺍ ﺏ پ ﺕ ټ ﺙ ﺝ چ ﺡ ﺥ څ ځ ﺩ ډ ﺫ ﺭ ړ ﺯ ژ ږ ﺱ ﺵ ښ ﺹ ﺽ ﻁ ﻅ ﻉ ﻍ ﻑ ﻕ ک ګ ﻝ ﻡ ﻥ ڼ ﻭ ه ۀ ي ې ی ۍ ئ
     script: Arabic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -5954,21 +6325,13 @@ pcd:
   - autonym: Picard
     base: a â å b c ç d e ê é è f g i î ï k l h j m n o ô p q r s t u û v w y ŷ z æ œ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
   speakers: 700000
   speakers_date: 2008
   validity: done
-pcm:
-  name: Nigerian Pidgin
-  orthographies:
-  - script: Latin
-  source:
-  - Wikipedia
-  speakers: 30000000
-  note: An additional 40000000 L2 speakers, both counts undated.
-  validity: todo
 pes:
   name: Iranian Persian
   note: Initial, medial, and final forms of the letters and some ligatures are also required.
@@ -5977,6 +6340,7 @@ pes:
     base: ء أ ؤ ئ ا ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ل م ن ه و پ چ ژ ک گ ی َ ُ ِ ْ ٰ
     numerals: ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹
     script: Arabic
+    status: primary
   source:
   - Wikipedia
   - Omniglot
@@ -5991,6 +6355,7 @@ pga:
   - autonym: جوبا
     inherit: apd
     script: Arabic
+    status: primary
   source:
   - Wikipedia
   speakers: 20000
@@ -5999,21 +6364,23 @@ pga:
   validity: weak
 pis:
   name: Pijin
+  note: Pijin has an additional 300000 L2 speakers.
   orthographies:
   - base: a b c d e f g h i j k l m n o p r s t u v w æ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
   speakers: 24000
   speakers_date: 1999
-  note: Pijin has an additional 300000 L2 speakers.
   validity: done
 piu:
   name: Pintupi-Luritja
   orthographies:
   - base: a i k l m n p r t u w y
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -6026,6 +6393,7 @@ plz:
   - autonym: Paluan
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
     script: Latin
+    status: primary
   source:
   - Omniglot
   speakers: 5500
@@ -6038,6 +6406,7 @@ pms:
   - autonym: Piemontèis
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z à ä è ë ì ï ò ö ù ü
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -6054,8 +6423,8 @@ pnb:
     script: Gurmukhi
   - autonym: پن٘جابی
     inherit: pan
-    script: Arabic
     note: Used in Pakistan.
+    script: Arabic
   source:
   - Omniglot
   - Wikipedia
@@ -6066,6 +6435,7 @@ pol:
   - autonym: Polski
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ó ą ć ę ł ń ś ź ż
     script: Latin
+    status: primary
   source:
   - Omniglot
   - CLDR
@@ -6079,6 +6449,7 @@ pon:
   - autonym: Pohnpei
     base: a d e h i k l m n o p r s t u w
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -6091,6 +6462,7 @@ por:
   - autonym: Português
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ã ç è é ê í ò ó ô õ ú ü
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -6106,6 +6478,7 @@ pot:
   - autonym: Bodéwadmimwen
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z è é ê ë
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -6118,6 +6491,7 @@ pov:
   - autonym: Kriolu
     base: a b c d e f g i j k l m n o p r s t x u v z '
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -6130,6 +6504,7 @@ ppl:
   - autonym: Náhuat
     base: a c e h i j k l m n p s t u w y ´
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -6143,6 +6518,7 @@ prg:
   - autonym: Prūsiskan
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ģ ī ķ ņ ō ŗ š ū ž ț ḑ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -6154,6 +6530,7 @@ prq:
   orthographies:
   - base: a c e i j k m n ñ o p r s t w y z
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -6166,6 +6543,7 @@ prs:
   - autonym: دری
     inherit: pes
     script: Arabic
+    status: primary
   source:
   - Wikipedia
   - Omniglot
@@ -6179,6 +6557,7 @@ quc:
   - autonym: Qatzijob'al
     base: a b c e h i j k l m n o p q r s t u w x y z '
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -6236,6 +6615,7 @@ que:
     auxiliary: č ĉ š ž
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ñ
     script: Latin
+    status: primary
   preferred_as_individual: true
   source:
   - Omniglot
@@ -6250,6 +6630,7 @@ qxq:
   - autonym: قاشقای ديلى
     inherit: pes
     script: Arabic
+    status: primary
   source:
   - Wikipedia
   - Omniglot
@@ -6264,6 +6645,7 @@ rar:
     auxiliary: á é í ó ú
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ī ō ū
     script: Latin
+    status: primary
   preferred_name: Cook Islands Māori
   source:
   - Omniglot
@@ -6274,6 +6656,7 @@ rar:
   validity: verified
 rmn:
   name: Balkan Romani
+  note: Balkan Romani has an additional 200000 L2 speakers.
   orthographies:
   - autonym: řomani ćhib
     base: a ä á b c ć č d e ê é f ğ h i î í j k l m n o ö ó p ṗ q r ř s š t u v w x y z
@@ -6286,7 +6669,6 @@ rmn:
   - Wikipedia
   speakers: 563670
   speakers_date: 2013
-  note: Balkan Romani has an additional 200000 L2 speakers.
   validity: done
 rmy:
   name: Vlax Romani
@@ -6294,29 +6676,20 @@ rmy:
   - autonym: řomani ćhib
     base: a ä b c ć č d e ê f ğ h i î j k l m n o ö p ṗ q r s ś t u v w x z ź
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
   speakers: 538480
   speakers_date: 2002-2014
   validity: done
-rof:
-  name: Rombo
-  orthographies:
-  - autonym: Kirombo
-    auxiliary: q x
-    base: a b c d e f g h i j k l m n o p r s t u v w y z
-    script: Latin
-  source:
-  - CLDR
-  status: living
-  validity: todo
 roh:
   name: Romansh
   orthographies:
   - autonym: Rumantsch
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z à â è é ê î ò ô ö ü
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -6330,9 +6703,8 @@ ron:
   orthographies:
   - autonym: Молдовеняскэ
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш ы ь э ю я ӂ
-    note: Moldovan Cyrillic alphabet
-    script: Cyrillic
     note: Used in Transnistria.
+    script: Cyrillic
   - autonym: Română
     auxiliary: ş ţ
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z â î ă ș ț
@@ -6351,6 +6723,7 @@ roo:
   - autonym: Rotokas
     base: a e g i k o p r s t u v
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -6364,6 +6737,7 @@ rue:
   - autonym: Руски
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ь э ю я ё є і ї ґ
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -6377,6 +6751,7 @@ run:
   - autonym: Ikirundi
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
     script: Latin
+    status: primary
   source:
   - Omniglot
   - CLDR
@@ -6390,6 +6765,7 @@ ruo:
   - autonym: Rumârește
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z å ă â ê ľ ń ș ț
     script: Latin
+    status: primary
   source:
   - CLDR
   - Wikipedia
@@ -6403,6 +6779,7 @@ rup:
   - autonym: Armani
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z â ã ă ș ț
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -6416,6 +6793,7 @@ ruq:
   - autonym: Vlăheshte
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā â ă ạ ē ë ę ž ł š ̯ ī ō ǫ ū ľ ń ș ț
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -6430,6 +6808,7 @@ rus:
   - autonym: Русский
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -6443,6 +6822,7 @@ rut:
   - autonym: Мыхӏабишды
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -6457,6 +6837,7 @@ rwk:
     auxiliary: q x
     base: a b c d e f g h i j k l m n o p r s t u v w y z
     script: Latin
+    status: primary
   source:
   - CLDR
   status: living
@@ -6467,6 +6848,7 @@ sag:
   - autonym: Sängö
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z â ä ê ë î ï ô ö û ü
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -6480,6 +6862,7 @@ sah:
   - autonym: Сахалыы
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҕ ҥ ү һ ө
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -6495,6 +6878,7 @@ san:
     base: अ आ इ ई उ ऊ ऋ ॠ ल ृ ए ऐ ओ औ क ् ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र व श ष स ह
     numerals: ० १ २ ३ ४ ५ ६ ७ ८ ९
     script: Devanagari
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -6506,6 +6890,7 @@ saq:
     auxiliary: f q x z
     base: a b c d e g h i j k l m n o p r s t u v w y
     script: Latin
+    status: primary
   source:
   - CLDR
   speakers: 240000
@@ -6518,6 +6903,7 @@ sbp:
   - autonym: Shisango
     base: a b c d e f g h i j k l m n o p q s t u v w x y z à á ä â è é ë ê ì í ï î ò ó ö ô ù ú ü û
     script: Latin
+    status: primary
   source:
   - Omniglot
   - CLDR
@@ -6532,6 +6918,7 @@ scn:
   - autonym: Sicilianu
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z à â è ì ò ù
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -6545,6 +6932,7 @@ sco:
   - autonym: Scots Leid
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ȝ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -6557,6 +6945,7 @@ sdh:
   - autonym: کوردی خوارگ
     inherit: ckb
     script: Arabic
+    status: primary
   source:
   - Wikipedia
   - Omniglot
@@ -6570,6 +6959,7 @@ seh:
   - autonym: Cisena
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -6583,6 +6973,7 @@ sei:
   - autonym: Cmiique Iitom
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ö
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -6596,6 +6987,7 @@ sel:
   - autonym: Шӧльӄумыт
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё җ ӄ ӈ a ̊ ӣ ӧ ө ӭ ӯ ӱ ӷ ̇
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   speakers: 1000
@@ -6608,6 +7000,7 @@ ses:
   - autonym: Koyraboro Senni
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ã õ ŋ š ž ɲ ẽ
     script: Latin
+    status: primary
   source:
   - CLDR
   - Wikipedia
@@ -6621,11 +7014,12 @@ sey:
   - autonym: Paikoka
     base: a ̱ d e ë i j k m n ñ o p s t u w y '
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
   speakers: 1200
-  speakers_date: 2007 
+  speakers_date: 2007
   validity: done
 sgh:
   name: Shughni
@@ -6633,6 +7027,7 @@ sgh:
   - autonym: Хуг̌ну̊н зив
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш ё ғ қ ҳ ҷ ӣ ӯ ̌ ̊
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -6647,6 +7042,7 @@ shi:
   - autonym: Tachelhit
     base: a b c d e f g h i j k l m n q r s t u w x y z ɛ ɣ ʷ ḍ ḥ ṛ ṣ ṭ ž
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -6660,6 +7056,7 @@ shk:
   - autonym: Dhøg Cøllø
     base: a ɛ e i ɔ o ø u w y b c d g h j k l m n ŋ p r t v á à ä é è ë í ì ï ó ö ú ù
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -6673,6 +7070,7 @@ shn:
   - autonym: လိၵ်ႈတႆး / ၵႂၢမ်းတႆး
     base: ၵ ၶ င ၸ သ ၺ တ ထ ၼ ပ ၽ ၾ မ ယ ရ လ ဝ ႁ ဢ ် ျ ြ ၢ ိ ဵ ႅ ု ူ ွ ႂ ႃ ီ ေ ႄ ႆ a i ( ) ႇ ႈ း ႉ ႊ
     script: Burmese
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -6684,6 +7082,7 @@ shp:
   orthographies:
   - base: a b c e i j k l m n o p q r s t u w y
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -6697,6 +7096,7 @@ shu:
   - autonym: تشادية
     inherit: apd
     script: Arabic
+    status: primary
   source:
   - Wikipedia
   speakers: 1600000
@@ -6705,16 +7105,17 @@ shu:
   validity: weak
 sin:
   name: Sinhala
+  note: Sinhala has an additional 3000000 L2 speakers.
   orthographies:
   - autonym: සිංහල
     base: අ ආ ඇ ඈ ඉ ඊ උ ඌ ඍ ඎ එ ඒ ඓ ඔ ඕ ඖ ට ඨ ඩ ඪ ණ ඬ ත ථ ද ධ න ඳ ප ඵ බ භ ම ඹ ය ර ල ව ළ ශ ෂ ස හ ෆ
     script: Sinhala
+    status: primary
   source:
   - Omniglot
   - Wikipedia
   speakers: 17000000
   speakers_date: 2012
-  note: Sinhala has an additional 3000000 L2 speakers.
   validity: done
 sjd:
   name: Kildin Sami
@@ -6722,6 +7123,7 @@ sjd:
   - autonym: Кӣллт Са̄мь
     base: а ӓ б в г д е ё ж з һ и ӣ й ј ҋ к л ӆ м ӎ н ӊ ӈ о п р ҏ с т у ӯ ф х ц ч ш щ ъ ы ь ҍ э ӭ ю я ’
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -6735,6 +7137,7 @@ sje:
   - autonym: Bidumsámegiella
     base: a b d e f g h i j k l m n o p r s t u v á ä å đ ŋ ŧ ’ \ '
     script: Latin
+    status: primary
   source:
   - Wikipedia
   - Omniglot
@@ -6748,6 +7151,7 @@ sjt:
   - autonym: Са̄мькӣлл
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ј ҋ ҍ ҏ һ ӆ ӈ ӊ ӎ ӓ ӭ ӣ ’
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -6762,6 +7166,7 @@ sju:
     auxiliary: ū ǖ
     base: a b d e f g h i j k l m n o p r s t u v y á ä å ï ö ü đ ŋ ŧ ̄
     script: Latin
+    status: primary
   source:
   - Wikipedia
   - Omniglot
@@ -6775,6 +7180,7 @@ sjw:
   - autonym: Sawanwa
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -6788,6 +7194,7 @@ skr:
   - autonym: سرائیکی
     base: ا ب ٻ پ ت ٹ ث ج ڄ چ ح خ د ڊ ڈ ݙ ذ ر ڑ ز ژ س ش ص ض ط ظ ع غ ف ق ک گ ڳ ل م ن ݨ و ہ ھ ء ی ے ي ٔ
     script: Arabic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -6800,6 +7207,7 @@ slk:
   - autonym: Slovenčina
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z á ä é í ó ô ú ý č ď ĺ ľ ň ŕ š ť ž
     script: Latin
+    status: primary
   source:
   - Omniglot
   - CLDR
@@ -6814,6 +7222,7 @@ slv:
   - autonym: Slovenščina
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ö ü ć č đ š ž
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -6828,6 +7237,7 @@ sma:
   - autonym: Åarjelsaemiengïele
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä å æ ï ö ø
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -6841,6 +7251,7 @@ sme:
   - autonym: Sámegiella
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z á ä å æ ö ø č đ ŋ š ŧ ž
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Alvestrand
@@ -6872,6 +7283,7 @@ smn:
   - autonym: Anarâškielâ
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z á â ä å ö č đ ŋ š ž
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -6885,6 +7297,7 @@ smo:
   - autonym: Sāmoa
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ī ō ū
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -6898,6 +7311,7 @@ sms:
   - autonym: Nuõrttsääʹmǩiõll
     base: a b c d e f g h i j k l m n o p q r s t u v x y z â ä å ö õ č đ ŋ š ž ǥ ǧ ǩ ǯ ʒ ’ ʹ ˈ
     script: Latin
+    status: primary
   source:
   - Wikipedia
   - Omniglot
@@ -6911,6 +7325,7 @@ sna:
   - autonym: Chishona
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -6924,6 +7339,7 @@ snk:
   - autonym: Sooninkanxanne
     base: a b c d e f g h i j k l m n o p q r s t u w x y '
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -6936,6 +7352,7 @@ snn:
   - autonym: Gantëya coca
     base: a ã ̱ b c d e ë ɛ g h i ĩ ɨ j k m n ñ o õ p r s t u ũ w y z '
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -6948,6 +7365,7 @@ som:
   - autonym: Soomaali
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
     script: Latin
+    status: primary
   source:
   - Omniglot
   - CLDR
@@ -6962,6 +7380,7 @@ sot:
   - autonym: Sesotho
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á é ̄ š
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -6975,6 +7394,7 @@ spa:
   - autonym: Español
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ñ ó ú ü ¡ ¿
     script: Latin
+    status: primary
   source:
   - Omniglot
   - CLDR
@@ -6993,6 +7413,7 @@ srd:
   - autonym: Sardu
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z à ç è ì ò ù
     script: Latin
+    status: primary
   preferred_as_individual: true
   source:
   - Omniglot
@@ -7007,6 +7428,7 @@ srm:
   - autonym: Saamáka
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z á ë ö
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -7020,6 +7442,7 @@ srn:
   - autonym: Sranan Tongo
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z è ò
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -7050,6 +7473,7 @@ srr:
   - autonym: Seereer
     base: a b ɓ c ƈ d ɗ e f g h i j k l m n ñ ŋ o p ƥ q r s t ƭ u w x y ƴ '
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -7062,6 +7486,7 @@ ssw:
   - autonym: Siswati
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
     script: Latin
+    status: primary
   source:
   - Omniglot
   speakers: 2300000
@@ -7074,6 +7499,7 @@ suk:
   - autonym: Kɪsukuma
     base: a b c d e f g h i j k l m n o p r s t u v w y z ' ɪ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -7086,6 +7512,7 @@ sun:
   - autonym: Basa Sunda
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z é
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -7099,6 +7526,7 @@ sus:
   - autonym: Sosoxi
     base: a b d e ɛ f g h i k x l m n ɲ o ɔ p r s t u w y
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -7127,6 +7555,7 @@ swc:
   - autonym: Kiswahili
     inherit: swh
     script: Latin
+    status: primary
   source:
   - Omniglot
   status: living
@@ -7137,6 +7566,7 @@ swe:
   - autonym: Svenska
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á ä å é ë ö ü
     script: Latin
+    status: primary
   source:
   - Omniglot
   - CLDR
@@ -7152,6 +7582,7 @@ swh:
   - autonym: Kiswahili
     base: a b c d e f g h i j k l m n o p r s t u v w y z
     script: Latin
+    status: primary
   preferred_name: Swahili
   source:
   - Omniglot
@@ -7166,6 +7597,7 @@ szl:
   - autonym: Ślůnsko godka
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ć č ń ř ś š ů ź ż ž
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -7179,6 +7611,7 @@ tab:
   - autonym: Табасаран
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -7193,6 +7626,7 @@ tah:
   - autonym: Reo Tahiti
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ī ō ū
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -7225,6 +7659,7 @@ tam:
     base: அ ஆ இ ஈ உ ஊ எ ஏ ி ீ ு ூ ஐ ஒ ஓ ஔ ஃ ஂ ை ொ ோ ௌ ் க ங ச ஞ ட ண த ந ப ம ய ர ல வ ழ ள ற ன ஜ ஶ ஷ ஸ ஹ
     numerals: 0 ௧ ௨ ௩ ௪ ௫ ௬ ௭ ௮ ௯ ௰ ௱ ௲
     script: Tamil
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -7237,6 +7672,7 @@ tat:
   - autonym: Татарча
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё җ ң ү һ ә ө
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   - CLDR
@@ -7251,6 +7687,7 @@ tay:
     auxiliary: č š ž ḳ
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ŋ ə ’
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -7264,6 +7701,7 @@ tbz:
   - autonym: Ditammari
     base: a b c d đ e f h i k l m n ŋ o ɔ p r s t u w x y z ã ɛ ĩ ú ũ
     script: Latin
+    status: primary
   source:
   - Wikipedia
   speakers: 150000
@@ -7275,6 +7713,7 @@ tca:
   - autonym: Duüxügu
     base: a b č d e f g h i j k l m n ñ o p r s t u ü w x y ʔ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -7287,6 +7726,7 @@ tdt:
   - autonym: Tetun Dili
     inherit: tet
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -7296,18 +7736,19 @@ tdt:
   validity: verified
 tel:
   name: Telugu
+  note: Telugu has an additional 11000000 L2 speakers.
   orthographies:
   - autonym: తెలుగు
     base: అ భ ఇ ి ఉ ు ఋ ృ ఌ ౢ ఎ ఐ ై ఒ ొ ఔ ౌ ం ఆ ా ఈ ీ ఊ ూ ౠ ౄ ౡ ౣ ఏ ే ఓ ో ః క ఖ గ ఘ ఙ చ ఛ జ ఝ ఞ ట ఠ డ ఢ ణ త థ ద ధ న ప ఫ బ మ య ర ల వ ళ శ ష స హ ఱ ఁ ్
     numerals: ౦ ౧ ౨ ౩ ౪ ౫ ౬ ౭ ౮ ౯ ౸ ౹ ౺ ౻ ౼ ౽ ౾
     script: Telugu
+    status: primary
   source:
   - Omniglot
   - Wikipedia
   - CLDR
   speakers: 82000000
   speakers_date: 2011
-  note: Telugu has an additional 11000000 L2 speakers.
   validity: done
 tem:
   name: Temne
@@ -7315,6 +7756,7 @@ tem:
   - autonym: KʌThemnɛ
     base: a ʌ b d e ɛ ə f g h i k l m n ŋ o ɔ p r s t u w
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -7328,6 +7770,7 @@ teo:
     auxiliary: f q z
     base: a b c d e g h i j k l m n o p r s t u v w x y ŋ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -7337,16 +7780,17 @@ teo:
   validity: verified
 tet:
   name: Tetum
+  note: Tetum has an additional 570000 L2 speakers in East Timor.
   orthographies:
   - autonym: Lia Tetun
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ñ á ó é í
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
   speakers: 390000
   speakers_date: 2009
-  note: Tetum has an additional 570000 L2 speakers in East Timor.
   validity: done
 tgk:
   name: Tajik
@@ -7354,6 +7798,7 @@ tgk:
   - autonym: Тоҷикӣ
     base: а б в г д е ж з и й к л м н о п р с т у ф х ч ш ъ э ю я ё ғ қ ҳ ҷ ӣ ӯ
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -7368,6 +7813,7 @@ tgl:
   - autonym: Tagalog
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z á à é í ì ó ú
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -7377,6 +7823,7 @@ tgl:
   validity: verified
 tha:
   name: Thai
+  note: Thai has approximately 44000000 additional L2 speakers.
   orthographies:
   - autonym: ภาษาไทย
     auxiliary: ̍ ̎
@@ -7385,14 +7832,14 @@ tha:
     numerals: ๐ ๑ ๒ ๓ ๔ ๕ ๖ ๗ ๘ ๙
     punctuation: ๏ ๛
     script: Thai
-  speakers: 36000000
-  speakers_date: 2000
+    status: primary
   source:
   - Omniglot
   - Wikipedia
   - CLDR
+  speakers: 36000000
+  speakers_date: 2000
   validity: done
-  note: Thai has approximately 44000000 additional L2 speakers.
 tir:
   name: Tigrinya
   orthographies:
@@ -7400,6 +7847,7 @@ tir:
     base: ሀ ሁ ሂ ሃ ሄ ህ ሆ ኰ ኲ ኳ ኴ ኵ ለ ሉ ሊ ላ ሌ ል ሎ ዀ ዂ ዃ ዄ ዅ ሐ ሑ ሒ ሓ ሔ ሕ ሖ ወ ዉ ዊ ዋ ዌ ው ዎ መ ሙ ሚ ማ ሜ ም ሞ ዐ ዑ ዒ ዓ ዔ ዕ ዖ ረ ሩ ሪ ራ ሬ ር ሮ ዘ ዙ ዚ ዛ ዜ ዝ ዞ ሰ ሱ ሲ ሳ ሴ ስ ሶ ዠ ዡ ዢ ዣ ዤ ዥ ዦ ሸ ሹ ሺ ሻ ሼ ሽ ሾ የ ዩ ዪ ያ ዬ ይ ዮ ቀ ቁ ቂ ቃ ቄ ቅ ቆ ደ ዱ ዲ ዳ ዴ ድ ዶ ቈ ቊ ቋ ቌ ቍ ጀ ጁ ጂ ጃ ጄ ጅ ጆ ቐ ቑ ቒ ቓ ቔ ቕ ቖ ገ ጉ ጊ ጋ ጌ ግ ጎ ቘ ቚ ቛ ቜ ቝ ጐ ጒ ጓ ጔ ጕ በ ቡ ቢ ባ ቤ ብ ቦ ጠ ጡ ጢ ጣ ጤ ጥ ጦ ተ ቱ ቲ ታ ቴ ት ቶ ጨ ጩ ጪ ጫ ጬ ጭ ጮ ቸ ቹ ቺ ቻ ቼ ች ቾ ጰ ጱ ጲ ጳ ጴ ጵ ጶ ነ ኑ ኒ ና ኔ ን ኖ ጸ ጹ ጺ ጻ ጼ ጽ ጾ ኘ ኙ ኚ ኛ ኜ ኝ ኞ ፈ ፉ ፊ ፋ ፌ ፍ ፎ አ ኡ ኢ ኣ ኤ እ ኦ ፐ ፑ ፒ ፓ ፔ ፕ ፖ ከ ኩ ኪ ካ ኬ ክ ኮ ቨ ቩ ቪ ቫ ቬ ቭ ቮ
     numerals: ፩ ፪ ፫ ፬ ፭ ፮ ፯ ፰ ፱ ፲ ፳ ፴ ፵ ፶ ፷ ፸ ፹ ፺ ፻
     script: Ge'ez/Fidel
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -7412,6 +7860,7 @@ tiv:
   - autonym: Tiv
     base: a b c d e f g h i j k l m n o ô p r s t u v w y z
     script: Latin
+    status: primary
   source:
   - Wikipedia
   speakers: 7000000
@@ -7423,6 +7872,7 @@ tkl:
   - autonym: Tokelau
     base: a e i o u f g k l m n p h t v ā ē ī ō ū
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -7435,12 +7885,12 @@ tkr:
   orthographies:
   - autonym: Цӏаӏхна миз
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
-    script: Cyrillic
     note: Used in Dagestan.
+    script: Cyrillic
   - autonym: Ts‘əxna miz
     inherit: azj
-    script: Latin
     note: Used in Azerbaijan.
+    script: Latin
   source:
   - Omniglot
   - Wikipedia
@@ -7454,6 +7904,7 @@ tlh:
   - autonym: tlhIngan Hol
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -7468,12 +7919,12 @@ tly:
     script: Cyrillic
   - autonym: Tolışi
     inherit: azj
-    script: Latin
     note: Used in Azerbaijan.
+    script: Latin
   - autonym: تالشه
     inherit: pes
-    script: Arabic
     note: Used in Iran.
+    script: Arabic
   source:
   - Omniglot
   - Wikipedia
@@ -7487,6 +7938,7 @@ tob:
   - autonym: Toba
     base: a b c d e g h i j l m n o ñ t u v x y ỹ '
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -7497,6 +7949,7 @@ toi:
   - autonym: Faka-Tonga
     base: a e f g h i k l m n o p s t u v ' ¯
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -7509,6 +7962,7 @@ toj:
   - autonym: Tojolꞌabꞌal
     base: a b c d e g i j k l m n o p r s t u w x y ꞌ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -7522,6 +7976,7 @@ ton:
   - autonym: Faka Tonga
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā á ē é ī í ō ó ū ú
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -7536,6 +7991,7 @@ top:
   - autonym: Tutunakú
     base: a c e i j k l m n o p r s t u w x y ' ´
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -7548,6 +8004,7 @@ tpi:
   - autonym: Tok Pisin
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -7561,6 +8018,7 @@ tsn:
   - autonym: Setswana
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ê ô š
     script: Latin
+    status: primary
   source:
   - Omniglot
   speakers: 5200000
@@ -7573,6 +8031,7 @@ tso:
   - autonym: Xitsonga
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -7586,6 +8045,7 @@ tsz:
   - autonym: P'urhépecha
     base: a b c d e g h i ï j k m n o p r s t u x ' ´
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -7596,12 +8056,12 @@ ttt:
   name: Muslim Tat
   orthographies:
   - base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
-    script: Cyrillic
     note: Used in Russia.
+    script: Cyrillic
   - autonym: Tati
     inherit: azb
-    script: Latin
     note: used in Azerbaijan.
+    script: Latin
   source:
   - Omniglot
   - Wikipedia
@@ -7632,6 +8092,7 @@ tum:
   - autonym: Chitumbuka
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -7645,6 +8106,7 @@ tur:
   - autonym: Türkçe
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z â ç î ö û ü ğ İ ı ș
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -7660,6 +8122,7 @@ tvl:
   - autonym: Te ’gana Tūvalu
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā á à ǎ ē é è ě ī í ì ǐ ō ó ò ǒ ū ú ù ǔ ’
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -7673,6 +8136,7 @@ twi:
   - autonym: Twi
     base: a b d e f g h i k l m n o p r s t u w y ɛ ɔ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -7687,6 +8151,7 @@ twq:
     auxiliary: v
     base: a b c d e f g h i j k l m n o p q r s t u w x y z ã õ ŋ š ž ɲ ẽ ’
     script: Latin
+    status: primary
   source:
   - CLDR
   speakers: 8000
@@ -7699,6 +8164,7 @@ tyv:
   - autonym: Тыва
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ң ү ө
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -7712,6 +8178,7 @@ tzh:
   - autonym: Batz'il K'op
     base: a b c e h i j k l m n o p r t u w x y z '
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -7724,6 +8191,7 @@ tzm:
   - autonym: Tamaziɣt
     base: a b c d e f g h i j k l m n q r s t u w x y z ɛ ɣ ʷ ḍ ḥ ṛ ṣ ṭ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -7738,6 +8206,7 @@ tzo:
   - autonym: Bats’i k’op
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ’
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -7751,6 +8220,7 @@ udi:
   - autonym: Удин муз
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ҝ ӏ ’
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -7764,6 +8234,7 @@ udm:
   - autonym: Удмурт
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӝ ӟ ӥ ӧ ӵ
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -7800,6 +8271,7 @@ ukr:
   - autonym: Українська
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ь э ю я є і ї ґ ’
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -7814,6 +8286,7 @@ ulk:
   - autonym: Meriam Mir
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ì ò ù
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -7827,6 +8300,7 @@ umb:
   - autonym: Úmbúndú
     base: a b c d e f g h i j k l m n o p r s t u v w y ã ẽ õ ú ũ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -7838,6 +8312,7 @@ umu:
   - autonym: Huluníixsuwaakan
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ó ú ă ŭ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -7851,11 +8326,12 @@ ura:
   - autonym: Itucale
     base: a b c d e f i k l m n o p r s t u y ǫ ʉ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
   speakers: 3000
-  speakers_date: 2002 
+  speakers_date: 2002
   validity: done
 urd:
   name: Urdu
@@ -7865,6 +8341,7 @@ urd:
     base: ء ا ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ل م ن و ٹ پ چ ڈ ڑ ژ ک گ ں ھ ہ ی َ ُ ِ ْ ٰ
     numerals: ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹
     script: Arabic
+    status: primary
   source:
   - Wikipedia
   - Omniglot
@@ -7879,6 +8356,7 @@ uum:
   - autonym: Урум
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш ы э ґ ӧ ӱ ’
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -7917,6 +8395,7 @@ uzs:
   - autonym: وزبیکی
     base: ء ئ ا ب ت ج ح خ د ر ز س ش غ ف ق ك ل م ن ه و ى ي پ چ ژ ڭ گ ھ ۇ ۋ ې ک ی
     script: Arabic
+    status: primary
   source:
   - Wikipedia
   - Omniglot
@@ -7930,6 +8409,7 @@ vai:
   - autonym: ꕙꔤ
     base: ꔀ ꔁ ꔂ ꔃ ꔄ ꔅ ꔆ ꔇ ꔈ ꔉ ꔊ ꔋ ꔌ ꔍ ꔎ ꔏ ꔐ ꔑ ꔒ ꔓ ꔔ ꔕ ꔖ ꔗ ꔘ ꔙ ꔚ ꔛ ꔜ ꔝ ꔞ ꔟ ꔠ ꔡ ꔢ ꔣ ꔤ ꔥ ꔦ ꔧ ꔨ ꔩ ꔪ ꔫ ꔬ ꔭ ꔮ ꔯ ꔰ ꔱ ꔲ ꔳ ꔴ ꔵ ꔶ ꔷ ꔸ ꔹ ꔺ ꔻ ꔼ ꔽ ꔾ ꔿ ꕀ ꕁ ꕂ ꕃ ꕄ ꕅ ꕆ ꕇ ꕈ ꕉ ꕊ ꕋ ꕌ ꕍ ꕎ ꕏ ꕐ ꕑ ꕒ ꕓ ꕔ ꕕ ꕖ ꕗ ꕘ ꕙ ꕚ ꕛ ꕜ ꕝ ꕞ ꕟ ꕠ ꕡ ꕢ ꕣ ꕤ ꕥ ꕦ ꕧ ꕨ ꕩ ꕪ ꕫ ꕬ ꕭ ꕮ ꕯ ꕰ ꕱ ꕲ ꕳ ꕴ ꕵ ꕶ ꕷ ꕸ ꕹ ꕺ ꕻ ꕼ ꕽ ꕾ ꕿ ꖀ ꖁ ꖂ ꖃ ꖄ ꖅ ꖆ ꖇ ꖈ ꖉ ꖊ ꖋ ꖌ ꖍ ꖎ ꖏ ꖐ ꖑ ꖒ ꖓ ꖔ ꖕ ꖖ ꖗ ꖘ ꖙ ꖚ ꖛ ꖜ ꖝ ꖞ ꖟ ꖠ ꖡ ꖢ ꖣ ꖤ ꖥ ꖦ ꖧ ꖨ ꖩ ꖪ ꖫ ꖬ ꖭ ꖮ ꖯ ꖰ ꖱ ꖲ ꖳ ꖴ ꖵ ꖶ ꖷ ꖸ ꖹ ꖺ ꖻ ꖼ ꖽ ꖾ ꖿ ꗀ ꗁ ꗂ ꗃ ꗄ ꗅ ꗆ ꗇ ꗈ ꗉ ꗊ ꗋ ꗌ ꗍ ꗎ ꗏ ꗐ ꗑ ꗒ ꗓ ꗔ ꗕ ꗖ ꗗ ꗘ ꗙ ꗚ ꗛ ꗜ ꗝ ꗞ ꗟ ꗠ ꗡ ꗢ ꗣ ꗤ ꗥ ꗦ ꗧ ꗨ ꗩ ꗪ ꗫ ꗬ ꗭ ꗮ ꗯ ꗰ ꗱ ꗲ ꗳ ꗴ ꗵ ꗶ ꗷ ꗸ ꗹ ꗺ ꗻ ꗼ ꗽ ꗾ ꗿ ꘀ ꘁ ꘂ ꘃ ꘄ ꘅ ꘆ ꘇ ꘈ ꘉ ꘊ ꘋ ꘌ ꘍ ꘎ ꘏ ꘐ ꘑ ꘒ ꘓ ꘔ ꘕ ꘖ ꘗ ꘘ ꘙ ꘚ ꘛ ꘜ ꘝ ꘞ ꘟ ꘠ ꘡ ꘢ ꘣ ꘤ ꘥ ꘦ ꘧ ꘨ ꘩ ꘪ ꘫ
     script: Vai
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -7943,6 +8423,7 @@ vec:
   - autonym: Vèneto
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á ç è é ì í ò ó ù ł ž
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -7956,6 +8437,7 @@ ven:
   - autonym: Tshivenḓa
     base: a b d ḓ e f g h i k l ḽ m n ṋ ṅ o p r s t ṱ u v w x y z
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -7968,6 +8450,7 @@ vep:
   - autonym: Vepsä
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ö ü č š ž
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -7981,6 +8464,7 @@ vie:
   - autonym: Tiếng Việt
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ã è é ê ì í ò ó ô õ ù ú ý ă đ ĩ ũ ơ ư ạ ả ấ ầ ẩ ẫ ậ ắ ằ ẳ ẵ ặ ẹ ẻ ẽ ế ề ể ễ ệ ỉ ị ọ ỏ ố ồ ổ ỗ ộ ớ ờ ở ỡ ợ ụ ủ ứ ừ ử ữ ự ỳ ỵ ỷ ỹ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -7995,6 +8479,7 @@ vmw:
   - autonym: Emakhuwa
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z à è ì ò ù
     script: Latin
+    status: primary
   source:
   - Omniglot
   speakers: 6600000
@@ -8007,6 +8492,7 @@ vol:
   - autonym: Volapük
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ö ü
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -8020,23 +8506,13 @@ vro:
   - autonym: Võro
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä õ ö ü š ž '
     script: Latin
+    status: primary
   source:
   - Wikipedia
   speakers: 87000
   speakers_date: 2011
   status: living
   validity: verified
-vun:
-  name: Vunjo
-  orthographies:
-  - autonym: Vunjo
-    auxiliary: q x
-    base: a b c d e f g h i j k l m n o p r s t u v w y z
-    script: Latin
-  source:
-  - CLDR
-  status: living
-  validity: todo
 wae:
   name: Walser
   orthographies:
@@ -8044,6 +8520,7 @@ wae:
     auxiliary: ß à â å æ ç è ê ë ì î ï ñ ò ô ø ù û ÿ ā ă ē ĕ ī ĭ ō ŏ œ ū ŭ
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z á ã ä é í ó õ ö ú ü č š ũ
     script: Latin
+    status: primary
   source:
   - Wikipedia
   - CLDR
@@ -8059,6 +8536,7 @@ war:
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ñ
     note: Filipino orthography
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -8072,6 +8550,7 @@ wbp:
   - autonym: Warlpiri
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -8085,6 +8564,7 @@ wim:
   - autonym: Wik-Mungknh
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
     script: Latin
+    status: primary
   source:
   - Omniglot
   speakers: 450
@@ -8097,6 +8577,7 @@ win:
   - autonym: Ho-Chunk
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ą ğ į š ų ž
     script: Latin
+    status: primary
   source:
   - Omniglot
   speakers: 250
@@ -8109,6 +8590,7 @@ wln:
   - autonym: Walon
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z â å ç è é ê î ô û
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -8122,6 +8604,7 @@ wls:
   - autonym: Fakaʻuvea
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ī ō ū ʻ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -8135,6 +8618,7 @@ wmw:
   - autonym: Kimwani
     inherit: swh
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -8148,6 +8632,7 @@ wol:
   - autonym: Wolof
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z à ã é ë ñ ó ŋ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -8162,6 +8647,7 @@ wrh:
   - autonym: Wiradjuri
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -8174,6 +8660,7 @@ wss:
   - autonym: Wasa
     base: a b d e f g h i k l m n o p r s t u w y ɛ ɔ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -8187,6 +8674,7 @@ wuu:
   - autonym: 吴语
     inherit: cmn
     script: Chinese
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -8199,6 +8687,7 @@ wwa:
   - autonym: Yoabu
     base: a b c d e ɛ f i k m n ŋ o ɔ p r s t u w y
     script: Latin
+    status: primary
   source:
   - Wikipedia
   speakers: 50000
@@ -8210,6 +8699,7 @@ wyb:
   - autonym: Ngiyambaa
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
     script: Latin
+    status: primary
   source:
   - Omniglot
   speakers: 2
@@ -8222,6 +8712,7 @@ xal:
   - autonym: Хальмг
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё җ ң ү һ ә ө
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -8235,6 +8726,7 @@ xav:
   - autonym: A’uwẽ
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ã é ẽ ô õ ö ĩ ’
     script: Latin
+    status: primary
   source:
   - Omniglot
   speakers: 9600
@@ -8247,6 +8739,7 @@ xho:
   - autonym: isiXhosa
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -8260,6 +8753,7 @@ xog:
   - autonym: Lusoga
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
     script: Latin
+    status: primary
   source:
   - Omniglot
   - CLDR
@@ -8274,6 +8768,7 @@ xrg:
   - autonym: Minangkabau
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -8287,6 +8782,7 @@ xsm:
   - autonym: kasɩm
     base: a ǝ b c d e ɛ f g h i ɩ j k l m n ŋ o ɔ p r s t u ʋ v w y z
     script: Latin
+    status: primary
   source:
   - Wikipedia
   speakers: 250000
@@ -8298,6 +8794,7 @@ yad:
   - autonym: Nijyamïï Nikyejaada
     base: a c d č e h i j ɨ k m n o p r s t u w y á é í ï ó ú
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -8310,6 +8807,7 @@ yai:
   - autonym: Йағнобӣ
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ э ю я ё ғ қ ҳ ҷ ӣ ӯ ԝ
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -8323,6 +8821,7 @@ yao:
   - autonym: chiYao
     base: a b c d e g h i j k l m n o p s t u w ŵ y
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -8334,6 +8833,7 @@ yap:
   - autonym: Waab
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ä ë ö
     script: Latin
+    status: primary
   source:
   - Omniglot
   speakers: 5130
@@ -8347,6 +8847,7 @@ yav:
     auxiliary: j q r x z
     base: a b c d e f g h i k l m n o p s t u v w y à á â è é ì í î ò ó ô ù ú û ā ī ŋ ō ū ǎ ǒ ǔ ɔ ɛ
     script: Latin
+    status: primary
   source:
   - CLDR
   speakers: 17000
@@ -8359,6 +8860,7 @@ ydd:
   - autonym: ייִדיש
     base: א ב ג ד ה ו ז ח ט י כ ך ל מ ם נ ן ס ע פ ף צ ץ ק ר ש ת ִ ָ
     script: Hebrew
+    status: primary
   source:
   - Wikipedia
   - Omniglot
@@ -8371,6 +8873,7 @@ yih:
   - autonym: ייִדיש
     inherit: ydd
     script: Hebrew
+    status: primary
   source:
   - Wikipedia
   speakers: 5000
@@ -8382,6 +8885,7 @@ yij:
   - autonym: Burnugundi
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
     script: Latin
+    status: primary
   source:
   - Omniglot
   speakers: 377
@@ -8394,6 +8898,7 @@ ykg:
   - autonym: Одул
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ғ ң ӧ ԝ
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   speakers: 60–70
@@ -8406,6 +8911,7 @@ ymk:
   - autonym: Macue
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
     script: Latin
+    status: primary
   source:
   - CLDR
   speakers: 119700
@@ -8434,6 +8940,7 @@ yrk:
   - autonym: Ненэц
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӈ ӭ ’ ”
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -8447,6 +8954,7 @@ yua:
   - autonym: Màaya t'àan
     base: a b c d e i j k l m n o p r s t u w x y ' á à é è ó ò ú ù
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -8459,6 +8967,7 @@ yue:
   - autonym: 粵語 / 粤语
     inherit: cmn
     script: Chinese
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -8471,6 +8980,7 @@ yux:
   - autonym: Одул
     base: а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҕ җ ә қ ө
     script: Cyrillic
+    status: primary
   source:
   - Omniglot
   speakers: 5
@@ -8540,6 +9050,7 @@ zap:
   orthographies:
   - base: a b c d e f g h i j k l m n o p q r s t u v w x y z á à è é ë ì ü ̨ ñ ž
     script: Latin
+    status: primary
   preferred_as_individual: true
   source:
   - Omniglot
@@ -8585,6 +9096,7 @@ zlm:
   - autonym: Melayu
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
     script: Latin
+    status: primary
   preferred_name: Malaysian
   source:
   - Omniglot
@@ -8599,6 +9111,7 @@ zro:
   - autonym: Záparo
     base: a c e i j k m n o p r s t u w y z ' á é í ó ú
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -8630,6 +9143,7 @@ zul:
   - autonym: isiZulu
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -8644,6 +9158,7 @@ zun:
   - autonym: Shiwiʼma
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ł ʼ
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
