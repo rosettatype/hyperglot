@@ -45,16 +45,16 @@ aat:
   orthographies:
   - autonym: Arbërisht
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z á ä ç è é ë í ï ó ö ú ü ý
+    note: Used in Italy.
     script: Latin
     status: primary
-    note: Used in Italy.
   - autonym: Αρbε̰ρίσ̈τ
     auxiliary: η ψ ω ά έ ή ί ό ύ ώ ϊ ϋ ΐ ΰ
     base: α β b ϳ γ δ d ε ζ θ ι κ λ μ ν ξ ο π ρ σ ς τ υ φ χ ̇ ̱ ̈ ̰
-    script: Greek
-    validity: done
-    status: primary
     note: Used in Greece.
+    script: Greek
+    status: primary
+    validity: done
   source:
   - Omniglot
   - Wikipedia
@@ -3886,18 +3886,18 @@ jpn:
       民 気 水 氷 永 汁 求 汎 汗 汚 江 池 決 汽 沈 沖 没 沢 河 沸 油 治 沼 沿 況 泉 泊 泌 法 泡 波 泣 泥 注 泰 泳 洋 洗 洞 津 洪 活 派 流 浄 浅 浜 浦 浪 浮 浴 海 浸 消 涙 涯 液 涼 淑 淡 深 混 添 清 渇 済 渉 渋 渓 減 渡 渦 温 測 港 湖 湯 湾 湿 満 源 準 溝 溶 滅 滋 滑 滝 滞 滴 漁 漂 漆 漏 演 漠 漢 漫 漬 漸 潔 潜 潟 潤 潮 澄 激 濁 濃 濫 濯 瀬 火 灯 灰 災 炉 炊 炎 炭 点 為 烈 無 焦 然 焼 煙 照 煩 煮 熟 熱 燃 燥 爆 爵 父 片 版 牙 牛 牧 物 牲 特 犠 犬 犯 状 狂 狩 独 狭 猛 猟 猫 献 猶 猿 獄 獣 獲 玄 率 玉 王 珍 珠 班 現 球 理 琴 環 璽 瓶 甘 甚 生 産 用 田 由 甲 申 男 町 画 界 畑 畔 留 畜 畝 略 番 異 畳 疎 疑 疫 疲 疾 病 症 痘 痛 痢 痴 療 癒 癖 発 登 白 百 的 皆 皇 皮 皿 盆 益 盗 盛 盟 監 盤 目 盲 直 相 盾 省 看 県 真 眠 眺 眼 着 睡 督 瞬 矛 矢 知 短 矯 石 砂 研 砕 砲 破 硝 硫 硬 碁 碑 確 磁 磨 礁 礎 示 礼 社 祈 祉 祖 祝 神 祥 票 祭 禁 禅 禍 福 秀 私 秋 科 秒 秘 租 秩 称 移 程 税 稚 種 稲 稼 稿 穀 穂 積 穏 穫 穴 究 空 突 窃 窒 窓 窮 窯 立 竜 章 童 端 競 竹 笑 笛 符 第 筆 等 筋 筒 答 策 箇 算 管 箱 節 範 築 篤 簡 簿 籍 米 粉 粋 粒 粗 粘 粛 粧 精 糖 糧 糸 系 糾 紀 約 紅 紋 納 純 紙 級 紛 素 紡 索 紫 累 細 紳 紹 紺 終 組 経 結 絞 絡 給 統 絵 絶 絹 継 続 維 綱 網 綿 緊 総 緑 緒 線 締 編 緩 緯 練 縁 縄 縛 縦 縫 縮 績 繁 繊 織 繕 繭 繰 缶 罪 置 罰 署 罷 羅 羊 美 群 義 羽 翁 翌 習 翻 翼 老 考 者 耐 耕 耗 耳 聖 聞 聴 職 肉 肌 肖 肝 肢 肥 肩 肪 肯 育 肺 胃 胆 背 胎 胞 胴 胸 能 脂 脅 脈 脚 脱 脳 腐 腕 腰 腸 腹 膚 膜 膨 臓 臣 臨 自 臭 至 致 興 舌 舎 舗 舞 舟 航 般 舶 船 艇 艦 良 色 芋 芝 花 芳
       芸 芽 苗 若 苦 英 茂 茎 茶 草 荒 荘 荷 菊 菌 菓 菜 華 落 葉 著 葬 蒸 蓄 蔵 薄 薦 薪 薫 薬 藤 藩 藻 虎 虐 虚 虜 虞 虫 蚊 蚕 蛇 蛍 蛮 融 血 衆 行 術 街 衛 衝 衡 衣 表 衰 衷 袋 被 裁 裂 装 裏 裕 補 裸 製 複 褐 褒 襟 襲 西 要 覆 覇 見 規 視 覚 覧 親 観 角 解 触 言 訂 計 討 訓 託 記 訟 訪 設 許 訳 訴 診 証 詐 詔 評 詞 詠 試 詩 詰 話 該 詳 誇 誉 誌 認 誓 誕 誘 語 誠 誤 説 読 誰 課 調 談 請 論 諭 諮 諸 諾 謀 謁 謄 謙 講 謝 謡 謹 識 譜 警 議 譲 護 谷 豆 豊 豚 象 豪 貝 貞 負 財 貢 貧 貨 販 貫 責 貯 貴 買 貸 費 貿 賀 賃 賄 資 賊 賓 賛 賜 賞 賠 賢 賦 質 購 贈 赤 赦 走 赴 起 超 越 趣 足 距 跡 路 跳 践 踊 踏 躍 身 車 軌 軍 軒 軟 転 軸 軽 較 載 輝 輩 輪 輸 轄 辛 辞 辱 農 辺 込 迅 迎 近 返 迫 迭 述 迷 追 退 送 逃 逆 透 逐 逓 途 通 逝 速 造 連 逮 週 進 逸 遂 遅 遇 遊 運 遍 過 道 達 違 遠 遣 適 遭 遮 遵 遷 選 遺 避 還 邦 邪 邸 郊 郎 郡 部 郭 郵 郷 都 酌 配 酒 酔 酢 酪 酬 酵 酷 酸 醜 醸 釈 里 重 野 量 金 針 釣 鈍 鈴 鉄 鉛 鉢 鉱 銀 銃 銅 銘 銭 鋭 鋳 鋼 錠 錬 錯 録 鍛 鎖 鎮 鏡 鐘 鑑 長 門 閉 開 閑 間 関 閣 閥 閲 闘 阪 防 阻 附 降 限 陛 院 陣 除 陥 陪 陰 陳 陵 陶 陸 険 陽 隅 隆 隊 階 随 隔 際 障 隠 隣 隷 隻 雄 雅 集 雇 雌 雑 離 難 雨 雪 雰 雲 零 雷 電 需 震 霊 霜 霧 露 青 静 非 面 革 靴 韓 音 韻 響 頂 頃 項 順 預 頑 頒 領 頬 頭 頻 頼 題 額 顔 顕 願 類 顧 風 飛 食 飢 飯 飲 飼 飽 飾 養 餓 館 首 香 馬 駄 駅 駆 駐 騎 騒 験 騰 驚 骨 髄 高 髪 鬼 魂 魅 魔 魚 鮮 鯨 鳥 鳴 鶏 鹿 麗 麦 麻 黄 黒 黙 鼓 鼻 齢
     numerals: '% + - . 0 1 2 3 4 5 6 7 8 9 ‰'
+    preferred_as_group: true
     punctuation: '! " # % & ( ) *  - . / : ; ? @ [ \ ] _ § ¶ ‐ — ― ‖ ‘ ’ “ ” † ‡ ‥ … ‰ ′ ″ ※ ‾ 、 。 〃 〈 〉 《 》 「 」 『 』 【 】 〔 〕 〜 ・ ！ ＂ ＃ ％ ＆ ＇ （ ） ＊ ， － ． ／ ： ； ？ ＠ ［ ＼ ］ ＿ ｛ ｝ ｡ ｢ ｣ ､ ･'
     script: Kanji
     status: primary
-    preferred_as_group: true
   - base: あ い う え お k か き く け こ g が ぎ ぐ げ ご s さ し す せ そ z ざ じ ず ぜ ぞ t た ち つ て と d だ ぢ づ で ど n な に ぬ ね の h は ひ ふ へ ほ b ば び ぶ べ ぼ p ぱ ぴ ぷ ぺ ぽ m ま み む め も y や ゆ よ r ら り る れ ろ w わ ゐ ゑ を ん っ ゝ ゛ ゜
+    preferred_as_group: true
     script: Hiragana
     status: primary
-    preferred_as_group: true
   - base: ゠ ァ ア ィ イ ゥ ウ ェ エ ォ オ カ ガ キ ギ ク グ ケ ゲ コ ゴ サ ザ シ ジ ス ズ セ ゼ ソ ゾ タ ダ チ ヂ ッ ツ ヅ テ デ ト ド ナ ニ ヌ ネ ノ ハ バ パ ヒ ビ ピ フ ブ プ ヘ ベ ペ ホ ボ ポ マ ミ ム メ モ ャ ヤ ュ ユ ョ ヨ ラ リ ル レ ロ ヮ ワ ヰ ヱ ヲ ン ヴ ヵ ヶ ヷ ヸ ヹ ヺ ・ ー ヽ ヾ ヿ ㇰ ㇱ ㇲ ㇳ ㇴ ㇵ ㇶ ㇷ ㇸ ㇹ ㇺ ㇻ ㇼ ㇽ ㇾ ㇿ
+    preferred_as_group: true
     script: Katakana
     status: primary
-    preferred_as_group: true
   source:
   - Omniglot
   - Wikipedia
@@ -7476,14 +7476,14 @@ srp:
   orthographies:
   - autonym: Српски
     base: ́ а б в г д е ж з и к л м н о п р с т у ф х ц ч ш ђ ј љ њ ћ џ
+    preferred_as_group: true
     script: Cyrillic
     status: primary
-    preferred_as_group: true
   - autonym: Srpski
     base: a b c d e f g h i j k l m n o p q r s t u v w x y z ć č đ ś š ź ž
+    preferred_as_group: true
     script: Latin
     status: primary
-    preferred_as_group: true
   source:
   - Omniglot
   - Wikipedia
