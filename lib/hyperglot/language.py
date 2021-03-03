@@ -140,6 +140,31 @@ class Language(dict):
 
         return False
 
+    def get_orthography_chars(self, orthography, attr="base",
+                              ignoreMerge=False):
+        """
+        Get a character list from an orthography.
+        This also abstracts combining 'preferred_as_group' for special cases.
+        @return set or bool
+        """
+        combined = []
+
+        if "preferred_as_group" not in orthography or ignoreMerge:
+            if attr in orthography:
+                combined = orthography[attr]
+        else:
+            for o in self["orthographies"]:
+                if attr not in o:
+                    continue
+
+                if "preferred_as_group" in o and attr in o:
+                    combined = combined + list(o[attr])
+
+        if combined == []:
+            return False
+
+        return set(parse_chars(combined))
+
     def has_support(self, chars, level="base", decomposed=False,
                     checkAllOrthographies=False,
                     pruneOrthographies=True):
@@ -188,12 +213,10 @@ class Language(dict):
                          "deprecated or secondary" % self.iso)
 
             # Any support check needs 'base'
-            if "base" in ort:
+            base = self.get_orthography_chars(ort, "base",
+                                              checkAllOrthographies)
+            if base:
                 script = ort["script"]
-                base = set(parse_chars(ort["base"]))
-                if type(ort["base"]) is not list:
-                    base = set(parse_chars(ort["base"]))
-
                 supported = base.issubset(chars)
 
                 if supported:
@@ -201,11 +224,9 @@ class Language(dict):
                     # and level is "aux" and orthography has "auxiliary"
                     # defined - if orthography has no "auxiliary" we consider
                     # it supported on "auxiliary" level, too
-                    if level == "aux" and "auxiliary" in ort:
-                        aux = set(ort["auxiliary"])
-                        if type(ort["auxiliary"]) is not list:
-                            aux = set(parse_chars(ort["auxiliary"]))
-
+                    aux = self.get_orthography_chars(ort, "auxiliary",
+                                                     checkAllOrthographies)
+                    if level == "aux" and aux:
                         supported = aux.issubset(chars)
 
             if supported:

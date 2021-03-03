@@ -51,7 +51,8 @@ A language can refer to one or more orthographies. An orthography specifies the 
 - `autonym` (optional): the name of the language in the language itself using this orthography. If missing, the `autonym` defined in the parent language entry is used. It is expected that the `autonym` can be spelled with the orthography's `base`.
 - `inherit` (required or use `base`): the code of a language to copy the `base` and `auxiliary` strings from. In case the language has multiple orthographies, the first one for the same script is used.
 - `script` (required): English name of the main script used by the orthography, e.g. Latin, Arabic, Armenian, Cyrillic, Greek, Hebrew. When a language uses a combination of several scripts in conjunction each script forms its own orthography.
-- `status` (required, defaults to `primary`): the status of the orthography, may be one of: `deprecated, secondary, local, primary`. The value `local` refers to an orthography which is used only in a specific region. Orthographies with `secondary` status are ignored during language support detection, but used when detecting `orthography` support. Orthographies with `deprecated` status are included only for the sake of completeness. 
+- `status` (required, defaults to `primary`): the status of the orthography, may be one of: `deprecated, secondary, local, primary`. The value `local` refers to an orthography which is used only in a specific region. Orthographies with `secondary` status are ignored during language support detection, but used when detecting `orthography` support. Orthographies with `deprecated` status are included only for the sake of completeness.
+- `preferred_as_group` will combine all orthographies of this language. For a language to be listed as supported the font needs to support all those orthographies.
 - `note` (optional): a note of any kind. We will add a note about other support requirements we know, e.g. OpenType features.
 
 

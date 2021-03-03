@@ -116,3 +116,48 @@ def test_language_all_orthographies():
     assert ("rmn" in support["Latin"]) is True
     assert ("Cyrillic" not in support.keys()) is True
     assert len(rmn["orthographies"]) == 1
+
+
+def test_language_multiple_primaries():
+    Langs = Languages()
+
+    # E.g. aat Arvanitika Albanian has exceptionally two `primary`
+    # orthographies, a font with support for either should include the language
+    aat_latin = "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z ̀ ́ ̈ ̧"  # noqa
+    aat = Language(Langs["aat"], "aat")
+    support = aat.has_support(aat_latin)
+    assert ("Latin" in support.keys()) is True
+    assert ("Greek" not in support.keys()) is True
+    assert len(aat["orthographies"]) == 1
+
+
+def test_language_combined_orthographies():
+    Langs = Languages()
+
+    # E.g. Serbian or Japanese have multiple orthographies that should be
+    # treated as a combination, e.g. require all for support
+    srp = Language(Langs["srp"], "srp")
+    srp_cyrillic = 'А Б В Г Д Е Ж З И К Л М Н О П Р С Т У Ф Х Ц Ч Ш Ђ Ј Љ Њ Ћ Џ а б в г д е ж з и к л м н о п р с т у ф х ц ч ш ђ ј љ њ ћ џ ́'  # noqa
+    srp_latin = 'A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Đ a b c d e f g h i j k l m n o p q r s t u v w x y z đ ́ ̌'  # noqa
+
+    # Checking support with just the one script will no list the language
+    support = srp.has_support(srp_latin)
+    assert support == {}
+    support = srp.has_support(srp_cyrillic)
+    assert support == {}
+
+    # Checking with the combined chars this should now return both
+    # orthographies
+    srp = Language(Langs["srp"], "srp")
+    combined = srp_cyrillic + " " + srp_latin
+    support = srp.has_support(combined)
+    assert ("Cyrillic" in support) is True
+    assert ("Latin" in support) is True
+    assert ("srp" in support["Cyrillic"]) is True
+    assert ("srp" in support["Latin"]) is True
+
+    # Checking with --include-all-orthographies should return also a single
+    # orthography
+    srp = Language(Langs["srp"], "srp")
+    support = srp.has_support(srp_latin, checkAllOrthographies=True)
+    assert ("Latin" in support) is True

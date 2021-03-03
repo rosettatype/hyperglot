@@ -41,11 +41,6 @@ def character_list_from_string(string, normalize=True):
         # Make sure we are in fact dealing with a string, not a list
         if isinstance(string, list) or isinstance(string, set):
             string = "".join(string)
-        # if not isinstance(string, str):
-        #     # string = "".join(string)
-        #     # raise TypeError("Expected string, but got list")
-        #     import traceback
-        #     traceback.print_stack()
 
         # N_ormal F_orm C_omposed
         # See more https://docs.python.org/3/library/unicodedata.html#unicodedata.normalize # noqa
