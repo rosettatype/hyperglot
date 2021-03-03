@@ -2,6 +2,8 @@
 
 ## 0.2.3 (WIP)
 - TWEAK: Improved tests for CLI and improved and fixed some parsing tests
+- DATA: Added uppercase to bicameral scripts
+- DATA: All languages now have a `primary` orthography
 
 ## 0.2.2 (02.03.2021)
 - TWEAK: `Languages()` now takes a `validity` argument to filter by validity ('weak' or better by default)

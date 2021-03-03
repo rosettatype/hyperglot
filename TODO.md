@@ -1,13 +1,15 @@
 # TODO
 
 @Johannes
-- [ ] validate against non-defined attributes (and fix `tones` in orthographies)
-- [ ] validate orthography-primary-living settings
-- [ ] single orthographies should be `primary` by default
-- [ ] validation warning for if there are several orthographies but none is primary
+- [+] validate against non-defined attributes (and fix `tones` in orthographies)
+	-> we simply tolaerate those for now
+- [+] validate orthography-primary-living settings
+- [+] single orthographies should be `primary` by default
+- [+] validation warning for if there are several orthographies but none is primary
 - [ ] abort save on duplicate dict keys
 - [ ] feedback prompt
 - [ ] TBD implement uppercase / lowercase flags
+- [+] Add uppercase data
 - [+] review the README:
 	- detection process
 	- are all attributes listed

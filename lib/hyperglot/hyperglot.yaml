@@ -6263,7 +6263,7 @@ pam:
   name: Pampanga
   orthographies:
   - autonym: Kapampangan
-    auxiliary: C F J Q V X Z c f j q v x z
+    auxiliary: C F J V X Z c f j q v x z
     base: A B D E G H I K L M N O P Q R S T U W Y a b d e g h i k l m n o p r s t u w y
     note: According to Wikipedia. Omniglot lists the full a–z.
     script: Latin
@@ -7484,7 +7484,7 @@ srp:
   name: Serbian
   orthographies:
   - autonym: Српски
-    base: А Б В Г Д Е Ж З И К Л М Н О П Р С Т У Ф Х Ц Ч Ш Ђ Ј Љ Њ Ћ Џ а б в г д е ж з и к л м н о п р с т у ф х ц ч ш ђ ј љ њ ћ џ  ́
+    base: А Б В Г Д Е Ж З И К Л М Н О П Р С Т У Ф Х Ц Ч Ш Ђ Ј Љ Њ Ћ Џ а б в г д е ж з и к л м н о п р с т у ф х ц ч ш ђ ј љ њ ћ џ ́
     preferred_as_group: true
     script: Cyrillic
     status: primary

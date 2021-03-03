@@ -86,7 +86,8 @@ def check_types(Langs):
                                   % iso)
 
                 allowed = ["autonym", "inherit", "script", "base",
-                           "auxiliary", "numerals", "status", "note"]
+                           "auxiliary", "numerals", "status", "note",
+                           "preferred_as_group"]
                 invalid = [k for k in o.keys() if k not in allowed]
                 if len(invalid):
                     log.warn("'%s' has invalid orthography keys: '%s'" %
