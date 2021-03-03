@@ -23,7 +23,6 @@ def character_list_from_string(string, normalize=True):
     """
     Return a list of characters without space separators from an input string
     """
-
     # Since Unicode allows writing the same string either precomposed or as
     # combining characters, we want to transform all those strings that are
     # written as combining characters to precomposed, if possible. In our
@@ -40,12 +39,18 @@ def character_list_from_string(string, normalize=True):
     # "listifying" will split base and mark(s) into several list items (chars)
     if normalize:
         # Make sure we are in fact dealing with a string, not a list
-        if isinstance(string, list):
+        if isinstance(string, list) or isinstance(string, set):
             string = "".join(string)
+        # if not isinstance(string, str):
+        #     # string = "".join(string)
+        #     # raise TypeError("Expected string, but got list")
+        #     import traceback
+        #     traceback.print_stack()
 
         # N_ormal F_orm C_omposed
         # See more https://docs.python.org/3/library/unicodedata.html#unicodedata.normalize # noqa
         string = unicodedata2.normalize("NFC", string)
+
     li = list(string)
     li = list_unique([c for c in li if c.strip() != ""])
     return li
@@ -96,7 +101,7 @@ def parse_chars(characters, decompose=True, retainDecomposed=False):
             # If we want to just get the string of characters as a list without
             # doing any decomposition return a list of unique, space separated,
             # strings
-            return character_list_from_string(unique_strings)
+            return character_list_from_string(unique_strings, False)
 
         for c in unique_strings:
 
@@ -110,7 +115,9 @@ def parse_chars(characters, decompose=True, retainDecomposed=False):
             if decomposition == "" or retainDecomposed:
                 unique_chars.append(c)
 
-            ignore = ["<isolated>", "<compat>", "<super>", '<vertical>']
+            ignore = ["<isolated>", "<compat>", "<super>", '<vertical>',
+                      '<final>', '<medial>', '<initial>', '<sub>',
+                      '<fraction>', '<font>']
             if decomposition != "":
                 for unihexstr in decomposition.split(" "):
                     # Not _entirely_ sure why the following can be parts of the
@@ -132,7 +139,8 @@ def parse_chars(characters, decompose=True, retainDecomposed=False):
     except Exception as e:
         log.error("Error parsing characters '%s': %s" % (characters, e))
 
-    return [u for u in unique_chars if not re.match(r"\s", u) and len(u) != 0]
+    return list_unique([u for u in unique_chars
+                        if not re.match(r"\s", u) and len(u) != 0])
 
 
 def prune_superflous_marks(string):

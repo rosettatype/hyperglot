@@ -54,7 +54,6 @@ aat:
     note: Used in Greece.
     script: Greek
     status: primary
-    validity: done
   source:
   - Omniglot
   - Wikipedia

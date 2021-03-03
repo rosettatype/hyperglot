@@ -201,6 +201,9 @@ MODES = ["individual", "union", "intersection"]
               "individually. 'union' shows support for all languages "
               "supported by the combination of the passed in fonts. "
               "'intersection' shows the support all fonts have in common.")
+@click.option("--include-all-orthographies", is_flag=True, default=False,
+              help="Flag to show all otherwise ignored orthographies of a "
+              "language.")
 @click.option("--include-historical", is_flag=True, default=False,
               help="Flag to include otherwise ignored historical languages.")
 @click.option("--include-constructed", is_flag=True, default=False,
@@ -213,7 +216,8 @@ MODES = ["individual", "union", "intersection"]
 @click.option("-v", "--verbose", is_flag=True, default=False)
 @click.option("-V", "--version", is_flag=True, default=False)
 def cli(fonts, support, decomposed, validity, autonyms, users, output, mode,
-        include_historical, include_constructed, strict_iso, verbose, version):
+        include_all_orthographies, include_historical, include_constructed,
+        strict_iso, verbose, version):
     """
     Pass in one or more fonts to check their languages support
     """
@@ -235,8 +239,8 @@ def cli(fonts, support, decomposed, validity, autonyms, users, output, mode,
 
         Lang = Languages(strict=strict_iso, prune=False)
         langs = Lang.get_support_from_chars(
-            chars, support, validity, decomposed, include_historical,
-            include_constructed)
+            chars, support, validity, decomposed, include_all_orthographies,
+            include_historical, include_constructed)
         level = SUPPORTLEVELS[support]
 
         results[font] = {}

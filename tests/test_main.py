@@ -1,3 +1,7 @@
+"""
+Tests verifying the CLI output is as expected. This uses the runner.invoke
+helper to call the main cli handler with various arguments.
+"""
 import os
 from click.testing import CliRunner
 from hyperglot.main import cli
@@ -16,26 +20,25 @@ def test_main_cli():
     assert "Czech" in res.output
     assert "Hindi" in res.output
     assert "Sanskrit" in res.output
-    assert "Assyrian Neo-Aramaic" in res.output
 
 
 def test_main_cli_support_aux():
     res = runner.invoke(cli, [eczar])
     assert res.exit_code == 0
-    assert "Assyrian Neo-Aramaic" in res.output
+    assert ", German," in res.output
 
     res = runner.invoke(cli, eczar + " --support aux")
-    assert "Assyrian Neo-Aramaic" not in res.output
+    # No cap ß, thus missing from aux level support, note "Swiss German" alas
+    # the commas
+    assert ", German," not in res.output
 
     res = runner.invoke(cli, plex_arabic)
     assert "languages of Latin script" in res.output
     assert "languages of Arabic script" in res.output
     assert "Standard Arabic" in res.output
-    assert "Assyrian Neo-Aramaic" in res.output
 
     res = runner.invoke(cli, plex_arabic + " --support aux")
     assert "Standard Arabic" not in res.output
-    assert "Assyrian Neo-Aramaic" not in res.output
 
 
 def test_main_cli_decomposed():
@@ -45,10 +48,10 @@ def test_main_cli_decomposed():
     default)
     """
     res = runner.invoke(cli, plex_arabic)
-    assert "Achuar-Shiwiar" not in res.output
+    assert "Crimean Tatar" not in res.output
 
     res = runner.invoke(cli, plex_arabic + " --decomposed")
-    assert "Achuar-Shiwiar" in res.output
+    assert "Crimean Tatar" in res.output
 
 
 def test_main_cli_include_constructed():
@@ -57,3 +60,20 @@ def test_main_cli_include_constructed():
 
     res = runner.invoke(cli, plex_arabic + " --include-constructed")
     assert "Interlingua" in res.output
+
+
+def test_main_cli_include_all_orthographies():
+    res = runner.invoke(cli, plex_arabic)
+    # Has Cyrillic primary, but Latin secondaries
+    assert "Northern Kurdish" not in res.output
+
+    # primary Latin not supported, but secondary is
+    assert "Chickasaw" not in res.output
+
+    # Has Syriac primary, but Latin secondary
+    assert "Assyrian Neo-Aramaic" not in res.output
+
+    res = runner.invoke(cli, plex_arabic + " --include-all-orthographies")
+    assert "Northern Kurdish" in res.output
+    assert "Chickasaw" in res.output
+    assert "Assyrian Neo-Aramaic" in res.output

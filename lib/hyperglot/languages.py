@@ -177,9 +177,29 @@ class Languages(dict):
                                supportlevel=list(SUPPORTLEVELS.keys())[0],
                                validity=VALIDITYLEVELS[1],
                                decomposed=False,
+                               includeAllOrthographies=False,
                                includeHistorical=False,
                                includeConstructed=False,
                                pruneOrthographies=True):
+        """
+        Get all languages supported based on the passed in characters.
+
+        @param chars list: List of unicode strings.
+        @param supportlevel str: Check for 'base' (default) or 'aux' support.
+        @param validatiy str: Filter by certainty of the database data.
+            Defaults to 'weak', which ignores all but 'todo'. More stringent
+            options are 'done' and 'verified'.
+        @param decomposed bool: Flag to decompose the passed in chars.
+        @param includeAllOrthographies bool: Return all or just primary
+            (default) orthographies of a language.
+        @param includeHistorical bool: Flag to include historical languages.
+        @param includeConstructed bool: Flag to include constructed languages.
+        @param pruneOrthographies bool: Flat to remove non-supported
+            orthographies from the returned language. This does not affect
+            detection, but the returned dict. Default is true.
+        @return dict: Returns a dict with script-keys and values of dicts of
+            iso-keyed language data.
+        """
         chars = set(chars)
         support = {}
 
@@ -217,6 +237,7 @@ class Languages(dict):
             # orthographies that are supported with chars
             lang_sup = l.has_support(chars, supportlevel,
                                      decomposed=decomposed,
+                                     checkAllOrthographies=includeAllOrthographies,  # noqa
                                      pruneOrthographies=pruneOrthographies)
 
             for script in lang_sup:
@@ -224,6 +245,8 @@ class Languages(dict):
                     if script not in support.keys():
                         support[script] = {}
                     for iso in isos:
+                        # Note we are adding the pruned language object that
+                        # has_support has updated
                         support[script][iso] = l
 
         return support

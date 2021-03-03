@@ -141,16 +141,19 @@ class Language(dict):
         return False
 
     def has_support(self, chars, level="base", decomposed=False,
+                    checkAllOrthographies=False,
                     pruneOrthographies=True):
         """
         Return a dict with language support based on the passed in chars
 
-        @param chars set: Set of chars to check against
-        @param level str: Support level for which to check
-        @param decomposed Bool: Flag to decompose the passed in chars
+        @param chars set: Set of chars to check against.
+        @param level str: Support level for which to check.
+        @param decomposed bool: Flag to decompose the passed in chars.
+        @param checkAllOrthographies bool: Flag to check also non-primary
+            orthographies from this Language object. False by default.
         @param pruneOthographies bool: Flag to remove non-supported
-            orthographies from this Language object
-        @return dict: Dict sorted by 1) script 2) list of isos
+            orthographies from this Language object.
+        @return dict: Dict sorted by 1) script 2) list of isos.
         """
         support = {}
         if "orthographies" not in self:
@@ -164,13 +167,21 @@ class Language(dict):
         pruned = []
 
         chars = set(chars)
+        if decomposed:
+            chars = set(parse_chars(chars, decompose=True,
+                                    retainDecomposed=False))
 
-        for ort in self["orthographies"]:
+        # Determine which orthographies should be checked
+        if checkAllOrthographies:
+            orthographies = [o for o in self["orthographies"]
+                             if "status" not in o or
+                             o["status"] != "deprecated"]
+        else:
+            orthographies = [o for o in self["orthographies"]
+                             if "status" in o and o["status"] == "primary"]
+
+        for ort in orthographies:
             supported = False
-            if "script" not in ort:
-                log.warning("Skipping an orthography in language '%s',"
-                            " because it has no 'script'" % self.iso)
-                continue
 
             if self.is_secondary(ort) or self.is_deprecated(ort):
                 log.info("Skipping orthography in '%s' because it is "
@@ -179,7 +190,10 @@ class Language(dict):
             # Any support check needs 'base'
             if "base" in ort:
                 script = ort["script"]
-                base = set(parse_chars(ort["base"], decomposed))
+                base = set(parse_chars(ort["base"]))
+                if type(ort["base"]) is not list:
+                    base = set(parse_chars(ort["base"]))
+
                 supported = base.issubset(chars)
 
                 if supported:
@@ -188,7 +202,10 @@ class Language(dict):
                     # defined - if orthography has no "auxiliary" we consider
                     # it supported on "auxiliary" level, too
                     if level == "aux" and "auxiliary" in ort:
-                        aux = set(parse_chars(ort["auxiliary"], decomposed))
+                        aux = set(ort["auxiliary"])
+                        if type(ort["auxiliary"]) is not list:
+                            aux = set(parse_chars(ort["auxiliary"]))
+
                         supported = aux.issubset(chars)
 
             if supported:

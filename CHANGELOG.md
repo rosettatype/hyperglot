@@ -1,9 +1,12 @@
 # A changelog for the lib/hyperglot CLI tool
 
 ## 0.2.3 (WIP)
+- FEATURE: Implemented `--include-all-orthographies` to check all but `deprecated` orthographies and changed default behaviour to only list `primary` orthographies
 - TWEAK: Improved tests for CLI and improved and fixed some parsing tests
+- FIX: Marginal cases fixed where using `parse_chars` and already parsed lists would merge a mark with a predeceding base glpyh and result in a erraneous list of base/aux characters
 - DATA: Added uppercase to bicameral scripts
 - DATA: All languages now have a `primary` orthography
+- TESTS: Config to ignore other library's warnings
 
 ## 0.2.2 (02.03.2021)
 - TWEAK: `Languages()` now takes a `validity` argument to filter by validity ('weak' or better by default)
