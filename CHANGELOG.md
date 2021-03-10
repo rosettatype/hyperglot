@@ -4,6 +4,7 @@
 - FEATURE: Implemented `--include-all-orthographies` to check all but `deprecated` orthographies and changed default behaviour to only list `primary` orthographies
 - TWEAK: Implemented treating orthographies with `preferred_as_group` as one for checks
 - TWEAK: Languages with multiple `primary` orthographies will match if one is supported
+- TWEAK: `Languages` can be initiated with `pruneRetainDecomposed` to keep any precomposed characters from the database when using `prune` (which decomposes them to base + mark)
 - TWEAK: Improved tests for CLI and improved and fixed some parsing tests
 - FIX: Marginal cases fixed where using `parse_chars` and already parsed lists would merge a mark with a predeceding base glpyh and result in a erraneous list of base/aux characters
 - DATA: Added uppercase to bicameral scripts

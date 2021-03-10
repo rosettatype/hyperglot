@@ -18,6 +18,7 @@ class Languages(dict):
     """
 
     def __init__(self, strict=False, inherit=True, prune=True,
+                 pruneRetainDecomposed=False,
                  validity=VALIDITYLEVELS[1]):
         """
         @param strict (Boolean): Use Rosetta macrolanguage definitions (False)
@@ -25,6 +26,9 @@ class Languages(dict):
         @param inherit (Boolean): Inherit orthographies. Defaults to True.
         @param prune (Boolean): Make character lists unicode decomposed python
             list (True) or keep as strings (False). Defaults to True.
+        @param pruneRetainDecomposed (Boolean): Keep any precomposed characters
+            when pruning. Defaults to False. This will return only base + marks
+            and drop precomposed chars from the language orthographies.
         @param validity (Hyperglot.VALIDITYLEVEL): Minimum level of validity
             which languages must have. One of "todo", "weak", "done",
             "verified". Defaults to "weak" — all languages with basic
@@ -47,7 +51,7 @@ class Languages(dict):
             if prune:
                 # Transform all orthography character lists to pruned python
                 # sets; this will decompose and remove precomposed chars
-                self.prune_chars()
+                self.prune_chars(pruneRetainDecomposed)
 
     def __repr__(self):
         return "Languages DB dict with '%d' languages" % len(self.keys())
@@ -64,17 +68,23 @@ class Languages(dict):
                               "'primary'." % iso)
                     lang["orthographies"][0]["status"] = "primary"
 
-    def prune_chars(self):
+    def prune_chars(self, retainDecomposed=False):
         """
         A helper to parse all orthographies' charsets in all languages. This
-        decomposes glyphs and prune any glyphs that are redundant.
+        decomposes glyphs and prunes any glyphs that are redundant.
         """
-        for iso, lang in self.items():
+        for lang in self.values():
             if "orthographies" in lang:
                 for o in lang["orthographies"]:
                     for type in ["base", "auxiliary", "numerals"]:
                         if type in o:
-                            o[type] = parse_chars(o[type], True)
+                            o[type] = parse_chars(o[type], True,
+                                                  retainDecomposed)
+                    # Remove any components in auxiliary after decomposition
+                    # that are already in base
+                    if "base" in o and "auxiliary" in o:
+                        o["auxiliary"] = [a for a in o["auxiliary"]
+                                          if a not in o["base"]]
 
     def lax_macrolanguages(self):
         """
