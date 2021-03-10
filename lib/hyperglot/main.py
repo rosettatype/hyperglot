@@ -224,7 +224,7 @@ def cli(fonts, support, decomposed, validity, autonyms, users, output, mode,
 
     if version:
         import sys
-        sys.exit("Fontlang version: %s" % __version__)
+        sys.exit("Hyperglot version: %s" % __version__)
 
     log.setLevel(logging.DEBUG if verbose else logging.WARNING)
     if fonts == ():

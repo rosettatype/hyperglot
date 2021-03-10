@@ -1,6 +1,6 @@
 # A changelog for the lib/hyperglot CLI tool
 
-## 0.2.3 (WIP)
+## 0.2.3 (10.03.2021)
 - FEATURE: Implemented `--include-all-orthographies` to check all but `deprecated` orthographies and changed default behaviour to only list `primary` orthographies
 - TWEAK: Implemented treating orthographies with `preferred_as_group` as one for checks
 - TWEAK: Languages with multiple `primary` orthographies will match if one is supported
