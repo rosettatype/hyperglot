@@ -14,8 +14,8 @@ SUPPORTLEVELS = {
 # Note that order matters, since these may be used like a logging level
 VALIDITYLEVELS = [
     "todo",
-    "weak",
-    "done",
+    "draft",
+    "preliminary",
     "verified"
 ]
 

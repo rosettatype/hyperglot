@@ -30,8 +30,8 @@ class Languages(dict):
             when pruning. Defaults to False. This will return only base + marks
             and drop precomposed chars from the language orthographies.
         @param validity (Hyperglot.VALIDITYLEVEL): Minimum level of validity
-            which languages must have. One of "todo", "weak", "done",
-            "verified". Defaults to "weak" — all languages with basic
+            which languages must have. One of "todo", "draft", "preliminary",
+            "verified". Defaults to "draft" — all languages with basic
             information, but possibly unconfirmed.
         """
         with open(DB) as f:

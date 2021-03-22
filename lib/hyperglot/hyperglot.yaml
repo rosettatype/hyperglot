@@ -149,10 +149,10 @@ acm:
   - autonym: عراقي
     auxiliary: ڛ ڢ ٯ ڧ ک ی ڥ چ ڨ ڭ ڠ
     base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ ڤ پ گ ة
+    design_note: Initial, medial, and final forms of the letters and some ligatures are required.
     numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩
     script: Arabic
     status: primary
-    design_note: Initial, medial, and final forms of the letters and some ligatures are required.
   preferred_name: Iraqi Arabic
   source:
   - Omniglot
@@ -195,10 +195,10 @@ acw:
   - autonym: حجازي
     auxiliary: ڛ ڢ ٯ ڧ ک ی ڥ چ گ ڨ ڭ ڠ
     base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ پ ڤ
+    design_note: Initial, medial, and final forms of the letters and some ligatures are required.
     numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩
     script: Arabic
     status: primary
-    design_note: Initial, medial, and final forms of the letters and some ligatures are required.
   source:
   - Wikipedia
   speakers: 145000000
@@ -243,7 +243,7 @@ ada:
   - Wikipedia
   speakers: 80000
   speakers_date: 2004
-  validity: done
+  validity: preliminary
 ady:
   name: Adyghe
   orthographies:
@@ -322,9 +322,9 @@ afr:
   orthographies:
   - autonym: Afrikaans
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z È Ê Ë Î Ï Ö Ô Û Ü a b c d e f g h i j k l m n o p q r s t u v w x y z è ê ë î ï ö ô û ü
+    note: The use of ŉ has been deprecated and is strongly discouraged.
     script: Latin
     status: primary
-    note: The use of ŉ has been deprecated and is strongly discouraged.
   source:
   - Omniglot
   - Wikipedia
@@ -426,10 +426,10 @@ ajp:
   - autonym: فلسطيني
     auxiliary: ڛ ڢ ٯ ڧ ک ی ڥ گ ڨ ڭ ڠ
     base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ ڤ پ چ
+    design_note: Initial, medial, and final forms of the letters and some ligatures are required.
     numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩
     script: Arabic
     status: primary
-    design_note: Initial, medial, and final forms of the letters and some ligatures are required.
   source:
   - Wikipedia
   speakers: 5100000
@@ -590,10 +590,10 @@ apd:
   - autonym: سوداني
     auxiliary: ڛ ڢ ٯ ڧ ک ڤ ڥ پ چ گ ڨ ڭ ڠ
     base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ ی
+    design_note: Initial, medial, and final forms of the letters and some ligatures are required.
     numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩
     script: Arabic
     status: primary
-    design_note: Initial, medial, and final forms of the letters and some ligatures are required.
   source:
   - Wikipedia
   speakers: 31900000
@@ -621,10 +621,10 @@ arb:
   - autonym: العربية
     auxiliary: ڛ ڢ ٯ ڧ ک ی ڤ ڥ پ چ گ ڨ ڭ ڠ
     base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ ة
+    design_note: Initial, medial, and final forms of the letters and some ligatures are required.
     numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩
     script: Arabic
     status: primary
-    design_note: Initial, medial, and final forms of the letters and some ligatures are required.
   source:
   - Wikipedia
   - Omniglot
@@ -691,10 +691,10 @@ ars:
   - autonym: نجدي
     auxiliary: ڛ ڢ ٯ ڧ ک ی ڥ چ گ ڨ ڭ ڠ
     base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ پ ڤ ة
+    design_note: Initial, medial, and final forms of the letters and some ligatures are required.
     numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩
     script: Arabic
     status: primary
-    design_note: Initial, medial, and final forms of the letters and some ligatures are required.
   source:
   - Wikipedia
   speakers: 4050000
@@ -721,10 +721,10 @@ arz:
   - autonym: مصرى
     auxiliary: ڛ ڢ ٯ ڧ ک ڥ گ ڨ ڭ ڠ
     base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ ڤ پ ی چ ة ى
+    design_note: Initial, medial, and final forms of the letters and some ligatures are required.
     numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩
     script: Arabic
     status: primary
-    design_note: Initial, medial, and final forms of the letters and some ligatures are required.
   source:
   - Wikipedia
   - Omniglot
@@ -912,16 +912,15 @@ azb:
   orthographies:
   - autonym: آذربایجانجا
     base: و ْ ؤ ئ ا خ ع ن پ چ ژ ک گ ۆ ۇ ی ە ݣ ﺏ ﺕ ﺙ ﺝ ﺡ ﺩ ﺫ ﺭ ﺯ ﺱ ﺵ ﺹ ﺽ ﻁ ﻅ ﻍ ﻑ ﻕ ﻝ ﻡ ٛ ﻥ ﻩ ﻭ آ ج ب ذ ر
+    note: Used in Iran.
     script: Arabic
     status: primary
-    note: Used in Iran.
   - base: A B C D E F G H I J K L M N O P Q R S T U V X Y Z Ç Ö Ü Ğ Ş Ə a b c d e f g h i j k l m n o p q r s t u v x y z ç ö ü ğ İ ı ş ə
+    note: Used outside Iran.
     script: Latin
     status: primary
-    note: Used outside Iran.
   source:
   - Wikipedia
-  - done
   speakers: 13823350
   speakers_date: 2016
   status: living
@@ -1083,9 +1082,9 @@ bel:
   orthographies:
   - autonym: Беларуская
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё І Ў Ґ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё і ў ’ ґ
+    design_note: Correct positioning of acute and grave accents above vowels is required. The breve accent uses a different shape from the one used in the Latin script.
     script: Cyrillic
     status: primary
-    design_note: Correct positioning of acute and grave accents above vowels is required. The breve accent uses a different shape from the one used in the Latin script.
   - autonym: Biełaruskaja
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ć Č Ł Ń Ś Š Ŭ Ź Ž a b c d e f g h i j k l m n o p q r s t u v w x y z ć č ł ń ś š ŭ ź ž
     script: Latin
@@ -1171,16 +1170,16 @@ bho:
   orthographies:
   - autonym: भोजपुरी
     base: अ आ इ ई उ ऊ ए ऐ ा ि ी ु ू े ै ओ औ ः ँ ो ौ ् क ख ग घ ङ च छ ज झ ञ ट ठ ड ़ ढ ण त थ द ध न प फ ब भ म य र ल व श ष स ह
+    design_note: Numerous precomposed conjunct forms, resolved mark positioning, and resolved combinations of marks and other forms are required for proper representation of the language.
+    note: The use of the Kaithi script is declining. Devanagari is currently the most commonly used script for oficial documents.
     numerals: ० १ २ ३ ४ ५ ६ ७ ८ ९
     script: Devanagari
     status: primary
-    note: The use of the Kaithi script is declining. Devanagari is currently the most commonly used script for oficial documents.
-    design_note: Numerous precomposed conjunct forms, resolved mark positioning, and resolved combinations of marks and other forms are required for proper representation of the language.
   - autonym: 𑂦𑂷𑂔𑂣𑂳𑂩𑂲
     base: 𑂃 𑂄 𑂅 𑂆 𑂇 𑂈 𑂉 𑂊 𑂰 𑂲 𑂳 𑂴 𑂵 𑂶 𑂋 𑂌 𑂂 𑂀 𑂸 𑂍 𑂎 𑂏 𑂐 𑂑 𑂒 𑂓 𑂔 𑂕 𑂖 𑂗 𑂘 𑂙 𑂚 𑂛 𑂜 𑂝 𑂞 𑂟 𑂠 𑂡 𑂢 𑂣 𑂤 𑂥 𑂦 𑂧 𑂨 𑂩 𑂪 𑂫 𑂬 𑂭 𑂮 𑂯
+    design_note: Numerous precomposed conjunct forms, resolved mark positioning, and resolved combinations of marks and other forms are required for proper representation of the language.
     numerals: ० १ २ ३ ४ ५ ६ ७ ८ ९
     script: Kaithi
-    design_note: Numerous precomposed conjunct forms, resolved mark positioning, and resolved combinations of marks and other forms are required for proper representation of the language.
   source:
   - Omniglot
   - Wikipedia
@@ -1273,11 +1272,11 @@ bod:
   orthographies:
   - autonym: བོད་སྐད་
     base: ཀ ཁ ག ང ཅ ཆ ཇ ཉ ཏ ཐ ད ན པ ཕ བ མ ཙ ཚ ཛ ཝ ཞ ཟ འ ཡ ར ལ ཤ ས ཧ ཨ ི ུ ེ ོ
+    design_note: Numerous precomposed conjunct forms, resolved mark positioning, and resolved combinations of marks and other forms are required for proper representation of the language.
     numerals: ༠ ༡ ༢ ༣ ༤ ༥ ༦ ༧ ༨ ༩
     punctuation: ༄  ༈ ་ ། ༎ ༔ ༺ ༻
     script: Tibetan
     status: primary
-    design_note: Numerous precomposed conjunct forms, resolved mark positioning, and resolved combinations of marks and other forms are required for proper representation of the language.
   source:
   - Omniglot
   - Wikipedia
@@ -1339,9 +1338,9 @@ bug:
   orthographies:
   - autonym: Basa Ugi
     base: A B C D E G I J K L M N O P R S T U W Y Ә a b c d e g i j k l m n o p r s t u w y ' ә
+    note: The use of the Lontara script seems to be declining with the Latin script taking over.
     script: Latin
     status: primary
-    note: The use of the Lontara script seems to be declining with the Latin script taking over.
   - autonym: ᨅᨔ ᨕᨘᨁᨗ
     base: ᨀ ᨁ ᨂ ᨃ ᨄ ᨅ ᨆ ᨇ ᨈ ᨉ ᨊ ᨋ ᨌ ᨍ ᨎ ᨏ ᨐ ᨑ ᨒ ᨓ ᨔ ᨕ ᨖ ◌ ᨗ ᨘ ᨙ ᨚ ᨛ ᨞ ᨟
     script: Lontara
@@ -1355,10 +1354,10 @@ bul:
   name: Bulgarian
   orthographies:
   - autonym: Български
-    base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ь Ю Я Ѐ Ѝ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ь ю я ѐ ѝ  ́ ̀
+    base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ь Ю Я Ѐ Ѝ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ь ю я ѐ ѝ ́
+    design_note: The Bulgarian Cyrillic uses different shapes for some of the letters, e.g. Д, Л, Ф, л, в, к, г, и, й, ф, ю etc. Correct positioning of acute and grave accents above vowels is required. The breve accent uses a different shape from the one used in the Latin script.
     script: Cyrillic
     status: primary
-    design_note: The Bulgarian Cyrillic uses different shapes for some of the letters, e.g. Д, Л, Ф, л, в, к, г, и, й, ф, ю etc. Correct positioning of acute and grave accents above vowels is required. The breve accent uses a different shape from the one used in the Latin script.
   source:
   - Omniglot
   - Wikipedia
@@ -1719,9 +1718,9 @@ cic:
     script: Latin
   - autonym: Chikashshanompa'
     base: A B C F G H I K L M N O P S T W Y a b c f g h i k l m n o p s t w y ̠ '
+    note: Two orthographies (Humes and Munro-Willmond) were created. The current primary orthography seems to follow Munro-Willmond.
     script: Latin
     status: primary
-    note: Two orthographies (Humes and Munro-Willmond) were created. The current primary orthography seems to follow Munro-Willmond.
   source:
   - Omniglot
   - Wikipedia
@@ -1846,9 +1845,9 @@ cmn:
     status: primary
   - autonym: Pǔtōnghuà
     base: A B C D E F G H I J K L M N O P Q R S T U W X Y Z a b c d e f g h i j k l m n o p q r s t u w x y z ü ê ā ē ī ō ū ǖ Ā Ē Ī Ō Ū Ǖ á é í ó ú ǘ Á É Í Ó Ú Ǘ ǎ ě ǐ ǒ ǔ ǚ Ǎ Ě Ǐ Ǒ Ǔ Ǚ à è ì ò ù ǜ À È Ì Ò Ù Ǜ
+    note: Hànyǔ Pīnyīn (Hànyǔ Pīnyīn (pinyin)) is the official romanization system for Standard Mandarin Chinese in mainland China, Taiwan (ROC), and Singapore.
     script: Latin
     status: primary
-    note: Hànyǔ Pīnyīn (Hànyǔ Pīnyīn (pinyin)) is the official romanization system for Standard Mandarin Chinese in mainland China, Taiwan (ROC), and Singapore.
   source:
   - Omniglot
   - Wikipedia
@@ -1872,9 +1871,9 @@ cni:
   name: Asháninka
   orthographies:
   - base: A C E I J M N O P Q R S T V W X Y a c e i j m n o p q r s t v w x y '
+    note: There seems to be little concensus on how to write Asháninka.
     script: Latin
     status: primary
-    note: There seems to be little concensus on how to write Asháninka.
   source:
   - Omniglot
   - Wikipedia
@@ -2369,10 +2368,10 @@ dyu:
     script: Latin
     status: primary
   - autonym: ߖߎ߬ߟߊ߬ߞߊ߲
-    base: ߐ ߏ ߎ ߍ ߌ ߋ ߊ ߙ ߘ ߗ ߖ ߕ ߔ ߓ ߡ ߟ ߞ ߝ ߜ ߛ ߚ ߒ ߦ ߥ ߤ ߣ ߢ  ߯  ߰  ߱  ߮  ߫  ߬  ߭
+    base: ߐ ߏ ߎ ߍ ߌ ߋ ߊ ߙ ߘ ߗ ߖ ߕ ߔ ߓ ߡ ߟ ߞ ߝ ߜ ߛ ߚ ߒ ߦ ߥ ߤ ߣ ߢ ߯ ߰ ߱ ߮ ߫ ߬ ߭
+    note: The use of N'Ko script is not widespread, due to the lack of official support.
     numerals: ߀ ߁ ߂ ߃ ߄ ߅ ߆ ߇ ߈ ߉
     script: N'Ko
-    note: The use of N'Ko script is not widespread, due to the lack of official support.
   source:
   - Omniglot
   - Wikipedia
@@ -2384,10 +2383,10 @@ dzo:
   orthographies:
   - autonym: རྫོང་ཁ་
     base: ཀ ཁ ག ང ཅ ཆ ཇ ཉ ཏ ཐ ད ན པ ཕ བ མ ཙ ཚ ཛ ཝ ཞ ཟ འ ཡ ར ལ ཤ ས ཧ ཨ ཊ ཋ ཌ ཎ ཥ ྵ ི ུ ེ ོ
+    design_note: Numerous precomposed conjunct forms, resolved mark positioning, and resolved combinations of marks and other forms are required for proper representation of the language.
     numerals: ༠ ༡ ༢ ༣ ༤ ༥ ༦ ༧ ༨ ༩
     script: Tibetan
     status: primary
-    design_note: Numerous precomposed conjunct forms, resolved mark positioning, and resolved combinations of marks and other forms are required for proper representation of the language.
   source:
   - Omniglot
   - Wikipedia
@@ -2446,7 +2445,7 @@ emk:
     script: Latin
     status: primary
   - autonym: ߡߊߣߌ߲ߞߊߞߊ߲
-    base: ߐ ߏ ߎ ߍ ߌ ߋ ߊ ߙ ߘ ߗ ߖ ߕ ߔ ߓ ߡ ߟ ߞ ߝ ߜ ߛ ߚ ߒ ߦ ߥ ߤ ߣ ߢ  ߯  ߰  ߱  ߮  ߫  ߬  ߭
+    base: ߐ ߏ ߎ ߍ ߌ ߋ ߊ ߙ ߘ ߗ ߖ ߕ ߔ ߓ ߡ ߟ ߞ ߝ ߜ ߛ ߚ ߒ ߦ ߥ ߤ ߣ ߢ ߯ ߰ ߱ ߮ ߫ ߬ ߭
     numerals: ߀ ߁ ߂ ߃ ߄ ߅ ߆ ߇ ߈ ߉
     script: N'Ko
   source:
@@ -3195,10 +3194,10 @@ guj:
   orthographies:
   - autonym: ગુજરાતી
     base: અ આ ઇ ઈ ઉ ઊ ઋ પ ા િ ી ુ ૂ ૃ એ ઐ ઓ ઔ ં ઃ ે ૈ ો ૌ ક ખ ગ ઘ ઙ ચ છ જ ઝ ઞ ટ ઠ ડ ઢ ણ ત થ દ ધ ન ફ બ ભ મ ય ર લ વ શ ષ સ હ ળ ્
+    design_note: Numerous precomposed conjunct forms, resolved mark positioning, and resolved combinations of marks and other forms are required for proper representation of the language.
     numerals: ૦ ૧ ૨ ૩ ૪ ૫ ૬ ૭ ૮ ૯
     script: Gujarati
     status: primary
-    design_note: Numerous precomposed conjunct forms, resolved mark positioning, and resolved combinations of marks and other forms are required for proper representation of the language.
   source:
   - Omniglot
   - Wikipedia
@@ -3398,10 +3397,10 @@ hin:
   orthographies:
   - autonym: हिन्दी
     base: अ आ इ ई उ ऊ ऋ ए ऐ ओ औ ं ः प ा ि ी ु ू ृ े ै ो ौ क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न फ ब भ म य र ल व श ष स ह ़
+    design_note: Numerous precomposed conjunct forms, resolved mark positioning, and resolved combinations of marks and other forms are required for proper representation of the language.
     numerals: ० १ २ ३ ४ ५ ६ ७ ८ ९
     script: Devanagari
     status: primary
-    design_note: Numerous precomposed conjunct forms, resolved mark positioning, and resolved combinations of marks and other forms are required for proper representation of the language.
   source:
   - Omniglot
   - Wikipedia
@@ -3438,9 +3437,9 @@ hns:
   name: Caribbean Hindustani
   orthographies:
   - base: A B C D E F G H I J K L M N O Q R S T U V W X Y Z a b c d e f g h i j k l m n o q r s t u v w x y z ˜
+    note: The use of Devanagari, Kaithi, and Urdu is declining. Latin is currently the favoured script.
     script: Latin
     status: primary
-    note: The use of Devanagari, Kaithi, and Urdu is declining. Latin is currently the favoured script.
   source:
   - Omniglot
   - Wikipedia
@@ -3892,10 +3891,10 @@ jpn:
     script: Katakana
     status: primary
   - base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
+    note: The Latin script is used for imported acronyms.
     preferred_as_group: true
     script: Latin
     status: primary
-    note: The Latin script is used for imported acronyms.
   source:
   - Omniglot
   - Wikipedia
@@ -3988,10 +3987,10 @@ kan:
   orthographies:
   - autonym: ಕನ್ನಡ
     base: ಕ ಖ ಗ ಘ ಙ ಚ ಛ ಜ ಝ ಞ ಟ ಠ ಡ ಢ ಣ ತ ಥ ದ ಧ ನ ಪ ಫ ಬ ಭ ಮ ಯ ರ ಲ ವ ಶ ಷ ಸ ಹ ಳ ್ ಅ ಆ ಇ ಈ ಉ ಊ ಋ ೠ ಾ ೀ ು ೃ ೄ ಎ ಏ ಐ ಒ ಓ ಔ ಂ ಃ ೇ ೈ ೋ ೌ
+    design_note: Numerous precomposed conjunct forms, resolved mark positioning, and resolved combinations of marks and other forms are required for proper representation of the language.
     numerals: ೧ ೨ ೩ ೪ ೫ ೬ ೭ ೮ ೯ ೦
     script: Kannada
     status: primary
-    design_note: Numerous precomposed conjunct forms, resolved mark positioning, and resolved combinations of marks and other forms are required for proper representation of the language.
   source:
   - Omniglot
   - Wikipedia
@@ -4227,9 +4226,9 @@ khm:
   orthographies:
   - autonym: ភាសាខ្មែរ
     base: ក ខ គ ឃ ង ច ឆ ជ ឈ ញ ដ ឋ ឌ ឍ ណ ត ថ ទ ធ ន ប ផ ព ភ ម យ រ ល វ ស ហ ឡ អ ឥ ឦ ឧ ឩ ឪ ឫ ឬ ឭ ឮ ឯ ឰ ឱ ឲ ឳ ា ិ ី ឹ ឺ ុ ូ ួ ើ ឿ ៀ េ ែ ៃ ោ ៅ ំ ះ ៈ ៉ ៊ ់ ៍ ័ ្
+    design_note: Mark positioning and some character combinations have to be resolved to properly represent the language.
     script: Latin
     status: primary
-    design_note: Mark positioning and some character combinations have to be resolved to properly represent the language.
   source:
   - Omniglot
   - Wikipedia
@@ -4546,9 +4545,9 @@ kpy:
   orthographies:
   - autonym: Нымылг’ын
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ӄ Ӈ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӄ ӈ ’
+    note: The sources partially disagree. Wikipedia notes қ ң instead of ӄ ӈ.
     script: Cyrillic
     status: primary
-    note: The sources partially disagree. Wikipedia notes қ ң instead of ӄ ӈ.
   source:
   - Omniglot
   - Wikipedia
@@ -4753,10 +4752,10 @@ lao:
   orthographies:
   - autonym: ພາສາລາວ
     base: ກ ຂ ຄ ງ ຈ ສ ຊ ຍ ດ ຕ ຖ ທ ນ ບ ປ ຜ ຝ ພ ຟ ມ ຢ ຣ ລ ວ ຫ ອ ຮ ◌ ະ ັ າ ິ ີ ຶ ື ຸ ູ ເ ແ ໂ ົ ໍ ຽ
+    design_note: Mark positioning and some character combinations have to be resolved to properly represent the language.
     numerals: ໐ ໑ ໒ ໓ ໔ ໕ ໖ ໗ ໘ ໙
     script: Lao
     status: primary
-    design_note: Mark positioning and some character combinations have to be resolved to properly represent the language.
   source:
   - Omniglot
   - Wikipedia
@@ -5077,9 +5076,9 @@ mad:
   orthographies:
   - autonym: Madhurâ
     base: A B C D Ḍ E G H I J K L M N O P R S T Ṭ U W Â a b c d ḍ e g h i j k l m n o p r s t ṭ u w â
+    note: The Latin script is the most used nowadays.
     script: Latin
     status: primary
-    note: The Latin script is the most used nowadays.
   - autonym: ꦧꦱꦴꦩꦝꦸꦫꦴ
     base: ꦄ ꦆ ꦈ ꦌ ꦎ ꦼ ꦴ ꦲ ꦤ ꦕ ꦗ ꦫ ꦏ ꦒ ꦢ ꦠ ꦱ ꦮ ꦭ ꦥ ꦧ ꦣ ꦪ ꦚ ꦩ ꦛ ꦔ ꦃ ꦝ
     script: Javanese
@@ -5095,9 +5094,9 @@ mag:
   orthographies:
   - autonym: मगही
     base: अ आ इ ई उ ऊ ए ऐ ओ औ ँ प ा ि ी ु ू े ै ो ौ क ख ग घ ङ च छ ज झ ञ ट ठ ड ़ ढ ण त थ द ध न फ ब भ म य र ल व श ष स ह
+    design_note: Numerous precomposed conjunct forms, resolved mark positioning, and resolved combinations of marks and other forms are required for proper representation of the language.
     script: Devanagari
     status: primary
-    design_note: Numerous precomposed conjunct forms, resolved mark positioning, and resolved combinations of marks and other forms are required for proper representation of the language.
   source:
   - Omniglot
   - Wikipedia
@@ -5123,10 +5122,10 @@ mai:
   orthographies:
   - autonym: मैथिली
     base: ँ ं ः अ आ इ ई उ ऊ ऋ ऌ ऍ ए ऐ ऑ ओ औ क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र ऱ ल ळ व श ष स ह ऽ ा ि ी ु ू ृ ॄ ॅ े ै ॉ ो ौ ् ॐ
+    design_note: Numerous precomposed conjunct forms, resolved mark positioning, and resolved combinations of marks and other forms are required for proper representation of the language.
     numerals: ० १ २ ३ ४ ५ ६ ७ ८ ९
     script: Devanagari
     status: primary
-    design_note: Numerous precomposed conjunct forms, resolved mark positioning, and resolved combinations of marks and other forms are required for proper representation of the language.
   source:
   - Omniglot
   - Wikipedia
@@ -5138,10 +5137,10 @@ mal:
   orthographies:
   - autonym: മലയാളം
     base: ം ഃ അ ആ ഇ ഈ ഉ ഊ ഋ ഌ എ ഏ ഐ ഒ ഓ ഔ ക ഖ ഗ ഘ ങ ച ഛ ജ ഝ ഞ ട ഠ ഡ ഢ ണ ത ഥ ദ ധ ന പ ഫ ബ ഭ മ യ ര റ ല ള ഴ വ ശ ഷ സ ഹ ി ീ ു ൂ ൃ ൈ ൊ ോ ൌ ് ൠ ൡ ൺ ൻ ർ ൽ ൾ ൿ
+    design_note: Numerous precomposed conjunct forms, resolved mark positioning, and resolved combinations of marks and other forms are required for proper representation of the language.
     numerals: ൦ ൧ ൨ ൩ ൪ ൫ ൬ ൭ ൮ ൯
     script: Malayalam
     status: primary
-    design_note: Numerous precomposed conjunct forms, resolved mark positioning, and resolved combinations of marks and other forms are required for proper representation of the language.
   source:
   - Omniglot
   - Wikipedia
@@ -5167,11 +5166,11 @@ mar:
   orthographies:
   - autonym: मराठी
     base: क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र ल व श ष स ह ळ ् अ आ इ ई उ ऊ ए ऐ ओ औ ं ः ॲ ऑ ा ि ी ु ू े ै ो ौ ॅ ॉ
+    design_note: Marathi Devanagari (also called Balbodh) uses different shapes for some of the letters, e.g. र (eyelash reph), ल and श. Numerous precomposed conjunct forms, resolved mark positioning, and resolved combinations of marks and other forms are required for proper representation of the language.
     note: The localized version of the Devanagari script used for Marathi is sometimes called Balbodh.
     numerals: ० १ २ ३ ४ ५ ६ ७
     script: Devanagari
     status: primary
-    design_note: Marathi Devanagari (also called Balbodh) uses different shapes for some of the letters, e.g. र (eyelash reph), ल and श. Numerous precomposed conjunct forms, resolved mark positioning, and resolved combinations of marks and other forms are required for proper representation of the language.
   source:
   - Omniglot
   - Wikipedia
@@ -5387,9 +5386,9 @@ mkd:
   orthographies:
   - autonym: Македонски
     base: А Б В Г Д Е Ж З И К Л М Н О П Р С Т У Ф Х Ц Ч Ш Ѓ Ѕ Ј Љ Њ Ќ Џ а б в г д е ж з и к л м н о п р с т у ф х ц ч ш ѓ ѕ ј љ њ ќ џ
+    design_note: Correct positioning of acute and grave accents above vowels is required. The breve accent uses a different shape from the one used in the Latin script. In italic styles, some characters may use different forms than the Russian Cyrillic.
     script: Cyrillic
     status: primary
-    design_note: Correct positioning of acute and grave accents above vowels is required. The breve accent uses a different shape from the one used in the Latin script. In italic styles, some characters may use different forms than the Russian Cyrillic.
   source:
   - Omniglot
   - Wikipedia
@@ -5463,9 +5462,9 @@ mnw:
   orthographies:
   - autonym: ဘာသာ မန်
     base: က ခ ဂ ဃ င စ ဆ ဇ ဈ ဉ ည ဋ ဌ ဍ ဎ ဏ တ ထ ဒ ဓ န ပ ဖ ဗ ဘ မ ယ ရ လ ဝ သ ဟ ဠ အ ဢ ဣ ဤ ဥ ဦ ဧ ဨ ဩ ဪ ါ ာ ိ ု ူ ေ ဲ ဳ ဴ ဵ ံ ့ း ္ ် ျ ြ ွ ှ ဿ ၀ ၁ ၂ ၃ ၄ ၅ ၆ ၇ ၈ ၉ ၊ ။ ၌ ၍ ၎ ၏ ၐ ၑ ၒ ၓ ၔ ၕ ၖ ၗ ၘ ၙ ၚ ၛ ၜ ၝ ၞ ၟ ၠ ၡ ၢ ၣ ၤ ၥ ၦ ၧ ၨ ၩ ၪ ၫ ၬ ၭ ၮ ၯ ၰ ၱ ၲ ၳ ၴ ၵ ၶ ၷ ၸ ၹ ၺ ၻ ၼ ၽ ၾ ၿ ႀ ႁ ႂ ႃ ႄ ႅ ႆ ႇ ႈ ႉ ႊ ႋ ႌ ႍ ႎ ႏ ႐ ႑ ႒ ႓ ႔ ႕ ႖ ႗ ႘ ႙ ႚ ႛ ႜ ႝ ႞ ႟
+    design_note: Numerous precomposed conjunct forms and resolved combinations of medials are required for proper representation of the language.
     script: Mon-Burmese
     status: primary
-    design_note: Numerous precomposed conjunct forms and resolved combinations of medials are required for proper representation of the language.
   source:
   - Omniglot
   - Wikipedia
@@ -5685,10 +5684,10 @@ mya:
   orthographies:
   - autonym: မြန်မာစာ / မြန်မာစကား
     base: က ခ ဂ ဃ င စ ဆ ဇ ဈ ဉ ည ဋ ဌ ဍ ဎ ဏ တ ထ ဒ ဓ န ပ ဖ ဗ ဘ မ ယ ရ လ ဝ သ ဣ ဤ ဥ ဦ ဧ ဩ ဪ ျ ြ ွ ှ ် ္ ့ ာ ◌ း ေ ဲ ု ူ ိ ံ ၖ ၗ ါ
+    design_note: Numerous precomposed conjunct forms and resolved combinations of medials are required for proper representation of the language.
+    note: The autonym မြန်မာစာ refers to written Burmese while မြန်မာစကား refers to spoken Burmese.
     script: Burmese
     status: primary
-    note: The autonym မြန်မာစာ refers to written Burmese while မြန်မာစကား refers to spoken Burmese.
-    design_note: Numerous precomposed conjunct forms and resolved combinations of medials are required for proper representation of the language.
   source:
   - Omniglot
   - Wikipedia
@@ -5877,9 +5876,9 @@ nio:
   - autonym: ня”
     auxiliary: ҙ
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ҫ Ү Ӈ Ә Ө Ҙ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҫ ү ӈ ә ө ”
+    note: Sources partially disagree. This orthography is based on Omniglot. Wikipedia notes use of з̌ instead of ҙ.
     script: Cyrillic
     status: primary
-    note: Sources partially disagree. This orthography is based on Omniglot. Wikipedia notes use of з̌ instead of ҙ.
   source:
   - Omniglot
   - Wikipedia
@@ -6273,15 +6272,15 @@ pan:
   orthographies:
   - autonym: ਪੰਜਾਬੀ,
     base: ਅ ਬ ਭ ਗ ਧ ਢ ੲ ਵ ਦ ਡ ਹ ਘ ਥ ਠ ਯ ਕ ਚ ਲ ਮ ਨ ਣ ਸ ਼ ੳ ਪ ਫ ਖ ਛ ਰ ਤ ਟ ਜ ਾ ਿ ੀ ੁ ੂ ੇ ੈ ੋ ੌ
-    note: Used in India.
     design_note: Numerous precomposed conjunct forms, resolved mark positioning, and resolved combinations of marks and other forms are required for proper representation of the language.
+    note: Used in India.
     numerals: ੦ ੧ ੨ ੩ ੪ ੫ ੬ ੭ ੮ ੯
     script: Gurmukhi
     status: primary
   - autonym: پن٘جابی
     base: ا ب پ ت ٹ ث ج چ ح خ د ڈ ذ ر ڑ ز ژ س ش ص ض ط ظ ع غ ف ق ک گ ل ؕ م ن ݨ ں و ه ھ ء ی ے
-    note: Used in Pakistan.
     design_note: Initial, medial, and final forms of the letters and some ligatures are required.
+    note: Used in Pakistan.
     script: Arabic
     status: primary
   source:
@@ -6360,10 +6359,10 @@ pes:
   orthographies:
   - autonym: فارسی
     base: ء أ ؤ ئ ا ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ل م ن ه و پ چ ژ ک گ ی َ ُ ِ ْ ٰ
+    design_note: Initial, medial, and final forms of the letters and some ligatures are required.
     numerals: ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹
     script: Arabic
     status: primary
-    design_note: Initial, medial, and final forms of the letters and some ligatures are required.
   source:
   - Wikipedia
   - Omniglot
@@ -6830,9 +6829,9 @@ rus:
   orthographies:
   - autonym: Русский
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё
+    design_note: Correct positioning of acute and grave accents above vowels is required. The breve accent uses a different shape from the one used in the Latin script.
     script: Cyrillic
     status: primary
-    design_note: Correct positioning of acute and grave accents above vowels is required. The breve accent uses a different shape from the one used in the Latin script.
   source:
   - Omniglot
   - Wikipedia
@@ -6899,11 +6898,11 @@ san:
   orthographies:
   - autonym: संस्कृतम्
     base: अ आ इ ई उ ऊ ऋ ॠ ल ृ ए ऐ ओ औ क ् ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र व श ष स ह
+    design_note: Numerous precomposed conjunct forms, resolved mark positioning, and resolved combinations of marks and other forms are required for proper representation of the language.
+    note: Sanskrit has been written using a variety of Brahmic scrits and, later, also the Latin-script transliteration. There a no native speakers of Sanskrit.
     numerals: ० १ २ ३ ४ ५ ६ ७ ८ ९
     script: Devanagari
     status: primary
-    note: Sanskrit has been written using a variety of Brahmic scrits and, later, also the Latin-script transliteration. There a no native speakers of Sanskrit.
-    design_note: Numerous precomposed conjunct forms, resolved mark positioning, and resolved combinations of marks and other forms are required for proper representation of the language.
   source:
   - Omniglot
   - Wikipedia
@@ -7093,10 +7092,10 @@ shn:
   orthographies:
   - autonym: လိၵ်ႈတႆး / ၵႂၢမ်းတႆး
     base: ၵ ၶ င ၸ သ ၺ တ ထ ၼ ပ ၽ ၾ မ ယ ရ လ ဝ ႁ ဢ ် ျ ြ ၢ ိ ဵ ႅ ု ူ ွ ႂ ႃ ီ ေ ႄ ႆ a i ( ) ႇ ႈ း ႉ ႊ
+    design_note: Numerous precomposed conjunct forms and resolved combinations of medials are required for proper representation of the language.
+    note: The autonym လိၵ်ႈတႆး refers to the written Shan while ၵႂၢမ်းတႆး refers to the spoken Shan.
     script: Burmese
     status: primary
-    note: The autonym လိၵ်ႈတႆး refers to the written Shan while ၵႂၢမ်းတႆး refers to the spoken Shan.
-    design_note: Numerous precomposed conjunct forms and resolved combinations of medials are required for proper representation of the language.
   source:
   - Omniglot
   - Wikipedia
@@ -7134,9 +7133,9 @@ sin:
   orthographies:
   - autonym: සිංහල
     base: අ ආ ඇ ඈ ඉ ඊ උ ඌ ඍ ඎ එ ඒ ඓ ඔ ඕ ඖ ට ඨ ඩ ඪ ණ ඬ ත ථ ද ධ න ඳ ප ඵ බ භ ම ඹ ය ර ල ව ළ ශ ෂ ස හ ෆ
+    design_note: Numerous precomposed conjunct forms, resolved mark positioning, and resolved combinations of marks and other forms are required for proper representation of the language.
     script: Sinhala
     status: primary
-    design_note: Numerous precomposed conjunct forms, resolved mark positioning, and resolved combinations of marks and other forms are required for proper representation of the language.
   source:
   - Omniglot
   - Wikipedia
@@ -7481,10 +7480,10 @@ srp:
   orthographies:
   - autonym: Српски
     base: А Б В Г Д Е Ж З И К Л М Н О П Р С Т У Ф Х Ц Ч Ш Ђ Ј Љ Њ Ћ Џ а б в г д е ж з и к л м н о п р с т у ф х ц ч ш ђ ј љ њ ћ џ ́
+    design_note: Correct positioning of acute and grave accents above vowels is required. The breve accent uses a different shape from the one used in the Latin script. In italic styles, some characters may use different forms than the Russian Cyrillic.
     preferred_as_group: true
     script: Cyrillic
     status: primary
-    design_note: Correct positioning of acute and grave accents above vowels is required. The breve accent uses a different shape from the one used in the Latin script. In italic styles, some characters may use different forms than the Russian Cyrillic.
   - autonym: Srpski
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ć Č Đ Ś Š Ź Ž a b c d e f g h i j k l m n o p q r s t u v w x y z ć č đ ś š ź ž
     preferred_as_group: true
@@ -7670,10 +7669,10 @@ taj:
   orthographies:
   - autonym: तामाङ‎
     base: अ आ इ ई उ ऊ ऋ ॠ ल ृ ए ऐ ओ औ क ् ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र व श ष स ह
+    design_note: Numerous precomposed conjunct forms, resolved mark positioning, and resolved combinations of marks and other forms are required for proper representation of the language.
     numerals: ० १ २ ३ ४ ५ ६ ७ ८ ९
     script: Devanagari
     status: primary
-    design_note: Numerous precomposed conjunct forms, resolved mark positioning, and resolved combinations of marks and other forms are required for proper representation of the language.
   - autonym: རྟ་དམག‎
     inherit: bod
     script: Tibetan
@@ -7688,10 +7687,10 @@ tam:
   orthographies:
   - autonym: தமிழ்
     base: அ ஆ இ ஈ உ ஊ எ ஏ ி ீ ு ூ ஐ ஒ ஓ ஔ ஃ ஂ ை ொ ோ ௌ ் க ங ச ஞ ட ண த ந ப ம ய ர ல வ ழ ள ற ன ஜ ஶ ஷ ஸ ஹ
+    design_note: Numerous precomposed conjunct forms, resolved mark positioning, and resolved combinations of marks and other forms are required for proper representation of the language.
     numerals: 0 ௧ ௨ ௩ ௪ ௫ ௬ ௭ ௮ ௯ ௰ ௱ ௲
     script: Tamil
     status: primary
-    design_note: Numerous precomposed conjunct forms, resolved mark positioning, and resolved combinations of marks and other forms are required for proper representation of the language.
   source:
   - Omniglot
   - Wikipedia
@@ -7772,10 +7771,10 @@ tel:
   orthographies:
   - autonym: తెలుగు
     base: అ భ ఇ ి ఉ ు ఋ ృ ఌ ౢ ఎ ఐ ై ఒ ొ ఔ ౌ ం ఆ ా ఈ ీ ఊ ూ ౠ ౄ ౡ ౣ ఏ ే ఓ ో ః క ఖ గ ఘ ఙ చ ఛ జ ఝ ఞ ట ఠ డ ఢ ణ త థ ద ధ న ప ఫ బ మ య ర ల వ ళ శ ష స హ ఱ ఁ ్
+    design_note: Numerous precomposed conjunct forms, resolved mark positioning, and resolved combinations of marks and other forms are required for proper representation of the language.
     numerals: ౦ ౧ ౨ ౩ ౪ ౫ ౬ ౭ ౮ ౯ ౸ ౹ ౺ ౻ ౼ ౽ ౾
     script: Telugu
     status: primary
-    design_note: Numerous precomposed conjunct forms, resolved mark positioning, and resolved combinations of marks and other forms are required for proper representation of the language.
   source:
   - Omniglot
   - Wikipedia
@@ -7861,8 +7860,8 @@ tha:
   - autonym: ภาษาไทย
     auxiliary: ̍ ̎
     base: ก ข ฃ ค ฅ ฆ ง จ ฉ ช ซ ฌ ญ ฎ ฏ ฐ ฑ ฒ ณ ด ต ถ ท ธ น บ ป ผ ฝ พ ฟ ภ ม ย ร ล ว ศ ษ ส ห ฬ อ ฮ ะ ◌ ั ็ า ิ ํ ุ ู เ โ ใ ไ ฤ ๅ ฦ
-    note: Fon thong (written with U+030D) and Fa nu (written with U+030E) is always combined with Phinthu i (U+0E34) according to Wikipedia.
     design_note: Mark positioning and some character combinations have to be resolved to properly represent the language.
+    note: Fon thong (written with U+030D) and Fa nu (written with U+030E) is always combined with Phinthu i (U+0E34) according to Wikipedia.
     numerals: ๐ ๑ ๒ ๓ ๔ ๕ ๖ ๗ ๘ ๙
     punctuation: ๏ ๛
     script: Thai
@@ -8303,9 +8302,9 @@ ukr:
   orthographies:
   - autonym: Українська
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ь Э Ю Я Є І Ї Ґ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ь э ю я є і ї ґ ’
+    design_note: Correct positioning of acute and grave accents above vowels is required. The breve accent uses a different shape from the one used in the Latin script.
     script: Cyrillic
     status: primary
-    design_note: Correct positioning of acute and grave accents above vowels is required. The breve accent uses a different shape from the one used in the Latin script.
   source:
   - Omniglot
   - Wikipedia
@@ -8372,10 +8371,10 @@ urd:
   orthographies:
   - autonym: اُردُو
     base: ء ا ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ل م ن و ٹ پ چ ڈ ڑ ژ ک گ ں ھ ہ ی َ ُ ِ ْ ٰ
+    design_note: Initial, medial, and final forms of the letters and some ligatures are required.
     numerals: ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹
     script: Arabic
     status: primary
-    design_note: Initial, medial, and final forms of the letters and some ligatures are required.
   source:
   - Wikipedia
   - Omniglot
@@ -9157,9 +9156,9 @@ zsm:
     status: primary
   - autonym: مليسيا‎
     base: ء ‎ ا ب ة ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ل م ن ه و ى ي چ ڠ ڤ ک ڽ ۏ ݢ
+    design_note: Initial, medial, and final forms of the letters and some ligatures are required.
     note: Jawi
     numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩
-    design_note: Initial, medial, and final forms of the letters and some ligatures are required.
     script: Arabic
   source:
   - Wikipedia
