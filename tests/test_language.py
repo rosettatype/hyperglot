@@ -1,6 +1,7 @@
 """
 Basic Language support checks
 """
+import pytest
 from hyperglot.languages import Languages
 from hyperglot.language import Language
 
@@ -161,3 +162,38 @@ def test_language_combined_orthographies():
     srp = Language(Langs["srp"], "srp")
     support = srp.has_support(srp_latin, checkAllOrthographies=True)
     assert ("Latin" in support) is True
+
+
+def test_get_orthography():
+    Langs = Languages()
+
+    deu = Language(Langs["deu"], "deu")
+
+    # By default and with not parameters it should return the primary
+    # orthography
+    deu_primary = deu.get_orthography()
+    assert ("ẞ" in deu_primary["auxiliary"]) is True
+
+    # Return a specific orthography
+    deu_historical = deu.get_orthography(status="historical")
+    assert deu_historical != deu_primary
+    assert ("ẞ" not in deu_historical["auxiliary"]) is True
+
+    # Raise error when a script does not exist
+    with pytest.raises(KeyError):
+        deu.get_orthography(script="Foobar")
+
+    # Raise error when a status does not exist
+    with pytest.raises(KeyError):
+        deu.get_orthography(status="constructed")
+
+    bos = Language(Langs["bos"], "bos")
+
+    # Return a script specific orthography, even if that is not the primary one
+    bos_cyrillic = bos.get_orthography("Cyrillic")
+    assert ("Д" in bos_cyrillic["base"]) is True
+
+    # However if for a specific script and status no orthography exists raise
+    # exceptions
+    with pytest.raises(KeyError):
+        bos.get_orthography("Cyrillic", "primary")

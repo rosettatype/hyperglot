@@ -1,5 +1,10 @@
 # A changelog for the lib/hyperglot CLI tool
 
+## 0.2.5 (22.03.2021)
+- FIX: Several orthography fixes, thanks Denis Moyogo Jacquerye
+- TWEAK: Changed orthography status names to `todo, draft, preliminary, verified`
+- TWEAK: Improved `Language.get_orthography` to return better default picks and allow getting orthographies of specific script or status
+
 ## 0.2.4 (18.03.2021)
 - First `pip` release :)
 

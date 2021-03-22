@@ -113,7 +113,7 @@ A simple CLI tool is provided to output language support data for a passed in fo
 
 ### Installation
 
-You will need to have Python 3 installed. Install via repo and pip:
+You will need to have Python 3 installed. Install via pip:
 
 ```
 $ pip install hyperglot
@@ -143,9 +143,11 @@ or to check several fonts at once, or their combined coverage (with `-m union`)
 - `-v, --verbose`: More logging information (default is False)
 - `-V, --version`: Print the version hyperglot version number (default is False)
 
+Installing the pip package also installed the `hyperglot-validate` and `hyperglot-save` commands, which allow checking and saving the yaml data in a structured and compatible way.
+
 ## Development and contributions
 
-Contributions are more most welcome. If you wish to update the database, submit a pull request with an editted and validated version of the `hyperglot.yaml` file.
+Contributions are more most welcome. If you wish to update the database, submit a pull request with an editted and validated version of the `hyperglot.yaml` file. Ideally, use `hyperglot-validate` and `hyperglot-save`, as this will check and format the data in a way best suited to the database.
 
 ### Development
 
@@ -162,7 +164,7 @@ To test the codebases after making changes run the `pytest` test suite:
 pytest
 ```
 
-To validate, sort, and verify the data integrity of `hyperglot.yaml` and get report of formatting errors:
+To validate, sort, and verify the data integrity of `hyperglot.yaml` and get report of any possible formatting errors run:
 
 ```
 hyperglot-validate
@@ -173,6 +175,8 @@ To save `hyperglot.yaml` sorted alphabetically and pruned by iso keys:
 ```
 hyperglot-save
 ```
+
+Note that this will _read_ and _write_ the yaml file.
 
 ### Contribution notes
 

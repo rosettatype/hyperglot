@@ -17,6 +17,7 @@ class Language(dict):
     def __init__(self, data, iso):
         """
         Init a single Language with the data from rosetta.yaml
+
         @param data dict: The raw data as found in the yaml
         @param iso str: Iso 3 letter iso code that is the key in the yaml. Keep
             this a private attribute, not dict items, so it does not get
@@ -28,20 +29,51 @@ class Language(dict):
     def __repr__(self):
         return "Language object '%s'" % self.get_name()
 
-    # TODO this should return all orthographies for a script, not the first it
-    # hits
-    # TODO include_historical check
-    def get_orthography(self, script=None):
+    def get_orthography(self, script=None, status=None):
+        """
+        Get the most appropriate orthography, or one specifically matching the
+        parameters. If there are multiple orthographies for a script, the
+        "primary" one will be returned. If filters are provided and no
+        orthography is matched an KeyError is raised.
+
+        @param script str: The script
+        @param status str: The status of the orthography
+        @raises KeyError
+        @returns dict
+        """
+
         if "orthographies" not in self:
             return False
 
+        matches = []
         for o in self["orthographies"]:
-            if script is not None and "script" in o and o["script"] == script:
-                return o
+            if script is not None and o["script"] != script:
+                continue
 
-        # No script provided or no orthography found for that script, return
-        # first best
-        return self["orthographies"][0]
+            if "status" not in o and status is not None:
+                continue
+
+            if status is not None and o["status"] != status:
+                continue
+
+            matches.append(o)
+
+        if not matches:
+            raise KeyError("No orthography found for script '%s' and status "
+                           "'%s' in language '%s'." %
+                           (script, status, self.iso))
+
+        # If we multiple were found return the primary one; if none of the
+        # matched is primary, leave unfiltered and return the first
+        if status is not None:
+            primary_matches = [m for m in matches
+                               if "status" in m and m["status"] == "primary"]
+            if (len(primary_matches)):
+                matches = primary_matches
+
+        # Note for multiple-orthography-primary languages (Serbian, Korean,
+        # Japanese) this returns only one orthography!
+        return matches[0]
 
     def get_name(self, script=None, strict=False):
         if script is not None:
