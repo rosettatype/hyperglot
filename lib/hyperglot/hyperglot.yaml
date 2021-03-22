@@ -241,6 +241,11 @@ ada:
     status: primary
   source:
   - Wikipedia
+  - "Bureau of Ghana Languages, Language Guide: Dangme Version, 1990, p. 5."
+  - "Rhonda L. Hartell, Alphabets of Africa, 1993, p. 150."
+  - http://www.bible.com/bible/2322/MAT.1.DAN77
+  - http://www.bible.com/fr/bible/2265/MAT.1.DANGME
+  - http://www.jw.org/ada/wa-nɛ́-he-nɛ-o-ngɛ-hlae-ɔ/
   speakers: 80000
   speakers_date: 2004
   validity: preliminary
@@ -3891,7 +3896,6 @@ jpn:
     status: primary
   - base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
     note: The Latin script is used for imported acronyms.
-    preferred_as_group: true
     script: Latin
     status: primary
   source:
@@ -4080,6 +4084,10 @@ kbp:
     status: primary
   source:
   - Wikipedia
+  - https://www.webonary.org/kabiye/browse/browse-vernacular-english/?key=kbp&lang=en
+  - https://www.sil.org/resources/archives/1967
+  - https://www.bible.com/bible/555/MAT.1.KABI
+  - https://www.jw.org/kbp/
   speakers: 1000000
   speakers_date: 2012
   validity: preliminary
