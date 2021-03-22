@@ -1120,6 +1120,8 @@ ben:
   orthographies:
   - autonym: বাংলা
     auxiliary: ৰ ৱ ৲ ৳ ৴ ৵ ৶ ৷ ৸ ৹
+    base: ঁ ং ঃ ৺ অ আ ই ঈ উ ঊ ঋ ৠ ঌ ৡ এ ঐ ও ঔ ক ক্ষ খ গ ঘ ঙ চ ছ জ ঝ ঞ ট ঠ ড ড় ঢ ঢ় ণ ত ৎ থ দ ধ ন প ফ ব ভ ম য য় র ল শ ষ স হ ঽ া ি ী ু ূ ৃ ৄ ৢ ৣ ে ৈ ো ৌ ্ ৗ
+
     base: ঁ ং ঃ অ আ ই ঈ উ ঊ ঋ ঌ এ ঐ ও ঔ ক খ গ ঘ ঙ চ ছ জ ঝ ঞ ট ঠ ড ঢ ণ ত থ দ ধ ন প ফ ব ভ ম য র ল শ ষ স হ ় ঽ ি ী ু ূ ৃ ৄ ৈ ো ৌ ্ ৎ ৠ ৡ ৢ ৣ ৺
     script: Bengali
     status: primary
@@ -4018,9 +4020,10 @@ kat:
   name: Georgian
   orthographies:
   - autonym: ქართული
-    base: Ა Ბ Გ Დ Ე Ვ Ზ Თ Ი Კ Ლ Მ Ნ Ო Პ Ჟ Რ Ს Ტ Უ Ფ Ქ Ღ Ყ Შ Ჩ Ც Ძ Წ Ჭ Ხ Ჯ Ჰ ა ბ გ დ ე ვ ზ თ ი კ ლ მ ნ ო პ ჟ რ ს ტ უ ფ ქ ღ ყ შ ჩ ც ძ წ ჭ ხ ჯ ჰ
+    base: ა ბ გ დ ე ვ ზ თ ი კ ლ მ ნ ო პ ჟ რ ს ტ უ ფ ქ ღ ყ შ ჩ ც ძ წ ჭ ხ ჯ ჰ
     script: Georgian
     status: primary
+    note: Mkhedruli
   source:
   - Omniglot
   - Wikipedia
