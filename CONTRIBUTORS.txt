@@ -3,8 +3,8 @@
 # Names should be added to this file as:
 # Name <email address>
 
-David Březina <david@rosettatype.com> @MrBrezina (concept, database structure and main language data set)
+David Březina <david@rosettatype.com> @MrBrezina (concept, database structure, and main language data set)
 Johannes Neumeier <hello@johannesneumeier.com> @kontur (tool and tests)
-Sérgio Martins @sergiolmartins (expansion of the language data with over 200 languages!)
+Sérgio Martins @sergiolmartins (major expansion and review of the data, ca 250+ languages)
 Toshi Omagari  @toshe (basic language data for many Cyrillic-script languages)
 Denis Moyogo Jacquerye @moyogo (corrections to several African languages and Madurese)

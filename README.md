@@ -96,9 +96,9 @@ Contributions are most welcome! So is feedback shared via Issues or email.
 
 The Hyperglot database and tools were originally developed by [Rosetta](http://rosettatype.com), world typography specialists, publishers, and makers of original fonts addressing the needs of global typography. Our goal is to enable people to read better in their native languages.
 
-- David Březina  
-- Sérgio Martins  
-- Johannes Neumeier
-- Toshi Omagari
+- David Březina <david@rosettatype.com> @MrBrezina (concept, database structure, and main language data set)
+- Johannes Neumeier <hello@johannesneumeier.com> @kontur (tool and tests)
+- Sérgio Martins @sergiolmartins (major expansion and review of the data, ca 250+ languages)
+- Toshi Omagari  @toshe (basic language data for many Cyrillic-script languages)
 
-[Full list of contributors](CONTRIBUTORS.txt)
+[The full list of contributors](CONTRIBUTORS.txt)
