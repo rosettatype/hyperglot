@@ -1,0 +1,9 @@
+# This is the list of people who have contributed to this project.
+#
+# Names should be added to this file as:
+# Name <email address>
+
+David Březina <david@rosettatype.com> @MrBrezina (database structure and main language data set)
+Johannes Neumeier <hello@johannesneumeier.com> @kontur (tool and tests)
+Sérgio Martins @sergiolmartins (expansion of the language data)
+Toshi Omagari  @toshe (language data for some Cyrillic-script languages)
