@@ -3137,7 +3137,7 @@ grc:
   name: Ancient Greek (to 1453)
   orthographies:
   - autonym: Ελληνικά
-    base: Α Β Γ Δ Ε Ζ Η Θ Ι Κ Λ Μ Ν Ξ Ο Π Ρ Σ Τ Υ Φ Χ Ψ Ω Ά Έ Ή Ί Ό Ύ Ώ Ϊ Ϋ Ἀ Ἁ Ἂ Ἃ Ἄ Ἅ Ἆ Ἇ Ἐ Ἑ Ἒ Ἓ Ἔ Ἕ Ἠ Ἡ Ἢ Ἣ Ἤ Ἥ Ἦ Ἧ Ἰ Ἱ Ἲ Ἳ Ἴ Ἵ Ἶ Ἷ Ὂ Ὃ Ὄ Ὑ Ὓ Ὕ Ὗ Ὢ Ὣ Ὤ Ὥ Ὦ Ὧ Ὰ Ὲ Ὴ Ὶ Ὸ Ὺ Ὼ α β γ δ ε ζ η θ ι κ λ μ ν ξ ο π ρ ς σ τ υ φ χ ψ ω ά έ ή ί ό ύ ώ ϊ ϋ ΐ ΰ ἀ ἁ ἂ ἃ ἄ ἅ ἆ ἇ ἐ ἑ ἒ ἓ ἔ ἕ ἠ ἡ ἢ ἣ ἤ ἥ ἦ ἧ ἰ ἱ ἲ ἳ ἴ ἵ ἶ ἷ ὂ ὃ ὄ ὐ ὑ ὒ ὓ ὔ ὕ ὖ ὗ ὢ ὣ ὤ ὥ ὦ ὧ ὰ ὲ ὴ ὶ ὸ ὺ ὼ ᾶ ῆ ῒ ῖ ῗ ῢ ῦ ῧ ῶ
+    base: Α Β Γ Δ Ε Ζ Η Θ Ι Κ Λ Μ Ν Ξ Ο Π Ρ Σ Τ Υ Φ Χ Ψ Ω Ά Έ Ή Ί Ό Ύ Ώ Ϊ Ϋ α β γ δ ε ζ η θ ι κ λ μ ν ξ ο π ρ ς σ τ υ φ χ ψ ω ά έ ή ί ό ύ ώ ϊ ϋ ἀ Ἀ ἄ Ἄ ᾄ ᾌ ἂ Ἂ ᾂ ᾊ ἆ Ἆ ᾆ ᾎ ᾀ ᾈ ἁ Ἁ ἅ Ἅ ᾅ ᾍ ἃ Ἃ ᾃ ᾋ ἇ Ἇ ᾇ ᾏ ᾁ ᾉ ᾴ ὰ Ὰ ᾲ ᾰ Ᾰ ᾶ ᾷ ᾱ Ᾱ ᾳ ᾼ ἐ Ἐ ἔ Ἔ ἒ Ἒ ἑ Ἑ ἕ Ἕ ἓ Ἓ ὲ Ὲ ἠ Ἠ ἤ Ἤ ᾔ ᾜ ἢ Ἢ ᾒ ᾚ ἦ Ἦ ᾖ ᾞ ᾐ ᾘ ἡ Ἡ ἥ Ἥ ᾕ ᾝ ἣ Ἣ ᾓ ᾛ ἧ Ἧ ᾗ ᾟ ᾑ ᾙ ῄ ὴ Ὴ ῂ ῆ ῇ ῃ ῌ ἰ Ἰ ἴ Ἴ ἲ Ἲ ἶ Ἶ ἱ Ἱ ἵ Ἵ ἳ Ἳ ἷ Ἷ ὶ Ὶ ῐ Ῐ ῖ ΐ ῒ ῗ ῑ Ῑ ὀ Ὀ ὄ Ὄ ὂ Ὂ ὁ Ὁ ὅ Ὅ ὃ Ὃ ὸ Ὸ ῤ ῥ Ῥ ὐ ὔ ὒ ὖ ὑ Ὑ ὕ Ὕ ὓ Ὓ ὗ Ὗ ὺ Ὺ ῠ Ῠ ῦ ΰ ῢ ῧ ῡ Ῡ ὠ Ὠ ὤ Ὤ ᾤ ᾬ ὢ Ὢ ᾢ ᾪ ὦ Ὦ ᾦ ᾮ ᾠ ᾨ ὡ Ὡ ὥ Ὥ ᾥ ᾭ ὣ Ὣ ᾣ ᾫ ὧ Ὧ ᾧ ᾯ ᾡ ᾩ ῴ ὼ Ὼ ῲ ῶ ῷ ῳ ῼ
     script: Greek
     status: primary
   preferred_name: Ancient Greek
@@ -3544,7 +3544,6 @@ huz:
   validity: draft
 hye:
   name: Eastern Armenian
-  note: Shares base with Western Armenian.
   orthographies:
   - autonym: Հայերէն
     base: Ա Բ Գ Դ Ե Զ Է Ը Թ Ժ Ի Լ Խ Ծ Կ Հ Ձ Ղ Ճ Մ Յ Ն Շ Ո Չ Պ Ջ Ռ Ս Վ Տ Ր Ց Ւ Փ Ք Օ Ֆ ա բ գ դ ե զ է ը թ ժ ի լ խ ծ կ հ ձ ղ ճ մ յ ն շ ո չ պ ջ ռ ս վ տ ր ց ւ փ ք և օ ֆ
@@ -4338,7 +4337,7 @@ kkh:
   orthographies:
   - autonym: ᨴᩱ᩠ᨿᨡᩨ᩠ᨶ
     base: ᨠ ᨡ ᩉ ᩠ ᨦ ᨧ ᨨ ᨬ ᨭ ᨣ ᨤ ᨥ ᨩ ᨫ ᨮ ᨲ ᨳ ᨶ ᨸ ᨹ ᨺ ᨰ ᨱ ᨴ ᨵ ᨻ ᨽ ᨼ ᨾ ᩃ ᩱ ᩁ ᩖ ᩅ ᩆ ᩇ ᨿ ᩓ ᩈ ᩔ ᨪ ᩌ ᩊ ᨯ ᨷ ᩀ ᩋ ᩣ ᩍ ᩎ ᩏ ᩐ ᩑ ᩒ ᩂ ᩄ
-    script: Tai Tham (Lanna)
+    script: Tham
     status: primary
   source:
   - Omniglot
@@ -8494,6 +8493,7 @@ vie:
   orthographies:
   - autonym: Tiếng Việt
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Á Â Ã È É Ê Ì Í Ò Ó Ô Õ Ù Ú Ý Ă Đ Ĩ Ũ Ơ Ư Ạ Ả Ấ Ầ Ẩ Ẫ Ậ Ắ Ằ Ẳ Ẵ Ặ Ẹ Ẻ Ẽ Ế Ề Ể Ễ Ệ Ỉ Ị Ọ Ỏ Ố Ồ Ổ Ỗ Ộ Ớ Ờ Ở Ỡ Ợ Ụ Ủ Ứ Ừ Ử Ữ Ự Ỳ Ỵ Ỷ Ỹ a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ã è é ê ì í ò ó ô õ ù ú ý ă đ ĩ ũ ơ ư ạ ả ấ ầ ẩ ẫ ậ ắ ằ ẳ ẵ ặ ẹ ẻ ẽ ế ề ể ễ ệ ỉ ị ọ ỏ ố ồ ổ ỗ ộ ớ ờ ở ỡ ợ ụ ủ ứ ừ ử ữ ự ỳ ỵ ỷ ỹ
+    design_note: The stacked combinations of marks often require adapted design of the individual marks (smaller, shallower). There is no concesus regarding the position of acute and grave above the circumflex.
     script: Latin
     status: primary
   source:
