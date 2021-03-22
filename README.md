@@ -35,9 +35,9 @@ Each language entry can have these attributes which default to empty string or l
 - `status` (required, defaults to `living`) the status of the language, may be one of `historical, constructed, living`.
 - `source` (optional) is a list of source names used to define the orthographies, e.g. Wikipedia, Omniglot, Alvestrand. See below for the complete list.
 - `validity` (required, defaults to `todo`): one of the following:
-  - `todo` for unfinished entries which may be used to detect a potential language support with little certainty,
-  - `weak` for entries that are complete but have not been checked, yet,
-  - `done` for entries we have checked with at least two online sources,
+  - `todo` for work in progress,
+  - `draft` for entries that are complete but have not been checked against any sources, yet,
+  - `preliminary` for entries that have been checked with at least two online sources,
   - `verified` for entries confirmed by a native speaker or a linguist.
 - `note` (optional): a note of any kind.
 
@@ -116,7 +116,7 @@ A simple CLI tool is provided to output language support data for a passed in fo
 You will need to have Python 3 installed. Install via repo and pip:
 
 ```
-$ pip install git+https://github.com/rosettatype/hyperglot
+$ pip install hyperglot
 ```
 
 ### Usage
@@ -136,16 +136,16 @@ or to check several fonts at once, or their combined coverage (with `-m union`)
 - `-o, --output`: Supply a file path to write the output to, in yaml format. For a single input font this will be a subset of the Hyperglot database with the languages and orthographies that the font supports. If several fonts are provided the yaml file will have a top level dict key for each file. If the `-m` option is provided the yaml file will contain the specific intersection or union result
 - `-m, --mode`: How to process input if several files are provided (currently options are "individual", "union" and "intersection")
 - `--include-all-orthographies`: Check all orthographies of a language, not just its primary one(s)
-- `--validity`: Specifiy to filter by the level of certainty the database information has for languages (default is "done")
+- `--validity`: Specifiy to filter by the level of validity of the language data (default is "preliminary")
 - `--include-historical`: Option to include languages and orthographies marked as historical (default is False)
 - `--include-constructed`: Option to include languages and orthographies that are marked as constructed (default is False)
 - `--strict-iso`: Display language names and macrolanguage data strictly according to ISO (default is False)
 - `-v, --verbose`: More logging information (default is False)
 - `-V, --version`: Print the version hyperglot version number (default is False)
 
-### Validating and sorting the database yaml file
+## Development and contributions
 
-Simple validation and sorting script to verify the data integrity of `hyperglot.yaml` and point out possible formatting errors is included as `hyperglot-validate` (prints problems to terminal) and `hyperglot-save` (saves the `hyperglot.yaml` sorted alphabetically and pruned by iso keys)
+Contributions are more most welcome. If you wish to update the database, submit a pull request with an editted and validated version of the `hyperglot.yaml` file.
 
 ### Development
 
@@ -161,6 +161,25 @@ To test the codebases after making changes run the `pytest` test suite:
 ```
 pytest
 ```
+
+To validate, sort, and verify the data integrity of `hyperglot.yaml` and get report of formatting errors:
+
+```
+hyperglot-validate
+```
+
+To save `hyperglot.yaml` sorted alphabetically and pruned by iso keys:
+
+```
+hyperglot-save
+```
+
+### Contribution notes
+
+- Languages that are not written should not be included. Obviously.
+- Languages that have some speakers should not be marked as `extinct` even if ISO standard says so.
+- When adding or editing language data use the CLI commands `hyperglot-validate` to check your new data is compatible and use `hyperglot-save` to actually "save" the database in a standardized way (clean up, sorting, etc).
+- When contributing code make sure to install the `pytest` package and run `pytest` to make sure no errors are detected. Ideally, write tests for any code additions or changes you have added.
 
 ## Sources
 
@@ -183,16 +202,6 @@ The speaker counts are from Wikipedia.
 - Johannes Neumeier
 - Toshi Omagari
 
-## Contributing
-
-A few random notes:
-
-- Languages that are not written should not be included. Obviously.
-- Languages that have some speakers should not be marked as `extinct` even if ISO standard says so.
-- When adding or editing language data use the CLI commands `hyperglot-validate` to check your new data is compatible and use `hyperglot-save` to actually "save" the database in a standardized way (clean up, sorting, etc).
-- When contributing code make sure to install the `pytest` module and run `pytest` and make sure no errors are detected. Ideally, write tests for any code additions or changes you added.
-
-
 ## Other databases included in this repo
 
 The following are YAML files distilled from the original data stored in subfolders with corresponding names.
@@ -204,7 +213,7 @@ The following are YAML files distilled from the original data stored in subfolde
 - `other/iso-639-2_collections.yaml` – language collections from ISO 639-2 (no longer available in ISO 639-3)
 - `other/opentype-language-tags.yaml` –OpenType language tags and names with their corresponding ISO 639-3 language codes
 
-The following data was not used to built the Hyperglot database, but it used to build comparative previews:
+The following data was not used to built the Hyperglot database, but it was used to build comparative previews:
 
 - `other/extensis` – character sets compiled by Extensis/WebINK
 - `other/iana` – from [IANA language subtag registry](https://www.iana.org/assignments/lang-subtags-templates/lang-subtags-templates.xhtml)
