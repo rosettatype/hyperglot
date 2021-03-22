@@ -1,6 +1,8 @@
 """
 A CLI script to check hyperglot.yaml is well-formed, called with:
 $ hyperglot-validate
+Note that the python library itself is tested with pytest, whereas this is more
+of a check for the data file to be used when entering and saving data.
 """
 import logging
 import colorlog
@@ -19,10 +21,10 @@ log.setLevel(logging.DEBUG)
 log.addHandler(handler)
 
 print()
-print("No color = FYI")
-print("Green = FYI, but worth reviewing")
-print("Yellow = Might need fixing")
-print("Red = Requires fixing")
+log.debug("No color = FYI")
+log.info("Green = FYI, but worth reviewing")
+log.warning("Yellow = Might need fixing")
+log.error("Red = Requires fixing")
 print()
 
 ISO_639_3 = "../../other/iso-639-3.yaml"
@@ -41,7 +43,7 @@ except Exception as e:
 def check_yaml():
 
     try:
-        log.debug("yaml structure ok")
+        log.debug("YAML file structure ok and can be read")
         # Use prune=False to validate the orthographies raw
         return Languages(prune=False, validity=VALIDITYLEVELS[0])
     except yaml.scanner.ScannerError as e:
@@ -87,7 +89,7 @@ def check_types(Langs):
 
                 allowed = ["autonym", "inherit", "script", "base",
                            "auxiliary", "numerals", "status", "note",
-                           "preferred_as_group"]
+                           "preferred_as_group", "design_note"]
                 invalid = [k for k in o.keys() if k not in allowed]
                 if len(invalid):
                     log.warn("'%s' has invalid orthography keys: '%s'" %
@@ -142,6 +144,7 @@ def check_is_valid_glyph_string(glyphs):
 
     if re.findall(r" {2,}", glyphs):
         log.error("More than single space in '%s'" % glyphs)
+        print([g for g in re.findall(r" {2,}", glyphs)])
         return False
 
     pruned, removed = prune_superflous_marks(glyphs)
