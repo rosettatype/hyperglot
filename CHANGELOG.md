@@ -1,6 +1,8 @@
 # A changelog for the lib/hyperglot CLI tool
 
-## 0.2.5 (WIP)
+## 0.2.5 (23.03.2021)
+- DATA: Introduced `design_note` parameter
+- DATA: Various language data updates and smaller fixes
 - DATA: Several orthography fixes, thanks Denis Moyogo Jacquerye
 - TWEAK: Changed orthography status names to `todo, draft, preliminary, verified`
 - TWEAK: Improved `Language.get_orthography` to return better default picks and allow getting orthographies of specific script or status
