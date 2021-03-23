@@ -757,7 +757,7 @@ asm:
   orthographies:
   - autonym: অসমীয়া
     base: ঁ ং ঃ ৺ অ আ ই ঈ উ ঊ ঋ ৠ ঌ ৡ এ ঐ ও ঔ ক খ গ ঘ ঙ চ ছ জ ঝ ঞ ট ঠ ড ঢ ণ ত থ দ ধ ন প ফ ব ভ ম য ৰ ল ৱ শ ষ স হ ় ি ী ু ূ ৃ ৄ ৢ ৣ ৈ ো ৌ ্ ʼ
-    design_note: Mark positioning and numerous precomposed forms (namely conjunct syllables) are required for proper representation of the language.
+    design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
     numerals: ০ ১ ২ ৩ ৪ ৫ ৬ ৭ ৮ ৯
     script: Bengali
     status: primary
@@ -846,6 +846,24 @@ avl:
   speakers_date: 2015-2016
   status: living
   validity: draft
+awa:
+  name: Awadhi
+  note: The speaker counts are 3.85 million (India, 2011) and 501752 (Nepal, 2011)
+  orthographies:
+  - autonym: अवधी
+    auxiliary: ॐ
+    base: अ आ इ ई उ ऊ ऋ ए ऐ ओ औ ा ि ी ु ू ृ े ै ो ौ ँ ं ः ़ ् क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र ल व श ष स ह ऄ ‌ ‍
+    design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
+    numerals: ० १ २ ३ ४ ५ ६ ७ ८ ९ 0 1 2 3 4 5 6 7 8 9
+    punctuation: । ॥ ॰
+    script: Devanagari
+    status: primary
+  source:
+  - Wikipedia
+  - Unicode
+  speakers: 4351752
+  speakers_date: 2011
+  validity: preliminary
 ayc:
   name: Southern Aymara
   orthographies:
@@ -990,7 +1008,7 @@ bal:
   orthographies:
   - autonym: بلۏچی
     base: ء آ ا ب ت ج د ر ز س ش ل م ن ه و ٹ پ چ ڈ ژ ک گ ی ۏ ے ݔ ࢣ َ ُ ِ
-    numerals: ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹
+    numerals: ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹ 0 1 2 3 4 5 6 7 8 9
     script: Arabic
     status: primary
   preferred_as_individual: true
@@ -1136,7 +1154,7 @@ ben:
   orthographies:
   - autonym: বাংলা
     base: ঁ ং ঃ ৺ অ আ ই ঈ উ ঊ ঋ ৠ ঌ ৡ এ ঐ ও ঔ ক খ গ ঘ ঙ চ ছ জ ঝ ঞ ট ঠ ড ঢ ণ ত ৎ থ দ ধ ন প ফ ব ভ ম য র ল শ ষ স হ ঽ ় ি ী ু ূ ৃ ৄ ৢ ৣ ৈ ো ৌ ্
-    design_note: Mark positioning and numerous precomposed forms (namely conjunct syllables) are required for proper representation of the language.
+    design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
     numerals: ০ ১ ২ ৩ ৪ ৫ ৬ ৭ ৮ ৯
     script: Bengali
     status: primary
@@ -1191,14 +1209,14 @@ bho:
   name: Bhojpuri
   orthographies:
   - autonym: भोजपुरी
-    inherit: hin
+    inherit: mag
     note: The use of the Kaithi script is declining. Devanagari is currently the most commonly used script for oficial documents.
     script: Devanagari
     status: primary
   - autonym: 𑂦𑂷𑂔𑂣𑂳𑂩𑂲
     base: 𑂃 𑂄 𑂅 𑂆 𑂇 𑂈 𑂉 𑂊 𑂰 𑂲 𑂳 𑂴 𑂵 𑂶 𑂋 𑂌 𑂂 𑂀 𑂸 𑂍 𑂎 𑂏 𑂐 𑂑 𑂒 𑂓 𑂔 𑂕 𑂖 𑂗 𑂘 𑂙 𑂚 𑂛 𑂜 𑂝 𑂞 𑂟 𑂠 𑂡 𑂢 𑂣 𑂤 𑂥 𑂦 𑂧 𑂨 𑂩 𑂪 𑂫 𑂬 𑂭 𑂮 𑂯
-    design_note: Mark positioning and numerous precomposed forms (namely conjunct syllables) are required for proper representation of the language.
-    numerals: ० १ २ ३ ४ ५ ६ ७ ८ ९
+    design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
+    numerals: ० १ २ ३ ४ ५ ६ ७ ८ ९ 0 1 2 3 4 5 6 7 8 9
     script: Kaithi
   source:
   - Omniglot
@@ -1292,7 +1310,7 @@ bod:
   orthographies:
   - autonym: བོད་སྐད་
     base: ཀ ཁ ག ང ཅ ཆ ཇ ཉ ཏ ཐ ད ན པ ཕ བ མ ཙ ཚ ཛ ཝ ཞ ཟ འ ཡ ར ལ ཤ ས ཧ ཨ ི ུ ེ ོ
-    design_note: Mark positioning and numerous precomposed forms (namely conjunct syllables) are required for proper representation of the language.
+    design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
     numerals: ༠ ༡ ༢ ༣ ༤ ༥ ༦ ༧ ༨ ༩
     punctuation: ༄  ༈ ་ ། ༎ ༔ ༺ ༻
     script: Tibetan
@@ -1325,7 +1343,7 @@ bpy:
   orthographies:
   - autonym: বিষ্ণুপ্রিয়া মণিপুরী
     base: ঁ ং ঃ অ আ ই ঈ উ ঊ ঋ এ ঐ ও ঔ ক খ গ ঘ ঙ চ ছ জ ঝ ঞ ট ঠ ড ঢ ণ ত থ দ ধ ন প ফ ব ভ ম য র ল ৱ শ ষ স হ ় ি ী ু ূ ৃ ৈ ো ৌ ্
-    design_note: Mark positioning and numerous precomposed forms (namely conjunct syllables) are required for proper representation of the language.
+    design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
     numerals: ০ ১ ২ ৩ ৪ ৫ ৬ ৭ ৮ ৯
     script: Bengali
     status: primary
@@ -1350,6 +1368,23 @@ bre:
   speakers_date: 2018
   status: living
   validity: verified
+brx:
+  name: Bodo (India)
+  orthographies:
+  - autonym: बरʼ
+    auxiliary: ॐ
+    base: अ आ इ ई उ ऊ ऋ ए ऐ ओ औ ा ि ी ु ू ृ े ै ो ौ ँ ं ः ़ ् क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र ल व श ष स ह ʼ ‌ ‍
+    design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
+    numerals: ० १ २ ३ ४ ५ ६ ७ ८ ९ 0 1 2 3 4 5 6 7 8 9
+    punctuation: । ॥ ॰
+    script: Devanagari
+    status: primary
+  source:
+  - Wikipedia
+  - Unicode
+  speakers: 1400000
+  speakers_date: 2011
+  validity: preliminary
 buc:
   autonym: Kibushi
   name: Bushi
@@ -1866,7 +1901,7 @@ ckt:
   validity: preliminary
 cmn:
   name: Mandarin Chinese
-  note: There are approximately 200000000 additional L2 speakers.
+  note: There are approximately 200000000 L2 speakers.
   orthographies:
   - autonym: 普通话 / 汉语
     auxiliary: 乒 乓 仂 仓 伞 侣 傈 傣 僳 冥 凉 刨 匕 卑 卞 厘 厦 厨 吕 呣 唇 啤 啮 喱 嗅 噘 噢 坝 堤 墟 奎 妆 婴 媚 宅 寺 尬 尴 屑 屿 巽 巾 弓 彗 惊 戟 扔 扰 扳 抛 挂 捂 摇 撅 撤 杆 杖 柜 柱 栗 栽 桶 棍 棕 棺 楔 楠 榈 槟 橙 洒 浆 涌 淇 滕 滚 滩 灾 烛 烟 焰 煎 犬 猫 瑚 瓢 甫 皱 盆 盔 盲 眨 眯 瞌 矿 碑 祈 祭 祷 禄 稻 竿 笼 筒 篷 粟 粮 纠 纬 缆 缎 耸 脚 舔 舵 艇 艮 芽 苜 苞 菇 菱 葫 葵 蒸 蓿 蔽 薯 蘑 蚂 蛛 蜗 蜘 蜡 蝎 蝴 螃 裹 谍 谬 豚 账 跤 踪 躬 轴 辐 迹 郁 鄙 酢 钉 钥 钮 钯 铂 铅 铛 锄 锑 锚 锤 镑 闺 阱 隧 雕 霾 靴 靶 鞠 颠 馏 驼 骆 髦 魁 鲤 鲸 鳄 鸽
@@ -2101,7 +2136,7 @@ ctg:
   orthographies:
   - autonym: চাটগাঁইয়া
     base: ঁ ং ঃ অ আ ই ঈ উ ঊ ঋ এ ঐ ও ঔ ক খ গ ঘ ঙ চ ছ জ ঝ ট ঠ ড ঢ ণ ত থ দ ধ ন প ফ ব ভ ম য র ল ৱ শ ষ স হ ় ি ী ু ূ ৃ ৈ ো ৌ ্
-    design_note: Mark positioning and numerous precomposed forms (namely conjunct syllables) are required for proper representation of the language.
+    design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
     numerals: ০ ১ ২ ৩ ৪ ৫ ৬ ৭ ৮ ৯
     script: Bengali
     status: primary
@@ -2254,6 +2289,30 @@ dga:
   speakers: 1100000
   speakers_date: 2001-2003
   validity: preliminary
+dgo:
+  name: Dogri (individual language)
+  orthographies:
+  - autonym: डोगरी
+    auxiliary: ॐ
+    base: अ आ इ ई उ ऊ ऋ ए ऐ ओ औ ा ि ी ु ू ृ े ै ो ौ ँ ं ः ़ ् क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र ल व श ष स ह ʼ ऽ ‌ ‍
+    design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
+    note: Used in India
+    numerals: ० १ २ ३ ४ ५ ६ ७ ८ ९ 0 1 2 3 4 5 6 7 8 9
+    punctuation: । ॥ ॰
+    script: Devanagari
+    status: primary
+  - autonym: ڈوگَرِی
+    design_note: Uses the Nastaʼlīq style of the Arabic script
+    inherit: urd
+    note: Used in Pakistan
+    script: Arabic
+    status: primary
+  source:
+  - Wikipedia
+  - Unicode
+  speakers: 1600000
+  speakers_date: 2011
+  validity: preliminary
 dhv:
   name: Dehu
   note: The speaker count includes 13000 L2 speakers.
@@ -2364,6 +2423,16 @@ dng:
   speakers: 110000
   status: living
   validity: preliminary
+doi:
+  includes:
+  - dgo
+  - xnr
+  name: Dogri (macrolanguage)
+  source:
+  - Wikipedia
+  speakers: 1600000
+  speakers_date: 2011
+  validity: verified
 dsb:
   name: Lower Sorbian
   orthographies:
@@ -2379,6 +2448,20 @@ dsb:
   speakers_date: 2007
   status: living
   validity: verified
+dty:
+  name: Dotyali
+  orthographies:
+  - autonym: डोटेली
+    auxiliary: ॐ
+    inherit: npi
+    script: Devanagari
+    status: primary
+  source:
+  - Wikipedia
+  - Unicode
+  speakers: 790000
+  speakers_date: 2011
+  validity: preliminary
 dua:
   name: Duala
   note: The number of speakers is a conservative estimate.
@@ -2411,7 +2494,7 @@ dyo:
   validity: verified
 dyu:
   name: Dyula
-  note: There are approximately 10300000 additional L2 speakers.
+  note: There are approximately 10300000 L2 speakers.
   orthographies:
   - autonym: Julakan
     base: A B C D E Ɛ F G H I J K L M N Ɲ Ŋ O Ɔ P R S T U V W Y Z a b c d e ɛ f g h i j k l m n ɲ ŋ o ɔ p r s t u v w y z
@@ -2433,7 +2516,7 @@ dzo:
   orthographies:
   - autonym: རྫོང་ཁ་
     base: ཀ ཁ ག ང ཅ ཆ ཇ ཉ ཏ ཐ ད ན པ ཕ བ མ ཙ ཚ ཛ ཝ ཞ ཟ འ ཡ ར ལ ཤ ས ཧ ཨ ཊ ཋ ཌ ཎ ཥ ྵ ི ུ ེ ོ
-    design_note: Mark positioning and numerous precomposed forms (namely conjunct syllables) are required for proper representation of the language.
+    design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
     numerals: ༠ ༡ ༢ ༣ ༤ ༥ ༦ ༧ ༨ ༩
     script: Tibetan
     status: primary
@@ -3171,6 +3254,24 @@ gni:
   speakers_date: 2016
   status: living
   validity: preliminary
+gom:
+  name: Goan Konkani
+  orthographies:
+  - autonym: गोवन कोंकणी
+    inherit: hin
+    script: Devanagari
+    status: primary
+  - autonym: Konknni
+    base: A Ã B C Ç D E Ẽ F G H I Ĩ J K L M N Ñ O Õ P Q R S T U V W X Y Z a ã b c ç d e ẽ f g h i ĩ j k l m n ñ o õ p q r s t u v w x y z
+    note: Konkani in the Latin script (called Romi Konkani) is widely used
+    script: Latin
+    status: secondary
+  source:
+  - Wikipedia
+  - Unicode
+  speakers: 2300000
+  speakers_date: 2011
+  validity: preliminary
 gqa:
   name: Ga'anda
   orthographies:
@@ -3242,12 +3343,14 @@ gug:
   validity: preliminary
 guj:
   name: Gujarati
-  note: There are approximately 4000000 additional L2 speakers.
+  note: There are approximately 4000000 L2 speakers.
   orthographies:
   - autonym: ગુજરાતી
+    auxiliary: ॐ
     base: અ આ ઇ ઈ ઉ ઊ ઋ પ ા િ ી ુ ૂ ૃ એ ઐ ઓ ઔ ં ઃ ે ૈ ો ૌ ક ખ ગ ઘ ઙ ચ છ જ ઝ ઞ ટ ઠ ડ ઢ ણ ત થ દ ધ ન ફ બ ભ મ ય ર લ વ શ ષ સ હ ળ ્
-    design_note: Mark positioning and numerous precomposed forms (namely conjunct syllables) are required for proper representation of the language.
-    numerals: ૦ ૧ ૨ ૩ ૪ ૫ ૬ ૭ ૮ ૯
+    design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
+    numerals: ૦ ૧ ૨ ૩ ૪ ૫ ૬ ૭ ૮ ૯ 0 1 2 3 4 5 6 7 8 9
+    punctuation: । ॥ ॰
     script: Gujarati
     status: primary
   source:
@@ -3331,7 +3434,7 @@ haj:
   orthographies:
   - autonym: হাজং
     base: ঁ ং ঃ অ আ ই উ এ ঐ ও ঔ ক খ গ ঘ ঙ চ ছ জ ঝ ঞ ত থ দ ধ ন প ফ ব ভ ম র হ ় ি ৈ ো ৌ ্
-    design_note: Mark positioning and numerous precomposed forms (namely conjunct syllables) are required for proper representation of the language.
+    design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
     numerals: ০ ১ ২ ৩ ৪ ৫ ৬ ৭ ৮ ৯
     script: Bengali
     status: primary
@@ -3461,14 +3564,14 @@ hil:
   validity: preliminary
 hin:
   name: Hindi
-  note: There are approximately 270000000 of additional L2 speakers.
+  note: There are approximately 270000000 of L2 speakers.
   orthographies:
   - autonym: हिन्दी
     auxiliary: ॐ
-    base: अ आ इ ई उ ऊ ऋ ए ऐ ओ औ ा ि ी ु ू ृ े ै ो ौ ँ ं ः ़ ् क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र ल व श ष स ह
-    design_note: Mark positioning and numerous precomposed forms (namely conjunct syllables) are required for proper representation of the language.
-    numerals: ० १ २ ३ ४ ५ ६ ७ ८ ९
-    punctuation: । ॥
+    base: अ आ इ ई उ ऊ ऋ ए ऐ ओ औ ा ि ी ु ू ृ े ै ो ौ ँ ं ः ़ ् क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र ल व श ष स ह ‌ ‍
+    design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
+    numerals: ० १ २ ३ ४ ५ ६ ७ ८ ९ 0 1 2 3 4 5 6 7 8 9
+    punctuation: । ॥ ॰
     script: Devanagari
     status: primary
   source:
@@ -3626,7 +3729,7 @@ hye:
   - Wikipedia
   speakers: 6700000
   speakers_date: 2015
-  validity: preliminary
+  validity: verified
 hyw:
   name: Western Armenian
   orthographies:
@@ -3639,7 +3742,7 @@ hyw:
   - Wikipedia
   speakers: 1400000
   speakers_date: 2001-2016
-  validity: preliminary
+  validity: verified
 ibb:
   name: Ibibio
   orthographies:
@@ -4055,11 +4158,11 @@ kam:
   validity: preliminary
 kan:
   name: Kannada
-  note: There are approximately 600000 additional L2 speakers.
+  note: There are approximately 600000 L2 speakers.
   orthographies:
   - autonym: ಕನ್ನಡ
     base: ಕ ಖ ಗ ಘ ಙ ಚ ಛ ಜ ಝ ಞ ಟ ಠ ಡ ಢ ಣ ತ ಥ ದ ಧ ನ ಪ ಫ ಬ ಭ ಮ ಯ ರ ಲ ವ ಶ ಷ ಸ ಹ ಳ ್ ಅ ಆ ಇ ಈ ಉ ಊ ಋ ೠ ಾ ೀ ು ೃ ೄ ಎ ಏ ಐ ಒ ಓ ಔ ಂ ಃ ೇ ೈ ೋ ೌ
-    design_note: Mark positioning and numerous precomposed forms (namely conjunct syllables) are required for proper representation of the language.
+    design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
     numerals: ೧ ೨ ೩ ೪ ೫ ೬ ೭ ೮ ೯ ೦
     script: Kannada
     status: primary
@@ -4256,6 +4359,19 @@ ket:
   speakers: 213
   speakers_date: 2010
   status: living
+  validity: preliminary
+kfr:
+  name: Kachhi
+  orthographies:
+  - autonym: કચ્છી
+    inherit: guj
+    script: Gujarati
+    status: primary
+  source:
+  - Omniglot
+  - Wikipedia
+  speakers: 1031000
+  speakers_date: 2011
   validity: preliminary
 kgp:
   name: Kaingang
@@ -4500,6 +4616,19 @@ kmr:
   speakers_date: 2009
   status: living
   validity: preliminary
+knn:
+  name: Konkani (individual language)
+  orthographies:
+  - autonym: महाराष्ट्रीय कोंकणी
+    inherit: gom
+    script: Devanagari
+    status: primary
+  source:
+  - Wikipedia
+  - Unicode
+  speakers: 2400000
+  speakers_date: 2011
+  validity: preliminary
 koi:
   name: Komi-Permyak
   orthographies:
@@ -4513,6 +4642,16 @@ koi:
   speakers: 63000
   speakers_date: 2010
   status: living
+  validity: verified
+kok:
+  includes:
+  - gom
+  - knn
+  name: Konkani (macrolanguage)
+  source:
+  - Wikipedia
+  speakers: 2300000
+  speakers_date: 2011
   validity: verified
 kon:
   autonym: Kikongo
@@ -5173,7 +5312,11 @@ mag:
   name: Magahi
   orthographies:
   - autonym: मगही
-    inherit: hin
+    auxiliary: ॐ
+    base: अ आ इ ई उ ऊ ऋ ए ऐ ओ औ ा ि ी ु ू ृ े ै ो ौ ँ ं ः ़ ् क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र ल व श ष स ह ऎ ऒ ॆ ॊ ॳ ॴ ॵ ऺ ऻ ॏ ʼ ‌ ‍
+    design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
+    numerals: ० १ २ ३ ४ ५ ६ ७ 0 1 2 3 4 5 6 7 8 9
+    punctuation: । ॥ ॰
     script: Devanagari
     status: primary
   source:
@@ -5200,7 +5343,11 @@ mai:
   note: The speaker count is ambigious as Maithili is often regarded as a dialect of Hindi.
   orthographies:
   - autonym: मैथिली
-    inherit: hin
+    auxiliary: ॐ
+    base: अ आ इ ई उ ऊ ऋ ए ऐ ओ औ ा ि ी ु ू ृ े ै ो ौ ँ ं ः ़ ् क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र ल व श ष स ह ऎ ऒ ॆ ॊ ॳ ॴ ॵ ऺ ऻ ॏ ʼ ऽ ‌ ‍
+    design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
+    numerals: ० १ २ ३ ४ ५ ६ ७ 0 1 2 3 4 5 6 7 8 9
+    punctuation: । ॥ ॰
     script: Devanagari
     status: primary
   source:
@@ -5214,7 +5361,7 @@ mal:
   orthographies:
   - autonym: മലയാളം
     base: ം ഃ അ ആ ഇ ഈ ഉ ഊ ഋ ഌ എ ഏ ഐ ഒ ഓ ഔ ക ഖ ഗ ഘ ങ ച ഛ ജ ഝ ഞ ട ഠ ഡ ഢ ണ ത ഥ ദ ധ ന പ ഫ ബ ഭ മ യ ര റ ല ള ഴ വ ശ ഷ സ ഹ ി ീ ു ൂ ൃ ൈ ൊ ോ ൌ ് ൠ ൡ ൺ ൻ ർ ൽ ൾ ൿ
-    design_note: Mark positioning and numerous precomposed forms (namely conjunct syllables) are required for proper representation of the language.
+    design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
     numerals: ൦ ൧ ൨ ൩ ൪ ൫ ൬ ൭ ൮ ൯
     script: Malayalam
     status: primary
@@ -5239,14 +5386,14 @@ mam:
   validity: preliminary
 mar:
   name: Marathi
-  note: There are approximately 12000000 additional L2 speakers.
+  note: There are approximately 12000000 L2 speakers.
   orthographies:
   - autonym: मराठी
     auxiliary: ॐ
-    base: अ आ इ ई उ ऊ ऋ ए ऐ ओ औ ा ि ी ु ू ृ े ै ो ौ ँ ं ः ़ ् क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र ल ळ व श ष स ह
-    design_note: Marathi Devanagari (also called Balbodh) uses different shapes for some of the characters compared to the Hindi version, e.g. र (eyelash reph), ल, and श. Numerals may differ too. Mark positioning and numerous precomposed forms (namely conjunct syllables) are required for proper representation of the language.
-    numerals: ० १ २ ३ ४ ५ ६ ७
-    punctuation: । ॥
+    base: अ आ इ ई उ ऊ ऋ ए ऐ ओ औ ा ि ी ु ू ृ े ै ो ौ ँ ं ः ़ ् क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र ल ळ व श ष स ह ‌ ‍
+    design_note: Marathi Devanagari (also called Balbodh) uses different shapes for some of the characters compared to the Hindi version, e.g. र (eyelash reph), ल, श, and some ligatures. Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
+    numerals: ० १ २ ३ ४ ५ ६ ७ 0 1 2 3 4 5 6 7 8 9
+    punctuation: । ॥ ॰
     script: Devanagari
     status: primary
   source:
@@ -5527,7 +5674,7 @@ mni:
   orthographies:
   - autonym: মৈতৈলোন্‎
     base: ঁ ং ঃ অ আ ই উ এ ঐ ও ঔ ক খ গ ঘ ঙ চ জ ঝ ঞ ত থ দ ধ ন প ফ ব ভ ম ৰ র ল ৱ স হ ় ু ি ৈ ো ৌ ্
-    design_note: Mark positioning and numerous precomposed forms (namely conjunct syllables) are required for proper representation of the language.
+    design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
     numerals: ০ ১ ২ ৩ ৪ ৫ ৬ ৭ ৮ ৯
     script: Bengali
     status: primary
@@ -5951,6 +6098,12 @@ nds:
   speakers: 6700000
   status: living
   validity: preliminary
+nep:
+  includes:
+  - npi
+  - dty
+  name: Nepali (macrolanguage)
+  validity: verified
 nhn:
   name: Central Nahuatl
   orthographies:
@@ -6144,6 +6297,24 @@ nov:
   - Wikipedia
   speakers: 0
   status: constructed
+  validity: preliminary
+npi:
+  name: Nepali (individual language)
+  note: There are approximately 9000000 L2 speakers (2011).
+  orthographies:
+  - autonym: नेपाली
+    auxiliary: ॐ
+    base: अ आ इ ई उ ऊ ऋ ए ऐ ओ औ ा ि ी ु ू ृ े ै ो ौ ँ ं ः ़ ् क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र ल ळ व श ष स ह ‌ ‍
+    design_note: Nepali Devanagari uses different shapes for some of the characters compared to the Hindi version, e.g. झ and some ligatures. Numerals five, eight, and nine differ too. Nepali orthographies prefer a smaller number of ligatures than commonly used in Hindi or Marathi. Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
+    numerals: ० १ २ ३ ४ ५ ६ ७ 0 1 2 3 4 5 6 7 8 9
+    punctuation: । ॥ ॰
+    script: Devanagari
+    status: primary
+  source:
+  - Wikipedia
+  - Unicode
+  speakers: 16000000
+  speakers_date: 2011
   validity: preliminary
 nso:
   name: Pedi
@@ -6365,10 +6536,12 @@ pan:
   name: Panjabi
   orthographies:
   - autonym: ਪੰਜਾਬੀ,
+    auxiliary: ॐ
     base: ਅ ਬ ਭ ਗ ਧ ਢ ੲ ਵ ਦ ਡ ਹ ਘ ਥ ਠ ਯ ਕ ਚ ਲ ਮ ਨ ਣ ਸ ਼ ੳ ਪ ਫ ਖ ਛ ਰ ਤ ਟ ਜ ਾ ਿ ੀ ੁ ੂ ੇ ੈ ੋ ੌ
-    design_note: Mark positioning and numerous precomposed forms (namely conjunct syllables) are required for proper representation of the language.
+    design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
     note: Used in India.
-    numerals: ੦ ੧ ੨ ੩ ੪ ੫ ੬ ੭ ੮ ੯
+    numerals: ੦ ੧ ੨ ੩ ੪ ੫ ੬ ੭ ੮ ੯ 0 1 2 3 4 5 6 7 8 9
+    punctuation: । ॥ ॰
     script: Gurmukhi
     status: primary
   - autonym: پن٘جابی
@@ -6454,7 +6627,7 @@ pes:
   - autonym: فارسی
     base: ء أ ؤ ئ ا ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ل م ن ه و پ چ ژ ک گ ی َ ُ ِ ْ ٰ
     design_note: Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
-    numerals: ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹
+    numerals: ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹ 0 1 2 3 4 5 6 7 8 9
     script: Arabic
     status: primary
   source:
@@ -6480,7 +6653,7 @@ pga:
   validity: draft
 pis:
   name: Pijin
-  note: There are approximately 300000 additional L2 speakers.
+  note: There are approximately 300000 L2 speakers.
   orthographies:
   - base: A B C D E F G H I J K L M N O P R S T U V W Æ a b c d e f g h i j k l m n o p r s t u v w æ
     script: Latin
@@ -6760,7 +6933,7 @@ rah:
   orthographies:
   - autonym: রাভা‎
     base: ঁ ং ঃ ৺ অ আ ই উ এ ঐ ও ঔ ক খ গ ঘ ঙ চ ছ জ ঝ ঞ ট ঠ ড ঢ ণ ত থ দ ধ ন প ফ ব ভ ম য র ৰ ল ৱ শ ষ স হ ় ি ু ৈ ো ৌ ্ ʼ
-    design_note: Mark positioning and numerous precomposed forms (namely conjunct syllables) are required for proper representation of the language.
+    design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
     numerals: ০ ১ ২ ৩ ৪ ৫ ৬ ৭ ৮ ৯
     script: Bengali
     status: primary
@@ -6791,7 +6964,7 @@ rkt:
   orthographies:
   - autonym: রংপুরী
     base: ঁ ং ঃ ৺ অ আ ই ঈ উ ঊ ঋ এ ঐ ও ঔ ক খ গ ঘ ঙ চ ছ জ ঝ ঞ ট ঠ ড ঢ ণ ত থ দ ধ ন প ফ ব ভ ম য র ৰ ল ৱ শ ষ স হ ় ি ী ু ূ ৃ ৈ ো ৌ ্
-    design_note: Mark positioning and numerous precomposed forms (namely conjunct syllables) are required for proper representation of the language.
+    design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
     numerals: ০ ১ ২ ৩ ৪ ৫ ৬ ৭ ৮ ৯
     script: Bengali
     status: primary
@@ -6802,7 +6975,7 @@ rkt:
   validity: preliminary
 rmn:
   name: Balkan Romani
-  note: There are approximately 200000 additional L2 speakers.
+  note: There are approximately 200000 L2 speakers.
   orthographies:
   - autonym: řomani ćhib
     base: A Ä Á B C Ć Č D E Ê É F Ğ H I Î Í J K L M N O Ö Ó P Ṗ Q R Ř S Š T U V W X Y Z a ä á b c ć č d e ê é f ğ h i î í j k l m n o ö ó p ṗ q r ř s š t u v w x y z
@@ -7021,11 +7194,11 @@ san:
   orthographies:
   - autonym: संस्कृतम्
     auxiliary: ॐ
-    base: अ आ इ ई उ ऊ ऋ ॠ ऌ ॡ ए ऐ ओ औ ा ि ी ु ू ृ े ै ो ौ ँ ं ः ़ ् क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र ल ळ व श ष स ह
-    design_note: Sanskrit Devanagari uses different shapes for some of the characters and character combinations compared to the Hindi version. Mark positioning and numerous precomposed forms (namely conjunct syllables) are required for proper representation of the language.
+    base: अ आ इ ई उ ऊ ऋ ॠ ऌ ॡ ए ऐ ओ औ ा ि ी ु ू ृ े ै ो ौ ँ ं ः ़ ् क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र ल ळ व श ष स ह ‌ ‍
+    design_note: Sanskrit Devanagari uses different shapes for some of the characters and character combinations compared to the Hindi version. Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
     note: Sanskrit has been written using a variety of Brahmic scrits and, later, also the Latin-script transliteration. There a no native speakers of Sanskrit.
-    numerals: ० १ २ ३ ४ ५ ६ ७ ८ ९
-    punctuation: । ॥
+    numerals: ० १ २ ३ ४ ५ ६ ७ ८ ९ 0 1 2 3 4 5 6 7 8 9
+    punctuation: । ॥ ॰
     script: Devanagari
     status: primary
   source:
@@ -7254,11 +7427,11 @@ shu:
   validity: draft
 sin:
   name: Sinhala
-  note: There are approximately 3000000 additional L2 speakers.
+  note: There are approximately 3000000 L2 speakers.
   orthographies:
   - autonym: සිංහල
     base: අ ආ ඇ ඈ ඉ ඊ උ ඌ ඍ ඎ එ ඒ ඓ ඔ ඕ ඖ ට ඨ ඩ ඪ ණ ඬ ත ථ ද ධ න ඳ ප ඵ බ භ ම ඹ ය ර ල ව ළ ශ ෂ ස හ ෆ
-    design_note: Mark positioning and numerous precomposed forms (namely conjunct syllables) are required for proper representation of the language.
+    design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
     script: Sinhala
     status: primary
   source:
@@ -7482,6 +7655,31 @@ sna:
   speakers: 10800000
   speakers_date: 2000-2007
   status: living
+  validity: preliminary
+snd:
+  name: Sindhi
+  orthographies:
+  - autonym: सिन्धी
+    auxiliary: ॐ
+    base: अ आ इ ई उ ऊ ऋ ए ऐ ओ औ ा ि ी ु ू ृ े ै ो ौ ँ ं ः ़ ् क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र ल ळ व श ष स ह ॻ ॼ ॾ ॿ ‌ ‍
+    design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
+    note: Used in India
+    numerals: ० १ २ ३ ४ ५ ६ ७ 0 1 2 3 4 5 6 7 8 9
+    punctuation: । ॥ ॰
+    script: Devanagari
+    status: primary
+  - autonym: سنڌي
+    base: ء أ ؤ ئ ا ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ل م ن ه و پ چ ژ ک گ ی َ ُ ِ ْ ٰ ڄ ٺ ٽ ٿ ڀ ٻ ڙ ڍ ڊ ڏ ڌ ڇ ڃ ڦ ڻ ڱ ڳ ڪ
+    design_note: Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
+    note: Used in Pakistan
+    numerals: ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹ 0 1 2 3 4 5 6 7 8 9
+    script: Arabic
+    status: primary
+  source:
+  - Wikipedia
+  - Unicode
+  speakers: 32000000
+  speakers_date: 2017
   validity: preliminary
 snk:
   name: Soninke
@@ -7810,7 +8008,7 @@ tam:
   orthographies:
   - autonym: தமிழ்
     base: அ ஆ இ ஈ உ ஊ எ ஏ ி ீ ு ூ ஐ ஒ ஓ ஔ ஃ ஂ ை ொ ோ ௌ ் க ங ச ஞ ட ண த ந ப ம ய ர ல வ ழ ள ற ன ஜ ஶ ஷ ஸ ஹ
-    design_note: Mark positioning and numerous precomposed forms (namely conjunct syllables) are required for proper representation of the language.
+    design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
     numerals: 0 ௧ ௨ ௩ ௪ ௫ ௬ ௭ ௮ ௯ ௰ ௱ ௲
     script: Tamil
     status: primary
@@ -7890,11 +8088,11 @@ tdt:
   validity: verified
 tel:
   name: Telugu
-  note: There are approximately 11000000 additional L2 speakers.
+  note: There are approximately 11000000 L2 speakers.
   orthographies:
   - autonym: తెలుగు
     base: అ భ ఇ ి ఉ ు ఋ ృ ఌ ౢ ఎ ఐ ై ఒ ొ ఔ ౌ ం ఆ ా ఈ ీ ఊ ూ ౠ ౄ ౡ ౣ ఏ ే ఓ ో ః క ఖ గ ఘ ఙ చ ఛ జ ఝ ఞ ట ఠ డ ఢ ణ త థ ద ధ న ప ఫ బ మ య ర ల వ ళ శ ష స హ ఱ ఁ ్
-    design_note: Mark positioning and numerous precomposed forms (namely conjunct syllables) are required for proper representation of the language.
+    design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
     numerals: ౦ ౧ ౨ ౩ ౪ ౫ ౬ ౭ ౮ ౯ ౸ ౹ ౺ ౻ ౼ ౽ ౾
     script: Telugu
     status: primary
@@ -7935,7 +8133,7 @@ teo:
   validity: verified
 tet:
   name: Tetum
-  note: There are approximately 570000 additional L2 speakers in East Timor.
+  note: There are approximately 570000 L2 speakers in East Timor.
   orthographies:
   - autonym: Lia Tetun
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ñ Á Ó É Í a b c d e f g h i j k l m n o p q r s t u v w x y z ñ á ó é í
@@ -7978,7 +8176,7 @@ tgl:
   validity: verified
 tha:
   name: Thai
-  note: There are approximately 44000000 additional L2 speakers.
+  note: There are approximately 44000000 L2 speakers.
   orthographies:
   - autonym: ภาษาไทย
     auxiliary: ̍ ̎
@@ -8494,8 +8692,8 @@ urd:
   orthographies:
   - autonym: اُردُو
     base: ء ا ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ل م ن و ٹ پ چ ڈ ڑ ژ ک گ ں ھ ہ ی َ ُ ِ ْ ٰ
-    design_note: Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
-    numerals: ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹
+    design_note: Uses the Nastaʼlīq style of the Arabic script
+    numerals: ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹ 0 1 2 3 4 5 6 7 8 9
     script: Arabic
     status: primary
   source:
@@ -8900,6 +9098,18 @@ xho:
   speakers: 8200000
   speakers_date: 2011
   status: living
+  validity: preliminary
+xnr:
+  name: Kangri
+  orthographies:
+  - autonym: कांगड़ी
+    inherit: dgo
+    script: Devanagari
+    status: primary
+  source:
+  - Wikipedia
+  speakers: 1700000
+  speakers_date: 1996
   validity: preliminary
 xog:
   name: Soga
