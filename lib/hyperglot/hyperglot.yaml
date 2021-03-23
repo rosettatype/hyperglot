@@ -131,7 +131,7 @@ abv:
   status: living
   validity: preliminary
 ace:
-  name: Acehnese
+  name: Achinese
   orthographies:
   - autonym: Bahsa Acèh
     base: A B C D E G H I J K L M N O P R S T W Y É È Ë Ô Ö a b c d e g h i j k l m n o p r s t w y é è ë ô ö '
@@ -485,7 +485,7 @@ alt:
   status: living
   validity: preliminary
 amc:
-  name: Amawaka
+  name: Amahuaca
   orthographies:
   - base: A C H I J M N O P R S T U V X Y Z a c h i j m n o p r s t u v x y z
     script: Latin
@@ -497,7 +497,7 @@ amc:
   speakers_date: 2014-2016
   validity: preliminary
 ame:
-  name: Yanesha
+  name: Yanesha'
   orthographies:
   - base: A B C E G H J L M N O P Q R S T Y Ë Ñ a b c e g h j l m n o p q r s t y ë ñ '
     script: Latin
@@ -664,7 +664,7 @@ arl:
   speakers_date: 2002
   validity: preliminary
 arn:
-  name: Mapuche
+  name: Mapudungun
   orthographies:
   - autonym: Mapudungun
     base: A B C D E F G I J K L M N O P Q R S T U W X Y Z Ü Ñ a b c d e f g i j k l m n o p q r s t u w x y z ü ñ
@@ -757,8 +757,9 @@ asm:
   orthographies:
   - autonym: অসমীয়া
     base: ঁ ং ঃ ৺ অ আ ই ঈ উ ঊ ঋ ৠ ঌ ৡ এ ঐ ও ঔ ক খ গ ঘ ঙ চ ছ জ ঝ ঞ ট ঠ ড ঢ ণ ত থ দ ধ ন প ফ ব ভ ম য ৰ ল ৱ শ ষ স হ ় ি ী ু ূ ৃ ৄ ৢ ৣ ৈ ো ৌ ্ ʼ
+    design_note: Mark positioning and numerous precomposed forms (namely conjunct syllables) are required for proper representation of the language.
+    numerals: ০ ১ ২ ৩ ৪ ৫ ৬ ৭ ৮ ৯
     script: Bengali
-    numerals: ০	১	২	৩	৪	৫	৬	৭	৮	৯
     status: primary
   source:
   - Wikipedia
@@ -1046,11 +1047,11 @@ bas:
   status: living
   validity: preliminary
 bax:
-  name: Bamum
+  name: Bamun
   orthographies:
   - autonym: ꛀꛣꚧꚳ
     base: ꚠ ꚰ ꛀ ꛐ ꛠ ꚡ ꚱ ꛁ ꛑ ꛡ ꚢ ꚲ ꛂ ꛒ ꛢ ꛲ ꚣ ꚳ ꛃ ꛓ ꛣ ꛳ ꚤ ꚴ ꛄ ꛔ ꛤ ꛴ ꚥ ꚵ ꛅ ꛕ ꛥ ꛵ ꚦ ꚶ ꛆ ꛖ ꛦ ꛶ ꚧ ꚷ ꛇ ꛗ ꛧ ꛷ ꚨ ꚸ ꛈ ꛘ ꛨ ꚩ ꚹ ꛉ ꛙ ꛩ ꚪ ꚺ ꛊ ꛚ ꛪ ꚫ ꚻ ꛋ ꛛ ꛫ ꚬ ꚼ ꛌ ꛜ ꛬ ꚭ ꚽ ꛍ ꛝ ꛭ ꚮ ꚾ ꛎ ꛞ ꛮ ꚯ ꚿ ꛏ ꛟ ꛯ
-    script: Bamum
+    script: Bamun
     status: primary
   source:
   - Omniglot
@@ -1059,7 +1060,7 @@ bax:
   speakers_date: 2005
   validity: preliminary
 bba:
-  name: Bariba
+  name: Baatonum
   orthographies:
   - autonym: baatɔnum
     base: A B D E Ɛ F G I K L M N O Ɔ P R S T U W Y a b d e ɛ f g i k l m n o ɔ p r s t u w y
@@ -1135,9 +1136,10 @@ ben:
   orthographies:
   - autonym: বাংলা
     base: ঁ ং ঃ ৺ অ আ ই ঈ উ ঊ ঋ ৠ ঌ ৡ এ ঐ ও ঔ ক খ গ ঘ ঙ চ ছ জ ঝ ঞ ট ঠ ড ঢ ণ ত ৎ থ দ ধ ন প ফ ব ভ ম য র ল শ ষ স হ ঽ ় ি ী ু ূ ৃ ৄ ৢ ৣ ৈ ো ৌ ্
+    design_note: Mark positioning and numerous precomposed forms (namely conjunct syllables) are required for proper representation of the language.
+    numerals: ০ ১ ২ ৩ ৪ ৫ ৬ ৭ ৮ ৯
     script: Bengali
     status: primary
-    numerals: ০	১	২	৩	৪	৫	৬	৭	৮	৯
   source:
   - Wikipedia
   - CLDR
@@ -1190,14 +1192,14 @@ bho:
   orthographies:
   - autonym: भोजपुरी
     base: अ आ इ ई उ ऊ ए ऐ ा ि ी ु ू े ै ओ औ ः ँ ो ौ ् क ख ग घ ङ च छ ज झ ञ ट ठ ड ़ ढ ण त थ द ध न प फ ब भ म य र ल व श ष स ह
-    design_note: Numerous precomposed conjunct forms, resolved mark positioning, and resolved combinations of marks and other forms are required for proper representation of the language.
+    design_note: Mark positioning and numerous precomposed forms (namely conjunct syllables) are required for proper representation of the language.
     note: The use of the Kaithi script is declining. Devanagari is currently the most commonly used script for oficial documents.
     numerals: ० १ २ ३ ४ ५ ६ ७ ८ ९
     script: Devanagari
     status: primary
   - autonym: 𑂦𑂷𑂔𑂣𑂳𑂩𑂲
     base: 𑂃 𑂄 𑂅 𑂆 𑂇 𑂈 𑂉 𑂊 𑂰 𑂲 𑂳 𑂴 𑂵 𑂶 𑂋 𑂌 𑂂 𑂀 𑂸 𑂍 𑂎 𑂏 𑂐 𑂑 𑂒 𑂓 𑂔 𑂕 𑂖 𑂗 𑂘 𑂙 𑂚 𑂛 𑂜 𑂝 𑂞 𑂟 𑂠 𑂡 𑂢 𑂣 𑂤 𑂥 𑂦 𑂧 𑂨 𑂩 𑂪 𑂫 𑂬 𑂭 𑂮 𑂯
-    design_note: Numerous precomposed conjunct forms, resolved mark positioning, and resolved combinations of marks and other forms are required for proper representation of the language.
+    design_note: Mark positioning and numerous precomposed forms (namely conjunct syllables) are required for proper representation of the language.
     numerals: ० १ २ ३ ४ ५ ६ ७ ८ ९
     script: Kaithi
   source:
@@ -1233,7 +1235,7 @@ bik:
   status: living
   validity: verified
 bin:
-  name: Edo
+  name: Bini
   orthographies:
   - autonym: Ẹ̀dó
     base: A B D E F G H I K L M N O P R S T U V W Y Z Á É È Ẹ Í Ó Ò Ọ Ú a b d e f g h i k l m n o p r s t u v w y z á é è ẹ í ó ò ọ ú '
@@ -1292,7 +1294,7 @@ bod:
   orthographies:
   - autonym: བོད་སྐད་
     base: ཀ ཁ ག ང ཅ ཆ ཇ ཉ ཏ ཐ ད ན པ ཕ བ མ ཙ ཚ ཛ ཝ ཞ ཟ འ ཡ ར ལ ཤ ས ཧ ཨ ི ུ ེ ོ
-    design_note: Numerous precomposed conjunct forms, resolved mark positioning, and resolved combinations of marks and other forms are required for proper representation of the language.
+    design_note: Mark positioning and numerous precomposed forms (namely conjunct syllables) are required for proper representation of the language.
     numerals: ༠ ༡ ༢ ༣ ༤ ༥ ༦ ༧ ༨ ༩
     punctuation: ༄  ༈ ་ ། ༎ ༔ ༺ ༻
     script: Tibetan
@@ -1325,9 +1327,10 @@ bpy:
   orthographies:
   - autonym: বিষ্ণুপ্রিয়া মণিপুরী
     base: ঁ ং ঃ অ আ ই ঈ উ ঊ ঋ এ ঐ ও ঔ ক খ গ ঘ ঙ চ ছ জ ঝ ঞ ট ঠ ড ঢ ণ ত থ দ ধ ন প ফ ব ভ ম য র ল ৱ শ ষ স হ ় ি ী ু ূ ৃ ৈ ো ৌ ্
+    design_note: Mark positioning and numerous precomposed forms (namely conjunct syllables) are required for proper representation of the language.
+    numerals: ০ ১ ২ ৩ ৪ ৫ ৬ ৭ ৮ ৯
     script: Bengali
     status: primary
-    numerals: ০	১	২	৩	৪	৫	৬	৭	৮	৯
   source:
   - Wikipedia
   speakers: 1760000
@@ -1501,9 +1504,10 @@ cat:
   status: living
   validity: verified
 cbi:
-  name: Cha'palaa
+  name: Chachi
   orthographies:
-  - base: A B C D E F G H I J L M N P R S T U V Y Ã Ẽ Ĩ Ũ Ñ a b c d e f g h i j l m n p r s t u v y ' ã ẽ ĩ ũ ñ
+  - autonym: Cha'palaa
+    base: A B C D E F G H I J L M N P R S T U V Y Ã Ẽ Ĩ Ũ Ñ a b c d e f g h i j l m n p r s t u v y ' ã ẽ ĩ ũ ñ
     script: Latin
     status: primary
   source:
@@ -1527,7 +1531,7 @@ cbk:
   status: living
   validity: verified
 cbr:
-  name: Kashibo
+  name: Cashibo-Cacataibo
   orthographies:
   - autonym: Cacataibo
     base: A B C E I M N O P Q R S T U X Ë Ï Õ Ñ a b c e i m n o p q r s t u x ' ë ï õ ñ
@@ -1540,7 +1544,7 @@ cbr:
   speakers_date: 2007
   validity: preliminary
 cbs:
-  name: Cashinauha
+  name: Cashinahua
   orthographies:
   - autonym: Hantxa Kuin
     base: A B C D E H I J K M N P S T U V X Y Ẽ Ĩ Ã Ũ a b c d e h i j k m n p s t u v x y ' ẽ ĩ ã ũ
@@ -1677,7 +1681,7 @@ che:
   status: living
   validity: preliminary
 chj:
-  name: Chinantec of Ojitlán
+  name: Ojitlán Chinantec
   orthographies:
   - autonym: Chinanteco de San Lucas Ojitlán
     base: A B C D E F G H I J K L M N O P R S T U Ë Ø a b c d e f g h i j k l m n o p r s t u ë ø ´
@@ -1931,11 +1935,12 @@ cnr:
   status: living
   validity: verified
 cof:
-  name: Tsafiki
+  name: Colorado
   orthographies:
   - base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ã Ẽ Ĩ Ũ Ɨ Ñ a b c d e f g h i j k l m n o p q r s t u v w x y z ã ẽ ĩ ũ ɨ ñ ʔ
     script: Latin
     status: primary
+  preferred_name: Tsafiki
   source:
   - Wikipedia
   - Omniglot
@@ -2072,7 +2077,7 @@ csw:
   name: Swampy Cree
   orthographies:
   - autonym: ᓀᐦᐃᔭᐍᐏᐣ
-    base: ᐁ ᐃ ᐅ ᐊ ᐍ ᐏ ᐑ ᐓ ᐕ ᐘ ᐚ ᐤ ᐯ ᐱ ᐲ ᐳ ᐴ ᐸ ᐹ ᑊ ᑌ ᑎ ᑏ ᑐ ᑑ ᑕ ᑖ ᐟ ᑫ ᑭ ᑮ ᑯ ᑰ ᑲ ᑳ ᐠ ᒉ ᒋ ᒌ ᒍ ᒎ ᒐ ᒑ ᐨ ᒣ ᒥ ᒦ ᒧ ᒨ ᒪ ᒫ ᒼ ᓀ ᓂ ᓃ ᓄ ᓅ ᓇ ᓈ ᐣ ᓭ ᓯ ᓰ ᓱ ᓲ ᓴ ᓵ ᐢ ᔦ ᔨ ᔩ ᔪ ᔫ ᔭ ᔮ ᓬ ᕒ ᐦ ᐩ ᕁ ᑵ ˸
+    base: ᐁ ᐃ ᐅ ᐊ ᐍ ᐏ ᐑ ᐓ ᐕ ᐘ ᐚ ᐤ ᐯ ᐱ ᐲ ᐳ ᐴ ᐸ ᐹ ᑊ ᑌ ᑎ ᑏ ᑐ ᑑ ᑕ ᑖ ᐟ ᑫ ᑭ ᑮ ᑯ ᑰ ᑲ ᑳ ᐠ ᒉ ᒋ ᒌ ᒍ ᒎ ᒐ ᒑ ᐨ ᒣ ᒥ ᒦ ᒧ ᒨ ᒪ ᒫ ᒼ ᓀ ᓂ ᓃ ᓄ ᓅ ᓇ ᓈ ᐣ ᓭ ᓯ ᓰ ᓱ ᓲ ᓴ ᓵ ᐢ ᔦ ᔨ ᔩ ᔪ ᔫ ᔭ ᔮ ᓬ ᕒ ᐦ ᐩ ᕁ ᑵ
     script: Cree
     status: primary
   source:
@@ -2082,7 +2087,7 @@ csw:
   speakers_date: 2016
   validity: preliminary
 ctd:
-  name: Tedim
+  name: Tedim Chin
   orthographies:
   - base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
     script: Latin
@@ -2098,9 +2103,10 @@ ctg:
   orthographies:
   - autonym: চাটগাঁইয়া
     base: ঁ ং ঃ অ আ ই ঈ উ ঊ ঋ এ ঐ ও ঔ ক খ গ ঘ ঙ চ ছ জ ঝ ট ঠ ড ঢ ণ ত থ দ ধ ন প ফ ব ভ ম য র ল ৱ শ ষ স হ ় ি ী ু ূ ৃ ৈ ো ৌ ্
+    design_note: Mark positioning and numerous precomposed forms (namely conjunct syllables) are required for proper representation of the language.
+    numerals: ০ ১ ২ ৩ ৪ ৫ ৬ ৭ ৮ ৯
     script: Bengali
     status: primary
-    numerals: ০	১	২	৩	৪	৫	৬	৭	৮	৯
   source:
   - Wikipedia
   speakers: 16000000
@@ -2178,7 +2184,7 @@ dav:
   status: living
   validity: draft
 ddn:
-  name: Dendi
+  name: Dendi (Benin)
   orthographies:
   - autonym: Dandawa
     base: A B Ɓ C D Ɖ Ɗ E Ɛ Ǝ F Ƒ G Ɣ H I Ɩ J K L M N O Ɔ U W Ʊ À Á Ǎ Â Ā È É Ě Ê Ē Ə Ì Í Ǐ Î Ī Ḿ Ǹ Ń Ň Ò Ó Ǒ Ô Ō Ù Ú Ǔ Û Ū Ã Ẽ Ĩ Ṍ Ṹ Ḛ Ḭ Ṵ a b ɓ c d ɖ ɗ e ɛ ǝ f ƒ g ɣ h i ɩ j k l m n o ɔ u w ʊ à á ǎ â ā è é ě ê ē ə ì í ǐ î ī ḿ ǹ ń ň ò ó ǒ ô ō ù ú ǔ û ū ã ẽ ĩ ṍ ṹ ḛ ḭ ṵ
@@ -2429,7 +2435,7 @@ dzo:
   orthographies:
   - autonym: རྫོང་ཁ་
     base: ཀ ཁ ག ང ཅ ཆ ཇ ཉ ཏ ཐ ད ན པ ཕ བ མ ཙ ཚ ཛ ཝ ཞ ཟ འ ཡ ར ལ ཤ ས ཧ ཨ ཊ ཋ ཌ ཎ ཥ ྵ ི ུ ེ ོ
-    design_note: Numerous precomposed conjunct forms, resolved mark positioning, and resolved combinations of marks and other forms are required for proper representation of the language.
+    design_note: Mark positioning and numerous precomposed forms (namely conjunct syllables) are required for proper representation of the language.
     numerals: ༠ ༡ ༢ ༣ ༤ ༥ ༦ ༧ ༨ ༩
     script: Tibetan
     status: primary
@@ -2484,7 +2490,7 @@ ell:
   status: living
   validity: verified
 emk:
-  name: Eastern Maninkaka
+  name: Eastern Maninkakan
   orthographies:
   - autonym: Maninkakan
     base: A B C D E Ɛ F G H I J K L M N Ɲ Ŋ O Ɔ P R S T U V W Y Z a b c d e ɛ f g h i j k l m n ɲ ŋ o ɔ p r s t u v w y z
@@ -2762,7 +2768,7 @@ fin:
   status: living
   validity: preliminary
 fkv:
-  name: Kven
+  name: Kven Finnish
   orthographies:
   - autonym: Kvääni
     base: A B C D Ð E F G H I J K L M N O P Q R S Š T U V W X Y Z Ä Ö a b c d ð e f g h i j k l m n o p q r s š t u v w x y z ä ö
@@ -2976,7 +2982,7 @@ gag:
   status: living
   validity: preliminary
 gan:
-  name: Gan
+  name: Gan Chinese
   orthographies:
   - autonym: 赣语 / 江西话
     inherit: cmn
@@ -2987,6 +2993,7 @@ gan:
     note: The Latin script is required for the Pinfa romanization system.
     script: Latin
     status: primary
+  preferred_name: Gan
   source:
   - Omniglot
   - Wikipedia
@@ -3240,7 +3247,7 @@ guj:
   orthographies:
   - autonym: ગુજરાતી
     base: અ આ ઇ ઈ ઉ ઊ ઋ પ ા િ ી ુ ૂ ૃ એ ઐ ઓ ઔ ં ઃ ે ૈ ો ૌ ક ખ ગ ઘ ઙ ચ છ જ ઝ ઞ ટ ઠ ડ ઢ ણ ત થ દ ધ ન ફ બ ભ મ ય ર લ વ શ ષ સ હ ળ ્
-    design_note: Numerous precomposed conjunct forms, resolved mark positioning, and resolved combinations of marks and other forms are required for proper representation of the language.
+    design_note: Mark positioning and numerous precomposed forms (namely conjunct syllables) are required for proper representation of the language.
     numerals: ૦ ૧ ૨ ૩ ૪ ૫ ૬ ૭ ૮ ૯
     script: Gujarati
     status: primary
@@ -3325,9 +3332,10 @@ haj:
   orthographies:
   - autonym: হাজং
     base: ঁ ং ঃ অ আ ই উ এ ঐ ও ঔ ক খ গ ঘ ঙ চ ছ জ ঝ ঞ ত থ দ ধ ন প ফ ব ভ ম র হ ় ি ৈ ো ৌ ্
+    design_note: Mark positioning and numerous precomposed forms (namely conjunct syllables) are required for proper representation of the language.
+    numerals: ০ ১ ২ ৩ ৪ ৫ ৬ ৭ ৮ ৯
     script: Bengali
     status: primary
-    numerals: ০	১	২	৩	৪	৫	৬	৭	৮	৯
   source:
   - Wikipedia
   speakers: 79800
@@ -3428,7 +3436,7 @@ heb:
   name: Hebrew
   orthographies:
   - autonym: עברית
-    aux: ״ ׳ ־ ׃ ׆
+    auxiliary: ״ ׳ ־ ׃ ׆
     base: א ב ג ד ה ו ז ח ט י כ ך ל מ ם נ ן ס ע פ ף צ ץ ק ר ש ת ׁ ׂ ּ ְ ֱ ֲ ֳ ִ ֵ ֶ ַ ָ ֹ ֻ ֿ
     script: Hebrew
     status: primary
@@ -3458,7 +3466,7 @@ hin:
   orthographies:
   - autonym: हिन्दी
     base: अ आ इ ई उ ऊ ऋ ए ऐ ओ औ ं ः प ा ि ी ु ू ृ े ै ो ौ क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न फ ब भ म य र ल व श ष स ह ़
-    design_note: Numerous precomposed conjunct forms, resolved mark positioning, and resolved combinations of marks and other forms are required for proper representation of the language.
+    design_note: Mark positioning and numerous precomposed forms (namely conjunct syllables) are required for proper representation of the language.
     numerals: ० १ २ ३ ४ ५ ६ ७ ८ ९
     script: Devanagari
     status: primary
@@ -3566,7 +3574,7 @@ hun:
   status: living
   validity: verified
 hus:
-  name: Huasteco
+  name: Huastec
   orthographies:
   - autonym: Teenek
     base: A B C E I J K L M N O P R S T U W X Y Z a b c e i j k l m n o p r s t u w x y z '
@@ -3604,12 +3612,13 @@ huz:
   status: living
   validity: draft
 hye:
-  name: Eastern Armenian
+  name: Armenian
   orthographies:
   - autonym: Հայերէն
     base: Ա Բ Գ Դ Ե Զ Է Ը Թ Ժ Ի Լ Խ Ծ Կ Հ Ձ Ղ Ճ Մ Յ Ն Շ Ո Չ Պ Ջ Ռ Ս Վ Տ Ր Ց Ւ Փ Ք Օ Ֆ ա բ գ դ ե զ է ը թ ժ ի լ խ ծ կ հ ձ ղ ճ մ յ ն շ ո չ պ ջ ռ ս վ տ ր ց ւ փ ք և օ ֆ
     script: Armenian
     status: primary
+  preferred_name: Eastern Armenian
   source:
   - Omniglot
   - Wikipedia
@@ -3683,7 +3692,7 @@ igs:
   status: constructed
   validity: verified
 iii:
-  name: Nuosu
+  name: Sichuan Yi
   orthographies:
   - autonym: ꆈꌠꉙ
     base: ꀀ ꀖ ꀸ ꁖ ꁶ ꂑ ꂮ ꃍ ꃢ ꄀ ꄚ ꄶ ꅑ ꅨ ꅽ ꆗ ꆷ ꇚ ꇸ ꈔ ꉆ ꉮ ꊍ ꊮ ꋐ ꋭ ꌉ ꌪ ꏠ ꏼ ꐘ ꐱ ꑊ ꑝ ꑱ ꀁ ꀗ ꀹ ꁗ ꁷ ꂒ ꂯ ꃎ ꃣ ꄁ ꄛ ꄷ ꅒ ꅩ ꅾ ꆘ ꆸ ꇛ ꇹ ꈕ ꉇ ꊎ ꊯ ꋑ ꋮ ꌊ ꌫ ꏡ ꏽ ꐙ ꐲ ꑋ ꑞ ꑲ ꀂ ꀘ ꀺ ꁘ ꁸ ꂓ ꂰ ꃏ ꃤ ꄂ ꄜ ꄸ ꅓ ꅪ ꅿ ꆙ ꆹ ꇜ ꇺ ꈖ ꉈ ꊏ ꊰ ꋒ ꋯ ꌋ ꌬ ꏢ ꏾ ꐚ ꐳ ꑌ ꑟ ꑳ ꀃ ꀙ ꀻ ꁙ ꁹ ꂔ ꂱ ꃐ ꃥ ꄃ ꄝ ꄹ ꅔ ꅫ ꆀ ꆚ ꆺ ꇝ ꇻ ꉉ ꊐ ꊱ ꋓ ꋰ ꌌ ꌭ ꏣ ꏿ ꐛ ꐴ ꑍ ꑠ ꑴ ꀄ ꀚ ꁚ ꃦ ꅬ ꆻ ꇞ ꉊ ꊲ ꋔ ꏤ ꐀ ꐜ ꐵ ꑎ ꑡ ꑵ ꀅ ꀛ ꀼ ꁛ ꁺ ꂕ ꂲ ꃧ ꄄ ꄞ ꄺ ꅕ ꅭ ꆁ ꆛ ꆼ ꇟ ꇼ ꈗ ꈰ ꉋ ꉝ ꉯ ꊑ ꊳ ꋕ ꋱ ꌍ ꌮ ꏥ ꐁ ꐝ ꐶ ꑏ ꑢ ꑶ ꀆ ꀜ ꀽ ꁜ ꁻ ꂖ ꂳ ꃨ ꄅ ꄟ ꄻ ꅖ ꅮ ꆂ ꆜ ꆽ ꇠ ꇽ ꈘ ꈱ ꉌ ꉞ ꉰ ꊒ ꊴ ꋖ ꋲ ꌎ ꌯ ꏦ ꐂ ꐞ ꐷ ꑐ ꑣ ꑷ ꀇ ꀝ ꀾ ꁝ ꁼ ꂗ ꂴ ꃩ ꄆ ꄠ ꄼ ꅯ ꆃ ꆝ ꆾ ꇡ ꇾ ꈙ ꉍ ꉟ ꊓ ꊵ ꋗ ꋳ ꌏ ꌰ ꏧ ꐃ ꐟ ꐸ ꑑ ꑤ ꑸ ꀈ ꀞ ꀿ ꁞ ꁽ ꂘ ꂵ ꃑ ꃪ ꄇ ꄡ ꄽ ꅗ ꅰ ꆞ ꆿ ꇢ ꇿ ꈚ ꈲ ꉎ ꉠ ꉱ ꊀ ꊔ ꊶ ꋘ ꋴ ꌐ ꌱ ꍆ ꍡ ꎔ ꎫ ꏆ ꀉ ꀟ ꁀ ꁟ ꁾ ꂙ ꂶ ꃒ ꃫ ꄈ ꄢ ꄾ ꅘ ꅱ ꆄ ꆟ ꇀ ꇣ ꈀ ꈛ ꈳ ꉏ ꉡ ꉲ ꊁ ꊕ ꊷ ꋙ ꋵ ꌑ ꌲ ꍇ ꍢ ꍼ ꎕ ꎬ ꏇ ꀊ ꀠ ꁁ ꁠ ꁿ ꂚ ꂷ ꃓ ꃬ ꄉ ꄣ ꄿ ꅙ ꅲ ꆅ ꆠ ꇁ ꇤ ꈁ ꈜ ꈴ ꉐ ꉢ ꉳ ꊂ ꊖ ꊸ ꋚ ꋶ ꌒ ꌳ ꍈ ꍣ ꍽ ꎖ ꎭ ꏈ ꀋ ꀡ ꁂ ꁡ ꂀ ꂛ ꂸ ꃔ ꃭ ꄊ ꄤ ꅀ ꅚ ꅳ ꆆ ꆡ ꇂ ꇥ ꈂ ꈝ ꈵ ꉑ ꉣ ꉴ ꊃ ꊗ ꊹ ꋛ ꋷ ꌓ ꌴ ꍉ ꍤ ꎗ ꎮ ꏉ ꂹ ꄥ ꇃ ꇦ ꈞ ꉒ ꉤ ꉵ ꍥ ꏨ ꐄ ꑹ ꀌ ꀢ ꁃ ꁢ ꂜ ꂺ ꄋ ꄦ ꅁ ꅴ ꆇ ꆢ ꇄ ꇧ ꈃ ꈟ ꈶ ꉓ ꉥ ꉶ ꊄ ꊘ ꊺ ꋸ ꌔ ꍊ ꍦ ꍾ ꎯ ꏊ ꏩ ꐅ ꐠ ꐹ ꑒ ꑥ ꑺ ꀍ ꀣ ꁄ ꁣ ꂝ ꂻ ꄌ ꄧ ꅂ ꅵ ꆈ ꆣ ꇅ ꇨ ꈄ ꈠ ꈷ ꉔ ꉦ ꉷ ꊅ ꊙ ꊻ ꋹ ꌕ ꍋ ꍧ ꍿ ꎰ ꏋ ꏪ ꐆ ꐡ ꐺ ꑓ ꑦ ꑻ ꀎ ꀤ ꁅ ꁤ ꂞ ꂼ ꄨ
@@ -3691,6 +3700,7 @@ iii:
       ꍚ ꍵ ꎍ ꎤ ꎿ ꏙ ꏵ ꐑ ꐬ ꑃ ꒆ ꀲ ꁐ ꁲ ꂋ ꃉ ꃞ ꃺ ꆱ ꇔ ꊨ ꋊ ꋧ ꌃ ꌤ ꍀ ꍛ ꍶ ꎎ ꎥ ꏀ ꏚ ꏶ ꐒ ꐭ ꑄ ꑫ ꒇ ꀳ ꁑ ꁳ ꂌ ꂩ ꃊ ꃟ ꃻ ꆲ ꇕ ꊩ ꋋ ꋨ ꌄ ꌥ ꍁ ꍜ ꍷ ꎏ ꎦ ꏁ ꏛ ꏷ ꐓ ꐮ ꑅ ꑬ ꒈ ꀴ ꁒ ꁴ ꂍ ꂪ ꃋ ꃠ ꃼ ꆳ ꇖ ꊪ ꋌ ꋩ ꌅ ꌦ ꍂ ꍝ ꍸ ꎐ ꎧ ꏂ ꏜ ꏸ ꐔ ꐯ ꑆ ꑭ ꒉ ꀵ ꁓ ꁵ ꂎ ꂫ ꃌ ꃡ ꃽ ꆴ ꇗ ꊫ ꋍ ꋪ ꌆ ꌧ ꍃ ꍞ ꍹ ꎑ ꎨ ꏃ ꏝ ꏹ ꐕ ꐰ ꑇ ꑮ ꒊ ꀶ ꁔ ꂏ ꂬ ꃾ ꆵ ꇘ ꊬ ꋎ ꋫ ꌇ ꌨ ꍄ ꍟ ꍺ ꎒ ꎩ ꏄ ꏞ ꏺ ꐖ ꑈ ꑯ ꒋ ꀷ ꁕ ꂐ ꂭ ꃿ ꆶ ꇙ ꊭ ꋏ ꋬ ꌈ ꌩ ꍅ ꍠ ꍻ ꎓ ꎪ ꏅ ꏟ ꏻ ꐗ ꑉ ꑰ ꒌ
     script: Modern Yi
     status: primary
+  preferred_name: Nuosu
   source:
   - Wikipedia
   speakers: 2000000
@@ -3738,13 +3748,14 @@ ilo:
   status: living
   validity: verified
 ina:
-  name: Interlingua
+  name: Interlingua (International Auxiliary Language Association)
   note: Not to be confused with Interlingue.
   orthographies:
   - autonym: Interlingua
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
     script: Latin
     status: primary
+  preferred_name: Interlingua
   source:
   - Omniglot
   speakers: 1500
@@ -4046,7 +4057,7 @@ kan:
   orthographies:
   - autonym: ಕನ್ನಡ
     base: ಕ ಖ ಗ ಘ ಙ ಚ ಛ ಜ ಝ ಞ ಟ ಠ ಡ ಢ ಣ ತ ಥ ದ ಧ ನ ಪ ಫ ಬ ಭ ಮ ಯ ರ ಲ ವ ಶ ಷ ಸ ಹ ಳ ್ ಅ ಆ ಇ ಈ ಉ ಊ ಋ ೠ ಾ ೀ ು ೃ ೄ ಎ ಏ ಐ ಒ ಓ ಔ ಂ ಃ ೇ ೈ ೋ ೌ
-    design_note: Numerous precomposed conjunct forms, resolved mark positioning, and resolved combinations of marks and other forms are required for proper representation of the language.
+    design_note: Mark positioning and numerous precomposed forms (namely conjunct syllables) are required for proper representation of the language.
     numerals: ೧ ೨ ೩ ೪ ೫ ೬ ೭ ೮ ೯ ೦
     script: Kannada
     status: primary
@@ -4523,7 +4534,7 @@ kon:
   status: living
   validity: preliminary
 koo:
-  name: Konjo
+  name: Konzo
   orthographies:
   - autonym: Lhukonzo
     base: A B D E F G H I Ï K L M N O P R S T U Ü V W Y Z a b d e f g h i ï k l m n o p r s t u ü v w y z
@@ -4729,12 +4740,14 @@ ksh:
   status: living
   validity: preliminary
 ktu:
-  name: Kituba (DRC)
+  name: Kituba (Democratic Republic of Congo)
+  note: Used in Democratic Republic of Congo
   orthographies:
   - autonym: Kikongo ya leta
     inherit: kon
     script: Latin
     status: primary
+  preferred_name: Kituba (DRC)
   source:
   - Omniglot
   - Wikipedia
@@ -4971,9 +4984,9 @@ lmo:
   status: living
   validity: preliminary
 lns:
-  name: Lamnso
+  name: Lamnso'
   orthographies:
-  - autonym: Lamnsɔ’
+  - autonym: Lamnsɔ'
     base: A B D E Ə Ɛ F G I J K L M N Ŋ O Ɔ S T U V W Ɣ a b d e ə ɛ f g i j k l m n ŋ o ɔ s t u v w ɣ '
     script: Latin
     status: primary
@@ -5108,12 +5121,13 @@ luo:
   status: living
   validity: verified
 lus:
-  name: Mizo
+  name: Lushai
   orthographies:
   - autonym: Mizo ṭawng
     base: A B C D E F G H I J K L M N O P R S T Ṭ U V W Z a b c d e f g h i j k l m n o p r s t ṭ u v w z
     script: Latin
     status: primary
+  preferred_name: Mizo
   source:
   - Omniglot
   - Wikipedia
@@ -5158,7 +5172,7 @@ mag:
   orthographies:
   - autonym: मगही
     base: अ आ इ ई उ ऊ ए ऐ ओ औ ँ प ा ि ी ु ू े ै ो ौ क ख ग घ ङ च छ ज झ ञ ट ठ ड ़ ढ ण त थ द ध न फ ब भ म य र ल व श ष स ह
-    design_note: Numerous precomposed conjunct forms, resolved mark positioning, and resolved combinations of marks and other forms are required for proper representation of the language.
+    design_note: Mark positioning and numerous precomposed forms (namely conjunct syllables) are required for proper representation of the language.
     script: Devanagari
     status: primary
   source:
@@ -5186,7 +5200,7 @@ mai:
   orthographies:
   - autonym: मैथिली
     base: ँ ं ः अ आ इ ई उ ऊ ऋ ऌ ऍ ए ऐ ऑ ओ औ क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र ऱ ल ळ व श ष स ह ऽ ा ि ी ु ू ृ ॄ ॅ े ै ॉ ो ौ ् ॐ
-    design_note: Numerous precomposed conjunct forms, resolved mark positioning, and resolved combinations of marks and other forms are required for proper representation of the language.
+    design_note: Mark positioning and numerous precomposed forms (namely conjunct syllables) are required for proper representation of the language.
     numerals: ० १ २ ३ ४ ५ ६ ७ ८ ९
     script: Devanagari
     status: primary
@@ -5201,7 +5215,7 @@ mal:
   orthographies:
   - autonym: മലയാളം
     base: ം ഃ അ ആ ഇ ഈ ഉ ഊ ഋ ഌ എ ഏ ഐ ഒ ഓ ഔ ക ഖ ഗ ഘ ങ ച ഛ ജ ഝ ഞ ട ഠ ഡ ഢ ണ ത ഥ ദ ധ ന പ ഫ ബ ഭ മ യ ര റ ല ള ഴ വ ശ ഷ സ ഹ ി ീ ു ൂ ൃ ൈ ൊ ോ ൌ ് ൠ ൡ ൺ ൻ ർ ൽ ൾ ൿ
-    design_note: Numerous precomposed conjunct forms, resolved mark positioning, and resolved combinations of marks and other forms are required for proper representation of the language.
+    design_note: Mark positioning and numerous precomposed forms (namely conjunct syllables) are required for proper representation of the language.
     numerals: ൦ ൧ ൨ ൩ ൪ ൫ ൬ ൭ ൮ ൯
     script: Malayalam
     status: primary
@@ -5433,7 +5447,7 @@ min:
   speakers_date: 2007
   validity: preliminary
 miq:
-  name: Miskito
+  name: Mískito
   orthographies:
   - autonym: Mískitu
     base: A B D H I J K L M N O P R S T U W Z Â Î Í a b d h i j k l m n o p r s t u w z â î í
@@ -5511,11 +5525,12 @@ mni:
   name: Manipuri
   note: The language currently uses also Meetei script which is not included in the database, yet.
   orthographies:
-  - autonym: মণিপুরী
+  - autonym: মৈতৈলোন্‎
     base: ঁ ং ঃ অ আ ই উ এ ঐ ও ঔ ক খ গ ঘ ঙ চ জ ঝ ঞ ত থ দ ধ ন প ফ ব ভ ম ৰ র ল ৱ স হ ় ু ি ৈ ো ৌ ্
+    design_note: Mark positioning and numerous precomposed forms (namely conjunct syllables) are required for proper representation of the language.
+    numerals: ০ ১ ২ ৩ ৪ ৫ ৬ ৭ ৮ ৯
     script: Bengali
     status: primary
-    numerals: ০	১	২	৩	৪	৫	৬	৭	৮	৯
   source:
   - Wikipedia
   - CLDR
@@ -5747,7 +5762,7 @@ mwp:
   status: living
   validity: verified
 mxv:
-  name: Metlatónic Mixtec
+  name: Metlatónoc Mixtec
   orthographies:
   - base: A C D E G I Ɨ J K L M N Ñ O P R S T U V X Y a c d e g i ɨ j k l m n ñ o p r s t u v x y '
     script: Latin
@@ -6242,7 +6257,7 @@ ojb:
   name: Northwestern Ojibwa
   orthographies:
   - autonym: Nakawēmowin
-    base: A B C D E G H I J K M N O P S T W Y Z a b c d e g h i j k m n o p s t w y z '
+    base: A B C D E G H I J K M N O P S T W Y Z a b c d e g h i j k m n o p s t w y z ' ̄
     script: Latin
     status: primary
   source:
@@ -6250,7 +6265,7 @@ ojb:
   - Wikipedia
   speakers: 20000
   speakers_date: 2000
-  validity: preliminary
+  validity: draft
 oji:
   includes:
   - ojs
@@ -6347,11 +6362,11 @@ pam:
   status: living
   validity: verified
 pan:
-  name: Punjabi
+  name: Panjabi
   orthographies:
   - autonym: ਪੰਜਾਬੀ,
     base: ਅ ਬ ਭ ਗ ਧ ਢ ੲ ਵ ਦ ਡ ਹ ਘ ਥ ਠ ਯ ਕ ਚ ਲ ਮ ਨ ਣ ਸ ਼ ੳ ਪ ਫ ਖ ਛ ਰ ਤ ਟ ਜ ਾ ਿ ੀ ੁ ੂ ੇ ੈ ੋ ੌ
-    design_note: Numerous precomposed conjunct forms, resolved mark positioning, and resolved combinations of marks and other forms are required for proper representation of the language.
+    design_note: Mark positioning and numerous precomposed forms (namely conjunct syllables) are required for proper representation of the language.
     note: Used in India.
     numerals: ੦ ੧ ੨ ੩ ੪ ੫ ੬ ੭ ੮ ੯
     script: Gurmukhi
@@ -6516,7 +6531,7 @@ pms:
   status: living
   validity: preliminary
 pnb:
-  name: Western Punjabi
+  name: Western Panjabi
   orthographies:
   - autonym: ਪੰਜਾਬੀ,
     inherit: pan
@@ -6744,9 +6759,10 @@ rah:
   name: Rabha
   orthographies:
   - autonym: রাভা‎
-    base: ঁ ং ঃ ৺ অ আ ই উ এ ঐ ও ঔ ক খ গ ঘ ঙ চ ছ জ ঝ ঞ ট ঠ ড ঢ ণ ত থ দ ধ ন প ফ ব ভ ম য ৰ ল ৱ শ ষ স হ ় ি ু ৈ ো ৌ ্ ʼ
+    base: ঁ ং ঃ ৺ অ আ ই উ এ ঐ ও ঔ ক খ গ ঘ ঙ চ ছ জ ঝ ঞ ট ঠ ড ঢ ণ ত থ দ ধ ন প ফ ব ভ ম য র ৰ ল ৱ শ ষ স হ ় ি ু ৈ ো ৌ ্ ʼ
+    design_note: Mark positioning and numerous precomposed forms (namely conjunct syllables) are required for proper representation of the language.
+    numerals: ০ ১ ২ ৩ ৪ ৫ ৬ ৭ ৮ ৯
     script: Bengali
-    numerals: ০	১	২	৩	৪	৫	৬	৭	৮	৯
     status: primary
   source:
   - Wikipedia
@@ -6770,13 +6786,14 @@ rar:
   status: living
   validity: verified
 rkt:
-  name: Kamta, Rangpuri
+  name: Rangpuri
   note: Rangpuri also uses an orthography in a Devanagari script. That orthography is currently missing from the database.
   orthographies:
   - autonym: রংপুরী
-    base: ঁ ং ঃ ৺ অ আ ই ঈ উ ঊ ঋ এ ঐ ও ঔ ক খ গ ঘ ঙ চ ছ জ ঝ ঞ ট ঠ ড ঢ ণ ত থ দ ধ ন প ফ ব ভ ম য ৰ ল ৱ শ ষ স হ ় ি ী ু ূ ৃ ৈ ো ৌ ্
+    base: ঁ ং ঃ ৺ অ আ ই ঈ উ ঊ ঋ এ ঐ ও ঔ ক খ গ ঘ ঙ চ ছ জ ঝ ঞ ট ঠ ড ঢ ণ ত থ দ ধ ন প ফ ব ভ ম য র ৰ ল ৱ শ ষ স হ ় ি ী ু ূ ৃ ৈ ো ৌ ্
+    design_note: Mark positioning and numerous precomposed forms (namely conjunct syllables) are required for proper representation of the language.
+    numerals: ০ ১ ২ ৩ ৪ ৫ ৬ ৭ ৮ ৯
     script: Bengali
-    numerals: ০	১	২	৩	৪	৫	৬	৭	৮	৯
     status: primary
   source:
   - Wikipedia
@@ -7004,7 +7021,7 @@ san:
   orthographies:
   - autonym: संस्कृतम्
     base: अ आ इ ई उ ऊ ऋ ॠ ल ृ ए ऐ ओ औ क ् ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र व श ष स ह
-    design_note: Numerous precomposed conjunct forms, resolved mark positioning, and resolved combinations of marks and other forms are required for proper representation of the language.
+    design_note: Mark positioning and numerous precomposed forms (namely conjunct syllables) are required for proper representation of the language.
     note: Sanskrit has been written using a variety of Brahmic scrits and, later, also the Latin-script transliteration. There a no native speakers of Sanskrit.
     numerals: ० १ २ ३ ४ ५ ६ ७ ८ ९
     script: Devanagari
@@ -7239,7 +7256,7 @@ sin:
   orthographies:
   - autonym: සිංහල
     base: අ ආ ඇ ඈ ඉ ඊ උ ඌ ඍ ඎ එ ඒ ඓ ඔ ඕ ඖ ට ඨ ඩ ඪ ණ ඬ ත ථ ද ධ න ඳ ප ඵ බ භ ම ඹ ය ර ල ව ළ ශ ෂ ස හ ෆ
-    design_note: Numerous precomposed conjunct forms, resolved mark positioning, and resolved combinations of marks and other forms are required for proper representation of the language.
+    design_note: Mark positioning and numerous precomposed forms (namely conjunct syllables) are required for proper representation of the language.
     script: Sinhala
     status: primary
   source:
@@ -7775,7 +7792,7 @@ taj:
   orthographies:
   - autonym: तामाङ‎
     base: अ आ इ ई उ ऊ ऋ ॠ ल ृ ए ऐ ओ औ क ् ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र व श ष स ह
-    design_note: Numerous precomposed conjunct forms, resolved mark positioning, and resolved combinations of marks and other forms are required for proper representation of the language.
+    design_note: Mark positioning and numerous precomposed forms (namely conjunct syllables) are required for proper representation of the language.
     numerals: ० १ २ ३ ४ ५ ६ ७ ८ ९
     script: Devanagari
     status: primary
@@ -7793,7 +7810,7 @@ tam:
   orthographies:
   - autonym: தமிழ்
     base: அ ஆ இ ஈ உ ஊ எ ஏ ி ீ ு ூ ஐ ஒ ஓ ஔ ஃ ஂ ை ொ ோ ௌ ் க ங ச ஞ ட ண த ந ப ம ய ர ல வ ழ ள ற ன ஜ ஶ ஷ ஸ ஹ
-    design_note: Numerous precomposed conjunct forms, resolved mark positioning, and resolved combinations of marks and other forms are required for proper representation of the language.
+    design_note: Mark positioning and numerous precomposed forms (namely conjunct syllables) are required for proper representation of the language.
     numerals: 0 ௧ ௨ ௩ ௪ ௫ ௬ ௭ ௮ ௯ ௰ ௱ ௲
     script: Tamil
     status: primary
@@ -7877,7 +7894,7 @@ tel:
   orthographies:
   - autonym: తెలుగు
     base: అ భ ఇ ి ఉ ు ఋ ృ ఌ ౢ ఎ ఐ ై ఒ ొ ఔ ౌ ం ఆ ా ఈ ీ ఊ ూ ౠ ౄ ౡ ౣ ఏ ే ఓ ో ః క ఖ గ ఘ ఙ చ ఛ జ ఝ ఞ ట ఠ డ ఢ ణ త థ ద ధ న ప ఫ బ మ య ర ల వ ళ శ ష స హ ఱ ఁ ్
-    design_note: Numerous precomposed conjunct forms, resolved mark positioning, and resolved combinations of marks and other forms are required for proper representation of the language.
+    design_note: Mark positioning and numerous precomposed forms (namely conjunct syllables) are required for proper representation of the language.
     numerals: ౦ ౧ ౨ ౩ ౪ ౫ ౬ ౭ ౮ ౯ ౸ ౹ ౺ ౻ ౼ ౽ ౾
     script: Telugu
     status: primary
@@ -7889,7 +7906,7 @@ tel:
   speakers_date: 2011
   validity: preliminary
 tem:
-  name: Temne
+  name: Timne
   orthographies:
   - autonym: KʌThemnɛ
     base: A Ʌ B D E Ɛ Ə F G H I K L M N Ŋ O Ɔ P R S T U W a ʌ b d e ɛ ə f g h i k l m n ŋ o ɔ p r s t u w
@@ -8125,7 +8142,7 @@ ton:
   status: living
   validity: verified
 top:
-  name: Ppantla Totonac
+  name: Papantla Totonac
   orthographies:
   - autonym: Tutunakú
     base: A C E I J K L M N O P R S T U W X Y a c e i j k l m n o p r s t u w x y ' ´
@@ -9098,12 +9115,13 @@ yua:
   speakers_date: 2010
   validity: preliminary
 yue:
-  name: Yue
+  name: Yue Chinese
   orthographies:
   - autonym: 粵語 / 粤语
     inherit: cmn
     script: Chinese
     status: primary
+  preferred_name: Yue
   source:
   - Omniglot
   - Wikipedia
