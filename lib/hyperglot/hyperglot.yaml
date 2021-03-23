@@ -758,6 +758,7 @@ asm:
   - autonym: অসমীয়া
     base: ঁ ং ঃ ৺ অ আ ই ঈ উ ঊ ঋ ৠ ঌ ৡ এ ঐ ও ঔ ক খ গ ঘ ঙ চ ছ জ ঝ ঞ ট ঠ ড ঢ ণ ত থ দ ধ ন প ফ ব ভ ম য ৰ ল ৱ শ ষ স হ ় ি ী ু ূ ৃ ৄ ৢ ৣ ৈ ো ৌ ্ ʼ
     script: Bengali
+    numerals: ০	১	২	৩	৪	৫	৬	৭	৮	৯
     status: primary
   source:
   - Wikipedia
@@ -1136,6 +1137,7 @@ ben:
     base: ঁ ং ঃ ৺ অ আ ই ঈ উ ঊ ঋ ৠ ঌ ৡ এ ঐ ও ঔ ক খ গ ঘ ঙ চ ছ জ ঝ ঞ ট ঠ ড ঢ ণ ত ৎ থ দ ধ ন প ফ ব ভ ম য র ল শ ষ স হ ঽ ় ি ী ু ূ ৃ ৄ ৢ ৣ ৈ ো ৌ ্
     script: Bengali
     status: primary
+    numerals: ০	১	২	৩	৪	৫	৬	৭	৮	৯
   source:
   - Wikipedia
   - CLDR
@@ -1325,6 +1327,7 @@ bpy:
     base: ঁ ং ঃ অ আ ই ঈ উ ঊ ঋ এ ঐ ও ঔ ক খ গ ঘ ঙ চ ছ জ ঝ ঞ ট ঠ ড ঢ ণ ত থ দ ধ ন প ফ ব ভ ম য র ল ৱ শ ষ স হ ় ি ী ু ূ ৃ ৈ ো ৌ ্
     script: Bengali
     status: primary
+    numerals: ০	১	২	৩	৪	৫	৬	৭	৮	৯
   source:
   - Wikipedia
   speakers: 1760000
@@ -2097,6 +2100,7 @@ ctg:
     base: ঁ ং ঃ অ আ ই ঈ উ ঊ ঋ এ ঐ ও ঔ ক খ গ ঘ ঙ চ ছ জ ঝ ট ঠ ড ঢ ণ ত থ দ ধ ন প ফ ব ভ ম য র ল ৱ শ ষ স হ ় ি ী ু ূ ৃ ৈ ো ৌ ্
     script: Bengali
     status: primary
+    numerals: ০	১	২	৩	৪	৫	৬	৭	৮	৯
   source:
   - Wikipedia
   speakers: 16000000
@@ -3323,6 +3327,7 @@ haj:
     base: ঁ ং ঃ অ আ ই উ এ ঐ ও ঔ ক খ গ ঘ ঙ চ ছ জ ঝ ঞ ত থ দ ধ ন প ফ ব ভ ম র হ ় ি ৈ ো ৌ ্
     script: Bengali
     status: primary
+    numerals: ০	১	২	৩	৪	৫	৬	৭	৮	৯
   source:
   - Wikipedia
   speakers: 79800
@@ -5510,6 +5515,7 @@ mni:
     base: ঁ ং ঃ অ আ ই উ এ ঐ ও ঔ ক খ গ ঘ ঙ চ জ ঝ ঞ ত থ দ ধ ন প ফ ব ভ ম ৰ র ল ৱ স হ ় ু ি ৈ ো ৌ ্
     script: Bengali
     status: primary
+    numerals: ০	১	২	৩	৪	৫	৬	৭	৮	৯
   source:
   - Wikipedia
   - CLDR
@@ -6740,6 +6746,7 @@ rah:
   - autonym: রাভা‎
     base: ঁ ং ঃ ৺ অ আ ই উ এ ঐ ও ঔ ক খ গ ঘ ঙ চ ছ জ ঝ ঞ ট ঠ ড ঢ ণ ত থ দ ধ ন প ফ ব ভ ম য ৰ ল ৱ শ ষ স হ ় ি ু ৈ ো ৌ ্ ʼ
     script: Bengali
+    numerals: ০	১	২	৩	৪	৫	৬	৭	৮	৯
     status: primary
   source:
   - Wikipedia
@@ -6769,6 +6776,7 @@ rkt:
   - autonym: রংপুরী
     base: ঁ ং ঃ ৺ অ আ ই ঈ উ ঊ ঋ এ ঐ ও ঔ ক খ গ ঘ ঙ চ ছ জ ঝ ঞ ট ঠ ড ঢ ণ ত থ দ ধ ন প ফ ব ভ ম য ৰ ল ৱ শ ষ স হ ় ি ী ু ূ ৃ ৈ ো ৌ ্
     script: Bengali
+    numerals: ০	১	২	৩	৪	৫	৬	৭	৮	৯
     status: primary
   source:
   - Wikipedia
