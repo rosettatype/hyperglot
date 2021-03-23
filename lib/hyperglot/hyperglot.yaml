@@ -2544,6 +2544,7 @@ enh:
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ҫ Ӈ Ԑ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҫ ӈ ԑ
     script: Cyrillic
     status: primary
+    design_note: Characters Ҫ ҫ are sometimes represented with a cedilla instead of a descender (spike).
   source:
   - Wikipedia
   - Omniglot
@@ -3437,7 +3438,7 @@ heb:
   orthographies:
   - autonym: עברית
     auxiliary: ״ ׳ ־ ׃ ׆
-    base: א ב ג ד ה ו ז ח ט י כ ך ל מ ם נ ן ס ע פ ף צ ץ ק ר ש ת ׁ ׂ ּ ְ ֱ ֲ ֳ ִ ֵ ֶ ַ ָ ֹ ֻ ֿ
+    base: א ב ג ד ה ו ז ח ט י כ ך ל מ ם נ ן ס ע פ ף צ ץ ק ר ש ת ׁ ׂ ּ ְ ֱ ֲ ֳ ִ ֵ ֶ ַ ָ ֹ ֻ
     script: Hebrew
     status: primary
   source:
@@ -3615,6 +3616,7 @@ hye:
   name: Armenian
   orthographies:
   - autonym: Հայերէն
+    punctuation: ՛ ՜ ՝ ՞ ։ 
     base: Ա Բ Գ Դ Ե Զ Է Ը Թ Ժ Ի Լ Խ Ծ Կ Հ Ձ Ղ Ճ Մ Յ Ն Շ Ո Չ Պ Ջ Ռ Ս Վ Տ Ր Ց Ւ Փ Ք Օ Ֆ ա բ գ դ ե զ է ը թ ժ ի լ խ ծ կ հ ձ ղ ճ մ յ ն շ ո չ պ ջ ռ ս վ տ ր ց ւ փ ք և օ ֆ
     script: Armenian
     status: primary
@@ -3898,7 +3900,7 @@ jdt:
     script: Cyrillic
     status: primary
   - autonym: ז׳אוּהאוּראִ
-    base: א ב ג ד ה ו ּ ז ח י כ ל מ נ ס ע פ צ ק ר ש ת ׳ ִ ַ ָ }
+    base: א ב ג ד ה ו ּ ז ח י כ ל מ נ ס ע פ צ ק ר ש ת ׳ ִ ַ ָ 
     note: Regaining popularity.
     script: Hebrew
   - autonym: Çuhuri
@@ -9012,7 +9014,7 @@ ydd:
   name: Eastern Yiddish
   orthographies:
   - autonym: ייִדיש
-    base: ו י א ב ג ד ה ז ח ט כ ך ל מ ם נ ן ס ע פ ף צ ץ ק ר ש ת ִ ָ ַ
+    base: ו י א ב ג ד ה ז ח ט כ ך ל מ ם נ ן ס ע פ ף צ ץ ק ר ש ת ִ ָ ַ  ׁ ׂ ּ ְ ֱ ֲ ֳ ִ ֵ ֶ ַ ָ ֹ ֻ 
     script: Hebrew
     status: primary
   source:
