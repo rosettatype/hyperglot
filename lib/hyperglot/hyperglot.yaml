@@ -11,7 +11,7 @@ aae:
   speakers: 100000
   speakers_date: 2007
   status: living
-  validity: preliminary
+  validity: verified
 aaq:
   name: Eastern Abnaki
   orthographies:
@@ -455,7 +455,7 @@ aln:
   speakers: 3450000
   speakers_date: 2000–2001
   status: living
-  validity: preliminary
+  validity: verified
 als:
   name: Tosk Albanian
   orthographies:
@@ -469,7 +469,7 @@ als:
   speakers: 1800000
   speakers_date: 2011
   status: living
-  validity: preliminary
+  validity: verified
 alt:
   name: Southern Altai
   orthographies:
@@ -1255,6 +1255,7 @@ bhh:
     status: primary
   source:
   - Wikipedia
+  - https://en.wikipedia.org/wiki/Niqqud
   speakers: 110000
   speakers_date: 1995
   status: living
@@ -3462,7 +3463,8 @@ heb:
   name: Hebrew
   orthographies:
   - autonym: עברית
-    base: א ב ג ד ה ו ז ח ט י כ ך ל מ ם נ ן ס ע פ ף צ ץ ק ר ש ת ׁ ׂ ּ ׳
+    base: א ב ג ד ה ו ז ח ט י כ ך ל מ ם נ ן ס ע פ ף צ ץ ק ר ש ת ׁ ׂ ּ    ְ  ֱ  ֲ  ֳ  ִ  ֵ  ֶ  ַ  ָ  ֹ  ֻ  ּ  ֿ  ׁ  ׂ 
+    aux: ״ ׳ ־ : ׆
     script: Hebrew
     status: primary
   source:
@@ -3470,7 +3472,7 @@ heb:
   - CLDR
   speakers: 9000000
   status: living
-  validity: preliminary
+  validity: verified
 hil:
   name: Hiligaynon
   orthographies:
@@ -8986,11 +8988,11 @@ ydd:
   name: Eastern Yiddish
   orthographies:
   - autonym: ייִדיש
-    base: א ב ג ד ה ו ז ח ט י כ ך ל מ ם נ ן ס ע פ ף צ ץ ק ר ש ת ִ ָ
+    base: וו וי יי א ב ג ד ה ו ז ח ט י כ ך ל מ ם נ ן ס ע פ ף צ ץ ק ר ש ת ִ ָ אָ אַ
     script: Hebrew
     status: primary
   source:
-  - Wikipedia
+  - https://en.wikipedia.org/wiki/Yiddish_orthography
   - Omniglot
   speakers: 1500000
   status: living
@@ -9003,10 +9005,10 @@ yih:
     script: Hebrew
     status: primary
   source:
-  - Wikipedia
+  - https://en.wikipedia.org/wiki/Yiddish_orthography
   speakers: 5000
   status: living
-  validity: draft
+  validity: preliminary
 yij:
   name: Yindjibarndi
   orthographies:
