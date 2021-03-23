@@ -1,10 +1,12 @@
 # Hyperglot – detecting language support in fonts
 
-**Warning: this work is still in progress and provided AS IS.**
+Hyperglot helps type designers answer a seemingly simple question of language support in fonts: When can I use font A to set texts in language B?  It takes a pragmatic answer by identifying a standard character set for each orthography used by a language. The database currently contains information for over 600 languages.
 
-The Hyperglot database and tools try to answer the seemingly simple question of language support in fonts; when can one use a font A to set texts in a language B? We took a pragmatic approach and reduced the answer to finding a standard character set for each orthography used by a language. We also added a brief design note to alert users regarding shaping and positioning requirements that go beyond Unicode character code points. The database currently contains information for over 600 languages.
+We record a basic and any auxiliary character sets for each orthography of a language. Note that only actively used orthographies (their status is set to `primary`) are used when detecting language support in a font. Other, secondary or historical, orthographies are displayed just for information purposes. 
 
-The Hyperglot database is a work in progress, the validity of the language data varies, but it is clearly marked for each language (some are considered drafts, some have been verified etc.). We have checked the information from various online and offline sources and we are committed to keep on improving. But we will also need help from the respective language users. Admittedly, mapping all languages of the world is beyond our capacity. So, if you see an issue or a language missing, please get in touch and [contribute](README_database.md).
+Where relevant, we also provide a brief design note containing tips about shaping and positioning requirements that go beyond Unicode character code points. Hyperglot should only be used to detect whether a font can be considered for use with a particular language. It does not say anything about the quality of a font’s design.
+
+Hyperglot is a work in progress provided AS IS, and the validity of its language data varies. To help you assess the validity of the results you view, each language in the database comes with a label indicating the quality of the data we have for it (e.g. some are considered `drafts`, some have been `verified`). We have checked the information against various online and offline sources and we are committed to continually improve it. However, we admit that mapping all the languages of the world in this way is beyond our capacity – we need help from users of each respective language! So, if you spot an issue or notice a language that is altogether missing, please get in touch. [We’d welcome your contribution](README_database.md#development-and-contributions).
 
 ## How to use
 
@@ -90,11 +92,11 @@ The data structure is described in a separate file together with guidelines for 
 
 [Database and contributing](README_database.md)
 
-Contributions are most welcome! So is feedback shared via Issues or email.
-
-## Contributors
+## Authors and contributors
 
 The Hyperglot database and tools were originally developed by [Rosetta](http://rosettatype.com), world typography specialists, publishers, and makers of original fonts addressing the needs of global typography. Our goal is to enable people to read better in their native languages.
+
+Main contributors, so far:
 
 - David Březina <david@rosettatype.com> @MrBrezina (concept, database structure, and main language data set)
 - Johannes Neumeier <hello@johannesneumeier.com> @kontur (tool and tests)
