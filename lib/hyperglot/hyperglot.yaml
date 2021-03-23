@@ -2302,7 +2302,7 @@ dgo:
     script: Devanagari
     status: primary
   - autonym: ڈوگَرِی
-    design_note: Uses the Nastaʼlīq style of the Arabic script
+    design_note: Prefers a Nastaʼlīq style of the Arabic script
     inherit: urd
     note: Used in Pakistan
     script: Arabic
@@ -8692,7 +8692,7 @@ urd:
   orthographies:
   - autonym: اُردُو
     base: ء ا ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ل م ن و ٹ پ چ ڈ ڑ ژ ک گ ں ھ ہ ی َ ُ ِ ْ ٰ
-    design_note: Uses the Nastaʼlīq style of the Arabic script
+    design_note: Prefers a Nastaʼlīq style of the Arabic script
     numerals: ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹ 0 1 2 3 4 5 6 7 8 9
     script: Arabic
     status: primary
