@@ -1623,6 +1623,7 @@ ccp:
     punctuation: 𑅁 𑅂 𑅃 𑅀
     script: Chakma
     status: primary
+    design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
   source:
   - Omniglot
   - Wikipedia
