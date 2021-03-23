@@ -9,6 +9,7 @@ from fontTools.ttLib import TTFont
 from . import __version__, DB, SUPPORTLEVELS, VALIDITYLEVELS
 from .languages import Languages
 from .language import Language
+from .validate import validate
 from .parse import (prune_superflous_marks,
                     parse_font_chars, parse_chars, parse_marks)
 
@@ -309,69 +310,72 @@ def save_sorted(Langs=None):
     log.setLevel(logging.WARNING)
     if Langs is None:
         Langs = Languages(inherit=False, prune=False)
+        print("Running pre-save validation, please fix any issues flagged.")
+        validate()
 
-        # Save with removed superflous marks
-        for iso, lang in Langs.items():
-            if "orthographies" in lang:
-                for i, o in enumerate(lang["orthographies"]):
-                    for type in ["base", "auxiliary", "numerals"]:
-                        if type in o:
-                            chars = o[type]
-                            pruned, removed = prune_superflous_marks(
-                                " ".join(o[type]))
+    # Save with removed superflous marks
+    for iso, lang in Langs.items():
+        if "orthographies" in lang:
+            for i, o in enumerate(lang["orthographies"]):
+                for type in ["base", "auxiliary", "numerals"]:
+                    if type in o:
+                        chars = o[type]
+                        pruned, removed = prune_superflous_marks(
+                            " ".join(o[type]))
 
-                            if len(removed) > 0:
+                        if len(removed) > 0:
 
-                                log.info("Saving '%s' with '%s' pruned of "
-                                         "superfluous marks (implicitly "
-                                         "included in combining glyphs): "
-                                         "%s"
-                                         % (iso, type, "','".join(removed))
-                                         )
+                            log.info("Saving '%s' with '%s' pruned of "
+                                     "superfluous marks (implicitly "
+                                     "included in combining glyphs): "
+                                     "%s"
+                                     % (iso, type, "','".join(removed))
+                                     )
 
-                            chars = pruned
+                        chars = pruned
 
-                            # Do not include anything (after decomposition)
-                            # that is already listed in base
-                            if "base" in o and type != "base":
-                                chars = [
-                                    c for c in chars if c not in o["base"]]
+                        # Do not include anything (after decomposition)
+                        # that is already listed in base
+                        if "base" in o and type != "base":
+                            chars = [
+                                c for c in chars if c not in o["base"]]
 
-                            joined = " ".join(chars)
+                        joined = " ".join(chars)
 
-                            Langs[iso]["orthographies"][i][type] = joined
+                        Langs[iso]["orthographies"][i][type] = joined
 
-                    # Automate extracting and writing marks (in addition to any
-                    # that might have been defined manually). Note that we only
-                    # extract marks from 'base' since 'marks' are part of the
-                    # base level checking. Marks in 'auxiliary' will simply be
-                    # saved (if necessary) in 'auxiliary'.
-                    marks = []
-                    if "marks" in o:
-                        marks = parse_chars(o["marks"],
-                                            decompose=True,
-                                            retainDecomposed=False)
+                # Automate extracting and writing marks (in addition to any
+                # that might have been defined manually). Note that we only
+                # extract marks from 'base' since 'marks' are part of the
+                # base level checking. Marks in 'auxiliary' will simply be
+                # saved (if necessary) in 'auxiliary'.
+                marks = []
+                if "marks" in o:
+                    marks = parse_chars(o["marks"],
+                                        decompose=True,
+                                        retainDecomposed=False)
+                if "base" in o:
+                    marks = set(marks + parse_marks(o["base"]))
+                if len(marks) > 0:
+                    # Note: Let's store marks with two spaces between to
+                    # make them more legible; when parsing the attribute
+                    # back in all whitespaces are removed
+                    o["marks"] = "  ".join(marks)
                     if "base" in o:
-                        marks = set(marks + parse_marks(o["base"]))
-                    if len(marks) > 0:
-                        # Note: Let's store marks with two spaces between to
-                        # make them more legible; when parsing the attribute
-                        # back in all whitespaces are removed
-                        o["marks"] = "  ".join(marks)
-                        if "base" in o:
-                            base, removed = prune_superflous_marks(
-                                " ".join(o["base"]))
+                        base, removed = prune_superflous_marks(
+                            " ".join(o["base"]))
 
-                            # Save base without marks
-                            _base = [c for c in base
-                                     if not uni.category(c).startswith("M")]
-                            o["base"] = " ".join(_base)
+                        # Save base without marks
+                        _base = [c for c in base
+                                 if not uni.category(c).startswith("M")]
+                        o["base"] = " ".join(_base)
 
     # Sort by keys
     alphabetic = dict(OrderedDict(sorted(Langs.items())))
 
     file = open(DB, "w")
     yaml.dump(alphabetic, file, **DUMP_ARGS)
+    print("Saved lib/hyperglot/hyperglot.yaml")
 
 
 @click.command()

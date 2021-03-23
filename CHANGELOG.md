@@ -1,5 +1,12 @@
 # A changelog for the lib/hyperglot CLI tool
 
+## 0.2.6 (23.03.2021)
+- DATA: Various status updates, notes and reviewed orthographies
+- DATA: Introduced `marks` attribute containing all combinging marks needed for an orthography
+- FEATURE: Automatically extract and save `marks` from `base` data, plus retain any explicitly added `marks` in the data
+- TWEAK: For default `hyperglot-save` calls automatically run validation to flag any remaining issues
+- TWEAK: Flag legacy marks being used in charset data
+
 ## 0.2.5 (23.03.2021)
 - DATA: Introduced `design_note` parameter
 - DATA: Various language data updates and smaller fixes
