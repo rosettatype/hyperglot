@@ -2,7 +2,7 @@
 Tests for basic parsing and decomposition methods
 """
 import os
-from hyperglot.parse import (parse_chars, parse_font_chars,
+from hyperglot.parse import (parse_chars, parse_font_chars, parse_marks,
                              character_list_from_string,
                              sort_by_character_type,
                              list_unique)
@@ -80,3 +80,8 @@ def test_sort_by_character_type():
     # by ASC unicode
     expected = ["A", "Z", "a", "z", "̇", ".", "1"]
     assert sort_by_character_type(expected) == expected
+
+
+def test_parse_marks():
+    assert parse_marks("ä ö å") == ['̈', '̊']
+    assert parse_marks("A B C") == []

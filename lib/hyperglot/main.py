@@ -3,12 +3,14 @@ import os
 import re
 import yaml
 import logging
+import unicodedata2 as uni
 from collections import OrderedDict
 from fontTools.ttLib import TTFont
 from . import __version__, DB, SUPPORTLEVELS, VALIDITYLEVELS
 from .languages import Languages
 from .language import Language
-from .parse import prune_superflous_marks, parse_font_chars
+from .parse import (prune_superflous_marks,
+                    parse_font_chars, parse_chars, parse_marks)
 
 log = logging.getLogger(__name__)
 log.setLevel(logging.WARNING)
@@ -329,6 +331,8 @@ def save_sorted(Langs=None):
 
                             chars = pruned
 
+                            # Do not include anything (after decomposition)
+                            # that is already listed in base
                             if "base" in o and type != "base":
                                 chars = [
                                     c for c in chars if c not in o["base"]]
@@ -336,6 +340,32 @@ def save_sorted(Langs=None):
                             joined = " ".join(chars)
 
                             Langs[iso]["orthographies"][i][type] = joined
+
+                    # Automate extracting and writing marks (in addition to any
+                    # that might have been defined manually). Note that we only
+                    # extract marks from 'base' since 'marks' are part of the
+                    # base level checking. Marks in 'auxiliary' will simply be
+                    # saved (if necessary) in 'auxiliary'.
+                    marks = []
+                    if "marks" in o:
+                        marks = parse_chars(o["marks"],
+                                            decompose=True,
+                                            retainDecomposed=False)
+                    if "base" in o:
+                        marks = set(marks + parse_marks(o["base"]))
+                    if len(marks) > 0:
+                        # Note: Let's store marks with two spaces between to
+                        # make them more legible; when parsing the attribute
+                        # back in all whitespaces are removed
+                        o["marks"] = "  ".join(marks)
+                        if "base" in o:
+                            base, removed = prune_superflous_marks(
+                                " ".join(o["base"]))
+
+                            # Save base without marks
+                            _base = [c for c in base
+                                     if not uni.category(c).startswith("M")]
+                            o["base"] = " ".join(_base)
 
     # Sort by keys
     alphabetic = dict(OrderedDict(sorted(Langs.items())))

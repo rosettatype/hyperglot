@@ -71,12 +71,14 @@ class Languages(dict):
     def prune_chars(self, retainDecomposed=False):
         """
         A helper to parse all orthographies' charsets in all languages. This
-        decomposes glyphs and prunes any glyphs that are redundant.
+        decomposes glyphs and prunes any glyphs that are redundant. Also
+        transforms the dict attributes from strings to lists.
         """
         for lang in self.values():
             if "orthographies" in lang:
                 for o in lang["orthographies"]:
-                    for type in ["base", "auxiliary", "numerals"]:
+                    for type in ["base", "auxiliary", "numerals",
+                                 "punctuation", "marks"]:
                         if type in o:
                             o[type] = parse_chars(o[type], True,
                                                   retainDecomposed)

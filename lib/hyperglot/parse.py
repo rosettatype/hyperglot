@@ -110,14 +110,18 @@ def parse_chars(characters, decompose=True, retainDecomposed=False):
             if decomposition == "" or retainDecomposed:
                 unique_chars.append(c)
 
-            ignore = ["<isolated>", "<compat>", "<super>", '<vertical>',
-                      '<final>', '<medial>', '<initial>', '<sub>',
-                      '<fraction>', '<font>']
+            # Not _entirely_ sure why the following can be parts of the
+            # decomposition but let's ignore them when encountered. Some glyphs
+            # decompose to these kind of parts instead of uni hex, presumambly
+            # as layout hints based on the glyph context
+            # Match and ignore them for now
+            # e.g. <isolated> <compat> <super> <vertical> <final> <medial>
+            # <initial> <sub> <fraction> <font> <wide> <narrow>
+            inbrackets = re.compile(r"^<\w+\>$")
+
             if decomposition != "":
                 for unihexstr in decomposition.split(" "):
-                    # Not _entirely_ sure why the following can be parts of the
-                    # decomposition but let's ignore them when encountered
-                    if unihexstr in ignore:
+                    if inbrackets.match(unihexstr):
                         continue
                     try:
                         additional.append(chr(int(unihexstr, 16)))
@@ -180,3 +184,11 @@ def parse_font_chars(path):
 
     # The cmap keys are int codepoints
     return [chr(c) for c in cmap.getBestCmap().keys()]
+
+
+def parse_marks(input):
+    """
+    From a space separated string
+    """
+    chars = parse_chars(input)
+    return [c for c in chars if unicodedata2.category(c).startswith("M")]

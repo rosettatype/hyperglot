@@ -78,17 +78,18 @@ def check_types(Langs):
                                           "characters '%s' at %d" %
                                           (iso, unicodedata2.name(c), i))
 
-                    if not check_is_valid_glyph_string(o["base"]):
+                    if not check_is_valid_glyph_string(o["base"], iso):
                         log.error("'%s' has invalid 'base' glyph list"
                                   % iso)
 
                 if "auxiliary" in o:
-                    if not check_is_valid_glyph_string(o["auxiliary"]):
+                    if not check_is_valid_glyph_string(o["auxiliary"], iso):
                         log.error("'%s' has invalid 'auxiliary' glyph list"
                                   % iso)
 
-                allowed = ["autonym", "inherit", "script", "base",
+                allowed = ["autonym", "inherit", "script", "base", "marks",
                            "auxiliary", "numerals", "status", "note",
+                           "punctuation",  # tolerated for now, but unused
                            "preferred_as_group", "design_note"]
                 invalid = [k for k in o.keys() if k not in allowed]
                 if len(invalid):
@@ -129,7 +130,7 @@ def check_is_valid_list(item):
     return True
 
 
-def check_is_valid_glyph_string(glyphs):
+def check_is_valid_glyph_string(glyphs, iso=None):
     """
     a string of glyphs like "a b c d e f" should be single-space separated
     single unicode characters
@@ -152,6 +153,12 @@ def check_is_valid_glyph_string(glyphs):
         log.error("Superflous marks that are implicitly extracted via "
                   "decomposition: '%s'" % "','".join(removed))
         return False
+
+    for c in glyphs:
+        if unicodedata2.category(c) == "Sk":
+            log.warning("'%s' contains modifier symbol '%s' in characters. It "
+                        "is very likely this should be a combining mark "
+                        "instead." % (iso, c))
 
     return True
 
@@ -206,7 +213,7 @@ def check_names(Langs):
                 if not autonym_ok:
                     log.warn("'%s' has invalid autonym '%s' which cannot "
                              "be spelled with that orthography's charset "
-                             "(base + auxiliary) '%s' - missing '%s'"
+                             "(base + marks + auxiliary) '%s' - missing '%s'"
                              % (iso, o["autonym"], "".join(chars),
                                  "".join(missing)))
 
@@ -295,6 +302,8 @@ def check_autonym_spelling(ort):
     chars = parse_chars(ort["base"])
     if "auxiliary" in ort:
         chars = chars + parse_chars(ort["auxiliary"])
+    if "marks" in ort:
+        chars = chars + parse_chars(ort["marks"])
     chars = set(chars)
 
     # Use lowercase no non-word-chars version of autonym

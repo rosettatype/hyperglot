@@ -247,7 +247,14 @@ class Language(dict):
             # Any support check needs 'base'
             base = self.get_orthography_chars(ort, "base",
                                               checkAllOrthographies)
+            # and 'marks'
+            marks = self.get_orthography_chars(ort, "marks",
+                                               checkAllOrthographies)
+
             if base:
+                if marks:
+                    base = set(list(base) + list(marks))
+
                 script = ort["script"]
                 supported = base.issubset(chars)
 
