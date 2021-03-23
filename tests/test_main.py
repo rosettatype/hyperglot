@@ -16,7 +16,7 @@ def test_main_cli():
     res = runner.invoke(cli, [eczar])
     assert res.exit_code == 0
     assert "languages of Latin script" in res.output
-    assert "7 languages of Devanagari script" in res.output
+    assert "10 languages of Devanagari script" in res.output
     assert "Czech" in res.output
     assert "Hindi" in res.output
     assert "Sanskrit" in res.output

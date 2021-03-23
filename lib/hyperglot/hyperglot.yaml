@@ -52,7 +52,7 @@ aat:
   - autonym: Αρbε̰ρίσ̈τ
     auxiliary: Η Ψ Ω Ά Έ Ή Ί Ό Ύ Ώ Ϊ Ϋ η ψ ω ά έ ή ί ό ύ ώ ϊ ϋ ΐ ΰ
     base: Α Β B Ϳ Γ Δ D Ε Ζ Θ Ι Κ Λ Μ Ν Ξ Ο Π Ρ Σ Τ Υ Φ Χ α β b ϳ γ δ d ε ζ θ ι κ λ μ ν ξ ο π ρ σ ς τ υ φ χ
-    marks: ̈  ̱  ̰  ̇
+    marks: ̱  ̰  ̇  ̈
     note: Used in Greece.
     script: Greek
     status: primary
@@ -98,7 +98,7 @@ abq:
   orthographies:
   - autonym: Абаза
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё
-    marks: ̈  ̆
+    marks: ̆  ̈
     script: Cyrillic
     status: primary
   source:
@@ -141,7 +141,7 @@ ace:
   orthographies:
   - autonym: Bahsa Acèh
     base: A B C D E G H I J K L M N O P R S T W Y É È Ë Ô Ö a b c d e g h i j k l m n o p r s t w y é è ë ô ö '
-    marks: ̂  ̈  ́  ̀
+    marks: ̀  ̈  ́  ̂
     script: Latin
     status: primary
   source:
@@ -157,7 +157,7 @@ acm:
     auxiliary: ڛ ڢ ٯ ڧ ک ی ڥ چ ڨ ڭ ڠ
     base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا ڤ پ گ ة
     design_note: Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
-    marks: ٰ  ِ  ْ  ُ  َ
+    marks: َ  ْ  ٰ  ُ  ِ
     numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩
     script: Arabic
     status: primary
@@ -205,7 +205,7 @@ acw:
     auxiliary: ڛ ڢ ٯ ڧ ک ی ڥ چ گ ڨ ڭ ڠ
     base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا پ ڤ
     design_note: Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
-    marks: ٰ  ِ  ْ  ُ  َ
+    marks: َ  ْ  ٰ  ُ  ِ
     numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩
     script: Arabic
     status: primary
@@ -265,7 +265,7 @@ ady:
   orthographies:
   - autonym: Адыгабзэ
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ӏ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
-    marks: ̈  ̆
+    marks: ̆  ̈
     script: Cyrillic
     status: primary
   source:
@@ -324,7 +324,7 @@ afb:
   - autonym: خليجي
     auxiliary: ڛ ڢ ٯ ڧ ک ی ڥ چ ڨ ڭ ڠ
     base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا ڤ پ گ
-    marks: ٰ  ِ  ْ  ُ  َ
+    marks: َ  ْ  ٰ  ُ  ِ
     numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩
     script: Arabic
     status: primary
@@ -340,7 +340,7 @@ afr:
   orthographies:
   - autonym: Afrikaans
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z È Ê Ë Î Ï Ö Ô Û Ü a b c d e f g h i j k l m n o p q r s t u v w x y z è ê ë î ï ö ô û ü
-    marks: ̀  ̂  ̈
+    marks: ̈  ̂  ̀
     note: The use of ŉ has been deprecated and is strongly discouraged.
     script: Latin
     status: primary
@@ -357,7 +357,7 @@ agq:
   - autonym: Wum
     auxiliary: Q R X q r x
     base: A B C D E F G H I K L M N O P S T U V W Y Z À Â È Ê Ì Î Ò Ô Ù Û Ā Ē Ě Ī Ŋ Ō Ū Ǎ Ǐ Ǒ Ǔ Ɔ Ɛ Ɨ Ʉ a b c d e f g h i k l m n o p s t u v w y z à â è ê ì î ò ô ù û ā ē ě ī ŋ ō ū ǎ ǐ ǒ ǔ ɔ ɛ ɨ ʉ ʔ
-    marks: ̌  ̂  ̄  ̀
+    marks: ̄  ̌  ̂  ̀
     script: Latin
     status: primary
   source:
@@ -386,7 +386,7 @@ agx:
   orthographies:
   - autonym: Агъул
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ӏ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
-    marks: ̈  ̆
+    marks: ̆  ̈
     script: Cyrillic
     status: primary
   source:
@@ -401,7 +401,7 @@ aii:
   orthographies:
   - autonym: ܐܵܬ݂ܘܼܪܵܝܲܐ ܠܸܫܵܢܵܐ
     base: ܟ ܝ ܛ ܚ ܙ ܘ ܗ ܕ ܓ ܒ ܐ ܬ ܫ ܪ ܩ ܨ ܦ ܥ ܣ ܢ ܡ ܠ
-    marks: ܹ  ݃  ݇  ܲ  ܵ  ܸ
+    marks: ܹ  ܸ  ܵ  ݃  ܲ  ݇
     script: Syriac
     status: primary
   - autonym: Лышана Атураја
@@ -435,7 +435,7 @@ ajg:
   orthographies:
   - autonym: Adja
     base: A B C D Ɖ E Ɛ F G Ɣ H I J K L M N Ŋ O Ɔ P R S T U V W X Y Z Ʒ Á À Ă Â a b c d ɖ e ɛ f g ɣ h i j k l m n ŋ o ɔ p r s t u v w x y z ʒ á à ă â
-    marks: ̂  ̆  ́  ̀
+    marks: ̆  ̀  ́  ̂
     script: Latin
     status: primary
   source:
@@ -451,7 +451,7 @@ ajp:
     auxiliary: ڛ ڢ ٯ ڧ ک ی ڥ گ ڨ ڭ ڠ
     base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا ڤ پ چ
     design_note: Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
-    marks: ٰ  ِ  ْ  ُ  َ
+    marks: َ  ْ  ٰ  ُ  ِ
     numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩
     script: Arabic
     status: primary
@@ -496,7 +496,7 @@ alt:
   orthographies:
   - autonym: Алтайча
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ј Ҥ Ӧ Ӱ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ј ҥ ӧ ӱ
-    marks: ̈  ̆
+    marks: ̆  ̈
     script: Cyrillic
     status: primary
   source:
@@ -576,7 +576,7 @@ ani:
   orthographies:
   - autonym: Мицци
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ӏ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
-    marks: ̈  ̆
+    marks: ̆  ̈
     script: Cyrillic
     status: primary
   source:
@@ -590,7 +590,7 @@ aoz:
   orthographies:
   - autonym: Uab Metô
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á É Ê Í Ó Ú Û a b c d e f g h i j k l m n o p q r s t u v w x y z á é ê í ó ú û
-    marks: ̂  ́
+    marks: ́  ̂
     script: Latin
     status: primary
   source:
@@ -621,7 +621,7 @@ apd:
     auxiliary: ڛ ڢ ٯ ڧ ک ڤ ڥ پ چ گ ڨ ڭ ڠ
     base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا ی
     design_note: Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
-    marks: ٰ  ِ  ْ  ُ  َ
+    marks: َ  ْ  ٰ  ُ  ِ
     numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩
     script: Arabic
     status: primary
@@ -654,7 +654,7 @@ arb:
     auxiliary: ڛ ڢ ٯ ڧ ک ی ڤ ڥ پ چ گ ڨ ڭ ڠ
     base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا ة
     design_note: Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
-    marks: ٰ  ِ  ْ  ُ  َ
+    marks: َ  ْ  ٰ  ُ  ِ
     numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩
     script: Arabic
     status: primary
@@ -727,7 +727,7 @@ ars:
     auxiliary: ڛ ڢ ٯ ڧ ک ی ڥ چ گ ڨ ڭ ڠ
     base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا پ ڤ ة
     design_note: Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
-    marks: ٰ  ِ  ْ  ُ  َ
+    marks: َ  ْ  ٰ  ُ  ِ
     numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩
     script: Arabic
     status: primary
@@ -758,7 +758,7 @@ arz:
     auxiliary: ڛ ڢ ٯ ڧ ک ڥ گ ڨ ڭ ڠ
     base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا ڤ پ ی چ ة ى
     design_note: Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
-    marks: ٰ  ِ  ْ  ُ  َ
+    marks: َ  ْ  ٰ  ُ  ِ
     numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩
     script: Arabic
     status: primary
@@ -790,7 +790,7 @@ asm:
   - autonym: অসমীয়া
     base: ৺ অ আ ই ঈ উ ঊ ঋ ৠ ঌ ৡ এ ঐ ও ঔ ক খ গ ঘ ঙ চ ছ জ ঝ ঞ ট ঠ ড ঢ ণ ত থ দ ধ ন প ফ ব ভ ম য ৰ ল ৱ শ ষ স হ ʼ
     design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
-    marks: ্  ঁ  ়  ং  ে  ূ  ৢ  ি  া  ঃ  ৈ  ৃ  ী  ৗ  ু  ৣ  ৄ
+    marks: ্  ৢ  ়  ঁ  ৄ  ি  া  ূ  ৣ  ঃ  ৃ  ং  ে  ু  ৗ  ী  ৈ
     numerals: ০ ১ ২ ৩ ৪ ৫ ৬ ৭ ৮ ৯
     script: Bengali
     status: primary
@@ -805,7 +805,7 @@ ast:
   orthographies:
   - autonym: Asturianu
     base: A B C D E F G H I L M N O P Q R S T U V X Y Z Á É Í Ñ Ó Ú Ü Ḥ Ḷ a b c d e f g h i l m n o p q r s t u v x y z á é í ñ ó ú ü ḥ ḷ
-    marks: ̣  ̃  ́  ̈
+    marks: ̈  ̃  ̣  ́
     script: Latin
     status: primary
   source:
@@ -821,7 +821,7 @@ atv:
   orthographies:
   - autonym: Алтайча
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ј Ҥ Ӧ Ӱ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ј ҥ ӧ ӱ
-    marks: ̈  ̆
+    marks: ̆  ̈
     script: Cyrillic
     status: primary
   source:
@@ -861,7 +861,7 @@ ava:
   orthographies:
   - autonym: Авар
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ӏ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
-    marks: ̈  ̆
+    marks: ̆  ̈
     script: Cyrillic
     status: primary
   source:
@@ -892,7 +892,7 @@ awa:
     auxiliary: ॐ
     base: अ आ इ ई उ ऊ ऋ ए ऐ ओ औ क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र ल व श ष स ह ऄ ‌ ‍
     design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
-    marks: ौ  ँ  ्  ा  ी  ू  ः  ृ  ं  ़  ै  ो  ु  ि  े
+    marks: ू  ृ  े  ँ  ा  ो  ी  ै  ौ  ु  ः  ं  ि  ्  ़
     numerals: ० १ २ ३ ४ ५ ६ ७ ८ ९ 0 1 2 3 4 5 6 7 8 9
     punctuation: । ॥ ॰
     script: Devanagari
@@ -991,12 +991,12 @@ azb:
   orthographies:
   - autonym: آذربایجانجا
     base: و ؤ ئ ا خ ع ن پ چ ژ ک گ ۆ ۇ ی ە ݣ ﺏ ﺕ ﺙ ﺝ ﺡ ﺩ ﺫ ﺭ ﺯ ﺱ ﺵ ﺹ ﺽ ﻁ ﻅ ﻍ ﻑ ﻕ ﻝ ﻡ ﻥ ﻩ ﻭ آ ج ب ذ ر
-    marks: ٓ  ْ  ٔ  ٛ
+    marks: ٓ  ْ  ٛ  ٔ
     note: Used in Iran.
     script: Arabic
     status: primary
   - base: A B C D E F G H I J K L M N O P Q R S T U V X Y Z Ç Ö Ü Ğ Ş Ə a b c d e f g h i j k l m n o p q r s t u v x y z ç ö ü ğ İ ı ş ə
-    marks: ̧  ̆  ̇  ̈
+    marks: ̆  ̇  ̈  ̧
     note: Used outside Iran.
     script: Latin
     status: primary
@@ -1016,7 +1016,7 @@ azj:
     script: Cyrillic
     status: primary
   - base: A B C D E F G H I J K L M N O P Q R S T U V X Y Z Ç Ö Ü Ğ Ş Ə a b c d e f g h i j k l m n o p q r s t u v x y z ç ö ü ğ İ ı ş ə ‘
-    marks: ̧  ̆  ̇  ̈
+    marks: ̆  ̇  ̈  ̧
     script: Latin
     status: primary
   source:
@@ -1031,11 +1031,11 @@ bak:
   orthographies:
   - autonym: Башҡортса
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ғ Ҙ Ҡ Ң Ҫ Ү Һ Ә Ө а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ғ ҙ ҡ ң ҫ ү һ ә ө
-    marks: ̈  ̆
+    marks: ̆  ̈
     script: Cyrillic
     status: primary
   - base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Ç Ö Ü Č Ğ Ķ Ņ Ś Ş Š Ź a b c d e f g h i j k l m n o p q r s t u v w x y z ä ç ö ü č ğ İ ı ķ ņ ś ş š ź
-    marks: ́  ̌  ̆  ̈  ̧  ̇
+    marks: ̌  ̈  ̧  ̆  ̇  ́
     script: Latin
     status: deprecated
   source:
@@ -1054,7 +1054,7 @@ bal:
   orthographies:
   - autonym: بلۏچی
     base: ء آ ا ب ت ج د ر ز س ش ل م ن ه و ٹ پ چ ڈ ژ ک گ ی ۏ ے ݔ ࢣ
-    marks: ٓ  ُ  ِ  َ
+    marks: ٓ  َ  ُ  ِ
     numerals: ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹ 0 1 2 3 4 5 6 7 8 9
     script: Arabic
     status: primary
@@ -1104,7 +1104,7 @@ bas:
   - autonym: Basaa
     auxiliary: Q X q x
     base: A B C D E F G H I J K L M N O P R S T U V W Y Z À Á Â È É Ê Ì Í Î Ò Ó Ô Ù Ú Û Ā Ē Ě Ī Ń Ŋ Ō Ū Ǎ Ǐ Ǒ Ǔ Ǹ Ɓ Ɔ Ɛ a b c d e f g h i j k l m n o p r s t u v w y z à á â è é ê ì í î ò ó ô ù ú û ā ē ě ī ń ŋ ō ū ǎ ǐ ǒ ǔ ǹ ɓ ɔ ɛ
-    marks: ́  ᷇  ̀  ̌  ᷆  ̂  ̄
+    marks: ̌  ̀  ̄  ᷆  ́  ̂  ᷇
     script: Latin
     status: primary
   source:
@@ -1172,12 +1172,12 @@ bel:
   - autonym: Беларуская
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё І Ў Ґ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё і ў ’ ґ
     design_note: Correct positioning of acute and grave accents above vowels is required. The breve accent uses a different shape from the one used in the Latin script.
-    marks: ̈  ̆
+    marks: ̆  ̈
     script: Cyrillic
     status: primary
   - autonym: Biełaruskaja
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ć Č Ł Ń Ś Š Ŭ Ź Ž a b c d e f g h i j k l m n o p q r s t u v w x y z ć č ł ń ś š ŭ ź ž
-    marks: ̌  ̆  ́
+    marks: ̆  ̌  ́
     script: Latin
     status: deprecated
   source:
@@ -1207,7 +1207,7 @@ ben:
   - autonym: বাংলা
     base: ৺ অ আ ই ঈ উ ঊ ঋ ৠ ঌ ৡ এ ঐ ও ঔ ক খ গ ঘ ঙ চ ছ জ ঝ ঞ ট ঠ ড ঢ ণ ত ৎ থ দ ধ ন প ফ ব ভ ম য র ল শ ষ স হ ঽ
     design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
-    marks: ্  ঁ  ়  ং  ে  ূ  ৢ  ি  া  ঃ  ৈ  ৃ  ী  ৗ  ু  ৣ  ৄ
+    marks: ্  ৢ  ়  ঁ  ৄ  ি  া  ূ  ৣ  ঃ  ৃ  ং  ে  ু  ৗ  ী  ৈ
     numerals: ০ ১ ২ ৩ ৪ ৫ ৬ ৭ ৮ ৯
     script: Bengali
     status: primary
@@ -1270,7 +1270,7 @@ bho:
   - autonym: 𑂦𑂷𑂔𑂣𑂳𑂩𑂲
     base: 𑂃 𑂄 𑂅 𑂆 𑂇 𑂈 𑂉 𑂊 𑂋 𑂌 𑂍 𑂎 𑂏 𑂐 𑂑 𑂒 𑂓 𑂔 𑂕 𑂖 𑂗 𑂘 𑂙 𑂚 𑂛 𑂜 𑂝 𑂞 𑂟 𑂠 𑂡 𑂢 𑂣 𑂤 𑂥 𑂦 𑂧 𑂨 𑂩 𑂪 𑂫 𑂬 𑂭 𑂮 𑂯
     design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
-    marks: 𑂸  𑂰  𑂂  𑂀  𑂳  𑂲  𑂵  𑂴  𑂺  𑂶
+    marks: 𑂀  𑂸  𑂶  𑂺  𑂴  𑂲  𑂰  𑂵  𑂳  𑂂
     numerals: ० १ २ ३ ४ ५ ६ ७ ८ ९ 0 1 2 3 4 5 6 7 8 9
     script: Kaithi
   source:
@@ -1340,7 +1340,7 @@ blt:
   - autonym: ꪼꪕꪒꪾ
     auxiliary: ꫛ ꫜ ꫝ ꫞ ꫟
     base: ꪀ ꪁ ꪂ ꪃ ꪄ ꪅ ꪆ ꪇ ꪈ ꪉ ꪊ ꪋ ꪌ ꪍ ꪎ ꪏ ꪐ ꪑ ꪒ ꪓ ꪔ ꪕ ꪖ ꪗ ꪘ ꪙ ꪚ ꪛ ꪜ ꪝ ꪞ ꪟ ꪠ ꪡ ꪢ ꪣ ꪤ ꪥ ꪦ ꪧ ꪨ ꪩ ꪪ ꪫ ꪬ ꪭ ꪮ ꪯ ꪱ ꪵ ꪶ ꪹ ꪺ ꪻ ꪼ ꪽ ꫀ ꫂ
-    marks: ꪲ  ꪰ  ꪿  ꪾ  ꪸ  ꪳ  ꫁  ꪴ  ꪷ
+    marks: ꪷ  ꪰ  ꫁  ꪴ  ꪾ  ꪲ  ꪸ  ꪳ  ꪿
     script: Tai viet
     status: primary
   source:
@@ -1369,7 +1369,7 @@ bod:
   - autonym: བོད་སྐད་
     base: ཀ ཁ ག ང ཅ ཆ ཇ ཉ ཏ ཐ ད ན པ ཕ བ མ ཙ ཚ ཛ ཝ ཞ ཟ འ ཡ ར ལ ཤ ས ཧ ཨ
     design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
-    marks: ུ  ི  ེ  ོ
+    marks: ི  ོ  ེ  ུ
     numerals: ༠ ༡ ༢ ༣ ༤ ༥ ༦ ༧ ༨ ༩
     punctuation: ༄  ༈ ་ ། ༎ ༔ ༺ ༻
     script: Tibetan
@@ -1404,7 +1404,7 @@ bpy:
   - autonym: বিষ্ণুপ্রিয়া মণিপুরী
     base: অ আ ই ঈ উ ঊ ঋ এ ঐ ও ঔ ক খ গ ঘ ঙ চ ছ জ ঝ ঞ ট ঠ ড ঢ ণ ত থ দ ধ ন প ফ ব ভ ম য র ল ৱ শ ষ স হ
     design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
-    marks: ্  ঁ  ়  ং  ে  ূ  া  ি  ঃ  ৈ  ী  ৃ  ৗ  ু
+    marks: ্  ়  ঁ  া  ি  ূ  ৃ  ঃ  ং  ে  ু  ৗ  ী  ৈ
     numerals: ০ ১ ২ ৩ ৪ ৫ ৬ ৭ ৮ ৯
     script: Bengali
     status: primary
@@ -1437,7 +1437,7 @@ brx:
     auxiliary: ॐ
     base: अ आ इ ई उ ऊ ऋ ए ऐ ओ औ क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र ल व श ष स ह ʼ ‌ ‍
     design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
-    marks: ौ  ँ  ्  ा  ी  ू  ः  ृ  ं  ़  ै  ो  ु  ि  े
+    marks: ू  ृ  े  ँ  ा  ो  ी  ै  ौ  ु  ः  ं  ि  ्  ़
     numerals: ० १ २ ३ ४ ५ ६ ७ ८ ९ 0 1 2 3 4 5 6 7 8 9
     punctuation: । ॥ ॰
     script: Devanagari
@@ -1476,7 +1476,7 @@ bug:
     status: primary
   - autonym: ᨅᨔ ᨕᨘᨁᨗ
     base: ᨀ ᨁ ᨂ ᨃ ᨄ ᨅ ᨆ ᨇ ᨈ ᨉ ᨊ ᨋ ᨌ ᨍ ᨎ ᨏ ᨐ ᨑ ᨒ ᨓ ᨔ ᨕ ᨖ ◌ ᨞ ᨟
-    marks: ᨛ  ᨗ  ᨙ  ᨚ  ᨘ
+    marks: ᨙ  ᨚ  ᨘ  ᨛ  ᨗ
     script: Lontara
   source:
   - Omniglot
@@ -1505,7 +1505,7 @@ bxm:
   orthographies:
   - autonym: Буряад
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ү Һ Ө а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ү һ ө
-    marks: ̈  ̆
+    marks: ̆  ̈
     script: Cyrillic
     status: primary
   - autonym: Buryaad
@@ -1527,7 +1527,7 @@ bxr:
   orthographies:
   - autonym: Буряад
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ү Һ Ө а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ү һ ө
-    marks: ̈  ̆
+    marks: ̆  ̈
     script: Cyrillic
     status: primary
   - autonym: Buryaad
@@ -1549,7 +1549,7 @@ bxu:
   orthographies:
   - autonym: Буряад
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ү Һ Ө а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ү һ ө
-    marks: ̈  ̆
+    marks: ̆  ̈
     script: Cyrillic
     status: primary
   - autonym: Buryaad
@@ -1700,7 +1700,7 @@ ccp:
   orthographies:
   - base: 𑄃 𑄄 𑄅 𑄆 𑄇 𑄈 𑄉 𑄊 𑄋 𑄌 𑄍 𑄎 𑄏 𑄐 𑄑 𑄒 𑄓 𑄔 𑄕 𑄖 𑄗 𑄘 𑄙 𑄚 𑄛 𑄜 𑄝 𑄞 𑄟 𑄠 𑄡 𑄢 𑄣 𑄤 𑄥 𑄦
     design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
-    marks: 𑄁  𑄪  𑄭  𑄨  𑄀  𑄰  𑄩  𑄫  𑄲  𑄱  𑄴  𑄬  𑄧  𑄳  𑄂
+    marks: 𑄳  𑄀  𑄁  𑄧  𑄪  𑄂  𑄭  𑄴  𑄱  𑄬  𑄨  𑄲  𑄫  𑄰  𑄩
     numerals: 𑄶 𑄷 𑄸 𑄹 𑄺 𑄻 𑄼 𑄽 𑄾 𑄿 0 1 2 3 4 5 6 7 8 9
     punctuation: 𑅁 𑅂 𑅃 𑅀
     script: Chakma
@@ -1732,7 +1732,7 @@ ces:
   orthographies:
   - autonym: Čeština
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á É Í Ó Ú Ý Č Ď Ě Ň Ř Š Ť Ů Ž a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ó ú ý č ď ě ň ř š ť ů ž
-    marks: ̌  ́  ̊
+    marks: ̊  ̌  ́
     script: Latin
     status: primary
   source:
@@ -1789,7 +1789,7 @@ che:
   orthographies:
   - autonym: Нохчийн мотт
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ӏ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
-    marks: ̈  ̆
+    marks: ̆  ̈
     script: Cyrillic
     status: primary
   source:
@@ -1847,7 +1847,7 @@ chu:
   orthographies:
   - autonym: Церковнослове́нскїй
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Ю Є Ѕ Џ Ѥ Ѩ Ѭ Ҁ І Ї Ѡ Ѣ Ѧ Ѫ Ѯ Ѱ Ѳ Ѵ Ѷ Ѻ Ѽ Ѿ Ꙁ Ꙋ Ꙍ Ꙗ Ꙃ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь ю є ѕ џ ѥ ѩ ѭ ҁ і ї ѡ ѣ ѧ ѫ ѯ ѱ ѳ ѵ ѷ ѻ ѽ ѿ ꙁ ꙋ ꙍ ꙗ ꙃ
-    marks: ̈  ̏  ́  ̆
+    marks: ̆  ̈  ́  ̏
     script: Cyrillic
     status: primary
   source:
@@ -1862,7 +1862,7 @@ chv:
   orthographies:
   - autonym: Чӑвашла
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ҫ Ӑ Ӗ Ӳ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҫ ӑ ӗ ӳ
-    marks: ̋  ̈  ̆
+    marks: ̆  ̈  ̋
     script: Cyrillic
     status: primary
   source:
@@ -1896,7 +1896,7 @@ cim:
   orthographies:
   - autonym: Zimbar
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä À È É Ì Ò Ó Ô Ö Ù Ü Ć a b c d e f g h i j k l m n o p q r s t u v w x y z ä à è é ì ò ó ô ö ù ü ć
-    marks: ̂  ̈  ́  ̀
+    marks: ̀  ̈  ́  ̂
     script: Latin
     status: primary
   source:
@@ -1911,7 +1911,7 @@ cji:
   orthographies:
   - autonym: Чамалалдуб
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ӏ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
-    marks: ̈  ̆
+    marks: ̆  ̈
     script: Cyrillic
     status: primary
   source:
@@ -1939,7 +1939,7 @@ cjs:
   orthographies:
   - autonym: Шор
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ғ Қ Ң Ӧ Ӱ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ғ қ ң ӧ ӱ
-    marks: ̈  ̆
+    marks: ̆  ̈
     script: Cyrillic
     status: primary
   source:
@@ -1967,7 +1967,7 @@ ckb:
   - autonym: Soranî
     auxiliary: Ḧ Ẍ ḧ ẍ '
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ç Ê Î Ş Û Ł Ň Ř Ü a b c d e f g h i j k l m n o p q r s t u v w x y z ç ê î ş û ł ň ř ü
-    marks: ̌  ̂  ̧  ̈
+    marks: ̌  ̧  ̈  ̂
     script: Latin
     status: primary
   - autonym: سۆرانی
@@ -1987,7 +1987,7 @@ ckt:
   orthographies:
   - autonym: Ԓыгъоравэтԓьэн
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ӄ Ӈ Ԓ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӄ ӈ ԓ ’
-    marks: ̈  ̆
+    marks: ̆  ̈
     script: Cyrillic
     status: primary
   source:
@@ -2013,7 +2013,7 @@ cmn:
     status: primary
   - autonym: Pǔtōnghuà
     base: A B C D E F G H I J K L M N O P Q R S T U W X Y Z a b c d e f g h i j k l m n o p q r s t u w x y z ü ê ā ē ī ō ū ǖ Ā Ē Ī Ō Ū Ǖ á é í ó ú ǘ Á É Í Ó Ú Ǘ ǎ ě ǐ ǒ ǔ ǚ Ǎ Ě Ǐ Ǒ Ǔ Ǚ à è ì ò ù ǜ À È Ì Ò Ù Ǜ
-    marks: ́  ̀  ̌  ̂  ̈  ̄
+    marks: ̌  ̈  ̀  ̄  ́  ̂
     note: Hànyǔ Pīnyīn (Hànyǔ Pīnyīn (pinyin)) is the official romanization system for Standard Mandarin Chinese in mainland China, Taiwan (ROC), and Singapore.
     script: Latin
     status: primary
@@ -2118,7 +2118,7 @@ cos:
   orthographies:
   - autonym: Corsu
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Â È Ì Ï Ü Ò Ù a b c d e f g h i j k l m n o p q r s t u v w x y z à â è ì ï ü ò ù
-    marks: ̀  ̂  ̈
+    marks: ̈  ̂  ̀
     script: Latin
     status: primary
   source:
@@ -2160,12 +2160,12 @@ crh:
   orthographies:
   - autonym: Къырымтатар
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё
-    marks: ̈  ̆
+    marks: ̆  ̈
     note: Widely used in Crimea.
     script: Cyrillic
   - autonym: Qırımtatar
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ç Ñ Ö Ü Ğ Ş a b c d e f g h i j k l m n o p q r s t u v w x y z ç ñ ö ü ğ ş ı
-    marks: ̃  ̧  ̆  ̈
+    marks: ̃  ̆  ̧  ̈
     script: Latin
     status: primary
   source:
@@ -2208,7 +2208,7 @@ csb:
   orthographies:
   - autonym: Kaszëbsczi
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ã É Ë Ò Ó Ô Ù Ą Ę Ł Ń Ś Ż a b c d e f g h i j k l m n o p q r s t u v w x y z ã é ë ò ó ô ù ą ę ł ń ś ż
-    marks: ́  ̀  ̨  ̃  ̂  ̈  ̇
+    marks: ̃  ̈  ̀  ̨  ̇  ́  ̂
     script: Latin
     status: primary
   source:
@@ -2249,7 +2249,7 @@ ctg:
   - autonym: চাটগাঁইয়া
     base: অ আ ই ঈ উ ঊ ঋ এ ঐ ও ঔ ক খ গ ঘ ঙ চ ছ জ ঝ ট ঠ ড ঢ ণ ত থ দ ধ ন প ফ ব ভ ম য র ল ৱ শ ষ স হ
     design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
-    marks: ্  ঁ  ়  ং  ে  ূ  া  ি  ঃ  ৈ  ী  ৃ  ৗ  ু
+    marks: ্  ়  ঁ  া  ি  ূ  ৃ  ঃ  ং  ে  ু  ৗ  ী  ৈ
     numerals: ০ ১ ২ ৩ ৪ ৫ ৬ ৭ ৮ ৯
     script: Bengali
     status: primary
@@ -2263,7 +2263,7 @@ cym:
   orthographies:
   - autonym: Cymraeg
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Á Â Ä È É Ê Ë Ì Í Î Ï Ò Ó Ô Ö Ù Ú Û Ü Ý Ÿ Ŵ Ŷ Ẁ Ẃ Ẅ Ỳ a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ä è é ê ë ì í î ï ò ó ô ö ù ú û ü ý ÿ ŵ ŷ ẁ ẃ ẅ ỳ
-    marks: ̂  ̈  ́  ̀
+    marks: ̀  ̈  ́  ̂
     script: Latin
     status: primary
   source:
@@ -2308,7 +2308,7 @@ dar:
   orthographies:
   - autonym: Дарган
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ӏ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
-    marks: ̈  ̆
+    marks: ̆  ̈
     script: Cyrillic
     status: primary
   source:
@@ -2337,7 +2337,7 @@ ddn:
   orthographies:
   - autonym: Dandawa
     base: A B Ɓ C D Ɖ Ɗ E Ɛ Ǝ F Ƒ G Ɣ H I Ɩ J K L M N O Ɔ U W Ʊ À Á Ǎ Â Ā È É Ě Ê Ē Ə Ì Í Ǐ Î Ī Ḿ Ǹ Ń Ň Ò Ó Ǒ Ô Ō Ù Ú Ǔ Û Ū Ã Ẽ Ĩ Ṍ Ṹ Ḛ Ḭ Ṵ a b ɓ c d ɖ ɗ e ɛ ǝ f ƒ g ɣ h i ɩ j k l m n o ɔ u w ʊ à á ǎ â ā è é ě ê ē ə ì í ǐ î ī ḿ ǹ ń ň ò ó ǒ ô ō ù ú ǔ û ū ã ẽ ĩ ṍ ṹ ḛ ḭ ṵ
-    marks: ́  ̀  ̌  ̃  ̂  ̄  ̰
+    marks: ̃  ̌  ̀  ̄  ̰  ́  ̂
     script: Latin
     status: primary
   source:
@@ -2416,7 +2416,7 @@ dgo:
     auxiliary: ॐ
     base: अ आ इ ई उ ऊ ऋ ए ऐ ओ औ क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र ल व श ष स ह ʼ ऽ ‌ ‍
     design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
-    marks: ौ  ँ  ्  ा  ी  ू  ः  ृ  ं  ़  ै  ो  ु  ि  े
+    marks: ू  ृ  े  ँ  ा  ो  ी  ै  ौ  ु  ः  ं  ि  ्  ़
     note: Used in India
     numerals: ० १ २ ३ ४ ५ ६ ७ ८ ९ 0 1 2 3 4 5 6 7 8 9
     punctuation: । ॥ ॰
@@ -2481,7 +2481,7 @@ diq:
   orthographies:
   - autonym: Dimlî
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ç Ê Î Û Ü Ş Ǧ a b c d e f g h i j k l m n o p q r s t u v w x y z ç ê î û ü İ ı ş ǧ
-    marks: ̌  ̂  ̈  ̧  ̇
+    marks: ̌  ̈  ̧  ̇  ̂
     script: Latin
     status: primary
   preferred_name: Dimli
@@ -2497,7 +2497,7 @@ div:
   orthographies:
   - autonym: ދިވެހި
     base: އ ކ ޅ ބ ރ ނ ށ ހ ޏ ގ ލ ތ ދ ފ މ ވ ޗ ޖ ޕ ޔ ޓ ޒ ޑ ސ ޱ ‎
-    marks: ޯ  ާ  ޫ  ެ  ަ  ް  ި  ު  ޭ  ީ  ޮ
+    marks: ު  ޫ  ަ  ޮ  ް  ޭ  ާ  ޯ  ީ  ެ  ި
     script: Thaana
     status: primary
   source:
@@ -2511,7 +2511,7 @@ dje:
   orthographies:
   - autonym: Zarmaciine
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ŋ Ɲ À Á Ã Ǎ Í Õ Ǒ Ô Š Ẽ Ě Ê Ž a b c d e f g h i j k l m n o p q r s t u v w x y z ŋ ɲ à á ã ǎ í õ ǒ ô š ẽ ě ê ž
-    marks: ́  ̀  ̌  ̃  ̂
+    marks: ̃  ̌  ̀  ́  ̂
     script: Latin
     status: primary
   source:
@@ -2527,7 +2527,7 @@ dlg:
   orthographies:
   - autonym: Дулҕан
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ү Һ Ӈ Ө Ҕ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ү һ ӈ ө ҕ
-    marks: ̈  ̆
+    marks: ̆  ̈
     script: Cyrillic
     status: primary
   source:
@@ -2542,7 +2542,7 @@ dng:
   orthographies:
   - autonym: Хуэйзў
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ў Җ Ң Ү Ә а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ў җ ң ү ә
-    marks: ̈  ̆
+    marks: ̆  ̈
     script: Cyrillic
     status: primary
   source:
@@ -2633,7 +2633,7 @@ dyu:
     status: primary
   - autonym: ߖߎ߬ߟߊ߬ߞߊ߲
     base: ߐ ߏ ߎ ߍ ߌ ߋ ߊ ߙ ߘ ߗ ߖ ߕ ߔ ߓ ߡ ߟ ߞ ߝ ߜ ߛ ߚ ߒ ߦ ߥ ߤ ߣ ߢ
-    marks: ߭  ߰  ߫  ߯  ߮  ߬  ߱
+    marks: ߰  ߫  ߭  ߯  ߬  ߱  ߮
     note: The use of N'Ko script is not widespread, due to the lack of official support.
     numerals: ߀ ߁ ߂ ߃ ߄ ߅ ߆ ߇ ߈ ߉
     script: N'Ko
@@ -2649,7 +2649,7 @@ dzo:
   - autonym: རྫོང་ཁ་
     base: ཀ ཁ ག ང ཅ ཆ ཇ ཉ ཏ ཐ ད ན པ ཕ བ མ ཙ ཚ ཛ ཝ ཞ ཟ འ ཡ ར ལ ཤ ས ཧ ཨ ཊ ཋ ཌ ཎ ཥ
     design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
-    marks: ྵ  ེ  ོ  ི  ུ
+    marks: ི  ུ  ེ  ྵ  ོ
     numerals: ༠ ༡ ༢ ༣ ༤ ༥ ༦ ༧ ༨ ༩
     script: Tibetan
     status: primary
@@ -2715,7 +2715,7 @@ emk:
     status: primary
   - autonym: ߡߊߣߌ߲ߞߊߞߊ߲
     base: ߐ ߏ ߎ ߍ ߌ ߋ ߊ ߙ ߘ ߗ ߖ ߕ ߔ ߓ ߡ ߟ ߞ ߝ ߜ ߛ ߚ ߒ ߦ ߥ ߤ ߣ ߢ
-    marks: ߭  ߰  ߫  ߯  ߮  ߬  ߱
+    marks: ߰  ߫  ߭  ߯  ߬  ߱  ߮
     numerals: ߀ ߁ ߂ ߃ ߄ ߅ ߆ ߇ ߈ ߉
     script: N'Ko
   source:
@@ -2729,7 +2729,7 @@ enf:
   orthographies:
   - autonym: Онэй база
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ҫ Ӈ Ԑ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҫ ӈ ԑ
-    marks: ̈  ̆
+    marks: ̆  ̈
     script: Cyrillic
     status: primary
   source:
@@ -2762,7 +2762,7 @@ enh:
   - autonym: Онэй база
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ҫ Ӈ Ԑ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҫ ӈ ԑ
     design_note: Characters Ҫ ҫ are sometimes represented with a cedilla instead of a descender (spike).
-    marks: ̈  ̆
+    marks: ̆  ̈
     script: Cyrillic
     status: primary
   source:
@@ -2777,7 +2777,7 @@ epo:
   orthographies:
   - autonym: Esperanto
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ĉ Ĝ Ĥ Ĵ Ŝ Ŭ a b c d e f g h i j k l m n o p q r s t u v w x y z ĉ ĝ ĥ ĵ ŝ ŭ
-    marks: ̂  ̆
+    marks: ̆  ̂
     script: Latin
     status: primary
   source:
@@ -2803,7 +2803,7 @@ ess:
   orthographies:
   - autonym: Юпик
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ў Қ Ң Ҳ Ҕ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ў қ ң ҳ ҕ ’
-    marks: ̈  ̆
+    marks: ̆  ̈
     script: Cyrillic
     status: primary
   source:
@@ -2896,7 +2896,7 @@ ewo:
   - autonym: Ewondo
     auxiliary: C J Q X c j q x
     base: A B D E F G H I K L M N O P R S T U V W Y Z À Á Â È É Ê Ì Í Î Ò Ó Ô Ù Ú Û Ě Ń Ŋ Ǎ Ǐ Ǒ Ǔ Ǹ Ɔ Ə Ɛ a b d e f g h i k l m n o p r s t u v w y z à á â è é ê ì í î ò ó ô ù ú û ě ń ŋ ǎ ǐ ǒ ǔ ǹ ɔ ə ɛ
-    marks: ̌  ̂  ́  ̀
+    marks: ̌  ̀  ́  ̂
     script: Latin
     status: primary
   source:
@@ -2912,7 +2912,7 @@ fao:
   orthographies:
   - autonym: Føroyskt
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á Å Æ Í Ð Ó Ø Ú Ý a b c d e f g h i j k l m n o p q r s t u v w x y z á å æ í ð ó ø ú ý
-    marks: ́  ̊
+    marks: ̊  ́
     script: Latin
     status: primary
   source:
@@ -2988,7 +2988,7 @@ fin:
   - autonym: Suomi
     auxiliary: Æ Õ Ø Ü Š Ž æ õ ø ü š ž
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Ö Å a b c d e f g h i j k l m n o p q r s t u v w x y z ä ö å
-    marks: ̈  ̊
+    marks: ̊  ̈
     script: Latin
     status: primary
   source:
@@ -3033,7 +3033,7 @@ fra:
   orthographies:
   - autonym: Français
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Â Æ Ç È É Ê Ë Î Ï Ô Ù Û Ü Ÿ Œ a b c d e f g h i j k l m n o p q r s t u v w x y z à â æ ç è é ê ë î ï ô ù û ü ÿ œ
-    marks: ́  ̀  ̂  ̈  ̧
+    marks: ̈  ̀  ̧  ̂  ́
     script: Latin
     status: primary
   source:
@@ -3050,7 +3050,7 @@ fry:
   orthographies:
   - autonym: Frysk
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Â Ä É Ê Ë Ï Ô Ö Ú Û Ü a b c d e f g h i j k l m n o p q r s t u v w x y z â ä é ê ë ï ô ö ú û ü
-    marks: ̂  ́  ̈
+    marks: ̈  ́  ̂
     script: Latin
     status: primary
   source:
@@ -3167,7 +3167,7 @@ fur:
   orthographies:
   - autonym: Furlan
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ç Â Ê Î Ô Û À È Ì Ò Ù a b c d e f g h i j k l m n o p q r s t u v w x y z ç â ê î ô û à è ì ò ù
-    marks: ̂  ̧  ̀
+    marks: ̧  ̂  ̀
     script: Latin
     status: primary
   source:
@@ -3208,12 +3208,12 @@ gag:
   name: Gagauz
   orthographies:
   - base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ӂ Ӓ Ӧ Ӱ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӂ ӓ ӧ ӱ
-    marks: ̈  ̆
+    marks: ̆  ̈
     script: Cyrillic
     status: deprecated
   - autonym: Gagauzça
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Ç Ê Ö Ü Ğ Ş Ţ Ș Ț a b c d e f g h i j k l m n o p q r s t u v w x y z ä ç ê ö ü ğ İ ı ş ţ ș ț
-    marks: ̆  ̂  ̈  ̦  ̧  ̇
+    marks: ̈  ̧  ̇  ̆  ̦  ̂
     script: Latin
     status: primary
   source:
@@ -3319,7 +3319,7 @@ gkp:
   orthographies:
   - autonym: Kpɛlɛwoo
     base: A B Ɓ D E Ɛ F G Ɣ I K L M N Ŋ O Ɔ P R S T U V W X Y Z a b ɓ d e ɛ f g ɣ i k l m n ŋ o ɔ p r s t u v w x y z
-    marks: ̂  ́  ̀
+    marks: ̀  ́  ̂
     script: Latin
     status: primary
   source:
@@ -3460,7 +3460,7 @@ grc:
   orthographies:
   - autonym: Ελληνικά
     base: Α Β Γ Δ Ε Ζ Η Θ Ι Κ Λ Μ Ν Ξ Ο Π Ρ Σ Τ Υ Φ Χ Ψ Ω Ά Έ Ή Ί Ό Ύ Ώ Ϊ Ϋ α β γ δ ε ζ η θ ι κ λ μ ν ξ ο π ρ ς σ τ υ φ χ ψ ω ά έ ή ί ό ύ ώ ϊ ϋ ἀ Ἀ ἄ Ἄ ᾄ ᾌ ἂ Ἂ ᾂ ᾊ ἆ Ἆ ᾆ ᾎ ᾀ ᾈ ἁ Ἁ ἅ Ἅ ᾅ ᾍ ἃ Ἃ ᾃ ᾋ ἇ Ἇ ᾇ ᾏ ᾁ ᾉ ᾴ ὰ Ὰ ᾲ ᾰ Ᾰ ᾶ ᾷ ᾱ Ᾱ ᾳ ᾼ ἐ Ἐ ἔ Ἔ ἒ Ἒ ἑ Ἑ ἕ Ἕ ἓ Ἓ ὲ Ὲ ἠ Ἠ ἤ Ἤ ᾔ ᾜ ἢ Ἢ ᾒ ᾚ ἦ Ἦ ᾖ ᾞ ᾐ ᾘ ἡ Ἡ ἥ Ἥ ᾕ ᾝ ἣ Ἣ ᾓ ᾛ ἧ Ἧ ᾗ ᾟ ᾑ ᾙ ῄ ὴ Ὴ ῂ ῆ ῇ ῃ ῌ ἰ Ἰ ἴ Ἴ ἲ Ἲ ἶ Ἶ ἱ Ἱ ἵ Ἵ ἳ Ἳ ἷ Ἷ ὶ Ὶ ῐ Ῐ ῖ ΐ ῒ ῗ ῑ Ῑ ὀ Ὀ ὄ Ὄ ὂ Ὂ ὁ Ὁ ὅ Ὅ ὃ Ὃ ὸ Ὸ ῤ ῥ Ῥ ὐ ὔ ὒ ὖ ὑ Ὑ ὕ Ὕ ὓ Ὓ ὗ Ὗ ὺ Ὺ ῠ Ῠ ῦ ΰ ῢ ῧ ῡ Ῡ ὠ Ὠ ὤ Ὤ ᾤ ᾬ ὢ Ὢ ᾢ ᾪ ὦ Ὦ ᾦ ᾮ ᾠ ᾨ ὡ Ὡ ὥ Ὥ ᾥ ᾭ ὣ Ὣ ᾣ ᾫ ὧ Ὧ ᾧ ᾯ ᾡ ᾩ ῴ ὼ Ὼ ῲ ῶ ῷ ῳ ῼ
-    marks: ̓  ́  ̀  ̆  ̈  ͂  ͅ  ̔  ̄
+    marks: ̈  ̀  ̄  ͂  ̔  ̆  ́  ̓  ͅ
     script: Greek
     status: primary
   preferred_name: Ancient Greek
@@ -3522,7 +3522,7 @@ guj:
     auxiliary: ॐ
     base: અ આ ઇ ઈ ઉ ઊ ઋ પ એ ઐ ઓ ઔ ક ખ ગ ઘ ઙ ચ છ જ ઝ ઞ ટ ઠ ડ ઢ ણ ત થ દ ધ ન ફ બ ભ મ ય ર લ વ શ ષ સ હ ળ
     design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
-    marks: ૌ  ઃ  ં  ૂ  ે  ૃ  ી  ુ  ્  ો  ૈ  િ  ા
+    marks: ો  ે  ુ  ૈ  ૌ  ી  ં  ૃ  ઃ  ૂ  િ  ્  ા
     numerals: ૦ ૧ ૨ ૩ ૪ ૫ ૬ ૭ ૮ ૯ 0 1 2 3 4 5 6 7 8 9
     punctuation: । ॥ ॰
     script: Gujarati
@@ -3566,7 +3566,7 @@ gwi:
   orthographies:
   - autonym: Dinju Zhuh K’yuu
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Ą È É Ę Ì Í Ò Ó Ǫ Ù Ú Ł a b c d e f g h i j k l m n o p q r s t u v w x y z à ą è é ę ì í ò ó ǫ ’ ù ú ł
-    marks: ́  ̨  ̀
+    marks: ̨  ́  ̀
     script: Latin
     status: primary
   source:
@@ -3581,7 +3581,7 @@ haa:
   orthographies:
   - autonym: Tr’ondëk Hwëch’in
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä À Â Ǎ Ą Ë a b c d e f g h i j k l m n o p q r s t u v w x y z ä à â ǎ ą ë ’
-    marks: ̀  ̌  ̨  ̂  ̈
+    marks: ̌  ̈  ̀  ̨  ̂
     script: Latin
     status: primary
   preferred_name: Hän
@@ -3612,7 +3612,7 @@ haj:
   - autonym: হাজং
     base: অ আ ই উ এ ঐ ও ঔ ক খ গ ঘ ঙ চ ছ জ ঝ ঞ ত থ দ ধ ন প ফ ব ভ ম র হ
     design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
-    marks: ্  ঁ  ়  ং  ে  া  ৈ  ি  ঃ  ৗ
+    marks: ্  ়  ঁ  া  ি  ঃ  ং  ে  ৗ  ৈ
     numerals: ০ ১ ২ ৩ ৪ ৫ ৬ ৭ ৮ ৯
     script: Bengali
     status: primary
@@ -3630,7 +3630,7 @@ hak:
     status: primary
   - autonym: hak ga wa
     base: A B C D E F G H I J K L M N O P Q R S T U W X Y Z a b c d e f g h i j k l m n o p q r s t u w x y z ü ê ā ē ī ō ū ǖ Ā Ē Ī Ō Ū Ǖ á é í ó ú ǘ Á É Í Ó Ú Ǘ ǎ ě ǐ ǒ ǔ ǚ Ǎ Ě Ǐ Ǒ Ǔ Ǚ à è ì ò ù ǜ À È Ì Ò Ù Ǜ
-    marks: ́  ̀  ̌  ̂  ̈  ̄
+    marks: ̌  ̈  ̀  ̄  ́  ̂
     note: Hànyǔ Pīnyīn (pinyin) romanization
     script: Latin
     status: primary
@@ -3722,7 +3722,7 @@ heb:
   - autonym: עברית
     auxiliary: ״ ׳ ־ ׃ ׆
     base: א ב ג ד ה ו ז ח ט י כ ך ל מ ם נ ן ס ע פ ף צ ץ ק ר ש ת
-    marks: ָ  ְ  ֱ  ׂ  ֲ  ֹ  ֵ  ֶ  ֻ  ּ  ִ  ׁ  ֳ  ַ
+    marks: ַ  ֱ  ֹ  ֶ  ְ  ֳ  ֵ  ָ  ׁ  ּ  ׂ  ִ  ֻ  ֲ
     script: Hebrew
     status: primary
   source:
@@ -3753,7 +3753,7 @@ hin:
     auxiliary: ॐ
     base: अ आ इ ई उ ऊ ऋ ए ऐ ओ औ क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र ल व श ष स ह ‌ ‍
     design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
-    marks: ौ  ँ  ्  ा  ी  ू  ः  ृ  ं  ़  ै  ो  ु  ि  े
+    marks: ू  ृ  े  ँ  ा  ो  ी  ै  ौ  ु  ः  ं  ि  ्  ़
     numerals: ० १ २ ३ ४ ५ ६ ७ ८ ९ 0 1 2 3 4 5 6 7 8 9
     punctuation: । ॥ ॰
     script: Devanagari
@@ -3855,7 +3855,7 @@ hun:
   orthographies:
   - autonym: Magyar
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á É Í Ó Ö Ú Ü Ő Ű a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ó ö ú ü ő ű
-    marks: ̋  ̈  ́
+    marks: ̈  ́  ̋
     script: Latin
     status: primary
   source:
@@ -3897,7 +3897,7 @@ huz:
   orthographies:
   - autonym: Гьонкьос
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ӏ Ә Ȧ Ӯ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ӏ ә ȧ ӯ
-    marks: ̄  ̆  ̇
+    marks: ̄  ̇  ̆
     script: Cyrillic
     status: primary
   source:
@@ -3938,7 +3938,7 @@ ibb:
   name: Ibibio
   orthographies:
   - base: A B D E F G H I Ị K M N Ñ O Ọ P R S T U Ʌ W Y a b d e f g h i ị k m n ñ o ọ p r s t u ʌ w y
-    marks: ̣  ̃
+    marks: ̃  ̣
     script: Latin
     status: primary
   source:
@@ -3952,7 +3952,7 @@ ibo:
   orthographies:
   - autonym: Igbo
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Á È É Ì Í Ò Ó Ù Ú Ā Ē Ī Ń Ō Ū Ị Ọ Ụ Ṅ Ẹ a b c d e f g h i j k l m n o p q r s t u v w x y z à á è é ì í ò ó ù ú ā ē ī ń ō ū ị ọ ụ ṅ ẹ
-    marks: ́  ̀  ̣  ̄  ̇
+    marks: ̀  ̄  ̇  ̣  ́
     script: Latin
     status: primary
   source:
@@ -4081,7 +4081,7 @@ inh:
   orthographies:
   - autonym: Гӏалгӏай
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ӏ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
-    marks: ̈  ̆
+    marks: ̆  ̈
     script: Cyrillic
     status: primary
   source:
@@ -4129,7 +4129,7 @@ itl:
   orthographies:
   - autonym: Итэнмэн
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Љ Њ Ў Ҳ Ӄ Ӆ Ӈ Ӑ Ә а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё љ њ ў ҳ ӄ ӆ ӈ ӑ ә
-    marks: ̈  ̆  ̊  ́
+    marks: ̊  ̆  ̈  ́
     script: Cyrillic
     status: primary
   source:
@@ -4186,7 +4186,7 @@ jct:
   orthographies:
   - autonym: Кърымчах
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ӧ Ӱ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ӧ ӱ
-    marks: ̈  ̆
+    marks: ̆  ̈
     script: Cyrillic
     status: primary
   source:
@@ -4201,12 +4201,12 @@ jdt:
   orthographies:
   - autonym: Жугьури
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ӏ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
-    marks: ̈  ̆
+    marks: ̆  ̈
     script: Cyrillic
     status: primary
   - autonym: ז׳אוּהאוּראִ
     base: א ב ג ד ה ו ז ח י כ ל מ נ ס ע פ צ ק ר ש ת ׳
-    marks: ָ  ִ  ַ  ּ
+    marks: ָ  ַ  ּ  ִ
     note: Regaining popularity.
     script: Hebrew
   - autonym: Çuhuri
@@ -4226,7 +4226,7 @@ jgo:
   - autonym: Cú-Mbɔ́ndaa
     auxiliary: E O Q R X e o q r x
     base: A B C D F G H I J K L M N P S T U V W Y Z Á Â Í Î Ú Û Ń Ŋ Ǎ Ǐ Ǔ Ǹ Ɔ Ɛ Ʉ Ḿ Ẅ Ꞌ a b c d f g h i j k l m n p s t u v w y z á â í î ú û ń ŋ ǎ ǐ ǔ ǹ ɔ ɛ ʉ ḿ ẅ ꞌ
-    marks: ́  ̀  ̌  ̂  ̈  ̄
+    marks: ̌  ̈  ̀  ̄  ́  ̂
     script: Latin
     status: primary
   source:
@@ -4300,12 +4300,12 @@ kaa:
   orthographies:
   - autonym: Қарақалпақ
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ў Ғ Қ Ң Ү Ҳ Ә Ө а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ў ғ қ ң ү ҳ ә ө
-    marks: ̈  ̆
+    marks: ̆  ̈
     script: Cyrillic
     status: secondary
   - autonym: Qaraqalpaq
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á Ǵ Ń Ú a b c d e f g h i j k l m n o p q r s t u v w x y z á İ ı ǵ ń ú
-    marks: ́  ̇
+    marks: ̇  ́
     script: Latin
     status: primary
   source:
@@ -4321,7 +4321,7 @@ kab:
   - autonym: Taqbaylit
     auxiliary: O V o v
     base: A B C D E F G H I J K L M N P Q R S T U W X Y Z Č Ǧ Ɛ Ɣ Ḍ Ḥ Ṛ Ṣ Ṭ Ẓ a b c d e f g h i j k l m n p q r s t u w x y z č ǧ ɛ ɣ ḍ ḥ ṛ ṣ ṭ ẓ
-    marks: ̣  ̌
+    marks: ̌  ̣
     script: Latin
     status: primary
   source:
@@ -4338,7 +4338,7 @@ kal:
   - autonym: Kalaallisut
     auxiliary: À Ì Ù à ì ù
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á Â Ã Å Æ Ê Í Î Ĩ Ô Ø Ú Û Ũ a b c d e f g h i j k l m n o p q r s t u v w x y z á â ã å æ ê í î ĩ ô ø ú û ĸ ũ
-    marks: ̃  ̂  ́  ̊
+    marks: ̃  ̊  ́  ̂
     note: Alphabet invented by Samuel Kleinschmidt. Used until 1973.
     script: Latin
     status: deprecated
@@ -4376,7 +4376,7 @@ kan:
   - autonym: ಕನ್ನಡ
     base: ಕ ಖ ಗ ಘ ಙ ಚ ಛ ಜ ಝ ಞ ಟ ಠ ಡ ಢ ಣ ತ ಥ ದ ಧ ನ ಪ ಫ ಬ ಭ ಮ ಯ ರ ಲ ವ ಶ ಷ ಸ ಹ ಳ ಅ ಆ ಇ ಈ ಉ ಊ ಋ ೠ ಎ ಏ ಐ ಒ ಓ ಔ
     design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
-    marks: ಃ  ೆ  ೖ  ಾ  ಿ  ಂ  ್  ೕ  ೌ  ೄ  ೂ  ೃ  ು
+    marks: ೆ  ೌ  ಿ  ಃ  ೄ  ೖ  ೃ  ು  ಂ  ೂ  ಾ  ್  ೕ
     numerals: ೧ ೨ ೩ ೪ ೫ ೬ ೭ ೮ ೯ ೦
     script: Kannada
     status: primary
@@ -4439,7 +4439,7 @@ kaz:
   orthographies:
   - autonym: Қазақ тілі
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё І Ғ Қ Ң Ү Ұ Һ Ә Ө а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё і ғ қ ң ү ұ һ ә ө
-    marks: ̈  ̆
+    marks: ̆  ̈
     script: Cyrillic
     status: primary
   source:
@@ -4455,7 +4455,7 @@ kbd:
   orthographies:
   - autonym: Адыгэбзэ
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ӏ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
-    marks: ̈  ̆
+    marks: ̆  ̈
     script: Cyrillic
     status: primary
   source:
@@ -4487,7 +4487,7 @@ kca:
   orthographies:
   - autonym: Ханты
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Є Ў Қ Ң Ҳ Ҷ Ӆ Ӈ Ӑ Ӓ Ә Ӛ Ӧ Ө Ӫ Ӱ Ԓ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё є ў қ ң ҳ ҷ ӆ ӈ ӑ ӓ ә ӛ ӧ ө ӫ ӱ ԓ
-    marks: ̈  ̆
+    marks: ̆  ̈
     script: Cyrillic
     status: primary
   source:
@@ -4528,7 +4528,7 @@ kdr:
   orthographies:
   - autonym: Къарай
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ӧ Ӱ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ӧ ӱ
-    marks: ̈  ̆
+    marks: ̆  ̈
     script: Cyrillic
     status: primary
   source:
@@ -4543,7 +4543,7 @@ kea:
   orthographies:
   - autonym: Kabuverdianu
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Á Â Ã Ç È É Ê Í Ò Ó Ô Õ Ú Ü a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ã ç è é ê í ò ó ô õ ú ü
-    marks: ́  ̀  ̃  ̂  ̈  ̧
+    marks: ̃  ̈  ̀  ̧  ́  ̂
     script: Latin
     status: primary
   source:
@@ -4572,7 +4572,7 @@ ket:
   orthographies:
   - autonym: Остыганна ӄа’
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ӄ Ӈ Ә Ө Ӷ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӄ ӈ ә ө ӷ ’
-    marks: ̈  ̆
+    marks: ̆  ̈
     script: Cyrillic
     status: primary
   source:
@@ -4629,7 +4629,7 @@ khk:
   orthographies:
   - autonym: Монгол
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ү Ө а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ү ө
-    marks: ̈  ̆
+    marks: ̆  ̈
     script: Cyrillic
     status: primary
   source:
@@ -4645,7 +4645,7 @@ khm:
   - autonym: ភាសាខ្មែរ
     base: ក ខ គ ឃ ង ច ឆ ជ ឈ ញ ដ ឋ ឌ ឍ ណ ត ថ ទ ធ ន ប ផ ព ភ ម យ រ ល វ ស ហ ឡ អ ឥ ឦ ឧ ឩ ឪ ឫ ឬ ឭ ឮ ឯ ឰ ឱ ឲ ឳ
     design_note: Mark positioning and some character combinations have to be resolved to properly represent the language.
-    marks: ូ  ំ  ៅ  ី  ៀ  ៊  ោ  ឺ  ួ  ់  ែ  ៈ  ះ  ិ  ៉  ៃ  ្  េ  ឹ  ឿ  ័  ើ  ៍  ុ  ា
+    marks: ៃ  ំ  ោ  ៍  ់  ើ  ួ  េ  ៀ  ិ  ា  ៉  ៅ  ី  ្  ៊  ឹ  ឺ  ូ  ែ  ឿ  ័  ះ  ៈ  ុ
     script: Latin
     status: primary
   source:
@@ -4704,7 +4704,7 @@ kir:
   orthographies:
   - autonym: Кыргызча
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ң Ү Ө а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ң ү ө
-    marks: ̈  ̆
+    marks: ̆  ̈
     script: Cyrillic
     status: primary
   source:
@@ -4719,7 +4719,7 @@ kiu:
   orthographies:
   - autonym: Shar Ma
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ç Ê Ǧ Î Ş Û a b c d e f g h i j k l m n o p q r s t u v w x y z ç ê ǧ î ş û
-    marks: ̌  ̂  ̧
+    marks: ̌  ̧  ̂
     script: Latin
     status: primary
   preferred_name: Kirmanjki
@@ -4733,7 +4733,7 @@ kjh:
   orthographies:
   - autonym: Хакас
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё І Ғ Ң Ӌ Ӧ Ӱ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё і ғ ң ӌ ӧ ӱ
-    marks: ̈  ̆
+    marks: ̆  ̈
     script: Cyrillic
     status: primary
   source:
@@ -4763,7 +4763,7 @@ kkh:
   orthographies:
   - autonym: ᨴᩱ᩠ᨿᨡᩨ᩠ᨶ
     base: ᨠ ᨡ ᩉ ᨦ ᨧ ᨨ ᨬ ᨭ ᨣ ᨤ ᨥ ᨩ ᨫ ᨮ ᨲ ᨳ ᨶ ᨸ ᨹ ᨺ ᨰ ᨱ ᨴ ᨵ ᨻ ᨽ ᨼ ᨾ ᩃ ᩁ ᩅ ᩆ ᩇ ᨿ ᩓ ᩈ ᩔ ᨪ ᩌ ᩊ ᨯ ᨷ ᩀ ᩋ ᩍ ᩎ ᩏ ᩐ ᩑ ᩒ ᩂ ᩄ
-    marks: ᩣ  ᩖ  ᩱ  ᩠
+    marks: ᩣ  ᩖ  ᩠  ᩱ
     script: Tham
     status: primary
   source:
@@ -4778,7 +4778,7 @@ kkj:
   - autonym: Kakɔ
     auxiliary: Q X Z q x z
     base: A B C D E F G H I J K L M N O P R S T U V W Y À Á Â È É Ê Ì Í Î Ò Ó Ô Ù Ú Û Ŋ Ǌ Ɓ Ɔ Ɗ Ɛ a b c d e f g h i j k l m n o p r s t u v w y à á â è é ê ì í î ò ó ô ù ú û ŋ ǌ ɓ ɔ ɗ ɛ
-    marks: ̂  ̧  ́  ̀
+    marks: ̧  ̂  ́  ̀
     script: Latin
     status: primary
   source:
@@ -4832,17 +4832,17 @@ kmr:
   - autonym: Kurmancî
     auxiliary: Ḧ Ẍ ḧ ẍ '
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ç Ê Î Ş Û a b c d e f g h i j k l m n o p q r s t u v w x y z ç ê î ş û
-    marks: ̂  ̧
+    marks: ̧  ̂
     script: Latin
     status: secondary
   - autonym: Kurmancî
     auxiliary: Ḧ Ẍ ḧ ẍ '
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ç Ê Î Ş Û Ł Ň Ř Ü a b c d e f g h i j k l m n o p q r s t u v w x y z ç ê î ş û ł ň ř ü
-    marks: ̌  ̂  ̧  ̈
+    marks: ̌  ̧  ̈  ̂
     note: Used in Turkey, Syria, Iraq and Iran.
     script: Latin
   - base: А Б В Г Д Е Ә Ж З Й К Л М Н О Ӧ П Р С Т У Ф Х Һ Ч Ш Щ Ь Э Ԛ Ԝ а б в г д е ә ж з й к л м н о ӧ п р с т у ф х һ ч ш щ ь э ԛ ԝ '
-    marks: ̈  ̆
+    marks: ̆  ̈
     note: Used in Russia and Armenia.
     script: Cyrillic
     status: primary
@@ -4871,7 +4871,7 @@ koi:
   orthographies:
   - autonym: Перем Коми
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё І Ӧ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё і ӧ
-    marks: ̈  ̆
+    marks: ̆  ̈
     script: Cyrillic
     status: primary
   source:
@@ -4987,7 +4987,7 @@ kpv:
   orthographies:
   - autonym: Коми
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё І Ӧ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё і ӧ
-    marks: ̈  ̆
+    marks: ̆  ̈
     script: Cyrillic
     status: primary
   source:
@@ -5002,7 +5002,7 @@ kpy:
   orthographies:
   - autonym: Нымылг’ын
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ӄ Ӈ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӄ ӈ ’
-    marks: ̈  ̆
+    marks: ̆  ̈
     note: The sources partially disagree. Wikipedia notes қ ң instead of ӄ ӈ.
     script: Cyrillic
     status: primary
@@ -5044,7 +5044,7 @@ krc:
   orthographies:
   - autonym: Къарачай-Малкъар
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ў а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ў
-    marks: ̈  ̆
+    marks: ̆  ̈
     script: Cyrillic
     status: primary
   source:
@@ -5118,7 +5118,7 @@ ksh:
   - autonym: Kölsch
     auxiliary: À Á Â Ã Ç È É Ê Ì Í Î Ï Ñ Ò Ó Ô Ø Ù Ú Û Ÿ Ā Ă Ē Ĕ Ğ Ī Ĭ Ĳ Ł Ō Ŏ Ū Ŭ ẞ à á â ã ç è é ê ì í î ï ñ ò ó ô ø ù ú û ÿ ā ă ē ĕ ğ ī ĭ ı ĳ ł ō ŏ ū ŭ
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Å Æ Ë Ö Ü Ė Œ Ů a b c d e f g h i j k l m n o p q r s t u v w x y z ß ä å æ ë ö ü ė œ ů
-    marks: ̈  ̇  ̊
+    marks: ̊  ̇  ̈
     script: Latin
     status: primary
   source:
@@ -5160,7 +5160,7 @@ kum:
   orthographies:
   - autonym: Къумукъ
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё
-    marks: ̈  ̆
+    marks: ̆  ̈
     script: Cyrillic
     status: primary
   source:
@@ -5221,7 +5221,7 @@ lao:
   - autonym: ພາສາລາວ
     base: ກ ຂ ຄ ງ ຈ ສ ຊ ຍ ດ ຕ ຖ ທ ນ ບ ປ ຜ ຝ ພ ຟ ມ ຢ ຣ ລ ວ ຫ ອ ຮ ◌ ະ າ ເ ແ ໂ ຽ
     design_note: Mark positioning and some character combinations have to be resolved to properly represent the language.
-    marks: ິ  ົ  ູ  ື  ີ  ຸ  ັ  ໍ  ຶ
+    marks: ົ  ຸ  ໍ  ີ  ິ  ູ  ັ  ື  ຶ
     numerals: ໐ ໑ ໒ ໓ ໔ ໕ ໖ ໗ ໘ ໙
     script: Lao
     status: primary
@@ -5250,7 +5250,7 @@ lbe:
   orthographies:
   - autonym: Лак
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ӏ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
-    marks: ̈  ̆
+    marks: ̆  ̈
     script: Cyrillic
     status: primary
   source:
@@ -5265,7 +5265,7 @@ lez:
   orthographies:
   - autonym: Лезги
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ӏ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
-    marks: ̈  ̆
+    marks: ̆  ̈
     script: Cyrillic
     status: primary
   source:
@@ -5281,7 +5281,7 @@ lia:
   - autonym: Hulimba
     auxiliary: Ñ Ɔ ñ ɔ
     base: A B C D E Ɛ F G H I J K L M N Ň Ŋ O Ọ P Q R S T U V W Z a b c d e ɛ f g h i j k l m n ň ŋ o ọ p q r s t u v w z
-    marks: ̣  ̌
+    marks: ̌  ̣
     script: Latin
     status: primary
   source:
@@ -5295,7 +5295,7 @@ lij:
   orthographies:
   - autonym: Ligure
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Á Â Ä Æ È É Ê Ë Ì Í Î Ï Ò Ó Ô Ö Ù Ú a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ä æ è é ê ë ì í î ï ò ó ô ö ù ú
-    marks: ̂  ̈  ́  ̀
+    marks: ̀  ̈  ́  ̂
     script: Latin
     status: primary
   source:
@@ -5310,7 +5310,7 @@ lin:
   - autonym: Lingala
     auxiliary: J Q X j q x
     base: A B C D E F G H I K L M N O P R S T U V W Y Z Á Â É Ê Í Î Ó Ô Ú Ě Ǎ Ǐ Ǒ Ɔ Ɛ a b c d e f g h i k l m n o p r s t u v w y z á â é ê í î ó ô ú ě ǎ ǐ ǒ ɔ ɛ
-    marks: ̌  ̂  ́
+    marks: ̌  ́  ̂
     script: Latin
     status: primary
   source:
@@ -5326,7 +5326,7 @@ lit:
   orthographies:
   - autonym: Lietuviškai
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ą Č Ė Ę Į Š Ū Ų Ž a b c d e f g h i j k l m n o p q r s t u v w x y z ą č ė ę į š ū ų ž
-    marks: ̌  ̨  ̄  ̇
+    marks: ̄  ̨  ̌  ̇
     script: Latin
     status: primary
   source:
@@ -5359,7 +5359,7 @@ lld:
   orthographies:
   - autonym: Ladin
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Á Â È É Ê Ë Ì Î Ò Ó Ô Ö Ù Û Ü Ć Ś a b c d e f g h i j k l m n o p q r s t u v w x y z à á â è é ê ë ì î ò ó ô ö ù û ü ć ś
-    marks: ̂  ̈  ́  ̀
+    marks: ̀  ̈  ́  ̂
     script: Latin
     status: primary
   source:
@@ -5374,7 +5374,7 @@ lmo:
   orthographies:
   - autonym: Lombard
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Á È É Ì Í Ò Ó Ô Ø Ù Ü a b c d e f g h i j k l m n o p q r s t u v w x y z à á è é ì í ò ó ô ø ù ü
-    marks: ̂  ̈  ́  ̀
+    marks: ̀  ̈  ́  ̂
     script: Latin
     status: primary
   source:
@@ -5440,7 +5440,7 @@ ltg:
   - autonym: Latgalīšu
     auxiliary: Q W X q w x
     base: A Ā B C Č D E Ē F G Ģ H I Ī J K Ķ L Ļ M N Ņ O Ō P R S Š T U Ū V Y Z Ž a ā b c č d e ē f g ģ h i ī j k ķ l ļ m n ņ o ō p r s š t u ū v y z ž
-    marks: ̌  ̄  ̧
+    marks: ̄  ̌  ̧
     script: Latin
     status: primary
   source:
@@ -5455,7 +5455,7 @@ ltz:
   - autonym: Lëtzebuergesch
     auxiliary: ẞ
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Â Ä È É Ê Ë Î Ô Ö Û Ü a b c d e f g h i j k l m n o p q r s t u v w x y z ß â ä è é ê ë î ô ö û ü
-    marks: ̂  ̈  ́  ̀
+    marks: ̀  ̈  ́  ̂
     script: Latin
     status: primary
   source:
@@ -5547,7 +5547,7 @@ lvs:
   - autonym: Latviešu
     auxiliary: Q W X Y q w x y
     base: A Ā B C Č D E Ē F G Ģ H I Ī J K Ķ L Ļ M N Ņ O P R S Š T U Ū V Z Ž a ā b c č d e ē f g ģ h i ī j k ķ l ļ m n ņ o p r s š t u ū v z ž
-    marks: ̌  ̄  ̧
+    marks: ̄  ̌  ̧
     script: Latin
     status: primary
   source:
@@ -5568,7 +5568,7 @@ mad:
     status: primary
   - autonym: ꦧꦱꦴꦩꦝꦸꦫꦴ
     base: ꦄ ꦆ ꦈ ꦌ ꦎ ꦲ ꦤ ꦕ ꦗ ꦫ ꦏ ꦒ ꦢ ꦠ ꦱ ꦮ ꦭ ꦥ ꦧ ꦣ ꦪ ꦚ ꦩ ꦛ ꦔ ꦝ
-    marks: ꦼ  ꦴ  ꦃ
+    marks: ꦃ  ꦼ  ꦴ
     script: Javanese
     status: secondary
   source:
@@ -5584,7 +5584,7 @@ mag:
     auxiliary: ॐ
     base: अ आ इ ई उ ऊ ऋ ए ऐ ओ औ क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र ल व श ष स ह ऎ ऒ ॳ ॴ ॵ ʼ ‌ ‍
     design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
-    marks: ः  ँ  ू  ्  ं  ऻ  े  ौ  ॊ  ृ  ऺ  ो  ु  ा  ी  ॆ  ॏ  ़  ै  ि
+    marks: ॆ  ृ  ो  ौ  ि  ू  ॏ  ै  ा  ी  ़  े  ऺ  ऻ  ॊ  ः  ँ  ु  ं  ्
     numerals: ० १ २ ३ ४ ५ ६ ७ 0 1 2 3 4 5 6 7 8 9
     punctuation: । ॥ ॰
     script: Devanagari
@@ -5600,7 +5600,7 @@ mah:
   orthographies:
   - autonym: Kajin M̧ajeļ
     base: A Ā B D E I J K L Ḷ M N Ņ O Ō P R T U Ū W a ā b d e i j k l ḷ m n ņ o ō p r t u ū w
-    marks: ̣  ̄  ̧
+    marks: ̄  ̧  ̣
     script: Latin
     status: primary
   source:
@@ -5617,7 +5617,7 @@ mai:
     auxiliary: ॐ
     base: अ आ इ ई उ ऊ ऋ ए ऐ ओ औ क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र ल व श ष स ह ऎ ऒ ॳ ॴ ॵ ʼ ऽ ‌ ‍
     design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
-    marks: ः  ँ  ू  ्  ं  ऻ  े  ौ  ॊ  ृ  ऺ  ो  ु  ा  ी  ॆ  ॏ  ़  ै  ि
+    marks: ॆ  ृ  ो  ौ  ि  ू  ॏ  ै  ा  ी  ़  े  ऺ  ऻ  ॊ  ः  ँ  ु  ं  ्
     numerals: ० १ २ ३ ४ ५ ६ ७ 0 1 2 3 4 5 6 7 8 9
     punctuation: । ॥ ॰
     script: Devanagari
@@ -5634,7 +5634,7 @@ mal:
   - autonym: മലയാളം
     base: അ ആ ഇ ഈ ഉ ഊ ഋ ഌ എ ഏ ഐ ഒ ഓ ഔ ക ഖ ഗ ഘ ങ ച ഛ ജ ഝ ഞ ട ഠ ഡ ഢ ണ ത ഥ ദ ധ ന പ ഫ ബ ഭ മ യ ര റ ല ള ഴ വ ശ ഷ സ ഹ ൠ ൡ ൺ ൻ ർ ൽ ൾ ൿ
     design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
-    marks: ി  ്  ൂ  ു  ൗ  ം  ഃ  േ  ാ  െ  ൈ  ൃ  ീ
+    marks: ു  ൗ  ഃ  ാ  േ  ം  ൃ  ൂ  ്  ി  െ  ീ  ൈ
     numerals: ൦ ൧ ൨ ൩ ൪ ൫ ൬ ൭ ൮ ൯
     script: Malayalam
     status: primary
@@ -5666,7 +5666,7 @@ mar:
     auxiliary: ॐ
     base: अ आ इ ई उ ऊ ऋ ए ऐ ओ औ क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र ल ळ व श ष स ह ‌ ‍
     design_note: Marathi Devanagari (also called Balbodh) uses different shapes for some of the characters compared to the Hindi version, e.g. र (eyelash reph), ल, श, and some ligatures. Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
-    marks: ौ  ँ  ्  ा  ी  ू  ः  ृ  ं  ़  ै  ो  ु  ि  े
+    marks: ू  ृ  े  ँ  ा  ो  ी  ै  ौ  ु  ः  ं  ि  ्  ़
     numerals: ० १ २ ३ ४ ५ ६ ७ 0 1 2 3 4 5 6 7 8 9
     punctuation: । ॥ ॰
     script: Devanagari
@@ -5682,7 +5682,7 @@ mas:
   orthographies:
   - autonym: Maa
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Á Â È É Ê Ì Í Î Ɔ Ɛ Ɨ Ʉ Ò Ó Ô Ù Ú Û Ŋ a b c d e f g h i j k l m n o p q r s t u v w x y z à á â è é ê ì í î ɔ ɛ ɨ ʉ ò ó ô ù ú û ŋ
-    marks: ̂  ́  ̀
+    marks: ̀  ́  ̂
     script: Latin
     status: primary
   source:
@@ -5698,7 +5698,7 @@ maz:
   orthographies:
   - autonym: Jñatrjo
     base: A B C D E G H I J L M N Ñ O P R S T U V X Z Ⱥ Ɇ Ʉ a b c d e g h i j l m n ñ o p r s t u v x z ' ⱥ ɇ ʉ
-    marks: ̃  ̵  ̱
+    marks: ̱  ̃  ̵
     script: Latin
     status: primary
   source:
@@ -5740,7 +5740,7 @@ mdf:
   orthographies:
   - autonym: Мокшень кяль
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё
-    marks: ̈  ̆
+    marks: ̆  ̈
     script: Cyrillic
     status: primary
   source:
@@ -5840,7 +5840,7 @@ mhr:
   orthographies:
   - autonym: Олык Марий
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ҥ Ӧ Ӱ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҥ ӧ ӱ
-    marks: ̈  ̆
+    marks: ̆  ̈
     script: Cyrillic
     status: primary
   source:
@@ -5870,7 +5870,7 @@ min:
   orthographies:
   - autonym: Baso Minangkabau
     base: A B C D E F G H I J K L M N O P Q R S T U W Y Ē Ñ a b c d e f g h i j k l m n o p q r s t u w y ē ñ
-    marks: ̃  ̄
+    marks: ̄  ̃
     script: Latin
     status: primary
   source:
@@ -5884,7 +5884,7 @@ miq:
   orthographies:
   - autonym: Mískitu
     base: A B D H I J K L M N O P R S T U W Z Â Î Í a b d h i j k l m n o p r s t u w z â î í
-    marks: ̂  ́
+    marks: ́  ̂
     script: Latin
     status: primary
   source:
@@ -5926,12 +5926,12 @@ mlg:
   orthographies:
   - autonym: Malagasy
     base: A B D E F G H I J K L M N O P R S T V Y Z À Â È É Ê Ë Ì Î Ï Ñ Ô a b d e f g h i j k l m n o p r s t v y z à â è é ê ë ì î ï ñ ô
-    marks: ́  ̀  ̃  ̂  ̈
+    marks: ̃  ̈  ̀  ́  ̂
     script: Latin
     status: primary
   - autonym: Malagasy
     base: A B D E F G H I J K L M N O P R S T V Y Z À Â È É Ê Ë Ì Î Ï Ô a b d e f g h i j k l m n o p r s t v y z à â è é ê ë ì î ï ô
-    marks: ̂  ̈  ́  ̀
+    marks: ̀  ̈  ́  ̂
     script: Latin
     status: secondary
   preferred_as_individual: true
@@ -5948,7 +5948,7 @@ mlt:
   orthographies:
   - autonym: Malti
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À È Ì Î Ò Ù Ċ Ġ Ħ Ż a b c d e f g h i j k l m n o p q r s t u v w x y z à è ì î ò ù ċ ġ ħ ż
-    marks: ̂  ̇  ̀
+    marks: ̇  ̂  ̀
     script: Latin
     status: primary
   source:
@@ -5966,7 +5966,7 @@ mni:
   - autonym: মৈতৈলোন্‎
     base: অ আ ই উ এ ঐ ও ঔ ক খ গ ঘ ঙ চ জ ঝ ঞ ত থ দ ধ ন প ফ ব ভ ম ৰ র ল ৱ স হ
     design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
-    marks: ্  ঁ  ়  ং  ে  া  ৈ  ি  ঃ  ৗ  ু
+    marks: ্  ়  ঁ  া  ি  ঃ  ং  ে  ৗ  ু  ৈ
     numerals: ০ ১ ২ ৩ ৪ ৫ ৬ ৭ ৮ ৯
     script: Bengali
     status: primary
@@ -5997,7 +5997,7 @@ mnw:
   - autonym: ဘာသာ မန်
     base: က ခ ဂ ဃ င စ ဆ ဇ ဈ ဉ ည ဋ ဌ ဍ ဎ ဏ တ ထ ဒ ဓ န ပ ဖ ဗ ဘ မ ယ ရ လ ဝ သ ဟ ဠ အ ဢ ဣ ဤ ဥ ဦ ဧ ဨ ဩ ဪ ဿ ၀ ၁ ၂ ၃ ၄ ၅ ၆ ၇ ၈ ၉ ၊ ။ ၌ ၍ ၎ ၏ ၐ ၑ ၒ ၓ ၔ ၕ ၚ ၛ ၜ ၝ ၡ ၥ ၦ ၮ ၯ ၰ ၵ ၶ ၷ ၸ ၹ ၺ ၻ ၼ ၽ ၾ ၿ ႀ ႁ ႎ ႐ ႑ ႒ ႓ ႔ ႕ ႖ ႗ ႘ ႙ ႞ ႟
     design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
-    marks: ၧ  ၤ  ၗ  ူ  ၬ  ၙ  ံ  ြ  ၠ  ၴ  ၳ  ျ  ၞ  း  ႋ  ႄ  ဲ  ႅ  ႈ  ႂ  ၖ  ၨ  ႆ  ္  ာ  ၣ  ႉ  ၫ  ႇ  ႜ  ၘ  ဴ  ႊ  ႃ  ႛ  ႝ  ႍ  ၟ  ု  ၪ  ၩ  ဳ  ေ  ်  ဵ  ၢ  ွ  ့  ၲ  ႌ  ိ  ီ  ှ  ႚ  ႏ  ၱ  ၭ  ါ
+    marks: ိ  ု  ဲ  ္  ာ  ေ  ၘ  ၖ  ႊ  ဳ  ၩ  ့  ၗ  ျ  ဵ  ီ  ၞ  ၱ  ၪ  ွ  ၳ  ႌ  ၣ  ႈ  း  ႜ  ၭ  ၴ  ႃ  ါ  ၫ  ၨ  ႇ  ၢ  ှ  ၲ  ႂ  ြ  ၟ  ၬ  ်  ူ  ႅ  ံ  ႄ  ႛ  ႉ  ၙ  ႏ  ဴ  ႝ  ၠ  ႋ  ႚ  ၤ  ႍ  ၧ  ႆ
     script: Mon-Burmese
     status: primary
   source:
@@ -6084,7 +6084,7 @@ mrj:
   orthographies:
   - autonym: Кырык Мары
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ӓ Ӧ Ӱ Ӹ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӓ ӧ ӱ ӹ
-    marks: ̈  ̆
+    marks: ̆  ̈
     script: Cyrillic
     status: primary
   source:
@@ -6171,7 +6171,7 @@ mwl:
   orthographies:
   - autonym: Mirandés
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á Ç É Ê Í Ó Ô Ú Ũ a b c d e f g h i j k l m n o p q r s t u v w x y z á ç é ê í ó ô ú ũ
-    marks: ̃  ̂  ́  ̧
+    marks: ̃  ̧  ́  ̂
     script: Latin
     status: primary
   source:
@@ -6186,12 +6186,12 @@ mwp:
   orthographies:
   - autonym: Kala Lagaw Ya
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Á Ă Ā È É Ë Ĕ Ē Ì Í Ĭ Ī Ò Ó Ŏ Ō Œ Ù Ú Ŭ Ū a b c d e f g h i j k l m n o p q r s t u v w x y z à á ă ā è é ë ĕ ē ì í ĭ ī ò ó ŏ ō œ ù ú ŭ ū
-    marks: ́  ̀  ̆  ̈  ̄
+    marks: ̈  ̀  ̄  ̆  ́
     script: Latin
     status: primary
   - autonym: Kala Lagaw Ya
     base: A Ă Ā B D E Ĕ Ē G I Ĭ Ī K L M N O Ŏ Ō Ò Ö Ë Œ P F R S T U Ŭ Ū W Y Z J a ă ­ ā b d e ĕ ē g i ĭ ī k l m n o ŏ ō ò ö ë œ p f r s t u ŭ ū w y z j
-    marks: ̀  ̄  ̆  ̈
+    marks: ̄  ̆  ̈  ̀
     script: Latin
     status: secondary
   - autonym: Kala Lagaw Ya
@@ -6234,7 +6234,7 @@ mya:
   - autonym: မြန်မာစာ / မြန်မာစကား
     base: က ခ ဂ ဃ င စ ဆ ဇ ဈ ဉ ည ဋ ဌ ဍ ဎ ဏ တ ထ ဒ ဓ န ပ ဖ ဗ ဘ မ ယ ရ လ ဝ သ ဣ ဤ ဥ ဦ ဧ ဩ ဪ ◌
     design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
-    marks: ၗ  ူ  ြ  ံ  ျ  း  ဲ  ၖ  ာ  ္  ု  ေ  ်  ွ  ့  ီ  ိ  ှ  ါ
+    marks: ိ  ု  ဲ  ္  ာ  ေ  ၖ  ့  ၗ  ျ  ီ  ွ  း  ါ  ှ  ြ  ်  ူ  ံ
     note: The autonym မြန်မာစာ refers to written Burmese while မြန်မာစကား refers to spoken Burmese.
     script: Burmese
     status: primary
@@ -6249,7 +6249,7 @@ myv:
   orthographies:
   - autonym: Эрзянь
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё
-    marks: ̈  ̆
+    marks: ̆  ̈
     script: Cyrillic
     status: primary
   source:
@@ -6303,7 +6303,7 @@ nap:
   orthographies:
   - autonym: Napulitano
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Á Â È É Ê Ì Í Î Ò Ó Ô Ù Ú Û a b c d e f g h i j k l m n o p q r s t u v w x y z à á â è é ê ì í î ò ó ô ù ú û
-    marks: ̂  ́  ̀
+    marks: ̀  ́  ̂
     script: Latin
     status: primary
   source:
@@ -6319,7 +6319,7 @@ naq:
   - autonym: Khoekhoe
     auxiliary: J L V j l v
     base: A B C D E F G H I K M N O P Q R S T U W X Y Z À Á Ā Ä Â Ã É È Ê Ë Ẽ Ē Ì Í Ī Ï Ĩ Ò Ó Õ Ö Ô Ō Ù Ú Ũ Ü Û Ū a b c d e f g h i k m n o p q r s t u w x y z à á ā ä â ã é è ê ë ẽ ē ì í ī ï ĩ ò ó õ ö ô ō ù ú ũ ü û ū ǀ ǁ ǂ ǃ
-    marks: ́  ̀  ̃  ̂  ̈  ̄
+    marks: ̃  ̈  ̀  ̄  ́  ̂
     script: Latin
     status: primary
   source:
@@ -6335,7 +6335,7 @@ nav:
   orthographies:
   - autonym: Diné Bizaad
     base: A Ą B C D E Ę G H I Į J K L Ł M N O Ǫ S T W X Y Z a ą b c d e ę g h i į j k l ł m n o ǫ s t w x y z '
-    marks: ́  ̨
+    marks: ̨  ́
     script: Latin
     status: primary
   source:
@@ -6439,7 +6439,7 @@ nio:
   - autonym: ня”
     auxiliary: ҙ
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ҫ Ү Ӈ Ә Ө Ҙ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҫ ү ӈ ә ө ”
-    marks: ̈  ̆
+    marks: ̆  ̈
     note: Sources partially disagree. This orthography is based on Omniglot. Wikipedia notes use of з̌ instead of ҙ.
     script: Cyrillic
     status: primary
@@ -6471,7 +6471,7 @@ niv:
   orthographies:
   - autonym: нивх
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ғ Ӄ Ӈ Ӷ Ӻ Ӽ Ӿ ʼ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ғ ӄ ӈ ӷ ӻ ӽ ӿ ’
-    marks: ̌  ̈  ̆
+    marks: ̆  ̌  ̈
     script: Cyrillic
     status: primary
   source:
@@ -6507,7 +6507,7 @@ nld:
   orthographies:
   - autonym: Nederlands
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á Â Ä È É Ê Ë Í Ï Ó Ô Ö Ú Û Ü Ĳ a b c d e f g h i j k l m n o p q r s t u v w x y z á â ä è é ê ë í ï ó ô ö ú û ü ĳ ȷ
-    marks: ̂  ̈  ́  ̀
+    marks: ̀  ̈  ́  ̂
     script: Latin
     status: primary
   source:
@@ -6523,7 +6523,7 @@ nmg:
   - autonym: Kwasio
     auxiliary: Q X Z q x z
     base: A B C D E F G H I J K L M N O P R S T U V W Y Á Â Ä É Ê Í Î Ï Ó Ô Ö Ú Û Ā Ē Ě Ī Ń Ŋ Ō Ŕ Ū Ǎ Ǐ Ǒ Ǔ Ǝ Ɓ Ɔ Ɛ a b c d e f g h i j k l m n o p r s t u v w y á â ä é ê í î ï ó ô ö ú û ā ē ě ī ń ŋ ō ŕ ū ǎ ǐ ǒ ǔ ǝ ɓ ɔ ɛ
-    marks: ́  ̌  ̂  ̈  ̄
+    marks: ̌  ̈  ̄  ́  ̂
     script: Latin
     status: primary
   source:
@@ -6538,7 +6538,7 @@ nnh:
   - autonym: Ngyɛmbɔɔŋ
     auxiliary: Q R X q r x
     base: A B C D E F G H I J K L M N O P S T U V W Y Z À Á Â È É Ê Ì Í Ò Ó Ô Ù Ú Û Ÿ Ě Ń Ŋ Ǎ Ǒ Ǔ Ɔ Ɛ Ʉ Ḿ Ẅ a b c d e f g h i j k l m n o p s t u v w y z à á â è é ê ì í ò ó ô ù ú û ÿ ě ń ŋ ǎ ǒ ǔ ɔ ɛ ʉ ʼ ḿ ẅ
-    marks: ́  ̀  ̌  ̂  ̈
+    marks: ̌  ̈  ̀  ́  ̂
     script: Latin
     status: primary
   source:
@@ -6568,7 +6568,7 @@ non:
   orthographies:
   - autonym: Dǫnsk tunga
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á Æ É Í Ð Ó Ø Ú Ý Œ Ǫ Ǽ a b c d e f g h i j k l m n o p q r s t u v w x y z á æ é í ð ó ø ú ý œ ǫ ǽ
-    marks: ́  ̨
+    marks: ̨  ́
     script: Latin
     status: primary
   source:
@@ -6586,7 +6586,7 @@ nor:
   orthographies:
   - autonym: Norsk
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á À Ä Å Æ É È Ê Ò Ó Ô Ö Ø Ü a b c d e f g h i j k l m n o p q r s t u v w x y z á à ä å æ é è ê ò ó ô ö ø ü
-    marks: ́  ̀  ̂  ̈  ̊
+    marks: ̈  ̀  ̊  ́  ̂
     script: Latin
     status: primary
   preferred_as_individual: true
@@ -6633,7 +6633,7 @@ npi:
     auxiliary: ॐ
     base: अ आ इ ई उ ऊ ऋ ए ऐ ओ औ क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र ल ळ व श ष स ह ‌ ‍
     design_note: Nepali Devanagari uses different shapes for some of the characters compared to the Hindi version, e.g. झ and some ligatures. Numerals five, eight, and nine differ too. Nepali orthographies prefer a smaller number of ligatures than commonly used in Hindi or Marathi. Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
-    marks: ौ  ँ  ्  ा  ी  ू  ः  ृ  ं  ़  ै  ो  ु  ि  े
+    marks: ू  ृ  े  ँ  ा  ो  ी  ै  ौ  ु  ः  ं  ि  ्  ़
     numerals: ० १ २ ३ ४ ५ ६ ७ 0 1 2 3 4 5 6 7 8 9
     punctuation: । ॥ ॰
     script: Devanagari
@@ -6664,7 +6664,7 @@ nus:
   orthographies:
   - autonym: Naath
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Ë Ï Ö Ŋ Ɔ Ɛ Ɣ a b c d e f g h i j k l m n o p q r s t u v w x y z ä ë ï ö ŋ ɔ ɛ ɣ
-    marks: ̈  ̱
+    marks: ̱  ̈
     script: Latin
     status: primary
   source:
@@ -6826,7 +6826,7 @@ oss:
   orthographies:
   - autonym: Ирон
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ӕ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӕ
-    marks: ̈  ̆
+    marks: ̆  ̈
     script: Cyrillic
     status: primary
   - base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Æ Č Š Ž a b c d e f g h i j k l m n o p q r s t u v w x y z ä æ č š ž
@@ -6845,7 +6845,7 @@ ote:
   orthographies:
   - autonym: Hñahñu
     base: A B C D E F G H I J K L M N O P R S T U X Y Z Ã Ï Ö Ü a b c d e f g h i j k l m n o p r s t u x y z ã ï ö ü
-    marks: ̃  ̈  ̱
+    marks: ̱  ̃  ̈
     script: Latin
     status: primary
   source:
@@ -6877,7 +6877,7 @@ pan:
     auxiliary: ॐ
     base: ਅ ਬ ਭ ਗ ਧ ਢ ੲ ਵ ਦ ਡ ਹ ਘ ਥ ਠ ਯ ਕ ਚ ਲ ਮ ਨ ਣ ਸ ੳ ਪ ਫ ਖ ਛ ਰ ਤ ਟ ਜ
     design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
-    marks: ਿ  ਾ  ੌ  ੈ  ੂ  ੁ  ਼  ੀ  ੇ  ੋ
+    marks: ੀ  ਼  ੌ  ਾ  ੁ  ਿ  ੂ  ੈ  ੇ  ੋ
     note: Used in India.
     numerals: ੦ ੧ ੨ ੩ ੪ ੫ ੬ ੭ ੮ ੯ 0 1 2 3 4 5 6 7 8 9
     punctuation: । ॥ ॰
@@ -6957,7 +6957,7 @@ pcd:
   orthographies:
   - autonym: Picard
     base: A Â Å B C Ç D E Ê É È F G I Î Ï K L H J M N O Ô P Q R S T U Û V W Y Ŷ Z Æ Œ a â å b c ç d e ê é è f g i î ï k l h j m n o ô p q r s t u û v w y ŷ z æ œ
-    marks: ́  ̀  ̂  ̈  ̊  ̧
+    marks: ̈  ̀  ̊  ̧  ́  ̂
     script: Latin
     status: primary
   source:
@@ -6972,7 +6972,7 @@ pes:
   - autonym: فارسی
     base: ء أ ؤ ئ ا ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ل م ن ه و پ چ ژ ک گ ی
     design_note: Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
-    marks: ٰ  ٔ  ِ  ْ  ُ  َ
+    marks: َ  ٔ  ْ  ِ  ٰ  ُ
     numerals: ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹ 0 1 2 3 4 5 6 7 8 9
     script: Arabic
     status: primary
@@ -7072,7 +7072,7 @@ pol:
   orthographies:
   - autonym: Polski
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ó Ą Ć Ę Ł Ń Ś Ź Ż a b c d e f g h i j k l m n o p q r s t u v w x y z ó ą ć ę ł ń ś ź ż
-    marks: ̨  ́  ̇
+    marks: ̨  ̇  ́
     script: Latin
     status: primary
   source:
@@ -7100,7 +7100,7 @@ por:
   orthographies:
   - autonym: Português
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Á Â Ã Ç È É Ê Í Ò Ó Ô Õ Ú Ü a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ã ç è é ê í ò ó ô õ ú ü
-    marks: ́  ̀  ̃  ̂  ̈  ̧
+    marks: ̃  ̈  ̀  ̧  ́  ̂
     script: Latin
     status: primary
   source:
@@ -7117,7 +7117,7 @@ pot:
   orthographies:
   - autonym: Bodéwadmimwen
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z È É Ê Ë a b c d e f g h i j k l m n o p q r s t u v w x y z è é ê ë
-    marks: ̂  ̈  ́  ̀
+    marks: ̀  ̈  ́  ̂
     script: Latin
     status: primary
   source:
@@ -7158,7 +7158,7 @@ prg:
   orthographies:
   - autonym: Prūsiskan
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ā Ē Ģ Ī Ķ Ņ Ō Ŗ Š Ū Ž Ț Ḑ a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ģ ī ķ ņ ō ŗ š ū ž ț ḑ
-    marks: ̌  ̄  ̦  ̧
+    marks: ̄  ̌  ̧  ̦
     script: Latin
     status: primary
   source:
@@ -7288,7 +7288,7 @@ rah:
   - autonym: রাভা‎
     base: ৺ অ আ ই উ এ ঐ ও ঔ ক খ গ ঘ ঙ চ ছ জ ঝ ঞ ট ঠ ড ঢ ণ ত থ দ ধ ন প ফ ব ভ ম য র ৰ ল ৱ শ ষ স হ ʼ
     design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
-    marks: ্  ঁ  ়  ং  ে  া  ৈ  ি  ঃ  ৗ  ু
+    marks: ্  ়  ঁ  া  ি  ঃ  ং  ে  ৗ  ু  ৈ
     numerals: ০ ১ ২ ৩ ৪ ৫ ৬ ৭ ৮ ৯
     script: Bengali
     status: primary
@@ -7321,7 +7321,7 @@ rkt:
   - autonym: রংপুরী
     base: ৺ অ আ ই ঈ উ ঊ ঋ এ ঐ ও ঔ ক খ গ ঘ ঙ চ ছ জ ঝ ঞ ট ঠ ড ঢ ণ ত থ দ ধ ন প ফ ব ভ ম য র ৰ ল ৱ শ ষ স হ
     design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
-    marks: ্  ঁ  ়  ং  ে  ূ  া  ি  ঃ  ৈ  ী  ৃ  ৗ  ু
+    marks: ্  ়  ঁ  া  ি  ূ  ৃ  ঃ  ং  ে  ু  ৗ  ী  ৈ
     numerals: ০ ১ ২ ৩ ৪ ৫ ৬ ৭ ৮ ৯
     script: Bengali
     status: primary
@@ -7336,11 +7336,11 @@ rmn:
   orthographies:
   - autonym: řomani ćhib
     base: A Ä Á B C Ć Č D E Ê É F Ğ H I Î Í J K L M N O Ö Ó P Ṗ Q R Ř S Š T U V W X Y Z a ä á b c ć č d e ê é f ğ h i î í j k l m n o ö ó p ṗ q r ř s š t u v w x y z
-    marks: ́  ̌  ̆  ̂  ̈  ̇
+    marks: ̌  ̈  ̆  ̇  ́  ̂
     script: Latin
     status: primary
   - base: А Б В Г Д Е Ё Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Ы Ь Э Ю Я а б в г д е ё ж з и й к л м н о п р с т у ф х ц ч ш ы ь э ю я
-    marks: ̈  ̆
+    marks: ̆  ̈
     script: Cyrillic
   source:
   - Omniglot
@@ -7353,7 +7353,7 @@ rmy:
   orthographies:
   - autonym: řomani ćhib
     base: A Ä B C Ć Č D E Ê F Ğ H I Î J K L M N O Ö P Ṗ Q R S Ś T U V W X Z Ź a ä b c ć č d e ê f ğ h i î j k l m n o ö p ṗ q r s ś t u v w x z ź
-    marks: ́  ̌  ̆  ̂  ̈  ̇
+    marks: ̌  ̈  ̆  ̇  ́  ̂
     script: Latin
     status: primary
   source:
@@ -7367,7 +7367,7 @@ roh:
   orthographies:
   - autonym: Rumantsch
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Â È É Ê Î Ò Ô Ö Ü a b c d e f g h i j k l m n o p q r s t u v w x y z à â è é ê î ò ô ö ü
-    marks: ̂  ̈  ́  ̀
+    marks: ̀  ̈  ́  ̂
     script: Latin
     status: primary
   source:
@@ -7389,7 +7389,7 @@ ron:
   - autonym: Română
     auxiliary: Ş Ţ ş ţ
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Â Î Ă Ș Ț a b c d e f g h i j k l m n o p q r s t u v w x y z â î ă ș ț
-    marks: ̂  ̆  ̦
+    marks: ̆  ̦  ̂
     script: Latin
     status: primary
   source:
@@ -7418,7 +7418,7 @@ rue:
   orthographies:
   - autonym: Руски
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ь Э Ю Я Ё Є І Ї Ґ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ь э ю я ё є і ї ґ
-    marks: ̈  ̆
+    marks: ̆  ̈
     script: Cyrillic
     status: primary
   source:
@@ -7447,7 +7447,7 @@ ruo:
   orthographies:
   - autonym: Rumârește
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Å Ă Â Ê Ľ Ń Ș Ț a b c d e f g h i j k l m n o p q r s t u v w x y z å ă â ê ľ ń ș ț
-    marks: ́  ̌  ̆  ̂  ̦  ̊
+    marks: ̌  ̊  ̆  ̦  ́  ̂
     script: Latin
     status: primary
   source:
@@ -7462,7 +7462,7 @@ rup:
   orthographies:
   - autonym: Armani
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Â Ã Ă Ș Ț a b c d e f g h i j k l m n o p q r s t u v w x y z â ã ă ș ț
-    marks: ̃  ̂  ̆  ̦
+    marks: ̃  ̆  ̦  ̂
     script: Latin
     status: primary
   source:
@@ -7477,7 +7477,7 @@ ruq:
   orthographies:
   - autonym: Vlăheshte
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ā Â Ă Ạ Ē Ë Ę Ž Ł Š Ī Ō Ǫ Ū Ľ Ń Ș Ț a b c d e f g h i j k l m n o p q r s t u v w x y z ā â ă ạ ē ë ę ž ł š ī ō ǫ ū ľ ń ș ț
-    marks: ́  ̯  ̌  ̆  ̨  ̂  ̈  ̦  ̣  ̄
+    marks: ̌  ̈  ̄  ̨  ̆  ̦  ́  ̯  ̣  ̂
     script: Latin
     status: primary
   source:
@@ -7493,7 +7493,7 @@ rus:
   - autonym: Русский
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё
     design_note: Correct positioning of acute and grave accents above vowels is required. The breve accent uses a different shape from the one used in the Latin script.
-    marks: ̈  ̆
+    marks: ̆  ̈
     script: Cyrillic
     status: primary
   source:
@@ -7508,7 +7508,7 @@ rut:
   orthographies:
   - autonym: Мыхӏабишды
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ӏ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
-    marks: ̈  ̆
+    marks: ̆  ̈
     script: Cyrillic
     status: primary
   source:
@@ -7535,7 +7535,7 @@ sag:
   orthographies:
   - autonym: Sängö
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Â Ä Ê Ë Î Ï Ô Ö Û Ü a b c d e f g h i j k l m n o p q r s t u v w x y z â ä ê ë î ï ô ö û ü
-    marks: ̂  ̈
+    marks: ̈  ̂
     script: Latin
     status: primary
   source:
@@ -7550,7 +7550,7 @@ sah:
   orthographies:
   - autonym: Сахалыы
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ҕ Ҥ Ү Һ Ө а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҕ ҥ ү һ ө
-    marks: ̈  ̆
+    marks: ̆  ̈
     script: Cyrillic
     status: primary
   source:
@@ -7567,7 +7567,7 @@ san:
     auxiliary: ॐ
     base: अ आ इ ई उ ऊ ऋ ॠ ऌ ॡ ए ऐ ओ औ क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र ल ळ व श ष स ह ‌ ‍
     design_note: Sanskrit Devanagari uses different shapes for some of the characters and character combinations compared to the Hindi version. Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
-    marks: ौ  ँ  ्  ा  ी  ू  ः  ृ  ं  ़  ै  ो  ु  ि  े
+    marks: ू  ृ  े  ँ  ा  ो  ी  ै  ौ  ु  ः  ं  ि  ्  ़
     note: Sanskrit has been written using a variety of Brahmic scrits and, later, also the Latin-script transliteration. There a no native speakers of Sanskrit.
     numerals: ० १ २ ३ ४ ५ ६ ७ ८ ९ 0 1 2 3 4 5 6 7 8 9
     punctuation: । ॥ ॰
@@ -7596,7 +7596,7 @@ sbp:
   orthographies:
   - autonym: Shisango
     base: A B C D E F G H I J K L M N O P Q S T U V W X Y Z À Á Ä Â È É Ë Ê Ì Í Ï Î Ò Ó Ö Ô Ù Ú Ü Û a b c d e f g h i j k l m n o p q s t u v w x y z à á ä â è é ë ê ì í ï î ò ó ö ô ù ú ü û
-    marks: ̂  ̈  ́  ̀
+    marks: ̀  ̈  ́  ̂
     script: Latin
     status: primary
   source:
@@ -7683,7 +7683,7 @@ sel:
   orthographies:
   - autonym: Шӧльӄумыт
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Җ Ӄ Ӈ A Ӣ Ӧ Ө Ӭ Ӯ Ӱ Ӷ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё җ ӄ ӈ a ӣ ӧ ө ӭ ӯ ӱ ӷ
-    marks: ̆  ̈  ̊  ̄  ̇
+    marks: ̈  ̄  ̊  ̇  ̆
     script: Cyrillic
     status: primary
   source:
@@ -7712,7 +7712,7 @@ sey:
   orthographies:
   - autonym: Paikoka
     base: A D E Ë I J K M N Ñ O P S T U W Y a d e ë i j k m n ñ o p s t u w y '
-    marks: ̃  ̈  ̱
+    marks: ̱  ̃  ̈
     script: Latin
     status: primary
   source:
@@ -7726,7 +7726,7 @@ sgh:
   orthographies:
   - autonym: Хуг̌ну̊н зив
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Ё Ғ Қ Ҳ Ҷ Ӣ Ӯ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш ё ғ қ ҳ ҷ ӣ ӯ
-    marks: ̌  ̆  ̈  ̊  ̄
+    marks: ̌  ̈  ̄  ̊  ̆
     script: Cyrillic
     status: primary
   source:
@@ -7742,7 +7742,7 @@ shi:
   orthographies:
   - autonym: Tachelhit
     base: A B C D E F G H I J K L M N Q R S T U W X Y Z Ɛ Ɣ Ḍ Ḥ Ṛ Ṣ Ṭ Ž a b c d e f g h i j k l m n q r s t u w x y z ɛ ɣ ʷ ḍ ḥ ṛ ṣ ṭ ž
-    marks: ̣  ̌
+    marks: ̌  ̣
     script: Latin
     status: primary
   source:
@@ -7772,7 +7772,7 @@ shn:
   - autonym: လိၵ်ႈတႆး / ၵႂၢမ်းတႆး
     base: ၵ ၶ င ၸ သ ၺ တ ထ ၼ ပ ၽ ၾ မ ယ ရ လ ဝ ႁ ဢ a i ( )
     design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
-    marks: ူ  ြ  ျ  း  ႄ  ႅ  ႈ  ႂ  ႆ  ႉ  ႇ  ႊ  ႃ  ု  ေ  ်  ဵ  ၢ  ွ  ီ  ိ
+    marks: ိ  ု  ေ  ႊ  ျ  ဵ  ီ  ွ  ႈ  း  ႃ  ႇ  ၢ  ႂ  ြ  ်  ူ  ႅ  ႄ  ႉ  ႆ
     note: The autonym လိၵ်ႈတႆး refers to the written Shan while ၵႂၢမ်းတႆး refers to the spoken Shan.
     script: Burmese
     status: primary
@@ -7842,7 +7842,7 @@ sje:
   orthographies:
   - autonym: Bidumsámegiella
     base: A B D E F G H I J K L M N O P R S T U V Á Ä Å Đ Ŋ Ŧ a b d e f g h i j k l m n o p r s t u v á ä å đ ŋ ŧ ’ \ '
-    marks: ̈  ́  ̊
+    marks: ̊  ̈  ́
     script: Latin
     status: primary
   source:
@@ -7873,7 +7873,7 @@ sju:
   - autonym: Ubmejesámiengiälla
     auxiliary: Ū Ǖ ū ǖ
     base: A B D E F G H I J K L M N O P R S T U V Y Á Ä Å Ï Ö Ü Đ Ŋ Ŧ a b d e f g h i j k l m n o p r s t u v y á ä å ï ö ü đ ŋ ŧ
-    marks: ̄  ́  ̊  ̈
+    marks: ̄  ̊  ̈  ́
     script: Latin
     status: primary
   source:
@@ -7916,7 +7916,7 @@ slk:
   orthographies:
   - autonym: Slovenčina
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á Ä É Í Ó Ô Ú Ý Č Ď Ĺ Ľ Ň Ŕ Š Ť Ž a b c d e f g h i j k l m n o p q r s t u v w x y z á ä é í ó ô ú ý č ď ĺ ľ ň ŕ š ť ž
-    marks: ̌  ̂  ̈  ́
+    marks: ̌  ̈  ́  ̂
     script: Latin
     status: primary
   source:
@@ -7948,7 +7948,7 @@ sma:
   orthographies:
   - autonym: Åarjelsaemiengïele
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Å Æ Ï Ö Ø a b c d e f g h i j k l m n o p q r s t u v w x y z ä å æ ï ö ø
-    marks: ̈  ̊
+    marks: ̊  ̈
     script: Latin
     status: primary
   source:
@@ -7963,7 +7963,7 @@ sme:
   orthographies:
   - autonym: Sámegiella
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á Ä Å Æ Ö Ø Č Đ Ŋ Š Ŧ Ž a b c d e f g h i j k l m n o p q r s t u v w x y z á ä å æ ö ø č đ ŋ š ŧ ž
-    marks: ̌  ̈  ́  ̊
+    marks: ̊  ̌  ̈  ́
     script: Latin
     status: primary
   source:
@@ -7978,12 +7978,12 @@ smj:
   orthographies:
   - autonym: Julevusámegiella
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á Ä Å Ñ Ö Ń a b c d e f g h i j k l m n o p q r s t u v w x y z á ä å ñ ö ń
-    marks: ̃  ̈  ́  ̊
+    marks: ̃  ̊  ̈  ́
     script: Latin
     status: deprecated
   - autonym: Julevusámegiella
     base: A B D E F G H I J K L M N O P R S T U V Á Ä Å Ŋ a b d e f g h i j k l m n o p r s t u v á ä å ŋ
-    marks: ̈  ́  ̊
+    marks: ̊  ̈  ́
     script: Latin
     status: primary
   source:
@@ -7998,7 +7998,7 @@ smn:
   orthographies:
   - autonym: Anarâškielâ
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á Â Ä Å Ö Č Đ Ŋ Š Ž a b c d e f g h i j k l m n o p q r s t u v w x y z á â ä å ö č đ ŋ š ž
-    marks: ́  ̌  ̂  ̈  ̊
+    marks: ̌  ̈  ̊  ́  ̂
     script: Latin
     status: primary
   source:
@@ -8028,7 +8028,7 @@ sms:
   orthographies:
   - autonym: Nuõrttsääʹmǩiõll
     base: A B C D E F G H I J K L M N O P Q R S T U V X Y Z Â Ä Å Ö Õ Č Đ Ŋ Š Ž Ǥ Ǧ Ǩ Ǯ Ʒ a b c d e f g h i j k l m n o p q r s t u v x y z â ä å ö õ č đ ŋ š ž ǥ ǧ ǩ ǯ ʒ ’ ʹ ˈ
-    marks: ̌  ̃  ̂  ̈  ̊
+    marks: ̃  ̌  ̈  ̊  ̂
     script: Latin
     status: primary
   source:
@@ -8059,7 +8059,7 @@ snd:
     auxiliary: ॐ
     base: अ आ इ ई उ ऊ ऋ ए ऐ ओ औ क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र ल ळ व श ष स ह ॻ ॼ ॾ ॿ ‌ ‍
     design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
-    marks: ौ  ँ  ्  ा  ी  ू  ः  ृ  ं  ़  ै  ो  ु  ि  े
+    marks: ू  ृ  े  ँ  ा  ो  ी  ै  ौ  ु  ः  ं  ि  ्  ़
     note: Used in India
     numerals: ० १ २ ३ ४ ५ ६ ७ 0 1 2 3 4 5 6 7 8 9
     punctuation: । ॥ ॰
@@ -8068,7 +8068,7 @@ snd:
   - autonym: سنڌي
     base: ء أ ؤ ئ ا ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ل م ن ه و پ چ ژ ک گ ی ڄ ٺ ٽ ٿ ڀ ٻ ڙ ڍ ڊ ڏ ڌ ڇ ڃ ڦ ڻ ڱ ڳ ڪ
     design_note: Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
-    marks: ٰ  ٔ  ِ  ْ  ُ  َ
+    marks: َ  ٔ  ْ  ِ  ٰ  ُ
     note: Used in Pakistan
     numerals: ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹ 0 1 2 3 4 5 6 7 8 9
     script: Arabic
@@ -8097,7 +8097,7 @@ snn:
   orthographies:
   - autonym: Gantëya coca
     base: A Ã B C D E Ë Ɛ G H I Ĩ Ɨ J K M N Ñ O Õ P R S T U Ũ W Y Z a ã b c d e ë ɛ g h i ĩ ɨ j k m n ñ o õ p r s t u ũ w y z '
-    marks: ̃  ̈  ̱
+    marks: ̱  ̃  ̈
     script: Latin
     status: primary
   source:
@@ -8126,7 +8126,7 @@ sot:
   orthographies:
   - autonym: Sesotho
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Á É Š a b c d e f g h i j k l m n o p q r s t u v w x y z à á é š
-    marks: ̌  ̄  ́  ̀
+    marks: ̄  ̌  ́  ̀
     script: Latin
     status: primary
   source:
@@ -8299,7 +8299,7 @@ swb:
   orthographies:
   - autonym: شِكُمُرِ
     base: ح چ ج ث ت پ ب ا س ز ر ذ د خ ڠ غ ع ظ ط ض ص ش ن م ل ڬ ك ق ڤ ڢ ف ي و ه
-    marks: ّ  ُ  ِ  َ
+    marks: َ  ّ  ُ  ِ
     script: Arabic
   - autonym: Shikomori
     base: A B C D E F G H I J K L M N O P R S T U V W Y Z a b c d e f g h i j k l m n o p r s t u v w y z
@@ -8327,7 +8327,7 @@ swe:
   orthographies:
   - autonym: Svenska
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Á Ä Å É Ë Ö Ü a b c d e f g h i j k l m n o p q r s t u v w x y z à á ä å é ë ö ü
-    marks: ̈  ́  ̊  ̀
+    marks: ̊  ̈  ́  ̀
     script: Latin
     status: primary
   source:
@@ -8359,7 +8359,7 @@ szl:
   orthographies:
   - autonym: Ślůnsko godka
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ć Č Ń Ř Ś Š Ů Ź Ż Ž a b c d e f g h i j k l m n o p q r s t u v w x y z ć č ń ř ś š ů ź ż ž
-    marks: ̌  ́  ̇  ̊
+    marks: ̊  ̌  ̇  ́
     script: Latin
     status: primary
   source:
@@ -8374,7 +8374,7 @@ tab:
   orthographies:
   - autonym: Табасаран
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ӏ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
-    marks: ̈  ̆
+    marks: ̆  ̈
     script: Cyrillic
     status: primary
   source:
@@ -8422,7 +8422,7 @@ tam:
   - autonym: தமிழ்
     base: அ ஆ இ ஈ உ ஊ எ ஏ ஐ ஒ ஓ ஔ ஃ க ங ச ஞ ட ண த ந ப ம ய ர ல வ ழ ள ற ன ஜ ஶ ஷ ஸ ஹ
     design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
-    marks: ா  ்  ஂ  ை  ே  ௗ  ி  ீ  ூ  ெ  ு
+    marks: ி  ெ  ீ  ை  ௗ  ூ  ு  ே  ா  ்  ஂ
     numerals: 0 ௧ ௨ ௩ ௪ ௫ ௬ ௭ ௮ ௯ ௰ ௱ ௲
     script: Tamil
     status: primary
@@ -8437,7 +8437,7 @@ tat:
   orthographies:
   - autonym: Татарча
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Җ Ң Ү Һ Ә Ө а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё җ ң ү һ ә ө
-    marks: ̈  ̆
+    marks: ̆  ̈
     script: Cyrillic
     status: primary
   source:
@@ -8510,7 +8510,7 @@ tel:
   - autonym: తెలుగు
     base: అ భ ఇ ఉ ఋ ఌ ఎ ఐ ఒ ఔ ఆ ఈ ఊ ౠ ౡ ఏ ఓ క ఖ గ ఘ ఙ చ ఛ జ ఝ ఞ ట ఠ డ ఢ ణ త థ ద ధ న ప ఫ బ మ య ర ల వ ళ శ ష స హ ఱ
     design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
-    marks: ీ  ే  ె  ొ  ౖ  ౄ  ః  ం  ు  ో  ్  ఁ  ౢ  ూ  ా  ృ  ౌ  ి  ౣ
+    marks: ె  ౖ  ః  ా  ో  ీ  ౌ  ూ  ్  ి  ౄ  ౣ  ు  ౢ  ృ  ం  ఁ  ొ  ే
     numerals: ౦ ౧ ౨ ౩ ౪ ౫ ౬ ౭ ౮ ౯ ౸ ౹ ౺ ౻ ౼ ౽ ౾
     script: Telugu
     status: primary
@@ -8603,7 +8603,7 @@ tha:
     auxiliary: ̍ ̎
     base: ก ข ฃ ค ฅ ฆ ง จ ฉ ช ซ ฌ ญ ฎ ฏ ฐ ฑ ฒ ณ ด ต ถ ท ธ น บ ป ผ ฝ พ ฟ ภ ม ย ร ล ว ศ ษ ส ห ฬ อ ฮ ะ ◌ า เ โ ใ ไ ฤ ๅ ฦ
     design_note: Mark positioning and some character combinations have to be resolved to properly represent the language.
-    marks: ั  ็  ุ  ํ  ิ  ู
+    marks: ็  ั  ู  ุ  ิ  ํ
     note: Fon thong (written with U+030D) and Fa nu (written with U+030E) is always combined with Phinthu i (U+0E34) according to Wikipedia.
     numerals: ๐ ๑ ๒ ๓ ๔ ๕ ๖ ๗ ๘ ๙
     punctuation: ๏ ๛
@@ -8663,7 +8663,7 @@ tkr:
   orthographies:
   - autonym: Цӏаӏхна миз
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ӏ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
-    marks: ̈  ̆
+    marks: ̆  ̈
     note: Used in Dagestan.
     script: Cyrillic
   - autonym: Ts‘əxna miz
@@ -8842,7 +8842,7 @@ ttt:
   name: Muslim Tat
   orthographies:
   - base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ӏ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
-    marks: ̈  ̆
+    marks: ̆  ̈
     note: Used in Russia.
     script: Cyrillic
   - autonym: Tati
@@ -8860,12 +8860,12 @@ tuk:
   orthographies:
   - autonym: Түркменче
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Җ Ң Ү Ә Ө а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё җ ң ү ә ө
-    marks: ̈  ̆
+    marks: ̆  ̈
     script: Cyrillic
     status: secondary
   - autonym: Türkmençe
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Ç Ö Ü Ý Ň Ş Ž Ș a b c d e f g h i j k l m n o p q r s t u v w x y z ä ç ö ü ý ň ş ž ș
-    marks: ́  ̌  ̈  ̦  ̧
+    marks: ̌  ̈  ̧  ̦  ́
     script: Latin
     status: primary
   source:
@@ -8894,7 +8894,7 @@ tur:
   orthographies:
   - autonym: Türkçe
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Â Ç Î Ö Û Ü Ğ Ș a b c d e f g h i j k l m n o p q r s t u v w x y z â ç î ö û ü ğ İ ı ș
-    marks: ̆  ̂  ̈  ̦  ̧  ̇
+    marks: ̈  ̧  ̇  ̆  ̦  ̂
     script: Latin
     status: primary
   source:
@@ -8911,7 +8911,7 @@ tvl:
   orthographies:
   - autonym: Te ’gana Tūvalu
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ā Á À Ǎ Ē É È Ě Ī Í Ì Ǐ Ō Ó Ò Ǒ Ū Ú Ù Ǔ a b c d e f g h i j k l m n o p q r s t u v w x y z ā á à ǎ ē é è ě ī í ì ǐ ō ó ò ǒ ū ú ù ǔ ’
-    marks: ̌  ̄  ́  ̀
+    marks: ̄  ̌  ́  ̀
     script: Latin
     status: primary
   source:
@@ -8955,7 +8955,7 @@ tyv:
   orthographies:
   - autonym: Тыва
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ң Ү Ө а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ң ү ө
-    marks: ̈  ̆
+    marks: ̆  ̈
     script: Cyrillic
     status: primary
   source:
@@ -9028,7 +9028,7 @@ udm:
   orthographies:
   - autonym: Удмурт
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ӝ Ӟ Ӥ Ӧ Ӵ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӝ ӟ ӥ ӧ ӵ
-    marks: ̈  ̆
+    marks: ̆  ̈
     script: Cyrillic
     status: primary
   source:
@@ -9069,7 +9069,7 @@ ukr:
   - autonym: Українська
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ь Э Ю Я Є І Ї Ґ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ь э ю я є і ї ґ ’
     design_note: Correct positioning of acute and grave accents above vowels is required. The breve accent uses a different shape from the one used in the Latin script.
-    marks: ̈  ̆
+    marks: ̆  ̈
     script: Cyrillic
     status: primary
   source:
@@ -9143,7 +9143,7 @@ urd:
   - autonym: اُردُو
     base: ء ا ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ل م ن و ٹ پ چ ڈ ڑ ژ ک گ ں ھ ہ ی
     design_note: Prefers a Nastaʼlīq style of the Arabic script
-    marks: ٰ  ِ  ْ  ُ  َ
+    marks: َ  ْ  ٰ  ُ  ِ
     numerals: ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹ 0 1 2 3 4 5 6 7 8 9
     script: Arabic
     status: primary
@@ -9160,7 +9160,7 @@ uum:
   orthographies:
   - autonym: Урум
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Ы Э Ґ Ӧ Ӱ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш ы э ґ ӧ ӱ ’
-    marks: ̈  ̆
+    marks: ̆  ̈
     script: Cyrillic
     status: primary
   source:
@@ -9179,7 +9179,7 @@ uzn:
     status: primary
   - autonym: Ўзбекча
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ў Ғ Қ Ҳ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ў ғ қ ҳ
-    marks: ̈  ̆
+    marks: ̆  ̈
     script: Cyrillic
     status: secondary
   - autonym: Ӯзбекча
@@ -9274,7 +9274,7 @@ vie:
   - autonym: Tiếng Việt
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Á Â Ã È É Ê Ì Í Ò Ó Ô Õ Ù Ú Ý Ă Đ Ĩ Ũ Ơ Ư Ạ Ả Ấ Ầ Ẩ Ẫ Ậ Ắ Ằ Ẳ Ẵ Ặ Ẹ Ẻ Ẽ Ế Ề Ể Ễ Ệ Ỉ Ị Ọ Ỏ Ố Ồ Ổ Ỗ Ộ Ớ Ờ Ở Ỡ Ợ Ụ Ủ Ứ Ừ Ử Ữ Ự Ỳ Ỵ Ỷ Ỹ a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ã è é ê ì í ò ó ô õ ù ú ý ă đ ĩ ũ ơ ư ạ ả ấ ầ ẩ ẫ ậ ắ ằ ẳ ẵ ặ ẹ ẻ ẽ ế ề ể ễ ệ ỉ ị ọ ỏ ố ồ ổ ỗ ộ ớ ờ ở ỡ ợ ụ ủ ứ ừ ử ữ ự ỳ ỵ ỷ ỹ
     design_note: The stacked combinations of marks often require adapted design of the individual marks (smaller, shallower). There is no concesus regarding the position of acute and grave above the circumflex.
-    marks: ́  ̛  ̀  ̆  ̃  ̂  ̉  ̣
+    marks: ̃  ̀  ̆  ̛  ́  ̣  ̂  ̉
     script: Latin
     status: primary
   source:
@@ -9392,7 +9392,7 @@ win:
   orthographies:
   - autonym: Ho-Chunk
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ą Ğ Į Š Ų Ž a b c d e f g h i j k l m n o p q r s t u v w x y z ą ğ į š ų ž
-    marks: ̌  ̆  ̨
+    marks: ̆  ̨  ̌
     script: Latin
     status: primary
   source:
@@ -9406,7 +9406,7 @@ wln:
   orthographies:
   - autonym: Walon
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Â Å Ç È É Ê Î Ô Û a b c d e f g h i j k l m n o p q r s t u v w x y z â å ç è é ê î ô û
-    marks: ́  ̀  ̂  ̊  ̧
+    marks: ̀  ̊  ̧  ̂  ́
     script: Latin
     status: primary
   source:
@@ -9531,7 +9531,7 @@ xal:
   orthographies:
   - autonym: Хальмг
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Җ Ң Ү Һ Ә Ө а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё җ ң ү һ ә ө
-    marks: ̈  ̆
+    marks: ̆  ̈
     script: Cyrillic
     status: primary
   source:
@@ -9546,7 +9546,7 @@ xav:
   orthographies:
   - autonym: A’uwẽ
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ã É Ẽ Ô Õ Ö Ĩ a b c d e f g h i j k l m n o p q r s t u v w x y z ã é ẽ ô õ ö ĩ ’
-    marks: ̃  ̂  ́  ̈
+    marks: ̃  ̈  ́  ̂
     script: Latin
     status: primary
   source:
@@ -9684,7 +9684,7 @@ yav:
   - autonym: Nuasue
     auxiliary: J Q R X Z j q r x z
     base: A B C D E F G H I K L M N O P S T U V W Y À Á Â È É Ì Í Î Ò Ó Ô Ù Ú Û Ā Ī Ŋ Ō Ū Ǎ Ǒ Ǔ Ɔ Ɛ a b c d e f g h i k l m n o p s t u v w y à á â è é ì í î ò ó ô ù ú û ā ī ŋ ō ū ǎ ǒ ǔ ɔ ɛ
-    marks: ́  ̀  ̌  ̂  ̄
+    marks: ̌  ̀  ̄  ́  ̂
     script: Latin
     status: primary
   source:
@@ -9698,7 +9698,7 @@ ydd:
   orthographies:
   - autonym: ייִדיש
     base: ו י א ב ג ד ה ז ח ט כ ך ל מ ם נ ן ס ע פ ף צ ץ ק ר ש ת
-    marks: ָ  ְ  ֱ  ׂ  ֲ  ֹ  ֵ  ֶ  ֻ  ּ  ִ  ׁ  ֳ  ַ
+    marks: ַ  ֱ  ֹ  ֶ  ְ  ֳ  ֵ  ָ  ׁ  ּ  ׂ  ִ  ֻ  ֲ
     script: Hebrew
     status: primary
   source:
@@ -9737,7 +9737,7 @@ ykg:
   orthographies:
   - autonym: Одул
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ғ Ң Ӧ Ԝ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ғ ң ӧ ԝ
-    marks: ̈  ̆
+    marks: ̆  ̈
     script: Cyrillic
     status: primary
   source:
@@ -9765,7 +9765,7 @@ yor:
   - autonym: Èdè Yorùbá
     auxiliary: Ɔ Ɛ ɔ ɛ
     base: A B D E F G H I J K L M N O P R S T U W Y À Á Ā È É Ē Ẹ Ì Í Ī Ò Ó Ō Ọ Ù Ú Ū Ṣ a b d e f g h i j k l m n o p r s t u w y à á ā è é ē ẹ ì í ī ò ó ō ọ ù ú ū ṣ
-    marks: ̣  ̄  ́  ̀
+    marks: ̄  ̣  ́  ̀
     script: Latin
     status: primary
   source:
@@ -9780,7 +9780,7 @@ yrk:
   orthographies:
   - autonym: Ненэц
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ӈ Ӭ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӈ ӭ ’ ”
-    marks: ̈  ̆
+    marks: ̆  ̈
     script: Cyrillic
     status: primary
   source:
@@ -9823,7 +9823,7 @@ yux:
   orthographies:
   - autonym: Одул
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ҕ Җ Ә Қ Ө а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҕ җ ә қ ө
-    marks: ̈  ̆
+    marks: ̆  ̈
     script: Cyrillic
     status: primary
   source:
@@ -9894,7 +9894,7 @@ zap:
   name: Zapotec
   orthographies:
   - base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á À È É Ë Ì Ü Ñ Ž a b c d e f g h i j k l m n o p q r s t u v w x y z á à è é ë ì ü ñ ž
-    marks: ́  ̀  ̌  ̨  ̃  ̈
+    marks: ̃  ̌  ̈  ̀  ̨  ́
     script: Latin
     status: primary
   preferred_as_individual: true
@@ -9910,7 +9910,7 @@ zdj:
   orthographies:
   - autonym: شِكُمُرِ
     base: ح چ ج ث ت پ ب ا س ز ر ذ د خ ڠ غ ع ظ ط ض ص ش ن م ل ڬ ك ق ڤ ڢ ف ي و ه
-    marks: ّ  ُ  ِ  َ
+    marks: َ  ّ  ُ  ِ
     script: Arabic
   - autonym: Shikomori
     base: A B C D E F G H I J K L M N O P R S T U V W Y Z a b c d e f g h i j k l m n o p r s t u v w y z

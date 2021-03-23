@@ -3,6 +3,7 @@ Helper classes to work with the rosetta.yaml data in more pythonic way
 """
 import yaml
 import logging
+import unicodedata2
 from .parse import parse_chars
 from .language import Language
 from . import DB, VALIDITYLEVELS, SUPPORTLEVELS
@@ -82,6 +83,9 @@ class Languages(dict):
                         if type in o:
                             o[type] = parse_chars(o[type], True,
                                                   retainDecomposed)
+                            if type == "base":
+                                o[type] = [c for c in o[type]
+                                           if not unicodedata2.category(c).startswith("M")]  # noqa
                     # Remove any components in auxiliary after decomposition
                     # that are already in base
                     if "base" in o and "auxiliary" in o:

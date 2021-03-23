@@ -20,15 +20,7 @@ log = colorlog.getLogger(__name__)
 log.setLevel(logging.DEBUG)
 log.addHandler(handler)
 
-print()
-log.debug("No color = FYI")
-log.info("Green = FYI, but worth reviewing")
-log.warning("Yellow = Might need fixing")
-log.error("Red = Requires fixing")
-print()
-
 ISO_639_3 = "../../other/iso-639-3.yaml"
-log.debug("Loading iso-639-3.yaml for names and macro language checks")
 try:
     iso_db = os.path.abspath(os.path.join(os.path.dirname(__file__),
                                           ISO_639_3))
@@ -318,6 +310,13 @@ def check_autonym_spelling(ort):
 
 
 def validate():
+    print()
+    log.debug("No color = FYI")
+    log.info("Green = FYI, but worth reviewing")
+    log.warning("Yellow = Might need fixing")
+    log.error("Red = Requires fixing")
+    print()
+    log.debug("Loading iso-639-3.yaml for names and macro language checks")
     Langs = check_yaml()
     check_types(Langs)
     check_names(Langs)
