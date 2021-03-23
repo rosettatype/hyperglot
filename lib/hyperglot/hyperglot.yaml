@@ -1119,19 +1119,82 @@ ben:
   name: Bengali
   orthographies:
   - autonym: বাংলা
-    auxiliary: ৰ ৱ ৲ ৳ ৴ ৵ ৶ ৷ ৸ ৹
-    base: ঁ ং ঃ ৺ অ আ ই ঈ উ ঊ ঋ ৠ ঌ ৡ এ ঐ ও ঔ ক ক্ষ খ গ ঘ ঙ চ ছ জ ঝ ঞ ট ঠ ড ড় ঢ ঢ় ণ ত ৎ থ দ ধ ন প ফ ব ভ ম য য় র ল শ ষ স হ ঽ া ি ী ু ূ ৃ ৄ ৢ ৣ ে ৈ ো ৌ ্ ৗ
-
-    base: ঁ ং ঃ অ আ ই ঈ উ ঊ ঋ ঌ এ ঐ ও ঔ ক খ গ ঘ ঙ চ ছ জ ঝ ঞ ট ঠ ড ঢ ণ ত থ দ ধ ন প ফ ব ভ ম য র ল শ ষ স হ ় ঽ ি ী ু ূ ৃ ৄ ৈ ো ৌ ্ ৎ ৠ ৡ ৢ ৣ ৺
+    base: ঁ ং ঃ ৺ অ আ ই ঈ উ ঊ ঋ ৠ ঌ ৡ এ ঐ ও ঔ ক খ গ ঘ ঙ চ ছ জ ঝ ঞ ট ঠ ড ঢ ণ ত ৎ থ দ ধ ন প ফ ব ভ ম য র ল শ ষ স হ ঽ   ় া  ি  ী  ু  ূ  ৃ  ৄ  ৢ  ৣ  ে  ৈ  ো  ৌ  ্  ৗ
     script: Bengali
     status: primary
   source:
-  - Omniglot
   - Wikipedia
   - CLDR
   speakers: 230000000
   speakers_date: 2011-2017
   validity: preliminary
+asm:
+  name: Assamese
+  orthographies:
+  - autonym: অসমীয়া
+    base: ঁ ং ঃ ৺ অ আ ই ঈ উ ঊ ঋ ৠ ঌ ৡ এ ঐ ও ঔ ক খ গ ঘ ঙ চ ছ জ ঝ ঞ ট ঠ ড ঢ ণ ত থ দ ধ ন প ফ ব ভ ম য ৰ ল ৱ শ ষ স হ   ় া  ি  ী  ু  ূ  ৃ  ৄ  ৢ  ৣ  ে  ৈ  ো  ৌ  ্  ৗ ʼ
+    script: Bengali
+    status: primary
+  source:
+  - Wikipedia
+  - CLDR
+  speakers: 14800000
+  speakers_date: 2011
+  validity: preliminary
+  note: The present standard is identical to the Bengali orthography except for two characters, ৰ (ro) and ৱ (vo); and the character ক্ষ (khya) has evolved into an individual consonant by itself with its own phonetic quality whereas in the Bengali alphabet it is a conjunct.
+
+mni:
+  name: Manipuri
+  orthographies:
+  - autonym: মণিপুরী
+    base: ঁ ং ঃ অ আ ই ঈ উ ঊ ঋ ৠ ঌ ৡ এ ঐ ও ঔ ক খ গ ঘ ঙ চ জ ঝ ঞ ত থ দ ধ ন প ফ ব ভ ম ৰ র ল ৱ স হ   ় া  ি  ী  ু  ূ  ৃ  ে  ৈ  ো  ৌ  ্  ৗ
+    script: Bengali
+    status: primary
+  source:
+  - Wikipedia
+  - CLDR
+  speakers: 14812000000
+  speakers_date: 2011
+  validity: preliminary
+  note: The language currently uses also Meetei script which is not included in the database, yet.
+bpy:
+  name: Bishnupriya
+  orthographies:
+  - autonym: বিষ্ণুপ্রিয়া মণিপুরী
+    base: ঁ ং ঃ অ আ ই ঈ উ ঊ ঋ ৠ ঌ ৡ এ ঐ ও ঔ ক খ গ ঘ ঙ চ ছ জ ঝ ঞ ট ঠ ড ঢ ণ ত থ দ ধ ন প ফ ব ভ ম য র ল ৱ শ ষ স হ   ় া  ি  ী  ু  ূ  ৃ  ে  ৈ  ো  ৌ  ্  ৗ
+    script: Bengali
+    status: primary
+  source:
+  - Wikipedia
+  speakers: 1760000
+  speakers_date: 2020
+  validity: preliminary
+ctg:
+  name: Chittagonian
+  orthographies:
+  - autonym: চাটগাঁইয়া
+    base: ঁ ং ঃ অ আ ই ঈ উ ঊ ঋ ৠ ঌ ৡ এ ঐ ও ঔ ক খ গ ঘ ঙ চ ছ জ ঝ ট ঠ ড ঢ ণ ত থ দ ধ ন প ফ ব ভ ম য র ল ৱ শ ষ স হ   ় া  ি  ী  ু  ূ  ৃ  ে  ৈ  ো  ৌ  ্  ৗ
+    script: Bengali
+    status: primary
+  source:
+  - Wikipedia
+  speakers: 16000000
+  speakers_date: 2007
+  validity: preliminary
+haj:
+  name: Hajong
+  orthographies:
+  - autonym: হাজং
+    base: ঁ ং ঃ অ আ ই ঈ উ ঊ ঋ ৠ ঌ ৡ এ ঐ ও ঔ ক খ গ ঘ ঙ চ ছ জ ঝ ঞ ত থ দ ধ ন প ফ ব ভ ম র হ   ় া  ি  ী  ু  ূ  ৃ  ে  ৈ  ো  ৌ  ্  ৗ
+    script: Bengali
+    status: primary
+  source:
+  - Wikipedia
+  speakers: 79800
+  speakers_date: 2011
+  validity: preliminary
+  note: The speaker count includes 8000 speakers in Bangladesh (undated).
+
 bez:
   name: Bena (Tanzania)
   orthographies:
