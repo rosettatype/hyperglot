@@ -149,7 +149,7 @@ acm:
   - autonym: عراقي
     auxiliary: ڛ ڢ ٯ ڧ ک ی ڥ چ ڨ ڭ ڠ
     base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ ڤ پ گ ة
-    design_note: Initial, medial, and final forms of the letters and some ligatures are required.
+    design_note: Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
     numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩
     script: Arabic
     status: primary
@@ -195,7 +195,7 @@ acw:
   - autonym: حجازي
     auxiliary: ڛ ڢ ٯ ڧ ک ی ڥ چ گ ڨ ڭ ڠ
     base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ پ ڤ
-    design_note: Initial, medial, and final forms of the letters and some ligatures are required.
+    design_note: Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
     numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩
     script: Arabic
     status: primary
@@ -431,7 +431,7 @@ ajp:
   - autonym: فلسطيني
     auxiliary: ڛ ڢ ٯ ڧ ک ی ڥ گ ڨ ڭ ڠ
     base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ ڤ پ چ
-    design_note: Initial, medial, and final forms of the letters and some ligatures are required.
+    design_note: Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
     numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩
     script: Arabic
     status: primary
@@ -595,7 +595,7 @@ apd:
   - autonym: سوداني
     auxiliary: ڛ ڢ ٯ ڧ ک ڤ ڥ پ چ گ ڨ ڭ ڠ
     base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ ی
-    design_note: Initial, medial, and final forms of the letters and some ligatures are required.
+    design_note: Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
     numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩
     script: Arabic
     status: primary
@@ -626,7 +626,7 @@ arb:
   - autonym: العربية
     auxiliary: ڛ ڢ ٯ ڧ ک ی ڤ ڥ پ چ گ ڨ ڭ ڠ
     base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ ة
-    design_note: Initial, medial, and final forms of the letters and some ligatures are required.
+    design_note: Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
     numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩
     script: Arabic
     status: primary
@@ -696,7 +696,7 @@ ars:
   - autonym: نجدي
     auxiliary: ڛ ڢ ٯ ڧ ک ی ڥ چ گ ڨ ڭ ڠ
     base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ پ ڤ ة
-    design_note: Initial, medial, and final forms of the letters and some ligatures are required.
+    design_note: Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
     numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩
     script: Arabic
     status: primary
@@ -726,7 +726,7 @@ arz:
   - autonym: مصرى
     auxiliary: ڛ ڢ ٯ ڧ ک ڥ گ ڨ ڭ ڠ
     base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا َ ُ ِ ْ ٰ ڤ پ ی چ ة ى
-    design_note: Initial, medial, and final forms of the letters and some ligatures are required.
+    design_note: Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
     numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩
     script: Arabic
     status: primary
@@ -1191,10 +1191,8 @@ bho:
   name: Bhojpuri
   orthographies:
   - autonym: भोजपुरी
-    base: अ आ इ ई उ ऊ ए ऐ ा ि ी ु ू े ै ओ औ ः ँ ो ौ ् क ख ग घ ङ च छ ज झ ञ ट ठ ड ़ ढ ण त थ द ध न प फ ब भ म य र ल व श ष स ह
-    design_note: Mark positioning and numerous precomposed forms (namely conjunct syllables) are required for proper representation of the language.
+    inherit: hin
     note: The use of the Kaithi script is declining. Devanagari is currently the most commonly used script for oficial documents.
-    numerals: ० १ २ ३ ४ ५ ६ ७ ८ ९
     script: Devanagari
     status: primary
   - autonym: 𑂦𑂷𑂔𑂣𑂳𑂩𑂲
@@ -1391,7 +1389,7 @@ bul:
   orthographies:
   - autonym: Български
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ь Ю Я Ѐ Ѝ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ь ю я ѐ ѝ ́
-    design_note: The Bulgarian Cyrillic uses different shapes for some of the letters, e.g. Д, Л, Ф, л, в, к, г, и, й, ф, ю etc. Correct positioning of acute and grave accents above vowels is required. The breve accent uses a different shape from the one used in the Latin script.
+    design_note: The Bulgarian Cyrillic uses different shapes for some of the characters, e.g. Д, Л, Ф, л, в, к, г, и, й, ф, ю etc. Correct positioning of acute and grave accents above vowels is required. The breve accent uses a different shape from the one used in the Latin script.
     script: Cyrillic
     status: primary
   source:
@@ -2542,9 +2540,9 @@ enh:
   orthographies:
   - autonym: Онэй база
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ҫ Ӈ Ԑ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҫ ӈ ԑ
+    design_note: Characters Ҫ ҫ are sometimes represented with a cedilla instead of a descender (spike).
     script: Cyrillic
     status: primary
-    design_note: Characters Ҫ ҫ are sometimes represented with a cedilla instead of a descender (spike).
   source:
   - Wikipedia
   - Omniglot
@@ -3466,9 +3464,11 @@ hin:
   note: There are approximately 270000000 of additional L2 speakers.
   orthographies:
   - autonym: हिन्दी
-    base: अ आ इ ई उ ऊ ऋ ए ऐ ओ औ ं ः प ा ि ी ु ू ृ े ै ो ौ क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न फ ब भ म य र ल व श ष स ह ़
+    auxiliary: ॐ
+    base: अ आ इ ई उ ऊ ऋ ए ऐ ओ औ ा ि ी ु ू ृ े ै ो ौ ँ ं ः ़ ् क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र ल व श ष स ह
     design_note: Mark positioning and numerous precomposed forms (namely conjunct syllables) are required for proper representation of the language.
     numerals: ० १ २ ३ ४ ५ ६ ७ ८ ९
+    punctuation: । ॥
     script: Devanagari
     status: primary
   source:
@@ -3616,8 +3616,8 @@ hye:
   name: Armenian
   orthographies:
   - autonym: Հայերէն
-    punctuation: ՛ ՜ ՝ ՞ ։ 
     base: Ա Բ Գ Դ Ե Զ Է Ը Թ Ժ Ի Լ Խ Ծ Կ Հ Ձ Ղ Ճ Մ Յ Ն Շ Ո Չ Պ Ջ Ռ Ս Վ Տ Ր Ց Ւ Փ Ք Օ Ֆ ա բ գ դ ե զ է ը թ ժ ի լ խ ծ կ հ ձ ղ ճ մ յ ն շ ո չ պ ջ ռ ս վ տ ր ց ւ փ ք և օ ֆ
+    punctuation: ՛ ՜ ՝ ՞ ։
     script: Armenian
     status: primary
   preferred_name: Eastern Armenian
@@ -3900,7 +3900,7 @@ jdt:
     script: Cyrillic
     status: primary
   - autonym: ז׳אוּהאוּראִ
-    base: א ב ג ד ה ו ּ ז ח י כ ל מ נ ס ע פ צ ק ר ש ת ׳ ִ ַ ָ 
+    base: א ב ג ד ה ו ּ ז ח י כ ל מ נ ס ע פ צ ק ר ש ת ׳ ִ ַ ָ
     note: Regaining popularity.
     script: Hebrew
   - autonym: Çuhuri
@@ -5173,8 +5173,7 @@ mag:
   name: Magahi
   orthographies:
   - autonym: मगही
-    base: अ आ इ ई उ ऊ ए ऐ ओ औ ँ प ा ि ी ु ू े ै ो ौ क ख ग घ ङ च छ ज झ ञ ट ठ ड ़ ढ ण त थ द ध न फ ब भ म य र ल व श ष स ह
-    design_note: Mark positioning and numerous precomposed forms (namely conjunct syllables) are required for proper representation of the language.
+    inherit: hin
     script: Devanagari
     status: primary
   source:
@@ -5201,9 +5200,7 @@ mai:
   note: The speaker count is ambigious as Maithili is often regarded as a dialect of Hindi.
   orthographies:
   - autonym: मैथिली
-    base: ँ ं ः अ आ इ ई उ ऊ ऋ ऌ ऍ ए ऐ ऑ ओ औ क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र ऱ ल ळ व श ष स ह ऽ ा ि ी ु ू ृ ॄ ॅ े ै ॉ ो ौ ् ॐ
-    design_note: Mark positioning and numerous precomposed forms (namely conjunct syllables) are required for proper representation of the language.
-    numerals: ० १ २ ३ ४ ५ ६ ७ ८ ९
+    inherit: hin
     script: Devanagari
     status: primary
   source:
@@ -5245,10 +5242,11 @@ mar:
   note: There are approximately 12000000 additional L2 speakers.
   orthographies:
   - autonym: मराठी
-    base: क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र ल व श ष स ह ळ ् अ आ इ ई उ ऊ ए ऐ ओ औ ं ः ॲ ऑ ा ि ी ु ू े ै ो ौ ॅ ॉ
-    design_note: Marathi Devanagari (also called Balbodh) uses different shapes for some of the letters, e.g. र (eyelash reph), ल and श. Numerous precomposed conjunct forms, resolved mark positioning, and resolved combinations of marks and other forms are required for proper representation of the language.
-    note: The localized version of the Devanagari script used for Marathi is sometimes called Balbodh.
+    auxiliary: ॐ
+    base: अ आ इ ई उ ऊ ऋ ए ऐ ओ औ ा ि ी ु ू ृ े ै ो ौ ँ ं ः ़ ् क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र ल ळ व श ष स ह
+    design_note: Marathi Devanagari (also called Balbodh) uses different shapes for some of the characters compared to the Hindi version, e.g. र (eyelash reph), ल, and श. Numerals may differ too. Mark positioning and numerous precomposed forms (namely conjunct syllables) are required for proper representation of the language.
     numerals: ० १ २ ३ ४ ५ ६ ७
+    punctuation: । ॥
     script: Devanagari
     status: primary
   source:
@@ -6375,7 +6373,7 @@ pan:
     status: primary
   - autonym: پن٘جابی
     base: ا ب پ ت ٹ ث ج چ ح خ د ڈ ذ ر ڑ ز ژ س ش ص ض ط ظ ع غ ف ق ک گ ل ؕ م ن ݨ ں و ه ھ ء ی ے
-    design_note: Initial, medial, and final forms of the letters and some ligatures are required.
+    design_note: Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
     note: Used in Pakistan.
     script: Arabic
     status: primary
@@ -6455,7 +6453,7 @@ pes:
   orthographies:
   - autonym: فارسی
     base: ء أ ؤ ئ ا ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ل م ن ه و پ چ ژ ک گ ی َ ُ ِ ْ ٰ
-    design_note: Initial, medial, and final forms of the letters and some ligatures are required.
+    design_note: Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
     numerals: ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹
     script: Arabic
     status: primary
@@ -7022,10 +7020,12 @@ san:
   name: Sanskrit
   orthographies:
   - autonym: संस्कृतम्
-    base: अ आ इ ई उ ऊ ऋ ॠ ल ृ ए ऐ ओ औ क ् ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र व श ष स ह
-    design_note: Mark positioning and numerous precomposed forms (namely conjunct syllables) are required for proper representation of the language.
+    auxiliary: ॐ
+    base: अ आ इ ई उ ऊ ऋ ॠ ऌ ॡ ए ऐ ओ औ ा ि ी ु ू ृ े ै ो ौ ँ ं ः ़ ् क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र ल ळ व श ष स ह
+    design_note: Sanskrit Devanagari uses different shapes for some of the characters and character combinations compared to the Hindi version. Mark positioning and numerous precomposed forms (namely conjunct syllables) are required for proper representation of the language.
     note: Sanskrit has been written using a variety of Brahmic scrits and, later, also the Latin-script transliteration. There a no native speakers of Sanskrit.
     numerals: ० १ २ ३ ४ ५ ६ ७ ८ ९
+    punctuation: । ॥
     script: Devanagari
     status: primary
   source:
@@ -7793,9 +7793,7 @@ taj:
   name: Eastern Tamang
   orthographies:
   - autonym: तामाङ‎
-    base: अ आ इ ई उ ऊ ऋ ॠ ल ृ ए ऐ ओ औ क ् ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र व श ष स ह
-    design_note: Mark positioning and numerous precomposed forms (namely conjunct syllables) are required for proper representation of the language.
-    numerals: ० १ २ ३ ४ ५ ६ ७ ८ ९
+    inherit: hin
     script: Devanagari
     status: primary
   - autonym: རྟ་དམག‎
@@ -8496,7 +8494,7 @@ urd:
   orthographies:
   - autonym: اُردُو
     base: ء ا ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ل م ن و ٹ پ چ ڈ ڑ ژ ک گ ں ھ ہ ی َ ُ ِ ْ ٰ
-    design_note: Initial, medial, and final forms of the letters and some ligatures are required.
+    design_note: Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
     numerals: ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹
     script: Arabic
     status: primary
@@ -9014,7 +9012,7 @@ ydd:
   name: Eastern Yiddish
   orthographies:
   - autonym: ייִדיש
-    base: ו י א ב ג ד ה ז ח ט כ ך ל מ ם נ ן ס ע פ ף צ ץ ק ר ש ת ִ ָ ַ  ׁ ׂ ּ ְ ֱ ֲ ֳ ִ ֵ ֶ ַ ָ ֹ ֻ 
+    base: ו י א ב ג ד ה ז ח ט כ ך ל מ ם נ ן ס ע פ ף צ ץ ק ר ש ת ִ ָ ַ ׁ ׂ ּ ְ ֱ ֲ ֳ ֵ ֶ ֹ ֻ
     script: Hebrew
     status: primary
   source:
@@ -9283,7 +9281,7 @@ zsm:
     status: primary
   - autonym: مليسيا‎
     base: ء ‎ ا ب ة ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ل م ن ه و ى ي چ ڠ ڤ ک ڽ ۏ ݢ
-    design_note: Initial, medial, and final forms of the letters and some ligatures are required.
+    design_note: Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
     note: Jawi
     numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩
     script: Arabic
