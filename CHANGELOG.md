@@ -8,9 +8,12 @@
 - FIX: Fixed inheritence missing `marks`, `design_notes` and `note`
 - TWEAK: Make sure `marks` are saved in ordered form, so saving does not arbitrarily alter the order
 - TESTS: Added tests for orthography inheritance
+- DATA: Constrained speaker counts to integers only
 
 ## 0.2.7 (24.03.2021)
 - DATA: Fixed various speaker counts containing malformed data
+- DATA: More design notes for Latin-script languages
+- DATA: Khmer added as draft, Armenian, Buginese, Georgian, Burmese, Lao and Thai refined
 - TWEAK: Implemented validation for speaker count data
 
 ## 0.2.6 (23.03.2021)
