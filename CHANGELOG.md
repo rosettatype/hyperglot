@@ -1,5 +1,12 @@
 # A changelog for the lib/hyperglot CLI tool
 
+## 0.2.8 (24.03.2021)
+- FIX: Fixed inheritence when it chains, e.g. Algerian Arabic inheriting from Tunisian Arabic which inherits from Standard Arabic
+- FIX: Fixed inheritence missing `marks`, `design_notes` and `note`
+- TWEAK: Make sure `marks` are saved in ordered form, so saving does not arbitrarily alter the order
+- TESTS: Added tests for orthography inheritance
+- DATA: Constrained speaker counts to integers only
+
 ## 0.2.7 (24.03.2021)
 - DATA: Fixed various speaker counts containing malformed data
 - DATA: More design notes for Latin-script languages

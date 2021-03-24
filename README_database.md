@@ -32,11 +32,12 @@ A language can refer to one or more orthographies. An orthography specifies the 
 - `marks` (optional): combining marks needed for the glyph composition of `base`, as well as any additional combining marks required for this orthography. If `base` contains marks these are automatically added to `marks` and removed from `base`. Marks needed only for the `auxiliary` characters must not be added here, but as part of `auxiliary`.
 - `auxiliary` (optional): a string of space-separated characters or combinations of characters and combining marks that are not part of the standard alphabet, but appear in very common loan words or in reference literature. Deprecated characters can be included here too, e.g. `ş ţ` for Romanian.
 - `autonym` (optional): the name of the language in the language itself using this orthography. If missing, the `autonym` defined in the parent language entry is used. It is expected that the `autonym` can be spelled with the orthography's `base`.
-- `inherit` (required or use `base`): the code of a language to copy the `base` and `auxiliary` strings from. In case the language has multiple orthographies, the first one for the same script is used.
-- `script` (required): English name of the main script used by the orthography, e.g. Latin, Arabic, Armenian, Cyrillic, Greek, Hebrew. When a language uses a combination of several scripts in conjunction each script forms its own orthography.
+- `inherit` (required or use `base`): the code of a language to copy the `base, auxiliary, marks, punctuation, numerals, design_note` strings from. In case the language has multiple orthographies, the first one for the same script is used.
+- `script` (required): English name of the main script used by the orthography, e.g. Latin, Arabic, Armenian, Cyrillic, Greek, Hebrew. When a language uses a combination of several scripts in conjunction each script forms its own orthography. It should follow ISO 15924.
 - `status` (required, defaults to `primary`): the status of the orthography, may be one of: `deprecated, secondary, local, primary`. The value `local` refers to an orthography which is used only in a specific region. Orthographies with `secondary` status are ignored during language support detection, but used when detecting `orthography` support. Orthographies with `deprecated` status are included only for the sake of completeness.
 - `preferred_as_group` (optional, defaults to `false`) will combine all orthographies of this language. When used, a language is detected as supported only if all its orthographies with this attribute are supported. This is used for Serbian to require both Cyrillic-script and Latin-script orthographies to be supported and for Japanese to require Hiragana, Katakana, and Kanji orthographies to be supported.
-- `note` (optional): a note of any kind. We will add a note about other support requirements we know, e.g. OpenType features.
+- `note` (optional): a note of any kind.
+- `design_note` (optional): a note with general design considerations specific to this orthography. Ideally, phrased in a way that is font-format agnostic. A hint really.
 
 
 ### Macrolanguages
@@ -120,8 +121,9 @@ The main sources we used to build the database are:
 - [Ethnologue](http://ethnologue.org)
 - [ISO 639-3](http://iso639-3.sil.org)
 - [Omniglot](http://omniglot.com)
-- [Unicode CLDR](http://unicode.org)
+- [Unicode](http://unicode.org)
 - [Wikipedia](http://wikipedia.org)
+- Grierson, George Abraham. Linguistic survey of India. Delhi: Low Price Publications. 2012.
 
 Further sources are listed for each language.
 

@@ -139,19 +139,58 @@ class Languages(dict):
                                         " '%s', but no such language was "
                                         "found" % (iso, parent_iso))
                             continue
-                        ref = Language(self[parent_iso], parent_iso)
-                        ort = ref.get_orthography(o["script"])
-                        if ort:
-                            log.debug("'%s' inheriting orthography from "
-                                      "'%s'" % (iso, parent_iso))
-                            # Copy all the attributes we want to inherit
-                            for attr in ["base", "auxiliary", "combinations",
-                                         "numerals", "status"]:
-                                if attr in ort:
-                                    # Wrap in type constructor, to copy, not
-                                    # reference
-                                    ty = type(ort[attr])
-                                    o[attr] = ty(ort[attr])
+
+                        o = self.inherit_orthography(parent_iso, o, iso)
+
+    def inherit_orthography(self, source_iso, extend, iso=""):
+        """
+        Return an orthography dict that has been extended by the source iso's
+        orthography.
+        @param source_iso str: The iso code of the language from which to
+            inherit
+        @param extend dict: The orthography dict of the language to which we
+            inherit — existing keys are left unchanged
+        @param iso str (optional): The iso code of the language to which we are
+            inheriting to. If an orthography inherits more than once we do not
+            have the inheriting's language context, so do not know the iso code
+            to which this orthography belongs to in that case
+        """
+        logging.debug("Inherit orthography from '%s' to '%s'" % (source_iso,
+                                                                 iso))
+
+        ref = Language(self[source_iso], source_iso)
+        ort = ref.get_orthography(extend["script"])
+        if "inherit" in ort:
+            logging.debug("Multiple levels of inheritence from '%s'" %
+                          source_iso)
+            ort = self.inherit_orthography(ort["inherit"], ort)
+
+        if ort:
+            log.debug("'%s' inheriting orthography from "
+                      "'%s'" % (iso, source_iso))
+            # Copy all the attributes we want to inherit
+            # Note: No autonym inheritance
+            for attr in ["base", "auxiliary", "marks", "note",
+                         "combinations", "punctuation",
+                         "design_note", "numerals", "status"]:
+                if attr in ort:
+                    # Wrap in type constructor, to copy, not
+                    # reference
+                    ty = type(ort[attr])
+                    if attr in extend:
+                        log.info("'%s' skipping inheriting "
+                                 "attribute '%s' from '%s': "
+                                 "Already set" %
+                                 (iso, source_iso, attr))
+                    else:
+                        extend[attr] = ty(ort[attr])
+        else:
+            log.warning("'%s' is set to inherit from '%s' but "
+                        "no language or orthography found to "
+                        "inherit from for script '%s'" %
+                        (iso, source_iso, extend["script"]))
+
+        return extend
 
     def inherit_orthographies_from_macrolanguage(self):
         """
