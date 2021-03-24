@@ -121,8 +121,9 @@ The main sources we used to build the database are:
 - [Ethnologue](http://ethnologue.org)
 - [ISO 639-3](http://iso639-3.sil.org)
 - [Omniglot](http://omniglot.com)
-- [Unicode CLDR](http://unicode.org)
+- [Unicode](http://unicode.org)
 - [Wikipedia](http://wikipedia.org)
+- Grierson, George Abraham. Linguistic survey of India. Delhi: Low Price Publications. 2012.
 
 Further sources are listed for each language.
 
