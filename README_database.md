@@ -12,7 +12,7 @@ The highest level entries in the database represent languages indexed using the 
 - `preferred_name` (optional): an override of the ISO 639-3 name. This is useful when the ISO 639-3 name  is pejorative or racist. We also use this to simplify very long names and where we have a preference (e.g. Sami over Saami). This can be turned off when using the database via the CLI tool or module to adhere strictly to ISO 639-3.
 - `autonym` (optional): the name of the language in the language itself.
 - `orthographies` (optional): a list of orthographies for this language. See below.
-- `speakers` (optional) is a number of L1 speakers. Note that this is a number of speakers, not a number of readers. This can an integer or a range.
+- `speakers` (optional) is a number of L1 speakers. Note that this is a number of speakers, not a number of readers. Only integer values are allowed. If a source lists a range the maximimum of the estimated range is listed.
 - `speakers_date` (optional) is the publication date of the reference used for the speakers count on Wikipedia.
 - `status` (required, defaults to `living`) the status of the language, may be one of `historical, constructed, living`.
 - `source` (optional) is a list of source names used to define the orthographies, e.g. Wikipedia, Omniglot, Alvestrand. See below for the complete list.

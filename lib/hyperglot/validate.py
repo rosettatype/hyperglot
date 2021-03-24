@@ -112,9 +112,9 @@ def check_types(Langs):
             log.error("'%s' has invalid 'validity'" % iso)
 
         if "speakers" in lang:
-            if (re.search(r"[^\d\-]", str(lang["speakers"]))):
+            if (re.search(r"[^\d]", str(lang["speakers"]))):
                 log.error("'%s' has invalid 'speakers' '%s' - only numbers "
-                          "and plain hyphen are allowed" %
+                          "are allowed" %
                           (iso, lang["speakers"]))
 
 
