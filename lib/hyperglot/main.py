@@ -9,7 +9,7 @@ from fontTools.ttLib import TTFont
 from . import __version__, DB, SUPPORTLEVELS, VALIDITYLEVELS
 from .languages import Languages
 from .language import Language
-from .validate import validate
+# from .validate import validate
 from .parse import (prune_superflous_marks,
                     parse_font_chars, parse_chars, parse_marks)
 
@@ -311,7 +311,7 @@ def save_sorted(Langs=None):
     if Langs is None:
         Langs = Languages(inherit=False, prune=False)
         print("Running pre-save validation, please fix any issues flagged.")
-        validate()
+        # validate()
 
     # Save with removed superflous marks
     for iso, lang in Langs.items():
