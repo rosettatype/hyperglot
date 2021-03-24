@@ -1,5 +1,8 @@
 # A changelog for the lib/hyperglot CLI tool
 
+## 0.2.9 (24.03.2021)
+- HOTFIX: Prevent error message about missing file in CLI use
+
 ## 0.2.8 (24.03.2021)
 - FIX: Fixed inheritence when it chains, e.g. Algerian Arabic inheriting from Tunisian Arabic which inherits from Standard Arabic
 - FIX: Fixed inheritence missing `marks`, `design_notes` and `note`
