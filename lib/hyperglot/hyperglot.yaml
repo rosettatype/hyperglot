@@ -4666,7 +4666,7 @@ khm:
   - Wikipedia
   speakers: 16000000
   speakers_date: 2007
-  validity: preliminary
+  validity: draft
 khq:
   name: Koyra Chiini Songhay
   orthographies:
@@ -6352,6 +6352,7 @@ nav:
     marks: ̨  ́
     script: Latin
     status: primary
+    design_note: The positioning of the ogonek mark may differ from its positioning in Polish and Lithuanian.
   source:
   - Omniglot
   - Wikipedia
@@ -6520,10 +6521,12 @@ nld:
   name: Dutch
   orthographies:
   - autonym: Nederlands
-    base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á Â Ä È É Ê Ë Í Ï Ó Ô Ö Ú Û Ü Ĳ a b c d e f g h i j k l m n o p q r s t u v w x y z á â ä è é ê ë í ï ó ô ö ú û ü ĳ ȷ
+    base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á Â Ä È É Ê Ë Í Ï Ó Ô Ö Ú Û Ü Ĳ a b c d e f g h i j k l m n o p q r s t u v w x y z á â ä è é ê ë í ï ó ô ö ú û ü ĳ
+    auxiliary: ȷ
     marks: ̀  ̈  ́  ̂
     script: Latin
     status: primary
+    design_note: To support a combination of ‹ĳ› with an acute mark, ‹ȷ› with an acute mark should follow ‹í›. Font developers provide automated substitutions in their fonts to make such character recomposition work.
   source:
   - Omniglot
   - Native
@@ -7406,6 +7409,8 @@ ron:
     marks: ̆  ̦  ̂
     script: Latin
     status: primary
+    note: Used also for Romanian spoken in Moldavia (sometimes called Moldavian).
+    design_note: The characters ‹Ș,ș› and ‹Ț,ț› have been represented with ‹Ş,ş› and ‹Ţ,ţ› in the past. The former character code points may still appear in some legacy encodings. To resolve this and to avoid discrepancy (the marks below both character pairs ought to be identical) some font developers use automated substitutions in their OpenType fonts.
   source:
   - Omniglot
   - Wikipedia
