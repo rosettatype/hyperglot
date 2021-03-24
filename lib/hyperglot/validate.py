@@ -111,6 +111,12 @@ def check_types(Langs):
         if "validity" in lang and lang["validity"] not in VALIDITYLEVELS:
             log.error("'%s' has invalid 'validity'" % iso)
 
+        if "speakers" in lang:
+            if (re.search(r"[^\d\-]", str(lang["speakers"]))):
+                log.error("'%s' has invalid 'speakers' '%s' - only numbers "
+                          "and plain hyphen are allowed" %
+                          (iso, lang["speakers"]))
+
 
 def check_is_valid_list(item):
     """
