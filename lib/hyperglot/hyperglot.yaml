@@ -414,7 +414,7 @@ aii:
   source:
   - Omniglot
   - Wikipedia
-  speakers: 828,930
+  speakers: 828930
   speakers_date: 2020
   validity: preliminary
 aiq:
@@ -675,7 +675,7 @@ arg:
   source:
   - Omniglot
   - Wikipedia
-  speakers: 10000–12000
+  speakers: 10000-12000
   speakers_date: 2017
   status: living
   validity: verified
@@ -3973,7 +3973,7 @@ ido:
   source:
   - Omniglot
   - Wikipedia
-  speakers: 100–200
+  speakers: 100-200
   speakers_date: 2015
   status: constructed
   validity: verified
@@ -5445,7 +5445,7 @@ ltg:
     status: primary
   source:
   - Wikipedia
-  speakers: 150000–200000
+  speakers: 150000-200000
   speakers_date: 2009
   status: living
   validity: verified
@@ -6737,7 +6737,7 @@ oaa:
   source:
   - Omniglot
   - Wikipedia
-  speakers: 26–47
+  speakers: 26-47
   speakers_date: 2010
   status: living
   validity: verified
@@ -6753,7 +6753,7 @@ oci:
   source:
   - Omniglot
   - Wikipedia
-  speakers: 100000–800000
+  speakers: 100000-800000
   speakers_date: 2007-2012
   status: living
   validity: preliminary
@@ -7848,7 +7848,7 @@ sje:
   source:
   - Wikipedia
   - Omniglot
-  speakers: 25–50
+  speakers: 25-50
   speakers_date: 2010
   status: living
   validity: preliminary
@@ -9742,7 +9742,7 @@ ykg:
     status: primary
   source:
   - Omniglot
-  speakers: 60–70
+  speakers: 60-70
   speakers_date: 2010
   status: living
   validity: draft

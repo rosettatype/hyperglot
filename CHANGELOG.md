@@ -1,5 +1,9 @@
 # A changelog for the lib/hyperglot CLI tool
 
+## 0.2.7 (WIP)
+- DATA: Fixed various speaker counts containing malformed data
+- TWEAK: Implemented validation for speaker count data
+
 ## 0.2.6 (23.03.2021)
 - DATA: Various status updates, notes and reviewed orthographies
 - DATA: Introduced `marks` attribute containing all combinging marks needed for an orthography
