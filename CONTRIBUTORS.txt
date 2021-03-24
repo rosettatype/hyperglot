@@ -4,7 +4,10 @@
 # Name <email address>
 
 David Březina <david@rosettatype.com> @MrBrezina (concept, database structure, and main language data set)
-Johannes Neumeier <hello@johannesneumeier.com> @kontur (tool and tests)
-Sérgio Martins @sergiolmartins (major expansion and review of the data, ca 250+ languages)
+Johannes Neumeier <hello@johannesneumeier.com> @kontur (tool and tests and German orthographies)
+Sérgio Martins @sergiolmartins (major expansion and review of the data, over 250 languages)
 Toshi Omagari  @toshe (basic language data for many Cyrillic-script languages)
-Denis Moyogo Jacquerye @moyogo (corrections to several African languages and Madurese)
+Denis Moyogo Jacquerye @moyogo (corrections to Adangme, Kabiye, Madurese)
+Hrant Հրանդ Փափազեան Papazian (corrections to Armenian)
+Meir Sadan (Hebrew and Yiddish)
+Vincent W.J. van Gerven Oei (verification of Albanian languages)

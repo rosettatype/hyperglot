@@ -324,6 +324,7 @@ afb:
   - autonym: خليجي
     auxiliary: ڛ ڢ ٯ ڧ ک ی ڥ چ ڨ ڭ ڠ
     base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا ڤ پ گ
+    design_note: Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
     marks: َ  ُ  ِ  ْ  ٰ
     numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩
     script: Arabic
@@ -991,6 +992,7 @@ azb:
   orthographies:
   - autonym: آذربایجانجا
     base: و ؤ ئ ا خ ع ن پ چ ژ ک گ ۆ ۇ ی ە ݣ ﺏ ﺕ ﺙ ﺝ ﺡ ﺩ ﺫ ﺭ ﺯ ﺱ ﺵ ﺹ ﺽ ﻁ ﻅ ﻍ ﻑ ﻕ ﻝ ﻡ ﻥ ﻩ ﻭ آ ج ب ذ ر
+    design_note: Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
     marks: ْ  ٓ  ٔ  ٛ
     note: Used in Iran.
     script: Arabic
@@ -1054,6 +1056,7 @@ bal:
   orthographies:
   - autonym: بلۏچی
     base: ء آ ا ب ت ج د ر ز س ش ل م ن ه و ٹ پ چ ڈ ژ ک گ ی ۏ ے ݔ ࢣ
+    design_note: Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
     marks: َ  ُ  ِ  ٓ
     numerals: ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹ 0 1 2 3 4 5 6 7 8 9
     script: Arabic
@@ -1089,7 +1092,9 @@ ban:
   - autonym: ᬪᬵᬱᬩᬮᬶ
     auxiliary: ᬡ ᬙ ᬔ ᬥ ᬟ ᬠ ᬣ ᬝ ᬞ ᬰ ᬱ ᬖ ᬪ ᬨ ᬛ
     base: ᬳ ᬦ ᬘ ᬭ ᬓ ᬤ ᬢ ᬲ ᬯ ᬮ ᬫ ᬕ ᬩ ᬗ ᬧ ᬚ ᬬ ᬜ ᬅ ᬇ ᬋ ᬍ ᬉ ᬏ ᬑ ᬒ ᬐ ᬊ ᬎ ᬌ ᬈ ᬆ
+    design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
     marks: ᬵ
+    numerals: ᭐ ᭕ ᭑ ᭖ ᭒ ᭗ ᭓ ᭘ ᭔ ᭙ 0 1 2 3 4 5 6 7 8 9
     script: Balinese
     status: primary
   source:
@@ -1603,8 +1608,10 @@ cat:
   name: Catalan
   orthographies:
   - autonym: Català
-    base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Ç È É Í Ï Ò Ó Ú Ü Ŀ a b c d e f g h i j k l m n o p q r s t u v w x y z à ç è é í ï ò ó ú ü ŀ
-    marks: ̀  ́  ̈  ̧
+    auxiliary: Ŀ ŀ
+    base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Ç È É Í Ï Ò Ó Ú Ü a b c d e f g h i j k l m n o p q r s t u v w x y z à ç è é í ï ò ó ú ü
+    design_note: Special consideration should be given to the Catalan use of middle dot ‹·› (punt volat). The use of legacy characters ‹Ŀ, ŀ› is discouraged. Some font developers decompose ‹Ŀ, ŀ› automatically to adapt the position of the mid dot to changes in the overall spacing (tracking).
+    marks: ·  ̀  ́  ̈  ̧
     script: Latin
     status: primary
   source:
@@ -1976,6 +1983,7 @@ ckb:
     status: primary
   - autonym: سۆرانی
     base: ا ب ت ج ح خ د ر ز س ش ع غ ف ق ل م ن و پ چ ڕ ژ ڤ ک گ ڵ ھ ۆ ی ێ ە
+    design_note: Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
     script: Arabic
     status: primary
   source:
@@ -2427,7 +2435,7 @@ dgo:
     script: Devanagari
     status: primary
   - autonym: ڈوگَرِی
-    design_note: Prefers a Nastaʼlīq style of the Arabic script
+    design_note: Nastaʼlīq style of the Arabic script is preferred. Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
     inherit: urd
     note: Used in Pakistan
     script: Arabic
@@ -5582,7 +5590,9 @@ mad:
     status: primary
   - autonym: ꦧꦱꦴꦩꦝꦸꦫꦴ
     base: ꦄ ꦆ ꦈ ꦌ ꦎ ꦲ ꦤ ꦕ ꦗ ꦫ ꦏ ꦒ ꦢ ꦠ ꦱ ꦮ ꦭ ꦥ ꦧ ꦣ ꦪ ꦚ ꦩ ꦛ ꦔ ꦝ
+    design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
     marks: ꦃ  ꦴ  ꦼ
+    numerals: ꧐ ꧑ ꧒ ꧓ ꧔ ꧕ ꧖ ꧗ ꧘ ꧙ 0 1 2 3 4 5 6 7 8 9
     script: Javanese
     status: secondary
   source:
@@ -6960,6 +6970,7 @@ pbu:
   orthographies:
   - autonym: یوسفزئی پښتو
     base: ﺍ ﺏ پ ﺕ ټ ﺙ ﺝ چ ﺡ ﺥ څ ځ ﺩ ډ ﺫ ﺭ ړ ﺯ ژ ږ ﺱ ﺵ ښ ﺹ ﺽ ﻁ ﻅ ﻉ ﻍ ﻑ ﻕ ک ګ ﻝ ﻡ ﻥ ڼ ﻭ ه ۀ ي ې ی ۍ ئ
+    design_note: Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
     marks: ٔ
     script: Arabic
     status: primary
@@ -7921,6 +7932,7 @@ skr:
   orthographies:
   - autonym: سرائیکی
     base: ا ب ٻ پ ت ٹ ث ج ڄ چ ح خ د ڊ ڈ ݙ ذ ر ڑ ز ژ س ش ص ض ط ظ ع غ ف ق ک گ ڳ ل م ن ݨ و ہ ھ ء ی ے ي
+    design_note: Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
     marks: ٔ
     script: Arabic
     status: primary
@@ -8086,7 +8098,7 @@ snd:
     status: primary
   - autonym: سنڌي
     base: ء أ ؤ ئ ا ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ل م ن ه و پ چ ژ ک گ ی ڄ ٺ ٽ ٿ ڀ ٻ ڙ ڍ ڊ ڏ ڌ ڇ ڃ ڦ ڻ ڱ ڳ ڪ
-    design_note: Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
+    design_note: Nastaʼlīq style of the Arabic script is preferred. Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
     marks: َ  ُ  ِ  ْ  ٔ  ٰ
     note: Used in Pakistan
     numerals: ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹ 0 1 2 3 4 5 6 7 8 9
@@ -8318,6 +8330,7 @@ swb:
   orthographies:
   - autonym: شِكُمُرِ
     base: ح چ ج ث ت پ ب ا س ز ر ذ د خ ڠ غ ع ظ ط ض ص ش ن م ل ڬ ك ق ڤ ڢ ف ي و ه
+    design_note: Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
     marks: َ  ُ  ِ  ّ
     script: Arabic
   - autonym: Shikomori
@@ -8442,7 +8455,7 @@ tam:
     base: அ ஆ இ ஈ உ ஊ எ ஏ ஐ ஒ ஓ ஔ ஃ க ங ச ஞ ட ண த ந ப ம ய ர ல வ ழ ள ற ன ஜ ஶ ஷ ஸ ஹ
     design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
     marks: ஂ  ா  ி  ீ  ு  ூ  ெ  ே  ை  ்  ௗ
-    numerals: 0 ௧ ௨ ௩ ௪ ௫ ௬ ௭ ௮ ௯ ௰ ௱ ௲
+    numerals: 0 ௧ ௨ ௩ ௪ ௫ ௬ ௭ ௮ ௯ ௰ ௱ ௲ 1 2 3 4 5 6 7 8 9
     script: Tamil
     status: primary
   source:
@@ -9066,6 +9079,7 @@ uig:
     status: secondary
   - autonym: ئۇيغۇرچە
     base: ئ ا ب ت ج خ د ر ز س ش غ ف ق ك ل م ن و ي پ چ ژ ڭ گ ھ ۆ ۇ ۈ ۋ ې ە
+    design_note: Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
     marks: ٔ
     script: Arabic
     status: primary
@@ -9160,7 +9174,7 @@ urd:
   orthographies:
   - autonym: اُردُو
     base: ء ا ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ل م ن و ٹ پ چ ڈ ڑ ژ ک گ ں ھ ہ ی
-    design_note: Prefers a Nastaʼlīq style of the Arabic script
+    design_note: Nastaʼlīq style of the Arabic script is preffered. Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
     marks: َ  ُ  ِ  ْ  ٰ
     numerals: ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹ 0 1 2 3 4 5 6 7 8 9
     script: Arabic
@@ -9218,6 +9232,7 @@ uzs:
   orthographies:
   - autonym: وزبیکی
     base: ء ئ ا ب ت ج ح خ د ر ز س ش غ ف ق ك ل م ن ه و ى ي پ چ ژ ڭ گ ھ ۇ ۋ ې ک ی
+    design_note: Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
     marks: ٔ
     script: Arabic
     status: primary
@@ -9928,6 +9943,7 @@ zdj:
   orthographies:
   - autonym: شِكُمُرِ
     base: ح چ ج ث ت پ ب ا س ز ر ذ د خ ڠ غ ع ظ ط ض ص ش ن م ل ڬ ك ق ڤ ڢ ف ي و ه
+    design_note: Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
     marks: َ  ُ  ِ  ّ
     script: Arabic
   - autonym: Shikomori
