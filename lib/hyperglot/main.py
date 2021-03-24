@@ -360,7 +360,7 @@ def save_sorted(Langs=None):
                     # Note: Let's store marks with two spaces between to
                     # make them more legible; when parsing the attribute
                     # back in all whitespaces are removed
-                    o["marks"] = "  ".join(marks)
+                    o["marks"] = "  ".join(sorted(marks))
                     if "base" in o:
                         base, removed = prune_superflous_marks(
                             " ".join(o["base"]))
