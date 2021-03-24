@@ -1471,13 +1471,17 @@ bug:
   orthographies:
   - autonym: Basa Ugi
     base: A B C D E G I J K L M N O P R S T U W Y Ә a b c d e g i j k l m n o p r s t u w y ' ә
-    note: The use of the Lontara script seems to be declining with the Latin script taking over.
+    note: The use of the Buginesse script seems to be declining with the Latin script taking over.
     script: Latin
     status: primary
   - autonym: ᨅᨔ ᨕᨘᨁᨗ
-    base: ᨀ ᨁ ᨂ ᨃ ᨄ ᨅ ᨆ ᨇ ᨈ ᨉ ᨊ ᨋ ᨌ ᨍ ᨎ ᨏ ᨐ ᨑ ᨒ ᨓ ᨔ ᨕ ᨖ ◌ ᨞ ᨟
+    base: ᨀ ᨁ ᨂ ᨃ ᨄ ᨅ ᨆ ᨇ ᨈ ᨉ ᨊ ᨋ ᨌ ᨍ ᨎ ᨏ ᨐ ᨑ ᨒ ᨓ ᨔ ᨕ ᨖ
     marks: ᨙ  ᨚ  ᨘ  ᨛ  ᨗ
-    script: Lontara
+    punctuation: ᨞ ᨟
+    note: The script is also called Lontara
+    design_note: Mark positioning and some character combinations have to be resolved to properly represent the language.
+    script: Buginesse
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -3909,11 +3913,12 @@ huz:
 hye:
   name: Armenian
   orthographies:
-  - autonym: Հայերէն
-    base: Ա Բ Գ Դ Ե Զ Է Ը Թ Ժ Ի Լ Խ Ծ Կ Հ Ձ Ղ Ճ Մ Յ Ն Շ Ո Չ Պ Ջ Ռ Ս Վ Տ Ր Ց Ւ Փ Ք Օ Ֆ ա բ գ դ ե զ է ը թ ժ ի լ խ ծ կ հ ձ ղ ճ մ յ ն շ ո չ պ ջ ռ ս վ տ ր ց ւ փ ք և օ ֆ
+  - autonym: Հայերեն
+    base: Ա Բ Գ Դ Ե Զ Է Ը Թ Ժ Ի Լ Խ Ծ Կ Հ Ձ Ղ Ճ Մ Յ Ն Շ Ո Չ Պ Ջ Ռ Ս Վ Տ Ր Ց Ւ Փ Ք Օ Ֆ ա բ գ դ ե զ է ը թ ժ ի լ խ ծ կ հ ձ ղ ճ մ յ ն շ ո չ պ ջ ռ ս վ տ ր ց ւ փ ք օ ֆ և
     punctuation: ՛ ՜ ՝ ՞ ։
     script: Armenian
     status: primary
+    note: Eastern Armenian replaces ‹Ւ› with ‹ՈՒ› and ‹ւ› with ‹ու› in the alphabet. Some versions of the Eastern alphabet add the ‹և› as a full letter.
   preferred_name: Eastern Armenian
   source:
   - Omniglot
@@ -4405,10 +4410,18 @@ kat:
   name: Georgian
   orthographies:
   - autonym: ქართული
-    base: ა ბ გ დ ე ვ ზ თ ი კ ლ მ ნ ო პ ჟ რ ს ტ უ ფ ქ ღ ყ შ ჩ ც ძ წ ჭ ხ ჯ ჰ
-    note: Mkhedruli
+    base: Ა Ბ Გ Დ Ე Ვ Ზ Თ Ი Კ Ლ Მ Ნ Ო Პ Ჟ Რ Ს Ტ Უ Ფ Ქ Ღ Ყ Შ Ჩ Ც Ძ Წ Ჭ Ხ Ჯ Ჰ ა ბ გ დ ე ვ ზ თ ი კ ლ მ ნ ო პ ჟ რ ს ტ უ ფ ქ ღ ყ შ ჩ ც ძ წ ჭ ხ ჯ ჰ
+    design_note: Mkhedruli (lowercase letters) and Mtavruli (capital letters, added to Unicode in 2018). It is recommended that font developers supporting contemporary use of the Georgian language include both sets of letters.
     script: Georgian
     status: primary
+  - base: Ⴀ Ⴁ Ⴂ Ⴃ Ⴄ Ⴅ Ⴆ Ⴇ Ⴈ Ⴉ Ⴊ Ⴋ Ⴌ Ⴍ Ⴎ Ⴏ Ⴐ Ⴑ Ⴒ Ⴓ Ⴔ Ⴕ Ⴖ Ⴗ Ⴘ Ⴙ Ⴚ Ⴛ Ⴜ Ⴝ Ⴞ Ⴟ Ⴠ Ⴡ Ⴢ Ⴣ Ⴤ Ⴥ
+    design_note: The capital letters (Asomtavruli) of the old ecclesiastical alphabet Khutsuri. Asomtavruli is used intensively in iconography, murals, and exterior design. Asomtavruli and Nuskhuri (the lowercase letters) are officially used by the Georgian Orthodox Church alongside Mkhedruli.
+    script: Georgian
+    status: secondary
+  - base: ⴀ ⴁ ⴂ ⴃ ⴄ ⴅ ⴆ ⴇ ⴈ ⴉ ⴊ ⴋ ⴌ ⴍ ⴎ ⴏ ⴐ ⴑ ⴒ ⴓ ⴔ ⴕ ⴖ ⴗ ⴘ ⴙ ⴚ ⴛ ⴜ ⴝ ⴞ ⴟ ⴠ ⴡ ⴢ ⴣ ⴤ ⴥ
+    design_note: The lowercase letters (Nuskhuri) of the old ecclesiastical alphabet Khutsuri. Asomtavruli (the capital letters) and Nuskhuri are officially used by the Georgian Orthodox Church alongside Mkhedruli, today.
+    script: Georgian
+    status: secondary
   source:
   - Omniglot
   - Wikipedia
@@ -4643,8 +4656,8 @@ khm:
   name: Khmer
   orthographies:
   - autonym: ភាសាខ្មែរ
-    base: ក ខ គ ឃ ង ច ឆ ជ ឈ ញ ដ ឋ ឌ ឍ ណ ត ថ ទ ធ ន ប ផ ព ភ ម យ រ ល វ ស ហ ឡ អ ឥ ឦ ឧ ឩ ឪ ឫ ឬ ឭ ឮ ឯ ឰ ឱ ឲ ឳ
-    design_note: Mark positioning and some character combinations have to be resolved to properly represent the language.
+    base: ក ខ គ ឃ ង ច ឆ ជ ឈ ញ ដ ឋ ឌ ឍ ណ ត ថ ទ ធ ន ប ផ ព ភ ម យ រ ល វ ស ហ ឡ អ ឥ ឦ ឧ ឩ ឪ ឫ ឬ ឭ ឮ ឯ ឰ ឱ ឲ ឳ ឴ ឵ ា
+    design_note: Mark positioning and some character combinations (ligatures) have to be resolved to properly represent the language.
     marks: ៃ  ំ  ោ  ៍  ់  ើ  ួ  េ  ៀ  ិ  ា  ៉  ៅ  ី  ្  ៊  ឹ  ឺ  ូ  ែ  ឿ  ័  ះ  ៈ  ុ
     script: Latin
     status: primary
@@ -5219,10 +5232,11 @@ lao:
   name: Lao
   orthographies:
   - autonym: ພາສາລາວ
-    base: ກ ຂ ຄ ງ ຈ ສ ຊ ຍ ດ ຕ ຖ ທ ນ ບ ປ ຜ ຝ ພ ຟ ມ ຢ ຣ ລ ວ ຫ ອ ຮ ◌ ະ າ ເ ແ ໂ ຽ
-    design_note: Mark positioning and some character combinations have to be resolved to properly represent the language.
-    marks: ົ  ຸ  ໍ  ີ  ິ  ູ  ັ  ື  ຶ
-    numerals: ໐ ໑ ໒ ໓ ໔ ໕ ໖ ໗ ໘ ໙
+    base: ກ ຂ ຄ ງ ຈ ສ ຊ ຍ ດ ຕ ຖ ທ ນ ບ ປ ຜ ຝ ພ ຟ ມ ຢ ຣ ລ ວ ຫ ອ ຮ ະ  າ ເ ແ ໂ ໃ ໄ ຽ
+    design_note: Mark positioning and some character combinations (ligatures) have to be resolved to properly represent the language.
+    marks: ົ  ຸ  ໍ  ີ  ິ  ູ  ັ  ື  ຶ ຼ ່ ້ ໊ ໋໌
+    numerals: ໐ ໑ ໒ ໓ ໔ ໕ ໖ ໗ ໘ ໙ 0 1 2 3 4 5 6 7 8 9
+    punctuation: ຯ ໆ
     script: Lao
     status: primary
   source:
@@ -6232,7 +6246,7 @@ mya:
   name: Burmese
   orthographies:
   - autonym: မြန်မာစာ / မြန်မာစကား
-    base: က ခ ဂ ဃ င စ ဆ ဇ ဈ ဉ ည ဋ ဌ ဍ ဎ ဏ တ ထ ဒ ဓ န ပ ဖ ဗ ဘ မ ယ ရ လ ဝ သ ဣ ဤ ဥ ဦ ဧ ဩ ဪ ◌
+    base: က ခ ဂ ဃ င စ ဆ ဇ ဈ ဉ ည ဋ ဌ ဍ ဎ ဏ တ ထ ဒ ဓ န ပ ဖ ဗ ဘ မ ယ ရ လ ဝ သ ဣ ဤ ဥ ဦ ဧ ဩ ဪ
     design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
     marks: ိ  ု  ဲ  ္  ာ  ေ  ၖ  ့  ၗ  ျ  ီ  ွ  း  ါ  ှ  ြ  ်  ူ  ံ
     note: The autonym မြန်မာစာ refers to written Burmese while မြန်မာစကား refers to spoken Burmese.
@@ -8601,11 +8615,10 @@ tha:
   orthographies:
   - autonym: ภาษาไทย
     auxiliary: ̍ ̎
-    base: ก ข ฃ ค ฅ ฆ ง จ ฉ ช ซ ฌ ญ ฎ ฏ ฐ ฑ ฒ ณ ด ต ถ ท ธ น บ ป ผ ฝ พ ฟ ภ ม ย ร ล ว ศ ษ ส ห ฬ อ ฮ ะ ◌ า เ โ ใ ไ ฤ ๅ ฦ
-    design_note: Mark positioning and some character combinations have to be resolved to properly represent the language.
-    marks: ็  ั  ู  ุ  ิ  ํ
-    note: Fon thong (written with U+030D) and Fa nu (written with U+030E) is always combined with Phinthu i (U+0E34) according to Wikipedia.
-    numerals: ๐ ๑ ๒ ๓ ๔ ๕ ๖ ๗ ๘ ๙
+    base: ก ข ฃ ค ฅ ฆ ง จ ฉ ช ซ ฌ ญ ฎ ฏ ฐ ฑ ฒ ณ ด ต ถ ท ธ น บ ป ผ ฝ พ ฟ ภ ม ย ร ล ว ศ ษ ส ห ฬ อ ฮ ะ า เ โ ใ ไ ฤ ๅ ฦ
+    design_note: Mark positioning and some character combinations (ligatures) have to be resolved to properly represent the language.
+    marks: ็  ั  ู  ุ  ิ  ํ ̎ ̍ 
+    numerals: ๐ ๑ ๒ ๓ ๔ ๕ ๖ ๗ ๘ ๙ 0 1 2 3 4 5 6 7 8 9
     punctuation: ๏ ๛
     script: Thai
     status: primary
