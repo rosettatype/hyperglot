@@ -1,7 +1,9 @@
 # A changelog for the lib/hyperglot CLI tool
 
-## 0.2.7 (WIP)
+## 0.2.7 (24.03.2021)
 - DATA: Fixed various speaker counts containing malformed data
+- DATA: More design notes for Latin-script languages
+- DATA: Khmer added as draft, Armenian, Buginese, Georgian, Burmese, Lao and Thai refined
 - TWEAK: Implemented validation for speaker count data
 
 ## 0.2.6 (23.03.2021)
