@@ -2,8 +2,10 @@
 
 ## 0.2.10 (WIP)
 - FIX: Reverted hotfix from 0.2.9 and implemented validation to use iso yaml file only for editable package installs and emit warning
-- FIX: `-o` output refactored to no longer expect the result to be structured by support levels
-- TWEAK: Refactored multiple file input result interesction and union
+- FIX: Refined `--decompose` and fixed an issue where the decompose option ended up returning more stringent matches than teh default
+- FIX: `--output` output refactored to no longer expect the result to be structured by support levels
+- TWEAK: Refactored multiple file input result intersection and union
+- TESTS: Better tests relating to deomposed output
 - TESTS: Added tests for multiple file input intersection and union results
 
 ## 0.2.9 (24.03.2021)

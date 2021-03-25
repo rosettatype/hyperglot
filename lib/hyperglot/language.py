@@ -31,10 +31,11 @@ class Language(dict):
 
     def get_orthography(self, script=None, status=None):
         """
-        Get the most appropriate orthography, or one specifically matching the
-        parameters. If there are multiple orthographies for a script, the
-        "primary" one will be returned. If filters are provided and no
-        orthography is matched an KeyError is raised.
+        Get the most appropriate raw orthography attribute value, or one
+        specifically matching the parameters. If there are multiple
+        orthographies for a script, the "primary" one will be returned. If
+        filters are provided and no orthography is matched an KeyError is
+        raised.
 
         @param script str: The script
         @param status str: The status of the orthography
@@ -173,7 +174,7 @@ class Language(dict):
         return False
 
     def get_orthography_chars(self, orthography, attr="base",
-                              ignoreMerge=False):
+                              ignoreMerge=False, decomposed=False):
         """
         Get a character list from an orthography.
         This also abstracts combining 'preferred_as_group' for special cases.
@@ -195,7 +196,8 @@ class Language(dict):
         if combined == []:
             return False
 
-        return set(parse_chars(combined))
+        return set(parse_chars(combined, decompose=decomposed,
+                               retainDecomposed=False))
 
     def has_support(self, chars, level="base", decomposed=False,
                     checkAllOrthographies=False,
@@ -224,9 +226,6 @@ class Language(dict):
         pruned = []
 
         chars = set(chars)
-        if decomposed:
-            chars = set(parse_chars(chars, decompose=True,
-                                    retainDecomposed=False))
 
         # Determine which orthographies should be checked
         if checkAllOrthographies:
@@ -246,10 +245,12 @@ class Language(dict):
 
             # Any support check needs 'base'
             base = self.get_orthography_chars(ort, "base",
-                                              checkAllOrthographies)
+                                              ignoreMerge=checkAllOrthographies,  # noqa
+                                              decomposed=decomposed)
             # and 'marks'
             marks = self.get_orthography_chars(ort, "marks",
-                                               checkAllOrthographies)
+                                               ignoreMerge=checkAllOrthographies,  # noqa
+                                               decomposed=decomposed)
 
             if base:
                 if marks:
@@ -264,7 +265,8 @@ class Language(dict):
                     # defined - if orthography has no "auxiliary" we consider
                     # it supported on "auxiliary" level, too
                     aux = self.get_orthography_chars(ort, "auxiliary",
-                                                     checkAllOrthographies)
+                                                     ignoreMerge=checkAllOrthographies,  # noqa
+                                                     decomposed=decomposed)
                     if level == "aux" and aux:
                         supported = aux.issubset(chars)
 

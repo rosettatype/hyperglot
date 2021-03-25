@@ -197,3 +197,21 @@ def test_get_orthography():
     # exceptions
     with pytest.raises(KeyError):
         bos.get_orthography("Cyrillic", "primary")
+
+
+def test_get_orthography_chars():
+    Langs = Languages(prune=False)
+
+    deu = Language(Langs["deu"], "deu")
+    orth = deu["orthographies"][0]
+
+    deu_base_default = sorted(deu.get_orthography_chars(orth, "base",
+                                                        decomposed=False))
+    deu_base_decomposed = sorted(deu.get_orthography_chars(orth, "base",
+                                                           decomposed=True))
+
+    assert len(deu_base_default) > len(deu_base_decomposed)
+    assert "Ä" in deu_base_default
+    assert '̈' not in deu_base_default
+    assert "Ä" not in deu_base_decomposed
+    assert '̈' in deu_base_decomposed

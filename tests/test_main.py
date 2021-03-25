@@ -3,6 +3,7 @@ Tests verifying the CLI output is as expected. This uses the runner.invoke
 helper to call the main cli handler with various arguments.
 """
 import os
+import re
 import yaml
 from collections import OrderedDict
 from click.testing import CliRunner
@@ -50,11 +51,37 @@ def test_main_cli_decomposed():
     coverage should be wider (as compared to requiring encoded characters by
     default)
     """
+    total = re.compile(r"(\d+) languages supported in total.")
+
+    # With Plex Arabic
     res = runner.invoke(cli, plex_arabic)
-    assert "Crimean Tatar" not in res.output
+    total_default = int(total.search(res.output).group(1))
+    # acu / Achuar-Shiwiar should not be in default
+    assert "Achuar-Shiwiar" not in res.output
 
     res = runner.invoke(cli, plex_arabic + " --decomposed")
-    assert "Crimean Tatar" in res.output
+    total_decomposed = int(total.search(res.output).group(1))
+    # acu / Achuar-Shiwiar should be in decomposed
+    assert "Achuar-Shiwiar" in res.output
+
+    # Decomposed should always support more than default
+    assert total_default <= total_decomposed
+
+    # With Eczar
+    res = runner.invoke(cli, eczar)
+    total_default = int(total.search(res.output).group(1))
+    # acu / Achuar-Shiwiar should not be in default, because Utilde is missing
+    # but U + tildecomb are available
+    assert "Achuar-Shiwiar" not in res.output
+
+    res = runner.invoke(cli, eczar + " --decomposed")
+    total_decomposed = int(total.search(res.output).group(1))
+    # acu / Achuar-Shiwiar should be in decomposed, because Utilde is missing
+    # but U + tildecomb are available
+    assert "Achuar-Shiwiar" in res.output
+
+    # Decomposed should always support more than default
+    assert total_default <= total_decomposed
 
 
 def test_main_cli_include_constructed():
@@ -68,7 +95,6 @@ def test_main_cli_include_constructed():
 def test_main_cli_include_all_orthographies():
     res = runner.invoke(cli, plex_arabic)
     # Has Cyrillic primary, but Latin secondaries
-    assert "Northern Kurdish" not in res.output
 
     # primary Latin not supported, but secondary is
     assert "Chickasaw" not in res.output
@@ -77,7 +103,7 @@ def test_main_cli_include_all_orthographies():
     assert "Assyrian Neo-Aramaic" not in res.output
 
     res = runner.invoke(cli, plex_arabic + " --include-all-orthographies")
-    assert "Northern Kurdish" in res.output
+    print(res.output)
     assert "Chickasaw" in res.output
     assert "Assyrian Neo-Aramaic" in res.output
 
