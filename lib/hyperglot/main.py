@@ -105,33 +105,71 @@ def print_to_cli(font, title, autonyms, users, strict_iso):
         print()
 
 
-def prune_intersect(intersection, res, level):
+def intersect_results(*args):
     """
-    Helper method to prune the intersection object against the res, which both
-    may or may not have script keys with iso-to-language dicts
+    Intersect any number of result dicts with script: { iso: lang } } input.
+    Return the output ordered by script and iso.
+    """
 
-    Return intersection with only those dict values that are both in
-    intersection and in res
-    """
-    if level in intersection:
-        if level not in res:
-            del(intersection[level])
+    if len(args) == 0:
+        return {}
+
+    result = args[0]
+    for arg in args[1:]:
         delete_script = []
-        for script in intersection[level].keys():
+        for script in result.keys():
             delete_iso = []
-            if script not in res[level]:
+            if script not in arg:
                 delete_script.append(script)
                 continue
-            for iso, lang in intersection[level][script].items():
-                if iso not in res[level][script].keys():
+            for iso, lang in result[script].items():
+                if iso not in arg[script].keys():
                     delete_iso.append(iso)
             for d in delete_iso:
-                del(intersection[level][script][d])
+                del(result[script][d])
 
         for d in delete_script:
-            del(intersection[level][d])
+            del(result[d])
 
-    return intersection
+    return sorted_script_languages(result)
+
+
+def union_results(*args):
+    """
+    Combine any number of results dicts with script: { iso: { lang } } input.
+    Return the output ordered by script and iso.
+    """
+    result = {}
+    for arg in args:
+        for script, langs in arg.items():
+            if script not in result:
+                result[script] = langs
+            else:
+                for iso, lang in langs.items():
+                    if iso not in result[script].keys():
+                        result[script][iso] = lang
+    return sorted_script_languages(result)
+
+
+def sorted_script_languages(obj):
+    """
+    Sort an input dictionary of script: { iso : {} } by script, first, and iso,
+    second.
+    """
+    ordered = OrderedDict()
+    if len(obj.keys()) == 0:
+        return {}
+
+    for script in sorted(obj.keys()):
+        ordered[script] = OrderedDict()
+
+        if len(obj[script].keys()) == 0:
+            continue
+
+        for iso in sorted(obj[script].keys()):
+            ordered[script][iso] = obj[script][iso]
+
+    return ordered
 
 
 def write_yaml(file, data):
@@ -145,13 +183,12 @@ def write_yaml(file, data):
     for path, results in data.items():
         # Use only the font's file name as index, not the entire path
         path = os.path.basename(path)
-        for langs_by_status in results.values():
-            for script, languages in langs_by_status.items():
-                if path not in write:
-                    write[path] = {}
-                # Coerce l back  to dict from type Language
-                languages = {iso: dict(l) for iso, l in languages.items()}
-                write[path].update(languages)
+        for script, languages in results.items():
+            if path not in write:
+                write[path] = {}
+            # Coerce l back  to dict from type Language
+            languages = {iso: dict(l) for iso, l in languages.items()}
+            write[path].update(languages)
     if len(data.keys()) == 1:
         # Single file input, write directly to top level by re-writing the
         # output dict without the filename level
@@ -245,8 +282,6 @@ def cli(fonts, support, decomposed, validity, autonyms, users, output, mode,
             chars, support, validity, decomposed, include_all_orthographies,
             include_historical, include_constructed)
         level = SUPPORTLEVELS[support]
-
-        results[font] = {}
         results[font] = langs
 
     # Mode for comparison of several files
@@ -254,45 +289,30 @@ def cli(fonts, support, decomposed, validity, autonyms, users, output, mode,
         for font in fonts:
             title = "%s has %s support for:" % (os.path.basename(font),
                                                 level.lower())
+
             print_to_cli(results[font], title, autonyms, users, strict_iso)
+
         data = results
     elif mode == "union":
-        union = {}
-        for font in fonts:
-            res = results[font]
-            if "done" in res:
-                if "done" not in union:
-                    union["done"] = {}
+        union = union_results(*results.values())
 
-            for iso, lang in res["done"].items():
-                if iso not in union["done"]:
-                    union["done"][iso] = lang
-
-            if "weak" in res:
-                if "weak" not in union:
-                    union["weak"] = {}
-            for iso, lang in res["weak"].items():
-                if iso not in union["weak"]:
-                    union["weak"][iso] = lang
-
-        title = "Fonts %s together have %s support for:" % \
+        title = "Fonts %s combined have %s support for:" % \
             (", ".join([os.path.basename(f) for f in fonts]), level.lower())
+
         print_to_cli(union, title, autonyms, users, strict_iso)
+
         # Wrap in "single file" 'union' top level, which will be removed when
         # writing the data
         data = {"union": union}
 
     elif mode == "intersection":
-        intersection = results[fonts[0]]
-        for font in fonts[1:]:
-            res = results[font]
-
-            intersection = prune_intersect(intersection, res, "done")
-            intersection = prune_intersect(intersection, res, "weak")
+        intersection = intersect_results(*results.values())
 
         title = "Fonts %s all have common %s support for:" % \
             (", ".join([os.path.basename(f) for f in fonts]), level.lower())
+
         print_to_cli(intersection, title, autonyms, users, strict_iso)
+
         # Wrap in "single file" 'intersection' top level, which will be removed
         # when writing the data
         data = {"intersection": intersection}

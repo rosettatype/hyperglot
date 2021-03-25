@@ -3,8 +3,10 @@ Tests verifying the CLI output is as expected. This uses the runner.invoke
 helper to call the main cli handler with various arguments.
 """
 import os
+from collections import OrderedDict
 from click.testing import CliRunner
-from hyperglot.main import cli
+from hyperglot.main import (cli, intersect_results,
+                            union_results, sorted_script_languages)
 
 runner = CliRunner()
 
@@ -77,3 +79,131 @@ def test_main_cli_include_all_orthographies():
     assert "Northern Kurdish" in res.output
     assert "Chickasaw" in res.output
     assert "Assyrian Neo-Aramaic" in res.output
+
+
+def test_intersect_results():
+    A = {
+        "Latin": {
+            "eng": {},
+            "deu": {},
+            "ces": {},
+        },
+        "Arabic": {
+            "bar": {},
+            "foo": {},
+        },
+        "Cyrillic": {
+            "foo": {}
+        },
+    }
+
+    B = {
+        "Arabic": {
+            "bar": {}
+        },
+        "Latin": {
+            "fin": {},
+            "deu": {},
+            "eng": {},
+        },
+    }
+
+    # Combined and both levels sorted alphabetically by key
+    expected = {
+        "Arabic": {
+            "bar": {},
+        },
+        "Latin": {
+            "deu": {},
+            "eng": {},
+        }
+    }
+
+    # Only the script + iso in both results should be returned
+    assert intersect_results(A, B) == expected
+
+    # If either is empty, the result should be empty
+    assert intersect_results(A, {}) == {}
+    assert intersect_results({}, B) == {}
+
+    # Single should return itself
+    assert intersect_results(A) == A
+
+    # Empty should return empty
+    assert intersect_results() == {}
+
+
+def test_union_results():
+    A = {
+        "Latin": {
+            "deu": {},
+            "ces": {}
+        },
+        "Cyrillic": {
+            "foo": {}
+        }
+    }
+
+    B = {
+        "Latin": {
+            "deu": {},
+            "eng": {}
+        },
+        "Arabic": {
+            "bar": {}
+        }
+    }
+
+    # Combined and both levels sorted alphabetically by key
+    expected = OrderedDict({
+        "Arabic": {
+            "bar": {}
+        },
+        "Cyrillic": {
+            "foo": {}
+        },
+        "Latin": {
+            "ces": {},
+            "deu": {},
+            "eng": {}
+        }
+    })
+
+    # Only the script + iso in both results should be returned
+    assert union_results(A, B) == expected
+
+    # If either is empty, the result should be the non empty one
+    assert union_results(A, {}) == A
+    assert union_results({}, B) == B
+
+
+def test_sorted_script_languages():
+    expected = OrderedDict({
+        "Arabic": {
+            "bar": {}
+        },
+        "Cyrillic": {
+            "foo": {}
+        },
+        "Latin": {
+            "ces": {},
+            "deu": {},
+            "eng": {}
+        }
+    })
+
+    unsorted = OrderedDict({
+        "Cyrillic": {
+            "foo": {}
+        },
+        "Arabic": {
+            "bar": {}
+        },
+        "Latin": {
+            "eng": {},
+            "deu": {},
+            "ces": {},
+        }
+    })
+
+    assert sorted_script_languages(unsorted) == expected
