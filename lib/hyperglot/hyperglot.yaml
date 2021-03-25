@@ -8620,6 +8620,12 @@ tgl:
     marks: ̀  ́
     script: Latin
     status: primary
+  - autonym: ᜊᜌ᜴ᜊᜌᜒᜈ᜴
+    base: ᜀ ᜁ ᜂ ᜃ ᜄ ᜅ ᜆ ᜇ ᜈ ᜉ ᜊ ᜋ ᜌ ᜍ ᜎ ᜏ ᜐ ᜑ
+    marks:  ᜒ ᜓ ᜔ ᜕
+    script: Tagalog
+    note: Baybayin is the historic Tagalog script. Some revival efforts exist, but it's not in common use in the Philippines.
+    status: secondary
   source:
   - Omniglot
   - Wikipedia
