@@ -9,7 +9,7 @@ from fontTools.ttLib import TTFont
 from . import __version__, DB, SUPPORTLEVELS, VALIDITYLEVELS
 from .languages import Languages
 from .language import Language
-# from .validate import validate
+from .validate import validate
 from .parse import (prune_superflous_marks,
                     parse_font_chars, parse_chars, parse_marks)
 
@@ -301,17 +301,17 @@ def cli(fonts, support, decomposed, validity, autonyms, users, output, mode,
         write_yaml(output, data)
 
 
-def save_sorted(Langs=None):
+def save_sorted(Langs=None, run_validation=True):
     """
     Helper script to re-save the hyperglot.yaml sorted alphabetically,
     alternatively from the passed in Langs object (which can have been
     modified)
     """
     log.setLevel(logging.WARNING)
-    if Langs is None:
+    if Langs is None and run_validation is True:
         Langs = Languages(inherit=False, prune=False)
         print("Running pre-save validation, please fix any issues flagged.")
-        # validate()
+        validate()
 
     # Save with removed superflous marks
     for iso, lang in Langs.items():

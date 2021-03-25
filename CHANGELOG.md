@@ -1,5 +1,8 @@
 # A changelog for the lib/hyperglot CLI tool
 
+## 0.2.10 (WIP)
+- FIX: Reverted hotfix from 0.2.9 and implemented validation to use iso yaml file only for editable package installs and emit warning
+
 ## 0.2.9 (24.03.2021)
 - HOTFIX: Prevent error message about missing file in CLI use
 

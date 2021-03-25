@@ -20,17 +20,6 @@ log = colorlog.getLogger(__name__)
 log.setLevel(logging.DEBUG)
 log.addHandler(handler)
 
-ISO_639_3 = "../../other/iso-639-3.yaml"
-try:
-    iso_db = os.path.abspath(os.path.join(os.path.dirname(__file__),
-                                          ISO_639_3))
-    with open(iso_db) as f:
-        iso_data = yaml.load(f, Loader=yaml.Loader)
-except Exception as e:
-    log.error(e)
-    import sys
-    sys.exit()
-
 
 def check_yaml():
 
@@ -184,7 +173,7 @@ def check_is_valid_combation_string(combos):
     return True
 
 
-def check_names(Langs):
+def check_names(Langs, iso_data):
     for iso, lang in Langs.items():
         if "orthographies" in lang:
             for o in lang["orthographies"]:
@@ -253,7 +242,7 @@ def check_inheritted(iso, script, Langs):
     return True
 
 
-def check_macrolanguages(Langs):
+def check_macrolanguages(Langs, iso_data):
     # Compare with ISO data
     for iso, lang in iso_data.items():
         for name in lang["names"]:
@@ -316,6 +305,20 @@ def check_autonym_spelling(ort):
 
 
 def validate():
+    ISO_639_3 = "../../other/iso-639-3.yaml"
+    try:
+        iso_db = os.path.abspath(os.path.join(os.path.dirname(__file__),
+                                              ISO_639_3))
+        with open(iso_db) as f:
+            iso_data = yaml.load(f, Loader=yaml.Loader)
+    except Exception as e:
+        log.error(e)
+        log.error("hyperglot-save and hyperglot-validate are intended to be "
+                  "run only if the package was install in editable mode with "
+                  "pip -e")
+        import sys
+        sys.exit()
+
     print()
     log.debug("No color = FYI")
     log.info("Green = FYI, but worth reviewing")
@@ -325,5 +328,5 @@ def validate():
     log.debug("Loading iso-639-3.yaml for names and macro language checks")
     Langs = check_yaml()
     check_types(Langs)
-    check_names(Langs)
-    check_macrolanguages(Langs)
+    check_names(Langs, iso_data)
+    check_macrolanguages(Langs, iso_data)
