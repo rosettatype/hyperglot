@@ -4291,6 +4291,10 @@ jpn:
     note: The Latin script is used for imported acronyms.
     script: Latin
     status: primary
+  - base: A B D E F G H I J K L M N O P R S T U V W Y Z Ā Ē Ī Ō Ū a b d e f g h i j k l m n o p r s t u v w y z ā ē ī ō ū
+    note: Rōmaji is used to transcribe Japanese for use by foreigners. The most commonly used orthography is this one, for the Hepburn romanization system.
+    script: Latin
+    status: secondary
   source:
   - Omniglot
   - Wikipedia
