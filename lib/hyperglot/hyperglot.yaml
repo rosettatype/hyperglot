@@ -7857,7 +7857,7 @@ sjd:
   orthographies:
   - autonym: Кӣллт Са̄мь
     base: А Ӓ Б В Г Д Е Ё Ж З Һ И Ӣ Й Ј Ҋ К Л Ӆ М Ӎ Н Ӊ Ӈ О П Р Ҏ С Т У Ӯ Ф Х Ц Ч Ш Щ Ъ Ы Ь Ҍ Э Ӭ Ю Я а ӓ б в г д е ё ж з һ и ӣ й ј ҋ к л ӆ м ӎ н ӊ ӈ о п р ҏ с т у ӯ ф х ц ч ш щ ъ ы ь ҍ э ӭ ю я ’
-    marks: ̄  ̆  ̈
+    marks: ̄  ̈
     script: Cyrillic
     status: primary
   source:
