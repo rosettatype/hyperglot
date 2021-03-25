@@ -3,6 +3,7 @@ Tests verifying the CLI output is as expected. This uses the runner.invoke
 helper to call the main cli handler with various arguments.
 """
 import os
+import yaml
 from collections import OrderedDict
 from click.testing import CliRunner
 from hyperglot.main import (cli, intersect_results,
@@ -79,6 +80,93 @@ def test_main_cli_include_all_orthographies():
     assert "Northern Kurdish" in res.output
     assert "Chickasaw" in res.output
     assert "Assyrian Neo-Aramaic" in res.output
+
+
+def test_main_cli_output(yaml_output):
+    res = runner.invoke(cli, eczar + " -o %s" % yaml_output)
+
+    # CLI without errors
+    assert res.exit_code == 0
+
+    # Has content
+    assert os.path.isfile(yaml_output) is True
+    assert os.path.getsize(yaml_output) > 0
+
+    with open(yaml_output, "r") as f:
+        # Is yaml that can be parsed
+        data = yaml.load(f, Loader=yaml.Loader)
+        assert "aae" in data.keys()
+        assert "fin" in data.keys()
+
+
+def test_main_cli_output_union(yaml_output):
+    res = runner.invoke(cli, "%s %s -o %s -m union" %
+                        (eczar, plex_arabic, yaml_output))
+
+    # CLI without errors
+    assert res.exit_code == 0
+
+    # Has content
+    assert os.path.isfile(yaml_output) is True
+    assert os.path.getsize(yaml_output) > 0
+
+    with open(yaml_output, "r") as f:
+        # Is yaml that can be parsed
+        data = yaml.load(f, Loader=yaml.Loader)
+
+        assert "aae" in data.keys()
+        assert "fin" in data.keys()
+
+        # Supported by plex but not eczar, thus union
+        assert "abv" in data.keys()
+        assert "azb" in data.keys()
+
+
+def test_main_cli_output_intersection(yaml_output):
+    res = runner.invoke(cli, "%s %s -o %s -m intersection" %
+                        (eczar, plex_arabic, yaml_output))
+
+    # CLI without errors
+    assert res.exit_code == 0
+
+    # Has content
+    assert os.path.isfile(yaml_output) is True
+    assert os.path.getsize(yaml_output) > 0
+
+    with open(yaml_output, "r") as f:
+        # Is yaml that can be parsed
+        data = yaml.load(f, Loader=yaml.Loader)
+
+        assert "aae" in data.keys()
+        assert "fin" in data.keys()
+
+        # Supported by plex but not eczar, thus intersection
+        assert "abv" not in data.keys()
+        assert "azb" not in data.keys()
+
+
+def test_main_cli_output_multiple(yaml_output):
+    res = runner.invoke(cli, "%s %s -o %s" %
+                        (eczar, plex_arabic, yaml_output))
+
+    # CLI without errors
+    assert res.exit_code == 0
+
+    # CLI will list both file names in output
+    assert os.path.basename(eczar) in res.output
+    assert os.path.basename(plex_arabic) in res.output
+
+    # Has content
+    assert os.path.isfile(yaml_output) is True
+    assert os.path.getsize(yaml_output) > 0
+
+    with open(yaml_output, "r") as f:
+        # Is yaml that can be parsed
+        data = yaml.load(f, Loader=yaml.Loader)
+
+        # File names are top level dict keys
+        assert os.path.basename(eczar) in data.keys()
+        assert os.path.basename(plex_arabic) in data.keys()
 
 
 def test_intersect_results():
