@@ -16,9 +16,8 @@ from . import (STATUSES, VALIDITYLEVELS, ORTHOGRAPHY_STATUSES)
 
 handler = colorlog.StreamHandler()
 handler.setFormatter(colorlog.ColoredFormatter('%(log_color)s%(message)s'))
-
-log = colorlog.getLogger()
-log.setLevel(logging.DEBUG)
+log = colorlog.getLogger(__name__)
+log.setLevel(logging.WARNING)
 log.addHandler(handler)
 
 
@@ -293,6 +292,8 @@ def check_autonym_spelling(ort):
 
 
 def validate():
+    log.setLevel(logging.DEBUG)
+
     ISO_639_3 = "../../other/iso-639-3.yaml"
     try:
         iso_db = os.path.abspath(os.path.join(os.path.dirname(__file__),
@@ -312,6 +313,7 @@ def validate():
     log.info("Green = FYI, but worth reviewing")
     log.warning("Yellow = Might need fixing")
     log.error("Red = Requires fixing")
+
     print()
     log.debug("Loading iso-639-3.yaml for names and macro language checks")
     Langs = check_yaml()
