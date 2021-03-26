@@ -408,10 +408,12 @@ aii:
   - autonym: Лышана Атураја
     base: А Б В Г Ԁ Е Ә Ж З И Ј К Л Q L М Н П Р С Т T У Х Һ Ч Ш Ы D а б в г ԁ е ә ж з и ј к л q l м н п р с т t у х һ ч ш ы d
     script: Cyrillic
+    status: secondary
   - autonym: Lišānā Āshûrāya
     auxiliary: Ā Ē Ë Ō Ū Ḏ Ḥ Š Ṣ Ṭ Û ā ē ë ō ū ḏ ḥ š ṣ ṭ û
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
     script: Latin
+    status: secondary
   source:
   - Omniglot
   - Wikipedia
@@ -1282,6 +1284,7 @@ bho:
     marks: 𑂀  𑂂  𑂰  𑂲  𑂳  𑂴  𑂵  𑂶  𑂸  𑂺
     numerals: ० १ २ ३ ४ ५ ६ ७ ८ ९ 0 1 2 3 4 5 6 7 8 9
     script: Kaithi
+    status: historical
   source:
   - Omniglot
   - Wikipedia
@@ -1395,6 +1398,7 @@ bos:
   - autonym: Босански
     base: А Б В Г Д Е Ж З И К Л М Н О П Р С Т У Ф Х Ц Ч Ш Ђ Ј Љ Њ Ћ Џ а б в г д е ж з и к л м н о п р с т у ф х ц ч ш ђ ј љ њ ћ џ
     script: Cyrillic
+    status: secondary
   - autonym: Bosanski
     base: A B C D E F G H I J K L M N O P R S T U V Z Ć Č Đ Š Ž a b c d e f g h i j k l m n o p r s t u v z ć č đ š ž
     marks: ́  ̌
@@ -1890,15 +1894,16 @@ cic:
   name: Chickasaw
   orthographies:
   - autonym: Chikashshanompa'
-    base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á É Í Ó Ú a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ó ú '
-    marks: ́
-    script: Latin
-  - autonym: Chikashshanompa'
     base: A B C F G H I K L M N O P S T W Y a b c f g h i k l m n o p s t w y '
     marks: ̠
     note: Two orthographies (Humes and Munro-Willmond) were created. The current primary orthography seems to follow Munro-Willmond.
     script: Latin
     status: primary
+  - autonym: Chikashshanompa'
+    base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á É Í Ó Ú a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ó ú '
+    marks: ́
+    script: Latin
+    status: secondary
   source:
   - Omniglot
   - Wikipedia
@@ -2032,7 +2037,7 @@ cmn:
     marks: ̀  ́  ̂  ̄  ̈  ̌
     note: Hànyǔ Pīnyīn (Hànyǔ Pīnyīn (pinyin)) is the official romanization system for Standard Mandarin Chinese in mainland China, Taiwan (ROC), and Singapore.
     script: Latin
-    status: primary
+    status: transliteration
   source:
   - Omniglot
   - Wikipedia
@@ -2046,8 +2051,10 @@ cnh:
     base: A B C D E F G H I J K L M N O P R S T U V Z Ṭ a b c d e f g h i j k l m n o p r s t u v z ṭ
     marks: ̣
     script: Latin
+    status: primary
   - inherit: mya
     script: Burmese
+    status: primary
   source:
   - Wikipedia
   speakers: 130000
@@ -2073,6 +2080,7 @@ cnr:
     base: А Б В Г Д Е Ж З И К Л М Н О П Р С Т У Ф Х Ц Ч Ш Ђ Ј Љ Њ Ћ Џ а б в г д е ж з и к л м н о п р с т у ф х ц ч ш ђ ј љ њ ћ џ
     marks: ́
     script: Cyrillic
+    status: primary
   - autonym: Crnogorski
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ć Č Đ Ś Š Ź Ž a b c d e f g h i j k l m n o p q r s t u v w x y z ć č đ ś š ź ž
     marks: ́  ̌
@@ -2177,13 +2185,15 @@ crh:
   - autonym: Къырымтатар
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё
     marks: ̆  ̈
-    note: Widely used in Crimea.
+    note: Upon Russia’s annexation of Crimea, Cyrillic became the sole official script.
     script: Cyrillic
+    status: primary
   - autonym: Qırımtatar
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ç Ñ Ö Ü Ğ Ş a b c d e f g h i j k l m n o p q r s t u v w x y z ç ñ ö ü ğ ş ı
     marks: ̃  ̆  ̈  ̧
     script: Latin
     status: primary
+    note: Adopted in 1997 based on Common Turkic Alphabet.
   source:
   - Omniglot
   - Wikipedia
@@ -2653,6 +2663,7 @@ dyu:
     note: The use of N'Ko script is not widespread, due to the lack of official support.
     numerals: ߀ ߁ ߂ ߃ ߄ ߅ ߆ ߇ ߈ ߉
     script: N'Ko
+    status: secondary
   source:
   - Omniglot
   - Wikipedia
@@ -2734,6 +2745,7 @@ emk:
     marks: ߫  ߬  ߭  ߮  ߯  ߰  ߱
     numerals: ߀ ߁ ߂ ߃ ߄ ߅ ߆ ߇ ߈ ߉
     script: N'Ko
+    status: secondary
   source:
   - Omniglot
   - Wikipedia
@@ -3248,9 +3260,9 @@ gan:
     status: primary
   - autonym: Gann ua
     base: B P M F D T L Z C S J Q X G K H I U Y A E O N b p m f d t l z c s j q x g k h i u y a e o n
-    note: The Latin script is required for the Pinfa romanization system.
+    note: Pinfa romanization system
     script: Latin
-    status: primary
+    status: transliteration
   preferred_name: Gan
   source:
   - Omniglot
@@ -3645,11 +3657,10 @@ hak:
     script: Chinese
     status: primary
   - autonym: hak ga wa
-    base: A B C D E F G H I J K L M N O P Q R S T U W X Y Z a b c d e f g h i j k l m n o p q r s t u w x y z ü ê ā ē ī ō ū ǖ Ā Ē Ī Ō Ū Ǖ á é í ó ú ǘ Á É Í Ó Ú Ǘ ǎ ě ǐ ǒ ǔ ǚ Ǎ Ě Ǐ Ǒ Ǔ Ǚ à è ì ò ù ǜ À È Ì Ò Ù Ǜ
-    marks: ̀  ́  ̂  ̄  ̈  ̌
+    inherit: cmn
     note: Hànyǔ Pīnyīn (pinyin) romanization
     script: Latin
-    status: primary
+    status: transliteration
   source:
   - Omniglot
   - Wikipedia
@@ -4235,6 +4246,7 @@ jdt:
     marks: ִ  ַ  ָ  ּ
     note: Regaining popularity.
     script: Hebrew
+    status: secondary
   - autonym: Çuhuri
     base: A B C Ç D E Ə F G H Ḩ Ћ I J K L M N O P Q R S Ş T U V X Y Z a b c ç d e ə f g h ḩ ћ i j k l m n o p q r s ş t u v x y z
     marks: ̧
@@ -4875,6 +4887,7 @@ kmr:
     marks: ̂  ̈  ̌  ̧
     note: Used in Turkey, Syria, Iraq and Iran.
     script: Latin
+    status: primary
   - base: А Б В Г Д Е Ә Ж З Й К Л М Н О Ӧ П Р С Т У Ф Х Һ Ч Ш Щ Ь Э Ԛ Ԝ а б в г д е ә ж з й к л м н о ӧ п р с т у ф х һ ч ш щ ь э ԛ ԝ '
     marks: ̆  ̈
     note: Used in Russia and Armenia.
@@ -5228,6 +5241,7 @@ lad:
   - autonym: ג'ודיאו-איספאנייול
     base: א ב ׳ ג ד ה ו ז ח ט י כ ך ל מ ם נ ן ס ע פ ף צ ץ ק ר ש ת
     script: Hebrew
+    status: secondary
   source:
   - Omniglot
   - Wikipedia
@@ -7381,6 +7395,7 @@ rmn:
   - base: А Б В Г Д Е Ё Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Ы Ь Э Ю Я а б в г д е ё ж з и й к л м н о п р с т у ф х ц ч ш ы ь э ю я
     marks: ̆  ̈
     script: Cyrillic
+    status: secondary
   source:
   - Omniglot
   - Wikipedia
@@ -7425,6 +7440,7 @@ ron:
     marks: ̆
     note: Used in Transnistria.
     script: Cyrillic
+    status: local
   - autonym: Română
     auxiliary: Ş Ţ ş ţ
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Â Î Ă Ș Ț a b c d e f g h i j k l m n o p q r s t u v w x y z â î ă ș ț
@@ -8345,6 +8361,7 @@ swb:
     design_note: Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
     marks: َ  ُ  ِ  ّ
     script: Arabic
+    status: secondary
   - autonym: Shikomori
     base: A B C D E F G H I J K L M N O P R S T U V W Y Z a b c d e f g h i j k l m n o p r s t u v w y z
     script: Latin
@@ -8713,12 +8730,14 @@ tkr:
   - autonym: Цӏаӏхна миз
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ӏ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
     marks: ̆  ̈
-    note: Used in Dagestan.
+    note: Used in Dagestan (Russia).
     script: Cyrillic
+    status: primary
   - autonym: Ts‘əxna miz
     inherit: azj
     note: Used in Azerbaijan.
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -8742,18 +8761,22 @@ tlh:
 tly:
   name: Talysh
   orthographies:
-  - autonym: Толыши
-    base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Ј Ғ Ҹ Ҝ Һ Ә Ы а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш ј ғ ҹ ҝ һ ә ы
-    marks: ̆
-    script: Cyrillic
   - autonym: Tolışi
     inherit: azj
     note: Used in Azerbaijan.
     script: Latin
+    status: primary
   - autonym: تالشه
     inherit: pes
     note: Used in Iran.
     script: Arabic
+    status: primary
+  - autonym: Толыши
+    base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Ј Ғ Ҹ Ҝ Һ Ә Ы а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш ј ғ ҹ ҝ һ ә ы
+    marks: ̆
+    note: Used in Russia.
+    script: Cyrillic
+    status: secondary
   source:
   - Omniglot
   - Wikipedia
@@ -8894,10 +8917,12 @@ ttt:
     marks: ̆  ̈
     note: Used in Russia.
     script: Cyrillic
+    status: primary
   - autonym: Tati
     inherit: azb
     note: Used in Azerbaijan.
     script: Latin
+    status: primary
   source:
   - Omniglot
   - Wikipedia
@@ -9965,6 +9990,7 @@ zdj:
     design_note: Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
     marks: َ  ُ  ِ  ّ
     script: Arabic
+    status: secondary
   - autonym: Shikomori
     base: A B C D E F G H I J K L M N O P R S T U V W Y Z a b c d e f g h i j k l m n o p r s t u v w y z
     script: Latin
@@ -9986,6 +10012,7 @@ zgh:
     base: A B G D Ḍ E F K H Ḥ X Q I J L M N U R Ṛ S Ṣ C T Ṭ W Ɣ Z Ẓ a b g d ḍ e f k h ḥ x q i j l m n u r ṛ s ṣ c t ṭ w ɣ z ẓ
     marks: ̣
     script: Latin
+    status: secondary
   source:
   - Omniglot
   - Wikipedia
@@ -10033,6 +10060,7 @@ zsm:
     note: Jawi
     numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩
     script: Arabic
+    status: primary
   source:
   - Wikipedia
   - Omniglot
