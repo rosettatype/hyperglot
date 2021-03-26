@@ -29,3 +29,12 @@ STATUSES = [
     "extinct",
     "deprecated"
 ]
+
+
+# Possible orthography statuses, in no meaningful order
+ORTHOGRAPHY_STATUSES = [
+    "primary",
+    "local",
+    "secondary",
+    "deprecated",
+]

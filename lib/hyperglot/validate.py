@@ -12,11 +12,12 @@ import re
 import unicodedata2
 from .languages import Languages
 from .parse import (parse_chars, prune_superflous_marks)
-from . import (STATUSES, VALIDITYLEVELS)
+from . import (STATUSES, VALIDITYLEVELS, ORTHOGRAPHY_STATUSES)
 
 handler = colorlog.StreamHandler()
 handler.setFormatter(colorlog.ColoredFormatter('%(log_color)s%(message)s'))
-log = colorlog.getLogger(__name__)
+
+log = colorlog.getLogger()
 log.setLevel(logging.DEBUG)
 log.addHandler(handler)
 
@@ -76,6 +77,16 @@ def check_types(Langs):
                 if len(invalid):
                     log.warn("'%s' has invalid orthography keys: '%s'" %
                              (iso, "', '".join(invalid)))
+
+                if "status" not in o:
+                    log.error("'%s' has an orthography (script '%s') that is "
+                              "missing 'status'" % (iso, o["script"]))
+                else:
+                    if o["status"] not in ORTHOGRAPHY_STATUSES:
+                        log.error("'%s' has an orthography status '%s' which "
+                                  "is invalid, should be one of %s" %
+                                  (iso, o["status"],
+                                   ", ".join(ORTHOGRAPHY_STATUSES)))
 
             primary_orthography = [o for o in lang["orthographies"]
                                    if "status" in o and
@@ -146,29 +157,6 @@ def check_is_valid_glyph_string(glyphs, iso=None):
             log.warning("'%s' contains modifier symbol '%s' in characters. It "
                         "is very likely this should be a combining mark "
                         "instead." % (iso, c))
-
-    return True
-
-
-def check_is_valid_combation_string(combos):
-    """
-    combinations should be quote-wrapped and each glyph wrapped in {}
-
-    @example: '{а̄}{е̄}{ә̄}{о̄}{ы̄}'
-    """
-    if type(combos) is not str or len(combos) == 0:
-        return False
-
-    if re.findall(r"\s", combos):
-        log.error("'combination' may not contain white space")
-        return False
-
-    # Remove beginning {, ending }, or pairs of }{ — if any { or } remain,
-    # there was a "syntax" error in the data
-    removed = re.sub(r"(^\{)|(\}\{)|(\}$)", "", combos)
-    if re.findall(r"\{|\}", removed):
-        log.error("'combination' has invalid pattern of curly braces")
-        return False
 
     return True
 
@@ -268,8 +256,8 @@ def check_macrolanguages(Langs, iso_data):
 
             for i in lang["includes"]:
                 if i not in Langs.keys():
-                    logging.error("'%s' includes language '%s' but it was "
-                                  "missing from the data" % (iso, i))
+                    log.error("'%s' includes language '%s' but it was "
+                              "missing from the data" % (iso, i))
 
 
 def check_includes(lang):
