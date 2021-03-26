@@ -1,7 +1,7 @@
 # A changelog for the lib/hyperglot CLI tool
 
 ## 0.2.10 (WIP)
-- DATA: Updated language data for Minang (xrg), Tamil (tam), Cherokee (chr), Tagalog (tgl), Aja (ajg), Khmer (khm)
+- DATA: Updated language data for Minang (xrg), Tamil (tam), Cherokee (chr), Tagalog (tgl), Aja (ajg), Khmer (khm), Madurese (mad), Javanese (jav) and others
 - FIX: Reverted hotfix from 0.2.9 and implemented validation to use iso yaml file only for editable package installs and emit warning
 - FIX: Refined `--decompose` and fixed an issue where the decompose option ended up returning more stringent matches than teh default
 - FIX: `--output` output refactored to no longer expect the result to be structured by support levels

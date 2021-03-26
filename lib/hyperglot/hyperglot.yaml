@@ -4190,12 +4190,13 @@ jav:
     script: Latin
     status: primary
   - autonym: ꦧꦱꦗꦮ
-    base: ꦄ ꦅ ꦆ ꦇ ꦈ ꦉ ꦊ ꦋ ꦌ ꦍ ꦎ ꦏ ꦐ ꦑ ꦒ ꦓ ꦔ ꦕ ꦖ ꦗ ꦘ ꦙ ꦚ ꦛ ꦜ ꦝ ꦞ ꦟ ꦠ ꦡ ꦢ ꦣ ꦤ ꦥ ꦦ ꦧ ꦨ ꦩ ꦪ ꦫ ꦬ ꦭ ꦮ ꦯ ꦰ ꦱ ꦲ ꧏ
+    auxiliary: ꦑ ꦖ ꦘ ꦙ ꦜ ꦡ ꦬ ꦰ
+    base: ꦄ ꦅ ꦆ ꦇ ꦈ ꦉ ꦊ ꦋ ꦌ ꦍ ꦎ ꦏ ꦐ ꦒ ꦓ ꦔ ꦕ ꦗ ꦚ ꦛ ꦝ ꦞ ꦟ ꦠ ꦢ ꦣ ꦤ ꦥ ꦦ ꦧ ꦨ ꦩ ꦪ ꦫ ꦭ ꦮ ꦯ ꦱ ꦲ
     design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
     marks: ꦀ  ꦁ  ꦂ  ꦃ  ꦳  ꦴ  ꦵ  ꦶ  ꦷ  ꦸ  ꦹ  ꦺ  ꦻ  ꦼ  ꦽ  ꦾ  ꦿ  ꧀
     note: The Latin script is the most used nowadays.
     numerals: ꧐ ꧑ ꧒ ꧓ ꧔ ꧕ ꧖ ꧗ ꧘ ꧙ 0 1 2 3 4 5 6 7 8 9
-    puntuation: ꧞ ꧟ ꧁ ꧂ ꧃ ꧄ ꧅ ꧆ ꧇ ꧈ ꧉ ꧊ ꧋ ꧌ ꧍
+    punctuation: ꧏ ꧞ ꧟ ꧁ ꧂ ꧃ ꧄ ꧅ ꧆ ꧇ ꧈ ꧉ ꧊ ꧋ ꧌ ꧍
     script: Javanese
     status: secondary
   source:
@@ -4907,6 +4908,7 @@ knn:
     inherit: gom
     script: Devanagari
     status: primary
+  preferred_name: Maharashtrian Konkani
   source:
   - Wikipedia
   - Unicode
@@ -9672,12 +9674,13 @@ xog:
   status: living
   validity: verified
 xrg:
-  name: Minang (Mirnong)
+  name: Minang
   note: The ISO 639-3:xrg is an extinct dialect of ISO 639-3:nys.
   orthographies:
   - base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
     script: Latin
     status: primary
+  preferred_name: Minang (Mirnong)
   source:
   - Omniglot
   - Wikipedia
