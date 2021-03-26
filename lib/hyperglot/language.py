@@ -239,10 +239,6 @@ class Language(dict):
         for ort in orthographies:
             supported = False
 
-            if self.is_secondary(ort) or self.is_deprecated(ort):
-                log.info("Skipping orthography in '%s' because it is "
-                         "deprecated or secondary" % self.iso)
-
             # Any support check needs 'base'
             base = self.get_orthography_chars(ort, "base",
                                               ignoreMerge=checkAllOrthographies,  # noqa
