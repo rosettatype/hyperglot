@@ -5893,8 +5893,7 @@ min:
   name: Minangkabau
   orthographies:
   - autonym: Baso Minangkabau
-    base: A B C D E F G H I J K L M N O P Q R S T U W Y Ē Ñ a b c d e f g h i j k l m n o p q r s t u w y ē ñ
-    marks: ̃  ̄
+    base: A B C D E F G H I J K L M N O P Q R S T U V W Y Z a b c d e f g h i j k l m n o p q r s t u v w y z
     script: Latin
     status: primary
   source:
