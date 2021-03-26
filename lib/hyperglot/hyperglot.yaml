@@ -8629,7 +8629,7 @@ tgl:
     marks:  ᜒ ᜓ ᜔ ᜕
     script: Tagalog
     note: Baybayin is the historic Tagalog script. Some revival efforts exist, but it's not in common use in the Philippines.
-    status: secondary
+    status: historical
   source:
   - Omniglot
   - Wikipedia
