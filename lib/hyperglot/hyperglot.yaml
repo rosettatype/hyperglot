@@ -5893,8 +5893,7 @@ min:
   name: Minangkabau
   orthographies:
   - autonym: Baso Minangkabau
-    base: A B C D E F G H I J K L M N O P Q R S T U W Y Ē Ñ a b c d e f g h i j k l m n o p q r s t u w y ē ñ
-    marks: ̃  ̄
+    base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z 
     script: Latin
     status: primary
   source:
@@ -9626,21 +9625,6 @@ xog:
   - CLDR
   speakers: 3600000
   speakers_date: 2014
-  status: living
-  validity: verified
-xrg:
-  name: Minang
-  note: ISO 639-3 has this language marked as extinct while Wikipedia reports L1 speakers.
-  orthographies:
-  - autonym: Minangkabau
-    base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
-    script: Latin
-    status: primary
-  source:
-  - Omniglot
-  - Wikipedia
-  speakers: 6401000
-  speakers_date: 2007-2016
   status: living
   validity: verified
 xsm:
