@@ -2436,6 +2436,19 @@ dga:
   speakers: 1100000
   speakers_date: 2001-2003
   validity: preliminary
+dgl:
+  name: Andaandi, Dongolawi
+  orthographies:
+  - base: ⲁ ⲃ ⲅ ⲇ ⲉ ⲍ ⲏ ⲓ ⲕ ⲗ ⲙ ⲛ ⲟ ⲡ ⲣ ⲥ ⲧ ⲩ ⲫ ⲱ ⳡ ⳣ ⳝ ⳟ ϣ ϥ ϩ ϭ
+    marks: ̄  ̈
+    script: Coptic
+    status: historical
+  source:
+  - Wikipedia
+  speakers: 70000
+  speakers_date: 2014
+  status: living
+  validity: draft
 dgo:
   name: Dogri (individual language)
   orthographies:
@@ -2981,6 +2994,18 @@ ffm:
   speakers_date: 2007
   status: living
   validity: verified
+fia:
+  name: Nobiin
+  orthographies:
+  - inherit: dgl
+    script: Coptic
+    status: historical
+  source:
+  - Wikipedia
+  speakers: 669000
+  speakers_date: 1996–2006
+  status: living
+  validity: draft
 fij:
   name: Fijian
   orthographies:
@@ -4320,6 +4345,7 @@ jpn:
     script: Latin
     status: primary
   - base: A B D E F G H I J K L M N O P R S T U V W Y Z Ā Ē Ī Ō Ū a b d e f g h i j k l m n o p r s t u v w y z ā ē ī ō ū
+    marks: ̄
     note: Rōmaji is used to transcribe Japanese for use by foreigners. The most commonly used orthography is this one, for the Hepburn romanization system.
     script: Latin
     status: transliteration
@@ -6853,6 +6879,18 @@ oji:
   - Wikipedia
   speakers: 100880
   speakers_date: 1990-2010
+  validity: preliminary
+onw:
+  name: Old Nubian
+  orthographies:
+  - base: ⲁ ⲃ ⲅ ⲇ ⲉ ⲍ ⲏ ⲓ ⲕ ⲗ ⲙ ⲛ ⲟ ⲡ ⲣ ⲥ ⲧ ⲩ ⲫ ⲱ ⳡ ⳣ ⳝ ⳟ ϣ ϥ ϩ ϭ ⲑ ⲝ ⲭ ⲯ
+    design_note: Nearly all Old Nubian texts have been written in a slanted uncial variant of the Coptic script.
+    marks: ̄  ̈
+    script: Coptic
+    status: historical
+  source:
+  - Wikipedia
+  status: extinct
   validity: preliminary
 orc:
   name: Orma
@@ -9674,6 +9712,18 @@ xnr:
   speakers: 1700000
   speakers_date: 1996
   validity: preliminary
+xnz:
+  name: Kenzi, Mattokki
+  orthographies:
+  - inherit: dgl
+    script: Coptic
+    status: historical
+  source:
+  - Wikipedia
+  speakers: 50000
+  speakers_date: 2014
+  status: extinct
+  validity: draft
 xog:
   name: Soga
   orthographies:
