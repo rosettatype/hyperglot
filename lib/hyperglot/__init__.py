@@ -2,7 +2,7 @@
 Gather a few package wide constants
 """
 from os import path
-__version__ = "0.2.10"
+__version__ = "0.2.11"
 
 DB = path.abspath(path.join(path.dirname(__file__), "hyperglot.yaml"))
 
@@ -16,7 +16,7 @@ VALIDITYLEVELS = [
     "todo",
     "draft",
     "preliminary",
-    "verified"
+    "verified",
 ]
 
 
@@ -27,7 +27,7 @@ STATUSES = [
     "ancient",
     "living",
     "extinct",
-    "deprecated"
+    "deprecated",
 ]
 
 
@@ -37,4 +37,6 @@ ORTHOGRAPHY_STATUSES = [
     "local",
     "secondary",
     "deprecated",
+    "historical",
+    "transliteration",
 ]

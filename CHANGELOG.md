@@ -1,6 +1,10 @@
 # A changelog for the lib/hyperglot CLI tool
 
-## 0.2.10 (WIP)
+## 0.2.11 (29.03.2021)
+- DATA: Updated language data for Nubian languages and Japanese
+- DATA: Introduced `transliteration` orthography status (started in 0.2.10)
+
+## 0.2.10 (26.03.2021)
 - DATA: Updated language data for Minang (xrg), Tamil (tam), Cherokee (chr), Tagalog (tgl), Aja (ajg), Khmer (khm), Madurese (mad), Javanese (jav) and others
 - FIX: Reverted hotfix from 0.2.9 and implemented validation to use iso yaml file only for editable package installs and emit warning
 - FIX: Refined `--decompose` and fixed an issue where the decompose option ended up returning more stringent matches than teh default
