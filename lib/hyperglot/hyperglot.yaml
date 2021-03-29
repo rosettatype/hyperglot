@@ -2443,12 +2443,15 @@ dgl:
     marks: ̄  ̈
     script: Coptic
     status: historical
+  - base: A B C D E F G H I J K L M N O P R S T U W Y Z a b c d e f g h i j k l m n o p r s t u w y z
+    script: Latin
+    status: primary
   source:
   - Wikipedia
   speakers: 70000
   speakers_date: 2014
   status: living
-  validity: draft
+  validity: preliminary
 dgo:
   name: Dogri (individual language)
   orthographies:
@@ -3000,12 +3003,15 @@ fia:
   - inherit: dgl
     script: Coptic
     status: historical
+  - inherit: dgl
+    script: Latin
+    status: primary
   source:
   - Wikipedia
   speakers: 669000
   speakers_date: 1996–2006
   status: living
-  validity: draft
+  validity: preliminary
 fij:
   name: Fijian
   orthographies:
@@ -6883,7 +6889,7 @@ oji:
 onw:
   name: Old Nubian
   orthographies:
-  - base: ⲁ ⲃ ⲅ ⲇ ⲉ ⲍ ⲏ ⲓ ⲕ ⲗ ⲙ ⲛ ⲟ ⲡ ⲣ ⲥ ⲧ ⲩ ⲫ ⲱ ⳡ ⳣ ⳝ ⳟ ϣ ϥ ϩ ϭ ⲑ ⲝ ⲭ ⲯ
+  - base: ⲁ ⲃ ⲅ ⲇ ⲉ ⲍ ⲏ ⲓ ⲕ ⲗ ⲙ ⲛ ⲟ ⲡ ⲣ ⲥ ⲧ ⲩ ⲫ ⲱ ⳡ ⳣ ⳝ ⳟ ϣ ϥ ϩ ⲑ ⲝ ⲭ ⲯ
     design_note: Nearly all Old Nubian texts have been written in a slanted uncial variant of the Coptic script.
     marks: ̄  ̈
     script: Coptic
@@ -9718,12 +9724,15 @@ xnz:
   - inherit: dgl
     script: Coptic
     status: historical
+  - inherit: dgl
+    script: Latin
+    status: primary
   source:
   - Wikipedia
   speakers: 50000
   speakers_date: 2014
-  status: extinct
-  validity: draft
+  status: living
+  validity: preliminary
 xog:
   name: Soga
   orthographies:
