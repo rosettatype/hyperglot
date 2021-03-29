@@ -6893,7 +6893,7 @@ onw:
     design_note: Nearly all Old Nubian texts have been written in a slanted uncial variant of the Coptic script.
     marks: ̄  ̈
     script: Coptic
-    status: historical
+    status: primary
   source:
   - Wikipedia
   status: extinct
