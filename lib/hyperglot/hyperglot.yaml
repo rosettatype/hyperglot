@@ -2438,7 +2438,6 @@ dga:
   validity: preliminary
 dgl:
   name: Andaandi
-  preferred_name: Andaandi, Dongolawi
   orthographies:
   - base: ⲁ ⲃ ⲅ ⲇ ⲉ ⲍ ⲏ ⲓ ⲕ ⲗ ⲙ ⲛ ⲟ ⲡ ⲣ ⲥ ⲧ ⲩ ⲫ ⲭ ⲱ ⳡ ⳣ ⳝ ⳟ ϣ ϩ ϭ
     marks: ̄  ̈
@@ -2447,6 +2446,7 @@ dgl:
   - base: A B C D E F G H I J K L M N O P R S T U W Y Z a b c d e f g h i j k l m n o p r s t u w y z
     script: Latin
     status: primary
+  preferred_name: Andaandi, Dongolawi
   source:
   - Wikipedia
   speakers: 70000
@@ -3851,21 +3851,22 @@ hni:
   speakers_date: 1995-2007
   validity: preliminary
 hnn:
-  name: Hanunó'o
+  name: Hanunoo
   orthographies:
   - autonym: ᜱᜨᜳᜨᜳᜢ
     base: ᜠ ᜡ ᜢ ᜣ ᜤ ᜥ ᜦ ᜧ ᜨ ᜩ ᜪ ᜫ ᜬ ᜭ ᜮ ᜯ ᜰ ᜱ
     marks: ᜲ  ᜳ  ᜴
-    punctuation: ᜵ ᜶
     note: This orthography includes the pamudpod, as is used in modern Hanunó'o. The pamudpud began as an innovation of Antoon Postma in the 1970’s, one of the leading researchers of Philippine scripts.
+    punctuation: ᜵ ᜶
     script: Hanunó'o
     status: primary
-  speakers: 13000
-  speakers_date: 2000
   source:
   - Ethnologue
   - Wikipedia
   - Unicode Consortium (Core Spec, Hanunoo block)
+  speakers: 13000
+  speakers_date: 2000
+  validity: preliminary
 hns:
   name: Caribbean Hindustani
   orthographies:
@@ -9739,7 +9740,6 @@ xnr:
   validity: preliminary
 xnz:
   name: Kenzi
-  preferred_name: name: Kenzi, Mattokki
   orthographies:
   - inherit: dgl
     script: Coptic/Nubian
@@ -9747,6 +9747,7 @@ xnz:
   - inherit: dgl
     script: Latin
     status: primary
+  preferred_name: Kenzi, Mattokki
   source:
   - Wikipedia
   speakers: 50000
