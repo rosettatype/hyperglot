@@ -6944,6 +6944,26 @@ oss:
   speakers_date: 2010
   status: living
   validity: preliminary
+ota:
+  name: Ottoman Turkish
+  orthographies:
+  - base: ʾ ʿ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Â Ç Î Ö Û Ü Ğ Ș Ṡ Ā Ē Ī Ō Ū Ṫ Ṭ Ż Ẓ a b c d e f g h i j k l m n o p q r s ṡ t ṫ ṭ u v w x y z ż ẓ̠ â ç î ö û ü ğ İ ı ș ā ē ī ō ū
+    marks: ̂  ̆  ̇  ̈  ̦  ̧  ̄  ̱
+    script: Latin
+    status: transliteration
+    note: The International Journal of Middle East Studies (IJMES) transliteration chart used for this entry provides the most complete and (almost) reversible transliteration between the original Arabic and Latin alphabet representation.
+  - base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا ة
+    auxiliary: ڛ ڢ ٯ ڧ ک ی ڤ ڥ پ چ گ ڨ ڭ ڠ
+    design_note: Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
+    marks: َ  ُ  ِ  ْ  ٰ
+    numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩
+    script: Arabic
+    status: primary
+  source:
+  - https://github.com/QHOD/ota-keyboard/
+  - Wikipedia
+  status: historical
+  validity: preliminary
 ote:
   name: Mezquital Otomi
   orthographies:
