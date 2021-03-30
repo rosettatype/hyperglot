@@ -3850,6 +3850,22 @@ hni:
   speakers: 1800000
   speakers_date: 1995-2007
   validity: preliminary
+hnn:
+  name: Hanunó'o
+  orthographies:
+  - autonym: ᜱᜨᜳᜨᜳᜢ
+    base: ᜠ ᜡ ᜢ ᜣ ᜤ ᜥ ᜦ ᜧ ᜨ ᜩ ᜪ ᜫ ᜬ ᜭ ᜮ ᜯ ᜰ ᜱ
+    marks: ᜲ  ᜳ  ᜴
+    punctuation: ᜵ ᜶
+    note: This orthography includes the pamudpod, as is used in modern Hanunó'o. The pamudpud began as an innovation of Antoon Postma in the 1970's, one of the leading researchers of Philippine scripts.
+    script: Hanunó'o
+    status: primary
+  speakers: 13000
+  speakers_date: 2000
+  source:
+  - Ethnologue
+  - Wikipedia
+  - Unicode Consortium (Core Spec, Hanunoo block)
 hns:
   name: Caribbean Hindustani
   orthographies:
