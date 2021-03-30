@@ -2437,11 +2437,12 @@ dga:
   speakers_date: 2001-2003
   validity: preliminary
 dgl:
-  name: Andaandi, Dongolawi
+  name: Andaandi
+  preferred_name: Andaandi, Dongolawi
   orthographies:
-  - base: ⲁ ⲃ ⲅ ⲇ ⲉ ⲍ ⲏ ⲓ ⲕ ⲗ ⲙ ⲛ ⲟ ⲡ ⲣ ⲥ ⲧ ⲩ ⲫ ⲱ ⳡ ⳣ ⳝ ⳟ ϣ ϥ ϩ ϭ
+  - base: ⲁ ⲃ ⲅ ⲇ ⲉ ⲍ ⲏ ⲓ ⲕ ⲗ ⲙ ⲛ ⲟ ⲡ ⲣ ⲥ ⲧ ⲩ ⲫ ⲭ ⲱ ⳡ ⳣ ⳝ ⳟ ϣ ϩ ϭ
     marks: ̄  ̈
-    script: Coptic
+    script: Coptic/Nubian
     status: historical
   - base: A B C D E F G H I J K L M N O P R S T U W Y Z a b c d e f g h i j k l m n o p r s t u w y z
     script: Latin
@@ -2451,7 +2452,7 @@ dgl:
   speakers: 70000
   speakers_date: 2014
   status: living
-  validity: preliminary
+  validity: verified
 dgo:
   name: Dogri (individual language)
   orthographies:
@@ -3001,7 +3002,7 @@ fia:
   name: Nobiin
   orthographies:
   - inherit: dgl
-    script: Coptic
+    script: Coptic/Nubian
     status: historical
   - inherit: dgl
     script: Latin
@@ -3011,7 +3012,7 @@ fia:
   speakers: 669000
   speakers_date: 1996–2006
   status: living
-  validity: preliminary
+  validity: verified
 fij:
   name: Fijian
   orthographies:
@@ -6889,15 +6890,17 @@ oji:
 onw:
   name: Old Nubian
   orthographies:
-  - base: ⲁ ⲃ ⲅ ⲇ ⲉ ⲍ ⲏ ⲓ ⲕ ⲗ ⲙ ⲛ ⲟ ⲡ ⲣ ⲥ ⲧ ⲩ ⲫ ⲱ ⳡ ⳣ ⳝ ⳟ ϣ ϥ ϩ ⲑ ⲝ ⲭ ⲯ
+  - auxiliary: ◌ ̇
+    base: ⲁ ⲃ ⲅ ⲇ ⲉ ⲍ ⲏ ⲓ ⲕ ⲗ ⲙ ⲛ ⲟ ⲡ ⲣ ⲥ ⲧ ⲩ ⲫ ⲱ ⳡ ⳣ ⳝ ⳟ ϣ ϩ ⲑ ⲝ ⲭ ⲯ
     design_note: Nearly all Old Nubian texts have been written in a slanted uncial variant of the Coptic script.
     marks: ̄  ̈
-    script: Coptic
+    note: Some authors prefer to use dot mark above instead of macron.
+    script: Coptic/Nubian
     status: primary
   source:
   - Wikipedia
   status: extinct
-  validity: preliminary
+  validity: verified
 orc:
   name: Orma
   orthographies:
@@ -9719,10 +9722,11 @@ xnr:
   speakers_date: 1996
   validity: preliminary
 xnz:
-  name: Kenzi, Mattokki
+  name: Kenzi
+  preferred_name: name: Kenzi, Mattokki
   orthographies:
   - inherit: dgl
-    script: Coptic
+    script: Coptic/Nubian
     status: historical
   - inherit: dgl
     script: Latin
@@ -9732,7 +9736,7 @@ xnz:
   speakers: 50000
   speakers_date: 2014
   status: living
-  validity: preliminary
+  validity: verified
 xog:
   name: Soga
   orthographies:
