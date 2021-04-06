@@ -127,7 +127,7 @@ class Languages(dict):
         for iso, lang in self.items():
             if "orthographies" in lang:
                 for o in lang["orthographies"]:
-                    if "inherit" in o and "script" in o:
+                    if "inherit" in o:
                         parent_iso = o["inherit"]
                         if len(parent_iso) != 3:
                             log.warning("'%s' failed to inherit "
@@ -159,7 +159,11 @@ class Languages(dict):
                                                                  iso))
 
         ref = Language(self[source_iso], source_iso)
-        ort = ref.get_orthography(extend["script"])
+        if "script" in extend:
+            ort = ref.get_orthography(extend["script"])
+        else:
+            ort = ref.get_orthography()
+
         if "inherit" in ort:
             logging.debug("Multiple levels of inheritence from '%s'" %
                           source_iso)
@@ -171,7 +175,7 @@ class Languages(dict):
             # Copy all the attributes we want to inherit
             # Note: No autonym inheritance
             for attr in ["base", "auxiliary", "marks", "note",
-                         "combinations", "punctuation",
+                         "combinations", "punctuation", "script",
                          "design_note", "numerals", "status"]:
                 if attr in ort:
                     # Wrap in type constructor, to copy, not

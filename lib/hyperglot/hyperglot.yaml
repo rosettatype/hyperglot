@@ -7984,12 +7984,12 @@ sje:
   validity: preliminary
 sjt:
   name: Ter Sami
+  note: Ter Saami has been used as a written language only in very few texts. Currently, the number of active speakers of Ter Saami is likely lower than 10. Kildin and Ter Sami languages are grouped together as Kola Sami by some linguists.
   orthographies:
   - autonym: Са̄мькӣлл
-    base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ј Ҋ Ҍ Ҏ Һ Ӆ Ӈ Ӊ Ӎ Ӓ Ӭ Ӣ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ј ҋ ҍ ҏ һ ӆ ӈ ӊ ӎ ӓ ӭ ӣ ’
-    marks: ̄  ̆  ̈
-    script: Cyrillic
-    status: primary
+    auxiliary: Ӹ Щ щ
+    inherit: sjd
+    status: secondary
   source:
   - Omniglot
   - Wikipedia
