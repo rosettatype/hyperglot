@@ -7973,8 +7973,8 @@ sjd:
   name: Kildin Sami
   orthographies:
   - autonym: Кӣллт Са̄мь
-    auxiliary: Щ щ
-    base: А Ӓ Б В Г Д Е Ё Ж З Һ И Ӣ Й Ј Ҋ К Л Ӆ М Ӎ Н Ӊ Ӈ О П Р Ҏ С Т У Ӯ Ф Х Ц Ч Ш Ъ Ы Ь Ҍ Э Ӭ Ю Я а ӓ б в г д е ё ж з һ и ӣ й ј ҋ к л ӆ м ӎ н ӊ ӈ о п р ҏ с т у ӯ ф х ц ч ш ъ ы ь ҍ э ӭ ю я ʼ
+    auxiliary: Щ щ Ҋ ҋ Ӹ ӹ ʼ
+    base: А Ӓ Б В Г Д Е Ё Ж З Һ И Ӣ Й Ј К Л Ӆ М Ӎ Н Ӊ Ӈ О П Р Ҏ С Т У Ӯ Ф Х Ц Ч Ш Ъ Ы Ь Ҍ Э Ӭ Ю Я а ӓ б в г д е ё ж з һ и ӣ й ј к л ӆ м ӎ н ӊ ӈ о п р ҏ с т у ӯ ф х ц ч ш ъ ы ь ҍ э ӭ ю я
     marks: ̄  ̆  ̈
     script: Cyrillic
     status: primary
@@ -8005,7 +8005,6 @@ sjt:
   note: Ter Saami has been used as a written language only in very few texts. Currently, the number of active speakers of Ter Saami is likely lower than 10. Kildin and Ter Sami languages are grouped together as Kola Sami by some linguists.
   orthographies:
   - autonym: Са̄мькӣлл
-    auxiliary: Ӹ Щ щ
     inherit: sjd
     status: secondary
   source:
@@ -8175,7 +8174,7 @@ smo:
 sms:
   name: Skolt Sami
   orthographies:
-  - autonym: Nuõrttsääʹmǩiõll
+  - autonym: Nuõrttsääʼmǩiõll
     base: A B C D E F G H I J K L M N O P Q R S T U V X Y Z Â Ä Å Ö Õ Č Đ Ŋ Š Ž Ǥ Ǧ Ǩ Ǯ Ʒ a b c d e f g h i j k l m n o p q r s t u v x y z â ä å ö õ č đ ŋ š ž ǥ ǧ ǩ ǯ ʒ ʼ
     marks: ̂  ̃  ̈  ̊  ̌
     script: Latin
