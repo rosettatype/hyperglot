@@ -7974,7 +7974,7 @@ sjd:
   orthographies:
   - autonym: Кӣллт Са̄мь
     auxiliary: Щ щ
-    base: А Ӓ Б В Г Д Е Ё Ж З Һ И Ӣ Й Ј Ҋ К Л Ӆ М Ӎ Н Ӊ Ӈ О П Р Ҏ С Т У Ӯ Ф Х Ц Ч Ш Ъ Ы Ь Ҍ Э Ӭ Ю Я а ӓ б в г д е ё ж з һ и ӣ й ј ҋ к л ӆ м ӎ н ӊ ӈ о п р ҏ с т у ӯ ф х ц ч ш ъ ы ь ҍ э ӭ ю я ’
+    base: А Ӓ Б В Г Д Е Ё Ж З Һ И Ӣ Й Ј Ҋ К Л Ӆ М Ӎ Н Ӊ Ӈ О П Р Ҏ С Т У Ӯ Ф Х Ц Ч Ш Ъ Ы Ь Ҍ Э Ӭ Ю Я а ӓ б в г д е ё ж з һ и ӣ й ј ҋ к л ӆ м ӎ н ӊ ӈ о п р ҏ с т у ӯ ф х ц ч ш ъ ы ь ҍ э ӭ ю я ʼ
     marks: ̄  ̆  ̈
     script: Cyrillic
     status: primary
@@ -7989,7 +7989,7 @@ sje:
   name: Pite Sami
   orthographies:
   - autonym: Bidumsámegiella
-    base: A B D E F G H I J K L M N O P R S T U V Á Ä Å Đ Ŋ Ŧ a b d e f g h i j k l m n o p r s t u v á ä å đ ŋ ŧ ’ \ '
+    base: A B D E F G H I J K L M N O P R S T U V Á Ä Å Đ Ŋ Ŧ a b d e f g h i j k l m n o p r s t u v á ä å đ ŋ ŧ ʼ
     marks: ́  ̈  ̊
     script: Latin
     status: primary
@@ -8176,7 +8176,7 @@ sms:
   name: Skolt Sami
   orthographies:
   - autonym: Nuõrttsääʹmǩiõll
-    base: A B C D E F G H I J K L M N O P Q R S T U V X Y Z Â Ä Å Ö Õ Č Đ Ŋ Š Ž Ǥ Ǧ Ǩ Ǯ Ʒ a b c d e f g h i j k l m n o p q r s t u v x y z â ä å ö õ č đ ŋ š ž ǥ ǧ ǩ ǯ ʒ ’ ʹ ˈ
+    base: A B C D E F G H I J K L M N O P Q R S T U V X Y Z Â Ä Å Ö Õ Č Đ Ŋ Š Ž Ǥ Ǧ Ǩ Ǯ Ʒ a b c d e f g h i j k l m n o p q r s t u v x y z â ä å ö õ č đ ŋ š ž ǥ ǧ ǩ ǯ ʒ ʼ
     marks: ̂  ̃  ̈  ̊  ̌
     script: Latin
     status: primary

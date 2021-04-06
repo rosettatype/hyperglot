@@ -5,6 +5,8 @@
 - Data: Some fixes to Marshallese
 - Data: Added Ottoman Turkish and a transliteration orthography for it
 - Data: Added Hanunoo
+- Data: Replaced Single right comma (and other variants) with Modifier letter apostrophe for some Sami languages
+- Data: 
 - FIX: Fixed issue that caused to parse some fonts (#24)
 - TWEAK: Allow inheriting an orthography without explicitly having a script present in the orthography, this will inherit the primary script orthography of the parent
 
