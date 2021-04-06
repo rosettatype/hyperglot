@@ -5705,8 +5705,9 @@ mah:
   name: Marshallese
   orthographies:
   - autonym: Kajin M̧ajeļ
-    base: A Ā B D E I J K L Ḷ M N Ņ O Ō P R T U Ū W a ā b d e i j k l ḷ m n ņ o ō p r t u ū w
-    marks: ̄  ̣  ̧
+    base: A Ā B D E I J K L Ļ M N Ņ O Ō P R T U Ū W a ā b d e i j k l ļ m n ņ o ō p r t u ū w
+    marks: ̄  ̦  ̧  ̨
+    note: Some spellings use a simplified variant Ḷ Ṃ Ṇ Ñ Ọ instead of the comman, cedilla, macron and ogonek combingin marks.
     script: Latin
     status: primary
   source:

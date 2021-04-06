@@ -2,6 +2,7 @@
 
 ## 0.2.12 (06.04.2021)
 - Data: Updated Ter Sami orthography as inheriting from Kilding Sami
+- Data: Some fixes to Marshallese
 - TWEAK: Allow inheriting an orthography without explicitly having a script present in the orthography, this will inherit the primary script orthography of the parent
 
 ## 0.2.11 (29.03.2021)
