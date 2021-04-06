@@ -5,6 +5,7 @@
 - Data: Some fixes to Marshallese
 - Data: Added Ottoman Turkish and a transliteration orthography for it
 - Data: Added Hanunoo
+- FIX: Fixed issue that caused to parse some fonts (#24)
 - TWEAK: Allow inheriting an orthography without explicitly having a script present in the orthography, this will inherit the primary script orthography of the parent
 
 ## 0.2.11 (29.03.2021)
