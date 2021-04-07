@@ -40,3 +40,13 @@ ORTHOGRAPHY_STATUSES = [
     "historical",
     "transliteration",
 ]
+
+# Those attributes of orthographies that contain non-mark characters
+CHARACTER_ATTRIBUTES = [
+    "base",
+    "auxiliary",
+    "numerals",
+    "punctuation",
+]
+
+MARK_BASE = "◌"

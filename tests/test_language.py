@@ -6,7 +6,7 @@ from hyperglot.languages import Languages
 from hyperglot.language import Language
 
 
-def test_language_has_support():
+def test_language_supported():
     Langs = Languages()
 
     # A Language object with the 'fin' data
@@ -14,35 +14,34 @@ def test_language_has_support():
 
     # These "chars" represent a font with supposedly those codepoints in it
     fin_chars_missing_a = "bcdefghijklmnopqrstuvwxyzäöå"
-    fin_chars_base = "ABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÅabcdefghijklmnopqrstuvwxyzäöå ̈ ̊"  # noqa
-    fin_chars_aux = "ABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÅÆÕØÜŠŽabcdefghijklmnopqrstuvwxyzäöåæõøüšž ̈ ̊ ̃ ̌"  # noqa
+    fin_chars_base = "ABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÅabcdefghijklmnopqrstuvwxyzäöå"  # noqa
+    fin_chars_aux = "ABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÅÆÕØÜŠŽabcdefghijklmnopqrstuvwxyzäöåæõøüšž"  # noqa
     fin_chars_no_precomposed = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz ̈ ̊"  # noqa
 
-    # This is what has_support should look like if it determines 'fin' is
+    # This is what supported should look like if it determines 'fin' is
     # supported
     fin_matched = {"Latin": ["fin"]}
 
-    matches = fin.has_support(fin_chars_base, pruneOrthographies=False)
+    # Note pruneOrthographies=False is used to re-use the same Language object
+    # for these tests without having removed unsupported orthographies
+
+    matches = fin.supported(fin_chars_base, pruneOrthographies=False)
     assert matches == fin_matched
 
-    no_matches = fin.has_support(fin_chars_base, level="aux",
-                                 pruneOrthographies=False)
+    no_matches = fin.supported(fin_chars_base, level="aux",
+                               pruneOrthographies=False)
     assert no_matches == {}
 
-    matches = fin.has_support(fin_chars_aux, level="aux",
-                              pruneOrthographies=False)
+    matches = fin.supported(fin_chars_aux, level="aux",
+                            pruneOrthographies=False)
     assert matches == fin_matched
 
-    no_matches = fin.has_support(fin_chars_base, level="aux",
-                                 pruneOrthographies=False)
+    no_matches = fin.supported(fin_chars_base, level="aux",
+                               pruneOrthographies=False)
     assert no_matches == {}
 
-    no_matches = fin.has_support(fin_chars_missing_a, pruneOrthographies=False)
+    no_matches = fin.supported(fin_chars_missing_a, pruneOrthographies=False)
     assert no_matches == {}
-
-    matches = fin.has_support(fin_chars_no_precomposed,
-                              pruneOrthographies=False)
-    assert matches == fin_matched
 
 
 def test_language_inherit():
@@ -89,13 +88,13 @@ def test_language_all_orthographies():
     smj_base = "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á Ä Å Ñ Ö Ń a b c d e f g h i j k l m n o p q r s t u v w x y z á ä å ñ ö ń A B D E F G H I J K L M N O P R S T U V Á Ä Å Ŋ a b d e f g h i j k l m n o p r s t u v á ä å ŋ a n o ́ ̃ ̈ ̊"  # noqa
 
     # When checking primary orthographies only one should be included
-    support = smj.has_support(smj_base)
+    support = smj.supported(smj_base)
     assert ("smj" in support["Latin"]) is True
     assert len(smj["orthographies"]) == 1
 
     # Even when checking all orthographies the 'deprecated' orthography should
     # not be included
-    support = smj.has_support(smj_base, checkAllOrthographies=True)
+    support = smj.supported(smj_base, checkAllOrthographies=True)
     assert len(smj["orthographies"]) == 1
 
     # rmn Balkan Romani has Latin (primary) and Cyrillic orthographies
@@ -103,17 +102,17 @@ def test_language_all_orthographies():
     rmn = Language(Langs["rmn"], "rmn")
 
     # All the chars from both orthographies
-    rmj_base = "A B C D E F H I J K L M N O P Q R S T U V W X Y Z a b c d e f h i j k l m n o p q r s t u v w x y z А Б В Г Д Е Ж З И К Л М Н О П Р С Т У Ф Х Ц Ч Ш Ы Ь Э Ю Я а б в г д е ж з и к л м н о п р с т у ф х ц ч ш ы ь э ю я G g ́ ̂ ̆ ̇ ̈ ̌"  # noqa
+    rmn_base = "A Ä Á B C Ć Č D E Ê É F Ğ H I Î Í J K L M N O Ö Ó P Ṗ Q R Ř S Š T U V W X Y Z a ä á b c ć č d e ê é f ğ h i î í j k l m n o ö ó p ṗ q r ř s š t u v w x y z А Б В Г Д Е Ё Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Ы Ь Э Ю Я а б в г д е ё ж з и й к л м н о п р с т у ф х ц ч ш ы ь э ю я"  # noqa
 
     # When checking all orthographies, the Cyrillic non-primary should be
     # included
-    support = rmn.has_support(rmj_base, checkAllOrthographies=True)
+    support = rmn.supported(rmn_base, checkAllOrthographies=True)
     assert ("rmn" in support["Latin"]) is True
     assert ("Cyrillic" in support.keys()) is True
     assert len(rmn["orthographies"]) == 2
 
     # When checking only primary only Latin should be included
-    support = rmn.has_support(rmj_base, checkAllOrthographies=False)
+    support = rmn.supported(rmn_base, checkAllOrthographies=False)
     assert ("rmn" in support["Latin"]) is True
     assert ("Cyrillic" not in support.keys()) is True
     assert len(rmn["orthographies"]) == 1
@@ -124,9 +123,9 @@ def test_language_multiple_primaries():
 
     # E.g. aat Arvanitika Albanian has exceptionally two `primary`
     # orthographies, a font with support for either should include the language
-    aat_latin = "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z ̀ ́ ̈ ̧"  # noqa
+    aat_latin = "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á Ä Ç È É Ë Í Ï Ó Ö Ú Ü Ý a b c d e f g h i j k l m n o p q r s t u v w x y z á ä ç è é ë í ï ó ö ú ü ý"  # noqa
     aat = Language(Langs["aat"], "aat")
-    support = aat.has_support(aat_latin)
+    support = aat.supported(aat_latin)
     assert ("Latin" in support.keys()) is True
     assert ("Greek" not in support.keys()) is True
     assert len(aat["orthographies"]) == 1
@@ -138,20 +137,20 @@ def test_language_combined_orthographies():
     # E.g. Serbian or Japanese have multiple orthographies that should be
     # treated as a combination, e.g. require all for support
     srp = Language(Langs["srp"], "srp")
-    srp_cyrillic = 'А Б В Г Д Е Ж З И К Л М Н О П Р С Т У Ф Х Ц Ч Ш Ђ Ј Љ Њ Ћ Џ а б в г д е ж з и к л м н о п р с т у ф х ц ч ш ђ ј љ њ ћ џ ́'  # noqa
-    srp_latin = 'A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Đ a b c d e f g h i j k l m n o p q r s t u v w x y z đ ́ ̌'  # noqa
+    srp_cyrillic = 'А Б В Г Д Е Ж З И К Л М Н О П Р С Т У Ф Х Ц Ч Ш Ђ Ј Љ Њ Ћ Џ а б в г д е ж з и к л м н о п р с т у ф х ц ч ш ђ ј љ њ ћ џ ◌́'  # noqa
+    srp_latin = 'A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ć Č Đ Ś Š Ź Ž a b c d e f g h i j k l m n o p q r s t u v w x y z ć č đ ś š ź ž'  # noqa
 
     # Checking support with just the one script will no list the language
-    support = srp.has_support(srp_latin)
+    support = srp.supported(srp_latin)
     assert support == {}
-    support = srp.has_support(srp_cyrillic)
+    support = srp.supported(srp_cyrillic)
     assert support == {}
 
     # Checking with the combined chars this should now return both
     # orthographies
     srp = Language(Langs["srp"], "srp")
     combined = srp_cyrillic + " " + srp_latin
-    support = srp.has_support(combined)
+    support = srp.supported(combined)
     assert ("Cyrillic" in support) is True
     assert ("Latin" in support) is True
     assert ("srp" in support["Cyrillic"]) is True
@@ -160,7 +159,7 @@ def test_language_combined_orthographies():
     # Checking with --include-all-orthographies should return also a single
     # orthography
     srp = Language(Langs["srp"], "srp")
-    support = srp.has_support(srp_latin, checkAllOrthographies=True)
+    support = srp.supported(srp_latin, checkAllOrthographies=True)
     assert ("Latin" in support) is True
 
 
@@ -200,7 +199,7 @@ def test_get_orthography():
 
 
 def test_get_orthography_chars():
-    Langs = Languages(prune=False)
+    Langs = Languages()
 
     deu = Language(Langs["deu"], "deu")
     orth = deu["orthographies"][0]
@@ -215,3 +214,28 @@ def test_get_orthography_chars():
     assert '̈' not in deu_base_default
     assert "Ä" not in deu_base_decomposed
     assert '̈' in deu_base_decomposed
+
+
+def test_language_get_required_marks():
+    Langs = Languages()
+
+    deu = Language(Langs["deu"], "deu")
+    orth = deu["orthographies"][0]
+    """
+    autonym: Deutsch
+    auxiliary: À É ẞ à é
+    base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Ö Ü a b c d e f g h i j k l m n o p q r s t u v w x y z ß ä ö ü
+    marks: ◌̈ ◌̀ ◌́
+    note: Includes capital Eszett as an auxiliary character for capitalization of ß.
+    script: Latin
+    status: primary
+    """
+    # Neither base nor aux has marks which cannot be derived form precomposed
+    # chars, so there should not be any required marks
+    assert deu.get_required_marks(orth, "base") == []
+    assert deu.get_required_marks(orth, "aux") == []
+    # Base only requires diesresis comb
+    assert deu.get_all_marks(orth, "base") == ['̈']
+    # Aux requires acute and grave comb, and also the base dieresis comb
+    assert deu.get_all_marks(orth, "aux") == ['̈', '̀', '́']
+

@@ -1,7 +1,8 @@
-import unicodedata2
+import unicodedata2 as uni
 import logging
 import re
 from fontTools.ttLib import TTFont
+from . import MARK_BASE
 
 log = logging.getLogger(__name__)
 log.setLevel(logging.INFO)
@@ -44,7 +45,7 @@ def character_list_from_string(string, normalize=True):
 
         # N_ormal F_orm C_omposed
         # See more https://docs.python.org/3/library/unicodedata.html#unicodedata.normalize # noqa
-        string = unicodedata2.normalize("NFC", string)
+        string = uni.normalize("NFC", string)
 
     li = list(string)
     li = list_unique([c for c in li if c.strip() != ""])
@@ -60,7 +61,7 @@ def sort_key_character_category(c):
     order = ["Lu", "Lt", "Ll", "LC", "L", "Lo", "Mn", "Me", "M", "Mc"]
 
     # Get the first letter of the category
-    cat = unicodedata2.category(c)[:2]
+    cat = uni.category(c)[:2]
 
     # Get the index of that letter in the order, or higher if not found
     order = order.index(cat) if cat in order else len(order)
@@ -102,7 +103,7 @@ def parse_chars(characters, decompose=True, retainDecomposed=False):
 
             # decomposition is either "" or a space separated string of
             # zero-filled unicode hex values like "0075 0308"
-            decomposition = unicodedata2.decomposition(c)
+            decomposition = uni.decomposition(c)
 
             # This glyph should be part of the list if either it cannot be
             # decomposed or if we want to keep also decomposable ones (e.g.
@@ -142,37 +143,6 @@ def parse_chars(characters, decompose=True, retainDecomposed=False):
                         if not re.match(r"\s", u) and len(u) != 0])
 
 
-def prune_superflous_marks(string):
-    """
-    From a given string return a set of unique characters with all those
-    standalone Mark charaters removed that are already implicitly present in
-    a decomposable character
-
-    @param string str
-    @return set pruned, set removed
-    """
-    unique_strings = character_list_from_string(string)
-    removed = []
-
-    for c in unique_strings:
-        # No need to bother about glyph clusters with more than one character,
-        # since that inherently will not be a mistakenly listed mark
-        if len(c) > 1:
-            continue
-        if unicodedata2.category(c).startswith("M"):
-            for s in unique_strings:
-                if s != c and c in parse_chars(s):
-                    removed.append(c)
-
-    if removed == []:
-        return unique_strings, ()
-
-    pruned = list_unique([c for c in unique_strings if c not in removed])
-    removed = list_unique(removed)
-
-    return pruned, removed
-
-
 def parse_font_chars(path):
     """
     Open the provided font path and extract the codepoints encoded in the font
@@ -186,9 +156,22 @@ def parse_font_chars(path):
     return [chr(c) for c in cmap.keys()]
 
 
-def parse_marks(input):
+def parse_marks(input, decompose=True):
     """
-    From a space separated string
+    Get the marks from a space separated string or list. This will also remove
+    any occurance of ◌ used for placing the marks in a string.
+
+    Note that input can be a string/list of marks to "clean up" or a
+    string/list of characters from which to decompose marks.
+
+    @return list of marks
     """
-    chars = parse_chars(input)
-    return [c for c in chars if unicodedata2.category(c).startswith("M")]
+    if not input:
+        return []
+
+    if type(input) is list or type(input) is set:
+        input = " ".join(input)
+
+    input = re.sub(MARK_BASE, "", input)
+    chars = parse_chars(input, decompose=decompose)
+    return [c.strip() for c in chars if uni.category(c).startswith("M")]

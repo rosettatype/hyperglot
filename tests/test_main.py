@@ -126,7 +126,7 @@ def test_main_cli_output(yaml_output):
 
 
 def test_main_cli_output_union(yaml_output):
-    res = runner.invoke(cli, "%s %s -o %s -m union" %
+    res = runner.invoke(cli, "%s %s -o %s -c union" %
                         (eczar, plex_arabic, yaml_output))
 
     # CLI without errors
@@ -149,7 +149,7 @@ def test_main_cli_output_union(yaml_output):
 
 
 def test_main_cli_output_intersection(yaml_output):
-    res = runner.invoke(cli, "%s %s -o %s -m intersection" %
+    res = runner.invoke(cli, "%s %s -o %s -c intersection" %
                         (eczar, plex_arabic, yaml_output))
 
     # CLI without errors

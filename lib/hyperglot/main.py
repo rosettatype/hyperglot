@@ -3,15 +3,14 @@ import os
 import re
 import yaml
 import logging
-import unicodedata2 as uni
 from collections import OrderedDict
 from fontTools.ttLib import TTFont
-from . import __version__, DB, SUPPORTLEVELS, VALIDITYLEVELS
+from . import (__version__, DB, SUPPORTLEVELS, VALIDITYLEVELS,
+               CHARACTER_ATTRIBUTES, MARK_BASE)
 from .languages import Languages
-from .language import Language
+from .language import Language, is_mark
 from .validate import validate
-from .parse import (prune_superflous_marks,
-                    parse_font_chars, parse_chars, parse_marks)
+from .parse import (list_unique, parse_font_chars, parse_marks)
 
 log = logging.getLogger(__name__)
 log.setLevel(logging.WARNING)
@@ -217,9 +216,13 @@ MODES = ["individual", "union", "intersection"]
               " also test for presence of all auxilliary characters, if "
               "present in the database.")
 @click.option("-d", "--decomposed", is_flag=True, default=False,
-              help="When set composable characters are not required as "
-              "precomposed characters, but a font is valid if it has the "
-              "required base and mark characters.")
+              help="When this option is set composable characters are not "
+              "required as precomposed characters, but a font is valid if it "
+              "has the required base and mark characters.")
+@click.option("-m", "--marks", is_flag=True, default=False,
+              help="When this option is set all combining marks for a "
+              "language are required, not just precomposed encoded "
+              "characters.")
 @click.option("--validity", type=click.Choice(VALIDITYLEVELS,
                                               case_sensitive=False),
               default=VALIDITYLEVELS[1], show_default=True,
@@ -234,7 +237,8 @@ MODES = ["individual", "union", "intersection"]
 @click.option("-o", "--output", type=click.File(mode="w", encoding="utf-8"),
               help="Provide a name for a yaml file to write support "
               "information to.")
-@click.option("-m", "--mode", type=click.Choice(MODES, case_sensitive=False),
+@click.option("-c", "--comparison",
+              type=click.Choice(MODES, case_sensitive=False),
               default=MODES[0], show_default=True,
               help="When passing in more than one file, a comparison can be "
               "generated. By default each file's support is listed "
@@ -255,8 +259,9 @@ MODES = ["individual", "union", "intersection"]
               "macrolanguage structure that deviates from ISO data.")
 @click.option("-v", "--verbose", is_flag=True, default=False)
 @click.option("-V", "--version", is_flag=True, default=False)
-def cli(fonts, support, decomposed, validity, autonyms, users, output, mode,
-        include_all_orthographies, include_historical, include_constructed,
+def cli(fonts, support, decomposed, marks, validity, autonyms, users, output,
+        comparison, include_all_orthographies,
+        include_historical, include_constructed,
         strict_iso, verbose, version):
     """
     Pass in one or more fonts to check their languages support
@@ -266,7 +271,10 @@ def cli(fonts, support, decomposed, validity, autonyms, users, output, mode,
         import sys
         sys.exit("Hyperglot version: %s" % __version__)
 
-    log.setLevel(logging.DEBUG if verbose else logging.WARNING)
+    loglevel = logging.DEBUG if verbose else logging.WARNING
+    log.setLevel(loglevel)
+    logging.getLogger("hyperglot.languages").setLevel(loglevel)
+    logging.getLogger("hyperglot.language").setLevel(loglevel)
     if fonts == ():
         print("Provide at least one path to a font or --help for more "
               "information")
@@ -277,15 +285,17 @@ def cli(fonts, support, decomposed, validity, autonyms, users, output, mode,
     for font in fonts:
         chars = parse_font_chars(font)
 
-        Lang = Languages(strict=strict_iso, prune=False)
-        langs = Lang.get_support_from_chars(
-            chars, support, validity, decomposed, include_all_orthographies,
-            include_historical, include_constructed)
+        langs = Languages(strict=strict_iso)
+        supported = langs.supported(chars, support, validity,
+                                    decomposed, marks,
+                                    include_all_orthographies,
+                                    include_historical,
+                                    include_constructed)
         level = SUPPORTLEVELS[support]
-        results[font] = langs
+        results[font] = supported
 
     # Mode for comparison of several files
-    if mode == "individual":
+    if comparison == "individual":
         for font in fonts:
             title = "%s has %s support for:" % (os.path.basename(font),
                                                 level.lower())
@@ -293,7 +303,7 @@ def cli(fonts, support, decomposed, validity, autonyms, users, output, mode,
             print_to_cli(results[font], title, autonyms, users, strict_iso)
 
         data = results
-    elif mode == "union":
+    elif comparison == "union":
         union = union_results(*results.values())
 
         title = "Fonts %s combined have %s support for:" % \
@@ -305,7 +315,7 @@ def cli(fonts, support, decomposed, validity, autonyms, users, output, mode,
         # writing the data
         data = {"union": union}
 
-    elif mode == "intersection":
+    elif comparison == "intersection":
         intersection = intersect_results(*results.values())
 
         title = "Fonts %s all have common %s support for:" % \
@@ -329,66 +339,58 @@ def save_sorted(Langs=None, run_validation=True):
     """
     log.setLevel(logging.WARNING)
     if Langs is None and run_validation is True:
-        Langs = Languages(inherit=False, prune=False)
+        Langs = Languages(inherit=False)
         print("Running pre-save validation, please fix any issues flagged.")
         validate()
 
     # Save with removed superflous marks
     for iso, lang in Langs.items():
         if "orthographies" in lang:
+
+            whitespace = re.compile(r"\s+")
+
             for i, o in enumerate(lang["orthographies"]):
-                for type in ["base", "auxiliary", "numerals"]:
-                    if type in o:
-                        chars = o[type]
-                        pruned, removed = prune_superflous_marks(
-                            " ".join(o[type]))
-
-                        if len(removed) > 0:
-
-                            log.info("Saving '%s' with '%s' pruned of "
-                                     "superfluous marks (implicitly "
-                                     "included in combining glyphs): "
-                                     "%s"
-                                     % (iso, type, "','".join(removed))
-                                     )
-
-                        chars = pruned
-
-                        # Do not include anything (after decomposition)
-                        # that is already listed in base
-                        if "base" in o and type != "base":
-                            chars = [
-                                c for c in chars if c not in o["base"]]
-
-                        joined = " ".join(chars)
-
-                        Langs[iso]["orthographies"][i][type] = joined
 
                 # Automate extracting and writing marks (in addition to any
-                # that might have been defined manually). Note that we only
-                # extract marks from 'base' since 'marks' are part of the
-                # base level checking. Marks in 'auxiliary' will simply be
-                # saved (if necessary) in 'auxiliary'.
+                # that might have been defined manually)
                 marks = []
                 if "marks" in o:
-                    marks = parse_chars(o["marks"],
-                                        decompose=True,
-                                        retainDecomposed=False)
-                if "base" in o:
-                    marks = set(marks + parse_marks(o["base"]))
-                if len(marks) > 0:
-                    # Note: Let's store marks with two spaces between to
-                    # make them more legible; when parsing the attribute
-                    # back in all whitespaces are removed
-                    o["marks"] = "  ".join(sorted(marks))
-                    if "base" in o:
-                        base, removed = prune_superflous_marks(
-                            " ".join(o["base"]))
+                    marks = parse_marks(o["marks"])
 
-                        # Save base without marks
-                        _base = [c for c in base
-                                 if not uni.category(c).startswith("M")]
-                        o["base"] = " ".join(_base)
+                # "Derive" all marks possible
+                for attr in CHARACTER_ATTRIBUTES:
+                    if attr in o:
+                        marks = marks + parse_marks(o[attr])
+
+                # Prune marks from character lists, delete empty
+                for attr in CHARACTER_ATTRIBUTES:
+                    if attr in o:
+                        before = str(o[attr])
+                        chars = [c.strip() for c in whitespace.split(o[attr])
+                                 if not is_mark(c) and c != MARK_BASE]
+                        if not chars:
+                            log.warning("Removing attribute '%s' of '%s' - no "
+                                        "characters left after normalization. "
+                                        "Value was: '%s'" %
+                                        (attr, iso, o[attr]))
+                            del(o[attr])
+                            continue
+
+                        o[attr] = " ".join(chars)
+                        if len(before) != len(o[attr]):
+                            log.warning("Saving orthography attribute '%s' of "
+                                        "'%s' changed its length. Whitespace "
+                                        "or marks have been removed. "
+                                        "\nBefore: '%s'\nAfter: '%s'" %
+                                        (attr, iso, before, o[attr]))
+
+                if len(marks) > 0:
+                    # Note: Let's store marks with a dotted circle and a
+                    # whitespace between them to make them more legible. When
+                    # parsing the attribute back in circles and all whitespaces
+                    # are removed
+                    decorated = [MARK_BASE + m for m in list_unique(marks)]
+                    o["marks"] = " ".join(decorated)
 
     # Sort by keys
     alphabetic = dict(OrderedDict(sorted(Langs.items())))

@@ -2,6 +2,7 @@
 Tests for basic parsing and decomposition methods
 """
 import os
+import pytest
 from hyperglot.parse import (parse_chars, parse_font_chars, parse_marks,
                              character_list_from_string,
                              sort_by_character_type,
@@ -57,6 +58,7 @@ def test_character_list_from_string():
     assert ["a", "b", "c"] == character_list_from_string("a  b  c")
     assert ["a", "b", "c"] == character_list_from_string("a a b a c")
     assert ["ä"] == character_list_from_string("ä")
+    assert ["g", "̃"] == character_list_from_string("g̃")
 
 
 def test_list_unique():
@@ -85,3 +87,9 @@ def test_sort_by_character_type():
 def test_parse_marks():
     assert parse_marks("ä ö å") == ['̈', '̊']
     assert parse_marks("A B C") == []
+    assert parse_marks("") == []
+    assert parse_marks(["ä", "ö", "å"]) == ['̈', '̊']
+    assert parse_marks(["A", "B"]) == []
+
+    assert ['̀', '̂', '̃', '̄', '̆', '̈', '̊', '̧'] == parse_marks("À Â Å Æ Ç È Ê Ë Ì Î Ï Ñ Ò Ô Ø Ù Û Ÿ Ā Ă Ē Ĕ Ī Ĭ Ō Ŏ Œ Ū Ŭ ß à â å æ ç è ê ë ì î ï ñ ò ô ø ù û ÿ ā ă ē ĕ ī ĭ ō ŏ œ ū ŭ")
+    assert ['́', '̃', '̈', '̌'] == parse_marks("A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á Ã Ä É Í Ó Õ Ö Ú Ü Č Š Ũ a b c d e f g h i j k l m n o p q r s t u v w x y z á ã ä é í ó õ ö ú ü č š ũ")

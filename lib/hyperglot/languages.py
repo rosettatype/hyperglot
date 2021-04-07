@@ -3,8 +3,6 @@ Helper classes to work with the rosetta.yaml data in more pythonic way
 """
 import yaml
 import logging
-import unicodedata2
-from .parse import parse_chars
 from .language import Language
 from . import DB, VALIDITYLEVELS, SUPPORTLEVELS
 
@@ -18,18 +16,11 @@ class Languages(dict):
     options for convenience
     """
 
-    def __init__(self, strict=False, inherit=True, prune=True,
-                 pruneRetainDecomposed=False,
-                 validity=VALIDITYLEVELS[1]):
+    def __init__(self, strict=False, inherit=True, validity=VALIDITYLEVELS[1]):
         """
         @param strict (Boolean): Use Rosetta macrolanguage definitions (False)
             or ISO definitions (True). Defaults to False.
         @param inherit (Boolean): Inherit orthographies. Defaults to True.
-        @param prune (Boolean): Make character lists unicode decomposed python
-            list (True) or keep as strings (False). Defaults to True.
-        @param pruneRetainDecomposed (Boolean): Keep any precomposed characters
-            when pruning. Defaults to False. This will return only base + marks
-            and drop precomposed chars from the language orthographies.
         @param validity (Hyperglot.VALIDITYLEVEL): Minimum level of validity
             which languages must have. One of "todo", "draft", "preliminary",
             "verified". Defaults to "draft" — all languages with basic
@@ -49,11 +40,6 @@ class Languages(dict):
             self.filter_by_validity(validity)
             self.set_defaults()
 
-            if prune:
-                # Transform all orthography character lists to pruned python
-                # sets; this will decompose and remove precomposed chars
-                self.prune_chars(pruneRetainDecomposed)
-
     def __repr__(self):
         return "Languages DB dict with '%d' languages" % len(self.keys())
 
@@ -68,29 +54,6 @@ class Languages(dict):
                     log.debug("Implicitly setting only orthography of '%s' to "
                               "'primary'." % iso)
                     lang["orthographies"][0]["status"] = "primary"
-
-    def prune_chars(self, retainDecomposed=False):
-        """
-        A helper to parse all orthographies' charsets in all languages. This
-        decomposes glyphs and prunes any glyphs that are redundant. Also
-        transforms the dict attributes from strings to lists.
-        """
-        for lang in self.values():
-            if "orthographies" in lang:
-                for o in lang["orthographies"]:
-                    for type in ["base", "auxiliary", "numerals",
-                                 "punctuation", "marks"]:
-                        if type in o:
-                            o[type] = parse_chars(o[type], True,
-                                                  retainDecomposed)
-                            if type == "base":
-                                o[type] = [c for c in o[type]
-                                           if not unicodedata2.category(c).startswith("M")]  # noqa
-                    # Remove any components in auxiliary after decomposition
-                    # that are already in base
-                    if "base" in o and "auxiliary" in o:
-                        o["auxiliary"] = [a for a in o["auxiliary"]
-                                          if a not in o["base"]]
 
     def lax_macrolanguages(self):
         """
@@ -146,6 +109,7 @@ class Languages(dict):
         """
         Return an orthography dict that has been extended by the source iso's
         orthography.
+
         @param source_iso str: The iso code of the language from which to
             inherit
         @param extend dict: The orthography dict of the language to which we
@@ -158,15 +122,17 @@ class Languages(dict):
         logging.debug("Inherit orthography from '%s' to '%s'" % (source_iso,
                                                                  iso))
 
-        ref = Language(self[source_iso], source_iso)
+        ref = Language(self[source_iso], source_iso, parse=False)
         if "script" in extend:
             ort = ref.get_orthography(extend["script"])
         else:
             ort = ref.get_orthography()
 
         if "inherit" in ort:
-            logging.debug("Multiple levels of inheritence from '%s'" %
-                          source_iso)
+            logging.info("Multiple levels of inheritence from '%s'. The "
+                         "language that inherited '%s' should inherit "
+                         "directly from '%s' " %
+                         (source_iso, source_iso, ort["inherit"]))
             ort = self.inherit_orthography(ort["inherit"], ort)
 
         if ort:
@@ -214,9 +180,9 @@ class Languages(dict):
                         log.debug("Inheriting macrolanguage '%s' "
                                   "orthographies to language '%s'"
                                   % (iso, lang))
-        # Make an explicit copy to keep the two languages
-        # separate
-        self[lang]["orthographies"] = m["orthographies"].copy()
+                        # Make an explicit copy to keep the two languages
+                        # separate
+                        self[lang]["orthographies"] = m["orthographies"].copy()
 
     def filter_by_validity(self, validity):
         if validity not in VALIDITYLEVELS:
@@ -232,14 +198,15 @@ class Languages(dict):
         self.clear()
         self.update(pruned)
 
-    def get_support_from_chars(self, chars,
-                               supportlevel=list(SUPPORTLEVELS.keys())[0],
-                               validity=VALIDITYLEVELS[1],
-                               decomposed=False,
-                               includeAllOrthographies=False,
-                               includeHistorical=False,
-                               includeConstructed=False,
-                               pruneOrthographies=True):
+    def supported(self, chars,
+                  supportlevel=list(SUPPORTLEVELS.keys())[0],
+                  validity=VALIDITYLEVELS[1],
+                  decomposed=False,
+                  marks=False,
+                  includeAllOrthographies=False,
+                  includeHistorical=False,
+                  includeConstructed=False,
+                  pruneOrthographies=True):
         """
         Get all languages supported based on the passed in characters.
 
@@ -253,7 +220,7 @@ class Languages(dict):
             (default) orthographies of a language.
         @param includeHistorical bool: Flag to include historical languages.
         @param includeConstructed bool: Flag to include constructed languages.
-        @param pruneOrthographies bool: Flat to remove non-supported
+        @param pruneOrthographies bool: Flag to remove non-supported
             orthographies from the returned language. This does not affect
             detection, but the returned dict. Default is true.
         @return dict: Returns a dict with script-keys and values of dicts of
@@ -294,10 +261,11 @@ class Languages(dict):
             # Do the support check on the Language level, and with the prune
             # flag the resulting Language object will have only those
             # orthographies that are supported with chars
-            lang_sup = l.has_support(chars, supportlevel,
-                                     decomposed=decomposed,
-                                     checkAllOrthographies=includeAllOrthographies,  # noqa
-                                     pruneOrthographies=pruneOrthographies)
+            lang_sup = l.supported(chars, supportlevel,
+                                   decomposed=decomposed,
+                                   marks=marks,
+                                   checkAllOrthographies=includeAllOrthographies,  # noqa
+                                   pruneOrthographies=pruneOrthographies)
 
             for script in lang_sup:
                 for script, isos in lang_sup.items():

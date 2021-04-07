@@ -1,5 +1,19 @@
 # A changelog for the lib/hyperglot CLI tool
 
+## 0.3.0 (WIP)
+- DATA: Changed the way `marks` and decomposition are handled in the data entry and saving
+- DATA: `base` and `auxiliary` may now contain unencoded base + mark character combinations without those getting decomposed on saving
+- DATA: Marks are now always placed on `◌` in the data for easier readability
+- CLI: Default checking (without `-m`) no longer requires implicit combining marks, meaning those which are retrieved from decomposing the characters - the default check will still require those marks, which are explicitly listed in `marks` and are not the result of decomposing the characters
+- CLI: Introduced `-m/--marks` as a flag to require all marks for a support level check
+- CLI: Changed `-m/--mode` to `-c/--comparison`
+- TWEAK: Removed `hyperglot.parse.prune_superflous_marks` as no longer needed
+- TWEAK: Introduced `hyperglot.parse.parse_marks`
+- TWEAK: Removed `prune` and `pruneRetainDecomposed` flags from `Languages()` and changed default call to `Languages()` to no longer prune or parse its dict contents
+- TWEAK: Only calls to `Language()` now parse the orthography data (with default `True` for argument `parse`)
+- TWEAK: Renamed methods `hyperglot.languages.get_support_from_chars` to `supported` and `hyperglot.languages.has_support` to `supported`
+- TWEAK: Added warnings and validation checks for multiple inheritance levels (e.g. A inherits from B inherits from C should instead be A inherits from C)
+
 ## 0.2.12 (06.04.2021)
 - Data: Updated Ter Sami orthography as inheriting from Kildin Sami
 - Data: Fixes to Kildin Sami

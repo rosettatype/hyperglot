@@ -4,21 +4,32 @@ $ hyperglot-validate
 Note that the python library itself is tested with pytest, whereas this is more
 of a check for the data file to be used when entering and saving data.
 """
-import logging
-import colorlog
-import yaml
 import os
 import re
+import yaml
+import logging
+import pprint
+import colorlog
 import unicodedata2
 from .languages import Languages
-from .parse import (parse_chars, prune_superflous_marks)
+from .parse import (parse_chars, parse_marks)
 from . import (STATUSES, VALIDITYLEVELS, ORTHOGRAPHY_STATUSES)
 
 handler = colorlog.StreamHandler()
 handler.setFormatter(colorlog.ColoredFormatter('%(log_color)s%(message)s'))
-log = colorlog.getLogger(__name__)
+log = colorlog.getLogger()
 log.setLevel(logging.WARNING)
 log.addHandler(handler)
+
+
+def nice_char_list(chars):
+    try:
+        chars = ["%s (U+%s)" % (c, f"{ord(c):0>4X}")
+                 for c in list(chars) if c.strip() != ""]
+        return ", ".join(chars)
+    except Exception as e:
+        log.error("Failed to get nice char list from '%s' (%s)" %
+                  (str(chars), str(e)))
 
 
 def check_yaml():
@@ -26,7 +37,7 @@ def check_yaml():
     try:
         log.debug("YAML file structure ok and can be read")
         # Use prune=False to validate the orthographies raw
-        return Languages(prune=False, validity=VALIDITYLEVELS[0])
+        return Languages(validity=VALIDITYLEVELS[0])
     except yaml.scanner.ScannerError as e:
         log.error("Malformed yaml:")
         print(e)
@@ -38,35 +49,44 @@ def check_yaml():
 def check_types(Langs):
     for iso, lang in Langs.items():
         if "includes" in lang:
-            if not check_is_valid_list(lang["includes"]):
+            if not check_is_yaml_list(lang["includes"]):
                 log.error("'%s' has invalid list 'includes'" % iso)
 
         if "source" in lang:
-            if not check_is_valid_list(lang["source"]):
+            if not check_is_yaml_list(lang["source"]):
                 log.error("'%s' has invalid list 'source'" % iso)
 
         if "orthographies" in lang:
-            if not check_is_valid_list(lang["orthographies"]):
+            if not check_is_yaml_list(lang["orthographies"]):
                 log.error("'%s' has invalid list 'orthographies'" % iso)
 
             for o in lang["orthographies"]:
                 if "base" in o:
-                    if iso == "arg":
-                        chars = list(o["base"].replace(" ", ""))
-                        for i, c in enumerate(chars):
-                            if unicodedata2.category(c).startswith("Z"):
-                                log.error("'%s' has invalid whitespace "
-                                          "characters '%s' at %d" %
-                                          (iso, unicodedata2.name(c), i))
-
                     if not check_is_valid_glyph_string(o["base"], iso):
-                        log.error("'%s' has invalid 'base' glyph list"
-                                  % iso)
+                        log.error("'%s' has invalid 'base' glyph list: '%s'"
+                                  % (iso, o["base"]))
 
                 if "auxiliary" in o:
                     if not check_is_valid_glyph_string(o["auxiliary"], iso):
                         log.error("'%s' has invalid 'auxiliary' glyph list"
                                   % iso)
+
+                # Temporary check to review mark refactor results
+                if "marks" in o and "inherit" not in o:
+                    marks_base = parse_marks(o["base"]) if "base" in o else []
+                    marks_aux = parse_marks(o["auxiliary"]) if "auxiliary" in o else []  # noqa
+                    marks = parse_marks(o["marks"])
+                    marks_decomposed = set(sorted(marks_base + marks_aux))
+                    diff = set(sorted(marks)).difference(marks_decomposed)
+                    if set(sorted(marks)) != marks_decomposed \
+                            and diff is not None:
+                        log.warning("'%s' (%s) has marks which are not "
+                                    "decomposed from base or auxiliary. Check "
+                                    "if the orthography is missing unencoded "
+                                    "base + mark combinations and that the "
+                                    "marks are indeed used in the orthography:"
+                                    "\n%s" %
+                                    (iso, lang["name"], nice_char_list(diff)))
 
                 allowed = ["autonym", "inherit", "script", "base", "marks",
                            "auxiliary", "numerals", "status", "note",
@@ -74,8 +94,8 @@ def check_types(Langs):
                            "preferred_as_group", "design_note"]
                 invalid = [k for k in o.keys() if k not in allowed]
                 if len(invalid):
-                    log.warn("'%s' has invalid orthography keys: '%s'" %
-                             (iso, "', '".join(invalid)))
+                    log.warning("'%s' has invalid orthography keys: '%s'" %
+                                (iso, "', '".join(invalid)))
 
                 if "status" not in o:
                     log.error("'%s' has an orthography (script '%s') that is "
@@ -105,7 +125,7 @@ def check_types(Langs):
             log.error("'%s' has an invalid 'status'" % iso)
 
         if "validity" not in lang:
-            log.warn("'%s' is missing 'validity'" % iso)
+            log.warning("'%s' is missing 'validity'" % iso)
 
         if "validity" in lang and lang["validity"] not in VALIDITYLEVELS:
             log.error("'%s' has invalid 'validity'" % iso)
@@ -117,7 +137,7 @@ def check_types(Langs):
                           (iso, lang["speakers"]))
 
 
-def check_is_valid_list(item):
+def check_is_yaml_list(item):
     """
     item should be a list and should not be empty
     """
@@ -142,14 +162,14 @@ def check_is_valid_glyph_string(glyphs, iso=None):
 
     if re.findall(r" {2,}", glyphs):
         log.error("More than single space in '%s'" % glyphs)
-        print([g for g in re.findall(r" {2,}", glyphs)])
+        log.error(pprint.pformat([g for g in re.findall(r" {2,}", glyphs)]))
         return False
 
-    pruned, removed = prune_superflous_marks(glyphs)
-    if len(removed) > 0:
-        log.error("Superflous marks that are implicitly extracted via "
-                  "decomposition: '%s'" % "','".join(removed))
-        return False
+    marks = parse_marks(glyphs, decompose=False)
+    if len(marks) > 0:
+        log.warning("'%s' contains marks in a character list. These will be "
+                    "saved as `mark` and removed from the character list:  %s"
+                    % (iso, "  ".join(marks)))
 
     for c in glyphs:
         if unicodedata2.category(c) == "Sk":
@@ -185,10 +205,11 @@ def check_names(Langs, iso_data):
                     continue
                 autonym_ok, chars, missing = check_autonym_spelling(o)
                 if not autonym_ok:
-                    log.warn("'%s' has invalid autonym '%s' which cannot "
-                             "be spelled with that orthography's charset "
-                             "(base + marks + auxiliary) '%s' - missing '%s'"
-                             % (iso, o["autonym"], "".join(chars),
+                    log.warning("'%s' has invalid autonym '%s' which cannot "
+                                "be spelled with that orthography's charset "
+                                "(base + marks + auxiliary) '%s' - "
+                                "missing '%s'" %
+                                (iso, o["autonym"], "".join(chars),
                                  "".join(missing)))
 
         if iso not in iso_data.keys():
@@ -317,6 +338,7 @@ def validate():
     print()
     log.debug("Loading iso-639-3.yaml for names and macro language checks")
     Langs = check_yaml()
+
     check_types(Langs)
     check_names(Langs, iso_data)
     check_macrolanguages(Langs, iso_data)
