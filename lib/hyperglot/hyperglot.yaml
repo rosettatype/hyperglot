@@ -4976,7 +4976,7 @@ knn:
   name: Konkani (individual language)
   orthographies:
   - autonym: महाराष्ट्रीय कोंकणी
-    inherit: gom
+    inherit: hin
     script: Devanagari
     status: primary
   preferred_name: Maharashtrian Konkani
@@ -9044,7 +9044,7 @@ ttt:
     script: Cyrillic
     status: primary
   - autonym: Tati
-    inherit: azb
+    inherit: azj
     note: Used in Azerbaijan.
     script: Latin
     status: primary
