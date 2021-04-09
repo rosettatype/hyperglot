@@ -3,7 +3,7 @@ Basic Language support checks
 """
 import pytest
 from hyperglot.languages import Languages
-from hyperglot.language import Language
+from hyperglot.language import Language, is_mark
 
 
 def test_language_supported():
@@ -239,3 +239,13 @@ def test_language_get_required_marks():
     # Aux requires acute and grave comb, and also the base dieresis comb
     assert deu.get_all_marks(orth, "aux") == ['̈', '̀', '́']
 
+
+def test_is_mark():
+    assert is_mark("Я̀") is False
+    assert is_mark("A") is False
+    assert is_mark("Ä") is False
+    assert is_mark("◌̆") is False
+    assert is_mark("◌") is False
+    assert is_mark("") is False
+    assert is_mark("ُ") is True
+    assert is_mark("̃") is True

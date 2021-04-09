@@ -168,9 +168,11 @@ def check_is_valid_glyph_string(glyphs, iso=None):
 
     marks = parse_marks(glyphs, decompose=False)
     if len(marks) > 0:
-        log.warning("'%s' contains marks in a character list. These will be "
-                    "saved as `mark` and removed from the character list:  %s"
-                    % (iso, "  ".join(marks)))
+        log.info("'%s' contains marks in a character list, possibly in the "
+                 "form of unencoded base + mark combination. These marks "
+                 "will be saved as `mark` and removed from the character "
+                 "list where found isolated: %s"
+                 % (iso, "  ".join(marks)))
 
     for c in glyphs:
         if unicodedata2.category(c) == "Sk":

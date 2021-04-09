@@ -7,7 +7,12 @@ log = logging.getLogger(__name__)
 
 
 def is_mark(c):
+    # Nothing is no mark
     if not c:
+        return False
+
+    # This might be a base + mark combination, but not a single mark
+    if type(c) is str and len(c) > 1:
         return False
 
     try:
@@ -65,9 +70,12 @@ class Language(dict):
                     # 'marks'
                     o[type] = parse_chars(
                         o[type], decompose=False, retainDecomposed=True)
-                    for c in o[type]:
-                        if is_mark(c):
-                            marks.append(c)
+
+                    decomposed = parse_marks(o[type])
+                    if marks:
+                        marks.extend(decomposed)
+
+                    # Prune those marks that are separately in a character list
                     o[type] = [c for c in o[type] if not is_mark(c)]
 
                 # No duplicate marks
