@@ -164,8 +164,11 @@ class Language(dict):
             marks = [m for m in marks + decom_base if m not in only_aux]
             return list_unique(marks)
 
-        if level == "aux" and "auxiliary" in ort:
-            return list_unique(marks + decom_base + decom_aux)
+        if level == "aux":
+            if "auxiliary" in ort:
+                return list_unique(marks + decom_base + decom_aux)
+            else:
+                return list_unique(marks + decom_base)
 
     def get_name(self, script=None, strict=False):
         if script is not None:
