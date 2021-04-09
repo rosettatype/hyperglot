@@ -179,11 +179,11 @@ def parse_font_chars(path):
     @return list of characters
     """
     font = TTFont(path, lazy=True)
-    cmap = font["cmap"]
+    cmap = font["cmap"].getBestCmap()
     font.close()
 
     # The cmap keys are int codepoints
-    return [chr(c) for c in cmap.getBestCmap().keys()]
+    return [chr(c) for c in cmap.keys()]
 
 
 def parse_marks(input):

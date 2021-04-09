@@ -2437,21 +2437,22 @@ dga:
   speakers_date: 2001-2003
   validity: preliminary
 dgl:
-  name: Andaandi, Dongolawi
+  name: Andaandi
   orthographies:
-  - base: ⲁ ⲃ ⲅ ⲇ ⲉ ⲍ ⲏ ⲓ ⲕ ⲗ ⲙ ⲛ ⲟ ⲡ ⲣ ⲥ ⲧ ⲩ ⲫ ⲱ ⳡ ⳣ ⳝ ⳟ ϣ ϥ ϩ ϭ
+  - base: ⲁ ⲃ ⲅ ⲇ ⲉ ⲍ ⲏ ⲓ ⲕ ⲗ ⲙ ⲛ ⲟ ⲡ ⲣ ⲥ ⲧ ⲩ ⲫ ⲭ ⲱ ⳡ ⳣ ⳝ ⳟ ϣ ϩ ϭ
     marks: ̄  ̈
-    script: Coptic
+    script: Coptic/Nubian
     status: historical
   - base: A B C D E F G H I J K L M N O P R S T U W Y Z a b c d e f g h i j k l m n o p r s t u w y z
     script: Latin
     status: primary
+  preferred_name: Andaandi, Dongolawi
   source:
   - Wikipedia
   speakers: 70000
   speakers_date: 2014
   status: living
-  validity: preliminary
+  validity: verified
 dgo:
   name: Dogri (individual language)
   orthographies:
@@ -3001,7 +3002,7 @@ fia:
   name: Nobiin
   orthographies:
   - inherit: dgl
-    script: Coptic
+    script: Coptic/Nubian
     status: historical
   - inherit: dgl
     script: Latin
@@ -3011,7 +3012,7 @@ fia:
   speakers: 669000
   speakers_date: 1996–2006
   status: living
-  validity: preliminary
+  validity: verified
 fij:
   name: Fijian
   orthographies:
@@ -3848,6 +3849,23 @@ hni:
   - Wikipedia
   speakers: 1800000
   speakers_date: 1995-2007
+  validity: preliminary
+hnn:
+  name: Hanunoo
+  orthographies:
+  - autonym: ᜱᜨᜳᜨᜳᜢ
+    base: ᜠ ᜡ ᜢ ᜣ ᜤ ᜥ ᜦ ᜧ ᜨ ᜩ ᜪ ᜫ ᜬ ᜭ ᜮ ᜯ ᜰ ᜱ
+    marks: ᜲ  ᜳ  ᜴
+    note: This orthography includes the pamudpod, as is used in modern Hanunó'o. The pamudpud began as an innovation of Antoon Postma in the 1970’s, one of the leading researchers of Philippine scripts.
+    punctuation: ᜵ ᜶
+    script: Hanunoo
+    status: primary
+  source:
+  - Ethnologue
+  - Wikipedia
+  - Unicode Consortium (Core Spec, Hanunoo block)
+  speakers: 13000
+  speakers_date: 2000
   validity: preliminary
 hns:
   name: Caribbean Hindustani
@@ -5687,8 +5705,9 @@ mah:
   name: Marshallese
   orthographies:
   - autonym: Kajin M̧ajeļ
-    base: A Ā B D E I J K L Ḷ M N Ņ O Ō P R T U Ū W a ā b d e i j k l ḷ m n ņ o ō p r t u ū w
-    marks: ̄  ̣  ̧
+    base: A Ā B D E I J K L Ļ M N Ņ O Ō P R T U Ū W a ā b d e i j k l ļ m n ņ o ō p r t u ū w
+    marks: ̄  ̦  ̧  ̨
+    note: Some spellings use a simplified variant Ḷ Ṃ Ṇ Ñ Ọ instead of the comman, cedilla, macron and ogonek combingin marks.
     script: Latin
     status: primary
   source:
@@ -6889,15 +6908,17 @@ oji:
 onw:
   name: Old Nubian
   orthographies:
-  - base: ⲁ ⲃ ⲅ ⲇ ⲉ ⲍ ⲏ ⲓ ⲕ ⲗ ⲙ ⲛ ⲟ ⲡ ⲣ ⲥ ⲧ ⲩ ⲫ ⲱ ⳡ ⳣ ⳝ ⳟ ϣ ϥ ϩ ⲑ ⲝ ⲭ ⲯ
+  - auxiliary: ◌ ̇
+    base: ⲁ ⲃ ⲅ ⲇ ⲉ ⲍ ⲏ ⲓ ⲕ ⲗ ⲙ ⲛ ⲟ ⲡ ⲣ ⲥ ⲧ ⲩ ⲫ ⲱ ⳡ ⳣ ⳝ ⳟ ϣ ϩ ⲑ ⲝ ⲭ ⲯ
     design_note: Nearly all Old Nubian texts have been written in a slanted uncial variant of the Coptic script.
     marks: ̄  ̈
-    script: Coptic
+    note: Some authors prefer to use dot mark above instead of macron.
+    script: Coptic/Nubian
     status: primary
   source:
   - Wikipedia
   status: extinct
-  validity: preliminary
+  validity: verified
 orc:
   name: Orma
   orthographies:
@@ -6946,17 +6967,14 @@ oss:
   validity: preliminary
 ota:
   name: Ottoman Turkish
+  note: Used ca. 15th century up until 1928
   orthographies:
-  - base: ʾ ʿ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Â Ç Î Ö Û Ü Ğ Ș Ṡ Ā Ē Ī Ō Ū Ṫ Ṭ Ż Ẓ a b c d e f g h i j k l m n o p q r s ṡ t ṫ ṭ u v w x y z ż ẓ̠ â ç î ö û ü ğ İ ı ș ā ē ī ō ū
-    marks: ̂  ̆  ̇  ̈  ̦  ̧  ̄  ̱
+  - base: ʾ ʿ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Â Ç Î Ö Û Ü Ğ Ș Ṡ Ā Ē Ī Ō Ū Ṫ Ṭ Ż Ẓ a b c d e f g h i j k l m n o p q r s ṡ t ṫ ṭ u v w x y z ż ẓ â ç î ö û ü ğ İ ı ș ā ē ī ō ū
+    marks: ̂  ̄  ̆  ̇  ̈  ̠  ̣  ̦  ̧  ̱
+    note: The International Journal of Middle East Studies (IJMES) transliteration chart used for this entry provides the most complete and (almost) reversible transliteration between the original Arabic and Latin alphabet representation.
     script: Latin
     status: transliteration
-    note: The International Journal of Middle East Studies (IJMES) transliteration chart used for this entry provides the most complete and (almost) reversible transliteration between the original Arabic and Latin alphabet representation.
-  - base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا ة
-    auxiliary: ڛ ڢ ٯ ڧ ک ی ڤ ڥ پ چ گ ڨ ڭ ڠ
-    design_note: Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
-    marks: َ  ُ  ِ  ْ  ٰ
-    numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩
+  - inherit: arb
     script: Arabic
     status: primary
   source:
@@ -7954,9 +7972,9 @@ sin:
 sjd:
   name: Kildin Sami
   orthographies:
-  - autonym: Кӣллт Са̄мь
-    auxiliary: Щ щ
-    base: А Ӓ Б В Г Д Е Ё Ж З Һ И Ӣ Й Ј Ҋ К Л Ӆ М Ӎ Н Ӊ Ӈ О П Р Ҏ С Т У Ӯ Ф Х Ц Ч Ш Ъ Ы Ь Ҍ Э Ӭ Ю Я а ӓ б в г д е ё ж з һ и ӣ й ј ҋ к л ӆ м ӎ н ӊ ӈ о п р ҏ с т у ӯ ф х ц ч ш ъ ы ь ҍ э ӭ ю я ’
+  - autonym: Кӣллт са̄мь кӣлл
+    auxiliary: Щ щ Ҋ ҋ Ӹ ӹ ʼ
+    base: А Ӓ Б В Г Д Е Ё Ж З Һ И Ӣ Й Ј К Л Ӆ М Ӎ Н Ӊ Ӈ О П Р Ҏ С Т У Ӯ Ф Х Ц Ч Ш Ъ Ы Ь Ҍ Э Ӭ Ю Я а ӓ б в г д е ё ж з һ и ӣ й ј к л ӆ м ӎ н ӊ ӈ о п р ҏ с т у ӯ ф х ц ч ш ъ ы ь ҍ э ӭ ю я
     marks: ̄  ̆  ̈
     script: Cyrillic
     status: primary
@@ -7971,7 +7989,7 @@ sje:
   name: Pite Sami
   orthographies:
   - autonym: Bidumsámegiella
-    base: A B D E F G H I J K L M N O P R S T U V Á Ä Å Đ Ŋ Ŧ a b d e f g h i j k l m n o p r s t u v á ä å đ ŋ ŧ ’ \ '
+    base: A B D E F G H I J K L M N O P R S T U V Á Ä Å Đ Ŋ Ŧ a b d e f g h i j k l m n o p r s t u v á ä å đ ŋ ŧ ʼ
     marks: ́  ̈  ̊
     script: Latin
     status: primary
@@ -7984,12 +8002,11 @@ sje:
   validity: preliminary
 sjt:
   name: Ter Sami
+  note: Ter Saami has been used as a written language only in very few texts. Currently, the number of active speakers of Ter Saami is likely lower than 10. Kildin and Ter Sami languages are grouped together as Kola Sami by some linguists.
   orthographies:
   - autonym: Са̄мькӣлл
-    base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ј Ҋ Ҍ Ҏ Һ Ӆ Ӈ Ӊ Ӎ Ӓ Ӭ Ӣ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ј ҋ ҍ ҏ һ ӆ ӈ ӊ ӎ ӓ ӭ ӣ ’
-    marks: ̄  ̆  ̈
-    script: Cyrillic
-    status: primary
+    inherit: sjd
+    status: secondary
   source:
   - Omniglot
   - Wikipedia
@@ -8157,8 +8174,9 @@ smo:
 sms:
   name: Skolt Sami
   orthographies:
-  - autonym: Nuõrttsääʹmǩiõll
-    base: A B C D E F G H I J K L M N O P Q R S T U V X Y Z Â Ä Å Ö Õ Č Đ Ŋ Š Ž Ǥ Ǧ Ǩ Ǯ Ʒ a b c d e f g h i j k l m n o p q r s t u v x y z â ä å ö õ č đ ŋ š ž ǥ ǧ ǩ ǯ ʒ ’ ʹ ˈ
+  - autonym: Nuõrttsääʼmǩiõll
+    auxiliary: Å Ö Ø å ö ø 
+    base: A B C D E F G H I J K L M N O P Q R S T U V X Y Z Â Ä Å Ö Õ Č Đ Ŋ Š Ž Ǥ Ǧ Ǩ Ǯ Ʒ a b c d e f g h i j k l m n o p q r s t u v x y z â ä å ö õ č đ ŋ š ž ǥ ǧ ǩ ǯ ʒ ʼ
     marks: ̂  ̃  ̈  ̊  ̌
     script: Latin
     status: primary
@@ -9739,20 +9757,21 @@ xnr:
   speakers_date: 1996
   validity: preliminary
 xnz:
-  name: Kenzi, Mattokki
+  name: Kenzi
   orthographies:
   - inherit: dgl
-    script: Coptic
+    script: Coptic/Nubian
     status: historical
   - inherit: dgl
     script: Latin
     status: primary
+  preferred_name: Kenzi, Mattokki
   source:
   - Wikipedia
   speakers: 50000
   speakers_date: 2014
   status: living
-  validity: preliminary
+  validity: verified
 xog:
   name: Soga
   orthographies:

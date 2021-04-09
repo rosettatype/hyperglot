@@ -1,5 +1,16 @@
 # A changelog for the lib/hyperglot CLI tool
 
+## 0.2.12 (06.04.2021)
+- Data: Updated Ter Sami orthography as inheriting from Kildin Sami
+- Data: Fixes to Kildin Sami
+- Data: Some fixes to Marshallese
+- Data: Added Ottoman Turkish and a transliteration orthography for it
+- Data: Added Hanunoo
+- Data: Replaced Single right comma (and other variants) with Modifier letter apostrophe for some Sami languages
+- Data: 
+- FIX: Fixed issue that caused to parse some fonts (#24)
+- TWEAK: Allow inheriting an orthography without explicitly having a script present in the orthography, this will inherit the primary script orthography of the parent
+
 ## 0.2.11 (29.03.2021)
 - DATA: Updated language data for Nubian languages and Japanese
 - DATA: Introduced `transliteration` orthography status (started in 0.2.10)
