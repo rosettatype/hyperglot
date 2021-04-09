@@ -1019,14 +1019,14 @@ azj:
   name: North Azerbaijani
   orthographies:
   - autonym: Азәрбајҹан
-    base: А Б В Г Д Е Ж З И К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ј Ғ Ҝ Ү Ҹ Һ Ә Ө а б в г д е ж з и к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ј ғ ҝ ү ҹ һ ә ө ʼ
     auxiliary: Й й
+    base: А Б В Г Д Е Ж З И К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ј Ғ Ҝ Ү Ҹ Һ Ә Ө а б в г д е ж з и к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ј ғ ҝ ү ҹ һ ә ө ʼ
     marks: ◌̆
     note: Official in Dagestan (Russia).
     script: Cyrillic
     status: primary
-  - base: A B C D E F G H I J K L M N O P Q R S T U V X Y Z Ç Ö Ü Ğ Ş Ə a b c d e f g h i j k l m n o p q r s t u v x y z ç ö ü ğ İ ı ş ə ʼ
-    auxiliary: Ä ä
+  - auxiliary: Ä ä
+    base: A B C D E F G H I J K L M N O P Q R S T U V X Y Z Ç Ö Ü Ğ Ş Ə a b c d e f g h i j k l m n o p q r s t u v x y z ç ö ü ğ İ ı ş ə ʼ
     marks: ◌̆ ◌̇ ◌̈ ◌̧
     script: Latin
     status: primary
@@ -1186,8 +1186,8 @@ bel:
   name: Belarusian
   orthographies:
   - autonym: Беларуская
-    base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё І Ў а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё і ў ’ 
     auxiliary: Ґ ґ
+    base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё І Ў а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё і ў ’
     design_note: The Cyrillic breve accent uses a different form from the one used in the Latin script even though Unicode treats them as the same character.
     marks: ◌̆ ◌̈
     script: Cyrillic
@@ -1405,12 +1405,12 @@ bos:
   orthographies:
   - autonym: Босански
     base: А Б В Г Д Е Ж З И К Л М Н О П Р С Т У Ф Х Ц Ч Ш Ђ Ј Љ Њ Ћ Џ а б в г д е ж з и к л м н о п р с т у ф х ц ч ш ђ ј љ њ ћ џ
+    design_note: Correct positioning of acute accents above some characters may be required. The Cyrillic breve accent uses a different form from the one used in the Latin script even though Unicode treats them as the same character. In italic styles, some characters may use a different form from the Cyrillic used as examples by Unicode.
     script: Cyrillic
     status: secondary
-    design_note: Correct positioning of acute accents above some characters may be required. The Cyrillic breve accent uses a different form from the one used in the Latin script even though Unicode treats them as the same character. In italic styles, some characters may use a different form from the Cyrillic used as examples by Unicode.
   - autonym: Bosanski
-    base: A B C D E F G H I J K L M N O P R S T U V Z Ć Č Đ Š Ž a b c d e f g h i j k l m n o p r s t u v z ć č đ š ž
     auxiliary: Ǆ ǅ ǆ Ǉ ǈ ǉ Ǌ ǋ ǌ
+    base: A B C D E F G H I J K L M N O P R S T U V Z Ć Č Đ Š Ž a b c d e f g h i j k l m n o p r s t u v z ć č đ š ž
     design_note: Digraphs ‹dž›, ‹lj›, and ‹nj› in their uppercase, titlecase, and lowercase forms have dedicated Unicode codepoints in the auxiliary set. However, these were included chiefly for backwards compatibility with legacy encodings which kept a one-to-one correspondence with Cyrillic.
     marks: ◌́ ◌̌
     script: Latin
@@ -1517,10 +1517,11 @@ bul:
   name: Bulgarian
   orthographies:
   - autonym: Български
-    base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ь Ю Я Ѐ Ѝ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ь ю я ѐ ѝ
     auxiliary: А̀ О̀ У̀ Ъ̀ Ю̀ Я̀ а̀ о̀ у̀ ъ̀ ю̀ я̀
-    design_note: |
-      Bulgarian preferred forms tend to differ from the Cyrillic used as examples by Unicode. Correct positioning of a grave accent above some characters may be required. The Cyrillic breve accent uses a different form from the one used in the Latin script even though Unicode treats them as the same character.
+    base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ь Ю Я Ѐ Ѝ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ь ю я ѐ ѝ
+    design_note: 'Bulgarian preferred forms tend to differ from the Cyrillic used as examples by Unicode. Correct positioning of a grave accent above some characters may be required. The Cyrillic breve accent uses a different form from the one used in the Latin script even though Unicode treats them as the same character.
+
+      '
     marks: ◌̀ ◌́ ◌̆
     script: Cyrillic
     status: primary
@@ -4309,7 +4310,7 @@ jdt:
     script: Cyrillic
     status: primary
   - autonym: ז׳אוּהאוּראִ
-    base: א ב ג ד ה ו ז ח י כ ל מ נ ס ע פ צ ק ר ש ת ׳  וּ  אִ אַ אָ בּ כּ פּ
+    base: א ב ג ד ה ו ז ח י כ ל מ נ ס ע פ צ ק ר ש ת ׳ וּ אִ אַ אָ בּ כּ פּ
     marks: ◌ִ ◌ַ ◌ָ ◌ּ
     note: Regaining popularity.
     script: Hebrew
@@ -6024,7 +6025,7 @@ mkd:
   - autonym: Македонски
     base: А Б В Г Д Е Ж З И К Л М Н О П Р С Т У Ф Х Ц Ч Ш Ѓ Ѕ Ј Љ Њ Ќ Џ а б в г д е ж з и к л м н о п р с т у ф х ц ч ш ѓ ѕ ј љ њ ќ џ Ѐ Ѝ ѐ ѝ
     design_note: Correct positioning of acute and grave accents above some characters may be required. The Cyrillic breve accent uses a different form from the one used in the Latin script even though Unicode treats them as the same character. In italic styles, some characters may use a different form from the Cyrillic used as examples by Unicode.
-    marks: ◌́
+    marks: ◌́ ◌̀
     script: Cyrillic
     status: primary
   source:
@@ -7658,10 +7659,10 @@ rus:
   name: Russian
   orthographies:
   - autonym: Русский
-    base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё  а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё 
     auxiliary: А́ Е́ И́ О́ У́ Ы́ Э́ ю́ я́ а́ е́ и́ о́ у́ ы́ э́ ю́ я́
+    base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё
     design_note: Correct positioning of an acute accent (used to mark stress) above some characters may be required. The Cyrillic breve accent uses a different form from the one used in the Latin script even though Unicode treats them as the same character.
-    marks: ◌̆ ◌̈
+    marks: ◌̆ ◌̈ ◌́
     script: Cyrillic
     status: primary
   source:
@@ -8380,19 +8381,18 @@ srp:
   - autonym: Српски
     base: А Б В Г Д Е Ж З И К Л М Н О П Р С Т У Ф Х Ц Ч Ш Ђ Ј Љ Њ Ћ Џ З́ С́ а б в г д е ж з и к л м н о п р с т у ф х ц ч ш ђ ј љ њ ћ џ з́ с́
     design_note: Correct positioning of an acute accent above some characters may be required. The Cyrillic breve accent uses a different form from the one used in the Latin script even though Unicode treats them as the same character. In italic styles, some characters may use a different form from the Cyrillic used as examples by Unicode.
-    auxiliary: 
     marks: ◌́
     preferred_as_group: true
     script: Cyrillic
     status: primary
   - autonym: Srpski
-    base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ć Č Đ Ś Š Ź Ž a b c d e f g h i j k l m n o p q r s t u v w x y z ć č đ ś š ź ž
     auxiliary: Ǆ ǅ ǆ Ǉ ǈ ǉ Ǌ ǋ ǌ
+    base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ć Č Đ Ś Š Ź Ž a b c d e f g h i j k l m n o p q r s t u v w x y z ć č đ ś š ź ž
+    design_note: Digraphs ‹dž›, ‹lj›, and ‹nj› in their uppercase, titlecase, and lowercase forms have dedicated Unicode codepoints in the auxiliary set. However, these were included chiefly for backwards compatibility with legacy encodings which kept a one-to-one correspondence with Cyrillic.
     marks: ◌́ ◌̌
     preferred_as_group: true
     script: Latin
     status: primary
-    design_note: Digraphs ‹dž›, ‹lj›, and ‹nj› in their uppercase, titlecase, and lowercase forms have dedicated Unicode codepoints in the auxiliary set. However, these were included chiefly for backwards compatibility with legacy encodings which kept a one-to-one correspondence with Cyrillic.
   source:
   - Omniglot
   - Wikipedia
@@ -9269,10 +9269,10 @@ ukr:
   name: Ukrainian
   orthographies:
   - autonym: Українська
-    base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ь Э Ю Я Є І Ї Ґ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ь э ю я є і ї ґ ’
     auxiliary: А́ Е́ И́ О́ У́ Ы́ Э́ ю́ я́ а́ е́ и́ о́ у́ ы́ э́ ю́ я́
+    base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ь Э Ю Я Є І Ї Ґ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ь э ю я є і ї ґ ’
     design_note: The Cyrillic breve accent uses a different form from the one used in the Latin script even though Unicode treats them as the same character.
-    marks: ◌̆ ◌̈
+    marks: ◌̆ ◌̈ ◌́
     script: Cyrillic
     status: primary
   source:
