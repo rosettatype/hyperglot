@@ -6986,8 +6986,8 @@ ota:
   name: Ottoman Turkish
   note: Used ca. 15th century up until 1928
   orthographies:
-  - base: ʾ ʿ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Â Ç Î Ö Û Ü Ğ Ș Ṡ Ā Ē Ī Ō Ū Ṫ Ṭ Ż Ẓ a b c d e f g h i j k l m n o p q r s ṡ t ṫ ṭ u v w x y z ż ẓ â ç î ö û ü ğ İ ı ș ā ē ī ō ū
-    marks: ◌̂ ◌̄ ◌̆ ◌̇ ◌̈ ◌̠ ◌̣ ◌̦ ◌̧ ◌̱
+  - base: ʾ ʿ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Â Ç Î Ö Û Ü Ğ Ș Ṡ Ā Ē Ī Ō Ū Ṫ Ṭ Ż Ẓ a b c d e f g h i j k l m n o p q r s ṣ ṡ t ṫ ṭ u v w x y z ż ẓ â ç î ö û ü ğ İ ı ș ā ē ī ō ū S̱ s̱ Ẕ ẕ
+    marks: ◌̂ ◌̄ ◌̆ ◌̇ ◌̈ ◌̣ ◌̦ ◌̧ ◌̱
     note: The International Journal of Middle East Studies (IJMES) transliteration chart used for this entry provides the most complete and (almost) reversible transliteration between the original Arabic and Latin alphabet representation.
     script: Latin
     status: transliteration
