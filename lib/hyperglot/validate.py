@@ -72,7 +72,8 @@ def check_types(Langs):
                                   % iso)
 
                 # Temporary check to review mark refactor results
-                if "marks" in o and "inherit" not in o:
+                if "marks" in o and "inherit" not in o and \
+                        o["script"] in ("Latin", "Cyrillic", "Greek"):
                     marks_base = parse_marks(o["base"]) if "base" in o else []
                     marks_aux = parse_marks(o["auxiliary"]) if "auxiliary" in o else []  # noqa
                     marks = parse_marks(o["marks"])
