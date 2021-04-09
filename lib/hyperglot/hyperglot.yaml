@@ -51,7 +51,7 @@ aat:
     status: primary
   - autonym: Αρbε̰ρίσ̈τ
     auxiliary: Η Ψ Ω Ά Έ Ή Ί Ό Ύ Ώ Ϊ Ϋ η ψ ω ά έ ή ί ό ύ ώ ϊ ϋ ΐ ΰ
-    base: Α Β B Ϳ Γ Δ D Ε Ζ Θ Ι Κ Λ Μ Ν Ξ Ο Π Ρ Σ Τ Υ Φ Χ α β b ϳ γ δ d ε ζ θ ι κ λ μ ν ξ ο π ρ σ ς τ υ φ χ
+    base: Α Β B Ϳ Γ Δ D Ε Ζ Θ Ι Κ Λ Μ Ν Ξ Ο Π Ρ Σ Τ Υ Φ Χ α β b ϳ γ δ d ε ζ θ ι κ λ μ ν ξ ο π ρ σ ς τ υ φ χ γ̇ ε̱ ν̇ σ̇ σ̈ χ̇ ε̰
     marks: ◌̇ ◌̈ ◌̰ ◌̱ ◌́
     note: Used in Greece.
     script: Greek
@@ -59,10 +59,11 @@ aat:
   source:
   - Omniglot
   - Wikipedia
+  - https://web.archive.org/web/20070101084222/http://www.arvasynel.gr/images/grammar_a.gif
   speakers: 50000
   speakers_date: 2007
   status: living
-  validity: verified
+  validity: draft
 abe:
   name: Western Abnaki
   orthographies:
@@ -718,7 +719,7 @@ arq:
   name: Algerian Arabic
   orthographies:
   - autonym: دارجة جزائرية
-    inherit: aeb
+    inherit: arb
     script: Arabic
     status: primary
   source:
@@ -1004,8 +1005,7 @@ azb:
     note: Used in Iran.
     script: Arabic
     status: primary
-  - base: A B C D E F G H I J K L M N O P Q R S T U V X Y Z Ç Ö Ü Ğ Ş Ə a b c d e f g h i j k l m n o p q r s t u v x y z ç ö ü ğ İ ı ş ə
-    marks: ◌̆ ◌̇ ◌̈ ◌̧
+  - inherit: azj
     note: Used outside Iran.
     script: Latin
     status: primary
@@ -1019,18 +1019,21 @@ azj:
   name: North Azerbaijani
   orthographies:
   - autonym: Азәрбајҹан
-    base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ј Ғ Ҝ Ү Ҹ Һ Ә Ө а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ј ғ ҝ ү ҹ һ ә ө ’
+    base: А Б В Г Д Е Ж З И К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ј Ғ Ҝ Ү Ҹ Һ Ә Ө а б в г д е ж з и к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ј ғ ҝ ү ҹ һ ә ө ʼ
+    auxiliary: Й й
     marks: ◌̆
     note: Official in Dagestan (Russia).
     script: Cyrillic
     status: primary
-  - base: A B C D E F G H I J K L M N O P Q R S T U V X Y Z Ç Ö Ü Ğ Ş Ə a b c d e f g h i j k l m n o p q r s t u v x y z ç ö ü ğ İ ı ş ə ‘
+  - base: A B C D E F G H I J K L M N O P Q R S T U V X Y Z Ç Ö Ü Ğ Ş Ə a b c d e f g h i j k l m n o p q r s t u v x y z ç ö ü ğ İ ı ş ə ʼ
+    auxiliary: Ä ä
     marks: ◌̆ ◌̇ ◌̈ ◌̧
     script: Latin
     status: primary
   source:
   - Omniglot
   - Wikipedia
+  - https://www.evertype.com/alphabets/azerbaijani.pdf
   speakers: 23000000
   speakers_date: 2018
   status: living
@@ -3576,13 +3579,14 @@ gug:
   name: Paraguayan Guaraní
   orthographies:
   - autonym: Avañe'ẽ
-    base: A Ã C E Ẽ G H I Ĩ J K L M N Ñ O Õ P R S T U Ũ V Y Ỹ a ã c e ẽ g h i ĩ j k l m n ñ o õ p r s t u ũ v y ỹ '
-    marks: ◌̃ ◌͂
+    base: A Ã C E Ẽ G G̃ H I Ĩ J K L M N Ñ O Õ P R S T U Ũ V Y Ỹ a ã c e ẽ g g̃ h i ĩ j k l m n ñ o õ p r s t u ũ v y ỹ ʼ
+    marks: ◌̃
     script: Latin
     status: primary
   source:
   - Omniglot
   - Wikipedia
+  - https://en.wikipedia.org/wiki/Guarani_alphabet
   speakers: 4850000
   speakers_date: 1995
   validity: preliminary
@@ -3792,7 +3796,7 @@ heb:
   orthographies:
   - autonym: עברית
     auxiliary: ״ ׳ ־ ׃ ׆
-    base: א ב ג ד ה ו ז ח ט י כ ך ל מ ם נ ן ס ע פ ף צ ץ ק ר ש ת
+    base: שׁ שׂ בּ תּ כּ ךּ פּ ףּ א ב ג ד ה ו ז ח ט י כ ך ל מ ם נ ן ס ע פ ף צ ץ ק ר ש ת
     marks: ◌ְ ◌ֱ ◌ֲ ◌ֳ ◌ִ ◌ֵ ◌ֶ ◌ַ ◌ָ ◌ֹ ◌ֻ ◌ּ ◌ׁ ◌ׂ
     script: Hebrew
     status: primary
@@ -6456,14 +6460,15 @@ nav:
   name: Navajo
   orthographies:
   - autonym: Diné Bizaad
-    base: A Ą B C D E Ę G H I Į J K L Ł M N O Ǫ S T W X Y Z a ą b c d e ę g h i į j k l ł m n o ǫ s t w x y z '
-    design_note: The positioning of the ogonek mark may differ from its positioning in Polish and Lithuanian.
+    base: A Ą B C D E Ę G H I Į J K L Ł M N O Ǫ S T W X Y Z a á ą ą́ b c d e é ę ę́ g h i í įį́ j k l ł m n o ó ǫ ǫ́ s t w x y z ʼ
+    design_note: The positioning of the ogonek mark may differ from its positioning in Polish and Lithuanian. It is typically centered below the vowel.
     marks: ◌́ ◌̨
     script: Latin
     status: primary
   source:
   - Omniglot
   - Wikipedia
+  - https://en.wikipedia.org/wiki/Navajo_language#Orthography
   speakers: 169359
   speakers_date: 2011
   validity: preliminary
