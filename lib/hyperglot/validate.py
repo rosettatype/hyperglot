@@ -166,14 +166,6 @@ def check_is_valid_glyph_string(glyphs, iso=None):
         log.error(pprint.pformat([g for g in re.findall(r" {2,}", glyphs)]))
         return False
 
-    marks = parse_marks(glyphs, decompose=False)
-    if len(marks) > 0:
-        log.info("'%s' contains marks in a character list, possibly in the "
-                 "form of unencoded base + mark combination. These marks "
-                 "will be saved as `mark` and removed from the character "
-                 "list where found isolated: %s"
-                 % (iso, "  ".join(marks)))
-
     for c in glyphs:
         if unicodedata2.category(c) == "Sk":
             log.warning("'%s' contains modifier symbol '%s' in characters. It "
