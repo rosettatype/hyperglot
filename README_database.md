@@ -28,9 +28,9 @@ The highest level entries in the database represent languages indexed using the 
 
 A language can refer to one or more orthographies. An orthography specifies the script and characters from this script used to represent the language. There can be multiple orthographies for the same language using the same or different scripts. Each entry can have these attributes which default to an empty string or list unless stated otherwise:
 
-- `base` (required or use `inherit`): a string of space-separated characters or combinations of characters and combining marks that are required to represent the language in common texts. This typically maps to a standard alphabet or syllabary for the language or an approximation of thereof.
-- `marks` (optional): combining marks needed for the glyph composition of `base`, as well as any additional combining marks required for this orthography. If `base` contains marks these are automatically added to `marks` and removed from `base`. Marks needed only for the `auxiliary` characters must not be added here, but as part of `auxiliary`.
+- `base` (required or use `inherit`): a string of space-separated characters or combinations of characters and combining marks that are required to represent the language in common texts. This typically maps to a standard alphabet or syllabary for the language or an approximation of thereof. Note that _ideally_ these characters should be in logical order that adheres to the orthography.
 - `auxiliary` (optional): a string of space-separated characters or combinations of characters and combining marks that are not part of the standard alphabet, but appear in very common loan words or in reference literature. Deprecated characters can be included here too, e.g. `ş ţ` for Romanian.
+- `marks` (optional): combining marks needed for the glyph composition of `base` or `auxiliary` as well as any additional combining marks required for this orthography. Saving will also automatically add any marks that can be decomposed from characters in `base` or `auxiliary` to the `marks`. Also marks that are not part of any characters should be added here and they will be required for fonts checking such languages.
 - `autonym` (optional): the name of the language in the language itself using this orthography. If missing, the `autonym` defined in the parent language entry is used. It is expected that the `autonym` can be spelled with the orthography's `base`.
 - `inherit` (required or use `base`): the code of a language to copy the `base, auxiliary, marks, punctuation, numerals, design_note` strings from. In case the language has multiple orthographies, the first one for the same script is used.
 - `script` (required): English name of the main script used by the orthography, e.g. Latin, Arabic, Armenian, Cyrillic, Greek, Hebrew. When a language uses a combination of several scripts in conjunction each script forms its own orthography. It should follow ISO 15924.
@@ -111,6 +111,11 @@ Note that this will _read_ and _write_ the yaml file.
 - Languages that are not written should not be included. Obviously.
 - Languages that have some speakers should not be marked as `extinct` even if ISO standard says so.
 - When adding or editing language data use the CLI commands `hyperglot-validate` to check your new data is compatible and use `hyperglot-save` to actually "save" the database in a standardized way (clean up, sorting, etc).
+- Note a few things that will happen automatically when saving with `hyperglot-save`:
+  - Marks found in `base` or `auxiliary` will get added to `marks`
+  - All `marks` entries will be placed on top of `◌` for easier readability
+  - All character list entries will be spaced with a single space between them, on one line
+  - All language and orthography attributes will be sorted a-z; while this might not be the most intuitive, this ensures that data is always sorted the same, and thus comparing different versions of the data (with version control) yields predictable results
 - When contributing code make sure to install the `pytest` package and run `pytest` to make sure no errors are detected. Ideally, write tests for any code additions or changes you have added.
 
 ## Sources

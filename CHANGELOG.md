@@ -3,6 +3,7 @@
 ## 0.3.0 (WIP)
 - DATA: Changed the way `marks` and decomposition are handled in the data entry and saving
 - DATA: `base` and `auxiliary` may now contain unencoded base + mark character combinations without those getting decomposed on saving
+- DATA: Updated approximately 50-100 languages which previously had unencoded base + mark combinations not saved in their character sets, since those were not unicode characters - this update added and retains those unencoded combinations for more comprehensive listing of the orthographies
 - DATA: Marks are now always placed on `◌` in the data for easier readability
 - CLI: Default checking (without `-m`) no longer requires implicit combining marks, meaning those which are retrieved from decomposing the characters - the default check will still require those marks, which are explicitly listed in `marks` and are not the result of decomposing the characters
 - CLI: Introduced `-m/--marks` as a flag to require all marks for a support level check

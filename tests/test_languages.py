@@ -9,7 +9,7 @@ def test_languages_basic():
     chars = parse_font_chars(path)
 
     Langs = Languages()
-    supported = Langs.get_support_from_chars(chars)
+    supported = Langs.supported(chars)
 
     # Detected scripts
     assert "Latin" in supported.keys()
@@ -26,7 +26,7 @@ def test_languages_validity():
 
     # Compared to basic, raised validity should have less hits
     Langs = Languages(validity="preliminary")
-    supported = Langs.get_support_from_chars(chars)
+    supported = Langs.supported(chars)
     isos = supported["Latin"].keys()
 
     # 'lue' (Luvale) is currently 'todo', so it should not be in this
