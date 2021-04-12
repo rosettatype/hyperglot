@@ -122,7 +122,7 @@ class Languages(dict):
         logging.debug("Inherit orthography from '%s' to '%s'" % (source_iso,
                                                                  iso))
 
-        ref = Language(self[source_iso], source_iso, parse=False)
+        ref = Language(self[source_iso], source_iso)
         if "script" in extend:
             ort = ref.get_orthography(extend["script"])
         else:
@@ -215,7 +215,11 @@ class Languages(dict):
         @param validatiy str: Filter by certainty of the database data.
             Defaults to 'weak', which ignores all but 'todo'. More stringent
             options are 'done' and 'verified'.
-        @param decomposed bool: Flag to decompose the passed in chars.
+        @param decomposed bool: Flag to decompose the passed in chars, meaning
+            matching languages do not need to have the encoded characters as
+            long as they have the base + mark combinations to shape those
+            characters.
+        @param marks bool: Flag to require all marks.
         @param includeAllOrthographies bool: Return all or just primary
             (default) orthographies of a language.
         @param includeHistorical bool: Flag to include historical languages.
@@ -226,7 +230,13 @@ class Languages(dict):
         @return dict: Returns a dict with script-keys and values of dicts of
             iso-keyed language data.
         """
-        chars = set(chars)
+        if type(chars) is not set and type(chars) is not list:
+            raise ValueError("Languages.supported needs to be passed a "
+                             "set/list of characters, got type '%s'"
+                             % type(chars))
+        # Make unique and filter whitespace
+        chars = set([c for c in chars if c.strip() != ""])
+
         support = {}
 
         for lang in self:
@@ -266,7 +276,7 @@ class Languages(dict):
                                    marks=marks,
                                    checkAllOrthographies=includeAllOrthographies,  # noqa
                                    pruneOrthographies=pruneOrthographies)
-
+            # print("SUP", lang_sup)
             for script in lang_sup:
                 for script, isos in lang_sup.items():
                     if script not in support.keys():

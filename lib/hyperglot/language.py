@@ -1,6 +1,7 @@
+import copy
 import logging
 import unicodedata2
-from .parse import parse_chars, list_unique, parse_marks
+from .parse import parse_chars, list_unique, parse_marks, character_list_from_string
 from . import SUPPORTLEVELS, CHARACTER_ATTRIBUTES, MARK_BASE
 
 log = logging.getLogger(__name__)
@@ -24,13 +25,10 @@ def is_mark(c):
 class Language(dict):
     """
     A dict wrapper around a language data yaml entry with additional querying
-    options for convenience
-
-    TODO all the getter functions could be rewritten as object parameter
-    getters
+    options for convenience.
     """
 
-    def __init__(self, data, iso, parse=True):
+    def __init__(self, data, iso):
         """
         Init a single Language with the data from rosetta.yaml
 
@@ -39,47 +37,11 @@ class Language(dict):
             this a private attribute, not dict items, so it does not get
             printed out when converting this Language back to yaml for output
         """
-
         self.iso = iso
         self.update(data)
 
-        if parse:
-            self.parse()
-
     def __repr__(self):
         return "Language object '%s'" % self.get_name()
-
-    def parse(self):
-        if "orthographies" in self:
-            for o in self["orthographies"]:
-
-                marks = []
-                if "marks" in o:
-                    marks = parse_chars(
-                        o["marks"], decompose=True, retainDecomposed=True)
-
-                # Parse all character lists
-                for type in CHARACTER_ATTRIBUTES:
-                    if type not in o:
-                        continue
-
-                    # Any marks encountered are moved to 'marks'
-                    # Note that any base+mark precomposed will not return marks
-                    # since we use decompose=False, so only marks that are part
-                    # of unencoded combinations will be returned and added to
-                    # 'marks'
-                    o[type] = parse_chars(
-                        o[type], decompose=False, retainDecomposed=True)
-
-                    decomposed = parse_marks(o[type])
-                    if marks:
-                        marks.extend(decomposed)
-
-                    # Prune those marks that are separately in a character list
-                    o[type] = [c for c in o[type] if not is_mark(c)]
-
-                # No duplicate marks
-                o["marks"] = list_unique(marks)
 
     def get_orthography(self, script=None, status=None):
         """
@@ -127,56 +89,6 @@ class Language(dict):
         # Note for multiple-orthography-primary languages (Serbian, Korean,
         # Japanese) this returns only one orthography!
         return matches[0]
-
-    def get_required_marks(self, ort, level="base"):
-        """
-        Get those marks which are not simply combining marks of the passed in
-        chars, but explicitly listed, meaning they cannot be derived from
-        decomposition
-        """
-
-        marks = parse_marks(ort["marks"]) if "marks" in ort else ""
-
-        chars = []
-        if "base" in ort:
-            chars = chars + ort["base"]
-
-        if level == "base":
-            # When checking the required marks for 'base' remove the
-            # decomposable marks from 'auxiliary' from 'marks'
-            if "auxiliary" in ort:
-                decomposed_aux = parse_marks(ort["auxiliary"])
-                marks = [m for m in marks if m not in decomposed_aux]
-
-        if level == "aux" and "auxiliary" in ort:
-            chars = chars + ort["auxiliary"]
-
-        decomposed = parse_marks(chars)
-        unencoded = parse_marks(chars, decompose=False)
-        marks = [m for m in marks if m not in decomposed]
-
-        return marks + unencoded
-
-    def get_all_marks(self, ort, level="base"):
-        """
-        Get all combining marks from a level, and any explicitly listed marks.
-        For 'base' this needs to subtract implicitly listed marks from only
-        'auxiliary'.
-        """
-        marks = parse_marks(ort["marks"]) if "marks" in ort else []
-        decom_base = parse_marks(ort["base"]) if "base" in ort else []
-        decom_aux = parse_marks(ort["auxiliary"]) if "auxiliary" in ort else []
-
-        if level == "base":
-            only_aux = [m for m in decom_aux if m not in decom_base]
-            marks = [m for m in marks + decom_base if m not in only_aux]
-            return list_unique(marks)
-
-        if level == "aux":
-            if "auxiliary" in ort:
-                return list_unique(marks + decom_base + decom_aux)
-            else:
-                return list_unique(marks + decom_base)
 
     def get_name(self, script=None, strict=False):
         if script is not None:
@@ -275,34 +187,6 @@ class Language(dict):
 
         return False
 
-    def get_orthography_chars(self, orthography, attr="base",
-                              ignoreMerge=False, decomposed=False):
-        """
-        Get a character list from an orthography.
-        This also abstracts combining 'preferred_as_group' for special cases.
-        @return set or bool
-        """
-        combined = []
-
-        if "preferred_as_group" not in orthography or ignoreMerge:
-            if attr in orthography:
-                combined = orthography[attr]
-        else:
-            for o in self["orthographies"]:
-                if attr not in o:
-                    continue
-
-                if "preferred_as_group" in o and attr in o:
-                    combined = combined + list(o[attr])
-
-        if combined == []:
-            return False
-
-        combined = [c for c in combined if c != MARK_BASE]
-
-        return set(parse_chars(combined, decompose=decomposed,
-                               retainDecomposed=False))
-
     def supported(self,
                   chars,
                   level="base",
@@ -315,7 +199,10 @@ class Language(dict):
 
         @param chars set: Set of chars to check against.
         @param level str: Support level for which to check.
-        @param decomposed bool: Flag to decompose the passed in chars.
+        @param decomposed bool: Flag to decompose the passed in chars, meaning
+            matching languages do not need to have the encoded characters as
+            long as they have the base + mark combinations to shape those
+            characters.
         @param marks bool: Flag to require all marks.
         @param checkAllOrthographies bool: Flag to check also non-primary
             orthographies from this Language object. False by default.
@@ -323,6 +210,13 @@ class Language(dict):
             orthographies from this Language object.
         @return dict: Dict sorted by 1) script 2) list of isos.
         """
+        if type(chars) is not set and type(chars) is not list:
+            raise ValueError("Languages.supported needs to be passed a "
+                             "set/list of characters, got type '%s'"
+                             % type(chars))
+        # Make unique and filter whitespace
+        chars = set([c for c in chars if c.strip() != ""])
+
         support = {}
         if "orthographies" not in self:
             return support
@@ -334,8 +228,6 @@ class Language(dict):
 
         pruned = []
 
-        chars = set(chars)
-
         # Determine which orthographies should be checked
         if checkAllOrthographies:
             orthographies = [o for o in self["orthographies"]
@@ -345,52 +237,89 @@ class Language(dict):
             orthographies = [o for o in self["orthographies"]
                              if "status" in o and o["status"] == "primary"]
 
-        for ort in orthographies:
+        if not checkAllOrthographies:
+            # Note the .copy() here since we manipulate the attribute ll.256
+            # and do not want to alter the original
+            as_group = [o.copy() for o in orthographies
+                        if "preferred_as_group" in o]
+
+            as_individual = [o.copy() for o in orthographies
+                             if "preferred_as_group" not in o]
+
+            orthographies = as_individual if as_individual else []
+
+            # Combine orthographies that are "preferred_as_group"
+            # We will retain separate orthographies, but all of
+            # CHARACTER_ATTRIBUTES should be the same for all grouped
+            # orthographies. While some grouped orthographies will get grouped
+            # as the same script, there are cases where we still want to retain
+            # each match under a different script (e.g. Serbian with Latin and
+            # Cyrillic but both being required for support)
+            if as_group:
+                combined = {}
+                for _ort in as_group:
+                    for attr in CHARACTER_ATTRIBUTES:
+                        if attr not in _ort:
+                            continue
+                        if attr not in combined:
+                            combined[attr] = ""
+                        combined[attr] = combined[attr] + " " + _ort[attr]
+
+                for _ort in as_group:
+                    for key, val in combined.items():
+                        _ort[key] = val
+                    orthographies.append(_ort)
+
+        for o in orthographies:
             supported = False
+            ort = Orthography(o)
 
-            # Any support check needs 'base'
-            base = self.get_orthography_chars(ort, "base",
-                                              ignoreMerge=checkAllOrthographies,  # noqa
-                                              decomposed=decomposed)
-
-            if base:
+            if ort.base:
                 if marks:
-                    required_marks_base = self.get_all_marks(ort, "base")
+                    required_marks_base = ort.base_marks
                 else:
-                    required_marks_base = self.get_required_marks(ort, "base")
+                    required_marks_base = ort.required_marks
 
-                if required_marks_base != []:
+                if required_marks_base:
                     log.debug("Required base marks for %s: %s" %
                               (self.iso, required_marks_base))
-                base = set(list(base) + list(required_marks_base))
 
-                script = ort["script"]
-                supported = base.issubset(chars)
+                base = set(ort.base + required_marks_base)
+
+                if not decomposed:
+                    supported = base.issubset(chars)
+                else:
+                    # If we accept that a set of characters matches for a
+                    # language also when it has only base+mark encodings, we
+                    # need to check support for each of the languages chars
+                    for c in base:
+                        decomposed = set(parse_chars(c))
+                        if c in chars or decomposed.issubset(chars):
+                            # print(c, decomposed, c in chars, decomposed.issubset(chars))
+                            supported = True
+                            continue
+                        supported = False
+                        break
 
                 if not supported:
-                    log.debug("Missing from base language %s: %s" %
-                              (self.iso, " ".join(base.difference(chars))))
+                    logging.debug("Missing from base language %s: %s" %
+                                  (self.iso, " ".join(base.difference(chars))))
 
                 if supported:
                     # Only check aux if base is supported to begin with
                     # and level is "aux" and orthography has "auxiliary"
                     # defined - if orthography has no "auxiliary" we consider
                     # it supported on "auxiliary" level, too
-                    aux = self.get_orthography_chars(ort, "auxiliary",
-                                                     ignoreMerge=checkAllOrthographies,  # noqa
-                                                     decomposed=decomposed)
-                    if level == "aux" and aux:
+                    if level == "aux" and ort.auxiliary:
                         if marks:
-                            required_marks_aux = self.get_all_marks(
-                                ort, "aux")
+                            required_marks_aux = ort.auxiliary_marks
                         else:
-                            required_marks_aux = self.get_required_marks(
-                                ort, "aux")
+                            required_marks_aux = ort.required_marks
 
-                        if required_marks_aux != []:
+                        if required_marks_aux:
                             log.debug("Required aux marks for %s: %s" %
                                       (self.iso, required_marks_aux))
-                        aux = set(list(aux) + list(required_marks_aux))
+                        aux = set(ort.auxiliary + required_marks_aux)
 
                         supported = aux.issubset(chars)
 
@@ -400,12 +329,107 @@ class Language(dict):
                                        " ".join(aux.difference(chars))))
 
             if supported:
-                if script not in support:
-                    support[script] = []
-                support[script].append(self.iso)
-                pruned.append(ort)
+                if ort.script not in support:
+                    support[ort.script] = []
+                support[ort.script].append(self.iso)
+                pruned.append(o)
 
         if pruneOrthographies:
             self["orthographies"] = pruned
 
         return support
+
+
+class Orthography(dict):
+    """
+    A orthography dict from yaml data. Inheritance has already taken place.
+
+    The dict retains its original entries, but we extend it with getters that
+    use the _parsed_ character lists!
+    """
+
+    def __init__(self, data):
+        self.update(data)
+
+    @property
+    def script(self):
+        return self["script"]
+
+    @property
+    def base(self):
+        return self._character_list("base")
+
+    @property
+    def auxiliary(self):
+        return self._character_list("auxiliary")
+
+    @property
+    def base_marks(self):
+        return self._all_marks("base")
+
+    @property
+    def auxiliary_marks(self):
+        return self._all_marks("aux")
+
+    @property
+    def required_marks(self):
+        return self._all_required_marks()
+
+    # "Private" methods
+
+    def _character_list(self, attr):
+        """
+        Get a character list from an orthography.
+        This also abstracts combining 'preferred_as_group' for special cases.
+        @return set or bool
+        """
+        if attr not in self:
+            return []
+
+        return parse_chars(self[attr],
+                           decompose=False,
+                           retainDecomposed=False)
+
+    def _all_required_marks(self):
+        """
+        Get those marks which are not simply combining marks of the passed in
+        chars, but explicitly listed, meaning they cannot be derived from
+        decomposition.
+        """
+
+        # Such as those attributes exist:
+        # - parse 'marks'
+        # - parse decomposed marks from 'base'
+        # - parse decomposed marks from 'aux'
+        # - remove those 'marks' which are decomposed from 'base' or 'aux
+
+        # Note how this accesses the original dict entries, not the parsed
+        # character lists!
+        marks = parse_marks(self["marks"]) if "marks" in self else []
+        marks_base = parse_marks(self["base"]) if "base" in self else []
+        marks_aux = parse_marks(
+            self["auxiliary"]) if "auxiliary" in self else []
+
+        return [m for m in marks if m not in marks_base and m not in marks_aux]
+
+    def _all_marks(self, level="base"):
+        """
+        Get all combining marks from a level, and any explicitly listed marks.
+        For 'base' this needs to subtract implicitly listed marks from only
+        'auxiliary'.
+        """
+        marks = parse_marks(self["marks"]) if "marks" in self else []
+        decom_base = parse_marks(self["base"]) if "base" in self else []
+        decom_aux = parse_marks(
+            self["auxiliary"]) if "auxiliary" in self else []
+
+        if level == "base":
+            only_aux = [m for m in decom_aux if m not in decom_base]
+            marks = [m for m in marks + decom_base if m not in only_aux]
+            return list_unique(marks)
+
+        if level == "aux":
+            if "auxiliary" in self:
+                return list_unique(marks + decom_base + decom_aux)
+            else:
+                return list_unique(marks + decom_base)

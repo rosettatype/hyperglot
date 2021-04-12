@@ -2,7 +2,6 @@
 Tests for basic parsing and decomposition methods
 """
 import os
-import pytest
 from hyperglot.parse import (parse_chars, parse_font_chars, parse_marks,
                              character_list_from_string,
                              sort_by_character_type,
@@ -57,8 +56,20 @@ def test_character_list_from_string():
     assert ["a", "b", "c"] == character_list_from_string("a b c")
     assert ["a", "b", "c"] == character_list_from_string("a  b  c")
     assert ["a", "b", "c"] == character_list_from_string("a a b a c")
-    assert ["ä"] == character_list_from_string("ä")
-    assert ["g", "̃"] == character_list_from_string("g̃")
+    assert ["ä", "b", "c"] == character_list_from_string("äbc")
+    assert ["ä", "b", "c"] == character_list_from_string("ä b c")
+    assert ["g̃"] == character_list_from_string("g̃")
+    assert ["a", "g̃", "c"] == character_list_from_string("ag̃c")
+    assert ["a", "g̃", "c"] == character_list_from_string("a g̃ c")
+
+    assert ["a", "b", "c", "g̃"] == character_list_from_string("abcg̃")
+    assert ["a", "b", "c", "g̃"] == character_list_from_string("abcg̃")
+    # Any spaces will be removed, a combing mark appended to last glyph
+    assert ["a", "b", "c", "g̃"] == character_list_from_string("a b c g  ̃")
+
+    rus_aux = "А́ Е́ И́ О́ У́ Ы́ Э́ ю́ я́ а́ е́ и́ о́ у́ ы́ э́"
+    rus_aux_li = rus_aux.split(" ")
+    assert rus_aux_li == character_list_from_string(rus_aux, normalize=False)
 
 
 def test_list_unique():
@@ -66,8 +77,8 @@ def test_list_unique():
 
 
 def test_parse_font_chars():
-    path = os.path.abspath("tests/Eczar-v1.004/otf/Eczar-Regular.otf")
-    chars = parse_font_chars(path)
+    eczar = os.path.abspath("tests/Eczar-v1.004/otf/Eczar-Regular.otf")
+    chars = parse_font_chars(eczar)
 
     # Obviously this changes if the test file ever gets updated!
     assert len(chars) == 479
@@ -91,5 +102,10 @@ def test_parse_marks():
     assert parse_marks(["ä", "ö", "å"]) == ['̈', '̊']
     assert parse_marks(["A", "B"]) == []
 
-    assert ['̀', '̂', '̃', '̄', '̆', '̈', '̊', '̧'] == parse_marks("À Â Å Æ Ç È Ê Ë Ì Î Ï Ñ Ò Ô Ø Ù Û Ÿ Ā Ă Ē Ĕ Ī Ĭ Ō Ŏ Œ Ū Ŭ ß à â å æ ç è ê ë ì î ï ñ ò ô ø ù û ÿ ā ă ē ĕ ī ĭ ō ŏ œ ū ŭ")
-    assert ['́', '̃', '̈', '̌'] == parse_marks("A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á Ã Ä É Í Ó Õ Ö Ú Ü Č Š Ũ a b c d e f g h i j k l m n o p q r s t u v w x y z á ã ä é í ó õ ö ú ü č š ũ")
+    assert parse_marks(
+        "А́ Е́ И́ О́ У́ Ы́ Э́ ю́ я́ а́ е́ и́ о́ у́ ы́ э́ ю́ я́") == ["́"]
+
+    assert ['̀', '̂', '̃', '̄', '̆', '̈', '̊', '̧'] == parse_marks(
+        "À Â Å Æ Ç È Ê Ë Ì Î Ï Ñ Ò Ô Ø Ù Û Ÿ Ā Ă Ē Ĕ Ī Ĭ Ō Ŏ Œ Ū Ŭ ß à â å æ ç è ê ë ì î ï ñ ò ô ø ù û ÿ ā ă ē ĕ ī ĭ ō ŏ œ ū ŭ") # noqa
+    assert ['́', '̃', '̈', '̌'] == parse_marks(
+        "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á Ã Ä É Í Ó Õ Ö Ú Ü Č Š Ũ a b c d e f g h i j k l m n o p q r s t u v w x y z á ã ä é í ó õ ö ú ü č š ũ") # noqa

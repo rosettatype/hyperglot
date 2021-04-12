@@ -13,6 +13,8 @@ from hyperglot.main import (cli, intersect_results,
 runner = CliRunner()
 
 eczar = os.path.abspath("tests/Eczar-v1.004/otf/Eczar-Regular.otf")
+eczar_no_marks = os.path.abspath(
+    "tests/Eczar-v1.004/otf/Eczar-Regular-nomarks-nofeatures.otf")
 plex_arabic = os.path.abspath("tests/plex-4.0.2/IBM-Plex-Sans-Arabic/fonts/complete/otf/IBMPlexSansArabic-Regular.otf")  # noqa
 
 
@@ -82,6 +84,30 @@ def test_main_cli_decomposed():
 
     # Decomposed should always support more than default
     assert total_default <= total_decomposed
+
+
+def test_main_cli_marks():
+    total = re.compile(r"(\d+) languages supported in total.")
+
+    # With Eczar which has all marks crudely removed
+    # This should support _almost_ as many as the full version, mostly
+    # non-latin missing
+    res = runner.invoke(cli, eczar_no_marks)
+    total_no_marks = int(total.search(res.output).group(1))
+
+    # With Eczar which has all marks crudely removed
+    # This will be drastically less supported, because the marks are missing,
+    # so only languages which require no marks and of which all characters are
+    # encoded are supported
+    res = runner.invoke(cli, eczar_no_marks + " --marks")
+    total_no_marks_flag = int(total.search(res.output).group(1))
+
+    # With Eczar which has all marks
+    res = runner.invoke(cli, eczar)
+    total = int(total.search(res.output).group(1))
+
+    assert total > total_no_marks
+    assert total_no_marks > total_no_marks_flag
 
 
 def test_main_cli_include_constructed():

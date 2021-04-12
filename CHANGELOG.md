@@ -1,6 +1,13 @@
 # A changelog for the lib/hyperglot CLI tool
 
-## 0.3.0 (WIP)
+## 0.3.1 (12.04.2021)
+- DATA: Minor formatting and duplicate fixes
+- FIX: Fixed parsing issue that led for some languages to require marks in their support _as if_ the `--marks` flag was used
+- TWEAK: `hyperglot.language.Language` no longer prunes or parses any character lists, but this is instead done on running the support checks by instantiating a `Orthography` object and using it for checking, leaving the dict representation of the yaml data in the `Language` untouched
+- FEATURE: Introduced `hyperglot.language.Orthography` abstraction for easier access of parse lists vs yaml raw character strings
+- TESTS: More refactored Languages, Language and new Orthography tests
+
+## 0.3.0 (09.04.2021)
 - DATA: Changed the way `marks` and decomposition are handled in the data entry and saving
 - DATA: `base` and `auxiliary` may now contain unencoded base + mark character combinations without those getting decomposed on saving
 - DATA: Updated approximately 50-100 languages which previously had unencoded base + mark combinations not saved in their character sets, since those were not unicode characters - this update added and retains those unencoded combinations for more comprehensive listing of the orthographies

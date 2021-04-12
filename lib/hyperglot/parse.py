@@ -24,6 +24,17 @@ def character_list_from_string(string, normalize=True):
     """
     Return a list of characters without space separators from an input string
     """
+    # Make sure we are in fact dealing with a string, not a list
+    if isinstance(string, list) or isinstance(string, set):
+        string = " ".join(string)
+
+    if not isinstance(string, str):
+        import traceback
+        traceback.print_stack()
+        raise ValueError("Invalid type '%s' for character_list_from_string "
+                         "with value '%s' received" %
+                         (type(string), str(string)))
+
     # Since Unicode allows writing the same string either precomposed or as
     # combining characters, we want to transform all those strings that are
     # written as combining characters to precomposed, if possible. In our
@@ -39,16 +50,39 @@ def character_list_from_string(string, normalize=True):
     # are in fact transformed to precomposed characters; otherwise the
     # "listifying" will split base and mark(s) into several list items (chars)
     if normalize:
-        # Make sure we are in fact dealing with a string, not a list
-        if isinstance(string, list) or isinstance(string, set):
-            string = "".join(string)
 
         # N_ormal F_orm C_omposed
         # See more https://docs.python.org/3/library/unicodedata.html#unicodedata.normalize # noqa
         string = uni.normalize("NFC", string)
 
-    li = list(string)
+    # We need to split by _letter_, so (also assuming unencoded base + mark):
+    # - 'abc' gets split
+    # - 'ábc' get split
+    # - 'a b c' gets split
+    # - 'á b c' gets split
+    # li = [s.strip() for s in re.split(r"\s", string)]
+    string = re.sub(r"\s+", "", string)
+    li = []
+    while len(string) > 0:
+        for i, s in enumerate(string):
+
+            if i == len(string) or len(string) == 1:
+                li.append(string)
+                string = ""
+                break
+
+            if len(string) > i + 1:
+                cat = uni.category(string[i + 1])
+                next_is_mark = cat.startswith("M")
+                if next_is_mark:
+                    continue
+
+            li.append(string[0: i + 1])
+            string = string[i + 1:]
+            break
+
     li = list_unique([c for c in li if c.strip() != ""])
+
     return li
 
 
@@ -82,7 +116,7 @@ def sort_by_character_type(chars):
 def parse_chars(characters, decompose=True, retainDecomposed=False):
     """
     From a string of characters get a set of unique unicode codepoints needed
-    Note this will "decompose" combinging characters/marks and remove any
+    Note this will "decompose" combining characters/marks and remove any
     standard whitespace characters (space, line break) but treat special
     whitespace characters as part of the charset (e.g. non breaking, enspace,
     etc.)
@@ -90,14 +124,14 @@ def parse_chars(characters, decompose=True, retainDecomposed=False):
     """
     unique_chars = []
     try:
-        unique_strings = "".join(character_list_from_string(characters))
-        additional = []
-
         if not decompose:
             # If we want to just get the string of characters as a list without
             # doing any decomposition return a list of unique, space separated,
             # strings
-            return character_list_from_string(unique_strings, False)
+            return character_list_from_string(characters, False)
+
+        unique_strings = " ".join(character_list_from_string(characters))
+        additional = []
 
         for c in unique_strings:
 
@@ -169,7 +203,7 @@ def parse_marks(input, decompose=True):
     if not input:
         return []
 
-    if type(input) is list or type(input) is set:
+    if isinstance(input, list) or isinstance(input, set):
         input = " ".join(input)
 
     input = re.sub(MARK_BASE, "", input)

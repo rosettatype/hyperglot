@@ -1,9 +1,12 @@
 """
 Basic Language support checks
 """
+import os
 import pytest
+import unicodedata2 as uni
 from hyperglot.languages import Languages
-from hyperglot.language import Language, is_mark
+from hyperglot.language import Language, Orthography, is_mark
+from hyperglot.parse import character_list_from_string, parse_font_chars
 
 
 def test_language_supported():
@@ -13,10 +16,11 @@ def test_language_supported():
     fin = Language(Langs["fin"], "fin")
 
     # These "chars" represent a font with supposedly those codepoints in it
-    fin_chars_missing_a = "bcdefghijklmnopqrstuvwxyzäöå"
-    fin_chars_base = "ABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÅabcdefghijklmnopqrstuvwxyzäöå"  # noqa
-    fin_chars_aux = "ABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÅÆÕØÜŠŽabcdefghijklmnopqrstuvwxyzäöåæõøüšž"  # noqa
-    fin_chars_no_precomposed = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz ̈ ̊"  # noqa
+    fin_chars_missing_a = character_list_from_string(
+        "bcdefghijklmnopqrstuvwxyzäöå")
+    fin_chars_base = character_list_from_string("ABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÅabcdefghijklmnopqrstuvwxyzäöå")  # noqa
+    fin_chars_aux = character_list_from_string("ABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÅÆÕØÜŠŽabcdefghijklmnopqrstuvwxyzäöåæõøüšž")  # noqa
+    fin_chars_no_precomposed = character_list_from_string("ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz")  # noqa
 
     # This is what supported should look like if it determines 'fin' is
     # supported
@@ -42,6 +46,71 @@ def test_language_supported():
 
     no_matches = fin.supported(fin_chars_missing_a, pruneOrthographies=False)
     assert no_matches == {}
+
+    rus = Language(Langs["rus"], "rus")
+
+    rus_base = character_list_from_string("А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё")  # noqa
+    # rus_aux = "А́ Е́ И́ О́ У́ Ы́ Э́ ю́ я́ а́ е́ и́ о́ у́ ы́ э́ ю́ я́"
+    # rus_marks = "◌̆ ◌̈ ◌́"
+
+    assert rus.supported(rus_base, level="base", pruneOrthographies=False)
+
+
+def test_supported_marks():
+    Langs = Languages()
+    deu = Language(Langs["deu"], "deu")
+
+    eczar = os.path.abspath("tests/Eczar-v1.004/otf/Eczar-Regular.otf")
+    chars = parse_font_chars(eczar)
+
+    # Let's fake a font with not combining marks
+    chars = [c for c in chars if not uni.category(c).startswith("M")]
+    assert deu.supported(chars) != {}
+    assert deu.supported(chars, marks=True) == {}
+
+
+def test_supported_decomposed_no_marks():
+    Langs = Languages()
+    deu = Language(Langs["deu"], "deu")
+
+    eczar = os.path.abspath("tests/Eczar-v1.004/otf/Eczar-Regular.otf")
+    chars = parse_font_chars(eczar)
+
+    # Let's fake a font with not combining marks
+    chars = [c for c in chars if not uni.category(c).startswith("M")]
+
+    # The font which has no marks but all encoded characters should still match
+    print(deu.supported(chars, decomposed=True))
+
+    assert deu.supported(chars, decomposed=True) != {}
+
+
+def test_supported_decomposed():
+    Langs = Languages()
+
+    eczar = os.path.abspath("tests/Eczar-v1.004/otf/Eczar-Regular.otf")
+    chars = parse_font_chars(eczar)
+
+    # Let's fake a font with no encoded german umlauts
+    chars = [c for c in chars if c not in ["Ä", "Ö", "Ü", "ä", "ö", "ü"]]
+
+    deu = Language(Langs["deu"], "deu")
+    assert deu.supported(chars, decomposed=False) == {}
+
+    # Let's fake a font which has neither umlauts nor marks
+    chars = parse_font_chars(eczar)
+    chars = [c for c in chars if c not in ["Ä", "Ö", "Ü", "ä", "ö", "ü", "̈"]]
+    deu = Language(Langs["deu"], "deu")
+    # It should not be supporting deu
+    assert deu.supported(chars, decomposed=True) == {}
+
+    # Let's fake a font which is missing some umlauts, but has needed
+    # base + marks
+    chars = parse_font_chars(eczar)
+    chars = [c for c in chars if c not in ["Ö", "Ü", "ö", "ü"]]
+    deu = Language(Langs["deu"], "deu")
+    # It should be supporting deu
+    assert deu.supported(chars, decomposed=True) != {}
 
 
 def test_language_inherit():
@@ -83,35 +152,37 @@ def test_language_all_orthographies():
     Langs = Languages()
     # smj Lule Sami with one primary and one deprecated orthography should
     # always return only the primary
-    smj = Language(Langs["smj"], "smj")
     # All the chars from both orthographies
-    smj_base = "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á Ä Å Ñ Ö Ń a b c d e f g h i j k l m n o p q r s t u v w x y z á ä å ñ ö ń A B D E F G H I J K L M N O P R S T U V Á Ä Å Ŋ a b d e f g h i j k l m n o p r s t u v á ä å ŋ a n o ́ ̃ ̈ ̊"  # noqa
+    smj_base = character_list_from_string("A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á Ä Å Ñ Ö Ń a b c d e f g h i j k l m n o p q r s t u v w x y z á ä å ñ ö ń A B D E F G H I J K L M N O P R S T U V Á Ä Å Ŋ a b d e f g h i j k l m n o p r s t u v á ä å ŋ a n o")  # noqa
 
     # When checking primary orthographies only one should be included
+    smj = Language(Langs["smj"], "smj")
     support = smj.supported(smj_base)
     assert ("smj" in support["Latin"]) is True
     assert len(smj["orthographies"]) == 1
 
     # Even when checking all orthographies the 'deprecated' orthography should
     # not be included
+    smj = Language(Langs["smj"], "smj")
     support = smj.supported(smj_base, checkAllOrthographies=True)
     assert len(smj["orthographies"]) == 1
 
     # rmn Balkan Romani has Latin (primary) and Cyrillic orthographies
     # It should return only Latin by default, but both when listing all
-    rmn = Language(Langs["rmn"], "rmn")
 
     # All the chars from both orthographies
-    rmn_base = "A Ä Á B C Ć Č D E Ê É F Ğ H I Î Í J K L M N O Ö Ó P Ṗ Q R Ř S Š T U V W X Y Z a ä á b c ć č d e ê é f ğ h i î í j k l m n o ö ó p ṗ q r ř s š t u v w x y z А Б В Г Д Е Ё Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Ы Ь Э Ю Я а б в г д е ё ж з и й к л м н о п р с т у ф х ц ч ш ы ь э ю я"  # noqa
+    rmn_base = character_list_from_string("A Ä Á B C Ć Č D E Ê É F Ğ H I Î Í J K L M N O Ö Ó P Ṗ Q R Ř S Š T U V W X Y Z a ä á b c ć č d e ê é f ğ h i î í j k l m n o ö ó p ṗ q r ř s š t u v w x y z А Б В Г Д Е Ё Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Ы Ь Э Ю Я а б в г д е ё ж з и й к л м н о п р с т у ф х ц ч ш ы ь э ю я")  # noqa
 
     # When checking all orthographies, the Cyrillic non-primary should be
     # included
+    rmn = Language(Langs["rmn"], "rmn")
     support = rmn.supported(rmn_base, checkAllOrthographies=True)
     assert ("rmn" in support["Latin"]) is True
     assert ("Cyrillic" in support.keys()) is True
     assert len(rmn["orthographies"]) == 2
 
     # When checking only primary only Latin should be included
+    rmn = Language(Langs["rmn"], "rmn")
     support = rmn.supported(rmn_base, checkAllOrthographies=False)
     assert ("rmn" in support["Latin"]) is True
     assert ("Cyrillic" not in support.keys()) is True
@@ -123,7 +194,7 @@ def test_language_multiple_primaries():
 
     # E.g. aat Arvanitika Albanian has exceptionally two `primary`
     # orthographies, a font with support for either should include the language
-    aat_latin = "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á Ä Ç È É Ë Í Ï Ó Ö Ú Ü Ý a b c d e f g h i j k l m n o p q r s t u v w x y z á ä ç è é ë í ï ó ö ú ü ý"  # noqa
+    aat_latin = character_list_from_string("A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á Ä Ç È É Ë Í Ï Ó Ö Ú Ü Ý a b c d e f g h i j k l m n o p q r s t u v w x y z á ä ç è é ë í ï ó ö ú ü ý")  # noqa
     aat = Language(Langs["aat"], "aat")
     support = aat.supported(aat_latin)
     assert ("Latin" in support.keys()) is True
@@ -132,13 +203,13 @@ def test_language_multiple_primaries():
 
 
 def test_language_combined_orthographies():
-    Langs = Languages()
+    Langs = Languages(inherit=False)
 
     # E.g. Serbian or Japanese have multiple orthographies that should be
     # treated as a combination, e.g. require all for support
     srp = Language(Langs["srp"], "srp")
-    srp_cyrillic = 'А Б В Г Д Е Ж З И К Л М Н О П Р С Т У Ф Х Ц Ч Ш Ђ Ј Љ Њ Ћ Џ а б в г д е ж з и к л м н о п р с т у ф х ц ч ш ђ ј љ њ ћ џ ◌́'  # noqa
-    srp_latin = 'A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ć Č Đ Ś Š Ź Ž a b c d e f g h i j k l m n o p q r s t u v w x y z ć č đ ś š ź ž'  # noqa
+    srp_cyrillic = character_list_from_string('А Б В Г Д Е Ж З И К Л М Н О П Р С Т У Ф Х Ц Ч Ш Ђ Ј Љ Њ Ћ Џ З́ С́ а б в г д е ж з и к л м н о п р с т у ф х ц ч ш ђ ј љ њ ћ џ з́ с́')  # noqa
+    srp_latin = character_list_from_string('A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ć Č Đ Ś Š Ź Ž a b c d e f g h i j k l m n o p q r s t u v w x y z ć č đ ś š ź ž')  # noqa
 
     # Checking support with just the one script will no list the language
     support = srp.supported(srp_latin)
@@ -149,7 +220,7 @@ def test_language_combined_orthographies():
     # Checking with the combined chars this should now return both
     # orthographies
     srp = Language(Langs["srp"], "srp")
-    combined = srp_cyrillic + " " + srp_latin
+    combined = srp_cyrillic + srp_latin
     support = srp.supported(combined)
     assert ("Cyrillic" in support) is True
     assert ("Latin" in support) is True
@@ -198,29 +269,21 @@ def test_get_orthography():
         bos.get_orthography("Cyrillic", "primary")
 
 
-def test_get_orthography_chars():
+def test_orthography_character_list():
     Langs = Languages()
 
     deu = Language(Langs["deu"], "deu")
-    orth = deu["orthographies"][0]
+    ort_default = Orthography(deu["orthographies"][0])
 
-    deu_base_default = sorted(deu.get_orthography_chars(orth, "base",
-                                                        decomposed=False))
-    deu_base_decomposed = sorted(deu.get_orthography_chars(orth, "base",
-                                                           decomposed=True))
+    deu_base_default = ort_default._character_list("base")
 
-    assert len(deu_base_default) > len(deu_base_decomposed)
     assert "Ä" in deu_base_default
     assert '̈' not in deu_base_default
-    assert "Ä" not in deu_base_decomposed
-    assert '̈' in deu_base_decomposed
 
 
-def test_language_get_required_marks():
+def test_orthography_required_marks():
     Langs = Languages()
 
-    deu = Language(Langs["deu"], "deu")
-    orth = deu["orthographies"][0]
     """
     autonym: Deutsch
     auxiliary: À É ẞ à é
@@ -230,14 +293,44 @@ def test_language_get_required_marks():
     script: Latin
     status: primary
     """
+    deu = Language(Langs["deu"], "deu")
+    ort = Orthography(deu["orthographies"][0])
+
     # Neither base nor aux has marks which cannot be derived form precomposed
     # chars, so there should not be any required marks
-    assert deu.get_required_marks(orth, "base") == []
-    assert deu.get_required_marks(orth, "aux") == []
+    assert ort.required_marks == []
+
     # Base only requires diesresis comb
-    assert deu.get_all_marks(orth, "base") == ['̈']
+    assert ort.base_marks == ['̈']
+
     # Aux requires acute and grave comb, and also the base dieresis comb
-    assert deu.get_all_marks(orth, "aux") == ['̈', '̀', '́']
+    assert ort.auxiliary_marks == ['̈', '̀', '́']
+
+    """
+    rus_base = "А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё"
+    rus_aux = "А́ Е́ И́ О́ У́ Ы́ Э́ ю́ я́ а́ е́ и́ о́ у́ ы́ э́ ю́ я́"
+    rus_marks = "◌̆ ◌̈ ◌́"
+    """
+
+    rus = Language(Langs["rus"], "rus")
+    ort = Orthography(rus["orthographies"][0])
+
+    # No marks should be required since all are implicit from precomposed
+    assert ort.required_marks == []
+
+    # Base should not need the acute
+    assert ort.base_marks == ['̆', '̈']
+
+    # Aux should need all
+    assert ort.auxiliary_marks == ['̆', '̈', '́']
+
+
+def test_orthography_decomposed():
+    o = Orthography({
+        "base": "Ä"
+    })
+    assert o["base"] == "Ä"
+    assert o.base == ["Ä"]
 
 
 def test_is_mark():
