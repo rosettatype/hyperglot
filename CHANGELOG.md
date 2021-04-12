@@ -1,6 +1,7 @@
 # A changelog for the lib/hyperglot CLI tool
 
 ## 0.3.1 (12.04.2021)
+- DATA: Corrected speaker count for Manipuri
 - DATA: Updates to Andaandi and Old Nubian
 - DATA: Minor formatting and duplicate fixes
 - FIX: Fixed parsing issue that led for some languages to require marks in their support _as if_ the `--marks` flag was used
