@@ -1,6 +1,7 @@
 # A changelog for the lib/hyperglot CLI tool
 
 ## 0.3.1 (12.04.2021)
+- DATA: Updates to Andaandi and Old Nubian
 - DATA: Minor formatting and duplicate fixes
 - FIX: Fixed parsing issue that led for some languages to require marks in their support _as if_ the `--marks` flag was used
 - TWEAK: `hyperglot.language.Language` no longer prunes or parses any character lists, but this is instead done on running the support checks by instantiating a `Orthography` object and using it for checking, leaving the dict representation of the yaml data in the `Language` untouched
