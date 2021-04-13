@@ -142,7 +142,7 @@ class Languages(dict):
             # Note: No autonym inheritance
             for attr in ["base", "auxiliary", "marks", "note",
                          "combinations", "punctuation", "script",
-                         "design_notes", "design_alternates",
+                         "design_requirements", "design_alternates",
                          "numerals", "status"]:
                 if attr in ort:
                     # Wrap in type constructor, to copy, not

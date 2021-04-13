@@ -37,8 +37,8 @@ A language can refer to one or more orthographies. An orthography specifies the 
 - `status` (required, defaults to `primary`): the status of the orthography, may be one of: `deprecated, historical, secondary, local, primary, transliteration`. The value `local` refers to an orthography which is used only in a specific relatively small region. Orthographies with `secondary` status are ignored during language support detection, but used when detecting `orthography` support. Orthographies with `deprecated` or `historical` status are included only for the sake of completeness. Transliterations of scripts/languages have status `transliteration`.
 - `preferred_as_group` (optional, defaults to `false`) will combine all orthographies of this language. When used, a language is detected as supported only if all its orthographies with this attribute are supported. This is used for Serbian to require both Cyrillic-script and Latin-script orthographies to be supported and for Japanese to require Hiragana, Katakana, and Kanji orthographies to be supported.
 - `note` (optional): a note of any kind.
-- `design_notes` (optional): a list of notes with general design considerations specific to this orthography. Ideally, phrased in a way that is font-format agnostic. A hint really.
-- `design_alternatives` (optional): a string of space separates characters from either `base`, `auxiliary` or `marks` which may require special treatment in font designs of those unicode points or combinations
+- `design_requirements` (optional): a list of notes with general design considerations specific to this orthography. Ideally, phrased in a way that is font-format agnostic. A hint really.
+- `design_alternates` (optional): a string of space separates characters from either `base`, `auxiliary` or `marks` which may require special treatment in font designs of those unicode points or combinations
 
 
 ### Macrolanguages
