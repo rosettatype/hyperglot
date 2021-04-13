@@ -1550,7 +1550,7 @@ bul:
     - Correct positioning of a grave mark above vowel characters may be required.
     - Some characters (marked in the previews) use a form that differs from the defaults associated with the Unicode codepoints (typically the Russian form of Cyrillic).
     design_alternates: Л Ѝ в г д ж з и й ѝ к л п т ц ш щ ю ◌̆
-    marks: ◌̀ ◌́ ◌̆
+    marks: ◌̀ ◌̆
     script: Cyrillic
     status: primary
   source:
