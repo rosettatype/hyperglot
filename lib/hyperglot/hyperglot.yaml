@@ -157,7 +157,8 @@ acm:
   - autonym: عراقي
     auxiliary: ڛ ڢ ٯ ڧ ک ی ڥ چ ڨ ڭ ڠ
     base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا ڤ پ گ ة
-    design_note: Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
+    design_notes:
+    - Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
     marks: ◌َ ◌ُ ◌ِ ◌ْ ◌ٰ
     numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩
     script: Arabic
@@ -205,7 +206,8 @@ acw:
   - autonym: حجازي
     auxiliary: ڛ ڢ ٯ ڧ ک ی ڥ چ گ ڨ ڭ ڠ
     base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا پ ڤ
-    design_note: Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
+    design_notes:
+    - Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
     marks: ◌َ ◌ُ ◌ِ ◌ْ ◌ٰ
     numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩
     script: Arabic
@@ -325,7 +327,8 @@ afb:
   - autonym: خليجي
     auxiliary: ڛ ڢ ٯ ڧ ک ی ڥ چ ڨ ڭ ڠ
     base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا ڤ پ گ
-    design_note: Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
+    design_notes:
+    - Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
     marks: ◌َ ◌ُ ◌ِ ◌ْ ◌ٰ
     numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩
     script: Arabic
@@ -459,7 +462,8 @@ ajp:
   - autonym: فلسطيني
     auxiliary: ڛ ڢ ٯ ڧ ک ی ڥ گ ڨ ڭ ڠ
     base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا ڤ پ چ
-    design_note: Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
+    design_notes:
+    - Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
     marks: ◌َ ◌ُ ◌ِ ◌ْ ◌ٰ
     numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩
     script: Arabic
@@ -629,7 +633,8 @@ apd:
   - autonym: سوداني
     auxiliary: ڛ ڢ ٯ ڧ ک ڤ ڥ پ چ گ ڨ ڭ ڠ
     base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا ی
-    design_note: Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
+    design_notes:
+    - Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
     marks: ◌َ ◌ُ ◌ِ ◌ْ ◌ٰ
     numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩
     script: Arabic
@@ -662,7 +667,8 @@ arb:
   - autonym: العربية
     auxiliary: ڛ ڢ ٯ ڧ ک ی ڤ ڥ پ چ گ ڨ ڭ ڠ
     base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا ة
-    design_note: Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
+    design_notes:
+    - Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
     marks: ◌َ ◌ُ ◌ِ ◌ْ ◌ٰ
     numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩
     script: Arabic
@@ -735,7 +741,8 @@ ars:
   - autonym: نجدي
     auxiliary: ڛ ڢ ٯ ڧ ک ی ڥ چ گ ڨ ڭ ڠ
     base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا پ ڤ ة
-    design_note: Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
+    design_notes:
+    - Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
     marks: ◌َ ◌ُ ◌ِ ◌ْ ◌ٰ
     numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩
     script: Arabic
@@ -766,7 +773,8 @@ arz:
   - autonym: مصرى
     auxiliary: ڛ ڢ ٯ ڧ ک ڥ گ ڨ ڭ ڠ
     base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا ڤ پ ی چ ة ى
-    design_note: Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
+    design_notes:
+    - Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
     marks: ◌َ ◌ُ ◌ِ ◌ْ ◌ٰ
     numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩
     script: Arabic
@@ -798,7 +806,8 @@ asm:
   orthographies:
   - autonym: অসমীয়া
     base: ৺ অ আ ই ঈ উ ঊ ঋ ৠ ঌ ৡ এ ঐ ও ঔ ক খ গ ঘ ঙ চ ছ জ ঝ ঞ ট ঠ ড ঢ ণ ত থ দ ধ ন প ফ ব ভ ম য ৰ ল ৱ শ ষ স হ ʼ
-    design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
+    design_notes:
+    - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
     marks: ◌ঁ ◌ং ◌ঃ ◌় ◌া ◌ি ◌ী ◌ু ◌ূ ◌ৃ ◌ৄ ◌ে ◌ৈ ◌্ ◌ৗ ◌ৢ ◌ৣ
     numerals: ০ ১ ২ ৩ ৪ ৫ ৬ ৭ ৮ ৯
     script: Bengali
@@ -900,7 +909,8 @@ awa:
   - autonym: अवधी
     auxiliary: ॐ
     base: अ आ इ ई उ ऊ ऋ ए ऐ ओ औ क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र ल व श ष स ह ऄ ‌ ‍
-    design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
+    design_notes:
+    - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
     marks: ◌ँ ◌ं ◌ः ◌़ ◌ा ◌ि ◌ी ◌ु ◌ू ◌ृ ◌े ◌ै ◌ो ◌ौ ◌्
     numerals: ० १ २ ३ ४ ५ ६ ७ ८ ९ 0 1 2 3 4 5 6 7 8 9
     punctuation: । ॥ ॰
@@ -1000,7 +1010,8 @@ azb:
   orthographies:
   - autonym: آذربایجانجا
     base: و ؤ ئ ا خ ع ن پ چ ژ ک گ ۆ ۇ ی ە ݣ ﺏ ﺕ ﺙ ﺝ ﺡ ﺩ ﺫ ﺭ ﺯ ﺱ ﺵ ﺹ ﺽ ﻁ ﻅ ﻍ ﻑ ﻕ ﻝ ﻡ ﻥ ﻩ ﻭ آ ج ب ذ ر
-    design_note: Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
+    design_notes:
+    - Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
     marks: ◌ْ ◌ٓ ◌ٔ ◌ٛ
     note: Used in Iran.
     script: Arabic
@@ -1066,7 +1077,8 @@ bal:
   orthographies:
   - autonym: بلۏچی
     base: ء آ ا ب ت ج د ر ز س ش ل م ن ه و ٹ پ چ ڈ ژ ک گ ی ۏ ے ݔ ࢣ
-    design_note: Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
+    design_notes:
+    - Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
     marks: ◌َ ◌ُ ◌ِ ◌ٓ
     numerals: ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹ 0 1 2 3 4 5 6 7 8 9
     script: Arabic
@@ -1102,7 +1114,8 @@ ban:
   - autonym: ᬪᬵᬱᬩᬮᬶ
     auxiliary: ᬡ ᬙ ᬔ ᬥ ᬟ ᬠ ᬣ ᬝ ᬞ ᬰ ᬱ ᬖ ᬪ ᬨ ᬛ
     base: ᬳ ᬦ ᬘ ᬭ ᬓ ᬤ ᬢ ᬲ ᬯ ᬮ ᬫ ᬕ ᬩ ᬗ ᬧ ᬚ ᬬ ᬜ ᬅ ᬆ ᬇ ᬈ ᬋ ᬌ ᬍ ᬎ ᬉ ᬊ ᬏ ᬐ ᬑ ᬒ
-    design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
+    design_notes:
+    - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
     marks: ◌ᬀ ◌ᬁ ◌ᬂ ◌ᬃ ◌ᬄ ◌᬴ ◌ᬵ ◌ᬶ ◌ᬷ ◌ᬸ ◌ᬹ ◌ᬺ ◌ᬾ ◌ᬿ
     numerals: ᭐ ᭕ ᭑ ᭖ ᭒ ᭗ ᭓ ᭘ ᭔ ᭙ 0 1 2 3 4 5 6 7 8 9
     punctuation: ᭞ ᭟ ᭝ ᭜ ᭚ ᭛ ᭠
@@ -1188,7 +1201,9 @@ bel:
   - autonym: Беларуская
     auxiliary: Ґ ґ
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё І Ў а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё і ў ’
-    design_note: The Cyrillic breve accent uses a different form from the one used in the Latin script even though Unicode treats them as the same character.
+    design_notes:
+    - The Cyrillic breve accent uses a different form from the one used in the Latin script even though Unicode treats them as the same character.
+    design_alternates: ◌̆
     marks: ◌̆ ◌̈
     script: Cyrillic
     status: primary
@@ -1225,7 +1240,8 @@ ben:
   orthographies:
   - autonym: বাংলা
     base: ৺ অ আ ই ঈ উ ঊ ঋ ৠ ঌ ৡ এ ঐ ও ঔ ক খ গ ঘ ঙ চ ছ জ ঝ ঞ ট ঠ ড ঢ ণ ত ৎ থ দ ধ ন প ফ ব ভ ম য র ল শ ষ স হ ঽ
-    design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
+    design_notes:
+    - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
     marks: ◌ঁ ◌ং ◌ঃ ◌় ◌া ◌ি ◌ী ◌ু ◌ূ ◌ৃ ◌ৄ ◌ে ◌ৈ ◌্ ◌ৗ ◌ৢ ◌ৣ
     numerals: ০ ১ ২ ৩ ৪ ৫ ৬ ৭ ৮ ৯
     script: Bengali
@@ -1288,7 +1304,8 @@ bho:
     status: primary
   - autonym: 𑂦𑂷𑂔𑂣𑂳𑂩𑂲
     base: 𑂃 𑂄 𑂅 𑂆 𑂇 𑂈 𑂉 𑂊 𑂋 𑂌 𑂍 𑂎 𑂏 𑂐 𑂑 𑂒 𑂓 𑂔 𑂕 𑂖 𑂗 𑂘 𑂙 𑂚 𑂛 𑂜 𑂝 𑂞 𑂟 𑂠 𑂡 𑂢 𑂣 𑂤 𑂥 𑂦 𑂧 𑂨 𑂩 𑂪 𑂫 𑂬 𑂭 𑂮 𑂯
-    design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
+    design_notes:
+    - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
     marks: ◌𑂀 ◌𑂂 ◌𑂰 ◌𑂲 ◌𑂳 ◌𑂴 ◌𑂵 ◌𑂶 ◌𑂸 ◌𑂺
     numerals: ० १ २ ३ ४ ५ ६ ७ ८ ९ 0 1 2 3 4 5 6 7 8 9
     script: Kaithi
@@ -1388,7 +1405,8 @@ bod:
   orthographies:
   - autonym: བོད་སྐད་
     base: ཀ ཁ ག ང ཅ ཆ ཇ ཉ ཏ ཐ ད ན པ ཕ བ མ ཙ ཚ ཛ ཝ ཞ ཟ འ ཡ ར ལ ཤ ས ཧ ཨ
-    design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
+    design_notes:
+    - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
     marks: ◌ི ◌ུ ◌ེ ◌ོ
     numerals: ༠ ༡ ༢ ༣ ༤ ༥ ༦ ༧ ༨ ༩
     punctuation: ༄ ༈ ་ ། ༎ ༔ ༺ ༻
@@ -1405,13 +1423,15 @@ bos:
   orthographies:
   - autonym: Босански
     base: А Б В Г Д Е Ж З И К Л М Н О П Р С Т У Ф Х Ц Ч Ш Ђ Ј Љ Њ Ћ Џ а б в г д е ж з и к л м н о п р с т у ф х ц ч ш ђ ј љ њ ћ џ
-    design_note: Correct positioning of acute accents above some characters may be required. The Cyrillic breve accent uses a different form from the one used in the Latin script even though Unicode treats them as the same character. In italic styles, some characters may use a different form from the Cyrillic used as examples by Unicode.
+    design_notes:
+    - Correct positioning of acute accents above some characters may be required. The Cyrillic breve accent uses a different form from the one used in the Latin script even though Unicode treats them as the same character. In italic styles, some characters may use a different form from the Cyrillic used as examples by Unicode. 
     script: Cyrillic
     status: secondary
   - autonym: Bosanski
     auxiliary: Ǆ ǅ ǆ Ǉ ǈ ǉ Ǌ ǋ ǌ
     base: A B C D E F G H I J K L M N O P R S T U V Z Ć Č Đ Š Ž a b c d e f g h i j k l m n o p r s t u v z ć č đ š ž
-    design_note: Digraphs ‹dž›, ‹lj›, and ‹nj› in their uppercase, titlecase, and lowercase forms have dedicated Unicode codepoints in the auxiliary set. However, these were included chiefly for backwards compatibility with legacy encodings which kept a one-to-one correspondence with Cyrillic.
+    design_notes:
+    - Digraphs ‹dž›, ‹lj›, and ‹nj› in their uppercase, titlecase, and lowercase forms have dedicated Unicode codepoints in the auxiliary set. However, these were included chiefly for backwards compatibility with legacy encodings which kept a one-to-one correspondence with Cyrillic.
     marks: ◌́ ◌̌
     script: Latin
     status: primary
@@ -1428,7 +1448,8 @@ bpy:
   orthographies:
   - autonym: বিষ্ণুপ্রিয়া মণিপুরী
     base: অ আ ই ঈ উ ঊ ঋ এ ঐ ও ঔ ক খ গ ঘ ঙ চ ছ জ ঝ ঞ ট ঠ ড ঢ ণ ত থ দ ধ ন প ফ ব ভ ম য র ল ৱ শ ষ স হ
-    design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
+    design_notes:
+    - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
     marks: ◌ঁ ◌ং ◌ঃ ◌় ◌া ◌ি ◌ী ◌ু ◌ূ ◌ৃ ◌ে ◌ৈ ◌্ ◌ৗ
     numerals: ০ ১ ২ ৩ ৪ ৫ ৬ ৭ ৮ ৯
     script: Bengali
@@ -1461,7 +1482,8 @@ brx:
   - autonym: बरʼ
     auxiliary: ॐ
     base: अ आ इ ई उ ऊ ऋ ए ऐ ओ औ क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र ल व श ष स ह ʼ ‌ ‍
-    design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
+    design_notes:
+    - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
     marks: ◌ँ ◌ं ◌ः ◌़ ◌ा ◌ि ◌ी ◌ु ◌ू ◌ृ ◌े ◌ै ◌ो ◌ौ ◌्
     numerals: ० १ २ ३ ४ ५ ६ ७ ८ ९ 0 1 2 3 4 5 6 7 8 9
     punctuation: । ॥ ॰
@@ -1501,7 +1523,8 @@ bug:
     status: primary
   - autonym: ᨅᨔ ᨕᨘᨁᨗ
     base: ᨀ ᨁ ᨂ ᨃ ᨄ ᨅ ᨆ ᨇ ᨈ ᨉ ᨊ ᨋ ᨌ ᨍ ᨎ ᨏ ᨐ ᨑ ᨒ ᨓ ᨔ ᨕ ᨖ
-    design_note: Mark positioning and some character combinations have to be resolved to properly represent the language.
+    design_notes:
+    - Mark positioning and some character combinations have to be resolved to properly represent the language.
     marks: ◌ᨗ ◌ᨘ ◌ᨙ ◌ᨚ ◌ᨛ
     note: The script is also called Lontara
     punctuation: ᨞ ᨟
@@ -1519,7 +1542,11 @@ bul:
   - autonym: Български
     auxiliary: А̀ О̀ У̀ Ъ̀ Ю̀ Я̀ а̀ о̀ у̀ ъ̀ ю̀ я̀
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ь Ю Я Ѐ Ѝ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ь ю я ѐ ѝ
-    design_note: Bulgarian preferred forms tend to differ from the Cyrillic used as examples by Unicode. Correct positioning of a grave accent above some characters may be required. The Cyrillic breve accent uses a different form from the one used in the Latin script even though Unicode treats them as the same character.
+    design_notes:
+    - Bulgarian preferred forms tend to differ from the Cyrillic used as examples by Unicode.
+    - Correct positioning of a grave accent above some characters may be required.
+    - The Cyrillic breve accent uses a different form from the one used in the Latin script even though Unicode treats them as the same character.
+    design_alternates: Д Л Ѐ Ѝ в г д ж з и й ѝ к л п п т т ц ч ш щ ю д л ◌̆
     marks: ◌̀ ◌́ ◌̆
     script: Cyrillic
     status: primary
@@ -1632,7 +1659,9 @@ cat:
   - autonym: Català
     auxiliary: Ŀ ŀ
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Ç È É Í Ï Ò Ó Ú Ü a b c d e f g h i j k l m n o p q r s t u v w x y z à ç è é í ï ò ó ú ü
-    design_note: Special consideration should be given to the Catalan use of middle dot ‹·› (punt volat). The use of legacy characters ‹Ŀ, ŀ› is discouraged. Some font developers decompose ‹Ŀ, ŀ› automatically to adapt the position of the mid dot to changes in the overall spacing (tracking).
+    design_notes:
+    - Special consideration should be given to the Catalan use of middle dot ‹·› (punt volat). The use of legacy characters ‹Ŀ, ŀ› is discouraged. Some font developers decompose ‹Ŀ, ŀ› automatically to adapt the position of the mid dot to changes in the overall spacing (tracking).
+    design_alternates: Ŀ ŀ
     marks: ◌̀ ◌́ ◌̈ ◌̧
     script: Latin
     status: primary
@@ -1732,7 +1761,8 @@ ccp:
   note: There are approximately 326000 speakers in Bangladesh and 228281 in India.
   orthographies:
   - base: 𑄃 𑄄 𑄅 𑄆 𑄇 𑄈 𑄉 𑄊 𑄋 𑄌 𑄍 𑄎 𑄏 𑄐 𑄑 𑄒 𑄓 𑄔 𑄕 𑄖 𑄗 𑄘 𑄙 𑄚 𑄛 𑄜 𑄝 𑄞 𑄟 𑄠 𑄡 𑄢 𑄣 𑄤 𑄥 𑄦
-    design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
+    design_notes:
+    - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
     marks: ◌𑄀 ◌𑄁 ◌𑄂 ◌𑄧 ◌𑄨 ◌𑄩 ◌𑄪 ◌𑄫 ◌𑄬 ◌𑄭 ◌𑄰 ◌𑄱 ◌𑄲 ◌𑄳 ◌𑄴
     numerals: 𑄶 𑄷 𑄸 𑄹 𑄺 𑄻 𑄼 𑄽 𑄾 𑄿 0 1 2 3 4 5 6 7 8 9
     punctuation: 𑅁 𑅂 𑅃 𑅀
@@ -2006,7 +2036,8 @@ ckb:
     status: primary
   - autonym: سۆرانی
     base: ا ب ت ج ح خ د ر ز س ش ع غ ف ق ل م ن و پ چ ڕ ژ ڤ ک گ ڵ ھ ۆ ی ێ ە
-    design_note: Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
+    design_notes:
+    - Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
     script: Arabic
     status: primary
   source:
@@ -2287,7 +2318,8 @@ ctg:
   orthographies:
   - autonym: চাটগাঁইয়া
     base: অ আ ই ঈ উ ঊ ঋ এ ঐ ও ঔ ক খ গ ঘ ঙ চ ছ জ ঝ ট ঠ ড ঢ ণ ত থ দ ধ ন প ফ ব ভ ম য র ল ৱ শ ষ স হ
-    design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
+    design_notes:
+    - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
     marks: ◌ঁ ◌ং ◌ঃ ◌় ◌া ◌ি ◌ী ◌ু ◌ূ ◌ৃ ◌ে ◌ৈ ◌্ ◌ৗ
     numerals: ০ ১ ২ ৩ ৪ ৫ ৬ ৭ ৮ ৯
     script: Bengali
@@ -2471,7 +2503,8 @@ dgo:
   - autonym: डोगरी
     auxiliary: ॐ
     base: अ आ इ ई उ ऊ ऋ ए ऐ ओ औ क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र ल व श ष स ह ʼ ऽ ‌ ‍
-    design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
+    design_notes:
+    - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
     marks: ◌ँ ◌ं ◌ः ◌़ ◌ा ◌ि ◌ी ◌ु ◌ू ◌ृ ◌े ◌ै ◌ो ◌ौ ◌्
     note: Used in India
     numerals: ० १ २ ३ ४ ५ ६ ७ ८ ९ 0 1 2 3 4 5 6 7 8 9
@@ -2479,7 +2512,8 @@ dgo:
     script: Devanagari
     status: primary
   - autonym: ڈوگَرِی
-    design_note: Nastaʼlīq style of the Arabic script is preferred. Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
+    design_notes:
+    - Nastaʼlīq style of the Arabic script is preferred. Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
     inherit: urd
     note: Used in Pakistan
     script: Arabic
@@ -2705,7 +2739,8 @@ dzo:
   orthographies:
   - autonym: རྫོང་ཁ་
     base: ཀ ཁ ག ང ཅ ཆ ཇ ཉ ཏ ཐ ད ན པ ཕ བ མ ཙ ཚ ཛ ཝ ཞ ཟ འ ཡ ར ལ ཤ ས ཧ ཨ ཊ ཋ ཌ ཎ ཥ
-    design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
+    design_notes:
+    - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
     marks: ◌ི ◌ུ ◌ེ ◌ོ ◌ྵ
     numerals: ༠ ༡ ༢ ༣ ༤ ༥ ༦ ༧ ༨ ༩
     script: Tibetan
@@ -2820,7 +2855,9 @@ enh:
   orthographies:
   - autonym: Онэй база
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ҫ Ӈ Ԑ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҫ ӈ ԑ
-    design_note: Characters Ҫ ҫ are sometimes represented with a cedilla instead of a descender (spike).
+    design_notes:
+    - Characters Ҫ ҫ are sometimes represented with a cedilla instead of a descender (spike).
+    design_alternates: Ҫ ҫ
     marks: ◌̆ ◌̈
     script: Cyrillic
     status: primary
@@ -3596,7 +3633,8 @@ guj:
   - autonym: ગુજરાતી
     auxiliary: ॐ
     base: અ આ ઇ ઈ ઉ ઊ ઋ પ એ ઐ ઓ ઔ ક ખ ગ ઘ ઙ ચ છ જ ઝ ઞ ટ ઠ ડ ઢ ણ ત થ દ ધ ન ફ બ ભ મ ય ર લ વ શ ષ સ હ ળ
-    design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
+    design_notes:
+    - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
     marks: ◌ં ◌ઃ ◌ા ◌િ ◌ી ◌ુ ◌ૂ ◌ૃ ◌ે ◌ૈ ◌ો ◌ૌ ◌્
     numerals: ૦ ૧ ૨ ૩ ૪ ૫ ૬ ૭ ૮ ૯ 0 1 2 3 4 5 6 7 8 9
     punctuation: । ॥ ॰
@@ -3686,7 +3724,8 @@ haj:
   orthographies:
   - autonym: হাজং
     base: অ আ ই উ এ ঐ ও ঔ ক খ গ ঘ ঙ চ ছ জ ঝ ঞ ত থ দ ধ ন প ফ ব ভ ম র হ
-    design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
+    design_notes:
+    - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
     marks: ◌ঁ ◌ং ◌ঃ ◌় ◌া ◌ি ◌ে ◌ৈ ◌্ ◌ৗ
     numerals: ০ ১ ২ ৩ ৪ ৫ ৬ ৭ ৮ ৯
     script: Bengali
@@ -3826,7 +3865,8 @@ hin:
   - autonym: हिन्दी
     auxiliary: ॐ
     base: अ आ इ ई उ ऊ ऋ ए ऐ ओ औ क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र ल व श ष स ह ‌ ‍
-    design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
+    design_notes:
+    - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
     marks: ◌ँ ◌ं ◌ः ◌़ ◌ा ◌ि ◌ी ◌ु ◌ू ◌ृ ◌े ◌ै ◌ो ◌ौ ◌्
     numerals: ० १ २ ३ ४ ५ ६ ७ ८ ९ 0 1 2 3 4 5 6 7 8 9
     punctuation: । ॥ ॰
@@ -4257,7 +4297,8 @@ jav:
   - autonym: ꦧꦱꦗꦮ
     auxiliary: ꦑ ꦖ ꦘ ꦙ ꦜ ꦡ ꦬ ꦰ
     base: ꦄ ꦅ ꦆ ꦇ ꦈ ꦉ ꦊ ꦋ ꦌ ꦍ ꦎ ꦏ ꦐ ꦒ ꦓ ꦔ ꦕ ꦗ ꦚ ꦛ ꦝ ꦞ ꦟ ꦠ ꦢ ꦣ ꦤ ꦥ ꦦ ꦧ ꦨ ꦩ ꦪ ꦫ ꦭ ꦮ ꦯ ꦱ ꦲ
-    design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
+    design_notes:
+    - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
     marks: ◌ꦀ ◌ꦁ ◌ꦂ ◌ꦃ ◌꦳ ◌ꦴ ◌ꦵ ◌ꦶ ◌ꦷ ◌ꦸ ◌ꦹ ◌ꦺ ◌ꦻ ◌ꦼ ◌ꦽ ◌ꦾ ◌ꦿ ◌꧀
     note: The Latin script is the most used nowadays.
     numerals: ꧐ ꧑ ꧒ ꧓ ꧔ ꧕ ꧖ ꧗ ꧘ ꧙ 0 1 2 3 4 5 6 7 8 9
@@ -4486,7 +4527,8 @@ kan:
   orthographies:
   - autonym: ಕನ್ನಡ
     base: ಕ ಖ ಗ ಘ ಙ ಚ ಛ ಜ ಝ ಞ ಟ ಠ ಡ ಢ ಣ ತ ಥ ದ ಧ ನ ಪ ಫ ಬ ಭ ಮ ಯ ರ ಲ ವ ಶ ಷ ಸ ಹ ಳ ಅ ಆ ಇ ಈ ಉ ಊ ಋ ೠ ಎ ಏ ಐ ಒ ಓ ಔ
-    design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
+    design_notes:
+    - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
     marks: ◌ಂ ◌ಃ ◌ಾ ◌ಿ ◌ು ◌ೂ ◌ೃ ◌ೄ ◌ೆ ◌ೌ ◌್ ◌ೕ ◌ೖ
     numerals: ೧ ೨ ೩ ೪ ೫ ೬ ೭ ೮ ೯ ೦
     script: Kannada
@@ -4517,15 +4559,18 @@ kat:
   orthographies:
   - autonym: ქართული
     base: Ა Ბ Გ Დ Ე Ვ Ზ Თ Ი Კ Ლ Მ Ნ Ო Პ Ჟ Რ Ს Ტ Უ Ფ Ქ Ღ Ყ Შ Ჩ Ც Ძ Წ Ჭ Ხ Ჯ Ჰ ა ბ გ დ ე ვ ზ თ ი კ ლ მ ნ ო პ ჟ რ ს ტ უ ფ ქ ღ ყ შ ჩ ც ძ წ ჭ ხ ჯ ჰ
-    design_note: Mkhedruli (lowercase letters) and Mtavruli (capital letters, added to Unicode in 2018). It is recommended that font developers supporting contemporary use of the Georgian language include both sets of letters.
+    design_notes:
+    - Mkhedruli (lowercase letters) and Mtavruli (capital letters, added to Unicode in 2018). It is recommended that font developers supporting contemporary use of the Georgian language include both sets of letters.
     script: Georgian
     status: primary
   - base: Ⴀ Ⴁ Ⴂ Ⴃ Ⴄ Ⴅ Ⴆ Ⴇ Ⴈ Ⴉ Ⴊ Ⴋ Ⴌ Ⴍ Ⴎ Ⴏ Ⴐ Ⴑ Ⴒ Ⴓ Ⴔ Ⴕ Ⴖ Ⴗ Ⴘ Ⴙ Ⴚ Ⴛ Ⴜ Ⴝ Ⴞ Ⴟ Ⴠ Ⴡ Ⴢ Ⴣ Ⴤ Ⴥ
-    design_note: The capital letters (Asomtavruli) of the old ecclesiastical alphabet Khutsuri. Asomtavruli is used intensively in iconography, murals, and exterior design. Asomtavruli and Nuskhuri (the lowercase letters) are officially used by the Georgian Orthodox Church alongside Mkhedruli.
+    design_notes:
+    - The capital letters (Asomtavruli) of the old ecclesiastical alphabet Khutsuri. Asomtavruli is used intensively in iconography, murals, and exterior design. Asomtavruli and Nuskhuri (the lowercase letters) are officially used by the Georgian Orthodox Church alongside Mkhedruli.
     script: Georgian
     status: secondary
   - base: ⴀ ⴁ ⴂ ⴃ ⴄ ⴅ ⴆ ⴇ ⴈ ⴉ ⴊ ⴋ ⴌ ⴍ ⴎ ⴏ ⴐ ⴑ ⴒ ⴓ ⴔ ⴕ ⴖ ⴗ ⴘ ⴙ ⴚ ⴛ ⴜ ⴝ ⴞ ⴟ ⴠ ⴡ ⴢ ⴣ ⴤ ⴥ
-    design_note: The lowercase letters (Nuskhuri) of the old ecclesiastical alphabet Khutsuri. Asomtavruli (the capital letters) and Nuskhuri are officially used by the Georgian Orthodox Church alongside Mkhedruli, today.
+    design_notes:
+    - The lowercase letters (Nuskhuri) of the old ecclesiastical alphabet Khutsuri. Asomtavruli (the capital letters) and Nuskhuri are officially used by the Georgian Orthodox Church alongside Mkhedruli, today.
     script: Georgian
     status: secondary
   source:
@@ -4762,7 +4807,8 @@ khm:
   orthographies:
   - autonym: ភាសាខ្មែរ
     base: ក ខ គ ឃ ង ច ឆ ជ ឈ ញ ដ ឋ ឌ ឍ ណ ត ថ ទ ធ ន ប ផ ព ភ ម យ រ ល វ ស ហ ឡ អ ឥ ឦ ឧ ឩ ឪ ឫ ឬ ឭ ឮ ឯ ឰ ឱ ឲ ឳ
-    design_note: Mark positioning and some character combinations (ligatures) have to be resolved to properly represent the language.
+    design_notes:
+    - Mark positioning and some character combinations (ligatures) have to be resolved to properly represent the language.
     marks: ◌឴ ◌឵ ◌ា ◌ិ ◌ី ◌ឹ ◌ឺ ◌ុ ◌ូ ◌ួ ◌ើ ◌ឿ ◌ៀ ◌េ ◌ែ ◌ៃ ◌ោ ◌ៅ ◌ំ ◌ះ ◌ៈ ◌៉ ◌៊ ◌់ ◌៍ ◌័ ◌្
     script: Khmer
     status: primary
@@ -5342,7 +5388,8 @@ lao:
   orthographies:
   - autonym: ພາສາລາວ
     base: ກ ຂ ຄ ງ ຈ ສ ຊ ຍ ດ ຕ ຖ ທ ນ ບ ປ ຜ ຝ ພ ຟ ມ ຢ ຣ ລ ວ ຫ ອ ຮ ະ າ ເ ແ ໂ ໃ ໄ ຽ
-    design_note: Mark positioning and some character combinations (ligatures) have to be resolved to properly represent the language.
+    design_notes:
+    - Mark positioning and some character combinations (ligatures) have to be resolved to properly represent the language.
     marks: ◌ັ ◌ິ ◌ີ ◌ຶ ◌ື ◌ຸ ◌ູ ◌ົ ◌ຼ ◌່ ◌້ ◌໊ ◌໋ ◌໌ ◌ໍ
     numerals: ໐ ໑ ໒ ໓ ໔ ໕ ໖ ໗ ໘ ໙ 0 1 2 3 4 5 6 7 8 9
     punctuation: ຯ ໆ
@@ -5705,7 +5752,8 @@ mag:
   - autonym: मगही
     auxiliary: ॐ
     base: अ आ इ ई उ ऊ ऋ ए ऐ ओ औ क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र ल व श ष स ह ऎ ऒ ॳ ॴ ॵ ʼ ‌ ‍
-    design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
+    design_notes:
+    - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
     marks: ◌ँ ◌ं ◌ः ◌ऺ ◌ऻ ◌़ ◌ा ◌ि ◌ी ◌ु ◌ू ◌ृ ◌ॆ ◌े ◌ै ◌ॊ ◌ो ◌ौ ◌् ◌ॏ
     numerals: ० १ २ ३ ४ ५ ६ ७ 0 1 2 3 4 5 6 7 8 9
     punctuation: । ॥ ॰
@@ -5739,7 +5787,8 @@ mai:
   - autonym: मैथिली
     auxiliary: ॐ
     base: अ आ इ ई उ ऊ ऋ ए ऐ ओ औ क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र ल व श ष स ह ऎ ऒ ॳ ॴ ॵ ʼ ऽ ‌ ‍
-    design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
+    design_notes:
+    - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
     marks: ◌ँ ◌ं ◌ः ◌ऺ ◌ऻ ◌़ ◌ा ◌ि ◌ी ◌ु ◌ू ◌ृ ◌ॆ ◌े ◌ै ◌ॊ ◌ो ◌ौ ◌् ◌ॏ
     numerals: ० १ २ ३ ४ ५ ६ ७ 0 1 2 3 4 5 6 7 8 9
     punctuation: । ॥ ॰
@@ -5756,7 +5805,8 @@ mal:
   orthographies:
   - autonym: മലയാളം
     base: അ ആ ഇ ഈ ഉ ഊ ഋ ഌ എ ഏ ഐ ഒ ഓ ഔ ക ഖ ഗ ഘ ങ ച ഛ ജ ഝ ഞ ട ഠ ഡ ഢ ണ ത ഥ ദ ധ ന പ ഫ ബ ഭ മ യ ര റ ല ള ഴ വ ശ ഷ സ ഹ ൠ ൡ ൺ ൻ ർ ൽ ൾ ൿ
-    design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
+    design_notes:
+    - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
     marks: ◌ം ◌ഃ ◌ാ ◌ി ◌ീ ◌ു ◌ൂ ◌ൃ ◌െ ◌േ ◌ൈ ◌് ◌ൗ
     numerals: ൦ ൧ ൨ ൩ ൪ ൫ ൬ ൭ ൮ ൯
     script: Malayalam
@@ -5788,7 +5838,8 @@ mar:
   - autonym: मराठी
     auxiliary: ॐ
     base: अ आ इ ई उ ऊ ऋ ए ऐ ओ औ क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र ल ळ व श ष स ह ‌ ‍
-    design_note: Marathi Devanagari (also called Balbodh) uses different forms for some of the characters compared to the Hindi version, e.g. र (eyelash reph), ल, श, and some ligatures. Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
+    design_notes:
+    - Marathi Devanagari (also called Balbodh) uses different forms for some of the characters compared to the Hindi version, e.g. र (eyelash reph), ल, श, and some ligatures. Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
     marks: ◌ँ ◌ं ◌ः ◌़ ◌ा ◌ि ◌ी ◌ु ◌ू ◌ृ ◌े ◌ै ◌ो ◌ौ ◌्
     numerals: ० १ २ ३ ४ ५ ६ ७ 0 1 2 3 4 5 6 7 8 9
     punctuation: । ॥ ॰
@@ -6022,7 +6073,10 @@ mkd:
   orthographies:
   - autonym: Македонски
     base: А Б В Г Д Е Ж З И К Л М Н О П Р С Т У Ф Х Ц Ч Ш Ѓ Ѕ Ј Љ Њ Ќ Џ а б в г д е ж з и к л м н о п р с т у ф х ц ч ш ѓ ѕ ј љ њ ќ џ Ѐ Ѝ ѐ ѝ
-    design_note: Correct positioning of acute and grave accents above some characters may be required. The Cyrillic breve accent uses a different form from the one used in the Latin script even though Unicode treats them as the same character. In italic styles, some characters may use a different form from the Cyrillic used as examples by Unicode.
+    design_notes:
+    - Correct positioning of acute and grave accents above some characters may be required. 
+    - The Cyrillic breve accent uses a different form from the one used in the Latin script even though Unicode treats them as the same character. 
+    - In italic styles, some characters may use a different form from the Cyrillic used as examples by Unicode.
     marks: ◌́ ◌̀
     script: Cyrillic
     status: primary
@@ -6090,7 +6144,8 @@ mni:
   orthographies:
   - autonym: মৈতৈলোন্‎
     base: অ আ ই উ এ ঐ ও ঔ ক খ গ ঘ ঙ চ জ ঝ ঞ ত থ দ ধ ন প ফ ব ভ ম ৰ র ল ৱ স হ
-    design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
+    design_notes:
+    - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
     marks: ◌ঁ ◌ং ◌ঃ ◌় ◌া ◌ি ◌ু ◌ে ◌ৈ ◌্ ◌ৗ
     numerals: ০ ১ ২ ৩ ৪ ৫ ৬ ৭ ৮ ৯
     script: Bengali
@@ -6121,7 +6176,8 @@ mnw:
   orthographies:
   - autonym: ဘာသာ မန်
     base: က ခ ဂ ဃ င စ ဆ ဇ ဈ ဉ ည ဋ ဌ ဍ ဎ ဏ တ ထ ဒ ဓ န ပ ဖ ဗ ဘ မ ယ ရ လ ဝ သ ဟ ဠ အ ဢ ဣ ဤ ဥ ဦ ဧ ဨ ဩ ဪ ဿ ၀ ၁ ၂ ၃ ၄ ၅ ၆ ၇ ၈ ၉ ၊ ။ ၌ ၍ ၎ ၏ ၐ ၑ ၒ ၓ ၔ ၕ ၚ ၛ ၜ ၝ ၡ ၥ ၦ ၮ ၯ ၰ ၵ ၶ ၷ ၸ ၹ ၺ ၻ ၼ ၽ ၾ ၿ ႀ ႁ ႎ ႐ ႑ ႒ ႓ ႔ ႕ ႖ ႗ ႘ ႙ ႞ ႟
-    design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
+    design_notes:
+    - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
     marks: ◌ါ ◌ာ ◌ိ ◌ီ ◌ု ◌ူ ◌ေ ◌ဲ ◌ဳ ◌ဴ ◌ဵ ◌ံ ◌့ ◌း ◌္ ◌် ◌ျ ◌ြ ◌ွ ◌ှ ◌ၖ ◌ၗ ◌ၘ ◌ၙ ◌ၞ ◌ၟ ◌ၠ ◌ၢ ◌ၣ ◌ၤ ◌ၧ ◌ၨ ◌ၩ ◌ၪ ◌ၫ ◌ၬ ◌ၭ ◌ၱ ◌ၲ ◌ၳ ◌ၴ ◌ႂ ◌ႃ ◌ႄ ◌ႅ ◌ႆ ◌ႇ ◌ႈ ◌ႉ ◌ႊ ◌ႋ ◌ႌ ◌ႍ ◌ႏ ◌ႚ ◌ႛ ◌ႜ ◌ႝ
     script: Mon-Burmese
     status: primary
@@ -6358,7 +6414,8 @@ mya:
   orthographies:
   - autonym: မြန်မာစာ / မြန်မာစကား
     base: က ခ ဂ ဃ င စ ဆ ဇ ဈ ဉ ည ဋ ဌ ဍ ဎ ဏ တ ထ ဒ ဓ န ပ ဖ ဗ ဘ မ ယ ရ လ ဝ သ ဣ ဤ ဥ ဦ ဧ ဩ ဪ
-    design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
+    design_notes:
+    - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
     marks: ◌ါ ◌ာ ◌ိ ◌ီ ◌ု ◌ူ ◌ေ ◌ဲ ◌ံ ◌့ ◌း ◌္ ◌် ◌ျ ◌ြ ◌ွ ◌ှ ◌ၖ ◌ၗ
     note: The autonym မြန်မာစာ refers to written Burmese while မြန်မာစကား refers to spoken Burmese.
     script: Burmese
@@ -6459,8 +6516,10 @@ nav:
   name: Navajo
   orthographies:
   - autonym: Diné Bizaad
-    base: A Ą B C D E Ę G H I Į J K L Ł M N O Ǫ S T W X Y Z a á ą ą́ b c d e é ę ę́ g h i í įį́ j k l ł m n o ó ǫ ǫ́ s t w x y z ʼ
-    design_note: The positioning of the ogonek mark may differ from its positioning in Polish and Lithuanian. It is typically centered below the vowel.
+    base: A Ą B C D E Ę G H I Į J K L Ł M N O Ǫ S T W X Y Z a á ą ą́ b c d e é ę ę́ g h i í į į́ j k l ł m n o ó ǫ ǫ́ s t w x y z ʼ
+    design_notes:
+    - The positioning of the ogonek mark may differ from its positioning in Polish and Lithuanian. It is typically centered below the vowel.
+    design_alternates: Ą Ę Į Ǫ ą ą́ ę ę́ į į́ ǫ ǫ́
     marks: ◌́ ◌̨
     script: Latin
     status: primary
@@ -6635,7 +6694,8 @@ nld:
   - autonym: Nederlands
     auxiliary: ȷ
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á Â Ä È É Ê Ë Í Ï Ó Ô Ö Ú Û Ü Ĳ a b c d e f g h i j k l m n o p q r s t u v w x y z á â ä è é ê ë í ï ó ô ö ú û ü ĳ
-    design_note: To support a combination of ‹ĳ› with an acute mark, ‹ȷ› with an acute mark should follow ‹í›. Font developers provide automated substitutions in their fonts to make such character recomposition work.
+    design_notes:
+    - To support a combination of ‹ĳ› with an acute mark, ‹ȷ› with an acute mark should follow ‹í›. Font developers provide automated substitutions in their fonts to make such character recomposition work.
     marks: ◌̀ ◌́ ◌̂ ◌̈
     script: Latin
     status: primary
@@ -6761,7 +6821,8 @@ npi:
   - autonym: नेपाली
     auxiliary: ॐ
     base: अ आ इ ई उ ऊ ऋ ए ऐ ओ औ क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र ल ळ व श ष स ह ‌ ‍
-    design_note: Nepali Devanagari uses different forms for some of the characters compared to the Hindi version, e.g. झ and some ligatures. Numerals five, eight, and nine differ too. Nepali orthographies prefer a smaller number of ligatures than commonly used in Hindi or Marathi. Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
+    design_notes:
+    - Nepali Devanagari uses different forms for some of the characters compared to the Hindi version, e.g. झ and some ligatures. Numerals five, eight, and nine differ too. Nepali orthographies prefer a smaller number of ligatures than commonly used in Hindi or Marathi. Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
     marks: ◌ँ ◌ं ◌ः ◌़ ◌ा ◌ि ◌ी ◌ु ◌ू ◌ृ ◌े ◌ै ◌ो ◌ौ ◌्
     numerals: ० १ २ ३ ४ ५ ६ ७ 0 1 2 3 4 5 6 7 8 9
     punctuation: । ॥ ॰
@@ -6928,7 +6989,8 @@ onw:
   orthographies:
   - auxiliary: ⲁ̇ ⲉ̇ ⲓ̇ ⲟ̇ ⲥ̇ ⲩ̇ ⲱ̇
     base: ⲁ ⲃ ⲅ ⲇ ⲉ ⲍ ⲏ ⲓ ⲕ ⲗ ⲙ ⲛ ⲟ ⲡ ⲣ ⲥ ⲧ ⲩ ⲫ ⲱ ⳡ ⳣ ⳝ ⳟ ϣ ϩ ⲑ ⲝ ⲭ ⲯ ⲁ̄ ⲃ̄ ⲅ̄ ⲇ̄ ⲉ̄ ⲍ̄ ⲏ̄ ⲕ̄ ⲗ̄ ⲙ̄ ⲛ̄ ⲟ̄ ⲡ̄ ⲣ̄ ⲥ̄ ⲧ̄ ⲩ̄ ⲫ̄ ⲱ̄ ⳡ̄ ⳣ̄ ⳟ̄ ϣ̄ ϩ̄ ⲑ̄ ⲝ̄ ⲭ̄ ⲯ̄ ⲓ̈
-    design_note: Nearly all Old Nubian texts have been written in a slanted uncial variant of the Coptic script.
+    design_notes:
+    - Nearly all Old Nubian texts have been written in a slanted uncial variant of the Coptic script.
     marks: ◌̄ ◌̈ ◌̇
     note: Some authors prefer to use dot mark above instead of macron.
     script: Coptic/Nubian
@@ -7036,7 +7098,8 @@ pan:
   - autonym: ਪੰਜਾਬੀ,
     auxiliary: ॐ
     base: ਅ ਬ ਭ ਗ ਧ ਢ ੲ ਵ ਦ ਡ ਹ ਘ ਥ ਠ ਯ ਕ ਚ ਲ ਮ ਨ ਣ ਸ ੳ ਪ ਫ ਖ ਛ ਰ ਤ ਟ ਜ
-    design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
+    design_notes:
+    - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
     marks: ◌਼ ◌ਾ ◌ਿ ◌ੀ ◌ੁ ◌ੂ ◌ੇ ◌ੈ ◌ੋ ◌ੌ
     note: Used in India.
     numerals: ੦ ੧ ੨ ੩ ੪ ੫ ੬ ੭ ੮ ੯ 0 1 2 3 4 5 6 7 8 9
@@ -7045,7 +7108,8 @@ pan:
     status: primary
   - autonym: پن٘جابی
     base: ا ب پ ت ٹ ث ج چ ح خ د ڈ ذ ر ڑ ز ژ س ش ص ض ط ظ ع غ ف ق ک گ ل م ن ݨ ں و ه ھ ء ی ے
-    design_note: Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
+    design_notes:
+    - Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
     marks: ◌ؕ
     note: Used in Pakistan.
     script: Arabic
@@ -7103,7 +7167,8 @@ pbu:
   orthographies:
   - autonym: یوسفزئی پښتو
     base: ﺍ ﺏ پ ﺕ ټ ﺙ ﺝ چ ﺡ ﺥ څ ځ ﺩ ډ ﺫ ﺭ ړ ﺯ ژ ږ ﺱ ﺵ ښ ﺹ ﺽ ﻁ ﻅ ﻉ ﻍ ﻑ ﻕ ک ګ ﻝ ﻡ ﻥ ڼ ﻭ ه ۀ ي ې ی ۍ ئ
-    design_note: Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
+    design_notes:
+    - Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
     marks: ◌ٔ
     script: Arabic
     status: primary
@@ -7132,7 +7197,8 @@ pes:
   orthographies:
   - autonym: فارسی
     base: ء أ ؤ ئ ا ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ل م ن ه و پ چ ژ ک گ ی
-    design_note: Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
+    design_notes:
+    - Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
     marks: ◌َ ◌ُ ◌ِ ◌ْ ◌ٔ ◌ٰ
     numerals: ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹ 0 1 2 3 4 5 6 7 8 9
     script: Arabic
@@ -7448,7 +7514,8 @@ rah:
   orthographies:
   - autonym: রাভা‎
     base: ৺ অ আ ই উ এ ঐ ও ঔ ক খ গ ঘ ঙ চ ছ জ ঝ ঞ ট ঠ ড ঢ ণ ত থ দ ধ ন প ফ ব ভ ম য র ৰ ল ৱ শ ষ স হ ʼ
-    design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
+    design_notes:
+    - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
     marks: ◌ঁ ◌ং ◌ঃ ◌় ◌া ◌ি ◌ু ◌ে ◌ৈ ◌্ ◌ৗ
     numerals: ০ ১ ২ ৩ ৪ ৫ ৬ ৭ ৮ ৯
     script: Bengali
@@ -7481,7 +7548,8 @@ rkt:
   orthographies:
   - autonym: রংপুরী
     base: ৺ অ আ ই ঈ উ ঊ ঋ এ ঐ ও ঔ ক খ গ ঘ ঙ চ ছ জ ঝ ঞ ট ঠ ড ঢ ণ ত থ দ ধ ন প ফ ব ভ ম য র ৰ ল ৱ শ ষ স হ
-    design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
+    design_notes:
+    - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
     marks: ◌ঁ ◌ং ◌ঃ ◌় ◌া ◌ি ◌ী ◌ু ◌ূ ◌ৃ ◌ে ◌ৈ ◌্ ◌ৗ
     numerals: ০ ১ ২ ৩ ৪ ৫ ৬ ৭ ৮ ৯
     script: Bengali
@@ -7552,7 +7620,8 @@ ron:
   - autonym: Română
     auxiliary: Ş Ţ ş ţ
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Â Î Ă Ș Ț a b c d e f g h i j k l m n o p q r s t u v w x y z â î ă ș ț
-    design_note: The characters ‹Ș,ș› and ‹Ț,ț› have been represented with ‹Ş,ş› and ‹Ţ,ţ› in the past. The former character codepoints may still appear in some legacy encodings. To resolve this and to avoid discrepancy (the marks below both character pairs ought to be identical) some font developers use automated substitutions in their OpenType fonts.
+    design_notes:
+    - The characters ‹Ș,ș› and ‹Ț,ț› have been represented with ‹Ş,ş› and ‹Ţ,ţ› in the past. The former character codepoints may still appear in some legacy encodings. To resolve this and to avoid discrepancy (the marks below both character pairs ought to be identical) some font developers use automated substitutions in their OpenType fonts.
     marks: ◌̂ ◌̆ ◌̦ ◌̧
     note: Used also for Romanian spoken in Moldavia (sometimes called Moldavian).
     script: Latin
@@ -7583,7 +7652,9 @@ rue:
   orthographies:
   - autonym: Руски
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ь Э Ю Я Ё Є І Ї Ґ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ь э ю я ё є і ї ґ
-    design_note: The Cyrillic breve accent uses a different form from the one used in the Latin script even though Unicode treats them as the same character.
+    design_notes:
+    - The Cyrillic breve accent uses a different form from the one used in the Latin script even though Unicode treats them as the same character.
+    design_alternates: ◌̆
     marks: ◌̆ ◌̈
     script: Cyrillic
     status: primary
@@ -7660,7 +7731,10 @@ rus:
   - autonym: Русский
     auxiliary: А́ Е́ И́ О́ У́ Ы́ Э́ Ю́ Я́ а́ е́ и́ о́ у́ ы́ э́ ю́ я́
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё
-    design_note: Correct positioning of an acute accent (used to mark stress) above some characters may be required. The Cyrillic breve accent uses a different form from the one used in the Latin script even though Unicode treats them as the same character.
+    design_notes:
+    - Correct positioning of an acute accent (used to mark stress) above some characters may be required.
+    - The Cyrillic breve accent uses a different form from the one used in the Latin script even though Unicode treats them as the same character.
+    design_alternates: ◌̆
     marks: ◌̆ ◌̈ ◌́
     script: Cyrillic
     status: primary
@@ -7736,7 +7810,8 @@ san:
   - autonym: संस्कृतम्
     auxiliary: ॐ
     base: अ आ इ ई उ ऊ ऋ ॠ ऌ ॡ ए ऐ ओ औ क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र ल ळ व श ष स ह ‌ ‍
-    design_note: Sanskrit Devanagari uses different forms for some of the characters and character combinations compared to the Hindi version. Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
+    design_notes:
+    - Sanskrit Devanagari uses different forms for some of the characters and character combinations compared to the Hindi version. Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
     marks: ◌ँ ◌ं ◌ः ◌़ ◌ा ◌ि ◌ी ◌ु ◌ू ◌ृ ◌े ◌ै ◌ो ◌ौ ◌्
     note: Sanskrit has been written using a variety of Brahmic scrits and, later, also the Latin-script transliteration. There a no native speakers of Sanskrit.
     numerals: ० १ २ ३ ४ ५ ६ ७ ८ ९ 0 1 2 3 4 5 6 7 8 9
@@ -7941,7 +8016,8 @@ shn:
   orthographies:
   - autonym: လိၵ်ႈတႆး / ၵႂၢမ်းတႆး
     base: ၵ ၶ င ၸ သ ၺ တ ထ ၼ ပ ၽ ၾ မ ယ ရ လ ဝ ႁ ဢ a i ( )
-    design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
+    design_notes:
+    - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
     marks: ◌ိ ◌ီ ◌ု ◌ူ ◌ေ ◌ဵ ◌း ◌် ◌ျ ◌ြ ◌ွ ◌ၢ ◌ႂ ◌ႃ ◌ႄ ◌ႅ ◌ႆ ◌ႇ ◌ႈ ◌ႉ ◌ႊ
     note: The autonym လိၵ်ႈတႆး refers to the written Shan while ၵႂၢမ်းတႆး refers to the spoken Shan.
     script: Burmese
@@ -7983,7 +8059,8 @@ sin:
   orthographies:
   - autonym: සිංහල
     base: අ ආ ඇ ඈ ඉ ඊ උ ඌ ඍ ඎ එ ඒ ඓ ඔ ඕ ඖ ට ඨ ඩ ඪ ණ ඬ ත ථ ද ධ න ඳ ප ඵ බ භ ම ඹ ය ර ල ව ළ ශ ෂ ස හ ෆ
-    design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
+    design_notes:
+    - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
     script: Sinhala
     status: primary
   source:
@@ -8072,7 +8149,8 @@ skr:
   orthographies:
   - autonym: سرائیکی
     base: ا ب ٻ پ ت ٹ ث ج ڄ چ ح خ د ڊ ڈ ݙ ذ ر ڑ ز ژ س ش ص ض ط ظ ع غ ف ق ک گ ڳ ل م ن ݨ و ہ ھ ء ی ے ي
-    design_note: Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
+    design_notes:
+    - Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
     marks: ◌ٔ
     script: Arabic
     status: primary
@@ -8230,7 +8308,8 @@ snd:
   - autonym: सिन्धी
     auxiliary: ॐ
     base: अ आ इ ई उ ऊ ऋ ए ऐ ओ औ क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र ल ळ व श ष स ह ॻ ॼ ॾ ॿ ‌ ‍
-    design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
+    design_notes:
+    - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
     marks: ◌ँ ◌ं ◌ः ◌़ ◌ा ◌ि ◌ी ◌ु ◌ू ◌ृ ◌े ◌ै ◌ो ◌ौ ◌्
     note: Used in India
     numerals: ० १ २ ३ ४ ५ ६ ७ 0 1 2 3 4 5 6 7 8 9
@@ -8239,7 +8318,8 @@ snd:
     status: primary
   - autonym: سنڌي
     base: ء أ ؤ ئ ا ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ل م ن ه و پ چ ژ ک گ ی ڄ ٺ ٽ ٿ ڀ ٻ ڙ ڍ ڊ ڏ ڌ ڇ ڃ ڦ ڻ ڱ ڳ ڪ
-    design_note: Nastaʼlīq style of the Arabic script is preferred. Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
+    design_notes:
+    - Nastaʼlīq style of the Arabic script is preferred. Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
     marks: ◌َ ◌ُ ◌ِ ◌ْ ◌ٔ ◌ٰ
     note: Used in Pakistan
     numerals: ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹ 0 1 2 3 4 5 6 7 8 9
@@ -8379,7 +8459,8 @@ srp:
   orthographies:
   - autonym: Српски
     base: А Б В Г Д Е Ж З И К Л М Н О П Р С Т У Ф Х Ц Ч Ш Ђ Ј Љ Њ Ћ Џ З́ С́ а б в г д е ж з и к л м н о п р с т у ф х ц ч ш ђ ј љ њ ћ џ з́ с́
-    design_note: Correct positioning of an acute accent above some characters may be required. The Cyrillic breve accent uses a different form from the one used in the Latin script even though Unicode treats them as the same character. In italic styles, some characters may use a different form from the Cyrillic used as examples by Unicode.
+    design_notes:
+    - Correct positioning of an acute accent above some characters may be required. The Cyrillic breve accent uses a different form from the one used in the Latin script even though Unicode treats them as the same character. In italic styles, some characters may use a different form from the Cyrillic used as examples by Unicode.
     marks: ◌́
     preferred_as_group: true
     script: Cyrillic
@@ -8387,7 +8468,8 @@ srp:
   - autonym: Srpski
     auxiliary: Ǆ ǅ ǆ Ǉ ǈ ǉ Ǌ ǋ ǌ
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ć Č Đ Ś Š Ź Ž a b c d e f g h i j k l m n o p q r s t u v w x y z ć č đ ś š ź ž
-    design_note: Digraphs ‹dž›, ‹lj›, and ‹nj› in their uppercase, titlecase, and lowercase forms have dedicated Unicode codepoints in the auxiliary set. However, these were included chiefly for backwards compatibility with legacy encodings which kept a one-to-one correspondence with Cyrillic.
+    design_notes:
+    - Digraphs ‹dž›, ‹lj›, and ‹nj› in their uppercase, titlecase, and lowercase forms have dedicated Unicode codepoints in the auxiliary set. However, these were included chiefly for backwards compatibility with legacy encodings which kept a one-to-one correspondence with Cyrillic.
     marks: ◌́ ◌̌
     preferred_as_group: true
     script: Latin
@@ -8453,7 +8535,8 @@ sun:
   - autonym: ᮘᮞ ᮞᮥᮔ᮪ᮓ
     auxiliary: ᮮ ᮯ ᮻ ᮼ ᮽ ᮾ ᮿ
     base: ᮊ ᮌ ᮍ ᮎ ᮏ ᮑ ᮒ ᮓ ᮔ ᮕ ᮘ ᮙ ᮚ ᮛ ᮜ ᮝ ᮞ ᮠ ᮖ ᮋ ᮗ ᮟ ᮐ ᮃ ᮆ ᮄ ᮇ ᮅ ᮈ ᮉ
-    design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
+    design_notes:
+    - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
     marks: ◌ᮀ ◌ᮁ ◌ᮂ ◌ᮡ ◌ᮢ ◌ᮣ ◌ᮤ ◌ᮥ ◌ᮦ ◌ᮧ ◌ᮨ ◌ᮩ ◌᮪ ◌ᮬ ◌ᮭ
     numerals: ᮱ ᮲ ᮳ ᮴ ᮵ ᮶ ᮷ ᮸ ᮹ ᮰ 1 2 3 4 5 6 7 8 9 0
     punctuation: ᳀ ᳁ ᳂ ᳃ ᳄ ᳅ ᳆ ᳇
@@ -8484,7 +8567,8 @@ swb:
   orthographies:
   - autonym: شِكُمُرِ
     base: ح چ ج ث ت پ ب ا س ز ر ذ د خ ڠ غ ع ظ ط ض ص ش ن م ل ڬ ك ق ڤ ڢ ف ي و ه
-    design_note: Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
+    design_notes:
+    - Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
     marks: ◌َ ◌ُ ◌ِ ◌ّ
     script: Arabic
     status: secondary
@@ -8608,7 +8692,8 @@ tam:
   orthographies:
   - autonym: தமிழ்
     base: அ ஆ இ ஈ உ ஊ எ ஏ ஐ ஒ ஓ ஔ ஃ க ங ச ஞ ட ண த ந ப ம ய ர ல வ ழ ள ற ன ஜ ஶ ஷ ஸ ஹ
-    design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
+    design_notes:
+    - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
     marks: ◌ா ◌ி ◌ீ ◌ு ◌ூ ◌ெ ◌ே ◌ை ◌் ◌ௗ
     numerals: 0 ௧ ௨ ௩ ௪ ௫ ௬ ௭ ௮ ௯ ௰ ௱ ௲ 1 2 3 4 5 6 7 8 9
     script: Tamil
@@ -8697,7 +8782,8 @@ tel:
   orthographies:
   - autonym: తెలుగు
     base: అ భ ఇ ఉ ఋ ఌ ఎ ఐ ఒ ఔ ఆ ఈ ఊ ౠ ౡ ఏ ఓ క ఖ గ ఘ ఙ చ ఛ జ ఝ ఞ ట ఠ డ ఢ ణ త థ ద ధ న ప ఫ బ మ య ర ల వ ళ శ ష స హ ఱ
-    design_note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
+    design_notes:
+    - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
     marks: ◌ఁ ◌ం ◌ః ◌ా ◌ి ◌ీ ◌ు ◌ూ ◌ృ ◌ౄ ◌ె ◌ే ◌ొ ◌ో ◌ౌ ◌్ ◌ౖ ◌ౢ ◌ౣ
     numerals: ౦ ౧ ౨ ౩ ౪ ౫ ౬ ౭ ౮ ౯ ౸ ౹ ౺ ౻ ౼ ౽ ౾
     script: Telugu
@@ -8795,7 +8881,8 @@ tha:
   orthographies:
   - autonym: ภาษาไทย
     base: ก ข ฃ ค ฅ ฆ ง จ ฉ ช ซ ฌ ญ ฎ ฏ ฐ ฑ ฒ ณ ด ต ถ ท ธ น บ ป ผ ฝ พ ฟ ภ ม ย ร ล ว ศ ษ ส ห ฬ อ ฮ ะ า เ โ ใ ไ ฤ ๅ ฦ
-    design_note: Mark positioning and some character combinations (ligatures) have to be resolved to properly represent the language.
+    design_notes:
+    - Mark positioning and some character combinations (ligatures) have to be resolved to properly represent the language.
     marks: ◌̍ ◌̎ ◌ั ◌ิ ◌ุ ◌ู ◌็ ◌ํ
     numerals: ๐ ๑ ๒ ๓ ๔ ๕ ๖ ๗ ๘ ๙ 0 1 2 3 4 5 6 7 8 9
     punctuation: ๏ ๛
@@ -9248,7 +9335,8 @@ uig:
     status: secondary
   - autonym: ئۇيغۇرچە
     base: ئ ا ب ت ج خ د ر ز س ش غ ف ق ك ل م ن و ي پ چ ژ ڭ گ ھ ۆ ۇ ۈ ۋ ې ە
-    design_note: Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
+    design_notes:
+    - Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
     marks: ◌ٔ
     script: Arabic
     status: primary
@@ -9270,7 +9358,9 @@ ukr:
   - autonym: Українська
     auxiliary: А́ Е́ И́ О́ У́ Ы́ Э́ ю́ я́ а́ е́ и́ о́ у́ ы́ э́ ю́ я́
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ь Э Ю Я Є І Ї Ґ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ь э ю я є і ї ґ ’
-    design_note: The Cyrillic breve accent uses a different form from the one used in the Latin script even though Unicode treats them as the same character.
+    design_notes:
+    - The Cyrillic breve accent uses a different form from the one used in the Latin script even though Unicode treats them as the same character.
+    design_alternates: ◌̆
     marks: ◌̆ ◌̈ ◌́
     script: Cyrillic
     status: primary
@@ -9345,7 +9435,8 @@ urd:
   orthographies:
   - autonym: اُردُو
     base: ء ا ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ل م ن و ٹ پ چ ڈ ڑ ژ ک گ ں ھ ہ ی
-    design_note: Nastaʼlīq style of the Arabic script is preffered. Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
+    design_notes:
+    - Nastaʼlīq style of the Arabic script is preffered. Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
     marks: ◌َ ◌ُ ◌ِ ◌ْ ◌ٰ
     numerals: ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹ 0 1 2 3 4 5 6 7 8 9
     script: Arabic
@@ -9403,7 +9494,8 @@ uzs:
   orthographies:
   - autonym: وزبیکی
     base: ء ئ ا ب ت ج ح خ د ر ز س ش غ ف ق ك ل م ن ه و ى ي پ چ ژ ڭ گ ھ ۇ ۋ ې ک ی
-    design_note: Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
+    design_notes:
+    - Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
     marks: ◌ٔ
     script: Arabic
     status: primary
@@ -9477,7 +9569,10 @@ vie:
   orthographies:
   - autonym: Tiếng Việt
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Á Â Ã È É Ê Ì Í Ò Ó Ô Õ Ù Ú Ý Ă Đ Ĩ Ũ Ơ Ư Ạ Ả Ấ Ầ Ẩ Ẫ Ậ Ắ Ằ Ẳ Ẵ Ặ Ẹ Ẻ Ẽ Ế Ề Ể Ễ Ệ Ỉ Ị Ọ Ỏ Ố Ồ Ổ Ỗ Ộ Ớ Ờ Ở Ỡ Ợ Ụ Ủ Ứ Ừ Ử Ữ Ự Ỳ Ỵ Ỷ Ỹ a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ã è é ê ì í ò ó ô õ ù ú ý ă đ ĩ ũ ơ ư ạ ả ấ ầ ẩ ẫ ậ ắ ằ ẳ ẵ ặ ẹ ẻ ẽ ế ề ể ễ ệ ỉ ị ọ ỏ ố ồ ổ ỗ ộ ớ ờ ở ỡ ợ ụ ủ ứ ừ ử ữ ự ỳ ỵ ỷ ỹ
-    design_note: The stacked combinations of marks often require adapted design of the individual marks (smaller, shallower). There is no consensus regarding the position of acute and a  above the circumflex.
+    design_notes: 
+    - The stacked combinations of marks often require adapted design of the individual marks (smaller, shallower).
+    - There is no consensus regarding the position of acute and a above the circumflex.
+    design_alternates: Ấ Ầ Ẩ Ẫ Ắ Ằ Ẳ Ẵ Ế Ề Ể Ễ Ố Ồ Ỗ ấ ầ ẩ ẫ ắ ằ ẳ ẵ ế ề ể ễ ố ồ ổ ỗ
     marks: ◌̀ ◌́ ◌̂ ◌̃ ◌̆ ◌̉ ◌̛ ◌̣
     script: Latin
     status: primary
@@ -10132,7 +10227,8 @@ zdj:
   orthographies:
   - autonym: شِكُمُرِ
     base: ح چ ج ث ت پ ب ا س ز ر ذ د خ ڠ غ ع ظ ط ض ص ش ن م ل ڬ ك ق ڤ ڢ ف ي و ه
-    design_note: Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
+    design_notes:
+    - Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
     marks: ◌َ ◌ُ ◌ِ ◌ّ
     script: Arabic
     status: secondary
@@ -10201,7 +10297,8 @@ zsm:
     status: primary
   - autonym: مليسيا‎
     base: ء ‎ ا ب ة ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ل م ن ه و ى ي چ ڠ ڤ ک ڽ ۏ ݢ
-    design_note: Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
+    design_notes:
+    - Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
     note: Jawi
     numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩
     script: Arabic

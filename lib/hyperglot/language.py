@@ -375,6 +375,10 @@ class Orthography(dict):
     def required_marks(self):
         return self._all_required_marks()
 
+    @property
+    def design_alternates(self):
+        return self._character_list("design_alternates")
+
     # "Private" methods
 
     def _character_list(self, attr):

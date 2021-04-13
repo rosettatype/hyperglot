@@ -92,11 +92,16 @@ def check_types(Langs):
                 allowed = ["autonym", "inherit", "script", "base", "marks",
                            "auxiliary", "numerals", "status", "note",
                            "punctuation",  # tolerated for now, but unused
-                           "preferred_as_group", "design_note"]
+                           "preferred_as_group",
+                           "design_notes", "design_alternates"]
                 invalid = [k for k in o.keys() if k not in allowed]
                 if len(invalid):
                     log.warning("'%s' has invalid orthography keys: '%s'" %
                                 (iso, "', '".join(invalid)))
+
+                if "design_notes" in o and type(o["design_notes"]) is not list:
+                    log.error("'%s' has a 'design_notes' which is not a list: "
+                              "%s" % (iso, o["design_notes"]))
 
                 if "status" not in o:
                     log.error("'%s' has an orthography (script '%s') that is "
@@ -117,8 +122,8 @@ def check_types(Langs):
         if "name" not in lang and "preferred_name" not in lang:
             log.error("'%s' has neither 'name' nor 'preferred_name'" % iso)
 
-        if "name" in lang and "preferred_name" in lang and \
-                lang["name"] == lang["preferred_name"]:
+        if "name" in lang and "preferred_name" in lang \
+                and lang["name"] == lang["preferred_name"]:
             log.error("'%s' has 'name' and 'preferred_name', but they are "
                       "identical" % iso)
 

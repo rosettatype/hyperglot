@@ -1,5 +1,10 @@
 # A changelog for the lib/hyperglot CLI tool
 
+## 0.3.2 (13.04.2021)
+- DATA: Renamed `design_note` to `design_notes` and made its data structure a list
+- DATA: Introduced `design_alternates` - a list of characters which may require special design in a font supporting an orthography
+- DATA: Added `design_alternates` for several Cyrillic and Latin languages
+
 ## 0.3.1 (12.04.2021)
 - DATA: Corrected speaker count for Manipuri
 - DATA: Updates to Andaandi and Old Nubian
