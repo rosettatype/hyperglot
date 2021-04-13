@@ -1,8 +1,7 @@
-import copy
 import logging
 import unicodedata2
-from .parse import parse_chars, list_unique, parse_marks, character_list_from_string
-from . import SUPPORTLEVELS, CHARACTER_ATTRIBUTES, MARK_BASE
+from .parse import parse_chars, parse_marks, remove_mark_base, list_unique
+from . import SUPPORTLEVELS, CHARACTER_ATTRIBUTES
 
 log = logging.getLogger(__name__)
 
@@ -295,7 +294,6 @@ class Language(dict):
                     for c in base:
                         decomposed = set(parse_chars(c))
                         if c in chars or decomposed.issubset(chars):
-                            # print(c, decomposed, c in chars, decomposed.issubset(chars))
                             supported = True
                             continue
                         supported = False
@@ -377,7 +375,7 @@ class Orthography(dict):
 
     @property
     def design_alternates(self):
-        return self._character_list("design_alternates")
+        return [remove_mark_base(chars) for chars in self._character_list("design_alternates")]
 
     # "Private" methods
 

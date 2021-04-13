@@ -206,6 +206,10 @@ def parse_marks(input, decompose=True):
     if isinstance(input, list) or isinstance(input, set):
         input = " ".join(input)
 
-    input = re.sub(MARK_BASE, "", input)
+    input = remove_mark_base(input)
     chars = parse_chars(input, decompose=decompose)
     return [c.strip() for c in chars if uni.category(c).startswith("M")]
+
+
+def remove_mark_base(input, replace=""):
+    return re.sub(MARK_BASE, replace, input)

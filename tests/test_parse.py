@@ -5,6 +5,7 @@ import os
 from hyperglot.parse import (parse_chars, parse_font_chars, parse_marks,
                              character_list_from_string,
                              sort_by_character_type,
+                             remove_mark_base,
                              list_unique)
 
 
@@ -95,6 +96,11 @@ def test_sort_by_character_type():
     assert sort_by_character_type(expected) == expected
 
 
+def test_remove_mark_base():
+    assert remove_mark_base("◌̀ ◌́ ◌̆") == "̀ ́ ̆"
+    assert remove_mark_base("Д Л Ѐ Ѝ в г д ж з и й ѝ к л п п т т ц ч ш щ ю д л ◌̆") == "Д Л Ѐ Ѝ в г д ж з и й ѝ к л п п т т ц ч ш щ ю д л ̆"  # noqa
+
+
 def test_parse_marks():
     assert parse_marks("ä ö å") == ['̈', '̊']
     assert parse_marks("A B C") == []
@@ -106,6 +112,6 @@ def test_parse_marks():
         "А́ Е́ И́ О́ У́ Ы́ Э́ ю́ я́ а́ е́ и́ о́ у́ ы́ э́ ю́ я́") == ["́"]
 
     assert ['̀', '̂', '̃', '̄', '̆', '̈', '̊', '̧'] == parse_marks(
-        "À Â Å Æ Ç È Ê Ë Ì Î Ï Ñ Ò Ô Ø Ù Û Ÿ Ā Ă Ē Ĕ Ī Ĭ Ō Ŏ Œ Ū Ŭ ß à â å æ ç è ê ë ì î ï ñ ò ô ø ù û ÿ ā ă ē ĕ ī ĭ ō ŏ œ ū ŭ") # noqa
+        "À Â Å Æ Ç È Ê Ë Ì Î Ï Ñ Ò Ô Ø Ù Û Ÿ Ā Ă Ē Ĕ Ī Ĭ Ō Ŏ Œ Ū Ŭ ß à â å æ ç è ê ë ì î ï ñ ò ô ø ù û ÿ ā ă ē ĕ ī ĭ ō ŏ œ ū ŭ")  # noqa
     assert ['́', '̃', '̈', '̌'] == parse_marks(
-        "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á Ã Ä É Í Ó Õ Ö Ú Ü Č Š Ũ a b c d e f g h i j k l m n o p q r s t u v w x y z á ã ä é í ó õ ö ú ü č š ũ") # noqa
+        "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á Ã Ä É Í Ó Õ Ö Ú Ü Č Š Ũ a b c d e f g h i j k l m n o p q r s t u v w x y z á ã ä é í ó õ ö ú ü č š ũ")  # noqa
