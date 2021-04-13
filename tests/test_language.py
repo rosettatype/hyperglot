@@ -329,7 +329,7 @@ def test_orthography_required_marks():
 
     auxiliary: А̀ О̀ У̀ Ъ̀ Ю̀ Я̀ а̀ о̀ у̀ ъ̀ ю̀ я̀
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ь Ю Я Ѐ Ѝ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ь ю я ѐ ѝ
-    marks: ◌̀ ◌́ ◌̆
+    marks: ◌̀ ◌̆
     """
     bul = Language(Langs["bul"], "bul")
     ort = Orthography(bul["orthographies"][0])

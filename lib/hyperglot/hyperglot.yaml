@@ -1201,9 +1201,9 @@ bel:
   - autonym: Беларуская
     auxiliary: Ґ ґ
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё І Ў а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё і ў ’
+    design_alternates: ◌̆
     design_requirements:
     - The form of the Cyrillic breve mark (marked in the previews) differs from the Latin-script breve that is asociated with the same Unicode codepoint.
-    design_alternates: ◌̆
     marks: ◌̆ ◌̈
     script: Cyrillic
     status: primary
@@ -1423,11 +1423,11 @@ bos:
   orthographies:
   - autonym: Босански
     base: А Б В Г Д Е Ж З И К Л М Н О П Р С Т У Ф Х Ц Ч Ш Ђ Ј Љ Њ Ћ Џ а б в г д е ж з и к л м н о п р с т у ф х ц ч ш ђ ј љ њ ћ џ
+    design_alternates: б ◌̆
     design_requirements:
-    -  The form of the Cyrillic breve mark (marked in the previews) differs from the Latin-script breve that is asociated with the same Unicode codepoint.
+    - The form of the Cyrillic breve mark (marked in the previews) differs from the Latin-script breve that is asociated with the same Unicode codepoint.
     - Correct positioning of an acute mark above vowel characters may be required.
     - In italic, some characters (marked in the previews) use a form that differs from the defaults associated with the Unicode codepoints (typically the Russian form of Cyrillic).
-    design_alternates: б ◌̆
     script: Cyrillic
     status: secondary
   - autonym: Bosanski
@@ -1545,11 +1545,11 @@ bul:
   - autonym: Български
     auxiliary: А̀ О̀ У̀ Ъ̀ Ю̀ Я̀ а̀ о̀ у̀ ъ̀ ю̀ я̀
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ь Ю Я Ѐ Ѝ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ь ю я ѐ ѝ
+    design_alternates: Л Ѝ в г д ж з и й ѝ к л п т ц ш щ ю ◌̆
     design_requirements:
     - The form of the Cyrillic breve mark (marked in the previews) differs from the Latin-script breve that is asociated with the same Unicode codepoint.
     - Correct positioning of a grave mark above vowel characters may be required.
     - Some characters (marked in the previews) use a form that differs from the defaults associated with the Unicode codepoints (typically the Russian form of Cyrillic).
-    design_alternates: Л Ѝ в г д ж з и й ѝ к л п т ц ш щ ю ◌̆
     marks: ◌̀ ◌̆
     script: Cyrillic
     status: primary
@@ -1662,11 +1662,11 @@ cat:
   - autonym: Català
     auxiliary: Ŀ ŀ
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Ç È É Í Ï Ò Ó Ú Ü a b c d e f g h i j k l m n o p q r s t u v w x y z à ç è é í ï ò ó ú ü
+    design_alternates: · Ŀ ŀ
     design_requirements:
     - Consideration should be given to the design and spacing of the middle dot ‹·› (punt volat, marked in the previews).
     - The use of legacy characters ‹Ŀ, ŀ› is discouraged.
     - Some font developers decompose ‹Ŀ, ŀ› (marked in the previews) automatically to adapt the position of the middle dot to changes in the overall spacing (tracking).
-    design_alternates: · Ŀ ŀ
     marks: ◌̀ ◌́ ◌̈ ◌̧
     script: Latin
     status: primary
@@ -2861,9 +2861,9 @@ enh:
   orthographies:
   - autonym: Онэй база
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ҫ Ӈ Ԑ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҫ ӈ ԑ
+    design_alternates: Ҫ ҫ
     design_requirements:
     - Characters ‹Ҫ,ҫ› (marked in the previews) are sometimes represented with a cedilla instead of a descender (spike).
-    design_alternates: Ҫ ҫ
     marks: ◌̆ ◌̈
     script: Cyrillic
     status: primary
@@ -5844,9 +5844,9 @@ mar:
   - autonym: मराठी
     auxiliary: ॐ
     base: अ आ इ ई उ ऊ ऋ ए ऐ ओ औ क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र ल ळ व श ष स ह ‌ ‍
+    design_alternates: र  ल श
     design_requirements:
     - Marathi Devanagari (sometimes called Balbodh) uses different forms for some of the characters compared to the Hindi version, e.g. ‹र› (eyelash reph), ‹ल›, ‹श› (marked in the previews). This also applies to some conjunct ligatures. Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
-    design_alternates:  र  ल श
     marks: ◌ँ ◌ं ◌ः ◌़ ◌ा ◌ि ◌ी ◌ु ◌ू ◌ृ ◌े ◌ै ◌ो ◌ौ ◌्
     numerals: ० १ २ ३ ४ ५ ६ ७ ८ ९ 0 1 2 3 4 5 6 7 8 9
     punctuation: । ॥ ॰
@@ -6080,11 +6080,11 @@ mkd:
   orthographies:
   - autonym: Македонски
     base: А Б В Г Д Е Ж З И К Л М Н О П Р С Т У Ф Х Ц Ч Ш Ѓ Ѕ Ј Љ Њ Ќ Џ а б в г д е ж з и к л м н о п р с т у ф х ц ч ш ѓ ѕ ј љ њ ќ џ Ѐ Ѝ ѐ ѝ
-    design_requirements:
-    - Correct positioning of acute and grave marks above some characters may be required. 
-    - The form of the Cyrillic breve mark (marked in the previews) differs from the Latin-script breve that is asociated with the same Unicode codepoint. 
-    - In italic, some characters (marked in the previews) use a form that differs from the defaults associated with the Unicode codepoints (typically the Russian form of Cyrillic).
     design_alternates: б ◌̆
+    design_requirements:
+    - Correct positioning of acute and grave marks above some characters may be required.
+    - The form of the Cyrillic breve mark (marked in the previews) differs from the Latin-script breve that is asociated with the same Unicode codepoint.
+    - In italic, some characters (marked in the previews) use a form that differs from the defaults associated with the Unicode codepoints (typically the Russian form of Cyrillic).
     marks: ◌́ ◌̀
     script: Cyrillic
     status: primary
@@ -6525,9 +6525,9 @@ nav:
   orthographies:
   - autonym: Diné Bizaad
     base: A Ą B C D E Ę G H I Į J K L Ł M N O Ǫ S T W X Y Z a á ą ą́ b c d e é ę ę́ g h i í į į́ j k l ł m n o ó ǫ ǫ́ s t w x y z ʼ
+    design_alternates: Ą Ę Į Ǫ ą ą́ ę ę́ į į́ ǫ ǫ́
     design_requirements:
     - The positioning of the ogonek mark (marked in the previews) differs from its positioning in Polish and Lithuanian as it is typically centered below the vowel.
-    design_alternates: Ą Ę Į Ǫ ą ą́ ę ę́ į į́ ǫ ǫ́
     marks: ◌́ ◌̨
     script: Latin
     status: primary
@@ -7663,9 +7663,9 @@ rue:
   orthographies:
   - autonym: Руски
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ь Э Ю Я Ё Є І Ї Ґ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ь э ю я ё є і ї ґ
-    design_requirements:
-    -  The form of the Cyrillic breve mark (marked in the previews) differs from the Latin-script breve that is asociated with the same Unicode codepoint.
     design_alternates: ◌̆
+    design_requirements:
+    - The form of the Cyrillic breve mark (marked in the previews) differs from the Latin-script breve that is asociated with the same Unicode codepoint.
     marks: ◌̆ ◌̈
     script: Cyrillic
     status: primary
@@ -7742,10 +7742,10 @@ rus:
   - autonym: Русский
     auxiliary: А́ Е́ И́ О́ У́ Ы́ Э́ Ю́ Я́ а́ е́ и́ о́ у́ ы́ э́ ю́ я́
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё
+    design_alternates: ◌̆
     design_requirements:
     - Correct positioning of an acute mark above vowel characters may be required.
     - The form of the Cyrillic breve mark (marked in the previews) differs from the Latin-script breve that is asociated with the same Unicode codepoint.
-    design_alternates: ◌̆
     marks: ◌̆ ◌̈ ◌́
     script: Cyrillic
     status: primary
@@ -7821,10 +7821,10 @@ san:
   - autonym: संस्कृतम्
     auxiliary: ॐ
     base: अ आ इ ई उ ऊ ऋ ॠ ऌ ॡ ए ऐ ओ औ क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र ल ळ व श ष स ह ‌ ‍
+    design_alternates: र  ल श
     design_requirements:
     - The Devanagari used for Sanskrit makes use of different forms for some of the characters (marked in the previews) and conjunct ligatures compared to the Hindi version.
     - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
-    design_alternates:  र  ल श
     marks: ◌ँ ◌ं ◌ः ◌़ ◌ा ◌ि ◌ी ◌ु ◌ू ◌ृ ◌े ◌ै ◌ो ◌ौ ◌्
     note: Sanskrit has been written using a variety of Brahmic scrits and, later, also the Latin-script transliteration. There a no native speakers of Sanskrit.
     numerals: ० १ २ ३ ४ ५ ६ ७ ८ ९ 0 1 2 3 4 5 6 7 8 9
@@ -8473,11 +8473,10 @@ srp:
   orthographies:
   - autonym: Српски
     base: А Б В Г Д Е Ж З И К Л М Н О П Р С Т У Ф Х Ц Ч Ш Ђ Ј Љ Њ Ћ Џ З́ С́ а б в г д е ж з и к л м н о п р с т у ф х ц ч ш ђ ј љ њ ћ џ з́ с́
+    design_alternates: б ◌̆
     design_requirements:
     - Correct positioning of an acute mark above vowel characters may be required.
-    - The form of the Cyrillic breve mark (marked in the previews) differs from the Latin-script breve that is asociated with the same Unicode codepoint.
-        - In italic, some characters (marked in the previews) use a form that differs from the defaults associated with the Unicode codepoints (typically the Russian form of Cyrillic).
-    design_alternates: б ◌̆
+    - The form of the Cyrillic breve mark (marked in the previews) differs from the Latin-script breve that is asociated with the same Unicode codepoint. - In italic, some characters (marked in the previews) use a form that differs from the defaults associated with the Unicode codepoints (typically the Russian form of Cyrillic).
     marks: ◌́
     preferred_as_group: true
     script: Cyrillic
@@ -9375,9 +9374,9 @@ ukr:
   - autonym: Українська
     auxiliary: А́ Е́ И́ О́ У́ Ы́ Э́ ю́ я́ а́ е́ и́ о́ у́ ы́ э́ ю́ я́
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ь Э Ю Я Є І Ї Ґ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ь э ю я є і ї ґ ’
+    design_alternates: ◌̆
     design_requirements:
     - The form of the Cyrillic breve mark (marked in the previews) differs from the Latin-script breve that is asociated with the same Unicode codepoint.
-    design_alternates: ◌̆
     marks: ◌̆ ◌̈ ◌́
     script: Cyrillic
     status: primary
@@ -9586,7 +9585,7 @@ vie:
   orthographies:
   - autonym: Tiếng Việt
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Á Â Ã È É Ê Ì Í Ò Ó Ô Õ Ù Ú Ý Ă Đ Ĩ Ũ Ơ Ư Ạ Ả Ấ Ầ Ẩ Ẫ Ậ Ắ Ằ Ẳ Ẵ Ặ Ẹ Ẻ Ẽ Ế Ề Ể Ễ Ệ Ỉ Ị Ọ Ỏ Ố Ồ Ổ Ỗ Ộ Ớ Ờ Ở Ỡ Ợ Ụ Ủ Ứ Ừ Ử Ữ Ự Ỳ Ỵ Ỷ Ỹ a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ã è é ê ì í ò ó ô õ ù ú ý ă đ ĩ ũ ơ ư ạ ả ấ ầ ẩ ẫ ậ ắ ằ ẳ ẵ ặ ẹ ẻ ẽ ế ề ể ễ ệ ỉ ị ọ ỏ ố ồ ổ ỗ ộ ớ ờ ở ỡ ợ ụ ủ ứ ừ ử ữ ự ỳ ỵ ỷ ỹ
-    design_requirements: 
+    design_requirements:
     - The stacked combinations of marks often require adapted design of the individual marks (smaller, shallower).
     - There is no consensus regarding the position of acute and a above the circumflex.
     marks: ◌̀ ◌́ ◌̂ ◌̃ ◌̆ ◌̉ ◌̛ ◌̣
