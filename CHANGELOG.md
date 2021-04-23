@@ -2,6 +2,8 @@
 
 ## 0.3.3 (23.04.2021)
 - DATA: Added Batak languages and refined Balinese
+- FIX: Further improvement to detection of orthographies with unencoded base + mark combinations
+- TWEAK: Refined the returned properties of `hyperglot.language.Orthography` to include base and auxiliary lists of _encoded_ characters as well as _required_ marks for
 
 ## 0.3.2 (13.04.2021)
 - DATA: Renamed `design_note` to `design_requirements` and made its data structure a list

@@ -1,6 +1,7 @@
 import logging
 import unicodedata2
-from .parse import parse_chars, parse_marks, remove_mark_base, list_unique
+from .parse import (parse_chars, parse_marks, remove_mark_base, list_unique,
+                    character_list_from_string)
 from . import SUPPORTLEVELS, CHARACTER_ATTRIBUTES
 
 log = logging.getLogger(__name__)
@@ -277,13 +278,13 @@ class Language(dict):
                 if marks:
                     required_marks_base = ort.base_marks
                 else:
-                    required_marks_base = ort.required_marks
+                    required_marks_base = ort.required_base_marks
 
                 if required_marks_base:
                     log.debug("Required base marks for %s: %s" %
                               (self.iso, required_marks_base))
 
-                base = set(ort.base + required_marks_base)
+                base = set(ort.base_chars + required_marks_base)
 
                 if not decomposed:
                     supported = base.issubset(chars)
@@ -312,12 +313,12 @@ class Language(dict):
                         if marks:
                             required_marks_aux = ort.auxiliary_marks
                         else:
-                            required_marks_aux = ort.required_marks
+                            required_marks_aux = ort.required_auxiliary_marks
 
                         if required_marks_aux:
                             log.debug("Required aux marks for %s: %s" %
                                       (self.iso, required_marks_aux))
-                        aux = set(ort.auxiliary + required_marks_aux)
+                        aux = set(ort.auxiliary_chars + required_marks_aux)
 
                         supported = aux.issubset(chars)
 
@@ -355,11 +356,47 @@ class Orthography(dict):
 
     @property
     def base(self):
+        """
+        A parsed base list, including unencoded base + mark combinations
+        """
         return self._character_list("base")
 
     @property
+    def base_chars(self):
+        """
+        A list of all encoded base characters (no marks)
+        """
+        base = []
+        for b in self._character_list("base"):
+            if len(b) > 1:
+                for c in parse_chars(b):
+                    if not is_mark(c):
+                        base.append(c)
+            else:
+                base.append(b)
+        return base
+
+    @property
     def auxiliary(self):
+        """
+        A parsed auxiliary list, including unencoded base + mark combinations
+        """
         return self._character_list("auxiliary")
+
+    @property
+    def auxiliary_chars(self):
+        """
+        A list of all encoded auxiliary characters (no marks)
+        """
+        aux = []
+        for a in self._character_list("auxiliary"):
+            if len(a) > 1:
+                for c in parse_chars(a):
+                    if not is_mark(c):
+                        aux.append(c)
+            else:
+                aux.append(a)
+        return aux
 
     @property
     def base_marks(self):
@@ -370,8 +407,12 @@ class Orthography(dict):
         return self._all_marks("aux")
 
     @property
-    def required_marks(self):
-        return self._all_required_marks()
+    def required_base_marks(self):
+        return self._required_marks("base")
+
+    @property
+    def required_auxiliary_marks(self):
+        return self._required_marks("aux")
 
     @property
     def design_alternates(self):
@@ -392,11 +433,12 @@ class Orthography(dict):
                            decompose=False,
                            retainDecomposed=False)
 
-    def _all_required_marks(self):
+    def _required_marks(self, level="base"):
         """
         Get those marks which are not simply combining marks of the passed in
         chars, but explicitly listed, meaning they cannot be derived from
-        decomposition.
+        decomposition. Further get those combining marks which are used in
+        _unencoded_ base + mark combinations
         """
 
         # Such as those attributes exist:
@@ -412,7 +454,21 @@ class Orthography(dict):
         marks_aux = parse_marks(
             self["auxiliary"]) if "auxiliary" in self else []
 
-        return [m for m in marks if m not in marks_base and m not in marks_aux]
+        non_decomposable = [
+            m for m in marks if m not in marks_base and m not in marks_aux]
+
+        marks_unencoded_combos = []
+        if "base" in self:
+            for c in character_list_from_string(self["base"]):
+                if len(c) > 1:
+                    marks_unencoded_combos.extend(parse_marks(c))
+
+        if level == "aux" and "auxiliary" in self:
+            for c in character_list_from_string(self["auxiliary"]):
+                if len(c) > 1:
+                    marks_unencoded_combos.extend(parse_marks(c))
+
+        return list_unique(non_decomposable + marks_unencoded_combos)
 
     def _all_marks(self, level="base"):
         """
