@@ -99,9 +99,10 @@ def check_types(Langs):
                     log.warning("'%s' has invalid orthography keys: '%s'" %
                                 (iso, "', '".join(invalid)))
 
-                if "design_requirements" in o and type(o["design_requirements"]) is not list:
-                    log.error("'%s' has a 'design_requirements' which is not a list: "
-                              "%s" % (iso, o["design_requirements"]))
+                if "design_requirements" in o and \
+                        type(o["design_requirements"]) is not list:
+                    log.error("'%s' has a 'design_requirements' which is not "
+                              "a list: %s" % (iso, o["design_requirements"]))
 
                 if "status" not in o:
                     log.error("'%s' has an orthography (script '%s') that is "

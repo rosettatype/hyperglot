@@ -6,7 +6,8 @@ import pytest
 import unicodedata2 as uni
 from hyperglot.languages import Languages
 from hyperglot.language import Language, Orthography, is_mark
-from hyperglot.parse import character_list_from_string, parse_font_chars
+from hyperglot.parse import (character_list_from_string,
+                             parse_font_chars, parse_marks)
 
 
 def test_language_supported():
@@ -208,7 +209,7 @@ def test_language_combined_orthographies():
     # E.g. Serbian or Japanese have multiple orthographies that should be
     # treated as a combination, e.g. require all for support
     srp = Language(Langs["srp"], "srp")
-    srp_cyrillic = character_list_from_string('А Б В Г Д Е Ж З И К Л М Н О П Р С Т У Ф Х Ц Ч Ш Ђ Ј Љ Њ Ћ Џ З́ С́ а б в г д е ж з и к л м н о п р с т у ф х ц ч ш ђ ј љ њ ћ џ з́ с́')  # noqa
+    srp_cyrillic = character_list_from_string('А Б В Г Д Е Ж З И К Л М Н О П Р С Т У Ф Х Ц Ч Ш Ђ Ј Љ Њ Ћ Џ З́ С́ а б в г д е ж з и к л м н о п р с т у ф х ц ч ш ђ ј љ њ ћ џ з́ с́') +  ["́"]  # noqa
     srp_latin = character_list_from_string('A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ć Č Đ Ś Š Ź Ž a b c d e f g h i j k l m n o p q r s t u v w x y z ć č đ ś š ź ž')  # noqa
 
     # Checking support with just the one script will no list the language
@@ -232,6 +233,24 @@ def test_language_combined_orthographies():
     srp = Language(Langs["srp"], "srp")
     support = srp.supported(srp_latin, checkAllOrthographies=True)
     assert ("Latin" in support) is True
+
+
+def test_language_supported_combining_chars():
+
+    hau_base = character_list_from_string(
+        "A B C D E F G H I J K L M N O R S T U W Y Z Ƙ Ƴ Ɓ Ɗ R̃ a b c d e f g h i j k l m n o r s t u w y z ƙ ƴ ɓ ɗ r̃ ʼ")
+    hau_marks = parse_marks("◌̃ ◌̀ ◌́ ◌̂")
+
+    # Drop the unencoded R/r tilde chars
+    hau_base = [b for b in hau_base if len(b) == 1]
+
+    # A "font charset" with all encoded Hausa chars
+    hau_chars = hau_base + hau_marks
+
+    Langs = Languages()
+    hau = Language(Langs["hau"], "hau")
+    result = hau.supported(hau_chars)
+    assert "hau" in result["Latin"]
 
 
 def test_get_orthography():
@@ -281,6 +300,26 @@ def test_orthography_character_list():
     assert '̈' not in deu_base_default
 
 
+def test_orthography_base():
+
+    # An orthography with unencoded base + marks should return only the base
+    unencoded_base_chars = {
+        "base": "R̃ r̃"
+    }
+    ort = Orthography(unencoded_base_chars)
+    assert ort.base_chars == ["R", "r"]
+    assert ort.base == ["R̃", "r̃"]
+
+    # Make sure encoded base + marks are returned, and do not decompose
+    encoded_base_chars = {
+        "base": "Ä ä"
+    }
+    ort = Orthography(encoded_base_chars)
+    assert ort.base_chars == ["Ä", "ä"]
+    assert "A" not in ort.base_chars
+    assert "a" not in ort.base_chars
+
+
 def test_orthography_required_marks():
     Langs = Languages()
 
@@ -298,7 +337,8 @@ def test_orthography_required_marks():
 
     # Neither base nor aux has marks which cannot be derived form precomposed
     # chars, so there should not be any required marks
-    assert ort.required_marks == []
+    assert ort.required_base_marks == []
+    assert ort.required_auxiliary_marks == []
 
     # Base only requires diesresis comb
     assert ort.base_marks == ['̈']
@@ -316,7 +356,8 @@ def test_orthography_required_marks():
     ort = Orthography(rus["orthographies"][0])
 
     # No marks should be required since all are implicit from precomposed
-    assert ort.required_marks == []
+    assert ort.required_base_marks == []
+    assert ort.required_auxiliary_marks == ['́']
 
     # Base should not need the acute
     assert ort.base_marks == ['̆', '̈']
@@ -335,7 +376,19 @@ def test_orthography_required_marks():
     ort = Orthography(bul["orthographies"][0])
 
     assert ort.base_marks == ["̀", "̆"]
-    assert ort.required_marks == []
+    assert ort.required_base_marks == []
+    assert ort.required_auxiliary_marks == ["̀"]
+
+    """
+    hausa:
+
+    base: A B C D E F G H I J K L M N O R S T U W Y Z Ƙ Ƴ Ɓ Ɗ R̃ a b c d e f g h i j k l m n o r s t u w y z ƙ ƴ ɓ ɗ r̃ ʼ
+    """
+    hau = Language(Langs["hau"], "hau")
+    ort = Orthography(hau["orthographies"][0])
+
+    assert ort.required_base_marks == ["̃"]
+    assert ort.required_auxiliary_marks == ["̃"]
 
 
 def test_orthography_decomposed():
