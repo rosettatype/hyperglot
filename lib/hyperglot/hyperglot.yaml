@@ -1122,9 +1122,9 @@ ban:
     design_requirements:
     - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
     marks: ◌ᬀ ◌ᬁ ◌ᬂ ◌ᬃ ◌ᬄ ◌᬴ ◌ᬵ ◌ᬶ ◌ᬷ ◌ᬸ ◌ᬹ ◌ᬺ ◌ᬾ ◌ᬿ
+    note: The Latin script is the most used nowadays.
     numerals: ᭐ ᭕ ᭑ ᭖ ᭒ ᭗ ᭓ ᭘ ᭔ ᭙ 0 1 2 3 4 5 6 7 8 9
     punctuation: ᭞ ᭟ ᭝ ᭜ ᭚ ᭛ ᭠
-    note: The Latin script is the most used nowadays.
     script: Balinese
     status: secondary
   source:
@@ -1134,7 +1134,6 @@ ban:
   speakers: 3300000
   speakers_date: 2000
   validity: preliminary
-  # the Latin ortography is verified.
 bas:
   name: Basa (Cameroon)
   orthographies:
@@ -1184,12 +1183,12 @@ bbc:
     script: Latin
     status: primary
   - autonym: ᯂᯖᯅᯖᯂ᯲ᯖᯬᯅ
-    base: ᯀ ᯂ ᯅ ᯇ ᯉ ᯋ ᯍ ᯎ ᯐ ᯑ ᯒ ᯔ ᯖ ᯗ ᯘ ᯛ ᯝ ᯞ ᯠ ᯤ ᯥ 
+    base: ᯀ ᯂ ᯅ ᯇ ᯉ ᯋ ᯍ ᯎ ᯐ ᯑ ᯒ ᯔ ᯖ ᯗ ᯘ ᯛ ᯝ ᯞ ᯠ ᯤ ᯥ
     design_requirements:
     - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
-    marks: ◌ᯩ ◌ᯪ ◌ᯬ ◌ᯮ ◌ᯰ ◌᯲  
+    marks: ◌ᯩ ◌ᯪ ◌ᯬ ◌ᯮ ◌ᯰ ◌᯲
     note: The Latin script is the most used nowadays.
-    punctuation: ᯼ ᯽ ᯾ ᯿ 
+    punctuation: ᯼ ᯽ ᯾ ᯿
     script: Batak
     status: secondary
   source:
@@ -1197,11 +1196,10 @@ bbc:
   - https://en.wikipedia.org/wiki/Batak_script
   - https://www.ethnologue.com/language/bbc
   - https://lindenbergsoftware.com/en/notes/constructing-fonts-for-batak/index.html
-  speakers: 2000000  
+  speakers: 2000000
   speakers_date: 1991
   status: living
   validity: preliminary
-  # the Batak ortography is verified.
 bci:
   name: Baoulé
   orthographies:
@@ -1540,14 +1538,12 @@ btd:
     script: Latin
     status: primary
   - autonym: ᯂᯗᯇᯂ᯲ᯇᯂ᯲
-    base: ᯀ ᯂ ᯅ ᯇ ᯉ ᯍ ᯎ ᯐ ᯑ ᯒ ᯔ ᯗ ᯘ ᯛ ᯝ ᯞ ᯤ ᯥ 
+    base: ᯀ ᯂ ᯅ ᯇ ᯉ ᯍ ᯎ ᯐ ᯑ ᯒ ᯔ ᯗ ᯘ ᯛ ᯝ ᯞ ᯤ ᯥ
     design_requirements:
     - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
-    marks: ◌ᯨ ◌ᯩ ◌ᯪ ◌ᯬ ◌ᯮ ◌ᯰ ◌ᯱ ◌᯲ 
-    auxiliary: ◌ᯧ
-    # can marks be auxilary?
+    marks: ◌ᯨ ◌ᯩ ◌ᯪ ◌ᯬ ◌ᯮ ◌ᯰ ◌ᯱ ◌᯲ ◌ᯧ
     note: The Latin script is the most used nowadays.
-    punctuation: ᯼ ᯽ ᯾ ᯿ 
+    punctuation: ᯼ ᯽ ᯾ ᯿
     script: Batak
     status: secondary
   source:
@@ -1555,11 +1551,10 @@ btd:
   - https://en.wikipedia.org/wiki/Batak_script
   - https://www.ethnologue.com/language/btd
   - https://lindenbergsoftware.com/en/notes/constructing-fonts-for-batak/index.html
-  speakers: 1200000  
+  speakers: 1200000
   speakers_date: 1991
   status: living
   validity: preliminary
-  # the Batak ortography is verified.
 btm:
   name: Batak Mandailing
   orthographies:
@@ -1568,13 +1563,13 @@ btm:
     script: Latin
     status: primary
   - autonym: ᯚᯒᯬᯔᯉ᯲ᯑᯤᯞᯪᯰ
-    base: ᯀ ᯄ ᯅ ᯇ ᯉ ᯋ ᯎ ᯐ ᯑ ᯒ ᯔ ᯖ ᯚ ᯛ ᯝ ᯞ ᯠ ᯤ ᯥ 
+    auxiliary: ᯂ ᯃ ᯊ ᯘ ᯙ
+    base: ᯀ ᯄ ᯅ ᯇ ᯉ ᯋ ᯎ ᯐ ᯑ ᯒ ᯔ ᯖ ᯚ ᯛ ᯝ ᯞ ᯠ ᯤ ᯥ
     design_requirements:
     - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
-    marks: ◌᯦ ◌ᯩ ◌ᯪ ◌ᯬ ◌ᯮ ◌ᯰ ◌᯲ 
-    auxiliary: ᯂ ᯃ ᯊ ᯘ ᯙ 
+    marks: ◌᯦ ◌ᯩ ◌ᯪ ◌ᯬ ◌ᯮ ◌ᯰ ◌᯲
     note: The Latin script is the most used nowadays.
-    punctuation: ᯼ ᯽ ᯾ ᯿ 
+    punctuation: ᯼ ᯽ ᯾ ᯿
     script: Batak
     status: secondary
   source:
@@ -1586,7 +1581,6 @@ btm:
   speakers_date: 2000
   status: living
   validity: preliminary
-  # the Batak ortography is verified.
 bts:
   name: Batak Simalungun
   orthographies:
@@ -1595,13 +1589,13 @@ bts:
     script: Latin
     status: primary
   - autonym: ᯙᯃᯈ᯳ᯙᯫᯕᯟᯮᯝᯮᯉ᯳
-    base: ᯁ ᯃ ᯅ ᯈ ᯉ ᯌ ᯏ ᯐ ᯑ ᯓ ᯕ ᯖ ᯙ ᯜ ᯝ ᯟ ᯠ ᯤ ᯥ 
+    auxiliary: ᯚ
+    base: ᯁ ᯃ ᯅ ᯈ ᯉ ᯌ ᯏ ᯐ ᯑ ᯓ ᯕ ᯖ ᯙ ᯜ ᯝ ᯟ ᯠ ᯤ ᯥ
     design_requirements:
     - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
-    marks: ◌ᯩ ◌ᯫ ◌ᯬ ◌ᯭ ◌ᯮ ◌ᯯ ◌ᯰ ◌ᯱ ◌᯳ 
-    auxiliary: ᯚ
+    marks: ◌ᯩ ◌ᯫ ◌ᯬ ◌ᯭ ◌ᯮ ◌ᯯ ◌ᯰ ◌ᯱ ◌᯳
     note: The Latin script is the most used nowadays.
-    punctuation: ᯼ ᯽ ᯾ ᯿ 
+    punctuation: ᯼ ᯽ ᯾ ᯿
     script: Batak
     status: secondary
   source:
@@ -1609,11 +1603,10 @@ bts:
   - https://en.wikipedia.org/wiki/Batak_script
   - https://www.ethnologue.com/language/bts
   - https://lindenbergsoftware.com/en/notes/constructing-fonts-for-batak/index.html
-  speakers: 1200000  
+  speakers: 1200000
   speakers_date: 2000
   status: living
   validity: preliminary
-  # the Batak ortography is verified.
 btx:
   name: Batak Karo
   orthographies:
@@ -1622,12 +1615,12 @@ btx:
     script: Latin
     status: primary
   - autonym: ᯡᯂᯇ᯳ᯂᯒᯭ
-    base: ᯀ ᯂ ᯅ ᯆ ᯇ ᯉ ᯋ ᯎ ᯐ ᯑ ᯒ ᯔ ᯗ ᯘ ᯛ ᯝ ᯞ ᯠ ᯡ ᯢ ᯣ ᯤ ᯥ 
+    base: ᯀ ᯂ ᯅ ᯆ ᯇ ᯉ ᯋ ᯎ ᯐ ᯑ ᯒ ᯔ ᯗ ᯘ ᯛ ᯝ ᯞ ᯠ ᯡ ᯢ ᯣ ᯤ ᯥ
     design_requirements:
     - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
-    marks: ◌ᯧ ◌ᯨ ◌ᯩ ◌ᯪ ◌ᯫ ◌ᯬ ◌ᯭ ◌ᯰ ◌ᯱ ◌᯳ 
+    marks: ◌ᯧ ◌ᯨ ◌ᯩ ◌ᯪ ◌ᯫ ◌ᯬ ◌ᯭ ◌ᯰ ◌ᯱ ◌᯳
     note: The Latin script is the most used nowadays.
-    punctuation: ᯼ ᯽ ᯾ ᯿ 
+    punctuation: ᯼ ᯽ ᯾ ᯿
     script: Batak
     status: secondary
   source:
@@ -1635,11 +1628,10 @@ btx:
   - https://en.wikipedia.org/wiki/Batak_script
   - https://www.ethnologue.com/language/btx
   - https://lindenbergsoftware.com/en/notes/constructing-fonts-for-batak/index.html
-  speakers: 600000 
+  speakers: 600000
   speakers_date: 1991
   status: living
   validity: preliminary
-  # the Batak ortography is verified.
 buc:
   autonym: Kibushi
   name: Bushi
