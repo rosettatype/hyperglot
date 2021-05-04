@@ -2921,6 +2921,21 @@ ekk:
   speakers_date: 2012
   status: living
   validity: preliminary
+eky:
+  name: Eastern Kayah
+  orthographies:
+  - autonym: Kayah
+    base: ꤀ ꤁ ꤂ ꤃ ꤄ ꤅ ꤆ ꤇ ꤈ ꤉ ꤊ ꤋ ꤌ ꤍ ꤎ ꤏ ꤐ ꤑ ꤒ ꤓ ꤔ ꤕ ꤖ ꤗ ꤘ ꤙ ꤚ ꤛ ꤜ ꤝ ꤞ ꤟ ꤠ ꤡ ꤢ ꤣ ꤤ ꤥ ꤮ ꤯
+    marks: ꤦ ꤧ ꤨ ꤩ ꤪ ꤫ ꤬ ꤭
+    numerals: ꤀ ꤁ ꤂ ꤃ ꤄ ꤅ ꤆ ꤇ ꤈ ꤉
+    script: Kayah Li
+    status: primary
+  source:
+  - Omniglot
+  - CLDR
+  - Wikipedia
+  status: living
+  validity: preliminary
 ell:
   name: Modern Greek (1453-)
   orthographies:
@@ -5489,6 +5504,21 @@ kwi:
   - Wikipedia
   speakers: 13000
   speakers_date: 2008
+  validity: preliminary
+kyu:
+  name: Western Kayah
+  orthographies:
+  - autonym: Karenni
+    base: ꤀ ꤁ ꤂ ꤃ ꤄ ꤅ ꤆ ꤇ ꤈ ꤉ ꤊ ꤋ ꤌ ꤍ ꤎ ꤏ ꤐ ꤑ ꤒ ꤓ ꤔ ꤕ ꤖ ꤗ ꤘ ꤙ ꤚ ꤛ ꤜ ꤝ ꤞ ꤟ ꤠ ꤡ ꤢ ꤣ ꤤ ꤥ ꤮ ꤯
+    marks: ꤦ ꤧ ꤨ ꤩ ꤪ ꤫ ꤬ ꤭
+    numerals: ꤀ ꤁ ꤂ ꤃ ꤄ ꤅ ꤆ ꤇ ꤈ ꤉
+    script: Kayah Li
+    status: primary
+  source:
+  - Omniglot
+  - CLDR
+  - Wikipedia
+  status: living
   validity: preliminary
 lad:
   name: Ladino
