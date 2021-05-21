@@ -114,3 +114,13 @@ Main contributors, so far:
 - Toshi Omagari  @toshe (basic language data for many Cyrillic-script languages)
 
 [The full list of contributors](CONTRIBUTORS.txt)
+
+## Similar projects and inspirations
+
+- [Unicode CLDR](http://cldr.unicode.org)
+- [Underware Latin Plus](https://underware.nl/latin_plus/)
+- [Alphabet Type’ Charset Checker](https://www.alphabet-type.com/tools/charset-checker/) (uses Unicode CLDR AFAIK)
+- [Typekit Speakeasy](https://github.com/typekit/speakeasy)
+- [Adobe spreadsheets for Latin and Cyrillic](https://blog.typekit.com/2006/08/01/defining_an_ext/)
+- [WebINK character sets](http://web.archive.org/web/20150222004543/http://blog.webink.com/custom-font-subsetting-for-faster-websites/) 
+- [font-config languages definitions](https://cgit.freedesktop.org/fontconfig/tree/fc-lang)
