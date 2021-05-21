@@ -95,6 +95,13 @@ The data structure is described in a separate file together with guidelines for 
 
 [Database and contributing](README_database.md)
 
+## Roadmap
+
+- [] include records to track language and script specific punctuation and numerals
+- [] include character combinations required by abugidas/syllabic scripts, e.g. list of conjuncts required by Hindi etc.
+- [] comparison and export to Unicode CLDR format
+- [] analysis of OpenType features in font to check if character combinations are supported
+
 ## Authors and contributors
 
 The Hyperglot database and tools were originally developed by [Rosetta](http://rosettatype.com), world typography specialists, publishers, and makers of original fonts addressing the needs of global typography. Our goal is to enable people to read better in their native languages.
