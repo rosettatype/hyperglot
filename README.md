@@ -124,3 +124,4 @@ Main contributors, so far:
 - [Adobe spreadsheets for Latin and Cyrillic](https://blog.typekit.com/2006/08/01/defining_an_ext/)
 - [WebINK character sets](http://web.archive.org/web/20150222004543/http://blog.webink.com/custom-font-subsetting-for-faster-websites/) 
 - [font-config languages definitions](https://cgit.freedesktop.org/fontconfig/tree/fc-lang)
+- [Context of diacritics](https://www.setuptype.com/x/cod/)
