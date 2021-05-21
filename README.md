@@ -8,6 +8,8 @@ Where relevant, we also provide a brief design note containing tips about shapin
 
 Hyperglot is a work in progress provided AS IS, and the validity of its language data varies. To help you assess the validity of the results you view, each language in the database comes with a label indicating the quality of the data we have for it (e.g. some are considered `drafts`, some have been `verified`). We have checked the information against various online and offline sources and we are committed to continually improve it. However, we admit that mapping all the languages of the world in this way is beyond our capacity – we need help from users of each respective language! So, if you spot an issue or notice your favourite language is altogether missing from the database, get in touch. We will happily [incorporate your feedback and credit you](README_database.md#development-and-contributions).
 
+[The comparison of Hyperglot and the Unicode CLDR](README_comparison.md)
+
 ## How to use
 
 There are several ways how to use the database:
