@@ -32,7 +32,7 @@ A lightweight database that focuses solely on listing characters used by a langu
 
 - simple YAML file with relatively straightforward structure
 - straightforward way to contribute using GitHub and open source
-- very few mindless dumps, anything that has validity “” has been already checked with at least two online sources
+- very few mindless dumps, anything that has validity “preliminary” has been already checked with at least two online sources
 - truly minimal approach, i.e. basic character sets do not include what is not considered a standard for a language, any characters used in loan words are strictly in the auxiliary set.
 - marks are stored independently of the basic and auxiliary character sets
 - uppercase is included (unlike in CLDR) to make the database less reliant on advanced post-processing and additional knowledge
