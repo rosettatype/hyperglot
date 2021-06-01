@@ -6,6 +6,8 @@ dist
 data/cldr/
 data/speakeasy/
 tools/udhr/
+tools/cldr/
+tools/sldr/
 *.egg-info
 *.egg
 venv
