@@ -290,7 +290,7 @@ if __name__ == "__main__":
         if r:
             table.append(r)
 
-    cldr_comparison = os.path.join(DIR, "comparison_cldr.html")
+    cldr_comparison = os.path.join(DIR, "cldr_comparison.html")
     with open(cldr_comparison, "w") as f:
         html = """
         <html>
