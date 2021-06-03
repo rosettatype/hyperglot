@@ -86,60 +86,50 @@ def get_country_code(lang):
     raise ValueError("Unknown country code '%s'" % lang)
 
 
-class CLDRData(dict):
+class UnicodeData(dict):
+    """
+    A general "parser" Class for SLDR/CLDR xml files.
+    Init with different file indexing, but otherwise same API
+    """
 
     def __init__(self):
-        """
-        Get a dict of all cldr/common/main language files.
-        They are named: iso-639-1/3(_Script)(_TERRITORY)
-        """
-        if not os.path.isdir(CLDR):
-            raise FileNotFoundError(
-                "Download the latest CLDR data into tools/cldr")
+        # A dict with EN names, subclasses need to implement parsing this
+        self.names = {}
+        self.get_names()
+        pass
 
-        main = os.path.join(CLDR, "common/main")
-
-        # Get the en.xml and all language names defined in it
-        names = {}
-        en = ET.parse(os.path.join(main, "en.xml"))
-        langs = en.getroot().findall(".//localDisplaynames/languages/language")
-        for l in langs:
-            names[l.attrib["type"]] = l.text
-
+    def parse_file(self, path):
         cldr = {}
-        # Loop through all xmls in common/main and get their character and
-        # autonym info
-        for file in os.listdir(main):
+        try:
+            tree = ET.parse(path)
+            root = tree.getroot()
+
+            code = root.find(".//identity/language").attrib["type"]
+
             try:
-                path = os.path.join(main, file)
-                tree = ET.parse(path)
-                root = tree.getroot()
+                locale = root.find(".//identity/territory").attrib["type"]
+            except Exception:
+                locale = "default"
 
-                code = root.find(".//identity/language").attrib["type"]
+            try:
+                # script from XML
+                script = root.find(".//identity/script").attrib["type"]
+            except Exception:
+                script = "default"
 
-                try:
-                    locale = root.find(".//identity/territory").attrib["type"]
-                except Exception:
-                    locale = "default"
+            lang = get_country_code(code)
+            chars = root.findall(".//characters/exemplarCharacters")
 
-                try:
-                    # script from XML
-                    script = root.find(".//identity/script").attrib["type"]
-                except Exception:
-                    script = "default"
+            if lang not in self.keys():
+                self[lang] = {}
 
-                lang = get_country_code(code)
-                chars = root.findall(".//characters/exemplarCharacters")
+            data = {
+                "script": script,
+                "locale": locale,
+            }
 
-                if lang not in cldr.keys():
-                    cldr[lang] = {}
-
-                data = {
-                    "script": script,
-                    "locale": locale,
-                }
-
-                # See https://github.com/unicode-org/cldr/blob/master/docs/ldml/tr35-general.md#31-exemplars
+            # See https://github.com/unicode-org/cldr/blob/master/docs/ldml/tr35-general.md#31-exemplars
+            if chars:
                 for c in chars:
                     attr = "base"
                     if "type" in c.attrib:
@@ -155,21 +145,20 @@ class CLDRData(dict):
                                       "(type %s) of %s" %
                                       (c.text, attr, lang))
 
-                autonym_node = root.find(
-                    ".//languages/language[@type='%s']" % lang)
-                data["autonym"] = autonym_node.text if autonym_node is not None else "-"
+            autonym_node = root.find(
+                ".//languages/language[@type='%s']" % lang)
+            data["autonym"] = autonym_node.text if autonym_node is not None else "-"
 
-                data["name"] = names[lang] if lang in names else "-"
+            data["name"] = self.names[lang] if lang in self.names else "-"
 
-                key = "default"
-                if script != "default" or locale != "default":
-                    key = "%s_%s" % (script, locale)
+            key = "default"
+            if script != "default" or locale != "default":
+                key = "%s_%s" % (script, locale)
 
-                cldr[lang][key] = data
-            except Exception as e:
-                logging.error("Error when parsing CLDR files: %s" % str(e))
-        if cldr != {}:
-            self.update(cldr)
+            self[lang][key] = data
+
+        except Exception as e:
+            logging.error("Error when parsing XML file: %s" % str(e))
 
     def orthography(self, code, key="default"):
         if code not in self:
@@ -186,116 +175,142 @@ class CLDRData(dict):
         return non_default
 
 
-if __name__ == "__main__":
-    cldr = CLDRData()
-    hyperglot = Languages()
+class CLDRData(UnicodeData):
 
-    def row(lang, locale="default"):
+    main = os.path.join(CLDR, "common/main")
 
-        cl = cldr.orthography(lang, locale)
-        loc = cl["locale"] if "locale" in cl else "-"
-        if loc == "default":
-            loc = "-"
-        script = cl["script"] if "script" in cl else "-"
-        if script == "default":
-            script = "-"
+    def __init__(self):
+        """
+        Get a dict of all cldr/common/main language files.
+        They are named: iso-639-1/3(_Script)(_TERRITORY)
+        """
+        super().__init__()
 
-        # try:
-        hg = False
-        if lang in hyperglot:
-            lng = Language(hyperglot[lang], lang)
-            lng_name = lng.get_name()
-            lng_autonym = lng.get_autonym()
-            if lng:
-                o = lng.get_orthography()
-                if o:
-                    hg = Orthography(o)
-        else:
-            lng = False
-            lng_name = "-"
-            lng_autonym = "-"
+        if not os.path.isdir(CLDR):
+            raise FileNotFoundError(
+                "Download the latest CLDR data into tools/cldr")
+        self.parse()
 
-        name = "%s / %s" % (lng_name if lng_name else "-",
-                            cl["name"] if "name" in cl else "-")
-        autonym = "%s / %s" % (lng_autonym if lng_autonym else "-",
-                               cl["autonym"] if "autonym" in cl else "-")
+    def get_names(self):
+        # Get the en.xml and all language names defined in it
+        en = ET.parse(os.path.join(self.main, "en.xml"))
+        langs = en.getroot().findall(".//localDisplaynames/languages/language")
+        for l in langs:
+            self.names[l.attrib["type"]] = l.text
 
-        if lang not in hyperglot or not hg:
-            return "<tr><td>%s</td><td>%s</td><td>%s</td><td class='center'>%s</td><td class='center'>%s</td><td colspan='2'><span class='red'>Language not in Hyperglot</td></tr>" % \
-                (lang, loc, script, name, autonym)
+    def parse(self):
+        # cldr = {}
+        # Loop through all xmls in common/main and get their character and
+        # autonym info
+        for file in os.listdir(self.main):
+            self.parse_file(os.path.join(self.main, file))
 
-        if lang not in cldr:
-            return "<tr><td>%s</td><td>%s</td><td>%s</td><td class='center'>%s</td><td class='center'>%s</td><td colspan='2'><span class='green'>Language not in CLDR</td></tr>" % \
-                (lang, loc, script, name, autonym)
+        # if cldr != {}:
+        #     self.update(cldr)
 
-        if not hg.base and "base" not in cl:
-            base_str = ""
-        elif not hg.base:
-            base_str = "<span class='red'>%s</span>" % "".join(
-                sorted(cl["base"]))
-        elif "base" not in cl:
-            base_str = "<span class='green'>%s</span>" % "".join(
-                sorted(hg.base))
-        else:
-            base_marks = hg.base_marks
-            if not base_marks:
-                base_marks = []
-            hg_base = "".join(sorted(hg.base + base_marks))
-            cl_base = "".join(sorted(cl["base"]))
 
-            base_str = highlighted_diff(hg_base, cl_base)
+def row(cmp, hyperglot, lang, locale="default"):
 
-        if not hg.auxiliary and "auxiliary" not in cl:
-            aux_str = ""
-        elif not hg.auxiliary:
-            aux_str = "<span class='red'>%s</span>" % "".join(
-                sorted(cl["auxiliary"]))
-        elif "auxiliary" not in cl:
-            aux_str = "<span class='green'>%s</span>" % "".join(
-                sorted(hg.auxiliary))
-        else:
-            aux_marks = hg.auxiliary_marks
-            if not aux_marks:
-                aux_marks = []
-            hg_aux = "".join(sorted(hg.auxiliary + aux_marks))
-            cl_aux = "".join(sorted(cl["auxiliary"]))
-            diff = difflib.ndiff(hg_aux, cl_aux)
-            aux = []
-            for d in diff:
-                if d.startswith("+"):
-                    aux.append("<span class='red'>%s</span>" % d[2:])
-                elif d.startswith("-"):
-                    aux.append("<span class='green'>%s</span>" % d[2:])
-                else:
-                    aux.append(d[2:])
-            aux_str = "".join(aux)
+    cl = cmp.orthography(lang, locale)
+    loc = cl["locale"] if "locale" in cl else "-"
+    if loc == "default":
+        loc = "-"
+    script = cl["script"] if "script" in cl else "-"
+    if script == "default":
+        script = "-"
 
-        # Append any local variants CLDR has
-        alt_rows = []
-        alts = cldr.alternative_orthographies(lang)
-        if len(alts) > 0 and locale == "default":
-            for a in alts:
-                logging.info("Get alternative locale %s for %s" %
-                             (a, lang))
-                alt_rows.append(row(lang, a))
+    hg = False
+    if lang in hyperglot:
+        lng = Language(hyperglot[lang], lang)
+        lng_name = lng.get_name()
+        lng_autonym = lng.get_autonym()
+        if lng:
+            o = lng.get_orthography()
+            if o:
+                hg = Orthography(o)
+    else:
+        lng = False
+        lng_name = "-"
+        lng_autonym = "-"
 
-        return "<tr><td>%s</td><td>%s</td><td>%s</td><td class='center'>%s</td><td class='center'>%s</td><td><div>%s</div></td><td><div>%s</div></td></tr>" % \
-            (lang, loc, script, name, autonym,
-             base_str, aux_str) + "\n".join(alt_rows)
-        # except Exception as e:
-        #     print(str(e))
-        #     return False
+    name = "%s / %s" % (lng_name if lng_name else "-",
+                        cl["name"] if "name" in cl else "-")
+    autonym = "%s / %s" % (lng_autonym if lng_autonym else "-",
+                           cl["autonym"] if "autonym" in cl else "-")
 
+    if lang not in hyperglot or not hg:
+        return "<tr><td>%s</td><td>%s</td><td>%s</td><td class='center'>%s</td><td class='center'>%s</td><td colspan='2'><span class='red'>Language not in Hyperglot</td></tr>" % \
+            (lang, loc, script, name, autonym)
+
+    if lang not in cmp:
+        return "<tr><td>%s</td><td>%s</td><td>%s</td><td class='center'>%s</td><td class='center'>%s</td><td colspan='2'><span class='green'>Language not in CLDR</td></tr>" % \
+            (lang, loc, script, name, autonym)
+
+    if not hg.base and "base" not in cl:
+        base_str = ""
+    elif not hg.base:
+        base_str = "<span class='red'>%s</span>" % "".join(
+            sorted(cl["base"]))
+    elif "base" not in cl:
+        base_str = "<span class='green'>%s</span>" % "".join(
+            sorted(hg.base))
+    else:
+        base_marks = hg.base_marks
+        if not base_marks:
+            base_marks = []
+        hg_base = "".join(sorted(hg.base + base_marks))
+        cl_base = "".join(sorted(cl["base"]))
+
+        base_str = highlighted_diff(hg_base, cl_base)
+
+    if not hg.auxiliary and "auxiliary" not in cl:
+        aux_str = ""
+    elif not hg.auxiliary:
+        aux_str = "<span class='red'>%s</span>" % "".join(
+            sorted(cl["auxiliary"]))
+    elif "auxiliary" not in cl:
+        aux_str = "<span class='green'>%s</span>" % "".join(
+            sorted(hg.auxiliary))
+    else:
+        aux_marks = hg.auxiliary_marks
+        if not aux_marks:
+            aux_marks = []
+        hg_aux = "".join(sorted(hg.auxiliary + aux_marks))
+        cl_aux = "".join(sorted(cl["auxiliary"]))
+        diff = difflib.ndiff(hg_aux, cl_aux)
+        aux = []
+        for d in diff:
+            if d.startswith("+"):
+                aux.append("<span class='red'>%s</span>" % d[2:])
+            elif d.startswith("-"):
+                aux.append("<span class='green'>%s</span>" % d[2:])
+            else:
+                aux.append(d[2:])
+        aux_str = "".join(aux)
+
+    # Append any local variants CLDR has
+    alt_rows = []
+    alts = cmp.alternative_orthographies(lang)
+    if len(alts) > 0 and locale == "default":
+        for a in alts:
+            logging.info("Get alternative locale %s for %s" %
+                         (a, lang))
+            alt_rows.append(row(cmp, hyperglot, lang, a))
+
+    return "<tr><td>%s</td><td>%s</td><td>%s</td><td class='center'>%s</td><td class='center'>%s</td><td><div>%s</div></td><td><div>%s</div></td></tr>" % \
+        (lang, loc, script, name, autonym,
+            base_str, aux_str) + "\n".join(alt_rows)
+
+
+def write_comparison(cmp, hyperglot, cmp_file):
     table = []
-
-    all_langs = set(list(cldr.keys()) + list(hyperglot.keys()))
+    all_langs = set(list(cmp.keys()) + list(hyperglot.keys()))
     for lang in sorted(all_langs):
-        r = row(lang)
+        r = row(cmp, hyperglot, lang)
         if r:
             table.append(r)
 
-    cldr_comparison = os.path.join(DIR, "cldr_comparison.html")
-    with open(cldr_comparison, "w") as f:
+    with open(cmp_file, "w") as f:
         html = """
         <html>
         <head>
@@ -374,3 +389,12 @@ if __name__ == "__main__":
         """
 
         f.write(html % "\n".join(table))
+
+
+if __name__ == "__main__":
+    cldr = CLDRData()
+    # sldr = SLDRData()
+    hyperglot = Languages()
+
+    write_comparison(cldr, hyperglot, os.path.join(
+        DIR, "cldr_comparison.html"))
