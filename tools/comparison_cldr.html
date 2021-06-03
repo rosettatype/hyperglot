@@ -41,6 +41,15 @@
         </style>
         <head>
         <body>
+        <h1>Generated comparison between Hyperglot (0.3.3) and CLDR (v40.0)</h1>
+        <h2>Disclaimers/Comments:</h2>
+        <ul>
+        <li>Some language tag mappings might not be correct or do not match between the two DBs, particularly for macrolanguages or tags that have been discontinued and differ in both DBs (e.g. est/et/ekk)</li>
+        <li>Hyperglot has Lating/Cyrillic/Greek cases letters, whereas CLDR will always only have lowercase</li>
+        <li>The diff comparison of base + aux comparse the base/aux respectively, not their combination. E.g. one DB might have some char in base, the other in aux, but show as a diff in both attributes</li>
+        <li>The reference Hyperglot orthography is always the "default" one</li>
+        <li>CLDR regional "locale" sets do not seem to have different script for the same language, ever</li>
+        </ul>
         <table>
         <thead>
         <tr>
