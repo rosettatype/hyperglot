@@ -43,6 +43,7 @@ def get_langs():
 
 DIR = os.path.abspath(os.path.dirname(__file__))
 CLDR = os.path.join(DIR, "cldr")
+SLDR = os.path.join(DIR, "sldr")
 ISOS = read_iso_639_3(
     os.path.join(DIR, "../other/iso-639-3/iso-639-3_20190408.tab"))
 LANGS = get_langs()
@@ -164,6 +165,13 @@ class UnicodeData(dict):
         if code not in self:
             return {}
 
+        if len(self[code]) == 0:
+            return {}
+
+        if key == "default" and key not in self[code]:
+            print("No 'default' key for %s, using first" % code)
+            return list(self[code].values())[0]
+
         return self[code][key]
 
     def alternative_orthographies(self, code):
@@ -189,6 +197,7 @@ class CLDRData(UnicodeData):
         if not os.path.isdir(CLDR):
             raise FileNotFoundError(
                 "Download the latest CLDR data into tools/cldr")
+
         self.parse()
 
     def get_names(self):
@@ -199,14 +208,43 @@ class CLDRData(UnicodeData):
             self.names[l.attrib["type"]] = l.text
 
     def parse(self):
-        # cldr = {}
         # Loop through all xmls in common/main and get their character and
         # autonym info
         for file in os.listdir(self.main):
             self.parse_file(os.path.join(self.main, file))
 
-        # if cldr != {}:
-        #     self.update(cldr)
+
+class SLDRData(UnicodeData):
+
+    main = os.path.join(SLDR, "sldr")
+
+    def __init__(self):
+        """
+        Get a dict of all cldr/common/main language files.
+        They are named: iso-639-1/3(_Script)(_TERRITORY)
+        """
+        super().__init__()
+
+        if not os.path.isdir(SLDR):
+            raise FileNotFoundError(
+                "Download the latest CLDR data into tools/cldr")
+
+        self.parse()
+
+    def get_names(self):
+        # Get the en.xml and all language names defined in it
+        en = ET.parse(os.path.join(self.main, "e/en.xml"))
+        langs = en.getroot().findall(".//localDisplaynames/languages/language")
+        for l in langs:
+            self.names[l.attrib["type"]] = l.text
+
+    def parse(self):
+        # Loop through all xmls in common/main and get their character and
+        # autonym info
+        for a_to_z in os.listdir(self.main):
+            letter_path = os.path.join(self.main, a_to_z)
+            for file in os.listdir(letter_path):
+                self.parse_file(os.path.join(letter_path, file))
 
 
 def row(cmp, hyperglot, lang, locale="default"):
@@ -302,7 +340,7 @@ def row(cmp, hyperglot, lang, locale="default"):
             base_str, aux_str) + "\n".join(alt_rows)
 
 
-def write_comparison(cmp, hyperglot, cmp_file):
+def write_comparison(cmp, hyperglot, cmp_file, CMP, VERSION):
     table = []
     all_langs = set(list(cmp.keys()) + list(hyperglot.keys()))
     for lang in sorted(all_langs):
@@ -316,71 +354,71 @@ def write_comparison(cmp, hyperglot, cmp_file):
         <head>
         <meta charset="utf8">
         <style type="text/css">
-        .red { color: red; }
-        .green { color: green; }
-        table {
+        .red {{ color: red; }}
+        .green {{ color: green; }}
+        table {{
             border-collapse: collapse;
             width: 100%%;
-        }
-        tr:nth-child(even) {
+        }}
+        tr:nth-child(even) {{
             background: #eee;
-        }
-        tr td { 
+        }}
+        tr td {{
             border-top: 1px solid lightgrey;
             border-right: 1px dotted lightgray;
             vertical-align: top;
             max-width: 33vw;
             padding: 0.1em 0.5em;
-            }
-        tr td div {
+            }}
+        tr td div {{
             max-height: 10rem;
             overflow-y: scroll;
             word-break: break-all;
-            }
-        th, legend {
+            }}
+        th, legend {{
             position: sticky;
             background: lightgrey;
             padding: 1rem;
-        }
-        th {
+        }}
+        th {{
             top: 0;
-        }
-        legend {
+        }}
+        legend {{
             bottom: 0;
-        }
-        .center { 
+        }}
+        .center {{ 
             text-align: center;
-        }
+        }}
         </style>
         <head>
         <body>
-        <h1>Generated comparison between Hyperglot (0.3.3) and CLDR (v40.0)</h1>
+        <h1>Generated comparison between Hyperglot (0.3.3) and {CMP} ({VERSION})</h1>
         <h2>Disclaimers/Comments:</h2>
         <ul>
         <li>Some language tag mappings might not be correct or do not match between the two DBs, particularly for macrolanguages or tags that have been discontinued and differ in both DBs (e.g. est/et/ekk)</li>
-        <li>Hyperglot has Lating/Cyrillic/Greek cases letters, whereas CLDR will always only have lowercase</li>
+        <li>Hyperglot has Lating/Cyrillic/Greek cases letters, whereas {CMP} will always only have lowercase</li>
         <li>The diff comparison of base + aux comparse the base/aux respectively, not their combination. E.g. one DB might have some char in base, the other in aux, but show as a diff in both attributes</li>
         <li>The reference Hyperglot orthography is always the "default" one</li>
-        <li>CLDR regional "locale" sets do not seem to have different script for the same language, ever</li>
+        <li>{CMP} regional "locale" sets do not seem to have different script for the same language, ever</li>
         </ul>
         <table>
         <thead>
         <tr>
         <th>Tag</th>
-        <th>Locale (CLDR)</th>
-        <th>Script (CLDR)</th>
-        <th>Name (EN) <nobr>Hyperglot / CLDR</nobr></th>
-        <th>Autonym <nobr>Hyperglot / CLDR</nobr></th>
-        <th>CLDR Comparison (base)</th>
-        <th>CLDR Comparison (aux)</th>
+        <th>Locale ({CMP})</th>
+        <th>Script ({CMP})</th>
+        <th>Name (EN) <nobr>Hyperglot / {CMP}</nobr></th>
+        <th>Autonym <nobr>Hyperglot / {CMP}</nobr></th>
+        <th>{CMP} Comparison (base)</th>
+        <th>{CMP} Comparison (aux)</th>
         </tr>
         </thead>
         <tbody>
-        %s
+        {CONTENT}
         </tbody>
         </table>
         <legend>
-            <span class='green'>Not in CLDR</span>
+            <span class='green'>Not in {CMP}</span>
             <span class='red'>Not in HG</span>
             <span>in both</span>
         </legend>
@@ -388,13 +426,18 @@ def write_comparison(cmp, hyperglot, cmp_file):
         </html>
         """
 
-        f.write(html % "\n".join(table))
+        f.write(html.format(CONTENT="\n".join(table), CMP=CMP, VERSION=VERSION))
 
 
 if __name__ == "__main__":
     cldr = CLDRData()
-    # sldr = SLDRData()
+    sldr = SLDRData()
     hyperglot = Languages()
 
-    write_comparison(cldr, hyperglot, os.path.join(
-        DIR, "cldr_comparison.html"))
+    write_comparison(cldr, hyperglot,
+                     os.path.join(DIR, "cldr_comparison.html"),
+                     "CLDR", "v40.0")
+
+    write_comparison(sldr, hyperglot,
+                     os.path.join(DIR, "sldr_comparison.html"),
+                     "SLDR", "2a07e912ee63fa78e90e09af95debd9d397d4e54")
