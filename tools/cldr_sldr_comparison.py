@@ -23,6 +23,7 @@ from readers import read_iso_639_3
 from hyperglot.languages import Languages
 from hyperglot.language import Language, Orthography
 
+logging.basicConfig()
 logging.getLogger().setLevel(logging.INFO)
 
 
@@ -107,6 +108,7 @@ class CLDRData(dict):
                     locale = "default"
 
                 try:
+                    # script from XML
                     script = root.find(".//identity/script").attrib["type"]
                 except Exception:
                     script = "default"
@@ -117,15 +119,18 @@ class CLDRData(dict):
                 if lang not in cldr.keys():
                     cldr[lang] = {}
 
-                if chars is None:
-                    cldr[lang] = None
-                    logging.info("CLDR has no character data for language %s /"
-                                 " script %s / locale %s" %
-                                 (lang, script, locale))
-                    continue
+                # if lang not in cldr.keys():
+                #     cldr[lang] = {}
+
+                # if chars is None:
+                #     logging.info("CLDR has no character data for language %s /"
+                #                  " script %s / locale %s" %
+                #                  (lang, script, locale))
+                #     continue
 
                 data = {
-                    "script": script
+                    "script": script,
+                    "locale": locale,
                 }
 
                 # See https://github.com/unicode-org/cldr/blob/master/docs/ldml/tr35-general.md#31-exemplars
@@ -150,23 +155,21 @@ class CLDRData(dict):
 
                 data["name"] = names[lang] if lang in names else "-"
 
-                cldr[lang][locale] = data
+                key = "default"
+                if script != "default" or locale != "default":
+                    key = "%s_%s" % (script, locale)
+        
+                cldr[lang][key] = data
             except Exception as e:
                 logging.error("Error when parsing CLDR files: %s" % str(e))
-        if cldr:
+        if cldr != {}:
             self.update(cldr)
 
-    def orthography(self, code, script="default", locale="default"):
+    def orthography(self, code, key="default"):
         if code not in self:
             return {}
 
-        # if script != "default":
-        #     for
-
-        # TODO not sure if we can/will target the CLDR locale variants in the
-        # comparison
-
-        return self[code][locale]
+        return self[code][key]
 
     def alternative_orthographies(self, code):
         if code not in self:
@@ -184,8 +187,12 @@ if __name__ == "__main__":
     def row(lang, locale="default"):
 
         cl = cldr.orthography(lang, locale)
-        loc = "" if locale == "default" else locale
-        script = "" if "script" not in cl or cl["script"] == "default" else cl["script"]
+        loc = cl["locale"] if "locale" in cl else "-"
+        if loc == "default":
+            loc = "-"
+        script = cl["script"] if "script" in cl else "-"
+        if script == "default":
+            script = "-"
 
         # try:
         hg = False
