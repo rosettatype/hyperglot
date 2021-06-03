@@ -23,6 +23,8 @@ from readers import read_iso_639_3
 from hyperglot.languages import Languages
 from hyperglot.language import Language, Orthography
 
+logging.getLogger().setLevel(logging.INFO)
+
 
 def get_langs():
     txt = os.path.join(DIR, "../other/iana/language-subtag-registry.txt")
@@ -80,7 +82,17 @@ class CLDRData(dict):
                 "Download the latest CLDR data into tools/cldr")
 
         main = os.path.join(CLDR, "common/main")
+
+        # Get the en.xml and all language names defined in it
+        names = {}
+        en = ET.parse(os.path.join(main, "en.xml"))
+        langs = en.getroot().findall(".//localDisplaynames/languages/language")
+        for l in langs:
+            names[l.attrib["type"]] = l.text
+
         cldr = {}
+        # Loop through all xmls in common/main and get their character and
+        # autonym info
         for file in os.listdir(main):
             try:
                 path = os.path.join(main, file)
@@ -131,10 +143,18 @@ class CLDRData(dict):
                         logging.error("Error when parsing Unicode Set '%s' "
                                       "(type %s) of %s" %
                                       (c.text, attr, lang))
+
+                autonym_node = root.find(
+                    ".//languages/language[@type='%s']" % lang)
+                data["autonym"] = autonym_node.text if autonym_node is not None else "-"
+
+                data["name"] = names[lang] if lang in names else "-"
+
                 cldr[lang][locale] = data
             except Exception as e:
                 logging.error("Error when parsing CLDR files: %s" % str(e))
-        self.update(cldr)
+        if cldr:
+            self.update(cldr)
 
     def orthography(self, code, script="default", locale="default"):
         if code not in self:
@@ -148,74 +168,119 @@ class CLDRData(dict):
 
         return self[code][locale]
 
+    def alternative_orthographies(self, code):
+        if code not in self:
+            return {}
+
+        non_default = {loc: o for loc,
+                       o in self[code].items() if loc != "default"}
+        return non_default
+
 
 if __name__ == "__main__":
     cldr = CLDRData()
     hyperglot = Languages()
 
-    def row(lang):
+    def row(lang, locale="default"):
 
-        try:
+        cl = cldr.orthography(lang, locale)
+        loc = "" if locale == "default" else locale
+        script = "" if "script" not in cl or cl["script"] == "default" else cl["script"]
 
-            if lang not in hyperglot:
-                return "<tr><td>%s</td><td colsan='2'><span class='red'>Language not in Hyperglot</td></tr>" % \
-                    (lang)
-
-            if lang not in cldr:
-                return "<tr><td>%s</td><td colsan='2'><span class='green'>Language not in CLDR</td></tr>" % \
-                    (lang)
-
-
+        # try:
+        hg = False
+        if lang in hyperglot:
             lng = Language(hyperglot[lang], lang)
-            hg = Orthography(lng.get_orthography())
-            cl = cldr.orthography(lang)
+            lng_name = lng.get_name()
+            lng_autonym = lng.get_autonym()
+            if lng:
+                o = lng.get_orthography()
+                if o:
+                    hg = Orthography(o)
+        else:
+            lng = False
+            lng_name = "-"
+            lng_autonym = "-"
 
-            if not hg.base and "base" not in cl:
-                base_str = ""
-            elif not hg.base:
-                base_str = "<span class='red'>%s</span>" % "".join(sorted(cl["base"]))
-            elif "base" not in cl:
-                base_str = "<span class='green'>%s</span>" % "".join(sorted(hg.base))
-            else:
-                hg_base = "".join(sorted(hg.base))
-                cl_base = "".join(sorted(cl["base"]))
+        name = "%s / %s" % (lng_name if lng_name else "-",
+                            cl["name"] if "name" in cl else "-")
+        autonym = "%s / %s" % (lng_autonym if lng_autonym else "-",
+                               cl["autonym"] if "autonym" in cl else "-")
 
-                diff = difflib.ndiff(hg_base, cl_base)
-                base = []
-                for d in diff:
-                    if d.startswith("+"):
-                        base.append("<span class='red'>%s</span>" % d[2:])
-                    elif d.startswith("-"):
-                        base.append("<span class='green'>%s</span>" % d[2:])
-                    else:
-                        base.append(d[2:])
-                base_str = "".join(base)
+        if lang not in hyperglot or not hg:
+            return "<tr><td>%s</td><td>%s</td><td>%s</td><td class='center'>%s</td><td class='center'>%s</td><td colspan='2'><span class='red'>Language not in Hyperglot</td></tr>" % \
+                (lang, loc, script, name, autonym)
 
-            if not hg.auxiliary and "auxiliary" not in cl:
-                aux_str = ""
-            elif not hg.auxiliary:
-                aux_str = "<span class='red'>%s</span>" % "".join(sorted(cl["auxiliary"]))
-            elif "auxiliary" not in cl:
-                aux_str = "<span class='green'>%s</span>" % "".join(sorted(hg.auxiliary))
-            else:
-                hg_aux = "".join(sorted(hg.auxiliary))
-                cl_aux = "".join(sorted(cl["auxiliary"]))
-                diff = difflib.ndiff(hg_aux, cl_aux)
-                aux = []
-                for d in diff:
-                    if d.startswith("+"):
-                        aux.append("<span class='red'>%s</span>" % d[2:])
-                    elif d.startswith("-"):
-                        aux.append("<span class='green'>%s</span>" % d[2:])
-                    else:
-                        aux.append(d[2:])
-                aux_str = "".join(aux)
-                
-            return "<tr><td>%s</td><td><div>%s</div></td><td><div>%s</div></td></tr>" % \
-                (lang, base_str, aux_str)
-        except Exception as e:
-            print(e)
-            return False
+        if lang not in cldr:
+            return "<tr><td>%s</td><td>%s</td><td>%s</td><td class='center'>%s</td><td class='center'>%s</td><td colspan='2'><span class='green'>Language not in CLDR</td></tr>" % \
+                (lang, loc, script, name, autonym)
+
+        if not hg.base and "base" not in cl:
+            base_str = ""
+        elif not hg.base:
+            base_str = "<span class='red'>%s</span>" % "".join(
+                sorted(cl["base"]))
+        elif "base" not in cl:
+            base_str = "<span class='green'>%s</span>" % "".join(
+                sorted(hg.base))
+        else:
+            base_marks = hg.base_marks
+            if not base_marks:
+                base_marks = []
+            hg_base = "".join(sorted(hg.base + base_marks))
+            cl_base = "".join(sorted(cl["base"]))
+
+            diff = difflib.ndiff(hg_base, cl_base)
+            base = []
+            for d in diff:
+                if d.startswith("+"):
+                    base.append("<span class='red'>%s</span>" % d[2:])
+                elif d.startswith("-"):
+                    base.append("<span class='green'>%s</span>" % d[2:])
+                else:
+                    base.append(d[2:])
+            base_str = "".join(base)
+
+        if not hg.auxiliary and "auxiliary" not in cl:
+            aux_str = ""
+        elif not hg.auxiliary:
+            aux_str = "<span class='red'>%s</span>" % "".join(
+                sorted(cl["auxiliary"]))
+        elif "auxiliary" not in cl:
+            aux_str = "<span class='green'>%s</span>" % "".join(
+                sorted(hg.auxiliary))
+        else:
+            aux_marks = hg.auxiliary_marks
+            if not aux_marks:
+                aux_marks = []
+            hg_aux = "".join(sorted(hg.auxiliary + aux_marks))
+            cl_aux = "".join(sorted(cl["auxiliary"]))
+            diff = difflib.ndiff(hg_aux, cl_aux)
+            aux = []
+            for d in diff:
+                if d.startswith("+"):
+                    aux.append("<span class='red'>%s</span>" % d[2:])
+                elif d.startswith("-"):
+                    aux.append("<span class='green'>%s</span>" % d[2:])
+                else:
+                    aux.append(d[2:])
+            aux_str = "".join(aux)
+
+        # Append any local variants CLDR has
+        alt_rows = []
+        alts = cldr.alternative_orthographies(lang)
+        if len(alts) > 0 and locale == "default":
+            for a in alts:
+                logging.info("Get alternative locale %s for %s" %
+                             (a, lang))
+                alt_rows.append(row(lang, a))
+
+        return "<tr><td>%s</td><td>%s</td><td>%s</td><td class='center'>%s</td><td class='center'>%s</td><td><div>%s</div></td><td><div>%s</div></td></tr>" % \
+            (lang, loc, script, name, autonym,
+             base_str, aux_str) + "\n".join(alt_rows)
+        # except Exception as e:
+        #     print(str(e))
+        #     return False
 
     table = []
 
@@ -235,11 +300,18 @@ if __name__ == "__main__":
         .red { color: red; }
         .green { color: green; }
         table {
+            border-collapse: collapse;
             width: 100%%;
         }
-        tr td { border-top: 1px solid lightgrey;
+        tr:nth-child(even) {
+            background: #eee;
+        }
+        tr td { 
+            border-top: 1px solid lightgrey;
+            border-right: 1px dotted lightgray;
             vertical-align: top;
             max-width: 33vw;
+            padding: 0.1em 0.5em;
             }
         tr td div {
             max-height: 10rem;
@@ -257,6 +329,9 @@ if __name__ == "__main__":
         legend {
             bottom: 0;
         }
+        .center { 
+            text-align: center;
+        }
         </style>
         <head>
         <body>
@@ -264,6 +339,10 @@ if __name__ == "__main__":
         <thead>
         <tr>
         <th>Tag</th>
+        <th>Locale (CLDR)</th>
+        <th>Script (CLDR)</th>
+        <th>Name (EN) <nobr>Hyperglot / CLDR</nobr></th>
+        <th>Autonym <nobr>Hyperglot / CLDR</nobr></th>
         <th>CLDR Comparison (base)</th>
         <th>CLDR Comparison (aux)</th>
         </tr>
