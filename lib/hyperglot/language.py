@@ -132,20 +132,28 @@ validity: {validity}
             # If neither are found
             return False
 
-        return False
-
     def get_autonym(self, script=None):
-        if script is not None:
+        # Get the best orthography (for this script)
+        try:
             ort = self.get_orthography(script)
-            if "autonym" in ort:
+            if ort and "autonym" in ort:
                 return ort["autonym"]
+        except KeyError:
+            # No such script exists, but was explicitly requested, so
+            # explicitly return False
+            return False
+
+        # Try explicitly without script, this should not raise a Exception ever
+        # but return False if nothing found
+        ort = self.get_orthography()
+        if ort and "autonym" in ort:
+            return ort["autonym"]
+
         # Without script fall back to main dict autonym, if one exists
         try:
             return self["autonym"]
         except KeyError:
             return False
-
-        return False
 
     def is_historical(self, orthography=None):
         """

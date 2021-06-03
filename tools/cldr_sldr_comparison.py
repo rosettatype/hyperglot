@@ -48,6 +48,21 @@ ISOS = read_iso_639_3(
 LANGS = get_langs()
 
 
+def highlighted_diff(a, b,
+                     wrapper_add="<span class='red'>%s</span>",
+                     wrapper_del="<span class='green'>%s</span>"):
+    diff = difflib.ndiff(a, b)
+    base = []
+    for d in diff:
+        if d.startswith("+"):
+            base.append(wrapper_add % d[2:])
+        elif d.startswith("-"):
+            base.append(wrapper_del % d[2:])
+        else:
+            base.append(d[2:])
+    return "".join(base)
+
+
 def get_country_code(lang):
     """
     Get the iso-639-3 for a -1 -2B -2T -3 entry
@@ -119,15 +134,6 @@ class CLDRData(dict):
                 if lang not in cldr.keys():
                     cldr[lang] = {}
 
-                # if lang not in cldr.keys():
-                #     cldr[lang] = {}
-
-                # if chars is None:
-                #     logging.info("CLDR has no character data for language %s /"
-                #                  " script %s / locale %s" %
-                #                  (lang, script, locale))
-                #     continue
-
                 data = {
                     "script": script,
                     "locale": locale,
@@ -158,7 +164,7 @@ class CLDRData(dict):
                 key = "default"
                 if script != "default" or locale != "default":
                     key = "%s_%s" % (script, locale)
-        
+
                 cldr[lang][key] = data
             except Exception as e:
                 logging.error("Error when parsing CLDR files: %s" % str(e))
@@ -237,16 +243,7 @@ if __name__ == "__main__":
             hg_base = "".join(sorted(hg.base + base_marks))
             cl_base = "".join(sorted(cl["base"]))
 
-            diff = difflib.ndiff(hg_base, cl_base)
-            base = []
-            for d in diff:
-                if d.startswith("+"):
-                    base.append("<span class='red'>%s</span>" % d[2:])
-                elif d.startswith("-"):
-                    base.append("<span class='green'>%s</span>" % d[2:])
-                else:
-                    base.append(d[2:])
-            base_str = "".join(base)
+            base_str = highlighted_diff(hg_base, cl_base)
 
         if not hg.auxiliary and "auxiliary" not in cl:
             aux_str = ""

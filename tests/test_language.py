@@ -143,9 +143,12 @@ def test_language_get_autonym(langs):
     #     script: Arabic
     #   preferred_name: Balochi
 
-    # For Arabic it should return the correct autonym, without script False
+    # For Arabic it should return the correct autonym
     assert bal.get_autonym(script="Arabic") == "بلۏچی"
-    assert bal.get_autonym() is False
+    # and without script it should return the "main" orthography's
+    assert bal.get_autonym() == "بلۏچی"
+    # and with a script not in the language, False
+    assert bal.get_autonym(script="Latin") is False
 
 
 def test_language_all_orthographies(langs):
