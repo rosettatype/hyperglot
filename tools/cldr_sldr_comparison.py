@@ -399,7 +399,6 @@ def write_comparison(cmp, hyperglot, cmp_file, CMP, VERSION):
         <li>Hyperglot has Lating/Cyrillic/Greek cases letters, whereas {CMP} will always only have lowercase</li>
         <li>The diff comparison of base + aux comparse the base/aux respectively, not their combination. E.g. one DB might have some char in base, the other in aux, but show as a diff in both attributes</li>
         <li>The reference Hyperglot orthography is always the "default" one</li>
-        <li>{CMP} regional "locale" sets do not seem to have different script for the same language, ever</li>
         </ul>
         <table>
         <thead>
