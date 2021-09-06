@@ -302,7 +302,7 @@ class Language(dict):
 
                 if not supported:
                     log.debug("Missing from base language %s: %s" %
-                                  (self.iso, " ".join(base.difference(chars))))
+                              (self.iso, " ".join(base.difference(chars))))
 
                 if supported:
                     # Only check aux if base is supported to begin with
@@ -416,7 +416,8 @@ class Orthography(dict):
 
     @property
     def design_alternates(self):
-        return [remove_mark_base(chars) for chars in self._character_list("design_alternates")]
+        return [remove_mark_base(chars) for chars
+                in self._character_list("design_alternates")]
 
     # "Private" methods
 
