@@ -301,7 +301,7 @@ class Language(dict):
                         break
 
                 if not supported:
-                    logging.debug("Missing from base language %s: %s" %
+                    log.debug("Missing from base language %s: %s" %
                                   (self.iso, " ".join(base.difference(chars))))
 
                 if supported:
