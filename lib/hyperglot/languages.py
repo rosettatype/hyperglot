@@ -26,7 +26,7 @@ class Languages(dict):
             "verified". Defaults to "draft" — all languages with basic
             information, but possibly unconfirmed.
         """
-        with open(DB) as f:
+        with open(DB, "rb") as f:
             data = yaml.load(f, Loader=yaml.Loader)
             self.update(data)
 
