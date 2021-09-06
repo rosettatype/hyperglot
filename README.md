@@ -93,6 +93,8 @@ Installing the pip package also installed the `hyperglot-validate` and `hyperglo
 
 The data structure is described in a separate file together with guidelines for contributing.
 
+Updates are comitted/merged to the `dev` branch with the `master` branch holding the latest released version.
+
 [Database and contributing](README_database.md)
 
 ## Roadmap

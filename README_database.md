@@ -117,7 +117,7 @@ Note that this will _read_ and _write_ the yaml file.
   - All `marks` entries will be placed on top of `◌` for easier readability
   - All character list entries will be spaced with a single space between them, on one line
   - All language and orthography attributes will be sorted a-z; while this might not be the most intuitive, this ensures that data is always sorted the same, and thus comparing different versions of the data (with version control) yields predictable results
-- When contributing code make sure to install the `pytest` package and run `pytest` to make sure no errors are detected. Ideally, write tests for any code additions or changes you have added.
+- When contributing code make sure to install the `pytest` package and run `pytest tests` to make sure no errors are detected. Ideally, write tests for any code additions or changes you have added.
 
 ## Sources
 
