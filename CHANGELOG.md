@@ -1,5 +1,10 @@
 # A changelog for the lib/hyperglot CLI tool
 
+## 0.3.4 (06.09.2021)
+- FIX: Fixed an encoding issue affecting Windows environments
+- DATA: Fixed typos in Buginese
+- DATA: Reviewed Minangkabau orthography
+
 ## 0.3.3 (23.04.2021)
 - DATA: Added Batak languages and refined Balinese
 - FIX: Further improvement to detection of orthographies with unencoded base + mark combinations
