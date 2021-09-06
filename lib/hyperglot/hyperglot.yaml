@@ -1655,7 +1655,7 @@ bug:
   orthographies:
   - autonym: Basa Ugi
     base: A B C D E G I J K L M N O P R S T U W Y Ә a b c d e g i j k l m n o p r s t u w y ' ә
-    note: The use of the Buginesse script seems to be declining with the Latin script taking over.
+    note: The use of the Buginese script seems to be declining with the Latin script taking over.
     script: Latin
     status: primary
   - autonym: ᨅᨔ ᨕᨘᨁᨗ
@@ -1665,7 +1665,7 @@ bug:
     marks: ◌ᨗ ◌ᨘ ◌ᨙ ◌ᨚ ◌ᨛ
     note: The script is also called Lontara
     punctuation: ᨞ ᨟
-    script: Buginesse
+    script: Buginese
     status: primary
   source:
   - Omniglot
