@@ -1,5 +1,9 @@
 # A changelog for the lib/hyperglot CLI tool
 
+## 0.3.5 (07.09.2021)
+- DATA: Revised Tamil orthography
+- DATA: Added Apinayé, Karo and Awetí languages
+
 ## 0.3.4 (06.09.2021)
 - FIX: Fixed an encoding issue affecting Windows environments
 - DATA: Fixed typos in Buginese
