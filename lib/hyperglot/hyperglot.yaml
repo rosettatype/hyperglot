@@ -7508,6 +7508,19 @@ pga:
   speakers_date: 1987
   status: living
   validity: draft
+pil:
+  name: Yom
+  orthographies:
+  - autonym: pila
+    base: A B C D E Ɛ Ǝ F G H I J K L M N Ŋ O Ɔ P Q S T U Ʊ V W Y Z a b c d e ɛ ǝ f g h i j k l m n ŋ o ɔ p q s t u ʊ v w y z
+    auxiliary: Ʋ ʋ
+    script: Latin
+    status: primary
+  source:
+  - Wikipedia
+  - Centre national de linguistique appliquée (C.E.N.A.L.A.), Alphabet des langues nationales béninoises, 2008, p. 41-42.
+  speakers: 300000
+  speakers_date: 2006
 pis:
   name: Pijin
   note: There are approximately 300000 L2 speakers.
