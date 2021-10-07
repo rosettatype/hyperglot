@@ -2588,12 +2588,13 @@ ddn:
   name: Dendi (Benin)
   orthographies:
   - autonym: Dandawa
-    base: A B Ɓ C D Ɖ Ɗ E Ɛ Ǝ F Ƒ G Ɣ H I Ɩ J K L M N O Ɔ U W Ʊ À Á Ǎ Â Ā È É Ě Ê Ē Ə Ì Í Ǐ Î Ī Ḿ Ǹ Ń Ň Ò Ó Ǒ Ô Ō Ù Ú Ǔ Û Ū Ã Ẽ Ĩ Ṍ Ṹ Ḛ Ḭ Ṵ a b ɓ c d ɖ ɗ e ɛ ǝ f ƒ g ɣ h i ɩ j k l m n o ɔ u w ʊ à á ǎ â ā è é ě ê ē ə ì í ǐ î ī ḿ ǹ ń ň ò ó ǒ ô ō ù ú ǔ û ū ã ẽ ĩ ṍ ṹ ḛ ḭ ṵ
-    marks: ◌̀ ◌́ ◌̂ ◌̃ ◌̄ ◌̌ ◌̰
+    base: A B C D E Ɛ F G H I J K L M N Ŋ O Ɔ P R S T W Y Z À Á Ā È É Ē Ì Í Ī Ò Ó Ō Ù Ú Ū a b c d e ɛ f g h i j k l m n ŋ o ɔ p r s t w y z à á ā è é ē ì í ī ò ó ō ù ú ū
+    marks: ◌̀ ◌́ ◌̄
     script: Latin
     status: primary
   source:
   - Wikipedia
+  - Centre national de linguistique appliquée (C.E.N.A.L.A.), Alphabet des langues nationales béninoises, 2008, p. 15-16.
   speakers: 257050
   speakers_date: 2000-2016
   validity: draft
