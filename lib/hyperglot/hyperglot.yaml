@@ -1418,6 +1418,19 @@ bis:
   speakers_date: 2011
   status: living
   validity: verified
+blo:
+  name: Anii
+  orthographies:
+  - autonym: anii
+    base: A Ǝ B C Ɖ E Ɛ F G H I Ɩ J K L M N Ŋ O Ɔ P R S T U Ʊ W Y a ǝ b c ɖ e ɛ f g h i ɩ j k l m n ŋ o ɔ p r s t u ʊ w y
+    marks: ◌́ ◌̀ ◌̂
+    script: Latin
+    status: primary
+  source:
+  - Centre national de linguistique appliquée (C.E.N.A.L.A.), Alphabet des langues nationales béninoises, 2008, p. 7-8.
+  - Zaske Stefanie, Atti Kalam Hakimou. 2014. Atɩgɩkrǝ anii kʊŋɔn Écriture de la langue anii. SIL, Bassila. http://gasana.org/wp/wp-content/uploads/2020/05/BLO_Ling_OR4.pdf
+  speakers: 49000
+  speakers_date: 2011-2012
 blt:
   name: Tai Dam
   orthographies:
