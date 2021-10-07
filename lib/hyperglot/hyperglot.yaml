@@ -3610,6 +3610,18 @@ gcf:
   speakers_date: 1998-2001
   status: living
   validity: preliminary
+dej:
+  name: Gen
+  orthographies:
+  - autonym: gɛn
+    base: A B C D Ɖ E Ɛ F G Ɣ H I J K L M N Ŋ P S T V W X Y Z a b c d ɖ e ɛ f g ɣ h i j k l m n ŋ p s t v w x y z
+    script: Latin
+    status: primary
+  source:
+  - Wikipedia
+  - Centre national de linguistique appliquée (C.E.N.A.L.A.), Alphabet des langues nationales béninoises, 2008, p. 25-26.
+  speakers: 330000
+  speakers_date: 1991-2006
 gil:
   name: Gilbertese
   orthographies:
