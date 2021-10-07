@@ -10136,8 +10136,13 @@ wwa:
     base: A B C D E Ɛ F I K M N Ŋ O Ɔ P R S T U W Y a b c d e ɛ f i k m n ŋ o ɔ p r s t u w y
     script: Latin
     status: primary
+    note: Ŋ is not included in CENALA 1990 nor CENALA 2008 but is included in Hartell 1993 and is used in https://www.webonary.org/waama/ or the Waama Bible translation published in Wycliffe 1994.
   source:
   - Wikipedia
+  - Rhonda L. Hartell, Alphabets de langues africaines, 1993, p. 37.
+  - Centre national de linguistique appliquée (C.E.N.A.L.A.), Alphabet des langues nationales, 1990, p. 27-29.
+  - Centre national de linguistique appliquée (C.E.N.A.L.A.), Alphabet des langues nationales béninoises, 2008, p. 35-36.
+  - https://www.webonary.org/waama/
   speakers: 50000
   speakers_date: 2000
   validity: draft
