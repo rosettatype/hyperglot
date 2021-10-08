@@ -10431,9 +10431,16 @@ yor:
     marks: ◌̀ ◌́ ◌̄ ◌̣
     script: Latin
     status: primary
+  - autonym: èdè yorùbá
+    base: A B D E Ɛ F G H I J K L M N O Ɔ P R S T U W Y À Á Ā È É Ē Ì Í Ī Ò Ó Ō Ù Ú Ū a b d e ɛ f g h i j k l m n o ɔ p r s t u w y à á ā è é ē ì í ī ò ó ō ù ú ū
+    marks: ◌̀ ◌́
+    script: Latin
+    status: local
+    note: Orthography used in Benin.
   source:
   - Omniglot
   - Wikipedia
+  - Centre national de linguistique appliquée (C.E.N.A.L.A.), Alphabet des langues nationales béninoises, 2008, p. 43-44.
   speakers: 40000000
   speakers_date: 2015
   status: living
