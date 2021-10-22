@@ -7,7 +7,7 @@ David Březina <david@rosettatype.com> @MrBrezina (concept, database structure, 
 Johannes Neumeier <hello@johannesneumeier.com> @kontur (tool and tests and German orthographies)
 Sérgio Martins @sergiolmartins (major expansion and review of the data, over 250 languages)
 Toshi Omagari  @toshe (basic language data for many Cyrillic-script languages)
-Denis Moyogo Jacquerye @moyogo (added Foodo, Gen, Lukpa, Mbelime, Nateni, Yom, Miyobe, Waci Gbe, Xwela Gbe, update to Adangme, Ditammari, Fon, Kabiye, Madurese, Aja (Benin), Yoruba, Waama)
+Denis Moyogo Jacquerye @moyogo (added Anii, Biali, Boko, Foodo, Gen, Lukpa, Mbelime, Nateni, Yom, Miyobe, Waci Gbe, Xwela Gbe, update to Adangme, Baatonum, Dendi, Ditammari, Fon, Kabiye, Madurese, Aja (Benin), Yoruba, Waama)
 Hrant Հրանդ Փափազեան Papazian (update to Armenian)
 Meir Sadan (Hebrew and Yiddish)
 Vincent W.J. van Gerven Oei @vincentwj (Albanian languages, Old Nubian, Nobiin, Mattokki, Andaandi)
