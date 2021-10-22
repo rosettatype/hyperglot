@@ -1214,6 +1214,7 @@ bba:
   source:
   - Omniglot
   - Wikipedia
+  - Centre national de linguistique appliquée (C.E.N.A.L.A.), Alphabet des langues nationales béninoises, 2008, p. 9-10.
   speakers: 560000
   speakers_date: 1995
   validity: preliminary
@@ -1269,6 +1270,21 @@ bdk:
   speakers_date: 2010
   status: living
   validity: verified
+beh:
+  name: Biali
+  orthographies:
+  - autonym: Byali
+    base: A B C D E Ǝ F G H I K L M N O P R S T U W Y Á É Í Ó Ú a b c d e ǝ f g h i k l m n o p r s t u w y á é í ó úa
+    auxiliary: Ə ə
+    marks: ◌́
+    script: Latin
+    status: primary
+  source:
+  - Centre national de linguistique appliquée (C.E.N.A.L.A.), Alphabet des langues nationales béninoises, 2008, p. 13-14.
+  - https://www.sil.org/resources/archives/53773
+  speakers: 100000
+  speakers_date: 2002
+  status: living
 bel:
   name: Belarusian
   orthographies:
@@ -1445,6 +1461,19 @@ bis:
   speakers_date: 2011
   status: living
   validity: verified
+blo:
+  name: Anii
+  orthographies:
+  - autonym: anii
+    base: A Ǝ B C Ɖ E Ɛ F G H I Ɩ J K L M N Ŋ O Ɔ P R S T U Ʊ W Y a ǝ b c ɖ e ɛ f g h i ɩ j k l m n ŋ o ɔ p r s t u ʊ w y
+    marks: ◌́ ◌̀ ◌̂
+    script: Latin
+    status: primary
+  source:
+  - Centre national de linguistique appliquée (C.E.N.A.L.A.), Alphabet des langues nationales béninoises, 2008, p. 7-8.
+  - Zaske Stefanie, Atti Kalam Hakimou. 2014. Atɩgɩkrǝ anii kʊŋɔn Écriture de la langue anii. SIL, Bassila. http://gasana.org/wp/wp-content/uploads/2020/05/BLO_Ling_OR4.pdf
+  speakers: 49000
+  speakers_date: 2011-2012
 blt:
   name: Tai Dam
   orthographies:
@@ -1536,6 +1565,19 @@ bpy:
   speakers: 1760000
   speakers_date: 2020
   validity: preliminary
+bqc:
+  name: Boko (Benin)
+  orthographies:
+    - autonym: boo
+    base: A B D E Ɛ F G I K L M N O Ɔ P R S T U V W Y Z À Á Ã È É Ì Í Ĩ Ò Ó Ù Ú Ũ a b d e ɛ f g i k l m n o ɔ p r s t u v w y z à á ã è é ì í ĩ ò ó ù ú ũ
+    marks: ◌́ ◌̀ ◌̌ ◌̃
+    script: Latin
+    status: primary
+  source:
+  - Wikipedia
+  - Centre national de linguistique appliquée (C.E.N.A.L.A.), Alphabet des langues nationales béninoises, 2008, p. 11-12.
+  speakers: 150000
+  spearkers_data: 2012
 bre:
   name: Breton
   orthographies:
@@ -2588,12 +2630,13 @@ ddn:
   name: Dendi (Benin)
   orthographies:
   - autonym: Dandawa
-    base: A B Ɓ C D Ɖ Ɗ E Ɛ Ǝ F Ƒ G Ɣ H I Ɩ J K L M N O Ɔ U W Ʊ À Á Ǎ Â Ā È É Ě Ê Ē Ə Ì Í Ǐ Î Ī Ḿ Ǹ Ń Ň Ò Ó Ǒ Ô Ō Ù Ú Ǔ Û Ū Ã Ẽ Ĩ Ṍ Ṹ Ḛ Ḭ Ṵ a b ɓ c d ɖ ɗ e ɛ ǝ f ƒ g ɣ h i ɩ j k l m n o ɔ u w ʊ à á ǎ â ā è é ě ê ē ə ì í ǐ î ī ḿ ǹ ń ň ò ó ǒ ô ō ù ú ǔ û ū ã ẽ ĩ ṍ ṹ ḛ ḭ ṵ
-    marks: ◌̀ ◌́ ◌̂ ◌̃ ◌̄ ◌̌ ◌̰
+    base: A B C D E Ɛ F G H I J K L M N Ŋ O Ɔ P R S T W Y Z À Á Ā È É Ē Ì Í Ī Ò Ó Ō Ù Ú Ū a b c d e ɛ f g h i j k l m n ŋ o ɔ p r s t w y z à á ā è é ē ì í ī ò ó ō ù ú ū
+    marks: ◌̀ ◌́ ◌̄
     script: Latin
     status: primary
   source:
   - Wikipedia
+  - Centre national de linguistique appliquée (C.E.N.A.L.A.), Alphabet des langues nationales béninoises, 2008, p. 15-16.
   speakers: 257050
   speakers_date: 2000-2016
   validity: draft
@@ -2833,6 +2876,19 @@ doi:
   speakers: 1600000
   speakers_date: 2011
   validity: verified
+dop:
+  name: Lukpa
+  orthographies:
+  - autonym: lǝkpa
+    base: A C E Ɛ Ǝ F H I Ɩ K L M N Ŋ Ŋ O Ɔ P Ɣ S T U Ʊ W Y Á É Ú Ḿ Ń a c e ɛ ǝ f h i ɩ k l m n ŋ ŋ o ɔ p ɣ s t u ʊ w y á é ú ḿ ń
+    marks: ◌́
+    script: Latin
+    status: primary
+  source:
+  - Wikipedia
+  - Centre national de linguistique appliquée (C.E.N.A.L.A.), Alphabet des langues nationales béninoises, 2008, p. 27-28
+  speakers: 70000
+  speakers_date: 2001-2012
 dsb:
   name: Lower Sorbian
   orthographies:
@@ -3322,6 +3378,19 @@ fkv:
   speakers: 8000
   speakers_date: 2005
   validity: preliminary
+fod:
+  name: Foodo
+  orthographies:
+  - autonym: fóodo
+    base: A B C D E Ɛ F G H I Ɩ J K L M N Ŋ O Ɔ P R S T U Ʊ V W Y Z Á É Í Ó Ú a b c d e ɛ f g h i ɩ j k l m n ŋ o ɔ p r s t u ʊ v w y z á é í ó ú
+    marks: ◌́
+    script: Latin
+    status: primary
+  source:
+  - Wikipedia
+  - Centre national de linguistique appliquée (C.E.N.A.L.A.), Alphabet des langues nationales béninoises, 2008, p. 19-20.
+  speakers: 25000
+  speakers_date: 2002
 fon:
   name: Fon
   orthographies:
@@ -3333,6 +3402,7 @@ fon:
   source:
   - Omniglot
   - Wikipedia
+  - Centre national de linguistique appliquée (C.E.N.A.L.A.), Alphabet des langues nationales béninoises, 2008, p. 21-22.
   speakers: 2200000
   speakers_date: 2000-2006
   validity: preliminary
@@ -3595,6 +3665,18 @@ gcf:
   speakers_date: 1998-2001
   status: living
   validity: preliminary
+dej:
+  name: Gen
+  orthographies:
+  - autonym: gɛn
+    base: A B C D Ɖ E Ɛ F G Ɣ H I J K L M N Ŋ P S T V W X Y Z a b c d ɖ e ɛ f g ɣ h i j k l m n ŋ p s t v w x y z
+    script: Latin
+    status: primary
+  source:
+  - Wikipedia
+  - Centre national de linguistique appliquée (C.E.N.A.L.A.), Alphabet des langues nationales béninoises, 2008, p. 25-26.
+  speakers: 330000
+  speakers_date: 1991-2006
 gil:
   name: Gilbertese
   orthographies:
@@ -6443,6 +6525,20 @@ mos:
   speakers: 7830000
   speakers_date: 1009-2013
   validity: preliminary
+mql:
+  name: Mbelime
+  orthographies:
+  - autonym: m̄ bɛ̄dímɛ
+    base: A B C D E Ɛ F H I K M N O Ɔ P S T U W Y Á É Í Ó Ú Ā Ē Ī Ō Ū Ḭ Ṵ Ḿ Ń a b c d e ɛ f h i k m n o ɔ p s t u w y á é í ó ú ā ē ī ō ū ḭ ṵ ḿ ń
+    marks: ◌́ ◌̄ ◌̰
+    script: Latin
+    status: primary
+  source:
+  - Wikipedia
+  - Centre national de linguistique appliquée (C.E.N.A.L.A.), Alphabet des langues nationales béninoises, 2008, p. 29-30.
+  speakers: 30000
+  speakers_date: 2006
+  validity: draft
 mqm:
   name: South Marquesan
   note: The number of speakers is an estimate, a half of total Marquesan language speakers (8700).
@@ -7066,6 +7162,19 @@ nso:
   speakers_date: 2011
   status: living
   validity: preliminary
+ntm:
+  name: Nateni
+  orthographies:
+  - autonym: nateni
+    base: A B C D E Ɛ F H I K M N O Ɔ P S T U W Y À Á È É Ì Í Ḭ Ǹ Ń Ò Ó Ù Ú Ṵ a b c d e ɛ f h i k m n o ɔ p s t u w y à á è é ì í ḭ ǹ ń ò ó ù ú ṵ
+    marks: ◌́ ◌̀ ◌̰
+    script: Latin
+    status: primary
+  source:
+  - Wikipedia
+  - Centre national de linguistique appliquée (C.E.N.A.L.A.), Alphabet des langues nationales béninoises, 2008, p. 33-35.
+  speakers: 66000
+  speakers_date: 2001
 nus:
   name: Nuer
   orthographies:
@@ -7441,6 +7550,19 @@ pga:
   speakers_date: 1987
   status: living
   validity: draft
+pil:
+  name: Yom
+  orthographies:
+  - autonym: pila
+    base: A B C D E Ɛ Ǝ F G H I J K L M N Ŋ O Ɔ P Q S T U Ʊ V W Y Z a b c d e ɛ ǝ f g h i j k l m n ŋ o ɔ p q s t u ʊ v w y z
+    auxiliary: Ʋ ʋ
+    script: Latin
+    status: primary
+  source:
+  - Wikipedia
+  - Centre national de linguistique appliquée (C.E.N.A.L.A.), Alphabet des langues nationales béninoises, 2008, p. 41-42.
+  speakers: 300000
+  speakers_date: 2006
 pis:
   name: Pijin
   note: There are approximately 300000 L2 speakers.
@@ -8610,6 +8732,19 @@ sot:
   speakers_date: 2001-2011
   status: living
   validity: verified
+soy:
+  name: Miyobe
+  orthographies:
+  - autonym: mɛyɔ́pɛ
+    base: A C E Ɛ F H I K L M N Ŋ O Ɔ P R S T U W Y Á É Í Ó Õ Ú Ĩ Ũ Ṍ Ṹ Ẽ a c e ɛ f h i k l m n ŋ o ɔ p r s t u w y á é í ó õ ú ĩ ũ ṍ ṹ ẽ
+    marks: ◌́ ◌̃
+    script: Latin
+    status: primary
+  source:
+  - Wikipedia
+  - Centre national de linguistique appliquée (C.E.N.A.L.A.), Alphabet des langues nationales béninoises, 2008, p. 31-32.
+  speakers: 22000
+  speakers_date: 1991-2012
 spa:
   name: Spanish
   orthographies:
@@ -8968,13 +9103,14 @@ tay:
 tbz:
   name: Ditammari
   orthographies:
-  - autonym: Ditammari
-    base: A B C D Đ E F H I K L M N Ŋ O Ɔ P R S T U W X Y Z Ã Ɛ Ĩ Ú Ũ a b c d đ e f h i k l m n ŋ o ɔ p r s t u w x y z ã ɛ ĩ ú ũ
-    marks: ◌́ ◌̃
+  - autonym: ditammari
+    base: A B C D Đ E Ɛ F H I K L M N Ŋ O Ɔ P R S T U W X Y Z À Á Ã È É Ì Í Ĩ Ḿ Ń Ǹ Ò Ó Ù Ú Ú Ũ a b c d đ e ɛ f h i k l m n ŋ o ɔ p r s t u w x y z à á ã è é ì í ĩ ḿ ń ǹ ò ó ù ú ú ũ
+    marks: ◌́ ◌̀ ◌̃
     script: Latin
     status: primary
   source:
   - Wikipedia
+  - Centre national de linguistique appliquée (C.E.N.A.L.A.), Alphabet des langues nationales béninoises, 2008, p. 17-18.
   speakers: 150000
   speakers_date: 2006-2012
   validity: draft
@@ -9902,6 +10038,18 @@ wbp:
   speakers_date: 2016
   status: living
   validity: verified
+wci:
+  name: Waci Gbe
+  orthographies:
+  - autonym: wacigbe
+    base: A B C D Ɖ E Ɛ F Ƒ G Ɣ H X I J K L M N Ŋ Ɔ P S T U Ʋ V W Y Z a b c d ɖ e ɛ f ƒ g ɣ h x i j k l m n ŋ ɔ p s t u ʋ v w y z
+    script: Latin
+    status: primary
+  source:
+  - Wikipedia
+  - Centre national de linguistique appliquée (C.E.N.A.L.A.), Alphabet des langues nationales béninoises, 2008, p. 37-38.
+  speakers: 480000
+  speakers_date: 1991-1993
 wim:
   name: Wik-Mungkan
   orthographies:
@@ -10036,8 +10184,13 @@ wwa:
     base: A B C D E Ɛ F I K M N Ŋ O Ɔ P R S T U W Y a b c d e ɛ f i k m n ŋ o ɔ p r s t u w y
     script: Latin
     status: primary
+    note: ‹Ŋ,ŋ› is not included in CENALA 1990 nor CENALA 2008 but is included in Hartell 1993 and is used in https://www.webonary.org/waama/ or the Waama Bible translation published in Wycliffe 1994.
   source:
   - Wikipedia
+  - Rhonda L. Hartell, Alphabets de langues africaines, 1993, p. 37.
+  - Centre national de linguistique appliquée (C.E.N.A.L.A.), Alphabet des langues nationales, 1990, p. 27-29.
+  - Centre national de linguistique appliquée (C.E.N.A.L.A.), Alphabet des langues nationales béninoises, 2008, p. 35-36.
+  - https://www.webonary.org/waama/
   speakers: 50000
   speakers_date: 2000
   validity: draft
@@ -10168,6 +10321,18 @@ xsm:
   speakers: 250000
   speakers_date: 1998-2004
   validity: preliminary
+xwe:
+  name: Xwela Gbe
+  orthographies:
+  - autonym: xwelagbe
+    base: A B C D Ɖ E Ɛ F G Ɣ H X I J K L M N Ŋ Ɔ P S T U V W Y Z a b c d ɖ e ɛ f g ɣ h x i j k l m n ŋ ɔ p s t u v w y z
+    script: Latin
+    status: primary
+  source:
+  - Wikipedia
+  - Centre national de linguistique appliquée (C.E.N.A.L.A.), Alphabet des langues nationales béninoises, 2008, p. 39-40.
+  speakers: 65000
+  speakers_date: 2002
 yad:
   name: Yagua
   orthographies:
@@ -10314,9 +10479,16 @@ yor:
     marks: ◌̀ ◌́ ◌̄ ◌̣
     script: Latin
     status: primary
+  - autonym: èdè yorùbá
+    base: A B D E Ɛ F G H I J K L M N O Ɔ P R S T U W Y À Á Ā È É Ē Ì Í Ī Ò Ó Ō Ù Ú Ū a b d e ɛ f g h i j k l m n o ɔ p r s t u w y à á ā è é ē ì í ī ò ó ō ù ú ū
+    marks: ◌̀ ◌́
+    script: Latin
+    status: local
+    note: Orthography used in Benin.
   source:
   - Omniglot
   - Wikipedia
+  - Centre national de linguistique appliquée (C.E.N.A.L.A.), Alphabet des langues nationales béninoises, 2008, p. 43-44.
   speakers: 40000000
   speakers_date: 2015
   status: living
