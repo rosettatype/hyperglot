@@ -193,8 +193,13 @@ class Languages(dict):
         allowed = VALIDITYLEVELS.index(validity)
         pruned = {}
         for iso, lang in self.items():
-            if VALIDITYLEVELS.index(lang["validity"]) >= allowed:
-                pruned[iso] = lang
+            try:
+                if VALIDITYLEVELS.index(lang["validity"]) >= allowed:
+                    pruned[iso] = lang
+            except KeyError as e:
+                # Provide more context, but escalate
+                raise KeyError("Language '%s' missing attribute %s" %
+                               (iso, e))
 
         self.clear()
         self.update(pruned)
