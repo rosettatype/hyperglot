@@ -3,6 +3,8 @@
 ## 0.3.5 (07.09.2021)
 - DATA: Revised Tamil orthography
 - DATA: Added Apinayé, Karo and Awetí languages
+- DATA: Added Benin languages
+- DATA: Small fix to Portuguese
 
 ## 0.3.4 (06.09.2021)
 - FIX: Fixed an encoding issue affecting Windows environments
