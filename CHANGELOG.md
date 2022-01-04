@@ -1,5 +1,9 @@
 # A changelog for the lib/hyperglot CLI tool
 
+## 0.3.7 (04.01.2022)
+- DATA: Fix for Afrikaans orthography
+- DATA: Corrected ISO code for Gen language
+
 ## 0.3.6 (11.11.2021)
 - DATA: Added Benin languages
 - DATA: Small fix to Portuguese
