@@ -7391,6 +7391,7 @@ ota:
     script: Arabic
     status: primary
   source:
+  - https://www.cambridge.org/core/journals/international-journal-of-middle-east-studies/information/author-resources/ijmes-translation-and-transliteration-guide
   - https://github.com/QHOD/ota-keyboard/
   - Wikipedia
   status: historical
