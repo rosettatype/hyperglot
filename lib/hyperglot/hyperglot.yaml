@@ -9556,7 +9556,8 @@ tur:
   orthographies:
   - autonym: Türkçe
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Â Ç Î Ö Û Ü Ğ Ş a b c d e f g h i j k l m n o p q r s t u v w x y z â ç î ö û ü ğ İ ı ş
-    marks: ◌̂ ◌̆ ◌̇ ◌̈ ◌̦ ◌̧
+    marks: ◌̂ ◌̆ ◌̇ ◌̈ ◌̧
+    note: Legacy implementations or sources may incorrectly list Ç, Ş, ç, ş as comma-accented glyphs.
     script: Latin
     status: primary
   source:
