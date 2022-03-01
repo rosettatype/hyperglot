@@ -1,5 +1,8 @@
 # A changelog for the lib/hyperglot CLI tool
 
+## 0.3.8 (01.03.2022)
+- DATA: Fix for Turkish orthography
+
 ## 0.3.7 (04.01.2022)
 - DATA: Fix for Afrikaans orthography
 - DATA: Corrected ISO code for Gen language
