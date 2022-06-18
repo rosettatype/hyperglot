@@ -80,7 +80,7 @@ hyperglot path/to/font.otf path/to/anotherfont.otf ...
 - `-o, --output`: Supply a file path to write the output to, in yaml format. For a single input font this will be a subset of the Hyperglot database with the languages and orthographies that the font supports. If several fonts are provided the yaml file will have a top level dict key for each file. If the `-m` option is provided the yaml file will contain the specific intersection or union result
 - `-c, --comparison`: How to process input if several files are provided (currently options are "individual", "union" and "intersection")
 - `--include-all-orthographies`: Check all orthographies of a language, not just its primary one(s)
-- `--validity`: Specifiy to filter by the level of validity of the language data (default is "preliminary")
+- `--validity`: Specify to filter by the level of validity of the language data (default is "preliminary")
 - `--include-historical`: Option to include languages and orthographies marked as historical (default is False)
 - `--include-constructed`: Option to include languages and orthographies that are marked as constructed (default is False)
 - `--strict-iso`: Display language names and macrolanguage data strictly according to ISO (default is False)
