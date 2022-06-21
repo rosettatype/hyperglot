@@ -1,5 +1,12 @@
 # A changelog for the lib/hyperglot CLI tool
 
+## 0.3.9 (21.06.2022)
+- DATA: Fix for Skolt Sami (soft sign)
+- DATA: Fix for Hawaiian (okina)
+- DATA: Fix for Thai including several missing marks and letters
+- DATA: Fix in Buginese
+- DATA: Updates to Indonesian and Standard Malay
+
 ## 0.3.8 (01.03.2022)
 - DATA: Fix for Turkish orthography
 
