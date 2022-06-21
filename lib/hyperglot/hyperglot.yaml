@@ -1741,8 +1741,8 @@ bug:
   note: The number of speakers includes 500000 L2 speakers.
   orthographies:
   - autonym: Basa Ugi
-    base: A B C D E G I J K L M N O P R S T U W Y Ә a b c d e g i j k l m n o p r s t u w y ' ә
-    note: The use of the Buginese script seems to be declining with the Latin script taking over.
+    inherit: zsm
+    note: The use of the Buginese script seems to be declining with the Latin script taking over. Omniglot indicates ‹Ə, ə› are used, but Wikipedia states that “general Indonesian spelling conventions are applied” which is what this orthography adheres to.
     script: Latin
     status: primary
   - autonym: ᨅᨔ ᨕᨘᨁᨗ
@@ -1755,8 +1755,8 @@ bug:
     script: Buginese
     status: primary
   source:
-  - Omniglot
-  - Wikipedia
+  - https://omniglot.com/writing/bugis.htm
+  - https://en.wikipedia.org/wiki/Buginese_language
   speakers: 4000000
   speakers_date: 2015
   validity: preliminary
@@ -4490,9 +4490,23 @@ ind:
     inherit: zsm
     script: Latin
     status: primary
+  - autonym: Indonesia
+    base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ē É Ä Ë Ï Ö a b c d e f g h i j k l m n o p q r s t u v w x y z ē é ä ë ï ö '
+    marks: ◌́ ◌̄ ◌̈
+    note: The Van Ophuijsen Spelling System was used 1901–1947 for Malay and Indonesian in the Dutch East Indies (now Indonesia)
+    script: Latin
+    status: historical
+  - autonym: Indonesia
+    base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z É Ä Ë Ï Ö a b c d e f g h i j k l m n o p q r s t u v w x y z é ä ë ï ö 2
+    marks: ◌́ ◌̈
+    note: The Republican Spelling System was used 1947–1972. The numeral two marked reduplicated words. Glottal stop was represented with the letter ‹k›.
+    script: Latin
+    status: historical
   source:
   - Omniglot
-  - Wikipedia
+  - https://en.wikipedia.org/wiki/Van_Ophuijsen_Spelling_System
+  - https://en.wikipedia.org/wiki/Republican_Spelling_System
+  - https://en.wikipedia.org/wiki/Buginese_language
   speakers: 43000000
   speakers_date: 2010
   status: living
@@ -10708,11 +10722,19 @@ zsm:
   name: Standard Malay
   orthographies:
   - autonym: Malaysia
+    auxiliary: \'
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
+    note: Post-1972 orthography (without diacritics) is used by Standard Malay and Indonesian.
     script: Latin
     status: primary
-  - autonym: مليسيا‎
-    base: ء ‎ ا ب ة ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ل م ن ه و ى ي چ ڠ ڤ ک ڽ ۏ ݢ
+  - autonym: Malaysia
+    base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ĕ a b c d e f g h i j k l m n o p q r s t u v w x y z ĕ
+    marks: ◌̆
+    note: Za'aba Spelling system was used 1927–1972 in British Malaya and Borneo/Brunei for Malaysia and Singapore orthography
+    script: Latin
+    status: historical
+  - autonym: مليسيا
+    base: ء ا ب ة ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ل م ن ه و ى ي چ ڠ ڤ ک ڽ ۏ ݢ
     design_requirements:
     - Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
     note: Jawi
@@ -10720,7 +10742,8 @@ zsm:
     script: Arabic
     status: primary
   source:
-  - Wikipedia
+  - https://en.wikipedia.org/wiki/Malay_orthography
+  - https://en.wikipedia.org/wiki/Za%27aba_Spelling
   - Omniglot
   speakers: 32772100
   speakers_date: 2019
