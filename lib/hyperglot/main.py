@@ -5,8 +5,8 @@ import yaml
 import logging
 from collections import OrderedDict
 from fontTools.ttLib import TTFont
-from . import (__version__, DB, SUPPORTLEVELS, VALIDITYLEVELS,
-               CHARACTER_ATTRIBUTES, MARK_BASE)
+from . import (__version__, SORTING_DIRECTIONS, DB, SUPPORTLEVELS,
+               VALIDITYLEVELS, CHARACTER_ATTRIBUTES, MARK_BASE, SORTING)
 from .languages import Languages
 from .language import Language, is_mark
 from .validate import validate
@@ -49,7 +49,7 @@ def validate_font(ctx, param, value):
     return value
 
 
-def language_list(langs, native=False, users=False, script=None,
+def language_list(langs, native=False, speakers=False, script=None,
                   strict_iso=False, seperator=", "):
     """
     Return a printable string for all languages
@@ -71,7 +71,7 @@ def language_list(langs, native=False, users=False, script=None,
             # as last character
             name = re.sub(r"^\W*|(?<=\))(\W*$)", "", name)
 
-        if users and "speakers" in l:
+        if speakers and "speakers" in l:
             items.append("%s (%s)" % (name, str(l["speakers"])))
         else:
             items.append("%s" % name)
@@ -79,7 +79,7 @@ def language_list(langs, native=False, users=False, script=None,
     return seperator.join(items)
 
 
-def print_to_cli(font, title, autonyms, users, strict_iso):
+def print_to_cli(font, title, autonyms, speakers, strict_iso):
     print()
     print("=" * len(title))
     print(title)
@@ -96,7 +96,7 @@ def print_to_cli(font, title, autonyms, users, strict_iso):
             print(title)
             print("-" * len(title))
             print(language_list(font[script],
-                                autonyms, users, script, strict_iso))
+                                autonyms, speakers, script, strict_iso))
             total = total + count
     if total > 0:
         print()
@@ -232,8 +232,14 @@ MODES = ["individual", "union", "intersection"]
               "charset data.")
 @click.option("-a", "--autonyms", is_flag=True, default=False,
               help="Flag to render languages names in their native name.")
-@click.option("-u", "--users", is_flag=True, default=False,
-              help="Flag to show how many users each languages has.")
+@click.option("--speakers", is_flag=True, default=False,
+              help="Flag to show how many speakers each languages has.")
+@click.option("--sort", "sorting",
+              type=click.Choice(SORTING, case_sensitive=False),
+              default="alphabetic", show_default=True)
+@click.option("--sort-dir",
+              type=click.Choice(SORTING_DIRECTIONS, case_sensitive=False),
+              default=SORTING_DIRECTIONS[0], show_default=True)
 @click.option("-o", "--output", type=click.File(mode="w", encoding="utf-8"),
               help="Provide a name for a yaml file to write support "
               "information to.")
@@ -259,9 +265,10 @@ MODES = ["individual", "union", "intersection"]
               "macrolanguage structure that deviates from ISO data.")
 @click.option("-v", "--verbose", is_flag=True, default=False)
 @click.option("-V", "--version", is_flag=True, default=False)
-def cli(fonts, support, decomposed, marks, validity, autonyms, users, output,
-        comparison, include_all_orthographies,
-        include_historical, include_constructed,
+def cli(fonts, support, decomposed, marks, validity, autonyms, speakers,
+        sorting, sort_dir,
+        output, comparison,
+        include_all_orthographies, include_historical, include_constructed,
         strict_iso, verbose, version):
     """
     Pass in one or more fonts to check their languages support
@@ -292,7 +299,18 @@ def cli(fonts, support, decomposed, marks, validity, autonyms, users, output,
                                     include_historical,
                                     include_constructed)
         level = SUPPORTLEVELS[support]
-        results[font] = supported
+
+        # Sort each script's results by the chosen sorting logic
+        sorted_entries = {}
+        for script, entries in supported.items():
+            sorted_entries[script] = sorted(entries.values(),
+                                            key=SORTING[sorting],
+                                            reverse=sort_dir.lower() != "asc")
+            # Reformat as (ordered) dict with iso:info
+            sorted_entries[script] = OrderedDict(
+                {l.iso: l for l in sorted_entries[script]})
+
+        results[font] = sorted_entries
 
     # Mode for comparison of several files
     if comparison == "individual":
@@ -300,7 +318,7 @@ def cli(fonts, support, decomposed, marks, validity, autonyms, users, output,
             title = "%s has %s support for:" % (os.path.basename(font),
                                                 level.lower())
 
-            print_to_cli(results[font], title, autonyms, users, strict_iso)
+            print_to_cli(results[font], title, autonyms, speakers, strict_iso)
 
         data = results
     elif comparison == "union":
@@ -309,7 +327,7 @@ def cli(fonts, support, decomposed, marks, validity, autonyms, users, output,
         title = "Fonts %s combined have %s support for:" % \
             (", ".join([os.path.basename(f) for f in fonts]), level.lower())
 
-        print_to_cli(union, title, autonyms, users, strict_iso)
+        print_to_cli(union, title, autonyms, speakers, strict_iso)
 
         # Wrap in "single file" 'union' top level, which will be removed when
         # writing the data
@@ -321,7 +339,7 @@ def cli(fonts, support, decomposed, marks, validity, autonyms, users, output,
         title = "Fonts %s all have common %s support for:" % \
             (", ".join([os.path.basename(f) for f in fonts]), level.lower())
 
-        print_to_cli(intersection, title, autonyms, users, strict_iso)
+        print_to_cli(intersection, title, autonyms, speakers, strict_iso)
 
         # Wrap in "single file" 'intersection' top level, which will be removed
         # when writing the data

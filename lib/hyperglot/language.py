@@ -38,6 +38,10 @@ class Language(dict):
             printed out when converting this Language back to yaml for output
         """
         self.iso = iso
+
+        # A default for unset speakers, to allow sorting
+        self["speakers"] = 0
+        
         self.update(data)
 
     def __repr__(self):

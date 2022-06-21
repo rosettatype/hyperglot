@@ -2,7 +2,7 @@
 Gather a few package wide constants
 """
 from os import path
-__version__ = "0.3.9"
+__version__ = "0.4.0"
 
 DB = path.abspath(path.join(path.dirname(__file__), "hyperglot.yaml"))
 
@@ -48,5 +48,12 @@ CHARACTER_ATTRIBUTES = [
     "numerals",
     "punctuation",
 ]
+
+SORTING = {
+    "alphabetic": lambda lang: lang.get_name(),
+    "speakers": lambda lang: lang["speakers"]
+}
+
+SORTING_DIRECTIONS = ["asc", "desc"]
 
 MARK_BASE = "◌"
