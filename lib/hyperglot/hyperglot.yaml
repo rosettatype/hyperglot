@@ -2304,14 +2304,22 @@ cmn:
     script: Chinese
     status: primary
   - autonym: Pǔtōnghuà
-    base: A B C D E F G H I J K L M N O P Q R S T U W X Y Z a b c d e f g h i j k l m n o p q r s t u w x y z ü ê ā ē ī ō ū ǖ Ā Ē Ī Ō Ū Ǖ á é í ó ú ǘ Á É Í Ó Ú Ǘ ǎ ě ǐ ǒ ǔ ǚ Ǎ Ě Ǐ Ǒ Ǔ Ǚ à è ì ò ù ǜ À È Ì Ò Ù Ǜ
+    base: A B C D E F G H I J K L M N O P Q R S T U W X Y Z
+      a b c d e f g h i j k l m n o p q r s t u w x y z
+      ü Ü ê Ê ĉ ŝ ẑ ŋ Ĉ Ŝ Ẑ Ŋ
+      ā ē ī ō ū ǖ ê̄ m̄ n̄ Ā Ē Ī Ō Ū Ǖ Ê̄ M̄ N̄
+      á é í ó ú ǘ ế ḿ ń Á É Í Ó Ú Ǘ Ế Ḿ Ń
+      ǎ ě ǐ ǒ ǔ ǚ ê̌ m̌ ň Ǎ Ě Ǐ Ǒ Ǔ Ǚ Ê̌ M̌ Ň
+      à è ì ò ù ǜ ề m̀ ǹ À È Ì Ò Ù Ǜ Ề M̀ Ǹ
     marks: ◌̀ ◌́ ◌̂ ◌̄ ◌̈ ◌̌
+    punctuation: . , — … · - '
     note: Hànyǔ Pīnyīn (Hànyǔ Pīnyīn (pinyin)) is the official romanization system for Standard Mandarin Chinese in mainland China, Taiwan (ROC), and Singapore.
     script: Latin
     status: transliteration
   source:
   - Omniglot
-  - Wikipedia
+  - https://en.wikipedia.org/wiki/Pinyin
+  - https://www.thetype.com/2017/08/11606/#pinyin-yin
   speakers: 920000000
   speakers_date: 2017
   validity: preliminary
