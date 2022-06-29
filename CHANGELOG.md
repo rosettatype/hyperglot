@@ -1,5 +1,9 @@
 # A changelog for the lib/hyperglot CLI tool
 
+## 0.4.0 (29.06.2022)
+- DATA: Fix for Pinyin
+- CLI: Introduced `--sort` (`alphabetic`, default, or `speakers`) and `--sort-dir` (`asc`, default, or `desc`)
+
 ## 0.3.9 (21.06.2022)
 - DATA: Fix for Skolt Sami (soft sign)
 - DATA: Fix for Hawaiian (okina)
