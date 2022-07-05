@@ -76,7 +76,9 @@ hyperglot path/to/font.otf path/to/anotherfont.otf ...
 - `-m, --marks`: Flag to signal a font should also include all combining marks used for a language - by default only those marks are required which are not part of preencoded characters (default is False)
 - `-d, --decomposed`: Flag to signal a font should be considered supporting a language as long as it has all base glyphs and marks to write a language - by default also encoded precomposed glyphs are required (default is False)
 - `-a, --autonyms`: Output the language names in their native language and script
-- `-u, --users`: Also output language user count (where available)
+- `--speakers`: Ouput how many speakers each language has (where available)
+- `--sort`: Specify "speakers" to sort by speakers (default is "alphabetic")
+- `--sort-dir`: Specify "desc" to sort in descending order (default is "asc" for ascending order)
 - `-o, --output`: Supply a file path to write the output to, in yaml format. For a single input font this will be a subset of the Hyperglot database with the languages and orthographies that the font supports. If several fonts are provided the yaml file will have a top level dict key for each file. If the `-m` option is provided the yaml file will contain the specific intersection or union result
 - `-c, --comparison`: How to process input if several files are provided (currently options are "individual", "union" and "intersection")
 - `--include-all-orthographies`: Check all orthographies of a language, not just its primary one(s)
