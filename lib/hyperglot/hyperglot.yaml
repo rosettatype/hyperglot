@@ -79,6 +79,23 @@ abe:
   speakers_date: 2007-2012
   status: living
   validity: preliminary
+abi:
+  name: Abidji
+  orthographies:
+  - autonym: ogbru
+    auxiliary: Ʊ ʊ ʔ
+    base: A B C D E F G I J K L M N O P R S T U W Y a á â ǎ b c d e é ê ě f g i í î ǐ j k l m n o ó ô ǒ p r s t u ú û ǔ w y Á Â É Ê Í Î Ó Ô Ú Û Ě Ɔ Ɛ Ɩ Ʋ Ǎ Ǐ Ǒ Ǔ ɔ ɛ ɩ ʋ
+    marks: ◌́ ◌̂ ◌̌
+    script: Latin
+    status: primary
+  source:
+  - Rhonda L. Hartell, Alphabets of Africa, 1993, p. 128.
+  - Wikipedia
+  - https://live.bible.is/bible/ABIWBT
+  speakers: 50500
+  speakers_date: 1993
+  status: living
+  validity: preliminary
 abk:
   name: Abkhazian
   orthographies:
