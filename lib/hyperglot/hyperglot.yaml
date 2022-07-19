@@ -964,6 +964,20 @@ awe:
   speakers_date: 2011
   status: living
   validity: draft
+ayb:
+  name: Ayizo Gbe
+  orthographies:
+  - autonym: ayizo-nu
+    base: A B C D E F G H I J K L M N O P R S T U V W X Y Z a b c d e f g h i j k l m n o p r s t u v w x y z Ɔ Ɖ Ɛ ɔ ɖ ɛ
+    script: Latin
+    status: primary
+  source:
+  - Centre national de linguistique appliquée (C.E.N.A.L.A.), Alphabet des langues nationales béninoises, 2008, p. 5-6.
+  - Wikipedia
+  speakers: 400000
+  speakers_date: 2002-2006
+  status: living
+  validity: preliminary
 ayc:
   name: Southern Aymara
   orthographies:
@@ -9521,6 +9535,21 @@ tly:
   speakers_date: 2011-2014
   status: living
   validity: verified
+tnr:
+  name: Ménik
+  orthographies:
+  - autonym: ménik
+    base: A B C D E F G H I J K L M N O P R S T U W Y a b c d e f g h i j k l m n o p r s t u w y È É Ë Ñ Ó è é ë ñ ó Ŋ ŋ Ŝ ŝ Ɓ Ɗ Ƴ ƴ ɓ ɗ
+    marks: ◌̀ ◌́ ◌̂ ◌̈ ◌̃
+    script: Latin
+    status: primary
+  source:
+    - République du Sénégal, Décret no 2005-985 relatif à l’orthographe et la séparation des mots en ménik, 21 octobre 2005
+    - Wikipedia
+  speakers: 2500
+  speakers_date: 2015
+  status: living
+  validity: preliminary
 tob:
   name: Toba
   orthographies:
