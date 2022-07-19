@@ -6563,6 +6563,21 @@ mni:
   speakers: 1760000
   speakers_date: 2011
   validity: preliminary
+mnk:
+  name: Mandinka
+  orthographies:
+  - autonym: mandinka
+    base: A B C D E F G H I J K L M N O P R S T U W Y a b c d e f g h i j k l m n o p r s t u w y Ñ ñ Ŋ ŋ
+    marks: ◌̃
+    script: Latin
+    status: primary
+  source:
+    - République du Sénégal, Décret no 2005-982 relatif à l’orthographe et la séparation des mots en mandinka, 21 octobre 2005
+    - Wikipedia
+  speakers: 1300000
+  speakers_date: 2002-2016
+  status: living
+  validity: preliminary
 mns:
   name: Mansi
   orthographies:
