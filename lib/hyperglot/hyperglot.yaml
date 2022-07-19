@@ -516,7 +516,7 @@ ajg:
   name: Aja (Benin)
   orthographies:
   - autonym: Adja
-    base: A B C D Ɖ E Ɛ F G Ɣ H I J K L M N Ŋ O Ɔ P R S T U V W X Y Z Ʒ a b c d ɖ e ɛ f g ɣ h i j k l m n ŋ o ɔ p r s t u v w x y z ʒ
+    base: A B C D E F G H I J K L M N O P R S T U V W X Y Z a b c d e f g h i j k l m n o p r s t u v w x y z À Á È É Ì Í Ò Ó Ù Ú à á è é ì í ò ó ù ú Ŋ ŋ Ɔ Ɖ Ɛ Ɣ Ʒ ɔ ɖ ɛ ɣ ʒ
     marks: ◌̀ ◌́
     script: Latin
     status: primary
