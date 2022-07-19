@@ -4717,6 +4717,22 @@ ido:
   speakers_date: 2015
   status: constructed
   validity: verified
+idu:
+  name: Idoma
+  orthographies:
+  - autonym: Idoma
+    base: A B C D E F G H I J K L M N O P R S T U V W Y Z a b c d e f g h i j k l m n o p r s t u v w y z Á É Í Ó Ú á é í ó ú Ā ā Ē ē Ī ī Ŋ ŋ Ō ō Ū ū Ɔ Ɛ ɔ ɛ Ẹ ẹ Ọ ọ
+    marks: ◌́ ◌̄
+    note: ɛ and ɔ can be written as ẹ and ọ.
+    script: Latin
+    status: primary
+  source:
+    - R.C. Abraham, Idoma orthography, in Ayo Banjo, Orthographies of Nigerian Languages: Manual III, Lagos, National Language Center, 1985
+    - Wikipedia
+  speakers: 600000
+  speakers_date: 1991
+  status: living
+  validity: preliminary
 igs:
   name: Interglossa
   orthographies:
