@@ -1594,6 +1594,19 @@ bos:
   speakers_date: 2008
   status: living
   validity: verified
+boz:
+  name: Tiéyaxo Bozo
+  orthographies:
+  - autonym: bozo-tigemaxoo
+    base: A B C D E F G H I J K L M N O P R S T U W X Y a b c d e f g h i j k l m n o p r s t u w x y Ŋ ŋ Ɔ Ɛ Ɲ ɔ ɛ ɲ
+    script: Latin
+    status: primary
+  source:
+    - 'Lisons le bozo: Cours d’introduction pour tous ceux qui parlent le bozo-tigemaxo et qui savent lire en français, Sevaré, république du Mali, Équipe Bozo, 2010'
+    - République du Mali, Direction nationale de l’alphabétisation fonctionnelle et de la linguistique appliquée, Alphabets et règles d’orthographe des langues nationales, Bamako, DNAFLA, 1993
+    - Wikipedia
+  status: living
+  validity: preliminary
 bpy:
   name: Bishnupriya
   orthographies:
@@ -1911,6 +1924,20 @@ bxu:
   - Omniglot
   speakers: 65000
   speakers_date: 1982
+  status: living
+  validity: preliminary
+bze:
+  name: Jenaama Bozo
+  orthographies:
+  - autonym: bozo-jenaama
+    base: A B C D E F G H I J K L M N O P R S T U W Y a b c d e f g h i j k l m n o p r s t u w y Ŋ ŋ Ɔ Ɛ Ɲ ɔ ɛ ɲ
+    script: Latin
+    status: primary
+  source:
+    - 'Lisons le bozo: Cours d’introduction pour tous ceux qui parlent le bozo-djenama et qui savent lire en français, Sevaré, république du Mali, Équipe Bozo, 2010'
+    - Wikipedia
+  speakers: 200000
+  speakers_date: 2005
   status: living
   validity: preliminary
 cab:
