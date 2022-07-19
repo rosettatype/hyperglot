@@ -1239,6 +1239,21 @@ azj:
   speakers_date: 2018
   status: living
   validity: verified
+azo:
+  name: Awing
+  orthographies:
+  - autonym: awing
+    base: A B C D E F G H I J K L M N O P S T U W Y Z a b c d e f g h i j k l m n o p s t u w y z Á Â É Ê Í Î Ó Ô Ú Û á â é ê í î ó ô ú û Ě ě Ŋ ŋ Ɔ Ə Ɛ Ɨ Ǎ ǎ Ǐ ǐ Ǒ ǒ Ǔ ǔ ɔ ə ɛ ɨ ʼ
+    marks: ◌́ ◌̂ ◌̌
+    script: Latin
+    status: primary
+  source:
+  - Christian Alomofor, Stephen C. Anderson, Awing Orthography Guide, SIL, 2005
+  - Wikipedia
+  speakers: 19000
+  speakers_date: 2001
+  status: living
+  validity: preliminary
 bak:
   name: Bashkir
   orthographies:
