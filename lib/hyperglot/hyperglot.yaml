@@ -1644,7 +1644,7 @@ blo:
   name: Anii
   orthographies:
   - autonym: anii
-    base: A Ǝ B C Ɖ E Ɛ F G H I Ɩ J K L M N Ŋ O Ɔ P R S T U Ʊ W Y a ǝ b c ɖ e ɛ f g h i ɩ j k l m n ŋ o ɔ p r s t u ʊ w y
+    base: A B C E F G H I J K L M N O P R S T U W Y a b c e f g h i j k l m n o p r s t u w y À Á Â È É Ê Ì Í Î Ò Ó Ô Ù Ú Û à á â è é ê ì í î ò ó ô ù ú û Ŋ ŋ Ɔ Ɖ Ǝ Ɛ Ɩ Ʊ ǝ ɔ ɖ ɛ ɩ ʊ
     marks: ◌́ ◌̀ ◌̂
     script: Latin
     status: primary
