@@ -183,6 +183,21 @@ ace:
   speakers: 3500000
   speakers_data: 2000
   validity: preliminary
+ach:
+  name: Acholi
+  orthographies:
+  - autonym: Acoli
+    base: A B C D E G I J K L M N Ŋ O P R T U W Y a b c d e g i j k l m n ŋ o p r t u w y
+    script: Latin
+    status: primary
+  source:
+  - Alfred Malandra, A New Acholi Grammar, Nairobi (Kenya), Eagle Press, 1955, 153 p.
+  - Omniglot
+  - Wikipedia
+  speakers: 1500000
+  speakers_data: 2014
+  status: living
+  validity: preliminary
 acm:
   name: Mesopotamian Arabic
   orthographies:
