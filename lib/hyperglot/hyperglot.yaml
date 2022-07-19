@@ -1844,6 +1844,22 @@ bsc:
   speakers_date: 2014-2015
   status: living
   validity: preliminary
+bss:
+  name: Akoose
+  orthographies:
+  - autonym: Akɔɔse
+    base: A B D E F G H I J K L M N O P R S T U V W Y a b d e f g h i j k l m n o p r s t u v w y á â é ê í î ó ô ú û ě Ŋ ŋ Ɔ Ə Ɛ ǎ ǐ ǒ ǔ ɔ ə ɛ ʼ
+    marks: ◌́ ◌̂ ◌̌
+    script: Latin
+    status: primary
+  source:
+  - Bakossi Language Committee, E’kii bé Akɔɔse (The Bakossi Alphabet), SIL Camerun, 1995
+  - Wikipedia
+  - https://www.webonary.org/akoose
+  speakers: 100000
+  speakers_date: 2001
+  status: living
+  validity: preliminary
 btd:
   name: Batak Dairi
   orthographies:
