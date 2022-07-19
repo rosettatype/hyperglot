@@ -2489,6 +2489,20 @@ cot:
   speakers: 500
   speakers_date: 2012
   validity: preliminary
+cou:
+  name: Wamey
+  orthographies:
+  - autonym: wamey
+    base: A B D E F G H I K L M N O P R S T U W X Y a b d e f g h i k l m n o p r s t u w x y Ŋ ŋ Ɔ Ǝ Ɛ Ɲ ǝ ɔ ɛ ɲ
+    script: Latin
+    status: primary
+  source:
+    - Institut de recherches linguistiques appliquées, Le nouvel alphabet des langues guinéennes, Conakry, Institut de recherches linguistiques appliquées, 2015
+    - Wikipedia
+  speakers: 38000
+  speakers_date: 2014-2015
+  status: living
+  validity: preliminary
 cpu:
   name: Pichis Ashéninka
   orthographies:
