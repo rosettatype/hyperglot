@@ -6371,6 +6371,21 @@ mfq:
   speakers: 2200
   speakers_date: 1998-2000
   validity: draft
+mfv:
+  name: Mandjak
+  orthographies:
+  - autonym: manjak
+    base: A B C D E F G H I J K L M N O P R S T U W Y Z a b c d e f g h i j k l m n o p r s t u w y z Á Ë Í Ñ Ó Ú á ë í ñ ó ú Ŋ ŋ Ŝ ŝ Ţ ţ
+    marks: ◌́ ◌̂ ◌̈ ◌̃ ◌̧
+    script: Latin
+    status: primary
+  source:
+    - République du Sénégal, Décret no 2005-983 relatif à l’orthographe et la séparation des mots en manjakú, 21 octobre 2005
+    - Wikipedia
+  speakers: 315000
+  speakers_date: 2006
+  status: living
+  validity: preliminary
 mgh:
   name: Makhuwa-Meetto
   orthographies:
