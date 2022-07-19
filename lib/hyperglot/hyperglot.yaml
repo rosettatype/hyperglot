@@ -310,6 +310,19 @@ ada:
   speakers: 80000
   speakers_date: 2004
   validity: preliminary
+ade:
+  name: Adele
+  orthographies:
+  - autonym: Gɩdɩrɛ
+    base: A B D E F G H I K L M N O P R S T U W Y a b d e f g h i k l m n o p r s t u w y Ŋ ŋ Ɔ Ɛ Ɩ Ʋ ɔ ɛ ɩ ʋ
+    script: Latin
+    status: primary
+  source:
+  - Jacques Rongier, Dictionnaire français-adele, Abidjan, Institut de Linguistique appliquée, Université nationale de Côte d’Ivoire, 1998
+  - Wikipedia
+  speakers: 37000
+  speakers_date: 2003-2012
+  validity: preliminary
 ady:
   name: Adyghe
   orthographies:
