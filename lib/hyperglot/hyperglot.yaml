@@ -120,8 +120,8 @@ abn:
     script: Latin
     status: primary
   source:
-    - 'Ethelbert Emmanuel Kari, Kiikpoye Johnny Joshua, "Abuan orthography", in Tony Enyia, Orthographies of Nigerian Languages: Manual IX, Nigerian Educational Research and Development Council (NERDC), 2011, p. 1–12'
-    - Wikipedia
+  - 'Ethelbert Emmanuel Kari, Kiikpoye Johnny Joshua, "Abuan orthography", in Tony Enyia, Orthographies of Nigerian Languages: Manual IX, Nigerian Educational Research and Development Council (NERDC), 2011, p. 1–12'
+  - Wikipedia
   speakers: 25000
   speakers_date: 1989
   status: living
@@ -713,8 +713,8 @@ anc:
     script: Latin
     status: primary
   source:
-    - Rhonda L. Hartell, Alphabets de langues africaines, 1993, p. 208
-    - Wikipedia
+  - Rhonda L. Hartell, Alphabets de langues africaines, 1993, p. 208
+  - Wikipedia
   speakers: 400000
   speakers_date: 1998
   status: living
@@ -1104,8 +1104,8 @@ avn:
     script: Latin
     status: primary
   source:
-    - GILLBT
-    - Wikipedia
+  - GILLBT
+  - Wikipedia
   speakers: 24000
   speakers_date: 2003
   status: living
@@ -1680,8 +1680,8 @@ bjt:
     script: Latin
     status: primary
   source:
-    - République du Sénégal, Décret no 2005-979 relatif à l’orthographe et la séparation des mots en balant, 21 octobre 2005
-    - Wikipedia
+  - République du Sénégal, Décret no 2005-979 relatif à l’orthographe et la séparation des mots en balant, 21 octobre 2005
+  - Wikipedia
   speakers: 96000
   speakers_date: 2015
   status: living
@@ -1723,8 +1723,8 @@ bmq:
     script: Latin
     status: primary
   source:
-    - République du Mali, Direction nationale de l’alphabétisation fonctionnelle et de la linguistique appliquée, Alphabets et règles d’orthographe des langues nationales, Bamako, DNAFLA, 1993
-    - Wikipedia
+  - République du Mali, Direction nationale de l’alphabétisation fonctionnelle et de la linguistique appliquée, Alphabets et règles d’orthographe des langues nationales, Bamako, DNAFLA, 1993
+  - Wikipedia
   speakers: 150000
   speakers_date: 1976-1991
   status: living
@@ -1797,9 +1797,9 @@ boz:
     script: Latin
     status: primary
   source:
-    - 'Lisons le bozo: Cours d’introduction pour tous ceux qui parlent le bozo-tigemaxo et qui savent lire en français, Sevaré, république du Mali, Équipe Bozo, 2010'
-    - République du Mali, Direction nationale de l’alphabétisation fonctionnelle et de la linguistique appliquée, Alphabets et règles d’orthographe des langues nationales, Bamako, DNAFLA, 1993
-    - Wikipedia
+  - 'Lisons le bozo: Cours d’introduction pour tous ceux qui parlent le bozo-tigemaxo et qui savent lire en français, Sevaré, république du Mali, Équipe Bozo, 2010'
+  - République du Mali, Direction nationale de l’alphabétisation fonctionnelle et de la linguistique appliquée, Alphabets et règles d’orthographe des langues nationales, Bamako, DNAFLA, 1993
+  - Wikipedia
   status: living
   validity: preliminary
 bpy:
@@ -1883,9 +1883,9 @@ bsc:
     script: Latin
     status: primary
   source:
-    - Institut de recherches linguistiques appliquées, Le nouvel alphabet des langues guinéennes, Conakry, Institut de recherches linguistiques appliquées, 2015
-    - République du Sénégal, Décret no 2005-987 relatif à l’orthographe et la séparation des mots en oniyan, 21 octobre 2005
-    - Wikipedia
+  - Institut de recherches linguistiques appliquées, Le nouvel alphabet des langues guinéennes, Conakry, Institut de recherches linguistiques appliquées, 2015
+  - République du Sénégal, Décret no 2005-987 relatif à l’orthographe et la séparation des mots en oniyan, 21 octobre 2005
+  - Wikipedia
   speakers: 33600
   speakers_date: 2014-2015
   status: living
@@ -2146,7 +2146,7 @@ byv:
     script: Latin
     status: primary
   source:
-    - Wikipedia
+  - Wikipedia
   speakers: 210000
   speakers_date: 1991
   status: living
@@ -2159,8 +2159,8 @@ bze:
     script: Latin
     status: primary
   source:
-    - 'Lisons le bozo: Cours d’introduction pour tous ceux qui parlent le bozo-djenama et qui savent lire en français, Sevaré, république du Mali, Équipe Bozo, 2010'
-    - Wikipedia
+  - 'Lisons le bozo: Cours d’introduction pour tous ceux qui parlent le bozo-djenama et qui savent lire en français, Sevaré, république du Mali, Équipe Bozo, 2010'
+  - Wikipedia
   speakers: 200000
   speakers_date: 2005
   status: living
@@ -2793,8 +2793,8 @@ cou:
     script: Latin
     status: primary
   source:
-    - Institut de recherches linguistiques appliquées, Le nouvel alphabet des langues guinéennes, Conakry, Institut de recherches linguistiques appliquées, 2015
-    - Wikipedia
+  - Institut de recherches linguistiques appliquées, Le nouvel alphabet des langues guinéennes, Conakry, Institut de recherches linguistiques appliquées, 2015
+  - Wikipedia
   speakers: 38000
   speakers_date: 2014-2015
   status: living
@@ -3372,6 +3372,23 @@ ebu:
   speakers_date: 2009
   status: living
   validity: draft
+efi:
+  name: Efik
+  orthographies:
+  - autonym: efi
+    auxiliary: Ẹ ẹ Ị ị Ụ ụ
+    base: A B D E F G H I K M N O P R S T U W Y a b d e f g h i k m n o p r s t u w y Ñ ñ Ọ ọ
+    marks: ◌̃ ◌̣
+    script: Latin
+    status: primary
+  source:
+  - http://efikeburutu.org/efik%20language.html
+  - 'Okon E. Essien, Efik Orthography, in Ayo Bamgbose, Orthographies of Nigerian languages: manual I, Lagos, Federal Ministry of Education, National Language Centre, 1982'
+  - Wikipedia
+  speakers: 400000
+  speakers_date: 1998
+  status: living
+  validity: preliminary
 ekk:
   name: Standard Estonian
   orthographies:
@@ -3640,23 +3657,6 @@ ewo:
   speakers_date: 1982
   status: living
   validity: verified
-efi:
-  name: Efik
-  orthographies:
-  - autonym: efi
-    auxiliary: Ẹ ẹ Ị ị Ụ ụ
-    base: A B D E F G H I K M N O P R S T U W Y a b d e f g h i k m n o p r s t u w y Ñ ñ Ọ ọ
-    marks: ◌̃ ◌̣
-    script: Latin
-    status: primary
-  source:
-    - http://efikeburutu.org/efik%20language.html
-    - 'Okon E. Essien, Efik Orthography, in Ayo Bamgbose, Orthographies of Nigerian languages: manual I, Lagos, Federal Ministry of Education, National Language Centre, 1982'
-    - Wikipedia
-  speakers: 400000
-  speakers_date: 1998
-  status: living
-  validity: preliminary
 fao:
   name: Faroese
   orthographies:
@@ -4716,7 +4716,7 @@ hur:
   - autonym: hən̓q̓əmin̓əm̓
     auxiliary: A C E H I K L M N P Q S T U W X Y Č Š Ə Θ Χ Ɬ Ꭓ ꭓ
     base: a c e h i k l m n p q s t u w x y č š ƛ ə ɬ ʔ ʷ θ χ ᶿ
-    marks: ◌̓
+    marks: ◌̓ ◌̌
     script: Latin
     status: primary
   source:
@@ -4844,13 +4844,13 @@ idu:
   orthographies:
   - autonym: Idoma
     base: A B C D E F G H I J K L M N O P R S T U V W Y Z a b c d e f g h i j k l m n o p r s t u v w y z Á É Í Ó Ú á é í ó ú Ā ā Ē ē Ī ī Ŋ ŋ Ō ō Ū ū Ɔ Ɛ ɔ ɛ Ẹ ẹ Ọ ọ
-    marks: ◌́ ◌̄
+    marks: ◌́ ◌̄ ◌̣
     note: ɛ and ɔ can be written as ẹ and ọ.
     script: Latin
     status: primary
   source:
-    - R.C. Abraham, Idoma orthography, in Ayo Banjo, Orthographies of Nigerian Languages: Manual III, Lagos, National Language Center, 1985
-    - Wikipedia
+  - R.C. Abraham, Idoma orthography, in Ayo Banjo, Orthographies of Nigerian Languages: Manual III, Lagos, National Language Center, 1985
+  - Wikipedia
   speakers: 600000
   speakers_date: 1991
   status: living
@@ -5801,8 +5801,8 @@ knf:
     script: Latin
     status: primary
   source:
-    - République du Sénégal, Décret no 2005-984 relatif à l’orthographe et la séparation des mots en mankaañ, 21 octobre 2005
-    - Wikipedia
+  - République du Sénégal, Décret no 2005-984 relatif à l’orthographe et la séparation des mots en mankaañ, 21 octobre 2005
+  - Wikipedia
   speakers: 75000
   speakers_date: 2006
   status: living
@@ -6150,8 +6150,8 @@ kwk:
     status: primary
   - autonym: liq̓ʷala
     auxiliary: A B C D E G H I K L M N O P Q S T U W X Y Ł Ə Ǧ Λ
-    base: a b c d e g h i k l m n o p q s t u w x y ł ƛ ǧ ə ʔ ʷ  ̓ λ ᶻ
-    marks: ◌̓ ◌̱
+    base: a b c d e g h i k l m n o p q s t u w x y ł ƛ ǧ ə ʔ ʷ λ ᶻ
+    marks: ◌̓ ◌̱ ◌̌
     note: Capitals may be used in non standard orthography.
     script: Latin
     status: primary
@@ -6835,8 +6835,8 @@ mfv:
     script: Latin
     status: primary
   source:
-    - République du Sénégal, Décret no 2005-983 relatif à l’orthographe et la séparation des mots en manjakú, 21 octobre 2005
-    - Wikipedia
+  - République du Sénégal, Décret no 2005-983 relatif à l’orthographe et la séparation des mots en manjakú, 21 octobre 2005
+  - Wikipedia
   speakers: 315000
   speakers_date: 2006
   status: living
@@ -7027,8 +7027,8 @@ mnk:
     script: Latin
     status: primary
   source:
-    - République du Sénégal, Décret no 2005-982 relatif à l’orthographe et la séparation des mots en mandinka, 21 octobre 2005
-    - Wikipedia
+  - République du Sénégal, Décret no 2005-982 relatif à l’orthographe et la séparation des mots en mandinka, 21 octobre 2005
+  - Wikipedia
   speakers: 1300000
   speakers_date: 2002-2016
   status: living
@@ -7070,7 +7070,7 @@ moe:
   - autonym: Innu Aimun
     auxiliary: Ń ń
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Â Î Û a b c d e f g h i j k l m n o p q r s t u v w x y z â î û ᵘ
-    marks: ◌̂
+    marks: ◌̂ ◌́
     script: Latin
     status: primary
   source:
@@ -7328,8 +7328,8 @@ myk:
     script: Latin
     status: primary
   source:
-    - République du Mali, Direction nationale de l’alphabétisation fonctionnelle et de la linguistique appliquée, Alphabets et règles d’orthographe des langues nationales, Bamako, DNAFLA, 1993
-    - Wikipedia
+  - République du Mali, Direction nationale de l’alphabétisation fonctionnelle et de la linguistique appliquée, Alphabets et règles d’orthographe des langues nationales, Bamako, DNAFLA, 1993
+  - Wikipedia
   speakers: 740000
   speakers_date: 2000
   status: living
@@ -7853,8 +7853,8 @@ nza:
     script: Latin
     status: primary
   source:
-    - Julius A. Eyoh, Emmanuel S. Echebi, Mbembe Orthography Guide, Cameroon Association for Bible Translation and Literacy (CABTAL), 2009
-    - Wikipedia
+  - Julius A. Eyoh, Emmanuel S. Echebi, Mbembe Orthography Guide, Cameroon Association for Bible Translation and Literacy (CABTAL), 2009
+  - Wikipedia
   speakers: 60000
   speakers_date: 1987-2005
   status: living
@@ -8828,11 +8828,12 @@ sav:
   orthographies:
   - autonym: saafi-saafi
     base: A B C D E F G H I J K L M N O P R S T U W Y a b c d e f g h i j k l m n o p r s t u w y Ñ ñ Ŋ ŋ Ɓ Ɗ Ƴ ƴ ɓ ɗ ’
+    marks: ◌̃
     script: Latin
     status: primary
   source:
-    - République du Sénégal, Décret no 2005-989 relatif à l’orthographe et la séparation des mots en saafi-saafi, 21 octobre 2005
-    - Wikipedia
+  - République du Sénégal, Décret no 2005-989 relatif à l’orthographe et la séparation des mots en saafi-saafi, 21 octobre 2005
+  - Wikipedia
   speakers: 200000
   speakers_date: 2012
   status: living
@@ -9062,8 +9063,8 @@ shz:
     script: Latin
     status: primary
   source:
-    - République du Mali, Direction nationale de l’alphabétisation fonctionnelle et de la linguistique appliquée, Alphabets et règles d’orthographe des langues nationales, Bamako, DNAFLA, 1993
-    - Wikipedia
+  - République du Mali, Direction nationale de l’alphabétisation fonctionnelle et de la linguistique appliquée, Alphabets et règles d’orthographe des langues nationales, Bamako, DNAFLA, 1993
+  - Wikipedia
   speakers: 210000
   speakers_date: 1995-2010
   status: living
@@ -9356,8 +9357,8 @@ snf:
     script: Latin
     status: primary
   source:
-    - République du Sénégal, Décret no 2005-986 relatif à l’orthographe et la séparation des mots en noon, 21 octobre 2005
-    - Wikipedia
+  - République du Sénégal, Décret no 2005-986 relatif à l’orthographe et la séparation des mots en noon, 21 octobre 2005
+  - Wikipedia
   speakers: 50000
   speakers_date: 2007
   status: living
@@ -9960,14 +9961,15 @@ thp:
   orthographies:
   - autonym: nłeʔkepmxcin
     auxiliary: A C E H I K L M N P Q S T U W X Y Z Á É Í Ó Ú Ł Ə Ɣ Θ Ḷ Ṣ Ị
-    base: a c e h i k l m n p q s t u w x y z á é í ó ú ł ƛ ə ɣ ʔ ʕ ʷ ́ ̓ ̣ θ ḷ ṣ ị
+    base: a c e h i k l m n p q s t u w x y z á é í ó ú ł ƛ ə ɣ ʔ ʕ ʷ θ ḷ ṣ ị
+    marks: ◌́ ◌̓ ◌̣
     script: Latin
     status: primary
-  speakers: 600
-  speakers_date: 2018
   source:
   - FirstVoices
   - Wikipedia
+  speakers: 600
+  speakers_date: 2018
   validity: preliminary
 tir:
   name: Tigrinya
@@ -10080,28 +10082,10 @@ tnr:
     script: Latin
     status: primary
   source:
-    - République du Sénégal, Décret no 2005-985 relatif à l’orthographe et la séparation des mots en ménik, 21 octobre 2005
-    - Wikipedia
+  - République du Sénégal, Décret no 2005-985 relatif à l’orthographe et la séparation des mots en ménik, 21 octobre 2005
+  - Wikipedia
   speakers: 2500
   speakers_date: 2015
-  status: living
-  validity: preliminary
-ttq:
-  name: Tawallammat Tamajaq
-  orthographies:
-  - autonym: Tawǝllǝmmǝt
-    auxiliary: ʔ
-    base: A B C D E F G H I J J̌ K L M N O Q R S T U W X Y Z a b c d e f g h i j k l m n o q r s t u w x y z Â Ê Î Ô Û â ê î ô û Ă ă Ŋ ŋ Š š Ǝ Ɣ ǝ Ǧ ǧ ǰ ɣ Ḍ ḍ Ḷ ḷ Ṣ ṣ Ṭ ṭ Ẓ ẓ
-    marks: ◌̂ ◌̆ ◌̌ ◌̣
-    script: Latin
-    status: primary
-  source:
-  - 'Direction Nationale de l’Alphabétisation fonctionnelle et de la Linguistique appliquée (DNAFLA), Alphabets et règles d’orthographe des langues nationales. Bamako: D.N.A.F.L.A. 1993'
-  - Chantal Enguehard, Alphabet tamajaq – arrêté no 214-99 de la République du Niger, 2007
-  - République du Niger, Ministère de l’Éducation nationale, arrêté no 0214/MEN/SPCNRE du 19 octobre 1999 fixant l’orthographe de la langue tamajaq, 1999
-  - Wikipedia
-  speakers: 810000
-  speakers_date: 1998
   status: living
   validity: preliminary
 tob:
@@ -10124,8 +10108,8 @@ tod:
     script: Latin
     status: primary
   source:
-    - Institut de recherches linguistiques appliquées, Le nouvel alphabet des langues guinéennes, Conakry, Institut de recherches linguistiques appliquées, 2015
-    - Wikipedia
+  - Institut de recherches linguistiques appliquées, Le nouvel alphabet des langues guinéennes, Conakry, Institut de recherches linguistiques appliquées, 2015
+  - Wikipedia
   speakers: 420000
   speakers_date: 2012
   status: living
@@ -10243,6 +10227,24 @@ tsz:
   - Wikipedia
   speakers: 124494
   speakers_date: 2010
+  validity: preliminary
+ttq:
+  name: Tawallammat Tamajaq
+  orthographies:
+  - autonym: Tawǝllǝmmǝt
+    auxiliary: ʔ
+    base: A B C D E F G H I J J̌ K L M N O Q R S T U W X Y Z a b c d e f g h i j k l m n o q r s t u w x y z Â Ê Î Ô Û â ê î ô û Ă ă Ŋ ŋ Š š Ǝ Ɣ ǝ Ǧ ǧ ǰ ɣ Ḍ ḍ Ḷ ḷ Ṣ ṣ Ṭ ṭ Ẓ ẓ
+    marks: ◌̂ ◌̆ ◌̌ ◌̣
+    script: Latin
+    status: primary
+  source:
+  - 'Direction Nationale de l’Alphabétisation fonctionnelle et de la Linguistique appliquée (DNAFLA), Alphabets et règles d’orthographe des langues nationales. Bamako: D.N.A.F.L.A. 1993'
+  - Chantal Enguehard, Alphabet tamajaq – arrêté no 214-99 de la République du Niger, 2007
+  - République du Niger, Ministère de l’Éducation nationale, arrêté no 0214/MEN/SPCNRE du 19 octobre 1999 fixant l’orthographe de la langue tamajaq, 1999
+  - Wikipedia
+  speakers: 810000
+  speakers_date: 1998
+  status: living
   validity: preliminary
 ttt:
   name: Muslim Tat
