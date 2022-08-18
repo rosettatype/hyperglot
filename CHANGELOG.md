@@ -1,5 +1,9 @@
 # A changelog for the lib/hyperglot CLI tool
 
+## 0.4.1 (18.08.2022)
+- DATA: Dozens of African and North-American languages added and refined (thanks @moyogo !)
+- DATA: Refined English `auxiliary`
+
 ## 0.4.0 (29.06.2022)
 - DATA: Fix for Pinyin
 - CLI: Introduced `--sort` (`alphabetic`, default, or `speakers`) and `--sort-dir` (`asc`, default, or `desc`)
