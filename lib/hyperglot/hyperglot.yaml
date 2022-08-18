@@ -3095,7 +3095,7 @@ eng:
   name: English
   orthographies:
   - autonym: English
-    auxiliary: Á Ç È É Ê Ë Ï Ñ Ô Ö á ç è é ê ë ï ñ ô ö
+    auxiliary: À Á Ç È É Ê Ë Ï Ñ Ô Ö à á ç è é ê ë ï ñ ô ö
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Œ a b c d e f g h i j k l m n o p q r s t u v w x y z æ œ
     marks: ◌̀ ◌́ ◌̂ ◌̃ ◌̈ ◌̧
     script: Latin
