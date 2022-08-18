@@ -79,6 +79,23 @@ abe:
   speakers_date: 2007-2012
   status: living
   validity: preliminary
+abi:
+  name: Abidji
+  orthographies:
+  - autonym: ogbru
+    auxiliary: Ʊ ʊ ʔ
+    base: A B C D E F G I J K L M N O P R S T U W Y a á â ǎ b c d e é ê ě f g i í î ǐ j k l m n o ó ô ǒ p r s t u ú û ǔ w y Á Â É Ê Í Î Ó Ô Ú Û Ě Ɔ Ɛ Ɩ Ʋ Ǎ Ǐ Ǒ Ǔ ɔ ɛ ɩ ʋ
+    marks: ◌́ ◌̂ ◌̌
+    script: Latin
+    status: primary
+  source:
+  - Rhonda L. Hartell, Alphabets of Africa, 1993, p. 128.
+  - Wikipedia
+  - https://live.bible.is/bible/ABIWBT
+  speakers: 50500
+  speakers_date: 1993
+  status: living
+  validity: preliminary
 abk:
   name: Abkhazian
   orthographies:
@@ -94,6 +111,21 @@ abk:
   speakers_date: 2014-2015
   status: living
   validity: verified
+abn:
+  name: Abua
+  orthographies:
+  - autonym: Abua
+    base: A Ạ B Ḅ D Ḍ E Ẹ F G H I Ị J K L M N O Ọ P R S T U Ụ V W Y Z a ạ b ḅ d ḍ e ẹ f g h i ị j k l m n o ọ p r s t u ụ v w y z
+    marks: ◌̣
+    script: Latin
+    status: primary
+  source:
+    - 'Ethelbert Emmanuel Kari, Kiikpoye Johnny Joshua, "Abuan orthography", in Tony Enyia, Orthographies of Nigerian Languages: Manual IX, Nigerian Educational Research and Development Council (NERDC), 2011, p. 1–12'
+    - Wikipedia
+  speakers: 25000
+  speakers_date: 1989
+  status: living
+  validity: preliminary
 abq:
   name: Abaza
   orthographies:
@@ -150,6 +182,21 @@ ace:
   - Wikipedia
   speakers: 3500000
   speakers_data: 2000
+  validity: preliminary
+ach:
+  name: Acholi
+  orthographies:
+  - autonym: Acoli
+    base: A B C D E G I J K L M N Ŋ O P R T U W Y a b c d e g i j k l m n ŋ o p r t u w y
+    script: Latin
+    status: primary
+  source:
+  - Alfred Malandra, A New Acholi Grammar, Nairobi (Kenya), Eagle Press, 1955, 153 p.
+  - Omniglot
+  - Wikipedia
+  speakers: 1500000
+  speakers_data: 2014
+  status: living
   validity: preliminary
 acm:
   name: Mesopotamian Arabic
@@ -262,6 +309,19 @@ ada:
   - http://www.jw.org/ada/wa-nɛ́-he-nɛ-o-ngɛ-hlae-ɔ/
   speakers: 80000
   speakers_date: 2004
+  validity: preliminary
+ade:
+  name: Adele
+  orthographies:
+  - autonym: Gɩdɩrɛ
+    base: A B D E F G H I K L M N O P R S T U W Y a b d e f g h i k l m n o p r s t u w y Ŋ ŋ Ɔ Ɛ Ɩ Ʋ ɔ ɛ ɩ ʋ
+    script: Latin
+    status: primary
+  source:
+  - Jacques Rongier, Dictionnaire français-adele, Abidjan, Institut de Linguistique appliquée, Université nationale de Côte d’Ivoire, 1998
+  - Wikipedia
+  speakers: 37000
+  speakers_date: 2003-2012
   validity: preliminary
 ady:
   name: Adyghe
@@ -401,6 +461,34 @@ agx:
   speakers_date: 2010
   status: living
   validity: verified
+aha:
+  name: Ahanta
+  orthographies:
+  - autonym: Ahanta
+    base: A B D E F G H I K L M N O P R S T U V W Y Z a b d e f g h i k l m n o p r s t u v w y z Ɔ Ɛ Ɩ Ʋ ɔ ɛ ɩ ʋ
+    script: Latin
+    status: primary
+  source:
+  - I. E. Mensah, Anrindha-Erelenza nwuma mɔ di bɔmunli (Ahanta-English book one), Cape Coast, Mfantsiman Press, 1973
+  - Wikipedia
+  speakers: 175000
+  speakers_date: 2013
+  status: living
+  validity: preliminary
+aht:
+  name: Ahtna
+  orthographies:
+  - autonym: Atnakenaegeʼ
+    base: A B C D E G H I K L N O S T U X Y Z a b c d e g h i k l n o s t u x y z Ł ł ʼ
+    script: Latin
+    status: primary
+  source:
+  - James Kari, Ahtna Athabaskan dictionary, Alaska Native Language Center, 1990
+  - Wikipedia
+  speakers: 15
+  speakers_date: 2020
+  status: living
+  validity: preliminary
 aii:
   name: Assyrian Neo-Aramaic
   orthographies:
@@ -442,7 +530,7 @@ ajg:
   name: Aja (Benin)
   orthographies:
   - autonym: Adja
-    base: A B C D Ɖ E Ɛ F G Ɣ H I J K L M N Ŋ O Ɔ P R S T U V W X Y Z Ʒ a b c d ɖ e ɛ f g ɣ h i j k l m n ŋ o ɔ p r s t u v w x y z ʒ
+    base: A B C D E F G H I J K L M N O P R S T U V W X Y Z a b c d e f g h i j k l m n o p r s t u v w x y z À Á È É Ì Í Ò Ó Ù Ú à á è é ì í ò ó ù ú Ŋ ŋ Ɔ Ɖ Ɛ Ɣ Ʒ ɔ ɖ ɛ ɣ ʒ
     marks: ◌̀ ◌́
     script: Latin
     status: primary
@@ -474,6 +562,21 @@ ajp:
   speakers_date: 2014–2016
   status: living
   validity: draft
+ale:
+  name: Aleut
+  orthographies:
+  - autonym: Unangam Tunuu
+    base: A B D F G H I K L M N O Q R S T U V W X Y Z a b d f g h i k l m n o q r s t u v w x y z Ĝ ĝ
+    marks: ◌̂
+    script: Latin
+    status: primary
+  source:
+  - Wikipedia
+  - 'Knut Bergsland, Aleut Dictionary = Unangam Tunudgusii an unabridged lexicon of the Aleutian, Pribilof, and Commander Islands Aleut language, Fairbanks, AK: Alaska Native Language Center, University of Alaska, 1994'
+  speakers: 150
+  speakers_date: 2009-2011
+  status: living
+  validity: preliminary
 aln:
   name: Gheg Albanian
   orthographies:
@@ -490,6 +593,23 @@ aln:
   speakers_date: 2000–2001
   status: living
   validity: verified
+alq:
+  name: Alonquin
+  note: Northern Algonquin and Southern Algonquin
+  orthographies:
+  - auxiliary: Ȣ ȣ
+    base: A B C D E G H I J K M N O P S T W Y Z a b c d e g h i j k m n o p s t w y z À È Ì Ò à è ì ò
+    marks: ◌̀
+    note: 8 is used instead of ȣ in practice
+    script: Latin
+    status: primary
+  source:
+  - Chris Harvey/Languageek, Anicinapemiȣin/Anishinàbemiwin (Algonquin), 31 December 2021
+  - Wikipedia
+  speakers: 3330
+  speakers_date: 2016
+  status: living
+  validity: preliminary
 als:
   name: Tosk Albanian
   orthographies:
@@ -584,6 +704,21 @@ amr:
   speakers: 1600
   speakers_date: 2007
   validity: preliminary
+anc:
+  name: Angas
+  orthographies:
+  - autonym: Ngas
+    base: A B C D E F G H I J K L M N O P R S T U V W Y Z a b c d e f g h i j k l m n o p r s t u v w y z Ɓ Ɗ Ə ɓ ɗ ə ʼ Ḥ ḥ Ṇ ṇ Ẓ ẓ
+    marks: ◌̣
+    script: Latin
+    status: primary
+  source:
+    - Rhonda L. Hartell, Alphabets de langues africaines, 1993, p. 208
+    - Wikipedia
+  speakers: 400000
+  speakers_date: 1998
+  status: living
+  validity: preliminary
 ani:
   name: Andi
   orthographies:
@@ -598,6 +733,37 @@ ani:
   speakers_date: 2010
   status: living
   validity: draft
+anw:
+  name: Anaang
+  orthographies:
+  - autonym: Anaañ
+    base: A B C D E F G H I J K L M N O P Q R S U W Y a b c d e f g h i j k l m n o p q r s u w y Ñ Ö Ü ñ ö ü
+    marks: ◌̃ ◌̈
+    script: Latin
+    status: primary
+  source:
+  - 'Ernest Owulette, Annang-English dictionary: Anaañ heritage dictionary, 2019'
+  - Wikipedia
+  speakers: 1400000
+  speakers_date: 1991
+  status: living
+  validity: preliminary
+any:
+  name: Agni
+  orthographies:
+  - autonym: anyi
+    auxiliary: Ʊ ʊ
+    base: A B C D E F G H I J K L M N O P R S T U V W Y Z a b c d e f g h i j k l m n o p r s t u v w y z Ɔ Ɛ Ɩ Ʋ ɔ ɛ ɩ ʋ
+    script: Latin
+    status: primary
+  source:
+  - Rhonda L. Hartell, Alphabets of Africa, 1993, p. 118
+  - Ettien N. Koffi, Guide d’orthographe et de lecture de l’agni morofou — Anyin Mɔlɔfʋ Ngɛlɛlɩɛ nɩn Nince Kɩnngalɛ Fuluwa, Bongouanou, CATA (Centre d’alphabétisation et de traduction en agni, 2009
+  - Wikipedia
+  speakers: 1506400
+  speakers_date: 2017
+  status: living
+  validity: preliminary
 aoz:
   name: Uab Meto
   orthographies:
@@ -930,6 +1096,20 @@ avl:
   speakers_date: 2015-2016
   status: living
   validity: draft
+avn:
+  name: Avatime
+  orthographies:
+  - autonym: Sia
+    base: A B D E F G H I K L M N O P R S T U V W X Y Z a b d e f g h i k l m n o p r s t u v w x y z Ŋ ŋ Ɔ Ɖ Ɛ Ƒ ƒ Ʋ ɔ ɖ ɛ ʋ
+    script: Latin
+    status: primary
+  source:
+    - GILLBT
+    - Wikipedia
+  speakers: 24000
+  speakers_date: 2003
+  status: living
+  validity: preliminary
 awa:
   name: Awadhi
   note: The speaker counts are 3.85 million (India, 2011) and 501752 (Nepal, 2011)
@@ -964,6 +1144,20 @@ awe:
   speakers_date: 2011
   status: living
   validity: draft
+ayb:
+  name: Ayizo Gbe
+  orthographies:
+  - autonym: ayizo-nu
+    base: A B C D E F G H I J K L M N O P R S T U V W X Y Z a b c d e f g h i j k l m n o p r s t u v w x y z Ɔ Ɖ Ɛ ɔ ɖ ɛ
+    script: Latin
+    status: primary
+  source:
+  - Centre national de linguistique appliquée (C.E.N.A.L.A.), Alphabet des langues nationales béninoises, 2008, p. 5-6.
+  - Wikipedia
+  speakers: 400000
+  speakers_date: 2002-2006
+  status: living
+  validity: preliminary
 ayc:
   name: Southern Aymara
   orthographies:
@@ -1091,6 +1285,21 @@ azj:
   speakers_date: 2018
   status: living
   validity: verified
+azo:
+  name: Awing
+  orthographies:
+  - autonym: awing
+    base: A B C D E F G H I J K L M N O P S T U W Y Z a b c d e f g h i j k l m n o p s t u w y z Á Â É Ê Í Î Ó Ô Ú Û á â é ê í î ó ô ú û Ě ě Ŋ ŋ Ɔ Ə Ɛ Ɨ Ǎ ǎ Ǐ ǐ Ǒ ǒ Ǔ ǔ ɔ ə ɛ ɨ ʼ
+    marks: ◌́ ◌̂ ◌̌
+    script: Latin
+    status: primary
+  source:
+  - Christian Alomofor, Stephen C. Anderson, Awing Orthography Guide, SIL, 2005
+  - Wikipedia
+  speakers: 19000
+  speakers_date: 2001
+  status: living
+  validity: preliminary
 bak:
   name: Bashkir
   orthographies:
@@ -1462,11 +1671,26 @@ bis:
   speakers_date: 2011
   status: living
   validity: verified
+bjt:
+  name: Balante-Ganja
+  orthographies:
+  - autonym: balant
+    base: A B D E F G H I J L M N O R S T U W Y a b d e f g h i j l m n o r s t u w y Ñ ñ Ŋ ŋ Ŧ ŧ Ɓ ɓ
+    marks: ◌̃
+    script: Latin
+    status: primary
+  source:
+    - République du Sénégal, Décret no 2005-979 relatif à l’orthographe et la séparation des mots en balant, 21 octobre 2005
+    - Wikipedia
+  speakers: 96000
+  speakers_date: 2015
+  status: living
+  validity: preliminary
 blo:
   name: Anii
   orthographies:
   - autonym: anii
-    base: A Ǝ B C Ɖ E Ɛ F G H I Ɩ J K L M N Ŋ O Ɔ P R S T U Ʊ W Y a ǝ b c ɖ e ɛ f g h i ɩ j k l m n ŋ o ɔ p r s t u ʊ w y
+    base: A B C E F G H I J K L M N O P R S T U W Y a b c e f g h i j k l m n o p r s t u w y À Á Â È É Ê Ì Í Î Ò Ó Ô Ù Ú Û à á â è é ê ì í î ò ó ô ù ú û Ŋ ŋ Ɔ Ɖ Ǝ Ɛ Ɩ Ʊ ǝ ɔ ɖ ɛ ɩ ʊ
     marks: ◌́ ◌̀ ◌̂
     script: Latin
     status: primary
@@ -1490,6 +1714,20 @@ blt:
   - Wikipedia
   speakers: 760000
   speakers_date: 1995-2002
+  validity: preliminary
+bmq:
+  name: Bomu
+  orthographies:
+  - autonym: bomu
+    base: A B C D E F G H I K L M N O P R S T U V W Y Z a b c d e f g h i k l m n o p r s t u v w y z Ɓ Ɛ Ɲ ɓ ɛ ɲ ʼ
+    script: Latin
+    status: primary
+  source:
+    - République du Mali, Direction nationale de l’alphabétisation fonctionnelle et de la linguistique appliquée, Alphabets et règles d’orthographe des langues nationales, Bamako, DNAFLA, 1993
+    - Wikipedia
+  speakers: 150000
+  speakers_date: 1976-1991
+  status: living
   validity: preliminary
 boa:
   name: Bora
@@ -1551,6 +1789,19 @@ bos:
   speakers_date: 2008
   status: living
   validity: verified
+boz:
+  name: Tiéyaxo Bozo
+  orthographies:
+  - autonym: bozo-tigemaxoo
+    base: A B C D E F G H I J K L M N O P R S T U W X Y a b c d e f g h i j k l m n o p r s t u w x y Ŋ ŋ Ɔ Ɛ Ɲ ɔ ɛ ɲ
+    script: Latin
+    status: primary
+  source:
+    - 'Lisons le bozo: Cours d’introduction pour tous ceux qui parlent le bozo-tigemaxo et qui savent lire en français, Sevaré, république du Mali, Équipe Bozo, 2010'
+    - République du Mali, Direction nationale de l’alphabétisation fonctionnelle et de la linguistique appliquée, Alphabets et règles d’orthographe des langues nationales, Bamako, DNAFLA, 1993
+    - Wikipedia
+  status: living
+  validity: preliminary
 bpy:
   name: Bishnupriya
   orthographies:
@@ -1616,6 +1867,44 @@ brx:
   - Unicode
   speakers: 1400000
   speakers_date: 2011
+  validity: preliminary
+bsc:
+  name: Bassari
+  orthographies:
+  - autonym: oniyan
+    base: A B C D E F G H I J K L M N O P R S T U W Y a b c d e f g h i j k l m n o p r s t u w y É Ë Ñ Ó é ë ñ ó Ĥ ĥ Ŋ ŋ Ŝ ŝ Ŵ ŵ Ŷ ŷ Ɓ Ɗ Ƴ ƴ ɓ ɗ
+    marks: ◌́ ◌̈ ◌̂ ◌̃
+    note: Senegal
+    script: Latin
+    status: primary
+  - autonym: oneyan
+    base: A B C D E F G H I J K L M N O P R S T U V W Y a b c d e f g h i j k l m n o p r s t u v w y Ŋ ŋ Ɓ Ɔ Ɗ Ǝ Ɛ Ɲ Ʃ Ƴ ƴ ǝ Ɉ ɉ ɓ ɔ ɗ ɛ ɲ ʃ
+    note: Guinea
+    script: Latin
+    status: primary
+  source:
+    - Institut de recherches linguistiques appliquées, Le nouvel alphabet des langues guinéennes, Conakry, Institut de recherches linguistiques appliquées, 2015
+    - République du Sénégal, Décret no 2005-987 relatif à l’orthographe et la séparation des mots en oniyan, 21 octobre 2005
+    - Wikipedia
+  speakers: 33600
+  speakers_date: 2014-2015
+  status: living
+  validity: preliminary
+bss:
+  name: Akoose
+  orthographies:
+  - autonym: Akɔɔse
+    base: A B D E F G H I J K L M N O P R S T U V W Y a b d e f g h i j k l m n o p r s t u v w y á â é ê í î ó ô ú û ě Ŋ ŋ Ɔ Ə Ɛ ǎ ǐ ǒ ǔ ɔ ə ɛ ʼ
+    marks: ◌́ ◌̂ ◌̌
+    script: Latin
+    status: primary
+  source:
+  - Bakossi Language Committee, E’kii bé Akɔɔse (The Bakossi Alphabet), SIL Camerun, 1995
+  - Wikipedia
+  - https://www.webonary.org/akoose
+  speakers: 100000
+  speakers_date: 2001
+  status: living
   validity: preliminary
 btd:
   name: Batak Dairi
@@ -1846,6 +2135,34 @@ bxu:
   - Omniglot
   speakers: 65000
   speakers_date: 1982
+  status: living
+  validity: preliminary
+byv:
+  name: Medumba
+  orthographies:
+  - autonym: Mə̀dʉ̂mbɑ̀
+    base: A B C D E F G H I J K L M N O S T U V W Y Z a b c d e f g h i j k l m n o s t u v w y z À Â È Ê Ì Î Ò Ô Ù Û à â è ê ì î ò ô ù û Ě ě Ŋ ŋ Ɔ Ə Ɛ Ǎ ǎ Ǐ ǐ Ǒ ǒ Ǔ ǔ Ʉ ɑ ɔ ə ɛ ʉ ʼ Ɑ
+    marks: ◌̀ ◌̂ ◌̌
+    script: Latin
+    status: primary
+  source:
+    - Wikipedia
+  speakers: 210000
+  speakers_date: 1991
+  status: living
+  validity: preliminary
+bze:
+  name: Jenaama Bozo
+  orthographies:
+  - autonym: bozo-jenaama
+    base: A B C D E F G H I J K L M N O P R S T U W Y a b c d e f g h i j k l m n o p r s t u w y Ŋ ŋ Ɔ Ɛ Ɲ ɔ ɛ ɲ
+    script: Latin
+    status: primary
+  source:
+    - 'Lisons le bozo: Cours d’introduction pour tous ceux qui parlent le bozo-djenama et qui savent lire en français, Sevaré, république du Mali, Équipe Bozo, 2010'
+    - Wikipedia
+  speakers: 200000
+  speakers_date: 2005
   status: living
   validity: preliminary
 cab:
@@ -2273,6 +2590,20 @@ ckb:
   speakers_date: 2014
   status: living
   validity: preliminary
+cko:
+  name: Anufo
+  orthographies:
+  - autonym: Anufo
+    base: A B C D E F G H I J K L M N O P R S T U V W Y Z a b c d e f g h i j k l m n o p r s t u v w y z Ŋ ŋ Ɔ Ɛ ɔ ɛ
+    script: Latin
+    status: primary
+  source:
+  - Rhonda L. Hartell, Alphabets de langues africaines, 1993, p. 288
+  - Wikipedia
+  speakers: 180000
+  speakers_date: 2013
+  status: living
+  validity: preliminary
 ckt:
   name: Chukot
   note: The speaker count is based on 32% proportion of the total population.
@@ -2394,6 +2725,22 @@ con:
   speakers_date: 2001-2008
   status: living
   validity: preliminary
+coo:
+  name: Comox
+  orthographies:
+  - autonym: ayʔaǰuθɛm
+    auxiliary: ꭓ
+    base: a e g h i k l m n o p q s t u w x y æ č š ƛ ǰ ɔ ə ɛ ɩ ɬ ʊ ʔ ʷ ʸ θ χ ᶿ Ɬ
+    marks: ◌̌ ◌̓
+    script: Latin
+    status: primary
+  source:
+  - FirstVoices
+  - Wikipedia
+  speakers: 50
+  speakers_date: 2018
+  status: living
+  validity: preliminary
 cor:
   name: Cornish
   orthographies:
@@ -2437,6 +2784,20 @@ cot:
   - Wikipedia
   speakers: 500
   speakers_date: 2012
+  validity: preliminary
+cou:
+  name: Wamey
+  orthographies:
+  - autonym: wamey
+    base: A B D E F G H I K L M N O P R S T U W X Y a b d e f g h i k l m n o p r s t u w x y Ŋ ŋ Ɔ Ǝ Ɛ Ɲ ǝ ɔ ɛ ɲ
+    script: Latin
+    status: primary
+  source:
+    - Institut de recherches linguistiques appliquées, Le nouvel alphabet des langues guinéennes, Conakry, Institut de recherches linguistiques appliquées, 2015
+    - Wikipedia
+  speakers: 38000
+  speakers_date: 2014-2015
+  status: living
   validity: preliminary
 cpu:
   name: Pichis Ashéninka
@@ -2576,7 +2937,8 @@ cym:
 dag:
   name: Dagbani
   orthographies:
-  - base: A B C D E F G H I J K L M N O P R S T U V W Y Z Ɛ Ɣ Ɨ Ŋ Ɔ Ʒ a b c d e f g h i j k l m n o p r s t u v w y z ' ɛ ɣ ɨ ŋ ɔ ʒ
+  - autonym: Dagbanli
+    base: A B C D E F G H I J K L M N O P R S T U V W Y Z Ɛ Ɣ Ɨ Ŋ Ɔ Ʒ a b c d e f g h i j k l m n o p r s t u v w y z ' ɛ ɣ ɨ ŋ ɔ ʒ
     script: Latin
     status: primary
   source:
@@ -2952,6 +3314,7 @@ dyo:
     script: Latin
     status: primary
   source:
+  - République du Sénégal, Décret no 2005-981 relatif à l’orthographe et la séparation des mots en jóola, 21 octobre 2005
   - Omniglot
   - CLDR
   speakers: 410000
@@ -3075,6 +3438,21 @@ emk:
   - Wikipedia
   speakers: 5000000
   speakers_date: 1999-2012
+  validity: preliminary
+ems:
+  name: Alutiiq
+  orthographies:
+  - autonym: Sugt’stun
+    base: A C E F G H I K L M N P R S T U W Y a c e f g h i k l m n p r s t u w y ʀ
+    script: Latin
+    status: primary
+  source:
+  - 'April G.L. Counceller, Jeff Leer, The Alutiiq orthography: Kodiak dialect, Alutiiq Heritage Foundation, 2012, ISBN 978-1-929650-09-5'
+  - Wikipedia
+  - Omniglot
+  speakers: 80
+  speakers_date: 2020
+  status: living
   validity: preliminary
 enf:
   name: Forest Enets
@@ -3262,6 +3640,23 @@ ewo:
   speakers_date: 1982
   status: living
   validity: verified
+efi:
+  name: Efik
+  orthographies:
+  - autonym: efi
+    auxiliary: Ẹ ẹ Ị ị Ụ ụ
+    base: A B D E F G H I K M N O P R S T U W Y a b d e f g h i k m n o p r s t u w y Ñ ñ Ọ ọ
+    marks: ◌̃ ◌̣
+    script: Latin
+    status: primary
+  source:
+    - http://efikeburutu.org/efik%20language.html
+    - 'Okon E. Essien, Efik Orthography, in Ayo Bamgbose, Orthographies of Nigerian languages: manual I, Lagos, Federal Ministry of Education, National Language Centre, 1982'
+    - Wikipedia
+  speakers: 400000
+  speakers_date: 1998
+  status: living
+  validity: preliminary
 fao:
   name: Faroese
   orthographies:
@@ -3382,6 +3777,20 @@ fkv:
   - Omniglot
   - Wikipedia
   speakers: 8000
+  speakers_date: 2005
+  validity: preliminary
+fmp:
+  name: Fe'Fe'
+  orthographies:
+  - autonym: Feʼfeʼ
+    base: A B C D E F G H I J K L M N O P S T U V W Y Z a b c d e f g h i j k l m n o p s t u v w y z À Á È É Ì Í Ò Ó Ù Ú à á è é ì í ò ó ù ú Ā ā Ē ē Ě ě Ī ī Ŋ ŋ Ō ō Ū ū Ɔ Ə Ǎ ǎ Ǐ ǐ Ǒ ǒ Ǔ ǔ Ʉ ɑ ɔ ə ʉ ʼ Ɑ
+    marks: ◌́ ◌̀ ◌̂ ◌̌ ◌̄
+    script: Latin
+    status: primary
+  source:
+  - Rhonda L. Hartell, Alphabets de langues africaines, 1993, p. 75
+  - Wikipedia
+  speakers: 140000
   speakers_date: 2005
   validity: preliminary
 fod:
@@ -3606,6 +4015,20 @@ gag:
   - Wikipedia
   speakers: 140000
   speakers_date: 2009
+  status: living
+  validity: preliminary
+gah:
+  name: Alekano
+  orthographies:
+  - autonym: Gahuku
+    base: A E G H I K L M N O P R S T U V Z a e g h i k l m n o p r s t u v z
+    script: Latin
+    status: primary
+  source:
+  - Ellis W. Deibler, Dictionaries of Alekano-English and English-Alekano, Ukarumpa: Summer Institute of Linguistics, 2008
+  - Wikipedia
+  speakers: 25000
+  speakers_date: 1999
   status: living
   validity: preliminary
 gan:
@@ -4287,6 +4710,22 @@ hun:
   speakers_date: 2003-2014
   status: living
   validity: verified
+hur:
+  name: Halkomelem
+  orthographies:
+  - autonym: hən̓q̓əmin̓əm̓
+    auxiliary: A C E H I K L M N P Q S T U W X Y Č Š Ə Θ Χ Ɬ Ꭓ ꭓ
+    base: a c e h i k l m n p q s t u w x y č š ƛ ə ɬ ʔ ʷ θ χ ᶿ
+    marks: ◌̓
+    script: Latin
+    status: primary
+  source:
+  - Musqueam First Nation and MOA, hən̓q̓əmin̓əm̓ Alphabet, https://www2.moa.ubc.ca/musqueamteachingkit/alphabet.php
+  - Wikipedia
+  speakers: 260
+  speakers_date: 2014
+  status: living
+  validity: preliminary
 hus:
   name: Huastec
   orthographies:
@@ -4400,6 +4839,22 @@ ido:
   speakers_date: 2015
   status: constructed
   validity: verified
+idu:
+  name: Idoma
+  orthographies:
+  - autonym: Idoma
+    base: A B C D E F G H I J K L M N O P R S T U V W Y Z a b c d e f g h i j k l m n o p r s t u v w y z Á É Í Ó Ú á é í ó ú Ā ā Ē ē Ī ī Ŋ ŋ Ō ō Ū ū Ɔ Ɛ ɔ ɛ Ẹ ẹ Ọ ọ
+    marks: ◌́ ◌̄
+    note: ɛ and ɔ can be written as ẹ and ọ.
+    script: Latin
+    status: primary
+  source:
+    - R.C. Abraham, Idoma orthography, in Ayo Banjo, Orthographies of Nigerian Languages: Manual III, Lagos, National Language Center, 1985
+    - Wikipedia
+  speakers: 600000
+  speakers_date: 1991
+  status: living
+  validity: preliminary
 igs:
   name: Interglossa
   orthographies:
@@ -5049,6 +5504,21 @@ ket:
   speakers_date: 2010
   status: living
   validity: preliminary
+keu:
+  name: Akebu
+  orthographies:
+  - autonym: kǝkpǝǝ-kǝ
+    base: A B C D E F G H I J K L M N O P R S T U V W Y Z a b c d e f g h i j k l m n o p r s t u v w y z Ŋ ŋ Ɔ Ɖ Ǝ Ɛ Ɩ Ʊ ǝ ɔ ɖ ɛ ɩ ʊ
+    script: Latin
+    status: primary
+  source:
+  - Marthe Sossoukpe, Kə lə kə, kə la ŋʊrʊ Kəkpəə-kə — Guide pour aider les scolarisés en français à lire et écrire l’akébou (Guide de transition français - akébou), SIL Togo, 2014
+  - Wikipedia
+  - https://www.webonary.org/akebu/
+  speakers: 70300
+  speakers_date: 2012
+  status: living
+  validity: preliminary
 kfr:
   name: Kachhi
   orthographies:
@@ -5320,6 +5790,21 @@ kmr:
   - Omniglot
   speakers: 15000000
   speakers_date: 2009
+  status: living
+  validity: preliminary
+knf:
+  name: Mankanya
+  orthographies:
+  - autonym: mankaañ
+    base: A B C D E F G H I J K L M N O P R S T U W Y a b c d e f g h i j k l m n o p r s t u w y Ë Ñ Ú ë ñ ú Ŋ ŋ Ş ş Ţ ţ Ŧ ŧ
+    marks: ◌̈ ◌̃ ◌́ ◌̧
+    script: Latin
+    status: primary
+  source:
+    - République du Sénégal, Décret no 2005-984 relatif à l’orthographe et la séparation des mots en mankaañ, 21 octobre 2005
+    - Wikipedia
+  speakers: 75000
+  speakers_date: 2006
   status: living
   validity: preliminary
 knn:
@@ -5653,6 +6138,29 @@ kwi:
   - Wikipedia
   speakers: 13000
   speakers_date: 2008
+  validity: preliminary
+kwk:
+  name: Kwak’wala
+  orthographies:
+  - autonym: Kwak̓wala
+    base: A B D E G H I K L M N O P S T U W X Y Z a b d e g h i k l m n o p s t u w x y z ƚ Ǥ ǥ Ƚ ʼ Ḵ ḵ
+    marks: ◌̓ ◌̱
+    note: Uʼmista orthography
+    script: Latin
+    status: primary
+  - autonym: liq̓ʷala
+    auxiliary: A B C D E G H I K L M N O P Q S T U W X Y Ł Ə Ǧ Λ
+    base: a b c d e g h i k l m n o p q s t u w x y ł ƛ ǧ ə ʔ ʷ  ̓ λ ᶻ
+    marks: ◌̓ ◌̱
+    note: Capitals may be used in non standard orthography.
+    script: Latin
+    status: primary
+  source:
+  - FirstVoices
+  - Wikipedia
+  speakers: 450
+  speakers_date: 2016
+  status: living
   validity: preliminary
 kyu:
   name: Western Kayah
@@ -6273,6 +6781,24 @@ mer:
   speakers_date: 2009
   status: living
   validity: preliminary
+mey:
+  name: Hassaniyya
+  orthographies:
+  - autonym: ḥassaniya
+    base: A B C D E F G H I J K L M N O Q R S T U V W X Y Z a b c d e f g h i j k l m n o q r s t u v w x y z Ë Ñ ë ñ Ŝ ŝ Ŧ ŧ Ż ż ʼ Ḍ ḍ Ḥ ḥ Ṣ ṣ Ṭ ṭ Ẋ ẋ Ẓ ẓ
+    marks: ◌̂ ◌̈ ◌̃ ◌̇ ◌̣
+    script: Latin
+    status: primary
+  - autonym: حسانية
+    inherit: arb
+    script: Arabic
+    status: secondary
+  source:
+  - République du Sénégal, Décret no 2005-980 relatif à l’orthographe et la séparation des mots en ḥassinya, 21 octobre 2005
+  - Omniglot
+  speakers: 3120000
+  status: living
+  validity: preliminary
 mfe:
   name: Morisyen
   orthographies:
@@ -6300,6 +6826,21 @@ mfq:
   speakers: 2200
   speakers_date: 1998-2000
   validity: draft
+mfv:
+  name: Mandjak
+  orthographies:
+  - autonym: manjak
+    base: A B C D E F G H I J K L M N O P R S T U W Y Z a b c d e f g h i j k l m n o p r s t u w y z Á Ë Í Ñ Ó Ú á ë í ñ ó ú Ŋ ŋ Ŝ ŝ Ţ ţ
+    marks: ◌́ ◌̂ ◌̈ ◌̃ ◌̧
+    script: Latin
+    status: primary
+  source:
+    - République du Sénégal, Décret no 2005-983 relatif à l’orthographe et la séparation des mots en manjakú, 21 octobre 2005
+    - Wikipedia
+  speakers: 315000
+  speakers_date: 2006
+  status: living
+  validity: preliminary
 mgh:
   name: Makhuwa-Meetto
   orthographies:
@@ -6477,6 +7018,21 @@ mni:
   speakers: 1760000
   speakers_date: 2011
   validity: preliminary
+mnk:
+  name: Mandinka
+  orthographies:
+  - autonym: mandinka
+    base: A B C D E F G H I J K L M N O P R S T U W Y a b c d e f g h i j k l m n o p r s t u w y Ñ ñ Ŋ ŋ
+    marks: ◌̃
+    script: Latin
+    status: primary
+  source:
+    - République du Sénégal, Décret no 2005-982 relatif à l’orthographe et la séparation des mots en mandinka, 21 octobre 2005
+    - Wikipedia
+  speakers: 1300000
+  speakers_date: 2002-2016
+  status: living
+  validity: preliminary
 mns:
   name: Mansi
   orthographies:
@@ -6512,11 +7068,14 @@ moe:
   name: Montagnais
   orthographies:
   - autonym: Innu Aimun
-    base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Â Î Û a b c d e f g h i j k l m n o p q r s t u v w x y z â î û
+    auxiliary: Ń ń
+    base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Â Î Û a b c d e f g h i j k l m n o p q r s t u v w x y z â î û ᵘ
     marks: ◌̂
     script: Latin
     status: primary
   source:
+  - 'Sandra Clarke, Marguerite MacKenzie, Labrador Innu-Aimun: an introduction to the Sheshatshiu dialect, Memorial University of Newfoundland, 2010'
+  - Innu-aimun Language resources, https://www.innu-aimun.ca
   - Omniglot
   - Wikipedia
   speakers: 10075
@@ -6760,6 +7319,20 @@ mya:
   - Wikipedia
   speakers: 33000000
   speakers_date: 2007
+  validity: preliminary
+myk:
+  name: Mamara Senoufo
+  orthographies:
+  - autonym: mamaara
+    base: A B C D E F G H I J K L M N O P R S T U V W X Y Z a b c d e f g h i j k l m n o p r s t u v w x y z Ŋ ŋ Ɔ Ɛ Ɲ ɔ ɛ ɲ
+    script: Latin
+    status: primary
+  source:
+    - République du Mali, Direction nationale de l’alphabétisation fonctionnelle et de la linguistique appliquée, Alphabets et règles d’orthographe des langues nationales, Bamako, DNAFLA, 1993
+    - Wikipedia
+  speakers: 740000
+  speakers_date: 2000
+  status: living
   validity: preliminary
 myv:
   name: Erzya
@@ -7201,6 +7774,21 @@ ntm:
   speakers: 66000
   speakers_date: 2001
   validity: preliminary
+nuk:
+  name: Nuuchahnulth
+  orthographies:
+  - autonym: nuučaan̓uɫ
+    base: A C E H I K M N O P Q S T U W X Y a c e h i k m n o p q s t u w x y Č č Ł ł Š š ƛ ʔ ʕ ʷ Ḥ ḥ
+    marks: ◌̌ ◌̓ ◌̣
+    script: Latin
+    status: primary
+  source:
+  - FirstVoices
+  - Wikipedia
+  speakers: 800
+  speakers_date: 2018
+  status: living
+  validity: preliminary
 nus:
   name: Nuer
   orthographies:
@@ -7256,6 +7844,21 @@ nyn:
   speakers_date: 2014
   status: living
   validity: verified
+nza:
+  name: Tigon Mbembe
+  orthographies:
+  - autonym: Mbembe
+    base: A B C D E F G H I J K L M N O P R S T U V W Y Z a b c d e f g h i j k l m n o p r s t u v w y z À Á Â È É Ê Ì Í Î Ò Ó Ô Ù Ú Û à á â è é ê ì í î ò ó ô ù ú û Ě ě Ŋ ŋ Ɔ Ɛ Ǎ ǎ Ǐ ǐ Ǒ ǒ Ǔ ǔ ɑ ɔ ɛ Ɑ
+    marks: ◌̀ ◌́ ◌̂ ◌̌
+    script: Latin
+    status: primary
+  source:
+    - Julius A. Eyoh, Emmanuel S. Echebi, Mbembe Orthography Guide, Cameroon Association for Bible Translation and Literacy (CABTAL), 2009
+    - Wikipedia
+  speakers: 60000
+  speakers_date: 1987-2005
+  status: living
+  validity: preliminary
 nzi:
   name: Nzima
   orthographies:
@@ -7335,6 +7938,19 @@ oji:
   - Wikipedia
   speakers: 100880
   speakers_date: 1990-2010
+  validity: preliminary
+oma:
+  name: Omaha-Ponca
+  orthographies:
+  - autonym: Umaⁿhaⁿ
+    base: A B C D E G H I J K M N O P Q S T U W X Z a b c d e g h i j k m n o p q s t u w x z ʰ ’ ⁿ
+    script: Latin
+    status: primary
+  source:
+  - Omaha & Ponca Digital Dictionary
+  - Wikipedia
+  speakers: 85
+  speakers_date: 2007
   validity: preliminary
 onw:
   name: Old Nubian
@@ -8207,6 +8823,20 @@ saq:
   speakers_date: 2009
   status: living
   validity: draft
+sav:
+  name: Saafi-Saafi
+  orthographies:
+  - autonym: saafi-saafi
+    base: A B C D E F G H I J K L M N O P R S T U W Y a b c d e f g h i j k l m n o p r s t u w y Ñ ñ Ŋ ŋ Ɓ Ɗ Ƴ ƴ ɓ ɗ ’
+    script: Latin
+    status: primary
+  source:
+    - République du Sénégal, Décret no 2005-989 relatif à l’orthographe et la séparation des mots en saafi-saafi, 21 octobre 2005
+    - Wikipedia
+  speakers: 200000
+  speakers_date: 2012
+  status: living
+  validity: preliminary
 sbp:
   name: Sangu (Tanzania)
   orthographies:
@@ -8424,6 +9054,20 @@ shu:
   speakers_date: 2015
   status: living
   validity: draft
+shz:
+  name: Syenara Senoufo
+  orthographies:
+  - autonym: syenara
+    base: A B C D E F G H I J K L M N O P R S T U V W Y Z a b c d e f g h i j k l m n o p r s t u v w y z Ŋ ŋ Ɔ Ɛ Ɲ ɔ ɛ ɲ
+    script: Latin
+    status: primary
+  source:
+    - République du Mali, Direction nationale de l’alphabétisation fonctionnelle et de la linguistique appliquée, Alphabets et règles d’orthographe des langues nationales, Bamako, DNAFLA, 1993
+    - Wikipedia
+  speakers: 210000
+  speakers_date: 1995-2010
+  status: living
+  validity: preliminary
 sin:
   name: Sinhala
   note: There are approximately 3000000 L2 speakers.
@@ -8702,6 +9346,21 @@ snd:
   - Unicode
   speakers: 32000000
   speakers_date: 2017
+  validity: preliminary
+snf:
+  name: Noon
+  orthographies:
+  - autonym: noon
+    base: A B C D E F G H I J K L M N O P R S T U W Y a b c d e f g h i j k l m n o p r s t u w y É Ë Í Ñ Ó Ú é ë í ñ ó ú Ŋ ŋ Ɓ Ɗ Ƴ ƴ ɓ ɗ ʼ
+    marks: ◌́ ◌̈ ◌̃
+    script: Latin
+    status: primary
+  source:
+    - République du Sénégal, Décret no 2005-986 relatif à l’orthographe et la séparation des mots en noon, 21 octobre 2005
+    - Wikipedia
+  speakers: 50000
+  speakers_date: 2007
+  status: living
   validity: preliminary
 snk:
   name: Soninke
@@ -9209,8 +9868,15 @@ teo:
     auxiliary: F Q Z f q z
     base: A B C D E G H I J K L M N O P R S T U V W X Y Ŋ a b c d e g h i j k l m n o p r s t u v w x y ŋ
     script: Latin
+    status: deprecated
+  - autonym: Atɛsɔ
+    auxiliary: Q Z q z
+    base: A B C D E F G H I J K L M N O P R S T U V W Y a b c d e f g h i j k l m n o p r s t u v w y Ɔ Ɛ Ɨ Ʉ ɔ ɛ ɨ ʉ ᵃ ᵉ ᵋ ᵒ ᵓ ᵘ ᶤ ᶶ ⁱ
+    script: Latin
     status: primary
   source:
+  - Atɛsɔ Local Language Board, A Guide to the Standardised Orthography of Atɛsɔ, Kampala, 2014
+  - J.H. Holders, J.C.D. Lawrence, An introduction to the Ateso language, Kampala, Uganda, Eagle Press, 1957, 2nd edition
   - Omniglot
   - Wikipedia
   speakers: 1900000
@@ -9288,6 +9954,20 @@ tha:
   - CLDR
   speakers: 36000000
   speakers_date: 2000
+  validity: preliminary
+thp:
+  name: Thompson
+  orthographies:
+  - autonym: nłeʔkepmxcin
+    auxiliary: A C E H I K L M N P Q S T U W X Y Z Á É Í Ó Ú Ł Ə Ɣ Θ Ḷ Ṣ Ị
+    base: a c e h i k l m n p q s t u w x y z á é í ó ú ł ƛ ə ɣ ʔ ʕ ʷ ́ ̓ ̣ θ ḷ ṣ ị
+    script: Latin
+    status: primary
+  speakers: 600
+  speakers_date: 2018
+  source:
+  - FirstVoices
+  - Wikipedia
   validity: preliminary
 tir:
   name: Tigrinya
@@ -9391,6 +10071,39 @@ tly:
   speakers_date: 2011-2014
   status: living
   validity: verified
+tnr:
+  name: Ménik
+  orthographies:
+  - autonym: ménik
+    base: A B C D E F G H I J K L M N O P R S T U W Y a b c d e f g h i j k l m n o p r s t u w y È É Ë Ñ Ó è é ë ñ ó Ŋ ŋ Ŝ ŝ Ɓ Ɗ Ƴ ƴ ɓ ɗ
+    marks: ◌̀ ◌́ ◌̂ ◌̈ ◌̃
+    script: Latin
+    status: primary
+  source:
+    - République du Sénégal, Décret no 2005-985 relatif à l’orthographe et la séparation des mots en ménik, 21 octobre 2005
+    - Wikipedia
+  speakers: 2500
+  speakers_date: 2015
+  status: living
+  validity: preliminary
+ttq:
+  name: Tawallammat Tamajaq
+  orthographies:
+  - autonym: Tawǝllǝmmǝt
+    auxiliary: ʔ
+    base: A B C D E F G H I J J̌ K L M N O Q R S T U W X Y Z a b c d e f g h i j k l m n o q r s t u w x y z Â Ê Î Ô Û â ê î ô û Ă ă Ŋ ŋ Š š Ǝ Ɣ ǝ Ǧ ǧ ǰ ɣ Ḍ ḍ Ḷ ḷ Ṣ ṣ Ṭ ṭ Ẓ ẓ
+    marks: ◌̂ ◌̆ ◌̌ ◌̣
+    script: Latin
+    status: primary
+  source:
+  - 'Direction Nationale de l’Alphabétisation fonctionnelle et de la Linguistique appliquée (DNAFLA), Alphabets et règles d’orthographe des langues nationales. Bamako: D.N.A.F.L.A. 1993'
+  - Chantal Enguehard, Alphabet tamajaq – arrêté no 214-99 de la République du Niger, 2007
+  - République du Niger, Ministère de l’Éducation nationale, arrêté no 0214/MEN/SPCNRE du 19 octobre 1999 fixant l’orthographe de la langue tamajaq, 1999
+  - Wikipedia
+  speakers: 810000
+  speakers_date: 1998
+  status: living
+  validity: preliminary
 tob:
   name: Toba
   orthographies:
@@ -9402,6 +10115,20 @@ tob:
   source:
   - Omniglot
   - Wikipedia
+  validity: preliminary
+tod:
+  name: Toma
+  orthographies:
+  - autonym: lɔgɔma
+    base: A B D E F G I J K L M N O P S T U V W Y Z a b d e f g i j k l m n o p s t u v w y z Ŋ ŋ Ɓ Ɔ Ɗ Ǝ Ɛ Ɠ Ɲ Ʋ ǝ ɓ ɔ ɗ ɛ ɠ ɲ ʋ
+    script: Latin
+    status: primary
+  source:
+    - Institut de recherches linguistiques appliquées, Le nouvel alphabet des langues guinéennes, Conakry, Institut de recherches linguistiques appliquées, 2015
+    - Wikipedia
+  speakers: 420000
+  speakers_date: 2012
+  status: living
   validity: preliminary
 toi:
   name: Tonga (Zambia)
