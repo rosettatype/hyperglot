@@ -3109,6 +3109,20 @@ dga:
   speakers: 1100000
   speakers_date: 2001-2003
   validity: preliminary
+dgi:
+  name: Northern Dagara
+  orthographies:
+  - base: A B Ɓ C D E Ɛ F G H I Ɩ J K L M N Ŋ O Ɔ P R S T U Ʋ V W Y Ƴ Z a b ɓ c d e ɛ f g h i ɩ j k l m n ŋ o ɔ p r s t u ʋ v w y ƴ z À È Ì Ò Ù Á É Í Ó Ú Ã Ẽ Õ à è ì ò ù á é í ó ú ã ẽ õ
+    marks: ◌̀ ◌́ ◌̃
+    script: Latin
+    status: primary
+  source:
+  - Wikipedia
+  - Joachim D. Somé, Dagara Orthography, in Journal of Dagaare Studies, vol. 4, 2004
+  - https://www.bible.com/versions/3053
+  speakers: 247000
+  speakers_date: 2009
+  validity: preliminary
 dgl:
   name: Andaandi
   orthographies:
