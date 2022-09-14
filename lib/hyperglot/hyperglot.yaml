@@ -4384,6 +4384,20 @@ guu:
   speakers: 20000
   speakers_date: 2000-2006
   validity: draft
+gux:
+  name: Gourmanchéma
+  orthographies:
+  - autonym: gulimancema
+    auxiliary: Q X q x Á É Í Ó Ú À È Ì Ò Ù á é í ó ú à è ì ò ù
+    base: A B C D E F G H I J K L M N Ñ Ŋ O P R S T U V W Y Z a b c d e f g h i j k l m n ñ ŋ o p r s t u v w y z
+    script: Latin
+    status: primary
+  source:
+  - Wikipedia
+  - https://www.webonary.org/gulimancema
+  speakers: 900000
+  speakers_date: 2012
+  validity: preliminary
 guz:
   name: Gusii
   orthographies:
