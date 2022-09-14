@@ -6411,11 +6411,12 @@ lns:
 lob:
   name: Lobi
   orthographies:
-  - base: A B Ɓ C D E Ɛ Ǝ F G H I Ɩ J K L M N O Ɔ P R S T U Ʋ V W Y Ƴ a b ɓ c d e ɛ ǝ f g h i ɩ j k l m n o ɔ p r s t u ʋ v w y ƴ ʼ
+  - base: A B Ɓ C D E Ɛ Ǝ F G H I Ɩ J K L M N O Ɔ P R S T U Ʋ V W Ⱳ Y Ƴ a b ɓ c d e ɛ ǝ f g h i ɩ j k l m n o ɔ p r s t u ʋ v w ⱳ y ƴ ʼ
     script: Latin
     status: primary
   source:
   - Wikipedia
+  - https://www.lobiri.com
   speakers: 440000
   speakers_date: 1991-1993
   validity: preliminary
