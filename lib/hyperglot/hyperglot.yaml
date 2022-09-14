@@ -181,7 +181,7 @@ ace:
   - Omniglot
   - Wikipedia
   speakers: 3500000
-  speakers_data: 2000
+  speakers_date: 2000
   validity: preliminary
 ach:
   name: Acholi
@@ -195,7 +195,7 @@ ach:
   - Omniglot
   - Wikipedia
   speakers: 1500000
-  speakers_data: 2014
+  speakers_date: 2014
   status: living
   validity: preliminary
 acm:
@@ -1845,7 +1845,7 @@ bqc:
   - Wikipedia
   - Centre national de linguistique appliquée (C.E.N.A.L.A.), Alphabet des langues nationales béninoises, 2008, p. 11-12.
   speakers: 150000
-  spearkers_data: 2012
+  speakers_date: 2012
   validity: preliminary
 bre:
   name: Breton
