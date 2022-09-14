@@ -5317,7 +5317,8 @@ kat:
   name: Georgian
   orthographies:
   - autonym: ქართული
-    base: Ა Ბ Გ Დ Ე Ვ Ზ Თ Ი Კ Ლ Მ Ნ Ო Პ Ჟ Რ Ს Ტ Უ Ფ Ქ Ღ Ყ Შ Ჩ Ც Ძ Წ Ჭ Ხ Ჯ Ჰ ა ბ გ დ ე ვ ზ თ ი კ ლ მ ნ ო პ ჟ რ ს ტ უ ფ ქ ღ ყ შ ჩ ც ძ წ ჭ ხ ჯ ჰ
+    base: Ა Ბ Გ Დ Ე Ვ Ზ Თ Ი Კ Ლ Მ Ნ Ო Პ Ჟ Რ Ს Ტ Უ Ფ Ქ Ღ Ყ Შ Ჩ Ც Ძ Წ Ჭ Ხ Ჯ Ჰ Ა Ბ Გ Დ Ე Ვ Ზ Თ Ი Კ Ლ Მ Ნ Ო Პ Ჟ Რ Ს Ტ Უ Ფ Ქ Ღ Ყ Შ Ჩ Ც Ძ Წ Ჭ Ხ Ჯ Ჰ
+    auxiliary: ჱ ჲ ჳ ჴ ჵ ჺ ჼ
     design_requirements:
     - The character set includes Mkhedruli (lowercase letters) and Mtavruli (capital letters, added to Unicode in 2018). It is recommended that font developers supporting contemporary use of the Georgian language include both sets of letters.
     script: Georgian
@@ -5337,7 +5338,59 @@ kat:
   - Wikipedia
   speakers: 3700000
   speakers_date: 2014
-  validity: preliminary
+  validity: verified
+sva:
+  name: Svan
+  orthographies:
+  - autonym: ლუშნუ
+    base: Ა Ბ Გ Დ Ე Ვ Ზ Თ Ი Კ Ლ Მ Ნ Ო Პ Ჟ Რ Ს Ტ Უ Ფ Ქ Ღ Ყ Შ Ჩ Ც Ძ Წ Ჭ Ხ Ჯ Ჰ ა̄ ა̈ ა̄̈ ე̄ ი̄ ო̄ ო̈ ო̄̈ უ̄ უ̈ უ̄̈ ჶ ჱ ჲ ჳ ჳი ჳე ჴ ჸ ჷ
+    marks: ◌̈ ◌̄
+    design_requirements:
+    - The character set includes Georgian Mkhedruli (lowercase letters) and additional letters used in Svan language.
+    script: Georgian
+    status: primary
+  source:
+  - Omniglot
+  - Wikipedia
+  - Ethnologue
+  speakers: 14000
+  speakers_date: 2015
+  validity: verified
+xmf:
+  name: Mingrelian
+  orthographies:
+  - autonym: მარგალური
+    base: Ა Ბ Გ Დ Ე Ვ Ზ Თ Ი Კ Ლ Მ Ნ Ო Პ Ჟ Რ Ს Ტ Უ Ფ Ქ Ღ Ყ Შ Ჩ Ც Ძ Წ Ჭ Ხ Ჯ Ჰ ჲ ჸ ჷ
+    design_requirements:
+    - The character set includes Georgian Mkhedruli (lowercase letters) and additional letters used in Mingrelian language. 
+    script: Georgian
+    status: primary
+  source:
+  - Omniglot
+  - Wikipedia
+  - Ethnologue
+  speakers: 345530
+  speakers_date: 2015
+  status: living
+  validity: verified
+lzz:
+  name: Laz
+  orthographies:
+  - autonym: ლაზური
+    base: Ა Ბ Გ Დ Ე Ვ Ზ Თ Ი Კ Ლ Მ Ნ Ო Პ Ჟ Რ Ს Ტ Უ Ფ Ქ Ღ Ყ Შ Ჩ Ც Ძ Წ Ჭ Ხ Ჯ Ჰ ო̈ ჳ/უ̂ უ̈ ჲ ჶ ჸ ჷ
+    marks: ◌̈ ◌̂
+    design_requirements:
+    - The character set includes Georgian Mkhedruli (lowercase letters) and additional letters used in Laz language.
+    script: Georgian
+    status: primary
+  source:
+  - Omniglot
+  - Wikipedia
+  - Ethnologue
+  speakers: 22000
+  speakers_date: 2007
+  status: living
+  validity: verified
 kau:
   includes:
   - knc
