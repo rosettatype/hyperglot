@@ -6970,6 +6970,23 @@ mcf:
   speakers: 2200
   speakers_date: 2006
   validity: preliminary
+mcn:
+  name: Masana
+  orthographies:
+  - autonym: masana
+    auxiliary: Ḇ Ḏ ḇ ḏ
+    base: A B Ɓ C D Ɗ E F G H Ɦ I J K L M N Ŋ O P R S T U V W Y Z a b c d e f g h ɦ i j k l m n ŋ o p r s t u v w y z
+    marks: ◌̱ ◌̂
+    note: Ḇ Ḏ N̂ ḇ ḏ n̂ were used instead of Ɓ Ɗ Ŋ ɓ ɗ ŋ the before the 2000s.
+    script: Latin
+    status: primary
+  source:
+  - Wikipedia
+  - Unicode proposal: https://www.unicode.org/L2/L2010/10166-chad.pdf
+  - https://www.bible.com/versions/557
+  speakers: 230000
+  speakers_date: 2006
+  validity: preliminary
 mdf:
   name: Moksha
   orthographies:
