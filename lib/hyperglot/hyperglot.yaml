@@ -10026,6 +10026,21 @@ swh:
   speakers_date: 2012
   status: living
   validity: verified
+sxw:
+  name: Saxwe Gbe
+  orthographies:
+  - autonym: saxwɛgbe
+    auxiliary: Q R q r
+    base: A B C D Ɖ E Ɛ F G Ɣ H I J K L M N Ŋ O Ɔ P S T U V W X Y Z a b c d ɖ e ɛ f g ɣ h i j k l m n ŋ o ɔ p s t u v w x y z
+    script: Latin
+    status: primary
+  source:
+  - Wikipedia
+  - https://www.webonary.org/saxwe
+  - https://www.saxwe.net
+  speakers: 170000
+  speakers_date: 2002
+  validity: preliminary
 szl:
   name: Silesian
   orthographies:
