@@ -9360,6 +9360,19 @@ skr:
   speakers: 26000000
   speakers_date: 2017
   validity: preliminary
+sld:
+  name: Sissala
+  orthographies:
+  - autonym: sɩ́saalí
+    base: A B Ɓ C D E Ɛ F G H I Ɩ J K L M N Ŋ O Ɔ P R S T U Ʋ V W Y Z a b ɓ c d e ɛ f g h i ɩ j k l m n ŋ o ɔ p r s t u ʋ v w y z Á É Ɛ́ Í Ɩ́ Ó Ɔ́ Ú Ʋ́ Ã Ẽ Ɛ̃ Ĩ Ɩ̃ Õ Ɔ̃ Ʋ̃ á é ɛ́ í ɩ́ ó ɔ́ ú ʋ́ ã ẽ ɛ̃ ĩ ɩ̃ õ ɔ̃ ʋ̃
+    marks: ◌́ ◌̃
+    script: Latin
+    status: primary
+  source:
+  - Wikipedia
+  speakers: 13000
+  speakers_date: 1991
+  validity: preliminary
 slk:
   name: Slovak
   orthographies:
