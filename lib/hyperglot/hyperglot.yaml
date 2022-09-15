@@ -2703,6 +2703,19 @@ ckt:
   speakers_date: 2010
   status: living
   validity: preliminary
+cme:
+  name: Cerma
+  orthographies:
+  - autonym: cerma
+    base: A B C D E Ɛ F G H I K L M N Ŋ O Ɔ P R S T U V W Y a b c d e ɛ f g h i k l m n ŋ o ɔ p r s t u v w y Ã Ĩ Ũ ã ĩ ũ
+    script: Latin
+    status: primary
+  source:
+  - Wikipedia
+  - https://www.webonary.org/cerma
+  speakers: 63000
+  speakers_date: 1991
+  validity: preliminary
 cmn:
   name: Mandarin Chinese
   note: There are approximately 200000000 L2 speakers.
