@@ -3160,7 +3160,7 @@ dga:
   orthographies:
   - auxiliary: Ɦ ɦ Ŋ ŋ
     base: A B D E Ɛ F G H I J K L M N O Ɔ P R S T U V W Y Z a b d e ɛ f g h i j k l m n o ɔ p r s t u v w y z
-    note: Bureau of Ghana Languages orthography
+    note: Bureau of Ghana Languages orthography. Ɦ and Ŋ are proposed in Bodomo 1997.
     script: Latin
     status: primary
   - base: A B D E Ɛ F G H I J K L M N Ŋ O Ɔ P R S T U V W Y Z a b d e ɛ f g h i j k l m n ŋ o ɔ p r s t u v w y z
@@ -3179,7 +3179,7 @@ dga:
 dgi:
   name: Northern Dagara
   orthographies:
-  - base: A B Ɓ C D E Ɛ F G H I Ɩ J K L M N Ŋ O Ɔ P R S T U Ʋ V W Y Ƴ Z a b ɓ c d e ɛ f g h i ɩ j k l m n ŋ o ɔ p r s t u ʋ v w y ƴ z À È Ì Ò Ù Á É Í Ó Ú Ã Ẽ Õ à è ì ò ù á é í ó ú ã ẽ õ
+  - base: A B Ɓ C D E Ɛ F G H I Ɩ J K L M N Ŋ O Ɔ P R S T U Ʋ V W Y Ƴ Z a b ɓ c d e ɛ f g h i ɩ j k l m n ŋ o ɔ p r s t u ʋ v w y ƴ z À È Ɛ̀ Ì Ò Ɔ̀ Ù Á É Ɛ́ Í Ó Ɔ́ Ú Ã Ẽ Ɛ̃ Õ Ɔ̃ à è ɛ̀ ì ò ɔ̀ ù á é ɛ́ í ó ɔ́ ú ã ẽ ɛ̃ õ ɔ̃
     marks: ◌̀ ◌́ ◌̃
     script: Latin
     status: primary
