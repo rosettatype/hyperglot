@@ -6306,6 +6306,19 @@ lag:
   speakers_date: 2007
   status: living
   validity: preliminary
+lam:
+  name: Lama
+  orthographies:
+  - autonym: lamʋ
+    auxiliary: Ə ə
+    base: A C D Ɖ E Ǝ Ɛ F H I Ɨ Ɩ K KP L M N Ŋ Ñ O Ɔ P R S T U Ʋ W Y a c d ɖ e ǝ ɛ f h i ɨ ɩ k kp l m n ŋ ñ o ɔ p r s t u ʋ w y
+    marks: ◌̃
+  source:
+  - Wikipedia
+  - https://www.webonary.org/lama
+  speakers: 200000
+  speakers_date: 2010
+  validity: preliminary
 lao:
   name: Lao
   orthographies:
