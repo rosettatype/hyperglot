@@ -1649,6 +1649,7 @@ bib:
   - autonym: bɩsa barka
     auxiliary: C J Ʊ c j ʊ
     base: A B D E Ɛ Ə F G H I Ɩ K L M N Ɲ Ŋ O Ɔ P R S T U Ʋ W Y Z a b d e ɛ ə f g h i ɩ k l m n ɲ ŋ o ɔ p r s t u ʋ w y z À à Á á
+    marks: ◌̀ ◌́
     script: Latin
     status: primary
   source:
@@ -1731,7 +1732,7 @@ bjt:
 bkm:
   name: Kom (Cameroon)
   orthographies:
-  - base: A Æ B C D E F G H I Ɨ J ’ K L M N N Ŋ O Œ S T U  V W Y Z a æ b c d e f g h i ɨ j k l m n n ŋ o œ s t u v w y z À Æ̀ È Ì Ɨ̀ Ò Œ̀ Ù Â Æ̂ Ê Î Ɨ̂ Ô Œ̂ Û à æ̀ è ì ɨ̀ ò œ̀ ù â æ̂ ê î ɨ̂ ô œ̂ û
+  - base: A Æ B C D E F G H I Ɨ J ’ K L M N N Ŋ O Œ S T U V W Y Z a æ b c d e f g h i ɨ j k l m n n ŋ o œ s t u v w y z À Æ̀ È Ì Ɨ̀ Ò Œ̀ Ù Â Æ̂ Ê Î Ɨ̂ Ô Œ̂ Û à æ̀ è ì ɨ̀ ò œ̀ ù â æ̂ ê î ɨ̂ ô œ̂ û
     marks: ◌̀ ◌̂
     script: Latin
     status: primary
@@ -2145,6 +2146,7 @@ bwj:
   orthographies:
   - autonym: bũamu laa
     base: A B Ɓ C D E Ɛ F H I K L M N Ɲ O Ɔ P R S T U V W Y Z a b ɓ c d e ɛ f h i k l m n ɲ o ɔ p r s t u v w y z Ɛ̃ Ĩ Ũ ɛ̃ ĩ ũ Ɛ̃̀ Ĩ̀ Ũ̀ ɛ̃̀ ĩ̀ ũ̀ Ɛ̃́ Ĩ́ Ṹ ɛ̃́ ĩ́ ṹ
+    marks: ◌̃ ◌̀ ◌́
     script: Latin
     status: primary
   source:
@@ -2721,6 +2723,7 @@ cme:
   orthographies:
   - autonym: cerma
     base: A B C D E Ɛ F G H I K L M N Ŋ O Ɔ P R S T U V W Y a b c d e ɛ f g h i k l m n ŋ o ɔ p r s t u v w y Ã Ĩ Ũ ã ĩ ũ
+    marks: ◌̃
     script: Latin
     status: primary
   source:
@@ -3371,6 +3374,8 @@ dno:
   - autonym: Ndrǔló
     base: A B D E F G H Ɦ I J K L M N Ŋ O P R S T U V W Y Z a b d e f g h ɦ i j k l m n ŋ o p r s t u v w y z Â Ê Î Ô R̂ Û Á É Í Ó Ŕ Ś Ú À È Ì Ò R̀ S̀ Ù Ǎ Ě Ǐ Ǒ Ř Š Ǔ â ê î ô r̂ û á é í ó ŕ ś ú à è ì ò r̀ s̀ ù ǎ ě ǐ ǒ ř š ǔ
     marks: ◌̀ ◌́ ◌̂ ◌̌
+    script: Latin
+    status: primary
   source:
   - Wikipedia
   - SIL International, Ndrǔló zòwdha ndèymí ddiy ndíydha [= Alphabet ndrǔló], SIL International, 2014
@@ -4549,6 +4554,7 @@ gux:
   - autonym: gulimancema
     auxiliary: Q X q x Á É Í Ó Ú À È Ì Ò Ù á é í ó ú à è ì ò ù
     base: A B C D E F G H I J K L M N Ñ Ŋ O P R S T U V W Y Z a b c d e f g h i j k l m n ñ ŋ o p r s t u v w y z
+    marks: ◌̃ ◌̀ ◌́
     script: Latin
     status: primary
   source:
@@ -6349,6 +6355,7 @@ kus:
   orthographies:
   - autonym: kusaal
     base: A B D E Ɛ F G H I Ɩ K L M N Ŋ O Ɔ P R S T U Ʋ W Y Z ʼ a b d e ɛ f g h i ɩ k l m n ŋ o ɔ p r s t u ʋ w y z Ã Ẽ Ĩ Õ Ũ ã ẽ ĩ õ ũ
+    marks: ◌̃
     note: Ɩ and Ʋ were previously not used in Ghana.
     script: Latin
     status: primary
@@ -6450,6 +6457,8 @@ lam:
     auxiliary: Ə ə
     base: A C D Ɖ E Ǝ Ɛ F H I Ɨ Ɩ K KP L M N Ŋ Ñ O Ɔ P R S T U Ʋ W Y a c d ɖ e ǝ ɛ f h i ɨ ɩ k kp l m n ŋ ñ o ɔ p r s t u ʋ w y
     marks: ◌̃
+    script: Latin
+    status: primary
   source:
   - Wikipedia
   - https://www.webonary.org/lama
@@ -6509,6 +6518,7 @@ lee:
   - base: A B C D E Ə Ɛ F G H I J K L M N Ŋ O Ɔ P R S T U V W Y Z a b c d e ə ɛ f g h i j k l m n ŋ o ɔ p r s t u v w y z À È Ə̀ Ɛ̀ Ì Ǹ Ò Ɔ̀ Ù Á É Ə́ Ɛ́ Í Ń Ó Ɔ́ Ú Ǎ Ě Ə̌ Ɛ̌ Ǐ Ǒ Ɔ̌ Ǔ Â Ê Ə̂ Ɛ̂ Î Ô Ɔ̂ Û Ã Ẽ Ɛ̃ Ĩ Õ Ũ Ã̀ Ẽ̀ Ɛ̃̀ Ĩ̀ Õ̀ Ũ̀ Ã́ Ẽ́ Ɛ̃́ Ĩ́ Ṍ Ṹ Ã̌ Ẽ̌ Ɛ̃̌ Ĩ̌ Õ̌ Ũ̌ à è ə̀ ɛ̀ ì ǹ ò ɔ̀ ù á é ə́ ɛ́ í ń ó ɔ́ ú ǎ ě ə̌ ɛ̌ ǐ ǒ ɔ̌ ǔ â ê ə̂ ɛ̂ î ô ɔ̂ û ã ẽ ɛ̃ ĩ õ ũ ã̀ ẽ̀ ɛ̃̀ ĩ̀ õ̀ ũ̀ ã́ ẽ́ ɛ̃́ ĩ́ ṍ ṹ ã̌ ẽ̌ ɛ̃̌ ĩ̌ õ̌ ũ̌
     marks: ◌́ ◌̀ ◌̂ ◌̃ ◌̌
     note: Hartell 1993 does not include ◌̂.
+    status: primary
   source:
   - Rhonda L. Hartell, Alphabets de langues africaines, 1993, p. 50.
   - https://www.bible.com/versions/1772
@@ -8325,7 +8335,7 @@ ori:
     base: ଅ ଆ ଇ ଈ ଉ ଊ ଋ ଏ ଐ ଓ ଔ କ ଖ ଗ ଘ ଙ ଚ ଛ ଜ ଝ ଞ ଟ ଠ ଡ ଢ ଣ ତ ଥ ଦ ଧ ନ ପ ଫ ବ ଭ ମ ଯ ୟ ର ଲ ଳ ଵ ୱ ଶ ଷ ସ ହ ‌ ‍
     design_requirements:
     - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
-    marks: ◌ଂ ◌ଃ ◌ା ◌ୀ ◌େ ◌ୈ ◌ୋ ◌ୌ ◌଼ ◌ଁ ◌ି ◌ୁ ◌ୂ ◌ୃ୍
+    marks: ◌ଂ ◌ଃ ◌ା ◌ୀ ◌େ ◌଼ ◌ଁ ◌ି ◌ୁ ◌ୂ ◌ୃ ◌୍ ◌ୖ ◌ୗ
     numerals: ୦ ୧ ୨ ୩ ୪ ୫ ୬ ୭ ୮ ୯ 0 1 2 3 4 5 6 7 8 9
     punctuation: ।
     script: Orya
@@ -10399,6 +10409,9 @@ tik:
   - autonym: lɛ̀ꞌ Tikarì
     auxiliary: Q q
     base: A Æ B Ɓ C D Ɗ Ɛ F G H I J K L M N Ŋ O P R S T U V W Y Z Ꞌ a b ɓ c d ɗ ɛ f g h j k l m n ŋ o p r s t u v w y z ꞌ À Æ̀ È Ɛ̀ Ì M̀ Ǹ Ŋ̀ Ò Ù Â Æ̂ Ê Ɛ̂ Î Ô Û Ǎ Æ̌ Ě Ɛ̌ Ǐ Ǒ Ǔ à æ̀ è ɛ̀ ì m̀ ǹ ŋ̀ ò ù â æ̂ ê ɛ̂ î ô û ǎ æ̌ ě ɛ̌ ǐ ǒ ǔ
+    marks: ◌̀ ◌̂ ◌̌
+    script: Latin
+    status: primary
   source:
   - Carol Stanley-Thorne, Ɗèwà ŋkònndi kon ŋgɔꞌ twùmwù = Manuel pour lire et écrire la langue tikar, Yaoundé, SIL, Ministère de la Recherche scientifique et de l’Innovation, 2012.
   - Wikipedia
