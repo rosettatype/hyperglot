@@ -84,7 +84,7 @@ abi:
   orthographies:
   - autonym: ogbru
     auxiliary: Ʊ ʊ ʔ
-    base: A B C D E F G I J K L M N O P R S T U W Y a á â ǎ b c d e é ê ě f g i í î ǐ j k l m n o ó ô ǒ p r s t u ú û ǔ w y Á Â É Ê Í Î Ó Ô Ú Û Ě Ɔ Ɛ Ɩ Ʋ Ǎ Ǐ Ǒ Ǔ ɔ ɛ ɩ ʋ
+    base: A B C D E F G I J K L M N O P R S T U W Y a á â ǎ b c d e é ê ě f g i í î ǐ j k l m n o ó ô ǒ p r s t u ú û ǔ w y Á Â É Ê Í Î Ó Ô Ú Û Ě Ɔ Ɛ Ɩ Ʋ Ǎ Ǐ Ǒ Ǔ ɔ ɛ ɩ ʋ
     marks: ◌́ ◌̂ ◌̌
     script: Latin
     status: primary
@@ -181,7 +181,7 @@ ace:
   - Omniglot
   - Wikipedia
   speakers: 3500000
-  speakers_data: 2000
+  speakers_date: 2000
   validity: preliminary
 ach:
   name: Acholi
@@ -195,7 +195,7 @@ ach:
   - Omniglot
   - Wikipedia
   speakers: 1500000
-  speakers_data: 2014
+  speakers_date: 2014
   status: living
   validity: preliminary
 acm:
@@ -1452,6 +1452,19 @@ bbc:
   speakers_date: 1991
   status: living
   validity: preliminary
+bbo:
+  name: Northern Bobo Madaré
+  orthographies:
+  - autonym: kʋnabɩrɩ
+    base: A B D E Ɛ F G H I Ɩ J K L M N Ɲ Ŋ O Ɔ P R S T U Ʋ V W Y a b d e ɛ f g h i ɩ j k l m n ɲ ŋ o ɔ p r s t u ʋ v w y
+    script: Latin
+    status: primary
+  source:
+  - Wikipedia
+  - https://mooreburkina.com/en/songs-and-music/alphabet-clips-burkina-languages
+  speakers: 181000
+  speakers_date: 2009
+  validity: preliminary
 bci:
   name: Baoulé
   orthographies:
@@ -1484,7 +1497,7 @@ beh:
   orthographies:
   - autonym: Byali
     auxiliary: Ə ə
-    base: A B C D E Ǝ F G H I K L M N O P R S T U W Y Á É Í Ó Ú a b c d e ǝ f g h i k l m n o p r s t u w y á é í ó úa
+    base: A B C D E Ǝ F G H I K L M N O P R S T U W Y Á É Í Ó Ú a b c d e ǝ f g h i k l m n o p r s t u w y á é í ó ú
     marks: ◌́
     script: Latin
     status: primary
@@ -1579,6 +1592,20 @@ bfa:
   speakers: 750000
   speakers_date: 2000-2014
   validity: preliminary
+bfo:
+  name: Malba Birifor
+  orthographies:
+  - autonym: bɩrfʋɔr
+    base: A Ã B Ɓ C D E Ẽ Ɛ Ɛ̃ F G H I Ĩ Ɩ Ɩ̃ J K L M N O Õ Ɔ Ɔ̃ P R S T U Ũ Ʋ Ʋ̃ V W Y Ƴ a ã b ɓ c d e ẽ ɛ ɛ̃ f g h i ĩ ɩ ɩ̃ j k l m n o õ ɔ ɔ̃ p r s t u ũ ʋ ʋ̃ v w y ƴ
+    marks: ◌̃
+    script: Latin
+    status: primary
+  source:
+  - Wikipedia
+  - https://mooreburkina.com/en/songs-and-music/alphabet-clips-burkina-languages
+  speakers: 108000
+  speakers_date: 1993
+  validity: preliminary
 bhh:
   name: Bukharic
   note: The speaker count date is for Israel and Uzbekistan, others are unknown.
@@ -1615,6 +1642,21 @@ bho:
   - Wikipedia
   speakers: 51000000
   speakers_date: 2011
+  validity: preliminary
+bib:
+  name: Bissa
+  orthographies:
+  - autonym: bɩsa barka
+    auxiliary: C J Ʊ c j ʊ
+    base: A B D E Ɛ Ə F G H I Ɩ K L M N Ɲ Ŋ O Ɔ P R S T U Ʋ W Y Z a b d e ɛ ə f g h i ɩ k l m n ɲ ŋ o ɔ p r s t u ʋ w y z À à Á á
+    script: Latin
+    status: primary
+  source:
+  - Wikipedia
+  - https://www.webonary.org/bissa-barka
+  - https://www.bissa-barka.net
+  speakers: 590000
+  speakers_date: 1999-2003
   validity: preliminary
 bik:
   includes:
@@ -1685,6 +1727,19 @@ bjt:
   speakers: 96000
   speakers_date: 2015
   status: living
+  validity: preliminary
+bkm:
+  name: Kom (Cameroon)
+  orthographies:
+  - base: A Æ B C D E F G H I Ɨ J ’ K L M N N Ŋ O Œ S T U  V W Y Z a æ b c d e f g h i ɨ j k l m n n ŋ o œ s t u v w y z À Æ̀ È Ì Ɨ̀ Ò Œ̀ Ù Â Æ̂ Ê Î Ɨ̂ Ô Œ̂ Û à æ̀ è ì ɨ̀ ò œ̀ ù â æ̂ ê î ɨ̂ ô œ̂ û
+    marks: ◌̀ ◌̂
+    script: Latin
+    status: primary
+  source:
+  - Wikipedia
+  - Paul Kawldim Kimbi, Relativization in Kom, Nairobi Evangelical Graduate School of Theology, 2005.
+  speakers: 233000
+  speakers_date: 2005
   validity: preliminary
 blo:
   name: Anii
@@ -1789,6 +1844,20 @@ bos:
   speakers_date: 2008
   status: living
   validity: verified
+box:
+  name: Buamu
+  orthographies:
+  - autonym: buamu
+    base: A B Ɓ C D E Ɛ F H I K L M N Ɲ O Ɔ P R S T U V W Y Z a b ɓ c d e ɛ f h i k l m n ɲ o ɔ p r s t u v w y z Á É Ɛ́ Í Ó Ɔ́ Ú Ń À È Ɛ̀ Ì Ò Ɔ̀ Ù á é ɛ́ í ó ɔ́ ú ń à è ɛ̀ ì ò ɔ̀ ù Ã Ɛ̃ Ĩ Ɔ̃ Ũ ã ɛ̃ ĩ ɔ̃ ũ Ã̀ Ɛ̃̀ Ĩ̀ Ɔ̃̀ Ũ̀ ã̀ ɛ̃̀ ĩ̀ ɔ̃̀ ũ̀ Ã́ Ɛ̃́ Ĩ́ Ɔ̃́ Ṹ ã́ ɛ̃́ ĩ́ ɔ̃́ ṹ
+    marks: ◌̀ ◌́ ◌̃
+    script: Latin
+    status: primary
+  source:
+  - Wikipedia
+  - https://mooreburkina.com/en/songs-and-music/alphabet-clips-burkina-languages
+  speakers: 268000
+  speakers_date: 2009
+  validity: preliminary
 boz:
   name: Tiéyaxo Bozo
   orthographies:
@@ -1830,7 +1899,7 @@ bqc:
   - Wikipedia
   - Centre national de linguistique appliquée (C.E.N.A.L.A.), Alphabet des langues nationales béninoises, 2008, p. 11-12.
   speakers: 150000
-  spearkers_data: 2012
+  speakers_date: 2012
   validity: preliminary
 bre:
   name: Breton
@@ -2071,6 +2140,33 @@ bul:
   speakers_date: 2011
   status: living
   validity: verified
+bwj:
+  name: Láá Láá Bwamu
+  orthographies:
+  - autonym: bũamu laa
+    base: A B Ɓ C D E Ɛ F H I K L M N Ɲ O Ɔ P R S T U V W Y Z a b ɓ c d e ɛ f h i k l m n ɲ o ɔ p r s t u v w y z Ɛ̃ Ĩ Ũ ɛ̃ ĩ ũ Ɛ̃̀ Ĩ̀ Ũ̀ ɛ̃̀ ĩ̀ ũ̀ Ɛ̃́ Ĩ́ Ṹ ɛ̃́ ĩ́ ṹ
+    script: Latin
+    status: primary
+  source:
+  - Wikipedia
+  - https://www.bwamulaa.com
+  - https://mooreburkina.com/en/songs-and-music/alphabet-clips-burkina-languages
+  speakers: 69200
+  speakers_date: 2000
+  validity: preliminary
+bwq:
+  name: Southern Bobo Madaré
+  orthographies:
+  - autonym: bɔbɔ
+    base: A B D E Ɛ F G I K L M N Ɲ O Ɔ P R S T U V W Y Z a b d e ɛ f g i k l m n ɲ o ɔ p r s t u v w y z
+    script: Latin
+    status: primary
+  source:
+  - Wikipedia
+  - https://mooreburkina.com/en/songs-and-music/alphabet-clips-burkina-languages
+  speakers: 60000
+  speakers_date: 1995-2007
+  validity: preliminary
 bxm:
   name: Mongolia Buriat
   orthographies:
@@ -2620,6 +2716,19 @@ ckt:
   speakers_date: 2010
   status: living
   validity: preliminary
+cme:
+  name: Cerma
+  orthographies:
+  - autonym: cerma
+    base: A B C D E Ɛ F G H I K L M N Ŋ O Ɔ P R S T U V W Y a b c d e ɛ f g h i k l m n ŋ o ɔ p r s t u v w y Ã Ĩ Ũ ã ĩ ũ
+    script: Latin
+    status: primary
+  source:
+  - Wikipedia
+  - https://www.webonary.org/cerma
+  speakers: 63000
+  speakers_date: 1991
+  validity: preliminary
 cmn:
   name: Mandarin Chinese
   note: There are approximately 200000000 L2 speakers.
@@ -3062,14 +3171,37 @@ deu:
 dga:
   name: Southern Dagaare
   orthographies:
-  - base: A B D E Ɛ F G H I J K L M N O Ɔ P R S T U V W Y Z a b d e ɛ f g h i j k l m n o ɔ p r s t u v w y z
+  - auxiliary: Ɦ ɦ Ŋ ŋ
+    base: A B D E Ɛ F G H I J K L M N O Ɔ P R S T U V W Y Z a b d e ɛ f g h i j k l m n o ɔ p r s t u v w y z
+    note: Bureau of Ghana Languages orthography. Ɦ and Ŋ are proposed in Bodomo 1997.
     script: Latin
     status: primary
+  - base: A B D E Ɛ F G H I J K L M N Ŋ O Ɔ P R S T U V W Y Z a b d e ɛ f g h i j k l m n ŋ o ɔ p r s t u v w y z
+    marks: ◌̃
+    note: Bible Society of Ghana orthography
+    script: Latin
+    status: secondary
   source:
   - Omniglot
   - Wikipedia
+  - Adams Bodomo, The Structure of Dagaare, CSLI, Stanford University, 1997. ISBN 9781575860770.
+  - https://www.bible.com/versions/2268
   speakers: 1100000
   speakers_date: 2001-2003
+  validity: preliminary
+dgi:
+  name: Northern Dagara
+  orthographies:
+  - base: A B Ɓ C D E Ɛ F G H I Ɩ J K L M N Ŋ O Ɔ P R S T U Ʋ V W Y Ƴ Z a b ɓ c d e ɛ f g h i ɩ j k l m n ŋ o ɔ p r s t u ʋ v w y ƴ z À È Ɛ̀ Ì Ò Ɔ̀ Ù Á É Ɛ́ Í Ó Ɔ́ Ú Ã Ẽ Ɛ̃ Õ Ɔ̃ à è ɛ̀ ì ò ɔ̀ ù á é ɛ́ í ó ɔ́ ú ã ẽ ɛ̃ õ ɔ̃
+    marks: ◌̀ ◌́ ◌̃
+    script: Latin
+    status: primary
+  source:
+  - Wikipedia
+  - Joachim D. Somé, Dagara Orthography, in Journal of Dagaare Studies, vol. 4, 2004
+  - https://www.bible.com/versions/3053
+  speakers: 247000
+  speakers_date: 2009
   validity: preliminary
 dgl:
   name: Andaandi
@@ -3233,6 +3365,18 @@ dng:
   speakers: 110000
   status: living
   validity: preliminary
+dno:
+  name: Ndrulo
+  orthographies:
+  - autonym: Ndrǔló
+    base: A B D E F G H Ɦ I J K L M N Ŋ O P R S T U V W Y Z a b d e f g h ɦ i j k l m n ŋ o p r s t u v w y z Â Ê Î Ô R̂ Û Á É Í Ó Ŕ Ś Ú À È Ì Ò R̀ S̀ Ù Ǎ Ě Ǐ Ǒ Ř Š Ǔ â ê î ô r̂ û á é í ó ŕ ś ú à è ì ò r̀ s̀ ù ǎ ě ǐ ǒ ř š ǔ
+    marks: ◌̀ ◌́ ◌̂ ◌̌
+  source:
+  - Wikipedia
+  - SIL International, Ndrǔló zòwdha ndèymí ddiy ndíydha [= Alphabet ndrǔló], SIL International, 2014
+  speakers: 150000
+  speakers_date: 2018
+  validity: preliminary
 doi:
   includes:
   - dgo
@@ -3304,6 +3448,21 @@ dua:
   speakers_date: 1982
   status: living
   validity: verified
+dya:
+  name: Dyan
+  orthographies:
+  - autonym: jãané
+    auxiliary: Q X q x
+    base: A B Ɓ C D Ɗ E Ɛ F G H I J K L M N Ɲ O Ɔ P R S T U V W Y Z a b ɓ c d ɗ e ɛ f g h i j k l m n ɲ o ɔ p r s t u v w y z Ã Ẽ Ɛ̃ Ĩ Õ Ɔ̃ Ũ ã ẽ ɛ̃ ĩ õ ɔ̃ ũ
+    marks: ◌̃
+    script: Latin
+    status: primary
+  source:
+  - Wikipedia
+  - https://mooreburkina.com/en/songs-and-music/alphabet-clips-burkina-languages
+  speakers: 14100
+  speakers_date: 1991
+  validity: preliminary
 dyo:
   name: Jola-Fonyi
   orthographies:
@@ -4025,7 +4184,7 @@ gah:
     script: Latin
     status: primary
   source:
-  - Ellis W. Deibler, Dictionaries of Alekano-English and English-Alekano, Ukarumpa: Summer Institute of Linguistics, 2008
+  - 'Ellis W. Deibler, Dictionaries of Alekano-English and English-Alekano, Ukarumpa: Summer Institute of Linguistics, 2008'
   - Wikipedia
   speakers: 25000
   speakers_date: 1999
@@ -4356,6 +4515,21 @@ guj:
   speakers: 56000000
   speakers_date: 2011
   validity: preliminary
+gur:
+  name: Farefare
+  orthographies:
+  - autonym: ninkãrɛ
+    base: A B D E Ɛ F G H I Ɩ K L M N Ŋ O Ɔ P R S T U Ʋ V W Y Z Ã Ẽ Ɛ̃ Ĩ Õ Ɔ̃ Ũ a b d e ɛ f g h i ɩ k l m n ŋ o ɔ p r s t u ʋ v w y z ã ẽ ĩ õ ũ
+    marks: ◌̃
+    script: Latin
+    status: primary
+  source:
+  - Wikipedia
+  - https://www.webonary.org/ninkare
+  - https://frafra-ninkare.com
+  speakers: 720000
+  speakers_date: 2003
+  validity: preliminary
 guu:
   name: Yanomamö
   orthographies:
@@ -4369,6 +4543,20 @@ guu:
   speakers: 20000
   speakers_date: 2000-2006
   validity: draft
+gux:
+  name: Gourmanchéma
+  orthographies:
+  - autonym: gulimancema
+    auxiliary: Q X q x Á É Í Ó Ú À È Ì Ò Ù á é í ó ú à è ì ò ù
+    base: A B C D E F G H I J K L M N Ñ Ŋ O P R S T U V W Y Z a b c d e f g h i j k l m n ñ ŋ o p r s t u v w y z
+    script: Latin
+    status: primary
+  source:
+  - Wikipedia
+  - https://www.webonary.org/gulimancema
+  speakers: 900000
+  speakers_date: 2012
+  validity: preliminary
 guz:
   name: Gusii
   orthographies:
@@ -4849,11 +5037,26 @@ idu:
     script: Latin
     status: primary
   source:
-  - R.C. Abraham, Idoma orthography, in Ayo Banjo, Orthographies of Nigerian Languages: Manual III, Lagos, National Language Center, 1985
+  - 'R.C. Abraham, Idoma orthography, in Ayo Banjo, Orthographies of Nigerian Languages: Manual III, Lagos, National Language Center, 1985'
   - Wikipedia
   speakers: 600000
   speakers_date: 1991
   status: living
+  validity: preliminary
+ife:
+  name: Ifè
+  orthographies:
+  - autonym: ifɛ̀
+    auxiliary: C J Q X c j q x
+    base: A B D Ɖ E Ɛ F G H I K L M N Ŋ O Ɔ P R S T U W Y Z a b d ɖ e ɛ f g h i k l m n ŋ o ɔ p r s t u w y z Ã Ɛ̃ Ĩ Ɔ̃ Ũ Ã̀ Ɛ̃̀ Ĩ̀ Ɔ̃̀ Ũ̀ Ã́ Ɛ̃́ Ĩ́ Ɔ̃́ Ṹ ã ɛ̃ ĩ ɔ̃ ũ ã̀ ɛ̃̀ ĩ̀ ɔ̃̀ ũ̀ ã́ ɛ̃́ ĩ́ ɔ̃́ ṹ
+    marks: ◌̀ ◌́ ◌̃
+    script: Latin
+    status: primary
+  source:
+  - Wikipedia
+  - https://www.webonary.org/ife
+  speakers: 170600
+  speakers_date: 2012
   validity: preliminary
 igs:
   name: Interglossa
@@ -6083,6 +6286,21 @@ ksh:
   speakers: 250000
   status: living
   validity: preliminary
+kst:
+  name: Winyé
+  orthographies:
+  - autonym: winɩ́ɛ
+    auxiliary: Q X q x
+    base: A B Ɓ C D E Ɛ F G H I Ɩ J K L M N O Ɔ P R S T U Ʋ V W Y Z a b ɓ c d e ɛ f g h i ɩ j k l m n o ɔ p r s t u ʋ v w y z Ã Ẽ Ɛ̃ Ɩ̃ Ɔ̃ Ʋ̃ Á Ã́ É Ẽ́ Ɛ́ Ɛ̃́ Í Ɩ́ Ɩ̃́ Ó Ɔ̃́ Ú Ʋ́ Ʋ̃́ ã ẽ ɛ̃ ɩ̃ ɔ̃ ʋ̃ á ã́ é ẽ́ ɛ́ ɛ̃́ í ɩ́ ɩ̃́ ó ɔ̃́ ú ʋ́ ʋ̃́
+    marks: ◌́ ◌̃
+    script: Latin
+    status: primary
+  source:
+  - Wikipedia
+  - https://www.winien.com
+  speakers: 20000
+  speakers_date: 1999
+  validity: preliminary
 ktu:
   name: Kituba (Democratic Republic of Congo)
   note: Used in Democratic Republic of Congo
@@ -6125,6 +6343,21 @@ kum:
   speakers: 450000
   speakers_date: 2010
   status: living
+  validity: preliminary
+kus:
+  name: Kusaal
+  orthographies:
+  - autonym: kusaal
+    base: A B D E Ɛ F G H I Ɩ K L M N Ŋ O Ɔ P R S T U Ʋ W Y Z ʼ a b d e ɛ f g h i ɩ k l m n ŋ o ɔ p r s t u ʋ w y z Ã Ẽ Ĩ Õ Ũ ã ẽ ĩ õ ũ
+    note: Ɩ and Ʋ were previously not used in Ghana.
+    script: Latin
+    status: primary
+  source:
+  - Wikipedia
+  - https://www.webonary.org/kusaal-bf
+  - https://www.webonary.org/kusaal-gh
+  speakers: 549000
+  speakers_date: 2004-2013
   validity: preliminary
 kwi:
   name: Awa-Cuaiquer
@@ -6210,6 +6443,19 @@ lag:
   speakers_date: 2007
   status: living
   validity: preliminary
+lam:
+  name: Lama
+  orthographies:
+  - autonym: lamʋ
+    auxiliary: Ə ə
+    base: A C D Ɖ E Ǝ Ɛ F H I Ɨ Ɩ K KP L M N Ŋ Ñ O Ɔ P R S T U Ʋ W Y a c d ɖ e ǝ ɛ f h i ɨ ɩ k kp l m n ŋ ñ o ɔ p r s t u ʋ w y
+    marks: ◌̃
+  source:
+  - Wikipedia
+  - https://www.webonary.org/lama
+  speakers: 200000
+  speakers_date: 2010
+  validity: preliminary
 lao:
   name: Lao
   orthographies:
@@ -6257,6 +6503,19 @@ lbe:
   speakers_date: 2010
   status: living
   validity: verified
+lee:
+  name: Lyele
+  orthographies:
+  - base: A B C D E Ə Ɛ F G H I J K L M N Ŋ O Ɔ P R S T U V W Y Z a b c d e ə ɛ f g h i j k l m n ŋ o ɔ p r s t u v w y z À È Ə̀ Ɛ̀ Ì Ǹ Ò Ɔ̀ Ù Á É Ə́ Ɛ́ Í Ń Ó Ɔ́ Ú Ǎ Ě Ə̌ Ɛ̌ Ǐ Ǒ Ɔ̌ Ǔ Â Ê Ə̂ Ɛ̂ Î Ô Ɔ̂ Û Ã Ẽ Ɛ̃ Ĩ Õ Ũ Ã̀ Ẽ̀ Ɛ̃̀ Ĩ̀ Õ̀ Ũ̀ Ã́ Ẽ́ Ɛ̃́ Ĩ́ Ṍ Ṹ Ã̌ Ẽ̌ Ɛ̃̌ Ĩ̌ Õ̌ Ũ̌ à è ə̀ ɛ̀ ì ǹ ò ɔ̀ ù á é ə́ ɛ́ í ń ó ɔ́ ú ǎ ě ə̌ ɛ̌ ǐ ǒ ɔ̌ ǔ â ê ə̂ ɛ̂ î ô ɔ̂ û ã ẽ ɛ̃ ĩ õ ũ ã̀ ẽ̀ ɛ̃̀ ĩ̀ õ̀ ũ̀ ã́ ẽ́ ɛ̃́ ĩ́ ṍ ṹ ã̌ ẽ̌ ɛ̃̌ ĩ̌ õ̌ ũ̌
+    marks: ◌́ ◌̀ ◌̂ ◌̃ ◌̌
+    note: Hartell 1993 does not include ◌̂.
+  source:
+  - Rhonda L. Hartell, Alphabets de langues africaines, 1993, p. 50.
+  - https://www.bible.com/versions/1772
+  - https://scriptsource.org/cms/scripts/page.php?item_id=language_detail&key=lee
+  speakers: 130000
+  speakers_date: 2001
+  validity: preliminary
 lez:
   name: Lezghian
   orthographies:
@@ -6396,13 +6655,15 @@ lns:
 lob:
   name: Lobi
   orthographies:
-  - base: A B Ɓ C D E Ɛ Ǝ F G H I Ɩ J K L M N O Ɔ P R S T U Ʋ V W Y Ƴ a b ɓ c d e ɛ ǝ f g h i ɩ j k l m n o ɔ p r s t u ʋ v w y ƴ ʼ
+  - autonym: ’lobiire
+    base: A B Ɓ C D E Ɛ Ǝ F G H I Ɩ J K L M N O Ɔ P R S T U Ʋ V W Ⱳ Y Ƴ a b ɓ c d e ɛ ǝ f g h i ɩ j k l m n o ɔ p r s t u ʋ v w ⱳ y ƴ ʼ
     script: Latin
     status: primary
   source:
   - Wikipedia
-  speakers: 440000
-  speakers_date: 1991-1993
+  - https://www.lobiri.com
+  speakers: 490000
+  speakers_date: 2009-2017
   validity: preliminary
 lot:
   name: Otuho
@@ -6737,6 +6998,23 @@ mcf:
   speakers: 2200
   speakers_date: 2006
   validity: preliminary
+mcn:
+  name: Masana
+  orthographies:
+  - autonym: masana
+    auxiliary: Ḇ Ḏ ḇ ḏ
+    base: A B Ɓ C D Ɗ E F G H Ɦ I J K L M N Ŋ O P R S T U V W Y Z a b c d e f g h ɦ i j k l m n ŋ o p r s t u v w y z
+    marks: ◌̱ ◌̂
+    note: Ḇ Ḏ N̂ ḇ ḏ n̂ were used instead of Ɓ Ɗ Ŋ ɓ ɗ ŋ the before the 2000s.
+    script: Latin
+    status: primary
+  source:
+  - Wikipedia
+  - 'Unicode proposal: https://www.unicode.org/L2/L2010/10166-chad.pdf'
+  - https://www.bible.com/versions/557
+  speakers: 230000
+  speakers_date: 2006
+  validity: preliminary
 mdf:
   name: Moksha
   orthographies:
@@ -6817,12 +7095,21 @@ mfe:
 mfq:
   name: Moba
   orthographies:
-  - base: A Ã B C D E Ẽ Ɛ F G H I Ĩ Ɩ J K L M N Ŋ O Õ Ɔ P S T R U V W Y a ã b c d e ẽ ɛ f g h i ĩ ɩ j k l m n ŋ o õ ɔ p s t r u v w y
-    marks: ◌̃
+  - autonym: muaba-benn
+    base: A B C D E Ɛ F G H I J K L M N Ŋ O Ɔ P R S T U W Y a b c d e ɛ f g h i j k l m n ŋ o ɔ p r s t u w y
+    note: Association pour la Traduction, l’Alphabétisation et la Promotion des Écritures en Ben (ATAPEB) orthography, standardized on Ben dialect.
     script: Latin
     status: primary
+  - base: A Ã B C D E Ẽ Ɛ F G H I Ĩ Ɩ J K L M N Ŋ O Õ Ɔ P S T R U V W Y a ã b c d e ẽ ɛ f g h i ĩ ɩ j k l m n ŋ o õ ɔ p s t r u v w y
+    marks: ◌̃
+    note: Peace Corps Togo orthography.
+    script: Latin
+    status: secondary
   source:
   - Wikipedia
+  - Peace Corps Togo, Moba O.P.L. Workbook (Oral Proficiency Learning), Peace Corps Togo, 2010.
+  - https://www.webonary.org/moba
+  - https://www.muaba-benn.com
   speakers: 2200
   speakers_date: 1998-2000
   validity: draft
@@ -7100,12 +7387,14 @@ moh:
 mos:
   name: Mossi
   orthographies:
-  - base: A B D E Ɛ F G H I Ɩ L M N O P R S T U V Ʋ W Y Z a b d e ɛ f g h i ɩ l m n o p r s t u v ʋ w y z '
+  - autonym: moor
+    base: A B D E Ɛ F G H I Ɩ L M N O P R S T U V Ʋ W Y Z a b d e ɛ f g h i ɩ l m n o p r s t u v ʋ w y z '
     script: Latin
     status: primary
   source:
   - Omniglot
   - Wikipedia
+  - https://mooreburkina.com
   speakers: 7830000
   speakers_date: 1009-2013
   validity: preliminary
@@ -7324,12 +7613,16 @@ myk:
   name: Mamara Senoufo
   orthographies:
   - autonym: mamaara
-    base: A B C D E F G H I J K L M N O P R S T U V W X Y Z a b c d e f g h i j k l m n o p r s t u v w x y z Ŋ ŋ Ɔ Ɛ Ɲ ɔ ɛ ɲ
+    auxiliary: Ó Ú ó ú
+    base: A B C D E Ɛ F G H I J K L M N Ɲ Ŋ O P R S T U V W X Y Z a b c d e ɛ f g h i j k l m n ɲ ŋ o ɔ p r s t u v w x y z À È Ì Ò Ù Á É Í à è ì ò ù á é í
+    marks: ◌̀ ◌́
+    note: Tone marks are used in a few words.
     script: Latin
     status: primary
   source:
   - République du Mali, Direction nationale de l’alphabétisation fonctionnelle et de la linguistique appliquée, Alphabets et règles d’orthographe des langues nationales, Bamako, DNAFLA, 1993
   - Wikipedia
+  - https://www.bible.com/versions/1140
   speakers: 740000
   speakers_date: 2000
   status: living
@@ -7629,6 +7922,21 @@ nmg:
   speakers_date: 1982-2012
   status: living
   validity: draft
+nmz:
+  name: Nawdm
+  orthographies:
+  - autonym: nawdm
+    base: A B D E Ɛ F G H Ɦ I J K L M N Ŋ O Ɔ R S T U V W Y a b d e ɛ f g g̈ h ɦ i j k l m n n̈ ŋ ŋ̈ o ɔ r s t u v w y
+    marks: ◌̈
+    note: The combining diaresis ◌̈ is used to distinguish the sequences of two consonants g̈w, g̈b, n̈y, ŋ̈m from the digraphs gw, gb, ny, ŋm.
+    script: Latin
+    status: primary
+  source:
+  - Wikipedia
+  - https://www.webonary.org/nawdm
+  speakers: 150000
+  speakers_date: 2012
+  validity: preliminary
 nnh:
   name: Ngiemboon
   orthographies:
@@ -7644,6 +7952,22 @@ nnh:
   speakers: 250000
   speakers_date: 2000
   status: living
+  validity: preliminary
+nnw:
+  name: Southern Nuni
+  orthographies:
+  - autonym: nʋnɩ
+    auxiliary: Q X q x Ǝ ǝ
+    base: A B C D E Ə Ɛ F G H I Ɩ J K L M N Ŋ O Ɔ P R S T U Ʋ V W Y Z a b c d e ə ɛ f g h i ɩ j k l m n ŋ o ɔ p r s t u ʋ v w y z Á É Ə́ Ɛ́ Í Ó Ɔ́ Ú À È Ə̀ Ɛ̀ Ì Ò Ɔ̀ Ù á é ə́ ɛ́ í ó ɔ́ ú à è ə̀ ɛ̀ ì ò ɔ̀ ù
+    marks: ◌̀ ◌́
+    script: Latin
+    status: primary
+  source:
+  - Wikipedia
+  - https://www.nunisud.com
+  - Rhonda L. Hartell, Alphabets de langues africaines, 1993, p. 52.
+  speakers: 147000
+  speakers_date: 2009
   validity: preliminary
 nog:
   name: Nogai
@@ -8064,6 +8388,28 @@ ote:
   speakers: 130000
   speakers_date: 1990
   validity: preliminary
+ozm:
+  name: Koonzime
+  orthographies:
+  - autonym: kɔ́ɔzime
+    auxiliary: Ɛ ɛ
+    base: A B C D E F G H I Ɨ J K L M N Ŋ O Œ Ø Ɔ P R S T U Ʉ V W Y Z ʼ a b c d e f g h i ɨ j k ʼ l m n ŋ o œ ø ɔ p r s t u ʉ v w y z Á É Í Ɨ́ Ó Œ́ Ǿ Ɔ́ Ú Ʉ́ Â Ê Î Ɨ̂ Ô Œ̂ Ø̂ Ɔ̂ Û Ǎ Ě Ǐ Ɨ̌ Ǒ Œ̌ Ø̌ Ɔ̌ Ǔ Ʉ̌ á é í ɨ́ ó œ́ ǿ ɔ́ ú ʉ́ â ê î ɨ̂ ô œ̂ ø̂ ɔ̂ û ǎ ě ǐ ɨ̌ ǒ œ̌ ø̌ ɔ̌ ǔ ʉ̌
+    marks: ◌̀ ◌́ ◌̂ ◌̌
+    script: Latin
+    status: primary
+  - autonym: badweʼe
+    auxiliary: Ø ø
+    base: A B C D E Ɛ F G H I Ɨ J K L M N Ŋ O Œ Ɔ P R S T U Ʉ V W Y Z ʼ a b c d e ɛ f g h i ɨ j k ʼ l m n ŋ o œ ɔ p r s t u ʉ v w y z Á É Ɛ́ Í Ɨ́ Ó Œ́ Ɔ́ Ú Ʉ́ Â Ê Ɛ̂ Î Ɨ̂ Ô Œ̂ Ɔ̂ Û Ǎ Ě Ɛ̌ Ǐ Ɨ̌ Ǒ Œ̌ Ɔ̌ Ǔ Ʉ̌ á é ɛ́ í ɨ́ ó œ́ ɔ́ ú ʉ́ â ê ɛ̂ î ɨ̂ ô œ̂ ɔ̂ û ǎ ě ɛ̌ ǐ ɨ̌ ǒ œ̌ ɔ̌ ǔ ʉ̌
+    marks: ◌̀ ◌́ ◌̂ ◌̌
+    script: Latin
+    status: primary
+  source:
+  - Wikipedia
+  - https://www.webonary.org/badwe
+  - Keith Beavon and Mary Beavon, Lexique kɔ́ɔnzime-français, Ministère de la Recherche Scientifique et Technique and SIL, Yaoundé, 1996.
+  speakers: 40000
+  speakers_date: 2011
+  validity: preliminary
 pam:
   name: Pampanga
   orthographies:
@@ -8424,6 +8770,21 @@ prs:
   speakers: 12500000
   speakers_date: 2000-2011
   status: living
+  validity: preliminary
+pug:
+  name: Phuie
+  orthographies:
+  - autonym: phuó
+    base: A B Ɓ C D Ɗ E Ɛ F G H I Ɩ J K L M N Ɲ Ŋ O Ɔ P R S T U Ʋ V W Ⱳ Y Ƴ Za b ɓ c d ɗ e ɛ f g h i ɩ j k l m n ɲ ŋ o ɔ p r s t u ʋ v w ⱳ y ƴ z Ã Ẽ Ɛ̃ Ĩ Ɩ̃ Õ Ɔ̃ Ũ Ʋ̃ À È Ɛ̀ Ì Ɩ̀ Ò Ɔ̀ Ù Ʋ̀ Á É Ɛ́ Í Ɩ́ Ó Ɔ́ Ú Ʋ́ Ã̀ Ẽ̀ Ɛ̃̀ Ĩ̀ Ɩ̃̀ Õ̀ Ɔ̃̀ Ũ̀ Ʋ̃̀ Ã́ Ẽ́ Ɛ̃́ Ĩ́ Ɩ̃́ Ṍ Ɔ̃́ Ṹ Ʋ̃́ ã ẽ ɛ̃ ĩ ɩ̃ õ ɔ̃ ũ ʋ̃ à è ɛ̀ ì ɩ̀ ò ɔ̀ ù ʋ̀ á é ɛ́ í ɩ́ ó ɔ́ ú ʋ́ ã̀ ẽ̀ ɛ̃̀ ĩ̀ ɩ̃̀ õ̀ ɔ̃̀ ũ̀ ʋ̃̀ ã́ ẽ́ ɛ̃́ ĩ́ ɩ̃́ ṍ ɔ̃́ ṹ ʋ̃́
+    marks: ◌̀ ◌́ ◌̃
+    script: Latin
+    status: primary
+  source:
+  - Wikipedia
+  - http://www.puguli.com
+  - https://www.webonary.org/phuien
+  speakers: 14000
+  speakers_date: 2000
   validity: preliminary
 quc:
   name: K'iche'
@@ -8857,6 +9218,20 @@ sav:
   speakers_date: 2012
   status: living
   validity: preliminary
+sbd:
+  name: Southern Samo
+  orthographies:
+  - auxiliary: G H J Q Z g h j q z
+    base: A B C D E Ɛ Ə F I K L M N Ŋ O Ɔ P R S T U W Y a b c d e ɛ ə f i k l m n ŋ o ɔ p r s t u w y À È Ɛ̀ Ə̀ Ì Ǹ Ò Ɔ̀ Ù À È Ì Ń Ò Ù Ǎ Ě Ə̌ Ɛ̌ Ǐ Ǒ Ɔ̌ Ǔ Ä Ë Ɛ̈ Ə̈ Ï Ö Ɔ̈ Ü Ã Ĩ Ɔ̃ Ũ à è ɛ̀ ə̀ ì ò ɔ̀ ù á é ɛ́ ə́ í ó ɔ́ ú ǎ ě ɛ̌ ə̌ ǐ ǒ ɔ̌ ǔ ä ë ɛ̈ ə̈ ï ö ɔ̈ ü ã ĩ ɔ̃ ũ
+    marks: ◌̀ ◌́ ◌̌ ◌̈ ◌̃
+    script: Latin
+    status: primary
+  source:
+  - Wikipedia
+  - https://www.webonary.org/san-sud
+  speakers: 85000
+  speakers_date: 1998
+  validity: preliminary
 sbp:
   name: Sangu (Tanzania)
   orthographies:
@@ -9195,6 +9570,19 @@ skr:
   speakers: 26000000
   speakers_date: 2017
   validity: preliminary
+sld:
+  name: Sissala
+  orthographies:
+  - autonym: sɩ́saalí
+    base: A B Ɓ C D E Ɛ F G H I Ɩ J K L M N Ŋ O Ɔ P R S T U Ʋ V W Y Z a b ɓ c d e ɛ f g h i ɩ j k l m n ŋ o ɔ p r s t u ʋ v w y z Á É Ɛ́ Í Ɩ́ Ó Ɔ́ Ú Ʋ́ Ã Ẽ Ɛ̃ Ĩ Ɩ̃ Õ Ɔ̃ Ʋ̃ á é ɛ́ í ɩ́ ó ɔ́ ú ʋ́ ã ẽ ɛ̃ ĩ ɩ̃ õ ɔ̃ ʋ̃
+    marks: ◌́ ◌̃
+    script: Latin
+    status: primary
+  source:
+  - Wikipedia
+  speakers: 13000
+  speakers_date: 1991
+  validity: preliminary
 slk:
   name: Slovak
   orthographies:
@@ -9428,7 +9816,7 @@ sot:
   name: Southern Sotho
   orthographies:
   - autonym: Sesotho
-    base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Á É È Ē Ō Ò Š a b c d e f g h i j k l m n o p q r s t u v w x y z à á é è ē ō ò š
+    base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Á É È Ē Ō Ò Š a b c d e f g h i j k l m n o p q r s t u v w x y z à á é è ē ō ò š
     marks: ◌̀ ◌́ ◌̄ ◌̌
     script: Latin
     status: primary
@@ -9692,6 +10080,21 @@ swh:
   speakers_date: 2012
   status: living
   validity: verified
+sxw:
+  name: Saxwe Gbe
+  orthographies:
+  - autonym: saxwɛgbe
+    auxiliary: Q R q r
+    base: A B C D Ɖ E Ɛ F G Ɣ H I J K L M N Ŋ O Ɔ P S T U V W X Y Z a b c d ɖ e ɛ f g ɣ h i j k l m n ŋ o ɔ p s t u v w x y z
+    script: Latin
+    status: primary
+  source:
+  - Wikipedia
+  - https://www.webonary.org/saxwe
+  - https://www.saxwe.net
+  speakers: 170000
+  speakers_date: 2002
+  validity: preliminary
 szl:
   name: Silesian
   orthographies:
@@ -9989,6 +10392,19 @@ thp:
   - Wikipedia
   speakers: 600
   speakers_date: 2018
+  validity: preliminary
+tik:
+  name: Tikar
+  orthographies:
+  - autonym: lɛ̀ꞌ Tikarì
+    auxiliary: Q q
+    base: A Æ B Ɓ C D Ɗ Ɛ F G H I J K L M N Ŋ O P R S T U V W Y Z Ꞌ a b ɓ c d ɗ ɛ f g h j k l m n ŋ o p r s t u v w y z ꞌ À Æ̀ È Ɛ̀ Ì M̀ Ǹ Ŋ̀ Ò Ù Â Æ̂ Ê Ɛ̂ Î Ô Û Ǎ Æ̌ Ě Ɛ̌ Ǐ Ǒ Ǔ à æ̀ è ɛ̀ ì m̀ ǹ ŋ̀ ò ù â æ̂ ê ɛ̂ î ô û ǎ æ̌ ě ɛ̌ ǐ ǒ ǔ
+  source:
+  - Carol Stanley-Thorne, Ɗèwà ŋkònndi kon ŋgɔꞌ twùmwù = Manuel pour lire et écrire la langue tikar, Yaoundé, SIL, Ministère de la Recherche scientifique et de l’Innovation, 2012.
+  - Wikipedia
+  - https://www.webonary.org/tikar
+  speakers: 110000
+  speakers_date: 2005
   validity: preliminary
 tir:
   name: Tigrinya
@@ -10334,6 +10750,22 @@ tur:
   speakers: 75700000
   speakers_date: 2002-2018
   status: living
+  validity: preliminary
+tuz:
+  name: Turka
+  orthographies:
+  - autonym: curama
+    auxiliary: Ə ə
+    base: A Ǝ B C D E Ɛ F G H I Ɩ J K L M N Ɲ O Ɔ P R S T U V W Y a ǝ b c d e ɛ f g h i ɩ j k l m n ɲ o ɔ p r s t u v w y À Ǝ̀ È Ɛ̀ Ì Ɩ̀ Ǹ Ò Ɔ̀ Ù Á Ǝ́ É Ɛ́ Í Ɩ́ Ń Ó Ɔ́ Ú Ã Ǝ̃ Ɛ̃ Ĩ Õ Ɔ̃ Ũ Ã̀ Ǝ̃̀ Ɛ̃̀ Ĩ̀ Õ̀ Ɔ̃̀ Ũ̀ Ã́ Ǝ̃́ Ɛ̃́ Ĩ́ Ṍ Ɔ̃́ Ṹ à ə̀ ɛ̀ ì ò ɔ̀ ǹ ù á ə́ ɛ́ í ń ó ɔ́ ú ã ǝ̃ ɛ̃ ĩ õ ɔ̃ ũ ã̀ ǝ̃̀ ɛ̃̀ ĩ̀ õ̀ ɔ̃̀ ũ̀ ã́ ǝ̃́ ɛ̃́ ĩ́ ṍ ɔ̃́ ṹ
+    marks: ◌̀ ◌́ ◌̃
+    script: Latin
+    status: primary
+  source:
+  - Wikipedia
+  - Colin Suggett, En avant pour le tchourama! Guide d’orthographe tchourama, Ouagadougou, Société Internationale de Linguistique, 2006.
+  - Colin Suggett and Dot Suggett, Lexique tchourama–français français–tchourama, Ouagadougou, Société Internationale de Linguistique (SIL), 2003.
+  speakers: 37000
+  speakers_date: 1998
   validity: preliminary
 tvl:
   name: Tuvalu
@@ -11091,11 +11523,17 @@ xsm:
   name: Kasem
   orthographies:
   - autonym: kasɩm
+    auxiliary: Ə ə
     base: A Ǝ B C D E Ɛ F G H I Ɩ J K L M N Ŋ O Ɔ P R S T U Ʋ V W Y Z a ǝ b c d e ɛ f g h i ɩ j k l m n ŋ o ɔ p r s t u ʋ v w y z
+    note: The Bureau of Ghana Languages 1976 orthography did not use Ǝ Ɩ Ʋ ǝ ɩ ʋ.
     script: Latin
     status: primary
   source:
   - Wikipedia
+  - 'Language guide : Kasem version, Accra, Bureau of Ghana Languages, 1976. ISBN 9964204515.'
+  - Sous-commission de la langue cerma, Guide d’orthographe Kasɩm, Ouagadougou, SIL, 2005.
+  - https://www.kassena.org
+  - https://www.bible.com/versions/1303
   speakers: 250000
   speakers_date: 1998-2004
   validity: preliminary
