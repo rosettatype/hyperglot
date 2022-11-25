@@ -125,10 +125,10 @@ def intersect_results(*args):
                 if iso not in arg[script].keys():
                     delete_iso.append(iso)
             for d in delete_iso:
-                del(result[script][d])
+                del (result[script][d])
 
         for d in delete_script:
-            del(result[d])
+            del (result[d])
 
     return sorted_script_languages(result)
 
@@ -307,8 +307,8 @@ def cli(fonts, support, decomposed, marks, validity, autonyms, speakers,
                                             key=SORTING[sorting],
                                             reverse=sort_dir.lower() != "asc")
             # Reformat as (ordered) dict with iso:info
-            sorted_entries[script] = OrderedDict(
-                {l.iso: l for l in sorted_entries[script]})
+            by_iso = {lang.iso: lang for lang in sorted_entries[script]}
+            sorted_entries[script] = OrderedDict(by_iso)
 
         results[font] = sorted_entries
 
@@ -391,7 +391,7 @@ def save_sorted(Langs=None, run_validation=True):
                                         "characters left after normalization. "
                                         "Value was: '%s'" %
                                         (attr, iso, o[attr]))
-                            del(o[attr])
+                            del (o[attr])
                             continue
 
                         o[attr] = " ".join(chars)
@@ -430,3 +430,63 @@ def export(output):
 
     file = open(output, "w")
     yaml.dump(Langs, file, **DUMP_ARGS)
+
+
+@click.command()
+@click.argument("search")
+def data(search):
+    """
+    Pass in a 3-letter iso code or language name (search term) to show
+    Hyperglot data for it
+    """
+    print()
+    print(f"Hyperglot data for {search}:")
+
+    search = search.lower().strip()
+
+    hg = Languages(validity=VALIDITYLEVELS[0])
+
+    # Search as 3-letter iso code, return if matched
+    if search in hg.keys():
+        print(f"Matched from iso code {search}:")
+        print()
+        print(getattr(hg, search).presentation)
+        return
+
+    # Search from language names and autonyms
+    # If a single match is a full 1=1 match return that
+    # If a single match is a partial match, return iso and prompt with info
+    # If more than one are found, return a list of isos as prompt
+
+    matches = {}
+    for iso in hg.keys():
+        lang = getattr(hg, iso)
+        name = lang.get_name().lower()
+        aut = lang.get_autonym()
+        autonyms = [] if not aut else [aut.lower()]
+        if "orthographies" in lang:
+            for o in lang["orthographies"]:
+                if "autonym" in o:
+                    autonyms.append(o["autonym"].lower())
+
+        if search == name or search in autonyms:
+            print(f"Matched from name match for {search}:")
+            print()
+            print(lang.presentation)
+            return
+
+        # For now lets not do any fancy input proximity checks, just partials
+        if search in name or (autonyms != [] and len([a for a in autonyms if search in a]) > 0):
+            matches[iso] = lang
+
+    if len(matches) == 1:
+        print(f"Matched for search string {search}")
+        print()
+        print(list(matches.values())[0].presentation)
+        return
+    elif len(matches) > 1:
+        print("Found several languages matching {search}:")
+        print()
+        print("\n".join(["%s: %s" % (iso, lang.get_name()) for iso, lang in matches.items()]))  # noqa
+        print()
+        print("Narrow your search (by iso code) for one of these results.")

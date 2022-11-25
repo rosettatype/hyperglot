@@ -134,7 +134,7 @@ class Languages(dict):
         logging.debug("Inherit orthography from '%s' to '%s'" % (source_iso,
                                                                  iso))
 
-        ref = Language(self[source_iso], source_iso)
+        ref = getattr(self, source_iso)
         if "script" in extend:
             ort = ref.get_orthography(extend["script"])
         else:

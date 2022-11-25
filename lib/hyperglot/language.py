@@ -41,11 +41,35 @@ class Language(dict):
 
         # A default for unset speakers, to allow sorting
         self["speakers"] = 0
-        
+
         self.update(data)
 
     def __repr__(self):
         return "Language object '%s'" % self.get_name()
+
+    @property
+    def presentation(self):
+        tpl = """name: {name}
+autonym: {autonym}
+iso: {iso}
+orthographies: 
+{orthographies}
+speakers: {speakers}
+status: {status}
+validity: {validity}
+"""
+        import textwrap
+        orths = "\n\n".join(
+            [textwrap.indent(Orthography(o).presentation, "\t")
+                for o in self["orthographies"]])
+
+        return tpl.format(name=self.get_name(),
+                          autonym=self.get_autonym(),
+                          iso=self.iso,
+                          orthographies=orths,
+                          speakers="" if not "speakers" in self else self["speakers"],
+                          status="" if not "status" in self else self["status"],
+                          validity="" if not "validity" in self else self["validity"])
 
     def get_orthography(self, script=None, status=None):
         """
@@ -353,6 +377,25 @@ class Orthography(dict):
 
     def __init__(self, data):
         self.update(data)
+
+    @property
+    def presentation(self):
+        tpl = """autonym: {autonym}
+base characters: {base_chars}
+base marks: {base_marks}
+auxiliary characters: {aux_chars}
+auxiliary marks: {aux_marks}
+script: {script}
+status: {status}
+note: {note}"""
+        return tpl.format(autonym=self["autonym"],
+                          base_chars=" ".join(self.base_chars),
+                          base_marks=" ".join(self.base_marks),
+                          aux_chars=" ".join(self.auxiliary_chars),
+                          aux_marks=" ".join(self.auxiliary_marks),
+                          script="" if "script" not in self else self["script"],
+                          status="" if "status" not in self else self["status"],
+                          note="" if "note" not in self else self["note"])
 
     @property
     def script(self):

@@ -1,6 +1,7 @@
 # A changelog for the lib/hyperglot CLI tool
 
 ## 0.4.2 (25.11.2022)
+- FEATURE: Implemented `hyperglot-data` CLI command to search and display language information returned by Hyperglot
 - FEATURE: Implemented more convenient language access via attributes on hyperglot.languages.Languages, e.g. Languages().eng to access a hyperglot.language.Language object for "eng"
 - DATA: Fix in Standard Malay encoding of `'` (thanks M. Mahali Syarifuddin and Caleb Maclennan)
 - DATA: Added *numerous* Burkina Faso and other African languages (another huge thanks to @moyogo !)
