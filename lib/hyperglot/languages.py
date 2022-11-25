@@ -43,6 +43,18 @@ class Languages(dict):
     def __repr__(self):
         return "Languages DB dict with '%d' languages" % len(self.keys())
 
+    def __getattribute__(self, iso: str) -> Language:
+        """
+        A convenience getter returning initialized hyperglot.language.Language
+        objects when their iso is used as key on this Languages.
+        Where self["xxx"] returns the _raw yaml data_ self.xxx will return the
+        more usable Language object
+        """
+        if iso != "keys" and iso in self.keys():
+            return Language(self[iso], iso)
+
+        return super().__getattribute__(iso)
+
     def set_defaults(self):
         """
         There are some implicit defaults we set if they are not in the data
@@ -246,7 +258,7 @@ class Languages(dict):
         support = {}
 
         for lang in self:
-            l = Language(self[lang], lang)  # noqa, let's keep l short
+            l = getattr(self, lang)  # noqa, let's keep l short
 
             if "validity" not in l:
                 log.info("Skipping langauge '%s' which is missing "
