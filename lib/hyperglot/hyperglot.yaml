@@ -1516,7 +1516,7 @@ bel:
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё І Ў а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё і ў ’
     design_alternates: ◌̆
     design_requirements:
-    - The form of the Cyrillic breve mark (marked in the previews) differs from the Latin-script breve that is asociated with the same Unicode codepoint.
+    - The form of the Cyrillic breve mark (marked in the previews) differs from the Latin-script breve that is associated with the same Unicode codepoint.
     marks: ◌̆ ◌̈
     script: Cyrillic
     status: primary
@@ -1824,7 +1824,7 @@ bos:
     base: А Б В Г Д Е Ж З И К Л М Н О П Р С Т У Ф Х Ц Ч Ш Ђ Ј Љ Њ Ћ Џ а б в г д е ж з и к л м н о п р с т у ф х ц ч ш ђ ј љ њ ћ џ
     design_alternates: б ◌̆
     design_requirements:
-    - The form of the Cyrillic breve mark (marked in the previews) differs from the Latin-script breve that is asociated with the same Unicode codepoint.
+    - The form of the Cyrillic breve mark (marked in the previews) differs from the Latin-script breve that is associated with the same Unicode codepoint.
     - Correct positioning of an acute mark above vowel characters may be required.
     - In italic, some characters (marked in the previews) use a form that differs from the defaults associated with the Unicode codepoints (typically the Russian form of Cyrillic).
     script: Cyrillic
@@ -2127,7 +2127,7 @@ bul:
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ь Ю Я Ѐ Ѝ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ь ю я ѐ ѝ
     design_alternates: Л Ѝ в г д ж з и й ѝ к л п т ц ш щ ю ◌̆
     design_requirements:
-    - The form of the Cyrillic breve mark (marked in the previews) differs from the Latin-script breve that is asociated with the same Unicode codepoint.
+    - The form of the Cyrillic breve mark (marked in the previews) differs from the Latin-script breve that is associated with the same Unicode codepoint.
     - Correct positioning of a grave mark above vowel characters may be required.
     - Some characters (marked in the previews) use a form that differs from the defaults associated with the Unicode codepoints (typically the Russian form of Cyrillic).
     marks: ◌̀ ◌̆
@@ -5526,7 +5526,8 @@ kat:
   name: Georgian
   orthographies:
   - autonym: ქართული
-    base: Ა Ბ Გ Დ Ე Ვ Ზ Თ Ი Კ Ლ Მ Ნ Ო Პ Ჟ Რ Ს Ტ Უ Ფ Ქ Ღ Ყ Შ Ჩ Ც Ძ Წ Ჭ Ხ Ჯ Ჰ ა ბ გ დ ე ვ ზ თ ი კ ლ მ ნ ო პ ჟ რ ს ტ უ ფ ქ ღ ყ შ ჩ ც ძ წ ჭ ხ ჯ ჰ
+    auxiliary: ჱ ჲ ჳ ჴ ჵ ჺ ჼ
+    base: Ა Ბ Გ Დ Ე Ვ Ზ Თ Ი Კ Ლ Მ Ნ Ო Პ Ჟ Რ Ს Ტ Უ Ფ Ქ Ღ Ყ Შ Ჩ Ც Ძ Წ Ჭ Ხ Ჯ Ჰ Ა Ბ Გ Დ Ე Ვ Ზ Თ Ი Კ Ლ Მ Ნ Ო Პ Ჟ Რ Ს Ტ Უ Ფ Ქ Ღ Ყ Შ Ჩ Ც Ძ Წ Ჭ Ხ Ჯ Ჰ
     design_requirements:
     - The character set includes Mkhedruli (lowercase letters) and Mtavruli (capital letters, added to Unicode in 2018). It is recommended that font developers supporting contemporary use of the Georgian language include both sets of letters.
     script: Georgian
@@ -5546,7 +5547,7 @@ kat:
   - Wikipedia
   speakers: 3700000
   speakers_date: 2014
-  validity: preliminary
+  validity: verified
 kau:
   includes:
   - knc
@@ -6825,6 +6826,24 @@ lvs:
   speakers_date: 2015
   status: living
   validity: preliminary
+lzz:
+  name: Laz
+  orthographies:
+  - autonym: ლაზური
+    base: Ა Ბ Გ Დ Ე Ვ Ზ Თ Ი Კ Ლ Მ Ნ Ო Პ Ჟ Რ Ს Ტ Უ Ფ Ქ Ღ Ყ Შ Ჩ Ც Ძ Წ Ჭ Ხ Ჯ Ჰ ო̈ ჳ/უ̂ უ̈ ჲ ჶ ჸ ჷ
+    design_requirements:
+    - The character set includes Georgian Mkhedruli (lowercase letters) and additional letters used in Laz language.
+    marks: ◌̈ ◌̂
+    script: Georgian
+    status: primary
+  source:
+  - Omniglot
+  - Wikipedia
+  - Ethnologue
+  speakers: 22000
+  speakers_date: 2007
+  status: living
+  validity: verified
 mad:
   name: Madurese
   orthographies:
@@ -7234,7 +7253,7 @@ mkd:
     design_alternates: б ◌̆
     design_requirements:
     - Correct positioning of acute and grave marks above some characters may be required.
-    - The form of the Cyrillic breve mark (marked in the previews) differs from the Latin-script breve that is asociated with the same Unicode codepoint.
+    - The form of the Cyrillic breve mark (marked in the previews) differs from the Latin-script breve that is associated with the same Unicode codepoint.
     - In italic, some characters (marked in the previews) use a form that differs from the defaults associated with the Unicode codepoints (typically the Russian form of Cyrillic).
     marks: ◌́ ◌̀
     script: Cyrillic
@@ -9029,7 +9048,7 @@ rue:
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ь Э Ю Я Ё Є І Ї Ґ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ь э ю я ё є і ї ґ
     design_alternates: ◌̆
     design_requirements:
-    - The form of the Cyrillic breve mark (marked in the previews) differs from the Latin-script breve that is asociated with the same Unicode codepoint.
+    - The form of the Cyrillic breve mark (marked in the previews) differs from the Latin-script breve that is associated with the same Unicode codepoint.
     marks: ◌̆ ◌̈
     script: Cyrillic
     status: primary
@@ -9109,7 +9128,7 @@ rus:
     design_alternates: ◌̆
     design_requirements:
     - Correct positioning of an acute mark above vowel characters may be required.
-    - The form of the Cyrillic breve mark (marked in the previews) differs from the Latin-script breve that is asociated with the same Unicode codepoint.
+    - The form of the Cyrillic breve mark (marked in the previews) differs from the Latin-script breve that is associated with the same Unicode codepoint.
     marks: ◌̆ ◌̈ ◌́
     script: Cyrillic
     status: primary
@@ -9925,7 +9944,7 @@ srp:
     design_alternates: б ◌̆
     design_requirements:
     - Correct positioning of an acute mark above vowel characters may be required.
-    - The form of the Cyrillic breve mark (marked in the previews) differs from the Latin-script breve that is asociated with the same Unicode codepoint. - In italic, some characters (marked in the previews) use a form that differs from the defaults associated with the Unicode codepoints (typically the Russian form of Cyrillic).
+    - The form of the Cyrillic breve mark (marked in the previews) differs from the Latin-script breve that is associated with the same Unicode codepoint. - In italic, some characters (marked in the previews) use a form that differs from the defaults associated with the Unicode codepoints (typically the Russian form of Cyrillic).
     marks: ◌́
     preferred_as_group: true
     script: Cyrillic
@@ -10027,6 +10046,23 @@ sus:
   speakers: 1060000
   speakers_date: 2001-2006
   validity: preliminary
+sva:
+  name: Svan
+  orthographies:
+  - autonym: ლუშნუ
+    base: Ა Ბ Გ Დ Ე Ვ Ზ Თ Ი Კ Ლ Მ Ნ Ო Პ Ჟ Რ Ს Ტ Უ Ფ Ქ Ღ Ყ Შ Ჩ Ც Ძ Წ Ჭ Ხ Ჯ Ჰ ა̄ ა̈ ა̄̈ ე̄ ი̄ ო̄ ო̈ ო̄̈ უ̄ უ̈ უ̄̈ ჶ ჱ ჲ ჳ ჳი ჳე ჴ ჸ ჷ
+    design_requirements:
+    - The character set includes Georgian Mkhedruli (lowercase letters) and additional letters used in Svan language.
+    marks: ◌̈ ◌̄
+    script: Georgian
+    status: primary
+  source:
+  - Omniglot
+  - Wikipedia
+  - Ethnologue
+  speakers: 14000
+  speakers_date: 2015
+  validity: verified
 swb:
   name: Maore Comorian
   orthographies:
@@ -10948,7 +10984,7 @@ ukr:
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ь Э Ю Я Є І Ї Ґ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ь э ю я є і ї ґ ’
     design_alternates: ◌̆
     design_requirements:
-    - The form of the Cyrillic breve mark (marked in the previews) differs from the Latin-script breve that is asociated with the same Unicode codepoint.
+    - The form of the Cyrillic breve mark (marked in the previews) differs from the Latin-script breve that is associated with the same Unicode codepoint.
     marks: ◌̆ ◌̈ ◌́
     script: Cyrillic
     status: primary
@@ -11473,6 +11509,23 @@ xho:
   speakers_date: 2011
   status: living
   validity: preliminary
+xmf:
+  name: Mingrelian
+  orthographies:
+  - autonym: მარგალური
+    base: Ა Ბ Გ Დ Ე Ვ Ზ Თ Ი Კ Ლ Მ Ნ Ო Პ Ჟ Რ Ს Ტ Უ Ფ Ქ Ღ Ყ Შ Ჩ Ც Ძ Წ Ჭ Ხ Ჯ Ჰ ჲ ჸ ჷ
+    design_requirements:
+    - The character set includes Georgian Mkhedruli (lowercase letters) and additional letters used in Mingrelian language.
+    script: Georgian
+    status: primary
+  source:
+  - Omniglot
+  - Wikipedia
+  - Ethnologue
+  speakers: 345530
+  speakers_date: 2015
+  status: living
+  validity: verified
 xnr:
   name: Kangri
   orthographies:

@@ -6,6 +6,7 @@
 - DATA: Fix in Standard Malay encoding of `'` (thanks M. Mahali Syarifuddin and Caleb Maclennan)
 - DATA: Added *numerous* Burkina Faso and other African languages (another huge thanks to @moyogo !)
 - DATA: Added Oriya
+- DATA: Added Kartvelian languages (kat, sva, xmf, lzz) (thanks Ana)
 
 ## 0.4.1 (18.08.2022)
 - DATA: Dozens of African and North-American languages added and refined (thanks @moyogo !)
