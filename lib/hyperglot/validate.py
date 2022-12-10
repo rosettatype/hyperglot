@@ -61,6 +61,9 @@ def check_types(Langs):
                 log.error("'%s' has invalid list 'orthographies'" % iso)
 
             for o in lang["orthographies"]:
+                if "script" not in o:
+                    log.error("Orthography in '%s' is missing 'script'" % iso)
+
                 if "base" in o:
                     if not check_is_valid_glyph_string(o["base"], iso):
                         log.error("'%s' has invalid 'base' glyph list: '%s'"

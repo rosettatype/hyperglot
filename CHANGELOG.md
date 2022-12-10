@@ -1,5 +1,9 @@
 # A changelog for the lib/hyperglot CLI tool
 
+## 0.4.3 (10.12.2022)
+- FIX: Fixed missing script attribute in 'lee' orthography
+- FIX: Fixed typo in 'Oriya' script name
+
 ## 0.4.2 (25.11.2022)
 - FEATURE: Implemented `hyperglot-data` CLI command to search and display language information returned by Hyperglot
 - FEATURE: Implemented more convenient language access via attributes on hyperglot.languages.Languages, e.g. Languages().eng to access a hyperglot.language.Language object for "eng"
