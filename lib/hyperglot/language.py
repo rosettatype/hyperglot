@@ -52,7 +52,7 @@ class Language(dict):
         tpl = """name: {name}
 autonym: {autonym}
 iso: {iso}
-orthographies: 
+orthographies:
 {orthographies}
 speakers: {speakers}
 status: {status}
@@ -67,9 +67,9 @@ validity: {validity}
                           autonym=self.get_autonym(),
                           iso=self.iso,
                           orthographies=orths,
-                          speakers="" if not "speakers" in self else self["speakers"],
-                          status="" if not "status" in self else self["status"],
-                          validity="" if not "validity" in self else self["validity"])
+                          speakers="" if not "speakers" in self else self["speakers"],  # noqa
+                          status="" if not "status" in self else self["status"],  # noqa
+                          validity="" if not "validity" in self else self["validity"])  # noqa
 
     def get_orthography(self, script=None, status=None):
         """
@@ -330,7 +330,7 @@ validity: {validity}
 
                 if not supported:
                     log.debug("Missing from base language %s: %s" %
-                              (self.iso, " ".join(base.difference(chars))))
+                              (self.iso, " ".join(["%s (%s)" % (c, str(ord(c))) for c in base.difference(chars)])))
 
                 if supported:
                     # Only check aux if base is supported to begin with
@@ -393,8 +393,8 @@ note: {note}"""
                           base_marks=" ".join(self.base_marks),
                           aux_chars=" ".join(self.auxiliary_chars),
                           aux_marks=" ".join(self.auxiliary_marks),
-                          script="" if "script" not in self else self["script"],
-                          status="" if "status" not in self else self["status"],
+                          script="" if "script" not in self else self["script"],  # noqa
+                          status="" if "status" not in self else self["status"],  # noqa
                           note="" if "note" not in self else self["note"])
 
     @property

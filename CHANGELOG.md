@@ -1,5 +1,8 @@
 # A changelog for the lib/hyperglot CLI tool
 
+## 0.4.4 (10.12.2022)
+- FIX: Fixed orthography of Thai to not require `◌̍ ◌̎` in base checks
+
 ## 0.4.3 (10.12.2022)
 - FIX: Fixed missing script attribute in 'lee' orthography
 - FIX: Fixed typo in 'Oriya' script name

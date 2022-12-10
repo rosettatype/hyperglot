@@ -2,7 +2,7 @@
 Gather a few package wide constants
 """
 from os import path
-__version__ = "0.4.3"
+__version__ = "0.4.4"
 
 DB = path.abspath(path.join(path.dirname(__file__), "hyperglot.yaml"))
 
@@ -10,6 +10,7 @@ SUPPORTLEVELS = {
     "base": "base",
     "aux": "auxiliary"
 }
+
 
 # Note that order matters, since these may be used like a logging level
 VALIDITYLEVELS = [
