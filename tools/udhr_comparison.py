@@ -3,7 +3,7 @@ This is a helper script to compare all available translations of the Universal
 Declaration of Human Rights with our database to detect discrepacies between
 listed and actually used charsets.
 
-To locally install the required UDHR data run:
+To locally download the required UDHR data run:
 
 git clone https://github.com/unicode-org/udhr.git tools/udhr
 """
@@ -124,9 +124,9 @@ def get_stats_from_chars(text_chars, db=None):
         if "orthographies" in db:
             for o in db["orthographies"]:
                 if "base" in o:
-                    db_chars = db_chars + o["base"]
+                    db_chars = db_chars + parse_chars(o["base"])
                 if "auxiliary" in o:
-                    db_chars = db_chars + o["auxiliary"]
+                    db_chars = db_chars + parse_chars(o["auxiliary"])
 
         db_chars = set(sorted(db_chars))
 

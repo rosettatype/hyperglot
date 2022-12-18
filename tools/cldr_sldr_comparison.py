@@ -9,6 +9,14 @@ ignored by this git repository, but needed to run a new comparison):
 - tools/sldr
 - tools/cldr
 
+To locally download the required SLDR data run:
+
+git clone https://github.com/silnrsi/sldr tools/sldr
+
+To locally download the required CLDR data run:
+
+git clone https://github.com/unicode-org/cldr
+
 Run this script in the terminal.
 """
 import os
