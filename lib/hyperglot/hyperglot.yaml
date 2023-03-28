@@ -188,6 +188,8 @@ ach:
   orthographies:
   - autonym: Acoli
     base: A B C D E G I J K L M N Ŋ O P R T U W Y a b c d e g i j k l m n ŋ o p r t u w y
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     script: Latin
     status: primary
   source:
@@ -315,6 +317,8 @@ ade:
   orthographies:
   - autonym: Gɩdɩrɛ
     base: A B D E F G H I K L M N O P R S T U W Y a b d e f g h i k l m n o p r s t u w y Ŋ ŋ Ɔ Ɛ Ɩ Ʋ ɔ ɛ ɩ ʋ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     script: Latin
     status: primary
   source:
@@ -422,6 +426,8 @@ agq:
   - autonym: Wum
     auxiliary: Q R X q r x
     base: A B C D E F G H I K L M N O P S T U V W Y Z À Â È Ê Ì Î Ò Ô Ù Û Ā Ē Ě Ī Ŋ Ō Ū Ǎ Ǐ Ǒ Ǔ Ɔ Ɛ Ɨ Ʉ a b c d e f g h i k l m n o p s t u v w y z à â è ê ì î ò ô ù û ā ē ě ī ŋ ō ū ǎ ǐ ǒ ǔ ɔ ɛ ɨ ʉ ʔ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌̀ ◌̂ ◌̄ ◌̌
     script: Latin
     status: primary
@@ -551,6 +557,8 @@ ajg:
   orthographies:
   - autonym: Adja
     base: A B C D E F G H I J K L M N O P R S T U V W X Y Z a b c d e f g h i j k l m n o p r s t u v w x y z À Á È É Ì Í Ò Ó Ù Ú à á è é ì í ò ó ù ú Ŋ ŋ Ɔ Ɖ Ɛ Ɣ Ʒ ɔ ɖ ɛ ɣ ʒ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌̀ ◌́
     script: Latin
     status: primary
@@ -1134,6 +1142,8 @@ avn:
   orthographies:
   - autonym: Sia
     base: A B D E F G H I K L M N O P R S T U V W X Y Z a b d e f g h i k l m n o p r s t u v w x y z Ŋ ŋ Ɔ Ɖ Ɛ Ƒ ƒ Ʋ ɔ ɖ ɛ ʋ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     script: Latin
     status: primary
   source:
@@ -1323,6 +1333,8 @@ azo:
   orthographies:
   - autonym: awing
     base: A B C D E F G H I J K L M N O P S T U W Y Z a b c d e f g h i j k l m n o p s t u w y z Á Â É Ê Í Î Ó Ô Ú Û á â é ê í î ó ô ú û Ě ě Ŋ ŋ Ɔ Ə Ɛ Ɨ Ǎ ǎ Ǐ ǐ Ǒ ǒ Ǔ ǔ ɔ ə ɛ ɨ ʼ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌́ ◌̂ ◌̌
     script: Latin
     status: primary
@@ -1382,6 +1394,8 @@ bam:
   - autonym: Bamanankan
     auxiliary: Q V X q v x
     base: A B C D E F G H I J K L M N O P R S T U W Y Z Ŋ Ɔ Ɛ Ɲ a b c d e f g h i j k l m n o p r s t u w y z ŋ ɔ ɛ ɲ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     script: Latin
     status: primary
   source:
@@ -1424,6 +1438,8 @@ bas:
   - autonym: Basaa
     auxiliary: Q X q x
     base: A B C D E F G H I J K L M N O P R S T U V W Y Z À Á Â È É Ê Ì Í Î Ò Ó Ô Ù Ú Û Ā Ē Ě Ī Ń Ŋ Ō Ū Ǎ Ǐ Ǒ Ǔ Ǹ Ɓ Ɔ Ɛ a b c d e f g h i j k l m n o p r s t u v w y z à á â è é ê ì í î ò ó ô ù ú û ā ē ě ī ń ŋ ō ū ǎ ǐ ǒ ǔ ǹ ɓ ɔ ɛ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌̀ ◌́ ◌̂ ◌̄ ◌̌ ◌᷆ ◌᷇
     script: Latin
     status: primary
@@ -1490,6 +1506,8 @@ bbo:
   orthographies:
   - autonym: kʋnabɩrɩ
     base: A B D E Ɛ F G H I Ɩ J K L M N Ɲ Ŋ O Ɔ P R S T U Ʋ V W Y a b d e ɛ f g h i ɩ j k l m n ɲ ŋ o ɔ p r s t u ʋ v w y
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     script: Latin
     status: primary
   source:
@@ -1616,6 +1634,8 @@ bfa:
   name: Bari
   orthographies:
   - base: A B D E G I J K L M N O P R S T U W Y Ŋ Ö a b d e g i j k l m n o p r s t u w y ŋ ö '
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌̈
     script: Latin
     status: primary
@@ -1682,6 +1702,8 @@ bib:
   - autonym: bɩsa barka
     auxiliary: C J Ʊ c j ʊ
     base: A B D E Ɛ Ə F G H I Ɩ K L M N Ɲ Ŋ O Ɔ P R S T U Ʋ W Y Z a b d e ɛ ə f g h i ɩ k l m n ɲ ŋ o ɔ p r s t u ʋ w y z À à Á á
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌̀ ◌́
     script: Latin
     status: primary
@@ -1752,6 +1774,8 @@ bjt:
   orthographies:
   - autonym: balant
     base: A B D E F G H I J L M N O R S T U W Y a b d e f g h i j l m n o r s t u w y Ñ ñ Ŋ ŋ Ŧ ŧ Ɓ ɓ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌̃
     script: Latin
     status: primary
@@ -1766,6 +1790,8 @@ bkm:
   name: Kom (Cameroon)
   orthographies:
   - base: A Æ B C D E F G H I Ɨ J ’ K L M N N Ŋ O Œ S T U V W Y Z a æ b c d e f g h i ɨ j k l m n n ŋ o œ s t u v w y z À Æ̀ È Ì Ɨ̀ Ò Œ̀ Ù Â Æ̂ Ê Î Ɨ̂ Ô Œ̂ Û à æ̀ è ì ɨ̀ ò œ̀ ù â æ̂ ê î ɨ̂ ô œ̂ û
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌̀ ◌̂
     script: Latin
     status: primary
@@ -1780,6 +1806,8 @@ blo:
   orthographies:
   - autonym: anii
     base: A B C E F G H I J K L M N O P R S T U W Y a b c e f g h i j k l m n o p r s t u w y À Á Â È É Ê Ì Í Î Ò Ó Ô Ù Ú Û à á â è é ê ì í î ò ó ô ù ú û Ŋ ŋ Ɔ Ɖ Ǝ Ɛ Ɩ Ʊ ǝ ɔ ɖ ɛ ɩ ʊ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌́ ◌̀ ◌̂
     script: Latin
     status: primary
@@ -1897,6 +1925,8 @@ boz:
   orthographies:
   - autonym: bozo-tigemaxoo
     base: A B C D E F G H I J K L M N O P R S T U W X Y a b c d e f g h i j k l m n o p r s t u w x y Ŋ ŋ Ɔ Ɛ Ɲ ɔ ɛ ɲ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     script: Latin
     status: primary
   source:
@@ -1976,12 +2006,16 @@ bsc:
   orthographies:
   - autonym: oniyan
     base: A B C D E F G H I J K L M N O P R S T U W Y a b c d e f g h i j k l m n o p r s t u w y É Ë Ñ Ó é ë ñ ó Ĥ ĥ Ŋ ŋ Ŝ ŝ Ŵ ŵ Ŷ ŷ Ɓ Ɗ Ƴ ƴ ɓ ɗ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌́ ◌̈ ◌̂ ◌̃
     note: Senegal
     script: Latin
     status: primary
   - autonym: oneyan
     base: A B C D E F G H I J K L M N O P R S T U V W Y a b c d e f g h i j k l m n o p r s t u v w y Ŋ ŋ Ɓ Ɔ Ɗ Ǝ Ɛ Ɲ Ʃ Ƴ ƴ ǝ Ɉ ɉ ɓ ɔ ɗ ɛ ɲ ʃ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     note: Guinea
     script: Latin
     status: primary
@@ -1998,6 +2032,8 @@ bss:
   orthographies:
   - autonym: Akɔɔse
     base: A B D E F G H I J K L M N O P R S T U V W Y a b d e f g h i j k l m n o p r s t u v w y á â é ê í î ó ô ú û ě Ŋ ŋ Ɔ Ə Ɛ ǎ ǐ ǒ ǔ ɔ ə ɛ ʼ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌́ ◌̂ ◌̌
     script: Latin
     status: primary
@@ -2273,6 +2309,8 @@ byv:
   orthographies:
   - autonym: Mə̀dʉ̂mbɑ̀
     base: A B C D E F G H I J K L M N O S T U V W Y Z a b c d e f g h i j k l m n o s t u v w y z À Â È Ê Ì Î Ò Ô Ù Û à â è ê ì î ò ô ù û Ě ě Ŋ ŋ Ɔ Ə Ɛ Ǎ ǎ Ǐ ǐ Ǒ ǒ Ǔ ǔ Ʉ ɑ ɔ ə ɛ ʉ ʼ Ɑ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌̀ ◌̂ ◌̌
     script: Latin
     status: primary
@@ -2287,6 +2325,8 @@ bze:
   orthographies:
   - autonym: bozo-jenaama
     base: A B C D E F G H I J K L M N O P R S T U W Y a b c d e f g h i j k l m n o p r s t u w y Ŋ ŋ Ɔ Ɛ Ɲ ɔ ɛ ɲ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     script: Latin
     status: primary
   source:
@@ -2726,6 +2766,8 @@ cko:
   orthographies:
   - autonym: Anufo
     base: A B C D E F G H I J K L M N O P R S T U V W Y Z a b c d e f g h i j k l m n o p r s t u v w y z Ŋ ŋ Ɔ Ɛ ɔ ɛ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     script: Latin
     status: primary
   source:
@@ -2756,6 +2798,8 @@ cme:
   orthographies:
   - autonym: cerma
     base: A B C D E Ɛ F G H I K L M N Ŋ O Ɔ P R S T U V W Y a b c d e ɛ f g h i k l m n ŋ o ɔ p r s t u v w y Ã Ĩ Ũ ã ĩ ũ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌̃
     script: Latin
     status: primary
@@ -2781,6 +2825,8 @@ cmn:
     status: primary
   - autonym: Pǔtōnghuà
     base: A B C D E F G H I J K L M N O P Q R S T U W X Y Z a b c d e f g h i j k l m n o p q r s t u w x y z ü Ü ê Ê ĉ ŝ ẑ ŋ Ĉ Ŝ Ẑ Ŋ ā ē ī ō ū ǖ ê̄ m̄ n̄ Ā Ē Ī Ō Ū Ǖ Ê̄ M̄ N̄ á é í ó ú ǘ ế ḿ ń Á É Í Ó Ú Ǘ Ế Ḿ Ń ǎ ě ǐ ǒ ǔ ǚ ê̌ m̌ ň Ǎ Ě Ǐ Ǒ Ǔ Ǚ Ê̌ M̌ Ň à è ì ò ù ǜ ề m̀ ǹ À È Ì Ò Ù Ǜ Ề M̀ Ǹ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌̀ ◌́ ◌̂ ◌̄ ◌̈ ◌̌
     note: Hànyǔ Pīnyīn (Hànyǔ Pīnyīn (pinyin)) is the official romanization system for Standard Mandarin Chinese in mainland China, Taiwan (ROC), and Singapore.
     punctuation: . , — … · - '
@@ -2935,6 +2981,8 @@ cou:
   orthographies:
   - autonym: wamey
     base: A B D E F G H I K L M N O P R S T U W X Y a b d e f g h i k l m n o p r s t u w x y Ŋ ŋ Ɔ Ǝ Ɛ Ɲ ǝ ɔ ɛ ɲ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     script: Latin
     status: primary
   source:
@@ -3084,6 +3132,8 @@ dag:
   orthographies:
   - autonym: Dagbanli
     base: A B C D E F G H I J K L M N O P R S T U V W Y Z Ɛ Ɣ Ɨ Ŋ Ɔ Ʒ a b c d e f g h i j k l m n o p r s t u v w y z ' ɛ ɣ ɨ ŋ ɔ ʒ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     script: Latin
     status: primary
   source:
@@ -3143,6 +3193,8 @@ ddn:
   orthographies:
   - autonym: Dandawa
     base: A B C D E Ɛ F G H I J K L M N Ŋ O Ɔ P R S T W Y Z À Á Ā È É Ē Ì Í Ī Ò Ó Ō Ù Ú Ū a b c d e ɛ f g h i j k l m n ŋ o ɔ p r s t w y z à á ā è é ē ì í ī ò ó ō ù ú ū
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌̀ ◌́ ◌̄
     script: Latin
     status: primary
@@ -3209,10 +3261,14 @@ dga:
   orthographies:
   - auxiliary: Ɦ ɦ Ŋ ŋ
     base: A B D E Ɛ F G H I J K L M N O Ɔ P R S T U V W Y Z a b d e ɛ f g h i j k l m n o ɔ p r s t u v w y z
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     note: Bureau of Ghana Languages orthography. Ɦ and Ŋ are proposed in Bodomo 1997.
     script: Latin
     status: primary
   - base: A B D E Ɛ F G H I J K L M N Ŋ O Ɔ P R S T U V W Y Z a b d e ɛ f g h i j k l m n ŋ o ɔ p r s t u v w y z
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌̃
     note: Bible Society of Ghana orthography
     script: Latin
@@ -3229,6 +3285,8 @@ dgi:
   name: Northern Dagara
   orthographies:
   - base: A B Ɓ C D E Ɛ F G H I Ɩ J K L M N Ŋ O Ɔ P R S T U Ʋ V W Y Ƴ Z a b ɓ c d e ɛ f g h i ɩ j k l m n ŋ o ɔ p r s t u ʋ v w y ƴ z À È Ɛ̀ Ì Ò Ɔ̀ Ù Á É Ɛ́ Í Ó Ɔ́ Ú Ã Ẽ Ɛ̃ Õ Ɔ̃ à è ɛ̀ ì ò ɔ̀ ù á é ɛ́ í ó ɔ́ ú ã ẽ ɛ̃ õ ɔ̃
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌̀ ◌́ ◌̃
     script: Latin
     status: primary
@@ -3304,6 +3362,8 @@ din:
   name: Dinka
   orthographies:
   - base: A B C D E Ɛ G Ɣ I K L M N Ŋ O Ɔ P R S T U W Y Ä Ë Ï Ö a b c d e ɛ g ɣ i k l m n ŋ o ɔ p r s t u w y ä ë ï ö
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌̈
     script: Latin
     status: primary
@@ -3361,6 +3421,8 @@ dje:
   orthographies:
   - autonym: Zarmaciine
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ŋ Ɲ À Á Ã Ǎ Í Õ Ǒ Ô Š Ẽ Ě Ê Ž a b c d e f g h i j k l m n o p q r s t u v w x y z ŋ ɲ à á ã ǎ í õ ǒ ô š ẽ ě ê ž
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌̀ ◌́ ◌̂ ◌̃ ◌̌
     script: Latin
     status: primary
@@ -3406,6 +3468,8 @@ dno:
   orthographies:
   - autonym: Ndrǔló
     base: A B D E F G H Ɦ I J K L M N Ŋ O P R S T U V W Y Z a b d e f g h ɦ i j k l m n ŋ o p r s t u v w y z Â Ê Î Ô R̂ Û Á É Í Ó Ŕ Ś Ú À È Ì Ò R̀ S̀ Ù Ǎ Ě Ǐ Ǒ Ř Š Ǔ â ê î ô r̂ û á é í ó ŕ ś ú à è ì ò r̀ s̀ ù ǎ ě ǐ ǒ ř š ǔ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌̀ ◌́ ◌̂ ◌̌
     script: Latin
     status: primary
@@ -3430,6 +3494,8 @@ dop:
   orthographies:
   - autonym: lǝkpa
     base: A C E Ɛ Ǝ F H I Ɩ K L M N Ŋ Ŋ O Ɔ P Ɣ S T U Ʊ W Y Á É Ú Ḿ Ń a c e ɛ ǝ f h i ɩ k l m n ŋ ŋ o ɔ p ɣ s t u ʊ w y á é ú ḿ ń
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌́
     script: Latin
     status: primary
@@ -3476,6 +3542,8 @@ dua:
   - autonym: Duálá
     auxiliary: H Q V X Z h q v x z
     base: A B C D E F G I J K L M N O P R S T U W Y Á É Í Ó Ú Ŋ Ū Ɓ Ɔ Ɗ Ɛ a b c d e f g i j k l m n o p r s t u w y á é í ó ú ŋ ū ɓ ɔ ɗ ɛ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌́ ◌̄
     script: Latin
     status: primary
@@ -3507,6 +3575,8 @@ dyo:
   - autonym: Jóola-Fóoñi
     auxiliary: Z z
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Á É Í Ñ Ó Ú Ŋ a b c d e f g h i j k l m n o p q r s t u v w x y á é í ñ ó ú ŋ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌́ ◌̃
     script: Latin
     status: primary
@@ -3523,6 +3593,8 @@ dyu:
   orthographies:
   - autonym: Julakan
     base: A B C D E Ɛ F G H I J K L M N Ɲ Ŋ O Ɔ P R S T U V W Y Z a b c d e ɛ f g h i j k l m n ɲ ŋ o ɔ p r s t u v w y z
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     script: Latin
     status: primary
   - autonym: ߖߎ߬ߟߊ߬ߞߊ߲
@@ -3652,6 +3724,8 @@ emk:
   orthographies:
   - autonym: Maninkakan
     base: A B C D E Ɛ F G H I J K L M N Ɲ Ŋ O Ɔ P R S T U V W Y Z a b c d e ɛ f g h i j k l m n ɲ ŋ o ɔ p r s t u v w y z
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     script: Latin
     status: primary
   - autonym: ߡߊߣߌ߲ߞߊߞߊ߲
@@ -3840,6 +3914,8 @@ ewe:
   - autonym: Èʋegbe
     auxiliary: C J Q Â Ä Å Æ Ç Ê Ë Î Ï Ñ Ô Ö Ø Û Ü Ÿ Ā Ă Ĕ Ĭ Ŏ Œ Ŭ c j q â ä å æ ç ê ë î ï ñ ô ö ø û ü ÿ ā ă ĕ ĭ ŏ œ ŭ
     base: A B D E F G H I K L M N O P R S T U V W X Y Z À Á Ã È É Ì Í Ò Ó Õ Ù Ú Ĩ Ŋ Ũ Ƒ Ɔ Ɖ Ɛ Ɣ Ʋ Ẽ a b d e f g h i k l m n o p r s t u v w x y z à á ã è é ì í ò ó õ ù ú ĩ ŋ ũ ƒ ɔ ɖ ɛ ɣ ʋ ẽ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌̀ ◌́ ◌̃ ◌̂ ◌̄ ◌̆ ◌̈ ◌̊ ◌̧
     script: Latin
     status: primary
@@ -3856,6 +3932,8 @@ ewo:
   - autonym: Ewondo
     auxiliary: C J Q X c j q x
     base: A B D E F G H I K L M N O P R S T U V W Y Z À Á Â È É Ê Ì Í Î Ò Ó Ô Ù Ú Û Ě Ń Ŋ Ǎ Ǐ Ǒ Ǔ Ǹ Ɔ Ə Ɛ a b d e f g h i k l m n o p r s t u v w y z à á â è é ê ì í î ò ó ô ù ú û ě ń ŋ ǎ ǐ ǒ ǔ ǹ ɔ ə ɛ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌̀ ◌́ ◌̂ ◌̌
     script: Latin
     status: primary
@@ -3994,6 +4072,8 @@ fmp:
   orthographies:
   - autonym: Feʼfeʼ
     base: A B C D E F G H I J K L M N O P S T U V W Y Z a b c d e f g h i j k l m n o p s t u v w y z À Á È É Ì Í Ò Ó Ù Ú à á è é ì í ò ó ù ú Ā ā Ē ē Ě ě Ī ī Ŋ ŋ Ō ō Ū ū Ɔ Ə Ǎ ǎ Ǐ ǐ Ǒ ǒ Ǔ ǔ Ʉ ɑ ɔ ə ʉ ʼ Ɑ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌́ ◌̀ ◌̂ ◌̌ ◌̄
     script: Latin
     status: primary
@@ -4008,6 +4088,8 @@ fod:
   orthographies:
   - autonym: fóodo
     base: A B C D E Ɛ F G H I Ɩ J K L M N Ŋ O Ɔ P R S T U Ʊ V W Y Z Á É Í Ó Ú a b c d e ɛ f g h i ɩ j k l m n ŋ o ɔ p r s t u ʊ v w y z á é í ó ú
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌́
     script: Latin
     status: primary
@@ -4070,6 +4152,8 @@ fub:
   note: Used in Cameroon, Chad, and Sudan.
   orthographies:
   - base: A B C D E F G H I J K L M N O P R S T U W Y X Ŋ Ƴ Ɓ Ɗ a b c d e f g h i j k l m n o p r s t u w y x ŋ ƴ ɓ ɗ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     script: Latin
     status: primary
   source:
@@ -4084,6 +4168,8 @@ fuc:
   orthographies:
   - autonym: Futa Tooro
     base: A B C D E F G H I J K L M N O P R S T U W Y X Ñ Ŋ Ƴ Ɓ Ɗ a b c d e f g h i j k l m n o p r s t u w y x ñ ŋ ƴ ɓ ɗ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌̃
     script: Latin
     status: primary
@@ -4101,6 +4187,8 @@ fue:
   orthographies:
   - autonym: Fulfulde
     base: A B C D E F G H I J K L M N O P R S T U W Y X Ŋ Ƴ Ɓ Ɗ Ɲ a b c d e f g h i j k l m n o p r s t u w y x ŋ ƴ ɓ ɗ ɲ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     script: Latin
     status: primary
   source:
@@ -4115,6 +4203,8 @@ fuf:
   orthographies:
   - autonym: Fuuta Jalon
     base: A B C D E F G H I J K L M N O P R S T U W Y Ŋ Ƴ Ɓ Ɗ Ɠ Ɲ a b c d e f g h i j k l m n o p r s t u w y ŋ ƴ ɓ ɗ ɠ ɲ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     script: Latin
     status: primary
   source:
@@ -4144,6 +4234,8 @@ fui:
   note: Used in Central African Republic.
   orthographies:
   - base: A B C D E F G H I J K L M N O P R S T U W Y X Ŋ Ƴ Ɓ Ɗ a b c d e f g h i j k l m n o p r s t u w y x ŋ ƴ ɓ ɗ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     script: Latin
     status: primary
   source:
@@ -4157,6 +4249,8 @@ fuq:
   note: Used in Niger.
   orthographies:
   - base: A B C D E F G H I J K L M N O P R S T U W Y X Ŋ Ƴ Ɓ Ɗ a b c d e f g h i j k l m n o p r s t u w y x ŋ ƴ ɓ ɗ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     script: Latin
     status: primary
   source:
@@ -4199,6 +4293,8 @@ gaa:
   orthographies:
   - autonym: Gã
     base: A B D E Ɛ F G H I J K L M N Ŋ O Ɔ P R S T U V W Y Z Ã Ẽ Ĩ Õ Ũ a b d e ɛ f g h i j k l m n ŋ o ɔ p r s t u v w y z ã ẽ ĩ õ ũ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌̃
     script: Latin
     status: primary
@@ -4310,6 +4406,8 @@ gej:
   orthographies:
   - autonym: gɛn
     base: A B C D Ɖ E Ɛ F G Ɣ H I J K L M N Ŋ P S T V W X Y Z a b c d ɖ e ɛ f g ɣ h i j k l m n ŋ p s t v w x y z
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     script: Latin
     status: primary
   source:
@@ -4337,6 +4435,8 @@ gjn:
   orthographies:
   - autonym: Ngbanyito
     base: A B C D E Ɛ F G H I J K L M N Ŋ O Ɔ P R S T U V W Y Z a b c d e ɛ f g h i j k l m n ŋ o ɔ p r s t u v w y z '
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     script: Latin
     status: primary
   source:
@@ -4350,6 +4450,8 @@ gkp:
   orthographies:
   - autonym: Kpɛlɛwoo
     base: A B Ɓ D E Ɛ F G Ɣ I K L M N Ŋ O Ɔ P R S T U V W X Y Z a b ɓ d e ɛ f g ɣ i k l m n ŋ o ɔ p r s t u v w x y z
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌̀ ◌́ ◌̂
     script: Latin
     status: primary
@@ -4440,8 +4542,7 @@ glv:
 gmy:
   name: Mycenaean Greek
   orthographies:
-  - autonym: Μυκηναϊκή
-    base: 𐀀 𐀁 𐀂 𐀃 𐀄 𐀅 𐀆 𐀇 𐀈 𐀉 𐀊 𐀋 𐀍 𐀎 𐀏 𐀐 𐀑 𐀒 𐀓 𐀔 𐀕 𐀖 𐀗 𐀘 𐀙 𐀚 𐀛 𐀜 𐀝 𐀞 𐀟 𐀠 𐀡 𐀢 𐀣 𐀤 𐀥 𐀦 𐀨 𐀩 𐀪 𐀫 𐀬 𐀭 𐀮 𐀯 𐀰 𐀱 𐀲 𐀳 𐀴 𐀵 𐀶 𐀷 𐀸 𐀹 𐀺 𐀼 𐀽 𐀿 𐁀 𐁁 𐁂 𐁃 𐁄 𐁅 𐁆 𐁇 𐁈 𐁉 𐁊 𐁋 𐁌 𐁍 𐁐 𐁑 𐁒 𐁓 𐁔 𐁕 𐁖 𐁗 𐁘 𐁙 𐁚 𐁛 𐁜 𐁝 𐂀 𐂁 𐂂 𐂃 𐂄 𐂅 𐂆 𐂇 𐂈 𐂉 𐂊 𐂋 𐂌 𐂍 𐂎 𐂏 𐂐 𐂑 𐂒 𐂓 𐂔 𐂕 𐂖 𐂗 𐂘 𐂙 𐂚 𐂛 𐂜 𐂝 𐂞 𐂟 𐂠 𐂡 𐂢 𐂣 𐂤 𐂥 𐂦 𐂧 𐂨 𐂩 𐂪 𐂫 𐂬 𐂭 𐂮 𐂯 𐂰 𐂱 𐂲 𐂳 𐂴 𐂵 𐂶 𐂷 𐂸 𐂹 𐂺 𐂻 𐂼 𐂽 𐂾 𐂿 𐃀 𐃁 𐃂 𐃃 𐃄 𐃅 𐃆 𐃇 𐃈 𐃉 𐃊 𐃋 𐃌 𐃍 𐃎 𐃏 𐃐 𐃑 𐃒 𐃓 𐃔 𐃕 𐃖 𐃗 𐃘 𐃙 𐃚 𐃛 𐃜 𐃝 𐃞 𐃟 𐃠 𐃡 𐃢 𐃣 𐃤 𐃥 𐃦 𐃧 𐃨 𐃩 𐃪 𐃫 𐃬 𐃭 𐃮 𐃯 𐃰 𐃱 𐃲 𐃳 𐃴 𐃵 𐃶 𐃷 𐃸 𐃹 𐃺
+  - base: 𐀀 𐀁 𐀂 𐀃 𐀄 𐀅 𐀆 𐀇 𐀈 𐀉 𐀊 𐀋 𐀍 𐀎 𐀏 𐀐 𐀑 𐀒 𐀓 𐀔 𐀕 𐀖 𐀗 𐀘 𐀙 𐀚 𐀛 𐀜 𐀝 𐀞 𐀟 𐀠 𐀡 𐀢 𐀣 𐀤 𐀥 𐀦 𐀨 𐀩 𐀪 𐀫 𐀬 𐀭 𐀮 𐀯 𐀰 𐀱 𐀲 𐀳 𐀴 𐀵 𐀶 𐀷 𐀸 𐀹 𐀺 𐀼 𐀽 𐀿 𐁀 𐁁 𐁂 𐁃 𐁄 𐁅 𐁆 𐁇 𐁈 𐁉 𐁊 𐁋 𐁌 𐁍 𐁐 𐁑 𐁒 𐁓 𐁔 𐁕 𐁖 𐁗 𐁘 𐁙 𐁚 𐁛 𐁜 𐁝 𐂀 𐂁 𐂂 𐂃 𐂄 𐂅 𐂆 𐂇 𐂈 𐂉 𐂊 𐂋 𐂌 𐂍 𐂎 𐂏 𐂐 𐂑 𐂒 𐂓 𐂔 𐂕 𐂖 𐂗 𐂘 𐂙 𐂚 𐂛 𐂜 𐂝 𐂞 𐂟 𐂠 𐂡 𐂢 𐂣 𐂤 𐂥 𐂦 𐂧 𐂨 𐂩 𐂪 𐂫 𐂬 𐂭 𐂮 𐂯 𐂰 𐂱 𐂲 𐂳 𐂴 𐂵 𐂶 𐂷 𐂸 𐂹 𐂺 𐂻 𐂼 𐂽 𐂾 𐂿 𐃀 𐃁 𐃂 𐃃 𐃄 𐃅 𐃆 𐃇 𐃈 𐃉 𐃊 𐃋 𐃌 𐃍 𐃎 𐃏 𐃐 𐃑 𐃒 𐃓 𐃔 𐃕 𐃖 𐃗 𐃘 𐃙 𐃚 𐃛 𐃜 𐃝 𐃞 𐃟 𐃠 𐃡 𐃢 𐃣 𐃤 𐃥 𐃦 𐃧 𐃨 𐃩 𐃪 𐃫 𐃬 𐃭 𐃮 𐃯 𐃰 𐃱 𐃲 𐃳 𐃴 𐃵 𐃶 𐃷 𐃸 𐃹 𐃺
     script: Linear B
     status: primary
   source:
@@ -4488,6 +4589,8 @@ gqa:
   orthographies:
   - autonym: Kaandata
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ŋ a b c d e f g h i j k l m n o p q r s t u v w x y z ŋ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     script: Latin
     status: primary
   preferred_name: Ga’anda
@@ -4582,6 +4685,8 @@ gur:
   orthographies:
   - autonym: ninkãrɛ
     base: A B D E Ɛ F G H I Ɩ K L M N Ŋ O Ɔ P R S T U Ʋ V W Y Z Ã Ẽ Ɛ̃ Ĩ Õ Ɔ̃ Ũ a b d e ɛ f g h i ɩ k l m n ŋ o ɔ p r s t u ʋ v w y z ã ẽ ĩ õ ũ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌̃
     script: Latin
     status: primary
@@ -4611,6 +4716,8 @@ gux:
   - autonym: gulimancema
     auxiliary: Q X q x Á É Í Ó Ú À È Ì Ò Ù á é í ó ú à è ì ò ù
     base: A B C D E F G H I J K L M N Ñ Ŋ O P R S T U V W Y Z a b c d e f g h i j k l m n ñ ŋ o p r s t u v w y z
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌̃ ◌̀ ◌́
     script: Latin
     status: primary
@@ -5095,6 +5202,8 @@ idu:
   orthographies:
   - autonym: Idoma
     base: A B C D E F G H I J K L M N O P R S T U V W Y Z a b c d e f g h i j k l m n o p r s t u v w y z Á É Í Ó Ú á é í ó ú Ā ā Ē ē Ī ī Ŋ ŋ Ō ō Ū ū Ɔ Ɛ ɔ ɛ Ẹ ẹ Ọ ọ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌́ ◌̄ ◌̣
     note: ɛ and ɔ can be written as ẹ and ọ.
     script: Latin
@@ -5112,6 +5221,8 @@ ife:
   - autonym: ifɛ̀
     auxiliary: C J Q X c j q x
     base: A B D Ɖ E Ɛ F G H I K L M N Ŋ O Ɔ P R S T U W Y Z a b d ɖ e ɛ f g h i k l m n ŋ o ɔ p r s t u w y z Ã Ɛ̃ Ĩ Ɔ̃ Ũ Ã̀ Ɛ̃̀ Ĩ̀ Ɔ̃̀ Ũ̀ Ã́ Ɛ̃́ Ĩ́ Ɔ̃́ Ṹ ã ɛ̃ ĩ ɔ̃ ũ ã̀ ɛ̃̀ ĩ̀ ɔ̃̀ ũ̀ ã́ ɛ̃́ ĩ́ ɔ̃́ ṹ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌̀ ◌́ ◌̃
     script: Latin
     status: primary
@@ -5396,6 +5507,8 @@ jgo:
   - autonym: Cú-Mbɔ́ndaa
     auxiliary: E O Q R X e o q r x
     base: A B C D F G H I J K L M N P S T U V W Y Z Á Â Í Î Ú Û Ń Ŋ Ǎ Ǐ Ǔ Ǹ Ɔ Ɛ Ʉ Ḿ Ẅ Ꞌ a b c d f g h i j k l m n p s t u v w y z á â í î ú û ń ŋ ǎ ǐ ǔ ǹ ɔ ɛ ʉ ḿ ẅ ꞌ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌̀ ◌́ ◌̂ ◌̄ ◌̈ ◌̌
     script: Latin
     status: primary
@@ -5659,6 +5772,8 @@ kbp:
   name: Kabiyè
   orthographies:
   - base: A B C D Ɖ E Ɛ F G Ɣ H I Ɩ J K L M N Ñ Ŋ O Ɔ P R S T U Ʋ V W Y Z a b c d ɖ e ɛ f g ɣ h i ɩ j k l m n ñ ŋ o ɔ p r s t u ʋ v w y z
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌̃ ◌̀ ◌́
     script: Latin
     status: primary
@@ -5705,6 +5820,8 @@ kdh:
   orthographies:
   - autonym: Kotokoli
     base: A B C D Ɖ E Ɛ F G H I Ɩ J K L M N Ŋ O Ɔ P R S T U Ʊ V W Y Z a b c d ɖ e ɛ f g h i ɩ j k l m n ŋ o ɔ p r s t u ʊ v w y z
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     script: Latin
     status: primary
   source:
@@ -5776,6 +5893,8 @@ keu:
   orthographies:
   - autonym: kǝkpǝǝ-kǝ
     base: A B C D E F G H I J K L M N O P R S T U V W Y Z a b c d e f g h i j k l m n o p r s t u v w y z Ŋ ŋ Ɔ Ɖ Ǝ Ɛ Ɩ Ʊ ǝ ɔ ɖ ɛ ɩ ʊ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     script: Latin
     status: primary
   source:
@@ -5865,6 +5984,8 @@ khq:
   - autonym: Koyra Chiini
     auxiliary: V v
     base: A B C D E F G H I J K L M N O P Q R S T U W X Y Z Ã Õ Ŋ Š Ž Ɲ Ẽ a b c d e f g h i j k l m n o p q r s t u w x y z ã õ ŋ š ž ɲ ẽ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌̃ ◌̌
     script: Latin
     status: primary
@@ -5879,6 +6000,8 @@ kik:
   orthographies:
   - autonym: Gĩgĩkũyũ
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ĩ Ŋ Ũ a b c d e f g h i j k l m n o p q r s t u v w x y z ĩ ŋ ũ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌̃
     script: Latin
     status: primary
@@ -5983,6 +6106,8 @@ kkj:
   - autonym: Kakɔ
     auxiliary: Q X Z q x z
     base: A B C D E F G H I J K L M N O P R S T U V W Y À Á Â È É Ê Ì Í Î Ò Ó Ô Ù Ú Û Ŋ Ǌ Ɓ Ɔ Ɗ Ɛ a b c d e f g h i j k l m n o p r s t u v w y à á â è é ê ì í î ò ó ô ù ú û ŋ ǌ ɓ ɔ ɗ ɛ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌̀ ◌́ ◌̂ ◌̧
     script: Latin
     status: primary
@@ -6064,6 +6189,8 @@ knf:
   orthographies:
   - autonym: mankaañ
     base: A B C D E F G H I J K L M N O P R S T U W Y a b c d e f g h i j k l m n o p r s t u w y Ë Ñ Ú ë ñ ú Ŋ ŋ Ş ş Ţ ţ Ŧ ŧ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌̈ ◌̃ ◌́ ◌̧
     script: Latin
     status: primary
@@ -6281,6 +6408,8 @@ kri:
   name: Krio
   orthographies:
   - base: A B C D E Ɛ F G H I J K L M N Ŋ O Ɔ P S T U V W Y Z a b c d e ɛ f g h i j k l m n ŋ o ɔ p s t u v w y z
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     script: Latin
     status: primary
   source:
@@ -6324,6 +6453,8 @@ ksf:
   - autonym: Rikpa
     auxiliary: Q X q x
     base: A B C D E F G H I J K L M N O P R S T U V W Y Z Á É Í Ó Ú Ŋ Ǝ Ɔ Ɛ a b c d e f g h i j k l m n o p r s t u v w y z á é í ó ú ŋ ǝ ɔ ɛ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌́
     script: Latin
     status: primary
@@ -6413,6 +6544,8 @@ kus:
   orthographies:
   - autonym: kusaal
     base: A B D E Ɛ F G H I Ɩ K L M N Ŋ O Ɔ P R S T U Ʋ W Y Z ʼ a b d e ɛ f g h i ɩ k l m n ŋ o ɔ p r s t u ʋ w y z Ã Ẽ Ĩ Õ Ũ ã ẽ ĩ õ ũ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌̃
     note: Ɩ and Ʋ were previously not used in Ghana.
     script: Latin
@@ -6524,6 +6657,8 @@ lam:
   - autonym: lamʋ
     auxiliary: Ə ə
     base: A C D Ɖ E Ǝ Ɛ F H I Ɨ Ɩ K KP L M N Ŋ Ñ O Ɔ P R S T U Ʋ W Y a c d ɖ e ǝ ɛ f h i ɨ ɩ k kp l m n ŋ ñ o ɔ p r s t u ʋ w y
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌̃
     script: Latin
     status: primary
@@ -6584,6 +6719,8 @@ lee:
   name: Lyele
   orthographies:
   - base: A B C D E Ə Ɛ F G H I J K L M N Ŋ O Ɔ P R S T U V W Y Z a b c d e ə ɛ f g h i j k l m n ŋ o ɔ p r s t u v w y z À È Ə̀ Ɛ̀ Ì Ǹ Ò Ɔ̀ Ù Á É Ə́ Ɛ́ Í Ń Ó Ɔ́ Ú Ǎ Ě Ə̌ Ɛ̌ Ǐ Ǒ Ɔ̌ Ǔ Â Ê Ə̂ Ɛ̂ Î Ô Ɔ̂ Û Ã Ẽ Ɛ̃ Ĩ Õ Ũ Ã̀ Ẽ̀ Ɛ̃̀ Ĩ̀ Õ̀ Ũ̀ Ã́ Ẽ́ Ɛ̃́ Ĩ́ Ṍ Ṹ Ã̌ Ẽ̌ Ɛ̃̌ Ĩ̌ Õ̌ Ũ̌ à è ə̀ ɛ̀ ì ǹ ò ɔ̀ ù á é ə́ ɛ́ í ń ó ɔ́ ú ǎ ě ə̌ ɛ̌ ǐ ǒ ɔ̌ ǔ â ê ə̂ ɛ̂ î ô ɔ̂ û ã ẽ ɛ̃ ĩ õ ũ ã̀ ẽ̀ ɛ̃̀ ĩ̀ õ̀ ũ̀ ã́ ẽ́ ɛ̃́ ĩ́ ṍ ṹ ã̌ ẽ̌ ɛ̃̌ ĩ̌ õ̌ ũ̌
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌́ ◌̀ ◌̂ ◌̃ ◌̌
     note: Hartell 1993 does not include ◌̂.
     script: Latin
@@ -6616,6 +6753,8 @@ lia:
   - autonym: Hulimba
     auxiliary: Ñ Ɔ ñ ɔ
     base: A B C D E Ɛ F G H I J K L M N Ň Ŋ O Ọ P Q R S T U V W Z a b c d e ɛ f g h i j k l m n ň ŋ o ọ p q r s t u v w z
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌̌ ◌̣ ◌̃
     script: Latin
     status: primary
@@ -6688,6 +6827,8 @@ lkt:
   - autonym: Lakȟótiyapi
     auxiliary: C D F J Q R V X c d f j q r v x
     base: A B E G H I K L M N O P S T U W Y Z Á É Í Ó Ú Č Ŋ Š Ž Ǧ Ȟ a b e g h i k l m n o p s t u w y z á é í ó ú č ŋ š ž ǧ ȟ ʼ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌́ ◌̌
     script: Latin
     status: primary
@@ -6734,6 +6875,8 @@ lns:
   orthographies:
   - autonym: Lamnsɔ'
     base: A B D E Ə Ɛ F G I J K L M N Ŋ O Ɔ S T U V W Ɣ a b d e ə ɛ f g i j k l m n ŋ o ɔ s t u v w ɣ '
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     script: Latin
     status: primary
   source:
@@ -6758,6 +6901,8 @@ lot:
   name: Otuho
   orthographies:
   - base: A B C D E Ê F G H I J K L M N Ŋ O Ô P Q R S T U Û W Y a b c d e ê f g h i j k l m n ŋ o ô p q r s t u û w y ʼ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌̂
     script: Latin
     status: primary
@@ -6848,6 +6993,8 @@ lug:
   - autonym: Luganda
     auxiliary: H Q X h q x
     base: A B C D E F G I J K L M N O P R S T U V W Y Z Ŋ a b c d e f g i j k l m n o p r s t u v w y z ŋ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     script: Latin
     status: primary
   source:
@@ -7052,6 +7199,8 @@ mas:
   orthographies:
   - autonym: Maa
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Á Â È É Ê Ì Í Î Ɔ Ɛ Ɨ Ʉ Ò Ó Ô Ù Ú Û Ŋ a b c d e f g h i j k l m n o p q r s t u v w x y z à á â è é ê ì í î ɔ ɛ ɨ ʉ ò ó ô ù ú û ŋ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌̀ ◌́ ◌̂
     script: Latin
     status: primary
@@ -7111,6 +7260,8 @@ mcn:
   - autonym: masana
     auxiliary: Ḇ Ḏ ḇ ḏ
     base: A B Ɓ C D Ɗ E F G H Ɦ I J K L M N Ŋ O P R S T U V W Y Z a b c d e f g h ɦ i j k l m n ŋ o p r s t u v w y z
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌̱ ◌̂
     note: Ḇ Ḏ N̂ ḇ ḏ n̂ were used instead of Ɓ Ɗ Ŋ ɓ ɗ ŋ the before the 2000s.
     script: Latin
@@ -7204,10 +7355,14 @@ mfq:
   orthographies:
   - autonym: muaba-benn
     base: A B C D E Ɛ F G H I J K L M N Ŋ O Ɔ P R S T U W Y a b c d e ɛ f g h i j k l m n ŋ o ɔ p r s t u w y
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     note: Association pour la Traduction, l’Alphabétisation et la Promotion des Écritures en Ben (ATAPEB) orthography, standardized on Ben dialect.
     script: Latin
     status: primary
   - base: A Ã B C D E Ẽ Ɛ F G H I Ĩ Ɩ J K L M N Ŋ O Õ Ɔ P S T R U V W Y a ã b c d e ẽ ɛ f g h i ĩ ɩ j k l m n ŋ o õ ɔ p s t r u v w y
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌̃
     note: Peace Corps Togo orthography.
     script: Latin
@@ -7225,6 +7380,8 @@ mfv:
   orthographies:
   - autonym: manjak
     base: A B C D E F G H I J K L M N O P R S T U W Y Z a b c d e f g h i j k l m n o p r s t u w y z Á Ë Í Ñ Ó Ú á ë í ñ ó ú Ŋ ŋ Ŝ ŝ Ţ ţ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌́ ◌̂ ◌̈ ◌̃ ◌̧
     script: Latin
     status: primary
@@ -7254,6 +7411,8 @@ mgo:
   - autonym: Mɨta’
     auxiliary: Q X q x
     base: A B C D E F G H I J K M N O P R S T U W Y Z À È Ì Ò Ù Ŋ Ɔ Ə Ɨ a b c d e f g h i j k m n o p r s t u w y z à è ì ò ù ŋ ɔ ə ɨ ʼ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌̀
     script: Latin
     status: primary
@@ -7417,6 +7576,8 @@ mnk:
   orthographies:
   - autonym: mandinka
     base: A B C D E F G H I J K L M N O P R S T U W Y a b c d e f g h i j k l m n o p r s t u w y Ñ ñ Ŋ ŋ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌̃
     script: Latin
     status: primary
@@ -7598,6 +7759,8 @@ mua:
   orthographies:
   - autonym: Mundaŋ
     base: A B C D E F G H I J K L M N O P R S T U V W Y Z Ã Ẽ Õ Ĩ Ŋ Ǝ Ə Ɓ Ɗ Ṽ a b c d e f g h i j k l m n o p r s t u v w y z ã ẽ õ ĩ ŋ ǝ ə ɓ ɗ ṽ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌̃
     script: Latin
     status: primary
@@ -7722,6 +7885,8 @@ myk:
   - autonym: mamaara
     auxiliary: Ó Ú ó ú
     base: A B C D E Ɛ F G H I J K L M N Ɲ Ŋ O P R S T U V W X Y Z a b c d e ɛ f g h i j k l m n ɲ ŋ o ɔ p r s t u v w x y z À È Ì Ò Ù Á É Í à è ì ò ù á é í
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌̀ ◌́
     note: Tone marks are used in a few words.
     script: Latin
@@ -7842,6 +8007,8 @@ nba:
   name: Nyemba
   orthographies:
   - base: A B D E Ɛ F G H I J K L M N Ŋ O Ɔ P S T U W Z a b d e ɛ f g h i j k l m n ŋ o ɔ p s t u w z
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌̀ ◌́
     script: Latin
     status: primary
@@ -7988,6 +8155,8 @@ nku:
   name: Bouna Kulango
   orthographies:
   - base: A B C D E Ɛ F G H I J K L M N Ŋ O Ɔ P Q R S T U V W X Y Z Ɣ a b c d e ɛ f g h i j k l m n ŋ o ɔ p q r s t u v w x y z ɣ ˆ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌̃
     script: Latin
     status: primary
@@ -8020,6 +8189,8 @@ nmg:
   - autonym: Kwasio
     auxiliary: Q X Z q x z
     base: A B C D E F G H I J K L M N O P R S T U V W Y Á Â Ä É Ê Í Î Ï Ó Ô Ö Ú Û Ā Ē Ě Ī Ń Ŋ Ō Ŕ Ū Ǎ Ǐ Ǒ Ǔ Ǝ Ɓ Ɔ Ɛ a b c d e f g h i j k l m n o p r s t u v w y á â ä é ê í î ï ó ô ö ú û ā ē ě ī ń ŋ ō ŕ ū ǎ ǐ ǒ ǔ ǝ ɓ ɔ ɛ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌́ ◌̂ ◌̄ ◌̈ ◌̌
     script: Latin
     status: primary
@@ -8034,6 +8205,8 @@ nmz:
   orthographies:
   - autonym: nawdm
     base: A B D E Ɛ F G H Ɦ I J K L M N Ŋ O Ɔ R S T U V W Y a b d e ɛ f g g̈ h ɦ i j k l m n n̈ ŋ ŋ̈ o ɔ r s t u v w y
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌̈
     note: The combining diaresis ◌̈ is used to distinguish the sequences of two consonants g̈w, g̈b, n̈y, ŋ̈m from the digraphs gw, gb, ny, ŋm.
     script: Latin
@@ -8050,6 +8223,8 @@ nnh:
   - autonym: Ngyɛmbɔɔŋ
     auxiliary: Q R X q r x
     base: A B C D E F G H I J K L M N O P S T U V W Y Z À Á Â È É Ê Ì Í Ò Ó Ô Ù Ú Û Ÿ Ě Ń Ŋ Ǎ Ǒ Ǔ Ɔ Ɛ Ʉ Ḿ Ẅ a b c d e f g h i j k l m n o p s t u v w y z à á â è é ê ì í ò ó ô ù ú û ÿ ě ń ŋ ǎ ǒ ǔ ɔ ɛ ʉ ʼ ḿ ẅ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌̀ ◌́ ◌̂ ◌̈ ◌̌
     script: Latin
     status: primary
@@ -8066,6 +8241,8 @@ nnw:
   - autonym: nʋnɩ
     auxiliary: Q X q x Ǝ ǝ
     base: A B C D E Ə Ɛ F G H I Ɩ J K L M N Ŋ O Ɔ P R S T U Ʋ V W Y Z a b c d e ə ɛ f g h i ɩ j k l m n ŋ o ɔ p r s t u ʋ v w y z Á É Ə́ Ɛ́ Í Ó Ɔ́ Ú À È Ə̀ Ɛ̀ Ì Ò Ɔ̀ Ù á é ə́ ɛ́ í ó ɔ́ ú à è ə̀ ɛ̀ ì ò ɔ̀ ù
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌̀ ◌́
     script: Latin
     status: primary
@@ -8225,6 +8402,8 @@ nus:
   orthographies:
   - autonym: Naath
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Ë Ï Ö Ŋ Ɔ Ɛ Ɣ A̱ E̱ I̱ O̱ Ɔ̱ Ɛ̱ a b c d e f g h i j k l m n o p q r s t u v w x y z ä ë ï ö ŋ ɔ ɛ ɣ a̱ e̱ i̱ o̱ ɔ̱ ɛ̱
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌̈ ◌̱
     script: Latin
     status: primary
@@ -8240,6 +8419,8 @@ nya:
   orthographies:
   - autonym: Chicheŵa
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ŋ Ŵ a b c d e f g h i j k l m n o p q r s t u v w x y z ŋ ŵ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌̂
     script: Latin
     status: primary
@@ -8254,6 +8435,8 @@ nym:
   name: Nyamwezi
   orthographies:
   - base: A B D E Ɛ F G H I J L M N Ŋ O Ɔ P S T U V W Z a b d e ɛ f g h i j l m n ŋ o ɔ p s t u v w z
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     script: Latin
     status: primary
   source:
@@ -8280,6 +8463,8 @@ nza:
   orthographies:
   - autonym: Mbembe
     base: A B C D E F G H I J K L M N O P R S T U V W Y Z a b c d e f g h i j k l m n o p r s t u v w y z À Á Â È É Ê Ì Í Î Ò Ó Ô Ù Ú Û à á â è é ê ì í î ò ó ô ù ú û Ě ě Ŋ ŋ Ɔ Ɛ Ǎ ǎ Ǐ ǐ Ǒ ǒ Ǔ ǔ ɑ ɔ ɛ Ɑ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌̀ ◌́ ◌̂ ◌̌
     script: Latin
     status: primary
@@ -8514,12 +8699,16 @@ ozm:
   - autonym: kɔ́ɔzime
     auxiliary: Ɛ ɛ
     base: A B C D E F G H I Ɨ J K L M N Ŋ O Œ Ø Ɔ P R S T U Ʉ V W Y Z ʼ a b c d e f g h i ɨ j k ʼ l m n ŋ o œ ø ɔ p r s t u ʉ v w y z Á É Í Ɨ́ Ó Œ́ Ǿ Ɔ́ Ú Ʉ́ Â Ê Î Ɨ̂ Ô Œ̂ Ø̂ Ɔ̂ Û Ǎ Ě Ǐ Ɨ̌ Ǒ Œ̌ Ø̌ Ɔ̌ Ǔ Ʉ̌ á é í ɨ́ ó œ́ ǿ ɔ́ ú ʉ́ â ê î ɨ̂ ô œ̂ ø̂ ɔ̂ û ǎ ě ǐ ɨ̌ ǒ œ̌ ø̌ ɔ̌ ǔ ʉ̌
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌̀ ◌́ ◌̂ ◌̌
     script: Latin
     status: primary
   - autonym: badweʼe
     auxiliary: Ø ø
     base: A B C D E Ɛ F G H I Ɨ J K L M N Ŋ O Œ Ɔ P R S T U Ʉ V W Y Z ʼ a b c d e ɛ f g h i ɨ j k ʼ l m n ŋ o œ ɔ p r s t u ʉ v w y z Á É Ɛ́ Í Ɨ́ Ó Œ́ Ɔ́ Ú Ʉ́ Â Ê Ɛ̂ Î Ɨ̂ Ô Œ̂ Ɔ̂ Û Ǎ Ě Ɛ̌ Ǐ Ɨ̌ Ǒ Œ̌ Ɔ̌ Ǔ Ʉ̌ á é ɛ́ í ɨ́ ó œ́ ɔ́ ú ʉ́ â ê ɛ̂ î ɨ̂ ô œ̂ ɔ̂ û ǎ ě ɛ̌ ǐ ɨ̌ ǒ œ̌ ɔ̌ ǔ ʉ̌
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌̀ ◌́ ◌̂ ◌̌
     script: Latin
     status: primary
@@ -8684,6 +8873,8 @@ pil:
   - autonym: pila
     auxiliary: Ʋ ʋ
     base: A B C D E Ɛ Ǝ F G H I J K L M N Ŋ O Ɔ P Q S T U Ʊ V W Y Z a b c d e ɛ ǝ f g h i j k l m n ŋ o ɔ p q s t u ʊ v w y z
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     script: Latin
     status: primary
   source:
@@ -8773,13 +8964,13 @@ pnt:
     status: primary
   - autonym: Pontiakón
     base: A B C Ç Ğ D E F H İ I K L M N O P R S Ş T U Y X Z Þ a b c ç ğ d e f h i̇ i k l m n o p r s ş t u y x z þ
-    marks: ◌̆ ◌̧ ◌̇ ́◌
+    marks: ◌̆ ◌̧ ◌̇ ◌́
     preferred_as_group: true
     script: Latin
     status: primary
   - autonym: Понтиакá
     base: А В Г Д Е Ж З С И К Л М Н О П Р Ш Т Ц Ч У Ф Х а в г д е ж з с и к л м н о п р ш т ц ч у ф х
-    marks: ́◌
+    marks: ◌́
     preferred_as_group: true
     script: Cyrillic
     status: primary
@@ -8923,6 +9114,8 @@ pug:
   orthographies:
   - autonym: phuó
     base: A B Ɓ C D Ɗ E Ɛ F G H I Ɩ J K L M N Ɲ Ŋ O Ɔ P R S T U Ʋ V W Ⱳ Y Ƴ Za b ɓ c d ɗ e ɛ f g h i ɩ j k l m n ɲ ŋ o ɔ p r s t u ʋ v w ⱳ y ƴ z Ã Ẽ Ɛ̃ Ĩ Ɩ̃ Õ Ɔ̃ Ũ Ʋ̃ À È Ɛ̀ Ì Ɩ̀ Ò Ɔ̀ Ù Ʋ̀ Á É Ɛ́ Í Ɩ́ Ó Ɔ́ Ú Ʋ́ Ã̀ Ẽ̀ Ɛ̃̀ Ĩ̀ Ɩ̃̀ Õ̀ Ɔ̃̀ Ũ̀ Ʋ̃̀ Ã́ Ẽ́ Ɛ̃́ Ĩ́ Ɩ̃́ Ṍ Ɔ̃́ Ṹ Ʋ̃́ ã ẽ ɛ̃ ĩ ɩ̃ õ ɔ̃ ũ ʋ̃ à è ɛ̀ ì ɩ̀ ò ɔ̀ ù ʋ̀ á é ɛ́ í ɩ́ ó ɔ́ ú ʋ́ ã̀ ẽ̀ ɛ̃̀ ĩ̀ ɩ̃̀ õ̀ ɔ̃̀ ũ̀ ʋ̃̀ ã́ ẽ́ ɛ̃́ ĩ́ ɩ̃́ ṍ ɔ̃́ ṹ ʋ̃́
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌̀ ◌́ ◌̃
     script: Latin
     status: primary
@@ -9376,6 +9569,8 @@ sav:
   orthographies:
   - autonym: saafi-saafi
     base: A B C D E F G H I J K L M N O P R S T U W Y a b c d e f g h i j k l m n o p r s t u w y Ñ ñ Ŋ ŋ Ɓ Ɗ Ƴ ƴ ɓ ɗ ’
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌̃
     script: Latin
     status: primary
@@ -9391,6 +9586,8 @@ sbd:
   orthographies:
   - auxiliary: G H J Q Z g h j q z
     base: A B C D E Ɛ Ə F I K L M N Ŋ O Ɔ P R S T U W Y a b c d e ɛ ə f i k l m n ŋ o ɔ p r s t u w y À È Ɛ̀ Ə̀ Ì Ǹ Ò Ɔ̀ Ù À È Ì Ń Ò Ù Ǎ Ě Ə̌ Ɛ̌ Ǐ Ǒ Ɔ̌ Ǔ Ä Ë Ɛ̈ Ə̈ Ï Ö Ɔ̈ Ü Ã Ĩ Ɔ̃ Ũ à è ɛ̀ ə̀ ì ò ɔ̀ ù á é ɛ́ ə́ í ó ɔ́ ú ǎ ě ɛ̌ ə̌ ǐ ǒ ɔ̌ ǔ ä ë ɛ̈ ə̈ ï ö ɔ̈ ü ã ĩ ɔ̃ ũ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌̀ ◌́ ◌̌ ◌̈ ◌̃
     script: Latin
     status: primary
@@ -9506,6 +9703,8 @@ ses:
   orthographies:
   - autonym: Koyraboro Senni
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ã Õ Ŋ Š Ž Ɲ Ẽ a b c d e f g h i j k l m n o p q r s t u v w x y z ã õ ŋ š ž ɲ ẽ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌̃ ◌̌
     script: Latin
     status: primary
@@ -9566,6 +9765,8 @@ shk:
   orthographies:
   - autonym: Dhøg Cøllø
     base: A Ɛ E I Ɔ O Ø U W Y B C D G H J K L M N Ŋ P R T V Á À Ä É È Ë Í Ì Ï Ó Ö Ú Ù a ɛ e i ɔ o ø u w y b c d g h j k l m n ŋ p r t v á à ä é è ë í ì ï ó ö ú ù
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌̀ ◌́ ◌̈
     script: Latin
     status: primary
@@ -9622,6 +9823,8 @@ shz:
   orthographies:
   - autonym: syenara
     base: A B C D E F G H I J K L M N O P R S T U V W Y Z a b c d e f g h i j k l m n o p r s t u v w y z Ŋ ŋ Ɔ Ɛ Ɲ ɔ ɛ ɲ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     script: Latin
     status: primary
   source:
@@ -9668,6 +9871,8 @@ sje:
   orthographies:
   - autonym: Bidumsámegiella
     base: A B D E F G H I J K L M N O P R S T U V Á Ä Å Đ Ŋ Ŧ a b d e f g h i j k l m n o p r s t u v á ä å đ ŋ ŧ ʼ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌́ ◌̈ ◌̊
     script: Latin
     status: primary
@@ -9698,6 +9903,8 @@ sju:
   - autonym: Ubmejesámiengiälla
     auxiliary: Ū Ǖ ū ǖ
     base: A B D E F G H I J K L M N O P R S T U V Y Á Ä Å Ï Ö Ü Đ Ŋ Ŧ a b d e f g h i j k l m n o p r s t u v y á ä å ï ö ü đ ŋ ŧ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌́ ◌̄ ◌̈ ◌̊
     script: Latin
     status: primary
@@ -9743,6 +9950,8 @@ sld:
   orthographies:
   - autonym: sɩ́saalí
     base: A B Ɓ C D E Ɛ F G H I Ɩ J K L M N Ŋ O Ɔ P R S T U Ʋ V W Y Z a b ɓ c d e ɛ f g h i ɩ j k l m n ŋ o ɔ p r s t u ʋ v w y z Á É Ɛ́ Í Ɩ́ Ó Ɔ́ Ú Ʋ́ Ã Ẽ Ɛ̃ Ĩ Ɩ̃ Õ Ɔ̃ Ʋ̃ á é ɛ́ í ɩ́ ó ɔ́ ú ʋ́ ã ẽ ɛ̃ ĩ ɩ̃ õ ɔ̃ ʋ̃
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌́ ◌̃
     script: Latin
     status: primary
@@ -9803,6 +10012,8 @@ sme:
   orthographies:
   - autonym: Sámegiella
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á Ä Å Æ Ö Ø Č Đ Ŋ Š Ŧ Ž a b c d e f g h i j k l m n o p q r s t u v w x y z á ä å æ ö ø č đ ŋ š ŧ ž
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌́ ◌̈ ◌̊ ◌̌
     script: Latin
     status: primary
@@ -9823,6 +10034,8 @@ smj:
     status: deprecated
   - autonym: Julevusámegiella
     base: A B D E F G H I J K L M N O P R S T U V Á Ä Å Ŋ a b d e f g h i j k l m n o p r s t u v á ä å ŋ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌́ ◌̈ ◌̊
     script: Latin
     status: primary
@@ -9838,6 +10051,8 @@ smn:
   orthographies:
   - autonym: Anarâškielâ
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á Â Ä Å Ö Č Đ Ŋ Š Ž a b c d e f g h i j k l m n o p q r s t u v w x y z á â ä å ö č đ ŋ š ž
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌́ ◌̂ ◌̈ ◌̊ ◌̌
     script: Latin
     status: primary
@@ -9869,6 +10084,8 @@ sms:
   - autonym: Nuõrttsääʼmǩiõll
     auxiliary: Å Ö Ø å ö ø
     base: A B C D E F G H I J K L M N O P Q R S T U V X Y Z Â Ä Å Ö Õ Č Đ Ŋ Š Ž Ǥ Ǧ Ǩ Ǯ Ʒ a b c d e f g h i j k l m n o p q r s t u v x y z â ä å ö õ č đ ŋ š ž ǥ ǧ ǩ ǯ ʒ ʹ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌̂ ◌̃ ◌̈ ◌̊ ◌̌
     script: Latin
     status: primary
@@ -9928,6 +10145,8 @@ snf:
   orthographies:
   - autonym: noon
     base: A B C D E F G H I J K L M N O P R S T U W Y a b c d e f g h i j k l m n o p r s t u w y É Ë Í Ñ Ó Ú é ë í ñ ó ú Ŋ ŋ Ɓ Ɗ Ƴ ƴ ɓ ɗ ʼ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌́ ◌̈ ◌̃
     script: Latin
     status: primary
@@ -10000,6 +10219,8 @@ soy:
   orthographies:
   - autonym: mɛyɔ́pɛ
     base: A C E Ɛ F H I K L M N Ŋ O Ɔ P R S T U W Y Á É Í Ó Õ Ú Ĩ Ũ Ṍ Ṹ Ẽ a c e ɛ f h i k l m n ŋ o ɔ p r s t u w y á é í ó õ ú ĩ ũ ṍ ṹ ẽ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌́ ◌̃
     script: Latin
     status: primary
@@ -10112,6 +10333,8 @@ srr:
   orthographies:
   - autonym: Seereer
     base: A B Ɓ C Ƈ D Ɗ E F G H I J K L M N Ñ Ŋ O P Ƥ Q R S T Ƭ U W X Y Ƴ a b ɓ c ƈ d ɗ e f g h i j k l m n ñ ŋ o p ƥ q r s t ƭ u w x y ƴ '
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌̃
     script: Latin
     status: primary
@@ -10284,6 +10507,8 @@ sxw:
   - autonym: saxwɛgbe
     auxiliary: Q R q r
     base: A B C D Ɖ E Ɛ F G Ɣ H I J K L M N Ŋ O Ɔ P S T U V W X Y Z a b c d ɖ e ɛ f g ɣ h i j k l m n ŋ o ɔ p s t u v w x y z
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     script: Latin
     status: primary
   source:
@@ -10398,6 +10623,8 @@ tay:
   - autonym: Tayal
     auxiliary: Č Š Ž Ḳ č š ž ḳ
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ŋ Ə a b c d e f g h i j k l m n o p q r s t u v w x y z ŋ ə ’
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌̌ ◌̣
     script: Latin
     status: primary
@@ -10413,6 +10640,8 @@ tbz:
   orthographies:
   - autonym: ditammari
     base: A B C D Đ E Ɛ F H I K L M N Ŋ O Ɔ P R S T U W X Y Z À Á Ã È É Ì Í Ĩ Ḿ Ń Ǹ Ò Ó Ù Ú Ú Ũ a b c d đ e ɛ f h i k l m n ŋ o ɔ p r s t u w x y z à á ã è é ì í ĩ ḿ ń ǹ ò ó ù ú ú ũ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌́ ◌̀ ◌̃
     script: Latin
     status: primary
@@ -10474,6 +10703,8 @@ tem:
   orthographies:
   - autonym: KʌThemnɛ
     base: A Ʌ B D E Ɛ Ə F G H I K L M N Ŋ O Ɔ P R S T U W a ʌ b d e ɛ ə f g h i k l m n ŋ o ɔ p r s t u w
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     script: Latin
     status: primary
   source:
@@ -10488,6 +10719,8 @@ teo:
   - autonym: Ateso
     auxiliary: F Q Z f q z
     base: A B C D E G H I J K L M N O P R S T U V W X Y Ŋ a b c d e g h i j k l m n o p r s t u v w x y ŋ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     script: Latin
     status: deprecated
   - autonym: Atɛsɔ
@@ -10598,6 +10831,8 @@ tik:
   - autonym: lɛ̀ꞌ Tikarì
     auxiliary: Q q
     base: A Æ B Ɓ C D Ɗ Ɛ F G H I J K L M N Ŋ O P R S T U V W Y Z Ꞌ a b ɓ c d ɗ ɛ f g h j k l m n ŋ o p r s t u v w y z ꞌ À Æ̀ È Ɛ̀ Ì M̀ Ǹ Ŋ̀ Ò Ù Â Æ̂ Ê Ɛ̂ Î Ô Û Ǎ Æ̌ Ě Ɛ̌ Ǐ Ǒ Ǔ à æ̀ è ɛ̀ ì m̀ ǹ ŋ̀ ò ù â æ̂ ê ɛ̂ î ô û ǎ æ̌ ě ɛ̌ ǐ ǒ ǔ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌̀ ◌̂ ◌̌
     script: Latin
     status: primary
@@ -10717,6 +10952,8 @@ tnr:
   orthographies:
   - autonym: ménik
     base: A B C D E F G H I J K L M N O P R S T U W Y a b c d e f g h i j k l m n o p r s t u w y È É Ë Ñ Ó è é ë ñ ó Ŋ ŋ Ŝ ŝ Ɓ Ɗ Ƴ ƴ ɓ ɗ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌̀ ◌́ ◌̂ ◌̈ ◌̃
     script: Latin
     status: primary
@@ -10744,6 +10981,8 @@ tod:
   orthographies:
   - autonym: lɔgɔma
     base: A B D E F G I J K L M N O P S T U V W Y Z a b d e f g i j k l m n o p s t u v w y z Ŋ ŋ Ɓ Ɔ Ɗ Ǝ Ɛ Ɠ Ɲ Ʋ ǝ ɓ ɔ ɗ ɛ ɠ ɲ ʋ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     script: Latin
     status: primary
   source:
@@ -10873,6 +11112,8 @@ ttq:
   - autonym: Tawǝllǝmmǝt
     auxiliary: ʔ
     base: A B C D E F G H I J J̌ K L M N O Q R S T U W X Y Z a b c d e f g h i j k l m n o q r s t u w x y z Â Ê Î Ô Û â ê î ô û Ă ă Ŋ ŋ Š š Ǝ Ɣ ǝ Ǧ ǧ ǰ ɣ Ḍ ḍ Ḷ ḷ Ṣ ṣ Ṭ ṭ Ẓ ẓ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌̂ ◌̆ ◌̌ ◌̣
     script: Latin
     status: primary
@@ -11007,6 +11248,8 @@ twq:
   - autonym: Ingalkoyyu’
     auxiliary: V v
     base: A B C D E F G H I J K L M N O P Q R S T U W X Y Z Ã Õ Ŋ Š Ž Ɲ Ẽ a b c d e f g h i j k l m n o p q r s t u w x y z ã õ ŋ š ž ɲ ẽ ’
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌̃ ◌̌
     script: Latin
     status: primary
@@ -11456,6 +11699,8 @@ wci:
   orthographies:
   - autonym: wacigbe
     base: A B C D Ɖ E Ɛ F Ƒ G Ɣ H X I J K L M N Ŋ Ɔ P S T U Ʋ V W Y Z a b c d ɖ e ɛ f ƒ g ɣ h x i j k l m n ŋ ɔ p s t u ʋ v w y z
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     script: Latin
     status: primary
   source:
@@ -11540,6 +11785,8 @@ wol:
   orthographies:
   - autonym: Wolof
     base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Ã É Ë Ñ Ó Ŋ a b c d e f g h i j k l m n o p q r s t u v w x y z à ã é ë ñ ó ŋ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌̀ ◌́ ◌̃ ◌̈
     script: Latin
     status: primary
@@ -11596,7 +11843,9 @@ wwa:
   orthographies:
   - autonym: Yoabu
     base: A B C D E Ɛ F I K M N Ŋ O Ɔ P R S T U W Y a b c d e ɛ f i k m n ŋ o ɔ p r s t u w y
-    note: ‹Ŋ,ŋ› is not included in CENALA 1990 nor CENALA 2008 but is included in Hartell 1993 and is used in https://www.webonary.org/waama/ or the Waama Bible translation published in Wycliffe 1994.
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
+    note: Ŋ/ŋ are not included in CENALA 1990 nor CENALA 2008 but are included in Hartell 1993 and are used in https://www.webonary.org/waama/ or the Waama Bible translation published in Wycliffe 1994.
     script: Latin
     status: primary
   source:
@@ -11786,6 +12035,8 @@ xsm:
   - autonym: kasɩm
     auxiliary: Ə ə
     base: A Ǝ B C D E Ɛ F G H I Ɩ J K L M N Ŋ O Ɔ P R S T U Ʋ V W Y Z a ǝ b c d e ɛ f g h i ɩ j k l m n ŋ o ɔ p r s t u ʋ v w y z
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     note: The Bureau of Ghana Languages 1976 orthography did not use Ǝ Ɩ Ʋ ǝ ɩ ʋ.
     script: Latin
     status: primary
@@ -11803,6 +12054,8 @@ xwe:
   orthographies:
   - autonym: xwelagbe
     base: A B C D Ɖ E Ɛ F G Ɣ H X I J K L M N Ŋ Ɔ P S T U V W Y Z a b c d ɖ e ɛ f g ɣ h x i j k l m n ŋ ɔ p s t u v w y z
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     script: Latin
     status: primary
   source:
@@ -11873,6 +12126,8 @@ yav:
   - autonym: Nuasue
     auxiliary: J Q R X Z j q r x z
     base: A B C D E F G H I K L M N O P S T U V W Y À Á Â È É Ì Í Î Ò Ó Ô Ù Ú Û Ā Ī Ŋ Ō Ū Ǎ Ǒ Ǔ Ɔ Ɛ a b c d e f g h i k l m n o p s t u v w y à á â è é ì í î ò ó ô ù ú û ā ī ŋ ō ū ǎ ǒ ǔ ɔ ɛ
+    design_requirements:
+    - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
     marks: ◌̀ ◌́ ◌̂ ◌̄ ◌̌
     script: Latin
     status: primary
