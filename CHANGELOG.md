@@ -4,6 +4,7 @@
 - DATA: Added languages and scripts for: Ainu, Akkadian, Ancient Egyptian, Mycenaean Greek, Linear A, Linear B, Minoan, Pontic Greek, Okinawan, Sumerian, Klingon, Minaen, Hadramautic, Qatabanian and Sabaean (big thanks to @gusbemacbe !)
 - DATA: Added Kayah autonym
 - DATA: Added design requirement note for `Ŋ`
+- DATA: Improved Georgian, added Mtavruli and auxiliary
 
 ## 0.4.4 (10.12.2022)
 - FIX: Fixed orthography of Thai to not require `◌̍ ◌̎` in base checks
