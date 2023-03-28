@@ -24,7 +24,7 @@ aaq:
   - Omniglot
   - Wikipedia
   speakers: 0
-  status: extinct
+  status: historical
   validity: preliminary
 aar:
   name: Afar
@@ -601,7 +601,7 @@ akk:
     status: primary
   source:
   - Wikipedia
-  status: extinct
+  status: historical
   validity: preliminary
 ale:
   name: Aleut
@@ -2632,7 +2632,7 @@ chu:
   - Wikipedia
   - CLDR
   speakers: 0
-  status: ancient
+  status: historical
   validity: verified
 chv:
   name: Chuvash
@@ -3669,7 +3669,7 @@ egy:
     status: primary
   source:
   - Wikipedia
-  status: extinct
+  status: historical
   validity: preliminary
 ekk:
   name: Standard Estonian
@@ -6699,7 +6699,7 @@ lat:
   - CLDR
   - Alvestrand
   speakers: 0
-  status: ancient
+  status: historical
   validity: preliminary
 lbe:
   name: Lak
@@ -6804,7 +6804,7 @@ linb:
     status: primary
   source:
   - Wikipedia
-  status: extinct
+  status: historical
   validity: preliminary
 lit:
   name: Lithuanian
@@ -8580,7 +8580,7 @@ omn:
     status: primary
   source:
   - Wikipedia
-  status: extinct
+  status: historical
   validity: preliminary
 onw:
   name: Old Nubian
@@ -8595,7 +8595,7 @@ onw:
     status: primary
   source:
   - Wikipedia
-  status: extinct
+  status: historical
   validity: verified
 orc:
   name: Orma
@@ -10420,7 +10420,7 @@ sux:
     status: primary
   source:
   - Wikipedia
-  status: extinct
+  status: historical
   validity: preliminary
 sva:
   name: Svan
@@ -11908,7 +11908,7 @@ xha:
     status: primary
   source:
   - Wikipedia
-  status: extinct
+  status: historical
   validity: preliminary
 xhd:
   name: Hadramautic
@@ -11918,7 +11918,7 @@ xhd:
     status: primary
   source:
   - Wikipedia
-  status: extinct
+  status: historical
   validity: preliminary
 xho:
   name: Xhosa
@@ -12001,7 +12001,7 @@ xqt:
     status: primary
   source:
   - Wikipedia
-  status: extinct
+  status: historical
   validity: preliminary
 xrg:
   name: Minang
@@ -12028,7 +12028,7 @@ xsa:
     status: primary
   source:
   - Wikipedia
-  status: extinct
+  status: historical
   validity: preliminary
 xsm:
   name: Kasem
