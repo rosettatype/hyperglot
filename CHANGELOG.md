@@ -5,6 +5,7 @@
 - DATA: Added Kayah autonym
 - DATA: Added design requirement note for `Ŋ`
 - DATA: Improved Georgian, added Mtavruli and auxiliary
+- DATA: Added historical orthographies for German and English that use `ſ`
 
 ## 0.4.4 (10.12.2022)
 - FIX: Fixed orthography of Thai to not require `◌̍ ◌̎` in base checks
