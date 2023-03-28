@@ -1,6 +1,6 @@
 # A changelog for the lib/hyperglot CLI tool
 
-## 0.4.5 ()
+## 0.4.5 (28.3.2023)
 - DATA: Added languages and scripts for: Ainu, Akkadian, Ancient Egyptian, Mycenaean Greek, Linear A, Linear B, Minoan, Pontic Greek, Okinawan, Sumerian, Klingon, Minaen, Hadramautic, Qatabanian and Sabaean (big thanks to @gusbemacbe !)
 - DATA: Added Kayah autonym
 - DATA: Added design requirement note for `Ŋ`
