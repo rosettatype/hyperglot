@@ -7,8 +7,8 @@ from collections import OrderedDict
 from fontTools.ttLib import TTFont
 from . import (__version__, SORTING_DIRECTIONS, DB, SUPPORTLEVELS,
                VALIDITYLEVELS, CHARACTER_ATTRIBUTES, MARK_BASE, SORTING)
-from .languages import Languages
-from .language import Language, is_mark
+from .languages import Languages, find_language
+from .language import Language, Orthography, is_mark
 from .validate import validate
 from .parse import (list_unique, parse_font_chars, parse_marks)
 
@@ -79,12 +79,16 @@ def language_list(langs, native=False, speakers=False, script=None,
     return seperator.join(items)
 
 
-def print_to_cli(font, title, autonyms, speakers, strict_iso):
+def print_title(title):
     print()
     print("=" * len(title))
     print(title)
     print("=" * len(title))
     print()
+
+
+def print_to_cli(font, title, autonyms, speakers, strict_iso):
+    print_title(title)
     total = 0
     for script in font:
         count = len(font[script])
@@ -251,6 +255,9 @@ MODES = ["individual", "union", "intersection"]
               "individually. 'union' shows support for all languages "
               "supported by the combination of the passed in fonts. "
               "'intersection' shows the support all fonts have in common.")
+@click.option("-l", "--languages", default="", 
+              help="Pass in one or more comma-separated language names or ISO "
+              "code to output a detailed support report for this font.")
 @click.option("--include-all-orthographies", is_flag=True, default=False,
               help="Flag to show all otherwise ignored orthographies of a "
               "language.")
@@ -268,6 +275,7 @@ MODES = ["individual", "union", "intersection"]
 def cli(fonts, support, decomposed, marks, validity, autonyms, speakers,
         sorting, sort_dir,
         output, comparison,
+        languages,
         include_all_orthographies, include_historical, include_constructed,
         strict_iso, verbose, version):
     """
@@ -347,6 +355,23 @@ def cli(fonts, support, decomposed, marks, validity, autonyms, speakers,
 
     if output:
         write_yaml(output, data)
+
+    if languages:
+        print_title("Language check:")
+        languages = [l.strip() for l in languages.split(",") if l.strip() != ""]  # noqa
+
+        for f in fonts:
+            chars = parse_font_chars(f)
+            for s in languages:
+                res, msg = find_language(s)
+                for r in res:
+                    print(f"Listing full support information for {r.get_name()}")
+                    print()
+                    if "orthographies" not in r:
+                        continue
+                    for o in r["orthographies"]:
+                        ort = Orthography(o)
+                        print(ort.diff(chars))
 
 
 def save_sorted(Langs=None, run_validation=True):
@@ -440,53 +465,12 @@ def data(search):
     Hyperglot data for it
     """
     print()
-    print(f"Hyperglot data for {search}:")
+    print_title(f"Hyperglot data for '{search}':")
 
     search = search.lower().strip()
 
-    hg = Languages(validity=VALIDITYLEVELS[0])
+    hits, msg = find_language(search)
 
-    # Search as 3-letter iso code, return if matched
-    if search in hg.keys():
-        print(f"Matched from iso code {search}:")
-        print()
-        print(getattr(hg, search).presentation)
-        return
-
-    # Search from language names and autonyms
-    # If a single match is a full 1=1 match return that
-    # If a single match is a partial match, return iso and prompt with info
-    # If more than one are found, return a list of isos as prompt
-
-    matches = {}
-    for iso in hg.keys():
-        lang = getattr(hg, iso)
-        name = lang.get_name().lower()
-        aut = lang.get_autonym()
-        autonyms = [] if not aut else [aut.lower()]
-        if "orthographies" in lang:
-            for o in lang["orthographies"]:
-                if "autonym" in o:
-                    autonyms.append(o["autonym"].lower())
-
-        if search == name or search in autonyms:
-            print(f"Matched from name match for {search}:")
-            print()
-            print(lang.presentation)
-            return
-
-        # For now lets not do any fancy input proximity checks, just partials
-        if search in name or (autonyms != [] and len([a for a in autonyms if search in a]) > 0):
-            matches[iso] = lang
-
-    if len(matches) == 1:
-        print(f"Matched for search string {search}")
-        print()
-        print(list(matches.values())[0].presentation)
-        return
-    elif len(matches) > 1:
-        print("Found several languages matching {search}:")
-        print()
-        print("\n".join(["%s: %s" % (iso, lang.get_name()) for iso, lang in matches.items()]))  # noqa
-        print()
-        print("Narrow your search (by iso code) for one of these results.")
+    print(msg)
+    for h in hits:
+        print(h.presentation)

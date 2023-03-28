@@ -10,6 +10,46 @@ log = logging.getLogger(__name__)
 log.setLevel(logging.WARNING)
 
 
+def find_language(search):
+    """
+    Utility method to find a language by ISO code or language name
+    """
+
+    hg = Languages(validity=VALIDITYLEVELS[0])
+
+    # Search as 3-letter iso code, return if matched
+    if search in hg.keys():
+        return [getattr(hg, search)], f"Matched from iso code {search}:"
+
+    # Search from language names and autonyms
+    # If a single match is a full 1=1 match return that
+    # If a single match is a partial match, return iso and prompt with info
+    # If more than one are found, return a list of isos as prompt
+
+    matches = {}
+    for iso in hg.keys():
+        lang = getattr(hg, iso)
+        name = lang.get_name().lower()
+        aut = lang.get_autonym()
+        autonyms = [] if not aut else [aut.lower()]
+        if "orthographies" in lang:
+            for o in lang["orthographies"]:
+                if "autonym" in o:
+                    autonyms.append(o["autonym"].lower())
+
+        if search == name or search in autonyms:
+            return [lang], f"Matched from name match for {search}:"
+
+        # For now let's not do any fancy input proximity checks, just partials
+        if search in name or (autonyms != [] and len([a for a in autonyms if search in a]) > 0):
+            matches[iso] = lang
+
+    if len(matches) > 0:
+        return matches.values(), f"Matched for search string {search}"
+
+    return False, ""
+
+
 class Languages(dict):
     """
     A dict wrapper around the language data yaml file with additional querying

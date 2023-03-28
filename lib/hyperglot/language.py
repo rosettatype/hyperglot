@@ -266,7 +266,7 @@ validity: {validity}
                              if "status" in o and o["status"] == "primary"]
 
         if not checkAllOrthographies:
-            # Note the .copy() here since we manipulate the attribute ll.256
+            # Note the .copy() here since we manipulate the attribute
             # and do not want to alter the original
             as_group = [o.copy() for o in orthographies
                         if "preferred_as_group" in o]
@@ -388,11 +388,47 @@ auxiliary marks: {aux_marks}
 script: {script}
 status: {status}
 note: {note}"""
-        return tpl.format(autonym=self["autonym"],
+        return tpl.format(autonym=self["autonym"] if "autonym" in self else "",
                           base_chars=" ".join(self.base_chars),
                           base_marks=" ".join(self.base_marks),
                           aux_chars=" ".join(self.auxiliary_chars),
                           aux_marks=" ".join(self.auxiliary_marks),
+                          script="" if "script" not in self else self["script"],  # noqa
+                          status="" if "status" not in self else self["status"],  # noqa
+                          note="" if "note" not in self else self["note"])
+
+    def diff(self, chars):
+        """
+        Output a presentation that highlights found and missing chars
+        """
+        tpl = """autonym: {autonym}
+supported base characters: {base_chars}
+supported base marks: {base_marks}
+supported auxiliary characters: {aux_chars}
+supported auxiliary marks: {aux_marks}
+missing base characters: {base_chars_missing}
+missing base marks: {base_marks_missing}
+missing auxiliary characters: {aux_chars_missing}
+missing auxiliary marks: {aux_marks_missing}
+script: {script}
+status: {status}
+note: {note}
+"""
+
+        # base_chars_missing = " ".join([c for c in self.base_chars if c not in chars])
+        # base_marks_missing = " ".join([c for c in self.base_marks if c not in chars])
+        # aux_chars_missing = " ".join([c for c in self.auxiliary_chars if c not in chars])
+        # aux_marks_missing = " ".join([c for c in self.auxiliary_marks if c not in chars])
+
+        return tpl.format(autonym=self["autonym"] if "autonym" in self else "",
+                          base_chars=" ".join([c for c in self.base_chars if c in chars]),
+                          base_chars_missing=" ".join([ c for c in self.base_chars if c not in chars]),
+                          base_marks=" ".join([c for c in self.base_marks if c in chars]),
+                          base_marks_missing=" ".join([ c for c in self.base_marks if c not in chars]),
+                          aux_chars=" ".join([c for c in self.auxiliary_chars if c in chars]),
+                          aux_chars_missing=" ".join([ c for c in self.auxiliary_chars if c not in chars]),
+                          aux_marks=" ".join([c for c in self.auxiliary_marks if c in chars]),
+                          aux_marks_missing=" ".join([ c for c in self.auxiliary_marks if c not in chars]),
                           script="" if "script" not in self else self["script"],  # noqa
                           status="" if "status" not in self else self["status"],  # noqa
                           note="" if "note" not in self else self["note"])
