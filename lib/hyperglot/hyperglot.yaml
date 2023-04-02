@@ -7070,7 +7070,7 @@ lzz:
   name: Laz
   orthographies:
   - autonym: ლაზური
-    base: ა ბ გ დ ე ვ ზ თ ი კ ლ მ ნ ჲ ო ო̈ პ ჟ რ ს ტ ჳ/უ̂ უ უ̈ ფ ქ ღ ყ შ ჩ ც ძ წ ჭ ხ ჯ ჰ ჶ ჸ ჷ Ა Ბ Გ Დ Ე Ვ Ზ Თ Ი Კ Ლ Მ Ნ Ჲ Ო Ო̈ Პ Ჟ Რ Ს Ტ Ჳ/Უ̂ Უ Უ̈ Ფ Ქ Ღ Ყ Შ Ჩ Ც Ძ Წ Ჭ Ხ Ჯ Ჰ Ჶ Ჸ Ჷ
+    base: ა ბ გ დ ე ვ ზ თ ი კ ლ მ ნ ჲ ო ო̈ პ ჟ რ ს ტ ჳ უ̂ უ უ̈ ფ ქ ღ ყ შ ჩ ც ძ წ ჭ ხ ჯ ჰ ჶ ჸ ჷ Ა Ბ Გ Დ Ე Ვ Ზ Თ Ი Კ Ლ Მ Ნ Ჲ Ო Ო̈ Პ Ჟ Რ Ს Ტ Ჳ Უ̂ Უ Უ̈ Ფ Ქ Ღ Ყ Შ Ჩ Ც Ძ Წ Ჭ Ხ Ჯ Ჰ Ჶ Ჸ Ჷ
     design_requirements:
     - The character set includes Mkhedruli (lowercase letters) and Mtavruli (capital letters, added to Unicode in 2018). It is recommended that font developers supporting contemporary use of the Georgian language include both sets of letters.
     marks: ◌̈ ◌̂
