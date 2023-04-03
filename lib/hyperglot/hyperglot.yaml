@@ -7070,9 +7070,9 @@ lzz:
   name: Laz
   orthographies:
   - autonym: ლაზური
-    base: Ა Ბ Გ Დ Ე Ვ Ზ Თ Ი Კ Ლ Მ Ნ Ო Პ Ჟ Რ Ს Ტ Უ Ფ Ქ Ღ Ყ Შ Ჩ Ც Ძ Წ Ჭ Ხ Ჯ Ჰ ო̈ ჳ/უ̂ უ̈ ჲ ჶ ჸ ჷ
+    base: ა ბ გ დ ე ვ ზ თ ი კ ლ მ ნ ჲ ო ო̈ პ ჟ რ ს ტ ჳ უ̂ უ უ̈ ფ ქ ღ ყ შ ჩ ც ძ წ ჭ ხ ჯ ჰ ჶ ჸ ჷ Ა Ბ Გ Დ Ე Ვ Ზ Თ Ი Კ Ლ Მ Ნ Ჲ Ო Ო̈ Პ Ჟ Რ Ს Ტ Ჳ Უ̂ Უ Უ̈ Ფ Ქ Ღ Ყ Შ Ჩ Ც Ძ Წ Ჭ Ხ Ჯ Ჰ Ჶ Ჸ Ჷ
     design_requirements:
-    - The character set includes Georgian Mkhedruli (lowercase letters) and additional letters used in Laz language.
+    - The character set includes Mkhedruli (lowercase letters) and Mtavruli (capital letters, added to Unicode in 2018). It is recommended that font developers supporting contemporary use of the Georgian language include both sets of letters.
     marks: ◌̈ ◌̂
     script: Georgian
     status: primary
@@ -10440,9 +10440,9 @@ sva:
   name: Svan
   orthographies:
   - autonym: ლუშნუ
-    base: Ა Ბ Გ Დ Ე Ვ Ზ Თ Ი Კ Ლ Მ Ნ Ო Პ Ჟ Რ Ს Ტ Უ Ფ Ქ Ღ Ყ Შ Ჩ Ც Ძ Წ Ჭ Ხ Ჯ Ჰ ა̄ ა̈ ა̄̈ ე̄ ი̄ ო̄ ო̈ ო̄̈ უ̄ უ̈ უ̄̈ ჶ ჱ ჲ ჳ ჳი ჳე ჴ ჸ ჷ
+    base: ა ა̄ ა̈ ა̄̈ ბ გ დ ე ე̄ ვ ზ თ ი ი̄ კ ლ მ ნ ო ო̄ ო̈ ო̄̈ პ ჟ რ ს ტ უ უ̄ უ̈ უ̄̈ ფ ქ ღ ყ შ ჩ ც ძ წ ჭ ხ ჯ ჶ ჱ ჲ ჰ ჳ ჴ ჸ ჷ Ა Ა̄ Ა̈ Ა̄̈ Ბ Გ Დ Ე Ე̄ Ვ Ზ Თ Ი Ი̄ Კ Ლ Მ Ნ Ო Ო̄ Ო̈ Ო̄̈ Პ Ჟ Რ Ს Ტ Უ Უ̄ Უ̈ Უ̄̈ Ფ Ქ Ღ Ყ Შ Ჩ Ც Ძ Წ Ჭ Ხ Ჯ Ჶ Ჱ Ჲ Ჰ Ჳ Ჴ Ჸ Ჷ
     design_requirements:
-    - The character set includes Georgian Mkhedruli (lowercase letters) and additional letters used in Svan language.
+    - The character set includes Mkhedruli (lowercase letters) and Mtavruli (capital letters, added to Unicode in 2018). It is recommended that font developers supporting contemporary use of the Georgian language include both sets of letters.
     marks: ◌̈ ◌̄
     script: Georgian
     status: primary
@@ -11952,9 +11952,9 @@ xmf:
   name: Mingrelian
   orthographies:
   - autonym: მარგალური
-    base: Ა Ბ Გ Დ Ე Ვ Ზ Თ Ი Კ Ლ Მ Ნ Ო Პ Ჟ Რ Ს Ტ Უ Ფ Ქ Ღ Ყ Შ Ჩ Ც Ძ Წ Ჭ Ხ Ჯ Ჰ ჲ ჸ ჷ
+    base: ა ბ გ დ ე ვ ზ თ ი კ ლ მ ნ ჲ ო პ ჟ რ ს ტ უ ჷ ფ ქ ღ ყ ჸ შ ჩ ც ძ წ ჭ ხ ჯ ჰ Ა Ბ Გ Დ Ე Ვ Ზ Თ Ი Კ Ლ Მ Ნ Ჾ Ო Პ Ჟ Რ Ს Ტ Უ Ჷ Ფ Ქ Ღ Ყ Ჸ Შ Ჩ Ც Ძ Წ Ჭ Ხ Ჯ Ჰ
     design_requirements:
-    - The character set includes Georgian Mkhedruli (lowercase letters) and additional letters used in Mingrelian language.
+    - The character set includes Mkhedruli (lowercase letters) and Mtavruli (capital letters, added to Unicode in 2018). It is recommended that font developers supporting contemporary use of the Georgian language include both sets of letters.
     script: Georgian
     status: primary
   source:
