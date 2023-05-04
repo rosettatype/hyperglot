@@ -10319,7 +10319,8 @@ srp:
     design_alternates: б ◌̆
     design_requirements:
     - Correct positioning of an acute mark above vowel characters may be required.
-    - The form of the Cyrillic breve mark (marked in the previews) differs from the Latin-script breve that is associated with the same Unicode codepoint. - In italic, some characters (marked in the previews) use a form that differs from the defaults associated with the Unicode codepoints (typically the Russian form of Cyrillic).
+    - The form of the Cyrillic breve mark (marked in the previews) differs from the Latin-script breve that is associated with the same Unicode codepoint.
+    - In italic, some characters (marked in the previews) use a form that differs from the defaults associated with the Unicode codepoints (typically the Russian form of Cyrillic).
     marks: ◌́
     preferred_as_group: true
     script: Cyrillic
