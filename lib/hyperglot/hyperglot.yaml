@@ -3015,7 +3015,7 @@ crh:
     script: Cyrillic
     status: primary
   - autonym: Qırımtatar
-    base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ç Ñ Ö Ü Ğ Ş a b c d e f g h i j k l m n o p q r s t u v w x y z ç ñ ö ü ğ ş ı
+    base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ç Ñ Ö Ü Ğ Ş a b c d e f g h i j k l m n o p q r s t u v w x y z ç ñ ö ü ğ ş İ ı
     marks: ◌̃ ◌̆ ◌̈ ◌̧
     note: Adopted in 1997 based on Common Turkic Alphabet.
     script: Latin
