@@ -4,6 +4,7 @@
 - FEATURE: Added `-l/--language` flag to show supported/not supported glyphs of a font for specific languages
 - DATA: Restructured `hyperglot.yaml` into individual files for each language in `hyperglot/data/xxx/xxx.yaml`
 - DATA: Fix two auxiliary glyphs in Georgian which where swapped uppercase / lowercase by mistake
+- DATA: Small charset fixes to Kom `bkm` and Southern Samo `sbd` (thanks @moyogo)
 
 ## 0.4.5 (28.3.2023)
 - DATA: Added languages and scripts for: Ainu, Akkadian, Ancient Egyptian, Mycenaean Greek, Linear A, Linear B, Minoan, Pontic Greek, Okinawan, Sumerian, Klingon, Minaen, Hadramautic, Qatabanian and Sabaean (big thanks to @gusbemacbe !)
