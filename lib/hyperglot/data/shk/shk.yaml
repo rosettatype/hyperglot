@@ -1,0 +1,15 @@
+name: Shilluk
+orthographies:
+- autonym: Dhøg Cøllø
+  base: A Ɛ E I Ɔ O Ø U W Y B C D G H J K L M N Ŋ P R T V Á À Ä É È Ë Í Ì Ï Ó Ö Ú Ù a ɛ e i ɔ o ø u w y b c d g h j k l m n ŋ p r t v á à ä é è ë í ì ï ó ö ú ù
+  design_requirements:
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  marks: ◌̀ ◌́ ◌̈
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 175000
+speakers_date: 1982
+validity: preliminary

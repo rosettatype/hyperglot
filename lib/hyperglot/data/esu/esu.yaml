@@ -1,0 +1,15 @@
+name: Central Yupik
+orthographies:
+- autonym: Yupʼik
+  base: A C G I K L M N P Q R S T U V W Y Ń Ə Ḿ a c g i k l m n p q r s t u v w y ń ə ḿ u͡g u͡r ʼ
+  marks: ◌́ ◌͡
+  script: Latin
+  status: primary
+preferred_name: Central Alaskan Yupik
+source:
+- Wikipedia
+- Omniglot
+speakers: 10000
+speakers_date: 2010
+status: living
+validity: preliminary

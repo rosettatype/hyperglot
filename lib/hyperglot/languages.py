@@ -1,6 +1,7 @@
 """
 Helper classes to work with the rosetta.yaml data in more pythonic way
 """
+import os
 import yaml
 import logging
 from .language import Language
@@ -16,6 +17,8 @@ def find_language(search):
     """
 
     hg = Languages(validity=VALIDITYLEVELS[0])
+
+    search = search.lower()
 
     # Search as 3-letter iso code, return if matched
     if search in hg.keys():
@@ -41,7 +44,8 @@ def find_language(search):
             return [lang], f"Matched from name match for {search}:"
 
         # For now let's not do any fancy input proximity checks, just partials
-        if search in name or (autonyms != [] and len([a for a in autonyms if search in a]) > 0):
+        search_in_autonym = len([a for a in autonyms if search in a]) > 0
+        if search in name or search_in_autonym:
             matches[iso] = lang
 
     if len(matches) > 0:
@@ -66,19 +70,23 @@ class Languages(dict):
             "verified". Defaults to "draft" — all languages with basic
             information, but possibly unconfirmed.
         """
-        with open(DB, "rb") as f:
-            data = yaml.load(f, Loader=yaml.Loader)
-            self.update(data)
 
-            if inherit:
-                self.inherit_orthographies_from_macrolanguage()
-                self.inherit_orthographies()
+        # Load raw yaml data for all languages
+        for iso in os.listdir(DB):
+            db = os.path.join(DB, iso, f"{iso}.yaml")
+            with open(db, "rb") as f:
+                data = yaml.load(f, Loader=yaml.Loader)
+                self[iso] = data
 
-            if not strict:
-                self.lax_macrolanguages()
+        if inherit:
+            self.inherit_orthographies_from_macrolanguage()
+            self.inherit_orthographies()
 
-            self.filter_by_validity(validity)
-            self.set_defaults()
+        if not strict:
+            self.lax_macrolanguages()
+
+        self.filter_by_validity(validity)
+        self.set_defaults()
 
     def __repr__(self):
         return "Languages DB dict with '%d' languages" % len(self.keys())

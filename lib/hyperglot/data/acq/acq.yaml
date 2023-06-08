@@ -1,0 +1,14 @@
+name: Ta'izzi-Adeni Arabic
+orthographies:
+- autonym: يمني
+  inherit: arb
+  script: Arabic
+  status: primary
+preferred_name: Ta’izzi-Adeni Arabic
+source:
+- Wikipedia
+- Textbook
+speakers: 10480000
+speakers_date: 2015-2016
+status: living
+validity: preliminary

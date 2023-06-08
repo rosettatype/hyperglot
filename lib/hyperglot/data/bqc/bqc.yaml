@@ -1,0 +1,13 @@
+name: Boko (Benin)
+orthographies:
+- autonym: boo
+  base: A B D E Ɛ F G I K L M N O Ɔ P R S T U V W Y Z À Á Ã È É Ì Í Ĩ Ò Ó Ù Ú Ũ a b d e ɛ f g i k l m n o ɔ p r s t u v w y z à á ã è é ì í ĩ ò ó ù ú ũ
+  marks: ◌́ ◌̀ ◌̌ ◌̃
+  script: Latin
+  status: primary
+source:
+- Wikipedia
+- Centre national de linguistique appliquée (C.E.N.A.L.A.), Alphabet des langues nationales béninoises, 2008, p. 11-12.
+speakers: 150000
+speakers_date: 2012
+validity: preliminary

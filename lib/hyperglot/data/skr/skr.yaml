@@ -1,0 +1,15 @@
+name: Saraiki
+orthographies:
+- autonym: سرائیکی
+  base: ا ب ٻ پ ت ٹ ث ج ڄ چ ح خ د ڊ ڈ ݙ ذ ر ڑ ز ژ س ش ص ض ط ظ ع غ ف ق ک گ ڳ ل م ن ݨ و ہ ھ ء ی ے ي
+  design_requirements:
+  - Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
+  marks: ◌ٔ
+  script: Arabic
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 26000000
+speakers_date: 2017
+validity: preliminary

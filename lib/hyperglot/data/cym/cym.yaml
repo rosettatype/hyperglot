@@ -1,0 +1,15 @@
+name: Welsh
+orthographies:
+- autonym: Cymraeg
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Á Â Ä È É Ê Ë Ì Í Î Ï Ò Ó Ô Ö Ù Ú Û Ü Ý Ÿ Ŵ Ŷ Ẁ Ẃ Ẅ Ỳ a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ä è é ê ë ì í î ï ò ó ô ö ù ú û ü ý ÿ ŵ ŷ ẁ ẃ ẅ ỳ
+  marks: ◌̀ ◌́ ◌̂ ◌̈
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+- CLDR
+speakers: 700000
+speakers_date: 2012
+status: living
+validity: preliminary

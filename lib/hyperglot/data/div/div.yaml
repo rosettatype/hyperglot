@@ -1,0 +1,13 @@
+name: Dhivehi
+orthographies:
+- autonym: ދިވެހި
+  base: އ ކ ޅ ބ ރ ނ ށ ހ ޏ ގ ލ ތ ދ ފ މ ވ ޗ ޖ ޕ ޔ ޓ ޒ ޑ ސ ޱ ‎
+  marks: ◌ަ ◌ާ ◌ި ◌ީ ◌ު ◌ޫ ◌ެ ◌ޭ ◌ޮ ◌ޯ ◌ް
+  script: Thaana
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 340000
+speakers_date: 2012
+validity: preliminary

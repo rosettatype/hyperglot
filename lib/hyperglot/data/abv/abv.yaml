@@ -1,0 +1,13 @@
+name: Baharna Arabic
+orthographies:
+- autonym: بحراني
+  inherit: arb
+  script: Arabic
+  status: primary
+source:
+- Wikipedia
+- Omniglot
+speakers: 730000
+speakers_date: 2001-2013
+status: living
+validity: preliminary

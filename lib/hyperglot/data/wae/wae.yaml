@@ -1,0 +1,15 @@
+name: Walser
+orthographies:
+- autonym: Walscher
+  auxiliary: À Â Å Æ Ç È Ê Ë Ì Î Ï Ñ Ò Ô Ø Ù Û Ÿ Ā Ă Ē Ĕ Ī Ĭ Ō Ŏ Œ Ū Ŭ ß à â å æ ç è ê ë ì î ï ñ ò ô ø ù û ÿ ā ă ē ĕ ī ĭ ō ŏ œ ū ŭ
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á Ã Ä É Í Ó Õ Ö Ú Ü Č Š Ũ a b c d e f g h i j k l m n o p q r s t u v w x y z á ã ä é í ó õ ö ú ü č š ũ
+  marks: ◌́ ◌̃ ◌̈ ◌̌ ◌̀ ◌̂ ◌̄ ◌̆ ◌̊ ◌̧
+  script: Latin
+  status: primary
+source:
+- Wikipedia
+- CLDR
+speakers: 22780
+speakers_date: 2004
+status: living
+validity: verified

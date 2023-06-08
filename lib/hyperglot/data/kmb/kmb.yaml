@@ -1,0 +1,11 @@
+name: Kimbundu
+orthographies:
+- base: A B D E F H I J K L M N O P S T U V X Z a b d e f h i j k l m n o p s t u v x z
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 2100000
+speakers_date: 2014
+validity: preliminary

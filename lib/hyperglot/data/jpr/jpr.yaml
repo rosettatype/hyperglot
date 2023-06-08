@@ -1,0 +1,9 @@
+name: Judeo-Persian
+orthographies:
+- inherit: heb
+  script: Hebrew
+  status: primary
+speakers: 60000
+speakers_date: 1995
+status: living
+validity: draft

@@ -1,0 +1,17 @@
+name: Laz
+orthographies:
+- autonym: ლაზური
+  base: Ა Ბ Გ Დ Ე Ვ Ზ Თ Ი Კ Ლ Მ Ნ Ო Პ Ჟ Რ Ს Ტ Უ Ფ Ქ Ღ Ყ Შ Ჩ Ც Ძ Წ Ჭ Ხ Ჯ Ჰ ო̈ ჳ/უ̂ უ̈ ჲ ჶ ჸ ჷ
+  design_requirements:
+  - The character set includes Georgian Mkhedruli (lowercase letters) and additional letters used in Laz language.
+  marks: ◌̈ ◌̂
+  script: Georgian
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+- Ethnologue
+speakers: 22000
+speakers_date: 2007
+status: living
+validity: verified

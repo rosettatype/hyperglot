@@ -1,0 +1,16 @@
+name: Kabyle
+orthographies:
+- autonym: Taqbaylit
+  auxiliary: O V o v
+  base: A B C D E F G H I J K L M N P Q R S T U W X Y Z Č Ǧ Ɛ Ɣ Ḍ Ḥ Ṛ Ṣ Ṭ Ẓ a b c d e f g h i j k l m n p q r s t u w x y z č ǧ ɛ ɣ ḍ ḥ ṛ ṣ ṭ ẓ
+  marks: ◌̌ ◌̣
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+- CLDR
+speakers: 5600000
+speakers_date: 2012
+status: living
+validity: verified

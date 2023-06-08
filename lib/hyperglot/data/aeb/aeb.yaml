@@ -1,0 +1,13 @@
+name: Tunisian Arabic
+orthographies:
+- autonym: تونسي
+  inherit: arb
+  script: Arabic
+  status: primary
+source:
+- Wikipedia
+- Omniglot
+speakers: 11200000
+speakers_date: 2014
+status: living
+validity: preliminary

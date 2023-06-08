@@ -1,0 +1,11 @@
+name: Amarakaeri
+orthographies:
+- base: A B E G H I J K M N O P R S T U Y a b e g h i j k m n o p r s t u y '
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 1600
+speakers_date: 2007
+validity: preliminary

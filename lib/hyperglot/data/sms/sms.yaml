@@ -1,0 +1,17 @@
+name: Skolt Sami
+orthographies:
+- autonym: Nuõrttsääʼmǩiõll
+  auxiliary: Å Ö Ø å ö ø
+  base: A B C D E F G H I J K L M N O P Q R S T U V X Y Z Â Ä Å Ö Õ Č Đ Ŋ Š Ž Ǥ Ǧ Ǩ Ǯ Ʒ a b c d e f g h i j k l m n o p q r s t u v x y z â ä å ö õ č đ ŋ š ž ǥ ǧ ǩ ǯ ʒ ʹ
+  design_requirements:
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  marks: ◌̂ ◌̃ ◌̈ ◌̊ ◌̌
+  script: Latin
+  status: primary
+source:
+- Wikipedia
+- Omniglot
+speakers: 320
+speakers_date: 1995-2007
+status: living
+validity: preliminary

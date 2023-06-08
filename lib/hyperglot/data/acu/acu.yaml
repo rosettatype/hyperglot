@@ -1,0 +1,13 @@
+name: Achuar-Shiwiar
+orthographies:
+- autonym: Achúar chícham
+  base: A B C D E G H I J K M N O P R S T U W Y Ã Á Ẽ Ĩ Í Ũ Ú Ñ F a b c d e f g h i j k m n o p r s t u w y ' ã á ẽ ĩ í ũ ú ñ
+  marks: ◌́ ◌̃
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 7000
+speakers_date: 2007
+validity: preliminary

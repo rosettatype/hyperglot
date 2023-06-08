@@ -1,0 +1,12 @@
+name: Northeastern Dinka
+orthographies:
+- autonym: Padang
+  inherit: din
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 1300000
+speakers_date: 2008-2016
+validity: preliminary

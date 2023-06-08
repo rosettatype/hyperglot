@@ -1,0 +1,18 @@
+name: Goan Konkani
+orthographies:
+- autonym: गोवन कोंकणी
+  inherit: hin
+  script: Devanagari
+  status: primary
+- autonym: Konknni
+  base: A Ã B C Ç D E Ẽ F G H I Ĩ J K L M N Ñ O Õ P Q R S T U V W X Y Z a ã b c ç d e ẽ f g h i ĩ j k l m n ñ o õ p q r s t u v w x y z
+  marks: ◌̃ ◌̧
+  note: Konkani in the Latin script (called Romi Konkani) is widely used
+  script: Latin
+  status: secondary
+source:
+- Wikipedia
+- Unicode
+speakers: 2300000
+speakers_date: 2011
+validity: preliminary

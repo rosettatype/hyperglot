@@ -1,0 +1,14 @@
+name: Aleut
+orthographies:
+- autonym: Unangam Tunuu
+  base: A B D F G H I K L M N O Q R S T U V W X Y Z a b d f g h i k l m n o q r s t u v w x y z Ĝ ĝ
+  marks: ◌̂
+  script: Latin
+  status: primary
+source:
+- Wikipedia
+- 'Knut Bergsland, Aleut Dictionary = Unangam Tunudgusii an unabridged lexicon of the Aleutian, Pribilof, and Commander Islands Aleut language, Fairbanks, AK: Alaska Native Language Center, University of Alaska, 1994'
+speakers: 150
+speakers_date: 2009-2011
+status: living
+validity: preliminary

@@ -1,0 +1,27 @@
+name: Dogri (individual language)
+orthographies:
+- autonym: डोगरी
+  auxiliary: ॐ
+  base: अ आ इ ई उ ऊ ऋ ए ऐ ओ औ क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र ल व श ष स ह ʼ ऽ ‌ ‍
+  design_requirements:
+  - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
+  marks: ◌ँ ◌ं ◌ः ◌़ ◌ा ◌ि ◌ी ◌ु ◌ू ◌ृ ◌े ◌ै ◌ो ◌ौ ◌्
+  note: Used in India
+  numerals: ० १ २ ३ ४ ५ ६ ७ ८ ९ 0 1 2 3 4 5 6 7 8 9
+  punctuation: । ॥ ॰
+  script: Devanagari
+  status: primary
+- autonym: ڈوگَرِی
+  design_requirements:
+  - Nastaʼlīq style of the Arabic script is preferred.
+  - Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
+  inherit: urd
+  note: Used in Pakistan
+  script: Arabic
+  status: primary
+source:
+- Wikipedia
+- Unicode
+speakers: 1600000
+speakers_date: 2011
+validity: preliminary

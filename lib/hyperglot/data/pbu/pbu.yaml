@@ -1,0 +1,15 @@
+name: Northern Pashto
+orthographies:
+- autonym: یوسفزئی پښتو
+  base: ﺍ ﺏ پ ﺕ ټ ﺙ ﺝ چ ﺡ ﺥ څ ځ ﺩ ډ ﺫ ﺭ ړ ﺯ ژ ږ ﺱ ﺵ ښ ﺹ ﺽ ﻁ ﻅ ﻉ ﻍ ﻑ ﻕ ک ګ ﻝ ﻡ ﻥ ڼ ﻭ ه ۀ ي ې ی ۍ ئ
+  design_requirements:
+  - Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
+  marks: ◌ٔ
+  script: Arabic
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 21000000
+speakers_date: 2013
+validity: preliminary

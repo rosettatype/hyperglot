@@ -1,0 +1,15 @@
+name: Afrikaans
+orthographies:
+- autonym: Afrikaans
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z É È Ê Ë Î Ï Ö Ô Û Ü a b c d e f g h i j k l m n o p q r s t u v w x y z é è ê ë î ï ö ô û ü
+  marks: ◌́ ◌̀ ◌̂ ◌̈
+  note: The use of ŉ has been deprecated and is strongly discouraged.
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 7200000
+speakers_date: 2016
+status: living
+validity: verified

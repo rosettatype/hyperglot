@@ -1,0 +1,31 @@
+name: Serbian
+orthographies:
+- autonym: Српски
+  base: А Б В Г Д Е Ж З И К Л М Н О П Р С Т У Ф Х Ц Ч Ш Ђ Ј Љ Њ Ћ Џ З́ С́ а б в г д е ж з и к л м н о п р с т у ф х ц ч ш ђ ј љ њ ћ џ з́ с́
+  design_alternates: б ◌̆
+  design_requirements:
+  - Correct positioning of an acute mark above vowel characters may be required.
+  - The form of the Cyrillic breve mark (marked in the previews) differs from the Latin-script breve that is associated with the same Unicode codepoint. - In italic, some characters (marked in the previews) use a form that differs from the defaults associated with the Unicode codepoints (typically the Russian form of Cyrillic).
+  marks: ◌́
+  preferred_as_group: true
+  script: Cyrillic
+  status: primary
+- autonym: Srpski
+  auxiliary: Ǆ ǅ ǆ Ǉ ǈ ǉ Ǌ ǋ ǌ
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ć Č Đ Ś Š Ź Ž a b c d e f g h i j k l m n o p q r s t u v w x y z ć č đ ś š ź ž
+  design_requirements:
+  - Digraphs ‹dž›, ‹lj›, and ‹nj› in their uppercase, titlecase, and lowercase forms have dedicated Unicode codepoints in the auxiliary set. However, these were included chiefly for backwards compatibility with legacy encodings which kept a one-to-one correspondence with Cyrillic.
+  marks: ◌́ ◌̌
+  preferred_as_group: true
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+- CLDR
+- https://en.wikipedia.org/wiki/Serbian_Cyrillic_alphabet
+- https://www.evertype.com/alphabets/serbian.pdf
+speakers: 9500000
+speakers_date: 2016
+status: living
+validity: verified

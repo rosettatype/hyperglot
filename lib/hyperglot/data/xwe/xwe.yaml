@@ -1,0 +1,14 @@
+name: Xwela Gbe
+orthographies:
+- autonym: xwelagbe
+  base: A B C D Ɖ E Ɛ F G Ɣ H X I J K L M N Ŋ Ɔ P S T U V W Y Z a b c d ɖ e ɛ f g ɣ h x i j k l m n ŋ ɔ p s t u v w y z
+  design_requirements:
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  script: Latin
+  status: primary
+source:
+- Wikipedia
+- Centre national de linguistique appliquée (C.E.N.A.L.A.), Alphabet des langues nationales béninoises, 2008, p. 39-40.
+speakers: 65000
+speakers_date: 2002
+validity: preliminary

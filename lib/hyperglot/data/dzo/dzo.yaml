@@ -1,0 +1,16 @@
+name: Dzongkha
+orthographies:
+- autonym: རྫོང་ཁ་
+  base: ཀ ཁ ག ང ཅ ཆ ཇ ཉ ཏ ཐ ད ན པ ཕ བ མ ཙ ཚ ཛ ཝ ཞ ཟ འ ཡ ར ལ ཤ ས ཧ ཨ ཊ ཋ ཌ ཎ ཥ
+  design_requirements:
+  - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
+  marks: ◌ི ◌ུ ◌ེ ◌ོ ◌ྵ
+  numerals: ༠ ༡ ༢ ༣ ༤ ༥ ༦ ༧ ༨ ༩
+  script: Tibetan
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 171080
+speakers_date: 2013
+validity: preliminary

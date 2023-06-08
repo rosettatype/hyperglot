@@ -1,0 +1,17 @@
+name: Jola-Fonyi
+orthographies:
+- autonym: Jóola-Fóoñi
+  auxiliary: Z z
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Á É Í Ñ Ó Ú Ŋ a b c d e f g h i j k l m n o p q r s t u v w x y á é í ñ ó ú ŋ
+  design_requirements:
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  marks: ◌́ ◌̃
+  script: Latin
+  status: primary
+source:
+- République du Sénégal, Décret no 2005-981 relatif à l’orthographe et la séparation des mots en jóola, 21 octobre 2005
+- Omniglot
+- CLDR
+speakers: 410000
+status: living
+validity: verified

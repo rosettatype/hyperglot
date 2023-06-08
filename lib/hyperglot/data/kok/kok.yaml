@@ -1,0 +1,9 @@
+includes:
+- gom
+- knn
+name: Konkani (macrolanguage)
+source:
+- Wikipedia
+speakers: 2300000
+speakers_date: 2011
+validity: verified

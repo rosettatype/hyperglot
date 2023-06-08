@@ -1,0 +1,11 @@
+name: Baoulé
+orthographies:
+- base: A B C D E Ɛ F G I J K L M N O Ɔ P R S T U V W Y Z a b c d e ɛ f g i j k l m n o ɔ p r s t u v w y z
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 4700000
+speakers_date: 2017
+validity: preliminary

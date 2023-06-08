@@ -1,0 +1,13 @@
+name: Shuar
+orthographies:
+- autonym: Shiwar chicham
+  base: A C E H I J K M N Ñ P R S T U W Y Ã Ẽ Ĩ Ũ a c e h i j k m n ñ p r s t u w y ' ã ẽ ĩ ũ
+  marks: ◌̃
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 25000
+speakers_date: 2007
+validity: preliminary

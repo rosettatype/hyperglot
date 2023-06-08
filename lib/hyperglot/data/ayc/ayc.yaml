@@ -1,0 +1,13 @@
+name: Southern Aymara
+orthographies:
+- autonym: Aymar
+  inherit: ayr
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 1677100
+speakers_date: 2007-2011
+status: living
+validity: verified

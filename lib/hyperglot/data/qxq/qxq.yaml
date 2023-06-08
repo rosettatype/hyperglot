@@ -1,0 +1,13 @@
+name: Qashqa'i
+orthographies:
+- autonym: قاشقای ديلى
+  inherit: pes
+  script: Arabic
+  status: primary
+source:
+- Wikipedia
+- Omniglot
+speakers: 949000
+speakers_date: 2015
+status: living
+validity: preliminary

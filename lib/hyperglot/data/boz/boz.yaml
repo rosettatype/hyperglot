@@ -1,0 +1,14 @@
+name: Tiéyaxo Bozo
+orthographies:
+- autonym: bozo-tigemaxoo
+  base: A B C D E F G H I J K L M N O P R S T U W X Y a b c d e f g h i j k l m n o p r s t u w x y Ŋ ŋ Ɔ Ɛ Ɲ ɔ ɛ ɲ
+  design_requirements:
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  script: Latin
+  status: primary
+source:
+- 'Lisons le bozo: Cours d’introduction pour tous ceux qui parlent le bozo-tigemaxo et qui savent lire en français, Sevaré, république du Mali, Équipe Bozo, 2010'
+- République du Mali, Direction nationale de l’alphabétisation fonctionnelle et de la linguistique appliquée, Alphabets et règles d’orthographe des langues nationales, Bamako, DNAFLA, 1993
+- Wikipedia
+status: living
+validity: preliminary

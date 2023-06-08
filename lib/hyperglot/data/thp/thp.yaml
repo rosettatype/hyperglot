@@ -1,0 +1,14 @@
+name: Thompson
+orthographies:
+- autonym: nłeʔkepmxcin
+  auxiliary: A C E H I K L M N P Q S T U W X Y Z Á É Í Ó Ú Ł Ə Ɣ Θ Ḷ Ṣ Ị
+  base: a c e h i k l m n p q s t u w x y z á é í ó ú ł ƛ ə ɣ ʔ ʕ ʷ θ ḷ ṣ ị
+  marks: ◌́ ◌̓ ◌̣
+  script: Latin
+  status: primary
+source:
+- FirstVoices
+- Wikipedia
+speakers: 600
+speakers_date: 2018
+validity: preliminary

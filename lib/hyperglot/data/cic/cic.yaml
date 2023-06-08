@@ -1,0 +1,20 @@
+name: Chickasaw
+orthographies:
+- autonym: Chikashshanompa'
+  base: A B C F G H I K L M N O P S T W Y A̠ I̠ O̠ a b c f g h i k l m n o p s t w y a̠ i̠ o̠ '
+  marks: ◌̠
+  note: Two orthographies (Humes and Munro-Willmond) were created. The current primary orthography seems to follow Munro-Willmond.
+  script: Latin
+  status: primary
+- autonym: Chikashshanompa'
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á É Í Ó Ú a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ó ú '
+  marks: ◌́
+  script: Latin
+  status: secondary
+source:
+- Omniglot
+- Wikipedia
+speakers: 75
+speakers_date: 2017
+status: living
+validity: verified

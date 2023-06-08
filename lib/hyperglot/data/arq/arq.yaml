@@ -1,0 +1,13 @@
+name: Algerian Arabic
+orthographies:
+- autonym: دارجة جزائرية
+  inherit: arb
+  script: Arabic
+  status: primary
+source:
+- Wikipedia
+- Omniglot
+speakers: 27000000
+speakers_date: 2012
+status: living
+validity: preliminary

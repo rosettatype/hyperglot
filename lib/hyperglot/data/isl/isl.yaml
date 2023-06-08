@@ -1,0 +1,16 @@
+name: Icelandic
+orthographies:
+- autonym: Íslenska
+  auxiliary: Ǽ Ǫ Œ ǽ ǫ œ
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á Æ É Í Ð Ó Ö Ú Ý Þ a b c d e f g h i j k l m n o p q r s t u v w x y z á æ é í ð ó ö ú ý þ
+  marks: ◌́ ◌̈ ◌̨
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+- Alvestrand
+speakers: 314000
+speakers_date: 2015
+status: living
+validity: verified

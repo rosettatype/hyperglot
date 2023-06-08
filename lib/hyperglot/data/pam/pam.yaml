@@ -1,0 +1,15 @@
+name: Pampanga
+orthographies:
+- autonym: Kapampangan
+  auxiliary: C F J V X Z c f j q v x z
+  base: A B D E G H I K L M N O P Q R S T U W Y a b d e g h i k l m n o p r s t u w y
+  note: Based on Wikipedia. Omniglot lists A–Z, a–z.
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 1900000
+speakers_date: 1990
+status: living
+validity: verified

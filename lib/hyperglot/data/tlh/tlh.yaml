@@ -1,0 +1,14 @@
+name: Klingon
+note: An official Klingon orthography has not been accepted into Unicode as of this writing, so fonts relying on Unicode cannot be tested for support. Some fonts using Klingon glyphs encoded in the unicode PUA.
+orthographies:
+- autonym: tlhIngan Hol
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
+  preferred_as_group: true
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 0
+status: constructed
+validity: preliminary

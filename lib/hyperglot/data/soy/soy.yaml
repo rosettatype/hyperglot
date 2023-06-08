@@ -1,0 +1,15 @@
+name: Miyobe
+orthographies:
+- autonym: mɛyɔ́pɛ
+  base: A C E Ɛ F H I K L M N Ŋ O Ɔ P R S T U W Y Á É Í Ó Õ Ú Ĩ Ũ Ṍ Ṹ Ẽ a c e ɛ f h i k l m n ŋ o ɔ p r s t u w y á é í ó õ ú ĩ ũ ṍ ṹ ẽ
+  design_requirements:
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  marks: ◌́ ◌̃
+  script: Latin
+  status: primary
+source:
+- Wikipedia
+- Centre national de linguistique appliquée (C.E.N.A.L.A.), Alphabet des langues nationales béninoises, 2008, p. 31-32.
+speakers: 22000
+speakers_date: 1991-2012
+validity: preliminary

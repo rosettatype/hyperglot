@@ -1,0 +1,15 @@
+name: Northern Dagara
+orthographies:
+- base: A B Ɓ C D E Ɛ F G H I Ɩ J K L M N Ŋ O Ɔ P R S T U Ʋ V W Y Ƴ Z a b ɓ c d e ɛ f g h i ɩ j k l m n ŋ o ɔ p r s t u ʋ v w y ƴ z À È Ɛ̀ Ì Ò Ɔ̀ Ù Á É Ɛ́ Í Ó Ɔ́ Ú Ã Ẽ Ɛ̃ Õ Ɔ̃ à è ɛ̀ ì ò ɔ̀ ù á é ɛ́ í ó ɔ́ ú ã ẽ ɛ̃ õ ɔ̃
+  design_requirements:
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  marks: ◌̀ ◌́ ◌̃
+  script: Latin
+  status: primary
+source:
+- Wikipedia
+- Joachim D. Somé, Dagara Orthography, in Journal of Dagaare Studies, vol. 4, 2004
+- https://www.bible.com/versions/3053
+speakers: 247000
+speakers_date: 2009
+validity: preliminary

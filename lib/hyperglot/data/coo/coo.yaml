@@ -1,0 +1,15 @@
+name: Comox
+orthographies:
+- autonym: ayʔaǰuθɛm
+  auxiliary: ꭓ
+  base: a e g h i k l m n o p q s t u w x y æ č š ƛ ǰ ɔ ə ɛ ɩ ɬ ʊ ʔ ʷ ʸ θ χ ᶿ Ɬ
+  marks: ◌̌ ◌̓
+  script: Latin
+  status: primary
+source:
+- FirstVoices
+- Wikipedia
+speakers: 50
+speakers_date: 2018
+status: living
+validity: preliminary

@@ -1,0 +1,13 @@
+name: Khasi
+orthographies:
+- autonym: Ka Ktien Khasi
+  base: A B K D E G H I Ï J L M N Ñ O P R S T U W Y a b k d e g h i ï j l m n ñ o p r s t u w y
+  marks: ◌̃ ◌̈
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 1037964
+speakers_date: 2011
+validity: preliminary

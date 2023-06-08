@@ -1,0 +1,15 @@
+name: Ndrulo
+orthographies:
+- autonym: Ndrǔló
+  base: A B D E F G H Ɦ I J K L M N Ŋ O P R S T U V W Y Z a b d e f g h ɦ i j k l m n ŋ o p r s t u v w y z Â Ê Î Ô R̂ Û Á É Í Ó Ŕ Ś Ú À È Ì Ò R̀ S̀ Ù Ǎ Ě Ǐ Ǒ Ř Š Ǔ â ê î ô r̂ û á é í ó ŕ ś ú à è ì ò r̀ s̀ ù ǎ ě ǐ ǒ ř š ǔ
+  design_requirements:
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  marks: ◌̀ ◌́ ◌̂ ◌̌
+  script: Latin
+  status: primary
+source:
+- Wikipedia
+- SIL International, Ndrǔló zòwdha ndèymí ddiy ndíydha [= Alphabet ndrǔló], SIL International, 2014
+speakers: 150000
+speakers_date: 2018
+validity: preliminary

@@ -1,0 +1,15 @@
+name: Ga
+orthographies:
+- autonym: Gã
+  base: A B D E Ɛ F G H I J K L M N Ŋ O Ɔ P R S T U V W Y Z Ã Ẽ Ĩ Õ Ũ a b d e ɛ f g h i j k l m n ŋ o ɔ p r s t u v w y z ã ẽ ĩ õ ũ
+  design_requirements:
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  marks: ◌̃
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 8500000
+speakers_date: 2007
+validity: preliminary

@@ -1,0 +1,14 @@
+name: Minangkabau
+orthographies:
+- autonym: Baso Minangkabau
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+- http://repositori.kemdikbud.go.id/2947/1/Kamus%20Minangkabau%20-%20Indonesia%20-%20335h.pdf
+- http://repositori.kemdikbud.go.id/1675/1/Pedoman%20Umum%20Ejaan%20Bahasa%20Minangkabau%201990.pdf
+speakers: 5500000
+speakers_date: 2007
+validity: verified

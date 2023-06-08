@@ -1,0 +1,13 @@
+name: Eastern Yiddish
+orthographies:
+- autonym: ייִדיש
+  base: ו י א ב ג ד ה ז ח ט כ ך ל מ ם נ ן ס ע פ ף צ ץ ק ר ש ת
+  marks: ◌ְ ◌ֱ ◌ֲ ◌ֳ ◌ִ ◌ֵ ◌ֶ ◌ַ ◌ָ ◌ֹ ◌ֻ ◌ּ ◌ׁ ◌ׂ
+  script: Hebrew
+  status: primary
+source:
+- https://en.wikipedia.org/wiki/Yiddish_orthography
+- Omniglot
+speakers: 1500000
+status: living
+validity: preliminary

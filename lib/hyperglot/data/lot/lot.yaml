@@ -1,0 +1,14 @@
+name: Otuho
+orthographies:
+- base: A B C D E Ê F G H I J K L M N Ŋ O Ô P Q R S T U Û W Y a b c d e ê f g h i j k l m n ŋ o ô p q r s t u û w y ʼ
+  design_requirements:
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  marks: ◌̂
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 140000
+speakers_date: 1977
+validity: preliminary

@@ -1,0 +1,11 @@
+name: Pintupi-Luritja
+orthographies:
+- base: A I K L M N P R T U W Y a i k l m n p r t u w y
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 147
+speakers_date: 2016
+validity: preliminary

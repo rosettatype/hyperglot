@@ -1,0 +1,13 @@
+name: Yue Chinese
+orthographies:
+- autonym: 粵語 / 粤语
+  inherit: cmn
+  script: Chinese
+  status: primary
+preferred_name: Yue
+source:
+- Omniglot
+- Wikipedia
+speakers: 84000000
+speakers_date: 2020
+validity: preliminary

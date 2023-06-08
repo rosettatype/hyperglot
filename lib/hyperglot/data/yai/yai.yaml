@@ -1,0 +1,14 @@
+name: Yagnobi
+orthographies:
+- autonym: Йағнобӣ
+  base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Э Ю Я Ё Ғ Қ Ҳ Ҷ Ӣ Ӯ Ԝ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ э ю я ё ғ қ ҳ ҷ ӣ ӯ ԝ
+  marks: ◌̄ ◌̆ ◌̈
+  script: Cyrillic
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 12000
+speakers_date: 2004
+status: living
+validity: verified

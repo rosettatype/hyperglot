@@ -1,0 +1,13 @@
+name: Palauan
+orthographies:
+- autonym: a tekoi er a Belau
+  base: A B C D E Ę F I K L M N O P R S T U Z a b c d e ę f i k l m n o p r s t u z
+  marks: ◌̨
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 17000
+speakers_date: 2008
+validity: preliminary

@@ -1,0 +1,16 @@
+name: Andaandi
+orthographies:
+- base: ⲁ ⲃ ⲅ ⲇ ⲉ ⲍ ⲏ ⲓ ⲕ ⲗ ⲙ ⲛ ⲟ ⲡ ⲣ ⲥ ⲧ ⲩ ⲫ ⲭ ⲱ ⳡ ⳣ ⳝ ⳟ ϣ ϩ ϭ ⲁ̄ ⲉ̄ ⲟ̄ ⲩ̄ ⲓ̈
+  marks: ◌̄ ◌̈
+  script: Coptic/Nubian
+  status: historical
+- base: A B C D E F G H I J K L M N O P R S T U W Y Z a b c d e f g h i j k l m n o p r s t u w y z
+  script: Latin
+  status: primary
+preferred_name: Andaandi, Dongolawi
+source:
+- Wikipedia
+speakers: 70000
+speakers_date: 2014
+status: living
+validity: verified

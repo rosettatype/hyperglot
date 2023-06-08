@@ -1,0 +1,13 @@
+name: Xavánte
+orthographies:
+- autonym: A’uwẽ
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ã É Ẽ Ô Õ Ö Ĩ a b c d e f g h i j k l m n o p q r s t u v w x y z ã é ẽ ô õ ö ĩ ’
+  marks: ◌́ ◌̂ ◌̃ ◌̈
+  script: Latin
+  status: primary
+source:
+- Omniglot
+speakers: 9600
+speakers_date: 2006
+status: living
+validity: draft

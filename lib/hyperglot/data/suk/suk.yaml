@@ -1,0 +1,12 @@
+name: Sukuma
+orthographies:
+- autonym: Kɪsukuma
+  base: A B C D E F G H I J K L M N O P R S T U V W Y Z Ɪ a b c d e f g h i j k l m n o p r s t u v w y z ' ɪ
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 8100000
+speakers_date: 2016
+validity: preliminary

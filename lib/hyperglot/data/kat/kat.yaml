@@ -1,0 +1,26 @@
+name: Georgian
+orthographies:
+- autonym: ქართული
+  auxiliary: ა́ ა̈ ა̄ ა̄̈ ე́ ე̄ ი́ ი̄ ო́ ო̈ ო̄ ო̄̈ უ́ უ̂ უ̈ უ̄ უ̄̈ ჷ́ ჷ̄ ჱ ჲ ჳ ჴ ჵ ჶ ჷ ჸ ჹ ჺ ჽ ჾ ჿ ჻ Ა́ Ა̈ Ა̄ Ა̄̈ Ე́ Ე̄ Ი́ Ი̄ Ო́ Ო̈ Ო̄ Ო̄̈ Უ́ Უ̂ Უ̈ Უ̄ Უ̄̈ Ჷ́ Ჷ̄ Ჱ Ჲ Ჳ Ჴ Ჵ Ჶ Ჷ Ჸ Ჹ Ჺ Ჽ Ჾ Ჿ ჼ
+  base: ა ბ გ დ ე ვ ზ თ ი კ ლ მ ნ ო პ ჟ რ ს ტ უ ფ ქ ღ ყ შ ჩ ც ძ წ ჭ ხ ჯ ჰ Ა Ბ Გ Დ Ე Ვ Ზ Თ Ი Კ Ლ Მ Ნ Ო Პ Ჟ Რ Ს Ტ Უ Ფ Ქ Ღ Ყ Შ Ჩ Ც Ძ Წ Ჭ Ხ Ჯ Ჰ
+  design_requirements:
+  - The character set includes Mkhedruli (lowercase letters) and Mtavruli (capital letters, added to Unicode in 2018). It is recommended that font developers supporting contemporary use of the Georgian language include both sets of letters.
+  marks: ◌́ ◌̈ ◌̄ ◌̂
+  script: Georgian
+  status: primary
+- base: Ⴀ Ⴁ Ⴂ Ⴃ Ⴄ Ⴅ Ⴆ Ⴇ Ⴈ Ⴉ Ⴊ Ⴋ Ⴌ Ⴍ Ⴎ Ⴏ Ⴐ Ⴑ Ⴒ Ⴓ Ⴔ Ⴕ Ⴖ Ⴗ Ⴘ Ⴙ Ⴚ Ⴛ Ⴜ Ⴝ Ⴞ Ⴟ Ⴠ Ⴡ Ⴢ Ⴣ Ⴤ Ⴥ
+  design_requirements:
+  - The capital letters (Asomtavruli) of the old ecclesiastical alphabet Khutsuri. Asomtavruli is frequently used in iconography, murals, and exterior design. Asomtavruli and Nuskhuri (the lowercase letters) are officially used by the Georgian Orthodox Church alongside the contemporary alphabets (Mkhedruli and Mtavruli), today.
+  script: Georgian
+  status: secondary
+- base: ⴀ ⴁ ⴂ ⴃ ⴄ ⴅ ⴆ ⴇ ⴈ ⴉ ⴊ ⴋ ⴌ ⴍ ⴎ ⴏ ⴐ ⴑ ⴒ ⴓ ⴔ ⴕ ⴖ ⴗ ⴘ ⴙ ⴚ ⴛ ⴜ ⴝ ⴞ ⴟ ⴠ ⴡ ⴢ ⴣ ⴤ ⴥ
+  design_requirements:
+  - The lowercase letters (Nuskhuri) of the old ecclesiastical alphabet Khutsuri. Asomtavruli (the capital letters) and Nuskhuri are officially used by the Georgian Orthodox Church alongside the contemporary alphabets (Mkhedruli and Mtavruli), today.
+  script: Georgian
+  status: secondary
+source:
+- Omniglot
+- Wikipedia
+speakers: 3700000
+speakers_date: 2014
+validity: verified

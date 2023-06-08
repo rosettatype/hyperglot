@@ -1,0 +1,60 @@
+includes:
+- qub
+- qud
+- quf
+- qug
+- quh
+- quk
+- qul
+- qup
+- qur
+- qus
+- quw
+- qux
+- quy
+- quz
+- qva
+- qvc
+- qve
+- qvh
+- qvi
+- qvj
+- qvl
+- qvm
+- qvn
+- qvo
+- qvp
+- qvs
+- qvw
+- qvz
+- qwa
+- qwc
+- qwh
+- qws
+- qxa
+- qxc
+- qxh
+- qxl
+- qxn
+- qxo
+- qxp
+- qxr
+- qxt
+- qxu
+- qxw
+name: Quechua
+orthographies:
+- autonym: Runa Simi
+  auxiliary: Č Ĉ Š Ž č ĉ š ž
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ñ a b c d e f g h i j k l m n o p q r s t u v w x y z ñ
+  marks: ◌̃ ◌̂ ◌̌
+  script: Latin
+  status: primary
+preferred_as_individual: true
+source:
+- Omniglot
+- Wikipedia
+speakers: 10000000
+speakers_date: 2004
+status: living
+validity: verified

@@ -1,0 +1,17 @@
+name: Hakka Chinese
+orthographies:
+- autonym: 客家话 / 客家話
+  inherit: cmn
+  script: Chinese
+  status: primary
+- autonym: hak ga wa
+  inherit: cmn
+  note: Hànyǔ Pīnyīn (pinyin) romanization
+  script: Latin
+  status: transliteration
+source:
+- Omniglot
+- Wikipedia
+speakers: 47800000
+speakers_date: 2007
+validity: preliminary

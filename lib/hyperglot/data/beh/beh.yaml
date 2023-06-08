@@ -1,0 +1,15 @@
+name: Biali
+orthographies:
+- autonym: Byali
+  auxiliary: Ə ə
+  base: A B C D E Ǝ F G H I K L M N O P R S T U W Y Á É Í Ó Ú a b c d e ǝ f g h i k l m n o p r s t u w y á é í ó ú
+  marks: ◌́
+  script: Latin
+  status: primary
+source:
+- Centre national de linguistique appliquée (C.E.N.A.L.A.), Alphabet des langues nationales béninoises, 2008, p. 13-14.
+- https://www.sil.org/resources/archives/53773
+speakers: 100000
+speakers_date: 2002
+status: living
+validity: preliminary

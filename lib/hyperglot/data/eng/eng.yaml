@@ -1,0 +1,24 @@
+name: English
+orthographies:
+- autonym: English
+  auxiliary: À Á Ç È É Ê Ë Ï Ñ Ô Ö à á ç è é ê ë ï ñ ô ö
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Œ a b c d e f g h i j k l m n o p q r s t u v w x y z æ œ
+  marks: ◌̀ ◌́ ◌̂ ◌̃ ◌̈ ◌̧
+  script: Latin
+  status: primary
+- autonym: English
+  auxiliary: À Á Ç È É Ê Ë Ï Ñ Ô Ö à á ç è é ê ë ï ñ ô ö ſ
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Œ a b c d e f g h i j k l m n o p q r s t u v w x y z æ œ
+  marks: ◌̀ ◌́ ◌̂ ◌̃ ◌̈ ◌̧
+  note: Use of ſ declined after the 18th century.
+  script: Latin
+  status: historical
+source:
+- Omniglot
+- Wikipedia
+- CLDR
+- Alvestrand
+speakers: 400000000
+speakers_date: 2006
+status: living
+validity: preliminary

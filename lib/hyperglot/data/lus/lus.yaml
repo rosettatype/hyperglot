@@ -1,0 +1,14 @@
+name: Lushai
+orthographies:
+- autonym: Mizo ṭawng
+  base: A B C D E F G H I J K L M N O P R S T Ṭ U V W Z a b c d e f g h i j k l m n o p r s t ṭ u v w z
+  marks: ◌̣
+  script: Latin
+  status: primary
+preferred_name: Mizo
+source:
+- Omniglot
+- Wikipedia
+speakers: 830846
+speakers_date: 2011
+validity: preliminary

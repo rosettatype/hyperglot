@@ -1,0 +1,16 @@
+name: Breton
+orthographies:
+- autonym: Brezhoneg
+  base: A B C D E F G H I J K L M N O P R S T U V W X Y Z Ê Ñ Ù a b c d e f g h i j k l m n o p r s t u v w x y z ê ñ ù
+  marks: ◌̀ ◌̂ ◌̃
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+- CLDR
+- Alvestrand
+speakers: 226000
+speakers_date: 2018
+status: living
+validity: verified

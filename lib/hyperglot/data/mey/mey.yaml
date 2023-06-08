@@ -1,0 +1,17 @@
+name: Hassaniyya
+orthographies:
+- autonym: ḥassaniya
+  base: A B C D E F G H I J K L M N O Q R S T U V W X Y Z a b c d e f g h i j k l m n o q r s t u v w x y z Ë Ñ ë ñ Ŝ ŝ Ŧ ŧ Ż ż ʼ Ḍ ḍ Ḥ ḥ Ṣ ṣ Ṭ ṭ Ẋ ẋ Ẓ ẓ
+  marks: ◌̂ ◌̈ ◌̃ ◌̇ ◌̣
+  script: Latin
+  status: primary
+- autonym: حسانية
+  inherit: arb
+  script: Arabic
+  status: secondary
+source:
+- République du Sénégal, Décret no 2005-980 relatif à l’orthographe et la séparation des mots en ḥassinya, 21 octobre 2005
+- Omniglot
+speakers: 3120000
+status: living
+validity: preliminary

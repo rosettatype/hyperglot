@@ -1,0 +1,13 @@
+name: Pipil
+orthographies:
+- autonym: Náhuat
+  base: A C E H I J K L M N P S T U W Y a c e h i j k l m n p s t u w y
+  marks: ◌́
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 500
+speakers_date: 2015
+validity: preliminary

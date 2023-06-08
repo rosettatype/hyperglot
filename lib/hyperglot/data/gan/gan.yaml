@@ -1,0 +1,18 @@
+name: Gan Chinese
+orthographies:
+- autonym: 赣语 / 江西话
+  inherit: cmn
+  script: Chinese
+  status: primary
+- autonym: Gann ua
+  base: B P M F D T L Z C S J Q X G K H I U Y A E O N b p m f d t l z c s j q x g k h i u y a e o n
+  note: Pinfa romanization system
+  script: Latin
+  status: transliteration
+preferred_name: Gan
+source:
+- Omniglot
+- Wikipedia
+speakers: 22000000
+speakers_date: 2018
+validity: preliminary

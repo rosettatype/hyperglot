@@ -1,0 +1,13 @@
+name: Bemba (Zambia)
+orthographies:
+- autonym: Chibemba
+  base: A B C D E F G H I J K L M N O P S T U V W Y a b c d e f g h i j k l m n o p s t u v w y
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 4100000
+speakers_date: 2000-2010
+status: living
+validity: verified

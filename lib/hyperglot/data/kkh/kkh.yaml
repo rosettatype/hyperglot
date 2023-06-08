@@ -1,0 +1,13 @@
+name: Khün
+orthographies:
+- autonym: ᨴᩱ᩠ᨿᨡᩨ᩠ᨶ
+  base: ᨠ ᨡ ᩉ ᨦ ᨧ ᨨ ᨬ ᨭ ᨣ ᨤ ᨥ ᨩ ᨫ ᨮ ᨲ ᨳ ᨶ ᨸ ᨹ ᨺ ᨰ ᨱ ᨴ ᨵ ᨻ ᨽ ᨼ ᨾ ᩃ ᩁ ᩅ ᩆ ᩇ ᨿ ᩓ ᩈ ᩔ ᨪ ᩌ ᩊ ᨯ ᨷ ᩀ ᩋ ᩍ ᩎ ᩏ ᩐ ᩑ ᩒ ᩂ ᩄ
+  marks: ◌ᩖ ◌᩠ ◌ᩣ ◌ᩱ
+  script: Tham
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 100000
+speakers_date: 1990
+validity: preliminary

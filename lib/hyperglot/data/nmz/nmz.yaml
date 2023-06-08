@@ -1,0 +1,16 @@
+name: Nawdm
+orthographies:
+- autonym: nawdm
+  base: A B D E Ɛ F G H Ɦ I J K L M N Ŋ O Ɔ R S T U V W Y a b d e ɛ f g g̈ h ɦ i j k l m n n̈ ŋ ŋ̈ o ɔ r s t u v w y
+  design_requirements:
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  marks: ◌̈
+  note: The combining diaresis ◌̈ is used to distinguish the sequences of two consonants g̈w, g̈b, n̈y, ŋ̈m from the digraphs gw, gb, ny, ŋm.
+  script: Latin
+  status: primary
+source:
+- Wikipedia
+- https://www.webonary.org/nawdm
+speakers: 150000
+speakers_date: 2012
+validity: preliminary

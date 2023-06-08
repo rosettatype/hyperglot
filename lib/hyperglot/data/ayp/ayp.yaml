@@ -1,0 +1,13 @@
+name: North Mesopotamian Arabic
+orthographies:
+- autonym: مصلاوي‎
+  inherit: arb
+  script: Arabic
+  status: primary
+source:
+- Wikipedia
+- Omniglot
+speakers: 8700000
+speakers_date: 1992-2014
+status: living
+validity: preliminary

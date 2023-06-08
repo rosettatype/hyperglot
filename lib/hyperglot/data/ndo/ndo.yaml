@@ -1,0 +1,11 @@
+name: Ndonga
+orthographies:
+- base: A B D E F G H I J K L M N O P R S T U V W Y Z a b d e f g h i j k l m n o p r s t u v w y z
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 810000
+speakers_date: 2006
+validity: preliminary

@@ -1,0 +1,14 @@
+name: Kituba (Democratic Republic of Congo)
+note: Used in Democratic Republic of Congo
+orthographies:
+- autonym: Kikongo ya leta
+  inherit: kon
+  script: Latin
+  status: primary
+preferred_name: Kituba (DRC)
+source:
+- Omniglot
+- Wikipedia
+speakers: 5400000
+speakers_date: 1987-1990
+validity: preliminary

@@ -1,0 +1,16 @@
+name: French
+orthographies:
+- autonym: Français
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Â Æ Ç È É Ê Ë Î Ï Ô Ù Û Ü Ÿ Œ a b c d e f g h i j k l m n o p q r s t u v w x y z à â æ ç è é ê ë î ï ô ù û ü ÿ œ
+  marks: ◌̀ ◌́ ◌̂ ◌̈ ◌̧
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+- CLDR
+- Alvestrand
+speakers: 76800000
+speakers_date: 2014
+status: living
+validity: verified

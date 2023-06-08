@@ -1,0 +1,16 @@
+name: Alonquin
+note: Northern Algonquin and Southern Algonquin
+orthographies:
+- auxiliary: Ȣ ȣ
+  base: A B C D E G H I J K M N O P S T W Y Z a b c d e g h i j k m n o p s t w y z À È Ì Ò à è ì ò
+  marks: ◌̀
+  note: 8 is used instead of ȣ in practice
+  script: Latin
+  status: primary
+source:
+- Chris Harvey/Languageek, Anicinapemiȣin/Anishinàbemiwin (Algonquin), 31 December 2021
+- Wikipedia
+speakers: 3330
+speakers_date: 2016
+status: living
+validity: preliminary

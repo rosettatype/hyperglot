@@ -1,0 +1,25 @@
+name: Belarusian
+orthographies:
+- autonym: Беларуская
+  auxiliary: Ґ ґ
+  base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё І Ў а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё і ў ’
+  design_alternates: ◌̆
+  design_requirements:
+  - The form of the Cyrillic breve mark (marked in the previews) differs from the Latin-script breve that is associated with the same Unicode codepoint.
+  marks: ◌̆ ◌̈
+  script: Cyrillic
+  status: primary
+- autonym: Biełaruskaja
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ć Č Ł Ń Ś Š Ŭ Ź Ž a b c d e f g h i j k l m n o p q r s t u v w x y z ć č ł ń ś š ŭ ź ž
+  marks: ◌́ ◌̆ ◌̌
+  script: Latin
+  status: deprecated
+source:
+- Omniglot
+- Wikipedia
+- https://en.wikipedia.org/wiki/Belarusian_alphabet
+- https://www.evertype.com/alphabets/belarusian.pdf
+speakers: 5100000
+speakers_date: 2009
+status: living
+validity: preliminary

@@ -1,0 +1,21 @@
+name: Tamil
+orthographies:
+- autonym: தமிழ்
+  auxiliary: 𑿀 𑿁 𑿂 𑿃 𑿄 𑿅 𑿆 𑿇 𑿈 𑿉 𑿊 𑿋 𑿌 𑿍 𑿎 𑿏 𑿐 𑿑 𑿒 𑿓 𑿔 𑿕 𑿖 𑿗 𑿘 𑿙 𑿚 𑿛 𑿜 𑿝 𑿞 𑿟 𑿠 𑿡 𑿢 𑿣 𑿤 𑿥 𑿦 𑿧 𑿨 𑿩 𑿪 𑿫 𑿬 𑿭 𑿮 𑿯 𑿰 𑿱 𑿿 ௐ ௳ ௴ ௵ ௶ ௷ ௸ ௹ ௺
+  base: அ ஆ இ ஈ உ ஊ எ ஏ ஐ ஒ ஓ ஔ ஃ க ங ச ஞ ட ண த ந ப ம ய ர ல வ ழ ள ற ன ஜ ஶ ஷ ஸ ஹ
+  design_alternates: க்ஷ ஸ்ரீ
+  design_requirements:
+  - Mark positioning and precomposed sign (matra) forms are required for proper representation of the language.
+  - The conjunct letters ‹க்ஷ› and ‹ஸ்ரீ› should be acknowledged as separate from other conjunct matra forms.
+  marks: ◌் ◌ஂ ◌ா ◌ி ◌ீ ◌ு ◌ூ ◌ெ ◌ே ◌ை ◌ௗ
+  numerals: ௦ ௧ ௨ ௩ ௪ ௫ ௬ ௭ ௮ ௯ ௰ ௱ ௲ 0 1 2 3 4 5 6 7 8 9
+  script: Tamil
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+- Unicode (for basic unicode compliance): https://unicode.org/charts/PDF/U0B80.pdf
+- Unicode (for supplement): https://unicode.org/charts/PDF/U11FC0.pdf
+speakers: 75000000
+speakers_date: 2011-2015
+validity: preliminary

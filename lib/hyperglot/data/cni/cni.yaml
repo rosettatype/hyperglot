@@ -1,0 +1,12 @@
+name: Asháninka
+orthographies:
+- base: A C E I J M N O P Q R S T V W X Y a c e i j m n o p q r s t v w x y '
+  note: There seems to be little concensus on how to write Asháninka.
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 35000
+speakers_date: 2007
+validity: preliminary

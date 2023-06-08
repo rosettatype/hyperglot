@@ -1,0 +1,16 @@
+name: Shan
+orthographies:
+- autonym: လိၵ်ႈတႆး / ၵႂၢမ်းတႆး
+  base: ၵ ၶ င ၸ သ ၺ တ ထ ၼ ပ ၽ ၾ မ ယ ရ လ ဝ ႁ ဢ a i ( )
+  design_requirements:
+  - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
+  marks: ◌ိ ◌ီ ◌ု ◌ူ ◌ေ ◌ဵ ◌း ◌် ◌ျ ◌ြ ◌ွ ◌ၢ ◌ႂ ◌ႃ ◌ႄ ◌ႅ ◌ႆ ◌ႇ ◌ႈ ◌ႉ ◌ႊ
+  note: The autonym လိၵ်ႈတႆး refers to the written Shan while ၵႂၢမ်းတႆး refers to the spoken Shan.
+  script: Burmese
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 3300000
+speakers_date: 2001
+validity: preliminary

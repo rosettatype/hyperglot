@@ -1,0 +1,14 @@
+name: Itelmen
+orthographies:
+- autonym: Итэнмэн
+  base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Љ Њ Ў Ҳ Ӄ Ӆ Ӈ Ӑ Ә О̆ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё љ њ ў ҳ ӄ ӆ ӈ ӑ ә о̆
+  marks: ◌́ ◌̆ ◌̈ ◌̊
+  script: Cyrillic
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 82
+speakers_date: 2010
+status: living
+validity: verified

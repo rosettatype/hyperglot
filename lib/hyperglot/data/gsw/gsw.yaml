@@ -1,0 +1,14 @@
+name: Swiss German
+orthographies:
+- autonym: Schwyzerdütsch
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Ö Ü a b c d e f g h i j k l m n o p q r s t u v w x y z ä ö ü
+  marks: ◌̈
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- CLDR
+speakers: 4930000
+speakers_date: 2013
+status: living
+validity: verified

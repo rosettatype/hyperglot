@@ -1,0 +1,12 @@
+name: Kachhi
+orthographies:
+- autonym: કચ્છી
+  inherit: guj
+  script: Gujarati
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 1031000
+speakers_date: 2011
+validity: preliminary

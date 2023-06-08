@@ -1,0 +1,17 @@
+name: Ladino
+note: Speaker estimates vary widely.
+orthographies:
+- autonym: djudeo-espanyol
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
+  script: Latin
+  status: primary
+- autonym: ג'ודיאו-איספאנייול
+  base: א ב ׳ ג ד ה ו ז ח ט י כ ך ל מ ם נ ן ס ע פ ף צ ץ ק ר ש ת
+  script: Hebrew
+  status: secondary
+source:
+- Omniglot
+- Wikipedia
+speakers: 400000
+speakers_date: 2017
+validity: preliminary

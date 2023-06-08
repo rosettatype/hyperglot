@@ -1,0 +1,14 @@
+name: Shughni
+orthographies:
+- autonym: Хуг̌ну̊н зив
+  base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Ё Ғ Қ Ҳ Ҷ Ӣ Ӯ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш ё ғ қ ҳ ҷ ӣ ӯ
+  marks: ◌̄ ◌̆ ◌̈ ◌̊ ◌̌
+  script: Cyrillic
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 50000
+speakers_date: 1990
+status: living
+validity: preliminary

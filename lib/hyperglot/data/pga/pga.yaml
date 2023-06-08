@@ -1,0 +1,13 @@
+name: Sudanese Creole Arabic
+note: Also called Juba Arabic.
+orthographies:
+- autonym: جوبا
+  inherit: apd
+  script: Arabic
+  status: primary
+source:
+- Wikipedia
+speakers: 20000
+speakers_date: 1987
+status: living
+validity: draft

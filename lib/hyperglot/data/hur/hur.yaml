@@ -1,0 +1,15 @@
+name: Halkomelem
+orthographies:
+- autonym: hən̓q̓əmin̓əm̓
+  auxiliary: A C E H I K L M N P Q S T U W X Y Č Š Ə Θ Χ Ɬ Ꭓ ꭓ
+  base: a c e h i k l m n p q s t u w x y č š ƛ ə ɬ ʔ ʷ θ χ ᶿ
+  marks: ◌̓ ◌̌
+  script: Latin
+  status: primary
+source:
+- Musqueam First Nation and MOA, hən̓q̓əmin̓əm̓ Alphabet, https://www2.moa.ubc.ca/musqueamteachingkit/alphabet.php
+- Wikipedia
+speakers: 260
+speakers_date: 2014
+status: living
+validity: preliminary

@@ -1,0 +1,13 @@
+name: Samburu
+orthographies:
+- autonym: Sampur
+  auxiliary: F Q X Z f q x z
+  base: A B C D E G H I J K L M N O P R S T U V W Y a b c d e g h i j k l m n o p r s t u v w y
+  script: Latin
+  status: primary
+source:
+- CLDR
+speakers: 240000
+speakers_date: 2009
+status: living
+validity: draft

@@ -1,0 +1,12 @@
+name: Awa-Cuaiquer
+orthographies:
+- base: A Ã C E Ẽ I Ĩ Ɨ J K L M N Ñ P R S T U Ũ V W Y Z a ã c e ẽ i ĩ ɨ j k l m n ñ p r s t u ũ v w y z '
+  marks: ◌̃
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 13000
+speakers_date: 2008
+validity: preliminary

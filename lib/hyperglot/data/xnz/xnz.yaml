@@ -1,0 +1,15 @@
+name: Kenzi
+orthographies:
+- inherit: dgl
+  script: Coptic/Nubian
+  status: historical
+- inherit: dgl
+  script: Latin
+  status: primary
+preferred_name: Kenzi, Mattokki
+source:
+- Wikipedia
+speakers: 50000
+speakers_date: 2014
+status: living
+validity: verified

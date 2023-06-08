@@ -1,0 +1,24 @@
+name: Southern Dagaare
+orthographies:
+- auxiliary: Ɦ ɦ Ŋ ŋ
+  base: A B D E Ɛ F G H I J K L M N O Ɔ P R S T U V W Y Z a b d e ɛ f g h i j k l m n o ɔ p r s t u v w y z
+  design_requirements:
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  note: Bureau of Ghana Languages orthography. Ɦ and Ŋ are proposed in Bodomo 1997.
+  script: Latin
+  status: primary
+- base: A B D E Ɛ F G H I J K L M N Ŋ O Ɔ P R S T U V W Y Z a b d e ɛ f g h i j k l m n ŋ o ɔ p r s t u v w y z
+  design_requirements:
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  marks: ◌̃
+  note: Bible Society of Ghana orthography
+  script: Latin
+  status: secondary
+source:
+- Omniglot
+- Wikipedia
+- Adams Bodomo, The Structure of Dagaare, CSLI, Stanford University, 1997. ISBN 9781575860770.
+- https://www.bible.com/versions/2268
+speakers: 1100000
+speakers_date: 2001-2003
+validity: preliminary

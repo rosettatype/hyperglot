@@ -1,0 +1,15 @@
+name: Maasina Fulfulde
+note: Used in Mali and Ghana.
+orthographies:
+- autonym: Maasinankoore
+  inherit: fue
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+- CLDR
+speakers: 1000000
+speakers_date: 2007
+status: living
+validity: verified

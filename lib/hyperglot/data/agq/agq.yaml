@@ -1,0 +1,17 @@
+name: Aghem
+orthographies:
+- autonym: Wum
+  auxiliary: Q R X q r x
+  base: A B C D E F G H I K L M N O P S T U V W Y Z À Â È Ê Ì Î Ò Ô Ù Û Ā Ē Ě Ī Ŋ Ō Ū Ǎ Ǐ Ǒ Ǔ Ɔ Ɛ Ɨ Ʉ a b c d e f g h i k l m n o p s t u v w y z à â è ê ì î ò ô ù û ā ē ě ī ŋ ō ū ǎ ǐ ǒ ǔ ɔ ɛ ɨ ʉ ʔ
+  design_requirements:
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  marks: ◌̀ ◌̂ ◌̄ ◌̌
+  script: Latin
+  status: primary
+source:
+- CLDR
+- Wikipedia
+speakers: 27000
+speakers_date: 2000
+status: living
+validity: preliminary

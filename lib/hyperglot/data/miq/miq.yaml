@@ -1,0 +1,13 @@
+name: Mískito
+orthographies:
+- autonym: Mískitu
+  base: A B D H I J K L M N O P R S T U W Z Â Î Í a b d h i j k l m n o p r s t u w z â î í
+  marks: ◌́ ◌̂
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 150000
+speakers_date: 2005
+validity: preliminary

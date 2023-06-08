@@ -1,0 +1,19 @@
+name: Aja (Benin)
+orthographies:
+- autonym: Adja
+  base: A B C D E F G H I J K L M N O P R S T U V W X Y Z a b c d e f g h i j k l m n o p r s t u v w x y z À Á È É Ì Í Ò Ó Ù Ú à á è é ì í ò ó ù ú Ŋ ŋ Ɔ Ɖ Ɛ Ɣ Ʒ ɔ ɖ ɛ ɣ ʒ
+  design_requirements:
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  marks: ◌̀ ◌́
+  script: Latin
+  status: primary
+source:
+- Virginia Beavon-Ham, Emile Ega, Lire et écrire l'ajagbe (Guide pratique pour ceux qui savent lire le français), 2007, https://www.sil.org/resources/archives/35562.
+- Centre national de linguistique appliquée (C.E.N.A.L.A.), Alphabet des langues nationales béninoises, 2008, p. 5-6.
+- Eric A. Morley, A Grammar of Ajagbe, 2010.
+- Omniglot
+- Wikipedia
+- https://www.jw.org/ajg
+speakers: 550000
+speakers_date: 2006-2012
+validity: preliminary

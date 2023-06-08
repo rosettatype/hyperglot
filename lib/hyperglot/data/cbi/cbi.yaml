@@ -1,0 +1,13 @@
+name: Chachi
+orthographies:
+- autonym: Cha'palaa
+  base: A B C D E F G H I J L M N P R S T U V Y Ã Ẽ Ĩ Ũ Ñ a b c d e f g h i j l m n p r s t u v y ' ã ẽ ĩ ũ ñ
+  marks: ◌̃
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 10000
+speakers_date: 2013
+validity: preliminary

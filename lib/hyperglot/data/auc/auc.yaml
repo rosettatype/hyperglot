@@ -1,0 +1,11 @@
+name: Waorani
+orthographies:
+- base: A B D E G I K M N O P R S T W Y Ã Ẽ Ĩ Õ Ñ a b d e g i k m n o p r s t w y ã ẽ ĩ õ ñ
+  marks: ◌̃
+  script: Latin
+  status: primary
+source:
+- Wikipedia
+speakers: 2000
+speakers_date: 2004
+validity: draft

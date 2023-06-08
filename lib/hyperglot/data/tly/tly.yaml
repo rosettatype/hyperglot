@@ -1,0 +1,25 @@
+name: Talysh
+orthographies:
+- autonym: Tolışi
+  inherit: azj
+  note: Used in Azerbaijan.
+  script: Latin
+  status: primary
+- autonym: تالشه
+  inherit: pes
+  note: Used in Iran.
+  script: Arabic
+  status: primary
+- autonym: Толыши
+  base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Ј Ғ Ҹ Ҝ Һ Ә Ы а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш ј ғ ҹ ҝ һ ә ы
+  marks: ◌̆
+  note: Used in Russia.
+  script: Cyrillic
+  status: secondary
+source:
+- Omniglot
+- Wikipedia
+speakers: 218100
+speakers_date: 2011-2014
+status: living
+validity: verified

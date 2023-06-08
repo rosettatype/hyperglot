@@ -1,0 +1,13 @@
+name: Secoya
+orthographies:
+- autonym: Paikoka
+  base: A D E Ë I J K M N Ñ O P S T U W Y a d e ë i j k m n ñ o p s t u w y '
+  marks: ◌̃ ◌̈ ◌̱
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 1200
+speakers_date: 2007
+validity: preliminary

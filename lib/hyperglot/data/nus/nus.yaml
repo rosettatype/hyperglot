@@ -1,0 +1,16 @@
+name: Nuer
+orthographies:
+- autonym: Naath
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Ë Ï Ö Ŋ Ɔ Ɛ Ɣ A̱ E̱ I̱ O̱ Ɔ̱ Ɛ̱ a b c d e f g h i j k l m n o p q r s t u v w x y z ä ë ï ö ŋ ɔ ɛ ɣ a̱ e̱ i̱ o̱ ɔ̱ ɛ̱
+  design_requirements:
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  marks: ◌̈ ◌̱
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 890000
+speakers_date: 1982-2007
+status: living
+validity: verified

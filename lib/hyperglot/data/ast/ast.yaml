@@ -1,0 +1,15 @@
+name: Asturian
+orthographies:
+- autonym: Asturianu
+  base: A B C D E F G H I L M N O P Q R S T U V X Y Z Á É Í Ñ Ó Ú Ü Ḥ Ḷ a b c d e f g h i l m n o p q r s t u v x y z á é í ñ ó ú ü ḥ ḷ
+  marks: ◌́ ◌̃ ◌̈ ◌̣
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+- CLDR
+speakers: 351791
+speakers_date: 2017
+status: living
+validity: verified

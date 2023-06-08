@@ -1,0 +1,12 @@
+name: Mende (Sierra Leone)
+orthographies:
+- autonym: Mɛnde yia
+  base: A B D E Ɛ F G H I J K L M N O Ɔ P S T U V W Y a b d e ɛ f g h i j k l m n o ɔ p s t u v w y
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 15000000
+speakers_date: 2006
+validity: preliminary

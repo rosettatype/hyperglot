@@ -1,0 +1,72 @@
+includes:
+- zaa
+- zab
+- zac
+- zad
+- zae
+- zaf
+- zai
+- zam
+- zao
+- zaq
+- zar
+- zas
+- zat
+- zav
+- zaw
+- zax
+- zca
+- zoo
+- zpa
+- zpb
+- zpc
+- zpd
+- zpe
+- zpf
+- zpg
+- zph
+- zpi
+- zpj
+- zpk
+- zpl
+- zpm
+- zpn
+- zpo
+- zpp
+- zpq
+- zpr
+- zps
+- zpt
+- zpu
+- zpv
+- zpw
+- zpx
+- zpy
+- zpz
+- zsr
+- zte
+- ztg
+- ztl
+- ztm
+- ztn
+- ztp
+- ztq
+- zts
+- ztt
+- ztu
+- ztx
+- zty
+name: Zapotec
+orthographies:
+- base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á À È É Ë Ì Ü Ñ S̨ Ž Z̨ a b c d e f g h i j k l m n o p q r s t u v w x y z á à è é ë ì ü ñ s̨ ž z̨
+  marks: ◌̀ ◌́ ◌̃ ◌̈ ◌̌ ◌̨
+  script: Latin
+  status: primary
+preferred_as_individual: true
+source:
+- Omniglot
+- Wikipedia
+speakers: 450000
+speakers_date: 2010
+status: living
+validity: verified

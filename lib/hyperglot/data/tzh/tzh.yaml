@@ -1,0 +1,12 @@
+name: Tzeltal
+orthographies:
+- autonym: Batz'il K'op
+  base: A B C E H I J K L M N O P R T U W X Y Z a b c e h i j k l m n o p r t u w x y z '
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 445856
+speakers_date: 2010
+validity: preliminary

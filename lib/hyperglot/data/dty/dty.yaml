@@ -1,0 +1,13 @@
+name: Dotyali
+orthographies:
+- autonym: डोटेली
+  auxiliary: ॐ
+  inherit: npi
+  script: Devanagari
+  status: primary
+source:
+- Wikipedia
+- Unicode
+speakers: 790000
+speakers_date: 2011
+validity: preliminary

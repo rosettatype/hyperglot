@@ -1,0 +1,15 @@
+name: Scottish Gaelic
+orthographies:
+- autonym: Gàidhlig
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À È É Ì Ò Ó Ù a b c d e f g h i j k l m n o p q r s t u v w x y z à è é ì ò ó ù
+  marks: ◌̀ ◌́
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- CLDR
+- Wikipedia
+speakers: 57000
+speakers_date: 2011
+status: living
+validity: preliminary

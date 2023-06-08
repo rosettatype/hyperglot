@@ -1,0 +1,14 @@
+name: Forest Enets
+orthographies:
+- autonym: Онэй база
+  base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ҫ Ӈ Ԑ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҫ ӈ ԑ
+  marks: ◌̆ ◌̈
+  script: Cyrillic
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 5
+speakers_date: 2010
+status: living
+validity: verified

@@ -1,0 +1,16 @@
+name: Mankanya
+orthographies:
+- autonym: mankaañ
+  base: A B C D E F G H I J K L M N O P R S T U W Y a b c d e f g h i j k l m n o p r s t u w y Ë Ñ Ú ë ñ ú Ŋ ŋ Ş ş Ţ ţ Ŧ ŧ
+  design_requirements:
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  marks: ◌̈ ◌̃ ◌́ ◌̧
+  script: Latin
+  status: primary
+source:
+- République du Sénégal, Décret no 2005-984 relatif à l’orthographe et la séparation des mots en mankaañ, 21 octobre 2005
+- Wikipedia
+speakers: 75000
+speakers_date: 2006
+status: living
+validity: preliminary

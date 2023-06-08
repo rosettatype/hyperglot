@@ -1,0 +1,13 @@
+name: Aguaruna
+orthographies:
+- autonym: iinia chichama
+  base: A B C D E G H I J K M N P R S T U W Y Ã Ẽ Ĩ Ũ Í a b c d e g h i j k m n p r s t u w y ã ẽ ĩ ũ í
+  marks: ◌́ ◌̃
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 53400
+speakers_date: 2007
+validity: preliminary

@@ -1,0 +1,15 @@
+name: North Marquesan
+note: The number of speakers is an estimate, a half of total Marquesan language speakers (8700).
+orthographies:
+- autonym: ’Eo ’Enana
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á É Í Ó Ú a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ó ú ʻ
+  marks: ◌́
+  script: Latin
+  status: primary
+source:
+- CLDR
+- Wikipedia
+speakers: 4350
+speakers_date: 2007
+status: living
+validity: preliminary

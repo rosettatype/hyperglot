@@ -1,0 +1,14 @@
+name: Anuta
+orthographies:
+- autonym: Anuta
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á É Í Ñ Ó Ú Ü a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ñ ó ú ü
+  marks: ◌́ ◌̃ ◌̈
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- CLDR
+speakers: 270
+speakers_date: 1999
+status: living
+validity: verified

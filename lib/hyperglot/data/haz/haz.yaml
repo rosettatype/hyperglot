@@ -1,0 +1,13 @@
+name: Hazaragi
+note: The number of speakers is an estimate based on the Hazaras population.
+orthographies:
+- autonym: هزارگی
+  inherit: pes
+  script: Arabic
+  status: primary
+source:
+- Wikipedia
+speakers: 8000000
+speakers_date: 2014
+status: living
+validity: draft

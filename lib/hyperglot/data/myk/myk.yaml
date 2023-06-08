@@ -1,0 +1,19 @@
+name: Mamara Senoufo
+orthographies:
+- autonym: mamaara
+  auxiliary: Ó Ú ó ú
+  base: A B C D E Ɛ F G H I J K L M N Ɲ Ŋ O P R S T U V W X Y Z a b c d e ɛ f g h i j k l m n ɲ ŋ o ɔ p r s t u v w x y z À È Ì Ò Ù Á É Í à è ì ò ù á é í
+  design_requirements:
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  marks: ◌̀ ◌́
+  note: Tone marks are used in a few words.
+  script: Latin
+  status: primary
+source:
+- République du Mali, Direction nationale de l’alphabétisation fonctionnelle et de la linguistique appliquée, Alphabets et règles d’orthographe des langues nationales, Bamako, DNAFLA, 1993
+- Wikipedia
+- https://www.bible.com/versions/1140
+speakers: 740000
+speakers_date: 2000
+status: living
+validity: preliminary

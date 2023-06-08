@@ -1,0 +1,23 @@
+name: Teso
+orthographies:
+- autonym: Ateso
+  auxiliary: F Q Z f q z
+  base: A B C D E G H I J K L M N O P R S T U V W X Y Ŋ a b c d e g h i j k l m n o p r s t u v w x y ŋ
+  design_requirements:
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  script: Latin
+  status: deprecated
+- autonym: Atɛsɔ
+  auxiliary: Q Z q z
+  base: A B C D E F G H I J K L M N O P R S T U V W Y a b c d e f g h i j k l m n o p r s t u v w y Ɔ Ɛ Ɨ Ʉ ɔ ɛ ɨ ʉ ᵃ ᵉ ᵋ ᵒ ᵓ ᵘ ᶤ ᶶ ⁱ
+  script: Latin
+  status: primary
+source:
+- Atɛsɔ Local Language Board, A Guide to the Standardised Orthography of Atɛsɔ, Kampala, 2014
+- J.H. Holders, J.C.D. Lawrence, An introduction to the Ateso language, Kampala, Uganda, Eagle Press, 1957, 2nd edition
+- Omniglot
+- Wikipedia
+speakers: 1900000
+speakers_date: 2002-2009
+status: living
+validity: verified

@@ -1,0 +1,20 @@
+name: Ukrainian
+orthographies:
+- autonym: Українська
+  auxiliary: А́ Е́ И́ О́ У́ Ы́ Э́ ю́ я́ а́ е́ и́ о́ у́ ы́ э́ ю́ я́
+  base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ь Э Ю Я Є І Ї Ґ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ь э ю я є і ї ґ ’
+  design_alternates: ◌̆
+  design_requirements:
+  - The form of the Cyrillic breve mark (marked in the previews) differs from the Latin-script breve that is associated with the same Unicode codepoint.
+  marks: ◌̆ ◌̈ ◌́
+  script: Cyrillic
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+- CLDR
+- https://en.wikipedia.org/wiki/Ukrainian_alphabet
+speakers: 35000000
+speakers_date: 2000
+status: living
+validity: verified

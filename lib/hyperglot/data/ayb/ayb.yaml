@@ -1,0 +1,13 @@
+name: Ayizo Gbe
+orthographies:
+- autonym: ayizo-nu
+  base: A B C D E F G H I J K L M N O P R S T U V W X Y Z a b c d e f g h i j k l m n o p r s t u v w x y z Ɔ Ɖ Ɛ ɔ ɖ ɛ
+  script: Latin
+  status: primary
+source:
+- Centre national de linguistique appliquée (C.E.N.A.L.A.), Alphabet des langues nationales béninoises, 2008, p. 5-6.
+- Wikipedia
+speakers: 400000
+speakers_date: 2002-2006
+status: living
+validity: preliminary

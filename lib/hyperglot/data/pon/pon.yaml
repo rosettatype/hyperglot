@@ -1,0 +1,12 @@
+name: Pohnpeian
+orthographies:
+- autonym: Pohnpei
+  base: A D E H I K L M N O P R S T U W a d e h i k l m n o p r s t u w
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 29000
+speakers_date: 2001
+validity: preliminary

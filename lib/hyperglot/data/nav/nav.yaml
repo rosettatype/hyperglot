@@ -1,0 +1,17 @@
+name: Navajo
+orthographies:
+- autonym: Diné Bizaad
+  base: A Ą B C D E Ę G H I Į J K L Ł M N O Ǫ S T W X Y Z a á ą ą́ b c d e é ę ę́ g h i í į į́ j k l ł m n o ó ǫ ǫ́ s t w x y z ʼ
+  design_alternates: Ą Ę Į Ǫ ą ą́ ę ę́ į į́ ǫ ǫ́
+  design_requirements:
+  - The positioning of the ogonek mark (marked in the previews) differs from its positioning in Polish and Lithuanian as it is typically centered below the vowel.
+  marks: ◌́ ◌̨
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+- https://en.wikipedia.org/wiki/Navajo_language#Orthography
+speakers: 169359
+speakers_date: 2011
+validity: preliminary

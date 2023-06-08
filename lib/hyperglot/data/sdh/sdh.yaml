@@ -1,0 +1,13 @@
+name: Southern Kurdish
+orthographies:
+- autonym: کوردی خوارگ
+  inherit: ckb
+  script: Arabic
+  status: primary
+source:
+- Wikipedia
+- Omniglot
+speakers: 3000000
+speakers_date: 2000
+status: living
+validity: preliminary

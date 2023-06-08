@@ -1,0 +1,27 @@
+name: Panjabi
+orthographies:
+- autonym: ਪੰਜਾਬੀ,
+  auxiliary: ॐ
+  base: ਅ ਬ ਭ ਗ ਧ ਢ ੲ ਵ ਦ ਡ ਹ ਘ ਥ ਠ ਯ ਕ ਚ ਲ ਮ ਨ ਣ ਸ ੳ ਪ ਫ ਖ ਛ ਰ ਤ ਟ ਜ
+  design_requirements:
+  - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
+  marks: ◌਼ ◌ਾ ◌ਿ ◌ੀ ◌ੁ ◌ੂ ◌ੇ ◌ੈ ◌ੋ ◌ੌ
+  note: Used in India.
+  numerals: ੦ ੧ ੨ ੩ ੪ ੫ ੬ ੭ ੮ ੯ 0 1 2 3 4 5 6 7 8 9
+  punctuation: । ॥ ॰
+  script: Gurmukhi
+  status: primary
+- autonym: پن٘جابی
+  base: ا ب پ ت ٹ ث ج چ ح خ د ڈ ذ ر ڑ ز ژ س ش ص ض ط ظ ع غ ف ق ک گ ل م ن ݨ ں و ه ھ ء ی ے
+  design_requirements:
+  - Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
+  marks: ◌ؕ
+  note: Used in Pakistan.
+  script: Arabic
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 125000000
+speakers_date: 2011-2015
+validity: preliminary

@@ -1,0 +1,20 @@
+name: Thai
+note: There are approximately 44000000 L2 speakers.
+orthographies:
+- autonym: ภาษาไทย
+  auxiliary: ◌̍ ◌̎
+  base: ก ข ฃ ค ฅ ฆ ง จ ฉ ช ซ ฌ ญ ฎ ฏ ฐ ฑ ฒ ณ ด ต ถ ท ธ น บ ป ผ ฝ พ ฟ ภ ม ย ร ล ว ศ ษ ส ห ฬ อ ฮ ะ า เ แ โ ใ ไ ฤ ๅ ฦ ๆ
+  design_requirements:
+  - Mark positioning and some character combinations (ligatures) have to be resolved to properly represent the language.
+  marks: ◌̍ ◌̎ ◌ั ◌ิ ◌ุ ◌ู ◌็ ◌ํ ◌ี ◌ึ ◌ื ◌ฺ ◌่ ◌้ ◌๊ ◌๋ ◌์ ◌๎
+  numerals: ๐ ๑ ๒ ๓ ๔ ๕ ๖ ๗ ๘ ๙ 0 1 2 3 4 5 6 7 8 9
+  punctuation: ๏ ๛
+  script: Thai
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+- CLDR
+speakers: 36000000
+speakers_date: 2000
+validity: preliminary

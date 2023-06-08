@@ -1,0 +1,14 @@
+name: Dyan
+orthographies:
+- autonym: jãané
+  auxiliary: Q X q x
+  base: A B Ɓ C D Ɗ E Ɛ F G H I J K L M N Ɲ O Ɔ P R S T U V W Y Z a b ɓ c d ɗ e ɛ f g h i j k l m n ɲ o ɔ p r s t u v w y z Ã Ẽ Ɛ̃ Ĩ Õ Ɔ̃ Ũ ã ẽ ɛ̃ ĩ õ ɔ̃ ũ
+  marks: ◌̃
+  script: Latin
+  status: primary
+source:
+- Wikipedia
+- https://mooreburkina.com/en/songs-and-music/alphabet-clips-burkina-languages
+speakers: 14100
+speakers_date: 1991
+validity: preliminary

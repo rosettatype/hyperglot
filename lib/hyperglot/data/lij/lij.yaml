@@ -1,0 +1,13 @@
+name: Ligurian
+orthographies:
+- autonym: Ligure
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Á Â Ä Æ È É Ê Ë Ì Í Î Ï Ò Ó Ô Ö Ù Ú a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ä æ è é ê ë ì í î ï ò ó ô ö ù ú
+  marks: ◌̀ ◌́ ◌̂ ◌̈
+  script: Latin
+  status: primary
+source:
+- Omniglot
+speakers: 500000
+speakers_date: 2002
+status: living
+validity: draft

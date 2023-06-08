@@ -1,0 +1,16 @@
+name: Hausa
+orthographies:
+- autonym: Hausa
+  auxiliary: P Q V X À Á Â È É Ê Ì Í Î Ò Ó Ô Ù Ú Û p q v x à á â è é ê ì í î ò ó ô ù ú û
+  base: A B C D E F G H I J K L M N O R S T U W Y Z Ƙ Ƴ Ɓ Ɗ R̃ a b c d e f g h i j k l m n o r s t u w y z ƙ ƴ ɓ ɗ r̃ ʼ
+  marks: ◌̃ ◌̀ ◌́ ◌̂
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+- CLDR
+speakers: 40000000
+speakers_date: 2015-2016
+status: living
+validity: verified

@@ -1,0 +1,17 @@
+name: Dutch
+orthographies:
+- autonym: Nederlands
+  auxiliary: ȷ
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á Â Ä È É Ê Ë Í Ï Ó Ô Ö Ú Û Ü Ĳ a b c d e f g h i j k l m n o p q r s t u v w x y z á â ä è é ê ë í ï ó ô ö ú û ü ĳ
+  design_requirements:
+  - To support a combination of ‹ĳ› with an acute mark, ‹ȷ› with an acute mark should follow ‹í›. Font developers provide automated substitutions in their fonts to make such character recomposition work.
+  marks: ◌̀ ◌́ ◌̂ ◌̈
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Native
+speakers: 24000000
+speakers_date: 2016
+status: living
+validity: preliminary

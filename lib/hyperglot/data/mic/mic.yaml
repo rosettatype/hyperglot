@@ -1,0 +1,14 @@
+name: Mi'kmaq
+note: The speaker count is based on 4% proportion of the total population.
+orthographies:
+- autonym: Míkmawísimk
+  base: A E I J K L M N O P Q S T U W Y Á É Í Ɨ Ó Ú a e i j k l m n o p q s t u w y ' á é í ɨ ó ú
+  marks: ◌́
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 7140
+speakers_date: 2016
+validity: preliminary

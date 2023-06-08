@@ -1,0 +1,14 @@
+name: Cofán
+orthographies:
+- autonym: A’ingae
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ñ Û a b c d e f g h i j k l m n o p q r s t u v w x y z ñ û ’
+  marks: ◌̂ ◌̃
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 2400
+speakers_date: 2001-2008
+status: living
+validity: preliminary

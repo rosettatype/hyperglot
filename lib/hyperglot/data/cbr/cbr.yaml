@@ -1,0 +1,13 @@
+name: Cashibo-Cacataibo
+orthographies:
+- autonym: Cacataibo
+  base: A B C E I M N O P Q R S T U X Ë Ï Õ Ñ a b c e i m n o p q r s t u x ' ë ï õ ñ
+  marks: ◌̃ ◌̈
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 1200
+speakers_date: 2007
+validity: preliminary

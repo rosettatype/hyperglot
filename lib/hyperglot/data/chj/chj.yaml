@@ -1,0 +1,13 @@
+name: Ojitlán Chinantec
+orthographies:
+- autonym: Chinanteco de San Lucas Ojitlán
+  base: A B C D E F G H I J K L M N O P R S T U Ë Ø a b c d e f g h i j k l m n o p r s t u ë ø
+  marks: ◌́ ◌̈
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 38000
+speakers_date: 2000
+validity: preliminary

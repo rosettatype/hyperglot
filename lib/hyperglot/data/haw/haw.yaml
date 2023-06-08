@@ -1,0 +1,18 @@
+name: Hawaiian
+orthographies:
+- autonym: ʻŌlelo Hawaiʻi
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ā Ē Ī Ō Ū a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ī ō ū ʻ
+  design_requirements:
+  - The ‹ʻ› (okina) should appear as an “up-turned comma” above the baseline that is ideally sufficiently distinguished from the left single quote (e.g.  positioned slightly lower).
+  marks: ◌̄
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- https://en.wikipedia.org/wiki/ʻOkina
+- CLDR
+- http://webdev.uhh.hawaii.edu/fonts.php
+speakers: 24000
+speakers_date: 2008
+status: living
+validity: preliminary

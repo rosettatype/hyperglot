@@ -1,0 +1,13 @@
+name: Asu (Tanzania)
+orthographies:
+- autonym: Kipare
+  auxiliary: Q X q x
+  base: A B C D E F G H I J K L M N O P R S T U V W Y Z a b c d e f g h i j k l m n o p r s t u v w y z
+  script: Latin
+  status: primary
+source:
+- CLDR
+speakers: 500000
+speakers_date: 2000
+status: living
+validity: draft

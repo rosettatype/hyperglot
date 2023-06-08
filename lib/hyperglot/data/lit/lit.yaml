@@ -1,0 +1,15 @@
+name: Lithuanian
+orthographies:
+- autonym: Lietuviškai
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ą Č Ė Ę Į Š Ū Ų Ž a b c d e f g h i j k l m n o p q r s t u v w x y z ą č ė ę į š ū ų ž
+  marks: ◌̄ ◌̇ ◌̌ ◌̨
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- CLDR
+- Wikipedia
+speakers: 3000000
+speakers_date: 2012
+status: living
+validity: preliminary

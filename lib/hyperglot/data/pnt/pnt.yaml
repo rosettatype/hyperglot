@@ -1,0 +1,26 @@
+name: Pontic Greek
+orthographies:
+- autonym: Ποντιακά
+  base: Α Β Γ Δ Ε Ζ Θ Ι Κ Λ Μ Ν Ο Π Ρ Σ Χ̌ Τ Ζ̌ Υ Φ Χ α β γ δ ε ζ θ ι κ λ μ ν ο π ρ σ χ̌ τ ζ̌ υ φ χ
+  marks: ◌̌
+  preferred_as_group: true
+  script: Greek
+  status: primary
+- autonym: Pontiakón
+  base: A B C Ç Ğ D E F H İ I K L M N O P R S Ş T U Y X Z Þ a b c ç ğ d e f h i̇ i k l m n o p r s ş t u y x z þ
+  marks: ◌̆ ◌̧ ◌̇ ◌́
+  preferred_as_group: true
+  script: Latin
+  status: primary
+- autonym: Понтиакá
+  base: А В Г Д Е Ж З С И К Л М Н О П Р Ш Т Ц Ч У Ф Х а в г д е ж з с и к л м н о п р ш т ц ч у ф х
+  marks: ◌́
+  preferred_as_group: true
+  script: Cyrillic
+  status: primary
+source:
+- Wikipedia
+speakers: 778000
+speakers_date: 2009-2015
+status: living
+validity: preliminary

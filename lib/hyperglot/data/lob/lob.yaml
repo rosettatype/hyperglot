@@ -1,0 +1,12 @@
+name: Lobi
+orthographies:
+- autonym: ’lobiire
+  base: A B Ɓ C D E Ɛ Ǝ F G H I Ɩ J K L M N O Ɔ P R S T U Ʋ V W Ⱳ Y Ƴ a b ɓ c d e ɛ ǝ f g h i ɩ j k l m n o ɔ p r s t u ʋ v w ⱳ y ƴ ʼ
+  script: Latin
+  status: primary
+source:
+- Wikipedia
+- https://www.lobiri.com
+speakers: 490000
+speakers_date: 2009-2017
+validity: preliminary

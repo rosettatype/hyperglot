@@ -1,0 +1,13 @@
+name: Mwani
+orthographies:
+- autonym: Kimwani
+  inherit: swh
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 100000
+speakers_date: 2006
+status: living
+validity: verified

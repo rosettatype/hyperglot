@@ -1,0 +1,12 @@
+name: Aimaq
+orthographies:
+- autonym: ایماقی
+  inherit: pes
+  script: Arabic
+  status: primary
+source:
+- Wikipedia
+speakers: 650000
+speakers_date: 1993
+status: living
+validity: draft

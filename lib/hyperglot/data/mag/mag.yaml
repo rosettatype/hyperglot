@@ -1,0 +1,18 @@
+name: Magahi
+orthographies:
+- autonym: मगही
+  auxiliary: ॐ
+  base: अ आ इ ई उ ऊ ऋ ए ऐ ओ औ क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र ल व श ष स ह ऎ ऒ ॳ ॴ ॵ ʼ ‌ ‍
+  design_requirements:
+  - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
+  marks: ◌ँ ◌ं ◌ः ◌ऺ ◌ऻ ◌़ ◌ा ◌ि ◌ी ◌ु ◌ू ◌ृ ◌ॆ ◌े ◌ै ◌ॊ ◌ो ◌ौ ◌् ◌ॏ
+  numerals: ० १ २ ३ ४ ५ ६ ७ ८ ९ 0 1 2 3 4 5 6 7 8 9
+  punctuation: । ॥ ॰
+  script: Devanagari
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 20700000
+speakers_date: 2011
+validity: preliminary

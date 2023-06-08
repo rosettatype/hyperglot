@@ -1,0 +1,17 @@
+name: Bambara
+orthographies:
+- autonym: Bamanankan
+  auxiliary: Q V X q v x
+  base: A B C D E F G H I J K L M N O P R S T U W Y Z Ŋ Ɔ Ɛ Ɲ a b c d e f g h i j k l m n o p r s t u w y z ŋ ɔ ɛ ɲ
+  design_requirements:
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+- CLDR
+speakers: 4100000
+speakers_date: 2012
+status: living
+validity: verified

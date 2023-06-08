@@ -1,0 +1,13 @@
+name: Mossi
+orthographies:
+- autonym: moor
+  base: A B D E Ɛ F G H I Ɩ L M N O P R S T U V Ʋ W Y Z a b d e ɛ f g h i ɩ l m n o p r s t u v ʋ w y z '
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+- https://mooreburkina.com
+speakers: 7830000
+speakers_date: 1009-2013
+validity: preliminary

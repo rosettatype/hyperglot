@@ -1,0 +1,11 @@
+name: Shipibo-Conibo
+orthographies:
+- base: A B C E I J K L M N O P Q R S T U W Y a b c e i j k l m n o p q r s t u w y
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 26000
+speakers_date: 2003
+validity: preliminary

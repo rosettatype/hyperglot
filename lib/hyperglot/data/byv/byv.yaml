@@ -1,0 +1,15 @@
+name: Medumba
+orthographies:
+- autonym: Mə̀dʉ̂mbɑ̀
+  base: A B C D E F G H I J K L M N O S T U V W Y Z a b c d e f g h i j k l m n o s t u v w y z À Â È Ê Ì Î Ò Ô Ù Û à â è ê ì î ò ô ù û Ě ě Ŋ ŋ Ɔ Ə Ɛ Ǎ ǎ Ǐ ǐ Ǒ ǒ Ǔ ǔ Ʉ ɑ ɔ ə ɛ ʉ ʼ Ɑ
+  design_requirements:
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  marks: ◌̀ ◌̂ ◌̌
+  script: Latin
+  status: primary
+source:
+- Wikipedia
+speakers: 210000
+speakers_date: 1991
+status: living
+validity: preliminary

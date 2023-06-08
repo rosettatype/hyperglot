@@ -1,0 +1,13 @@
+name: Konkani (individual language)
+orthographies:
+- autonym: महाराष्ट्रीय कोंकणी
+  inherit: hin
+  script: Devanagari
+  status: primary
+preferred_name: Maharashtrian Konkani
+source:
+- Wikipedia
+- Unicode
+speakers: 2400000
+speakers_date: 2011
+validity: preliminary

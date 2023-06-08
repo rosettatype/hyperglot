@@ -1,0 +1,15 @@
+name: Standard Estonian
+orthographies:
+- autonym: Eesti
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Õ Ö Ü Š Ž a b c d e f g h i j k l m n o p q r s t u v w x y z ä õ ö ü š ž
+  marks: ◌̃ ◌̈ ◌̌
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- CLDR
+- Alvestrand
+speakers: 1100000
+speakers_date: 2012
+status: living
+validity: preliminary

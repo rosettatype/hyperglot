@@ -1,0 +1,13 @@
+name: Tem
+orthographies:
+- autonym: Kotokoli
+  base: A B C D Ɖ E Ɛ F G H I Ɩ J K L M N Ŋ O Ɔ P R S T U Ʊ V W Y Z a b c d ɖ e ɛ f g h i ɩ j k l m n ŋ o ɔ p r s t u ʊ v w y z
+  design_requirements:
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  script: Latin
+  status: primary
+source:
+- Wikipedia
+speakers: 340000
+speakers_date: 1987-2012
+validity: preliminary

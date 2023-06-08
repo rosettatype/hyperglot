@@ -1,0 +1,12 @@
+name: Soninke
+orthographies:
+- autonym: Sooninkanxanne
+  base: A B C D E F G H I J K L M N O P Q R S T U W X Y a b c d e f g h i j k l m n o p q r s t u w x y '
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 2100000
+speakers_date: 2006-2011
+validity: preliminary

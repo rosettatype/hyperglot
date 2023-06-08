@@ -1,0 +1,15 @@
+name: Yom
+orthographies:
+- autonym: pila
+  auxiliary: Ʋ ʋ
+  base: A B C D E Ɛ Ǝ F G H I J K L M N Ŋ O Ɔ P Q S T U Ʊ V W Y Z a b c d e ɛ ǝ f g h i j k l m n ŋ o ɔ p q s t u ʊ v w y z
+  design_requirements:
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  script: Latin
+  status: primary
+source:
+- Wikipedia
+- Centre national de linguistique appliquée (C.E.N.A.L.A.), Alphabet des langues nationales béninoises, 2008, p. 41-42.
+speakers: 300000
+speakers_date: 2006
+validity: preliminary

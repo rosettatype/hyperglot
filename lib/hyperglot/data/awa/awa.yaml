@@ -1,0 +1,19 @@
+name: Awadhi
+note: The speaker counts are 3.85 million (India, 2011) and 501752 (Nepal, 2011)
+orthographies:
+- autonym: अवधी
+  auxiliary: ॐ
+  base: अ आ इ ई उ ऊ ऋ ए ऐ ओ औ क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र ल व श ष स ह ऄ ‌ ‍
+  design_requirements:
+  - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
+  marks: ◌ँ ◌ं ◌ः ◌़ ◌ा ◌ि ◌ी ◌ु ◌ू ◌ृ ◌े ◌ै ◌ो ◌ौ ◌्
+  numerals: ० १ २ ३ ४ ५ ६ ७ ८ ९ 0 1 2 3 4 5 6 7 8 9
+  punctuation: । ॥ ॰
+  script: Devanagari
+  status: primary
+source:
+- Wikipedia
+- Unicode
+speakers: 4351752
+speakers_date: 2011
+validity: preliminary

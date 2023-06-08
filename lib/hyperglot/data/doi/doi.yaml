@@ -1,0 +1,9 @@
+includes:
+- dgo
+- xnr
+name: Dogri (macrolanguage)
+source:
+- Wikipedia
+speakers: 1600000
+speakers_date: 2011
+validity: verified

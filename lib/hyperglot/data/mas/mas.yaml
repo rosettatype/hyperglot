@@ -1,0 +1,17 @@
+name: Masai
+orthographies:
+- autonym: Maa
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Á Â È É Ê Ì Í Î Ɔ Ɛ Ɨ Ʉ Ò Ó Ô Ù Ú Û Ŋ a b c d e f g h i j k l m n o p q r s t u v w x y z à á â è é ê ì í î ɔ ɛ ɨ ʉ ò ó ô ù ú û ŋ
+  design_requirements:
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  marks: ◌̀ ◌́ ◌̂
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- CLDR
+- Wikipedia
+speakers: 1500000
+speakers_date: 2009-2016
+status: living
+validity: preliminary

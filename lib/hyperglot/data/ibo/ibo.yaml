@@ -1,0 +1,15 @@
+name: Igbo
+orthographies:
+- autonym: Igbo
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Á È É Ì Í Ò Ó Ù Ú Ā Ē Ī Ń Ō Ū Ị Ọ Ụ Ṅ Ẹ a b c d e f g h i j k l m n o p q r s t u v w x y z à á è é ì í ò ó ù ú ā ē ī ń ō ū ị ọ ụ ṅ ẹ
+  marks: ◌̀ ◌́ ◌̄ ◌̇ ◌̣
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+- CLDR
+speakers: 27000000
+speakers_date: 2015
+status: living
+validity: verified

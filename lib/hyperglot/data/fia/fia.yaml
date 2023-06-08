@@ -1,0 +1,14 @@
+name: Nobiin
+orthographies:
+- inherit: dgl
+  script: Coptic/Nubian
+  status: historical
+- inherit: dgl
+  script: Latin
+  status: primary
+source:
+- Wikipedia
+speakers: 669000
+speakers_date: 1996–2006
+status: living
+validity: verified

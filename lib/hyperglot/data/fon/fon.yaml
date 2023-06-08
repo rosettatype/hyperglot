@@ -1,0 +1,14 @@
+name: Fon
+orthographies:
+- autonym: fɔ̀ngbè
+  base: A B C D E F G I J K L M N O P R S T U V W X Y Z Ɖ Ɛ Ɔ À Á È É Ì Í Ò Ó Ù Ú a b c d e f g i j k l m n o p r s t u v w x y z ɖ ɛ ɔ à á è é ì í ò ó ù ú
+  marks: ◌̀ ◌́
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+- Centre national de linguistique appliquée (C.E.N.A.L.A.), Alphabet des langues nationales béninoises, 2008, p. 21-22.
+speakers: 2200000
+speakers_date: 2000-2006
+validity: preliminary

@@ -1,0 +1,13 @@
+name: Luba-Lulua
+orthographies:
+- autonym: Tshiluba
+  base: A B C D E F G H I J K L M N O P S T U V W Y Z a b c d e f g h i j k l m n o p s t u v w y z
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 6300000
+speakers_date: 1991
+status: living
+validity: preliminary

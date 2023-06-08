@@ -1,0 +1,25 @@
+name: Koonzime
+orthographies:
+- autonym: kɔ́ɔzime
+  auxiliary: Ɛ ɛ
+  base: A B C D E F G H I Ɨ J K L M N Ŋ O Œ Ø Ɔ P R S T U Ʉ V W Y Z ʼ a b c d e f g h i ɨ j k ʼ l m n ŋ o œ ø ɔ p r s t u ʉ v w y z Á É Í Ɨ́ Ó Œ́ Ǿ Ɔ́ Ú Ʉ́ Â Ê Î Ɨ̂ Ô Œ̂ Ø̂ Ɔ̂ Û Ǎ Ě Ǐ Ɨ̌ Ǒ Œ̌ Ø̌ Ɔ̌ Ǔ Ʉ̌ á é í ɨ́ ó œ́ ǿ ɔ́ ú ʉ́ â ê î ɨ̂ ô œ̂ ø̂ ɔ̂ û ǎ ě ǐ ɨ̌ ǒ œ̌ ø̌ ɔ̌ ǔ ʉ̌
+  design_requirements:
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  marks: ◌̀ ◌́ ◌̂ ◌̌
+  script: Latin
+  status: primary
+- autonym: badweʼe
+  auxiliary: Ø ø
+  base: A B C D E Ɛ F G H I Ɨ J K L M N Ŋ O Œ Ɔ P R S T U Ʉ V W Y Z ʼ a b c d e ɛ f g h i ɨ j k ʼ l m n ŋ o œ ɔ p r s t u ʉ v w y z Á É Ɛ́ Í Ɨ́ Ó Œ́ Ɔ́ Ú Ʉ́ Â Ê Ɛ̂ Î Ɨ̂ Ô Œ̂ Ɔ̂ Û Ǎ Ě Ɛ̌ Ǐ Ɨ̌ Ǒ Œ̌ Ɔ̌ Ǔ Ʉ̌ á é ɛ́ í ɨ́ ó œ́ ɔ́ ú ʉ́ â ê ɛ̂ î ɨ̂ ô œ̂ ɔ̂ û ǎ ě ɛ̌ ǐ ɨ̌ ǒ œ̌ ɔ̌ ǔ ʉ̌
+  design_requirements:
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  marks: ◌̀ ◌́ ◌̂ ◌̌
+  script: Latin
+  status: primary
+source:
+- Wikipedia
+- https://www.webonary.org/badwe
+- Keith Beavon and Mary Beavon, Lexique kɔ́ɔnzime-français, Ministère de la Recherche Scientifique et Technique and SIL, Yaoundé, 1996.
+speakers: 40000
+speakers_date: 2011
+validity: preliminary

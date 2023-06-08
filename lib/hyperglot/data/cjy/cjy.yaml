@@ -1,0 +1,11 @@
+name: Jinyu Chinese
+orthographies:
+- autonym: 晋语 / 晉語
+  inherit: cmn
+  script: Chinese
+  status: primary
+source:
+- Wikipedia
+speakers: 63050000
+speakers_date: 2012
+validity: draft

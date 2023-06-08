@@ -1,0 +1,27 @@
+name: Indonesian
+orthographies:
+- autonym: Indonesia
+  inherit: zsm
+  script: Latin
+  status: primary
+- autonym: Indonesia
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ē É Ä Ë Ï Ö a b c d e f g h i j k l m n o p q r s t u v w x y z ē é ä ë ï ö '
+  marks: ◌́ ◌̄ ◌̈
+  note: The Van Ophuijsen Spelling System was used 1901–1947 for Malay and Indonesian in the Dutch East Indies (now Indonesia)
+  script: Latin
+  status: historical
+- autonym: Indonesia
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z É Ä Ë Ï Ö a b c d e f g h i j k l m n o p q r s t u v w x y z é ä ë ï ö 2
+  marks: ◌́ ◌̈
+  note: The Republican Spelling System was used 1947–1972. The numeral two marked reduplicated words. Glottal stop was represented with the letter ‹k›.
+  script: Latin
+  status: historical
+source:
+- Omniglot
+- https://en.wikipedia.org/wiki/Van_Ophuijsen_Spelling_System
+- https://en.wikipedia.org/wiki/Republican_Spelling_System
+- https://en.wikipedia.org/wiki/Buginese_language
+speakers: 43000000
+speakers_date: 2010
+status: living
+validity: verified

@@ -1,0 +1,18 @@
+name: Lakota
+orthographies:
+- autonym: Lakȟótiyapi
+  auxiliary: C D F J Q R V X c d f j q r v x
+  base: A B E G H I K L M N O P S T U W Y Z Á É Í Ó Ú Č Ŋ Š Ž Ǧ Ȟ a b e g h i k l m n o p s t u w y z á é í ó ú č ŋ š ž ǧ ȟ ʼ
+  design_requirements:
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  marks: ◌́ ◌̌
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+- CLDR
+speakers: 2100
+speakers_date: 1997
+status: living
+validity: verified

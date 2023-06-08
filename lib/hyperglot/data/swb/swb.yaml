@@ -1,0 +1,19 @@
+name: Maore Comorian
+orthographies:
+- autonym: شِكُمُرِ
+  base: ح چ ج ث ت پ ب ا س ز ر ذ د خ ڠ غ ع ظ ط ض ص ش ن م ل ڬ ك ق ڤ ڢ ف ي و ه
+  design_requirements:
+  - Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
+  marks: ◌َ ◌ُ ◌ِ ◌ّ
+  script: Arabic
+  status: secondary
+- autonym: Shikomori
+  base: A B C D E F G H I J K L M N O P R S T U V W Y Z a b c d e f g h i j k l m n o p r s t u v w y z
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 152000
+speakers_date: 2012
+validity: preliminary

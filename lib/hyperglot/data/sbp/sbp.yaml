@@ -1,0 +1,15 @@
+name: Sangu (Tanzania)
+orthographies:
+- autonym: Shisango
+  base: A B C D E F G H I J K L M N O P Q S T U V W X Y Z À Á Ä Â È É Ë Ê Ì Í Ï Î Ò Ó Ö Ô Ù Ú Ü Û a b c d e f g h i j k l m n o p q s t u v w x y z à á ä â è é ë ê ì í ï î ò ó ö ô ù ú ü û
+  marks: ◌̀ ◌́ ◌̂ ◌̈
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- CLDR
+- Wikipedia
+speakers: 75000
+speakers_date: 1987
+status: living
+validity: preliminary

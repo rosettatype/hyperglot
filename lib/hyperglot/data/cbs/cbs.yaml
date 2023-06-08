@@ -1,0 +1,13 @@
+name: Cashinahua
+orthographies:
+- autonym: Hantxa Kuin
+  base: A B C D E H I J K M N P S T U V X Y Ẽ Ĩ Ã Ũ a b c d e h i j k m n p s t u v x y ' ẽ ĩ ã ũ
+  marks: ◌̃
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 1200
+speakers_date: 2003-2007
+validity: preliminary

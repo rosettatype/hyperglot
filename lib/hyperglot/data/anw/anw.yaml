@@ -1,0 +1,14 @@
+name: Anaang
+orthographies:
+- autonym: Anaañ
+  base: A B C D E F G H I J K L M N O P Q R S U W Y a b c d e f g h i j k l m n o p q r s u w y Ñ Ö Ü ñ ö ü
+  marks: ◌̃ ◌̈
+  script: Latin
+  status: primary
+source:
+- 'Ernest Owulette, Annang-English dictionary: Anaañ heritage dictionary, 2019'
+- Wikipedia
+speakers: 1400000
+speakers_date: 1991
+status: living
+validity: preliminary

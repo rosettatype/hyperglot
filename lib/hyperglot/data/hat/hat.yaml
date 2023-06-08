@@ -1,0 +1,15 @@
+name: Haitian
+orthographies:
+- autonym: Kreyòl Ayisyen
+  auxiliary: Q X À Á É Ó q x à á é ó
+  base: A B C D E F G H I J K L M N O P R S T U V W Y Z È Ò a b c d e f g h i j k l m n o p r s t u v w y z è ò
+  marks: ◌̀ ◌́
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 9600000
+speakers_date: 2007
+status: living
+validity: verified

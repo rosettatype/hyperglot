@@ -1,0 +1,18 @@
+name: Urdu
+orthographies:
+- autonym: اُردُو
+  base: ء ا ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ل م ن و ٹ پ چ ڈ ڑ ژ ک گ ں ھ ہ ی
+  design_requirements:
+  - Nastaʼlīq style of the Arabic script is preffered. Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
+  marks: ◌َ ◌ُ ◌ِ ◌ْ ◌ٰ
+  numerals: ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹ 0 1 2 3 4 5 6 7 8 9
+  script: Arabic
+  status: primary
+source:
+- Wikipedia
+- Omniglot
+- CLDR
+speakers: 68620000
+speakers_date: 2019
+status: living
+validity: preliminary

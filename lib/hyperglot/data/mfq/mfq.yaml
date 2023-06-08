@@ -1,0 +1,24 @@
+name: Moba
+orthographies:
+- autonym: muaba-benn
+  base: A B C D E Ɛ F G H I J K L M N Ŋ O Ɔ P R S T U W Y a b c d e ɛ f g h i j k l m n ŋ o ɔ p r s t u w y
+  design_requirements:
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  note: Association pour la Traduction, l’Alphabétisation et la Promotion des Écritures en Ben (ATAPEB) orthography, standardized on Ben dialect.
+  script: Latin
+  status: primary
+- base: A Ã B C D E Ẽ Ɛ F G H I Ĩ Ɩ J K L M N Ŋ O Õ Ɔ P S T R U V W Y a ã b c d e ẽ ɛ f g h i ĩ ɩ j k l m n ŋ o õ ɔ p s t r u v w y
+  design_requirements:
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  marks: ◌̃
+  note: Peace Corps Togo orthography.
+  script: Latin
+  status: secondary
+source:
+- Wikipedia
+- Peace Corps Togo, Moba O.P.L. Workbook (Oral Proficiency Learning), Peace Corps Togo, 2010.
+- https://www.webonary.org/moba
+- https://www.muaba-benn.com
+speakers: 2200
+speakers_date: 1998-2000
+validity: draft

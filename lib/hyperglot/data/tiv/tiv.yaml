@@ -1,0 +1,12 @@
+name: Tiv
+orthographies:
+- autonym: Tiv
+  base: A B C D E F G H I J K L M N O Ô P R S T U V W Y Z a b c d e f g h i j k l m n o ô p r s t u v w y z
+  marks: ◌̂
+  script: Latin
+  status: primary
+source:
+- Wikipedia
+speakers: 7000000
+speakers_date: 2020
+validity: draft

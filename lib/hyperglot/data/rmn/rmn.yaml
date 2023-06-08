@@ -1,0 +1,18 @@
+name: Balkan Romani
+note: There are approximately 200000 L2 speakers.
+orthographies:
+- autonym: řomani ćhib
+  base: A Ä Á B C Ć Č D E Ê É F Ğ H I Î Í J K L M N O Ö Ó P Ṗ Q R Ř S Š T U V W X Y Z a ä á b c ć č d e ê é f ğ h i î í j k l m n o ö ó p ṗ q r ř s š t u v w x y z
+  marks: ◌́ ◌̂ ◌̆ ◌̇ ◌̈ ◌̌
+  script: Latin
+  status: primary
+- base: А Б В Г Д Е Ё Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Ы Ь Э Ю Я а б в г д е ё ж з и й к л м н о п р с т у ф х ц ч ш ы ь э ю я
+  marks: ◌̆ ◌̈
+  script: Cyrillic
+  status: secondary
+source:
+- Omniglot
+- Wikipedia
+speakers: 563670
+speakers_date: 2013
+validity: preliminary

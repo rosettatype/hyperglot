@@ -1,0 +1,13 @@
+name: Eastern Canadian Inuktitut
+note: Despite being considered different languages ike and ikt are under the iku inclusive ISO 639-3 code.
+orthographies:
+- autonym: ᐃᓄᒃᑎᑐᑦ
+  base: ᐃ ᐄ ᐅ ᐆ ᐊ ᐋ ᐦ ᐱ ᐲ ᐳ ᐴ ᐸ ᐹ ᑉ ᑎ ᑏ ᑐ ᑑ ᑕ ᑖ ᑦ ᑭ ᑮ ᑯ ᑰ ᑲ ᑳ ᒃ ᒋ ᒌ ᒍ ᒎ ᒐ ᒑ ᒡ ᒥ ᒦ ᒧ ᒨ ᒪ ᒫ ᒻ ᓂ ᓃ ᓄ ᓅ ᓇ ᓈ ᓐ ᓯ ᓰ ᓱ ᓲ ᓴ ᓵ ᔅ ᓕ ᓖ ᓗ ᓘ ᓚ ᓛ ᓪ ᔨ ᔩ ᔪ ᔫ ᔭ ᔮ ᔾ ᕕ ᕖ ᕗ ᕘ ᕙ ᕚ ᕝ ᕆ ᕇ ᕈ ᕉ ᕋ ᕌ ᕐ ᕿ ᖀ ᖁ ᖂ ᖃ ᖄ ᖅ ᖏ ᖐ ᖑ ᖒ ᖓ ᖔ ᖕ ᖠ ᖡ ᖢ ᖣ ᖤ ᖥ ᖦ
+  script: Inuktitut Syllabics
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 39475
+speakers_date: 2016
+validity: preliminary

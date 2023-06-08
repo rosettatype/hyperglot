@@ -1,0 +1,12 @@
+name: Hadrami Arabic
+orthographies:
+- autonym: حضرمي
+  inherit: arb
+  script: Arabic
+  status: primary
+source:
+- Wikipedia
+speakers: 4560000
+speakers_date: 2015
+status: living
+validity: draft

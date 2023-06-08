@@ -1,0 +1,12 @@
+name: Murui Huitoto
+orthographies:
+- base: A B C D E F G I J L M N O R S T V Ɨ Ñ a b c d e f g i j l m n o r s t v ɨ ñ
+  marks: ◌̃
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 7800
+speakers_date: 1995-2002
+validity: preliminary

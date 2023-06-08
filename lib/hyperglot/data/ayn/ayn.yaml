@@ -1,0 +1,13 @@
+name: Sanaani Arabic
+orthographies:
+- autonym: يمني‎
+  inherit: arb
+  script: Arabic
+  status: primary
+source:
+- Wikipedia
+- Textbook
+speakers: 11100000
+speakers_date: 2015
+status: living
+validity: preliminary

@@ -1,0 +1,23 @@
+name: Arvanitika Albanian
+orthographies:
+- autonym: Arbërisht
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á Ä Ç È É Ë Í Ï Ó Ö Ú Ü Ý a b c d e f g h i j k l m n o p q r s t u v w x y z á ä ç è é ë í ï ó ö ú ü ý
+  marks: ◌̀ ◌́ ◌̈ ◌̧
+  note: Used in Italy.
+  script: Latin
+  status: primary
+- autonym: Αρbε̰ρίσ̈τ
+  auxiliary: Η Ψ Ω Ά Έ Ή Ί Ό Ύ Ώ Ϊ Ϋ η ψ ω ά έ ή ί ό ύ ώ ϊ ϋ ΐ ΰ
+  base: Α Β B Ϳ Γ Δ D Ε Ζ Θ Ι Κ Λ Μ Ν Ξ Ο Π Ρ Σ Τ Υ Φ Χ α β b ϳ γ δ d ε ζ θ ι κ λ μ ν ξ ο π ρ σ ς τ υ φ χ γ̇ ε̱ ν̇ σ̇ σ̈ χ̇ ε̰
+  marks: ◌̇ ◌̈ ◌̰ ◌̱ ◌́
+  note: Used in Greece.
+  script: Greek
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+- https://web.archive.org/web/20070101084222/http://www.arvasynel.gr/images/grammar_a.gif
+speakers: 50000
+speakers_date: 2007
+status: living
+validity: draft

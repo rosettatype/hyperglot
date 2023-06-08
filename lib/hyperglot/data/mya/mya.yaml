@@ -1,0 +1,16 @@
+name: Burmese
+orthographies:
+- autonym: မြန်မာစာ / မြန်မာစကား
+  base: က ခ ဂ ဃ င စ ဆ ဇ ဈ ဉ ည ဋ ဌ ဍ ဎ ဏ တ ထ ဒ ဓ န ပ ဖ ဗ ဘ မ ယ ရ လ ဝ သ ဣ ဤ ဥ ဦ ဧ ဩ ဪ
+  design_requirements:
+  - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
+  marks: ◌ါ ◌ာ ◌ိ ◌ီ ◌ု ◌ူ ◌ေ ◌ဲ ◌ံ ◌့ ◌း ◌္ ◌် ◌ျ ◌ြ ◌ွ ◌ှ ◌ၖ ◌ၗ
+  note: The autonym မြန်မာစာ refers to written Burmese while မြန်မာစကား refers to spoken Burmese.
+  script: Burmese
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 33000000
+speakers_date: 2007
+validity: preliminary

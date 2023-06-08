@@ -1,0 +1,13 @@
+name: Northwestern Ojibwa
+orthographies:
+- autonym: Nakawēmowin
+  base: A B C D E G H I J K M N O P S T W Y Z a b c d e g h i j k m n o p s t w y z '
+  marks: ◌̄
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 20000
+speakers_date: 2000
+validity: draft

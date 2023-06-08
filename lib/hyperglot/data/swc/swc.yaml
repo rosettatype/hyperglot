@@ -1,0 +1,10 @@
+name: Congo Swahili
+orthographies:
+- autonym: Kiswahili
+  inherit: swh
+  script: Latin
+  status: primary
+source:
+- Omniglot
+status: living
+validity: draft

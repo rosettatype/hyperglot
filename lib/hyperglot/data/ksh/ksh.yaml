@@ -1,0 +1,15 @@
+name: Kölsch
+note: Kölsch is spoken by approximately 25% of the population of Cologne.
+orthographies:
+- autonym: Kölsch
+  auxiliary: À Á Â Ã Ç È É Ê Ì Í Î Ï Ñ Ò Ó Ô Ø Ù Ú Û Ÿ Ā Ă Ē Ĕ Ğ Ī Ĭ Ĳ Ł Ō Ŏ Ū Ŭ ẞ à á â ã ç è é ê ì í î ï ñ ò ó ô ø ù ú û ÿ ā ă ē ĕ ğ ī ĭ ı ĳ ł ō ŏ ū ŭ
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Å Æ Ë Ö Ü Ė Œ Ů a b c d e f g h i j k l m n o p q r s t u v w x y z ß ä å æ ë ö ü ė œ ů
+  marks: ◌̇ ◌̈ ◌̊ ◌̀ ◌́ ◌̂ ◌̃ ◌̄ ◌̆ ◌̧
+  script: Latin
+  status: primary
+source:
+- Wikipedia
+- CLDR
+speakers: 250000
+status: living
+validity: preliminary

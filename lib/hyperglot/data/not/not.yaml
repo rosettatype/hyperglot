@@ -1,0 +1,13 @@
+name: Nomatsiguenga
+orthographies:
+- autonym: inato
+  base: A B C E Ë G I J M N O P Q R S T Y a b c e ë g i j m n o p q r s t y
+  marks: ◌̈
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 6500
+speakers_date: 2003
+validity: preliminary

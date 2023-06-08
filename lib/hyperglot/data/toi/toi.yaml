@@ -1,0 +1,13 @@
+name: Tonga (Zambia)
+orthographies:
+- autonym: Faka-Tonga
+  base: A E F G H I K L M N O P S T U V a e f g h i k l m n o p s t u v '
+  marks: ◌̄
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 1500000
+speakers_date: 2001-2010
+validity: preliminary

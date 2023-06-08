@@ -1,0 +1,13 @@
+name: Western Niger Fulfulde
+note: Used in Burkina Faso and Niger.
+orthographies:
+- autonym: Fulfulde
+  inherit: fue
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+- CLDR
+status: living
+validity: verified

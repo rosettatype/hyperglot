@@ -1,0 +1,15 @@
+name: Avatime
+orthographies:
+- autonym: Sia
+  base: A B D E F G H I K L M N O P R S T U V W X Y Z a b d e f g h i k l m n o p r s t u v w x y z Ŋ ŋ Ɔ Ɖ Ɛ Ƒ ƒ Ʋ ɔ ɖ ɛ ʋ
+  design_requirements:
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  script: Latin
+  status: primary
+source:
+- GILLBT
+- Wikipedia
+speakers: 24000
+speakers_date: 2003
+status: living
+validity: preliminary

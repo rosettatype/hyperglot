@@ -1,0 +1,12 @@
+name: Eastern Egyptian Bedawi Arabic
+orthographies:
+- autonym: بدوي
+  inherit: ajp
+  script: Arabic
+  status: primary
+source:
+- Wikipedia
+speakers: 2240000
+speakers_date: 2015-2016
+status: living
+validity: draft

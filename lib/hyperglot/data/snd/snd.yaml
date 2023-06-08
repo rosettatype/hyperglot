@@ -1,0 +1,29 @@
+name: Sindhi
+orthographies:
+- autonym: सिन्धी
+  auxiliary: ॐ
+  base: अ आ इ ई उ ऊ ऋ ए ऐ ओ औ क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र ल ळ व श ष स ह ॻ ॼ ॾ ॿ ‌ ‍
+  design_requirements:
+  - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
+  marks: ◌ँ ◌ं ◌ः ◌़ ◌ा ◌ि ◌ी ◌ु ◌ू ◌ृ ◌े ◌ै ◌ो ◌ौ ◌्
+  note: Used in India
+  numerals: ० १ २ ३ ४ ५ ६ ७ ८ ९ 0 1 2 3 4 5 6 7 8 9
+  punctuation: । ॥ ॰
+  script: Devanagari
+  status: primary
+- autonym: سنڌي
+  base: ء أ ؤ ئ ا ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ل م ن ه و پ چ ژ ک گ ی ڄ ٺ ٽ ٿ ڀ ٻ ڙ ڍ ڊ ڏ ڌ ڇ ڃ ڦ ڻ ڱ ڳ ڪ
+  design_requirements:
+  - Nastaʼlīq style of the Arabic script is preferred.
+  - Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
+  marks: ◌َ ◌ُ ◌ِ ◌ْ ◌ٔ ◌ٰ
+  note: Used in Pakistan
+  numerals: ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹ 0 1 2 3 4 5 6 7 8 9
+  script: Arabic
+  status: primary
+source:
+- Wikipedia
+- Unicode
+speakers: 32000000
+speakers_date: 2017
+validity: preliminary

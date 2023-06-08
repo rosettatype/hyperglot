@@ -1,0 +1,12 @@
+name: Bamun
+orthographies:
+- autonym: ꛀꛣꚧꚳ
+  base: ꚠ ꚰ ꛀ ꛐ ꛠ ꚡ ꚱ ꛁ ꛑ ꛡ ꚢ ꚲ ꛂ ꛒ ꛢ ꛲ ꚣ ꚳ ꛃ ꛓ ꛣ ꛳ ꚤ ꚴ ꛄ ꛔ ꛤ ꛴ ꚥ ꚵ ꛅ ꛕ ꛥ ꛵ ꚦ ꚶ ꛆ ꛖ ꛦ ꛶ ꚧ ꚷ ꛇ ꛗ ꛧ ꛷ ꚨ ꚸ ꛈ ꛘ ꛨ ꚩ ꚹ ꛉ ꛙ ꛩ ꚪ ꚺ ꛊ ꛚ ꛪ ꚫ ꚻ ꛋ ꛛ ꛫ ꚬ ꚼ ꛌ ꛜ ꛬ ꚭ ꚽ ꛍ ꛝ ꛭ ꚮ ꚾ ꛎ ꛞ ꛮ ꚯ ꚿ ꛏ ꛟ ꛯ
+  script: Bamun
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 420000
+speakers_date: 2005
+validity: preliminary

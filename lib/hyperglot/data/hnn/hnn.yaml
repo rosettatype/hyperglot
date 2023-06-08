@@ -1,0 +1,16 @@
+name: Hanunoo
+orthographies:
+- autonym: ᜱᜨᜳᜨᜳᜢ
+  base: ᜠ ᜡ ᜢ ᜣ ᜤ ᜥ ᜦ ᜧ ᜨ ᜩ ᜪ ᜫ ᜬ ᜭ ᜮ ᜯ ᜰ ᜱ
+  marks: ◌ᜲ ◌ᜳ ◌᜴
+  note: This orthography includes the pamudpod, as is used in modern Hanunó'o. The pamudpud began as an innovation of Antoon Postma in the 1970’s, one of the leading researchers of Philippine scripts.
+  punctuation: ᜵ ᜶
+  script: Hanunoo
+  status: primary
+source:
+- Ethnologue
+- Wikipedia
+- Unicode Consortium (Core Spec, Hanunoo block)
+speakers: 13000
+speakers_date: 2000
+validity: preliminary

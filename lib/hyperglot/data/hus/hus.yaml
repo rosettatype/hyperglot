@@ -1,0 +1,12 @@
+name: Huastec
+orthographies:
+- autonym: Teenek
+  base: A B C E I J K L M N O P R S T U W X Y Z a b c e i j k l m n o p r s t u w x y z '
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 161120
+speakers_date: 2010
+validity: preliminary

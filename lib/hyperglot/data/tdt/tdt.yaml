@@ -1,0 +1,13 @@
+name: Tetun Dili
+orthographies:
+- autonym: Tetun Dili
+  inherit: tet
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 390000
+speakers_date: 2009
+status: living
+validity: verified

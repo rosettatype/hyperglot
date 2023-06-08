@@ -1,0 +1,20 @@
+name: Macedonian
+orthographies:
+- autonym: Македонски
+  base: А Б В Г Д Е Ж З И К Л М Н О П Р С Т У Ф Х Ц Ч Ш Ѓ Ѕ Ј Љ Њ Ќ Џ а б в г д е ж з и к л м н о п р с т у ф х ц ч ш ѓ ѕ ј љ њ ќ џ Ѐ Ѝ ѐ ѝ
+  design_alternates: б ◌̆
+  design_requirements:
+  - Correct positioning of acute and grave marks above some characters may be required.
+  - The form of the Cyrillic breve mark (marked in the previews) differs from the Latin-script breve that is associated with the same Unicode codepoint.
+  - In italic, some characters (marked in the previews) use a form that differs from the defaults associated with the Unicode codepoints (typically the Russian form of Cyrillic).
+  marks: ◌́ ◌̀
+  script: Cyrillic
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+- CLDR
+- https://www.evertype.com/alphabets/macedonian.pdf
+speakers: 1400000
+status: living
+validity: verified

@@ -1,0 +1,15 @@
+name: Upper Sorbian
+orthographies:
+- autonym: Hornjoserbšćina
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ó Ć Č Ě Ł Ń Ř Ś Š Ź Ž a b c d e f g h i j k l m n o p q r s t u v w x y z ó ć č ě ł ń ř ś š ź ž
+  marks: ◌́ ◌̌
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- CLDR
+- Alvestrand
+speakers: 13000
+speakers_date: 2007
+status: living
+validity: verified

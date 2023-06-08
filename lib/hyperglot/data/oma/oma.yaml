@@ -1,0 +1,12 @@
+name: Omaha-Ponca
+orthographies:
+- autonym: Umaⁿhaⁿ
+  base: A B C D E G H I J K M N O P Q S T U W X Z a b c d e g h i j k m n o p q s t u w x z ʰ ’ ⁿ
+  script: Latin
+  status: primary
+source:
+- Omaha & Ponca Digital Dictionary
+- Wikipedia
+speakers: 85
+speakers_date: 2007
+validity: preliminary

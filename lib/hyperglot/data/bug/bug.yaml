@@ -1,0 +1,23 @@
+name: Buginese
+note: The number of speakers includes 500000 L2 speakers.
+orthographies:
+- autonym: Basa Ugi
+  inherit: zsm
+  note: The use of the Buginese script seems to be declining with the Latin script taking over. Omniglot indicates ‹Ə, ə› are used, but Wikipedia states that “general Indonesian spelling conventions are applied” which is what this orthography adheres to.
+  script: Latin
+  status: primary
+- autonym: ᨅᨔ ᨕᨘᨁᨗ
+  base: ᨀ ᨁ ᨂ ᨃ ᨄ ᨅ ᨆ ᨇ ᨈ ᨉ ᨊ ᨋ ᨌ ᨍ ᨎ ᨏ ᨐ ᨑ ᨒ ᨓ ᨔ ᨕ ᨖ
+  design_requirements:
+  - Mark positioning and some character combinations have to be resolved to properly represent the language.
+  marks: ◌ᨗ ◌ᨘ ◌ᨙ ◌ᨚ ◌ᨛ
+  note: The script is also called Lontara
+  punctuation: ᨞ ᨟
+  script: Buginese
+  status: primary
+source:
+- https://omniglot.com/writing/bugis.htm
+- https://en.wikipedia.org/wiki/Buginese_language
+speakers: 4000000
+speakers_date: 2015
+validity: preliminary

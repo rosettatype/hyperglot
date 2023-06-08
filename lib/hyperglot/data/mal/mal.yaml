@@ -1,0 +1,16 @@
+name: Malayalam
+orthographies:
+- autonym: മലയാളം
+  base: അ ആ ഇ ഈ ഉ ഊ ഋ ഌ എ ഏ ഐ ഒ ഓ ഔ ക ഖ ഗ ഘ ങ ച ഛ ജ ഝ ഞ ട ഠ ഡ ഢ ണ ത ഥ ദ ധ ന പ ഫ ബ ഭ മ യ ര റ ല ള ഴ വ ശ ഷ സ ഹ ൠ ൡ ൺ ൻ ർ ൽ ൾ ൿ
+  design_requirements:
+  - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
+  marks: ◌ം ◌ഃ ◌ാ ◌ി ◌ീ ◌ു ◌ൂ ◌ൃ ◌െ ◌േ ◌ൈ ◌് ◌ൗ
+  numerals: ൦ ൧ ൨ ൩ ൪ ൫ ൬ ൭ ൮ ൯
+  script: Malayalam
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 45000000
+speakers_date: 2011-2019
+validity: preliminary

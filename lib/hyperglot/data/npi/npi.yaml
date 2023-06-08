@@ -1,0 +1,22 @@
+name: Nepali (individual language)
+note: There are approximately 9000000 L2 speakers (2011).
+orthographies:
+- autonym: नेपाली
+  auxiliary: ॐ
+  base: अ आ इ ई उ ऊ ऋ ए ऐ ओ औ क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र ल ळ व श ष स ह ‌ ‍
+  design_requirements:
+  - The Devanagari used for Nepali makes use of different forms for some of the characters compared to the Hindi version, e.g. ‹झ›, numerals five, eight, and nine (marked in the previews).
+  - Nepali orthographies prefer a smaller number of conjunct ligatures than commonly used in Hindi or Marathi.
+  - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
+  desing_alternates: झ ५ ८ ९
+  marks: ◌ँ ◌ं ◌ः ◌़ ◌ा ◌ि ◌ी ◌ु ◌ू ◌ृ ◌े ◌ै ◌ो ◌ौ ◌्
+  numerals: ० १ २ ३ ४ ५ ६ ७ ८ ९ 0 1 2 3 4 5 6 7 8 9
+  punctuation: । ॥ ॰
+  script: Devanagari
+  status: primary
+source:
+- Wikipedia
+- Unicode
+speakers: 16000000
+speakers_date: 2011
+validity: preliminary

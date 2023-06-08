@@ -1,0 +1,13 @@
+name: Bomu
+orthographies:
+- autonym: bomu
+  base: A B C D E F G H I K L M N O P R S T U V W Y Z a b c d e f g h i k l m n o p r s t u v w y z Ɓ Ɛ Ɲ ɓ ɛ ɲ ʼ
+  script: Latin
+  status: primary
+source:
+- République du Mali, Direction nationale de l’alphabétisation fonctionnelle et de la linguistique appliquée, Alphabets et règles d’orthographe des langues nationales, Bamako, DNAFLA, 1993
+- Wikipedia
+speakers: 150000
+speakers_date: 1976-1991
+status: living
+validity: preliminary

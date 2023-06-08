@@ -1,0 +1,17 @@
+name: Ngiemboon
+orthographies:
+- autonym: Ngyɛmbɔɔŋ
+  auxiliary: Q R X q r x
+  base: A B C D E F G H I J K L M N O P S T U V W Y Z À Á Â È É Ê Ì Í Ò Ó Ô Ù Ú Û Ÿ Ě Ń Ŋ Ǎ Ǒ Ǔ Ɔ Ɛ Ʉ Ḿ Ẅ a b c d e f g h i j k l m n o p s t u v w y z à á â è é ê ì í ò ó ô ù ú û ÿ ě ń ŋ ǎ ǒ ǔ ɔ ɛ ʉ ʼ ḿ ẅ
+  design_requirements:
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  marks: ◌̀ ◌́ ◌̂ ◌̈ ◌̌
+  script: Latin
+  status: primary
+source:
+- CLDR
+- Wikipedia
+speakers: 250000
+speakers_date: 2000
+status: living
+validity: preliminary

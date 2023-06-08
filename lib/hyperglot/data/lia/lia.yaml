@@ -1,0 +1,16 @@
+name: West-Central Limba
+orthographies:
+- autonym: Hulimba
+  auxiliary: Ñ Ɔ ñ ɔ
+  base: A B C D E Ɛ F G H I J K L M N Ň Ŋ O Ọ P Q R S T U V W Z a b c d e ɛ f g h i j k l m n ň ŋ o ọ p q r s t u v w z
+  design_requirements:
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  marks: ◌̌ ◌̣ ◌̃
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 446000
+speakers_date: 1993-2016
+validity: preliminary

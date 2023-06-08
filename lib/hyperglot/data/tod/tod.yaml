@@ -1,0 +1,15 @@
+name: Toma
+orthographies:
+- autonym: lɔgɔma
+  base: A B D E F G I J K L M N O P S T U V W Y Z a b d e f g i j k l m n o p s t u v w y z Ŋ ŋ Ɓ Ɔ Ɗ Ǝ Ɛ Ɠ Ɲ Ʋ ǝ ɓ ɔ ɗ ɛ ɠ ɲ ʋ
+  design_requirements:
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  script: Latin
+  status: primary
+source:
+- Institut de recherches linguistiques appliquées, Le nouvel alphabet des langues guinéennes, Conakry, Institut de recherches linguistiques appliquées, 2015
+- Wikipedia
+speakers: 420000
+speakers_date: 2012
+status: living
+validity: preliminary

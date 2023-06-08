@@ -1,0 +1,15 @@
+name: Romansh
+orthographies:
+- autonym: Rumantsch
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Â È É Ê Î Ò Ô Ö Ü a b c d e f g h i j k l m n o p q r s t u v w x y z à â è é ê î ò ô ö ü
+  marks: ◌̀ ◌́ ◌̂ ◌̈
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+- Alvestrand
+speakers: 44354
+speakers_date: 2017
+status: living
+validity: verified

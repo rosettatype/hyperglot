@@ -1,0 +1,25 @@
+name: Batak Simalungun
+orthographies:
+- autonym: Simalungun
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
+  script: Latin
+  status: primary
+- autonym: ᯙᯃᯈ᯳ᯙᯫᯕᯟᯮᯝᯮᯉ᯳
+  auxiliary: ᯚ
+  base: ᯁ ᯃ ᯅ ᯈ ᯉ ᯌ ᯏ ᯐ ᯑ ᯓ ᯕ ᯖ ᯙ ᯜ ᯝ ᯟ ᯠ ᯤ ᯥ
+  design_requirements:
+  - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
+  marks: ◌ᯩ ◌ᯫ ◌ᯬ ◌ᯭ ◌ᯮ ◌ᯯ ◌ᯰ ◌ᯱ ◌᯳
+  note: The Latin script is the most used nowadays.
+  punctuation: ᯼ ᯽ ᯾ ᯿
+  script: Batak
+  status: secondary
+source:
+- https://www.omniglot.com/writing/batak.htm
+- https://en.wikipedia.org/wiki/Batak_script
+- https://www.ethnologue.com/language/bts
+- https://lindenbergsoftware.com/en/notes/constructing-fonts-for-batak/index.html
+speakers: 1200000
+speakers_date: 2000
+status: living
+validity: preliminary

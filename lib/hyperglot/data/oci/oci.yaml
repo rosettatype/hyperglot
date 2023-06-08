@@ -1,0 +1,15 @@
+name: Occitan (post 1500)
+orthographies:
+- autonym: Occitan
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Á Ç È É Ë Í Ï Ò Ó Ú Ü a b c d e f g h i j k l m n o p q r s t u v w x y z à á ç è é ë í ï ò ó ú ü
+  marks: ◌̀ ◌́ ◌̈ ◌̧
+  script: Latin
+  status: primary
+preferred_name: Occitan
+source:
+- Omniglot
+- Wikipedia
+speakers: 800000
+speakers_date: 2007-2012
+status: living
+validity: preliminary

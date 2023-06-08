@@ -1,0 +1,17 @@
+name: Ume Sami
+orthographies:
+- autonym: Ubmejesámiengiälla
+  auxiliary: Ū Ǖ ū ǖ
+  base: A B D E F G H I J K L M N O P R S T U V Y Á Ä Å Ï Ö Ü Đ Ŋ Ŧ a b d e f g h i j k l m n o p r s t u v y á ä å ï ö ü đ ŋ ŧ
+  design_requirements:
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  marks: ◌́ ◌̄ ◌̈ ◌̊
+  script: Latin
+  status: primary
+source:
+- Wikipedia
+- Omniglot
+speakers: 10
+speakers_date: 2000
+status: living
+validity: preliminary

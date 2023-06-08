@@ -1,0 +1,12 @@
+name: Upper Guinea Crioulo
+orthographies:
+- autonym: Kriolu
+  base: A B C D E F G I J K L M N O P R S T X U V Z a b c d e f g i j k l m n o p r s t x u v z '
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 1000000
+speakers_date: 2006-2007
+validity: preliminary

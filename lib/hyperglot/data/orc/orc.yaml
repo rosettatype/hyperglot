@@ -1,0 +1,12 @@
+name: Orma
+orthographies:
+- autonym: Orma
+  inherit: gax
+  script: Latin
+  status: primary
+source:
+- Wikipedia
+speakers: 66000
+speakers_date: 2009
+status: living
+validity: verified

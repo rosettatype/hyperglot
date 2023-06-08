@@ -1,0 +1,13 @@
+name: Kaonde
+orthographies:
+- autonym: kiiKaonde
+  base: A B C D E F G H I J K L M N Ñ O P S T U V W Y Z a b c d e f g h i j k l m n ñ o p s t u v w y z
+  marks: ◌̃
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 240000
+speakers_date: 1995-2010
+validity: preliminary

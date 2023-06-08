@@ -1,0 +1,14 @@
+name: Latgalian
+orthographies:
+- autonym: Latgalīšu
+  auxiliary: Q W X q w x
+  base: A Ā B C Č D E Ē F G Ģ H I Ī J K Ķ L Ļ M N Ņ O Ō P R S Š T U Ū V Y Z Ž a ā b c č d e ē f g ģ h i ī j k ķ l ļ m n ņ o ō p r s š t u ū v y z ž
+  marks: ◌̄ ◌̌ ◌̧
+  script: Latin
+  status: primary
+source:
+- Wikipedia
+speakers: 200000
+speakers_date: 2009
+status: living
+validity: verified

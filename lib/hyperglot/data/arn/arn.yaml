@@ -1,0 +1,13 @@
+name: Mapudungun
+orthographies:
+- autonym: Mapudungun
+  base: A B C D E F G I J K L M N O P Q R S T U W X Y Z Ü Ñ a b c d e f g i j k l m n o p q r s t u w x y z ü ñ
+  marks: ◌̃ ◌̈
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 260000
+speakers_date: 2007
+validity: preliminary

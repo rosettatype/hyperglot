@@ -1,0 +1,21 @@
+name: Central Kurdish
+orthographies:
+- autonym: Soranî
+  auxiliary: Ḧ Ẍ ḧ ẍ '
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ç Ê Î Ş Û Ł Ň Ř Ü a b c d e f g h i j k l m n o p q r s t u v w x y z ç ê î ş û ł ň ř ü
+  marks: ◌̂ ◌̈ ◌̌ ◌̧
+  script: Latin
+  status: primary
+- autonym: سۆرانی
+  base: ا ب ت ج ح خ د ر ز س ش ع غ ف ق ل م ن و پ چ ڕ ژ ڤ ک گ ڵ ھ ۆ ی ێ ە
+  design_requirements:
+  - Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
+  script: Arabic
+  status: primary
+source:
+- Wikipedia
+- Omniglot
+speakers: 7250000
+speakers_date: 2014
+status: living
+validity: preliminary

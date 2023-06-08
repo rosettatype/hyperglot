@@ -1,0 +1,13 @@
+name: Nateni
+orthographies:
+- autonym: nateni
+  base: A B C D E Ɛ F H I K M N O Ɔ P S T U W Y À Á È É Ì Í Ḭ Ǹ Ń Ò Ó Ù Ú Ṵ a b c d e ɛ f h i k m n o ɔ p s t u w y à á è é ì í ḭ ǹ ń ò ó ù ú ṵ
+  marks: ◌́ ◌̀ ◌̰
+  script: Latin
+  status: primary
+source:
+- Wikipedia
+- Centre national de linguistique appliquée (C.E.N.A.L.A.), Alphabet des langues nationales béninoises, 2008, p. 33-35.
+speakers: 66000
+speakers_date: 2001
+validity: preliminary

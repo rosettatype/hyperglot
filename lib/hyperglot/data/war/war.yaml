@@ -1,0 +1,15 @@
+name: Waray (Philippines)
+orthographies:
+- autonym: Waray-Waray
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ñ a b c d e f g h i j k l m n o p q r s t u v w x y z ñ
+  marks: ◌̃
+  note: There is no officially-endorsed orthography for the language and different writers use different orthographic rules. In general, it has become common to write the language following the current orthographic conventions of Filipino.
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 2600000
+speakers_date: 2005
+status: living
+validity: preliminary

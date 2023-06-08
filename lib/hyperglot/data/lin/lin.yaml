@@ -1,0 +1,16 @@
+name: Lingala
+orthographies:
+- autonym: Lingala
+  auxiliary: J Q X j q x
+  base: A B C D E F G H I K L M N O P R S T U V W Y Z Á Â É Ê Í Î Ó Ô Ú Ě Ǎ Ǐ Ǒ Ɔ Ɛ a b c d e f g h i k l m n o p r s t u v w y z á â é ê í î ó ô ú ě ǎ ǐ ǒ ɔ ɛ
+  marks: ◌́ ◌̂ ◌̌
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+- CLDR
+speakers: 15000000
+speakers_date: 2017
+status: living
+validity: verified

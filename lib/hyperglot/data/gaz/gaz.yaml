@@ -1,0 +1,13 @@
+name: West Central Oromo
+note: The speaker count is an estimate based on the total for Oromo macrolanguage.
+orthographies:
+- autonym: Afaan Oromoo
+  inherit: gax
+  script: Latin
+  status: primary
+source:
+- Wikipedia
+speakers: 26000000
+speakers_date: 2015
+status: living
+validity: verified

@@ -363,9 +363,12 @@ def cli(fonts, support, decomposed, marks, validity, autonyms, speakers,
         for f in fonts:
             chars = parse_font_chars(f)
             for s in languages:
-                res, msg = find_language(s)
+                res, _ = find_language(s)
+                if res is False:
+                    return
                 for r in res:
-                    print(f"Listing full support information for {r.get_name()}")
+                    res_name = r.get_name()
+                    print(f"Listing full support information for {res_name}")
                     print()
                     if "orthographies" not in r:
                         continue
@@ -435,12 +438,28 @@ def save_sorted(Langs=None, run_validation=True):
                     decorated = [MARK_BASE + m for m in list_unique(marks)]
                     o["marks"] = " ".join(decorated)
 
-    # Sort by keys
-    alphabetic = dict(OrderedDict(sorted(Langs.items())))
+    # Ensure db folder exists
+    if not os.path.isdir(DB):
+        os.mkdir(DB)
 
-    file = open(DB, "w")
-    yaml.dump(alphabetic, file, **DUMP_ARGS)
-    print("Saved lib/hyperglot/hyperglot.yaml")
+    for iso, data in Langs.items():
+        save_language(iso, data)
+
+    print("Saved all language data to lib/hyperglot/data")
+
+
+def save_language(iso, data):
+    lang_dir = os.path.join(DB, iso)
+
+    # Ensure language folder exists
+    if not os.path.isdir(lang_dir):
+        os.mkdir(lang_dir)
+
+    lang_file = os.path.join(lang_dir, iso + ".yaml")
+
+    file = open(lang_file, "w")
+    yaml.dump(data, file, **DUMP_ARGS)
+    logging.info(f"Saved lib/hyperglot/data/{iso}.yaml")
 
 
 @click.command()

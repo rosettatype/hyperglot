@@ -1,0 +1,12 @@
+name: Ibibio
+orthographies:
+- base: A B D E F G H I Ị K M N Ñ O Ọ P R S T U Ʌ W Y a b d e f g h i ị k m n ñ o ọ p r s t u ʌ w y
+  marks: ◌̃ ◌̣
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 2000000
+speakers_date: 1998
+validity: preliminary

@@ -1,0 +1,26 @@
+name: Uighur
+orthographies:
+- autonym: Уйғур
+  base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Ю Я Ғ Җ Қ Ң Ү Һ Ә Ө а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш ю я ғ җ қ ң ү һ ә ө
+  marks: ◌̆
+  script: Cyrillic
+  status: secondary
+- autonym: ئۇيغۇرچە
+  base: ئ ا ب ت ج خ د ر ز س ش غ ف ق ك ل م ن و ي پ چ ژ ڭ گ ھ ۆ ۇ ۈ ۋ ې ە
+  design_requirements:
+  - Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
+  marks: ◌ٔ
+  script: Arabic
+  status: primary
+- autonym: Uighur
+  base: A B C D E F G H I J K L M N O P Q R S T U W X Y Z Ë Ö Ü a b c d e f g h i j k l m n o p q r s t u w x y z ë ö ü
+  marks: ◌̈
+  script: Latin
+  status: secondary
+source:
+- Omniglot
+- Wikipedia
+speakers: 10400000
+speakers_date: 2016
+status: living
+validity: verified

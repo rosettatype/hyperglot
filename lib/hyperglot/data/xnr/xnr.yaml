@@ -1,0 +1,11 @@
+name: Kangri
+orthographies:
+- autonym: कांगड़ी
+  inherit: dgo
+  script: Devanagari
+  status: primary
+source:
+- Wikipedia
+speakers: 1700000
+speakers_date: 1996
+validity: preliminary

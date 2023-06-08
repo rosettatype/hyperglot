@@ -1,0 +1,22 @@
+includes:
+- ojs
+- ojg
+- ojc
+- ojb
+- ojw
+- ciw
+- otw
+- alq
+name: Ojibwa
+note: Most Ojibwa (oji) dialects are listed as individual languages in ISO 639-3. Their orthographies differ.
+orthographies:
+- autonym: ᐊᓂᔑᓈᐯᒧᐎᓐ
+  base: ᐁ ᐃ ᐅ ᐊ ᐄ ᐎ ᐆ ᐋ ᐯ ᐱ ᐳ ᐸ ᐲ ᐴ ᐹ ᑉ ᑌ ᑎ ᑐ ᑕ ᑏ ᑑ ᑖ ᑦ ᑫ ᑭ ᑯ ᑲ ᑮ ᑰ ᑳ ᒃ ᒉ ᒋ ᒍ ᒐ ᒌ ᒎ ᒑ ᒡ ᒣ ᒥ ᒧ ᒪ ᒦ ᒨ ᒫ ᒻ ᓀ ᓂ ᓄ ᓇ ᓃ ᓅ ᓈ ᓐ ᓭ ᓯ ᓱ ᓴ ᓰ ᓲ ᓵ ᔅ ᔐ ᔑ ᔓ ᔕ ᔒ ᔔ ᔖ ᔥ ᔦ ᔨ ᔪ ᔭ ᔩ ᔫ ᔮ ᔾ ᐦ
+  script: Ojibwe Syllabics
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 100880
+speakers_date: 1990-2010
+validity: preliminary

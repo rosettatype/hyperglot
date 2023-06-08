@@ -1,0 +1,16 @@
+name: Kwasio
+orthographies:
+- autonym: Kwasio
+  auxiliary: Q X Z q x z
+  base: A B C D E F G H I J K L M N O P R S T U V W Y Á Â Ä É Ê Í Î Ï Ó Ô Ö Ú Û Ā Ē Ě Ī Ń Ŋ Ō Ŕ Ū Ǎ Ǐ Ǒ Ǔ Ǝ Ɓ Ɔ Ɛ a b c d e f g h i j k l m n o p r s t u v w y á â ä é ê í î ï ó ô ö ú û ā ē ě ī ń ŋ ō ŕ ū ǎ ǐ ǒ ǔ ǝ ɓ ɔ ɛ
+  design_requirements:
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  marks: ◌́ ◌̂ ◌̄ ◌̈ ◌̌
+  script: Latin
+  status: primary
+source:
+- CLDR
+speakers: 26000
+speakers_date: 1982-2012
+status: living
+validity: draft

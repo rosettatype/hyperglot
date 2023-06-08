@@ -1,0 +1,13 @@
+name: Gilbertese
+orthographies:
+- autonym: Kiribati
+  base: A B E I K M N G O R T U W a b e i k m n g o r t u w
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 120000
+speakers_date: 1988-2010
+status: living
+validity: verified

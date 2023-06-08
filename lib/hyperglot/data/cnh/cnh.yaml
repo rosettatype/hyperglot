@@ -1,0 +1,15 @@
+name: Hakha Chin
+orthographies:
+- autonym: Laiṭong
+  base: A B C D E F G H I J K L M N O P R S T U V Z Ṭ a b c d e f g h i j k l m n o p r s t u v z ṭ
+  marks: ◌̣
+  script: Latin
+  status: primary
+- inherit: mya
+  script: Burmese
+  status: primary
+source:
+- Wikipedia
+speakers: 130000
+speakers_date: 1991-2001
+validity: draft

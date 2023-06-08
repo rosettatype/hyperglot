@@ -1,0 +1,13 @@
+name: Rotokas
+orthographies:
+- autonym: Rotokas
+  base: A E G I K O P R S T U V a e g i k o p r s t u v
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 4300
+speakers_date: 1981
+status: living
+validity: verified

@@ -1,0 +1,13 @@
+name: Dari
+orthographies:
+- autonym: دری
+  inherit: pes
+  script: Arabic
+  status: primary
+source:
+- Wikipedia
+- Omniglot
+speakers: 12500000
+speakers_date: 2000-2011
+status: living
+validity: preliminary

@@ -1,0 +1,13 @@
+name: Ho-Chunk
+orthographies:
+- autonym: Ho-Chunk
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ą Ğ Į Š Ų Ž a b c d e f g h i j k l m n o p q r s t u v w x y z ą ğ į š ų ž
+  marks: ◌̆ ◌̌ ◌̨
+  script: Latin
+  status: primary
+source:
+- Omniglot
+speakers: 250
+speakers_date: 2007
+status: living
+validity: draft

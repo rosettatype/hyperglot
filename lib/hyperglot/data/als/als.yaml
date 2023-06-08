@@ -1,0 +1,13 @@
+name: Tosk Albanian
+orthographies:
+- autonym: Shqip
+  inherit: aln
+  script: Latin
+  status: primary
+source:
+- Wikipedia
+- Omniglot
+speakers: 1800000
+speakers_date: 2011
+status: living
+validity: verified

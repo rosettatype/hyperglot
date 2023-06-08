@@ -1,0 +1,14 @@
+name: Cimbrian
+orthographies:
+- autonym: Zimbar
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä À È É Ì Ò Ó Ô Ö Ù Ü Ć a b c d e f g h i j k l m n o p q r s t u v w x y z ä à è é ì ò ó ô ö ù ü ć
+  marks: ◌̀ ◌́ ◌̂ ◌̈
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 400
+speakers_date: 2000
+status: living
+validity: preliminary

@@ -1,0 +1,12 @@
+name: Min Nan Chinese
+note: The speaker count is approximate.
+orthographies:
+- autonym: 閩南語
+  inherit: cmn
+  script: Chinese
+  status: primary
+source:
+- Wikipedia
+speakers: 48000000
+speakers_date: 2017-2018
+validity: draft

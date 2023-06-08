@@ -1,0 +1,22 @@
+name: Yoruba
+orthographies:
+- autonym: Èdè Yorùbá
+  auxiliary: Ɔ Ɛ ɔ ɛ
+  base: A B D E F G H I J K L M N O P R S T U W Y À Á Ā È É Ē Ẹ Ì Í Ī Ò Ó Ō Ọ Ù Ú Ū Ṣ a b d e f g h i j k l m n o p r s t u w y à á ā è é ē ẹ ì í ī ò ó ō ọ ù ú ū ṣ
+  marks: ◌̀ ◌́ ◌̄ ◌̣
+  script: Latin
+  status: primary
+- autonym: èdè yorùbá
+  base: A B D E Ɛ F G H I J K L M N O Ɔ P R S T U W Y À Á Ā È É Ē Ì Í Ī Ò Ó Ō Ù Ú Ū a b d e ɛ f g h i j k l m n o ɔ p r s t u w y à á ā è é ē ì í ī ò ó ō ù ú ū
+  marks: ◌̀ ◌́ ◌̄
+  note: Orthography used in Benin.
+  script: Latin
+  status: local
+source:
+- Omniglot
+- Wikipedia
+- Centre national de linguistique appliquée (C.E.N.A.L.A.), Alphabet des langues nationales béninoises, 2008, p. 43-44.
+speakers: 40000000
+speakers_date: 2015
+status: living
+validity: verified

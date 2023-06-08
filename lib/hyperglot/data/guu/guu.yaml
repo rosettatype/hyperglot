@@ -1,0 +1,12 @@
+name: Yanomamö
+orthographies:
+- autonym: Yąnomamɨ
+  base: A E F H I J K M N O P R S T U W Y Ã Ẽ Ə Ĩ Ɨ Õ Ũ a e f h i j k m n o p r s t u w y ã ẽ ə ĩ ɨ õ ũ
+  marks: ◌̃ ◌̨
+  script: Latin
+  status: primary
+source:
+- Wikipedia
+speakers: 20000
+speakers_date: 2000-2006
+validity: draft

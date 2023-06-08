@@ -1,0 +1,16 @@
+name: Inari Sami
+orthographies:
+- autonym: Anarâškielâ
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á Â Ä Å Ö Č Đ Ŋ Š Ž a b c d e f g h i j k l m n o p q r s t u v w x y z á â ä å ö č đ ŋ š ž
+  design_requirements:
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  marks: ◌́ ◌̂ ◌̈ ◌̊ ◌̌
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 400
+speakers_date: 2018
+status: living
+validity: preliminary

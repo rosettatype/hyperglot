@@ -1,0 +1,13 @@
+name: Oroqen
+orthographies:
+- autonym: Oroqen
+  base: A B D E F G H I J K L M N O P Q R S T U Ü W X Y a b d e f g h i j k l m n o p q r s t u ü w x y
+  marks: ◌̈
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 1200
+speakers_date: 2009
+validity: preliminary

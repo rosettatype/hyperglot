@@ -1,0 +1,15 @@
+name: Standard Latvian
+orthographies:
+- autonym: Latviešu
+  auxiliary: Q W X Y q w x y
+  base: A Ā B C Č D E Ē F G Ģ H I Ī J K Ķ L Ļ M N Ņ O P R S Š T U Ū V Z Ž a ā b c č d e ē f g ģ h i ī j k ķ l ļ m n ņ o p r s š t u ū v z ž
+  marks: ◌̄ ◌̌ ◌̧
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 1750000
+speakers_date: 2015
+status: living
+validity: preliminary

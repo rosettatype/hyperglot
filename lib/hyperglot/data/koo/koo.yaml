@@ -1,0 +1,13 @@
+name: Konzo
+orthographies:
+- autonym: Lhukonzo
+  base: A B D E F G H I Ï K L M N O P R S T U Ü V W Y Z a b d e f g h i ï k l m n o p r s t u ü v w y z
+  marks: ◌̈
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 610000
+speakers_date: 2002
+validity: preliminary

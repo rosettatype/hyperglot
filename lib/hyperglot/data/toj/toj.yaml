@@ -1,0 +1,12 @@
+name: Tojolabal
+orthographies:
+- autonym: Tojolꞌabꞌal
+  base: A B C D E G I J K L M N O P R S T U W X Y Ꞌ a b c d e g i j k l m n o p r s t u w x y ꞌ
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 51733
+speakers_date: 2010
+validity: preliminary

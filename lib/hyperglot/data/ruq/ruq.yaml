@@ -1,0 +1,14 @@
+name: Megleno Romanian
+orthographies:
+- autonym: Vlăheshte
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ā Â Ă Ạ Ē Ë Ę Ž Ł Š Ī Ō Ǫ Ū Ľ Ń Ș Ț a b c d e f g h i j k l m n o p q r s t u v w x y z ā â ă ạ ē ë ę ž ł š ī ō ǫ ū ľ ń ș ț
+  marks: ◌́ ◌̂ ◌̄ ◌̆ ◌̈ ◌̌ ◌̣ ◌̦ ◌̨ ◌̯
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 5000
+speakers_date: 2002
+status: living
+validity: preliminary

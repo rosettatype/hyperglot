@@ -1,0 +1,13 @@
+name: Central Nahuatl
+orthographies:
+- base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ü Ā Ē Ī Ō Ū Ȳ a b c d e f g h i j k l m n o p q r s t u v w x y z ü ā ē ī ō ū ȳ
+  marks: ◌̄ ◌̈
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 40000
+speakers_date: 1980
+status: living
+validity: verified

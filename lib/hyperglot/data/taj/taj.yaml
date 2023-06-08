@@ -1,0 +1,15 @@
+name: Eastern Tamang
+orthographies:
+- autonym: तामाङ‎
+  inherit: hin
+  script: Devanagari
+  status: primary
+- autonym: རྟ་དམག‎
+  inherit: bod
+  script: Tibetan
+source:
+- Omniglot
+- Wikipedia
+speakers: 1370154
+speakers_date: 2011
+validity: preliminary

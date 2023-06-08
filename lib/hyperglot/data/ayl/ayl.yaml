@@ -1,0 +1,12 @@
+name: Libyan Arabic
+orthographies:
+- autonym: ليبي
+  inherit: arb
+  script: Arabic
+  status: primary
+source:
+- Wikipedia
+speakers: 4325000
+speakers_date: 1998-2006
+status: living
+validity: preliminary

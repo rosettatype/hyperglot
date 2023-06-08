@@ -1,0 +1,13 @@
+name: Arbëreshë Albanian
+orthographies:
+- autonym: Arbërisht
+  inherit: aln
+  script: Latin
+  status: primary
+source:
+- Wikipedia
+- Omniglot
+speakers: 100000
+speakers_date: 2007
+status: living
+validity: verified

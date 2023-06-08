@@ -1,0 +1,30 @@
+name: Standard Malay
+orthographies:
+- autonym: Malaysia
+  auxiliary: ''''
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
+  note: Post-1972 orthography (without diacritics) is used by Standard Malay and Indonesian.
+  script: Latin
+  status: primary
+- autonym: Malaysia
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ĕ a b c d e f g h i j k l m n o p q r s t u v w x y z ĕ
+  marks: ◌̆
+  note: Za'aba Spelling system was used 1927–1972 in British Malaya and Borneo/Brunei for Malaysia and Singapore orthography
+  script: Latin
+  status: historical
+- autonym: مليسيا
+  base: ء ا ب ة ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ل م ن ه و ى ي چ ڠ ڤ ک ڽ ۏ ݢ
+  design_requirements:
+  - Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
+  note: Jawi
+  numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩
+  script: Arabic
+  status: primary
+source:
+- https://en.wikipedia.org/wiki/Malay_orthography
+- https://en.wikipedia.org/wiki/Za%27aba_Spelling
+- Omniglot
+speakers: 32772100
+speakers_date: 2019
+status: living
+validity: preliminary

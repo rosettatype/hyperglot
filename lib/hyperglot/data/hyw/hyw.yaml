@@ -1,0 +1,13 @@
+name: Western Armenian
+note: The language count is very conservative (could be up to 4 million). Wikipedia said 1.4 million. We raised it to 2 million.
+orthographies:
+- autonym: Հայերէն
+  inherit: hye
+  script: Armenian
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 2000000
+speakers_date: 2001-2016
+validity: verified

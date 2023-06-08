@@ -1,0 +1,15 @@
+name: Serer
+orthographies:
+- autonym: Seereer
+  base: A B Ɓ C Ƈ D Ɗ E F G H I J K L M N Ñ Ŋ O P Ƥ Q R S T Ƭ U W X Y Ƴ a b ɓ c ƈ d ɗ e f g h i j k l m n ñ ŋ o p ƥ q r s t ƭ u w x y ƴ '
+  design_requirements:
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  marks: ◌̃
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 1410700
+speakers_date: 2001-2015
+validity: preliminary

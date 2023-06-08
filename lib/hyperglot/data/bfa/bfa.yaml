@@ -1,0 +1,14 @@
+name: Bari
+orthographies:
+- base: A B D E G I J K L M N O P R S T U W Y Ŋ Ö a b d e g i j k l m n o p r s t u w y ŋ ö '
+  design_requirements:
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  marks: ◌̈
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 750000
+speakers_date: 2000-2014
+validity: preliminary

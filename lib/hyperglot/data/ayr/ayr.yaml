@@ -1,0 +1,14 @@
+name: Central Aymara
+orthographies:
+- autonym: Aymar
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Ï Ñ Ü a b c d e f g h i j k l m n o p q r s t u v w x y z ä ï ñ ü ’
+  marks: ◌̃ ◌̈
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 1677100
+speakers_date: 2007-2011
+status: living
+validity: verified

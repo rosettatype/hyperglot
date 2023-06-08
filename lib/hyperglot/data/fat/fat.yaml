@@ -1,0 +1,13 @@
+name: Fanti
+orthographies:
+- autonym: Fante
+  base: A B D E F G H I K M N O P R S T U W Y Z Ɛ Ɔ a b d e f g h i k m n o p r s t u w y z ɛ ɔ
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 2700000
+speakers_date: 2019
+status: living
+validity: verified

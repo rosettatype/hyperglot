@@ -1,0 +1,15 @@
+name: Tachelhit
+note: The speaker count corresponds to 14.1% of the Moroccan population.
+orthographies:
+- autonym: Tachelhit
+  base: A B C D E F G H I J K L M N Q R S T U W X Y Z Ɛ Ɣ Ḍ Ḥ Ṛ Ṣ Ṭ Ž a b c d e f g h i j k l m n q r s t u w x y z ɛ ɣ ʷ ḍ ḥ ṛ ṣ ṭ ž
+  marks: ◌̌ ◌̣
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+- CLDR
+speakers: 4739021
+status: living
+validity: verified

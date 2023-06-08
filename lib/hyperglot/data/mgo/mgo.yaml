@@ -1,0 +1,17 @@
+name: Meta'
+orthographies:
+- autonym: Mɨta’
+  auxiliary: Q X q x
+  base: A B C D E F G H I J K M N O P R S T U W Y Z À È Ì Ò Ù Ŋ Ɔ Ə Ɨ a b c d e f g h i j k m n o p r s t u w y z à è ì ò ù ŋ ɔ ə ɨ ʼ
+  design_requirements:
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  marks: ◌̀
+  script: Latin
+  status: primary
+preferred_name: Meta’
+source:
+- CLDR
+speakers: 190000
+speakers_date: 2010
+status: living
+validity: draft

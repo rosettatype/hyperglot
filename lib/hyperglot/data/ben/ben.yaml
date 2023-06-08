@@ -1,0 +1,16 @@
+name: Bengali
+orthographies:
+- autonym: বাংলা
+  base: ৺ অ আ ই ঈ উ ঊ ঋ ৠ ঌ ৡ এ ঐ ও ঔ ক খ গ ঘ ঙ চ ছ জ ঝ ঞ ট ঠ ড ঢ ণ ত ৎ থ দ ধ ন প ফ ব ভ ম য র ল শ ষ স হ ঽ
+  design_requirements:
+  - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
+  marks: ◌ঁ ◌ং ◌ঃ ◌় ◌া ◌ি ◌ী ◌ু ◌ূ ◌ৃ ◌ৄ ◌ে ◌ৈ ◌্ ◌ৗ ◌ৢ ◌ৣ
+  numerals: ০ ১ ২ ৩ ৪ ৫ ৬ ৭ ৮ ৯
+  script: Bengali
+  status: primary
+source:
+- Wikipedia
+- CLDR
+speakers: 230000000
+speakers_date: 2011-2017
+validity: preliminary

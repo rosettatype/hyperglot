@@ -1,0 +1,16 @@
+name: Koyraboro Senni Songhai
+orthographies:
+- autonym: Koyraboro Senni
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ã Õ Ŋ Š Ž Ɲ Ẽ a b c d e f g h i j k l m n o p q r s t u v w x y z ã õ ŋ š ž ɲ ẽ
+  design_requirements:
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  marks: ◌̃ ◌̌
+  script: Latin
+  status: primary
+source:
+- CLDR
+- Wikipedia
+speakers: 430000
+speakers_date: 2007
+status: living
+validity: preliminary

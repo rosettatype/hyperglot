@@ -1,0 +1,16 @@
+name: Hajong
+note: The speaker count includes 8000 speakers in Bangladesh (undated).
+orthographies:
+- autonym: হাজং
+  base: অ আ ই উ এ ঐ ও ঔ ক খ গ ঘ ঙ চ ছ জ ঝ ঞ ত থ দ ধ ন প ফ ব ভ ম র হ
+  design_requirements:
+  - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
+  marks: ◌ঁ ◌ং ◌ঃ ◌় ◌া ◌ি ◌ে ◌ৈ ◌্ ◌ৗ
+  numerals: ০ ১ ২ ৩ ৪ ৫ ৬ ৭ ৮ ৯
+  script: Bengali
+  status: primary
+source:
+- Wikipedia
+speakers: 79800
+speakers_date: 2011
+validity: preliminary

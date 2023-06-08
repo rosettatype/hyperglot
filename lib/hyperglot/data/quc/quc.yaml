@@ -1,0 +1,12 @@
+name: K'iche'
+orthographies:
+- autonym: Qatzijob'al
+  base: A B C E H I J K L M N O P Q R S T U W X Y Z a b c e h i j k l m n o p q r s t u w x y z '
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 2330000
+speakers_date: 2000
+validity: preliminary

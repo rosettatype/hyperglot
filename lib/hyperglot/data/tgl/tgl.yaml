@@ -1,0 +1,20 @@
+name: Tagalog
+orthographies:
+- autonym: Tagalog
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á À É Í Ì Ó Ú a b c d e f g h i j k l m n o p q r s t u v w x y z á à é í ì ó ú
+  marks: ◌̀ ◌́
+  script: Latin
+  status: primary
+- autonym: ᜊᜌ᜴ᜊᜌᜒᜈ᜴
+  base: ᜀ ᜁ ᜂ ᜃ ᜄ ᜅ ᜆ ᜇ ᜈ ᜉ ᜊ ᜋ ᜌ ᜍ ᜎ ᜏ ᜐ ᜑ
+  marks: ◌ᜒ ◌ᜓ ◌᜔
+  note: Baybayin is the historic Tagalog script. Some revival efforts exist, but it is not in common use in the Philippines.
+  script: Tagalog (Baybayin, Alibata)
+  status: historical
+source:
+- Omniglot
+- Wikipedia
+speakers: 23800000
+speakers_date: 2019
+status: living
+validity: verified

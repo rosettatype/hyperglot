@@ -1,0 +1,13 @@
+name: Ahtna
+orthographies:
+- autonym: Atnakenaegeʼ
+  base: A B C D E G H I K L N O S T U X Y Z a b c d e g h i k l n o s t u x y z Ł ł ʼ
+  script: Latin
+  status: primary
+source:
+- James Kari, Ahtna Athabaskan dictionary, Alaska Native Language Center, 1990
+- Wikipedia
+speakers: 15
+speakers_date: 2020
+status: living
+validity: preliminary

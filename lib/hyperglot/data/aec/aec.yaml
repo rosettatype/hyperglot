@@ -1,0 +1,13 @@
+name: Saidi Arabic
+orthographies:
+- autonym: صعيدي
+  inherit: arz
+  script: Arabic
+  status: primary
+source:
+- Wikipedia
+- Omniglot
+speakers: 22400000
+speakers_date: 2016
+status: living
+validity: preliminary

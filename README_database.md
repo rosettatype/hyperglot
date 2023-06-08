@@ -2,7 +2,7 @@
 
 ## Database
 
-The database is stored in the YAML file `lib/Hyperglot/hyperglot.yaml`.
+The database is stored in the YAML file `lib/Hyperglot/data/xxx/xxx.yaml`.
 
 ### Languages
 
@@ -76,7 +76,7 @@ fas:
 
 ## Development and contributions
 
-Contributions are more most welcome. If you wish to update the database, submit a pull request with an editted and validated version of the `hyperglot.yaml` file. Ideally, use `hyperglot-validate` and `hyperglot-save`, as this will check and format the data in a way best suited to the database.
+Contributions are more most welcome. If you wish to update the database, submit a pull request with an editted and validated version of the `hyperglot/data` files. **Ideally**, use `hyperglot-validate` and `hyperglot-save`, as this will check and format the data in a way best suited to the database.
 
 ### Development
 
@@ -93,13 +93,13 @@ To test the codebases after making changes run the `pytest` test suite:
 pytest
 ```
 
-To validate, sort, and verify the data integrity of `hyperglot.yaml` and get report of any possible formatting errors run:
+To validate, sort, and verify the data integrity of `hyperglot/data` and get report of any possible formatting errors run:
 
 ```shell
 hyperglot-validate
 ```
 
-To save `hyperglot.yaml` sorted alphabetically and pruned by iso keys:
+To save `hyperglot/data` use (this will format, sort and prune the data read in from the individual yaml files):
 
 ```shell
 hyperglot-save

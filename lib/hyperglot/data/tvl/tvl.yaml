@@ -1,0 +1,15 @@
+name: Tuvalu
+note: The speaker count date for 10000 speakers in Tuvalu, other dates are unknown.
+orthographies:
+- autonym: Te ’gana Tūvalu
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ā Á À Ǎ Ē É È Ě Ī Í Ì Ǐ Ō Ó Ò Ǒ Ū Ú Ù Ǔ a b c d e f g h i j k l m n o p q r s t u v w x y z ā á à ǎ ē é è ě ī í ì ǐ ō ó ò ǒ ū ú ù ǔ ’
+  marks: ◌̀ ◌́ ◌̄ ◌̌
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 12000
+speakers_date: 2015
+status: living
+validity: verified

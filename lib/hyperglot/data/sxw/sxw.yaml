@@ -1,0 +1,16 @@
+name: Saxwe Gbe
+orthographies:
+- autonym: saxwɛgbe
+  auxiliary: Q R q r
+  base: A B C D Ɖ E Ɛ F G Ɣ H I J K L M N Ŋ O Ɔ P S T U V W X Y Z a b c d ɖ e ɛ f g ɣ h i j k l m n ŋ o ɔ p s t u v w x y z
+  design_requirements:
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  script: Latin
+  status: primary
+source:
+- Wikipedia
+- https://www.webonary.org/saxwe
+- https://www.saxwe.net
+speakers: 170000
+speakers_date: 2002
+validity: preliminary

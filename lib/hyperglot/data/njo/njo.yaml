@@ -1,0 +1,8 @@
+name: Ao Naga
+orthographies:
+- base: A B C E I J K L M N O P R S T U Y Z a b c e i j k l m n o p r s t u y z
+  script: Latin
+  status: primary
+source:
+- Wikipedia
+validity: draft

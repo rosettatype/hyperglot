@@ -1,0 +1,22 @@
+name: Kwak’wala
+orthographies:
+- autonym: Kwak̓wala
+  base: A B D E G H I K L M N O P S T U W X Y Z a b d e g h i k l m n o p s t u w x y z ƚ Ǥ ǥ Ƚ ʼ Ḵ ḵ
+  marks: ◌̓ ◌̱
+  note: Uʼmista orthography
+  script: Latin
+  status: primary
+- autonym: liq̓ʷala
+  auxiliary: A B C D E G H I K L M N O P Q S T U W X Y Ł Ə Ǧ Λ
+  base: a b c d e g h i k l m n o p q s t u w x y ł ƛ ǧ ə ʔ ʷ λ ᶻ
+  marks: ◌̓ ◌̱ ◌̌
+  note: Capitals may be used in non standard orthography.
+  script: Latin
+  status: primary
+source:
+- FirstVoices
+- Wikipedia
+speakers: 450
+speakers_date: 2016
+status: living
+validity: preliminary

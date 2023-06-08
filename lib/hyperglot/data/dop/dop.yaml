@@ -1,0 +1,15 @@
+name: Lukpa
+orthographies:
+- autonym: lǝkpa
+  base: A C E Ɛ Ǝ F H I Ɩ K L M N Ŋ Ŋ O Ɔ P Ɣ S T U Ʊ W Y Á É Ú Ḿ Ń a c e ɛ ǝ f h i ɩ k l m n ŋ ŋ o ɔ p ɣ s t u ʊ w y á é ú ḿ ń
+  design_requirements:
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  marks: ◌́
+  script: Latin
+  status: primary
+source:
+- Wikipedia
+- Centre national de linguistique appliquée (C.E.N.A.L.A.), Alphabet des langues nationales béninoises, 2008, p. 27-28
+speakers: 70000
+speakers_date: 2001-2012
+validity: preliminary

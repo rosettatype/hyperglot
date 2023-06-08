@@ -1,0 +1,12 @@
+name: Nigerian Fulfulde
+note: Used in Nigeria.
+orthographies:
+- base: A B C D E F G H I J K L M N O P R S T U W Y X Ɓ Ɗ a b c d e f g h i j k l m n o p r s t u w y x ɓ ɗ
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+- CLDR
+status: living
+validity: verified

@@ -1,0 +1,14 @@
+name: Angas
+orthographies:
+- autonym: Ngas
+  base: A B C D E F G H I J K L M N O P R S T U V W Y Z a b c d e f g h i j k l m n o p r s t u v w y z Ɓ Ɗ Ə ɓ ɗ ə ʼ Ḥ ḥ Ṇ ṇ Ẓ ẓ
+  marks: ◌̣
+  script: Latin
+  status: primary
+source:
+- Rhonda L. Hartell, Alphabets de langues africaines, 1993, p. 208
+- Wikipedia
+speakers: 400000
+speakers_date: 1998
+status: living
+validity: preliminary

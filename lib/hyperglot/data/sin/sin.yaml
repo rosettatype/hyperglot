@@ -1,0 +1,15 @@
+name: Sinhala
+note: There are approximately 3000000 L2 speakers.
+orthographies:
+- autonym: සිංහල
+  base: අ ආ ඇ ඈ ඉ ඊ උ ඌ ඍ ඎ එ ඒ ඓ ඔ ඕ ඖ ට ඨ ඩ ඪ ණ ඬ ත ථ ද ධ න ඳ ප ඵ බ භ ම ඹ ය ර ල ව ළ ශ ෂ ස හ ෆ
+  design_requirements:
+  - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
+  script: Sinhala
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 17000000
+speakers_date: 2012
+validity: preliminary

@@ -1,0 +1,22 @@
+name: Kalaallisut
+orthographies:
+- autonym: Kalaallisut
+  auxiliary: À Ì Ù à ì ù
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á Â Ã Å Æ Ê Í Î Ĩ Ô Ø Ú Û Ũ a b c d e f g h i j k l m n o p q r s t u v w x y z á â ã å æ ê í î ĩ ô ø ú û ĸ ũ
+  marks: ◌́ ◌̂ ◌̃ ◌̊ ◌̀
+  note: Alphabet invented by Samuel Kleinschmidt. Used until 1973.
+  script: Latin
+  status: deprecated
+- autonym: Kalaallisut
+  auxiliary: B C D H W X Y Z Å Æ Ø b c d h w x y z å æ ø
+  base: A E F G I J K L M N O P Q R S T U V a e f g i j k l m n o p q r s t u v
+  marks: ◌̊
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 57000
+speakers_date: 2007
+status: living
+validity: verified

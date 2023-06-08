@@ -1,0 +1,24 @@
+name: Romanian
+orthographies:
+- autonym: Молдовеняскэ
+  base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Ы Ь Э Ю Я Ӂ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш ы ь э ю я ӂ
+  marks: ◌̆
+  note: Used in Transnistria.
+  script: Cyrillic
+  status: local
+- autonym: Română
+  auxiliary: Ş Ţ ş ţ
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Â Î Ă Ș Ț a b c d e f g h i j k l m n o p q r s t u v w x y z â î ă ș ț
+  design_requirements:
+  - The characters ‹Ș,ș› and ‹Ț,ț› have been represented with ‹Ş,ş› and ‹Ţ,ţ› in the past. The former character codepoints may still appear in some legacy encodings. To resolve this and to avoid discrepancy (the marks below both character pairs ought to be identical) some font developers use automated substitutions in their OpenType fonts.
+  marks: ◌̂ ◌̆ ◌̦ ◌̧
+  note: Used also for Romanian spoken in Moldavia (sometimes called Moldavian).
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 26000000
+speakers_date: 2016
+status: living
+validity: verified

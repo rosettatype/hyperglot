@@ -1,0 +1,15 @@
+name: Han
+orthographies:
+- autonym: Tr’ondëk Hwëch’in
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä À Â Ǎ Ą Ë a b c d e f g h i j k l m n o p q r s t u v w x y z ä à â ǎ ą ë ’
+  marks: ◌̀ ◌̂ ◌̈ ◌̌ ◌̨
+  script: Latin
+  status: primary
+preferred_name: Hän
+source:
+- Omniglot
+- Wikipedia
+speakers: 20
+speakers_date: 1997-2007
+status: living
+validity: verified

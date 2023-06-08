@@ -1,0 +1,33 @@
+name: Kala Lagaw Ya
+orthographies:
+- autonym: Kala Lagaw Ya
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Á Ă Ā È É Ë Ĕ Ē Ì Í Ĭ Ī Ò Ó Ŏ Ō Œ Ù Ú Ŭ Ū a b c d e f g h i j k l m n o p q r s t u v w x y z à á ă ā è é ë ĕ ē ì í ĭ ī ò ó ŏ ō œ ù ú ŭ ū
+  marks: ◌̀ ◌́ ◌̄ ◌̆ ◌̈
+  script: Latin
+  status: primary
+- autonym: Kala Lagaw Ya
+  base: A Ă Ā B D E Ĕ Ē G I Ĭ Ī K L M N O Ŏ Ō Ò Ö Ë Œ P F R S T U Ŭ Ū W Y Z J a ă ­ ā b d e ĕ ē g i ĭ ī k l m n o ŏ ō ò ö ë œ p f r s t u ŭ ū w y z j
+  marks: ◌̀ ◌̄ ◌̆ ◌̈
+  script: Latin
+  status: secondary
+- autonym: Kala Lagaw Ya
+  base: A B D E G I K L M N O P R S T U W Y Z a b d e g i k l m n o p r s t u w y z
+  script: Latin
+  status: secondary
+- autonym: Kala Lagaw Ya
+  base: A B D E G K L M N O Œ P R S T U W Y Z Ò Ö a b d e g k l m n o œ p r s t u w y z ò ö
+  marks: ◌̀ ◌̈
+  script: Latin
+  status: secondary
+- autonym: Kala Lagaw Ya
+  base: A Á B D E É G I Í K L M N O Ó Ò Œ P R S T U Ù Ú W Y Z a á b d e é g i í k l m n o ó ò œ p r s t u ù ú w y z
+  marks: ◌̀ ◌́
+  script: Latin
+  status: secondary
+source:
+- Omniglot
+- Wikipedia
+speakers: 957
+speakers_date: 2016
+status: living
+validity: verified

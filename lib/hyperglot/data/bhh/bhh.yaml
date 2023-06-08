@@ -1,0 +1,14 @@
+name: Bukharic
+note: The speaker count date is for Israel and Uzbekistan, others are unknown.
+orthographies:
+- autonym: בוכארי
+  inherit: heb
+  script: Hebrew
+  status: primary
+source:
+- Wikipedia
+- https://en.wikipedia.org/wiki/Niqqud
+speakers: 110000
+speakers_date: 1995
+status: living
+validity: draft

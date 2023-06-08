@@ -1,0 +1,15 @@
+name: Central Atlas Tamazight
+orthographies:
+- autonym: Tamaziɣt
+  base: A B C D E F G H I J K L M N Q R S T U W X Y Z Ɛ Ɣ Ḍ Ḥ Ṛ Ṣ Ṭ a b c d e f g h i j k l m n q r s t u w x y z ɛ ɣ ʷ ḍ ḥ ṛ ṣ ṭ
+  marks: ◌̣
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+- CLDR
+speakers: 5000000
+speakers_date: 2019
+status: living
+validity: verified

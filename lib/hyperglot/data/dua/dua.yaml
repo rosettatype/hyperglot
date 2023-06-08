@@ -1,0 +1,18 @@
+name: Duala
+note: The number of speakers is a conservative estimate.
+orthographies:
+- autonym: Duálá
+  auxiliary: H Q V X Z h q v x z
+  base: A B C D E F G I J K L M N O P R S T U W Y Á É Í Ó Ú Ŋ Ū Ɓ Ɔ Ɗ Ɛ a b c d e f g i j k l m n o p r s t u w y á é í ó ú ŋ ū ɓ ɔ ɗ ɛ
+  design_requirements:
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  marks: ◌́ ◌̄
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- CLDR
+speakers: 87700
+speakers_date: 1982
+status: living
+validity: verified

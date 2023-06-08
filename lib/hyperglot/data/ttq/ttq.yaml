@@ -1,0 +1,19 @@
+name: Tawallammat Tamajaq
+orthographies:
+- autonym: Tawǝllǝmmǝt
+  auxiliary: ʔ
+  base: A B C D E F G H I J J̌ K L M N O Q R S T U W X Y Z a b c d e f g h i j k l m n o q r s t u w x y z Â Ê Î Ô Û â ê î ô û Ă ă Ŋ ŋ Š š Ǝ Ɣ ǝ Ǧ ǧ ǰ ɣ Ḍ ḍ Ḷ ḷ Ṣ ṣ Ṭ ṭ Ẓ ẓ
+  design_requirements:
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  marks: ◌̂ ◌̆ ◌̌ ◌̣
+  script: Latin
+  status: primary
+source:
+- 'Direction Nationale de l’Alphabétisation fonctionnelle et de la Linguistique appliquée (DNAFLA), Alphabets et règles d’orthographe des langues nationales. Bamako: D.N.A.F.L.A. 1993'
+- Chantal Enguehard, Alphabet tamajaq – arrêté no 214-99 de la République du Niger, 2007
+- République du Niger, Ministère de l’Éducation nationale, arrêté no 0214/MEN/SPCNRE du 19 octobre 1999 fixant l’orthographe de la langue tamajaq, 1999
+- Wikipedia
+speakers: 810000
+speakers_date: 1998
+status: living
+validity: preliminary

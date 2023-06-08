@@ -1,0 +1,12 @@
+name: Omani Arabic
+orthographies:
+- autonym: عماني
+  inherit: arb
+  script: Arabic
+  status: primary
+source:
+- Wikipedia
+speakers: 1055000
+speakers_date: 1995-1996
+status: living
+validity: draft

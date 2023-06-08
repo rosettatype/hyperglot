@@ -1,0 +1,13 @@
+name: Moroccan Arabic
+orthographies:
+- autonym: دارجة مغربية
+  inherit: arb
+  script: Arabic
+  status: primary
+source:
+- Wikipedia
+- Omniglot
+speakers: 30551000
+speakers_date: 2014
+status: living
+validity: preliminary

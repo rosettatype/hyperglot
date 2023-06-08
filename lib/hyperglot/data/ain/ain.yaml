@@ -1,0 +1,19 @@
+name: Ainu
+orthographies:
+- autonym: アイヌ・イタㇰ
+  base: ゠ ァ ア ィ イ ゥ ウ ェ エ ォ オ カ ガ キ ギ ク グ ケ ゲ コ ゴ サ ザ シ ジ ス ズ セ ゼ ソ ゾ タ ダ チ ヂ ッ ツ ヅ テ デ ト ド ナ ニ ヌ ネ ノ ハ バ パ ヒ ビ ピ フ ブ プ ヘ ベ ペ ホ ボ ポ マ ミ ム メ モ ャ ヤ ュ ユ ョ ヨ ラ リ ル レ ロ ヮ ワ ヰ ヱ ヲ ン ヴ ヵ ヶ ヷ ヸ ヹ ヺ ・ ー ヽ ヾ ヿ ㇰ ㇱ ㇲ ㇳ ㇴ ㇵ ㇶ ㇷ ㇸ ㇹ ㇺ ㇻ ㇼ ㇽ ㇾ ㇿ ㇷ゚ セ゚ ツ゚ ト゚
+  marks: ◌゙ ◌゚
+  preferred_as_group: true
+  script: Katakana
+  status: primary
+- autonym: Ainu
+  base: A B C D E G H I K L N O S T U X Y Z a b c d e g h i k l n o s t u x y z
+  preferred_as_group: true
+  script: Latin
+  status: primary
+source:
+- Wikipedia
+speakers: 5
+speakers_date: 2018
+status: living
+validity: preliminary

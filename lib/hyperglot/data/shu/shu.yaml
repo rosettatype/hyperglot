@@ -1,0 +1,12 @@
+name: Chadian Arabic
+orthographies:
+- autonym: تشادية
+  inherit: apd
+  script: Arabic
+  status: primary
+source:
+- Wikipedia
+speakers: 1600000
+speakers_date: 2015
+status: living
+validity: draft

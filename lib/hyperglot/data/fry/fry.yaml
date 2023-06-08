@@ -1,0 +1,15 @@
+name: Western Frisian
+orthographies:
+- autonym: Frysk
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Â Ä É Ê Ë Ï Ô Ö Ú Û Ü a b c d e f g h i j k l m n o p q r s t u v w x y z â ä é ê ë ï ô ö ú û ü
+  marks: ◌́ ◌̂ ◌̈
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+- Alvestrand
+speakers: 470000
+speakers_date: 2001
+status: living
+validity: verified

@@ -1,0 +1,16 @@
+name: Danish
+orthographies:
+- autonym: Dansk
+  auxiliary: Ǻ ǻ
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Å Æ Ø a b c d e f g h i j k l m n o p q r s t u v w x y z å æ ø
+  marks: ◌̊ ◌́
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+- CLDR
+speakers: 6000000
+speakers_date: 2019
+status: living
+validity: verified

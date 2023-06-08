@@ -1,0 +1,11 @@
+name: Western Yiddish
+orthographies:
+- autonym: ייִדיש
+  inherit: ydd
+  script: Hebrew
+  status: primary
+source:
+- https://en.wikipedia.org/wiki/Yiddish_orthography
+speakers: 5000
+status: living
+validity: preliminary

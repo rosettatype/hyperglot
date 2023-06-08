@@ -1,0 +1,16 @@
+name: Nyanja
+orthographies:
+- autonym: Chicheŵa
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ŋ Ŵ a b c d e f g h i j k l m n o p q r s t u v w x y z ŋ ŵ
+  design_requirements:
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  marks: ◌̂
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 12000000
+speakers_date: 2007
+status: living
+validity: preliminary

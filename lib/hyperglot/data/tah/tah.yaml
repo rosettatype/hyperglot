@@ -1,0 +1,15 @@
+name: Tahitian
+note: The speaker count is based on 37% of the total population.
+orthographies:
+- autonym: Reo Tahiti
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ā Ē Ī Ō Ū a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ī ō ū
+  marks: ◌̄
+  script: Latin
+  status: primary
+source:
+- Omniglot
+- Wikipedia
+speakers: 68260
+speakers_date: 2007
+status: living
+validity: preliminary
