@@ -1,6 +1,6 @@
 # A changelog for the lib/hyperglot CLI tool
 
-## 0.5.0 (WIP)
+## 0.5.0 (21.06.2023)
 - FEATURE: Added `-l/--language` flag to show supported/not supported glyphs of a font for specific languages
 - DATA: Restructured `hyperglot.yaml` into individual files for each language in `hyperglot/data/xxx/xxx.yaml`
 - DATA: Fix two auxiliary glyphs in Georgian which where swapped uppercase / lowercase by mistake

@@ -72,9 +72,9 @@ class Languages(dict):
         """
 
         # Load raw yaml data for all languages
-        for iso in os.listdir(DB):
-            db = os.path.join(DB, iso, f"{iso}.yaml")
-            with open(db, "rb") as f:
+        for file in os.listdir(DB):
+            iso = os.path.splitext(file)[0]
+            with open(os.path.join(DB, file), "rb") as f:
                 data = yaml.load(f, Loader=yaml.Loader)
                 self[iso] = data
 

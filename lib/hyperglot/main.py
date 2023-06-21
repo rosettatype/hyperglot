@@ -449,15 +449,10 @@ def save_sorted(Langs=None, run_validation=True):
 
 
 def save_language(iso, data):
-    lang_dir = os.path.join(DB, iso)
-
-    # Ensure language folder exists
-    if not os.path.isdir(lang_dir):
-        os.mkdir(lang_dir)
-
-    lang_file = os.path.join(lang_dir, iso + ".yaml")
-
-    file = open(lang_file, "w")
+    """
+    Save the language data of one language by its three letter iso (mostly)
+    """
+    file = open(os.path.join(DB, iso + ".yaml"), "w")
     yaml.dump(data, file, **DUMP_ARGS)
     logging.info(f"Saved lib/hyperglot/data/{iso}.yaml")
 
