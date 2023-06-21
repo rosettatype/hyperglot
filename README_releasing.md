@@ -22,7 +22,7 @@ python -m twine upload --repository testpypi dist/hyperglot-x.x.x*
 - test install in new virtual env from pypi:
 
 ```
-pip install --index-url https://test.pypi.org/simple/ --no-deps hyperglot
+pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple --no-deps hyperglot
 ```
 
 - if all looks good (no deps so it'll most likely not run, but should install ok) then go ahead with real release:
