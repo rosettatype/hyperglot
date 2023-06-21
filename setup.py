@@ -51,7 +51,7 @@ setup(name="hyperglot",
           "hyperglot"
       ],
       package_dir={"": "lib"},
-      package_data={"hyperglot": ["hyperglot.yaml"]},
+      package_data={"hyperglot": ["data/*.yaml"]},
       include_package_data=True,
       entry_points={
           "console_scripts": [

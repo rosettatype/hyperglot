@@ -1,5 +1,8 @@
 # A changelog for the lib/hyperglot CLI tool
 
+## 0.5.0a (21.06.2023)
+- FIX: Fix pypi missing data files
+
 ## 0.5.0 (21.06.2023)
 - FEATURE: Added `-l/--language` flag to show supported/not supported glyphs of a font for specific languages
 - DATA: Restructured `hyperglot.yaml` into individual files for each language in `hyperglot/data/xxx/xxx.yaml`
