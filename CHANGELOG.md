@@ -1,6 +1,6 @@
 # A changelog for the lib/hyperglot CLI tool
 
-## 0.5.0a (21.06.2023)
+## 0.5.1 (21.06.2023)
 - FIX: Fix pypi missing data files
 
 ## 0.5.0 (21.06.2023)
