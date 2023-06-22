@@ -1,5 +1,8 @@
 # A changelog for the lib/hyperglot CLI tool
 
+## 0.5.2 (WIP)
+- DATA: Added Avestan
+
 ## 0.5.1 (21.06.2023)
 - FIX: Fix pypi missing data files
 
