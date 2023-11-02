@@ -2,6 +2,7 @@
 
 ## 0.5.2 (WIP)
 - DATA: Added Avestan
+- FIX: Fix issue with file name conflicts on Windows systems
 
 ## 0.5.1 (21.06.2023)
 - FIX: Fix pypi missing data files

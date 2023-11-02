@@ -2,6 +2,7 @@
 Helper classes to work with the rosetta.yaml data in more pythonic way
 """
 import os
+import re
 import yaml
 import logging
 from .language import Language
@@ -73,7 +74,9 @@ class Languages(dict):
 
         # Load raw yaml data for all languages
         for file in os.listdir(DB):
-            iso = os.path.splitext(file)[0]
+            # Remove possibly appended escape underscore to get iso from
+            # filename
+            iso = re.sub(r"_", "", os.path.splitext(file)[0])
             with open(os.path.join(DB, file), "rb") as f:
                 data = yaml.load(f, Loader=yaml.Loader)
                 self[iso] = data

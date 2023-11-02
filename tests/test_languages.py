@@ -62,3 +62,9 @@ def test_languages_inherit():
     aeb_attr = set(sorted(list(aeb.keys()) + ["inherit"]))
     arb_attr = set(sorted(list(arb.keys()) + ["inherit"]))
     assert arq_attr == aeb_attr == arb_attr
+
+
+def test_languages_parsed_from_escaped_filenames():
+    Langs = Languages()
+    assert hasattr(Langs, "con")
+    assert "con" in Langs
