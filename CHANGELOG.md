@@ -2,6 +2,7 @@
 
 ## 0.5.2 (WIP)
 - DATA: Added Avestan
+- DATA: Fix to Shan (`shn`) containing some stray Latin characters
 - FIX: Fix issue with file name conflicts on Windows systems
 
 ## 0.5.1 (21.06.2023)
