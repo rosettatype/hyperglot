@@ -1,6 +1,7 @@
 # A changelog for the lib/hyperglot CLI tool
 
 ## 0.5.2 (WIP)
+- DATA: Added Ethiopic languages `awn`, `byn`, `gez`, `har`, `sgw`, `tig`, `xan` and updated `tir` (thanks @dyacob and @@NeilSureshPatel)
 - DATA: Added Avestan
 - DATA: Fix to Shan (`shn`) containing some stray Latin characters
 - FIX: Fix issue with file name conflicts on Windows systems
