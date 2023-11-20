@@ -13,14 +13,14 @@ orthographies:
   marks: ◌̈ ◌̀ ◌́
   note: An orthography that was used prior to an introduction of the capital Eszett which was added to Unicode in 2008 and subsequently to the official German orthography in 2017.
   script: Latin
-  status: historical
+  staus: deprecated
 - autonym: Deutsch
   auxiliary: À É à é ſ
   base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Ö Ü a b c d e f g h i j k l m n o p q r s t u v w x y z ß ä ö ü
   marks: ◌̈ ◌̀ ◌́
   note: Use of ſ declined after the 18th century.
   script: Latin
-  status: historical
+  staus: deprecated
 source:
 - Omniglot
 - Wikipedia
