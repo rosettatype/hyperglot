@@ -2,7 +2,7 @@ name: Kenzi
 orthographies:
 - inherit: dgl
   script: Coptic/Nubian
-  staus: deprecated
+  staus: historical
 - inherit: dgl
   script: Latin
   status: primary
