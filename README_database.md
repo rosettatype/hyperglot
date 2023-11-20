@@ -18,9 +18,9 @@ The highest level entries in the database represent languages indexed using the 
 - `source` (optional) is a list of source names used to define the orthographies, e.g. Wikipedia, Omniglot, Alvestrand. See below for the complete list.
 - `validity` (required, defaults to `todo`): one of the following:
   - `todo` for work in progress,
-  - `draft` for entries that are complete but have not been checked against any sources, yet,
-  - `preliminary` for entries that have been checked with at least two online sources,
-  - `verified` for entries confirmed by a native speaker or a linguist.
+  - `draft` for entries that are complete but have not been sufficiently verified, yet,
+  - `preliminary` for entries that have been verified by at least two online sources,
+  - `verified` for entries verified by a competent speaker or a linguist.
 - `note` (optional): a note of any kind.
 
 
