@@ -2,7 +2,7 @@ name: Kom (Cameroon)
 orthographies:
 - base: A Æ B C D E F G H I Ɨ J ’ K L M N NY Ŋ O Œ S T U V W Y Z a æ b c d e f g h i ɨ j k l m n ny ŋ o œ s t u v w y z À Æ̀ È Ì Ɨ̀ Ò Œ̀ Ù Â Æ̂ Ê Î Ɨ̂ Ô Œ̂ Û à æ̀ è ì ɨ̀ ò œ̀ ù â æ̂ ê î ɨ̂ ô œ̂ û
   design_requirements:
-  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in African languages, and the other resembling N with J as the second stem favoured in Sami languages.
   marks: ◌̀ ◌̂
   script: Latin
   status: primary
