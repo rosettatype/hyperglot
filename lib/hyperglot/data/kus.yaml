@@ -3,7 +3,7 @@ orthographies:
 - autonym: kusaal
   base: A B D E Ɛ F G H I Ɩ K L M N Ŋ O Ɔ P R S T U Ʋ W Y Z ʼ a b d e ɛ f g h i ɩ k l m n ŋ o ɔ p r s t u ʋ w y z Ã Ẽ Ĩ Õ Ũ ã ẽ ĩ õ ũ
   design_requirements:
-  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in African languages, and the other resembling N with J as the second stem favoured in Sami languages.
   marks: ◌̃
   note: Ɩ and Ʋ were previously not used in Ghana.
   script: Latin
