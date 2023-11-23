@@ -4,11 +4,15 @@ orthographies:
   base: A B C D E F G H I J K L M N O P R S T U V W Y Z Ɛ Ɣ Ɨ Ŋ Ɔ Ʒ a b c d e f g h i j k l m n o p r s t u v w y z ' ɛ ɣ ɨ ŋ ɔ ʒ
   design_requirements:
   - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in African languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  note: Ʒ is sometimes encountered written as reversed "Σ" without unicode encoding, see https://github.com/rosettatype/hyperglot/issues/138
   script: Latin
   status: primary
 source:
 - Omniglot
 - Wikipedia
+- 'Bureau of Ghana Languages, Language Guide: Dagbani, 1961, 1968, 1976'
+- Centre national de linguistique appliquée (CENALA), Alphabet des langues nationales, Cotonou, CENALA, 1990, hdl.handle.net/10625/6700
+- 'Centre national de linguistique appliquée (CENALA), Alphabet des langues nationales béninoises, Cotonou: CENALA & IFADEM, 2008'
 speakers: 1160000
 speakers_date: 2013
 validity: preliminary

@@ -7,6 +7,7 @@
 - DATA: Corrections to `jbo` (thanks @berrymot)
 - DATA: Updated `sco` primary orthography (thanks @moyogo)
 - DATA: Some fixes to `kkj` orthography (thanks @moyogo)
+- DATA: Small note added to `Dagbani` (thanks @clauseggers and @moyogo)
 - DATA: Fix to Shan (`shn`) containing some stray Latin characters
 - FIX: Fix issue with file name conflicts on Windows systems
 
