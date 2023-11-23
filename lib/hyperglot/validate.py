@@ -174,6 +174,11 @@ def check_is_valid_glyph_string(glyphs, iso=None):
         log.error("More than single space in '%s'" % glyphs)
         log.error(pprint.pformat([g for g in re.findall(r" {2,}", glyphs)]))
         return False
+    
+    if re.findall(r",+[^,]*,+", glyphs):
+        log.error("Characters should be space separated, found commas: '%s'" %
+                  glyphs)
+        return False
 
     for c in glyphs:
         if unicodedata2.category(c) == "Sk":
