@@ -233,7 +233,8 @@ validity: {validity}
             characters.
         @param marks bool: Flag to require all marks.
         @param checkAllOrthographies bool: Flag to check also non-primary
-            orthographies from this Language object. False by default.
+            orthographies from this Language object. 'transliteration' 
+            orthographies are always ignored. False by default.
         @param pruneOthographies bool: Flag to remove non-supported
             orthographies from this Language object.
         @return dict: Dict sorted by 1) script 2) list of isos.
@@ -260,7 +261,7 @@ validity: {validity}
         if checkAllOrthographies:
             orthographies = [o for o in self["orthographies"]
                              if "status" not in o or
-                             o["status"] != "deprecated"]
+                             o["status"] != "transliteration"]
         else:
             orthographies = [o for o in self["orthographies"]
                              if "status" in o and o["status"] == "primary"]
