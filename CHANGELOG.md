@@ -1,6 +1,7 @@
 # A changelog for the lib/hyperglot CLI tool
 
 ## 0.5.2 (WIP)
+- DATA: Removed orthography status `deprecated` and using `historical` for those instances
 - DATA: Added Ethiopic languages `awn`, `byn`, `gez`, `har`, `sgw`, `tig`, `xan` and updated `tir` (thanks @dyacob and @@NeilSureshPatel)
 - DATA: Added Avestan
 - DATA: Updated `sco` primary orthography (thanks @moyogo)

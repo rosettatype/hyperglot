@@ -33,11 +33,11 @@ STATUSES = [
 
 
 # Possible orthography statuses, in no meaningful order
+# "deprecated" orthography status removed in favour of "historical"
 ORTHOGRAPHY_STATUSES = [
     "primary",
     "local",
     "secondary",
-    "deprecated",
     "historical",
     "transliteration",
 ]

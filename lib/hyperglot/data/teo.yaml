@@ -6,7 +6,7 @@ orthographies:
   design_requirements:
   - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in African languages, and the other resembling N with J as the second stem favoured in Sami languages.
   script: Latin
-  staus: historical
+  status: historical
 - autonym: Atɛsɔ
   auxiliary: Q Z q z
   base: A B C D E F G H I J K L M N O P R S T U V W Y a b c d e f g h i j k l m n o p r s t u v w y Ɔ Ɛ Ɨ Ʉ ɔ ɛ ɨ ʉ ᵃ ᵉ ᵋ ᵒ ᵓ ᵘ ᶤ ᶶ ⁱ

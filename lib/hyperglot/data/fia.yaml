@@ -2,7 +2,7 @@ name: Nobiin
 orthographies:
 - inherit: dgl
   script: Coptic/Nubian
-  staus: deprecated
+  status: deprecated
 - inherit: dgl
   script: Latin
   status: primary
