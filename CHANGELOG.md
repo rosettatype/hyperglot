@@ -1,8 +1,8 @@
-# A changelog for the lib/hyperglot CLI tool
+# A changelog for the lib/hyperglot language database and CLI tool
 
-## 0.5.2 (WIP)
+## 0.5.2 (23.11.2023)
 - DATA: Removed orthography status `deprecated` and using `historical` for those instances
-- DATA: Added Ethiopic languages `awn`, `byn`, `gez`, `har`, `sgw`, `tig`, `xan` and updated `tir` (thanks @dyacob and @@NeilSureshPatel)
+- DATA: Added Ethiopic languages `awn`, `byn`, `gez`, `har`, `sgw`, `tig`, `xan` and updated `tir` (thanks @dyacob and @NeilSureshPatel)
 - DATA: Added Avestan
 - DATA: Corrections to `jbo` (thanks @berrymot)
 - DATA: Updated `sco` primary orthography (thanks @moyogo)
