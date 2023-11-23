@@ -4,6 +4,7 @@
 - DATA: Removed orthography status `deprecated` and using `historical` for those instances
 - DATA: Added Ethiopic languages `awn`, `byn`, `gez`, `har`, `sgw`, `tig`, `xan` and updated `tir` (thanks @dyacob and @@NeilSureshPatel)
 - DATA: Added Avestan
+- DATA: Corrections to `jbo` (thanks @berrymot)
 - DATA: Updated `sco` primary orthography (thanks @moyogo)
 - DATA: Some fixes to `kkj` orthography (thanks @moyogo)
 - DATA: Fix to Shan (`shn`) containing some stray Latin characters
