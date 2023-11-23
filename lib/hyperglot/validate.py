@@ -7,13 +7,14 @@ of a check for the data file to be used when entering and saving data.
 import os
 import re
 import yaml
+import click
 import logging
 import pprint
 import colorlog
 import unicodedata2
 from .languages import Languages
 from .parse import (parse_chars, parse_marks)
-from . import (STATUSES, VALIDITYLEVELS, ORTHOGRAPHY_STATUSES)
+from . import (__version__, STATUSES, VALIDITYLEVELS, ORTHOGRAPHY_STATUSES)
 
 handler = colorlog.StreamHandler()
 handler.setFormatter(colorlog.ColoredFormatter('%(log_color)s%(message)s'))
@@ -75,22 +76,22 @@ def check_types(Langs):
                                   % iso)
 
                 # Temporary check to review mark refactor results
-                if "marks" in o and "inherit" not in o and "script" in o and \
-                        o["script"] in ("Latin", "Cyrillic", "Greek"):
-                    marks_base = parse_marks(o["base"]) if "base" in o else []
-                    marks_aux = parse_marks(o["auxiliary"]) if "auxiliary" in o else []  # noqa
-                    marks = parse_marks(o["marks"])
-                    marks_decomposed = set(sorted(marks_base + marks_aux))
-                    diff = set(sorted(marks)).difference(marks_decomposed)
-                    if set(sorted(marks)) != marks_decomposed \
-                            and diff is not None:
-                        log.warning("'%s' (%s) has marks which are not "
-                                    "decomposed from base or auxiliary. Check "
-                                    "if the orthography is missing unencoded "
-                                    "base + mark combinations and that the "
-                                    "marks are indeed used in the orthography:"
-                                    "\n%s" %
-                                    (iso, lang["name"], nice_char_list(diff)))
+                # if "marks" in o and "inherit" not in o and "script" in o and \
+                #         o["script"] in ("Latin", "Cyrillic", "Greek"):
+                #     marks_base = parse_marks(o["base"]) if "base" in o else []
+                #     marks_aux = parse_marks(o["auxiliary"]) if "auxiliary" in o else []  # noqa
+                #     marks = parse_marks(o["marks"])
+                #     marks_decomposed = set(sorted(marks_base + marks_aux))
+                #     diff = set(sorted(marks)).difference(marks_decomposed)
+                #     if set(sorted(marks)) != marks_decomposed \
+                #             and diff is not None:
+                #         log.warning("'%s' (%s) has marks which are not "
+                #                     "decomposed from base or auxiliary. Check "
+                #                     "if the orthography is missing unencoded "
+                #                     "base + mark combinations and that the "
+                #                     "marks are indeed used in the orthography:"
+                #                     "\n%s" %
+                #                     (iso, lang["name"], nice_char_list(diff)))
 
                 allowed = ["autonym", "inherit", "script", "base", "marks",
                            "auxiliary", "numerals", "status", "note",
@@ -320,9 +321,15 @@ def check_autonym_spelling(ort):
 
     return autonym_chars.issubset(chars), list(chars), missing
 
+@click.command()
+@click.option("-v", "--verbose", is_flag=True, default=False)
+def validate(verbose):
 
-def validate():
-    log.setLevel(logging.DEBUG)
+    log.setLevel(logging.WARNING)
+    
+    if verbose:
+        log.setLevel(logging.DEBUG)
+        print("Hyperglot version: %s" % __version__)
 
     ISO_639_3 = "../../other/iso-639-3.yaml"
     try:
