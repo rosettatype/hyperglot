@@ -3,7 +3,7 @@ orthographies:
 - autonym: anii
   base: A B C E F G H I J K L M N O P R S T U W Y a b c e f g h i j k l m n o p r s t u w y À Á Â È É Ê Ì Í Î Ò Ó Ô Ù Ú Û à á â è é ê ì í î ò ó ô ù ú û Ŋ ŋ Ɔ Ɖ Ǝ Ɛ Ɩ Ʊ ǝ ɔ ɖ ɛ ɩ ʊ
   design_requirements:
-  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in African languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in African languages, and the other resembling N with J as the second stem favoured in Sami languages.
   marks: ◌́ ◌̀ ◌̂
   script: Latin
   status: primary

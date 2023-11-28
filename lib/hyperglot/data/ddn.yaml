@@ -3,7 +3,7 @@ orthographies:
 - autonym: Dandawa
   base: A B C D E Ɛ F G H I J K L M N Ŋ O Ɔ P R S T W Y Z À Á Ā È É Ē Ì Í Ī Ò Ó Ō Ù Ú Ū a b c d e ɛ f g h i j k l m n ŋ o ɔ p r s t w y z à á ā è é ē ì í ī ò ó ō ù ú ū
   design_requirements:
-  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in African languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in African languages, and the other resembling N with J as the second stem favoured in Sami languages.
   marks: ◌̀ ◌́ ◌̄
   script: Latin
   status: primary

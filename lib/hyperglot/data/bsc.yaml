@@ -3,7 +3,7 @@ orthographies:
 - autonym: oniyan
   base: A B C D E F G H I J K L M N O P R S T U W Y a b c d e f g h i j k l m n o p r s t u w y É Ë Ñ Ó é ë ñ ó Ĥ ĥ Ŋ ŋ Ŝ ŝ Ŵ ŵ Ŷ ŷ Ɓ Ɗ Ƴ ƴ ɓ ɗ
   design_requirements:
-  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in African languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in African languages, and the other resembling N with J as the second stem favoured in Sami languages.
   marks: ◌́ ◌̈ ◌̂ ◌̃
   note: Senegal
   script: Latin
@@ -11,7 +11,7 @@ orthographies:
 - autonym: oneyan
   base: A B C D E F G H I J K L M N O P R S T U V W Y a b c d e f g h i j k l m n o p r s t u v w y Ŋ ŋ Ɓ Ɔ Ɗ Ǝ Ɛ Ɲ Ʃ Ƴ ƴ ǝ Ɉ ɉ ɓ ɔ ɗ ɛ ɲ ʃ
   design_requirements:
-  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in African languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in African languages, and the other resembling N with J as the second stem favoured in Sami languages.
   note: Guinea
   script: Latin
   status: primary

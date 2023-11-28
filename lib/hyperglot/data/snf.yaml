@@ -3,7 +3,7 @@ orthographies:
 - autonym: noon
   base: A B C D E F G H I J K L M N O P R S T U W Y a b c d e f g h i j k l m n o p r s t u w y É Ë Í Ñ Ó Ú é ë í ñ ó ú Ŋ ŋ Ɓ Ɗ Ƴ ƴ ɓ ɗ ʼ
   design_requirements:
-  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in African languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in African languages, and the other resembling N with J as the second stem favoured in Sami languages.
   marks: ◌́ ◌̈ ◌̃
   script: Latin
   status: primary
