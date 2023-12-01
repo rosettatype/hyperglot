@@ -74,6 +74,9 @@ class Languages(dict):
 
         # Load raw yaml data for all languages
         for file in os.listdir(DB):
+            if file.startswith(".") or not file.endswith(".yaml"):
+                log.debug(f"Skipping irrelevant data file '{file}'")
+                continue
             # Remove possibly appended escape underscore to get iso from
             # filename
             iso = re.sub(r"_", "", os.path.splitext(file)[0])
