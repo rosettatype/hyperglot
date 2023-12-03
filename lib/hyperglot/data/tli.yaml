@@ -1,0 +1,35 @@
+name: Tlingit
+orthographies:
+- autonym: Lingít
+  base: . ʼ A Á C D E É G G̱ H I Í J K Ḵ L M N O Ó S T U Ú W X X̱ Y Ÿ Z a á c d e é g g̱ h i í j k ḵ l m n o ó s t u ú w x x̱ y ÿ z
+  auxiliary: ’ Â À B Ê È F Î Ì Ḵ Ḻ Ḻ Ṉ Ṉ Ô Ò O̱ Ó̱ Ô̱ Ò̱ P Q R Û Ù W̃ Ỹ Y̱ Ɏ â à b ê f î ì ḵ ḻ ḻ ṉ ṉ ô ò o̱ ó̱ ô̱ ò̱ p q r û ù w̃ ỹ y̱ ɏ
+  marks: ◌́ ◌̱ ◌̈ ◌̂ ◌̀
+  design_requirements:
+  - The underscore diacritic (U+0331) for lowercase <g̱> may either cross the descender below the baseline or appear entirely below the descender. It should not intersect the bowl of <g>. Positioning below the descender is more common but may cause it to become invisible if interline spacing (leading) is small or zero.
+  - The <Ḵ> and <ḵ> may be either precomposed characters (U+1E34 and U+1E35) or the base characters <K> and <k> with the underscore diacritic (U+0331). Both should be supported as they may both be used in the same text. Same for the auxiliary <Ḻ>, <Ṉ>, etc.
+  - The period (U+002E) is used both as a letter and as punctuation. As a letter it indicates glottal stop [ʔ] and occurs either at the beginning or in the middle of a word. As punctuation it appears only at the end of a word. Spacing and kerning should be sensitive to these different contexts. Vertical position is the same in both cases.
+  - The letter apostrophe <ʼ> distinguishes ejective sounds like <Tʼ> /tʼ/ from non-ejective sounds like <T> /tʰ/ and is not punctuation. It should be represented by U+02BC which is specified by Unicode as a letter (character class Lm). It is sometimes instead represented by U+0027 or U+2019 but these should be reserved for punctuation (Unicode character classes Po and Pi). Some fonts kern or vertically position U+02BC differently from U+2019 to distinguish them in text.
+  - The auxiliary letters <Y̱> and <Ɏ> are obsolete, having been replaced by <Ÿ> in the 1980s, but are present in older texts.
+  preferred_as_group: true
+  script: Latin
+  status: primary
+- autonym: Łingít
+  base: . ʼ A Á À Â C D E É È Ê G H I Í Ì Î J K L Ł M N O Ó Ò Ô S T U Ú Ù Û W X Y Ÿ Z a á à c d e é è ê g h i í ì î j k l ł m n o ó ò ô s t u ú ù û w x y ÿ z
+  auxiliary: Ą B Ę F Į Ǫ P Q R Ų V Ỹ ą b ę f į ǫ p q r ų v ỹ
+  marks: ◌́ ◌̀ ◌̂ ◌̈ ◌̨ ◌̃
+  design_requirements:
+  - The period (U+002E) is used both as a letter and as punctuation. As a letter it indicates glottal stop [ʔ] and occurs either at the beginning or in the middle of a word. As punctuation it appears only at the end of a word. Spacing and kerning should be sensitive to these different contexts. Vertical position is the same in both cases.
+  - The letter apostrophe <ʼ> distinguishes ejective sounds like <Tʼ> /tʼ/ from non-ejective sounds like <T> /tʰ/ and is not punctuation. It should be represented by U+02BC which is specified by Unicode as a letter (character class Lm). It is sometimes instead represented by U+0027 or U+2019 but these should be reserved for punctuation (Unicode character classes Po and Pi). Some fonts kern or vertically position U+02BC differently from U+2019 to distinguish them in text.
+  - The ogonek diacritic (U+0328) is used for nasalization (compare e.g. Navajo) and may be combined with any of the acute, grave, or circumflex diacritics on a single vowel character. Combinations may be in either the order base + ogonek + diacritic or the order base + diacritic + ogonek. Positioning of the ogonek generally follows the practice for European languages like Polish and Lithuanian in being attached to the base character on the right for <Ą>, <ą>, <ę>, <ų> etc.
+  preferred_as_group: true
+  script: Latin
+  status: primary
+source:
+- Leer, Jeff; Doug Hitch, & John Ritter. (2001) _Interior Tlingit noun dictionary_. Whitehorse, YT. Yukon Native Language Centre.
+- Crippen, James A. (2019) _The syntax in Tlingit verbs_. Appendix A pp. 808–814. Vancouver, BC. University of British Columbia, PhD dissertation. https://lingbuzz.net/lingbuzz/005047
+- Cardoso, Amanda; James A. Crippen, & Gloria Mellesmoen. Cross-dialectal synchronic variation of a diachronic conditioned merger in Tlingit. Linguistics Vanguard 8(s5): 519–530. doi 10.1515/lingvan-2021-0048
+- Crippen, James A. (2023) Tlingit (anti-)prominence. In _Word prominence in languages with complex morphologies_, Ksenia Bogomolets & Harry van der Hulst (eds.), ch. 6 pp. 178–218. Oxford. Oxford University Press. doi 10.1093/oso/9780198840589.001.0001
+speakers: 100
+speakers_date: 2023
+status: living
+validity: verified
