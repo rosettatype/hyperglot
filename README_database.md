@@ -50,27 +50,29 @@ A language can refer to one or more orthographies. An orthography specifies the 
 
 ### Example of an individual language with a single orthographic entry
 
+`lib/hyperglot/data/dan.yaml`:
+
 ```yaml
-dan:
-  orthographies:
-  - base: a b c d e f g h i j k l m n o p q r s t u v w x y z å æ ø
-    auxiliary: ǻ  # this character is used only in linguistic literature for Danish
-    autonym: Dansk
-    script: Latin
-  name: Danish
-  speakers: 6000000
-  source: [Omniglot, Wikipedia, CLDR]
-  todo_status: strong  # status of the database record
+orthographies:
+ - base: a b c d e f g h i j k l m n o p q r s t u v w x y z å æ ø
+   auxiliary: ǻ  # this character is used only in linguistic literature for Danish
+   autonym: Dansk
+   script: Latin
+ name: Danish
+ speakers: 6000000
+ source: [Omniglot, Wikipedia, CLDR]
+ todo_status: strong  # status of the database record
 ```
 
 ### Example of a macrolanguage entry
 
+`lib/hyperglot/data/fas.yaml`:
+
 ```yaml
-fas:
-  name: Persian
-  includes: [pes, prs, tgk, aiq, bhh, haz, jpr, phv, deh, jdt, ttt]
-  speakers: 70000000
-  source: [Wikipedia]
+name: Persian
+includes: [pes, prs, tgk, aiq, bhh, haz, jpr, phv, deh, jdt, ttt]
+speakers: 70000000
+source: [Wikipedia]
 ```
 
 
