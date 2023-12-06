@@ -182,10 +182,7 @@ def sorted_script_languages(obj):
 
 def write_yaml(file, data):
     """
-    Output of a CLI result into a yaml file.
-
-    Transform the data into the same structure as the rosetta.yaml, e.g. with
-    language iso top level keys only
+    Output of a CLI result into a yaml file indexed by iso.
     """
     write = {}
     for path, results in data.items():

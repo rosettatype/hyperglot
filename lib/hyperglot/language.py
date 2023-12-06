@@ -1,3 +1,6 @@
+"""
+Helper classes to work with the lib/hyperglot/data in more pythonic way
+"""
 import logging
 import unicodedata2
 from .parse import (parse_chars, parse_marks, remove_mark_base, list_unique,
@@ -30,7 +33,7 @@ class Language(dict):
 
     def __init__(self, data, iso):
         """
-        Init a single Language with the data from rosetta.yaml
+        Init a single Language with the data from lib/hyperglot/data yaml.
 
         @param data dict: The raw data as found in the yaml
         @param iso str: Iso 3 letter iso code that is the key in the yaml. Keep

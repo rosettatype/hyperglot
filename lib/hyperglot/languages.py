@@ -1,5 +1,5 @@
 """
-Helper classes to work with the rosetta.yaml data in more pythonic way
+Helper classes to work with the lib/hyperglot/data in more pythonic way
 """
 import os
 import re
