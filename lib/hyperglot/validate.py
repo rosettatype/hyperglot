@@ -13,6 +13,7 @@ import pprint
 import colorlog
 import unicodedata2
 from .languages import Languages
+from .language import Orthography
 from .parse import (parse_chars, parse_marks)
 from . import (__version__, STATUSES, VALIDITYLEVELS, ORTHOGRAPHY_STATUSES)
 
@@ -21,6 +22,21 @@ handler.setFormatter(colorlog.ColoredFormatter('%(log_color)s%(message)s'))
 log = colorlog.getLogger()
 log.setLevel(logging.WARNING)
 log.addHandler(handler)
+
+UNICODE_CONFUSABLES = {
+    # Revise as needed
+
+    "Latin": ["а", "с", "ԁ", "е", "һ", "і", "ј", "ʝ", "κ", "ӏ", "ո", "о", "ο", 
+              "օ", "р", "զ", "ʂ", "т", "υ", "ս", "ν", "ѵ", "х", "у", "ʐ",
+              "А", "В", "Е", "К", "М", "Н", "О", "Р", "С", "Т", "У", "Х"
+              ],
+
+    "Cyrillic": ["a", "c", "d", "e", "h", "j" "k", "K", "o", "u", "y",
+                 "A", "B", "E", "K", "M", "H", "O", "P", "C", "T", "Y", "X"],
+                 
+    # TODO Greek maybe less prevailant because less Greek script languages are
+    # added, but large potential for confusion with all sorts of math symbols
+}
 
 
 def nice_char_list(chars):
@@ -321,6 +337,27 @@ def check_autonym_spelling(ort):
 
     return autonym_chars.issubset(chars), list(chars), missing
 
+
+def check_script_characters(Langs):
+    for iso, data in Langs.items():
+        Lang = getattr(Langs, iso)
+        if "orthographies" not in Lang:
+            continue
+        for o in Lang["orthographies"]:
+            o = Orthography(o)
+
+            if o.script not in UNICODE_CONFUSABLES.keys():
+                continue
+
+            all = o.base_chars + o.auxiliary_chars
+            for char in all:
+                if char in UNICODE_CONFUSABLES[o.script]:
+                    log.error(
+                        f"'{iso}' ({o.script}) has a unicode lookalike character: "
+                        f"'{char}' ({hex(ord(char))} - {unicodedata2.name(char)}) "
+                        "— confirm the character is of the right script!"
+                    )
+
 @click.command()
 @click.option("-v", "--verbose", is_flag=True, default=False)
 def validate(verbose):
@@ -365,3 +402,4 @@ def validate(verbose):
     check_types(Langs)
     check_names(Langs, iso_data)
     check_macrolanguages(Langs, iso_data)
+    check_script_characters(Langs)

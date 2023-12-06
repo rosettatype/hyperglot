@@ -1,5 +1,12 @@
 # A changelog for the lib/hyperglot language database and CLI tool
 
+## 0.5.3 (WIP)
+- DATA: Fixed inconsistent note about `Ŋ` in various languages (thanks @moyogo)
+- DATA: Fixed Latin lookalike characters in Cyrillic orthographies of `aii` and `sel`
+- TWEAK: Improved `hyperglot-validate` to spot lookalike characters in the wrong script, e.g. `a` (Latin U+0061) vs `а` (Cyrillic U+0430)
+- TWEAK: Explicitly ignore non-yaml (e.g. operating system or other) files in the data when parsing
+- TWEAK: Improved `hyperglot-validate` command to better catch yaml issues (thanks @jcrippen)
+
 ## 0.5.2 (23.11.2023)
 - DATA: Removed orthography status `deprecated` and using `historical` for those instances
 - DATA: Added Ethiopic languages `awn`, `byn`, `gez`, `har`, `sgw`, `tig`, `xan` and updated `tir` (thanks @dyacob and @NeilSureshPatel)
