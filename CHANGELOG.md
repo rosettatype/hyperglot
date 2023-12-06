@@ -2,7 +2,6 @@
 
 ## 0.5.3 (WIP)
 - DATA: Fixed inconsistent note about `Ŋ` in various languages (thanks @moyogo)
-- DATA: Fixed Latin lookalike characters in Cyrillic orthographies of `aii` and `sel`
 - TWEAK: Improved `hyperglot-validate` to spot lookalike characters in the wrong script, e.g. `a` (Latin U+0061) vs `а` (Cyrillic U+0430)
 - TWEAK: Explicitly ignore non-yaml (e.g. operating system or other) files in the data when parsing
 - TWEAK: Improved `hyperglot-validate` command to better catch yaml issues (thanks @jcrippen)

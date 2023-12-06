@@ -6,7 +6,7 @@ orthographies:
   script: Syriac
   status: primary
 - autonym: Лышана Атураја
-  base: А Б В Г Ԁ Е Ә Ж З И Ј К Л М Н П Р С Т У Х Һ Ч Ш Ы а б в г ԁ е ә ж з и ј к л м н п р с т у х һ ч ш ы
+  base: А Б В Г Ԁ Е Ә Ж З И Ј К Л Q L М Н П Р С Т T У Х Һ Ч Ш Ы D а б в г ԁ е ә ж з и ј к л q l м н п р с т t у х һ ч ш ы d
   script: Cyrillic
   status: secondary
 - autonym: Lišānā Āshûrāya
