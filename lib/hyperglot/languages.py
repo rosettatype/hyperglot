@@ -80,9 +80,21 @@ class Languages(dict):
             # Remove possibly appended escape underscore to get iso from
             # filename
             iso = re.sub(r"_", "", os.path.splitext(file)[0])
-            with open(os.path.join(DB, file), "rb") as f:
-                data = yaml.load(f, Loader=yaml.Loader)
-                self[iso] = data
+            
+            try:
+                with open(os.path.join(DB, file), "rb") as f:
+                    data = yaml.load(f, Loader=yaml.Loader)
+                    if not isinstance(data, dict):
+                        raise ValueError("Not a dictionary")
+                    self[iso] = data
+
+            # Catch various formatting issues in the yaml files
+            except ValueError as e:
+                log.error(f"Malformed data in {file}: {e}")
+            except yaml.scanner.ScannerError as e:
+                log.error(f"Malformed data in {file}: {e}" )
+            except yaml.parser.ParserError as e:
+                log.error(f"Malformed data in {file}: {e}" )
 
         if inherit:
             self.inherit_orthographies_from_macrolanguage()

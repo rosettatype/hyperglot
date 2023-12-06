@@ -35,16 +35,16 @@ def nice_char_list(chars):
 
 def check_yaml():
 
-    try:
+    # try:
         log.debug("YAML file structure ok and can be read")
         # Use prune=False to validate the orthographies raw
         return Languages(validity=VALIDITYLEVELS[0])
-    except yaml.scanner.ScannerError as e:
-        log.error("Malformed yaml:")
-        print(e)
-    except yaml.parser.ParserError as e:
-        log.error("Malformed yaml:")
-        print(e)
+    # except yaml.scanner.ScannerError as e:
+    #     log.error("Malformed yaml:")
+    #     print(e)
+    # except yaml.parser.ParserError as e:
+    #     log.error("Malformed yaml:")
+    #     print(e)
 
 
 def check_types(Langs):
@@ -329,6 +329,8 @@ def validate(verbose):
     
     if verbose:
         log.setLevel(logging.DEBUG)
+        logging.getLogger("hyperglot.languages").setLevel(logging.DEBUG)
+        logging.getLogger("hyperglot.languagee").setLevel(logging.DEBUG)
         print("Hyperglot version: %s" % __version__)
 
     ISO_639_3 = "../../other/iso-639-3.yaml"
@@ -353,7 +355,12 @@ def validate(verbose):
 
     print()
     log.debug("Loading iso-639-3.yaml for names and macro language checks")
-    Langs = check_yaml()
+
+    try:
+        Langs = check_yaml()
+    except KeyError as e:
+        log.error(f"Issues in data files: {e}")
+        return
 
     check_types(Langs)
     check_names(Langs, iso_data)
