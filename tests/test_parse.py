@@ -2,11 +2,13 @@
 Tests for basic parsing and decomposition methods
 """
 import os
+import pytest
 from hyperglot.parse import (parse_chars, parse_font_chars, parse_marks,
                              character_list_from_string,
                              sort_by_character_type,
                              remove_mark_base,
-                             list_unique)
+                             list_unique,
+                             join_variants, get_joining_type)
 
 
 def test_parse_chars():
@@ -115,3 +117,32 @@ def test_parse_marks():
         "À Â Å Æ Ç È Ê Ë Ì Î Ï Ñ Ò Ô Ø Ù Û Ÿ Ā Ă Ē Ĕ Ī Ĭ Ō Ŏ Œ Ū Ŭ ß à â å æ ç è ê ë ì î ï ñ ò ô ø ù û ÿ ā ă ē ĕ ī ĭ ō ŏ œ ū ŭ")  # noqa
     assert ['́', '̃', '̈', '̌'] == parse_marks(
         "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á Ã Ä É Í Ó Õ Ö Ú Ü Č Š Ũ a b c d e f g h i j k l m n o p q r s t u v w x y z á ã ä é í ó õ ö ú ü č š ũ")  # noqa
+
+
+def test_get_joining_type():
+    # See we're getting expected values
+
+    assert get_joining_type("A") == ""
+
+    # Arabic Alef only joins on the right, so other character followed by Alef
+    assert get_joining_type("ا") == "R"
+
+    # Arabic seen joins on both sides
+    assert get_joining_type("س") == "D"
+
+    with pytest.raises(ValueError):
+        get_joining_type(1) == ""
+
+
+def test_join_variants():
+    # Not a character with joining
+    assert [] == join_variants("A")
+
+    assert [] != join_variants("ن")
+    # Noon should have isol, left, both and right joined versions
+    assert 3 == len(join_variants("ن"))
+    # Alef should have isol and "right" joined versions
+    assert 1 == len(join_variants("ا"))
+
+    with pytest.raises(ValueError):
+        join_variants(1) == ""

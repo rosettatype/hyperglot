@@ -51,7 +51,7 @@ setup(name="hyperglot",
           "hyperglot"
       ],
       package_dir={"": "lib"},
-      package_data={"hyperglot": ["data/*.yaml"]},
+      package_data={"hyperglot": ["data/*.yaml", "extra_data/*"]},
       include_package_data=True,
       entry_points={
           "console_scripts": [
@@ -66,8 +66,8 @@ setup(name="hyperglot",
           "click>=7.0",
           "fonttools>=4.0.2",
           "pyyaml>=5.3",
-          # For validation and decompositionq
-          "unicodedata2>=13.0.0",
+          # For validation and decomposition, keep at latest unicode version
+          "unicodedata2>=15.0.0",
           # For nicer validation output
           "colorlog>=4.7.2"
       ],

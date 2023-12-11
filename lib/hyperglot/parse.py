@@ -1,8 +1,12 @@
-import unicodedata2 as uni
+from functools import lru_cache
+from typing import List
+import unicodedata as uni
 import logging
 import re
+import os
+import yaml
 from fontTools.ttLib import TTFont
-from . import MARK_BASE
+from . import DB_EXTRA, MARK_BASE
 
 log = logging.getLogger(__name__)
 log.setLevel(logging.INFO)
@@ -213,3 +217,69 @@ def parse_marks(input, decompose=True):
 
 def remove_mark_base(input, replace=""):
     return re.sub(MARK_BASE, replace, input)
+
+@lru_cache
+def load_joining_types():
+    """
+    Load the joining-types.yaml database.
+
+    TODO: Maybe this should be a singleton as well, or accessed transparently
+    via Orthography?
+    """
+    with open(os.path.join(DB_EXTRA, "joining-types.yaml"), "rb") as f:
+        return yaml.load(f, Loader=yaml.Loader)
+
+@lru_cache
+def get_joining_type(char:str) -> str:
+    """
+    For @param char get it's joining type.
+
+    Return values are:
+        - "D" (dual)
+        - "R" (right joining)
+        - "L" (left joining)
+        - "T" (transparent)
+        - "" (non joining)
+    """
+    if not isinstance(char, str):
+        raise ValueError("get_joining_type expects string, '%s' (%s) given" % 
+                         (char, type(char)))
+
+    joining_types = load_joining_types()
+    if char not in joining_types.keys():
+        return ""
+    else:
+        return joining_types[char]
+
+def join_variants(char:str, joiner:str=chr(0x200D)) -> List:
+    """
+    Return @param char with param @joiner. For characters without joining 
+    behaviour this returns an empty list, otherwise a list of character
+    combinations of char + joiner that triggers joining behaviour in text
+    engines, e.g. when using the default zero width joiner.
+    """
+
+    if not isinstance(char, str):
+        raise ValueError("join_variants expects string, '%s' (%s) given" % 
+                         (char, type(char)))
+
+    t = get_joining_type(char)
+
+    if t == "D":
+        # Dual
+        return [joiner + char, joiner + char + joiner, char + joiner]
+
+    elif t == "R":
+        # Right joining
+        return [joiner + char]
+
+    elif t == "L":
+        # Left joining, very uncommon
+        return [char + joiner]
+
+    # elif t == "T":
+    #     # Transparent, ignore
+    # else:
+    
+    return []
+
