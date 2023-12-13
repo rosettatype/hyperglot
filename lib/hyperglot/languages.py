@@ -1,12 +1,15 @@
 """
 Helper classes to work with the lib/hyperglot/data in more pythonic way
 """
+from typing import List
 import os
 import re
 import yaml
 import logging
+from fontTools.ttLib import TTFont
 from .language import Language
 from . import DB, VALIDITYLEVELS, SUPPORTLEVELS
+from .parse import parse_font_chars
 
 log = logging.getLogger(__name__)
 log.setLevel(logging.WARNING)
@@ -282,19 +285,23 @@ class Languages(dict):
         self.clear()
         self.update(pruned)
 
-    def supported(self, chars,
+    def supported(self, 
+                  chars:List[str]=None, 
+                  font:TTFont=None,
                   supportlevel=list(SUPPORTLEVELS.keys())[0],
                   validity=VALIDITYLEVELS[1],
                   decomposed=False,
                   marks=False,
-                  includeAllOrthographies=False,
-                  includeHistorical=False,
-                  includeConstructed=False,
-                  pruneOrthographies=True):
+                  shaping=True,
+                  include_all_orthographies=False,
+                  include_historical=False,
+                  include_constructed=False,
+                  prune_orthographies=True):
         """
         Get all languages supported based on the passed in characters.
 
         @param chars list: List of unicode strings.
+        @param font TTFont: TTF object.
         @param supportlevel str: Check for 'base' (default) or 'aux' support.
         @param validatiy str: Filter by certainty of the database data.
             Defaults to 'weak', which ignores all but 'todo'. More stringent
@@ -304,20 +311,30 @@ class Languages(dict):
             long as they have the base + mark combinations to shape those
             characters.
         @param marks bool: Flag to require all marks.
-        @param includeAllOrthographies bool: Return all or just primary
+        @param shaping bool: Flag to require joining shapes.
+        @param include_all_orthographies bool: Return all or just primary
             (default) orthographies of a language.
-        @param includeHistorical bool: Flag to include historical languages.
-        @param includeConstructed bool: Flag to include constructed languages.
-        @param pruneOrthographies bool: Flag to remove non-supported
+        @param include_historical bool: Flag to include historical languages.
+        @param include_constructed bool: Flag to include constructed languages.
+        @param prune_orthographies bool: Flag to remove non-supported
             orthographies from the returned language. This does not affect
             detection, but the returned dict. Default is true.
         @return dict: Returns a dict with script-keys and values of dicts of
             iso-keyed language data.
         """
-        if type(chars) is not set and type(chars) is not list:
-            raise ValueError("Languages.supported needs to be passed a "
-                             "set/list of characters, got type '%s'"
-                             % type(chars))
+
+        if chars is None and font is None:
+            raise ValueError("Languages.supported requires at least a list of "
+                             "characters or font to perform checks.")
+
+        if font:
+            chars = parse_font_chars(font)
+        else:
+            if type(chars) is not set and type(chars) is not list:
+                raise ValueError("Languages.supported needs to be passed a "
+                                "set/list of characters, got type '%s'"
+                                % type(chars))
+
         # Make unique and filter whitespace
         chars = set([c for c in chars if c.strip() != ""])
 
@@ -338,29 +355,32 @@ class Languages(dict):
                          "'validity'" % lang)
                 continue
 
-            if includeHistorical and l.is_historical():
+            if include_historical and l.is_historical():
                 log.info("Including historical language '%s'" %
                          l.get_name())
-            elif includeHistorical is False and l.is_historical():
+            elif include_historical is False and l.is_historical():
                 log.info("Skipping historical language '%s'" % lang)
                 continue
 
-            if includeConstructed and l.is_constructed():
+            if include_constructed and l.is_constructed():
                 log.info("Including constructed language '%s'" %
                          l.get_name())
-            elif includeConstructed is False and l.is_constructed():
+            elif include_constructed is False and l.is_constructed():
                 log.info("Skipping constructed language '%s'" % lang)
                 continue
 
             # Do the support check on the Language level, and with the prune
             # flag the resulting Language object will have only those
             # orthographies that are supported with chars
-            lang_sup = l.supported(chars, supportlevel,
+            lang_sup = l.supported(chars=chars, 
+                                   font=font,
+                                   level=supportlevel,
                                    decomposed=decomposed,
                                    marks=marks,
-                                   checkAllOrthographies=includeAllOrthographies,  # noqa
-                                   pruneOrthographies=pruneOrthographies)
-            # print("SUP", lang_sup)
+                                   shaping=shaping,
+                                   check_all_orthographies=include_all_orthographies,  # noqa
+                                   prune_orthographies=prune_orthographies)
+            
             for script in lang_sup:
                 for script, isos in lang_sup.items():
                     if script not in support.keys():

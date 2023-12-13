@@ -1,10 +1,12 @@
 """
 Helper classes to work with the lib/hyperglot/data in more pythonic way
 """
+from typing import List
 import logging
 import unicodedata2
 from .parse import (parse_chars, parse_marks, remove_mark_base, list_unique,
-                    character_list_from_string)
+                    character_list_from_string, get_joining_type,
+                    parse_font_chars, join_variants)
 from . import SUPPORTLEVELS, CHARACTER_ATTRIBUTES
 
 log = logging.getLogger(__name__)
@@ -219,33 +221,46 @@ validity: {validity}
         return False
 
     def supported(self,
-                  chars,
+                  chars=None,
+                  font=None,
                   level="base",
                   decomposed=False,
                   marks=False,
-                  checkAllOrthographies=False,
-                  pruneOrthographies=True):
+                  shaping=True,
+                  check_all_orthographies=False,
+                  prune_orthographies=True):
         """
         Return a dict with language support based on the passed in chars
 
         @param chars set: Set of chars to check against.
+        @param font TTFont: TTF object.
         @param level str: Support level for which to check.
         @param decomposed bool: Flag to decompose the passed in chars, meaning
             matching languages do not need to have the encoded characters as
             long as they have the base + mark combinations to shape those
             characters.
         @param marks bool: Flag to require all marks.
-        @param checkAllOrthographies bool: Flag to check also non-primary
+        @param shaping bool: Flag to require joining shapes.
+        @param check_all_orthographies bool: Flag to check also non-primary
             orthographies from this Language object. 'transliteration' 
             orthographies are always ignored. False by default.
         @param pruneOthographies bool: Flag to remove non-supported
             orthographies from this Language object.
         @return dict: Dict sorted by 1) script 2) list of isos.
         """
-        if type(chars) is not set and type(chars) is not list:
-            raise ValueError("Languages.supported needs to be passed a "
-                             "set/list of characters, got type '%s'"
-                             % type(chars))
+        
+        if chars is None and font is None:
+            raise ValueError("Language.supported requires at least a list of "
+                             "characters or a font to perform checks.")
+
+        if font:
+            chars = parse_font_chars(font)
+        else:
+            if type(chars) is not set and type(chars) is not list:
+                raise ValueError("Language.supported needs to be passed a "
+                                "set/list of characters, got type '%s'"
+                                % type(chars))
+
         # Make unique and filter whitespace
         chars = set([c for c in chars if c.strip() != ""])
 
@@ -261,7 +276,7 @@ validity: {validity}
         pruned = []
 
         # Determine which orthographies should be checked
-        if checkAllOrthographies:
+        if check_all_orthographies:
             orthographies = [o for o in self["orthographies"]
                              if "status" not in o or
                              o["status"] != "transliteration"]
@@ -269,7 +284,7 @@ validity: {validity}
             orthographies = [o for o in self["orthographies"]
                              if "status" in o and o["status"] == "primary"]
 
-        if not checkAllOrthographies:
+        if not check_all_orthographies:
             # Note the .copy() here since we manipulate the attribute
             # and do not want to alter the original
             as_group = [o.copy() for o in orthographies
@@ -306,58 +321,66 @@ validity: {validity}
             supported = False
             ort = Orthography(o)
 
-            if ort.base:
-                if marks:
-                    required_marks_base = ort.base_marks
-                else:
-                    required_marks_base = ort.required_base_marks
+            if not ort.base:
+                continue
+        
+            if marks:
+                required_marks_base = ort.base_marks
+            else:
+                required_marks_base = ort.required_base_marks
 
-                if required_marks_base:
-                    log.debug("Required base marks for %s: %s" %
-                              (self.iso, required_marks_base))
+            if required_marks_base:
+                log.debug("Required base marks for %s: %s" %
+                        (self.iso, required_marks_base))
 
-                base = set(ort.base_chars + required_marks_base)
+            base = set(ort.base_chars + required_marks_base)
 
-                if not decomposed:
-                    supported = base.issubset(chars)
-                else:
-                    # If we accept that a set of characters matches for a
-                    # language also when it has only base+mark encodings, we
-                    # need to check support for each of the languages chars
-                    for c in base:
-                        decomposed = set(parse_chars(c))
-                        if c in chars or decomposed.issubset(chars):
-                            supported = True
-                            continue
-                        supported = False
-                        break
+            if not decomposed:
+                supported = base.issubset(chars)
+            else:
+                # If we accept that a set of characters matches for a
+                # language also when it has only base+mark encodings, we
+                # need to check support for each of the languages chars
+                for c in base:
+                    decomposed = set(parse_chars(c))
+                    if c in chars or decomposed.issubset(chars):
+                        supported = True
+                        continue
+                    supported = False
+                    break
 
+            if not supported:
+                log.debug("Missing from language base for %s: %s" %
+                        (self.iso, " ".join(["%s (%s)" % (c, str(ord(c))) for c in base.difference(chars)])))
+                
+            if supported and shaping:
+                supported = ort.check_shaping(base)
                 if not supported:
-                    log.debug("Missing from base language %s: %s" %
-                              (self.iso, " ".join(["%s (%s)" % (c, str(ord(c))) for c in base.difference(chars)])))
+                    log.debug("Missing shaping for language base for %s" % 
+                              self.iso)
 
-                if supported:
-                    # Only check aux if base is supported to begin with
-                    # and level is "aux" and orthography has "auxiliary"
-                    # defined - if orthography has no "auxiliary" we consider
-                    # it supported on "auxiliary" level, too
-                    if level == "aux" and ort.auxiliary:
-                        if marks:
-                            required_marks_aux = ort.auxiliary_marks
-                        else:
-                            required_marks_aux = ort.required_auxiliary_marks
+            if supported:
+                # Only check aux if base is supported to begin with
+                # and level is "aux" and orthography has "auxiliary"
+                # defined - if orthography has no "auxiliary" we consider
+                # it supported on "auxiliary" level, too
+                if level == "aux" and ort.auxiliary:
+                    if marks:
+                        required_marks_aux = ort.auxiliary_marks
+                    else:
+                        required_marks_aux = ort.required_auxiliary_marks
 
-                        if required_marks_aux:
-                            log.debug("Required aux marks for %s: %s" %
-                                      (self.iso, required_marks_aux))
-                        aux = set(ort.auxiliary_chars + required_marks_aux)
+                    if required_marks_aux:
+                        log.debug("Required aux marks for %s: %s" %
+                                (self.iso, required_marks_aux))
+                    aux = set(ort.auxiliary_chars + required_marks_aux)
 
-                        supported = aux.issubset(chars)
+                    supported = aux.issubset(chars)
 
-                        if not supported:
-                            log.debug("Missing aux language %s: %s" %
-                                      (self.iso,
-                                       " ".join(aux.difference(chars))))
+                    if not supported:
+                        log.debug("Missing aux language %s: %s" %
+                                (self.iso,
+                                " ".join(aux.difference(chars))))
 
             if supported:
                 if ort.script not in support:
@@ -365,7 +388,7 @@ validity: {validity}
                 support[ort.script].append(self.iso)
                 pruned.append(o)
 
-        if pruneOrthographies:
+        if prune_orthographies:
             self["orthographies"] = pruned
 
         return support
@@ -505,6 +528,17 @@ note: {note}
     def design_alternates(self):
         return [remove_mark_base(chars) for chars
                 in self._character_list("design_alternates")]
+    
+    def check_shaping(self, chars:List[str]) -> bool:
+        require_shaping = [
+            c for c in chars if get_joining_type(c) in ["D", "R", "L", "T"]
+        ]
+        if require_shaping == []:
+            return True
+
+        # TODO
+        return True
+
 
     # "Private" methods
 

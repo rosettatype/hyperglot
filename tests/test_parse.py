@@ -130,6 +130,12 @@ def test_get_joining_type():
     # Arabic seen joins on both sides
     assert get_joining_type("س") == "D"
 
+    # Zero width joiner should have joining type
+    assert get_joining_type("\u200C") == ""
+
+    # Zero width non-joiner should not have joining type
+    assert get_joining_type("\u200D") == "C"
+
     with pytest.raises(ValueError):
         get_joining_type(1) == ""
 
@@ -143,6 +149,17 @@ def test_join_variants():
     assert 3 == len(join_variants("ن"))
     # Alef should have isol and "right" joined versions
     assert 1 == len(join_variants("ا"))
+
+    # Check that right joined alef is returned in input order ZWJ + alef, e.g.
+    # when rendered RTL that sequence will result in alef form being joined on
+    # the right, i.e. final form.
+    assert ['\u200d\u0627'] == join_variants("ا")
+
+    # Zero width non-joiner should have no variants since it is not joining
+    assert [] == join_variants("\u200C")
+
+    # Zero width joiner just causes joining, but itself has no variants
+    assert [] == join_variants("\u200D")
 
     with pytest.raises(ValueError):
         join_variants(1) == ""

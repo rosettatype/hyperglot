@@ -229,6 +229,10 @@ MODES = ["individual", "union", "intersection"]
               help="When this option is set all combining marks for a "
               "language are required, not just precomposed encoded "
               "characters.")
+@click.option("--shaping", is_flag=True, default=True, 
+              help="When this option is set characters joining characters "
+              "tested for their shaping behavior and the font passes as valid "
+              "only if all characters have the needed joining variants.")
 @click.option("--validity", type=click.Choice(VALIDITYLEVELS,
                                               case_sensitive=False),
               default=VALIDITYLEVELS[1], show_default=True,
@@ -274,10 +278,9 @@ MODES = ["individual", "union", "intersection"]
               "macrolanguage structure that deviates from ISO data.")
 @click.option("-v", "--verbose", is_flag=True, default=False)
 @click.option("-V", "--version", is_flag=True, default=False)
-def cli(fonts, support, decomposed, marks, validity, autonyms, speakers,
-        sorting, sort_dir,
-        output, comparison,
-        languages,
+def cli(fonts, support, decomposed, marks, shaping, validity, autonyms, 
+        speakers, sorting, sort_dir,
+        output, comparison, languages,
         include_all_orthographies, include_historical, include_constructed,
         strict_iso, verbose, version):
     """
@@ -299,15 +302,20 @@ def cli(fonts, support, decomposed, marks, validity, autonyms, speakers,
     # A dict with each file and its results for each script
     results = {}
 
-    for font in fonts:
-        chars = parse_font_chars(font)
-
+    for font_path in fonts:
         langs = Languages(strict=strict_iso)
-        supported = langs.supported(chars, support, validity,
-                                    decomposed, marks,
-                                    include_all_orthographies,
-                                    include_historical,
-                                    include_constructed)
+        font = TTFont(font_path, lazy=True)
+        supported = langs.supported(font=font,
+                                    supportlevel=support, 
+                                    validity=validity,
+                                    decomposed=decomposed, 
+                                    marks=marks,
+                                    shaping=shaping,
+                                    include_all_orthographies=include_all_orthographies,
+                                    include_historical=include_historical,
+                                    include_constructed=include_constructed)
+        font.close()
+
         level = SUPPORTLEVELS[support]
 
         # Sort each script's results by the chosen sorting logic
@@ -320,15 +328,15 @@ def cli(fonts, support, decomposed, marks, validity, autonyms, speakers,
             by_iso = {lang.iso: lang for lang in sorted_entries[script]}
             sorted_entries[script] = OrderedDict(by_iso)
 
-        results[font] = sorted_entries
+        results[font_path] = sorted_entries
 
     # Mode for comparison of several files
     if comparison == "individual":
-        for font in fonts:
-            title = "%s has %s support for:" % (os.path.basename(font),
+        for font_path in fonts:
+            title = "%s has %s support for:" % (os.path.basename(font_path),
                                                 level.lower())
 
-            print_to_cli(results[font], title, autonyms, speakers, strict_iso)
+            print_to_cli(results[font_path], title, autonyms, speakers, strict_iso)
 
         data = results
     elif comparison == "union":

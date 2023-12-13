@@ -181,14 +181,17 @@ def parse_chars(characters, decompose=True, retainDecomposed=False):
                         if not re.match(r"\s", u) and len(u) != 0])
 
 
-def parse_font_chars(path):
+def parse_font_chars(pathOrTTFont):
     """
     Open the provided font path and extract the codepoints encoded in the font
     @return list of characters
     """
-    font = TTFont(path, lazy=True)
+
+    if isinstance(pathOrTTFont, str):
+        font = TTFont(pathOrTTFont, lazy=True)
+    else:
+        font = pathOrTTFont
     cmap = font["cmap"].getBestCmap()
-    font.close()
 
     # The cmap keys are int codepoints
     return [chr(c) for c in cmap.keys()]
@@ -232,13 +235,37 @@ def load_joining_types():
 @lru_cache
 def get_joining_type(char:str) -> str:
     """
-    For @param char get it's joining type.
+    For @param char get it's joining type from 
+    lib/hyperglot/extra_data/joining-types.yaml
+
+    See https://www.unicode.org/versions/Unicode14.0.0/ch09.pdf Table 9-3:
+
+    Joining_Type Examples and Comments
+    Right_Joining (R) alef, dal, thal, reh, zain...
+    Left_Joining (L) None (in Arabic)
+    Dual_Joining (D) beh, teh, theh, jeem...
+    Join_Causing (C) U+200D zero width joiner and tatweel (U+0640). These charac-
+    ters are distinguished from the dual-joining characters in that they do
+    not change shape themselves.
+    Non_Joining (U) U+200C zero width non-joiner and all spacing characters, except
+    those explicitly mentioned as being one of the other joining types, are
+    non-joining. These include hamza (U+0621), high hamza
+    (U+0674), spaces, digits, punctuation, non-Arabic letters, and so on.
+    Also, U+0600 arabic number sign..U+0605 arabic number mark
+    above and U+06DD arabic end of ayah.
+    Transparent (T) All nonspacing marks (General Category Mn or Me) and most format
+    control characters (General Category Cf ) are transparent to cursive
+    joining. These include fathatan (U+064B) and other Arabic tashkil,
+    hamza below (U+0655), superscript alef (U+0670), combining
+    Quranic annotation signs, and nonspacing marks from other scripts.
+    Also U+070F syriac abbreviation mark.
 
     Return values are:
         - "D" (dual)
         - "R" (right joining)
         - "L" (left joining)
         - "T" (transparent)
+        - "C" (cause joining)
         - "" (non joining)
     """
     if not isinstance(char, str):
@@ -257,6 +284,12 @@ def join_variants(char:str, joiner:str=chr(0x200D)) -> List:
     behaviour this returns an empty list, otherwise a list of character
     combinations of char + joiner that triggers joining behaviour in text
     engines, e.g. when using the default zero width joiner.
+
+    Note: As far as I am aware all joining types are for RTL scripts, so the
+    "R"/"L" are interpreted as input sequence order that will lead to visually
+    being right, and left respectively, _for RTL scripts_ when rendered. Not
+    a 100% sure this is the correct interpretation of "R"/"L" from the spec,
+    but the spec does talk about visual joining.
     """
 
     if not isinstance(char, str):
@@ -265,21 +298,23 @@ def join_variants(char:str, joiner:str=chr(0x200D)) -> List:
 
     t = get_joining_type(char)
 
-    if t == "D":
+    if t == "R":
+        # Right joining
+        # E.g. Arabic Alef where "R" means visually joined from the right,
+        # which in turn means joining glyph (joiner) _followed_ by Alef in 
+        # LTR order here, which then ought to be rendered RTL with the joiner
+        # _right_ of the char _preceeding_ it.
+        return [joiner + char]
+
+    elif t == "D":
         # Dual
         return [joiner + char, joiner + char + joiner, char + joiner]
-
-    elif t == "R":
-        # Right joining
-        return [joiner + char]
 
     elif t == "L":
         # Left joining, very uncommon
         return [char + joiner]
 
-    # elif t == "T":
-    #     # Transparent, ignore
-    # else:
+    # T and C joining types irrelevant here
     
     return []
 
