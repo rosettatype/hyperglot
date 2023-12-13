@@ -2,7 +2,7 @@
 Gather a few package wide constants
 """
 from os import path
-__version__ = "0.5.2"
+__version__ = "0.5.3"
 
 DB = path.abspath(path.join(path.dirname(__file__), "data"))
 
