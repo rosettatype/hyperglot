@@ -34,3 +34,5 @@ python -m twine upload dist/hyperglot-x.x.x*
 ```
 
 (This assumes a .pypirc with token configs for test.pypi and the main pypi)
+
+- Make a new [Github release](https://github.com/rosettatype/hyperglot/releases/new) — use changelog since last version as description basis 
