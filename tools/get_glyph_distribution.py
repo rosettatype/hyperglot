@@ -1,5 +1,6 @@
 from hyperglot.languages import Languages
-from hyperglot.language import Language, Orthography
+from hyperglot.language import Language
+from hyperglot.orthography import Orthography
 
 hg = Languages()
 chars = {}

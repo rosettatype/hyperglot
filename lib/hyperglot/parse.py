@@ -6,7 +6,7 @@ import re
 import os
 import yaml
 from fontTools.ttLib import TTFont
-from . import DB_EXTRA, MARK_BASE
+from hyperglot import DB_EXTRA, MARK_BASE
 
 log = logging.getLogger(__name__)
 log.setLevel(logging.INFO)

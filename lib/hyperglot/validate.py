@@ -12,10 +12,10 @@ import logging
 import pprint
 import colorlog
 import unicodedata2
-from .languages import Languages
-from .language import Orthography
-from .parse import (parse_chars, parse_marks)
-from . import (__version__, STATUSES, VALIDITYLEVELS, ORTHOGRAPHY_STATUSES)
+from hyperglot.languages import Languages
+from hyperglot.orthography import Orthography
+from hyperglot.parse import parse_chars
+from hyperglot import (__version__, STATUSES, VALIDITYLEVELS, ORTHOGRAPHY_STATUSES)
 
 handler = colorlog.StreamHandler()
 handler.setFormatter(colorlog.ColoredFormatter('%(log_color)s%(message)s'))

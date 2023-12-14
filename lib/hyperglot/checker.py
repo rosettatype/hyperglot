@@ -4,13 +4,13 @@ from typing import List
 
 from hyperglot.shaper import Shaper
 from hyperglot.languages import Languages
-from hyperglot.language import Language, Orthography
+from hyperglot.language import Language
+from hyperglot.orthography import Orthography
 from hyperglot.parse import parse_chars
 from hyperglot import SUPPORTLEVELS, VALIDITYLEVELS, CHARACTER_ATTRIBUTES
 
-
 log = logging.getLogger(__name__)
-
+log.setLevel(logging.WARNING)
 
 class Checker:
     def __init__(self, fontpath=None, characters=None):

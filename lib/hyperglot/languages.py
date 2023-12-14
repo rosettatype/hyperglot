@@ -1,16 +1,12 @@
 """
 Helper classes to work with the lib/hyperglot/data in more pythonic way
 """
-from typing import List
 from functools import cache
 import os
 import re
 import yaml
 import logging
-from fontTools.ttLib import TTFont
-# from .language import Language
-from . import DB, VALIDITYLEVELS, SUPPORTLEVELS
-from .parse import parse_font_chars
+from hyperglot import DB, VALIDITYLEVELS
 
 log = logging.getLogger(__name__)
 log.setLevel(logging.WARNING)
@@ -129,7 +125,8 @@ class Languages(dict):
         more usable Language object
         """
         if iso != "keys" and iso in self.keys():
-            from .language import Language
+            # Note: Avoid circular imports so fetch Language only at this stage
+            from hyperglot.language import Language
             return Language(iso, data=self[iso])
 
         return super().__getattribute__(iso)

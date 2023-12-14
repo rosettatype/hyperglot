@@ -5,7 +5,7 @@ from hyperglot.parse import join_variants
 import uharfbuzz as hb
 
 log = logging.getLogger(__name__)
-
+log.setLevel(logging.WARNING)
 
 class Shaper:
     """

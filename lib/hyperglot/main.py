@@ -8,7 +8,8 @@ from fontTools.ttLib import TTFont
 from hyperglot import (__version__, SORTING_DIRECTIONS, DB, SUPPORTLEVELS,
                VALIDITYLEVELS, CHARACTER_ATTRIBUTES, MARK_BASE, SORTING)
 from hyperglot.languages import Languages, find_language
-from hyperglot.language import Language, Orthography, is_mark
+from hyperglot.language import Language
+from hyperglot.orthography import Orthography, is_mark
 from hyperglot.checker import FontChecker
 from hyperglot.validate import validate
 from hyperglot.parse import (list_unique, parse_font_chars, parse_marks)
