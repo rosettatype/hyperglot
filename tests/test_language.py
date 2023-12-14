@@ -21,8 +21,7 @@ def test_language_supported(langs):
     fin = getattr(langs, "fin")
 
     # These "chars" represent a font with supposedly those codepoints in it
-    fin_chars_missing_a = character_list_from_string(
-        "bcdefghijklmnopqrstuvwxyzäöå")
+    fin_chars_missing_a = character_list_from_string("bcdefghijklmnopqrstuvwxyzäöå")
     fin_chars_base = character_list_from_string("ABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÅabcdefghijklmnopqrstuvwxyzäöå")  # noqa
     fin_chars_aux = character_list_from_string("ABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÅÆÕØÜŠŽabcdefghijklmnopqrstuvwxyzäöåæõøüšž")  # noqa
     fin_chars_no_precomposed = character_list_from_string("ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz")  # noqa
@@ -31,25 +30,25 @@ def test_language_supported(langs):
     # supported
     fin_matched = {"Latin": ["fin"]}
 
-    # Note pruneOrthographies=False is used to re-use the same Language object
+    # Note prune_orthographies=False is used to re-use the same Language object
     # for these tests without having removed unsupported orthographies
 
-    matches = fin.supported(fin_chars_base, pruneOrthographies=False)
+    matches = fin.supported(fin_chars_base, prune_orthographies=False)
     assert matches == fin_matched
 
     no_matches = fin.supported(fin_chars_base, level="aux",
-                               pruneOrthographies=False)
+                               prune_orthographies=False)
     assert no_matches == {}
 
     matches = fin.supported(fin_chars_aux, level="aux",
-                            pruneOrthographies=False)
+                            prune_orthographies=False)
     assert matches == fin_matched
 
     no_matches = fin.supported(fin_chars_base, level="aux",
-                               pruneOrthographies=False)
+                               prune_orthographies=False)
     assert no_matches == {}
 
-    no_matches = fin.supported(fin_chars_missing_a, pruneOrthographies=False)
+    no_matches = fin.supported(fin_chars_missing_a, prune_orthographies=False)
     assert no_matches == {}
 
     rus = getattr(langs, "rus")
@@ -58,7 +57,7 @@ def test_language_supported(langs):
     # rus_aux = "А́ Е́ И́ О́ У́ Ы́ Э́ ю́ я́ а́ е́ и́ о́ у́ ы́ э́ ю́ я́"
     # rus_marks = "◌̆ ◌̈ ◌́"
 
-    assert rus.supported(rus_base, level="base", pruneOrthographies=False)
+    assert rus.supported(rus_base, level="base", prune_orthographies=False)
 
 
 def test_supported_marks(langs):
@@ -165,7 +164,7 @@ def test_language_all_orthographies(langs):
     # orthography only
     byn = getattr(langs, "byn")
     byn_base = character_list_from_string("ሀ ሁ ሂ ሃ ሄ ህ ሆ ለ ሉ ሊ ላ ሌ ል ሎ ሐ ሑ ሒ ሓ ሔ ሕ ሖ መ ሙ ሚ ማ ሜ ም ሞ ረ ሩ ሪ ራ ሬ ር ሮ ሰ ሱ ሲ ሳ ሴ ስ ሶ ሸ ሹ ሺ ሻ ሼ ሽ ሾ ቀ ቁ ቂ ቃ ቄ ቅ ቆ ቈ ቊ ቋ ቌ ቍ ቐ ቑ ቒ ቓ ቔ ቕ ቖ ቘ ቚ ቛ ቜ ቝ በ ቡ ቢ ባ ቤ ብ ቦ ተ ቱ ቲ ታ ቴ ት ቶ ነ ኑ ኒ ና ኔ ን ኖ አ ኡ ኢ ኣ ኤ እ ኦ ከ ኩ ኪ ካ ኬ ክ ኮ ኰ ኲ ኳ ኴ ኵ ኸ ኹ ኺ ኻ ኼ ኽ ኾ ዀ ዂ ዃ ዄ ዅ ወ ዉ ዊ ዋ ዌ ው ዎ ዐ ዑ ዒ ዓ ዔ ዕ ዖ የ ዩ ዪ ያ ዬ ይ ዮ ደ ዱ ዲ ዳ ዴ ድ ዶ ጀ ጁ ጂ ጃ ጄ ጅ ጆ ገ ጉ ጊ ጋ ጌ ግ ጎ ጐ ጒ ጓ ጔ ጕ ጘ ጙ ጚ ጛ ጜ ጝ ጞ ⶓ ⶔ ጟ ⶕ ⶖ ጠ ጡ ጢ ጣ ጤ ጥ ጦ ጨ ጩ ጪ ጫ ጬ ጭ ጮ ፈ ፉ ፊ ፋ ፌ ፍ ፎ e u i a é o b c d f g h j k l m n p q r s t v w x y z ñ ñw th ch sh kh kw khw qw gw")
-    support = byn.supported(byn_base, checkAllOrthographies=True)
+    support = byn.supported(byn_base, check_all_orthographies=True)
     assert len(byn["orthographies"]) == 1
 
     # rmn Balkan Romani has Latin (primary) and Cyrillic orthographies
@@ -177,14 +176,14 @@ def test_language_all_orthographies(langs):
     # When checking all orthographies, the Cyrillic non-primary should be
     # included
     rmn = getattr(langs, "rmn")
-    support = rmn.supported(rmn_base, checkAllOrthographies=True)
+    support = rmn.supported(rmn_base, check_all_orthographies=True)
     assert ("rmn" in support["Latin"]) is True
     assert ("Cyrillic" in support.keys()) is True
     assert len(rmn["orthographies"]) == 2
 
     # When checking only primary only Latin should be included
     rmn = getattr(langs, "rmn")
-    support = rmn.supported(rmn_base, checkAllOrthographies=False)
+    support = rmn.supported(rmn_base, check_all_orthographies=False)
     assert ("rmn" in support["Latin"]) is True
     assert ("Cyrillic" not in support.keys()) is True
     assert len(rmn["orthographies"]) == 1
@@ -230,7 +229,7 @@ def test_language_combined_orthographies():
     # Checking with --include-all-orthographies should return also a single
     # orthography
     srp = getattr(langs, "srp")
-    support = srp.supported(srp_latin, checkAllOrthographies=True)
+    support = srp.supported(srp_latin, check_all_orthographies=True)
     assert ("Latin" in support) is True
 
 
