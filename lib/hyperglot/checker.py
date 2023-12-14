@@ -89,6 +89,7 @@ class Checker:
             lang_sup = self.supports_language(
                 iso,
                 supportlevel=supportlevel,
+                validity=validity,
                 decomposed=decomposed,
                 marks=marks,
                 shaping=shaping,
@@ -114,6 +115,7 @@ class Checker:
         self,
         iso: str,
         supportlevel="base",
+        validity=VALIDITYLEVELS[1],
         decomposed=False,
         marks=False,
         shaping=False,
@@ -161,9 +163,14 @@ class Checker:
 
         support = {}
 
-        # Early exit if there is no data.
+        # Exit if there is no data.
         if "orthographies" not in language:
             return support if return_script_object else False
+        
+        # Exit if validity is not met
+        print("validity", language["validity"], validity, VALIDITYLEVELS.index(language["validity"]), VALIDITYLEVELS.index(validity))
+        if "validity" not in language or (VALIDITYLEVELS.index(language["validity"]) < VALIDITYLEVELS.index(validity)):
+            return False
 
         if supportlevel not in SUPPORTLEVELS.keys():
             log.warning(
@@ -177,14 +184,12 @@ class Checker:
         # Determine which orthographies should be checked.
         if check_all_orthographies:
             orthographies = [
-                o
-                for o in language["orthographies"]
+                o for o in language["orthographies"]
                 if "status" not in o or o["status"] != "transliteration"
             ]
         else:
             orthographies = [
-                o
-                for o in language["orthographies"]
+                o for o in language["orthographies"]
                 if "status" in o and o["status"] == "primary"
             ]
 

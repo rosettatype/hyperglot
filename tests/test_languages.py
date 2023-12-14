@@ -1,43 +1,19 @@
-import os
-from hyperglot.parse import parse_font_chars
 from hyperglot.languages import Languages
 
 
-def test_languages_basic():
-    path = os.path.abspath("tests/Eczar-v1.004/otf/Eczar-Regular.otf")
-
-    chars = parse_font_chars(path)
-
-    Langs = Languages()
-    supported = Langs.supported(chars)
-
-    # Detected scripts
-    assert "Latin" in supported.keys()
-    assert "Arabic" not in supported.keys()
-
-    # Detected arbitrary language
-    assert "zul" in supported["Latin"]
-
-
 def test_languages_validity():
-    path = os.path.abspath("tests/Eczar-v1.004/otf/Eczar-Regular.otf")
+    # These statuses may change in the database, update accordingly
+    # aae is verified
+    # aaq is preliminary
+    # aat is draft
 
-    chars = parse_font_chars(path)
+    verified_languages = Languages(validity="verified")
+    assert "aae" in verified_languages
+    assert "aaq" not in verified_languages
+    assert "aat" not in verified_languages
 
-    # Compared to basic, raised validity should have less hits
-    Langs = Languages(validity="preliminary")
-    supported = Langs.supported(chars)
-    isos = supported["Latin"].keys()
-
-    # 'lue' (Luvale) is currently 'todo', so it should not be in this
-    assert "lue" not in isos
-
-    # 'fin' (Finnish) is currently 'perliminary', so it should be listed
-    assert "fin" in isos
-
-    # 'deu' (German) is currently 'verified', which is "more complete" than
-    # 'preliminary', so should be listed
-    assert "deu" in isos
+    including_draft_languages = Languages(validity="draft")
+    assert "aat" in including_draft_languages
 
 
 def test_languages_inherit():
@@ -49,10 +25,10 @@ def test_languages_inherit():
     aeb = Langs["aeb"]["orthographies"][0]
     arb = Langs["arb"]["orthographies"][0]
 
-    assert (arq["base"] == arb["base"])
+    assert arq["base"] == arb["base"]
 
     # Make sure the autonym did not get inherited
-    assert (arq["autonym"] == "دارجة جزائرية")
+    assert arq["autonym"] == "دارجة جزائرية"
 
     # Make sure arq and arb have same amount of attributes, e.g. everything
     # that can be inherited did get inherited (arq will have the 'inherit'

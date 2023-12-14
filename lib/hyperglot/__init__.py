@@ -36,6 +36,7 @@ STATUSES = [
 
 # Possible orthography statuses, in no meaningful order
 # "deprecated" orthography status removed in favour of "historical"
+# Note: Order matters for preference of first found orthography
 ORTHOGRAPHY_STATUSES = [
     "primary",
     "local",

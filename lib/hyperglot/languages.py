@@ -16,7 +16,7 @@ log = logging.getLogger(__name__)
 log.setLevel(logging.WARNING)
 
 @cache
-def get_languages(kwargs):
+def get_languages(**kwargs):
     """
     A _cached_ getter for a fresh Language object, saves expensive reading and
     instanting of the database.
