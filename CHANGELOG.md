@@ -1,5 +1,10 @@
 # A changelog for the lib/hyperglot language database and CLI tool
 
+## 0.6.0 (WIP)
+- FEATURE: Implemented shaping checks for connecting scripts to detect presence of required positional forms
+- TWEAK: Support checking is now done via `hyperglot.checker` objects for cleaner separation between language data and checking fonts
+- TWEAK: Various python APIs changed and refactored
+
 ## 0.5.3 (13.12.2023)
 - DATA : Added Tlingit `tli` language data (thanks @jcrippen)
 - DATA: Fixed inconsistent note about `Ŋ` in various languages (thanks @moyogo)
