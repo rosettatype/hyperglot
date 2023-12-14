@@ -21,7 +21,8 @@ def test_language_supported(langs):
     fin = getattr(langs, "fin")
 
     # These "chars" represent a font with supposedly those codepoints in it
-    fin_chars_missing_a = character_list_from_string("bcdefghijklmnopqrstuvwxyzäöå")
+    fin_chars_missing_a = character_list_from_string(
+        "bcdefghijklmnopqrstuvwxyzäöå")
     fin_chars_base = character_list_from_string("ABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÅabcdefghijklmnopqrstuvwxyzäöå")  # noqa
     fin_chars_aux = character_list_from_string("ABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÅÆÕØÜŠŽabcdefghijklmnopqrstuvwxyzäöåæõøüšž")  # noqa
     fin_chars_no_precomposed = character_list_from_string("ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz")  # noqa

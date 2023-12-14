@@ -306,6 +306,7 @@ def cli(fonts, support, decomposed, marks, validity, autonyms,
                                     validity=validity,
                                     decomposed=decomposed, 
                                     marks=marks,
+                                    shaping=True,
                                     include_all_orthographies=include_all_orthographies,
                                     include_historical=include_historical,
                                     include_constructed=include_constructed)
