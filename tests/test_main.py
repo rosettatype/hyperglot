@@ -16,6 +16,7 @@ eczar = os.path.abspath("tests/Eczar-v1.004/otf/Eczar-Regular.otf")
 eczar_no_marks = os.path.abspath(
     "tests/Eczar-v1.004/otf/Eczar-Regular-nomarks-nofeatures.otf")
 plex_arabic = os.path.abspath("tests/plex-4.0.2/IBM-Plex-Sans-Arabic/fonts/complete/otf/IBMPlexSansArabic-Regular.otf")  # noqa
+plex_arabic_without_medi_fina = os.path.abspath("tests/plex-4.0.2/IBM-Plex-Sans-Arabic/fonts/complete/otf/IBMPlexSansArabic-Regular-without-medi-fina.otf")  # noqa
 
 
 def test_main_cli():
@@ -132,6 +133,19 @@ def test_main_cli_include_all_orthographies():
     print(res.output)
     assert "Chickasaw" in res.output
     assert "Assyrian Neo-Aramaic" in res.output
+
+
+def test_main_cli_joining():
+    res = runner.invoke(cli, plex_arabic)
+
+    # A correctly shaping Arabic font should support Arabic
+    assert "Arabic" in res.output
+
+    res = runner.invoke(cli, plex_arabic_without_medi_fina)
+
+    # A font with broken Arabic shaping should not support any Arabic
+    # Note "Arabic" in file name, so check for heading text
+    assert "of Arabic script:" not in res.output
 
 
 def test_main_cli_output(yaml_output):

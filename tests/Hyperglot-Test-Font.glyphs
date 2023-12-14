@@ -1,0 +1,390 @@
+{
+.appVersion = "3228";
+.formatVersion = 3;
+date = "2023-12-14 09:10:13 +0000";
+familyName = "Hyperglot Test Font";
+featurePrefixes = (
+{
+automatic = 1;
+code = "languagesystem DFLT dflt;
+
+languagesystem arab dflt;
+";
+name = Languagesystems;
+}
+);
+features = (
+{
+automatic = 1;
+code = "feature medi;
+feature init;
+feature fina;
+";
+tag = aalt;
+},
+{
+automatic = 1;
+code = "sub teh-ar by teh-ar.init;
+";
+tag = init;
+},
+{
+automatic = 1;
+code = "sub beh-ar by beh-ar.medi;
+sub teh-ar by teh-ar.medi;
+";
+tag = medi;
+},
+{
+automatic = 1;
+code = "sub teh-ar by teh-ar.fina;
+";
+tag = fina;
+}
+);
+fontMaster = (
+{
+id = m01;
+metricValues = (
+{
+over = 16;
+pos = 800;
+},
+{
+over = -16;
+},
+{
+over = -16;
+pos = -200;
+}
+);
+name = Regular;
+}
+);
+glyphs = (
+{
+glyphname = H;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (698,-20);
+target = down;
+type = TopGhost;
+},
+{
+horizontal = 1;
+place = (316,74);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (0,21);
+target = up;
+type = BottomGhost;
+},
+{
+place = (530,84);
+type = Stem;
+},
+{
+place = (93,84);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(530,0,l),
+(614,0,l),
+(614,698,l),
+(530,698,l),
+(530,390,l),
+(177,390,l),
+(177,698,l),
+(93,698,l),
+(93,0,l),
+(177,0,l),
+(177,316,l),
+(530,316,l)
+);
+}
+);
+width = 707;
+}
+);
+note = H;
+unicode = 72;
+},
+{
+glyphname = "beh-ar";
+lastChange = "2023-12-14 09:13:10 +0000";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (418,-201);
+},
+{
+name = class2;
+pos = (418,-12);
+},
+{
+name = top;
+pos = (418,249);
+},
+{
+name = top_;
+}
+);
+hints = (
+{
+horizontal = 1;
+place = (-12,98);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (-201,98);
+type = Stem;
+},
+{
+place = (726,68);
+type = Stem;
+},
+{
+place = (368,99);
+type = Stem;
+},
+{
+place = (43,64);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(697,-12,o),
+(794,37,o),
+(794,176,cs),
+(794,201,o),
+(791,237,o),
+(782,297,cs),
+(769,380,l),
+(699,369,l),
+(714,286,ls),
+(724,230,o),
+(726,198,o),
+(726,176,cs),
+(726,104,o),
+(678,86,o),
+(488,86,cs),
+(348,86,ls),
+(183,86,o),
+(107,123,o),
+(107,204,cs),
+(107,246,o),
+(120,292,o),
+(148,350,c),
+(86,369,l),
+(57,302,o),
+(43,247,o),
+(43,194,cs),
+(43,42,o),
+(139,-12,o),
+(418,-12,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(423,-201,ls),
+(449,-201,o),
+(467,-186,o),
+(467,-152,cs),
+(467,-118,o),
+(449,-103,o),
+(423,-103,cs),
+(412,-103,ls),
+(385,-103,o),
+(368,-118,o),
+(368,-152,cs),
+(368,-186,o),
+(385,-201,o),
+(412,-201,cs)
+);
+}
+);
+width = 839;
+}
+);
+note = uni0628;
+unicode = 1576;
+},
+{
+glyphname = "beh-ar.medi";
+lastChange = "2023-12-14 09:13:15 +0000";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (155,-201);
+},
+{
+name = class2;
+pos = (198,7);
+},
+{
+name = top;
+pos = (155,329);
+},
+{
+name = top_;
+}
+);
+hints = (
+{
+horizontal = 1;
+place = (0,86);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (-201,98);
+type = Stem;
+},
+{
+place = (120,70);
+type = Stem;
+},
+{
+place = (105,99);
+type = Stem;
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-20,0,l),
+(71,0,o),
+(108,25,o),
+(123,98,c),
+(128,98,l),
+(144,32,o),
+(197,0,o),
+(290,0,c),
+(310,20,l),
+(310,86,l),
+(275,86,ls),
+(217,86,o),
+(190,113,o),
+(190,171,cs),
+(190,329,l),
+(120,329,l),
+(120,171,ls),
+(120,114,o),
+(92,86,o),
+(35,86,cs),
+(0,86,l),
+(-20,66,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(160,-201,ls),
+(186,-201,o),
+(204,-186,o),
+(204,-152,cs),
+(204,-118,o),
+(186,-103,o),
+(160,-103,cs),
+(149,-103,ls),
+(122,-103,o),
+(105,-118,o),
+(105,-152,cs),
+(105,-186,o),
+(122,-201,o),
+(149,-201,cs)
+);
+}
+);
+width = 310;
+}
+);
+note = uniFE92;
+},
+{
+glyphname = "teh-ar";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+unicode = 1578;
+},
+{
+glyphname = "teh-ar.isol";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "teh-ar.fina";
+lastChange = "2023-12-14 09:17:05 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "teh-ar.medi";
+lastChange = "2023-12-14 09:17:12 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+},
+{
+glyphname = "teh-ar.init";
+lastChange = "2023-12-14 09:17:08 +0000";
+layers = (
+{
+layerId = m01;
+width = 600;
+}
+);
+}
+);
+metrics = (
+{
+type = ascender;
+},
+{
+type = baseline;
+},
+{
+type = descender;
+}
+);
+unitsPerEm = 1000;
+versionMajor = 1;
+versionMinor = 0;
+}

@@ -1,4 +1,4 @@
-from functools import lru_cache
+from functools import cache
 from typing import List
 import unicodedata as uni
 import logging
@@ -221,7 +221,7 @@ def parse_marks(input, decompose=True):
 def remove_mark_base(input, replace=""):
     return re.sub(MARK_BASE, replace, input)
 
-@lru_cache
+@cache
 def load_joining_types():
     """
     Load the joining-types.yaml database.
@@ -232,7 +232,7 @@ def load_joining_types():
     with open(os.path.join(DB_EXTRA, "joining-types.yaml"), "rb") as f:
         return yaml.load(f, Loader=yaml.Loader)
 
-@lru_cache
+@cache
 def get_joining_type(char:str) -> str:
     """
     For @param char get it's joining type from 

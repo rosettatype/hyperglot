@@ -4,6 +4,7 @@ Helper classes to work with the lib/hyperglot/data in more pythonic way
 from typing import List
 import logging
 import unicodedata2
+from .shaper import Shaper
 from .parse import (parse_chars, parse_marks, remove_mark_base, list_unique,
                     character_list_from_string, get_joining_type,
                     parse_font_chars, join_variants)
@@ -354,7 +355,8 @@ validity: {validity}
                         (self.iso, " ".join(["%s (%s)" % (c, str(ord(c))) for c in base.difference(chars)])))
                 
             if supported and shaping:
-                supported = ort.check_shaping(base)
+                font_shaper = Shaper(font.reader.file.name)
+                supported = ort.check_joining(base, font_shaper)
                 if not supported:
                     log.debug("Missing shaping for language base for %s" % 
                               self.iso)
@@ -529,16 +531,24 @@ note: {note}
         return [remove_mark_base(chars) for chars
                 in self._character_list("design_alternates")]
     
-    def check_shaping(self, chars:List[str]) -> bool:
+    def check_joining(self, chars:List[str], shaper:Shaper) -> bool:
         require_shaping = [
             c for c in chars if get_joining_type(c) in ["D", "R", "L", "T"]
         ]
         if require_shaping == []:
             return True
 
-        # TODO
+        missing_shaping = []
+        for char in require_shaping:
+            if shaper.check_joining(ord(char)) is False:
+                missing_shaping.append(char)
+        
+        if missing_shaping != []:
+            log.debug(f"Missing required joining forms for: {missing_shaping}")
+            return False
+        
         return True
-
+    
 
     # "Private" methods
 

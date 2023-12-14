@@ -229,10 +229,6 @@ MODES = ["individual", "union", "intersection"]
               help="When this option is set all combining marks for a "
               "language are required, not just precomposed encoded "
               "characters.")
-@click.option("--shaping", is_flag=True, default=True, 
-              help="When this option is set characters joining characters "
-              "tested for their shaping behavior and the font passes as valid "
-              "only if all characters have the needed joining variants.")
 @click.option("--validity", type=click.Choice(VALIDITYLEVELS,
                                               case_sensitive=False),
               default=VALIDITYLEVELS[1], show_default=True,
@@ -278,7 +274,7 @@ MODES = ["individual", "union", "intersection"]
               "macrolanguage structure that deviates from ISO data.")
 @click.option("-v", "--verbose", is_flag=True, default=False)
 @click.option("-V", "--version", is_flag=True, default=False)
-def cli(fonts, support, decomposed, marks, shaping, validity, autonyms, 
+def cli(fonts, support, decomposed, marks, validity, autonyms, 
         speakers, sorting, sort_dir,
         output, comparison, languages,
         include_all_orthographies, include_historical, include_constructed,
@@ -310,7 +306,6 @@ def cli(fonts, support, decomposed, marks, shaping, validity, autonyms,
                                     validity=validity,
                                     decomposed=decomposed, 
                                     marks=marks,
-                                    shaping=shaping,
                                     include_all_orthographies=include_all_orthographies,
                                     include_historical=include_historical,
                                     include_constructed=include_constructed)
