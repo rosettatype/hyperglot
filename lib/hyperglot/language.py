@@ -130,7 +130,7 @@ validity: {validity}
                 "No orthography found for script '%s' and status "
                 "'%s' in language '%s'." % (script, status, self.iso)
             )
-        
+
         # Sort by status index in the ORTHOGRAPHY_STATUSES
         matches = sorted(matches, key=lambda o: ORTHOGRAPHY_STATUSES.index(o["status"]))
 
@@ -152,8 +152,6 @@ validity: {validity}
             # If neither are found
             return False
 
-        return False
-
     def get_autonym(self, script=None):
         if script is not None:
             ort = self.get_orthography(script)
@@ -164,8 +162,6 @@ validity: {validity}
             return self["autonym"]
         except KeyError:
             return False
-
-        return False
 
     def is_historical(self, orthography=None):
         """

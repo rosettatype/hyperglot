@@ -19,7 +19,7 @@ plex_arabic = os.path.abspath("tests/plex-4.0.2/IBM-Plex-Sans-Arabic/fonts/compl
 plex_arabic_without_medi_fina = os.path.abspath("tests/plex-4.0.2/IBM-Plex-Sans-Arabic/fonts/complete/otf/IBMPlexSansArabic-Regular-without-medi-fina.otf")  # noqa
 
 
-def test_main_cli():
+def test_main_cli_basic():
     res = runner.invoke(cli, [eczar])
     assert res.exit_code == 0
     assert "languages of Latin script" in res.output

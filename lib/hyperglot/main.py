@@ -5,12 +5,13 @@ import yaml
 import logging
 from collections import OrderedDict
 from fontTools.ttLib import TTFont
-from . import (__version__, SORTING_DIRECTIONS, DB, SUPPORTLEVELS,
+from hyperglot import (__version__, SORTING_DIRECTIONS, DB, SUPPORTLEVELS,
                VALIDITYLEVELS, CHARACTER_ATTRIBUTES, MARK_BASE, SORTING)
-from .languages import Languages, find_language
-from .language import Language, Orthography, is_mark
-from .validate import validate
-from .parse import (list_unique, parse_font_chars, parse_marks)
+from hyperglot.languages import Languages, find_language
+from hyperglot.language import Language, Orthography, is_mark
+from hyperglot.checker import FontChecker
+from hyperglot.validate import validate
+from hyperglot.parse import (list_unique, parse_font_chars, parse_marks)
 
 log = logging.getLogger(__name__)
 log.setLevel(logging.WARNING)
@@ -61,7 +62,7 @@ def language_list(langs, native=False, speakers=False, script=None,
     """
     items = []
     for iso, l in langs.items():
-        lang = Language(l, iso)
+        lang = Language(iso)
 
         if native and script:
             name = lang.get_autonym(script)
@@ -299,18 +300,16 @@ def cli(fonts, support, decomposed, marks, validity, autonyms,
     results = {}
 
     for font_path in fonts:
-        langs = Languages(strict=strict_iso)
-        font = TTFont(font_path, lazy=True)
-        supported = langs.supported(font=font,
-                                    supportlevel=support, 
-                                    validity=validity,
-                                    decomposed=decomposed, 
-                                    marks=marks,
-                                    shaping=True,
-                                    include_all_orthographies=include_all_orthographies,
-                                    include_historical=include_historical,
-                                    include_constructed=include_constructed)
-        font.close()
+        supported = FontChecker(font_path).get_supported_languages(
+            supportlevel=support, 
+            validity=validity,
+            decomposed=decomposed, 
+            marks=marks,
+            shaping=True,
+            include_all_orthographies=include_all_orthographies,
+            include_historical=include_historical,
+            include_constructed=include_constructed
+        )
 
         level = SUPPORTLEVELS[support]
 

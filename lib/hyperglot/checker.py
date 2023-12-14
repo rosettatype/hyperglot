@@ -168,7 +168,6 @@ class Checker:
             return support if return_script_object else False
         
         # Exit if validity is not met
-        print("validity", language["validity"], validity, VALIDITYLEVELS.index(language["validity"]), VALIDITYLEVELS.index(validity))
         if "validity" not in language or (VALIDITYLEVELS.index(language["validity"]) < VALIDITYLEVELS.index(validity)):
             return False
 
