@@ -117,7 +117,45 @@ def sort_by_character_type(chars):
     return sorted(chars, key=sort_key_character_category)
 
 
-def parse_chars(characters, decompose=True, retainDecomposed=False):
+def decompose_fully(char:str) -> List:
+    """
+    Apply unicodedata.decomposition iteratively until we cannot decompose any
+    further.
+    """
+    sequence = []
+
+    if len(char) > 1:
+        for c in char:
+            sequence.extend(decompose_fully(c))
+        return sequence
+
+    decomposition = uni.decomposition(char)
+    if decomposition == "":
+        return [char]
+    
+    decomposed = re.split(" ", decomposition)
+
+    # Not _entirely_ sure why the following can be parts of the
+    # decomposition but let's ignore them when encountered. Some glyphs
+    # decompose to these kind of parts instead of uni hex, presumambly
+    # as layout hints based on the glyph context
+    # Match and ignore them for now
+    # e.g. <isolated> <compat> <super> <vertical> <final> <medial>
+    # <initial> <sub> <fraction> <font> <wide> <narrow>
+    inbrackets = re.compile(r"^<\w+\>$")
+
+    decomposed = [chr(int(d, 16)) for d in decomposed if not inbrackets.match(d)]
+    
+    for d in decomposed:
+        if uni.decomposition(d) != "":
+            sequence.extend(decompose_fully(d))
+        else:
+            sequence.append(d)
+
+    return sequence
+
+
+def parse_chars(characters:str, decompose:bool=True, retain_decomposed:bool=False) -> List:
     """
     From a string of characters get a set of unique unicode codepoints needed
     Note this will "decompose" combining characters/marks and remove any
@@ -141,33 +179,18 @@ def parse_chars(characters, decompose=True, retainDecomposed=False):
 
             # decomposition is either "" or a space separated string of
             # zero-filled unicode hex values like "0075 0308"
-            decomposition = uni.decomposition(c)
+            # decomposition = uni.decomposition(c)
+            decomposition = decompose_fully(c)
 
             # This glyph should be part of the list if either it cannot be
             # decomposed or if we want to keep also decomposable ones (e.g.
             # when pruning and saving the DB)
-            if decomposition == "" or retainDecomposed:
+            if decomposition == [c] or retain_decomposed:
                 unique_chars.append(c)
 
-            # Not _entirely_ sure why the following can be parts of the
-            # decomposition but let's ignore them when encountered. Some glyphs
-            # decompose to these kind of parts instead of uni hex, presumambly
-            # as layout hints based on the glyph context
-            # Match and ignore them for now
-            # e.g. <isolated> <compat> <super> <vertical> <final> <medial>
-            # <initial> <sub> <fraction> <font> <wide> <narrow>
-            inbrackets = re.compile(r"^<\w+\>$")
-
-            if decomposition != "":
-                for unihexstr in decomposition.split(" "):
-                    if inbrackets.match(unihexstr):
-                        continue
-                    try:
-                        additional.append(chr(int(unihexstr, 16)))
-                    except Exception as e:
-                        log.error("Error getting glyph from decomposition "
-                                  "part '%s' of '%s' (decomposition '%s'):"
-                                  " %s" % (unihexstr, c, decomposition, e))
+            if decomposition != [c]:
+                for char in decomposition:
+                    additional.append(char)
 
         # Append additional chars retrieved from decomposition to the end, but
         # sort those so that we have letters, then marks, then anything else

@@ -4,6 +4,7 @@ Tests for basic parsing and decomposition methods
 import os
 import pytest
 from hyperglot.parse import (parse_chars, parse_font_chars, parse_marks,
+                             decompose_fully,
                              character_list_from_string,
                              sort_by_character_type,
                              remove_mark_base,
@@ -14,20 +15,20 @@ from hyperglot.parse import (parse_chars, parse_font_chars, parse_marks,
 def test_parse_chars():
     # Verify composites get decomposed correctly and their order is as expected
 
-    # def parse_chars(characters, decompose=True, retainDecomposed=False):
+    # def parse_chars(characters, decompose=True, retain_decomposed=False):
     assert ["a", "̈"] == parse_chars("ä", decompose=True)
     assert ["ä", "a", "̈"] == parse_chars("ä", decompose=True,
-                                          retainDecomposed=True)
+                                          retain_decomposed=True)
     assert ["ä"] == parse_chars("ä", decompose=False)
 
     # This tests the decomposing will add first letter components, then mark
     # components (order!)
     assert ["â", "å", "a", "̂", "̊"] == parse_chars("â å",
-                                                    retainDecomposed=True)
-    assert ["a", "̂", "̊"] == parse_chars("â å", retainDecomposed=False)
+                                                    retain_decomposed=True)
+    assert ["a", "̂", "̊"] == parse_chars("â å", retain_decomposed=False)
 
-    assert ["ĳ", "i", "j"] == parse_chars("ĳ", retainDecomposed=True)
-    assert ["i", "j"] == parse_chars("ĳ", retainDecomposed=False)
+    assert ["ĳ", "i", "j"] == parse_chars("ĳ", retain_decomposed=True)
+    assert ["i", "j"] == parse_chars("ĳ", retain_decomposed=False)
 
     # Check basic splitting
     assert 5 == len(parse_chars("abcde"))
@@ -51,6 +52,10 @@ def test_parse_chars():
     assert " " not in parse_chars("a   bc")
     assert " " not in parse_chars(
         "a ą b c d e ę g h i į j k l ł m n o ǫ s t w x y z ' ´")
+    
+    # Check characters get fully decomposed, e.g. all marks decomposed instead
+    # of Acircumflex + tildecomb
+    assert parse_chars("Ẫ", decompose=True) == ["A", chr(0x0302), chr(0x0303)]
 
 
 def test_character_list_from_string():
@@ -163,3 +168,16 @@ def test_join_variants():
 
     with pytest.raises(ValueError):
         join_variants(1) == ""
+
+
+def test_decompose_fully():
+    assert decompose_fully("A") == ["A"]
+    assert decompose_fully("Ä") == ["A", chr(0x0308)]
+    
+    # For multiple chars decompose each
+    assert decompose_fully("A" + chr(0x0308)) == ["A", chr(0x0308)]
+    assert decompose_fully("AA") == ["A", "A"]
+    assert decompose_fully("ÄÄ") == ["A", chr(0x0308), "A", chr(0x0308)]
+
+    # Decompose iteratively
+    assert decompose_fully("Ẫ") == ["A", chr(0x0302), chr(0x0303)]
