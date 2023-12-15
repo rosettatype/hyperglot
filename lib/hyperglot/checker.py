@@ -133,7 +133,7 @@ class Checker:
             long as they have the base + mark combinations to shape those
             characters.
         @param marks bool: Flag to require all marks.
-        @param shaping bool: Flag to require joining shapes.
+        @param shaping bool: Flag to require joining shapes and mark attachment.
         @param check_all_orthographies bool: Flag to check also non-primary
             orthographies from this Language object. 'transliteration'
             orthographies are always ignored. False by default.
@@ -274,7 +274,14 @@ class Checker:
                 font_shaper = Shaper(self.fontpath)
                 supported = ort.check_joining(base, font_shaper)
                 if not supported:
-                    log.debug("Missing shaping for language base for %s" % iso)
+                    log.debug(f"Missing shaping for language base for {iso}")
+
+            if supported and shaping:
+                # For checking mark attachment pass the ort.base not the
+                # decomposed 'base'!
+                supported = ort.check_mark_attachment(ort.base, font_shaper)
+                if not supported:
+                    log.debug(f"Missing mark attachment for language base for {iso}")
 
             if supported:
                 # Only check aux if base is supported to begin with

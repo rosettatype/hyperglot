@@ -274,7 +274,7 @@ MODES = ["individual", "union", "intersection"]
               "strictly abiding to ISO data. Without it apply some gentle "
               "transforms to show preferred languages names and "
               "macrolanguage structure that deviates from ISO data.")
-@click.option("-v", "--verbose", is_flag=True, default=False)
+@click.option("-v", "--verbose", count=True)
 @click.option("-V", "--version", is_flag=True, default=False)
 def cli(fonts, support, decomposed, marks, validity, autonyms, 
         speakers, sorting, sort_dir,
@@ -289,10 +289,20 @@ def cli(fonts, support, decomposed, marks, validity, autonyms,
         import sys
         sys.exit("Hyperglot version: %s" % __version__)
 
-    loglevel = logging.DEBUG if verbose else logging.WARNING
+    if verbose == 1:
+        loglevel = logging.INFO
+    elif verbose > 1:
+        loglevel = logging.DEBUG
+    else:
+        loglevel = logging.WARNING
+
     log.setLevel(loglevel)
     logging.getLogger("hyperglot.languages").setLevel(loglevel)
     logging.getLogger("hyperglot.language").setLevel(loglevel)
+    logging.getLogger("hyperglot.orthography").setLevel(loglevel)
+    logging.getLogger("hyperglot.shaper").setLevel(loglevel)
+    logging.getLogger("hyperglot.checker").setLevel(loglevel)
+    
     if fonts == ():
         print("Provide at least one path to a font or --help for more "
               "information")

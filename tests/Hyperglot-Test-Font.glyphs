@@ -16,8 +16,8 @@ name = Languagesystems;
 features = (
 {
 automatic = 1;
-code = "feature medi;
-feature init;
+code = "feature init;
+feature medi;
 feature fina;
 ";
 tag = aalt;
@@ -62,6 +62,62 @@ name = Regular;
 }
 );
 glyphs = (
+{
+glyphname = A;
+kernLeft = A;
+kernRight = A;
+lastChange = "2023-12-15 08:23:23 +0000";
+layers = (
+{
+anchors = (
+{
+name = top;
+pos = (335,800);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(290,647,l),
+(297,629,l),
+(63,62,l),
+(34,53,o),
+(5,44,o),
+(-20,32,c),
+(-14,0,l),
+(244,0,l),
+(245,47,l),
+(140,59,l),
+(196,201,l),
+(466,201,l),
+(519,67,l),
+(487,57,o),
+(451,46,o),
+(421,32,c),
+(427,0,l),
+(695,0,l),
+(696,47,l),
+(623,55,l),
+(369,674,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(442,262,l),
+(220,262,l),
+(330,544,l)
+);
+}
+);
+width = 696;
+}
+);
+note = A;
+unicode = 65;
+},
 {
 glyphname = H;
 layers = (
@@ -371,6 +427,139 @@ layerId = m01;
 width = 600;
 }
 );
+},
+{
+glyphname = uni0308;
+lastChange = "2023-12-15 08:23:41 +0000";
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (0,800);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-133,663,o),
+(-157,638,o),
+(-160,604,c),
+(-148,576,o),
+(-127,559,o),
+(-95,551,c),
+(-67,563,o),
+(-50,584,o),
+(-42,614,c),
+(-48,644,o),
+(-74,666,o),
+(-105,677,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(70,663,o),
+(46,638,o),
+(43,604,c),
+(55,576,o),
+(76,559,o),
+(108,551,c),
+(136,563,o),
+(153,584,o),
+(161,614,c),
+(155,644,o),
+(129,666,o),
+(98,677,c)
+);
+}
+);
+width = 0;
+}
+);
+note = uni0308;
+unicode = 776;
+},
+{
+glyphname = uni0302;
+lastChange = "2023-12-15 09:24:48 +0000";
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (0,800);
+},
+{
+name = top;
+pos = (0,1009);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-115,535,l),
+(1,644,l),
+(127,538,l),
+(170,579,l),
+(45,717,l),
+(-36,717,l),
+(-161,573,l)
+);
+}
+);
+width = 0;
+}
+);
+note = uni0302;
+unicode = 770;
+},
+{
+glyphname = tildecomb;
+lastChange = "2023-12-15 09:24:38 +0000";
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (0,800);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-144,554,l),
+(-97,607,o),
+(-73,626,o),
+(-60,626,cs),
+(-32,626,o),
+(51,544,o),
+(90,544,cs),
+(122,544,o),
+(157,599,o),
+(197,668,c),
+(162,694,l),
+(88,617,l),
+(30,659,o),
+(-34,704,o),
+(-57,704,cs),
+(-94,704,o),
+(-130,660,o),
+(-180,583,c)
+);
+}
+);
+width = 0;
+}
+);
+note = tildecomb;
+unicode = 771;
 }
 );
 metrics = (

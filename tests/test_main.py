@@ -59,13 +59,13 @@ def test_main_cli_decomposed():
     # With Plex Arabic
     res = runner.invoke(cli, plex_arabic)
     total_default = int(total.search(res.output).group(1))
-    # acu / Achuar-Shiwiar should not be in default
-    assert "Achuar-Shiwiar" not in res.output
+    # Montagnais should not be in default
+    assert "Montagnais" not in res.output
 
     res = runner.invoke(cli, plex_arabic + " --decomposed")
     total_decomposed = int(total.search(res.output).group(1))
-    # acu / Achuar-Shiwiar should be in decomposed
-    assert "Achuar-Shiwiar" in res.output
+    # Montagnais should be in decomposed
+    assert "Montagnais" in res.output
 
     # Decomposed should always support more than default
     assert total_default <= total_decomposed
@@ -73,15 +73,11 @@ def test_main_cli_decomposed():
     # With Eczar
     res = runner.invoke(cli, eczar)
     total_default = int(total.search(res.output).group(1))
-    # acu / Achuar-Shiwiar should not be in default, because Utilde is missing
-    # but U + tildecomb are available
-    assert "Achuar-Shiwiar" not in res.output
+    assert "Montagnais" not in res.output
 
     res = runner.invoke(cli, eczar + " --decomposed")
     total_decomposed = int(total.search(res.output).group(1))
-    # acu / Achuar-Shiwiar should be in decomposed, because Utilde is missing
-    # but U + tildecomb are available
-    assert "Achuar-Shiwiar" in res.output
+    assert "Montagnais" in res.output
 
     # Decomposed should always support more than default
     assert total_default <= total_decomposed
@@ -139,13 +135,13 @@ def test_main_cli_joining():
     res = runner.invoke(cli, plex_arabic)
 
     # A correctly shaping Arabic font should support Arabic
-    assert "Arabic" in res.output
+    assert "languages of Arabic script:" in res.output
 
     res = runner.invoke(cli, plex_arabic_without_medi_fina)
 
     # A font with broken Arabic shaping should not support any Arabic
     # Note "Arabic" in file name, so check for heading text
-    assert "of Arabic script:" not in res.output
+    assert "languages of Arabic script:" not in res.output
 
 
 def test_main_cli_output(yaml_output):

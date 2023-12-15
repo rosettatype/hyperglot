@@ -11,6 +11,11 @@ from hyperglot.language import Language
 # Just a most simple placeholder charset
 ascii = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
 
+# Some test font paths
+plex_arabic = os.path.abspath("tests/plex-4.0.2/IBM-Plex-Sans-Arabic/fonts/complete/otf/IBMPlexSansArabic-Regular.otf")  # noqa
+plex_arabic_without_medi_fina = os.path.abspath("tests/plex-4.0.2/IBM-Plex-Sans-Arabic/fonts/complete/otf/IBMPlexSansArabic-Regular-without-medi-fina.otf")  # noqa
+eczar = os.path.abspath("tests/Eczar-v1.004/otf/Eczar-Regular.otf")
+testfont = os.path.abspath("tests/HyperglotTestFont-Regular.ttf")
 
 def test_language_supported():
     # These "chars" represent a font with supposedly those codepoints in it
@@ -54,14 +59,14 @@ def test_language_supported():
 
 
 def test_language_supported_dict():
-    eczar = os.path.abspath("tests/Eczar-v1.004/otf/Eczar-Regular.otf")
+    checker = FontChecker(eczar)
 
     # Detected scripts
-    assert "Latin" in FontChecker(eczar).supports_language("deu", return_script_object=True).keys()
-    assert "Arabic" not in FontChecker(eczar).supports_language("deu", return_script_object=True).keys()
+    assert "Latin" in checker.supports_language("deu", return_script_object=True).keys()
+    assert "Arabic" not in checker.supports_language("deu", return_script_object=True).keys()
 
     # Detected arbitrary language
-    assert "zul" in FontChecker(eczar).supports_language("zul", return_script_object=True)["Latin"]
+    assert "zul" in checker.supports_language("zul", return_script_object=True)["Latin"]
 
 
 def test_language_supported_validity():
@@ -154,8 +159,7 @@ def test_supports_decomposed():
 
 
 def test_supports_font():
-    eczar = os.path.abspath("tests/Eczar-v1.004/otf/Eczar-Regular.otf")
-
+    # Basic FontChecker sanity tests.
     assert FontChecker(eczar).supports_language("deu")
     assert FontChecker(eczar).supports_language("fin")
 
@@ -265,3 +269,20 @@ def test_language_supported_combining_chars():
     hau_chars = hau_base + hau_marks
 
     assert CharsetChecker(hau_chars).supports_language("hau")
+
+
+def test_language_mark_attachment():
+    checker = FontChecker(eczar)
+    
+    # Basic Latin sanity check
+    assert checker.supports_language("deu", shaping=True)
+    
+    # 'mah' has unencoded combination M + ogonekcomb — this is a good test case
+    # to check if the mark gets attached as many fonts won't have the required
+    # bottom anchor in M.
+    # Eczar has both M and ogonekcomb (U+0328), but not the required anchor in 
+    # M and so it should not have support.
+    assert checker.supports_language("mah", shaping=True) is False
+
+    # Without the shaping check, however, it should pass
+    assert checker.supports_language("mah", shaping=False)

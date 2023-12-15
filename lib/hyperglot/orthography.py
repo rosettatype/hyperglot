@@ -171,6 +171,11 @@ note: {note}
         ]
 
     def check_joining(self, chars: List[str], shaper: Shaper) -> bool:
+        """
+        Check the joining behaviour for the passed in characters.
+
+        TODO: instead of passing chars pass the relevant attributes to check?
+        """
         require_shaping = [
             c for c in chars if get_joining_type(c) in ["D", "R", "L", "T"]
         ]
@@ -187,6 +192,25 @@ note: {note}
             return False
 
         return True
+    
+    
+    def check_mark_attachment(self, chars: List[str], shaper: Shaper) -> bool:
+        """
+        Check the mark attachment for the passed in characters.
+
+        TODO: instead of passing chars pass the relevant attributes to check?
+        """
+        missing_positioning = []
+        for c in chars:
+            if shaper.check_mark_attachment(c) is False:
+                missing_positioning.append(c)
+        
+        if missing_positioning != []:
+            log.debug(f"Missing required mark positioning for: {missing_positioning}")
+            return False
+        
+        return True
+
 
     # "Private" methods
 
@@ -199,7 +223,7 @@ note: {note}
         if attr not in self:
             return []
 
-        return parse_chars(self[attr], decompose=False, retainDecomposed=False)
+        return parse_chars(self[attr], decompose=False, retain_decomposed=False)
 
     def _required_marks(self, level="base"):
         """
