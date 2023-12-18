@@ -50,17 +50,8 @@ def nice_char_list(chars):
 
 
 def check_yaml():
-
-    # try:
-        log.debug("YAML file structure ok and can be read")
-        # Use prune=False to validate the orthographies raw
-        return Languages(validity=VALIDITYLEVELS[0])
-    # except yaml.scanner.ScannerError as e:
-    #     log.error("Malformed yaml:")
-    #     print(e)
-    # except yaml.parser.ParserError as e:
-    #     log.error("Malformed yaml:")
-    #     print(e)
+    log.debug("YAML file structure ok and can be read")
+    return Languages(validity=VALIDITYLEVELS[0])
 
 
 def check_types(Langs):
@@ -266,13 +257,6 @@ def check_inheritted(iso, script, Langs):
             "Cannot inherit from '%s' — has no orthographies" % parent)
         return False
 
-        has_valid_orthography = False
-        for o in "orthographies":
-            if "base" in o and "script" in o and o["script"] == script:
-                has_valid_orthography = True
-        if not has_valid_orthography:
-            return False
-
     return True
 
 
@@ -339,7 +323,7 @@ def check_autonym_spelling(ort):
 
 
 def check_script_characters(Langs):
-    for iso, data in Langs.items():
+    for iso in Langs.keys():
         Lang = getattr(Langs, iso)
         if "orthographies" not in Lang:
             continue

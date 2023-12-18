@@ -1,4 +1,5 @@
 from functools import lru_cache
+from collections.abc import Iterable
 import logging
 import unicodedata2 as uni
 from typing import List
@@ -50,6 +51,12 @@ class Shaper:
         """
         buffer = self.shape(text)
         return buffer.glyph_infos
+
+    def names_for_codepoints(self, codepoints: Iterable[int]) -> List:
+        """
+        Helper for better debug messages with font glyph names instead of gids.
+        """
+        return [self.font.get_glyph_name(m) for m in codepoints]
 
     @lru_cache
     def check_joining(self, unicode: int) -> bool:
@@ -190,13 +197,13 @@ class Shaper:
                 continue
 
         if missing_from_font != []:
-            log.debug(f"Mark shaping for '{input}' is missing '{missing_from_font}'")
+            names = ", ".join(self.names_for_codepoints(missing_from_font))
+            log.debug(f"Mark shaping for '{input}' is missing '{names}'")
             return False
 
         if missing_positioning != []:
-            log.debug(
-                f"Mark positioning for '{input}' failed for '{missing_positioning}'"
-            )
+            names = ", ".join(self.names_for_codepoints(missing_positioning))
+            log.debug(f"Mark positioning for '{input}' failed for '{names}'")
             return False
 
         return True

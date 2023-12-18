@@ -1,6 +1,7 @@
 import logging
 from fontTools.ttLib import TTFont
 from typing import List, Set
+from collections.abc import Iterable
 
 from hyperglot.shaper import Shaper
 from hyperglot.languages import Languages
@@ -23,6 +24,11 @@ def format_missing_unicodes(codepoints: Set[str], reference) -> str:
 
 
 class Checker:
+    """
+    A base class for CharsetChecker and FontChecker encapsulating language
+    support checks.
+    """
+
     def __init__(self, fontpath=None, characters=None):
         self.fontpath = fontpath
         self.characters = characters
@@ -274,14 +280,19 @@ class Checker:
 
 
 class FontChecker(Checker):
+    """
+    A checker class working on a fontpath. Extracts characters from the font
+    and can perform shaping checks.
+    """
+
     def __init__(self, fontpath: str):
         super().__init__(fontpath=fontpath)
 
         self.font = TTFont(fontpath, lazy=True)
         self.shaper = Shaper(fontpath)
-        self.characters = self.parse_font_chars()
+        self.characters = self._parse_font_chars()
 
-    def parse_font_chars(self) -> List:
+    def _parse_font_chars(self) -> List:
         """
         Open the provided font path and extract the codepoints encoded in the font
         @return list of characters
@@ -293,7 +304,24 @@ class FontChecker(Checker):
 
 
 class CharsetChecker(Checker):
-    def __init__(self, characters: set):
+    """
+    A basic checker class working with a set of characters.
+
+    """
+
+    def __init__(self, characters: Iterable):
         # Make unique and filter whitespace.
         characters = set([c for c in characters if c.strip() != ""])
         super().__init__(characters=characters)
+
+    def get_supported_languages(self, **kwargs):
+        if "shaping" in kwargs and kwargs["shaping"] is True:
+            raise ValueError("CharsetChecker cannot validate shaping.")
+        
+        return super().get_supported_languages(**kwargs)
+
+    def supports_language(self, iso, **kwargs):
+        if "shaping" in kwargs and kwargs["shaping"] is True:
+            raise ValueError("CharsetChecker cannot validate shaping.")
+        
+        return super().supports_language(iso, **kwargs)

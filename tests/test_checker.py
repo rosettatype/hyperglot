@@ -6,7 +6,6 @@ import pytest
 import unicodedata as uni
 from hyperglot.parse import character_list_from_string, parse_font_chars, parse_marks
 from hyperglot.checker import CharsetChecker, FontChecker
-from hyperglot.language import Language
 
 # Just a most simple placeholder charset
 ascii = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
@@ -20,6 +19,25 @@ plex_arabic_without_medi_fina = os.path.abspath(
 )  # noqa
 eczar = os.path.abspath("tests/Eczar-v1.004/otf/Eczar-Regular.otf")
 testfont = os.path.abspath("tests/HyperglotTestFont-Regular.ttf")
+
+
+def test_checker_classes():
+    eng = ascii + "ÆŒæœ"
+    fontchecker = FontChecker(eczar)
+
+    assert "Latin" in fontchecker.get_supported_languages(shaping=True).keys()
+
+    charsetchecker = CharsetChecker(eng)
+
+    assert "Latin" in charsetchecker.get_supported_languages().keys()
+    assert charsetchecker.supports_language("eng")
+
+    # You cannot test shaping with CharsetChecker
+    with pytest.raises(ValueError):
+        charsetchecker.get_supported_languages(shaping=True)
+
+    with pytest.raises(ValueError):
+        charsetchecker.supports_language("eng", shaping=True)
 
 
 def test_language_supported():
