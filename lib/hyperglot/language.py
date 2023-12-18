@@ -2,7 +2,8 @@
 Helper classes to work with the lib/hyperglot/data in more pythonic way
 """
 import logging
-from hyperglot import ORTHOGRAPHY_STATUSES
+from typing import List
+from hyperglot import ORTHOGRAPHY_STATUSES, CHARACTER_ATTRIBUTES
 from hyperglot.languages import get_languages
 from hyperglot.orthography import Orthography
 
@@ -112,6 +113,61 @@ validity: {validity}
         # Note for multiple-orthography-primary languages (Serbian, Korean,
         # Japanese) this returns only one orthography!
         return matches[0]
+    
+
+    def get_check_orthographies(self, check_all_orthographies:bool=False) -> List:
+        """
+        Get the orthographies relevant for performing support checks.
+        """
+        if "orthographies" not in self:
+            return []
+
+        # Determine which orthographies should be checked.
+        if check_all_orthographies:
+            orthographies = [
+                o for o in self["orthographies"]
+                if "status" not in o or o["status"] != "transliteration"
+            ]
+        else:
+            orthographies = [
+                o for o in self["orthographies"]
+                if "status" in o and o["status"] == "primary"
+            ]
+
+        if not check_all_orthographies:
+            # Note the .copy() here since we manipulate the attribute
+            # and do not want to alter the original.
+            as_group = [o.copy() for o in orthographies if "preferred_as_group" in o]
+
+            as_individual = [
+                o.copy() for o in orthographies if "preferred_as_group" not in o
+            ]
+
+            orthographies = as_individual if as_individual else []
+
+            # Combine orthographies that are "preferred_as_group".
+            # We will retain separate orthographies, but all of
+            # CHARACTER_ATTRIBUTES should be the same for all grouped
+            # orthographies. While some grouped orthographies will get grouped
+            # as the same script, there are cases where we still want to retain
+            # each match under a different script (e.g. Serbian with Latin and
+            # Cyrillic but both being required for support).
+            if as_group:
+                combined = {}
+                for _ort in as_group:
+                    for attr in CHARACTER_ATTRIBUTES:
+                        if attr not in _ort:
+                            continue
+                        if attr not in combined:
+                            combined[attr] = ""
+                        combined[attr] = combined[attr] + " " + _ort[attr]
+
+                for _ort in as_group:
+                    for key, val in combined.items():
+                        _ort[key] = val
+                    orthographies.append(_ort)
+
+        return [Orthography(o) for o in orthographies]
 
     def get_name(self, script=None, strict=False):
         if script is not None:

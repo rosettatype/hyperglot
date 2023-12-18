@@ -1,4 +1,4 @@
-from typing import List
+from typing import List, Set
 import unicodedata2
 import logging
 
@@ -14,6 +14,7 @@ from hyperglot.parse import (
 
 log = logging.getLogger(__name__)
 log.setLevel(logging.WARNING)
+
 
 def is_mark(c):
     # Nothing is no mark
@@ -159,6 +160,21 @@ note: {note}
     def required_base_marks(self):
         return self._required_marks("base")
 
+    def get_chars(self, attr: str = "base", all_marks=False) -> Set:
+        """
+        Get the orthography base/aux + marks with required or all marks
+        """
+        if attr == "aux":
+            return set(
+                self.aux_chars
+                + (self.aux_marks if all_marks else self.required_aux_marks)
+            )
+
+        return set(
+            self.base_chars
+            + (self.base_marks if all_marks else self.required_base_marks)
+        )
+
     @property
     def required_auxiliary_marks(self):
         return self._required_marks("aux")
@@ -192,8 +208,7 @@ note: {note}
             return False
 
         return True
-    
-    
+
     def check_mark_attachment(self, chars: List[str], shaper: Shaper) -> bool:
         """
         Check the mark attachment for the passed in characters.
@@ -204,13 +219,12 @@ note: {note}
         for c in chars:
             if shaper.check_mark_attachment(c) is False:
                 missing_positioning.append(c)
-        
+
         if missing_positioning != []:
             log.debug(f"Missing required mark positioning for: {missing_positioning}")
             return False
-        
-        return True
 
+        return True
 
     # "Private" methods
 

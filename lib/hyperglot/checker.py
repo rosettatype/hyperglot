@@ -7,18 +7,19 @@ from hyperglot.languages import Languages
 from hyperglot.language import Language
 from hyperglot.orthography import Orthography
 from hyperglot.parse import parse_chars
-from hyperglot import SUPPORTLEVELS, VALIDITYLEVELS, CHARACTER_ATTRIBUTES
+from hyperglot import SUPPORTLEVELS, VALIDITYLEVELS
 
 log = logging.getLogger(__name__)
 log.setLevel(logging.WARNING)
 
-def format_missing_unicodes(codepoints:Set[str], reference) -> str:
+
+def format_missing_unicodes(codepoints: Set[str], reference) -> str:
     diff = codepoints.difference(reference)
-    
+
     if len(diff) == len(codepoints):
         return "All characters"
-    else: 
-        return " ".join(["%s (%s)" % (c, str(ord(c))) for c in diff]),
+    else:
+        return (" ".join(["%s (%s)" % (c, str(ord(c))) for c in diff]),)
 
 
 class Checker:
@@ -38,7 +39,6 @@ class Checker:
         include_all_orthographies=False,
         include_historical=False,
         include_constructed=False,
-        prune_orthographies=True,
     ) -> dict:
         """
         Get all languages supported based on the passed in characters.
@@ -57,9 +57,6 @@ class Checker:
             (default) orthographies of a language.
         @param include_historical bool: Flag to include historical languages.
         @param include_constructed bool: Flag to include constructed languages.
-        @param prune_orthographies bool: Flag to remove non-supported
-            orthographies from the returned language. This does not affect
-            detection, but the returned dict. Default is true.
         @return dict: Returns a dict with script-keys and values of dicts of
             iso-keyed language data.
         """
@@ -103,7 +100,6 @@ class Checker:
                 marks=marks,
                 shaping=shaping,
                 check_all_orthographies=include_all_orthographies,  # noqa
-                prune_orthographies=prune_orthographies,
                 # We want to explicitly get what scripts of a language are
                 # supported.
                 return_script_object=True,
@@ -123,14 +119,13 @@ class Checker:
     def supports_language(
         self,
         iso: str,
-        supportlevel="base",
-        validity=VALIDITYLEVELS[1],
-        decomposed=False,
-        marks=False,
-        shaping=False,
-        check_all_orthographies=False,
-        prune_orthographies=True,
-        return_script_object=False,
+        supportlevel: str = "base",
+        validity: str = VALIDITYLEVELS[1],
+        decomposed: bool = False,
+        marks: bool = False,
+        shaping: bool = False,
+        check_all_orthographies: bool = False,
+        return_script_object: bool = False,
     ) -> bool:
         """
         Return boolean indicating support for language with given iso based on
@@ -146,13 +141,11 @@ class Checker:
         @param check_all_orthographies bool: Flag to check also non-primary
             orthographies from this Language object. 'transliteration'
             orthographies are always ignored. False by default.
-        @param pruneOthographies bool: Flag to remove non-supported
-            orthographies from this Language object.
         @param return_script_object bool: Flag to return a dict of languages
             sorted by scripts. The default (false) returns a boolean indicating
             the checked language's support. This is mostly used internally when
             aggregating all languages a font supports in
-            get_supported_languages.
+            get_supported_languages grouped by script.
 
         @return bool or dict: Dict sorted by 1) script 2) list of isos.
         """
@@ -170,14 +163,10 @@ class Checker:
                 "Checker.supports_language got iso code '{iso}' not found in the database."
             )
 
-        support = {}
-
-        # Exit if there is no data.
-        if "orthographies" not in language:
-            return support if return_script_object else False
-        
         # Exit if validity is not met
-        if "validity" not in language or (VALIDITYLEVELS.index(language["validity"]) < VALIDITYLEVELS.index(validity)):
+        if "validity" not in language or (
+            VALIDITYLEVELS.index(language["validity"]) < VALIDITYLEVELS.index(validity)
+        ):
             return False
 
         if supportlevel not in SUPPORTLEVELS.keys():
@@ -187,69 +176,23 @@ class Checker:
             )
             supportlevel = "base"
 
-        pruned = []
+        support = {}
+        orthographies = language.get_check_orthographies(check_all_orthographies)
 
-        # Determine which orthographies should be checked.
-        if check_all_orthographies:
-            orthographies = [
-                o for o in language["orthographies"]
-                if "status" not in o or o["status"] != "transliteration"
-            ]
-        else:
-            orthographies = [
-                o for o in language["orthographies"]
-                if "status" in o and o["status"] == "primary"
-            ]
+        if orthographies == []:
+            return {} if return_script_object else False
 
-        if not check_all_orthographies:
-            # Note the .copy() here since we manipulate the attribute
-            # and do not want to alter the original.
-            as_group = [o.copy() for o in orthographies if "preferred_as_group" in o]
+        if shaping:
+            # Setup a reusable shaper
+            font_shaper = Shaper(self.fontpath)
 
-            as_individual = [
-                o.copy() for o in orthographies if "preferred_as_group" not in o
-            ]
-
-            orthographies = as_individual if as_individual else []
-
-            # Combine orthographies that are "preferred_as_group".
-            # We will retain separate orthographies, but all of
-            # CHARACTER_ATTRIBUTES should be the same for all grouped
-            # orthographies. While some grouped orthographies will get grouped
-            # as the same script, there are cases where we still want to retain
-            # each match under a different script (e.g. Serbian with Latin and
-            # Cyrillic but both being required for support).
-            if as_group:
-                combined = {}
-                for _ort in as_group:
-                    for attr in CHARACTER_ATTRIBUTES:
-                        if attr not in _ort:
-                            continue
-                        if attr not in combined:
-                            combined[attr] = ""
-                        combined[attr] = combined[attr] + " " + _ort[attr]
-
-                for _ort in as_group:
-                    for key, val in combined.items():
-                        _ort[key] = val
-                    orthographies.append(_ort)
-
-        for o in orthographies:
+        for ort in orthographies:
             supported = False
-            ort = Orthography(o)
 
             if not ort.base:
                 continue
 
-            if marks:
-                required_marks_base = ort.base_marks
-            else:
-                required_marks_base = ort.required_base_marks
-
-            if required_marks_base:
-                log.debug("Required base marks for %s: %s" % (iso, required_marks_base))
-
-            base = set(ort.base_chars + required_marks_base)
+            base = ort.get_chars("base", marks)
 
             if not decomposed:
                 supported = base.issubset(self.characters)
@@ -267,59 +210,67 @@ class Checker:
 
             if not supported:
                 log.debug(
-                    "Missing from language base for %s: %s" % 
-                    (iso, format_missing_unicodes(base, self.characters))
+                    "Missing from language base for %s: %s"
+                    % (iso, format_missing_unicodes(base, self.characters))
                 )
+                continue
 
-            if supported and shaping:
-                font_shaper = Shaper(self.fontpath)
-                supported = ort.check_joining(base, font_shaper)
-                if not supported:
-                    log.debug(f"Missing shaping for language base for {iso}")
+            if shaping:
+                if not self._check_shaping(ort, "base", marks, font_shaper):
+                    log.debug(f"Missing shaping for language base for '{iso}'")
+                    continue
 
-            if supported and shaping:
-                # For checking mark attachment pass the ort.base not the
-                # decomposed 'base'!
-                supported = ort.check_mark_attachment(ort.base, font_shaper)
-                if not supported:
-                    log.debug(f"Missing mark attachment for language base for {iso}")
+            # Only check aux if base is supported to begin with
+            # and level is "aux" and orthography has "auxiliary"
+            # defined - if orthography has no "auxiliary" we consider
+            # it supported on "auxiliary" level, too.
+            if supportlevel == "aux" and ort.auxiliary:
+                if marks:
+                    req_marks_aux = ort.auxiliary_marks
+                else:
+                    req_marks_aux = ort.required_auxiliary_marks
 
-            if supported:
-                # Only check aux if base is supported to begin with
-                # and level is "aux" and orthography has "auxiliary"
-                # defined - if orthography has no "auxiliary" we consider
-                # it supported on "auxiliary" level, too.
-                if supportlevel == "aux" and ort.auxiliary:
-                    if marks:
-                        required_marks_aux = ort.auxiliary_marks
-                    else:
-                        required_marks_aux = ort.required_auxiliary_marks
+                if req_marks_aux:
+                    log.debug(f"Required aux marks for {iso}: {req_marks_aux}")
 
-                    if required_marks_aux:
-                        log.debug(
-                            "Required aux marks for %s: %s" % (iso, required_marks_aux)
-                        )
-                    aux = set(ort.auxiliary_chars + required_marks_aux)
+                aux = set(ort.auxiliary_chars + req_marks_aux)
 
-                    supported = aux.issubset(self.characters)
+                if not aux.issubset(self.characters):
+                    log.debug(
+                        "Missing aux language %s: %s"
+                        % (iso, format_missing_unicodes(aux, self.characters))
+                    )
+                    continue
 
-                    if not supported:
-                        log.debug(
-                            "Missing aux language %s: %s" % 
-                            (iso, format_missing_unicodes(aux, self.characters))
-                        )
+                if shaping:
+                    if not self._check_shaping(ort, "aux", marks, font_shaper):
+                        log.debug(f"Missing shaping for language base for '{iso}'")
+                        continue
 
-            if supported:
-                # TBD do we want to retain this per script listing.
-                if ort.script not in support:
-                    support[ort.script] = []
-                support[ort.script].append(iso)
-                pruned.append(o)
-
-        if prune_orthographies:
-            language["orthographies"] = pruned
+            if ort.script not in support:
+                support[ort.script] = []
+            support[ort.script].append(iso)
 
         return support if return_script_object else support != {}
+
+    def _check_shaping(
+        self, orthography: Orthography, attr: str, all_marks: bool, shaper: Shaper
+    ) -> bool:
+        """
+        Check orthography shaping for given support level.
+        """
+        decomposed = orthography.get_chars(attr, all_marks)
+        raw = getattr(orthography, attr)
+
+        if not orthography.check_joining(decomposed, shaper):
+            return False
+
+        # For checking mark attachment pass the ort.base not the
+        # decomposed 'base'!
+        if not orthography.check_mark_attachment(raw, shaper):
+            return False
+
+        return True
 
 
 class FontChecker(Checker):
