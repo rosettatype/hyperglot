@@ -231,7 +231,7 @@ note: {note}
     def _character_list(self, attr):
         """
         Get a character list from an orthography.
-        This also abstracts combining 'preferred_as_group' for special cases.
+        
         @return set or bool
         """
         if attr not in self:

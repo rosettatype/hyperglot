@@ -179,7 +179,7 @@ class Shaper:
 
         missing_from_font = []
         missing_positioning = []
-        for glyph_info, glyph_positions in data:
+        for glyph_info, glyph_position in data:
             if glyph_info.codepoint in non_marks.keys():
                 continue
 
@@ -192,7 +192,7 @@ class Shaper:
                 continue
 
             # This appears to be a unpositioned mark!
-            if glyph_positions.x_offset == 0 and glyph_positions.y_offset == 0:
+            if glyph_position.x_offset == 0 and glyph_position.y_offset == 0:
                 missing_positioning.append(glyph_info.codepoint)
                 continue
 

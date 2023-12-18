@@ -324,3 +324,23 @@ def test_language_mark_attachment():
 
     # Without the shaping check, however, it should pass
     assert checker.supports_language("mah", shaping=False)
+
+
+def test_shaper_greek_marks():
+    # Base for 'fin' but missing ÄÅ so we can check if decomposed=True will
+    # actually compose and attach marks correctly
+    fin_base_without_a_umlauts = character_list_from_string("ABCDEFGHIJKLMNOPQRSTUVWXYZÖabcdefghijklmnopqrstuvwxyzäöå")
+    fin_marks = parse_marks("◌̈ ◌̊ ◌̃ ◌̌")
+
+    # The font needs to actually support the mark positioning, but we want to
+    # test different types of "detected" characters to use for shaping
+    missing_precomposed = FontChecker(eczar)
+    missing_precomposed.characters = fin_base_without_a_umlauts + fin_marks
+    assert missing_precomposed.supports_language("fin") is False
+    assert missing_precomposed.supports_language("fin", decomposed=True)
+
+    # Eczar does not support 'mah' with default decomposed=False either, but
+    # just to confirm (and check debug logs for a language where decompose
+    # would yield required marks for base)
+    checker = FontChecker(eczar)
+    assert checker.supports_language("mah", decomposed=True) is False

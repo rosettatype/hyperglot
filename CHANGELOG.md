@@ -1,7 +1,7 @@
 # A changelog for the lib/hyperglot language database and CLI tool
 
 ## 0.6.0 (WIP)
-- FEATURE: Implemented shaping checks for mark positioning when required by unencoded base + mark combinations TODO: or when `--decompose` is active
+- FEATURE: Implemented shaping checks for mark positioning when required by unencoded base + mark combinations or  `--decompose`
 - FEATURE: Implemented shaping checks for connecting scripts to detect presence of required positional forms
 - TWEAK: Support checking is now done via `hyperglot.checker` objects for cleaner separation between language data and checking fonts
 - TWEAK: Various python APIs changed and refactored

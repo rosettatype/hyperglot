@@ -190,7 +190,7 @@ class Checker:
 
         if shaping:
             # Setup a reusable shaper
-            font_shaper = Shaper(self.fontpath)
+            self.shaper = Shaper(self.fontpath)
 
         for ort in orthographies:
             supported = False
@@ -206,13 +206,11 @@ class Checker:
                 # If we accept that a set of characters matches for a
                 # language also when it has only base+mark encodings, we
                 # need to check support for each of the languages chars.
+                supported = True
                 for c in base:
-                    decomposed = set(parse_chars(c))
-                    if c in self.characters or decomposed.issubset(self.characters):
-                        supported = True
-                        continue
-                    supported = False
-                    break
+                    decomposed_char = set(parse_chars(c))
+                    if not decomposed_char.issubset(self.characters):
+                        supported = False
 
             if not supported:
                 log.debug(
@@ -222,8 +220,8 @@ class Checker:
                 continue
 
             if shaping:
-                if not self._check_shaping(ort, "base", marks, font_shaper):
-                    log.debug(f"Missing shaping for language base for '{iso}'")
+                if not self._check_shaping(ort, "base", marks, decomposed):
+                    log.debug(f"Required shaping for {iso} base characters is missing.")
                     continue
 
             # Only check aux if base is supported to begin with
@@ -249,8 +247,8 @@ class Checker:
                     continue
 
                 if shaping:
-                    if not self._check_shaping(ort, "aux", marks, font_shaper):
-                        log.debug(f"Missing shaping for language base for '{iso}'")
+                    if not self._check_shaping(ort, "aux", marks, decomposed):
+                        log.debug(f"Required shaping for {iso} aux characters is missing.")
                         continue
 
             if ort.script not in support:
@@ -260,20 +258,36 @@ class Checker:
         return support if return_script_object else support != {}
 
     def _check_shaping(
-        self, orthography: Orthography, attr: str, all_marks: bool, shaper: Shaper
+        self,
+        orthography: Orthography,
+        attr: str,
+        all_marks: bool,
+        decomposed: bool
     ) -> bool:
         """
         Check orthography shaping for given support level.
         """
-        decomposed = orthography.get_chars(attr, all_marks)
-        raw = getattr(orthography, attr)
 
-        if not orthography.check_joining(decomposed, shaper):
+        if not orthography.check_joining(
+            orthography.get_chars(attr, all_marks), self.shaper
+        ):
+            log.debug("Missing joining shaping for {attr} characters.")
             return False
 
-        # For checking mark attachment pass the ort.base not the
-        # decomposed 'base'!
-        if not orthography.check_mark_attachment(raw, shaper):
+        check_attachment = []
+        chars = getattr(orthography, attr)
+
+        # Mark positioning needs to at least work for all unencoded
+        # base + mark base characters.
+        check_attachment.extend([c for c in chars if len(c) > 1])
+
+        # If checking against decomposed characters also base + mark combinations
+        # that do not exist precomposed in the characters need to be checked.
+        if decomposed:
+            check_attachment.extend([c for c in chars if c not in self.characters])
+
+        if not orthography.check_mark_attachment(check_attachment, self.shaper):
+            log.debug("Missing mark attachment for {attr} characters.")
             return False
 
         return True
@@ -291,6 +305,18 @@ class FontChecker(Checker):
         self.font = TTFont(fontpath, lazy=True)
         self.shaper = Shaper(fontpath)
         self.characters = self._parse_font_chars()
+
+    def get_supported_languages(self, **kwargs):
+        if "shaping" not in kwargs:
+            kwargs["shaping"] = True
+
+        return super().get_supported_languages(**kwargs)
+
+    def supports_language(self, iso, **kwargs):
+        if "shaping" not in kwargs:
+            kwargs["shaping"] = True
+
+        return super().supports_language(iso, **kwargs)
 
     def _parse_font_chars(self) -> List:
         """
@@ -316,12 +342,12 @@ class CharsetChecker(Checker):
 
     def get_supported_languages(self, **kwargs):
         if "shaping" in kwargs and kwargs["shaping"] is True:
-            raise ValueError("CharsetChecker cannot validate shaping.")
-        
+            raise ValueError("CharsetChecker cannot check for shaping.")
+
         return super().get_supported_languages(**kwargs)
 
     def supports_language(self, iso, **kwargs):
         if "shaping" in kwargs and kwargs["shaping"] is True:
-            raise ValueError("CharsetChecker cannot validate shaping.")
-        
+            raise ValueError("CharsetChecker cannot check for shaping.")
+
         return super().supports_language(iso, **kwargs)
