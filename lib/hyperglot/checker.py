@@ -15,10 +15,15 @@ log.setLevel(logging.WARNING)
 
 
 def format_missing_unicodes(codepoints: Set[str], reference) -> str:
+    """
+    List missing codepoints. For cases where all or most codepoints are missing
+    output a wordy message, instead of e.g. 10k CJK glyphs
+    """
     diff = codepoints.difference(reference)
-
     if len(diff) == len(codepoints):
-        return "All characters"
+        return "All required characters"
+    elif len(diff) / len(codepoints) > 0.5:
+        return "The majority of required characters"
     else:
         return (" ".join(["%s (%s)" % (c, str(ord(c))) for c in diff]),)
 
@@ -287,7 +292,7 @@ class Checker:
             check_attachment.extend([c for c in chars if c not in self.characters])
 
         if not orthography.check_mark_attachment(check_attachment, self.shaper):
-            log.debug("Missing mark attachment for {attr} characters.")
+            log.debug(f"Missing mark attachment for {attr} characters.")
             return False
 
         return True

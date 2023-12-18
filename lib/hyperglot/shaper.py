@@ -198,12 +198,16 @@ class Shaper:
 
         if missing_from_font != []:
             names = ", ".join(self.names_for_codepoints(missing_from_font))
-            log.debug(f"Mark shaping for '{input}' is missing '{names}'")
+            log.debug(
+                f"Mark shaping for '{input}' is missing for font glyph names '{names}'"
+            )
             return False
 
         if missing_positioning != []:
             names = ", ".join(self.names_for_codepoints(missing_positioning))
-            log.debug(f"Mark positioning for '{input}' failed for '{names}'")
+            log.debug(
+                f"Mark positioning for '{input}' failed for font glyph names '{names}'"
+            )
             return False
 
         return True
