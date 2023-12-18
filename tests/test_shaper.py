@@ -41,7 +41,7 @@ def test_shaper_marks():
     assert eczar_shaper.check_mark_attachment("Ä")
 
     # Input A + combining diaresis.
-    assert (eczar_shaper.check_mark_attachment("A" + chr(0x0308)))
+    assert eczar_shaper.check_mark_attachment("A" + chr(0x0308))
 
     # 'mah' has unencoded combination M + ogonekcomb — this is a good test case
     # to check if the mark gets attached as many fonts won't have the required

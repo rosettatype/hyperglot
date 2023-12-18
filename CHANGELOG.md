@@ -5,7 +5,7 @@
 - FEATURE: Implemented shaping checks for connecting scripts to detect presence of required positional forms
 - TWEAK: Support checking is now done via `hyperglot.checker` objects for cleaner separation between language data and checking fonts
 - TWEAK: Various python APIs changed and refactored
-- TWEAK: Bumped required python version to 3.9.0
+- TWEAK: Bumped required python version to 3.8.0
 
 ## 0.5.3 (13.12.2023)
 - DATA : Added Tlingit `tli` language data (thanks @jcrippen)

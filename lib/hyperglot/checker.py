@@ -1,6 +1,6 @@
 import logging
 from fontTools.ttLib import TTFont
-from typing import List
+from typing import List, Set
 
 from hyperglot.shaper import Shaper
 from hyperglot.languages import Languages
@@ -11,6 +11,15 @@ from hyperglot import SUPPORTLEVELS, VALIDITYLEVELS, CHARACTER_ATTRIBUTES
 
 log = logging.getLogger(__name__)
 log.setLevel(logging.WARNING)
+
+def format_missing_unicodes(codepoints:Set[str], reference) -> str:
+    diff = codepoints.difference(reference)
+    
+    if len(diff) == len(codepoints):
+        return "All characters"
+    else: 
+        return " ".join(["%s (%s)" % (c, str(ord(c))) for c in diff]),
+
 
 class Checker:
     def __init__(self, fontpath=None, characters=None):
@@ -258,16 +267,8 @@ class Checker:
 
             if not supported:
                 log.debug(
-                    "Missing from language base for %s: %s"
-                    % (
-                        iso,
-                        " ".join(
-                            [
-                                "%s (%s)" % (c, str(ord(c)))
-                                for c in base.difference(self.characters)
-                            ]
-                        ),
-                    )
+                    "Missing from language base for %s: %s" % 
+                    (iso, format_missing_unicodes(base, self.characters))
                 )
 
             if supported and shaping:
@@ -304,8 +305,8 @@ class Checker:
 
                     if not supported:
                         log.debug(
-                            "Missing aux language %s: %s"
-                            % (iso, " ".join(aux.difference(self.characters)))
+                            "Missing aux language %s: %s" % 
+                            (iso, format_missing_unicodes(aux, self.characters))
                         )
 
             if supported:

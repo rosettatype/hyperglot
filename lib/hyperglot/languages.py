@@ -1,7 +1,7 @@
 """
 Helper classes to work with the lib/hyperglot/data in more pythonic way
 """
-from functools import cache
+from functools import lru_cache
 import os
 import re
 import yaml
@@ -11,7 +11,7 @@ from hyperglot import DB, VALIDITYLEVELS
 log = logging.getLogger(__name__)
 log.setLevel(logging.WARNING)
 
-@cache
+@lru_cache
 def get_languages(**kwargs):
     """
     A _cached_ getter for a fresh Language object, saves expensive reading and
@@ -19,7 +19,7 @@ def get_languages(**kwargs):
     """
     return Languages(**kwargs)
 
-@cache
+@lru_cache
 def find_language(search):
     """
     Utility method to find a language by ISO code or language name
