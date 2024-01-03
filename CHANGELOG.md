@@ -3,8 +3,9 @@
 ## 0.6.0 (WIP)
 - FEATURE: Implemented shaping checks for mark positioning when required by unencoded base + mark combinations or  `--decompose`
 - FEATURE: Implemented shaping checks for connecting scripts to detect presence of required positional forms
+- FEATURE: Implemented `--report-missing n`, `--report-shaping` and `--report-joining` parameters/flags for outputting closes misses
 - TWEAK: Support checking is now done via `hyperglot.checker` objects for cleaner separation between language data and checking fonts
-- TWEAK: Various python APIs changed and refactored
+- TWEAK: Various python APIs and objects changed and refactored
 - TWEAK: Bumped required python version to 3.8.0
 
 ## 0.5.3 (13.12.2023)

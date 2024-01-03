@@ -166,8 +166,8 @@ note: {note}
         """
         if attr == "aux":
             return set(
-                self.aux_chars
-                + (self.aux_marks if all_marks else self.required_aux_marks)
+                self.auxiliary_chars
+                + (self.auxiliary_marks if all_marks else self.required_auxiliary_marks)
             )
 
         return set(
@@ -186,7 +186,7 @@ note: {note}
             for chars in self._character_list("design_alternates")
         ]
 
-    def check_joining(self, chars: List[str], shaper: Shaper) -> bool:
+    def check_joining(self, chars: List[str], shaper: Shaper) -> List:
         """
         Check the joining behaviour for the passed in characters.
 
@@ -196,7 +196,7 @@ note: {note}
             c for c in chars if get_joining_type(c) in ["D", "R", "L", "T"]
         ]
         if require_shaping == []:
-            return True
+            return []
 
         missing_shaping = []
         for char in require_shaping:
@@ -205,11 +205,11 @@ note: {note}
 
         if missing_shaping != []:
             log.debug(f"Missing required joining forms for: {missing_shaping}")
-            return False
+            return missing_shaping
 
-        return True
+        return []
 
-    def check_mark_attachment(self, chars: List[str], shaper: Shaper) -> bool:
+    def check_mark_attachment(self, chars: List[str], shaper: Shaper) -> List:
         """
         Check the mark attachment for the passed in characters.
 
@@ -222,16 +222,16 @@ note: {note}
 
         if missing_positioning != []:
             log.debug(f"Missing required mark positioning for: {missing_positioning}")
-            return False
+            return missing_positioning
 
-        return True
+        return []
 
     # "Private" methods
 
     def _character_list(self, attr):
         """
         Get a character list from an orthography.
-        
+
         @return set or bool
         """
         if attr not in self:

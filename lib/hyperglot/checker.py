@@ -13,6 +13,15 @@ from hyperglot import SUPPORTLEVELS, VALIDITYLEVELS
 log = logging.getLogger(__name__)
 log.setLevel(logging.WARNING)
 
+log_missing = logging.getLogger("hyperglot.reporting.missing")
+log_missing.setLevel(logging.FATAL)
+
+log_shaping = logging.getLogger("hyperglot.reporting.shaping")
+log_shaping.setLevel(logging.FATAL)
+
+log_joining = logging.getLogger("hyperglot.reporting.joining")
+log_joining.setLevel(logging.FATAL)
+
 
 def format_missing_unicodes(codepoints: Set[str], reference) -> str:
     """
@@ -50,6 +59,9 @@ class Checker:
         include_all_orthographies=False,
         include_historical=False,
         include_constructed=False,
+        report_num_missing=0,
+        report_shaping=False,
+        report_joining=False,
     ) -> dict:
         """
         Get all languages supported based on the passed in characters.
@@ -111,6 +123,9 @@ class Checker:
                 marks=marks,
                 shaping=shaping,
                 check_all_orthographies=include_all_orthographies,  # noqa
+                report_num_missing=report_num_missing,
+                report_shaping=report_shaping,
+                report_joining=report_joining,
                 # We want to explicitly get what scripts of a language are
                 # supported.
                 return_script_object=True,
@@ -136,6 +151,9 @@ class Checker:
         marks: bool = False,
         shaping: bool = False,
         check_all_orthographies: bool = False,
+        report_num_missing: int = -1,
+        report_shaping: bool = False,
+        report_joining: bool = False,
         return_script_object: bool = False,
     ) -> bool:
         """
@@ -222,11 +240,30 @@ class Checker:
                     "Missing from language base for %s: %s"
                     % (iso, format_missing_unicodes(base, self.characters))
                 )
-                continue
+                base_missing = base.difference(self.characters)
+                if len(base_missing) > 0:
+                    if report_num_missing == 0 or report_num_missing >= len(
+                        base_missing
+                    ):
+                        log_missing.warning(
+                            "%s missing base: %s" % (iso, ", ".join(base_missing))
+                        )
+                    continue
 
             if shaping:
-                if not self._check_shaping(ort, "base", marks, decomposed):
-                    log.debug(f"Required shaping for {iso} base characters is missing.")
+                joining_errors, shaping_errors = self._check_shaping(
+                    ort, "base", marks, decomposed
+                )
+                if len(joining_errors) > 0 and report_joining:
+                    log_joining.warning(
+                        "%s missing joining: %s" % (iso, ", ".join(joining_errors))
+                    )
+                if len(shaping_errors) > 0 and report_shaping:
+                    log_shaping.warning(
+                        "%s missing base shaping: %s" % (iso, ", ".join(shaping_errors))
+                    )
+
+                if len(joining_errors) > 0 or len(shaping_errors) > 0:
                     continue
 
             # Only check aux if base is supported to begin with
@@ -244,16 +281,31 @@ class Checker:
 
                 aux = set(ort.auxiliary_chars + req_marks_aux)
 
-                if not aux.issubset(self.characters):
-                    log.debug(
-                        "Missing aux language %s: %s"
-                        % (iso, format_missing_unicodes(aux, self.characters))
-                    )
+                aux_missing = aux.difference(self.characters)
+                if len(aux_missing) > 0:
+                    if report_num_missing == 0 or report_num_missing >= len(
+                        aux_missing
+                    ):
+                        log_missing.warning(
+                            "%s missing base: %s" % (iso, ", ".join(aux_missing))
+                        )
                     continue
 
                 if shaping:
-                    if not self._check_shaping(ort, "aux", marks, decomposed):
-                        log.debug(f"Required shaping for {iso} aux characters is missing.")
+                    joining_errors, shaping_errors = self._check_shaping(
+                        ort, "auxiliary", marks, decomposed
+                    )
+                    if len(joining_errors) > 0 and report_joining:
+                        log_joining.warning(
+                            "%s missing joining: %s" % (iso, ", ".join(joining_errors))
+                        )
+                    if len(shaping_errors) > 0 and report_shaping:
+                        log_shaping.warning(
+                            "%s missing aux shaping: %s"
+                            % (iso, ", ".join(shaping_errors))
+                        )
+
+                    if len(joining_errors) > 0 or len(shaping_errors) > 0:
                         continue
 
             if ort.script not in support:
@@ -267,17 +319,16 @@ class Checker:
         orthography: Orthography,
         attr: str,
         all_marks: bool,
-        decomposed: bool
-    ) -> bool:
+        decomposed: bool,
+        report_joining: bool = False,
+        report_shaping: bool = False,
+    ) -> tuple:
         """
         Check orthography shaping for given support level.
         """
-
-        if not orthography.check_joining(
+        joining_errors = orthography.check_joining(
             orthography.get_chars(attr, all_marks), self.shaper
-        ):
-            log.debug("Missing joining shaping for {attr} characters.")
-            return False
+        )
 
         check_attachment = []
         chars = getattr(orthography, attr)
@@ -291,11 +342,11 @@ class Checker:
         if decomposed:
             check_attachment.extend([c for c in chars if c not in self.characters])
 
-        if not orthography.check_mark_attachment(check_attachment, self.shaper):
-            log.debug(f"Missing mark attachment for {attr} characters.")
-            return False
+        shaping_errors = orthography.check_mark_attachment(
+            check_attachment, self.shaper
+        )
 
-        return True
+        return (joining_errors, shaping_errors)
 
 
 class FontChecker(Checker):

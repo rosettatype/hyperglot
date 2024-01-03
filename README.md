@@ -94,6 +94,9 @@ hyperglot path/to/font.otf path/to/anotherfont.otf ...
 - `--include-historical`: Option to include languages and orthographies marked as historical (default is False)
 - `--include-constructed`: Option to include languages and orthographies that are marked as constructed (default is False)
 - `--strict-iso`: Display language names and macrolanguage data strictly according to ISO (default is False)
+- `--report-missing`: Parameter to report unmatched languages which are missing _n_ or less characters. If _n_ is 0 all languages with any amount missing characters are listed.
+- `--report-shaping`: Flag to report languages which are not matched because the font is missing shaping behaviour for some characters, and output the affected characters.
+- `--report-joining`: Flag to report languages which are not matched because the font is missing joining behaviour for some characters, and output the affected characters.
 - `-v, --verbose`: More logging information (default is False)
 - `-V, --version`: Print the version hyperglot version number (default is False)
 

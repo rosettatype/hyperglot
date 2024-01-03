@@ -2,6 +2,7 @@
 Basic Language support checks
 """
 import os
+import logging
 import pytest
 import unicodedata as uni
 from hyperglot.parse import character_list_from_string, parse_font_chars, parse_marks
@@ -160,12 +161,16 @@ def test_supports_marks():
     assert CharsetChecker(chars).supports_language("deu", marks=True) is False
 
 
-def test_supports_decomposed_no_marks():
+def test_supports_decomposed_no_marks(caplog):
+    caplog.set_level(logging.WARNING, logger="hyperglot.reporting.missing")
+    
     eczar = os.path.abspath("tests/Eczar-v1.004/otf/Eczar-Regular.otf")
     chars = parse_font_chars(eczar)
 
     # Let's fake a font with no combining marks
     chars = [c for c in chars if not uni.category(c).startswith("M")]
+    
+    logging.getLogger
 
     # The font which has no marks but all encoded characters should still match
     assert CharsetChecker(chars).supports_language("deu", decomposed=True)
@@ -344,3 +349,43 @@ def test_shaper_greek_marks():
     # would yield required marks for base)
     checker = FontChecker(eczar)
     assert checker.supports_language("mah", decomposed=True) is False
+
+
+def test_checker_missing(caplog):
+    caplog.set_level(logging.WARNING, logger="hyperglot.reporting.missing")
+    
+    checker = CharsetChecker(ascii)
+
+    # Basic ascii should be missing 4 characters for English, so 
+    # this should log:
+    checker.supports_language("eng", report_num_missing=4)
+    record = caplog.records[0]
+    assert record.levelno == logging.WARNING
+    assert 'eng missing base' in record.msg
+    caplog.clear()
+
+    # but this should not log:
+    checker.supports_language("eng", report_num_missing=3)
+    assert len(caplog.records) == 0
+
+
+def test_checker_shaping(caplog):
+    caplog.set_level(logging.WARNING, logger="hyperglot.reporting.shaping")
+
+    checker = FontChecker(eczar)
+    checker.supports_language("mah", report_shaping=True)
+    
+    record = caplog.records[0]
+    assert record.levelno == logging.WARNING
+    assert "mah missing base shaping" in record.msg
+
+
+def test_checker_joining(caplog):
+    caplog.set_level(logging.WARNING, logger="hyperglot.reporting.joining")
+
+    checker = FontChecker(plex_arabic_without_medi_fina)
+    checker.supports_language("acm", report_joining=True)
+
+    record = caplog.records[0]
+    assert record.levelno == logging.WARNING
+    assert "acm missing joining" in record.msg

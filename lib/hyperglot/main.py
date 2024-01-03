@@ -274,13 +274,27 @@ MODES = ["individual", "union", "intersection"]
               "strictly abiding to ISO data. Without it apply some gentle "
               "transforms to show preferred languages names and "
               "macrolanguage structure that deviates from ISO data.")
+@click.option("--report-missing", 'report_num_missing', type=int, default=-1,
+              help="Parameter to report unmatched languages which are missing "
+              "n or less characters. If n is 0 all languages with any amount "
+              "missing characters are listed.")
+@click.option("--report-shaping", is_flag=True, default=False,
+              help="Flag to report languages which are not matched because "
+              "the font is missing shaping behaviour for some characters, and "
+              "output the affected characters.")
+@click.option("--report-joining", is_flag=True, default=False,
+              help="Flag to report languages which are not matched because "
+              "the font is missing joining behaviour for some characters, and "
+              "output the affected characters.")
 @click.option("-v", "--verbose", count=True)
 @click.option("-V", "--version", is_flag=True, default=False)
 def cli(fonts, support, decomposed, marks, validity, autonyms, 
         speakers, sorting, sort_dir,
         output, comparison, languages,
         include_all_orthographies, include_historical, include_constructed,
-        strict_iso, verbose, version):
+        strict_iso, 
+        report_num_missing, report_shaping, report_joining,
+        verbose, version):
     """
     Pass in one or more fonts to check their languages support
     """
@@ -293,6 +307,11 @@ def cli(fonts, support, decomposed, marks, validity, autonyms,
         loglevel = logging.INFO
     elif verbose > 1:
         loglevel = logging.DEBUG
+        logging.getLogger("hyperglot.reporting.shaping").setLevel(logging.WARNING)
+        logging.getLogger("hyperglot.reporting.joining").setLevel(logging.WARNING)
+        report_num_missing = True
+        report_joining = True
+        report_shaping = True
     else:
         loglevel = logging.WARNING
 
@@ -302,6 +321,15 @@ def cli(fonts, support, decomposed, marks, validity, autonyms,
     logging.getLogger("hyperglot.orthography").setLevel(loglevel)
     logging.getLogger("hyperglot.shaper").setLevel(loglevel)
     logging.getLogger("hyperglot.checker").setLevel(loglevel)
+
+    # If the user wants more detailed output regarding near misses this is
+    # achieved via this special logger
+    if report_num_missing >= 0:
+        logging.getLogger("hyperglot.reporting.missing").setLevel(logging.WARNING)
+    if report_shaping:
+        logging.getLogger("hyperglot.reporting.shaping").setLevel(logging.WARNING)
+    if report_joining:
+        logging.getLogger("hyperglot.reporting.joining").setLevel(logging.WARNING)
     
     if fonts == ():
         print("Provide at least one path to a font or --help for more "
@@ -319,7 +347,10 @@ def cli(fonts, support, decomposed, marks, validity, autonyms,
             shaping=True,
             include_all_orthographies=include_all_orthographies,
             include_historical=include_historical,
-            include_constructed=include_constructed
+            include_constructed=include_constructed,
+            report_num_missing=report_num_missing,
+            report_shaping=report_shaping,
+            report_joining=report_joining,
         )
 
         level = SUPPORTLEVELS[support]
