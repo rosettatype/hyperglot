@@ -34,7 +34,13 @@ A language can refer to one or more orthographies. An orthography specifies the 
 - `autonym` (optional): the name of the language in the language itself using this orthography. If missing, the `autonym` defined in the parent language entry is used. It is expected that the `autonym` can be spelled with the orthography's `base`.
 - `inherit` (required or use `base`): the code of a language to copy the `base, auxiliary, marks, punctuation, numerals, design_note` strings from. In case the language has multiple orthographies, the first one for the same script is used.
 - `script` (required): English name of the main script used by the orthography, e.g. Latin, Arabic, Armenian, Cyrillic, Greek, Hebrew. When a language uses a combination of several scripts in conjunction each script forms its own orthography. It should follow ISO 15924.
-- `status` (required, defaults to `primary`): the status of the orthography, may be one of: `primary, secondary, local, historical, transliteration`. The value `local` refers to an orthography which is used only in a specific relatively small region. Orthographies with `secondary` status are ignored during language support detection, but used when detecting `orthography` support. Transliterations of scripts/languages have status `transliteration`.
+- `status` (required, defaults to `primary`): one of the following (there can multiple orthographies with the same status per language):
+  - `primary` for the current, main orthography of a language,
+  - `secondary` for a current, but less frequent, orthography (e.g. competing orthography gaining or losing popularity),
+  - `local` for a secondary orthography limited to a small geographic region (specified in note),
+  - `historical` for an orthography that is no longer in use (all orthographies for a historical language ought to be historical),
+  - `transliteration` for an orthography used for transliterations (e.g. transliteration of Standard Arabic in the Latin script).
+  Orthographies with `secondary` status are ignored during language support detection, but used when detecting `orthography` support.
 - `preferred_as_group` (optional, defaults to `false`) will combine all orthographies of this language. When used, a language is detected as supported only if all its orthographies with this attribute are supported. This is used for Serbian to require both Cyrillic-script and Latin-script orthographies to be supported and for Japanese to require Hiragana, Katakana, and Kanji orthographies to be supported.
 - `note` (optional): a note of any kind.
 - `design_requirements` (optional): a list of notes with general design considerations specific to this orthography. Ideally, phrased in a way that is font-format agnostic. A hint really.

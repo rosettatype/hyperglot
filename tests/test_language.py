@@ -149,7 +149,7 @@ def test_language_get_autonym(langs):
 
 
 def test_language_all_orthographies(langs):
-    # smj Lule Sami with one primary and one deprecated orthography should
+    # smj Lule Sami with one primary and one historical orthography should
     # always return only the primary
     # All the chars from both orthographies
     smj_base = character_list_from_string("A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á Ä Å Ñ Ö Ń a b c d e f g h i j k l m n o p q r s t u v w x y z á ä å ñ ö ń A B D E F G H I J K L M N O P R S T U V Á Ä Å Ŋ a b d e f g h i j k l m n o p r s t u v á ä å ŋ a n o")  # noqa
@@ -160,7 +160,7 @@ def test_language_all_orthographies(langs):
     assert ("smj" in support["Latin"]) is True
     assert len(smj["orthographies"]) == 1
 
-    # Even when checking all orthographies the 'deprecated' orthography should
+    # Even when checking all orthographies the 'historical' orthography should
     # not be included
     smj = getattr(langs, "smj")
     support = smj.supported(smj_base, checkAllOrthographies=True)
