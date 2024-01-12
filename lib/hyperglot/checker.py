@@ -16,8 +16,8 @@ log.setLevel(logging.WARNING)
 log_missing = logging.getLogger("hyperglot.reporting.missing")
 log_missing.setLevel(logging.FATAL)
 
-log_shaping = logging.getLogger("hyperglot.reporting.shaping")
-log_shaping.setLevel(logging.FATAL)
+log_marks = logging.getLogger("hyperglot.reporting.marks")
+log_marks.setLevel(logging.FATAL)
 
 log_joining = logging.getLogger("hyperglot.reporting.joining")
 log_joining.setLevel(logging.FATAL)
@@ -216,6 +216,10 @@ class Checker:
             self.shaper = Shaper(self.fontpath)
 
         for ort in orthographies:
+            # Track if this orthography is supported or not. Note that instead
+            # of continue'ing early, keep this boolean and perform further
+            # checks even when unsupported, to output possible reporting about
+            # all detected misses.
             supported = False
 
             if not ort.base:
@@ -249,7 +253,7 @@ class Checker:
                             "%s missing characters for 'base': %s"
                             % (iso, ", ".join(base_missing))
                         )
-                    continue
+                    supported = False
 
             if shaping:
                 joining_errors, mark_errors = self._check_shaping(
@@ -261,18 +265,16 @@ class Checker:
                         % (iso, ", ".join(joining_errors))
                     )
                 if len(mark_errors) > 0 and report_marks:
-                    log_shaping.warning(
+                    log_marks.warning(
                         "%s missing mark attachment for 'base': %s"
                         % (iso, ", ".join(mark_errors))
                     )
 
                 if len(joining_errors) > 0 or len(mark_errors) > 0:
-                    continue
+                    supported = False
 
-            # Only check aux if base is supported to begin with
-            # and level is "aux" and orthography has "auxiliary"
-            # defined - if orthography has no "auxiliary" we consider
-            # it supported on "auxiliary" level, too.
+            # If an orthography has no "auxiliary" we consider it supported on 
+            # "auxiliary" level, too.
             if supportlevel == "aux" and ort.auxiliary:
                 if marks:
                     req_marks_aux = ort.auxiliary_marks
@@ -293,7 +295,8 @@ class Checker:
                             "%s missing characters for 'base': %s"
                             % (iso, ", ".join(aux_missing))
                         )
-                    continue
+                    supported = False
+                        
 
                 if shaping:
                     joining_errors, mark_errors = self._check_shaping(
@@ -305,13 +308,17 @@ class Checker:
                             % (iso, ", ".join(joining_errors))
                         )
                     if len(mark_errors) > 0 and report_marks:
-                        log_shaping.warning(
+                        log_marks.warning(
                             "%s missing mark attachment for 'aux': %s"
                             % (iso, ", ".join(mark_errors))
                         )
 
                     if len(joining_errors) > 0 or len(mark_errors) > 0:
-                        continue
+                        supported = False
+            
+            # At this point, if not supported, skip.
+            if not supported:
+                continue
 
             if ort.script not in support:
                 support[ort.script] = []
@@ -325,8 +332,6 @@ class Checker:
         attr: str,
         all_marks: bool,
         decomposed: bool,
-        report_joining: bool = False,
-        report_marks: bool = False,
     ) -> tuple:
         """
         Check orthography shaping for given support level.

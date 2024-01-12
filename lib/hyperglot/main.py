@@ -313,7 +313,7 @@ def cli(fonts, support, decomposed, marks, validity, autonyms,
     elif verbose > 1:
         # For debugging verbosity also opt in to all near misses reporting
         loglevel = logging.DEBUG
-        logging.getLogger("hyperglot.reporting.shaping").setLevel(logging.WARNING)
+        logging.getLogger("hyperglot.reporting.marks").setLevel(logging.WARNING)
         logging.getLogger("hyperglot.reporting.joining").setLevel(logging.WARNING)
         report_num_missing = True
         report_joining = True
@@ -333,7 +333,7 @@ def cli(fonts, support, decomposed, marks, validity, autonyms,
     if report_num_missing >= 0:
         logging.getLogger("hyperglot.reporting.missing").setLevel(logging.WARNING)
     if report_marks:
-        logging.getLogger("hyperglot.reporting.shaping").setLevel(logging.WARNING)
+        logging.getLogger("hyperglot.reporting.marks").setLevel(logging.WARNING)
     if report_joining:
         logging.getLogger("hyperglot.reporting.joining").setLevel(logging.WARNING)
     

@@ -370,7 +370,7 @@ def test_checker_missing(caplog):
 
 
 def test_checker_shaping(caplog):
-    caplog.set_level(logging.WARNING, logger="hyperglot.reporting.shaping")
+    caplog.set_level(logging.WARNING, logger="hyperglot.reporting.marks")
 
     checker = FontChecker(eczar)
     checker.supports_language("mah", report_shaping=True)
