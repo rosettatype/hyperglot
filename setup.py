@@ -56,6 +56,7 @@ setup(name="hyperglot",
       entry_points={
           "console_scripts": [
               "hyperglot = hyperglot.main:cli",
+              "hyperglot-report = hyperglot.main:report",
               "hyperglot-data = hyperglot.main:data",
               "hyperglot-validate = hyperglot.validate:validate",
               "hyperglot-save = hyperglot.main:save_sorted",

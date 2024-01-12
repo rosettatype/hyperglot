@@ -3,6 +3,7 @@ import os
 import re
 import yaml
 import logging
+import functools
 from collections import OrderedDict
 from fontTools.ttLib import TTFont
 from hyperglot import (__version__, SORTING_DIRECTIONS, DB, SUPPORTLEVELS,
@@ -213,88 +214,92 @@ def write_yaml(file, data):
 
 MODES = ["individual", "union", "intersection"]
 
+def hyperglot_options(f):
+    """
+    Make the Click options for the main hyperglot command reusable, e.g. for
+    the reporting command.
+    """
+    @click.argument("fonts", type=click.Path(exists=True), callback=validate_font,
+                nargs=-1)
+    @click.option("-s", "--support",
+                type=click.Choice(SUPPORTLEVELS.keys(), case_sensitive=False),
+                default="base", show_default=True,
+                help="Option to test only for the language's base charset, or to"
+                " also test for presence of all auxilliary characters, if "
+                "present in the database.")
+    @click.option("-d", "--decomposed", is_flag=True, default=False,
+                help="When this option is set composable characters are not "
+                "required as precomposed characters, but a font is valid if it "
+                "has the required base and mark characters.")
+    @click.option("-m", "--marks", is_flag=True, default=False,
+                help="When this option is set all combining marks for a "
+                "language are required, not just precomposed encoded "
+                "characters.")
+    @click.option("--validity", type=click.Choice(VALIDITYLEVELS,
+                                                case_sensitive=False),
+                default=VALIDITYLEVELS[1], show_default=True,
+                help="The level of validity for languages matched against the "
+                "font. Weaker levels always include more strict levels. The "
+                "default includes all languages for which the database has "
+                "charset data.")
+    @click.option("-a", "--autonyms", is_flag=True, default=False,
+                help="Flag to render languages names in their native name.")
+    @click.option("--speakers", is_flag=True, default=False,
+                help="Flag to show how many speakers each languages has.")
+    @click.option("--sort", "sorting",
+                type=click.Choice(SORTING, case_sensitive=False),
+                default="alphabetic", show_default=True)
+    @click.option("--sort-dir",
+                type=click.Choice(SORTING_DIRECTIONS, case_sensitive=False),
+                default=SORTING_DIRECTIONS[0], show_default=True)
+    @click.option("-o", "--output", type=click.File(mode="w", encoding="utf-8"),
+                help="Provide a name for a yaml file to write support "
+                "information to.")
+    @click.option("-c", "--comparison",
+                type=click.Choice(MODES, case_sensitive=False),
+                default=MODES[0], show_default=True,
+                help="When passing in more than one file, a comparison can be "
+                "generated. By default each file's support is listed "
+                "individually. 'union' shows support for all languages "
+                "supported by the combination of the passed in fonts. "
+                "'intersection' shows the support all fonts have in common.")
+    @click.option("-l", "--languages", default="", 
+                help="Pass in one or more comma-separated language names or ISO "
+                "code to output a detailed support report for this font.")
+    @click.option("--include-all-orthographies", is_flag=True, default=False,
+                help="Flag to show all otherwise ignored orthographies of a "
+                "language.")
+    @click.option("--include-historical", is_flag=True, default=False,
+                help="Flag to include otherwise ignored historical languages.")
+    @click.option("--include-constructed", is_flag=True, default=False,
+                help="Flag to include otherwise ignored contructed languages.")
+    @click.option("--strict-iso", is_flag=True, default=False,
+                help="Flag to display names and macrolanguage data "
+                "strictly abiding to ISO data. Without it apply some gentle "
+                "transforms to show preferred languages names and "
+                "macrolanguage structure that deviates from ISO data.")
+    @click.option("-v", "--verbose", count=True)
+    @click.option("-V", "--version", is_flag=True, default=False)
+    @functools.wraps(f)
+    def wrapper_hyperglot_options(*args, **kwargs):
+        return f(*args, **kwargs)
+
+    return wrapper_hyperglot_options
+
 
 @click.command()
-@click.argument("fonts", type=click.Path(exists=True), callback=validate_font,
-                nargs=-1)
-@click.option("-s", "--support",
-              type=click.Choice(SUPPORTLEVELS.keys(), case_sensitive=False),
-              default="base", show_default=True,
-              help="Option to test only for the language's base charset, or to"
-              " also test for presence of all auxilliary characters, if "
-              "present in the database.")
-@click.option("-d", "--decomposed", is_flag=True, default=False,
-              help="When this option is set composable characters are not "
-              "required as precomposed characters, but a font is valid if it "
-              "has the required base and mark characters.")
-@click.option("-m", "--marks", is_flag=True, default=False,
-              help="When this option is set all combining marks for a "
-              "language are required, not just precomposed encoded "
-              "characters.")
-@click.option("--validity", type=click.Choice(VALIDITYLEVELS,
-                                              case_sensitive=False),
-              default=VALIDITYLEVELS[1], show_default=True,
-              help="The level of validity for languages matched against the "
-              "font. Weaker levels always include more strict levels. The "
-              "default includes all languages for which the database has "
-              "charset data.")
-@click.option("-a", "--autonyms", is_flag=True, default=False,
-              help="Flag to render languages names in their native name.")
-@click.option("--speakers", is_flag=True, default=False,
-              help="Flag to show how many speakers each languages has.")
-@click.option("--sort", "sorting",
-              type=click.Choice(SORTING, case_sensitive=False),
-              default="alphabetic", show_default=True)
-@click.option("--sort-dir",
-              type=click.Choice(SORTING_DIRECTIONS, case_sensitive=False),
-              default=SORTING_DIRECTIONS[0], show_default=True)
-@click.option("-o", "--output", type=click.File(mode="w", encoding="utf-8"),
-              help="Provide a name for a yaml file to write support "
-              "information to.")
-@click.option("-c", "--comparison",
-              type=click.Choice(MODES, case_sensitive=False),
-              default=MODES[0], show_default=True,
-              help="When passing in more than one file, a comparison can be "
-              "generated. By default each file's support is listed "
-              "individually. 'union' shows support for all languages "
-              "supported by the combination of the passed in fonts. "
-              "'intersection' shows the support all fonts have in common.")
-@click.option("-l", "--languages", default="", 
-              help="Pass in one or more comma-separated language names or ISO "
-              "code to output a detailed support report for this font.")
-@click.option("--include-all-orthographies", is_flag=True, default=False,
-              help="Flag to show all otherwise ignored orthographies of a "
-              "language.")
-@click.option("--include-historical", is_flag=True, default=False,
-              help="Flag to include otherwise ignored historical languages.")
-@click.option("--include-constructed", is_flag=True, default=False,
-              help="Flag to include otherwise ignored contructed languages.")
-@click.option("--strict-iso", is_flag=True, default=False,
-              help="Flag to display names and macrolanguage data "
-              "strictly abiding to ISO data. Without it apply some gentle "
-              "transforms to show preferred languages names and "
-              "macrolanguage structure that deviates from ISO data.")
-@click.option("--report-missing", 'report_num_missing', type=int, default=-1,
-              help="Parameter to report unmatched languages which are missing "
-              "n or less characters. If n is 0 all languages with any amount "
-              "missing characters are listed.")
-@click.option("--report-shaping", is_flag=True, default=False,
-              help="Flag to report languages which are not matched because "
-              "the font is missing shaping behaviour for some characters, and "
-              "output the affected characters.")
-@click.option("--report-joining", is_flag=True, default=False,
-              help="Flag to report languages which are not matched because "
-              "the font is missing joining behaviour for some characters, and "
-              "output the affected characters.")
-@click.option("-v", "--verbose", count=True)
-@click.option("-V", "--version", is_flag=True, default=False)
+@hyperglot_options
 def cli(fonts, support, decomposed, marks, validity, autonyms, 
         speakers, sorting, sort_dir,
         output, comparison, languages,
         include_all_orthographies, include_historical, include_constructed,
         strict_iso, 
-        report_num_missing, report_shaping, report_joining,
-        verbose, version):
+        verbose, version,
+        # Options not passed via Click, but only when forwarding the call
+        # from hyperglot-reporter
+        report_num_missing=-1,
+        report_joining=False,
+        report_marks=False):
     """
     Pass in one or more fonts to check their languages support
     """
@@ -306,12 +311,13 @@ def cli(fonts, support, decomposed, marks, validity, autonyms,
     if verbose == 1:
         loglevel = logging.INFO
     elif verbose > 1:
+        # For debugging verbosity also opt in to all near misses reporting
         loglevel = logging.DEBUG
         logging.getLogger("hyperglot.reporting.shaping").setLevel(logging.WARNING)
         logging.getLogger("hyperglot.reporting.joining").setLevel(logging.WARNING)
         report_num_missing = True
         report_joining = True
-        report_shaping = True
+        report_marks = True
     else:
         loglevel = logging.WARNING
 
@@ -326,7 +332,7 @@ def cli(fonts, support, decomposed, marks, validity, autonyms,
     # achieved via this special logger
     if report_num_missing >= 0:
         logging.getLogger("hyperglot.reporting.missing").setLevel(logging.WARNING)
-    if report_shaping:
+    if report_marks:
         logging.getLogger("hyperglot.reporting.shaping").setLevel(logging.WARNING)
     if report_joining:
         logging.getLogger("hyperglot.reporting.joining").setLevel(logging.WARNING)
@@ -349,7 +355,7 @@ def cli(fonts, support, decomposed, marks, validity, autonyms,
             include_historical=include_historical,
             include_constructed=include_constructed,
             report_num_missing=report_num_missing,
-            report_shaping=report_shaping,
+            report_marks=report_marks,
             report_joining=report_joining,
         )
 
@@ -540,3 +546,25 @@ def data(search):
     print(msg)
     for h in hits:
         print(h.presentation)
+
+
+@click.command()
+@hyperglot_options
+@click.option("--report-missing", 'report_num_missing', type=int, default=-1,
+            help="Parameter to report unmatched languages which are missing "
+            "n or less characters. If n is 0 all languages with any amount "
+            "missing characters are listed.")
+@click.option("--report-marks", is_flag=True, default=False,
+            help="Flag to report languages which are not matched because "
+            "the font is missing mark attachment for some characters, and "
+            "output the affected base + mark combinations.")
+@click.option("--report-joining", is_flag=True, default=False,
+            help="Flag to report languages which are not matched because "
+            "the font is missing joining behaviour for some characters, and "
+            "output the affected characters.")
+@click.pass_context
+def report(ctx, **kwargs):
+    """Reporter command to get a list of missing character and shaping
+    information for languages that the font does not support.
+    """
+    ctx.forward(cli, **kwargs)

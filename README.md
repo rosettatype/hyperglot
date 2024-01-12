@@ -94,13 +94,23 @@ hyperglot path/to/font.otf path/to/anotherfont.otf ...
 - `--include-historical`: Option to include languages and orthographies marked as historical (default is False)
 - `--include-constructed`: Option to include languages and orthographies that are marked as constructed (default is False)
 - `--strict-iso`: Display language names and macrolanguage data strictly according to ISO (default is False)
-- `--report-missing`: Parameter to report unmatched languages which are missing _n_ or less characters. If _n_ is 0 all languages with any amount missing characters are listed.
-- `--report-shaping`: Flag to report languages which are not matched because the font is missing shaping behaviour for some characters, and output the affected characters.
-- `--report-joining`: Flag to report languages which are not matched because the font is missing joining behaviour for some characters, and output the affected characters.
 - `-v, --verbose`: More logging information (default is False)
 - `-V, --version`: Print the version hyperglot version number (default is False)
 
 Installing the pip package also installed the `hyperglot-validate` and `hyperglot-save` commands, which allow checking and saving the yaml data in a structured and compatible way.
+
+
+### Finding *almost* supported languages
+
+Hyperglot comes with a `hyperglot-report` command that takes all the same options 
+the main `hyperglot` command (see above). It additionally takes these options to
+output reporting about what characters or shaping is missing in order to support
+language currently detected as not supported:
+
+- `--report-missing`: Parameter to report unmatched languages which are missing _n_ or less characters. If _n_ is 0 all languages with any amount missing characters are listed.
+- `--report-mark`: Flag to report languages which are not matched because the font is missing mark attachment for some characters combination, and output the affected base + mark combinations.
+- `--report-joining`: Flag to report languages which are not matched because the font is missing joining behaviour for some characters, and output the affected characters.
+
 
 ## Database and contributing
 
@@ -112,6 +122,7 @@ Updates are comitted/merged to the `dev` branch with the `master` branch holding
 
 ## Roadmap
 
+<<<<<<< HEAD
 - [ ] include records to track language and script specific punctuation and numerals
 - [x] comparison to Unicode CLDR
 - [ ] improve references for language data (use APA everywhere)
@@ -121,6 +132,12 @@ Updates are comitted/merged to the `dev` branch with the `master` branch holding
   - [x] check whether joining behaviour (aka presentation forms, e.g. Arabic or Syriac) is supported in the font
   - [ ] check whether character combinations are affected by the font instructions
   - [ ] an effective and scalable way to prescribe more complex character/mark combinations, e.g. for Arabic or Hindi/Devanagari
+=======
+- [] include records to track language and script specific punctuation and numerals
+- [] include character combinations required by abugidas/syllabic scripts, e.g. list of conjuncts required by Hindi etc.
+- [+] comparison and export to Unicode CLDR format
+- [+] analysis of OpenType features in font to check if character combinations are supported (implemented for basic base + mark as well as joining characters)
+>>>>>>> 00d7c44 (Refactored reporter to its own command)
 
 ## Authors and contributors
 

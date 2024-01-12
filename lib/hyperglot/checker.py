@@ -60,7 +60,7 @@ class Checker:
         include_historical=False,
         include_constructed=False,
         report_num_missing=0,
-        report_shaping=False,
+        report_marks=False,
         report_joining=False,
     ) -> dict:
         """
@@ -124,7 +124,7 @@ class Checker:
                 shaping=shaping,
                 check_all_orthographies=include_all_orthographies,  # noqa
                 report_num_missing=report_num_missing,
-                report_shaping=report_shaping,
+                report_marks=report_marks,
                 report_joining=report_joining,
                 # We want to explicitly get what scripts of a language are
                 # supported.
@@ -152,7 +152,7 @@ class Checker:
         shaping: bool = False,
         check_all_orthographies: bool = False,
         report_num_missing: int = -1,
-        report_shaping: bool = False,
+        report_marks: bool = False,
         report_joining: bool = False,
         return_script_object: bool = False,
     ) -> bool:
@@ -246,24 +246,27 @@ class Checker:
                         base_missing
                     ):
                         log_missing.warning(
-                            "%s missing base: %s" % (iso, ", ".join(base_missing))
+                            "%s missing characters for 'base': %s"
+                            % (iso, ", ".join(base_missing))
                         )
                     continue
 
             if shaping:
-                joining_errors, shaping_errors = self._check_shaping(
+                joining_errors, mark_errors = self._check_shaping(
                     ort, "base", marks, decomposed
                 )
                 if len(joining_errors) > 0 and report_joining:
                     log_joining.warning(
-                        "%s missing joining: %s" % (iso, ", ".join(joining_errors))
+                        "%s missing joining for 'base': %s"
+                        % (iso, ", ".join(joining_errors))
                     )
-                if len(shaping_errors) > 0 and report_shaping:
+                if len(mark_errors) > 0 and report_marks:
                     log_shaping.warning(
-                        "%s missing base shaping: %s" % (iso, ", ".join(shaping_errors))
+                        "%s missing mark attachment for 'base': %s"
+                        % (iso, ", ".join(mark_errors))
                     )
 
-                if len(joining_errors) > 0 or len(shaping_errors) > 0:
+                if len(joining_errors) > 0 or len(mark_errors) > 0:
                     continue
 
             # Only check aux if base is supported to begin with
@@ -287,25 +290,27 @@ class Checker:
                         aux_missing
                     ):
                         log_missing.warning(
-                            "%s missing base: %s" % (iso, ", ".join(aux_missing))
+                            "%s missing characters for 'base': %s"
+                            % (iso, ", ".join(aux_missing))
                         )
                     continue
 
                 if shaping:
-                    joining_errors, shaping_errors = self._check_shaping(
+                    joining_errors, mark_errors = self._check_shaping(
                         ort, "auxiliary", marks, decomposed
                     )
                     if len(joining_errors) > 0 and report_joining:
                         log_joining.warning(
-                            "%s missing joining: %s" % (iso, ", ".join(joining_errors))
+                            "%s missing joining for 'aux': %s"
+                            % (iso, ", ".join(joining_errors))
                         )
-                    if len(shaping_errors) > 0 and report_shaping:
+                    if len(mark_errors) > 0 and report_marks:
                         log_shaping.warning(
-                            "%s missing aux shaping: %s"
-                            % (iso, ", ".join(shaping_errors))
+                            "%s missing mark attachment for 'aux': %s"
+                            % (iso, ", ".join(mark_errors))
                         )
 
-                    if len(joining_errors) > 0 or len(shaping_errors) > 0:
+                    if len(joining_errors) > 0 or len(mark_errors) > 0:
                         continue
 
             if ort.script not in support:
@@ -321,7 +326,7 @@ class Checker:
         all_marks: bool,
         decomposed: bool,
         report_joining: bool = False,
-        report_shaping: bool = False,
+        report_marks: bool = False,
     ) -> tuple:
         """
         Check orthography shaping for given support level.
@@ -342,11 +347,9 @@ class Checker:
         if decomposed:
             check_attachment.extend([c for c in chars if c not in self.characters])
 
-        shaping_errors = orthography.check_mark_attachment(
-            check_attachment, self.shaper
-        )
+        mark_errors = orthography.check_mark_attachment(check_attachment, self.shaper)
 
-        return (joining_errors, shaping_errors)
+        return (joining_errors, mark_errors)
 
 
 class FontChecker(Checker):
