@@ -8,6 +8,8 @@ Where relevant, we also provide a brief design note containing tips about shapin
 
 Hyperglot is a work in progress provided AS IS, and the validity of its language data varies. To help you assess the validity of the results you view, each language in the database comes with a label indicating the quality of the data we have for it (e.g. some are considered `drafts`, some have been `verified`). We have checked the information against various online and offline sources and we are committed to continually improve it. However, we admit that mapping all the languages of the world in this way is beyond our capacity – we need help from users of each respective language! So, if you spot an issue or notice your favourite language is altogether missing from the database, get in touch. We will happily [incorporate your feedback and credit you](README_database.md#development-and-contributions).
 
+[Read more about Hyperglot on the web app about page](https://hyperglot.rosettatype.com/about)
+
 [The comparison of Hyperglot and the Unicode CLDR](README_comparison.md)
 
 ## How to use
@@ -30,14 +32,18 @@ A few notes to illustrate why the question of language support is complicated:
 
 It is important to note that **there is more to language support in fonts than supporting a set of code points**. A font needs to include glyphs with acceptable/readable shapes of the characters for a particular language. Sometimes there are regional or language variations for the same code point which means that different languages pose different requirements on the shape of a character, but identical requirements on the code point of the character. Moreover, glyphs have to interact as expected by the convention of a particular script/orthography. For example, some languages/scripts require (or strongly expect) certain glyph combinations to form ligatures or some glyph combinations require additional spacing correction (kerning) to prevent clashes or gaps. Thus, the report produced by the Hyperglot tools should only be used to detect whether a font can be considered for use with a particular language. It does not say anything about the quality of the design.
 
+[Read more about this on the web app about page](https://hyperglot.rosettatype.com/about)
+
 ## Detecting support
 
 Characters are represented using [Unicode](https://unicode.org) code points in digital texts, e.g. the Latin-script letter `a` has a code point `U+0061`. Digital OpenType fonts map these code points to glyphs, visual representations of characters. In order to find whether one can use a font for texts in a particular language, one needs to know which character code points are required for the language. This is what the Hyperglot database is for.
 
 1. A list of codepoints is obtained from a font.
 2. The database can be accessed in two modes:
-  - By **default** combinations of a base character with marks are required as single code point where this exists (e.g. encoded `ä`), codepoints for base characters and combining mark characters (e.g. `a` and combining `¨`) from these combinations are also required.
-  - Using the `decomposed` flag fonts are required to contain the base character and combining marks for a language (e.g. languages with `ä` will match for fonts that only have `a` and combining `¨` but not `ä` as encoded glyph).
+
+   - By default combinations of a base character with marks are required as single code point where this exists (e.g. encoded `ä`), codepoints for base characters and combining mark characters (e.g. `a` and combining `¨`) from these combinations are also required.
+   - Using the `decomposed` flag fonts are required to contain the base character and combining marks for a language (e.g. languages with `ä` will match for fonts that only have `a` and combining `¨` but not `ä` as encoded glyph).
+
 3. Specified `validity` level is used to filter out language entries according to a user’s preference.
 4. If requested, `base` and `aux` (auxiliary) lists of codepoints are combined to achieve more strict criteria by using the `--support` option. `marks` are always required, if set in the data.
 5. When detecting language support (default), code points from **all** primary orthographies for a given language are combined (need to be included to detect support of the language). Orthographies with `historical` and `secondary` status are ignored.
@@ -45,6 +51,8 @@ Characters are represented using [Unicode](https://unicode.org) code points in d
 7. If the list of code points in the font includes all code points from the list of codepoints from points 5 or 6, the font is considered to support this language/orthography. In listings these are grouped by scripts.
 
 The language-orthography combination means that a language that has multiple orthographies using different scripts (e.g., Serbian or Japanese) is listed under all of these scripts in the tools’ output.
+
+Important note: the web app currently does not include the shaping checks!
 
 ## Command-line tool
 
@@ -101,10 +109,15 @@ Updates are comitted/merged to the `dev` branch with the `master` branch holding
 
 ## Roadmap
 
-- [] include records to track language and script specific punctuation and numerals
-- [] include character combinations required by abugidas/syllabic scripts, e.g. list of conjuncts required by Hindi etc.
-- [] comparison and export to Unicode CLDR format
-- [] analysis of OpenType features in font to check if character combinations are supported
+- [ ] include records to track language and script specific punctuation and numerals
+- [x] comparison to Unicode CLDR
+- [ ] improve references for language data (use APA everywhere)
+- [ ] export in a way that would be useful to submit to Unicode CLDR
+- [ ] basic analysis of shaping instructions provided by the font (GPOS and GSUB)
+  - [x] analyse shaping during language detection: check whether `base + mark` combinations are affected by the font instructions
+  - [x] check whether joining behaviour (aka presentation forms, e.g. Arabic or Syriac) is supported in the font
+  - [ ] check whether character combinations are affected by the font instructions
+  - [ ] an effective and scalable way to prescribe more complex character/mark combinations, e.g. for Arabic or Hindi/Devanagari
 
 ## Authors and contributors
 
@@ -116,6 +129,7 @@ Main contributors, so far:
 - Johannes Neumeier <hello@johannesneumeier.com> @kontur (tool and tests)
 - Sérgio Martins @sergiolmartins (major expansion and review of the data, ca 250+ languages)
 - Toshi Omagari  @toshe (basic language data for many Cyrillic-script languages)
+- Denis Moyogo Jacquerye @moyogo
 
 [The full list of contributors](CONTRIBUTORS.txt)
 
@@ -123,7 +137,7 @@ Main contributors, so far:
 
 - [Unicode CLDR](http://cldr.unicode.org)
 - [Underware Latin Plus](https://underware.nl/latin_plus/)
-- [Alphabet Type’ Charset Checker](https://www.alphabet-type.com/tools/charset-checker/) (uses Unicode CLDR AFAIK)
+- [Alphabet Type’ Charset Checker](https://www.alphabet-type.com/tools/charset-checker/) (uses Unicode CLDR)
 - [Typekit Speakeasy](https://github.com/typekit/speakeasy)
 - [Adobe spreadsheets for Latin and Cyrillic](https://blog.typekit.com/2006/08/01/defining_an_ext/)
 - [WebINK character sets](http://web.archive.org/web/20150222004543/http://blog.webink.com/custom-font-subsetting-for-faster-websites/) 

@@ -6,7 +6,7 @@ The database is stored in the YAML file `lib/Hyperglot/data/xxx/xxx.yaml`.
 
 ### Languages
 
-The highest level entries in the database represent languages indexed using the ISO 639-3 code. Each language entry can have these attributes which default to empty string or list unless stated otherwise:
+The highest level entries in the database represent languages indexed using the ISO 639-3 code. (We are aware that opinions regarding what constitutes a dialect or language differ, but we have to adhere to an international standard.) Each language entry can have these attributes which default to empty string or list unless stated otherwise:
 
 - `name` (required): the English name of the language. This is also based on ISO 639-3. 
 - `preferred_name` (optional): an override of the ISO 639-3 name. This is useful when the ISO 639-3 name  is pejorative or racist. We also use this to simplify very long names and where we have a preference (e.g. Sami over Saami). This can be turned off when using the database via the CLI tool or module to adhere strictly to ISO 639-3.
