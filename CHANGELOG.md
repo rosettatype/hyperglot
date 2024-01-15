@@ -1,4 +1,22 @@
-# A changelog for the lib/hyperglot CLI tool
+# A changelog for the lib/hyperglot language database and CLI tool
+
+## 0.5.3 (13.12.2023)
+- DATA : Added Tlingit `tli` language data (thanks @jcrippen)
+- DATA: Fixed inconsistent note about `Ŋ` in various languages (thanks @moyogo)
+- TWEAK: Improved `hyperglot-validate` to spot lookalike characters in the wrong script, e.g. `a` (Latin U+0061) vs `а` (Cyrillic U+0430)
+- TWEAK: Explicitly ignore non-yaml files (e.g. operating system or other) in the data when parsing
+- TWEAK: Improved `hyperglot-validate` command to better catch yaml issues (thanks for reporting @jcrippen)
+
+## 0.5.2 (23.11.2023)
+- DATA: Removed orthography status `deprecated` and using `historical` for those instances
+- DATA: Added Ethiopic languages `awn`, `byn`, `gez`, `har`, `sgw`, `tig`, `xan` and updated `tir` (thanks @dyacob and @NeilSureshPatel)
+- DATA: Added Avestan
+- DATA: Corrections to `jbo` (thanks @berrymot)
+- DATA: Updated `sco` primary orthography (thanks @moyogo)
+- DATA: Some fixes to `kkj` orthography (thanks @moyogo)
+- DATA: Small note added to `Dagbani` (thanks @clauseggers and @moyogo)
+- DATA: Fix to Shan (`shn`) containing some stray Latin characters
+- FIX: Fix issue with file name conflicts on Windows systems
 
 ## 0.5.1 (21.06.2023)
 - FIX: Fix pypi missing data files

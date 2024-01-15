@@ -29,6 +29,11 @@ DUMP_ARGS = {
     "width": 999
 }
 
+# Avoid saving yaml files with 3 letter iso code in way not supported on
+# windows systems.
+# See https://learn.microsoft.com/en-us/windows/win32/fileio/naming-a-file#naming-conventions
+ESCAPE_ISO_FILENAMES = ["con", "prn", "aux", "nul", "com", "lpt"]
+
 
 def validate_font(ctx, param, value):
     """
@@ -177,10 +182,7 @@ def sorted_script_languages(obj):
 
 def write_yaml(file, data):
     """
-    Output of a CLI result into a yaml file.
-
-    Transform the data into the same structure as the rosetta.yaml, e.g. with
-    language iso top level keys only
+    Output of a CLI result into a yaml file indexed by iso.
     """
     write = {}
     for path, results in data.items():
@@ -452,6 +454,11 @@ def save_language(iso, data):
     """
     Save the language data of one language by its three letter iso (mostly)
     """
+
+    # Append underscore to escape file name for compliance with windows systems
+    if iso in ESCAPE_ISO_FILENAMES:
+        iso = f"{iso}_"
+
     file = open(os.path.join(DB, iso + ".yaml"), "w")
     yaml.dump(data, file, **DUMP_ARGS)
     logging.info(f"Saved lib/hyperglot/data/{iso}.yaml")

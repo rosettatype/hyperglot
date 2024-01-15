@@ -1,0 +1,13 @@
+name: Harari
+orthographies:
+- auxiliary: ሀ ሠ ኀ ዐ ዠ ጰ ጸ ፀ ፐ
+  base: ሐ ሑ ሒ ሓ ሔ ሕ ሖ ለ ሉ ሊ ላ ሌ ል ሎ መ ሙ ሚ ማ ሜ ም ሞ ረ ሩ ሪ ራ ሬ ር ሮ ሰ ሱ ሲ ሳ ሴ ስ ሶ ሸ ሹ ሺ ሻ ሼ ሽ ሾ ቀ ቁ ቂ ቃ ቄ ቅ ቆ በ ቡ ቢ ባ ቤ ብ ቦ ተ ቱ ቲ ታ ቴ ት ቶ ቸ ቹ ቺ ቻ ቼ ች ቾ ነ ኑ ኒ ና ኔ ን ኖ ኘ ኙ ኚ ኛ ኜ ኝ ኞ አ አ ኢ ኣ ኤ እ ኦ ከ ኩ ኪ ካ ኬ ክ ኮ ኸ ኹ ኺ ኻ ኼ ኽ ኾ ወ ዉ ዊ ዋ ዌ ው ዎ ዘ ዙ ዚ ዛ ዜ ዝ ዞ የ ዩ ዪ ያ ዬ ይ ዮ ደ ዱ ዲ ዳ ዴ ድ ዶ ጀ ጁ ጂ ጃ ጄ ጅ ጆ ገ ጉ ጊ ጋ ጌ ግ ጎ ጠ ጡ ጢ ጣ ጤ ጥ ጦ ጨ ጩ ጪ ጫ ጬ ጭ ጮ ፈ ፉ ፊ ፋ ፌ ፍ ፎ
+  script: Ge'ez/Fidel
+  status: primary
+source:
+- Harari Language Research Academy. "ቁራስ" - ጩቅቲ ኪታብ, "Quras" - Chuqti Kitab. Harari Language Research Academy. 2002 (2009EC). Harar, Ethiopia.
+- Wikipedia
+speakers: 25810
+speakers_data: 2007
+status: living
+validity: preliminary

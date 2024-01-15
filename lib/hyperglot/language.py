@@ -1,3 +1,6 @@
+"""
+Helper classes to work with the lib/hyperglot/data in more pythonic way
+"""
 import logging
 import unicodedata2
 from .parse import (parse_chars, parse_marks, remove_mark_base, list_unique,
@@ -30,7 +33,7 @@ class Language(dict):
 
     def __init__(self, data, iso):
         """
-        Init a single Language with the data from rosetta.yaml
+        Init a single Language with the data from lib/hyperglot/data yaml.
 
         @param data dict: The raw data as found in the yaml
         @param iso str: Iso 3 letter iso code that is the key in the yaml. Keep
@@ -233,7 +236,8 @@ validity: {validity}
             characters.
         @param marks bool: Flag to require all marks.
         @param checkAllOrthographies bool: Flag to check also non-primary
-            orthographies from this Language object. False by default.
+            orthographies from this Language object. 'transliteration' 
+            orthographies are always ignored. False by default.
         @param pruneOthographies bool: Flag to remove non-supported
             orthographies from this Language object.
         @return dict: Dict sorted by 1) script 2) list of isos.
@@ -260,7 +264,7 @@ validity: {validity}
         if checkAllOrthographies:
             orthographies = [o for o in self["orthographies"]
                              if "status" not in o or
-                             o["status"] != "deprecated"]
+                             o["status"] != "transliteration"]
         else:
             orthographies = [o for o in self["orthographies"]
                              if "status" in o and o["status"] == "primary"]

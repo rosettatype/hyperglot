@@ -1,7 +1,7 @@
 name: Shan
 orthographies:
 - autonym: လိၵ်ႈတႆး / ၵႂၢမ်းတႆး
-  base: ၵ ၶ င ၸ သ ၺ တ ထ ၼ ပ ၽ ၾ မ ယ ရ လ ဝ ႁ ဢ a i ( )
+  base: ၵ ၶ င ၸ သ ၺ တ ထ ၼ ပ ၽ ၾ မ ယ ရ လ ဝ ႁ ဢ
   design_requirements:
   - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
   marks: ◌ိ ◌ီ ◌ု ◌ူ ◌ေ ◌ဵ ◌း ◌် ◌ျ ◌ြ ◌ွ ◌ၢ ◌ႂ ◌ႃ ◌ႄ ◌ႅ ◌ႆ ◌ႇ ◌ႈ ◌ႉ ◌ႊ

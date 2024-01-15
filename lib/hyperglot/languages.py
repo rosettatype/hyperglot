@@ -1,7 +1,8 @@
 """
-Helper classes to work with the rosetta.yaml data in more pythonic way
+Helper classes to work with the lib/hyperglot/data in more pythonic way
 """
 import os
+import re
 import yaml
 import logging
 from .language import Language
@@ -73,10 +74,27 @@ class Languages(dict):
 
         # Load raw yaml data for all languages
         for file in os.listdir(DB):
-            iso = os.path.splitext(file)[0]
-            with open(os.path.join(DB, file), "rb") as f:
-                data = yaml.load(f, Loader=yaml.Loader)
-                self[iso] = data
+            if file.startswith(".") or not file.endswith(".yaml"):
+                log.debug(f"Skipping irrelevant data file '{file}'")
+                continue
+            # Remove possibly appended escape underscore to get iso from
+            # filename
+            iso = re.sub(r"_", "", os.path.splitext(file)[0])
+            
+            try:
+                with open(os.path.join(DB, file), "rb") as f:
+                    data = yaml.load(f, Loader=yaml.Loader)
+                    if not isinstance(data, dict):
+                        raise ValueError("Not a dictionary")
+                    self[iso] = data
+
+            # Catch various formatting issues in the yaml files
+            except ValueError as e:
+                log.error(f"Malformed data in {file}: {e}")
+            except yaml.scanner.ScannerError as e:
+                log.error(f"Malformed data in {file}: {e}" )
+            except yaml.parser.ParserError as e:
+                log.error(f"Malformed data in {file}: {e}" )
 
         if inherit:
             self.inherit_orthographies_from_macrolanguage()

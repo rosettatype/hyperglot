@@ -7,19 +7,36 @@ of a check for the data file to be used when entering and saving data.
 import os
 import re
 import yaml
+import click
 import logging
 import pprint
 import colorlog
 import unicodedata2
 from .languages import Languages
+from .language import Orthography
 from .parse import (parse_chars, parse_marks)
-from . import (STATUSES, VALIDITYLEVELS, ORTHOGRAPHY_STATUSES)
+from . import (__version__, STATUSES, VALIDITYLEVELS, ORTHOGRAPHY_STATUSES)
 
 handler = colorlog.StreamHandler()
 handler.setFormatter(colorlog.ColoredFormatter('%(log_color)s%(message)s'))
 log = colorlog.getLogger()
 log.setLevel(logging.WARNING)
 log.addHandler(handler)
+
+UNICODE_CONFUSABLES = {
+    # Revise as needed
+
+    "Latin": ["а", "с", "ԁ", "е", "һ", "і", "ј", "ʝ", "κ", "ӏ", "ո", "о", "ο", 
+              "օ", "р", "զ", "ʂ", "т", "υ", "ս", "ν", "ѵ", "х", "у", "ʐ",
+              "А", "В", "Е", "К", "М", "Н", "О", "Р", "С", "Т", "У", "Х"
+              ],
+
+    "Cyrillic": ["a", "c", "d", "e", "h", "j" "k", "K", "o", "u", "y",
+                 "A", "B", "E", "K", "M", "H", "O", "P", "C", "T", "Y", "X"],
+                 
+    # TODO Greek maybe less prevailant because less Greek script languages are
+    # added, but large potential for confusion with all sorts of math symbols
+}
 
 
 def nice_char_list(chars):
@@ -34,16 +51,16 @@ def nice_char_list(chars):
 
 def check_yaml():
 
-    try:
+    # try:
         log.debug("YAML file structure ok and can be read")
         # Use prune=False to validate the orthographies raw
         return Languages(validity=VALIDITYLEVELS[0])
-    except yaml.scanner.ScannerError as e:
-        log.error("Malformed yaml:")
-        print(e)
-    except yaml.parser.ParserError as e:
-        log.error("Malformed yaml:")
-        print(e)
+    # except yaml.scanner.ScannerError as e:
+    #     log.error("Malformed yaml:")
+    #     print(e)
+    # except yaml.parser.ParserError as e:
+    #     log.error("Malformed yaml:")
+    #     print(e)
 
 
 def check_types(Langs):
@@ -75,22 +92,22 @@ def check_types(Langs):
                                   % iso)
 
                 # Temporary check to review mark refactor results
-                if "marks" in o and "inherit" not in o and "script" in o and \
-                        o["script"] in ("Latin", "Cyrillic", "Greek"):
-                    marks_base = parse_marks(o["base"]) if "base" in o else []
-                    marks_aux = parse_marks(o["auxiliary"]) if "auxiliary" in o else []  # noqa
-                    marks = parse_marks(o["marks"])
-                    marks_decomposed = set(sorted(marks_base + marks_aux))
-                    diff = set(sorted(marks)).difference(marks_decomposed)
-                    if set(sorted(marks)) != marks_decomposed \
-                            and diff is not None:
-                        log.warning("'%s' (%s) has marks which are not "
-                                    "decomposed from base or auxiliary. Check "
-                                    "if the orthography is missing unencoded "
-                                    "base + mark combinations and that the "
-                                    "marks are indeed used in the orthography:"
-                                    "\n%s" %
-                                    (iso, lang["name"], nice_char_list(diff)))
+                # if "marks" in o and "inherit" not in o and "script" in o and \
+                #         o["script"] in ("Latin", "Cyrillic", "Greek"):
+                #     marks_base = parse_marks(o["base"]) if "base" in o else []
+                #     marks_aux = parse_marks(o["auxiliary"]) if "auxiliary" in o else []  # noqa
+                #     marks = parse_marks(o["marks"])
+                #     marks_decomposed = set(sorted(marks_base + marks_aux))
+                #     diff = set(sorted(marks)).difference(marks_decomposed)
+                #     if set(sorted(marks)) != marks_decomposed \
+                #             and diff is not None:
+                #         log.warning("'%s' (%s) has marks which are not "
+                #                     "decomposed from base or auxiliary. Check "
+                #                     "if the orthography is missing unencoded "
+                #                     "base + mark combinations and that the "
+                #                     "marks are indeed used in the orthography:"
+                #                     "\n%s" %
+                #                     (iso, lang["name"], nice_char_list(diff)))
 
                 allowed = ["autonym", "inherit", "script", "base", "marks",
                            "auxiliary", "numerals", "status", "note",
@@ -173,6 +190,11 @@ def check_is_valid_glyph_string(glyphs, iso=None):
     if re.findall(r" {2,}", glyphs):
         log.error("More than single space in '%s'" % glyphs)
         log.error(pprint.pformat([g for g in re.findall(r" {2,}", glyphs)]))
+        return False
+    
+    if re.findall(r",+[^,]*,+", glyphs):
+        log.error("Characters should be space separated, found commas: '%s'" %
+                  glyphs)
         return False
 
     for c in glyphs:
@@ -316,8 +338,37 @@ def check_autonym_spelling(ort):
     return autonym_chars.issubset(chars), list(chars), missing
 
 
-def validate():
-    log.setLevel(logging.DEBUG)
+def check_script_characters(Langs):
+    for iso, data in Langs.items():
+        Lang = getattr(Langs, iso)
+        if "orthographies" not in Lang:
+            continue
+        for o in Lang["orthographies"]:
+            o = Orthography(o)
+
+            if o.script not in UNICODE_CONFUSABLES.keys():
+                continue
+
+            all = o.base_chars + o.auxiliary_chars
+            for char in all:
+                if char in UNICODE_CONFUSABLES[o.script]:
+                    log.error(
+                        f"'{iso}' ({o.script}) has a unicode lookalike character: "
+                        f"'{char}' ({hex(ord(char))} - {unicodedata2.name(char)}) "
+                        "— confirm the character is of the right script!"
+                    )
+
+@click.command()
+@click.option("-v", "--verbose", is_flag=True, default=False)
+def validate(verbose):
+
+    log.setLevel(logging.WARNING)
+    
+    if verbose:
+        log.setLevel(logging.DEBUG)
+        logging.getLogger("hyperglot.languages").setLevel(logging.DEBUG)
+        logging.getLogger("hyperglot.languagee").setLevel(logging.DEBUG)
+        print("Hyperglot version: %s" % __version__)
 
     ISO_639_3 = "../../other/iso-639-3.yaml"
     try:
@@ -341,8 +392,14 @@ def validate():
 
     print()
     log.debug("Loading iso-639-3.yaml for names and macro language checks")
-    Langs = check_yaml()
+
+    try:
+        Langs = check_yaml()
+    except KeyError as e:
+        log.error(f"Issues in data files: {e}")
+        return
 
     check_types(Langs)
     check_names(Langs, iso_data)
     check_macrolanguages(Langs, iso_data)
+    check_script_characters(Langs)

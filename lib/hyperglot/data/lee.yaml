@@ -2,7 +2,7 @@ name: Lyele
 orthographies:
 - base: A B C D E Ə Ɛ F G H I J K L M N Ŋ O Ɔ P R S T U V W Y Z a b c d e ə ɛ f g h i j k l m n ŋ o ɔ p r s t u v w y z À È Ə̀ Ɛ̀ Ì Ǹ Ò Ɔ̀ Ù Á É Ə́ Ɛ́ Í Ń Ó Ɔ́ Ú Ǎ Ě Ə̌ Ɛ̌ Ǐ Ǒ Ɔ̌ Ǔ Â Ê Ə̂ Ɛ̂ Î Ô Ɔ̂ Û Ã Ẽ Ɛ̃ Ĩ Õ Ũ Ã̀ Ẽ̀ Ɛ̃̀ Ĩ̀ Õ̀ Ũ̀ Ã́ Ẽ́ Ɛ̃́ Ĩ́ Ṍ Ṹ Ã̌ Ẽ̌ Ɛ̃̌ Ĩ̌ Õ̌ Ũ̌ à è ə̀ ɛ̀ ì ǹ ò ɔ̀ ù á é ə́ ɛ́ í ń ó ɔ́ ú ǎ ě ə̌ ɛ̌ ǐ ǒ ɔ̌ ǔ â ê ə̂ ɛ̂ î ô ɔ̂ û ã ẽ ɛ̃ ĩ õ ũ ã̀ ẽ̀ ɛ̃̀ ĩ̀ õ̀ ũ̀ ã́ ẽ́ ɛ̃́ ĩ́ ṍ ṹ ã̌ ẽ̌ ɛ̃̌ ĩ̌ õ̌ ũ̌
   design_requirements:
-  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ on cap height favoured in Afrikan languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in African languages, and the other resembling N with J as the second stem favoured in Sami languages.
   marks: ◌́ ◌̀ ◌̂ ◌̃ ◌̌
   note: Hartell 1993 does not include ◌̂.
   script: Latin

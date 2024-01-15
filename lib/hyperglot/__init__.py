@@ -2,7 +2,7 @@
 Gather a few package wide constants
 """
 from os import path
-__version__ = "0.5.1"
+__version__ = "0.5.3"
 
 DB = path.abspath(path.join(path.dirname(__file__), "data"))
 
@@ -11,6 +11,7 @@ SUPPORTLEVELS = {
     "aux": "auxiliary"
 }
 
+# TODO Refactor these levels and status as Enum's
 
 # Note that order matters, since these may be used like a logging level
 VALIDITYLEVELS = [
@@ -33,11 +34,11 @@ STATUSES = [
 
 
 # Possible orthography statuses, in no meaningful order
+# "deprecated" orthography status removed in favour of "historical"
 ORTHOGRAPHY_STATUSES = [
     "primary",
     "local",
     "secondary",
-    "deprecated",
     "historical",
     "transliteration",
 ]
