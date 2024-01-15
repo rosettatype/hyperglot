@@ -5,7 +5,7 @@ there are changed or new joining character types)
 """
 import re
 import yaml
-from hyperglot.main import DUMP_ARGS
+from hyperglot.cli import DUMP_ARGS
 
 source = "other/DerivedJoiningType.txt"
 output = "lib/hyperglot/extra_data/joining-types.yaml"

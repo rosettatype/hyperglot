@@ -1,5 +1,5 @@
 from hyperglot.languages import Languages
-from hyperglot.main import save_sorted
+from hyperglot.cli import save_sorted
 from hyperglot.parse import character_list_from_string, list_unique
 
 Langs = Languages(inherit=False, prune=False)

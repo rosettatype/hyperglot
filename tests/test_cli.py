@@ -7,7 +7,7 @@ import re
 import yaml
 from collections import OrderedDict
 from click.testing import CliRunner
-from hyperglot.main import (cli, intersect_results,
+from hyperglot.cli import (cli, intersect_results,
                             union_results, sorted_script_languages)
 
 runner = CliRunner()
@@ -19,7 +19,7 @@ plex_arabic = os.path.abspath("tests/plex-4.0.2/IBM-Plex-Sans-Arabic/fonts/compl
 plex_arabic_without_medi_fina = os.path.abspath("tests/plex-4.0.2/IBM-Plex-Sans-Arabic/fonts/complete/otf/IBMPlexSansArabic-Regular-without-medi-fina.otf")  # noqa
 
 
-def test_main_cli_basic():
+def test_cli_basic():
     res = runner.invoke(cli, [eczar])
     assert res.exit_code == 0
     assert "languages of Latin script" in res.output
@@ -29,7 +29,7 @@ def test_main_cli_basic():
     assert "Sanskrit" in res.output
 
 
-def test_main_cli_support_aux():
+def test_cli_support_aux():
     res = runner.invoke(cli, [eczar])
     assert res.exit_code == 0
     assert ", German," in res.output
@@ -48,7 +48,7 @@ def test_main_cli_support_aux():
     assert "Standard Arabic" not in res.output
 
 
-def test_main_cli_decomposed():
+def test_cli_decomposed():
     """
     Tests that when requiring only "composable components" the language
     coverage should be wider (as compared to requiring encoded characters by
@@ -83,7 +83,7 @@ def test_main_cli_decomposed():
     assert total_default <= total_decomposed
 
 
-def test_main_cli_marks():
+def test_cli_marks():
     total = re.compile(r"(\d+) languages supported in total.")
 
     # With Eczar which has all marks crudely removed
@@ -107,7 +107,7 @@ def test_main_cli_marks():
     assert total_no_marks > total_no_marks_flag
 
 
-def test_main_cli_include_constructed():
+def test_cli_include_constructed():
     res = runner.invoke(cli, plex_arabic)
     assert "Interlingua" not in res.output
 
@@ -115,7 +115,7 @@ def test_main_cli_include_constructed():
     assert "Interlingua" in res.output
 
 
-def test_main_cli_include_all_orthographies():
+def test_cli_include_all_orthographies():
     res = runner.invoke(cli, plex_arabic)
     # Has Cyrillic primary, but Latin secondaries
 
@@ -131,7 +131,7 @@ def test_main_cli_include_all_orthographies():
     assert "Assyrian Neo-Aramaic" in res.output
 
 
-def test_main_cli_joining():
+def test_cli_joining():
     res = runner.invoke(cli, plex_arabic)
 
     # A correctly shaping Arabic font should support Arabic
@@ -144,7 +144,7 @@ def test_main_cli_joining():
     assert "languages of Arabic script:" not in res.output
 
 
-def test_main_cli_output(yaml_output):
+def test_cli_output(yaml_output):
     res = runner.invoke(cli, eczar + " -o %s" % yaml_output)
 
     # CLI without errors
@@ -161,7 +161,7 @@ def test_main_cli_output(yaml_output):
         assert "fin" in data.keys()
 
 
-def test_main_cli_output_union(yaml_output):
+def test_cli_output_union(yaml_output):
     res = runner.invoke(cli, "%s %s -o %s -c union" %
                         (eczar, plex_arabic, yaml_output))
 
@@ -184,7 +184,7 @@ def test_main_cli_output_union(yaml_output):
         assert "azb" in data.keys()
 
 
-def test_main_cli_output_intersection(yaml_output):
+def test_cli_output_intersection(yaml_output):
     res = runner.invoke(cli, "%s %s -o %s -c intersection" %
                         (eczar, plex_arabic, yaml_output))
 
@@ -207,7 +207,7 @@ def test_main_cli_output_intersection(yaml_output):
         assert "azb" not in data.keys()
 
 
-def test_main_cli_output_multiple(yaml_output):
+def test_cli_output_multiple(yaml_output):
     res = runner.invoke(cli, "%s %s -o %s" %
                         (eczar, plex_arabic, yaml_output))
 

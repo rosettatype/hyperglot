@@ -55,12 +55,12 @@ setup(name="hyperglot",
       include_package_data=True,
       entry_points={
           "console_scripts": [
-              "hyperglot = hyperglot.main:cli",
-              "hyperglot-report = hyperglot.main:report",
-              "hyperglot-data = hyperglot.main:data",
+              "hyperglot = hyperglot.cli:cli",
+              "hyperglot-report = hyperglot.cli:report",
+              "hyperglot-data = hyperglot.cli:data",
               "hyperglot-validate = hyperglot.validate:validate",
-              "hyperglot-save = hyperglot.main:save_sorted",
-              "hyperglot-export = lib.hyperglot.main:export"
+              "hyperglot-save = hyperglot.cli:save_sorted",
+              "hyperglot-export = lib.hyperglot.cli:export"
           ]
       },
       install_requires=[
