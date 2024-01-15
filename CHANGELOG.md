@@ -3,7 +3,7 @@
 ## 0.6.0 (WIP)
 - FEATURE: Implemented shaping checks for mark positioning when required by unencoded base + mark combinations or  `--decompose`
 - FEATURE: Implemented shaping checks for connecting scripts to detect presence of required positional forms
-- FEATURE: Implemented `hyperglot-report` command with same options as `hyperglot` and additional `--report-missing n`, `--report-marks` and `--report-joining` parameters/flags for outputting closes misses
+- FEATURE: Implemented `hyperglot-report` command with same options as `hyperglot` and additional `--report-missing n`, `--report-marks n` and `--report-joining n` — or `--report-all n` to toggle all aforementioned — parameters/flags for outputting languages _almost_ supported by the font 
 - TWEAK: Support checking is now done via `hyperglot.checker` objects for cleaner separation between language data and checking fonts
 - TWEAK: Various python APIs and objects changed and refactored
 - TWEAK: Bumped required python version to 3.8.0

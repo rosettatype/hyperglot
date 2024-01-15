@@ -161,19 +161,24 @@ def test_supports_marks():
     assert CharsetChecker(chars).supports_language("deu", marks=True) is False
 
 
-def test_supports_decomposed_no_marks(caplog):
+def test_supports_decomposed_only_marks(caplog):
     caplog.set_level(logging.WARNING, logger="hyperglot.reporting.missing")
-    
+
     eczar = os.path.abspath("tests/Eczar-v1.004/otf/Eczar-Regular.otf")
     chars = parse_font_chars(eczar)
 
-    # Let's fake a font with no combining marks
-    chars = [c for c in chars if not uni.category(c).startswith("M")]
-    
-    logging.getLogger
+    # Let's fake a font's chars which has all precomposed chars removed which
+    # can be combined from base + mark combinations
+    _chars = []
+    for c in chars:
+        if (
+            not uni.category(c).startswith("L")
+            or len(uni.decomposition(c).split(" ")) < 2
+        ):
+            _chars.append(c)
+            continue
 
-    # The font which has no marks but all encoded characters should still match
-    assert CharsetChecker(chars).supports_language("deu", decomposed=True)
+    assert CharsetChecker(_chars).supports_language("deu", decomposed=True)
 
 
 def test_supports_decomposed():
@@ -334,7 +339,9 @@ def test_language_mark_attachment():
 def test_shaper_greek_marks():
     # Base for 'fin' but missing ÄÅ so we can check if decomposed=True will
     # actually compose and attach marks correctly
-    fin_base_without_a_umlauts = character_list_from_string("ABCDEFGHIJKLMNOPQRSTUVWXYZÖabcdefghijklmnopqrstuvwxyzäöå")
+    fin_base_without_a_umlauts = character_list_from_string(
+        "ABCDEFGHIJKLMNOPQRSTUVWXYZÖabcdefghijklmnopqrstuvwxyzäöå"
+    )
     fin_marks = parse_marks("◌̈ ◌̊ ◌̃ ◌̌")
 
     # The font needs to actually support the mark positioning, but we want to
@@ -353,39 +360,53 @@ def test_shaper_greek_marks():
 
 def test_checker_missing(caplog):
     caplog.set_level(logging.WARNING, logger="hyperglot.reporting.missing")
-    
+
     checker = CharsetChecker(ascii)
 
-    # Basic ascii should be missing 4 characters for English, so 
+    # Basic ascii should be missing 4 characters for English, so
     # this should log:
-    checker.supports_language("eng", report_num_missing=4)
+    checker.supports_language("eng", report_missing=4)
     record = caplog.records[0]
     assert record.levelno == logging.WARNING
-    assert 'eng missing base' in record.msg
+    assert "eng missing characters for 'base'" in record.msg
     caplog.clear()
 
     # but this should not log:
-    checker.supports_language("eng", report_num_missing=3)
+    checker.supports_language("eng", report_missing=3)
     assert len(caplog.records) == 0
 
 
-def test_checker_shaping(caplog):
+def test_checker_marks(caplog):
     caplog.set_level(logging.WARNING, logger="hyperglot.reporting.marks")
 
     checker = FontChecker(eczar)
-    checker.supports_language("mah", report_shaping=True)
-    
+    checker.supports_language("mah", report_marks=6)
+
     record = caplog.records[0]
     assert record.levelno == logging.WARNING
-    assert "mah missing base shaping" in record.msg
+    assert "mah missing mark attachment for 'base'" in record.msg
+
+    caplog.clear()
+
+    # Checking for languages with at most 5 mark errors should not return mah
+    # because it has 6 errors
+    checker.supports_language("mah", report_marks=5)
+    assert len(caplog.records) == 0
 
 
 def test_checker_joining(caplog):
     caplog.set_level(logging.WARNING, logger="hyperglot.reporting.joining")
 
     checker = FontChecker(plex_arabic_without_medi_fina)
-    checker.supports_language("acm", report_joining=True)
+    checker.supports_language("acm", report_joining=99)
 
     record = caplog.records[0]
     assert record.levelno == logging.WARNING
-    assert "acm missing joining" in record.msg
+    assert "acm missing joining forms" in record.msg
+
+    caplog.clear()
+
+    # Checking for languages with at most 1 joining error should not return
+    # acm, because it is missing two dozen
+    checker.supports_language("acm", report_joining=1)
+    assert len(caplog.records) == 0

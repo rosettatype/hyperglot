@@ -59,9 +59,9 @@ class Checker:
         include_all_orthographies=False,
         include_historical=False,
         include_constructed=False,
-        report_num_missing=0,
-        report_marks=False,
-        report_joining=False,
+        report_missing=-1,
+        report_marks=-1,
+        report_joining=-1,
     ) -> dict:
         """
         Get all languages supported based on the passed in characters.
@@ -80,6 +80,12 @@ class Checker:
             (default) orthographies of a language.
         @param include_historical bool: Flag to include historical languages.
         @param include_constructed bool: Flag to include constructed languages.
+        @param report_missing int: Report languages with <= n issues. Report 
+            any number of issues when 0, andreport nothing when -1 (default).
+        @param report_marks int: Report languages with <= n issues. Report 
+            any number of issues when 0, andreport nothing when -1 (default).
+        @param report_joining int: Report languages with <= n issues. Report 
+            any number of issues when 0, andreport nothing when -1 (default).
         @return dict: Returns a dict with script-keys and values of dicts of
             iso-keyed language data.
         """
@@ -123,7 +129,7 @@ class Checker:
                 marks=marks,
                 shaping=shaping,
                 check_all_orthographies=include_all_orthographies,  # noqa
-                report_num_missing=report_num_missing,
+                report_missing=report_missing,
                 report_marks=report_marks,
                 report_joining=report_joining,
                 # We want to explicitly get what scripts of a language are
@@ -151,9 +157,9 @@ class Checker:
         marks: bool = False,
         shaping: bool = False,
         check_all_orthographies: bool = False,
-        report_num_missing: int = -1,
-        report_marks: bool = False,
-        report_joining: bool = False,
+        report_missing: int = -1,
+        report_marks: int = -1,
+        report_joining: int = -1,
         return_script_object: bool = False,
     ) -> bool:
         """
@@ -170,6 +176,12 @@ class Checker:
         @param check_all_orthographies bool: Flag to check also non-primary
             orthographies from this Language object. 'transliteration'
             orthographies are always ignored. False by default.
+        @param report_missing int: Report languages with <= n issues. Report 
+            any number of issues when 0, andreport nothing when -1 (default).
+        @param report_marks int: Report languages with <= n issues. Report 
+            any number of issues when 0, andreport nothing when -1 (default).
+        @param report_joining int: Report languages with <= n issues. Report 
+            any number of issues when 0, andreport nothing when -1 (default).
         @param return_script_object bool: Flag to return a dict of languages
             sorted by scripts. The default (false) returns a boolean indicating
             the checked language's support. This is mostly used internally when
@@ -245,35 +257,46 @@ class Checker:
                     % (iso, format_missing_unicodes(base, self.characters))
                 )
                 base_missing = base.difference(self.characters)
+                
                 if len(base_missing) > 0:
-                    if report_num_missing == 0 or report_num_missing >= len(
-                        base_missing
-                    ):
+                    # Reporting output
+                    if report_missing == 0 or report_missing >= len(base_missing):
                         log_missing.warning(
                             "%s missing characters for 'base': %s"
                             % (iso, ", ".join(base_missing))
                         )
-                    supported = False
 
+                    # Validation
+                    supported = False
+                    logging.info(
+                        f"Missing {len(base_missing)} base characters for {iso}"
+                    )
+            
             if shaping:
                 joining_errors, mark_errors = self._check_shaping(
                     ort, "base", marks, decomposed
                 )
-                if len(joining_errors) > 0 and report_joining:
-                    log_joining.warning(
-                        "%s missing joining for 'base': %s"
-                        % (iso, ", ".join(joining_errors))
-                    )
-                if len(mark_errors) > 0 and report_marks:
-                    log_marks.warning(
-                        "%s missing mark attachment for 'base': %s"
-                        % (iso, ", ".join(mark_errors))
-                    )
 
+                # Reporting output
+                if len(joining_errors) > 0:
+                    if report_joining == 0 or report_joining >= len(joining_errors):
+                        log_joining.warning(
+                            "%s missing joining forms for 'base': %s"
+                            % (iso, ", ".join(joining_errors))
+                        )
+                if len(mark_errors) > 0:
+                    if report_marks == 0 or report_marks >= len(mark_errors):
+                        log_marks.warning(
+                            "%s missing mark attachment for 'base': %s"
+                            % (iso, ", ".join(mark_errors))
+                        )
+
+                # Validation
                 if len(joining_errors) > 0 or len(mark_errors) > 0:
                     supported = False
+                    logging.info(f"Missing base shaping for {iso}")
 
-            # If an orthography has no "auxiliary" we consider it supported on 
+            # If an orthography has no "auxiliary" we consider it supported on
             # "auxiliary" level, too.
             if supportlevel == "aux" and ort.auxiliary:
                 if marks:
@@ -285,37 +308,46 @@ class Checker:
                     log.debug(f"Required aux marks for {iso}: {req_marks_aux}")
 
                 aux = set(ort.auxiliary_chars + req_marks_aux)
-
                 aux_missing = aux.difference(self.characters)
+
                 if len(aux_missing) > 0:
-                    if report_num_missing == 0 or report_num_missing >= len(
-                        aux_missing
-                    ):
+                    # Reporting output
+                    if report_missing == 0 or report_missing >= len(aux_missing):
                         log_missing.warning(
                             "%s missing characters for 'base': %s"
                             % (iso, ", ".join(aux_missing))
                         )
+
+                    # Validation
                     supported = False
-                        
+                    logging.info(
+                        f"Missing {len(aux_missing)} 'aux' characters for {iso}"
+                    )
 
                 if shaping:
                     joining_errors, mark_errors = self._check_shaping(
                         ort, "auxiliary", marks, decomposed
                     )
-                    if len(joining_errors) > 0 and report_joining:
-                        log_joining.warning(
-                            "%s missing joining for 'aux': %s"
-                            % (iso, ", ".join(joining_errors))
-                        )
-                    if len(mark_errors) > 0 and report_marks:
-                        log_marks.warning(
-                            "%s missing mark attachment for 'aux': %s"
-                            % (iso, ", ".join(mark_errors))
-                        )
 
+                    # Reporing output
+                    if len(joining_errors) > 0:
+                        if report_joining == 0 or report_joining >= len(joining_errors):
+                            log_joining.warning(
+                                "%s missing joining forms for 'aux': %s"
+                                % (iso, ", ".join(joining_errors))
+                            )
+                    if len(mark_errors) > 0:
+                        if report_marks == 0 or report_marks > len(mark_errors):
+                            log_marks.warning(
+                                "%s missing mark attachment for 'aux': %s"
+                                % (iso, ", ".join(mark_errors))
+                            )
+
+                    # Validation
                     if len(joining_errors) > 0 or len(mark_errors) > 0:
                         supported = False
-            
+                        logging.info(f"Missing aux shaping for {iso}")
+
             # At this point, if not supported, skip.
             if not supported:
                 continue
@@ -334,7 +366,8 @@ class Checker:
         decomposed: bool,
     ) -> tuple:
         """
-        Check orthography shaping for given support level.
+        Check orthography shaping (joining behaviour and mark attachment) for
+        given support level.
         """
         joining_errors = orthography.check_joining(
             orthography.get_chars(attr, all_marks), self.shaper
