@@ -39,7 +39,11 @@ class Language(dict):
         self.update(data)
 
     def __repr__(self):
-        return "Language object '%s'" % self.get_name()
+        # return "Language object '%s'" % self.get_name()
+        return f"Language ({self.iso}) {self.get_name()}"
+    
+    # @property
+    # def names(self):
 
     @property
     def presentation(self):

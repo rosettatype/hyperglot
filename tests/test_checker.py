@@ -368,7 +368,7 @@ def test_checker_missing(caplog):
     checker.supports_language("eng", report_missing=4)
     record = caplog.records[0]
     assert record.levelno == logging.WARNING
-    assert "eng missing characters for 'base'" in record.msg
+    assert "(eng) English missing characters for 'base'" in record.msg
     caplog.clear()
 
     # but this should not log:
@@ -384,7 +384,7 @@ def test_checker_marks(caplog):
 
     record = caplog.records[0]
     assert record.levelno == logging.WARNING
-    assert "mah missing mark attachment for 'base'" in record.msg
+    assert "(mah) Marshallese missing mark attachment for 'base'" in record.msg
 
     caplog.clear()
 
@@ -402,7 +402,7 @@ def test_checker_joining(caplog):
 
     record = caplog.records[0]
     assert record.levelno == logging.WARNING
-    assert "acm missing joining forms" in record.msg
+    assert "(acm) Iraqi Arabic missing joining forms" in record.msg
 
     caplog.clear()
 
