@@ -29,7 +29,23 @@ class Shaper:
         buffer.add_str(text)
         buffer.guess_segment_properties()
 
-        features = {"kern": True, "liga": True}
+        features = {
+            # Explicitly opt into these
+            "kern": True,
+            "mark": True,
+            "mkmk": True,
+
+            # Explicitly opt out of these so they do not interfere with basic
+            # shaping/joining
+            "liga": False,
+            "rlig": False,
+            "rclt": False,
+            "calt": False,
+            "salt": False,
+            
+            # Others should get detected by script of the input, e.g. for
+            # Arabic or Indic, so we do not explicitly opt in
+        }
 
         hb.shape(self.font, buffer, features)
 
@@ -104,6 +120,11 @@ class Shaper:
             # This presumes one to one transformations with same length overall
             # sequences. Afaik init/medi/fina/isol should always be one to one.
             if len(buffer_glyph_info_plain) != len(buffer_glyph_info_zwj):
+                log.debug(
+                    f"Test sequences for {string} / {unicode}: {plain} "
+                    f"(buffer length {len(buffer_glyph_info_plain)}) vs "
+                    f"{zwj} (buffer length {len(buffer_glyph_info_zwj)})"
+                )
                 raise ValueError(
                     "Joining shaping results in multiple glyph substitution."
                 )
