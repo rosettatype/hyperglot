@@ -1,6 +1,7 @@
 # A changelog for the lib/hyperglot language database and CLI tool
 
 ## 0.6.0 (WIP)
+- DATA: Refined Klingon (`tlh`) orthography and added a draft version of Toki Pona (`tok`)
 - FEATURE: Implemented shaping checks for mark positioning when required by unencoded base + mark combinations or  `--decompose`
 - FEATURE: Implemented shaping checks for connecting scripts to detect presence of required positional forms
 - FEATURE: Implemented `hyperglot-report` command with same options as `hyperglot` and additional `--report-missing n`, `--report-marks n` and `--report-joining n` — or `--report-all n` to toggle all aforementioned — parameters/flags for outputting languages _almost_ supported by the font 

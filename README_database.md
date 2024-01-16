@@ -119,6 +119,7 @@ Note that this will _read_ and _write_ the yaml file.
 
 - Languages that are not written should not be included. Obviously.
 - Languages that have some speakers should not be marked as `extinct` even if ISO standard says so.
+- Languages needs to have an ISO code, and more generally speaking, should have active speakers (unless `extinct`) and not be purely scientific or theoretic in nature
 - When adding or editing language data use the CLI commands `hyperglot-validate` to check your new data is compatible and use `hyperglot-save` to actually "save" the database in a standardized way (clean up, sorting, etc).
 - Note a few things that will happen automatically when saving with `hyperglot-save`:
   - Marks found in `base` or `auxiliary` will get added to `marks`
