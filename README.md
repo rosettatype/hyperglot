@@ -41,14 +41,14 @@ Characters are represented using [Unicode](https://unicode.org) code points in d
 1. A list of codepoints is obtained from a font.
 2. The database can be accessed in two modes:
 
-   - By default combinations of a base character with marks are required as single code point where this exists (e.g. encoded `ä`), codepoints for base characters and combining mark characters (e.g. `a` and combining `¨`) from these combinations are also required.
-   - Using the `decomposed` flag fonts are required to contain the base character and combining marks for a language (e.g. languages with `ä` will match for fonts that only have `a` and combining `¨` but not `ä` as encoded glyph).
+   - By default combinations of a base character with marks are required as single code point where this exists (e.g. encoded `ä`), codepoints for base characters and combining mark characters (e.g. `a` and combining `¨`) from these combinations are not required unless the combination has no encoded form or the `--marks` flag is used.
+   - Using the `--decomposed` flag fonts are required to contain the base character and combining marks for a language (e.g. languages with `ä` will match for fonts that only have `a` and combining `¨` but not `ä` as encoded glyph).
 
-3. Specified `validity` level is used to filter out language entries according to a user’s preference.
-4. If requested, `base` and `aux` (auxiliary) lists of codepoints are combined to achieve more strict criteria by using the `--support` option. `marks` are always required, if set in the data.
-5. When detecting language support (default), code points from **all** primary orthographies for a given language are combined (need to be included to detect support of the language). Orthographies with `historical` and `secondary` status are ignored.
+3. Specified `validity` level is used to filter out language entries with a lower (meaning, more uncertain) validity.
+4. If requested, `base` and `aux` (auxiliary) lists of codepoints are combined to achieve more strict criteria by using the `--support` option. The `marks` in the data are required based on the `--decomposed` and `--marks` flags. Marks that only appear in `aux` characters will not be required for `base` validity.
+5. When detecting language support, code points for **any** primary orthography for a given language are considered. Orthographies with `historical` and `secondary` status are ignored. If multiple orthographies have the `preferred_as_group` value they are considered as one orthography even if including several scripts.
 6. When detecting orthography support, use `--include-all-orthographies`, all orthographies for a given language are checked individually. Orthographies with `secondary` status are included. Orthographies with `historical` status are ignored.
-7. If the list of code points in the font includes all code points from the list of codepoints from points 5 or 6, the font is considered to support this language/orthography. In listings these are grouped by scripts.
+7. If the list of code points in the font includes all code points from the list of codepoints from points 5 or 6, the font is considered to support this language/orthography. Additionally, joining behaviour and mark attachment is validated and a language/orthography is only considered supported if the font shapes these correctly. In listings the supported languages are grouped by scripts.
 
 The language-orthography combination means that a language that has multiple orthographies using different scripts (e.g., Serbian or Japanese) is listed under all of these scripts in the tools’ output.
 
@@ -105,11 +105,12 @@ Installing the pip package also installed the `hyperglot-validate` and `hyperglo
 Hyperglot comes with a `hyperglot-report` command that takes all the same options 
 the main `hyperglot` command (see above). It additionally takes these options to
 output reporting about what characters or shaping is missing in order to support
-language currently detected as not supported:
+languages detected as not supported:
 
-- `--report-missing`: Parameter to report unmatched languages which are missing _n_ or less characters. If _n_ is 0 all languages with any amount missing characters are listed.
-- `--report-mark`: Flag to report languages which are not matched because the font is missing mark attachment for some characters combination, and output the affected base + mark combinations.
-- `--report-joining`: Flag to report languages which are not matched because the font is missing joining behaviour for some characters, and output the affected characters.
+- `--report-missing`: Parameter to report unmatched languages which are missing _n_ or less characters. If _n_ is 0 all languages with any number of missing characters are listed (default).
+- `--report-marks`: Parameter to report languages which are missing _n_ or less mark attachment sequences. If _n_ is 0 all languages with any number any number of missing mark attachment sequences are listed (default).
+- `--report-joining`: Parameter to report languages which are missing _n_ or less joining sequences. If _n_ is 0 all languages with any number of missing joining sequences are listed (default).
+- `--report-all`: Parameter to set/overwrite all other `--report-xxx` parameters.
 
 
 ## Database and contributing
@@ -122,7 +123,6 @@ Updates are comitted/merged to the `dev` branch with the `master` branch holding
 
 ## Roadmap
 
-<<<<<<< HEAD
 - [ ] include records to track language and script specific punctuation and numerals
 - [x] comparison to Unicode CLDR
 - [ ] improve references for language data (use APA everywhere)
@@ -132,12 +132,6 @@ Updates are comitted/merged to the `dev` branch with the `master` branch holding
   - [x] check whether joining behaviour (aka presentation forms, e.g. Arabic or Syriac) is supported in the font
   - [ ] check whether character combinations are affected by the font instructions
   - [ ] an effective and scalable way to prescribe more complex character/mark combinations, e.g. for Arabic or Hindi/Devanagari
-=======
-- [] include records to track language and script specific punctuation and numerals
-- [] include character combinations required by abugidas/syllabic scripts, e.g. list of conjuncts required by Hindi etc.
-- [+] comparison and export to Unicode CLDR format
-- [+] analysis of OpenType features in font to check if character combinations are supported (implemented for basic base + mark as well as joining characters)
->>>>>>> 00d7c44 (Refactored reporter to its own command)
 
 ## Authors and contributors
 
