@@ -1,6 +1,6 @@
-# A changelog for the lib/hyperglot language database and CLI tool
+# A changelog for the lib/hyperglot language database and CLI tool (dd.mm.yyyy)
 
-## 0.6.0 (WIP)
+## 0.6.0 (16.01.2023)
 - DATA: Refined Klingon (`tlh`) orthography and added a draft version of Toki Pona (`tok`)
 - FEATURE: Implemented shaping checks for mark positioning when required by unencoded base + mark combinations or  `--decompose`
 - FEATURE: Implemented shaping checks for connecting scripts to detect presence of required positional forms
