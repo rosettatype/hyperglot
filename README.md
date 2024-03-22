@@ -123,9 +123,11 @@ Updates are comitted/merged to the `dev` branch with the `master` branch holding
 
 ## Roadmap
 
-- [ ] include records to track language and script specific punctuation and numerals
+- [ ] handle script/language specific numerals [#154](https://github.com/rosettatype/hyperglot/issues/154)
+- [ ] handle script/language specific punctuation [#60](https://github.com/rosettatype/hyperglot/issues/60) [#155](https://github.com/rosettatype/hyperglot/issues/155)
+- [ ] check for currency support [#156](https://github.com/rosettatype/hyperglot/issues/156)
+- [ ] improve references for language data (use APA everywhere) [#123](https://github.com/rosettatype/hyperglot/issues/123) [#157](https://github.com/rosettatype/hyperglot/issues/157)
 - [x] comparison to Unicode CLDR
-- [ ] improve references for language data (use APA everywhere)
 - [ ] export in a way that would be useful to submit to Unicode CLDR
 - [ ] basic analysis of shaping instructions provided by the font (GPOS and GSUB)
   - [x] analyse shaping during language detection: check whether `base + mark` combinations are affected by the font instructions
