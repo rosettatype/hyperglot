@@ -3,6 +3,7 @@
 ## 0.6.2 (22.3.2024)
 - FIX: Fixed type hinting issue causing failure on python 3.8.x
 - DATA: Added Banjar (`bjn`) (thanks @mahalisyarifuddin)
+- DATA: Expanded Xavánte (`xav`) data (thanks @moyogo)
 
 ## 0.6.1 (30.1.2024)
 - DATA: Refined Romanian by adding `design_alternates` explicitly
