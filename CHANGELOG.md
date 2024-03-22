@@ -1,9 +1,12 @@
 # A changelog for the lib/hyperglot language database and CLI tool (dd.mm.yyyy)
 
-## 0.6.1 (30.1.2023)
+## 0.6.2 (22.3.2024)
+- FIX: Fixed type hinting issue causing failure on python 3.8.x
+
+## 0.6.1 (30.1.2024)
 - DATA: Refined Romanian by adding `design_alternates` explicitly
 
-## 0.6.0 (16.01.2023)
+## 0.6.0 (16.01.2024)
 - DATA: Refined Klingon (`tlh`) orthography and added a draft version of Toki Pona (`tok`)
 - FEATURE: Implemented shaping checks for mark positioning when required by unencoded base + mark combinations or  `--decompose`
 - FEATURE: Implemented shaping checks for connecting scripts to detect presence of required positional forms

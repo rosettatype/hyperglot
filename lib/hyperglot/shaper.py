@@ -1,5 +1,5 @@
 from functools import lru_cache
-from collections.abc import Iterable
+from typing import Iterable
 import logging
 import unicodedata2 as uni
 from typing import List
