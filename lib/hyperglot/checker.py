@@ -8,7 +8,7 @@ from hyperglot.languages import Languages
 from hyperglot.language import Language
 from hyperglot.orthography import Orthography
 from hyperglot.parse import parse_chars
-from hyperglot import SUPPORTLEVELS, VALIDITYLEVELS
+from hyperglot import SupportLevel, LanguageValidity
 
 log = logging.getLogger(__name__)
 log.setLevel(logging.WARNING)
@@ -43,7 +43,7 @@ class Checker:
     support checks.
     """
 
-    def __init__(self, fontpath=None, characters=None):
+    def __init__(self, fontpath: str = None, characters: List = None):
         self.fontpath = fontpath
         self.characters = characters
         self.font = None
@@ -51,17 +51,17 @@ class Checker:
 
     def get_supported_languages(
         self,
-        supportlevel=list(SUPPORTLEVELS.keys())[0],
-        validity=VALIDITYLEVELS[1],
-        decomposed=False,
-        marks=False,
-        shaping=False,
-        include_all_orthographies=False,
-        include_historical=False,
-        include_constructed=False,
-        report_missing=-1,
-        report_marks=-1,
-        report_joining=-1,
+        supportlevel: str = SupportLevel.BASE.value,
+        validity: str = LanguageValidity.DRAFT.value,
+        decomposed: bool = False,
+        marks: bool = False,
+        shaping: bool = False,
+        include_all_orthographies: bool = False,
+        include_historical: bool = False,
+        include_constructed: bool = False,
+        report_missing: int = -1,
+        report_marks: int = -1,
+        report_joining: int = -1,
     ) -> dict:
         """
         Get all languages supported based on the passed in characters.
@@ -102,7 +102,7 @@ class Checker:
                 continue
 
             # Skip languages below the currently selected validity level.
-            if VALIDITYLEVELS.index(l["validity"]) < VALIDITYLEVELS.index(validity):
+            if LanguageValidity.index(l["validity"]) < LanguageValidity.index(validity):
                 log.info("Skipping language '%s' which has lower " "'validity'" % iso)
                 continue
 
@@ -151,8 +151,8 @@ class Checker:
     def supports_language(
         self,
         iso: str,
-        supportlevel: str = "base",
-        validity: str = VALIDITYLEVELS[1],
+        supportlevel: str = SupportLevel.BASE.value,
+        validity: str = LanguageValidity.DRAFT.value,
         decomposed: bool = False,
         marks: bool = False,
         shaping: bool = False,
@@ -206,12 +206,13 @@ class Checker:
 
         # Exit if validity is not met
         if "validity" not in language or (
-            VALIDITYLEVELS.index(language["validity"]) < VALIDITYLEVELS.index(validity)
+            LanguageValidity.index(language["validity"])
+            < LanguageValidity.index(validity)
         ):
             return False
 
-        if supportlevel not in SUPPORTLEVELS.keys():
-            log.warning(
+        if supportlevel not in [s.value for s in SupportLevel]:
+            raise Exception(
                 "Provided support level '%s' not valid, "
                 "defaulting to 'base'" % supportlevel
             )
@@ -298,7 +299,7 @@ class Checker:
 
             # If an orthography has no "auxiliary" we consider it supported on
             # "auxiliary" level, too.
-            if supportlevel == "aux" and ort.auxiliary:
+            if supportlevel == SupportLevel.AUX.value and ort.auxiliary:
                 if marks:
                     req_marks_aux = ort.auxiliary_marks
                 else:
@@ -317,9 +318,7 @@ class Checker:
 
                     # Validation
                     supported = False
-                    logging.info(
-                        f"{language} missing {len(aux_missing)} 'aux'"
-                    )
+                    logging.info(f"{language} missing {len(aux_missing)} 'aux'")
 
                 if shaping:
                     joining_errors, mark_errors = self._check_shaping(

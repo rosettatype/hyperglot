@@ -8,6 +8,17 @@ def langs():
     return Languages()
 
 
+@pytest.fixture
+def orthography_with_omitted_defaults():
+    """
+    Return a Orthography with omitted default values, to test defaults being
+    set correctly. Currently there is only 'preferred_as_group' that is
+    optional on Orthography.
+    """
+
+    return Orthography({})
+
+
 def test_orthography_character_list(langs):
     deu = getattr(langs, "deu")
     ort_default = Orthography(deu["orthographies"][0])
@@ -147,3 +158,7 @@ def test_yaml_escape_sequences(langs):
     # Confirm the single auxiliary mark ' in Standard Malay is returned as such
     zsm = getattr(langs, "zsm")
     assert zsm.get_orthography()["auxiliary"] == "'"
+
+
+def test_orthography_defaults(orthography_with_omitted_defaults):
+    assert orthography_with_omitted_defaults["preferred_as_group"] is False

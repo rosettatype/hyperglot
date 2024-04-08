@@ -5,6 +5,7 @@ import os
 import logging
 import pytest
 import unicodedata as uni
+from hyperglot import SupportLevel
 from hyperglot.parse import character_list_from_string, parse_font_chars, parse_marks
 from hyperglot.checker import CharsetChecker, FontChecker
 
@@ -69,17 +70,17 @@ def test_language_supported():
 
     # Just base chars input won't support aux
     assert (
-        CharsetChecker(fin_base).supports_language("fin", supportlevel="aux") is False
+        CharsetChecker(fin_base).supports_language("fin", supportlevel=SupportLevel.AUX.value) is False
     )
 
     # But aux chars input will
-    assert CharsetChecker(fin_aux).supports_language("fin", supportlevel="aux")
+    assert CharsetChecker(fin_aux).supports_language("fin", supportlevel=SupportLevel.AUX.value)
 
     # A Font without 'a' won't support this language
     assert CharsetChecker(fin_missing_a).supports_language("fin") is False
 
     # Just basic other language check
-    assert CharsetChecker(rus_base).supports_language("rus", supportlevel="base")
+    assert CharsetChecker(rus_base).supports_language("rus", supportlevel=SupportLevel.BASE.value)
 
 
 def test_language_supported_dict():

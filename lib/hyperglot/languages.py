@@ -6,7 +6,7 @@ import os
 import re
 import yaml
 import logging
-from hyperglot import DB, VALIDITYLEVELS
+from hyperglot import DB, LanguageValidity
 
 log = logging.getLogger(__name__)
 log.setLevel(logging.WARNING)
@@ -25,7 +25,7 @@ def find_language(search):
     Utility method to find a language by ISO code or language name
     """
 
-    hg = Languages(validity=VALIDITYLEVELS[0])
+    hg = Languages(validity=LanguageValidity.TODO.value)
 
     search = search.lower()
 
@@ -69,12 +69,17 @@ class Languages(dict):
     options for convenience
     """
 
-    def __init__(self, strict=False, inherit=True, validity=VALIDITYLEVELS[1]):
+    def __init__(
+        self, 
+        strict: bool = False, 
+        inherit: bool = True, 
+        validity: str = LanguageValidity.DRAFT.value,
+    ):
         """
         @param strict (Boolean): Use Rosetta macrolanguage definitions (False)
             or ISO definitions (True). Defaults to False.
         @param inherit (Boolean): Inherit orthographies. Defaults to True.
-        @param validity (Hyperglot.VALIDITYLEVEL): Minimum level of validity
+        @param validity (Hyperglot.LanguageValidity): Minimum level of validity
             which languages must have. One of "todo", "draft", "preliminary",
             "verified". Defaults to "draft" — all languages with basic
             information, but possibly unconfirmed.
@@ -274,15 +279,17 @@ class Languages(dict):
                         self[lang]["orthographies"] = m["orthographies"].copy()
 
     def filter_by_validity(self, validity):
-        if validity not in VALIDITYLEVELS:
-            raise ValueError("Validity level '%s' not valid, must be one of: "
-                             ", ".join(VALIDITYLEVELS) % validity)
+        if validity not in LanguageValidity.values():
+            raise ValueError(
+                "Validity level '%s' not valid, must be one of: %s" %
+                (validity, ", ".join(LanguageValidity.values()))
+            )
 
-        allowed = VALIDITYLEVELS.index(validity)
+        allowed = LanguageValidity.index(validity)
         pruned = {}
         for iso, lang in self.items():
             try:
-                if VALIDITYLEVELS.index(lang["validity"]) >= allowed:
+                if LanguageValidity.index(lang["validity"]) >= allowed:
                     pruned[iso] = lang
             except KeyError as e:
                 # Provide more context, but escalate
