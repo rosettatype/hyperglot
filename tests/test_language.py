@@ -2,9 +2,19 @@
 Basic Language support checks
 """
 import pytest
+from hyperglot import LanguageStatus
 from hyperglot.languages import Languages
 from hyperglot.language import Language
 
+
+@pytest.fixture
+def language_with_omitted_defaults():
+    """
+    Return a Language with omitted default values, to test defaults being set
+    correctly. Currently there is only 'status' that is optional on Language.
+    """
+
+    return Language("tmp", {})
 
 @pytest.fixture
 def langs():
@@ -83,3 +93,7 @@ def test_get_orthography(langs):
     # exceptions
     with pytest.raises(KeyError):
         bos.get_orthography("Cyrillic", "primary")
+
+
+def test_language_defaults(language_with_omitted_defaults):
+    assert language_with_omitted_defaults["status"] == LanguageStatus.LIVING.value

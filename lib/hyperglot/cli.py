@@ -10,8 +10,8 @@ from hyperglot import (
     __version__,
     SORTING_DIRECTIONS,
     DB,
-    SUPPORTLEVELS,
-    VALIDITYLEVELS,
+    SupportLevel,
+    LanguageValidity,
     CHARACTER_ATTRIBUTES,
     MARK_BASE,
     SORTING,
@@ -237,7 +237,7 @@ def hyperglot_options(f):
     @click.option(
         "-s",
         "--support",
-        type=click.Choice(SUPPORTLEVELS.keys(), case_sensitive=False),
+        type=click.Choice([s.value for s in SupportLevel], case_sensitive=False),
         default="base",
         show_default=True,
         help="Option to test only for the language's base charset, or to"
@@ -264,8 +264,8 @@ def hyperglot_options(f):
     )
     @click.option(
         "--validity",
-        type=click.Choice(VALIDITYLEVELS, case_sensitive=False),
-        default=VALIDITYLEVELS[1],
+        type=click.Choice([v.value for v in LanguageValidity], case_sensitive=False),
+        default=LanguageValidity.DRAFT.value,
         show_default=True,
         help="The level of validity for languages matched against the "
         "font. Weaker levels always include more strict levels. The "
@@ -453,7 +453,7 @@ def cli(
             report_joining=report_joining,
         )
 
-        level = SUPPORTLEVELS[support]
+        level = SupportLevel(support).value
 
         # Sort each script's results by the chosen sorting logic
         sorted_entries = {}

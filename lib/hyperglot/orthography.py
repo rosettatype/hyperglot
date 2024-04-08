@@ -39,7 +39,10 @@ class Orthography(dict):
     use the _parsed_ character lists!
     """
 
-    def __init__(self, data):
+    defaults = {"preferred_as_group": False}
+
+    def __init__(self, data: dict):
+        self.update(self.defaults)
         self.update(data)
 
     @property

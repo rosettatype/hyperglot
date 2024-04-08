@@ -1,14 +1,16 @@
 """
 Helper classes to work with the lib/hyperglot/data in more pythonic way
 """
+
 import logging
 from typing import List
-from hyperglot import ORTHOGRAPHY_STATUSES, CHARACTER_ATTRIBUTES
+from hyperglot import CHARACTER_ATTRIBUTES, LanguageStatus, OrthographyStatus
 from hyperglot.languages import get_languages
 from hyperglot.orthography import Orthography
 
 log = logging.getLogger(__name__)
 log.setLevel(logging.WARNING)
+
 
 class Language(dict):
     """
@@ -16,7 +18,14 @@ class Language(dict):
     options for convenience.
     """
 
-    def __init__(self, iso, data=None):
+    defaults = {
+        # A default for unset speakers, to allow sorting
+        "speakers": 0,
+        # A default for unset status
+        "status": LanguageStatus.LIVING.value,
+    }
+
+    def __init__(self, iso, data: dict = None):
         """
         Init a single Language with the data from lib/hyperglot/data yaml.
 
@@ -33,17 +42,14 @@ class Language(dict):
             languages = get_languages()
             data = languages[iso]
 
-        # A default for unset speakers, to allow sorting
-        self["speakers"] = 0
+        for key, default in self.defaults.items():
+            if key not in data:
+                data[key] = default
 
         self.update(data)
 
     def __repr__(self):
-        # return "Language object '%s'" % self.get_name()
         return f"Language ({self.iso}) {self.get_name()}"
-    
-    # @property
-    # def names(self):
 
     @property
     def presentation(self):
@@ -111,15 +117,14 @@ validity: {validity}
                 "'%s' in language '%s'." % (script, status, self.iso)
             )
 
-        # Sort by status index in the ORTHOGRAPHY_STATUSES
-        matches = sorted(matches, key=lambda o: ORTHOGRAPHY_STATUSES.index(o["status"]))
+        # Sort by status index in the OrthographyStatus'es
+        matches = sorted(matches, key=lambda o: OrthographyStatus.values().index(o["status"]))
 
         # Note for multiple-orthography-primary languages (Serbian, Korean,
         # Japanese) this returns only one orthography!
         return matches[0]
-    
 
-    def get_check_orthographies(self, check_all_orthographies:bool=False) -> List:
+    def get_check_orthographies(self, check_all_orthographies: bool = False) -> List:
         """
         Get the orthographies relevant for performing support checks.
         """
@@ -129,12 +134,14 @@ validity: {validity}
         # Determine which orthographies should be checked.
         if check_all_orthographies:
             orthographies = [
-                o for o in self["orthographies"]
+                o
+                for o in self["orthographies"]
                 if "status" not in o or o["status"] != "transliteration"
             ]
         else:
             orthographies = [
-                o for o in self["orthographies"]
+                o
+                for o in self["orthographies"]
                 if "status" in o and o["status"] == "primary"
             ]
 
@@ -277,5 +284,3 @@ validity: {validity}
             return True
 
         return False
-
-

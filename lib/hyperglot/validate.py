@@ -15,7 +15,12 @@ import unicodedata2
 from hyperglot.languages import Languages
 from hyperglot.orthography import Orthography
 from hyperglot.parse import parse_chars
-from hyperglot import (__version__, STATUSES, VALIDITYLEVELS, ORTHOGRAPHY_STATUSES)
+from hyperglot import (
+    __version__, 
+    LanguageStatus, 
+    LanguageValidity, 
+    OrthographyStatus,
+)
 
 handler = colorlog.StreamHandler()
 handler.setFormatter(colorlog.ColoredFormatter('%(log_color)s%(message)s'))
@@ -51,7 +56,7 @@ def nice_char_list(chars):
 
 def check_yaml():
     log.debug("YAML file structure ok and can be read")
-    return Languages(validity=VALIDITYLEVELS[0])
+    return Languages(validity=LanguageValidity.TODO.value)
 
 
 def check_types(Langs):
@@ -67,6 +72,15 @@ def check_types(Langs):
         if "orthographies" in lang:
             if not check_is_yaml_list(lang["orthographies"]):
                 log.error("'%s' has invalid list 'orthographies'" % iso)
+
+            preferred_as_group = [o for o in lang["orthographies"] 
+                                  if "preferred_as_group" in o and o["preferred_as_group"] is True]
+            if len(preferred_as_group) == 1:
+                log.error(
+                    "'%s': Cannot set sole orthography as 'preferred_as_group', only two or " 
+                    "more orthographies can be treated as group."
+                    % iso
+                )
 
             for o in lang["orthographies"]:
                 if "script" not in o:
@@ -119,11 +133,19 @@ def check_types(Langs):
                     log.error("'%s' has an orthography (script '%s') that is "
                               "missing 'status'" % (iso, o["script"]))
                 else:
-                    if o["status"] not in ORTHOGRAPHY_STATUSES:
+                    if o["status"] not in OrthographyStatus.values():
                         log.error("'%s' has an orthography status '%s' which "
                                   "is invalid, should be one of %s" %
                                   (iso, o["status"],
-                                   ", ".join(ORTHOGRAPHY_STATUSES)))
+                                   ", ".join(OrthographyStatus.values())))
+                
+                if "preferred_as_group" in o:
+                    if type(o["preferred_as_group"]) != bool:
+                        log.error(
+                            "'%s' has an orthography with 'preferred_as_group'"
+                            " which is not boolean: '%s'." %
+                            (iso, o["preferred_as_group"])
+                        )
 
             primary_orthography = [o for o in lang["orthographies"]
                                    if "status" in o and
@@ -138,14 +160,17 @@ def check_types(Langs):
                 and lang["name"] == lang["preferred_name"]:
             log.error("'%s' has 'name' and 'preferred_name', but they are "
                       "identical" % iso)
-
-        if "status" in lang and lang["status"] not in STATUSES:
-            log.error("'%s' has an invalid 'status'" % iso)
+                
+        if "status" in lang:
+            if lang["status"] not in [s.value for s in LanguageStatus]:
+                log.error(
+                    "'%s' has invalid 'status' '%s'" % (iso, lang["status"])
+                )
 
         if "validity" not in lang:
             log.warning("'%s' is missing 'validity'" % iso)
 
-        if "validity" in lang and lang["validity"] not in VALIDITYLEVELS:
+        if "validity" in lang and lang["validity"] not in LanguageValidity.values():
             log.error("'%s' has invalid 'validity'" % iso)
 
         if "speakers" in lang:
