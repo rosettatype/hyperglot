@@ -11,3 +11,4 @@ tools/udhr/
 *.egg
 venv
 .coverage
+.tox

@@ -4,7 +4,7 @@ This documentation for releasing new versions to PIP is relevant only for reposi
 
 - merge dev to master
 - run hyperglot-validate
-- run pytest tests
+- run pytest tests (with all tox environments)
 - manually sanity-check cli font check works
 - bump version number
 - push dev to github, test install from commit in new environment: pip install git+https://github.com/rosettatype/hyperglot.git@dev
