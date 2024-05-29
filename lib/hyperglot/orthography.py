@@ -1,9 +1,11 @@
 import os
+import re
 import yaml
 import logging
 import unicodedata2
 from typing import List, Set
 from functools import lru_cache
+
 from hyperglot import DB_EXTRA, OrthographyStatus
 from hyperglot.shaper import Shaper
 from hyperglot.parse import (
@@ -59,11 +61,62 @@ class Orthography(dict):
         "status": None,
         "preferred_as_group": False,
         "script_iso": None,
+        "base": "",
+        "auxiliary": "",
+        "marks": "",
     }
 
     def __init__(self, data: dict):
         self.update(self.defaults)
         self.update(data)
+        for key in ["base", "auxiliary", "marks"]:
+            self.resolve_inheritance(key)
+    
+    def resolve_inheritance(self, attr:str) -> None:
+        """
+        Resolve any {iso} code references in the orthography attributes to
+        inherit them from the referenced language.
+        """
+
+        # Late import to avoid going circular
+        from hyperglot.language import Language
+
+        # Find any {iso} inheritance tags
+        value = self[attr]
+        inherit = re.findall("{([a-z ]*)}", value)
+
+        if inherit is None:
+            return
+        
+        # Store any resolved character lists under the iso code
+        resolved = {}
+
+        for lang in [m.strip() for m in inherit]:
+            Lang = Language(lang)
+            # Get a matching orthography. Require same script, if possible
+            if "script" not in self:
+                raise KeyError(
+                    f"Orthography cannot inherit '{attr}' from '{lang}' "
+                    "without having a script."
+                )
+            ort = Lang.get_orthography(script=self["script"])
+            if attr not in ort:
+                resolved[lang] = ""
+                logging.warning(
+                    f"Orthography cannot inherit non-existing '{attr}' from "
+                    f"'{lang}', nothing inherited."
+                )
+                continue
+            
+            resolved[lang] = ort[attr]
+
+        # Insert the inherited characters in the place of the {iso} tag. We
+        # don't worry about duplicates at this spot, later parse_chars calls
+        # will take care of that when and as needed.
+        for iso, chars in resolved.items():
+            value = re.sub(r"{\s*(" + iso + r")\s*}", f" {chars} ", value)
+        
+        self[attr] = value
 
     def __getitem__(self, key):
         if key == "script_iso":

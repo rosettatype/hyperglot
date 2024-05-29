@@ -1,6 +1,8 @@
 import pytest
-from hyperglot.orthography import Orthography, is_mark
+import logging
+
 from hyperglot.languages import Languages
+from hyperglot.orthography import Orthography, is_mark
 
 
 @pytest.fixture
@@ -187,3 +189,37 @@ def test_orthography_script_iso(langs):
         Orthography({ "script": "Foobar" })["script_iso"]
 
     assert Orthography({"script": "Geʽez"})["script_iso"] == "Ethi"
+
+def test_inheritance(caplog):
+    # Just basic inheritance test
+    basic = Orthography({"base": "{eng} ß ∂ œ ø", "script": "Latin"})
+    assert "A" in basic.base_chars
+
+    # Multiple languages, and position test
+    inherit_multiple = Orthography({"base": "ß {eng} ∂ œ { fin } ø", "script": "Latin"})
+    assert "ß" in inherit_multiple.base_chars
+    assert "ß" == inherit_multiple.base_chars[0]
+    assert "ø" == inherit_multiple.base_chars[-1]
+    assert "Å" in inherit_multiple.base_chars
+
+    # Test cross script inheritance (failures)
+
+    # Raise error when a script to inherit from does not exist.
+    with pytest.raises(KeyError):
+        Orthography({ "base": "م ن ت ا ل ب ي س ش {eng}", "script": "Arabic" })
+
+    # Raise error when an orthography tries to inherit but doesn't have a
+    # script set.
+    with pytest.raises(KeyError):
+        Orthography({ "base": "م ن ت ا ل ب ي س ش {eng}"})
+
+    # Return empty and output warning if the inherited language/attribute does
+    # not yield any value.
+    # Afar (aar) has no auxiliary or marks.
+    with caplog.at_level(logging.WARNING):
+        Orthography({ "auxiliary": "{aar}", "script": "Latin" })
+        assert 'Orthography cannot inherit non-existing' in caplog.text
+
+    with caplog.at_level(logging.WARNING):
+        Orthography({ "marks": "{aar}", "script": "Latin" })
+        assert 'Orthography cannot inherit non-existing' in caplog.text

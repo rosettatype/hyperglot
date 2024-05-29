@@ -155,7 +155,11 @@ def decompose_fully(char:str) -> List:
     return sequence
 
 
-def parse_chars(characters:str, decompose:bool=True, retain_decomposed:bool=False) -> List:
+def parse_chars(
+        characters:str, 
+        decompose:bool=True, 
+        retain_decomposed:bool=False,
+    ) -> List:
     """
     From a string of characters get a set of unique unicode codepoints needed
     Note this will "decompose" combining characters/marks and remove any
@@ -164,6 +168,7 @@ def parse_chars(characters:str, decompose:bool=True, retain_decomposed:bool=Fals
     etc.)
     Use this on all orthography base/auxiliary data
     """
+
     unique_chars = []
     try:
         if not decompose:
