@@ -63,6 +63,11 @@ class Orthography(dict):
         "status": None,
         "preferred_as_group": False,
         "script_iso": None,
+        "autonym": "",
+        "script": "",
+        "status": OrthographyStatus.PRIMARY.value,
+        "design_requirements": "",
+        "design_alternates": "",
     }
     
     inheritable_defaults = {
@@ -270,6 +275,18 @@ note: {note}
     @property
     def required_auxiliary_marks(self):
         return self._required_marks("aux")
+    
+    @property
+    def currency(self):
+        return self._character_list("currency")
+    
+    @property
+    def punctuation(self):
+        return self._character_list("punctuation")
+    
+    @property
+    def numerals(self):
+        return self._character_list("numerals")
 
     @property
     def design_alternates(self):

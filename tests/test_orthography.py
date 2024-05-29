@@ -1,6 +1,7 @@
 import pytest
 import logging
 
+from hyperglot import OrthographyStatus
 from hyperglot.languages import Languages
 from hyperglot.language import Language
 from hyperglot.orthography import Orthography, is_mark
@@ -171,6 +172,8 @@ def test_yaml_escape_sequences(langs):
 
 def test_orthography_defaults(orthography_with_omitted_defaults):
     assert orthography_with_omitted_defaults["preferred_as_group"] is False
+    assert orthography_with_omitted_defaults["base"] == ""
+    assert orthography_with_omitted_defaults["status"] == OrthographyStatus.PRIMARY.value
 
 
 def test_orthography_script_iso(langs):
