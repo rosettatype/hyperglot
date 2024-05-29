@@ -117,8 +117,8 @@ def check_types(Langs):
                 #                     (iso, lang["name"], nice_char_list(diff)))
 
                 allowed = ["autonym", "inherit", "script", "base", "marks",
-                           "auxiliary", "numerals", "status", "note",
-                           "punctuation",  # tolerated for now, but unused
+                           "auxiliary", "status", "note",
+                           "numerals", "punctuation", "currency",
                            "preferred_as_group",
                            "design_requirements", "design_alternates"]
                 invalid = [k for k in o.keys() if k not in allowed]

@@ -2,6 +2,7 @@ import pytest
 import logging
 
 from hyperglot.languages import Languages
+from hyperglot.language import Language
 from hyperglot.orthography import Orthography, is_mark
 
 
@@ -204,17 +205,15 @@ def test_inheritance(caplog):
 
     # Test cross script inheritance (failures)
 
-    # Raise error when a script to inherit from does not exist.
+    # Raise error when a script to inherit _characters_ from does not exist.
     with pytest.raises(KeyError):
         Orthography({ "base": "م ن ت ا ل ب ي س ش {eng}", "script": "Arabic" })
 
-    # Raise error when an orthography tries to inherit but doesn't have a
-    # script set.
+    # Raise error when an orthography tries to inherit _characters_ but 
+    # doesn't have a script set.
     with pytest.raises(KeyError):
         Orthography({ "base": "م ن ت ا ل ب ي س ش {eng}"})
 
-    # Return empty and output warning if the inherited language/attribute does
-    # not yield any value.
     # Afar (aar) has no auxiliary or marks.
     with caplog.at_level(logging.WARNING):
         Orthography({ "auxiliary": "{aar}", "script": "Latin" })
@@ -223,3 +222,18 @@ def test_inheritance(caplog):
     with caplog.at_level(logging.WARNING):
         Orthography({ "marks": "{aar}", "script": "Latin" })
         assert 'Orthography cannot inherit non-existing' in caplog.text
+
+    assert "»" in Orthography({ "punctuation": "{eng} » « › ‹" })["punctuation"]
+
+    # Sanity-test a few specific cases from the data
+
+    assert "»" in Language("fra").get_orthography()["punctuation"]
+    assert "0" in Language("fra").get_orthography()["numerals"]
+    
+    # The inherited value is not in the raw orthography
+    assert "$" not in Language("fra").get_orthography()["numerals"]
+    # But the inherited value IS in the parsed Orthography
+    assert "$" in Orthography(Language("fra").get_orthography())["numerals"]
+
+    assert "0" in Orthography(Language("arb").get_orthography())["numerals"]
+    

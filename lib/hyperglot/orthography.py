@@ -51,25 +51,34 @@ def is_mark(c):
 
 class Orthography(dict):
     """
-    A orthography dict from yaml data. Inheritance has already taken place.
+    A orthography dict from yaml data. Language level inheritance has already 
+    taken place, but attribute inheritance is handled on init.
 
     The dict retains its original entries, but we extend it with getters that
-    use the _parsed_ character lists!
+    use the _parsed_ character lists, which returns a lot of decomposition and
+    mark magic to make those characters more reliable to work with!
     """
 
     defaults = {
         "status": None,
         "preferred_as_group": False,
         "script_iso": None,
+    }
+    
+    inheritable_defaults = {
         "base": "",
         "auxiliary": "",
         "marks": "",
+        "punctuation": "",
+        "numerals": "",
+        "currency": "",
     }
 
     def __init__(self, data: dict):
         self.update(self.defaults)
+        self.update(self.inheritable_defaults)
         self.update(data)
-        for key in ["base", "auxiliary", "marks"]:
+        for key in self.inheritable_defaults.keys():
             self.resolve_inheritance(key)
     
     def resolve_inheritance(self, attr:str) -> None:
@@ -93,13 +102,19 @@ class Orthography(dict):
 
         for lang in [m.strip() for m in inherit]:
             Lang = Language(lang)
-            # Get a matching orthography. Require same script, if possible
-            if "script" not in self:
+            # Get a matching orthography. Require same script for "characters"
+            # but not for punctuation/currency/numerals which can be inherited
+            # cross-script.
+            if "script" not in self and attr in ["base", "auxiliary", "marks"]:
                 raise KeyError(
                     f"Orthography cannot inherit '{attr}' from '{lang}' "
                     "without having a script."
                 )
-            ort = Lang.get_orthography(script=self["script"])
+            try:
+                ort = Lang.get_orthography(script=self["script"])
+            except KeyError as e:
+                ort = Lang.get_orthography()
+            
             if attr not in ort:
                 resolved[lang] = ""
                 logging.warning(
@@ -252,6 +267,19 @@ note: {note}
     def required_base_marks(self):
         return self._required_marks("base")
 
+    @property
+    def required_auxiliary_marks(self):
+        return self._required_marks("aux")
+
+    @property
+    def design_alternates(self):
+        return [
+            remove_mark_base(chars)
+            for chars in self._character_list("design_alternates")
+        ]
+    
+    # TODO add numerals/currency/punctuation
+
     def get_chars(self, attr: str = "base", all_marks=False) -> Set:
         """
         Get the orthography base/aux + marks with required or all marks
@@ -266,17 +294,6 @@ note: {note}
             self.base_chars
             + (self.base_marks if all_marks else self.required_base_marks)
         )
-
-    @property
-    def required_auxiliary_marks(self):
-        return self._required_marks("aux")
-
-    @property
-    def design_alternates(self):
-        return [
-            remove_mark_base(chars)
-            for chars in self._character_list("design_alternates")
-        ]
 
     def check_joining(self, chars: List[str], shaper: Shaper) -> List:
         """
