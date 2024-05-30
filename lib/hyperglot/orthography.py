@@ -55,14 +55,17 @@ class Orthography(dict):
     use the _parsed_ character lists!
     """
 
-    defaults = {"preferred_as_group": False}
+    defaults = {"preferred_as_group": False, "script_iso": None}
 
-    def __init__(self, data: dict, include_script_iso: bool = False):
+    def __init__(self, data: dict):
         self.update(self.defaults)
         self.update(data)
 
-        if include_script_iso:
-            self["script_iso"] = get_script_iso(self["script"])
+    def __getitem__(self, key):
+        if key == "script_iso":
+            return get_script_iso(self["script"])
+        else:
+            return super().__getitem__(key)
 
     @property
     def presentation(self):
