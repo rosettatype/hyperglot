@@ -13,7 +13,7 @@ import pprint
 import colorlog
 import unicodedata2
 from hyperglot.languages import Languages
-from hyperglot.orthography import Orthography
+from hyperglot.orthography import Orthography, get_scripts
 from hyperglot.parse import parse_chars
 from hyperglot import (
     __version__, 
@@ -42,6 +42,8 @@ UNICODE_CONFUSABLES = {
     # TODO Greek maybe less prevailant because less Greek script languages are
     # added, but large potential for confusion with all sorts of math symbols
 }
+
+hyperglot_scripts = get_scripts()
 
 
 def nice_char_list(chars):
@@ -237,6 +239,14 @@ def check_names(Langs, iso_data):
                 if "script" not in o:
                     log.error("'%s' has no 'script' attribute" % iso)
                     continue
+
+                if o["script"] not in hyperglot_scripts:
+                    log.error(
+                        "'%s' has orthography with new/unknown/misspelled "
+                        "script '%s' — add the script mapping to "
+                        "lib/extra_data/script-names.yaml or fix the typo."
+                        % (iso, o["script"])
+                    )
 
                 if "inherit" in o:
                     if not check_inheritted(o["inherit"], o["script"], Langs):
