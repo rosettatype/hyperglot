@@ -1,7 +1,7 @@
 name: Nobiin
 orthographies:
 - inherit: dgl
-  script: Coptic/Nubian
+  script: Coptic
   status: historical
 - inherit: dgl
   script: Latin
