@@ -162,3 +162,10 @@ def test_yaml_escape_sequences(langs):
 
 def test_orthography_defaults(orthography_with_omitted_defaults):
     assert orthography_with_omitted_defaults["preferred_as_group"] is False
+
+
+def test_orthography_script_iso():
+    assert Orthography({"script": "Chinese"}, include_script_iso=True)["script_iso"] == "Hans"
+    assert Orthography({"script": "Latin"}, include_script_iso=True)["script_iso"] == "Latn"
+    assert "script_iso" not in Orthography({"script": "Latin"})
+    assert Orthography({"script": "N'Ko"}, include_script_iso=True)["script_iso"] == "Nkoo"

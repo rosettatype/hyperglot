@@ -1,7 +1,6 @@
 """
 Helper classes to work with the lib/hyperglot/data in more pythonic way
 """
-
 import logging
 from typing import List
 from hyperglot import CHARACTER_ATTRIBUTES, LanguageStatus, OrthographyStatus
