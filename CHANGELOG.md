@@ -2,6 +2,7 @@
 
 ## 0.6.4 (WIP)
 - DATA: Referring to `Ge'ez` script only as such, as opposed to previous mixed use of `Ge'ez/Fidel` and `Ge'ez`
+- DATA: Spelling `Tai Viet` script in title case to match other script names
 
 ## 0.6.3 (08.04.2024)
 - FIX: Set correct default values for `Language.status` and `Orthography.preferred_as_group` and provide validation and tests for these.
