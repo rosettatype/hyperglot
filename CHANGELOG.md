@@ -1,5 +1,8 @@
 # A changelog for the lib/hyperglot language database and CLI tool (dd.mm.yyyy)
 
+## 0.6.4 (WIP)
+- DATA: Referring to `Ge'ez` script only as such, as opposed to previous mixed use of `Ge'ez/Fidel` and `Ge'ez`
+
 ## 0.6.3 (08.04.2024)
 - FIX: Set correct default values for `Language.status` and `Orthography.preferred_as_group` and provide validation and tests for these.
 - TWEAK: Deprecated plain list `SUPPORTLEVELS, VALIDITYLEVELS, STATUSES, ORTHOGRAPHY_STATUSES` and replaced them with `SupportLevel, LanguageValidity, LanguageStatus, OrthographyStatus` enums throughout the code base. The deprecated values will be removed in the next minor version.
