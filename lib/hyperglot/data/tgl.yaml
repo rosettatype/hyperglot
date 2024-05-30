@@ -8,8 +8,8 @@ orthographies:
 - autonym: ᜊᜌ᜴ᜊᜌᜒᜈ᜴
   base: ᜀ ᜁ ᜂ ᜃ ᜄ ᜅ ᜆ ᜇ ᜈ ᜉ ᜊ ᜋ ᜌ ᜍ ᜎ ᜏ ᜐ ᜑ
   marks: ◌ᜒ ◌ᜓ ◌᜔
-  note: Baybayin is the historic Tagalog script. Some revival efforts exist, but it is not in common use in the Philippines.
-  script: Tagalog (Baybayin, Alibata)
+  note: Baybayin is the historic Tagalog script, sometimes also referred to as Alibata or simply Tagalog. Some revival efforts exist, but it is not in common use in the Philippines.
+  script: Baybayin
   status: historical
 source:
 - Omniglot
