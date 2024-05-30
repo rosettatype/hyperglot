@@ -5,6 +5,7 @@
 - DATA: Amended spelling "Tai Viet" script in title case to match other script names
 - DATA: Corrected spelling of "Bamum" script and language (instead of less used "Bamun" used in Hyperglot)
 - DATA: Use "Coptic" instead of "Coptic/Numbian" script name
+- DATA: Use "Burmese" script for language "Mon"
 
 ## 0.6.3 (08.04.2024)
 - FIX: Set correct default values for `Language.status` and `Orthography.preferred_as_group` and provide validation and tests for these.
