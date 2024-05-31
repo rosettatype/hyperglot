@@ -166,7 +166,7 @@ def test_orthography_defaults(orthography_with_omitted_defaults):
 
 def test_orthography_script_iso(langs):
     # Something that relies on the mapping
-    assert Orthography({"script": "Chinese"})["script_iso"] == "Hans"
+    assert Orthography({"script": "Chinese"})["script_iso"] == "Hani"
 
     # Just sanity checks
     assert Orthography({"script": "Latin"})["script_iso"] == "Latn"
@@ -179,3 +179,5 @@ def test_orthography_script_iso(langs):
     # An error for a script not in the hyperglot mapping
     with pytest.raises(NotImplementedError):
         Orthography({ "script": "Foobar" })["script_iso"]
+
+    assert Orthography({"script": "Geʽez"})["script_iso"] == "Ethi"

@@ -1,7 +1,7 @@
 # A changelog for the lib/hyperglot language database and CLI tool (dd.mm.yyyy)
 
 ## 0.6.4 (WIP)
-- DATA: Referring to "Ge'ez" script only as such, as opposed to previous mixed use of "Ge'ez/Fidel" and "Ge'ez"
+- DATA: Unified "Geʽez" script with reversed comma, as opposed to previous mixed use of "Ge'ez/Fidel" and "Ge'ez"
 - DATA: Amended spelling "Tai Viet" script in title case to match other script names
 - DATA: Corrected spelling of "Bamum" script and language (instead of less used "Bamun" used in Hyperglot)
 - DATA: Use "Coptic" instead of "Coptic/Numbian" script name
