@@ -1,0 +1,20 @@
+name: Squamish
+orthographies:
+- autonym: Sḵwx̱wú7mesh sníchim
+  base: A Á C E É H I Í K Ḵ L M N P S T U Ú W X Y a á c e é h i í k ḵ l m n p s t u ú w x y 7 ʼ ’ ''
+  marks: ◌̓ ◌̱
+  punctuation: . , - ? !
+  script: Latin
+  status: primary
+  design_requirements:
+  - Curly comma accents and right quotes are preferred (used on consonants), to differentiate from acute accents (used on vowels).
+source:
+- Wikipedia
+- Indigenous North American Type (2023), Typotheque
+- Squamish-English Dictionary (2011), Peter Jacobs and Damara Jacobs
+- FirstVoices iOS keyboard
+speakers: 25
+speakers_date: 2021
+status: living
+validity: preliminary
+note: Research documented at https://github.com/rosettatype/hyperglot/issues/172
