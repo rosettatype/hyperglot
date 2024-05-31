@@ -9,6 +9,7 @@ from hyperglot import SupportLevel
 from hyperglot.parse import character_list_from_string, parse_font_chars, parse_marks
 from hyperglot.checker import CharsetChecker, FontChecker
 
+
 # Just a most simple placeholder charset
 ascii = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
 
@@ -20,6 +21,7 @@ plex_arabic_without_medi_fina = os.path.abspath(
     "tests/plex-4.0.2/IBM-Plex-Sans-Arabic/fonts/complete/otf/IBMPlexSansArabic-Regular-without-medi-fina.otf"
 )  # noqa
 eczar = os.path.abspath("tests/Eczar-v1.004/otf/Eczar-Regular.otf")
+roboto = os.path.abspath("tests/Roboto/Roboto-Black.ttf")
 testfont = os.path.abspath("tests/HyperglotTestFont-Regular.ttf")
 
 
@@ -411,3 +413,9 @@ def test_checker_joining(caplog):
     # acm, because it is missing two dozen
     checker.supports_language("acm", report_joining=1)
     assert len(caplog.records) == 0
+
+
+def test_font_checker_logging_names():
+    # Make sure not to choke on missing glyph names (refactored shaper code)
+    checker = FontChecker(roboto)
+    checker.get_supported_languages()

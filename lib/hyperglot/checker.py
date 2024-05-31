@@ -273,6 +273,8 @@ class Checker:
                         f"{language} missing {len(base_missing)} base characters"
                     )
 
+            # Proceed with shaping checks (for output) even when font is
+            # already found not supporting a language!
             if shaping:
                 joining_errors, mark_errors = self._check_shaping(
                     ort, "base", marks, decomposed
@@ -295,7 +297,12 @@ class Checker:
                 # Validation
                 if len(joining_errors) > 0 or len(mark_errors) > 0:
                     supported = False
-                    logging.info(f"{language} missing base shaping for")
+                    msg = [f"{language} missing base shaping for: "]
+                    if len(mark_errors) > 0:
+                        msg.append("- mark attachment: " + " ".join(mark_errors))
+                    if len(joining_errors) > 0:
+                        msg.append("- joining shapes: " + " ".join(joining_errors))
+                    logging.info("\n".join(msg))
 
             # If an orthography has no "auxiliary" we consider it supported on
             # "auxiliary" level, too.
@@ -320,6 +327,8 @@ class Checker:
                     supported = False
                     logging.info(f"{language} missing {len(aux_missing)} 'aux'")
 
+                # Proceed with shaping checks (for output) even when font is
+                # already found not supporting a language!
                 if shaping:
                     joining_errors, mark_errors = self._check_shaping(
                         ort, "auxiliary", marks, decomposed

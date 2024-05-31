@@ -34,7 +34,6 @@ class Shaper:
             "kern": True,
             "mark": True,
             "mkmk": True,
-
             # Explicitly opt out of these so they do not interfere with basic
             # shaping/joining
             "liga": False,
@@ -42,7 +41,6 @@ class Shaper:
             "rclt": False,
             "calt": False,
             "salt": False,
-            
             # Others should get detected by script of the input, e.g. for
             # Arabic or Indic, so we do not explicitly opt in
         }
@@ -72,7 +70,7 @@ class Shaper:
         """
         Helper for better debug messages with font glyph names instead of gids.
         """
-        return [self.font.get_glyph_name(m) for m in codepoints]
+        return [str(self.font.get_glyph_name(m)) for m in codepoints]
 
     @lru_cache
     def check_joining(self, unicode: int) -> bool:
@@ -198,18 +196,15 @@ class Shaper:
             if not uni.category(c).startswith("M")
         }
 
-        missing_from_font = []
+        missing_from_font = 0
         missing_positioning = []
         for glyph_info, glyph_position in data:
             if glyph_info.codepoint in non_marks.keys():
                 continue
 
             # No such glyph in the font.
-            # For regular check runs this should never trigger, since character
-            # sets are checked first.
-            # TODO maybe this should even be a raised Exception?
-            if glyph_info.codepoint == 0:
-                missing_from_font.append(glyph_info.codepoint)
+            if glyph_info.codepoint == 0 or self.font.get_glyph_name(glyph_info.codepoint) is None:
+                missing_from_font = missing_from_font + 1
                 continue
 
             # This appears to be a unpositioned mark!
@@ -217,18 +212,20 @@ class Shaper:
                 missing_positioning.append(glyph_info.codepoint)
                 continue
 
-        if missing_from_font != []:
-            names = ", ".join(self.names_for_codepoints(missing_from_font))
+        if missing_from_font != 0:
             log.debug(
-                f"Mark shaping for '{input}' is missing for font glyph names '{names}'"
+                f"Mark shaping for '{input}' failed, "
+                "missing %d %s"
+                % (
+                    missing_from_font,
+                    "glyphs" if missing_from_font > 1 else "glyph",
+                )
             )
             return False
 
         if missing_positioning != []:
             names = ", ".join(self.names_for_codepoints(missing_positioning))
-            log.debug(
-                f"Mark positioning for '{input}' failed for font glyph names '{names}'"
-            )
+            log.debug(f"Mark positioning for '{input}' failed, glyph names: '{names}'")
             return False
 
         return True
