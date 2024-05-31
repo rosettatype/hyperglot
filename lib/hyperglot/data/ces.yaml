@@ -1,7 +1,7 @@
 name: Czech
 orthographies:
 - autonym: Čeština
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á É Í Ó Ú Ý Č Ď Ě Ň Ř Š Ť Ů Ž a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ó ú ý č ď ě ň ř š ť ů ž
+  base: A Á B C Č D Ď E É Ě F G H Ch I Í J K L M N Ň O Ó P Q R Ř S Š T Ť U Ú Ů V W X Y Ý Z Ž a á b c č d ď e é ě f g h ch i í j k l m n ň o ó p q r ř s š t ť u ú ů v w x y ý z ž
   marks: ◌́ ◌̊ ◌̌
   script: Latin
   status: primary
