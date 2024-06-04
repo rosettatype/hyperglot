@@ -2,8 +2,16 @@
 
 ## 0.6.4 (WIP)
 - FIX: Fixed an issue where trying to log missing shaping glyphs would crash in `FontChecker`
+- TWEAK: `hyperglot.orthography.Orthography` object has `script_iso` attribute returning the mapped ISO 15924 script tag
+- DATA: Added `lib/extra_data/script-names.yaml` with a list of all current Hyperglot scripts and a mapping to their ISO 15924 code equivalent
 - DATA: Added di/tri-graphs to Czech and Hungarian orthographies and fixed their order
 - DATA: Added Squamish (`squ`) (thanks @justinpenner)
+- DATA: Unified "Geʽez" script with reversed comma, as opposed to previous mixed use of "Ge'ez/Fidel" and "Ge'ez"
+- DATA: Amended spelling "Tai Viet" script in title case to match other script names
+- DATA: Corrected spelling of "Bamum" script and language (instead of less used "Bamun" used in Hyperglot)
+- DATA: Use "Coptic" instead of "Coptic/Numbian" script name
+- DATA: Use "Burmese" script for language "Mon"
+- DATA: Use "Baybayin" script name instead of "Tagalog (Baybayin, Alibata)"
 
 ## 0.6.3 (08.04.2024)
 - FIX: Set correct default values for `Language.status` and `Orthography.preferred_as_group` and provide validation and tests for these.

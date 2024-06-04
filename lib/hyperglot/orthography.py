@@ -1,7 +1,10 @@
-from typing import List, Set
-import unicodedata2
+import os
+import yaml
 import logging
-
+import unicodedata2
+from typing import List, Set
+from functools import lru_cache
+from hyperglot import DB_EXTRA
 from hyperglot.shaper import Shaper
 from hyperglot.parse import (
     parse_chars,
@@ -14,6 +17,19 @@ from hyperglot.parse import (
 
 log = logging.getLogger(__name__)
 log.setLevel(logging.WARNING)
+
+
+@lru_cache
+def get_scripts():
+    with open(os.path.join(DB_EXTRA, "script-names.yaml"), "rb") as f:
+        return yaml.load(f, Loader=yaml.Loader)
+
+
+def get_script_iso(name: str) -> str:
+    scripts = get_scripts()
+    if name not in scripts:
+        raise NotImplementedError(f"Missing script name to ISO mapping for {name}")
+    return scripts[name]["iso_15924"]
 
 
 def is_mark(c):
@@ -39,11 +55,17 @@ class Orthography(dict):
     use the _parsed_ character lists!
     """
 
-    defaults = {"preferred_as_group": False}
+    defaults = {"preferred_as_group": False, "script_iso": None}
 
     def __init__(self, data: dict):
         self.update(self.defaults)
         self.update(data)
+
+    def __getitem__(self, key):
+        if key == "script_iso":
+            return get_script_iso(self["script"])
+        else:
+            return super().__getitem__(key)
 
     @property
     def presentation(self):

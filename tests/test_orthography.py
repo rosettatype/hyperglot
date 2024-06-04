@@ -162,3 +162,22 @@ def test_yaml_escape_sequences(langs):
 
 def test_orthography_defaults(orthography_with_omitted_defaults):
     assert orthography_with_omitted_defaults["preferred_as_group"] is False
+
+
+def test_orthography_script_iso(langs):
+    # Something that relies on the mapping
+    assert Orthography({"script": "Chinese"})["script_iso"] == "Hani"
+
+    # Just sanity checks
+    assert Orthography({"script": "Latin"})["script_iso"] == "Latn"
+    assert Orthography({"script": "N'Ko"})["script_iso"] == "Nkoo"
+
+    # An actual Orthography with data
+    deu = getattr(langs, "deu")
+    assert Orthography(deu["orthographies"][0])["script_iso"] == "Latn"
+
+    # An error for a script not in the hyperglot mapping
+    with pytest.raises(NotImplementedError):
+        Orthography({ "script": "Foobar" })["script_iso"]
+
+    assert Orthography({"script": "Geʽez"})["script_iso"] == "Ethi"

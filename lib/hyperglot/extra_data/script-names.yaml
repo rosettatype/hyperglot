@@ -1,0 +1,118 @@
+Ancient South Arabian:
+  iso_15924: Sarb
+Arabic:
+  iso_15924: Arab
+Armenian:
+  iso_15924: Armn
+Avestan:
+  iso_15924: Avst
+Balinese:
+  iso_15924: Bali
+Bamum:
+  iso_15924: Bamu
+Batak:
+  iso_15924: Batk
+Baybayin:
+  iso_15924: Tglg
+Bengali:
+  iso_15924: Beng
+Buginese:
+  iso_15924: Bugi
+Burmese:
+  iso_15924: Mymr
+Chakma:
+  iso_15924: Cakm
+Cherokee:
+  iso_15924: Cher
+Chinese:
+  iso_15924: Hani
+Coptic:
+  iso_15924: Copt
+Cree:
+  iso_15924: Cans
+Cyrillic:
+  iso_15924: Cyrl
+Devanagari:
+  iso_15924: Deva
+Egyptian Hieroglyphs:
+  iso_15924: Egyp
+Geʽez:
+  iso_15924: Ethi
+Georgian:
+  iso_15924: Geok
+Greek:
+  iso_15924: Grek
+Gujarati:
+  iso_15924: Gujr
+Gurmukhi:
+  iso_15924: Guru
+Hangul:
+  iso_15924: Hang
+Hanja:
+  iso_15924: Hani
+Hanunoo:
+  iso_15924: Hano
+Hebrew:
+  iso_15924: Hebr
+Hiragana:
+  iso_15924: Hira
+Inuktitut Syllabics:
+  iso_15924: Cans
+Javanese:
+  iso_15924: Java
+Kaithi:
+  iso_15924: Kthi
+Kanji:
+  iso_15924: Hani
+Kannada:
+  iso_15924: Knda
+Katakana:
+  iso_15924: Kana
+Kayah Li:
+  iso_15924: Kali
+Khmer:
+  iso_15924: Khmr
+Lao:
+  iso_15924: Laoo
+Latin:
+  iso_15924: Latn
+Linear A:
+  iso_15924: Lina
+Linear B:
+  iso_15924: Linb
+Malayalam:
+  iso_15924: Mlym
+Modern Yi:
+  iso_15924: Yiii
+N'Ko:
+  iso_15924: Nkoo
+Ojibwe Syllabics:
+  iso_15924: Cans
+Oriya:
+  iso_15924: Orya
+Sinhala:
+  iso_15924: Sinh
+Sumero-Akkadian Cuneiforms:
+  iso_15924: Xsux
+Sundanese:
+  iso_15924: Sund
+Syriac:
+  iso_15924: Syrc
+Tai Viet:
+  iso_15924: Tavt
+Tamil:
+  iso_15924: Taml
+Telugu:
+  iso_15924: Telu
+Thaana:
+  iso_15924: Thaa
+Thai:
+  iso_15924: Thai
+Tham:
+  iso_15924: Lana
+Tibetan:
+  iso_15924: Tibt
+Tifinagh:
+  iso_15924: Tfng
+Vai:
+  iso_15924: Vaii
