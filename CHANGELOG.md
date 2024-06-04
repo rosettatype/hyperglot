@@ -3,6 +3,7 @@
 ## 0.6.4 (WIP)
 - FIX: Fixed an issue where trying to log missing shaping glyphs would crash in `FontChecker`
 - DATA: Added di/tri-graphs to Czech and Hungarian orthographies and fixed their order
+- DATA: Added Squamish (`squ`) (thanks @justinpenner)
 
 ## 0.6.3 (08.04.2024)
 - FIX: Set correct default values for `Language.status` and `Orthography.preferred_as_group` and provide validation and tests for these.
