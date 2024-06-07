@@ -12,6 +12,7 @@
 - DATA: Use "Coptic" instead of "Coptic/Numbian" script name
 - DATA: Use "Burmese" script for language "Mon"
 - DATA: Use "Baybayin" script name instead of "Tagalog (Baybayin, Alibata)"
+- TWEAK: Make sure `Orthography.base_chars` and `Orthography.aux_chars` returns no duplicates for decomposed character sequences
 
 ## 0.6.3 (08.04.2024)
 - FIX: Set correct default values for `Language.status` and `Orthography.preferred_as_group` and provide validation and tests for these.

@@ -145,10 +145,11 @@ note: {note}
         for b in self._character_list("base"):
             if len(b) > 1:
                 for c in parse_chars(b):
-                    if not is_mark(c):
+                    if not is_mark(c) and c not in base:
                         base.append(c)
             else:
-                base.append(b)
+                if b not in base:
+                    base.append(b)
         return base
 
     @property
@@ -167,10 +168,11 @@ note: {note}
         for a in self._character_list("auxiliary"):
             if len(a) > 1:
                 for c in parse_chars(a):
-                    if not is_mark(c):
+                    if not is_mark(c) and c not in aux:
                         aux.append(c)
             else:
-                aux.append(a)
+                if a not in aux:
+                    aux.append(a)
         return aux
 
     @property

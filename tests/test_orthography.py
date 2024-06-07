@@ -43,6 +43,12 @@ def test_orthography_base():
     assert "A" not in ort.base_chars
     assert "a" not in ort.base_chars
 
+    multiple_unencoded = { "base": "Ɔ̀ Ɔ̌ Ɔ̈" } # from sbd.yaml
+    ort = Orthography(multiple_unencoded)
+    assert ort.base_chars == ["Ɔ"]
+    assert len(ort.base_chars) == 1
+    assert ort.base == ["Ɔ̀", "Ɔ̌", "Ɔ̈"]
+
 
 def test_orthography_required_marks(langs):
     """
