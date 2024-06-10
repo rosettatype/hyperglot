@@ -112,8 +112,8 @@ CHARACTER_ATTRIBUTES = [
 ]
 
 SORTING = {
-    "alphabetic": lambda lang: lang.get_name(),
-    "speakers": lambda lang: lang["speakers"],
+    "alphabetic": lambda lang: lang.name,
+    "speakers": lambda lang: lang.speakers,
 }
 
 SORTING_DIRECTIONS = ["asc", "desc"]

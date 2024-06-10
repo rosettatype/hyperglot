@@ -2,7 +2,7 @@
 Basic Language support checks
 """
 import pytest
-from hyperglot import LanguageStatus
+from hyperglot import LanguageStatus, LanguageValidity
 from hyperglot.languages import Languages
 from hyperglot.language import Language
 
@@ -40,6 +40,7 @@ def test_language_preferred_name(langs):
     #   name: Baluchi
     #   preferred_name: Balochi
     assert bal.get_name() == "Balochi"
+    assert bal.name == "Balochi"
 
 
 def test_language_get_autonym(langs):
@@ -51,7 +52,11 @@ def test_language_get_autonym(langs):
 
     # For Arabic it should return the correct autonym, without script False
     assert bal.get_autonym(script="Arabic") == "بلۏچی"
-    assert bal.get_autonym() is False
+    assert bal.get_autonym() == "بلۏچی"
+    assert bal.autonym == "بلۏچی"
+
+    # No autonym for this script, and none on the main language dict
+    assert bal.get_autonym(script="Latin") == ""
 
 
 def test_language_orthographies():
@@ -96,4 +101,32 @@ def test_get_orthography(langs):
 
 
 def test_language_defaults(language_with_omitted_defaults):
-    assert language_with_omitted_defaults["status"] == LanguageStatus.LIVING.value
+    assert language_with_omitted_defaults["status"] == None
+    assert language_with_omitted_defaults.status == LanguageStatus.LIVING.value
+
+    assert language_with_omitted_defaults["validity"] == None
+    assert language_with_omitted_defaults.validity == LanguageValidity.TODO.value
+
+    assert language_with_omitted_defaults["speakers"] is None
+    assert language_with_omitted_defaults.speakers == 0
+
+    assert language_with_omitted_defaults["name"] is None
+    assert language_with_omitted_defaults.name == ""
+
+    assert language_with_omitted_defaults["autonym"] is None
+    assert language_with_omitted_defaults.autonym == ""
+
+
+def test_language_presentation():
+    deu = Language("deu")
+    assert "speakers:" in deu.presentation
+    assert "status: living" in deu.presentation
+    assert "validity: verified" in deu.presentation
+
+    # language without speakers
+    tob = Language("tob")
+    assert tob.speakers == 0
+    assert tob["speakers"] is None
+
+
+

@@ -106,15 +106,15 @@ class Checker:
                 log.info("Skipping language '%s' which has lower " "'validity'" % iso)
                 continue
 
-            if include_historical and l.is_historical():
+            if include_historical and l.is_historical:
                 log.info("Including historical language '%s'" % l.get_name())
-            elif include_historical is False and l.is_historical():
+            elif include_historical is False and l.is_historical:
                 log.info("Skipping historical language '%s'" % iso)
                 continue
 
-            if include_constructed and l.is_constructed():
+            if include_constructed and l.is_constructed:
                 log.info("Including constructed language '%s'" % l.get_name())
-            elif include_constructed is False and l.is_constructed():
+            elif include_constructed is False and l.is_constructed:
                 log.info("Skipping constructed language '%s'" % iso)
                 continue
 
