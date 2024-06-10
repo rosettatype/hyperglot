@@ -41,8 +41,8 @@ def find_language(search):
     matches = {}
     for iso in hg.keys():
         lang = getattr(hg, iso)
-        name = lang.get_name().lower()
-        aut = lang.get_autonym()
+        name = lang.name.lower()
+        aut = lang.autonym
         autonyms = [] if not aut else [aut.lower()]
         if "orthographies" in lang:
             for o in lang["orthographies"]:

@@ -4,7 +4,7 @@ import logging
 import unicodedata2
 from typing import List, Set
 from functools import lru_cache
-from hyperglot import DB_EXTRA
+from hyperglot import DB_EXTRA, OrthographyStatus
 from hyperglot.shaper import Shaper
 from hyperglot.parse import (
     parse_chars,
@@ -55,7 +55,11 @@ class Orthography(dict):
     use the _parsed_ character lists!
     """
 
-    defaults = {"preferred_as_group": False, "script_iso": None}
+    defaults = {
+        "status": None,
+        "preferred_as_group": False,
+        "script_iso": None,
+    }
 
     def __init__(self, data: dict):
         self.update(self.defaults)
@@ -123,6 +127,14 @@ note: {note}
             script="" if "script" not in self else self["script"],  # noqa
             status="" if "status" not in self else self["status"],  # noqa
             note="" if "note" not in self else self["note"],
+        )
+
+    @property
+    def status(self) -> str:
+        return (
+            OrthographyStatus.PRIMARY.value
+            if self["status"] is None
+            else self["status"]
         )
 
     @property

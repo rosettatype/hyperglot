@@ -107,13 +107,13 @@ class Checker:
                 continue
 
             if include_historical and l.is_historical:
-                log.info("Including historical language '%s'" % l.get_name())
+                log.info("Including historical language '%s'" % l.name)
             elif include_historical is False and l.is_historical:
                 log.info("Skipping historical language '%s'" % iso)
                 continue
 
             if include_constructed and l.is_constructed:
-                log.info("Including constructed language '%s'" % l.get_name())
+                log.info("Including constructed language '%s'" % l.name)
             elif include_constructed is False and l.is_constructed:
                 log.info("Skipping constructed language '%s'" % iso)
                 continue

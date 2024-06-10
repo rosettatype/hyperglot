@@ -92,7 +92,7 @@ validity: {validity}
             validity=self.validity,
         )  # noqa
 
-    def get_orthography(self, script: str = None, status: str = None) -> dict:
+    def get_orthography(self, script: str = None, status: str = None) -> dict | bool:
         """
         Get the most appropriate raw orthography attribute value, or one
         specifically matching the parameters. If there are multiple
@@ -285,14 +285,10 @@ validity: {validity}
 
         orthography = self.get_orthography()
 
-        if (
-            orthography is not None
-            and "status" in orthography
-            and orthography["status"] == "historical"
-        ):
-            return True
+        if orthography is False:
+            return False
 
-        return False
+        return orthography["status"] == "historical"
 
     @property
     def is_constructed(self) -> bool:
@@ -308,11 +304,7 @@ validity: {validity}
 
         orthography = self.get_orthography()
 
-        if (
-            orthography is not None
-            and "status" in orthography
-            and orthography["status"] == "constructed"
-        ):
-            return True
+        if orthography is False:
+            return False
 
-        return False
+        return orthography["status"] == "constructed"

@@ -522,7 +522,7 @@ def cli(
                 if res is False:
                     return
                 for r in res:
-                    res_name = r.get_name()
+                    res_name = r.name
                     print(f"Listing full support information for {res_name}")
                     print()
                     if "orthographies" not in r:
