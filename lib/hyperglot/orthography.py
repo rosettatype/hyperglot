@@ -96,8 +96,16 @@ class Orthography(dict):
         from hyperglot.language import Language
 
         # Find any {iso} inheritance tags
+        inherit = None
         value = self[attr]
-        inherit = re.findall("{([a-z ]*)}", value)
+        value_is_yaml_object = type(value) is dict and len(value.keys()) == 1
+
+        # Yaml will parse a standalone 'numerals: {eng}' as a dict with key 
+        # 'eng' and value 'None'
+        if value_is_yaml_object:
+            inherit = list(value.keys())
+        else:
+            inherit = re.findall("{([a-z ]*)}", value)
 
         if inherit is None:
             return
@@ -134,7 +142,10 @@ class Orthography(dict):
         # don't worry about duplicates at this spot, later parse_chars calls
         # will take care of that when and as needed.
         for iso, chars in resolved.items():
-            value = re.sub(r"{\s*(" + iso + r")\s*}", f" {chars} ", value)
+            if value_is_yaml_object:
+                value = chars
+            else:
+                value = re.sub(r"{\s*(" + iso + r")\s*}", f" {chars} ", value)
         
         self[attr] = value
 

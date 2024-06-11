@@ -114,8 +114,6 @@ validity: {validity}
         matches = []
         for o in self["orthographies"]:
 
-            o = Orthography(o)
-
             if script is not None and o["script"] != script:
                 continue
 
