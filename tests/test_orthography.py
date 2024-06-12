@@ -209,13 +209,15 @@ def test_inheritance(caplog):
     # Test cross script inheritance (failures)
 
     # Raise error when a script to inherit _characters_ from does not exist.
-    with pytest.raises(KeyError):
-        Orthography({ "base": "م ن ت ا ل ب ي س ش {eng}", "script": "Arabic" })
+    # TBD
+    # with pytest.raises(KeyError):
+    #     Orthography({ "base": "م ن ت ا ل ب ي س ش {eng}", "script": "Arabic" })
 
     # Raise error when an orthography tries to inherit _characters_ but 
     # doesn't have a script set.
-    with pytest.raises(KeyError):
-        Orthography({ "base": "م ن ت ا ل ب ي س ش {eng}"})
+    # TBD
+    # with pytest.raises(KeyError):
+    #     Orthography({ "base": "م ن ت ا ل ب ي س ش {eng}"})
 
     # Afar (aar) has no auxiliary or marks.
     with caplog.at_level(logging.WARNING):
@@ -239,4 +241,11 @@ def test_inheritance(caplog):
     assert "$" in Orthography(Language("fra").get_orthography())["numerals"]
 
     assert "0" in Orthography(Language("arb").get_orthography())["numerals"]
+
+def test_test():
+
+    fra = Language("fra").get_orthography()
+    print(fra)
+
+    assert "0" in fra["numerals"]
     

@@ -34,6 +34,9 @@ def test_language_inherit():
     aae = getattr(langs, "aae")
     assert "base" not in aae.get_orthography()
 
+    aae = Language("aae", inherit=False)
+    assert "base" not in aae.get_orthography()
+
 
 def test_language_preferred_name(langs):
     bal = getattr(langs, "bal")
