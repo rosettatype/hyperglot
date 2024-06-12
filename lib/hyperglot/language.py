@@ -1,10 +1,11 @@
 """
 Helper classes to work with the lib/hyperglot/data in more pythonic way
 """
+
 import yaml
 import logging
-from typing import List, Union
-from functools import lru_cache
+from typing import List, Union, Any
+from copy import deepcopy
 
 from hyperglot import (
     CHARACTER_ATTRIBUTES,
@@ -18,135 +19,23 @@ from hyperglot.orthography import Orthography
 log = logging.getLogger(__name__)
 log.setLevel(logging.WARNING)
 
-@lru_cache
-def load_language(iso: str, inherit: bool = True) -> dict | bool:
-    try:
-        data = load_language_data(iso)
-        
-        if not isinstance(data, dict):
-            raise ValueError(f"Malformed data in {iso}: Not a dictionary")
-        
-        if inherit:
-            inherit_orthographies(data, iso)
-            inherit_orthographies_from_macrolanguage(data, iso)
-    
-        return data
 
-    # Catch various formatting issues in the yaml files
-    except ValueError as e:
-        log.error(f"Malformed data in {iso}: {e}")
-
-    except yaml.scanner.ScannerError as e:
-        log.error(f"Malformed data in {iso}: {e}" )
-
-    except yaml.parser.ParserError as e:
-        log.error(f"Malformed data in {iso}: {e}" )
-
-    return False
+MACRO_LANGUAGES_CACHE = None
 
 
-def inherit_orthographies(lang, iso):
-    """
-    Check through all languages and if an orthography inherits from another
-    language copy those orthographies
-    """
-    if "orthographies" in lang:
-        for o in lang["orthographies"]:
-            if "inherit" in o:
-                parent_iso = o["inherit"]
-                if len(parent_iso) != 3:
-                    log.warning("'%s' failed to inherit "
-                                "orthography — not a language iso "
-                                "code" % iso)
-                    continue
+def get_macro_languages():
+    global MACRO_LANGUAGES_CACHE
 
-                o = inherit_to_orthography(parent_iso, o, iso)
+    from hyperglot.languages import Languages
 
-def inherit_to_orthography(source_iso, extend, iso=""):
-    """
-    Return an orthography dict that has been extended by the source iso's
-    orthography.
+    if MACRO_LANGUAGES_CACHE is None:
+        MACRO_LANGUAGES_CACHE = {
+            iso: lang
+            for iso, lang in Languages(inherit=False).items()
+            if "includes" in lang
+        }
 
-    @param source_iso str: The iso code of the language from which to
-        inherit
-    @param extend dict: The orthography dict of the language to which we
-        inherit — existing keys are left unchanged
-    @param iso str (optional): The iso code of the language to which we are
-        inheriting to. If an orthography inherits more than once we do not
-        have the inheriting's language context, so do not know the iso code
-        to which this orthography belongs to in that case
-    """
-    logging.debug("Inherit orthography from '%s' to '%s'" % (source_iso,
-                                                                iso))
-
-    # ref = getattr(self, source_iso)
-    from hyperglot import Language
-
-    ref = Language(source_iso)
-    # ref = load_language(source_iso)
-
-    if "script" in extend:
-        ort = ref.get_orthography(extend["script"])
-    else:
-        ort = ref.get_orthography()
-
-    if "inherit" in ort:
-        logging.info("Multiple levels of inheritence from '%s'. The "
-                        "language that inherited '%s' should inherit "
-                        "directly from '%s' " %
-                        (source_iso, source_iso, ort["inherit"]))
-        ort = inherit_to_orthography(ort["inherit"], ort)
-
-    if ort:
-        log.debug("'%s' inheriting orthography from "
-                    "'%s'" % (iso, source_iso))
-        # Copy all the attributes we want to inherit
-        # Note: No autonym inheritance
-        for attr in ["base", "auxiliary", "marks", "note",
-                        "punctuation", "numerals", "currency", 
-                        "script",
-                        "design_requirements", "design_alternates",
-                        "status"]:
-            if attr in ort:
-                # Wrap in type constructor, to copy, not
-                # reference
-                ty = type(ort[attr])
-                if attr in extend:
-                    log.info("'%s' skipping inheriting "
-                                "attribute '%s' from '%s': "
-                                "Already set" %
-                                (iso, source_iso, attr))
-                else:
-                    extend[attr] = ty(ort[attr])
-    else:
-        log.warning("'%s' is set to inherit from '%s' but "
-                    "no language or orthography found to "
-                    "inherit from for script '%s'" %
-                    (iso, source_iso, extend["script"]))
-
-    return extend
-
-def inherit_orthographies_from_macrolanguage(data, target):
-    """
-    If a language has no orthographies see check through all languages and 
-    if this language is included in a macrolanguage that has orthographies.
-    If so, apply the macrolanguage's orthographies to this language.
-    """
-
-    if "orthographies" not in data:
-        from hyperglot.languages import Languages
-
-        macrolanguages = {iso: lang for iso,
-                            lang in Languages(inherit=False).items() if "includes" in lang}
-
-        for source, mlang in macrolanguages.items():
-            if target in mlang["includes"] and "orthographies" in mlang:
-                log.debug("Inheriting macrolanguage '%s' "
-                            "orthographies to language '%s'"
-                            % (source, target))
-                # Make an explicit copy to keep the two languages
-                # separate
-                data["orthographies"] = mlang["orthographies"].copy()
+    return MACRO_LANGUAGES_CACHE
 
 
 class Language(dict):
@@ -180,7 +69,7 @@ class Language(dict):
         self.inherit = inherit
 
         if data is None:
-            data = load_language(self.iso, self.inherit)
+            data = self._parse_data()
 
         for key, default in self.defaults.items():
             if key not in data:
@@ -222,6 +111,141 @@ validity: {validity}
             status=self.status,  # noqa
             validity=self.validity,
         )  # noqa
+
+    def _parse_data(self) -> Union[dict, bool]:
+        try:
+            data = load_language_data(self.iso)
+
+            if not isinstance(data, dict):
+                raise ValueError(f"Malformed data in {self.iso}: Not a dictionary")
+
+            if self.inherit:
+                self.inherit_orthographies(data)
+                self.inherit_orthographies_from_macrolanguage(data)
+
+            return data
+
+        # Catch various formatting issues in the yaml files
+        except ValueError as e:
+            log.error(f"Malformed data in {self.iso}: {e}")
+
+        except yaml.scanner.ScannerError as e:
+            log.error(f"Malformed data in {self.iso}: {e}")
+
+        except yaml.parser.ParserError as e:
+            log.error(f"Malformed data in {self.iso}: {e}")
+
+        return False
+
+    def inherit_orthographies(self, data):
+        """
+        Check through all languages and if an orthography inherits from another
+        language copy those orthographies
+        """
+        if "orthographies" in data:
+            for o in data["orthographies"]:
+                if "inherit" in o:
+                    parent_iso = o["inherit"]
+                    if len(parent_iso) != 3:
+                        log.warning(
+                            "'%s' failed to inherit "
+                            "orthography — not a language iso "
+                            "code" % self.iso
+                        )
+                        continue
+
+                    o = self.inherit_to_orthography(parent_iso, o)
+
+    def inherit_to_orthography(self, source_iso, extend):
+        """
+        Return an orthography dict that has been extended by the source iso's
+        orthography.
+
+        @param source_iso str: The iso code of the language from which to
+            inherit
+        @param extend dict: The orthography dict of the language to which we
+            inherit — existing keys are left unchanged
+        @param iso str (optional): The iso code of the language to which we are
+            inheriting to. If an orthography inherits more than once we do not
+            have the inheriting's language context, so do not know the iso code
+            to which this orthography belongs to in that case
+        """
+        logging.debug("Inherit orthography from '%s' to '%s'" % (source_iso, self.iso))
+
+        ref = Language(source_iso, inherit=False)
+
+        if "script" in extend:
+            ort = ref.get_orthography(extend["script"])
+        else:
+            ort = ref.get_orthography()
+
+        if "inherit" in ort:
+            logging.info(
+                "Multiple levels of inheritence from '%s'. The "
+                "language that inherited '%s' should inherit "
+                "directly from '%s' " % (source_iso, source_iso, ort["inherit"])
+            )
+            ort = self.inherit_to_orthography(ort["inherit"], ort)
+
+        if ort:
+            log.debug(
+                "'%s' inheriting orthography from " "'%s'" % (self.iso, source_iso)
+            )
+            # Copy all the attributes we want to inherit
+            # Note: No autonym inheritance
+            for attr in [
+                "base",
+                "auxiliary",
+                "marks",
+                "note",
+                "punctuation",
+                "numerals",
+                "currency",
+                "script",
+                "design_requirements",
+                "design_alternates",
+                "status",
+            ]:
+                if attr in ort and ort[attr]:
+                    if attr in extend:
+                        log.info(
+                            "'%s' skipping inheriting "
+                            "attribute '%s' from '%s': "
+                            "Already set" % (self.iso, source_iso, attr)
+                        )
+                    else:
+                        extend[attr] = deepcopy(ort[attr])
+        else:
+            log.warning(
+                "'%s' is set to inherit from '%s' but "
+                "no language or orthography found to "
+                "inherit from for script '%s'"
+                % (self.iso, source_iso, extend["script"])
+            )
+
+        return extend
+
+    def inherit_orthographies_from_macrolanguage(data, target):
+        """
+        If a language has no orthographies see check through all languages and
+        if this language is included in a macrolanguage that has orthographies.
+        If so, apply the macrolanguage's orthographies to this language.
+        """
+
+        if "orthographies" in data:
+            return
+
+        macrolanguages = get_macro_languages()
+
+        for source, mlang in macrolanguages.items():
+            if target in mlang["includes"] and "orthographies" in mlang:
+                log.debug(
+                    "Inheriting macrolanguage '%s' "
+                    "orthographies to language '%s'" % (source, target)
+                )
+                # Make an explicit copy to keep the two languages
+                # separate
+                data["orthographies"] = deepcopy(mlang["orthographies"])
 
     def get_orthography(
         self, script: str = None, status: str = None

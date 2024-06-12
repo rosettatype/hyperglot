@@ -359,7 +359,7 @@ def check_autonym_spelling(ort):
 
 def check_script_characters(Langs):
     for iso in Langs.keys():
-        Lang = getattr(Langs, iso)
+        Lang = Langs[iso]
         if "orthographies" not in Lang:
             continue
         for o in Lang["orthographies"]:

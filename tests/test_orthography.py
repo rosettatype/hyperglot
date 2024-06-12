@@ -24,7 +24,7 @@ def orthography_with_omitted_defaults():
 
 
 def test_orthography_character_list(langs):
-    deu = getattr(langs, "deu")
+    deu = Language("deu")
     ort_default = Orthography(deu["orthographies"][0])
 
     deu_base_default = ort_default._character_list("base")
@@ -64,7 +64,7 @@ def test_orthography_required_marks(langs):
     script: Latin
     status: primary
     """
-    deu = getattr(langs, "deu")
+    deu = Language("deu")
     ort = Orthography(deu["orthographies"][0])
 
     # Neither base nor aux has marks which cannot be derived form precomposed
@@ -84,7 +84,7 @@ def test_orthography_required_marks(langs):
     rus_marks = "◌̆ ◌̈ ◌́"
     """
 
-    rus = getattr(langs, "rus")
+    rus = Language("rus")
     ort = Orthography(rus["orthographies"][0])
 
     # No marks should be required since all are implicit from precomposed
@@ -104,7 +104,7 @@ def test_orthography_required_marks(langs):
     base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ь Ю Я Ѐ Ѝ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ь ю я ѐ ѝ
     marks: ◌̀ ◌̆
     """
-    bul = getattr(langs, "bul")
+    bul = Language("bul")
     ort = Orthography(bul["orthographies"][0])
 
     assert ort.base_marks == ["̀", "̆"]
@@ -116,7 +116,7 @@ def test_orthography_required_marks(langs):
 
     base: A B C D E F G H I J K L M N O R S T U W Y Z Ƙ Ƴ Ɓ Ɗ R̃ a b c d e f g h i j k l m n o r s t u w y z ƙ ƴ ɓ ɗ r̃ ʼ
     """
-    hau = getattr(langs, "hau")
+    hau = Language("hau")
     ort = Orthography(hau["orthographies"][0])
 
     assert ort.required_base_marks == ["̃"]
@@ -166,7 +166,7 @@ def test_yaml_escape_sequences(langs):
     # Test some particular cases where the yaml encoding has lead to confusion
 
     # Confirm the single auxiliary mark ' in Standard Malay is returned as such
-    zsm = getattr(langs, "zsm")
+    zsm = Language("zsm")
     assert zsm.get_orthography()["auxiliary"] == "'"
 
 
@@ -185,7 +185,7 @@ def test_orthography_script_iso(langs):
     assert Orthography({"script": "N'Ko"})["script_iso"] == "Nkoo"
 
     # An actual Orthography with data
-    deu = getattr(langs, "deu")
+    deu = Language("deu")
     assert Orthography(deu["orthographies"][0])["script_iso"] == "Latn"
 
     # An error for a script not in the hyperglot mapping
@@ -242,10 +242,6 @@ def test_inheritance(caplog):
 
     assert "0" in Orthography(Language("arb").get_orthography())["numerals"]
 
-def test_test():
-
-    fra = Language("fra").get_orthography()
-    print(fra)
-
-    assert "0" in fra["numerals"]
-    
+# def test_orthography_object():
+#     print(Language("eng")["orthographies"][0])
+#     print(Language("eng").get_orthography())

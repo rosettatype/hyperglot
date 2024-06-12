@@ -95,26 +95,28 @@ class Checker:
         support = {}
 
         for iso in languages:
-            l = getattr(languages, iso)  # noqa, let's keep l short
+            lang = languages[iso]
 
-            if "validity" not in l:
+            if "validity" not in lang:
                 log.info("Skipping langauge '%s' which is missing " "'validity'" % iso)
                 continue
 
             # Skip languages below the currently selected validity level.
-            if LanguageValidity.index(l["validity"]) < LanguageValidity.index(validity):
+            if LanguageValidity.index(lang["validity"]) < LanguageValidity.index(
+                validity
+            ):
                 log.info("Skipping language '%s' which has lower " "'validity'" % iso)
                 continue
 
-            if include_historical and l.is_historical:
-                log.info("Including historical language '%s'" % l.name)
-            elif include_historical is False and l.is_historical:
+            if include_historical and lang.is_historical:
+                log.info("Including historical language '%s'" % lang.name)
+            elif include_historical is False and lang.is_historical:
                 log.info("Skipping historical language '%s'" % iso)
                 continue
 
-            if include_constructed and l.is_constructed:
-                log.info("Including constructed language '%s'" % l.name)
-            elif include_constructed is False and l.is_constructed:
+            if include_constructed and lang.is_constructed:
+                log.info("Including constructed language '%s'" % lang.name)
+            elif include_constructed is False and lang.is_constructed:
                 log.info("Skipping constructed language '%s'" % iso)
                 continue
 
@@ -144,7 +146,7 @@ class Checker:
                     for iso in isos:
                         # Note we are adding the pruned language object that
                         # has_support has updated.
-                        support[script][iso] = l
+                        support[script][iso] = lang
 
         return support
 

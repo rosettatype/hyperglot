@@ -7,7 +7,7 @@ import re
 import logging
 
 from hyperglot import DB, LanguageValidity
-from hyperglot.language import load_language
+from hyperglot.language import Language
 
 log = logging.getLogger(__name__)
 log.setLevel(logging.WARNING)
@@ -24,7 +24,7 @@ def find_language(search):
 
     # Search as 3-letter iso code, return if matched
     if search in hg.keys():
-        return [getattr(hg, search)], f"Matched from iso code {search}:"
+        return [Language(search)], f"Matched from iso code {search}:"
 
     # Search from language names and autonyms
     # If a single match is a full 1=1 match return that
@@ -33,7 +33,7 @@ def find_language(search):
 
     matches = {}
     for iso in hg.keys():
-        lang = getattr(hg, iso)
+        lang = Language(iso)
         name = lang.name.lower()
         aut = lang.autonym
         autonyms = [] if not aut else [aut.lower()]
@@ -64,21 +64,24 @@ class Languages(dict):
     def __init__(
         self, 
         strict: bool = False, 
-        inherit: bool = True, 
         validity: str = LanguageValidity.DRAFT.value,
+        inherit: bool = True, 
     ):
         """
         @param strict (Boolean): Use Rosetta macrolanguage definitions (False)
             or ISO definitions (True). Defaults to False.
-        @param inherit (Boolean): Inherit orthographies. Defaults to True.
         @param validity (Hyperglot.LanguageValidity): Minimum level of validity
             which languages must have. One of "todo", "draft", "preliminary",
             "verified". Defaults to "draft" — all languages with basic
             information, but possibly unconfirmed.
+        @param inherit (Boolean): Inherit orthographies. Defaults to True.
         """
         self.strict = strict
         self.inherit = inherit
         self.validity = validity
+
+        # Keep track of loaded Language objects available on keys
+        self._loaded = []
 
         # Load raw yaml data for all languages
         for file in os.listdir(DB):
@@ -90,7 +93,8 @@ class Languages(dict):
             # filename (escaping some reserved file names, see #127)
             iso = re.sub(r"_", "", os.path.splitext(file)[0])
 
-            self[iso] = load_language(iso, inherit=self.inherit)
+            # Index the iso keys, but load the data only on __getitem__ access
+            self[iso] = None
 
         if not strict:
             self.lax_macrolanguages()
@@ -100,18 +104,27 @@ class Languages(dict):
 
     def __repr__(self):
         return "Languages DB dict with '%d' languages" % len(self.keys())
-
-    def __getattribute__(self, iso: str):
+    
+    def __getitem__(self, iso: str) -> Language:
         """
-        A convenience getter returning initialized hyperglot.language.Language
-        objects when their iso is used as key on this Languages.
-        Where self["xxx"] returns the _raw yaml data_ self.xxx will return the
-        more usable Language object
+        On item access load the requested data. Raises a KeyError if no such
+        iso exists.
         """
-        if iso != "keys" and iso in self.keys():
-            # Note: Avoid circular imports so fetch Language only at this stage
-            from hyperglot.language import Language
-            return Language(iso, data=self[iso], inherit=self.inherit)
+        if iso not in self._loaded:
+            self[iso] = Language(iso, inherit=self.inherit)
+        
+        return super().__getitem__(iso)
+    
+    def __getattribute__(self, iso: str) -> Language:
+        """
+        Deprecated, but keep for backwards compatibility.
+        """
+        if iso in self:
+            log.warning(
+                "Accessing iso attributes on Language objects is deprecated, "
+                "use key access like Languages()[iso] instead."
+            )
+            return self[iso]
 
         return super().__getattribute__(iso)
 
@@ -134,7 +147,8 @@ class Languages(dict):
         This means: Remove includes attributes, remove included languages
         """
         pruned = dict(self)
-        for iso, lang in self.items():
+        for iso in self:
+            lang = self[iso]
             if "preferred_as_individual" in lang:
                 if "orthographies" not in lang:
                     log.warning("'%s' cannot be treated as individual, "
@@ -163,7 +177,8 @@ class Languages(dict):
 
         allowed = LanguageValidity.index(validity)
         pruned = {}
-        for iso, lang in self.items():
+        for iso in self:
+            lang = self[iso]
             try:
                 if LanguageValidity.index(lang["validity"]) >= allowed:
                     pruned[iso] = lang

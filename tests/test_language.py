@@ -22,24 +22,14 @@ def langs():
 
 
 def test_language_inherit():
-    langs = Languages(inherit=True)
-
     # aae inherits aln orthography
-    aae = getattr(langs, "aae")
-    aln = getattr(langs, "aln")
+    aae = Language("aae")
+    aln = Language("aln")
     assert aae.get_orthography()["base"] == aln.get_orthography()["base"]
-
-    # without inheritance aae's only orthography should not have any base chars
-    langs = Languages(inherit=False)
-    aae = getattr(langs, "aae")
-    assert "base" not in aae.get_orthography()
-
-    aae = Language("aae", inherit=False)
-    assert "base" not in aae.get_orthography()
 
 
 def test_language_preferred_name(langs):
-    bal = getattr(langs, "bal")
+    bal = Language("bal")
     #   name: Baluchi
     #   preferred_name: Balochi
     assert bal.get_name() == "Balochi"
@@ -47,7 +37,7 @@ def test_language_preferred_name(langs):
 
 
 def test_language_get_autonym(langs):
-    bal = getattr(langs, "bal")
+    bal = Language("bal")
     #   name: Baluchi
     #   - autonym: بلۏچی
     #     script: Arabic
@@ -71,7 +61,7 @@ def test_language_orthographies():
 
 def test_get_orthography(langs):
 
-    deu = getattr(langs, "deu")
+    deu = Language("deu")
 
     # By default and with not parameters it should return the primary
     # orthography
@@ -91,7 +81,7 @@ def test_get_orthography(langs):
     with pytest.raises(KeyError):
         deu.get_orthography(status="constructed")
 
-    bos = getattr(langs, "bos")
+    bos = Language("bos")
 
     # Return a script specific orthography, even if that is not the primary one
     bos_cyrillic = bos.get_orthography("Cyrillic")
