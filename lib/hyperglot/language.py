@@ -1,7 +1,3 @@
-"""
-Helper classes to work with the lib/hyperglot/data in more pythonic way
-"""
-
 import yaml
 import logging
 from typing import List, Union, Any
@@ -68,6 +64,8 @@ class Language(dict):
         self.iso = iso
         self.inherit = inherit
 
+        self._parsed = []
+
         if data is None:
             data = self._parse_data()
 
@@ -113,6 +111,10 @@ validity: {validity}
         )  # noqa
 
     def _parse_data(self) -> Union[dict, bool]:
+        """
+        Get and parse the language data from the yaml file. Expand
+        orthographies and resolve inheritance.
+        """
         try:
             data = load_language_data(self.iso)
 
@@ -120,8 +122,10 @@ validity: {validity}
                 raise ValueError(f"Malformed data in {self.iso}: Not a dictionary")
 
             if self.inherit:
-                self.inherit_orthographies(data)
-                self.inherit_orthographies_from_macrolanguage(data)
+                self._inherit_orthographies(data)
+                self._inherit_orthographies_from_macrolanguage(data)
+
+            self._expand_orthographies(data)
 
             return data
 
@@ -137,24 +141,35 @@ validity: {validity}
 
         return False
 
-    def inherit_orthographies(self, data):
+    def _expand_orthographies(self, data):
+        if "orthographies" not in data:
+            return
+        _orthographies = []
+        for o in data["orthographies"]:
+            _orthographies.append(Orthography(o))
+        data["orthographies"] = _orthographies
+
+    def _inherit_orthographies(self, data):
         """
         Check through all languages and if an orthography inherits from another
         language copy those orthographies
         """
-        if "orthographies" in data:
-            for o in data["orthographies"]:
-                if "inherit" in o:
-                    parent_iso = o["inherit"]
-                    if len(parent_iso) != 3:
-                        log.warning(
-                            "'%s' failed to inherit "
-                            "orthography — not a language iso "
-                            "code" % self.iso
-                        )
-                        continue
+        if "orthographies" not in data:
+            return
 
-                    o = self.inherit_to_orthography(parent_iso, o)
+        for o in data["orthographies"]:
+            if "inherit" not in o:
+                continue
+
+            parent_iso = o["inherit"]
+            if len(parent_iso) != 3:
+                log.warning(
+                    f"{self.iso} failed to inherit orthography — not a "
+                    "language iso code"
+                )
+                continue
+
+            o = self.inherit_to_orthography(parent_iso, o)
 
     def inherit_to_orthography(self, source_iso, extend):
         """
@@ -225,7 +240,7 @@ validity: {validity}
 
         return extend
 
-    def inherit_orthographies_from_macrolanguage(data, target):
+    def _inherit_orthographies_from_macrolanguage(data, target):
         """
         If a language has no orthographies see check through all languages and
         if this language is included in a macrolanguage that has orthographies.
@@ -249,7 +264,7 @@ validity: {validity}
 
     def get_orthography(
         self, script: str = None, status: str = None
-    ) -> Union[dict, bool]:
+    ) -> Union[Orthography, bool]:
         """
         Get the most appropriate raw orthography attribute value, or one
         specifically matching the parameters. If there are multiple
@@ -268,8 +283,6 @@ validity: {validity}
 
         matches = []
         for o in self["orthographies"]:
-
-            o = Orthography(o)
 
             if script is not None and o["script"] != script:
                 continue
@@ -318,10 +331,10 @@ validity: {validity}
         if not check_all_orthographies:
             # Note the .copy() here since we manipulate the attribute
             # and do not want to alter the original.
-            as_group = [o.copy() for o in orthographies if "preferred_as_group" in o]
+            as_group = [deepcopy(o) for o in orthographies if o["preferred_as_group"]]
 
             as_individual = [
-                o.copy() for o in orthographies if "preferred_as_group" not in o
+                deepcopy(o) for o in orthographies if not o["preferred_as_group"]
             ]
 
             orthographies = as_individual if as_individual else []
@@ -348,7 +361,7 @@ validity: {validity}
                         _ort[key] = val
                     orthographies.append(_ort)
 
-        return [Orthography(o) for o in orthographies]
+        return [o for o in orthographies]
 
     def get_name(self, script: str = None, strict: bool = False) -> Union[str, bool]:
         if script is not None:

@@ -131,6 +131,9 @@ def test_language_supported_validity():
         CharsetChecker(aat_base).supports_language("aat", validity="preliminary")
         is False
     )
+
+    # Two primary orthographies, but no preferred_as_group, so supporting one 
+    # should be enough to pass
     assert CharsetChecker(aat_base).supports_language("aat", validity="draft")
 
 

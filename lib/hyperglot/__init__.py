@@ -122,7 +122,7 @@ MARK_BASE = "◌"
 
 
 
-# Define module level imports
+# Define module level convenience imports
 
 from hyperglot.languages import Languages
 from hyperglot.language import Language

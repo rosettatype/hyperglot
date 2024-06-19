@@ -214,7 +214,7 @@ class Checker:
             return False
 
         if supportlevel not in [s.value for s in SupportLevel]:
-            raise Exception(
+            log.error(
                 "Provided support level '%s' not valid, "
                 "defaulting to 'base'" % supportlevel
             )

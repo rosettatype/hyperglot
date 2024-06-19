@@ -5,6 +5,7 @@ import pytest
 from hyperglot import LanguageStatus, LanguageValidity
 from hyperglot.languages import Languages
 from hyperglot.language import Language
+from hyperglot.orthography import Orthography
 
 
 @pytest.fixture
@@ -122,4 +123,7 @@ def test_language_presentation():
     assert tob["speakers"] is None
 
 
-
+def test_language_orthography_access():
+    eng = Language("eng")
+    assert type(eng["orthographies"][0]) is Orthography
+    assert type(eng.get_orthography()) is Orthography

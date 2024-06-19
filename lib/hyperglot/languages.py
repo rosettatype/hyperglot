@@ -1,6 +1,3 @@
-"""
-Helper classes to work with the lib/hyperglot/data in more pythonic way
-"""
 from functools import lru_cache
 import os
 import re
@@ -58,7 +55,7 @@ def find_language(search):
 class Languages(dict):
     """
     A dict wrapper around the language data yaml file with additional querying
-    options for convenience
+    options for convenience.
     """
 
     def __init__(

@@ -114,7 +114,7 @@ class Orthography(dict):
         resolved = {}
 
         for lang in [m.strip() for m in inherit]:
-            Lang = Language(lang)
+            Lang = Language(lang, inherit=False)
             # Get a matching orthography. Require same script for "characters"
             # but not for punctuation/currency/numerals which can be inherited
             # cross-script.
@@ -128,7 +128,7 @@ class Orthography(dict):
             except KeyError as e:
                 ort = Lang.get_orthography()
             
-            if attr not in ort:
+            if not ort[attr]:
                 resolved[lang] = ""
                 logging.warning(
                     f"Orthography cannot inherit non-existing '{attr}' from "
