@@ -84,12 +84,27 @@ class Orthography(dict):
         self.update(self.inheritable_defaults)
         self.update(data)
         for key in self.inheritable_defaults.keys():
-            self.resolve_inheritance(key)
+            self._resolve_inherited_attributes(key)
     
-    def resolve_inheritance(self, attr:str) -> None:
+    def _resolve_inherited_attributes(self, attr:str) -> None:
         """
         Resolve any {iso} code references in the orthography attributes to
-        inherit them from the referenced language.
+        inherit them from the referenced language. The inherited characters 
+        are added in the position of the tag.
+
+        Valid inheritance can be any iso tag plus a combination of script, 
+        attribute and orthography status:
+        
+        # get the primary orthography of same script
+        {iso} 
+
+        # get very specific
+        {iso Arabic auxiliary transliteration}
+
+        # nest within other values
+        a b c {iso} d e f 
+        or
+        a b c d e f {iso}
         """
 
         # Late import to avoid going circular
@@ -100,43 +115,95 @@ class Orthography(dict):
         value = self[attr]
         value_is_yaml_object = type(value) is dict and len(value.keys()) == 1
 
+        # Special case:
         # Yaml will parse a standalone 'numerals: {eng}' as a dict with key 
         # 'eng' and value 'None'
         if value_is_yaml_object:
             inherit = list(value.keys())
         else:
-            inherit = re.findall("{([a-z ]*)}", value)
+            # Note the group needs to encompase valid iso codes and Script
+            # names, e.g. A-z but also "Geʽez", "N'ko", ...
+            inherit = re.findall("{([A-z'ʽ ]*)}", value)
 
-        if inherit is None:
+        if inherit is None or inherit == []:
             return
         
         # Store any resolved character lists under the iso code
         resolved = {}
 
-        for lang in [m.strip() for m in inherit]:
+        # For each resolved {...} code, parse the characters
+        for code in [i.strip() for i in inherit]:
+            parts = re.split(r"\s+", code)
+
+            lang = parts.pop(0)
+            attribute = attr
+            status = None
+            script = None
+
+            if len(parts) > 0:
+
+                # Look at the other parts, see if any of them is a valid
+                # orthography attribute, if so, overwrite attr to inherit to
+
+                for p in list(parts):
+                    if p in self.inheritable_defaults.keys():
+                        attribute = p
+                        parts.remove(p)
+
+                    if p in get_scripts().keys():
+                        script = p
+                        parts.remove(p)
+
+                    if p in OrthographyStatus.values():
+                        status = p
+                        parts.remove(p)
+
+                if len(parts) > 0:
+                    raise ValueError(
+                        f"Orthography tries to inherit from '{code}'. Could "
+                        f"not resolve '{parts}' as an orthography "
+                        "script, attribute or status."
+                    )
+
+            log.debug(
+                f"Inheriting to orthography from: {lang} {script} {attribute} {status}"
+            )
+
             Lang = Language(lang, inherit=False)
+
             # Get a matching orthography. Require same script for "characters"
             # but not for punctuation/currency/numerals which can be inherited
             # cross-script.
-            if "script" not in self and attr in ["base", "auxiliary", "marks"]:
+            if "script" not in self and attribute in ["base", "auxiliary", "marks"]:
                 raise KeyError(
-                    f"Orthography cannot inherit '{attr}' from '{lang}' "
+                    f"Orthography cannot inherit '{attribute}' from '{lang}' "
                     "without having a script."
                 )
-            try:
-                ort = Lang.get_orthography(script=self["script"])
-            except KeyError as e:
-                ort = Lang.get_orthography()
             
-            if not ort[attr]:
+            if script is None:
+                try:
+                    ort = Lang.get_orthography(script=self["script"], status=status)
+                except KeyError as e:
+                    ort = Lang.get_orthography(status=status)
+            else:
+                try:
+                    ort = Lang.get_orthography(script=script, status=status)
+                except KeyError as e:
+                    raise KeyError(
+                        f"Orthography cannot inherit '{attr}' from '{lang}' "
+                        f"with script '{script}'. Source language has no "
+                        f"orthography for script '{script}'"
+                    )
+            
+            if not ort[attribute]:
                 resolved[lang] = ""
                 logging.warning(
-                    f"Orthography cannot inherit non-existing '{attr}' from "
+                    f"Orthography cannot inherit non-existing '{attribute}' from "
                     f"'{lang}', nothing inherited."
                 )
                 continue
             
-            resolved[lang] = ort[attr]
+            resolved[lang] = ort[attribute]
 
         # Insert the inherited characters in the place of the {iso} tag. We
         # don't worry about duplicates at this spot, later parse_chars calls
@@ -145,7 +212,9 @@ class Orthography(dict):
             if value_is_yaml_object:
                 value = chars
             else:
-                value = re.sub(r"{\s*(" + iso + r")\s*}", f" {chars} ", value)
+                # For inserting match the iso "and anything until '}'" and 
+                # replace
+                value = re.sub(r"{\s*(" + iso + r"[^}]*)}", f" {chars} ", value)
         
         self[attr] = value
 

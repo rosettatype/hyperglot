@@ -240,3 +240,38 @@ def test_inheritance(caplog):
     assert "$" in Language("fra").get_orthography()["currency"]
     assert "0" in Language("arb").get_orthography()["numerals"]
 
+    # Confirm specifying a script works
+    basic = Orthography({"base": "{eng Latin} ß ∂ œ ø", "script": "Latin"})
+    assert "A" in basic.base_chars
+
+    # Make sure all script names work
+    nko = Orthography({"base": "{emk N'Ko}", "script": "N'Ko"})
+    assert "ߐ" in nko.base
+
+    # Fail with error for forcing inheriting from a script that does not exist
+    with pytest.raises(KeyError):
+        Orthography({"base": "{eng Arabic} ß ∂ œ ø", "script": "Latin"})
+
+    # Fail when trying to inherit gibberish
+    with pytest.raises(ValueError):
+        Orthography({"base": "{eng Foobar} ß ∂ œ ø", "script": "Latin"})
+
+    # Inherit from a different attribute
+    different = Orthography({"base": "{eng auxiliary}", "script": "Latin"})
+    assert "Ç" in different.base
+    assert "{" not in different.base
+    assert not different.auxiliary
+
+    # Inherit from a non-primary orthography
+    nonprimary = Orthography({"base": "{eng auxiliary historical}", "script": "Latin"})
+    assert "ſ" in nonprimary.base
+
+    # Fail for inheriting a non existing status
+    with pytest.raises(KeyError):
+        Orthography({"base": "{eng transliteration}", "script": "Latin"})
+
+    # Just test the parser doesn't choke
+    sloppy = Orthography({"base": "A B   {   eng  auxiliary   historical}C D"})
+    assert "ſ" in sloppy.base
+    assert "C" in sloppy.base
+
