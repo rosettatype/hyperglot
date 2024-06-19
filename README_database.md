@@ -2,7 +2,7 @@
 
 ## Database
 
-The database is stored in the YAML file `lib/Hyperglot/data/xxx/xxx.yaml`.
+The database is stored in the YAML file `lib/Hyperglot/data/xxx.yaml`.
 
 ### Languages
 
@@ -32,7 +32,6 @@ A language can refer to one or more orthographies. An orthography specifies the 
 - `auxiliary` (optional): a string of space-separated characters or combinations of characters and combining marks that are not part of the standard alphabet, but appear in very common loan words or in reference literature. Deprecated characters can be included here too, e.g. `ş ţ` for Romanian.
 - `marks` (optional): combining marks needed for the glyph composition of `base` or `auxiliary` as well as any additional combining marks required for this orthography. Saving will also automatically add any marks that can be decomposed from characters in `base` or `auxiliary` to the `marks`. Also marks that are not part of any characters should be added here and they will be required for fonts checking such languages.
 - `autonym` (optional): the name of the language in the language itself using this orthography. If missing, the `autonym` defined in the parent language entry is used. It is expected that the `autonym` can be spelled with the orthography's `base`.
-- `inherit` (required or use `base`): the code of a language to copy the `base, auxiliary, marks, punctuation, numerals, currency, design_note` strings from. In case the language has multiple orthographies, the first one for the same script is used.
 - `script` (required): English name of the main script used by the orthography, e.g. Latin, Arabic, Armenian, Cyrillic, Greek, Hebrew. When a language uses a combination of several scripts in conjunction each script forms its own orthography. It should follow ISO 15924.
 - `status` (required, defaults to `primary`): one of the following (there can multiple orthographies with the same status per language):
   - `primary` for the current, main orthography of a language,
@@ -45,6 +44,33 @@ A language can refer to one or more orthographies. An orthography specifies the 
 - `note` (optional): a note of any kind.
 - `design_requirements` (optional): a list of notes with general design considerations specific to this orthography. Ideally, phrased in a way that is font-format agnostic. A hint really.
 - `design_alternates` (optional): a string of space separates characters from either `base`, `auxiliary` or `marks` which may require special treatment in font designs of those unicode points or combinations
+
+#### Inheritance
+
+These attributes of an orthography can inherit from other languages/orthographies: `base`, `auxiliary`, `marks`, `punctuation`, `numerals`, `currency`, `design_requirements`, `design_alternates`.
+
+Inheritance uses the iso code of the language to inherit from, with optional script, orthography status and source attribute.
+
+Examples:
+
+```
+# Inherit the base characters of eng to this orthography's base attribute
+base: {eng}
+
+# Inherit the auxiliary characters of eng, but into the base attribute of this orthography
+base: {eng auxiliary}
+
+# Inherit the ott transliteration orthography
+base: {ott transliteration}
+
+# Inherit the Cyrillic script base from srp (note script names are title case)
+base: {srp Cyrillic}
+
+# The inherited characters are inserted in place of the {...} so
+base: Å {eng} À Á
+# will result in:
+base: Å A B C (etc. all from eng) À Á
+```
 
 
 ### Macrolanguages
