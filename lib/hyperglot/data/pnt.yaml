@@ -2,7 +2,7 @@ name: Pontic Greek
 orthographies:
 - autonym: Ποντιακά
   base: Α Β Γ Δ Ε Ζ Θ Ι Κ Λ Μ Ν Ο Π Ρ Σ Χ̌ Τ Ζ̌ Υ Φ Χ α β γ δ ε ζ θ ι κ λ μ ν ο π ρ σ χ̌ τ ζ̌ υ φ χ
-  marks: ◌̌
+  marks: ◌̌ ◌́
   preferred_as_group: true
   script: Greek
   status: primary
@@ -12,7 +12,7 @@ orthographies:
   preferred_as_group: true
   script: Latin
   status: primary
-- autonym: Понтиакá
+- autonym: Понтиака́
   base: А В Г Д Е Ж З С И К Л М Н О П Р Ш Т Ц Ч У Ф Х а в г д е ж з с и к л м н о п р ш т ц ч у ф х
   marks: ◌́
   preferred_as_group: true

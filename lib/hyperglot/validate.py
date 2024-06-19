@@ -319,12 +319,8 @@ def check_includes(lang):
 
 
 def check_autonym_spelling(ort):
-    chars = parse_chars(ort["base"])
-    if "auxiliary" in ort:
-        chars = chars + parse_chars(ort["auxiliary"])
-    if "marks" in ort:
-        chars = chars + parse_chars(ort["marks"])
-    chars = set(chars)
+    chars = parse_chars(ort.base + ort.auxiliary + ort.base_marks + ort.auxiliary_marks + parse_chars(ort["marks"]))
+    chars = [c.lower() for c in chars]
 
     # Use lowercase no non-word-chars version of autonym
     autonym = ort["autonym"].lower()
