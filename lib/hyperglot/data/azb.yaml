@@ -8,7 +8,9 @@ orthographies:
   note: Used in Iran.
   script: Arabic
   status: primary
-- inherit: azj
+- base: {azj}
+  auxiliary: {azj}
+  marks: {azj}
   note: Used outside Iran.
   script: Latin
   status: primary

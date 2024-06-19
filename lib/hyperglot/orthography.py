@@ -66,8 +66,8 @@ class Orthography(dict):
         "autonym": "",
         "script": "",
         "status": OrthographyStatus.PRIMARY.value,
-        "design_requirements": "",
-        "design_alternates": "",
+        "design_requirements": [],
+        "design_alternates": [],
     }
     
     inheritable_defaults = {
@@ -77,6 +77,8 @@ class Orthography(dict):
         "punctuation": "",
         "numerals": "",
         "currency": "",
+        "design_requirements": [],
+        "design_alternates": [],
     }
 
     def __init__(self, data: dict):
@@ -113,6 +115,7 @@ class Orthography(dict):
         # Find any {iso} inheritance tags
         inherit = None
         value = self[attr]
+        value_is_yaml_list = type(value) is list
         value_is_yaml_object = type(value) is dict and len(value.keys()) == 1
 
         # Special case:
@@ -120,6 +123,13 @@ class Orthography(dict):
         # 'eng' and value 'None'
         if value_is_yaml_object:
             inherit = list(value.keys())
+        elif value_is_yaml_list:
+            for listitem in value:
+                codes = re.findall("{([A-z'ʽ ]*)}", listitem)
+                if codes is not []:
+                    if inherit is None:
+                        inherit = []
+                    inherit.extend(codes)
         else:
             # Note the group needs to encompase valid iso codes and Script
             # names, e.g. A-z but also "Geʽez", "N'ko", ...

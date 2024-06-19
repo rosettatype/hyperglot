@@ -2,7 +2,7 @@ name: Min Nan Chinese
 note: The speaker count is approximate.
 orthographies:
 - autonym: 閩南語
-  inherit: cmn
+  base: {cmn}
   script: Chinese
   status: primary
 source:

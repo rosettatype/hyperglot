@@ -1,8 +1,13 @@
 name: Dotyali
 orthographies:
 - autonym: डोटेली
-  auxiliary: ॐ
-  inherit: npi
+  auxiliary: {npi}
+  base: {npi}
+  marks: {npi}
+  numerals: {npi}
+  punctuation: {npi}
+  design_requirements: {npi}
+  design_alternates: {npi}
   script: Devanagari
   status: primary
 source:

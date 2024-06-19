@@ -1,6 +1,8 @@
 name: Judeo-Persian
 orthographies:
-- inherit: heb
+- base: {heb}
+  auxiliary: {heb}
+  marks: {heb}
   script: Hebrew
   status: primary
 speakers: 60000

@@ -1,7 +1,8 @@
 name: Southern Kurdish
 orthographies:
 - autonym: کوردی خوارگ
-  inherit: ckb
+  base: {ckb}
+  design_requirements: {ckb}
   script: Arabic
   status: primary
 source:

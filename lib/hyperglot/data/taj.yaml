@@ -1,11 +1,20 @@
 name: Eastern Tamang
 orthographies:
 - autonym: तामाङ‎
-  inherit: hin
+  base: {hin}
+  auxiliary: {hin}
+  marks: {hin}
+  numerals: {hin}
+  punctuation: {hin}
+  design_requirements: {hin}
   script: Devanagari
   status: primary
 - autonym: རྟ་དམག‎
-  inherit: bod
+  base: {bod}
+  marks: {bod}
+  numerals: {bod}
+  punctuation: {bod}
+  design_requirements: {bod}
   script: Tibetan
 source:
 - Omniglot

@@ -1,7 +1,11 @@
 name: Dehwari
 orthographies:
 - autonym: دهواری
-  inherit: pes
+  base: {pes}
+  marks: {pes}
+  currency: {pes}
+  numerals: {pes}
+  design_requirements: {pes}
   script: Arabic
   status: primary
 source:

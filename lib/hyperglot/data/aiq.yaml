@@ -1,7 +1,11 @@
 name: Aimaq
 orthographies:
 - autonym: ایماقی
-  inherit: pes
+  base: {pes}
+  marks: {pes}
+  numerals: {pes}
+  currency: {pes}
+  design_requirements: {pes}
   script: Arabic
   status: primary
 source:

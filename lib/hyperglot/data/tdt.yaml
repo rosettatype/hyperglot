@@ -1,7 +1,8 @@
 name: Tetun Dili
 orthographies:
 - autonym: Tetun Dili
-  inherit: tet
+  base: {tet}
+  marks: {tet}
   script: Latin
   status: primary
 source:

@@ -1,7 +1,7 @@
 name: Eastern Oromo
 orthographies:
 - autonym: Harar
-  inherit: gax
+  base: {gax}
   script: Latin
   status: primary
 source:

@@ -206,19 +206,6 @@ def test_inheritance(caplog):
     assert "ø" == inherit_multiple.base_chars[-1]
     assert "Å" in inherit_multiple.base_chars
 
-    # Test cross script inheritance (failures)
-
-    # Raise error when a script to inherit _characters_ from does not exist.
-    # TBD
-    # with pytest.raises(KeyError):
-    #     Orthography({ "base": "م ن ت ا ل ب ي س ش {eng}", "script": "Arabic" })
-
-    # Raise error when an orthography tries to inherit _characters_ but 
-    # doesn't have a script set.
-    # TBD
-    # with pytest.raises(KeyError):
-    #     Orthography({ "base": "م ن ت ا ل ب ي س ش {eng}"})
-
     # Afar (aar) has no auxiliary or marks to inherit, this should trigger a
     # warning.
     with caplog.at_level(logging.WARNING):
@@ -275,3 +262,5 @@ def test_inheritance(caplog):
     assert "ſ" in sloppy.base
     assert "C" in sloppy.base
 
+    # Test all attributes get inherited
+    assert type(Language("aec").get_orthography()["design_requirements"]) is not dict

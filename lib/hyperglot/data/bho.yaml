@@ -1,7 +1,12 @@
 name: Bhojpuri
 orthographies:
 - autonym: भोजपुरी
-  inherit: mag
+  base: {mag}
+  auxiliary: {mag}
+  marks: {mag}
+  numerals: {mag}
+  punctuation: {mag}
+  design_requirements: {mag}
   note: The use of the Kaithi script is declining. Devanagari is currently the most commonly used script for oficial documents.
   script: Devanagari
   status: primary

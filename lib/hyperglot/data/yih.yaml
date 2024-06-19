@@ -1,7 +1,8 @@
 name: Western Yiddish
 orthographies:
 - autonym: ייִדיש
-  inherit: ydd
+  base: {ydd}
+  marks: {ydd}
   script: Hebrew
   status: primary
 source:

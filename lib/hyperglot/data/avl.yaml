@@ -1,7 +1,11 @@
 name: Eastern Egyptian Bedawi Arabic
 orthographies:
 - autonym: بدوي
-  inherit: ajp
+  base: {ajp}
+  auxiliary: {ajp}
+  marks: {ajp}
+  numerals: {ajp}
+  design_requirements: {ajp}
   script: Arabic
   status: primary
 source:

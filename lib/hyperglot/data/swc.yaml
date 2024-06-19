@@ -1,7 +1,7 @@
 name: Congo Swahili
 orthographies:
 - autonym: Kiswahili
-  inherit: swh
+  base: {swh}
   script: Latin
   status: primary
 source:

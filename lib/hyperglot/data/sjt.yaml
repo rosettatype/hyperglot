@@ -2,7 +2,9 @@ name: Ter Sami
 note: Ter Saami has been used as a written language only in very few texts. Currently, the number of active speakers of Ter Saami is likely lower than 10. Kildin and Ter Sami languages are grouped together as Kola Sami by some linguists.
 orthographies:
 - autonym: Са̄мькӣлл
-  inherit: sjd
+  base: {sjd}
+  auxiliary: {sjd}
+  marks: {sjd}
   status: secondary
 source:
 - Omniglot

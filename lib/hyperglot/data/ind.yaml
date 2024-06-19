@@ -1,7 +1,8 @@
 name: Indonesian
 orthographies:
 - autonym: Indonesia
-  inherit: zsm
+  base: {zsm}
+  auxiliary: {zsm}
   script: Latin
   status: primary
 - autonym: Indonesia

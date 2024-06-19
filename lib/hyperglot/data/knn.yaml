@@ -1,7 +1,12 @@
 name: Konkani (individual language)
 orthographies:
 - autonym: महाराष्ट्रीय कोंकणी
-  inherit: hin
+  base: {hin}
+  auxiliary: {hin}
+  marks: {hin}
+  numerals: {hin}
+  punctuation: {hin}
+  design_requirements: {hin}
   script: Devanagari
   status: primary
 preferred_name: Maharashtrian Konkani

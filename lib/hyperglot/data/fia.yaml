@@ -1,9 +1,9 @@
 name: Nobiin
 orthographies:
-- inherit: dgl
+- base: {dgl}
   script: Coptic
   status: historical
-- inherit: dgl
+- base: {dgl}
   script: Latin
   status: primary
 source:

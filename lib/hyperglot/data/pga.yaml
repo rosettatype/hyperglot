@@ -2,7 +2,11 @@ name: Sudanese Creole Arabic
 note: Also called Juba Arabic.
 orthographies:
 - autonym: جوبا
-  inherit: apd
+  base: {apd}
+  auxiliary: {apd}
+  marks: {apd}
+  numerals: {apd}
+  design_requirements: {apd}
   script: Arabic
   status: primary
 source:

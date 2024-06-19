@@ -1,7 +1,7 @@
 name: Orma
 orthographies:
 - autonym: Orma
-  inherit: gax
+  base: {gax}
   script: Latin
   status: primary
 source:

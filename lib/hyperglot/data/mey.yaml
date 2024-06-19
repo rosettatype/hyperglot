@@ -6,7 +6,13 @@ orthographies:
   script: Latin
   status: primary
 - autonym: حسانية
-  inherit: arb
+  base: {arb}
+  auxiliary: {arb}
+  marks: {arb}
+  design_requirements: {arb}
+  numerals: {arb}
+  currency: {arb}
+  punctuation: {arb}
   script: Arabic
   status: secondary
 source:

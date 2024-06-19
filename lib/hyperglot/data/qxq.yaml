@@ -1,7 +1,11 @@
 name: Qashqa'i
 orthographies:
 - autonym: قاشقای ديلى
-  inherit: pes
+  base: {pes}
+  marks: {pes}
+  currency: {pes}
+  numerals: {pes}
+  design_requirements: {pes}
   script: Arabic
   status: primary
 source:

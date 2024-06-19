@@ -7,7 +7,12 @@ orthographies:
   script: Latin
   status: primary
 - autonym: ꦧꦱꦴꦩꦝꦸꦫꦴ
-  inherit: jav
+  base: {jav}
+  auxiliary: {jav}
+  marks: {jav}
+  numerals: {jav}
+  punctuation: {jav}
+  design_requirements: {jav}
   script: Javanese
   status: secondary
 source:

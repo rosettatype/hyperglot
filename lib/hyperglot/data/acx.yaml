@@ -1,7 +1,13 @@
 name: Omani Arabic
 orthographies:
 - autonym: عماني
-  inherit: arb
+  base: {arb}
+  auxiliary: {arb}
+  marks: {arb}
+  design_requirements: {arb}
+  numerals: {arb}
+  currency: {arb}
+  punctuation: {arb}
   script: Arabic
   status: primary
 source:

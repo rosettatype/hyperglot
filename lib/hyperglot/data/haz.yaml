@@ -2,7 +2,11 @@ name: Hazaragi
 note: The number of speakers is an estimate based on the Hazaras population.
 orthographies:
 - autonym: هزارگی
-  inherit: pes
+  base: {pes}
+  marks: {pes}
+  currency: {pes}
+  numerals: {pes}
+  design_requirements: {pes}
   script: Arabic
   status: primary
 source:

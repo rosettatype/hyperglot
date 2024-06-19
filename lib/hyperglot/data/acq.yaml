@@ -1,7 +1,13 @@
 name: Ta'izzi-Adeni Arabic
 orthographies:
 - autonym: يمني
-  inherit: arb
+  base: {arb}
+  auxiliary: {arb}
+  marks: {arb}
+  design_requirements: {arb}
+  numerals: {arb}
+  currency: {arb}
+  punctuation: {arb}
   script: Arabic
   status: primary
 preferred_name: Ta’izzi-Adeni Arabic

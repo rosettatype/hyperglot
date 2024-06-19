@@ -1,12 +1,18 @@
 name: Talysh
 orthographies:
 - autonym: Tolışi
-  inherit: azj
+  base: {azj}
+  auxiliary: {azj}
+  marks: {azj}
   note: Used in Azerbaijan.
   script: Latin
   status: primary
 - autonym: تالشه
-  inherit: pes
+  base: {pes}
+  marks: {pes}
+  currency: {pes}
+  numerals: {pes}
+  design_requirements: {pes}
   note: Used in Iran.
   script: Arabic
   status: primary

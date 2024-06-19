@@ -5,7 +5,9 @@ orthographies:
   marks: ◌̣
   script: Latin
   status: primary
-- inherit: mya
+- base: {mya}
+  marks: {mya}
+  design_requirements: {mya}
   script: Burmese
   status: primary
 source:

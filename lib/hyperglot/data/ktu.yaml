@@ -2,7 +2,7 @@ name: Kituba (Democratic Republic of Congo)
 note: Used in Democratic Republic of Congo
 orthographies:
 - autonym: Kikongo ya leta
-  inherit: kon
+  base: {kon}
   script: Latin
   status: primary
 preferred_name: Kituba (DRC)

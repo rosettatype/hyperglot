@@ -120,7 +120,8 @@ def check_types(Langs):
                            "auxiliary", "status", "note",
                            "numerals", "punctuation", "currency",
                            "preferred_as_group",
-                           "design_requirements", "design_alternates"]
+                           "design_requirements", "design_alternates",
+                           "script_iso"]
                 invalid = [k for k in o.keys() if k not in allowed]
                 if len(invalid):
                     log.warning("'%s' has invalid orthography keys: '%s'" %
@@ -130,12 +131,14 @@ def check_types(Langs):
                         type(o["design_requirements"]) is not list:
                     log.error("'%s' has a 'design_requirements' which is not "
                               "a list: %s" % (iso, o["design_requirements"]))
+                    print(o["design_requirements"], type(o["design_requirements"]))
 
                 if "status" not in o:
                     log.error("'%s' has an orthography (script '%s') that is "
                               "missing 'status'" % (iso, o["script"]))
                 else:
-                    if o["status"] not in OrthographyStatus.values():
+                    if o["status"] not in OrthographyStatus.values() \
+                        and o["status"] is not None:
                         log.error("'%s' has an orthography status '%s' which "
                                   "is invalid, should be one of %s" %
                                   (iso, o["status"],
@@ -152,7 +155,9 @@ def check_types(Langs):
             primary_orthography = [o for o in lang["orthographies"]
                                    if "status" in o and
                                    o["status"] == "primary"]
-            if len(primary_orthography) == 0:
+            
+            if len(primary_orthography) == 0 and \
+                lang["status"] == LanguageStatus.LIVING.value:
                 log.error("'%s' has no primary orthography" % iso)
 
         if "name" not in lang and "preferred_name" not in lang:
@@ -164,7 +169,8 @@ def check_types(Langs):
                       "identical" % iso)
                 
         if "status" in lang:
-            if lang["status"] not in [s.value for s in LanguageStatus]:
+            if lang["status"] not in [s.value for s in LanguageStatus] \
+                and lang["status"] is not None:
                 log.error(
                     "'%s' has invalid 'status' '%s'" % (iso, lang["status"])
                 )
@@ -175,7 +181,7 @@ def check_types(Langs):
         if "validity" in lang and lang["validity"] not in LanguageValidity.values():
             log.error("'%s' has invalid 'validity'" % iso)
 
-        if "speakers" in lang:
+        if "speakers" in lang and lang["speakers"] is not None:
             if (re.search(r"[^\d]", str(lang["speakers"]))):
                 log.error("'%s' has invalid 'speakers' '%s' - only numbers "
                           "are allowed" %
@@ -197,9 +203,6 @@ def check_is_valid_glyph_string(glyphs, iso=None):
     a string of glyphs like "a b c d e f" should be single-space separated
     single unicode characters
     """
-    if type(glyphs) is not str or len(glyphs) < 1:
-        log.error("Do not use empty glyph sequences")
-        return False
 
     if re.findall(r"\n", glyphs):
         log.error("Glyph sequences should not contain line breaks")
@@ -257,11 +260,13 @@ def check_names(Langs, iso_data):
                     continue
                 autonym_ok, chars, missing = check_autonym_spelling(o)
                 if not autonym_ok:
+                    all_chars = "".join(chars)
                     log.warning("'%s' has invalid autonym '%s' which cannot "
                                 "be spelled with that orthography's charset "
                                 "(base + marks + auxiliary) '%s' - "
                                 "missing '%s'" %
-                                (iso, o["autonym"], "".join(chars),
+                                (iso, o["autonym"], 
+                                 all_chars if len(all_chars) < 30 else all_chars[:30] + "...",
                                  "".join(missing)))
 
         if iso not in iso_data.keys():
@@ -371,7 +376,7 @@ def check_script_characters(Langs):
             all = o.base_chars + o.auxiliary_chars
             for char in all:
                 if char in UNICODE_CONFUSABLES[o.script]:
-                    log.error(
+                    log.warning(
                         f"'{iso}' ({o.script}) has a unicode lookalike character: "
                         f"'{char}' ({hex(ord(char))} - {unicodedata2.name(char)}) "
                         "— confirm the character is of the right script!"

@@ -1,7 +1,8 @@
 name: Tosk Albanian
 orthographies:
 - autonym: Shqip
-  inherit: aln
+  base: {aln}
+  marks: {aln}
   script: Latin
   status: primary
 source:
