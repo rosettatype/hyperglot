@@ -13,6 +13,7 @@
 - DATA: Use "Coptic" instead of "Coptic/Numbian" script name
 - DATA: Use "Burmese" script for language "Mon"
 - DATA: Use "Baybayin" script name instead of "Tagalog (Baybayin, Alibata)"
+- DATA: Fixed Toki Pona (`tok`) file name
 - TWEAK: Make sure `Orthography.base_chars` and `Orthography.aux_chars` return no duplicates for decomposed character sequences
 - TWEAK: Define `Languages`, `Language` and `Orthography` as module top level exports for easier importing, e.g. now: `from hyperglot import Language`
 
