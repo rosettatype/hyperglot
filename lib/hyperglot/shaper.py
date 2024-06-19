@@ -34,6 +34,7 @@ class Shaper:
             "kern": True,
             "mark": True,
             "mkmk": True,
+            "ccmp": True,
             # Explicitly opt out of these so they do not interfere with basic
             # shaping/joining
             "liga": False,
@@ -189,7 +190,14 @@ class Shaper:
 
             if len(data) == 1:
                 return True
-
+            
+        if len(input) > 1 and len(data) == 1:
+            # A sequence was entered which resulted in substitution to a single
+            # glyph output, like a ccmp transforming a base + mark to a single
+            # glyph. We trust this is intentional by the vendor and constitutes
+            # a shaped mark.
+            return True
+        
         non_marks = {
             self.font.get_nominal_glyph(ord(c)): c
             for c in chars
@@ -199,9 +207,10 @@ class Shaper:
         missing_from_font = 0
         missing_positioning = []
         for glyph_info, glyph_position in data:
+
             if glyph_info.codepoint in non_marks.keys():
                 continue
-
+            
             # No such glyph in the font.
             if glyph_info.codepoint == 0 or self.font.get_glyph_name(glyph_info.codepoint) is None:
                 missing_from_font = missing_from_font + 1

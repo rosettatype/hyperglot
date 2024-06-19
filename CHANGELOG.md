@@ -2,6 +2,7 @@
 
 ## 0.6.4 (WIP)
 - FIX: Fixed an issue where trying to log missing shaping glyphs would crash in `FontChecker`
+- FIX: Improved mark shaping detection to interpret ccmp substitutions of base + mark as correctly shaping (thanks @arialcrime)
 - TWEAK: Cleaned up `hyperglot.language.Language` class and added attribute properties for dict properties with computed defaults (as opposed to writing defaults for missing attributes) as well as more code annotation
 - TWEAK: `hyperglot.orthography.Orthography` object has `script_iso` attribute returning the mapped ISO 15924 script tag
 - DATA: Added `lib/extra_data/script-names.yaml` with a list of all current Hyperglot scripts and a mapping to their ISO 15924 code equivalent

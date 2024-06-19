@@ -4,6 +4,8 @@ from hyperglot.shaper import Shaper
 plex_arabic = os.path.abspath("tests/plex-4.0.2/IBM-Plex-Sans-Arabic/fonts/complete/otf/IBMPlexSansArabic-Regular.otf")  # noqa
 plex_arabic_without_medi_fina = os.path.abspath("tests/plex-4.0.2/IBM-Plex-Sans-Arabic/fonts/complete/otf/IBMPlexSansArabic-Regular-without-medi-fina.otf")  # noqa
 eczar = os.path.abspath("tests/Eczar-v1.004/otf/Eczar-Regular.otf")
+eczar_marks_ccmp = os.path.abspath("tests/Eczar-marks/EczarCCMP-Regular.otf")
+eczar_marks_mk = os.path.abspath("tests/Eczar-marks/EczarMarks-Regular.otf")
 testfont = os.path.abspath("tests/HyperglotTestFont-Regular.ttf")
 
 def test_shaper_joining():
@@ -73,3 +75,12 @@ def test_shaper_marks():
     # encoded version, but has base + marks with anchors
     test_shaper.check_mark_attachment("Ẫ")
     test_shaper.check_mark_attachment("A" + chr(0x0302) + chr(0x0303))
+
+
+    # Different ways of handling s ogonek:
+    # With mark code
+    eczar_marks_shaper = Shaper(eczar_marks_mk)
+    assert eczar_marks_shaper.check_mark_attachment("s" + chr(0x0328)) is True
+    # With ccmp replacement
+    eczar_ccmp_shaper = Shaper(eczar_marks_ccmp)
+    assert eczar_ccmp_shaper.check_mark_attachment("s" + chr(0x0328)) is True
