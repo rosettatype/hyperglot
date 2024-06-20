@@ -1,6 +1,6 @@
 # A changelog for the lib/hyperglot language database and CLI tool (dd.mm.yyyy)
 
-## 0.6.4 (WIP)
+## 0.6.4 (20.06.2024)
 - FIX: Fixed an issue where trying to log missing shaping glyphs would crash in `FontChecker`
 - FIX: Improved mark shaping detection to interpret ccmp substitutions of base + mark as correctly shaping (thanks @arialcrime)
 - TWEAK: Cleaned up `hyperglot.language.Language` class and added attribute properties for dict properties with computed defaults (as opposed to writing defaults for missing attributes) as well as more code annotation

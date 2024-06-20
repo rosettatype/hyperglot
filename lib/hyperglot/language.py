@@ -3,7 +3,7 @@ Helper classes to work with the lib/hyperglot/data in more pythonic way
 """
 
 import logging
-from typing import List
+from typing import List, Union
 from hyperglot import (
     CHARACTER_ATTRIBUTES,
     LanguageStatus,
@@ -92,7 +92,9 @@ validity: {validity}
             validity=self.validity,
         )  # noqa
 
-    def get_orthography(self, script: str = None, status: str = None) -> dict | bool:
+    def get_orthography(
+        self, script: str = None, status: str = None
+    ) -> Union[dict, bool]:
         """
         Get the most appropriate raw orthography attribute value, or one
         specifically matching the parameters. If there are multiple
@@ -193,7 +195,7 @@ validity: {validity}
 
         return [Orthography(o) for o in orthographies]
 
-    def get_name(self, script: str = None, strict: bool = False) -> str | bool:
+    def get_name(self, script: str = None, strict: bool = False) -> Union[str, bool]:
         if script is not None:
             ort = self.get_orthography(script)
             if "name" in ort:
