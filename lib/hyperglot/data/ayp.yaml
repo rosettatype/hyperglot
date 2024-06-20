@@ -1,13 +1,13 @@
 name: North Mesopotamian Arabic
 orthographies:
 - autonym: مصلاوي‎
-  base: {arb}
-  auxiliary: {arb}
-  marks: {arb}
-  design_requirements: {arb}
-  numerals: {arb}
-  currency: {arb}
-  punctuation: {arb}
+  auxiliary: '{arb}'
+  base: '{arb}'
+  currency: '{arb}'
+  design_requirements: '{arb}'
+  marks: '{arb}'
+  numerals: '{arb}'
+  punctuation: '{arb}'
   script: Arabic
   status: primary
 source:

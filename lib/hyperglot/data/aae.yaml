@@ -1,8 +1,8 @@
 name: Arbëreshë Albanian
 orthographies:
 - autonym: Arbërisht
-  base: {aln}
-  marks: {aln}
+  base: '{aln}'
+  marks: '{aln}'
   script: Latin
   status: primary
 source:

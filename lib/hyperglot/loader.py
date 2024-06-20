@@ -1,16 +1,16 @@
 import os
 import yaml
 import logging
+from functools import lru_cache
 from copy import deepcopy
 
-from hyperglot import DB
+from hyperglot import DB, DB_EXTRA
 
 log = logging.getLogger(__name__)
 log.setLevel(logging.WARNING)
 
 
-# This is the most expensive, so make sure any results are explicitly cached.
-RAW_DATA_CACHE = {}
+DATA_CACHE = {}
 
 def load_language_data(iso: str) -> dict:
     """
@@ -19,9 +19,9 @@ def load_language_data(iso: str) -> dict:
     with new language objects.
     """
 
-    if iso in RAW_DATA_CACHE:
-        return deepcopy(RAW_DATA_CACHE[iso])
-    
+    if iso in DATA_CACHE:
+        return deepcopy(DATA_CACHE[iso])
+
     files = [f"{iso}.yaml", f"{iso}_.yaml"]
     file = None
     path = None
@@ -40,6 +40,24 @@ def load_language_data(iso: str) -> dict:
     with open(path, "rb") as f:
         data = yaml.load(f, Loader=yaml.Loader)
 
-    RAW_DATA_CACHE[iso] = data
+    DATA_CACHE[iso] = data
 
     return deepcopy(data)
+
+
+@lru_cache
+def load_scripts_data():
+    with open(os.path.join(DB_EXTRA, "script-names.yaml"), "rb") as f:
+        return yaml.load(f, Loader=yaml.Loader)
+
+
+@lru_cache
+def load_joining_types():
+    """
+    Load the joining-types.yaml database.
+
+    TODO: Maybe this should be a singleton as well, or accessed transparently
+    via Orthography?
+    """
+    with open(os.path.join(DB_EXTRA, "joining-types.yaml"), "rb") as f:
+        return yaml.load(f, Loader=yaml.Loader)

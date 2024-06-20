@@ -1,11 +1,11 @@
 name: Saidi Arabic
 orthographies:
 - autonym: صعيدي
-  base: {arz}
-  auxiliary: {arz}
-  marks: {arz}
-  numerals: {arz}
-  design_requirements: {arz}
+  auxiliary: '{arz}'
+  base: '{arz}'
+  design_requirements: '{arz}'
+  marks: '{arz}'
+  numerals: '{arz}'
   script: Arabic
   status: primary
 source:

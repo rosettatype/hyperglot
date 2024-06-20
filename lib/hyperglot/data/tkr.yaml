@@ -7,9 +7,9 @@ orthographies:
   script: Cyrillic
   status: primary
 - autonym: Ts‘əxna miz
-  base: {azj}
-  auxiliary: {azj}
-  marks: {azj}
+  auxiliary: '{azj}'
+  base: '{azj}'
+  marks: '{azj}'
   note: Used in Azerbaijan.
   script: Latin
   status: primary

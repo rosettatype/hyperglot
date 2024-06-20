@@ -2,9 +2,9 @@ name: Bukharic
 note: The speaker count date is for Israel and Uzbekistan, others are unknown.
 orthographies:
 - autonym: בוכארי
-  base: {heb}
-  auxiliary: {heb}
-  marks: {heb}
+  auxiliary: '{heb}'
+  base: '{heb}'
+  marks: '{heb}'
   script: Hebrew
   status: primary
 source:

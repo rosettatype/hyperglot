@@ -1,7 +1,7 @@
 name: Yue Chinese
 orthographies:
 - autonym: 粵語 / 粤语
-  base: {cmn}
+  base: '{cmn}'
   script: Chinese
   status: primary
 preferred_name: Yue

@@ -3,9 +3,9 @@ note: An official Klingon orthography has not been accepted into Unicode as of t
 orthographies:
 - autonym: tlhIngan Hol
   base: a b ch D e gh H I j l m n ng o p q Q r S t tlh u v w y '
+  note: The bi- and trigraphs are treated like single letters and {'} represents a glotal stop.
   script: Latin
   status: primary
-  note: The bi- and trigraphs are treated like single letters and {'} represents a glotal stop.
 source:
 - Omniglot
 - Wikipedia (https://en.wikipedia.org/wiki/Klingon_language#Writing_systems)

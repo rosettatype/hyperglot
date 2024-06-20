@@ -1,7 +1,7 @@
 name: Jinyu Chinese
 orthographies:
 - autonym: 晋语 / 晉語
-  base: {cmn}
+  base: '{cmn}'
   script: Chinese
   status: primary
 source:

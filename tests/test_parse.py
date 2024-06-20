@@ -9,7 +9,8 @@ from hyperglot.parse import (parse_chars, parse_font_chars, parse_marks,
                              sort_by_character_type,
                              remove_mark_base,
                              list_unique,
-                             join_variants, get_joining_type)
+                             join_variants, get_joining_type,
+                             drop_inheritance_tags)
 
 
 def test_parse_chars():
@@ -181,3 +182,17 @@ def test_decompose_fully():
 
     # Decompose iteratively
     assert decompose_fully("Ẫ") == ["A", chr(0x0302), chr(0x0303)]
+
+
+def test_inheritance_tags():
+
+    # Returns tuple of:
+    # - pruned original
+    # - original with placeholders where to re-insert tags
+    # - tags to insert (should always be trimed to {iso...} without spaces and neat)
+
+    assert drop_inheritance_tags("A B {eng} C D") == ("A B C D", "A B %s C D", ["{eng}"])
+    assert drop_inheritance_tags({ "eng": None }) == ("", "%s", ["{eng}"])
+    assert drop_inheritance_tags('{eng}') == ("", "%s", ["{eng}"])
+    assert drop_inheritance_tags('{ eng }') == ("", "%s", ["{eng}"])
+    assert drop_inheritance_tags('{  eng   Latin historical }') == ("", "%s", ["{eng Latin historical}"])

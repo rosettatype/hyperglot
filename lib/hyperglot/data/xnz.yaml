@@ -1,9 +1,9 @@
 name: Kenzi
 orthographies:
-- base: {dgl}
+- base: '{dgl}'
   script: Coptic
   status: historical
-- base: {dgl}
+- base: '{dgl}'
   script: Latin
   status: primary
 preferred_name: Kenzi, Mattokki

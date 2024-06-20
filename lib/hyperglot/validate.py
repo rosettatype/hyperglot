@@ -2,7 +2,9 @@
 A CLI script to check hyperglot.yaml is well-formed, called with:
 $ hyperglot-validate
 Note that the python library itself is tested with pytest, whereas this is more
-of a check for the data file to be used when entering and saving data.
+of a check for the data files to be used when entering and saving data. This
+also saves the data in canonical order and formatting in order to keep it
+changes reliable in source control.
 """
 import os
 import re
@@ -12,8 +14,12 @@ import logging
 import pprint
 import colorlog
 import unicodedata2
+from typing import Tuple
+
+from hyperglot.language import Language
 from hyperglot.languages import Languages
-from hyperglot.orthography import Orthography, get_scripts
+from hyperglot.orthography import Orthography
+from hyperglot.loader import load_scripts_data
 from hyperglot.parse import parse_chars
 from hyperglot import (
     __version__, 
@@ -43,25 +49,13 @@ UNICODE_CONFUSABLES = {
     # added, but large potential for confusion with all sorts of math symbols
 }
 
-hyperglot_scripts = get_scripts()
-
-
-def nice_char_list(chars):
-    try:
-        chars = ["%s (U+%s)" % (c, f"{ord(c):0>4X}")
-                 for c in list(chars) if c.strip() != ""]
-        return ", ".join(chars)
-    except Exception as e:
-        log.error("Failed to get nice char list from '%s' (%s)" %
-                  (str(chars), str(e)))
-
 
 def check_yaml():
     log.debug("YAML file structure ok and can be read")
     return Languages(validity=LanguageValidity.TODO.value)
 
 
-def check_types(Langs):
+def check_types(Langs:Languages) -> None:
     for iso, lang in Langs.items():
         if "includes" in lang:
             if not check_is_yaml_list(lang["includes"]):
@@ -170,7 +164,7 @@ def check_types(Langs):
                           (iso, lang["speakers"]))
 
 
-def check_is_yaml_list(item):
+def check_is_yaml_list(item) -> bool:
     """
     item should be a list and should not be empty
     """
@@ -180,7 +174,7 @@ def check_is_yaml_list(item):
     return True
 
 
-def check_is_valid_glyph_string(glyphs, iso=None):
+def check_is_valid_glyph_string(glyphs:str, iso:str=None) -> bool:
     """
     a string of glyphs like "a b c d e f" should be single-space separated
     single unicode characters
@@ -209,7 +203,7 @@ def check_is_valid_glyph_string(glyphs, iso=None):
     return True
 
 
-def check_names(Langs, iso_data):
+def check_names(Langs:Languages, iso_data:dict) -> None:
     for iso, lang in Langs.items():
         if "orthographies" in lang:
             for o in lang["orthographies"]:
@@ -225,7 +219,7 @@ def check_names(Langs, iso_data):
                     log.error("'%s' has no 'script' attribute" % iso)
                     continue
 
-                if o["script"] not in hyperglot_scripts:
+                if o["script"] not in load_scripts_data():
                     log.error(
                         "'%s' has orthography with new/unknown/misspelled "
                         "script '%s' — add the script mapping to "
@@ -257,7 +251,7 @@ def check_names(Langs, iso_data):
                             % iso)
 
 
-def check_inheritted(iso, script, Langs):
+def check_inheritted(iso:str, script:str, Langs:Languages):
     if len(iso) != 3:
         log.warning("'%s' not a valid 3-letter iso code to inherit from" %
                     iso)
@@ -275,7 +269,7 @@ def check_inheritted(iso, script, Langs):
     return True
 
 
-def check_macrolanguages(Langs, iso_data):
+def check_macrolanguages(Langs:Languages, iso_data:dict):
     # Compare with ISO data
     for iso, lang in iso_data.items():
         for name in lang["names"]:
@@ -305,7 +299,7 @@ def check_macrolanguages(Langs, iso_data):
                               "missing from the data" % (iso, i))
 
 
-def check_includes(lang):
+def check_includes(lang:Language ) -> bool:
     if "includes" not in lang:
         return False
 
@@ -318,7 +312,7 @@ def check_includes(lang):
     return True
 
 
-def check_autonym_spelling(ort):
+def check_autonym_spelling(ort:Orthography) -> Tuple[list, list, list]:
     chars = parse_chars(ort.base + ort.auxiliary + ort.base_marks + ort.auxiliary_marks + parse_chars(ort["marks"]))
     chars = [c.lower() for c in chars]
 
@@ -333,7 +327,7 @@ def check_autonym_spelling(ort):
     return autonym_chars.issubset(chars), list(chars), missing
 
 
-def check_script_characters(Langs):
+def check_script_characters(Langs:Languages) -> None:
     for iso in Langs.keys():
         Lang = Langs[iso]
         if "orthographies" not in Lang:
@@ -356,6 +350,9 @@ def check_script_characters(Langs):
 @click.command()
 @click.option("-v", "--verbose", is_flag=True, default=False)
 def validate(verbose):
+    validate_data(verbose)
+
+def validate_data(verbose:bool = False) -> None:
 
     log.setLevel(logging.WARNING)
     

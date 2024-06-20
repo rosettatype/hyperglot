@@ -1,17 +1,17 @@
 name: Western Panjabi
 orthographies:
 - autonym: ਪੰਜਾਬੀ,
-  base: {pan}
-  marks: {pan}
-  punctuation: {pan}
-  design_requirements: {pan}
+  base: '{pan}'
+  design_requirements: '{pan}'
+  marks: '{pan}'
   note: Used in India.
+  punctuation: '{pan}'
   script: Gurmukhi
   status: primary
 - autonym: پن٘جابی
-  base: {pan}
-  marks: {pan}
-  design_requirements: {pan}
+  base: '{pan}'
+  design_requirements: '{pan}'
+  marks: '{pan}'
   note: Used in Pakistan.
   script: Arabic
   status: primary

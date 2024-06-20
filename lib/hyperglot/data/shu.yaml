@@ -1,11 +1,11 @@
 name: Chadian Arabic
 orthographies:
 - autonym: تشادية
-  base: {apd}
   auxiliary: ة{apd}
-  marks: {apd}
-  numerals: {apd}
-  design_requirements: {apd}
+  base: '{apd}'
+  design_requirements: '{apd}'
+  marks: '{apd}'
+  numerals: '{apd}'
   script: Arabic
   status: primary
 source:

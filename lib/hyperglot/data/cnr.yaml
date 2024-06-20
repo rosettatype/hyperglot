@@ -1,13 +1,13 @@
 name: Montenegrin
 orthographies:
 - autonym: Црногорски
-  base: {srp}
-  marks: {srp}
+  base: '{srp}'
+  marks: '{srp}'
   script: Cyrillic
   status: primary
 - autonym: Crnogorski
-  base: {srp}
-  marks: {srp}
+  base: '{srp}'
+  marks: '{srp}'
   script: Latin
   status: primary
 source:

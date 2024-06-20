@@ -2,8 +2,8 @@ name: Buginese
 note: The number of speakers includes 500000 L2 speakers.
 orthographies:
 - autonym: Basa Ugi
-  base: {zsm}
-  auxiliary: {zsm}
+  auxiliary: '{zsm}'
+  base: '{zsm}'
   note: The use of the Buginese script seems to be declining with the Latin script taking over. Omniglot indicates ‹Ə, ə› are used, but Wikipedia states that “general Indonesian spelling conventions are applied” which is what this orthography adheres to.
   script: Latin
   status: primary

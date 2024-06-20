@@ -37,8 +37,8 @@ def test_languages_inherit():
     # attribute, so for testing equality, add it to the list of attributes that
     # arb has)
     arq_attr = set(sorted(arq.keys()))
-    aeb_attr = set(sorted(list(aeb.keys()) + ["inherit"]))
-    arb_attr = set(sorted(list(arb.keys()) + ["inherit"]))
+    aeb_attr = set(sorted(list(aeb.keys())))
+    arb_attr = set(sorted(list(arb.keys())))
     assert arq_attr == aeb_attr == arb_attr
 
 

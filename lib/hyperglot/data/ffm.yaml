@@ -2,8 +2,8 @@ name: Maasina Fulfulde
 note: Used in Mali and Ghana.
 orthographies:
 - autonym: Maasinankoore
-  base: {fue}
-  design_requirements: {fue}
+  base: '{fue}'
+  design_requirements: '{fue}'
   script: Latin
   status: primary
 source:

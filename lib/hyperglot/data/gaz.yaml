@@ -2,7 +2,7 @@ name: West Central Oromo
 note: The speaker count is an estimate based on the total for Oromo macrolanguage.
 orthographies:
 - autonym: Afaan Oromoo
-  base: {gax}
+  base: '{gax}'
   script: Latin
   status: primary
 source:

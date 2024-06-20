@@ -1,12 +1,12 @@
 name: Goan Konkani
 orthographies:
 - autonym: गोवन कोंकणी
-  base: {hin}
-  auxiliary: {hin}
-  marks: {hin}
-  numerals: {hin}
-  punctuation: {hin}
-  design_requirements: {hin}
+  auxiliary: '{hin}'
+  base: '{hin}'
+  design_requirements: '{hin}'
+  marks: '{hin}'
+  numerals: '{hin}'
+  punctuation: '{hin}'
   script: Devanagari
   status: primary
 - autonym: Konknni

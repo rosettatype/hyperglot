@@ -6,9 +6,9 @@ orthographies:
   script: Cyrillic
   status: primary
 - autonym: Tati
-  base: {azj}
-  auxiliary: {azj}
-  marks: {azj}
+  auxiliary: '{azj}'
+  base: '{azj}'
+  marks: '{azj}'
   note: Used in Azerbaijan.
   script: Latin
   status: primary

@@ -1,6 +1,7 @@
 """
 Gather a few package wide constants
 """
+import re
 from os import path
 from enum import Enum
 from typing import List
@@ -103,12 +104,13 @@ class OrthographyStatus(Enum):
 ORTHOGRAPHY_STATUSES = OrthographyStatus.values()
 
 
-# Those attributes of orthographies that contain non-mark characters
+# Those character attributes of orthographies that contain non-mark characters
 CHARACTER_ATTRIBUTES = [
     "base",
     "auxiliary",
     "numerals",
     "punctuation",
+    "currency",
 ]
 
 SORTING = {
@@ -120,7 +122,8 @@ SORTING_DIRECTIONS = ["asc", "desc"]
 
 MARK_BASE = "◌"
 
-
+RE_INHERITANCE_TAG = re.compile(r"{([A-z'ʽ ]*)}")
+RE_MULTIPLE_SPACES = re.compile(r"\s{2,}")
 
 # Define module level convenience imports
 

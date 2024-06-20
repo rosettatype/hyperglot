@@ -1,9 +1,9 @@
 name: Northeastern Dinka
 orthographies:
 - autonym: Padang
-  base: {din}
-  marks: {din}
-  design_requirements: {din}
+  base: '{din}'
+  design_requirements: '{din}'
+  marks: '{din}'
   script: Latin
   status: primary
 source:

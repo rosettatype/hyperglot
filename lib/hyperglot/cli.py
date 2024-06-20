@@ -12,16 +12,14 @@ from hyperglot import (
     DB,
     SupportLevel,
     LanguageValidity,
-    CHARACTER_ATTRIBUTES,
-    MARK_BASE,
     SORTING,
 )
 from hyperglot.languages import Languages, find_language
 from hyperglot.language import Language
-from hyperglot.orthography import Orthography, is_mark
+from hyperglot.orthography import Orthography
 from hyperglot.checker import FontChecker
-from hyperglot.validate import validate
-from hyperglot.parse import list_unique, parse_font_chars, parse_marks
+from hyperglot.validate import validate_data
+from hyperglot.parse import parse_font_chars
 
 log = logging.getLogger(__name__)
 log.setLevel(logging.WARNING)
@@ -532,77 +530,30 @@ def cli(
                         print(ort.diff(chars))
 
 
-def save_sorted(Langs=None, run_validation=True):
+def save_sorted(Langs: Languages = None, validate: bool = True) -> None:
     """
     Helper script to re-save the hyperglot.yaml sorted alphabetically,
     alternatively from the passed in Langs object (which can have been
     modified)
     """
     log.setLevel(logging.WARNING)
-    if Langs is None and run_validation is True:
+    if Langs is None and validate:
         Langs = Languages(inherit=False)
         print("Running pre-save validation, please fix any issues flagged.")
-        validate()
+        validate_data()
 
     # Save with removed superflous marks
     for iso, lang in Langs.items():
         if "orthographies" in lang:
-            whitespace = re.compile(r"\s+")
-
             for i, o in enumerate(lang["orthographies"]):
-                # Automate extracting and writing marks (in addition to any
-                # that might have been defined manually)
-                marks = []
-                if "marks" in o:
-                    marks = parse_marks(o["marks"])
-
-                # "Derive" all marks possible
-                for attr in CHARACTER_ATTRIBUTES:
-                    if attr in o:
-                        marks = marks + parse_marks(o[attr])
-
-                # Prune marks from character lists, delete empty
-                for attr in CHARACTER_ATTRIBUTES:
-                    if attr in o:
-                        before = str(o[attr])
-                        chars = [
-                            c.strip()
-                            for c in whitespace.split(o[attr])
-                            if not is_mark(c) and c != MARK_BASE
-                        ]
-                        if not chars:
-                            log.warning(
-                                "Removing attribute '%s' of '%s' - no "
-                                "characters left after normalization. "
-                                "Value was: '%s'" % (attr, iso, o[attr])
-                            )
-                            del o[attr]
-                            continue
-
-                        o[attr] = " ".join(chars)
-                        if len(before) != len(o[attr]):
-                            log.warning(
-                                "Saving orthography attribute '%s' of "
-                                "'%s' changed its length. Whitespace "
-                                "or marks have been removed. "
-                                "\nBefore: '%s'\nAfter: '%s'"
-                                % (attr, iso, before, o[attr])
-                            )
-
-                if len(marks) > 0:
-                    # Note: Let's store marks with a dotted circle and a
-                    # whitespace between them to make them more legible. When
-                    # parsing the attribute back in circles and all whitespaces
-                    # are removed
-                    decorated = [MARK_BASE + m for m in list_unique(marks)]
-                    o["marks"] = " ".join(decorated)
+                lang["orthographies"][i] = o._get_raw()
 
     # Ensure db folder exists
     if not os.path.isdir(DB):
         os.mkdir(DB)
 
     for iso, data in Langs.items():
-        save_language(iso, data)
+        save_language(iso, dict(data))
 
     print("Saved all language data to lib/hyperglot/data")
 

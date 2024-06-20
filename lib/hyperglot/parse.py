@@ -1,12 +1,12 @@
-from functools import lru_cache
-from typing import List
-import unicodedata as uni
-import logging
 import re
-import os
-import yaml
+import logging
+import unicodedata as uni
+from functools import lru_cache
+from typing import List, Union, Tuple
 from fontTools.ttLib import TTFont
-from hyperglot import DB_EXTRA, MARK_BASE
+
+from hyperglot import MARK_BASE, RE_INHERITANCE_TAG, RE_MULTIPLE_SPACES
+from hyperglot.loader import load_joining_types
 
 log = logging.getLogger(__name__)
 log.setLevel(logging.INFO)
@@ -17,8 +17,9 @@ def list_unique(li):
     Return unique list items while maintaining order
     """
     if type(li) is not list:
-        raise ValueError("list_unique expected list, but got '%s' of type '%s'"
-                         % (li, type(li)))
+        raise ValueError(
+            "list_unique expected list, but got '%s' of type '%s'" % (li, type(li))
+        )
     seen = set()
     seen_add = seen.add
     return [x for x in li if not (x in seen or seen_add(x))]
@@ -34,10 +35,12 @@ def character_list_from_string(string, normalize=True):
 
     if not isinstance(string, str):
         import traceback
+
         traceback.print_stack()
-        raise ValueError("Invalid type '%s' for character_list_from_string "
-                         "with value '%s' received" %
-                         (type(string), str(string)))
+        raise ValueError(
+            "Invalid type '%s' for character_list_from_string "
+            "with value '%s' received" % (type(string), str(string))
+        )
 
     # Since Unicode allows writing the same string either precomposed or as
     # combining characters, we want to transform all those strings that are
@@ -81,8 +84,8 @@ def character_list_from_string(string, normalize=True):
                 if next_is_mark:
                     continue
 
-            li.append(string[0: i + 1])
-            string = string[i + 1:]
+            li.append(string[0 : i + 1])
+            string = string[i + 1 :]
             break
 
     li = list_unique([c for c in li if c.strip() != ""])
@@ -117,7 +120,7 @@ def sort_by_character_type(chars):
     return sorted(chars, key=sort_key_character_category)
 
 
-def decompose_fully(char:str) -> List:
+def decompose_fully(char: str) -> List:
     """
     Apply unicodedata.decomposition iteratively until we cannot decompose any
     further.
@@ -132,7 +135,7 @@ def decompose_fully(char:str) -> List:
     decomposition = uni.decomposition(char)
     if decomposition == "":
         return [char]
-    
+
     decomposed = re.split(" ", decomposition)
 
     # Not _entirely_ sure why the following can be parts of the
@@ -145,7 +148,7 @@ def decompose_fully(char:str) -> List:
     inbrackets = re.compile(r"^<\w+\>$")
 
     decomposed = [chr(int(d, 16)) for d in decomposed if not inbrackets.match(d)]
-    
+
     for d in decomposed:
         if uni.decomposition(d) != "":
             sequence.extend(decompose_fully(d))
@@ -156,10 +159,10 @@ def decompose_fully(char:str) -> List:
 
 
 def parse_chars(
-        characters:str, 
-        decompose:bool=True, 
-        retain_decomposed:bool=False,
-    ) -> List:
+    characters: str,
+    decompose: bool = True,
+    retain_decomposed: bool = False,
+) -> List:
     """
     From a string of characters get a set of unique unicode codepoints needed
     Note this will "decompose" combining characters/marks and remove any
@@ -205,8 +208,9 @@ def parse_chars(
     except Exception as e:
         log.error("Error parsing characters '%s': %s" % (characters, e))
 
-    return list_unique([u for u in unique_chars
-                        if not re.match(r"\s", u) and len(u) != 0])
+    return list_unique(
+        [u for u in unique_chars if not re.match(r"\s", u) and len(u) != 0]
+    )
 
 
 def parse_font_chars(pathOrTTFont):
@@ -225,7 +229,42 @@ def parse_font_chars(pathOrTTFont):
     return [chr(c) for c in cmap.keys()]
 
 
-def parse_marks(input, decompose=True):
+def drop_inheritance_tags(input: Union[str, object]) -> Tuple[str, str, list]:
+    """
+    For attribute input containing {iso Script ...} inheritance tags, return a
+    tuple of:
+    - the pruned string without the tag
+    - a string with %s placeholders in place of the tags
+    - an arrag of tags
+    """
+
+    if input == "":
+        return "", "", []
+
+    input_is_yaml_object = type(input) is dict and len(input.keys()) == 1
+    if input_is_yaml_object:
+        tag = list(input.keys())[0]
+        return "", "%s", ["{" + tag.strip() + "}"]
+
+    tags = RE_INHERITANCE_TAG.findall(input)
+
+    if not tags:
+        return input, input, []
+
+    pruned = RE_INHERITANCE_TAG.sub("", input)
+    pruned = RE_MULTIPLE_SPACES.sub(" ", pruned)
+
+    inserts = RE_INHERITANCE_TAG.sub("%s", input)
+    inserts = RE_MULTIPLE_SPACES.sub(" ", inserts)
+
+    return (
+        pruned,
+        inserts,
+        ["{" + RE_MULTIPLE_SPACES.sub(" ", t.strip()) + "}" for t in tags],
+    )
+
+
+def parse_marks(input: str, decompose: bool = True) -> List:
     """
     Get the marks from a space separated string or list. This will also remove
     any occurance of ◌ used for placing the marks in a string.
@@ -241,29 +280,20 @@ def parse_marks(input, decompose=True):
     if isinstance(input, list) or isinstance(input, set):
         input = " ".join(input)
 
+    input, _, _ = drop_inheritance_tags(input)
     input = remove_mark_base(input)
     chars = parse_chars(input, decompose=decompose)
     return [c.strip() for c in chars if uni.category(c).startswith("M")]
 
 
-def remove_mark_base(input, replace=""):
+def remove_mark_base(input: str, replace: str = ""):
     return re.sub(MARK_BASE, replace, input)
 
-@lru_cache
-def load_joining_types():
-    """
-    Load the joining-types.yaml database.
-
-    TODO: Maybe this should be a singleton as well, or accessed transparently
-    via Orthography?
-    """
-    with open(os.path.join(DB_EXTRA, "joining-types.yaml"), "rb") as f:
-        return yaml.load(f, Loader=yaml.Loader)
 
 @lru_cache
-def get_joining_type(char:str) -> str:
+def get_joining_type(char: str) -> str:
     """
-    For @param char get it's joining type from 
+    For @param char get it's joining type from
     lib/hyperglot/extra_data/joining-types.yaml
 
     See https://www.unicode.org/versions/Unicode14.0.0/ch09.pdf Table 9-3:
@@ -297,8 +327,9 @@ def get_joining_type(char:str) -> str:
         - "" (non joining)
     """
     if not isinstance(char, str):
-        raise ValueError("get_joining_type expects string, '%s' (%s) given" % 
-                         (char, type(char)))
+        raise ValueError(
+            "get_joining_type expects string, '%s' (%s) given" % (char, type(char))
+        )
 
     joining_types = load_joining_types()
     if char not in joining_types.keys():
@@ -306,9 +337,10 @@ def get_joining_type(char:str) -> str:
     else:
         return joining_types[char]
 
-def join_variants(char:str, joiner:str=chr(0x200D)) -> List:
+
+def join_variants(char: str, joiner: str = chr(0x200D)) -> List:
     """
-    Return @param char with param @joiner. For characters without joining 
+    Return @param char with param @joiner. For characters without joining
     behaviour this returns an empty list, otherwise a list of character
     combinations of char + joiner that triggers joining behaviour in text
     engines, e.g. when using the default zero width joiner.
@@ -321,15 +353,16 @@ def join_variants(char:str, joiner:str=chr(0x200D)) -> List:
     """
 
     if not isinstance(char, str):
-        raise ValueError("join_variants expects string, '%s' (%s) given" % 
-                         (char, type(char)))
+        raise ValueError(
+            "join_variants expects string, '%s' (%s) given" % (char, type(char))
+        )
 
     t = get_joining_type(char)
 
     if t == "R":
         # Right joining
         # E.g. Arabic Alef where "R" means visually joined from the right,
-        # which in turn means joining glyph (joiner) _followed_ by Alef in 
+        # which in turn means joining glyph (joiner) _followed_ by Alef in
         # LTR order here, which then ought to be rendered RTL with the joiner
         # _right_ of the char _preceeding_ it.
         return [joiner + char]
@@ -343,6 +376,5 @@ def join_variants(char:str, joiner:str=chr(0x200D)) -> List:
         return [char + joiner]
 
     # T and C joining types irrelevant here
-    
-    return []
 
+    return []

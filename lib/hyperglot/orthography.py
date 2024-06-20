@@ -1,12 +1,14 @@
-import os
 import re
-import yaml
 import logging
 import unicodedata2
 from typing import List, Set
-from functools import lru_cache
 
-from hyperglot import DB_EXTRA, OrthographyStatus
+from hyperglot import (
+    OrthographyStatus,
+    MARK_BASE,
+    CHARACTER_ATTRIBUTES,
+    RE_INHERITANCE_TAG,
+)
 from hyperglot.shaper import Shaper
 from hyperglot.parse import (
     parse_chars,
@@ -15,20 +17,16 @@ from hyperglot.parse import (
     list_unique,
     character_list_from_string,
     get_joining_type,
+    drop_inheritance_tags,
 )
+from hyperglot.loader import load_scripts_data
 
 log = logging.getLogger(__name__)
 log.setLevel(logging.WARNING)
 
 
-@lru_cache
-def get_scripts():
-    with open(os.path.join(DB_EXTRA, "script-names.yaml"), "rb") as f:
-        return yaml.load(f, Loader=yaml.Loader)
-
-
 def get_script_iso(name: str) -> str:
-    scripts = get_scripts()
+    scripts = load_scripts_data()
     if name not in scripts:
         raise NotImplementedError(f"Missing script name to ISO mapping for {name}")
     return scripts[name]["iso_15924"]
@@ -51,7 +49,7 @@ def is_mark(c):
 
 class Orthography(dict):
     """
-    A orthography dict from yaml data. Language level inheritance has already 
+    A orthography dict from yaml data. Language level inheritance has already
     taken place, but attribute inheritance is handled on init.
 
     The dict retains its original entries, but we extend it with getters that
@@ -69,7 +67,7 @@ class Orthography(dict):
         "design_requirements": [],
         "design_alternates": [],
     }
-    
+
     inheritable_defaults = {
         "base": "",
         "auxiliary": "",
@@ -81,30 +79,34 @@ class Orthography(dict):
         "design_alternates": [],
     }
 
-    def __init__(self, data: dict):
-        self.update(self.defaults)
-        self.update(self.inheritable_defaults)
+    def __init__(self, data: dict, expand: bool = True):
+        if expand:
+            self.update(self.defaults)
+            self.update(self.inheritable_defaults)
+
         self.update(data)
-        for key in self.inheritable_defaults.keys():
-            self._resolve_inherited_attributes(key)
-    
-    def _resolve_inherited_attributes(self, attr:str) -> None:
+
+        if expand:
+            for key in self.inheritable_defaults.keys():
+                self._resolve_inherited_attributes(key)
+
+    def _resolve_inherited_attributes(self, attr: str) -> None:
         """
         Resolve any {iso} code references in the orthography attributes to
-        inherit them from the referenced language. The inherited characters 
+        inherit them from the referenced language. The inherited characters
         are added in the position of the tag.
 
-        Valid inheritance can be any iso tag plus a combination of script, 
+        Valid inheritance can be any iso tag plus a combination of script,
         attribute and orthography status:
-        
+
         # get the primary orthography of same script
-        {iso} 
+        {iso}
 
         # get very specific
         {iso Arabic auxiliary transliteration}
 
         # nest within other values
-        a b c {iso} d e f 
+        a b c {iso} d e f
         or
         a b c d e f {iso}
         """
@@ -119,13 +121,13 @@ class Orthography(dict):
         value_is_yaml_object = type(value) is dict and len(value.keys()) == 1
 
         # Special case:
-        # Yaml will parse a standalone 'numerals: {eng}' as a dict with key 
+        # Yaml will parse a standalone 'numerals: {eng}' as a dict with key
         # 'eng' and value 'None'
         if value_is_yaml_object:
             inherit = list(value.keys())
         elif value_is_yaml_list:
             for listitem in value:
-                codes = re.findall("{([A-z'ʽ ]*)}", listitem)
+                codes = RE_INHERITANCE_TAG.findall(listitem)
                 if codes is not []:
                     if inherit is None:
                         inherit = []
@@ -133,11 +135,11 @@ class Orthography(dict):
         else:
             # Note the group needs to encompase valid iso codes and Script
             # names, e.g. A-z but also "Geʽez", "N'ko", ...
-            inherit = re.findall("{([A-z'ʽ ]*)}", value)
+            inherit = RE_INHERITANCE_TAG.findall(value)
 
         if inherit is None or inherit == []:
             return
-        
+
         # Store any resolved character lists under the iso code
         resolved = {}
 
@@ -160,7 +162,7 @@ class Orthography(dict):
                         attribute = p
                         parts.remove(p)
 
-                    if p in get_scripts().keys():
+                    if p in load_scripts_data().keys():
                         script = p
                         parts.remove(p)
 
@@ -179,7 +181,7 @@ class Orthography(dict):
                 f"Inheriting to orthography from: {lang} {script} {attribute} {status}"
             )
 
-            Lang = Language(lang, inherit=False)
+            source = Language(lang, inherit=False)
 
             # Get a matching orthography. Require same script for "characters"
             # but not for punctuation/currency/numerals which can be inherited
@@ -189,30 +191,30 @@ class Orthography(dict):
                     f"Orthography cannot inherit '{attribute}' from '{lang}' "
                     "without having a script."
                 )
-            
+
             if script is None:
                 try:
-                    ort = Lang.get_orthography(script=self["script"], status=status)
+                    ort = source.get_orthography(script=self["script"], status=status)
                 except KeyError as e:
-                    ort = Lang.get_orthography(status=status)
+                    ort = source.get_orthography(status=status)
             else:
                 try:
-                    ort = Lang.get_orthography(script=script, status=status)
+                    ort = source.get_orthography(script=script, status=status)
                 except KeyError as e:
                     raise KeyError(
                         f"Orthography cannot inherit '{attr}' from '{lang}' "
                         f"with script '{script}'. Source language has no "
                         f"orthography for script '{script}'"
                     )
-            
-            if not ort[attribute]:
+
+            if attribute not in ort:
                 resolved[lang] = ""
                 logging.warning(
                     f"Orthography cannot inherit non-existing '{attribute}' from "
                     f"'{lang}', nothing inherited."
                 )
                 continue
-            
+
             resolved[lang] = ort[attribute]
 
         # Insert the inherited characters in the place of the {iso} tag. We
@@ -222,13 +224,15 @@ class Orthography(dict):
             if value_is_yaml_object:
                 value = chars
             else:
-                # For inserting match the iso "and anything until '}'" and 
-                # replace
+                # For inserting match the iso "and anything until '}'" and
+                # replace with expanded characters.
                 value = re.sub(r"{\s*(" + iso + r"[^}]*)}", f" {chars} ", value)
-        
-        self[attr] = value
+
+        self[attr] = value.strip()
 
     def __getitem__(self, key):
+        # Only provide script_iso value on actual access, as it requires a file
+        # read (once).
         if key == "script_iso":
             return get_script_iso(self["script"])
         else:
@@ -365,15 +369,15 @@ note: {note}
     @property
     def required_auxiliary_marks(self):
         return self._required_marks("aux")
-    
+
     @property
     def currency(self):
         return self._character_list("currency")
-    
+
     @property
     def punctuation(self):
         return self._character_list("punctuation")
-    
+
     @property
     def numerals(self):
         return self._character_list("numerals")
@@ -384,8 +388,6 @@ note: {note}
             remove_mark_base(chars)
             for chars in self._character_list("design_alternates")
         ]
-    
-    # TODO add numerals/currency/punctuation
 
     def get_chars(self, attr: str = "base", all_marks=False) -> Set:
         """
@@ -512,3 +514,69 @@ note: {note}
                 return list_unique(marks + decom_base + decom_aux)
             else:
                 return list_unique(marks + decom_base)
+
+    def _get_raw(self) -> dict:
+        """
+        Return a raw dict with all the {iso} inheritance tags intact.
+        """
+
+        # Automate extracting and writing marks (in addition to any
+        # that might have been defined manually)
+        marks, marks_replace, marks_fill = [], "", []
+
+        if "marks" in self:
+            mk, marks_replace, marks_fill = drop_inheritance_tags(self["marks"])
+            marks = parse_marks(mk)
+
+        # "Derive" all marks possible
+        for attr in CHARACTER_ATTRIBUTES:
+            if attr in self:
+                marks = marks + parse_marks(drop_inheritance_tags(self[attr])[0])
+
+        # Prune marks from character lists, delete empty
+        for attr in CHARACTER_ATTRIBUTES:
+            if attr in self:
+                _, replace, fill = drop_inheritance_tags(self[attr])
+                replace_chars = [
+                    c.strip()
+                    for c in re.split(r"\s+", replace)
+                    if not is_mark(c) and c != MARK_BASE
+                ]
+
+                if len(fill) > 0:
+                    if replace_chars == ["%s"]:
+                        self[attr] = fill[0]
+
+        if len(marks) > 0 or len(marks_fill) > 0:
+            decorated = []
+            if len(marks_fill) > 0:
+                _repl = list_unique(marks_replace.split(" "))
+                for m in _repl:
+                    if m == "%s":
+                        decorated.append(marks_fill.pop(0))
+                    else:
+                        decorated.append(MARK_BASE + remove_mark_base(m))
+            else:
+                decorated = list_unique([MARK_BASE + m for m in marks])
+
+            # Note: Let's store marks with a dotted circle and a
+            # whitespace between them to make them more legible. When
+            # parsing the attribute back in circles and all whitespaces
+            # are removed
+            self["marks"] = " ".join(decorated)
+
+        # Save inheritance tags on non-character, list attributes
+        for attr in ["design_requirements", "design_alternates"]:
+            if attr in self and self[attr]:
+                input_is_yaml_object = (
+                    type(self[attr]) is dict and len(self[attr].keys()) == 1
+                )
+                if input_is_yaml_object:
+                    tag = list(self[attr].keys())[0]
+                    self[attr] = "{" + tag + "}"
+                elif type(self[attr]):
+                    pass
+                else:
+                    self[attr] = list(self[attr])
+
+        return dict(self)
