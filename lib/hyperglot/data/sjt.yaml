@@ -6,6 +6,7 @@ orthographies:
   auxiliary: {sjd}
   marks: {sjd}
   status: secondary
+  script: Cyrillic
 source:
 - Omniglot
 - Wikipedia
