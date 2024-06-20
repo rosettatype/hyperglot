@@ -9,18 +9,35 @@ from hyperglot import DB, DB_EXTRA
 log = logging.getLogger(__name__)
 log.setLevel(logging.WARNING)
 
+CACHE = {}
 
-DATA_CACHE = {}
 
-def load_language_data(iso: str) -> dict:
+def cached_loader(func):
     """
     Load and cache the raw yaml data for a iso code. Always return deepcopies
     of the originally loaded data to avoid mutations down the road messing
     with new language objects.
     """
 
-    if iso in DATA_CACHE:
-        return deepcopy(DATA_CACHE[iso])
+    def inner(path):
+
+        if path in CACHE.keys():
+            return deepcopy(CACHE[path])
+
+        CACHE[path] = func(path)
+
+        return deepcopy(CACHE[path])
+
+    return inner
+
+
+@cached_loader
+def load_cached_yaml(path):
+    with open(path, "rb") as f:
+        return yaml.load(f, Loader=yaml.Loader)
+
+
+def load_language_data(iso: str) -> dict:
 
     files = [f"{iso}.yaml", f"{iso}_.yaml"]
     file = None
@@ -37,27 +54,21 @@ def load_language_data(iso: str) -> dict:
     if path is None:
         raise KeyError(f"No language with ISO code {iso} found in Hyperglot.")
 
-    with open(path, "rb") as f:
-        data = yaml.load(f, Loader=yaml.Loader)
-
-    DATA_CACHE[iso] = data
-
-    return deepcopy(data)
+    return load_cached_yaml(path)
 
 
 @lru_cache
 def load_scripts_data():
-    with open(os.path.join(DB_EXTRA, "script-names.yaml"), "rb") as f:
-        return yaml.load(f, Loader=yaml.Loader)
+    """
+    Potentially called _a lot_, so lru_cache the result.
+    """
+    return load_cached_yaml(os.path.join(DB_EXTRA, "script-names.yaml"))
 
 
 @lru_cache
 def load_joining_types():
     """
-    Load the joining-types.yaml database.
-
-    TODO: Maybe this should be a singleton as well, or accessed transparently
-    via Orthography?
+    Potentially called _a lot_ (like for every character of all orthographies),
+    so lru_cache the result.
     """
-    with open(os.path.join(DB_EXTRA, "joining-types.yaml"), "rb") as f:
-        return yaml.load(f, Loader=yaml.Loader)
+    return load_cached_yaml(os.path.join(DB_EXTRA, "joining-types.yaml"))
