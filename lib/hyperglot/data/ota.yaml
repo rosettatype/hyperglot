@@ -6,13 +6,13 @@ orthographies:
   note: The International Journal of Middle East Studies (IJMES) transliteration chart used for this entry provides the most complete and (almost) reversible transliteration between the original Arabic and Latin alphabet representation.
   script: Latin
   status: transliteration
-- auxiliary: '{arb}'
-  base: '{arb}'
-  currency: '{arb}'
-  design_requirements: '{arb}'
-  marks: '{arb}'
-  numerals: '{arb}'
-  punctuation: '{arb}'
+- auxiliary: <arb>
+  base: <arb>
+  currency: <arb>
+  design_requirements: <arb>
+  marks: <arb>
+  numerals: <arb>
+  punctuation: <arb>
   script: Arabic
   status: primary
 source:

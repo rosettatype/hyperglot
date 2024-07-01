@@ -1,13 +1,13 @@
 name: Dotyali
 orthographies:
 - autonym: डोटेली
-  auxiliary: '{npi}'
-  base: '{npi}'
-  design_alternates: '{npi}'
-  design_requirements: '{npi}'
-  marks: '{npi}'
-  numerals: '{npi}'
-  punctuation: '{npi}'
+  auxiliary: <npi>
+  base: <npi>
+  design_alternates: <npi>
+  design_requirements: <npi>
+  marks: <npi>
+  numerals: <npi>
+  punctuation: <npi>
   script: Devanagari
   status: primary
 source:

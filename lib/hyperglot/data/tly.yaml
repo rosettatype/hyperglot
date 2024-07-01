@@ -1,19 +1,19 @@
 name: Talysh
 orthographies:
 - autonym: Tolışi
-  auxiliary: '{azj}'
-  base: '{azj}'
-  marks: '{azj}'
+  auxiliary: <azj>
+  base: <azj>
+  marks: <azj>
   note: Used in Azerbaijan.
   script: Latin
   status: primary
 - autonym: تالشه
-  base: '{pes}'
-  currency: '{pes}'
-  design_requirements: '{pes}'
-  marks: '{pes}'
+  base: <pes>
+  currency: <pes>
+  design_requirements: <pes>
+  marks: <pes>
   note: Used in Iran.
-  numerals: '{pes}'
+  numerals: <pes>
   script: Arabic
   status: primary
 - autonym: Толыши

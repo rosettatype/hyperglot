@@ -1,7 +1,7 @@
 # A changelog for the lib/hyperglot language database and CLI tool (dd.mm.yyyy)
 
 ## 0.7.0 (WIP)
-- FEATURE: Orthography attributes can inherit from other languages with `{iso}` syntax, see [README](README_database.md)
+- FEATURE: Orthography attributes can inherit from other languages with `<iso>` syntax, see [README](README_database.md)
 - TWEAK: Orthographies can no longer have an `inherit` attribute
 - TWEAK: Improved loading speed for repeat queries and indivudal language queries
 - TWEAK: Refactored `Languages`, `Language` and `Orthography` object instantiation to always return parsed and defaulted nested objects

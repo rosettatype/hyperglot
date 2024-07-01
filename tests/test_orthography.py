@@ -196,11 +196,11 @@ def test_orthography_script_iso(langs):
 
 def test_inheritance(caplog):
     # Just basic inheritance test
-    basic = Orthography({"base": "{eng} ß ∂ œ ø", "script": "Latin"})
+    basic = Orthography({"base": "<eng> ß ∂ œ ø", "script": "Latin"})
     assert "A" in basic.base_chars
 
     # Multiple languages, and position test
-    inherit_multiple = Orthography({"base": "ß {eng} ∂ œ { fin } ø", "script": "Latin"})
+    inherit_multiple = Orthography({"base": "ß <eng> ∂ œ < fin > ø", "script": "Latin"})
     assert "ß" in inherit_multiple.base_chars
     assert "ß" == inherit_multiple.base_chars[0]
     assert "ø" == inherit_multiple.base_chars[-1]
@@ -209,14 +209,14 @@ def test_inheritance(caplog):
     # Afar (aar) has no auxiliary or marks to inherit, this should trigger a
     # warning.
     with caplog.at_level(logging.WARNING):
-        Orthography({ "auxiliary": "{aar}", "script": "Latin" })
+        Orthography({ "auxiliary": "<aar>", "script": "Latin" })
         assert 'Orthography cannot inherit non-existing' in caplog.text
 
     with caplog.at_level(logging.WARNING):
-        Orthography({ "marks": "{aar}", "script": "Latin" })
+        Orthography({ "marks": "<aar>", "script": "Latin" })
         assert 'Orthography cannot inherit non-existing' in caplog.text
 
-    assert "»" in Orthography({ "punctuation": "{eng} » « › ‹" })["punctuation"]
+    assert "»" in Orthography({ "punctuation": "<eng> » « › ‹" })["punctuation"]
 
     # Sanity-test a few specific cases from the data
 
@@ -228,39 +228,46 @@ def test_inheritance(caplog):
     assert "0" in Language("arb").get_orthography()["numerals"]
 
     # Confirm specifying a script works
-    basic = Orthography({"base": "{eng Latin} ß ∂ œ ø", "script": "Latin"})
+    basic = Orthography({"base": "<eng Latin> ß ∂ œ ø", "script": "Latin"})
     assert "A" in basic.base_chars
 
     # Make sure all script names work
-    nko = Orthography({"base": "{emk N'Ko}", "script": "N'Ko"})
+    nko = Orthography({"base": "<emk N'Ko>", "script": "N'Ko"})
     assert "ߐ" in nko.base
 
     # Fail with error for forcing inheriting from a script that does not exist
     with pytest.raises(KeyError):
-        Orthography({"base": "{eng Arabic} ß ∂ œ ø", "script": "Latin"})
+        Orthography({"base": "<eng Arabic> ß ∂ œ ø", "script": "Latin"})
 
     # Fail when trying to inherit gibberish
     with pytest.raises(ValueError):
-        Orthography({"base": "{eng Foobar} ß ∂ œ ø", "script": "Latin"})
+        Orthography({"base": "<eng Foobar> ß ∂ œ ø", "script": "Latin"})
 
     # Inherit from a different attribute
-    different = Orthography({"base": "{eng auxiliary}", "script": "Latin"})
+    different = Orthography({"base": "<eng auxiliary>", "script": "Latin"})
     assert "Ç" in different.base
-    assert "{" not in different.base
+    assert "<" not in different.base
     assert not different.auxiliary
 
     # Inherit from a non-primary orthography
-    nonprimary = Orthography({"base": "{eng auxiliary historical}", "script": "Latin"})
+    nonprimary = Orthography({"base": "<eng auxiliary historical>", "script": "Latin"})
     assert "ſ" in nonprimary.base
 
     # Fail for inheriting a non existing status
     with pytest.raises(KeyError):
-        Orthography({"base": "{eng transliteration}", "script": "Latin"})
+        Orthography({"base": "<eng transliteration>", "script": "Latin"})
 
     # Just test the parser doesn't choke
-    sloppy = Orthography({"base": "A B   {   eng  auxiliary   historical}C D"})
+    sloppy = Orthography({"base": "A B   <   eng  auxiliary   historical>C D"})
     assert "ſ" in sloppy.base
     assert "C" in sloppy.base
 
     # Test all attributes get inherited
     assert type(Language("aec").get_orthography()["design_requirements"]) is not dict
+
+
+def test_inheritance_types():
+    # Test lists are inherited with the same type
+    src = Language("pes").get_orthography()
+    inh = Language("prs").get_orthography()
+    assert type(src["design_requirements"]) == type(inh["design_requirements"])

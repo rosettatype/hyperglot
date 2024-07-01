@@ -1,12 +1,12 @@
 name: Kachhi
 orthographies:
 - autonym: કચ્છી
-  auxiliary: '{guj}'
-  base: '{guj}'
-  design_requirements: '{guj}'
-  marks: '{guj}'
-  numerals: '{guj}'
-  punctuation: '{guj}'
+  auxiliary: <guj>
+  base: <guj>
+  design_requirements: <guj>
+  marks: <guj>
+  numerals: <guj>
+  punctuation: <guj>
   script: Gujarati
   status: primary
 source:

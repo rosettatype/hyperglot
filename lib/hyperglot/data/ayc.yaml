@@ -1,8 +1,8 @@
 name: Southern Aymara
 orthographies:
 - autonym: Aymar
-  base: '{ayr}'
-  marks: '{ayr}'
+  base: <ayr>
+  marks: <ayr>
   script: Latin
   status: primary
 source:

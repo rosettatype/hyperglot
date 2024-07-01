@@ -1,7 +1,7 @@
 name: Gan Chinese
 orthographies:
 - autonym: 赣语 / 江西话
-  base: '{cmn}'
+  base: <cmn>
   script: Chinese
   status: primary
 - autonym: Gann ua

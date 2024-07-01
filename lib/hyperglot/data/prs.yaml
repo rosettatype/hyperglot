@@ -1,11 +1,11 @@
 name: Dari
 orthographies:
 - autonym: دری
-  base: '{pes}'
-  currency: '{pes}'
-  design_requirements: '{pes}'
-  marks: '{pes}'
-  numerals: '{pes}'
+  base: <pes>
+  currency: <pes>
+  design_requirements: <pes>
+  marks: <pes>
+  numerals: <pes>
   script: Arabic
   status: primary
 source:

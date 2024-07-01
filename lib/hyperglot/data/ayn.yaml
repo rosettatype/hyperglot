@@ -1,13 +1,13 @@
 name: Sanaani Arabic
 orthographies:
 - autonym: يمني‎
-  auxiliary: '{arb}'
-  base: '{arb}'
-  currency: '{arb}'
-  design_requirements: '{arb}'
-  marks: '{arb}'
-  numerals: '{arb}'
-  punctuation: '{arb}'
+  auxiliary: <arb>
+  base: <arb>
+  currency: <arb>
+  design_requirements: <arb>
+  marks: <arb>
+  numerals: <arb>
+  punctuation: <arb>
   script: Arabic
   status: primary
 source:

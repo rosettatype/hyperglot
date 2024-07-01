@@ -118,14 +118,8 @@ class Orthography(dict):
         inherit = None
         value = self[attr]
         value_is_yaml_list = type(value) is list
-        value_is_yaml_object = type(value) is dict and len(value.keys()) == 1
 
-        # Special case:
-        # Yaml will parse a standalone 'numerals: {eng}' as a dict with key
-        # 'eng' and value 'None'
-        if value_is_yaml_object:
-            inherit = list(value.keys())
-        elif value_is_yaml_list:
+        if value_is_yaml_list:
             for listitem in value:
                 codes = RE_INHERITANCE_TAG.findall(listitem)
                 if codes is not []:
@@ -133,17 +127,22 @@ class Orthography(dict):
                         inherit = []
                     inherit.extend(codes)
         else:
-            # Note the group needs to encompase valid iso codes and Script
-            # names, e.g. A-z but also "Geʽez", "N'ko", ...
             inherit = RE_INHERITANCE_TAG.findall(value)
 
         if inherit is None or inherit == []:
+            return
+        
+        # Strip any <g> or similar from the data, e.g. inside notes this might
+        # have been used to highlight a individual characters.
+        inherit = [i.strip() for i in inherit if len(i.strip()) >= 3]
+
+        if inherit == []:
             return
 
         # Store any resolved character lists under the iso code
         resolved = {}
 
-        # For each resolved {...} code, parse the characters
+        # For each resolved <...> code, parse the characters
         for code in [i.strip() for i in inherit]:
             parts = re.split(r"\s+", code)
 
@@ -151,6 +150,14 @@ class Orthography(dict):
             attribute = attr
             status = None
             script = None
+
+            if len(lang) < 3 or len(lang) > 4:
+                logging.debug(
+                    "Skipping inheritance for what looks like an accidental"
+                    "<...> sequence inside an attribute. Review the data: %s" %
+                    str(value)
+                )
+                continue
 
             if len(parts) > 0:
 
@@ -217,18 +224,23 @@ class Orthography(dict):
 
             resolved[lang] = ort[attribute]
 
-        # Insert the inherited characters in the place of the {iso} tag. We
+        # Insert the inherited characters in the place of the <iso> tag. We
         # don't worry about duplicates at this spot, later parse_chars calls
         # will take care of that when and as needed.
         for iso, chars in resolved.items():
-            if value_is_yaml_object:
-                value = chars
+            # For inserting match the iso code "and anything until '>'" and
+            # replace with expanded characters.
+            replace_tag = re.compile(r"\<\s*(" + iso + r"[^>]*)\>")
+            if value_is_yaml_list:
+                value = [
+                    type(chars)(replace_tag.sub(f" {chars} ", v).strip())
+                    for v in value
+                ]
             else:
-                # For inserting match the iso "and anything until '}'" and
-                # replace with expanded characters.
-                value = re.sub(r"{\s*(" + iso + r"[^}]*)}", f" {chars} ", value)
+                # Apply the source items' type to the substitution
+                value = type(chars)(replace_tag.sub(f" {chars} ", value).strip())
+        self[attr] = value
 
-        self[attr] = value.strip()
 
     def __getitem__(self, key):
         # Only provide script_iso value on actual access, as it requires a file
@@ -573,7 +585,7 @@ note: {note}
                 )
                 if input_is_yaml_object:
                     tag = list(self[attr].keys())[0]
-                    self[attr] = "{" + tag + "}"
+                    self[attr] = "<" + tag + ">"
                 elif type(self[attr]):
                     pass
                 else:

@@ -55,24 +55,24 @@ Examples:
 
 ```
 # Inherit the base characters of eng to this orthography's base attribute
-base: '{eng}'
+base: <eng>
 
 # Inherit the auxiliary characters of eng, but into the base attribute of this orthography
-base: '{eng auxiliary}'
+base: <eng auxiliary>
 
 # Inherit the ott transliteration orthography
-base: '{ott transliteration}'
+base: <ott transliteration>
 
 # Inherit the Cyrillic script base from srp (note script names are title case)
-base: '{srp Cyrillic}'
+base: <srp Cyrillic>
 
-# The inherited characters are inserted in place of the {...} so
-base: Å {eng} À Á
+# The inherited characters are inserted in place of the <...> so
+base: Å <eng> À Á
 # will result in:
 base: Å A B C (etc. all from eng) À Á
 ```
 
-Note that attributes with _only_ an inheritance tag should be quoted.
+Note: Avoid `<g>` character highlights in notes etc., use `‘g’` or `/'/` instead.
 
 
 ### Macrolanguages

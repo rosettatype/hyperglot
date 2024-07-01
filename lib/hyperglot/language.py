@@ -123,7 +123,6 @@ validity: {validity}
                 raise ValueError(f"Malformed data in {self.iso}: Not a dictionary")
 
             if self.inherit:
-                # self._inherit_orthographies(data)
                 self._inherit_orthographies_from_macrolanguage(data)
 
             self._expand_orthographies(data)

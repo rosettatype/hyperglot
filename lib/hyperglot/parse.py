@@ -244,7 +244,7 @@ def drop_inheritance_tags(input: Union[str, object]) -> Tuple[str, str, list]:
     input_is_yaml_object = type(input) is dict and len(input.keys()) == 1
     if input_is_yaml_object:
         tag = list(input.keys())[0]
-        return "", "%s", ["{" + tag.strip() + "}"]
+        return "", "%s", ["<" + tag.strip() + ">"]
 
     tags = RE_INHERITANCE_TAG.findall(input)
 
@@ -260,7 +260,7 @@ def drop_inheritance_tags(input: Union[str, object]) -> Tuple[str, str, list]:
     return (
         pruned,
         inserts,
-        ["{" + RE_MULTIPLE_SPACES.sub(" ", t.strip()) + "}" for t in tags],
+        ["<" + RE_MULTIPLE_SPACES.sub(" ", t.strip()) + ">" for t in tags],
     )
 
 

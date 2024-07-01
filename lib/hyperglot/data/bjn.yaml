@@ -2,8 +2,8 @@ name: Banjar
 note: There appears to exist a Jawi/Arabic orthography for Banjar (باس بنجر)
 orthographies:
 - autonym: Basa Banjar
-  auxiliary: '{zsm}'
-  base: '{zsm}'
+  auxiliary: <zsm>
+  base: <zsm>
   script: Latin
   status: primary
 source:

@@ -1,12 +1,12 @@
 name: Kangri
 orthographies:
 - autonym: कांगड़ी
-  auxiliary: '{dgo}'
-  base: '{dgo}'
-  design_requirements: '{dgo}'
-  marks: '{dgo}'
-  numerals: '{dgo}'
-  punctuation: '{dgo}'
+  auxiliary: <dgo>
+  base: <dgo>
+  design_requirements: <dgo>
+  marks: <dgo>
+  numerals: <dgo>
+  punctuation: <dgo>
   script: Devanagari
   status: primary
 source:

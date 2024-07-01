@@ -122,7 +122,12 @@ SORTING_DIRECTIONS = ["asc", "desc"]
 
 MARK_BASE = "◌"
 
-RE_INHERITANCE_TAG = re.compile(r"{([A-z'ʽ ]*)}")
+# Anything like <eng> or <eng Latin historical> or <   eng >
+# Note the group needs to encompase valid iso codes and Script names, 
+# e.g. A-z but also "Geʽez", "N'ko", ...
+RE_INHERITANCE_TAG = re.compile(r"<([A-z'ʽ ]*)>")
+# Anything between < and >
+RE_INHERITANCE_TAG_PLUS = re.compile(r"<\s*([^>]*)>")
 RE_MULTIPLE_SPACES = re.compile(r"\s{2,}")
 
 # Define module level convenience imports

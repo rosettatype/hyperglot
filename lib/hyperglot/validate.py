@@ -26,6 +26,7 @@ from hyperglot import (
     LanguageStatus, 
     LanguageValidity, 
     OrthographyStatus,
+    RE_INHERITANCE_TAG
 )
 
 handler = colorlog.StreamHandler()

@@ -2,11 +2,11 @@ name: Iranian Persian
 orthographies:
 - autonym: فارسی
   base: ء أ ؤ ئ ا ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ل م ن ه و پ چ ژ ک گ ی
-  currency: '{arb}'
+  currency: <arb>
   design_requirements:
   - Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
   marks: ◌َ ◌ُ ◌ِ ◌ْ ◌ٔ ◌ٰ
-  numerals: ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹ {eng}
+  numerals: ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹ <eng>
   script: Arabic
   status: primary
 source:

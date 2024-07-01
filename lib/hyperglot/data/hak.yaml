@@ -1,11 +1,11 @@
 name: Hakka Chinese
 orthographies:
 - autonym: 客家话 / 客家話
-  base: '{cmn}'
+  base: <cmn>
   script: Chinese
   status: primary
 - autonym: hak ga wa
-  base: '{cmn}'
+  base: <cmn>
   note: Hànyǔ Pīnyīn (pinyin) romanization
   script: Latin
   status: transliteration
