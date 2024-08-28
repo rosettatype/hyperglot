@@ -6,9 +6,9 @@ orthographies:
   marks: ◌́ ◌̓ ◌̣
   script: Latin
   status: primary
-source:
-- FirstVoices
-- Wikipedia
+sources:
+- 'FirstVoices  # REVIEW'
+- Thompson language. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Thompson_language?oldid=1234213302
 speakers: 600
 speakers_date: 2018
 validity: preliminary

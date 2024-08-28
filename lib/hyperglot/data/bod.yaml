@@ -3,15 +3,16 @@ orthographies:
 - autonym: བོད་སྐད་
   base: ཀ ཁ ག ང ཅ ཆ ཇ ཉ ཏ ཐ ད ན པ ཕ བ མ ཙ ཚ ཛ ཝ ཞ ཟ འ ཡ ར ལ ཤ ས ཧ ཨ
   design_requirements:
-  - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
+  - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are
+    required for proper representation of the language.
   marks: ◌ི ◌ུ ◌ེ ◌ོ
   numerals: ༠ ༡ ༢ ༣ ༤ ༥ ༦ ༧ ༨ ༩
   punctuation: ༄ ༈ ་ ། ༎ ༔ ༺ ༻
   script: Tibetan
   status: primary
-source:
+sources:
 - Omniglot
-- Wikipedia
+- Tibetan language. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Sino-Tibetan_languages?oldid=1240823273
 speakers: 1200000
 speakers_date: 1990
 validity: preliminary

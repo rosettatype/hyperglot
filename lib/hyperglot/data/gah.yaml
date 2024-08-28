@@ -4,9 +4,10 @@ orthographies:
   base: A E G H I K L M N O P R S T U V Z a e g h i k l m n o p r s t u v z
   script: Latin
   status: primary
-source:
-- 'Ellis W. Deibler, Dictionaries of Alekano-English and English-Alekano, Ukarumpa: Summer Institute of Linguistics, 2008'
-- Wikipedia
+sources:
+- 'Ellis W. Deibler, Dictionaries of Alekano-English and English-Alekano, Ukarumpa:
+  Summer Institute of Linguistics, 2008  # REVIEW'
+- Alekano language. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Alekano_language?oldid=1215245073
 speakers: 25000
 speakers_date: 1999
 status: living

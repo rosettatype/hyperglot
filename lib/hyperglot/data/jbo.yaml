@@ -1,14 +1,17 @@
 name: Lojban
 orthographies:
 - autonym: Lojban
-  base: \' , . A B C D E F G I J K L M N O P R S T U V X Y Z a b c d e f g i j k l m n o p r s t u v x y z
-  note: \' , and . are letters of the Lojban orthography. Sometimes h is used for \' in software that does not treat the apostrophe as a letter.
+  base: \' , . A B C D E F G I J K L M N O P R S T U V X Y Z a b c d e f g i j k l
+    m n o p r s t u v x y z
+  note: \' , and . are letters of the Lojban orthography. Sometimes h is used for
+    \' in software that does not treat the apostrophe as a letter.
   script: Latin
   status: primary
-source:
+sources:
 - Omniglot
-- Wikipedia
-- The complete Lojban Language, John Woldemar Cowan, https://lojban.org/publications/cll/cll_v1.1_xhtml-section-chunks/index.html
+- Lojban language. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Lojban?oldid=1239121314
+- 'The complete Lojban Language, John Woldemar Cowan, https://lojban.org/publications/cll/cll_v1.1_xhtml-section-chunks/index.html  #
+  REVIEW'
 speakers: 0
 status: constructed
 validity: verified

@@ -3,12 +3,13 @@ name: Bushi
 orthographies:
 - autonym: Shibushi
   auxiliary: C J Q c j q
-  base: A B D E F G H I K L M N O P R S T U V W X Y Z Ɓ Ɗ N̈ a b d e f g h i k l m n o p r s t u v w x y z ɓ ɗ n̈
+  base: A B D E F G H I K L M N O P R S T U V W X Y Z Ɓ Ɗ N̈ a b d e f g h i k l m
+    n o p r s t u v w x y z ɓ ɗ n̈
   marks: ◌̈
   script: Latin
   status: primary
-source:
-- Wikipedia
+sources:
+- Bushi language. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Bushi_language?oldid=1209245733
 - Omniglot
 speakers: 47900
 speakers_date: 2012

@@ -1,9 +1,11 @@
 name: South Azerbaijani
 orthographies:
 - autonym: آذربایجانجا
-  base: و ؤ ئ ا خ ع ن پ چ ژ ک گ ۆ ۇ ی ە ݣ ﺏ ﺕ ﺙ ﺝ ﺡ ﺩ ﺫ ﺭ ﺯ ﺱ ﺵ ﺹ ﺽ ﻁ ﻅ ﻍ ﻑ ﻕ ﻝ ﻡ ﻥ ﻩ ﻭ آ ج ب ذ ر
+  base: و ؤ ئ ا خ ع ن پ چ ژ ک گ ۆ ۇ ی ە ݣ ﺏ ﺕ ﺙ ﺝ ﺡ ﺩ ﺫ ﺭ ﺯ ﺱ ﺵ ﺹ ﺽ ﻁ ﻅ ﻍ ﻑ ﻕ ﻝ ﻡ
+    ﻥ ﻩ ﻭ آ ج ب ذ ر
   design_requirements:
-  - Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
+  - Positional forms of the characters (initial, medial, and final forms) and some
+    ligatures are required for proper representation of the language.
   marks: ◌ْ ◌ٓ ◌ٔ ◌ٛ
   note: Used in Iran.
   script: Arabic
@@ -14,8 +16,8 @@ orthographies:
   note: Used outside Iran.
   script: Latin
   status: primary
-source:
-- Wikipedia
+sources:
+- South Azerbaijani language. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Azerbaijani_language?oldid=1242052519
 speakers: 13823350
 speakers_date: 2016
 status: living

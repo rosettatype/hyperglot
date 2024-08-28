@@ -1,13 +1,14 @@
 name: Yagua
 orthographies:
 - autonym: Nijyamïï Nikyejaada
-  base: A C D Č E H I J Ɨ K M N O P R S T U W Y Á É Í Ï Ó Ú a c d č e h i j ɨ k m n o p r s t u w y á é í ï ó ú
+  base: A C D Č E H I J Ɨ K M N O P R S T U W Y Á É Í Ï Ó Ú a c d č e h i j ɨ k m
+    n o p r s t u w y á é í ï ó ú
   marks: ◌́ ◌̈ ◌̌
   script: Latin
   status: primary
-source:
+sources:
 - Omniglot
-- Wikipedia
+- Yagua language. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Yagua_language?oldid=1241588113
 speakers: 5700
 speakers_date: 2000
 validity: preliminary

@@ -1,13 +1,14 @@
 name: Chavacano
 orthographies:
 - autonym: Chavacano
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ñ a b c d e f g h i j k l m n o p q r s t u v w x y z ñ
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ñ a b c d e f g h i j
+    k l m n o p q r s t u v w x y z ñ
   marks: ◌̃
   script: Latin
   status: primary
-source:
+sources:
 - Omniglot
-- Wikipedia
+- Chavacano language. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Chavacano?oldid=1242221637
 speakers: 689000
 speakers_date: 1992
 status: living

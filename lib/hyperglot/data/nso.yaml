@@ -1,13 +1,14 @@
 name: Pedi
 orthographies:
 - autonym: Sepedi
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ê Ô Š a b c d e f g h i j k l m n o p q r s t u v w x y z ê ô š
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ê Ô Š a b c d e f g h
+    i j k l m n o p q r s t u v w x y z ê ô š
   marks: ◌̂ ◌̌
   script: Latin
   status: primary
-source:
+sources:
 - Omniglot
-- Wikipedia
+- Pedi language. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Pei_language?oldid=1135103066
 speakers: 4700000
 speakers_date: 2011
 status: living

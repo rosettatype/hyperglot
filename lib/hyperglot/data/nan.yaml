@@ -5,8 +5,8 @@ orthographies:
   base: <cmn>
   script: Chinese
   status: primary
-source:
-- Wikipedia
+sources:
+- Min Nan Chinese language. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Southern_Min?oldid=1240945820
 speakers: 48000000
 speakers_date: 2017-2018
 validity: draft

@@ -10,10 +10,10 @@ orthographies:
   marks: <srp>
   script: Latin
   status: primary
-source:
+sources:
 - Omniglot
-- Wikipedia
-- https://en.wikipedia.org/wiki/Montenegrin_alphabet
+- Montenegrin language. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Montenegrin_language?oldid=1239513599
+- 'https://en.wikipedia.org/wiki/Montenegrin_alphabet  # REVIEW'
 speakers: 232600
 speakers_date: 2011
 status: living

@@ -1,14 +1,17 @@
 name: Hungarian
 orthographies:
 - autonym: Magyar
-  base: A Á B C CS D Dz Dzs E É F G Gy H I Í J K L Ly M N Ny O Ó Ö Ő P Q R S Sz T Ty U Ú Ü Ű V W X Y Z Zs a á b c cs d dz dzs e é f g gy h i í j k l ly m n ny o ó ö ő p q r s sz t ty u ú ü ű v w x y z zs
+  base: A Á B C CS D Dz Dzs E É F G Gy H I Í J K L Ly M N Ny O Ó Ö Ő P Q R S Sz T
+    Ty U Ú Ü Ű V W X Y Z Zs a á b c cs d dz dzs e é f g gy h i í j k l ly m n ny o
+    ó ö ő p q r s sz t ty u ú ü ű v w x y z zs
   marks: ◌́ ◌̈ ◌̋
   script: Latin
   status: primary
-source:
+sources:
 - Omniglot
-- Alvestrand
-- Native
+- Alvestrand, Harald. (1995) *Characters and character sets for various languages.*
+  Retrieved on September 6, 2021 from https://www.alvestrand.no/ietf/lang-chars.txt
+- 'Native  # REVIEW'
 speakers: 13000000
 speakers_date: 2003-2014
 status: living

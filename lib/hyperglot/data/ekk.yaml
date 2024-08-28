@@ -1,14 +1,16 @@
 name: Standard Estonian
 orthographies:
 - autonym: Eesti
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Õ Ö Ü Š Ž a b c d e f g h i j k l m n o p q r s t u v w x y z ä õ ö ü š ž
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Õ Ö Ü Š Ž a b c d e
+    f g h i j k l m n o p q r s t u v w x y z ä õ ö ü š ž
   marks: ◌̃ ◌̈ ◌̌
   script: Latin
   status: primary
-source:
+sources:
 - Omniglot
 - CLDR
-- Alvestrand
+- Alvestrand, Harald. (1995) *Characters and character sets for various languages.*
+  Retrieved on September 6, 2021 from https://www.alvestrand.no/ietf/lang-chars.txt
 speakers: 1100000
 speakers_date: 2012
 status: living

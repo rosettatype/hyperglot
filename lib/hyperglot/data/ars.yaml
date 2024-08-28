@@ -4,13 +4,14 @@ orthographies:
   auxiliary: ڛ ڢ ٯ ڧ ک ی ڥ چ گ ڨ ڭ ڠ
   base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا پ ڤ ة
   design_requirements:
-  - Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
+  - Positional forms of the characters (initial, medial, and final forms) and some
+    ligatures are required for proper representation of the language.
   marks: ◌َ ◌ُ ◌ِ ◌ْ ◌ٰ
   numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩
   script: Arabic
   status: primary
-source:
-- Wikipedia
+sources:
+- Najdi Arabic language. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Najdi_Arabic?oldid=1218864024
 speakers: 4050000
 speakers_date: 2011-2015
 status: living

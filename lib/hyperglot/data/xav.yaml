@@ -1,33 +1,40 @@
 name: Xavánte
-note: The current SIL orthography uses â instead of ö and uses ĩ̱ in some works for first person pronominal prefix (see https://www.webonary.org/xavante/?lang=en), the Pimentel Barbosa (Etêñiritipa) orthography uses ñ instead of nh, the MSM orthography uses ts and dz instead of s and z.
+note: The current SIL orthography uses â instead of ö and uses ĩ̱ in some works for
+  first person pronominal prefix (see https://www.webonary.org/xavante/?lang=en),
+  the Pimentel Barbosa (Etêñiritipa) orthography uses ñ instead of nh, the MSM orthography
+  uses ts and dz instead of s and z.
 orthographies:
 - autonym: A’uwẽ
   auxiliary: Ĩ̱ ĩ̱
-  base: A B C D E F G H I J K L M N NH O P Q R S T U V W X Y Z Â Ã É Ẽ Ô Õ Ĩ a b c d e f g h i j k l m n nh o p q r s t u v w x y z â ã é ẽ ô õ ĩ ’
+  base: A B C D E F G H I J K L M N NH O P Q R S T U V W X Y Z Â Ã É Ẽ Ô Õ Ĩ a b c
+    d e f g h i j k l m n nh o p q r s t u v w x y z â ã é ẽ ô õ ĩ ’
   marks: ◌́ ◌̂ ◌̃ ◌̱
   note: SIL orthography.
   preferred_as_group: true
   script: Latin
   status: primary
 - autonym: A’uwẽ (MSM)
-  base: A B C D E F G H I J K L M N NH O P Q R TS T U V W X Y DZ Ã É Ẽ Ô Õ Ö Ĩ a b c d e f g h i j k l m n nh o p q r ts t u v w x y dz ã é ẽ ô õ ö ĩ ’
+  base: A B C D E F G H I J K L M N NH O P Q R TS T U V W X Y DZ Ã É Ẽ Ô Õ Ö Ĩ a b
+    c d e f g h i j k l m n nh o p q r ts t u v w x y dz ã é ẽ ô õ ö ĩ ’
   marks: ◌́ ◌̂ ◌̃ ◌̈
   note: MSM orthography.
   preferred_as_group: true
   script: Latin
   status: secondary
 - autonym: Etêñiritipa
-  base: A B C D E F G H I J K L M N Ñ O P Q R S T U V W X Y Z Ã É Ẽ Ô Õ Ö Ĩ a b c d e f g h i j k l m n ñ o p q r s t u v w x y z ã é ẽ ô õ ö ĩ ’
+  base: A B C D E F G H I J K L M N Ñ O P Q R S T U V W X Y Z Ã É Ẽ Ô Õ Ö Ĩ a b c
+    d e f g h i j k l m n ñ o p q r s t u v w x y z ã é ẽ ô õ ö ĩ ’
   marks: ◌́ ◌̂ ◌̃ ◌̈
   note: Pimentel Barbosa (Etêñiritipa) orthography.
   preferred_as_group: true
   script: Latin
   status: local
-source:
+sources:
 - Omniglot
-- Xavante Dictionary, Webonary, https://www.webonary.org/xavante
-- 'J. Hall, R. A. McLeod and V. Mitchell, Pequeno dicionário: Xavante-Português, Português-Xavante, Cuiabá: Sociedade Internacional de Linguística, 2004'
-- 'W. A. Pickering, A fonologia xavante: uma revisitação, 2010'
+- 'Xavante Dictionary, Webonary, https://www.webonary.org/xavante  # REVIEW'
+- 'J. Hall, R. A. McLeod and V. Mitchell, Pequeno dicionário: Xavante-Português, Português-Xavante,
+  Cuiabá: Sociedade Internacional de Linguística, 2004  # REVIEW'
+- 'W. A. Pickering, A fonologia xavante: uma revisitação, 2010  # REVIEW'
 speakers: 9600
 speakers_date: 2006
 status: living

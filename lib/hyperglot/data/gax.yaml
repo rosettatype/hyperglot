@@ -1,14 +1,16 @@
 name: Borana-Arsi-Guji Oromo
 orthographies:
 - autonym: Borana
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z '
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k
+    l m n o p q r s t u v w x y z '
   script: Latin
   status: primary
-source:
+sources:
 - Omniglot
-- Wikipedia
+- Borana-Arsi-Guji Oromo language. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Southern_Oromo_language?oldid=1230179326
 - CLDR
-- Alvestrand
+- Alvestrand, Harald. (1995) *Characters and character sets for various languages.*
+  Retrieved on September 6, 2021 from https://www.alvestrand.no/ietf/lang-chars.txt
 speakers: 3900000
 speakers_date: 2000-2009
 status: living

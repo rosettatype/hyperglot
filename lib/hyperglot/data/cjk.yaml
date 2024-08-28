@@ -1,12 +1,13 @@
 name: Chokwe
 orthographies:
 - autonym: Ucokwe
-  base: A B C D E F G H I J K L M N O P Q R S T U V W Y Z a b c d e f g h i j k l m n o p q r s t u v w y z
+  base: A B C D E F G H I J K L M N O P Q R S T U V W Y Z a b c d e f g h i j k l
+    m n o p q r s t u v w y z
   script: Latin
   status: primary
-source:
+sources:
 - Omniglot
-- Wikipedia
+- Chokwe language. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Chokwe_language?oldid=1231018770
 speakers: 980000
 speakers_date: 1990-1991
 validity: preliminary

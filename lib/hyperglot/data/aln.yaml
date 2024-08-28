@@ -1,13 +1,14 @@
 name: Gheg Albanian
 orthographies:
 - autonym: Gegnisht
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ç Ë a b c d e f g h i j k l m n o p q r s t u v w x y z ç ë
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ç Ë a b c d e f g h i
+    j k l m n o p q r s t u v w x y z ç ë
   marks: ◌̈ ◌̧
   script: Latin
   status: primary
-source:
+sources:
 - Omniglot
-- Wikipedia
+- Gheg Albanian language. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Gheg_Albanian?oldid=1232347100
 - CLDR
 speakers: 3450000
 speakers_date: 2000–2001

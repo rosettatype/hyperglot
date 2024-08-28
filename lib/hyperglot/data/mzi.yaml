@@ -1,11 +1,12 @@
 name: Ixcatlán Mazatec
 orthographies:
-- base: A B C E F I J K L M N O P R S T U X Y Z a b c e f i j k l m n o p r s t u x y z '
+- base: A B C E F I J K L M N O P R S T U X Y Z a b c e f i j k l m n o p r s t u
+    x y z '
   script: Latin
   status: primary
-source:
+sources:
 - Omniglot
-- Wikipedia
+- Ixcatlán Mazatec language. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Ixcatl%C3%A1n_Mazatec?oldid=1134585696
 speakers: 8600
 speakers_date: 2000
 validity: preliminary

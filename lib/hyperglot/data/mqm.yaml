@@ -1,14 +1,15 @@
 name: South Marquesan
-note: The number of speakers is an estimate, a half of total Marquesan language speakers (8700).
+note: The number of speakers is an estimate, a half of total Marquesan language speakers
+  (8700).
 orthographies:
 - autonym: ʻEo ʻEnata
   base: <mrq>
   marks: <mrq>
   script: Latin
   status: primary
-source:
+sources:
 - CLDR
-- Wikipedia
+- South Marquesan language. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Marquesan_language?oldid=1240801228
 speakers: 4350
 speakers_date: 2007
 status: living

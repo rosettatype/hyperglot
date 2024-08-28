@@ -5,8 +5,8 @@ orthographies:
   marks: ◌ְ ◌ֱ ◌ֲ ◌ֳ ◌ִ ◌ֵ ◌ֶ ◌ַ ◌ָ ◌ֹ ◌ֻ ◌ּ ◌ׁ ◌ׂ
   script: Hebrew
   status: primary
-source:
-- https://en.wikipedia.org/wiki/Yiddish_orthography
+sources:
+- 'https://en.wikipedia.org/wiki/Yiddish_orthography  # REVIEW'
 - Omniglot
 speakers: 1500000
 status: living

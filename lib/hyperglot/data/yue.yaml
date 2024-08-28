@@ -5,9 +5,9 @@ orthographies:
   script: Chinese
   status: primary
 preferred_name: Yue
-source:
+sources:
 - Omniglot
-- Wikipedia
+- Yue Chinese language. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Yue_Chinese?oldid=1238836759
 speakers: 84000000
 speakers_date: 2020
 validity: preliminary

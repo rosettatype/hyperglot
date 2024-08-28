@@ -2,14 +2,15 @@ name: Afrikaans
 orthographies:
 - autonym: Afrikaans
   auxiliary: Ç ç
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á É È Ê Ë Î Ï Ö Ô Û Ü Ý a b c d e f g h i j k l m n o p q r s t u v w x y z á é è ê ë î ï ö ô û ü ý
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á É È Ê Ë Î Ï Ö Ô Û Ü
+    Ý a b c d e f g h i j k l m n o p q r s t u v w x y z á é è ê ë î ï ö ô û ü ý
   marks: ◌́ ◌̀ ◌̂ ◌̈ ◌̧
   note: The use of ŉ has been deprecated and is strongly discouraged.
   script: Latin
   status: primary
-source:
+sources:
 - Omniglot
-- Wikipedia
+- Afrikaans language. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Afrikaans?oldid=1242153500
 speakers: 7200000
 speakers_date: 2016
 status: living

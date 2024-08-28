@@ -6,9 +6,9 @@ orthographies:
   design_requirements: <fue>
   script: Latin
   status: primary
-source:
+sources:
 - Omniglot
-- Wikipedia
+- Western Niger Fulfulde language. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Fula_language?oldid=1241563754
 - CLDR
 status: living
 validity: verified

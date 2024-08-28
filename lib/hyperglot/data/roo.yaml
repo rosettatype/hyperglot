@@ -4,9 +4,9 @@ orthographies:
   base: A E G I K O P R S T U V a e g i k o p r s t u v
   script: Latin
   status: primary
-source:
+sources:
 - Omniglot
-- Wikipedia
+- Rotokas language. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Rotokas_language?oldid=1232255287
 speakers: 4300
 speakers_date: 1981
 status: living

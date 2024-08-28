@@ -3,9 +3,9 @@ orthographies:
 - base: A I K L M N P R T U W Y a i k l m n p r t u w y
   script: Latin
   status: primary
-source:
+sources:
 - Omniglot
-- Wikipedia
+- Pintupi-Luritja language. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Pintupi_dialect?oldid=1214714161
 speakers: 147
 speakers_date: 2016
 validity: preliminary

@@ -1,14 +1,15 @@
 name: Paraguayan Guaraní
 orthographies:
 - autonym: Avañe'ẽ
-  base: A Ã C E Ẽ G G̃ H I Ĩ J K L M N Ñ O Õ P R S T U Ũ V Y Ỹ a ã c e ẽ g g̃ h i ĩ j k l m n ñ o õ p r s t u ũ v y ỹ ʼ
+  base: A Ã C E Ẽ G G̃ H I Ĩ J K L M N Ñ O Õ P R S T U Ũ V Y Ỹ a ã c e ẽ g g̃ h i
+    ĩ j k l m n ñ o õ p r s t u ũ v y ỹ ʼ
   marks: ◌̃
   script: Latin
   status: primary
-source:
+sources:
 - Omniglot
-- Wikipedia
-- https://en.wikipedia.org/wiki/Guarani_alphabet
+- Paraguayan Guaraní language. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Guarani_language?oldid=1235929785
+- 'https://en.wikipedia.org/wiki/Guarani_alphabet  # REVIEW'
 speakers: 4850000
 speakers_date: 1995
 validity: preliminary

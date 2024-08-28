@@ -3,17 +3,19 @@ note: There are approximately 4000000 L2 speakers.
 orthographies:
 - autonym: ગુજરાતી
   auxiliary: ॐ
-  base: અ આ ઇ ઈ ઉ ઊ ઋ પ એ ઐ ઓ ઔ ક ખ ગ ઘ ઙ ચ છ જ ઝ ઞ ટ ઠ ડ ઢ ણ ત થ દ ધ ન ફ બ ભ મ ય ર લ વ શ ષ સ હ ળ
+  base: અ આ ઇ ઈ ઉ ઊ ઋ પ એ ઐ ઓ ઔ ક ખ ગ ઘ ઙ ચ છ જ ઝ ઞ ટ ઠ ડ ઢ ણ ત થ દ ધ ન ફ બ ભ મ ય
+    ર લ વ શ ષ સ હ ળ
   design_requirements:
-  - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
+  - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are
+    required for proper representation of the language.
   marks: ◌ં ◌ઃ ◌ા ◌િ ◌ી ◌ુ ◌ૂ ◌ૃ ◌ે ◌ૈ ◌ો ◌ૌ ◌્
   numerals: ૦ ૧ ૨ ૩ ૪ ૫ ૬ ૭ ૮ ૯ 0 1 2 3 4 5 6 7 8 9
   punctuation: । ॥ ॰
   script: Gujarati
   status: primary
-source:
+sources:
 - Omniglot
-- Wikipedia
+- Gujarati language. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Gujarati_language?oldid=1239884811
 speakers: 56000000
 speakers_date: 2011
 validity: preliminary

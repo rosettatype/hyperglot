@@ -2,15 +2,18 @@ name: Pulaar
 note: Used in Senegal, Gambia, and Mauritania.
 orthographies:
 - autonym: Futa Tooro
-  base: A B C D E F G H I J K L M N O P R S T U W Y X Ñ Ŋ Ƴ Ɓ Ɗ a b c d e f g h i j k l m n o p r s t u w y x ñ ŋ ƴ ɓ ɗ
+  base: A B C D E F G H I J K L M N O P R S T U W Y X Ñ Ŋ Ƴ Ɓ Ɗ a b c d e f g h i
+    j k l m n o p r s t u w y x ñ ŋ ƴ ɓ ɗ
   design_requirements:
-  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in African languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase
+    ŋ reaching cap height favoured in African languages, and the other resembling
+    N with J as the second stem favoured in Sami languages.
   marks: ◌̃
   script: Latin
   status: primary
-source:
+sources:
 - Omniglot
-- Wikipedia
+- Pulaar language. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Pulaar_language?oldid=1222169736
 - CLDR
 speakers: 4450000
 speakers_date: 2019

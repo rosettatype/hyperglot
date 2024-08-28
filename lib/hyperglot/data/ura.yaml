@@ -1,13 +1,14 @@
 name: Urarina
 orthographies:
 - autonym: Itucale
-  base: A B C D E F I K L M N O P R S T U Y Ǫ Ʉ a b c d e f i k l m n o p r s t u y ǫ ʉ
+  base: A B C D E F I K L M N O P R S T U Y Ǫ Ʉ a b c d e f i k l m n o p r s t u
+    y ǫ ʉ
   marks: ◌̨
   script: Latin
   status: primary
-source:
+sources:
 - Omniglot
-- Wikipedia
+- Urarina language. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Urarina_language?oldid=1242564677
 speakers: 3000
 speakers_date: 2002
 validity: preliminary

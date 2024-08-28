@@ -1,12 +1,15 @@
 name: Nyamwezi
 orthographies:
-- base: A B D E Ɛ F G H I J L M N Ŋ O Ɔ P S T U V W Z a b d e ɛ f g h i j l m n ŋ o ɔ p s t u v w z
+- base: A B D E Ɛ F G H I J L M N Ŋ O Ɔ P S T U V W Z a b d e ɛ f g h i j l m n ŋ
+    o ɔ p s t u v w z
   design_requirements:
-  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in African languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase
+    ŋ reaching cap height favoured in African languages, and the other resembling
+    N with J as the second stem favoured in Sami languages.
   script: Latin
   status: primary
-source:
-- Wikipedia
+sources:
+- Nyamwezi language. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Nyamwezi_language?oldid=1226477687
 speakers: 1500000
 speakers_date: 1987-2016
 validity: preliminary

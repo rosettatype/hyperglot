@@ -7,9 +7,9 @@ orthographies:
   marks: <heb>
   script: Hebrew
   status: primary
-source:
-- Wikipedia
-- https://en.wikipedia.org/wiki/Niqqud
+sources:
+- Bukharic language. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Bukharian_(Judeo-Tajik_dialect)?oldid=1241375802
+- 'https://en.wikipedia.org/wiki/Niqqud  # REVIEW'
 speakers: 110000
 speakers_date: 1995
 status: living

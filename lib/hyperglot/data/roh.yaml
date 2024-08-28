@@ -1,14 +1,16 @@
 name: Romansh
 orthographies:
 - autonym: Rumantsch
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Â È É Ê Î Ò Ô Ö Ü a b c d e f g h i j k l m n o p q r s t u v w x y z à â è é ê î ò ô ö ü
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Â È É Ê Î Ò Ô Ö Ü a
+    b c d e f g h i j k l m n o p q r s t u v w x y z à â è é ê î ò ô ö ü
   marks: ◌̀ ◌́ ◌̂ ◌̈
   script: Latin
   status: primary
-source:
+sources:
 - Omniglot
-- Wikipedia
-- Alvestrand
+- Romansh language. (2024, August 23). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Romansh_language&oldid=1241756210
+- Alvestrand, Harald. (1995) *Characters and character sets for various languages.*
+  Retrieved on September 6, 2021 from https://www.alvestrand.no/ietf/lang-chars.txt
 speakers: 44354
 speakers_date: 2017
 status: living

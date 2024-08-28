@@ -1,13 +1,14 @@
 name: Kaqchikel
 orthographies:
 - autonym: Kaqchikel Chʼabʼäl
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Ë Ï Ö Ü a b c d e f g h i j k l m n o p q r s t u v w x y z ä ë ï ö ü ʼ
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Ë Ï Ö Ü a b c d e f
+    g h i j k l m n o p q r s t u v w x y z ä ë ï ö ü ʼ
   marks: ◌̈
   script: Latin
   status: primary
-source:
+sources:
 - Omniglot
-- Wikipedia
+- Kaqchikel language. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Kaqchikel_language?oldid=1217282601
 speakers: 450000
 status: living
 validity: preliminary

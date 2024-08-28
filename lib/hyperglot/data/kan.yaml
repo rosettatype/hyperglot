@@ -2,16 +2,18 @@ name: Kannada
 note: There are approximately 600000 L2 speakers.
 orthographies:
 - autonym: ಕನ್ನಡ
-  base: ಕ ಖ ಗ ಘ ಙ ಚ ಛ ಜ ಝ ಞ ಟ ಠ ಡ ಢ ಣ ತ ಥ ದ ಧ ನ ಪ ಫ ಬ ಭ ಮ ಯ ರ ಲ ವ ಶ ಷ ಸ ಹ ಳ ಅ ಆ ಇ ಈ ಉ ಊ ಋ ೠ ಎ ಏ ಐ ಒ ಓ ಔ
+  base: ಕ ಖ ಗ ಘ ಙ ಚ ಛ ಜ ಝ ಞ ಟ ಠ ಡ ಢ ಣ ತ ಥ ದ ಧ ನ ಪ ಫ ಬ ಭ ಮ ಯ ರ ಲ ವ ಶ ಷ ಸ ಹ ಳ ಅ ಆ ಇ
+    ಈ ಉ ಊ ಋ ೠ ಎ ಏ ಐ ಒ ಓ ಔ
   design_requirements:
-  - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
+  - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are
+    required for proper representation of the language.
   marks: ◌ಂ ◌ಃ ◌ಾ ◌ಿ ◌ು ◌ೂ ◌ೃ ◌ೄ ◌ೆ ◌ೌ ◌್ ◌ೕ ◌ೖ
   numerals: ೧ ೨ ೩ ೪ ೫ ೬ ೭ ೮ ೯ ೦
   script: Kannada
   status: primary
-source:
+sources:
 - Omniglot
-- Wikipedia
-speakers: 43000000
+- Kannada. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Kannada&oldid=1242654718
+speakers: 44000000
 speakers_date: 2011
 validity: preliminary

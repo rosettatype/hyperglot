@@ -1,12 +1,13 @@
 name: Fanti
 orthographies:
 - autonym: Fante
-  base: A B D E F G H I K M N O P R S T U W Y Z Ɛ Ɔ a b d e f g h i k m n o p r s t u w y z ɛ ɔ
+  base: A B D E F G H I K M N O P R S T U W Y Z Ɛ Ɔ a b d e f g h i k m n o p r s
+    t u w y z ɛ ɔ
   script: Latin
   status: primary
-source:
+sources:
 - Omniglot
-- Wikipedia
+- Fanti language. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Fante_dialect?oldid=1239374894
 speakers: 2700000
 speakers_date: 2019
 status: living

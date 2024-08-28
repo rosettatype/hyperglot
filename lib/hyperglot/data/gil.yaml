@@ -4,9 +4,9 @@ orthographies:
   base: A B E I K M N G O R T U W a b e i k m n g o r t u w
   script: Latin
   status: primary
-source:
+sources:
 - Omniglot
-- Wikipedia
+- Gilbertese language. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Gilbertese_language?oldid=1236712313
 speakers: 120000
 speakers_date: 1988-2010
 status: living

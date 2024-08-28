@@ -1,7 +1,8 @@
 name: Madurese
 orthographies:
 - autonym: Madhurâ
-  base: A B C D Ḍ E G H I J K L M N O P R S T Ṭ U W Â a b c d ḍ e g h i j k l m n o p r s t ṭ u w â
+  base: A B C D Ḍ E G H I J K L M N O P R S T Ṭ U W Â a b c d ḍ e g h i j k l m n
+    o p r s t ṭ u w â
   marks: ◌̂ ◌̣
   note: The Latin script is the most used nowadays.
   script: Latin
@@ -15,9 +16,9 @@ orthographies:
   punctuation: <jav>
   script: Javanese
   status: secondary
-source:
+sources:
 - Omniglot
-- Wikipedia
+- Madurese language. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Madurese_language?oldid=1242002853
 speakers: 6700000
 speakers_date: 2011
 validity: preliminary

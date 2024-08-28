@@ -2,15 +2,17 @@ name: Finnish
 orthographies:
 - autonym: Suomi
   auxiliary: Æ Õ Ø Ü Š Ž æ õ ø ü š ž
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Ö Å a b c d e f g h i j k l m n o p q r s t u v w x y z ä ö å
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Ö Å a b c d e f g h
+    i j k l m n o p q r s t u v w x y z ä ö å
   marks: ◌̈ ◌̊ ◌̃ ◌̌
   script: Latin
   status: primary
-source:
+sources:
 - Omniglot
 - CLDR
-- Alvestrand
-- Native
+- Alvestrand, Harald. (1995) *Characters and character sets for various languages.*
+  Retrieved on September 6, 2021 from https://www.alvestrand.no/ietf/lang-chars.txt
+- 'Native  # REVIEW'
 speakers: 5400000
 speakers_date: 2009-2012
 status: living

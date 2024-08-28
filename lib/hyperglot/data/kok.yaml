@@ -2,8 +2,8 @@ includes:
 - gom
 - knn
 name: Konkani (macrolanguage)
-source:
-- Wikipedia
+sources:
+- Konkani (macrolanguage) language. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Konkani_language?oldid=1239940419
 speakers: 2300000
 speakers_date: 2011
 validity: verified

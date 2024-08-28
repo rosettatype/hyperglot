@@ -2,15 +2,17 @@ name: Icelandic
 orthographies:
 - autonym: Íslenska
   auxiliary: Ǽ Ǫ Œ ǽ ǫ œ
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á Æ É Í Ð Ó Ö Ú Ý Þ a b c d e f g h i j k l m n o p q r s t u v w x y z á æ é í ð ó ö ú ý þ
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á Æ É Í Ð Ó Ö Ú Ý Þ a
+    b c d e f g h i j k l m n o p q r s t u v w x y z á æ é í ð ó ö ú ý þ
   marks: ◌́ ◌̈ ◌̨
   script: Latin
   status: primary
-source:
+sources:
 - Omniglot
-- Wikipedia
-- Alvestrand
-speakers: 314000
-speakers_date: 2015
+- Icelandic language. (2024, July 28). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Icelandic_language&oldid=1237183253
+- Alvestrand, Harald. (1995) *Characters and character sets for various languages.*
+  Retrieved on September 6, 2021 from https://www.alvestrand.no/ietf/lang-chars.txt
+speakers: 330000
+speakers_date:
 status: living
 validity: verified

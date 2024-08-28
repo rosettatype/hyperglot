@@ -6,12 +6,14 @@ orthographies:
   base: <zsm>
   script: Latin
   status: primary
-source:
+sources:
 - Omniglot
-- Wikipedia
-- Ethnologue
-- https://repositori.kemdikbud.go.id/2888/1/Kamus%20Banjar%20-%20Indonesia%20%20%20%20%20-%20%20%20189h.pdf
-- https://repositori.kemdikbud.go.id/3300/1/pedoman%20umum%20ejaan%20bahasa%20banjar%20ed.%20pertama%20%20%20%2088.pdf
+- Banjar language. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Banjarese_language?oldid=1242196703
+- Banjar. (2024, August 28). In *Ethnologue*. SIL International. https://www.ethnologue.com/language/bjn/
+- 'https://repositori.kemdikbud.go.id/2888/1/Kamus%20Banjar%20-%20Indonesia%20%20%20%20%20-%20%20%20189h.pdf  #
+  REVIEW'
+- 'https://repositori.kemdikbud.go.id/3300/1/pedoman%20umum%20ejaan%20bahasa%20banjar%20ed.%20pertama%20%20%20%2088.pdf  #
+  REVIEW'
 speakers: 3655000
 speakers_date: 2015
 validity: preliminary

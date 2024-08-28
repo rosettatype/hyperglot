@@ -9,9 +9,9 @@ orthographies:
   punctuation: <guj>
   script: Gujarati
   status: primary
-source:
+sources:
 - Omniglot
-- Wikipedia
+- Kachhi language. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Kutchi_language?oldid=1237566367
 speakers: 1031000
 speakers_date: 2011
 validity: preliminary

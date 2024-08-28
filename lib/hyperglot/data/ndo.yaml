@@ -1,11 +1,12 @@
 name: Ndonga
 orthographies:
-- base: A B D E F G H I J K L M N O P R S T U V W Y Z a b d e f g h i j k l m n o p r s t u v w y z
+- base: A B D E F G H I J K L M N O P R S T U V W Y Z a b d e f g h i j k l m n o
+    p r s t u v w y z
   script: Latin
   status: primary
-source:
+sources:
 - Omniglot
-- Wikipedia
+- Ndonga language. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Ndonga?oldid=1240420529
 speakers: 810000
 speakers_date: 2006
 validity: preliminary

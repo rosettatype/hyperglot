@@ -1,12 +1,13 @@
 name: Yanomamö
 orthographies:
 - autonym: Yąnomamɨ
-  base: A E F H I J K M N O P R S T U W Y Ã Ẽ Ə Ĩ Ɨ Õ Ũ a e f h i j k m n o p r s t u w y ã ẽ ə ĩ ɨ õ ũ
+  base: A E F H I J K M N O P R S T U W Y Ã Ẽ Ə Ĩ Ɨ Õ Ũ a e f h i j k m n o p r s
+    t u w y ã ẽ ə ĩ ɨ õ ũ
   marks: ◌̃ ◌̨
   script: Latin
   status: primary
-source:
-- Wikipedia
+sources:
+- Yanomamö language. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Yanomam%C3%B6_language?oldid=1241052610
 speakers: 20000
 speakers_date: 2000-2006
 validity: draft

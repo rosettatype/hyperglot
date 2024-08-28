@@ -1,15 +1,18 @@
 name: Klingon
-note: An official Klingon orthography has not been accepted into Unicode as of this writing, so fonts relying on Unicode cannot be tested for support. Some fonts using Klingon glyphs encoded in the unicode PUA.
+note: An official Klingon orthography has not been accepted into Unicode as of this
+  writing, so fonts relying on Unicode cannot be tested for support. Some fonts using
+  Klingon glyphs encoded in the unicode PUA.
 orthographies:
 - autonym: tlhIngan Hol
   base: a b ch D e gh H I j l m n ng o p q Q r S t tlh u v w y '
-  note: The bi- and trigraphs are treated like single letters and {'} represents a glotal stop.
+  note: The bi- and trigraphs are treated like single letters and {'} represents a
+    glotal stop.
   script: Latin
   status: primary
-source:
+sources:
 - Omniglot
-- Wikipedia (https://en.wikipedia.org/wiki/Klingon_language#Writing_systems)
-- https://klingon.wiki/En/Alphabet
+- 'Wikipedia (https://en.wikipedia.org/wiki/Klingon_language#Writing_systems)  # REVIEW'
+- 'https://klingon.wiki/En/Alphabet  # REVIEW'
 speakers: 0
 status: constructed
 validity: preliminary

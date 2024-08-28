@@ -1,14 +1,17 @@
 name: Pite Sami
 orthographies:
 - autonym: Bidumsámegiella
-  base: A B D E F G H I J K L M N O P R S T U V Á Ä Å Đ Ŋ Ŧ a b d e f g h i j k l m n o p r s t u v á ä å đ ŋ ŧ ʼ
+  base: A B D E F G H I J K L M N O P R S T U V Á Ä Å Đ Ŋ Ŧ a b d e f g h i j k l
+    m n o p r s t u v á ä å đ ŋ ŧ ʼ
   design_requirements:
-  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in African languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase
+    ŋ reaching cap height favoured in African languages, and the other resembling
+    N with J as the second stem favoured in Sami languages.
   marks: ◌́ ◌̈ ◌̊
   script: Latin
   status: primary
-source:
-- Wikipedia
+sources:
+- Pite Sami language. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Pite_S%C3%A1mi?oldid=1241132548
 - Omniglot
 speakers: 50
 speakers_date: 2010

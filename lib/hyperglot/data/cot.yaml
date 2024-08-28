@@ -1,13 +1,14 @@
 name: Caquinte
 orthographies:
 - autonym: Poyenisati
-  base: A C E F G I J M N O P Q R S T U V Y Ñ a c e f g i j m n o p q r s t u v y ' ñ
+  base: A C E F G I J M N O P Q R S T U V Y Ñ a c e f g i j m n o p q r s t u v y
+    ' ñ
   marks: ◌̃
   script: Latin
   status: primary
-source:
+sources:
 - Omniglot
-- Wikipedia
+- Caquinte language. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Caquinte_language?oldid=1229033900
 speakers: 500
 speakers_date: 2012
 validity: preliminary

@@ -5,14 +5,16 @@ includes:
 name: Norwegian
 orthographies:
 - autonym: Norsk
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á À Ä Å Æ É È Ê Ò Ó Ô Ö Ø Ü a b c d e f g h i j k l m n o p q r s t u v w x y z á à ä å æ é è ê ò ó ô ö ø ü
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á À Ä Å Æ É È Ê Ò Ó Ô
+    Ö Ø Ü a b c d e f g h i j k l m n o p q r s t u v w x y z á à ä å æ é è ê ò ó
+    ô ö ø ü
   marks: ◌̀ ◌́ ◌̂ ◌̈ ◌̊
   script: Latin
   status: primary
 preferred_as_individual: true
-source:
+sources:
 - Omniglot
-- Wikipedia
+- Norwegian language. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Norwegian_language?oldid=1237176078
 - CLDR
 speakers: 4320000
 speakers_date: 2012

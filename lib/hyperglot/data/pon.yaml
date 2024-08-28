@@ -4,9 +4,9 @@ orthographies:
   base: A D E H I K L M N O P R S T U W a d e h i k l m n o p r s t u w
   script: Latin
   status: primary
-source:
+sources:
 - Omniglot
-- Wikipedia
+- Pohnpeian language. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Pohnpeian_language?oldid=1222790963
 speakers: 29000
 speakers_date: 2001
 validity: preliminary
