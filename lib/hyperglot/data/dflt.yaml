@@ -1,0 +1,14 @@
+name: Default
+orthographies:
+- autonym: Default
+  base:
+  marks:
+  punctuation: |
+    . , : ; ! ? - ‐ – — _ ~ ( ) [ ] { } / | ¦ \ ' " ^ ‘ “ ’ ” ‹ › « » § • ¶ # & % ‰ @ © ® ™
+  numerals: 0 1 2 3 4 5 6 7 8 9 + − ± ÷ × = ≈ ≠
+  currency: ¤
+  script: Latin
+  status: primary
+source:
+status: living
+validity: draft
