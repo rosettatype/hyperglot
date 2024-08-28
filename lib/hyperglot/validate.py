@@ -62,9 +62,9 @@ def check_types(Langs:Languages) -> None:
             if not check_is_yaml_list(lang["includes"]):
                 log.error("'%s' has invalid list 'includes'" % iso)
 
-        if "source" in lang:
-            if not check_is_yaml_list(lang["source"]):
-                log.error("'%s' has invalid list 'source'" % iso)
+        if "sources" in lang:
+            if not check_is_yaml_list(lang["sourcse"]):
+                log.error("'%s' has invalid list 'sources'" % iso)
 
         if "orthographies" in lang:
             if not check_is_yaml_list(lang["orthographies"]):
