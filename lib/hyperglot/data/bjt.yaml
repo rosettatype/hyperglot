@@ -1,3 +1,4 @@
+literacy_rate: 1 %
 name: Balante-Ganja
 orthographies:
 - autonym: balant
@@ -13,9 +14,7 @@ orthographies:
 sources:
 - 'République du Sénégal, Décret no 2005-979 relatif à l’orthographe et la séparation
   des mots en balant, 21 octobre 2005  # REVIEW'
-- Balanta languages. (2024, March 28). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Balanta_languages&oldid=1215930573
 speakers: 86000
 speakers_date: 2006
-literacy_rate: 1 %
 status: living
 validity: preliminary
