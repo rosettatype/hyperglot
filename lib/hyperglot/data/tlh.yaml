@@ -11,7 +11,7 @@ orthographies:
   status: primary
 sources:
 - Omniglot
-- 'Wikipedia (https://en.wikipedia.org/wiki/Klingon_language#Writing_systems)  # REVIEW'
+- https://en.wikipedia.org/w/index.php?title=Klingon_language&oldid=1242111349#Writing_systems
 - 'https://klingon.wiki/En/Alphabet  # REVIEW'
 speakers: 0
 status: constructed

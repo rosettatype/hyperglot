@@ -6,7 +6,7 @@ orthographies:
   script: Latin
   status: primary
 sources:
-- 'Wikipedia (https://en.wikipedia.org/wiki/Toki_Pona)  # REVIEW'
+- https://en.wikipedia.org/w/index.php?title=Toki_Pona&oldid=1241742685
 speakers: 0
 status: constructed
 validity: draft

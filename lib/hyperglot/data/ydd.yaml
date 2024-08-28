@@ -6,7 +6,7 @@ orthographies:
   script: Hebrew
   status: primary
 sources:
-- 'https://en.wikipedia.org/wiki/Yiddish_orthography  # REVIEW'
+- https://en.wikipedia.org/w/index.php?title=Yiddish_orthography&oldid=1233348492
 - Omniglot
 speakers: 1500000
 status: living
