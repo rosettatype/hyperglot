@@ -74,7 +74,7 @@ def save_yaml(data, path, allow_unicode=True, default_flow_style=False):
     Save data to YAML file.
     """
 
-    # load data
+    # save data
     with open(path, "w", encoding="utf-8") as f:
         try:
             yaml.safe_dump(data, f, allow_unicode=allow_unicode,
