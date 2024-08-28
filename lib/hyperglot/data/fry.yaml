@@ -1,14 +1,16 @@
 name: Western Frisian
 orthographies:
 - autonym: Frysk
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Â Ä É Ê Ë Ï Ô Ö Ú Û Ü a b c d e f g h i j k l m n o p q r s t u v w x y z â ä é ê ë ï ô ö ú û ü
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Â Ä É Ê Ë Ï Ô Ö Ú Û Ü
+    a b c d e f g h i j k l m n o p q r s t u v w x y z â ä é ê ë ï ô ö ú û ü
   marks: ◌́ ◌̂ ◌̈
   script: Latin
   status: primary
-source:
+sources:
 - Omniglot
-- Wikipedia
-- Alvestrand
+- Western Frisian language. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/wiki/West_Frisian_language?oldid=1239491675
+- Alvestrand, Harald. (1995) *Characters and character sets for various languages.*
+  Retrieved on September 6, 2021 from https://www.alvestrand.no/ietf/lang-chars.txt
 speakers: 470000
 speakers_date: 2001
 status: living

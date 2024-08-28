@@ -1,13 +1,15 @@
 name: Esperanto
 orthographies:
 - autonym: Esperanto
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ĉ Ĝ Ĥ Ĵ Ŝ Ŭ a b c d e f g h i j k l m n o p q r s t u v w x y z ĉ ĝ ĥ ĵ ŝ ŭ
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ĉ Ĝ Ĥ Ĵ Ŝ Ŭ a b c d e
+    f g h i j k l m n o p q r s t u v w x y z ĉ ĝ ĥ ĵ ŝ ŭ
   marks: ◌̂ ◌̆
   script: Latin
   status: primary
-source:
+sources:
 - Omniglot
-- Alvestrand
+- Alvestrand, Harald. (1995) *Characters and character sets for various languages.*
+  Retrieved on September 6, 2021 from https://www.alvestrand.no/ietf/lang-chars.txt
 speakers: 1000
 status: constructed
 validity: verified

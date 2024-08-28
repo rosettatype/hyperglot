@@ -1,13 +1,14 @@
 name: Chiltepec Chinantec
 note: The speaker count is uncertain.
 orthographies:
-- base: A B C D E F G H I J K L M N O P R S T U Ë Ø a b c d e f g h i j k l m n o p r s t u ë ø
+- base: A B C D E F G H I J K L M N O P R S T U Ë Ø a b c d e f g h i j k l m n o
+    p r s t u ë ø
   marks: ◌̈
   script: Latin
   status: primary
-source:
+sources:
 - Omniglot
-- Wikipedia
+- Chiltepec Chinantec language. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Chiltepec-Tlacoatzintepec_Chinantec?oldid=1128725661
 speakers: 1800
 speakers_date: 2000
 validity: preliminary

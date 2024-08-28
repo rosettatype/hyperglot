@@ -2,13 +2,14 @@ name: Potawatomi
 note: The language is currently being revived.
 orthographies:
 - autonym: Bodéwadmimwen
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z È É Ê Ë a b c d e f g h i j k l m n o p q r s t u v w x y z è é ê ë
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z È É Ê Ë a b c d e f g
+    h i j k l m n o p q r s t u v w x y z è é ê ë
   marks: ◌̀ ◌́ ◌̂ ◌̈
   script: Latin
   status: primary
-source:
+sources:
 - Omniglot
-- Wikipedia
+- Potawatomi language. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Potawatomi_language?oldid=1230685908
 speakers: 0
 status: living
 validity: verified

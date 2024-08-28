@@ -58,14 +58,15 @@ includes:
 - zty
 name: Zapotec
 orthographies:
-- base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á À È É Ë Ì Ü Ñ S̨ Ž Z̨ a b c d e f g h i j k l m n o p q r s t u v w x y z á à è é ë ì ü ñ s̨ ž z̨
+- base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á À È É Ë Ì Ü Ñ S̨ Ž Z̨
+    a b c d e f g h i j k l m n o p q r s t u v w x y z á à è é ë ì ü ñ s̨ ž z̨
   marks: ◌̀ ◌́ ◌̃ ◌̈ ◌̌ ◌̨
   script: Latin
   status: primary
 preferred_as_individual: true
-source:
+sources:
 - Omniglot
-- Wikipedia
+- Zapotec language. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Zapotec_languages?oldid=1242010214
 speakers: 450000
 speakers_date: 2010
 status: living

@@ -1,9 +1,12 @@
 name: Eastern Maninkakan
 orthographies:
 - autonym: Maninkakan
-  base: A B C D E Ɛ F G H I J K L M N Ɲ Ŋ O Ɔ P R S T U V W Y Z a b c d e ɛ f g h i j k l m n ɲ ŋ o ɔ p r s t u v w y z
+  base: A B C D E Ɛ F G H I J K L M N Ɲ Ŋ O Ɔ P R S T U V W Y Z a b c d e ɛ f g h
+    i j k l m n ɲ ŋ o ɔ p r s t u v w y z
   design_requirements:
-  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in African languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase
+    ŋ reaching cap height favoured in African languages, and the other resembling
+    N with J as the second stem favoured in Sami languages.
   script: Latin
   status: primary
 - autonym: ߡߊߣߌ߲ߞߊߞߊ߲
@@ -12,9 +15,9 @@ orthographies:
   numerals: ߀ ߁ ߂ ߃ ߄ ߅ ߆ ߇ ߈ ߉
   script: N'Ko
   status: secondary
-source:
+sources:
 - Omniglot
-- Wikipedia
+- Eastern Maninkakan language. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Maninka_language?oldid=1233503299
 speakers: 5000000
 speakers_date: 1999-2012
 validity: preliminary

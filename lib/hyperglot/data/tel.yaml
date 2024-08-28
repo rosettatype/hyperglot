@@ -2,16 +2,18 @@ name: Telugu
 note: There are approximately 11000000 L2 speakers.
 orthographies:
 - autonym: తెలుగు
-  base: అ భ ఇ ఉ ఋ ఌ ఎ ఐ ఒ ఔ ఆ ఈ ఊ ౠ ౡ ఏ ఓ క ఖ గ ఘ ఙ చ ఛ జ ఝ ఞ ట ఠ డ ఢ ణ త థ ద ధ న ప ఫ బ మ య ర ల వ ళ శ ష స హ ఱ
+  base: అ భ ఇ ఉ ఋ ఌ ఎ ఐ ఒ ఔ ఆ ఈ ఊ ౠ ౡ ఏ ఓ క ఖ గ ఘ ఙ చ ఛ జ ఝ ఞ ట ఠ డ ఢ ణ త థ ద ధ న
+    ప ఫ బ మ య ర ల వ ళ శ ష స హ ఱ
   design_requirements:
-  - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
+  - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are
+    required for proper representation of the language.
   marks: ◌ఁ ◌ం ◌ః ◌ా ◌ి ◌ీ ◌ు ◌ూ ◌ృ ◌ౄ ◌ె ◌ే ◌ొ ◌ో ◌ౌ ◌్ ◌ౖ ◌ౢ ◌ౣ
   numerals: ౦ ౧ ౨ ౩ ౪ ౫ ౬ ౭ ౮ ౯ ౸ ౹ ౺ ౻ ౼ ౽ ౾
   script: Telugu
   status: primary
-source:
+sources:
 - Omniglot
-- Wikipedia
+- Telugu language. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Telugu_language?oldid=1242406129
 - CLDR
 speakers: 82000000
 speakers_date: 2011

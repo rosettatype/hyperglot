@@ -1,12 +1,13 @@
 name: Nigerian Fulfulde
 note: Used in Nigeria.
 orthographies:
-- base: A B C D E F G H I J K L M N O P R S T U W Y X Ɓ Ɗ a b c d e f g h i j k l m n o p r s t u w y x ɓ ɗ
+- base: A B C D E F G H I J K L M N O P R S T U W Y X Ɓ Ɗ a b c d e f g h i j k l
+    m n o p r s t u w y x ɓ ɗ
   script: Latin
   status: primary
-source:
+sources:
 - Omniglot
-- Wikipedia
+- Nigerian Fulfulde language. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Fula_language?oldid=1241563754
 - CLDR
 status: living
 validity: verified

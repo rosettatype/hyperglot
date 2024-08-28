@@ -2,12 +2,13 @@ name: Eastern Arrernte
 note: The number of speakers relates to all Arrernte languages.
 orthographies:
 - autonym: Arrernte
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k
+    l m n o p q r s t u v w x y z
   script: Latin
   status: primary
-source:
+sources:
 - Omniglot
-- Wikipedia
+- Eastern Arrernte language. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Arrernte_language?oldid=1230692532
 speakers: 4537
 speakers_date: 2016
 status: living

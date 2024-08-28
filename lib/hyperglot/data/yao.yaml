@@ -1,12 +1,13 @@
 name: Yao
 orthographies:
 - autonym: chiYao
-  base: A B C D E G H I J K L M N O P S T U W Ŵ Y a b c d e g h i j k l m n o p s t u w ŵ y
+  base: A B C D E G H I J K L M N O P S T U W Ŵ Y a b c d e g h i j k l m n o p s
+    t u w ŵ y
   marks: ◌̂
   script: Latin
   status: primary
-source:
+sources:
 - Omniglot
-- Wikipedia
+- Yao language. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Yao_language?oldid=1225554322
 speakers: 3100000
 validity: preliminary

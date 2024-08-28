@@ -10,9 +10,9 @@ orthographies:
   script: Devanagari
   status: primary
 preferred_name: Maharashtrian Konkani
-source:
-- Wikipedia
-- Unicode
+sources:
+- Konkani (individual language) language. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Konkani_language?oldid=1239940419
+- 'Unicode  # REVIEW'
 speakers: 2400000
 speakers_date: 2011
 validity: preliminary

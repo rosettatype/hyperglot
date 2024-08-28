@@ -1,11 +1,12 @@
 name: Nzima
 orthographies:
-- base: A B D E Ɛ F G H I K L M N O Ɔ P R S T U V W Y Z a b d e ɛ f g h i k l m n o ɔ p r s t u v w y z
+- base: A B D E Ɛ F G H I K L M N O Ɔ P R S T U V W Y Z a b d e ɛ f g h i k l m n
+    o ɔ p r s t u v w y z
   script: Latin
   status: primary
-source:
+sources:
 - Omniglot
-- Wikipedia
+- Nzima language. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Nzema_language?oldid=1187599359
 speakers: 412000
 speakers_date: 2013
 validity: preliminary

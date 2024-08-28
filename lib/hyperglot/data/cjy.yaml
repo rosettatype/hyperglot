@@ -4,8 +4,8 @@ orthographies:
   base: <cmn>
   script: Chinese
   status: primary
-source:
-- Wikipedia
+sources:
+- Jinyu Chinese language. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Jin_Chinese?oldid=1238842753
 speakers: 63050000
 speakers_date: 2012
 validity: draft

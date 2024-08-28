@@ -1,13 +1,14 @@
 name: Kven Finnish
 orthographies:
 - autonym: Kvääni
-  base: A B C D Ð E F G H I J K L M N O P Q R S Š T U V W X Y Z Ä Ö a b c d ð e f g h i j k l m n o p q r s š t u v w x y z ä ö
+  base: A B C D Ð E F G H I J K L M N O P Q R S Š T U V W X Y Z Ä Ö a b c d ð e f
+    g h i j k l m n o p q r s š t u v w x y z ä ö
   marks: ◌̈ ◌̌
   script: Latin
   status: primary
-source:
+sources:
 - Omniglot
-- Wikipedia
+- Kven Finnish language. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Kven_language?oldid=1237298466
 speakers: 8000
 speakers_date: 2005
 validity: preliminary

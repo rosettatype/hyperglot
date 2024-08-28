@@ -13,19 +13,21 @@ includes:
 name: Malagasy
 orthographies:
 - autonym: Malagasy
-  base: A B D E F G H I J K L M N O P R S T V Y Z À Â È É Ê Ë Ì Î Ï Ñ Ô a b d e f g h i j k l m n o p r s t v y z à â è é ê ë ì î ï ñ ô
+  base: A B D E F G H I J K L M N O P R S T V Y Z À Â È É Ê Ë Ì Î Ï Ñ Ô a b d e f
+    g h i j k l m n o p r s t v y z à â è é ê ë ì î ï ñ ô
   marks: ◌̀ ◌́ ◌̂ ◌̃ ◌̈
   script: Latin
   status: primary
 - autonym: Malagasy
-  base: A B D E F G H I J K L M N O P R S T V Y Z À Â È É Ê Ë Ì Î Ï Ô a b d e f g h i j k l m n o p r s t v y z à â è é ê ë ì î ï ô
+  base: A B D E F G H I J K L M N O P R S T V Y Z À Â È É Ê Ë Ì Î Ï Ô a b d e f g
+    h i j k l m n o p r s t v y z à â è é ê ë ì î ï ô
   marks: ◌̀ ◌́ ◌̂ ◌̈
   script: Latin
   status: secondary
 preferred_as_individual: true
-source:
+sources:
 - Omniglot
-- Wikipedia
+- Malagasy language. (2024, August 25). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Malagasy_language&oldid=1242217793
 - CLDR
 speakers: 25000000
 speakers_date: 2015

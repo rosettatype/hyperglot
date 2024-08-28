@@ -10,9 +10,9 @@ orthographies:
   punctuation: <arb>
   script: Arabic
   status: primary
-source:
-- Wikipedia
-- Textbook
+sources:
+- Sanaani Arabic language. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/wiki/San%CA%BDani_Arabic?oldid=1214789220
+- 'Textbook  # REVIEW'
 speakers: 11100000
 speakers_date: 2015
 status: living

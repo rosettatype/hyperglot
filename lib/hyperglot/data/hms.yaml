@@ -1,12 +1,13 @@
 name: Southern Qiandong Miao
 orthographies:
 - autonym: hveb Hmub
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z -
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k
+    l m n o p q r s t u v w x y z -
   script: Latin
   status: primary
-source:
+sources:
 - Omniglot
-- Wikipedia
+- Southern Qiandong Miao language. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Hmu_language?oldid=1229175166
 speakers: 2100000
 speakers_date: 1995
 validity: preliminary

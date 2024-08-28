@@ -1,14 +1,15 @@
 name: Uab Meto
 orthographies:
 - autonym: Uab Metô
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á É Ê Í Ó Ú Û a b c d e f g h i j k l m n o p q r s t u v w x y z á é ê í ó ú û
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á É Ê Í Ó Ú Û a b c d
+    e f g h i j k l m n o p q r s t u v w x y z á é ê í ó ú û
   marks: ◌́ ◌̂
   script: Latin
   status: primary
-source:
+sources:
 - Omniglot
-- Wikipedia
-- Textbook
+- Uab Meto language. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Uab_Meto_language?oldid=1174832557
+- 'Textbook  # REVIEW'
 speakers: 800000
 speakers_date: 2009-2011
 status: living

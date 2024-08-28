@@ -2,12 +2,13 @@ name: Luo (Kenya and Tanzania)
 note: Alternative speaker count of 8000000 remains unconfirmed.
 orthographies:
 - autonym: Dholuo
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k
+    l m n o p q r s t u v w x y z
   script: Latin
   status: primary
-source:
+sources:
 - Omniglot
-- Wikipedia
+- Luo (Kenya and Tanzania) language. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Luo_people?oldid=1233674194
 - CLDR
 speakers: 4200000
 speakers_date: 2009

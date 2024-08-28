@@ -1,13 +1,14 @@
 name: Tokelau
 orthographies:
 - autonym: Tokelau
-  base: A E I O U F G K L M N P H T V Ā Ē Ī Ō Ū a e i o u f g k l m n p h t v ā ē ī ō ū
+  base: A E I O U F G K L M N P H T V Ā Ē Ī Ō Ū a e i o u f g k l m n p h t v ā ē
+    ī ō ū
   marks: ◌̄
   script: Latin
   status: primary
-source:
+sources:
 - Omniglot
-- Wikipedia
+- Tokelau language. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Tokelauan_language?oldid=1225162511
 speakers: 3517
 speakers_date: 1987-2006
 status: living

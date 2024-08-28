@@ -6,14 +6,15 @@ orthographies:
   base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا ة ء
   currency: $ ¢ £ ﷼
   design_requirements:
-  - Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
+  - Positional forms of the characters (initial, medial, and final forms) and some
+    ligatures are required for proper representation of the language.
   marks: ◌َ ◌ُ ◌ِ ◌ْ ◌ٰ
   numerals: <default> <default Latin>
   punctuation: <eng> ، ؛ ؞ ؟
   script: Arabic
   status: primary
-source:
-- Wikipedia
+sources:
+- Standard Arabic language. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Modern_Standard_Arabic?oldid=1240502833
 - Omniglot
 speakers: 270000000
 status: living

@@ -2,9 +2,12 @@ name: Dyula
 note: There are approximately 10300000 L2 speakers.
 orthographies:
 - autonym: Julakan
-  base: A B C D E Ɛ F G H I J K L M N Ɲ Ŋ O Ɔ P R S T U V W Y Z a b c d e ɛ f g h i j k l m n ɲ ŋ o ɔ p r s t u v w y z
+  base: A B C D E Ɛ F G H I J K L M N Ɲ Ŋ O Ɔ P R S T U V W Y Z a b c d e ɛ f g h
+    i j k l m n ɲ ŋ o ɔ p r s t u v w y z
   design_requirements:
-  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in African languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase
+    ŋ reaching cap height favoured in African languages, and the other resembling
+    N with J as the second stem favoured in Sami languages.
   script: Latin
   status: primary
 - autonym: ߖߎ߬ߟߊ߬ߞߊ߲
@@ -14,9 +17,9 @@ orthographies:
   numerals: ߀ ߁ ߂ ߃ ߄ ߅ ߆ ߇ ߈ ߉
   script: N'Ko
   status: secondary
-source:
+sources:
 - Omniglot
-- Wikipedia
+- Dyula language. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Dyula_language?oldid=1216286196
 speakers: 6852620
 speakers_date: 2019
 validity: preliminary

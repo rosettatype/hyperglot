@@ -1,11 +1,12 @@
 name: Kimbundu
 orthographies:
-- base: A B D E F H I J K L M N O P S T U V X Z a b d e f h i j k l m n o p s t u v x z
+- base: A B D E F H I J K L M N O P S T U V X Z a b d e f h i j k l m n o p s t u
+    v x z
   script: Latin
   status: primary
-source:
+sources:
 - Omniglot
-- Wikipedia
+- Kimbundu language. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Kimbundu?oldid=1239419194
 speakers: 2100000
 speakers_date: 2014
 validity: preliminary

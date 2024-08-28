@@ -1,12 +1,13 @@
 name: Twi
 orthographies:
 - autonym: Twi
-  base: A B D E F G H I K L M N O P R S T U W Y Ɛ Ɔ a b d e f g h i k l m n o p r s t u w y ɛ ɔ
+  base: A B D E F G H I K L M N O P R S T U W Y Ɛ Ɔ a b d e f g h i k l m n o p r
+    s t u w y ɛ ɔ
   script: Latin
   status: primary
-source:
+sources:
 - Omniglot
-- Wikipedia
+- Twi language. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Twi?oldid=1239596743
 speakers: 9000000
 speakers_date: 2015
 status: living

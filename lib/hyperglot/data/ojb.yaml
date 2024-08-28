@@ -1,13 +1,14 @@
 name: Northwestern Ojibwa
 orthographies:
 - autonym: Nakawēmowin
-  base: A B C D E G H I J K M N O P S T W Y Z a b c d e g h i j k m n o p s t w y z '
+  base: A B C D E G H I J K M N O P S T W Y Z a b c d e g h i j k m n o p s t w y
+    z '
   marks: ◌̄
   script: Latin
   status: primary
-source:
+sources:
 - Omniglot
-- Wikipedia
+- Northwestern Ojibwa language. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Northwestern_Ojibwa?oldid=1168134550
 speakers: 20000
 speakers_date: 2000
 validity: draft

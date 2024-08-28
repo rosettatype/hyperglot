@@ -1,12 +1,13 @@
 name: Cebuano
 orthographies:
 - autonym: Binisaya
-  base: A B D E G H I K L M N O P R S T U W Y a b d e g h i k l m n o p r s t u w y
+  base: A B D E G H I K L M N O P R S T U W Y a b d e g h i k l m n o p r s t u w
+    y
   script: Latin
   status: primary
-source:
+sources:
 - Omniglot
-- Wikipedia
+- Cebuano language. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Cebuano_language?oldid=1241967432
 - CLDR
 speakers: 16000000
 speakers_date: 2005

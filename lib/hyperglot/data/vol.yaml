@@ -1,13 +1,14 @@
 name: Volapük
 orthographies:
 - autonym: Volapük
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Ö Ü a b c d e f g h i j k l m n o p q r s t u v w x y z ä ö ü
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Ö Ü a b c d e f g h
+    i j k l m n o p q r s t u v w x y z ä ö ü
   marks: ◌̈
   script: Latin
   status: primary
-source:
+sources:
 - Omniglot
-- Wikipedia
+- Volapük language. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Volap%C3%BCk?oldid=1242147886
 speakers: 20
 speakers_date: 2000
 status: constructed

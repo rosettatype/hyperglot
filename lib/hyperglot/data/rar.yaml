@@ -2,15 +2,16 @@ name: Rarotongan
 orthographies:
 - autonym: Māori Kūki 'Āirani
   auxiliary: Á É Í Ó Ú á é í ó ú
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ā Ē Ī Ō Ū a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ī ō ū
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ā Ē Ī Ō Ū a b c d e f
+    g h i j k l m n o p q r s t u v w x y z ā ē ī ō ū
   marks: ◌̄ ◌́
   script: Latin
   status: primary
 preferred_name: Cook Islands Māori
-source:
+sources:
 - Omniglot
-- Wikipedia
+- Cook Islands Māori. (2024, April 16). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Cook_Islands_Māori&oldid=1219249296
 speakers: 21345
-speakers_date: 2011-2013
+speakers_date: 2011–2013
 status: living
 validity: verified

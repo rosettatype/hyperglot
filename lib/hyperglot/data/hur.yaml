@@ -6,9 +6,10 @@ orthographies:
   marks: ◌̓ ◌̌
   script: Latin
   status: primary
-source:
-- Musqueam First Nation and MOA, hən̓q̓əmin̓əm̓ Alphabet, https://www2.moa.ubc.ca/musqueamteachingkit/alphabet.php
-- Wikipedia
+sources:
+- 'Musqueam First Nation and MOA, hən̓q̓əmin̓əm̓ Alphabet, https://www2.moa.ubc.ca/musqueamteachingkit/alphabet.php  #
+  REVIEW'
+- Halkomelem language. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Halkomelem?oldid=1234975094
 speakers: 260
 speakers_date: 2014
 status: living

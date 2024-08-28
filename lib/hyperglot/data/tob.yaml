@@ -1,11 +1,12 @@
 name: Toba
 orthographies:
 - autonym: Toba
-  base: A B C D E G H I J L M N O Ñ T U V X Y Ỹ a b c d e g h i j l m n o ñ t u v x y ỹ '
+  base: A B C D E G H I J L M N O Ñ T U V X Y Ỹ a b c d e g h i j l m n o ñ t u v
+    x y ỹ '
   marks: ◌̃
   script: Latin
   status: primary
-source:
+sources:
 - Omniglot
-- Wikipedia
+- Toba language. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Toba_Batak_language?oldid=1188490258
 validity: preliminary

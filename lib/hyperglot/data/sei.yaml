@@ -1,14 +1,15 @@
 name: Seri
 orthographies:
 - autonym: Cmiique Iitom
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ö a b c d e f g h i j k l m n o p q r s t u v w x y z ö
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ö a b c d e f g h i j
+    k l m n o p q r s t u v w x y z ö
   marks: ◌̈
   script: Latin
   status: primary
-source:
+sources:
 - Omniglot
-- Wikipedia
-speakers: 764
-speakers_date: 2010
+- Seri language. (2024, August 25). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Seri_language&oldid=1242265078
+speakers: 720
+speakers_date: 2020
 status: living
 validity: preliminary

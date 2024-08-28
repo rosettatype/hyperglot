@@ -7,14 +7,15 @@ includes:
 name: Kongo
 note: The speaker count is for all included languages.
 orthographies:
-- base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
+- base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k
+    l m n o p q r s t u v w x y z
   script: Latin
   status: primary
 preferred_as_individual: true
-source:
-- Wikipedia
+sources:
+- Kongo language. (2024, August 26). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Kongo_language&oldid=1242300483
 - Omniglot
-speakers: 6500000
-speakers_date: 1982-2012
+speakers: 6000000
+speakers_date: 1982-2021
 status: living
 validity: preliminary

@@ -2,15 +2,18 @@ name: Bafia
 orthographies:
 - autonym: Rikpa
   auxiliary: Q X q x
-  base: A B C D E F G H I J K L M N O P R S T U V W Y Z Á É Í Ó Ú Ŋ Ǝ Ɔ Ɛ a b c d e f g h i j k l m n o p r s t u v w y z á é í ó ú ŋ ǝ ɔ ɛ
+  base: A B C D E F G H I J K L M N O P R S T U V W Y Z Á É Í Ó Ú Ŋ Ǝ Ɔ Ɛ a b c d
+    e f g h i j k l m n o p r s t u v w y z á é í ó ú ŋ ǝ ɔ ɛ
   design_requirements:
-  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in African languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase
+    ŋ reaching cap height favoured in African languages, and the other resembling
+    N with J as the second stem favoured in Sami languages.
   marks: ◌́
   script: Latin
   status: primary
-source:
+sources:
 - CLDR
-- Wikipedia
+- Bafia language. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Bafia_language_(Cameroon)?oldid=1210579987
 speakers: 60000
 speakers_date: 1991
 status: living

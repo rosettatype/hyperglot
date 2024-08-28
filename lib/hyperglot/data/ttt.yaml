@@ -1,6 +1,7 @@
 name: Muslim Tat
 orthographies:
-- base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ӏ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
+- base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ӏ а б в
+    г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
   marks: ◌̆ ◌̈
   note: Used in Russia.
   script: Cyrillic
@@ -12,9 +13,9 @@ orthographies:
   note: Used in Azerbaijan.
   script: Latin
   status: primary
-source:
+sources:
 - Omniglot
-- Wikipedia
+- Muslim Tat language. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Tat_language_(Caucasus)?oldid=1222761735
 speakers: 28000
 status: living
 validity: preliminary

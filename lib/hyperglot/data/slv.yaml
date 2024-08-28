@@ -1,13 +1,14 @@
 name: Slovenian
 orthographies:
 - autonym: Slovenščina
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Ö Ü Ć Č Đ Š Ž a b c d e f g h i j k l m n o p q r s t u v w x y z ä ö ü ć č đ š ž
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Ö Ü Ć Č Đ Š Ž a b c
+    d e f g h i j k l m n o p q r s t u v w x y z ä ö ü ć č đ š ž
   marks: ◌́ ◌̈ ◌̌
   script: Latin
   status: primary
-source:
+sources:
 - Omniglot
-- Wikipedia
+- Slovenian language. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Slovene_language?oldid=1241530948
 - CLDR
 speakers: 2500000
 speakers_date: 2010
