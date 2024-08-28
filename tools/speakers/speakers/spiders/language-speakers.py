@@ -173,7 +173,7 @@ class LanguageSpider(scrapy.Spider):
                 "speakers_raw": speakers_raw,
                 "iso_639_1": iso_639_1,
                 "iso_639_2": iso_639_2,
-                "source": response.request.url
+                "sources": response.request.url
             }
 
     def closed(self, reason):
