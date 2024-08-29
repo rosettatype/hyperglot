@@ -9,7 +9,7 @@ orthographies:
     required for proper representation of the language.
   marks: ◌ં ◌ઃ ◌ા ◌િ ◌ી ◌ુ ◌ૂ ◌ૃ ◌ે ◌ૈ ◌ો ◌ૌ ◌્
   numerals: ૦ ૧ ૨ ૩ ૪ ૫ ૬ ૭ ૮ ૯ <default Latin>
-  punctuation: <default Devanagari> ૰
+  punctuation: । ॥ ࿕ ૰ <default Latin>
   currency: <default Devanagari> ૱
   script: Gujarati
   status: primary
