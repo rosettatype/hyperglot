@@ -9,8 +9,9 @@ orthographies:
   - Mark positioning and some character combinations (ligatures) have to be resolved
     to properly represent the language.
   marks: ◌̍ ◌̎ ◌ั ◌ิ ◌ุ ◌ู ◌็ ◌ํ ◌ี ◌ึ ◌ื ◌ฺ ◌่ ◌้ ◌๊ ◌๋ ◌์ ◌๎
-  numerals: ๐ ๑ ๒ ๓ ๔ ๕ ๖ ๗ ๘ ๙ 0 1 2 3 4 5 6 7 8 9
-  punctuation: ๏ ๛
+  numerals: ๐ ๑ ๒ ๓ ๔ ๕ ๖ ๗ ๘ ๙ <default Latin>
+  punctuation: ๚ ๏ ๛ <default Latin>
+  currency: <default Latin> ฿
   script: Thai
   status: primary
 sources:
