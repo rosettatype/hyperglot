@@ -1,15 +1,15 @@
 name: Eastern Tamang
 orthographies:
-- autonym: तामाङ‎
+- autonym: तामाङ
   auxiliary: <hin>
   base: <hin>
   design_requirements: <hin>
-  marks: <hin>
-  numerals: <hin>
-  punctuation: <hin>
+  numerals: <default>
+  punctuation: <default>
+  currency: <default>
   script: Devanagari
   status: primary
-- autonym: རྟ་དམག‎
+- autonym: རྟ་དམག
   base: <bod>
   design_requirements: <bod>
   marks: <bod>

@@ -1,6 +1,7 @@
 name: Dogri (individual language)
 orthographies:
 - autonym: डोगरी
+  auxiliary: ꣻ
   base: अ आ इ ई उ ऊ ऋ ए ऐ ओ औ क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य
     र ल व श ष स ह ʼ ऽ ‌ ‍
   design_requirements:
