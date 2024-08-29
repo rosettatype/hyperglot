@@ -8,6 +8,7 @@ orthographies:
   punctuation: <default>
   currency: <default> $
   note: Post-1972 orthography (without diacritics) is used by Standard Malay and Indonesian.
+  numerals: <default>
   script: Latin
   status: primary
 - autonym: Malaysia

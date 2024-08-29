@@ -6,6 +6,7 @@ orthographies:
   marks: ◌̂ ◌̆ ◌̇ ◌̈ ◌̧
   note: Legacy implementations or sources may incorrectly list Ç, Ş, ç, ş as comma-accented
     glyphs.
+  numerals: <default>
   script: Latin
   status: primary
 sources:

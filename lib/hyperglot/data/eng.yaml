@@ -16,6 +16,7 @@ orthographies:
     j k l m n o p q r s t u v w x y z æ œ
   marks: ◌̀ ◌́ ◌̂ ◌̃ ◌̈ ◌̧
   note: Use of ſ declined after the 18th century.
+  numerals: <default>
   script: Latin
   status: historical
 sources:

@@ -5,6 +5,7 @@ orthographies:
   base: A B D E F G H I K M N O P R S T U W Y a b d e f g h i k m n o p r s t u w
     y Ñ ñ Ọ ọ
   marks: ◌̃ ◌̣
+  numerals: <default>
   script: Latin
   status: primary
 sources:

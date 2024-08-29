@@ -2,6 +2,7 @@ name: Rotokas
 orthographies:
 - autonym: Rotokas
   base: A E G I K O P R S T U V a e g i k o p r s t u v
+  numerals: <default>
   script: Latin
   status: primary
 sources:

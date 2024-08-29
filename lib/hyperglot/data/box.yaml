@@ -6,6 +6,7 @@ orthographies:
     ú ń à è ɛ̀ ì ò ɔ̀ ù Ã Ɛ̃ Ĩ Ɔ̃ Ũ ã ɛ̃ ĩ ɔ̃ ũ Ã̀ Ɛ̃̀ Ĩ̀ Ɔ̃̀ Ũ̀ ã̀ ɛ̃̀ ĩ̀ ɔ̃̀ ũ̀
     Ã́ Ɛ̃́ Ĩ́ Ɔ̃́ Ṹ ã́ ɛ̃́ ĩ́ ɔ̃́ ṹ
   marks: ◌̀ ◌́ ◌̃
+  numerals: <default>
   script: Latin
   status: primary
 sources:

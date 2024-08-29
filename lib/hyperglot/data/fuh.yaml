@@ -4,6 +4,7 @@ orthographies:
 - autonym: Fulfulde
   base: <fue>
   design_requirements: <fue>
+  numerals: <default>
   script: Latin
   status: primary
 sources:

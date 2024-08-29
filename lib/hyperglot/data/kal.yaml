@@ -7,12 +7,14 @@ orthographies:
     ø ú û ĸ ũ
   marks: ◌́ ◌̂ ◌̃ ◌̊ ◌̀
   note: Alphabet invented by Samuel Kleinschmidt. Used until 1973.
+  numerals: <default>
   script: Latin
   status: historical
 - autonym: Kalaallisut
   auxiliary: B C D H W X Y Z Å Æ Ø b c d h w x y z å æ ø
   base: A E F G I J K L M N O P Q R S T U V a e f g i j k l m n o p q r s t u v
   marks: ◌̊
+  numerals: <default>
   script: Latin
   status: primary
 sources:

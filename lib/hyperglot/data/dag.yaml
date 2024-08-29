@@ -9,6 +9,7 @@ orthographies:
     N with J as the second stem favoured in Sami languages.
   note: Ʒ is sometimes encountered written as reversed "Σ" without unicode encoding,
     see https://github.com/rosettatype/hyperglot/issues/138
+  numerals: <default>
   script: Latin
   status: primary
 sources:

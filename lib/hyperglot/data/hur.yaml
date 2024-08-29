@@ -4,6 +4,7 @@ orthographies:
   auxiliary: A C E H I K L M N P Q S T U W X Y Č Š Ə Θ Χ Ɬ Ꭓ ꭓ
   base: a c e h i k l m n p q s t u w x y č š ƛ ə ɬ ʔ ʷ θ χ ᶿ
   marks: ◌̓ ◌̌
+  numerals: <default>
   script: Latin
   status: primary
 sources:

@@ -4,6 +4,7 @@ orthographies:
   script: Coptic
   status: historical
 - base: <dgl>
+  numerals: <default>
   script: Latin
   status: primary
 sources:

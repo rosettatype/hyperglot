@@ -6,6 +6,7 @@ orthographies:
   marks: ◌̄ ◌̦ ◌̧ ◌̨
   note: Some spellings use a simplified variant Ḷ Ṃ Ṇ Ñ Ọ instead of the comman, cedilla,
     macron and ogonek combingin marks.
+  numerals: <default>
   script: Latin
   status: primary
 sources:

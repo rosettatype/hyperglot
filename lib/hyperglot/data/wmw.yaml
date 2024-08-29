@@ -2,6 +2,7 @@ name: Mwani
 orthographies:
 - autonym: Kimwani
   base: <swh>
+  numerals: <default>
   script: Latin
   status: primary
 sources:

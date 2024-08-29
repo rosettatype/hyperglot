@@ -80,6 +80,7 @@ orthographies:
   note: Hànyǔ Pīnyīn (Hànyǔ Pīnyīn (pinyin)) is the official romanization system for
     Standard Mandarin Chinese in mainland China, Taiwan (ROC), and Singapore.
   punctuation: . , — … · - '
+  numerals: <default>
   script: Latin
   status: transliteration
 sources:

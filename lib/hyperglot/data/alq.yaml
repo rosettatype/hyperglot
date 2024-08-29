@@ -6,6 +6,7 @@ orthographies:
     z À È Ì Ò à è ì ò
   marks: ◌̀
   note: 8 is used instead of ȣ in practice
+  numerals: <default>
   script: Latin
   status: primary
 sources:

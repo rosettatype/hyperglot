@@ -10,6 +10,7 @@ orthographies:
     follow ‹í›. Font developers provide automated substitutions in their fonts to
     make such character recomposition work.
   marks: ◌̀ ◌́ ◌̂ ◌̈
+  numerals: <default>
   script: Latin
   status: primary
 sources:

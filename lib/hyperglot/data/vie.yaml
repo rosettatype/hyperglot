@@ -11,6 +11,7 @@ orthographies:
     marks (smaller, shallower).
   - There is no consensus regarding the position of acute and a above the circumflex.
   marks: ◌̀ ◌́ ◌̂ ◌̃ ◌̆ ◌̉ ◌̛ ◌̣
+  numerals: <default>
   script: Latin
   status: primary
 sources:

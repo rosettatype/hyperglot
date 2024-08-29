@@ -3,6 +3,7 @@ orthographies:
 - autonym: Paikoka
   base: A D E Ë I J K M N Ñ O P S T U W Y a d e ë i j k m n ñ o p s t u w y '
   marks: ◌̃ ◌̈ ◌̱
+  numerals: <default>
   script: Latin
   status: primary
 sources:

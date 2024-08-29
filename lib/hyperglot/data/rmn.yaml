@@ -6,6 +6,7 @@ orthographies:
     Y Z a ä á b c ć č d e ê é f ğ h i î í j k l m n o ö ó p ṗ q r ř s š t u v w x
     y z
   marks: ◌́ ◌̂ ◌̆ ◌̇ ◌̈ ◌̌
+  numerals: <default>
   script: Latin
   status: primary
 - base: А Б В Г Д Е Ё Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Ы Ь Э Ю Я а б в г д е

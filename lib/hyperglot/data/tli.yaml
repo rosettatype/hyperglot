@@ -36,6 +36,7 @@ orthographies:
     /iː/ <ee>, /eː/ <ei>, /aː/ <aa>, /uː/ <oo>. High tone is indicated by an acute
     diacritic as in /é/ <é> and /éː/ <éi> and low tone is not marked.
   preferred_as_group: true
+  numerals: <default>
   script: Latin
   status: primary
 - autonym: Łingít
@@ -69,6 +70,7 @@ orthographies:
     vs. /x/ <x>. Vowel length and tone are combined in a single diacritic, short /è/
     <e> vs. /é/ <é> and long /èː/ <è> vs. /éː/ <ê>.
   preferred_as_group: true
+  numerals: <default>
   script: Latin
   status: secondary
 sources:

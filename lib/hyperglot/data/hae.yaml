@@ -2,6 +2,7 @@ name: Eastern Oromo
 orthographies:
 - autonym: Harar
   base: <gax>
+  numerals: <default>
   script: Latin
   status: primary
 sources:

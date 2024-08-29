@@ -2,6 +2,7 @@ name: Alekano
 orthographies:
 - autonym: Gahuku
   base: A E G H I K L M N O P R S T U V Z a e g h i k l m n o p r s t u v z
+  numerals: <default>
   script: Latin
   status: primary
 sources:

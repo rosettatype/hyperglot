@@ -4,6 +4,7 @@ orthographies:
   base: A B C D E F I K L M N O P R S T U Y Ǫ Ʉ a b c d e f i k l m n o p r s t u
     y ǫ ʉ
   marks: ◌̨
+  numerals: <default>
   script: Latin
   status: primary
 sources:

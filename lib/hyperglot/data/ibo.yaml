@@ -5,6 +5,7 @@ orthographies:
     Ē Ī Ń Ō Ū Ị Ọ Ụ Ṅ Ẹ a b c d e f g h i j k l m n o p q r s t u v w x y z à á è
     é ì í ò ó ù ú ā ē ī ń ō ū ị ọ ụ ṅ ẹ
   marks: ◌̀ ◌́ ◌̄ ◌̇ ◌̣
+  numerals: <default>
   script: Latin
   status: primary
 sources:

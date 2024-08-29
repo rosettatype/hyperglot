@@ -3,6 +3,7 @@ note: The speaker count is an estimate based on the total for Oromo macrolanguag
 orthographies:
 - autonym: Afaan Oromoo
   base: <gax>
+  numerals: <default>
   script: Latin
   status: primary
 sources:

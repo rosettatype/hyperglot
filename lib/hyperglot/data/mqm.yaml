@@ -5,6 +5,7 @@ orthographies:
 - autonym: ʻEo ʻEnata
   base: <mrq>
   marks: <mrq>
+  numerals: <default>
   script: Latin
   status: primary
 sources:

@@ -5,6 +5,7 @@ orthographies:
     x y z ƚ Ǥ ǥ Ƚ ʼ Ḵ ḵ
   marks: ◌̓ ◌̱
   note: Uʼmista orthography
+  numerals: <default>
   script: Latin
   status: primary
 - autonym: liq̓ʷala
@@ -12,6 +13,7 @@ orthographies:
   base: a b c d e g h i k l m n o p q s t u w x y ł ƛ ǧ ə ʔ ʷ λ ᶻ
   marks: ◌̓ ◌̱ ◌̌
   note: Capitals may be used in non standard orthography.
+  numerals: <default>
   script: Latin
   status: primary
 sources:

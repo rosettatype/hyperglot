@@ -4,6 +4,7 @@ orthographies:
 - autonym: Basa Banjar
   auxiliary: <zsm>
   base: <zsm>
+  numerals: <default>
   script: Latin
   status: primary
 sources:

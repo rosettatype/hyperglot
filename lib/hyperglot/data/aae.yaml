@@ -3,6 +3,7 @@ orthographies:
 - autonym: Arbërisht
   base: <aln>
   marks: <aln>
+  numerals: <default>
   script: Latin
   status: primary
 sources:

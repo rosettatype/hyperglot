@@ -5,6 +5,7 @@ orthographies:
     l m n ɲ o ɔ p r s t u v w y z Ɛ̃ Ĩ Ũ ɛ̃ ĩ ũ Ɛ̃̀ Ĩ̀ Ũ̀ ɛ̃̀ ĩ̀ ũ̀ Ɛ̃́ Ĩ́ Ṹ ɛ̃́ ĩ́
     ṹ
   marks: ◌̃ ◌̀ ◌́
+  numerals: <default>
   script: Latin
   status: primary
 sources:

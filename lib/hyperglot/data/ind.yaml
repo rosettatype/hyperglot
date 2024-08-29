@@ -3,6 +3,7 @@ orthographies:
 - autonym: Indonesia
   auxiliary: <zsm>
   base: <zsm>
+  numerals: <default>
   script: Latin
   status: primary
 - autonym: Indonesia
@@ -11,6 +12,7 @@ orthographies:
   marks: ◌́ ◌̄ ◌̈
   note: The Van Ophuijsen Spelling System was used 1901–1947 for Malay and Indonesian
     in the Dutch East Indies (now Indonesia)
+  numerals: <default>
   script: Latin
   status: historical
 - autonym: Indonesia
@@ -19,6 +21,7 @@ orthographies:
   marks: ◌́ ◌̈
   note: The Republican Spelling System was used 1947–1972. The numeral two marked
     reduplicated words. Glottal stop was represented with the letter ‹k›.
+  numerals: <default>
   script: Latin
   status: historical
 sources:

@@ -3,6 +3,7 @@ orthographies:
 - autonym: Aymar
   base: <ayr>
   marks: <ayr>
+  numerals: <default>
   script: Latin
   status: primary
 sources:

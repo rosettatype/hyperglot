@@ -13,6 +13,7 @@ orthographies:
   base: <azj>
   marks: <azj>
   note: Used in Azerbaijan.
+  numerals: <default>
   script: Latin
   status: primary
 sources:

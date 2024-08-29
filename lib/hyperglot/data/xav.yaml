@@ -11,6 +11,7 @@ orthographies:
   marks: ◌́ ◌̂ ◌̃ ◌̱
   note: SIL orthography.
   preferred_as_group: true
+  numerals: <default>
   script: Latin
   status: primary
 - autonym: A’uwẽ (MSM)
@@ -19,6 +20,7 @@ orthographies:
   marks: ◌́ ◌̂ ◌̃ ◌̈
   note: MSM orthography.
   preferred_as_group: true
+  numerals: <default>
   script: Latin
   status: secondary
 - autonym: Etêñiritipa
@@ -27,6 +29,7 @@ orthographies:
   marks: ◌́ ◌̂ ◌̃ ◌̈
   note: Pimentel Barbosa (Etêñiritipa) orthography.
   preferred_as_group: true
+  numerals: <default>
   script: Latin
   status: local
 sources:

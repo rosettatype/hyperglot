@@ -3,6 +3,7 @@ orthographies:
 - autonym: Faka-Tonga
   base: A E F G H I K L M N O P S T U V a e f g h i k l m n o p s t u v '
   marks: ◌̄
+  numerals: <default>
   script: Latin
   status: primary
 sources:

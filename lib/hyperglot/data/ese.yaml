@@ -2,6 +2,7 @@ name: Ese Ejja
 orthographies:
 - base: B P D T K S J C M N Y W Ñ b p d t k s j c m n y w ñ
   marks: ◌̃
+  numerals: <default>
   script: Latin
   status: primary
 sources:

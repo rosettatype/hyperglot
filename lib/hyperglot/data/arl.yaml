@@ -2,6 +2,7 @@ name: Arabela
 orthographies:
 - autonym: Tapweyokwaka
   base: A E H I J K M N O P R S T U W Y Ɨ a e h i j k m n o p r s t u w y ɨ
+  numerals: <default>
   script: Latin
   status: primary
 sources:

@@ -2,6 +2,7 @@ name: Ashéninka Perené
 orthographies:
 - base: A C E I J K M N Ñ O P R S T W Y Z a c e i j k m n ñ o p r s t w y z
   marks: ◌̃
+  numerals: <default>
   script: Latin
   status: primary
 sources:

@@ -12,6 +12,7 @@ orthographies:
     from acute accents (used on vowels).
   marks: ◌̓ ◌̱ ◌́
   punctuation: . , - ? !
+  numerals: <default>
   script: Latin
   status: primary
 sources:

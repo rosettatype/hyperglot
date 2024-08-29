@@ -1,6 +1,7 @@
 name: Pintupi-Luritja
 orthographies:
 - base: A I K L M N P R T U W Y a i k l m n p r t u w y
+  numerals: <default>
   script: Latin
   status: primary
 sources:

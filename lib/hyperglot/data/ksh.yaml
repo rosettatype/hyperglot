@@ -7,6 +7,7 @@ orthographies:
   base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Å Æ Ë Ö Ü Ė Œ Ů a b
     c d e f g h i j k l m n o p q r s t u v w x y z ß ä å æ ë ö ü ė œ ů
   marks: ◌̇ ◌̈ ◌̊ ◌̀ ◌́ ◌̂ ◌̃ ◌̄ ◌̆ ◌̧
+  numerals: <default>
   script: Latin
   status: primary
 sources:

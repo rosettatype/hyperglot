@@ -4,6 +4,7 @@ orthographies:
   base: <din>
   design_requirements: <din>
   marks: <din>
+  numerals: <default>
   script: Latin
   status: primary
 sources:

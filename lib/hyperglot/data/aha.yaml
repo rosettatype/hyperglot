@@ -3,6 +3,7 @@ orthographies:
 - autonym: Ahanta
   base: A B D E F G H I K L M N O P R S T U V W Y Z a b d e f g h i k l m n o p r
     s t u v w y z Ɔ Ɛ Ɩ Ʋ ɔ ɛ ɩ ʋ
+  numerals: <default>
   script: Latin
   status: primary
 sources:

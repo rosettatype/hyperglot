@@ -8,6 +8,7 @@ orthographies:
   note: Includes capital Eszett as an auxiliary character for capitalization of ß.
   punctuation: <default> „ « » ‹ ›
   currency: <default secondary>
+  numerals: <default>
   script: Latin
   status: primary
 - autonym: Deutsch
@@ -18,6 +19,7 @@ orthographies:
   note: An orthography that was used prior to an introduction of the capital Eszett
     which was added to Unicode in 2008 and subsequently to the official German orthography
     in 2017.
+  numerals: <default>
   script: Latin
   status: historical
 - autonym: Deutsch
@@ -26,6 +28,7 @@ orthographies:
     i j k l m n o p q r s t u v w x y z ß ä ö ü
   marks: ◌̈ ◌̀ ◌́
   note: Use of ſ declined after the 18th century.
+  numerals: <default>
   script: Latin
   status: historical
 sources:

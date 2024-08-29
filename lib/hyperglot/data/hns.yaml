@@ -5,6 +5,7 @@ orthographies:
   marks: ◌̃
   note: The use of Devanagari, Kaithi, and Urdu is declining. Latin is currently the
     favoured script.
+  numerals: <default>
   script: Latin
   status: primary
 sources:
