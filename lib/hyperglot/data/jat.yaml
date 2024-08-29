@@ -2,6 +2,11 @@ name: Inku
 orthographies:
 - autonym:
   note: Possibly extinct. Used in Afghanistan.
+  base: <pes>
+  auxiliary: <pes>
+  numerals: <pes>
+  punctuation: <pes>
+  currency: <pbu>
   script: Arabic
   status: primary
 sources:

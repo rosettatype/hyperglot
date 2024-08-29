@@ -4,22 +4,30 @@ orthographies:
   auxiliary: <azj>
   base: <azj>
   marks: <azj>
+  numerals: <default>
+  punctuation: <default>
+  currency: <azj>
   note: Used in Azerbaijan.
   script: Latin
   status: primary
 - autonym: تالشه
   base: <pes>
-  currency: <pes>
+  auxiliary: <pes>
   design_requirements: <pes>
   marks: <pes>
   note: Used in Iran.
   numerals: <pes>
+  punctuation: <pes>
+  currency: <pes>
   script: Arabic
   status: primary
 - autonym: Толыши
   base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Ј Ғ Ҹ Ҝ Һ Ә Ы а б в г д
     е ж з и й к л м н о п р с т у ф х ц ч ш ј ғ ҹ ҝ һ ә ы
   marks: ◌̆
+  numerals: <default>
+  punctuation: <default>
+  currency: <azj>
   note: Used in Russia.
   script: Cyrillic
   status: secondary

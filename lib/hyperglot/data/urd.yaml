@@ -3,13 +3,19 @@ orthographies:
 - autonym: اُردُو
   base: ء ا ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ل م ن و ٹ پ چ ڈ ڑ ژ ک گ ں ھ ہ
     ی
+  auxiliary: ـ
   design_requirements:
   - Nastaliq style of the Arabic script is preffered.
   - Positional forms of the characters
     (initial, medial, and final forms) and some ligatures are required for proper
     representation of the language.
+  - Uses Persian numerals that have their own code points separate from the
+    Arabic-script numerals. However, the forms of 4 and 7 differ from the
+    defaults associated with the Unicode codepoints (typically the Persian forms).
   marks: ◌َ ◌ُ ◌ِ ◌ْ ◌ٰ
-  numerals: ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹ 0 1 2 3 4 5 6 7 8 9
+  numerals: <pes>
+  punctuation: <pes>
+  currency: <default> ₨
   script: Arabic
   status: primary
 sources:

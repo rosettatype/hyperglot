@@ -2,7 +2,10 @@ name: Southern Kurdish
 orthographies:
 - autonym: کوردی خوارگ
   base: <ckb>
+  auxiliary: <ckb>
   design_requirements: <ckb>
+  numerals: <default>
+  punctuation: <default>
   script: Arabic
   status: primary
 sources:

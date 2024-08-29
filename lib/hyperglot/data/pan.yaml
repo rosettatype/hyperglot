@@ -1,18 +1,20 @@
 name: Panjabi
 orthographies:
 - autonym: ਪੰਜਾਬੀ,
-  auxiliary: ॐ
+  auxiliary: 
   base: ਅ ਬ ਭ ਗ ਧ ਢ ੲ ਵ ਦ ਡ ਹ ਘ ਥ ਠ ਯ ਕ ਚ ਲ ਮ ਨ ਣ ਸ ੳ ਪ ਫ ਖ ਛ ਰ ਤ ਟ ਜ
   design_requirements:
   - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are
     required for proper representation of the language.
   marks: ◌਼ ◌ਾ ◌ਿ ◌ੀ ◌ੁ ◌ੂ ◌ੇ ◌ੈ ◌ੋ ◌ੌ
   note: Used in India.
-  numerals: ੦ ੧ ੨ ੩ ੪ ੫ ੬ ੭ ੮ ੯ 0 1 2 3 4 5 6 7 8 9
-  punctuation: । ॥ ॰
+  numerals: ੦ ੧ ੨ ੩ ੪ ੫ ੬ ੭ ੮ ੯ <defaultt Latin>
+  punctuation: <defaultt Devanagari>
+  currency: <default Devanagari>
   script: Gurmukhi
   status: primary
 - autonym: پن٘جابی
+  auxiliary: ـ
   base: ا ب پ ت ٹ ث ج چ ح خ د ڈ ذ ر ڑ ز ژ س ش ص ض ط ظ ع غ ف ق ک گ ل م ن ݨ ں و ه ھ
     ء ی ے
   design_requirements:
@@ -20,6 +22,9 @@ orthographies:
   - Positional forms of the characters (initial, medial, and final forms) and some
     ligatures are required for proper representation of the language.
   marks: ◌ؕ
+  numerals: <pes>
+  punctuation: <pes>
+  currency: <urd>
   note: Version of the Arabic script called Shahmukhi. Used in Pakistan.
   script: Arabic
   status: primary

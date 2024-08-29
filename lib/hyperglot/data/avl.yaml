@@ -5,7 +5,8 @@ orthographies:
   base: <ajp>
   design_requirements: <ajp>
   marks: <ajp>
-  numerals: <ajp>
+  numerals: <default>
+  punctuation: <default>
   script: Arabic
   status: primary
 sources:

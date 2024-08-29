@@ -2,8 +2,12 @@ name: Southern Hindko
 orthographies:
 - autonym: ہندکو
   base: <pan>
+  auxiliary: <pan>
   design_requirements: <pan>
   marks: <pan>
+  numerals: <pan>
+  punctuation: <pan>
+  currency: <pan>
   note: Used in Pakistan.
   script: Arabic
   status: primary
