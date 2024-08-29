@@ -5,10 +5,10 @@ orthographies:
   auxiliary: ꣻ
   base: अ आ इ ई उ ऊ ऋ ए ऐ ओ औ क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य
     र ल ळ व श ष स ह ‌ ‍ ऽ
-  design_alternates: झ ५ ८ ९
+  design_alternates: झ १ ५ ८ ९
   design_requirements:
-  - The Devanagari used for Nepali makes use of different forms for some of the characters
-    compared to the Hindi version, e.g. ‹झ›, numerals five, eight, and nine (marked
+  - The Devanagari used for Nepali uses different forms for some of the characters
+    compared to the Hindi version, e.g. “झ”, numerals 1, 5, 8, and 9 (marked
     in the previews).
   - Nepali orthographies prefer a smaller number of conjunct ligatures than commonly
     used in Hindi or Marathi.
@@ -17,7 +17,7 @@ orthographies:
   marks: ◌ँ ◌ं ◌ः ◌़ ◌ा ◌ि ◌ी ◌ु ◌ू ◌ृ ◌े ◌ै ◌ो ◌ौ ◌्
   numerals: <default>
   punctuation: <default>
-  currency: <default>
+  currency: <default Latin> ₨
   script: Devanagari
   status: primary
 sources:
