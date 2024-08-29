@@ -19,11 +19,11 @@ orthographies:
   base: ء أ ؤ ئ ا ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ل م ن ه و پ چ ژ ک گ ی ڄ
     ٺ ٽ ٿ ڀ ٻ ڙ ڍ ڊ ڏ ڌ ڇ ڃ ڦ ڻ ڱ ڳ ڪ
   design_requirements:
-  - Nastaʼlīq style of the Arabic script is preferred.
+  - Nastaliq style of the Arabic script is preferred.
   - Positional forms of the characters (initial, medial, and final forms) and some
     ligatures are required for proper representation of the language.
-  - Uses Persian numerals that have their own code points separate from the
-    Arabic-script numerals.
+  - Uses Persian numerals (extended Arabic-Indic digits) that have their own
+    code points separate from the Arabic-script numerals.
   marks: ◌َ ◌ُ ◌ِ ◌ْ ◌ٔ ◌ٰ
   note: Used in Pakistan
   numerals: <pes>

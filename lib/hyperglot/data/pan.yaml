@@ -8,8 +8,8 @@ orthographies:
     required for proper representation of the language.
   marks: ◌਼ ◌ਾ ◌ਿ ◌ੀ ◌ੁ ◌ੂ ◌ੇ ◌ੈ ◌ੋ ◌ੌ
   note: Used in India.
-  numerals: ੦ ੧ ੨ ੩ ੪ ੫ ੬ ੭ ੮ ੯ <defaultt Latin>
-  punctuation: <defaultt Devanagari>
+  numerals: ੦ ੧ ੨ ੩ ੪ ੫ ੬ ੭ ੮ ੯ <default Latin>
+  punctuation: <default Devanagari>
   currency: <default Devanagari>
   script: Gurmukhi
   status: primary
@@ -18,7 +18,7 @@ orthographies:
   base: ا ب پ ت ٹ ث ج چ ح خ د ڈ ذ ر ڑ ز ژ س ش ص ض ط ظ ع غ ف ق ک گ ل م ن ݨ ں و ه ھ
     ء ی ے
   design_requirements:
-  - Nastaliq style of the Arabic script is preffered.
+  - Nastaliq style of the Arabic script is preferred.
   - Positional forms of the characters (initial, medial, and final forms) and some
     ligatures are required for proper representation of the language.
   marks: ◌ؕ
