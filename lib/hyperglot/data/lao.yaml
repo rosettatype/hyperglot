@@ -6,8 +6,9 @@ orthographies:
   - Mark positioning and some character combinations (ligatures) have to be resolved
     to properly represent the language.
   marks: ◌ັ ◌ິ ◌ີ ◌ຶ ◌ື ◌ຸ ◌ູ ◌ົ ◌ຼ ◌່ ◌້ ◌໊ ◌໋ ◌໌ ◌ໍ
-  numerals: ໐ ໑ ໒ ໓ ໔ ໕ ໖ ໗ ໘ ໙ 0 1 2 3 4 5 6 7 8 9
-  punctuation: ຯ ໆ
+  numerals: ໐ ໑ ໒ ໓ ໔ ໕ ໖ ໗ ໘ ໙ <default Latin>
+  punctuation: ຯ ໆ <default Latin>
+  currency: ₭ <default Latin>
   script: Lao
   status: primary
 sources:
