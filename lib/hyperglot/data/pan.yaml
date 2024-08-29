@@ -9,7 +9,7 @@ orthographies:
   marks: ◌਼ ◌ਾ ◌ਿ ◌ੀ ◌ੁ ◌ੂ ◌ੇ ◌ੈ ◌ੋ ◌ੌ
   note: Used in India.
   numerals: ੦ ੧ ੨ ੩ ੪ ੫ ੬ ੭ ੮ ੯ <default Latin>
-  punctuation: <default Devanagari>
+  punctuation: <default Devanagari> ੶
   currency: <default Devanagari>
   script: Gurmukhi
   status: primary

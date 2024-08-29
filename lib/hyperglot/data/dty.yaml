@@ -7,7 +7,7 @@ orthographies:
   design_requirements: <npi>
   marks: <npi>
   numerals: <default>
-  punctuation: <default>
+  punctuation: <hin>
   currency: <default>
   script: Devanagari
   status: primary

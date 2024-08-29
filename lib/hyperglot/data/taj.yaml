@@ -5,7 +5,7 @@ orthographies:
   base: <hin>
   design_requirements: <hin>
   numerals: <default>
-  punctuation: <default>
+  punctuation: <hin>
   currency: <default>
   script: Devanagari
   status: primary
