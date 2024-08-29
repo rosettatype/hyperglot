@@ -64,7 +64,7 @@ orthographies:
     隔 障 难 雄 雅 集 雉 雨 雪 雯 雳 零 雷 雾 需 震 霍 霖 露 霸 霹 青 靖 静 非 靠 面 革 靼 鞋 鞑 韦 韩 音 页 顶 项 顺 须
     顽 顾 顿 预 领 颇 频 颗 题 额 风 飘 飙 飞 食 餐 饭 饮 饰 饱 饼 馆 首 香 馨 马 驱 驶 驻 驾 验 骑 骗 骚 骤 骨 高 鬼 魂
     魅 魔 鱼 鲁 鲜 鸟 鸡 鸣 鸭 鸿 鹅 鹤 鹰 鹿 麦 麻 黄 黎 黑 默 鼓 鼠 鼻 齐 齿 龄 龙 龟
-  numerals: '% + - . 0 1 2 3 4 5 6 7 8 9 ‰ 〇'
+  numerals: 〇 <default Latin>
   script: Chinese
   status: primary
 - autonym: Pǔtōnghuà
