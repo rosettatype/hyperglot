@@ -19,6 +19,8 @@ orthographies:
     п р ш т ц ч у ф х
   marks: ◌́
   preferred_as_group: true
+  numerals: <default>
+  punctuation: <default>
   script: Cyrillic
   status: primary
 sources:

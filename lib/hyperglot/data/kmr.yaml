@@ -19,6 +19,8 @@ orthographies:
     ә ж з й к л м н о ӧ п р с т у ф х һ ч ш щ ь э ԛ ԝ '
   marks: ◌̆ ◌̈
   note: Used in Russia and Armenia.
+  numerals: <default>
+  punctuation: <default>
   script: Cyrillic
   status: primary
 sources:

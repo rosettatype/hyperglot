@@ -7,6 +7,8 @@ orthographies:
   auxiliary: <sjd>
   base: <sjd>
   marks: <sjd>
+  numerals: <default>
+  punctuation: <default>
   script: Cyrillic
   status: secondary
 sources:

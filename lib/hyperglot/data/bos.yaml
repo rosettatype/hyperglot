@@ -11,6 +11,8 @@ orthographies:
   - In italic, some characters (marked in the previews) use a form that differs from
     the defaults associated with the Unicode codepoints (typically the Russian form
     of Cyrillic).
+  numerals: <default>
+  punctuation: <default>
   script: Cyrillic
   status: secondary
 - autonym: Bosanski

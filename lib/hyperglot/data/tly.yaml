@@ -29,6 +29,8 @@ orthographies:
   punctuation: <default>
   currency: <azj>
   note: Used in Russia.
+  numerals: <default>
+  punctuation: <default>
   script: Cyrillic
   status: secondary
 sources:

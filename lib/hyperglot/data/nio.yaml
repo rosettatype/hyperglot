@@ -8,6 +8,8 @@ orthographies:
   marks: ◌̆ ◌̈
   note: Sources partially disagree. This orthography is based on Omniglot. Wikipedia
     notes use of з̌ instead of ҙ.
+  numerals: <default>
+  punctuation: <default>
   script: Cyrillic
   status: primary
 sources:
