@@ -27,6 +27,7 @@ orthographies:
     correspondence with Cyrillic.
   marks: ◌́ ◌̌
   preferred_as_group: true
+  numerals: <default>
   script: Latin
   status: primary
 sources:

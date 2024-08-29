@@ -18,6 +18,7 @@ orthographies:
   base: A B C Ç D E Ə F G H Ḩ Ћ I J K L M N O P Q R S Ş T U V X Y Z a b c ç d e ə
     f g h ḩ ћ i j k l m n o p q r s ş t u v x y z
   marks: ◌̧
+  numerals: <default>
   script: Latin
   status: historical
 sources:

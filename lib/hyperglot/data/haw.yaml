@@ -8,6 +8,7 @@ orthographies:
     is ideally sufficiently distinguished from the left single quote (e.g.  positioned
     slightly lower).
   marks: ◌̄
+  numerals: <default>
   script: Latin
   status: primary
 sources:

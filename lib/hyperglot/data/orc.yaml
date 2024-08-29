@@ -2,6 +2,7 @@ name: Orma
 orthographies:
 - autonym: Orma
   base: <gax>
+  numerals: <default>
   script: Latin
   status: primary
 sources:

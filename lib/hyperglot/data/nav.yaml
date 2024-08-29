@@ -8,6 +8,7 @@ orthographies:
   - The positioning of the ogonek mark (marked in the previews) differs from its positioning
     in Polish and Lithuanian as it is typically centered below the vowel.
   marks: ◌́ ◌̨
+  numerals: <default>
   script: Latin
   status: primary
 sources:

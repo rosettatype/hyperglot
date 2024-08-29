@@ -9,6 +9,7 @@ orthographies:
   base: A B G D Ḍ E F K H Ḥ X Q I J L M N U R Ṛ S Ṣ C T Ṭ W Ɣ Z Ẓ a b g d ḍ e f k
     h ḥ x q i j l m n u r ṛ s ṣ c t ṭ w ɣ z ẓ
   marks: ◌̣
+  numerals: <default>
   script: Latin
   status: secondary
 sources:

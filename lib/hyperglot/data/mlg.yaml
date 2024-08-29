@@ -16,12 +16,14 @@ orthographies:
   base: A B D E F G H I J K L M N O P R S T V Y Z À Â È É Ê Ë Ì Î Ï Ñ Ô a b d e f
     g h i j k l m n o p r s t v y z à â è é ê ë ì î ï ñ ô
   marks: ◌̀ ◌́ ◌̂ ◌̃ ◌̈
+  numerals: <default>
   script: Latin
   status: primary
 - autonym: Malagasy
   base: A B D E F G H I J K L M N O P R S T V Y Z À Â È É Ê Ë Ì Î Ï Ô a b d e f g
     h i j k l m n o p r s t v y z à â è é ê ë ì î ï ô
   marks: ◌̀ ◌́ ◌̂ ◌̈
+  numerals: <default>
   script: Latin
   status: secondary
 preferred_as_individual: true

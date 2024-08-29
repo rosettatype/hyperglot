@@ -14,6 +14,7 @@ orthographies:
     f g h i j k l m n o p q r s t u v w x y z ç ñ ö ü ğ ş ı
   marks: ◌̃ ◌̆ ◌̈ ◌̧
   note: Adopted in 1997 based on Common Turkic Alphabet.
+  numerals: <default>
   script: Latin
   status: primary
 sources:

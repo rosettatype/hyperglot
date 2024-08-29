@@ -7,6 +7,7 @@ orthographies:
 - autonym: hak ga wa
   base: <cmn>
   note: Hànyǔ Pīnyīn (pinyin) romanization
+  numerals: <default>
   script: Latin
   status: transliteration
 sources:

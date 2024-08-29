@@ -5,6 +5,7 @@ orthographies:
     W Y Ƴ a ã b ɓ c d e ẽ ɛ ɛ̃ f g h i ĩ ɩ ɩ̃ j k l m n o õ ɔ ɔ̃ p r s t u ũ ʋ ʋ̃
     v w y ƴ
   marks: ◌̃
+  numerals: <default>
   script: Latin
   status: primary
 sources:

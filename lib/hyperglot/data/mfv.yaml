@@ -8,6 +8,7 @@ orthographies:
     ŋ reaching cap height favoured in African languages, and the other resembling
     N with J as the second stem favoured in Sami languages.
   marks: ◌́ ◌̂ ◌̈ ◌̃ ◌̧
+  numerals: <default>
   script: Latin
   status: primary
 sources:

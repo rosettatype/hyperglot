@@ -3,6 +3,7 @@ orthographies:
 - autonym: Sosoxi
   base: A B D E Ɛ F G H I K X L M N Ɲ O Ɔ P R S T U W Y a b d e ɛ f g h i k x l m
     n ɲ o ɔ p r s t u w y
+  numerals: <default>
   script: Latin
   status: primary
 sources:

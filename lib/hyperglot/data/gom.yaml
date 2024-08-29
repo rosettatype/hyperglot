@@ -15,6 +15,7 @@ orthographies:
     d e ẽ f g h i ĩ j k l m n ñ o õ p q r s t u v w x y z
   marks: ◌̃ ◌̧
   note: Konkani in the Latin script (called Romi Konkani) is widely used
+  numerals: <default>
   script: Latin
   status: secondary
 sources:

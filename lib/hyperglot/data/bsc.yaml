@@ -9,6 +9,7 @@ orthographies:
     N with J as the second stem favoured in Sami languages.
   marks: ◌́ ◌̈ ◌̂ ◌̃
   note: Senegal
+  numerals: <default>
   script: Latin
   status: primary
 - autonym: oneyan
@@ -19,6 +20,7 @@ orthographies:
     ŋ reaching cap height favoured in African languages, and the other resembling
     N with J as the second stem favoured in Sami languages.
   note: Guinea
+  numerals: <default>
   script: Latin
   status: primary
 sources:

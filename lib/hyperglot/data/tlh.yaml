@@ -7,6 +7,7 @@ orthographies:
   base: a b ch D e gh H I j l m n ng o p q Q r S t tlh u v w y '
   note: The bi- and trigraphs are treated like single letters and {'} represents a
     glotal stop.
+  numerals: <default>
   script: Latin
   status: primary
 sources:

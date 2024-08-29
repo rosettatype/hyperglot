@@ -4,6 +4,7 @@ orthographies:
   base: A E I O U F G K L M N P H T V Ā Ē Ī Ō Ū a e i o u f g k l m n p h t v ā ē
     ī ō ū
   marks: ◌̄
+  numerals: <default>
   script: Latin
   status: primary
 sources:

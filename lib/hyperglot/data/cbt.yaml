@@ -3,6 +3,7 @@ orthographies:
 - autonym: Shawi
   base: A H I U K M N P R S T W Ɨ Č Š a h i u k m n p r s t w ɨ č š
   marks: ◌̌
+  numerals: <default>
   script: Latin
   status: primary
 sources:

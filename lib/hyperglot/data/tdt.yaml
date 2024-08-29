@@ -3,6 +3,7 @@ orthographies:
 - autonym: Tetun Dili
   base: <tet>
   marks: <tet>
+  numerals: <default>
   script: Latin
   status: primary
 sources:

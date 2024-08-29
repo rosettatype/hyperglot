@@ -12,6 +12,7 @@ orthographies:
   - Some font developers decompose ‹Ŀ, ŀ› (marked in the previews) automatically to
     adapt the position of the middle dot to changes in the overall spacing (tracking).
   marks: ◌̀ ◌́ ◌̈ ◌̧
+  numerals: <default>
   script: Latin
   status: primary
 sources:

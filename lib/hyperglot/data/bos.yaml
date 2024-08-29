@@ -25,6 +25,7 @@ orthographies:
     chiefly for backwards compatibility with legacy encodings which kept a one-to-one
     correspondence with Cyrillic.
   marks: ◌́ ◌̌
+  numerals: <default>
   script: Latin
   status: primary
 sources:

@@ -9,6 +9,7 @@ orthographies:
     N with J as the second stem favoured in Sami languages.
   note: Association pour la Traduction, l’Alphabétisation et la Promotion des Écritures
     en Ben (ATAPEB) orthography, standardized on Ben dialect.
+  numerals: <default>
   script: Latin
   status: primary
 - base: A Ã B C D E Ẽ Ɛ F G H I Ĩ Ɩ J K L M N Ŋ O Õ Ɔ P S T R U V W Y a ã b c d e
@@ -19,6 +20,7 @@ orthographies:
     N with J as the second stem favoured in Sami languages.
   marks: ◌̃
   note: Peace Corps Togo orthography.
+  numerals: <default>
   script: Latin
   status: secondary
 sources:

@@ -2,6 +2,7 @@ name: Gilbertese
 orthographies:
 - autonym: Kiribati
   base: A B E I K M N G O R T U W a b e i k m n g o r t u w
+  numerals: <default>
   script: Latin
   status: primary
 sources:

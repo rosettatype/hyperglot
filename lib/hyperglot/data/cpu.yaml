@@ -2,6 +2,7 @@ name: Pichis Ashéninka
 orthographies:
 - base: A C E I J M N O P R S T W Y Ñ a c e i j m n o p r s t w y ñ
   marks: ◌̃
+  numerals: <default>
   script: Latin
   status: primary
 sources:

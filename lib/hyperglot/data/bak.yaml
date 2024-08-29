@@ -13,6 +13,7 @@ orthographies:
     Ź a b c d e f g h i j k l m n o p q r s t u v w x y z ä ç ö ü č ğ İ ı ķ ņ ś ş
     š ź
   marks: ◌́ ◌̆ ◌̇ ◌̈ ◌̌ ◌̧
+  numerals: <default>
   script: Latin
   status: historical
 sources:

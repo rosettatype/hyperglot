@@ -5,6 +5,7 @@ orthographies:
     m n o p r s t u v x y z
   note: \' , and . are letters of the Lojban orthography. Sometimes h is used for
     \' in software that does not treat the apostrophe as a letter.
+  numerals: <default>
   script: Latin
   status: primary
 sources:

@@ -6,6 +6,7 @@ orthographies:
     Ū Ṣ a b d e f g h i j k l m n o p r s t u w y à á ā è é ē ẹ ì í ī ò ó ō ọ ù ú
     ū ṣ
   marks: ◌̀ ◌́ ◌̄ ◌̣
+  numerals: <default>
   script: Latin
   status: primary
 - autonym: èdè yorùbá
@@ -13,6 +14,7 @@ orthographies:
     Ū a b d e ɛ f g h i j k l m n o ɔ p r s t u w y à á ā è é ē ì í ī ò ó ō ù ú ū
   marks: ◌̀ ◌́ ◌̄
   note: Orthography used in Benin.
+  numerals: <default>
   script: Latin
   status: local
 sources:
