@@ -10,7 +10,9 @@ orthographies:
     ኬ ክ ኮ ቨ ቩ ቪ ቫ ቬ ቭ ቮ
   note: The script is often referred to as Fidel (ፊደል, meaning "script" or "letter"
     [Wikipedia]) in Amharic.
-  numerals: ፩ ፪ ፫ ፬ ፭ ፮ ፯ ፰ ፱ ፲ ፳ ፴ ፵ ፶ ፷ ፸ ፹ ፺ ፻
+  numerals: ፩ ፪ ፫ ፬ ፭ ፮ ፯ ፰ ፱ ፲ ፳ ፴ ፵ ፶ ፷ ፸ ፹ ፺ ፻ ፼ <default Latin>
+  punctuation: ፠ ፡ ። ፣ ፥ ፤ ፦ ፧ ፨  <default Latin>
+  currency: <default Latin>
   script: Geʽez
   status: primary
 sources:
