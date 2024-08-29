@@ -4,10 +4,10 @@ orthographies:
   auxiliary: À Á Ç È É Ê Ë Ï Ñ Ô Ö à á ç è é ê ë ï ñ ô ö
   base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Œ a b c d e f g h i
     j k l m n o p q r s t u v w x y z æ œ
-  currency: $ ¢ £ €
+  punctuation: <default>
+  currency: <default secondary> $ ¢ £
   marks: ◌̀ ◌́ ◌̂ ◌̃ ◌̈ ◌̧
   numerals: <default>
-  punctuation: <default>
   script: Latin
   status: primary
 - autonym: English
@@ -19,9 +19,7 @@ orthographies:
   script: Latin
   status: historical
 sources:
-- Omniglot
 - English language. (2024, August 26). In *Wikipedia*. https://en.wikipedia.org/wiki/English_language?oldid=1242467933
-- CLDR
 - Alvestrand, Harald. (1995) *Characters and character sets for various languages.*
   Retrieved on September 6, 2021 from https://www.alvestrand.no/ietf/lang-chars.txt
 speakers: 400000000
