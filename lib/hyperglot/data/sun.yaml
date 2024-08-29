@@ -13,7 +13,7 @@ orthographies:
   - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are
     required for proper representation of the language.
   marks: ◌ᮀ ◌ᮁ ◌ᮂ ◌ᮡ ◌ᮢ ◌ᮣ ◌ᮤ ◌ᮥ ◌ᮦ ◌ᮧ ◌ᮨ ◌ᮩ ◌᮪ ◌ᮬ ◌ᮭ
-  numerals: ᮱ ᮲ ᮳ ᮴ ᮵ ᮶ ᮷ ᮸ ᮹ ᮰ 1 2 3 4 5 6 7 8 9 0
+  numerals: ᮱ ᮲ ᮳ ᮴ ᮵ ᮶ ᮷ ᮸ ᮹ ᮰ <default Latin>
   punctuation: ᳀ ᳁ ᳂ ᳃ ᳄ ᳅ ᳆ ᳇
   script: Sundanese
   status: secondary
