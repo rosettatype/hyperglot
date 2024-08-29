@@ -4,6 +4,9 @@ orthographies:
   base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z É a b c d e f g h i j
     k l m n o p q r s t u v w x y z é
   marks: ◌́
+  numerals: <default> 
+  punctuation: <default>
+  currency: <default>
   script: Latin
   status: primary
 - autonym: ᬪᬵᬱᬩᬮᬶ
@@ -14,8 +17,9 @@ orthographies:
     required for proper representation of the language.
   marks: ◌ᬀ ◌ᬁ ◌ᬂ ◌ᬃ ◌ᬄ ◌᬴ ◌ᬵ ◌ᬶ ◌ᬷ ◌ᬸ ◌ᬹ ◌ᬺ ◌ᬾ ◌ᬿ
   note: The Latin script is the most used nowadays.
-  numerals: ᭐ ᭕ ᭑ ᭖ ᭒ ᭗ ᭓ ᭘ ᭔ ᭙ 0 1 2 3 4 5 6 7 8 9
-  punctuation: ᭞ ᭟ ᭝ ᭜ ᭚ ᭛ ᭠
+  numerals: ᭐ ᭕ ᭑ ᭖ ᭒ ᭗ ᭓ ᭘ ᭔ ᭙ <default Latin>
+  punctuation: ᭞ ᭟ ᭝ ᭜ ᭚ ᭛ ᭠ <default Latin>
+  currency: <default Latin>
   script: Balinese
   status: secondary
 sources:
