@@ -26,6 +26,8 @@ def test_language_inherit():
     # aae inherits aln orthography
     aae = Language("aae")
     aln = Language("aln")
+    print("AAE", aae.get_orthography()["base"])
+    print("ALN", aln.get_orthography()["base"])
     assert aae.get_orthography()["base"] == aln.get_orthography()["base"]
 
 
@@ -127,3 +129,8 @@ def test_language_orthography_access():
     eng = Language("eng")
     assert type(eng["orthographies"][0]) is Orthography
     assert type(eng.get_orthography()) is Orthography
+
+
+def test_default_language():
+    default = Language("default")
+    assert "0" in default.get_orthography().numerals

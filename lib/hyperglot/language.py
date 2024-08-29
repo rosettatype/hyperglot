@@ -142,6 +142,9 @@ validity: {validity}
         return False
 
     def _expand_orthographies(self, data):
+        """
+        Init all orthographies and expand their <iso> references.
+        """
         if "orthographies" not in data:
             return
         _orthographies = []

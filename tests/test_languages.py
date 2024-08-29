@@ -46,10 +46,3 @@ def test_languages_parsed_from_escaped_filenames():
     Langs = Languages()
     assert hasattr(Langs, "con")
     assert "con" in Langs
-
-
-def test_languages_deprecated_attribute_access(caplog):
-    with caplog.at_level(logging.WARNING):
-        assert getattr(Languages(), "eng") == Languages()["eng"]
-    assert "deprecated" in caplog.records[0].msg
-

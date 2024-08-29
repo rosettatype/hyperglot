@@ -1,0 +1,23 @@
+# Hyperglot defaults that can be extended in iso yaml files in lib/hyperglot/data
+#
+# Note that:
+# - in this file you cannot extend other <iso>
+# - in this file you cannot self-reference other scripts of this file
+# - this file is not automatically validated or formatted, proceed with care
+# - some aspects of this file are part of the code testing suite; changes here
+#   may need to be reflected in the tests
+# - orthographies need to have script & status for technical reasons
+
+name: Default
+orthographies:
+  - script: Latin
+    punctuation: ". , ; : ? ! “ ” ‘ ’"
+    numerals: 0 1 2 3 4 5 6 7 8 9
+    status: primary
+  - script: Arabic
+    punctuation: ؟ ؞
+    numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩
+    status: primary
+  - script: Hebrew
+    punctuation: ׳ ״
+    status: primary

@@ -39,19 +39,28 @@ def load_cached_yaml(path):
 
 def load_language_data(iso: str) -> dict:
 
-    files = [f"{iso}.yaml", f"{iso}_.yaml"]
+    files = [f"{iso}.yaml", f"{iso}_.yaml", f"{iso}.yml", f"{iso}_.yml"]
     file = None
     path = None
 
     while len(files):
         file = files.pop(0)
-        path = os.path.join(DB, file)
+
+        # The one place where the default.yaml will get injected to provide
+        # data for a Language(iso=default) object
+        if iso == "default":
+            path = os.path.join(DB_EXTRA, file)
+        else:
+            path = os.path.join(DB, file)
+
         if os.path.isfile(path):
             break
+
         file = None
         path = None
 
     if path is None:
+        logging.debug(f"Attempted to load '{path}' for iso '{iso}'")
         raise KeyError(f"No language with ISO code {iso} found in Hyperglot.")
 
     return load_cached_yaml(path)
