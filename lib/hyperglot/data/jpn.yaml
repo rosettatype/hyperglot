@@ -54,10 +54,10 @@ orthographies:
     顧 風 飛 食 飢 飯 飲 飼 飽 飾 養 餓 館 首 香 馬 駄 駅 駆 駐 騎 騒 験 騰 驚 骨 髄 高 髪 鬼 魂 魅 魔 魚 鮮 鯨 鳥 鳴 鶏
     鹿 麗 麦 麻 黄 黒 黙 鼓 鼻 齢
   marks: ◌̅
-  numerals: '% + - . 0 1 2 3 4 5 6 7 8 9 ‰'
+  numerals: <default Latin>
   preferred_as_group: true
-  punctuation: '! " # % & ( ) * - . / : ; ? @ [ \ ] _ § ¶ ‐ — ― ‖ ‘ ’ “ ” † ‡ ‥ …
-    ‰ ′ ″ ※ ‾ 、 。 〃 〈 〉 《 》 「 」 『 』 【 】 〔 〕 〜 ・ ！ ＂ ＃ ％ ＆ ＇ （ ） ＊ ， － ． ／ ： ； ？ ＠
+  punctuation: |
+    <default Latin> ‹ › « » ‖ ‥ ※ ‾ 、 。 〃 〈 〉 《 》 「 」 『 』 【 】 〔 〕 〜 ・ ！ ＂ ＃ ％ ＆ ＇ （ ） ＊ ， － ． ／ ： ； ？ ＠
     ［ ＼ ］ ＿ ｛ ｝ ｡ ｢ ｣ ､ ･'
   script: Kanji
   status: primary
