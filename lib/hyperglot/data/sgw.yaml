@@ -13,6 +13,9 @@ orthographies:
     ዓ ዔ ዕ ዖ ዘ ዙ ዚ ዛ ዜ ዝ ዞ ዠ ዡ ዢ ዣ ዤ ዥ ዦ የ ዩ ዪ ያ ዬ ይ ዮ ደ ዱ ዲ ዳ ዴ ድ ዶ ጀ ጁ ጂ ጃ ጄ ጅ ጆ
     ገ ጉ ጊ ጋ ጌ ግ ጎ ጐ 𞟸 ጓ 𞟹 𞟺 ጘ ጙ ጚ ጛ ጜ ጝ ጞ ጠ ጡ ጢ ጣ ጤ ጥ ጦ ጨ ጩ ጪ ጫ ጬ ጭ ጮ ጸ ጹ ጺ ጻ ጼ ጽ
     ጾ ፈ ፉ ፊ ፋ ፌ ፍ ፎ ᎈ 𞟻 ፏ 𞟼 ᎋ ፐ ፑ ፒ ፓ ፔ ፕ ፖ ᎌ 𞟽 ፗ 𞟾 ᎏ
+  numerals: <amh>
+  punctuation: <amh>
+  currency: <amh>
   script: Geʽez
   status: primary
 sources:
