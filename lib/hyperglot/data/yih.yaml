@@ -3,6 +3,9 @@ orthographies:
 - autonym: ייִדיש
   base: <ydd>
   marks: <ydd>
+  numerals: <ydd>
+  punctuation: <ydd>
+  currency: <ydd>
   script: Hebrew
   status: primary
 sources:

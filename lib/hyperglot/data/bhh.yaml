@@ -5,6 +5,9 @@ orthographies:
   auxiliary: <heb>
   base: <heb>
   marks: <heb>
+  numerals: <heb>
+  punctuation: <heb>
+  currency: <heb>
   script: Hebrew
   status: primary
 sources:
