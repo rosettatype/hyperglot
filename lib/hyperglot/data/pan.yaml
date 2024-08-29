@@ -16,15 +16,17 @@ orthographies:
   base: ا ب پ ت ٹ ث ج چ ح خ د ڈ ذ ر ڑ ز ژ س ش ص ض ط ظ ع غ ف ق ک گ ل م ن ݨ ں و ه ھ
     ء ی ے
   design_requirements:
+  - Nastaliq style of the Arabic script is preffered.
   - Positional forms of the characters (initial, medial, and final forms) and some
     ligatures are required for proper representation of the language.
   marks: ◌ؕ
-  note: Used in Pakistan.
+  note: Version of the Arabic script called Shahmukhi. Used in Pakistan.
   script: Arabic
   status: primary
 sources:
 - Omniglot
 - Punjabi language. (2024, August 27). In *Wikipedia*. https://en.wikipedia.org/wiki/Punjabi_language?oldid=1242561572
+- Shahmukhi. (2024, August 21). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Shahmukhi&oldid=1241416416
 speakers: 125000000
 speakers_date: 2011-2015
 validity: preliminary
