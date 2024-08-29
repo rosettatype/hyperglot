@@ -15,6 +15,7 @@ orthographies:
   marks: <bod>
   numerals: <bod>
   punctuation: <bod>
+  currency: <bod>
   script: Tibetan
 sources:
 - Omniglot
