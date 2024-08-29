@@ -7,6 +7,9 @@ orthographies:
   - The character set includes Georgian Mkhedruli (lowercase letters) and additional
     letters used in Svan language.
   marks: ◌̈ ◌̄
+  numerals: <kat>
+  punctuation: <kat>
+  currency: <kat>
   script: Georgian
   status: primary
 sources:

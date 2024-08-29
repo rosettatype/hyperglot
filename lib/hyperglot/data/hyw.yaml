@@ -4,6 +4,9 @@ note: The language count is very conservative (could be up to 4 million). Wikipe
 orthographies:
 - autonym: Հայերէն
   base: <hye>
+  numerals: <hye>
+  punctuation: <hye>
+  currency: <hye>
   script: Armenian
   status: primary
 sources:

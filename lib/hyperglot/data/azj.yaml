@@ -6,6 +6,9 @@ orthographies:
     Ә Ө а б в г д е ж з и к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ј ғ ҝ ү ҹ һ
     ә ө ʼ
   marks: ◌̆
+  numerals: <default>
+  punctuation: <default>
+  currency: <default> ₼
   note: Official in Dagestan (Russia).
   script: Cyrillic
   status: primary
@@ -13,6 +16,9 @@ orthographies:
   base: A B C D E F G H I J K L M N O P Q R S T U V X Y Z Ç Ö Ü Ğ Ş Ə a b c d e f
     g h i j k l m n o p q r s t u v x y z ç ö ü ğ İ ı ş ə ʼ
   marks: ◌̆ ◌̇ ◌̈ ◌̧
+  numerals: <default>
+  punctuation: <default>
+  currency: <default> ₼
   script: Latin
   status: primary
 sources:
