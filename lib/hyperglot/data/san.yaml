@@ -1,10 +1,10 @@
 name: Sanskrit
 orthographies:
 - autonym: संस्कृतम्
-  auxiliary: ॐ
+  auxiliary: ꣻ
   base: अ आ इ ई उ ऊ ऋ ॠ ऌ ॡ ए ऐ ओ औ क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब
-    भ म य र ल ळ व श ष स ह ‌ ‍
-  design_alternates: र  ल श
+    भ म य र ल ळ व श ष स ह ‌ ‍ ऽ
+  design_alternates: र ल श
   design_requirements:
   - The Devanagari used for Sanskrit makes use of different forms for some of the
     characters (marked in the previews) and conjunct ligatures compared to the Hindi
@@ -14,8 +14,9 @@ orthographies:
   marks: ◌ँ ◌ं ◌ः ◌़ ◌ा ◌ि ◌ी ◌ु ◌ू ◌ृ ◌े ◌ै ◌ो ◌ौ ◌्
   note: Sanskrit has been written using a variety of Brahmic scrits and, later, also
     the Latin-script transliteration. There a no native speakers of Sanskrit.
-  numerals: ० १ २ ३ ४ ५ ६ ७ ८ ९ 0 1 2 3 4 5 6 7 8 9
-  punctuation: । ॥ ॰
+  numerals: <default>
+  punctuation: <default>
+  currency: <default>
   script: Devanagari
   status: primary
 sources:

@@ -4,9 +4,9 @@ orthographies:
   auxiliary: <dgo>
   base: <dgo>
   design_requirements: <dgo>
-  marks: <dgo>
-  numerals: <dgo>
-  punctuation: <dgo>
+  numerals: <default>
+  punctuation: <default>
+  currency: <default>
   script: Devanagari
   status: primary
 sources:

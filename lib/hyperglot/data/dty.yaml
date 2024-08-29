@@ -6,8 +6,9 @@ orthographies:
   design_alternates: <npi>
   design_requirements: <npi>
   marks: <npi>
-  numerals: <npi>
-  punctuation: <npi>
+  numerals: <default>
+  punctuation: <default>
+  currency: <default>
   script: Devanagari
   status: primary
 sources:

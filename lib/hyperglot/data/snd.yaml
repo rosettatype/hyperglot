@@ -3,7 +3,7 @@ orthographies:
 - autonym: सिन्धी
   auxiliary: ꣻ
   base: अ आ इ ई उ ऊ ऋ ए ऐ ओ औ क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य
-    र ल ळ व श ष स ह ॻ ॼ ॾ ॿ ‌ ‍
+    र ल ळ व श ष स ह ॻ ॼ ॾ ॿ ‌ ‍ ऽ
   design_requirements:
   - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are
     required for proper representation of the language.
