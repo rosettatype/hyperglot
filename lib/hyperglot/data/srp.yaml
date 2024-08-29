@@ -12,6 +12,8 @@ orthographies:
     associated with the Unicode codepoints (typically the Russian form of Cyrillic).
   marks: ◌́
   preferred_as_group: true
+  numerals: <default>
+  punctuation: <default>
   script: Cyrillic
   status: primary
 - autonym: Srpski

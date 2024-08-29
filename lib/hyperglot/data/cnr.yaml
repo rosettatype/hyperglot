@@ -3,6 +3,8 @@ orthographies:
 - autonym: Црногорски
   base: <srp>
   marks: <srp>
+  numerals: <default>
+  punctuation: <default>
   script: Cyrillic
   status: primary
 - autonym: Crnogorski

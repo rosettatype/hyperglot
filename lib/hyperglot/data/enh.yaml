@@ -8,6 +8,8 @@ orthographies:
   - Characters ‹Ҫ,ҫ› (marked in the previews) are sometimes represented with a cedilla
     instead of a descender (spike).
   marks: ◌̆ ◌̈
+  numerals: <default>
+  punctuation: <default>
   script: Cyrillic
   status: primary
 sources:

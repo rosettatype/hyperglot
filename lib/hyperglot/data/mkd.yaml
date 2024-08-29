@@ -12,6 +12,8 @@ orthographies:
     the defaults associated with the Unicode codepoints (typically the Russian form
     of Cyrillic).
   marks: ◌́ ◌̀
+  numerals: <default>
+  punctuation: <default>
   script: Cyrillic
   status: primary
 sources:

@@ -6,6 +6,8 @@ orthographies:
     Ы Ь Ҍ Э Ӭ Ю Я а ӓ б в г д е ё ж з һ и ӣ й ј к л ӆ м ӎ н ӊ ӈ о п р ҏ с т у ӯ ф
     х ц ч ш ъ ы ь ҍ э ӭ ю я
   marks: ◌̄ ◌̆ ◌̈
+  numerals: <default>
+  punctuation: <default>
   script: Cyrillic
   status: primary
 sources:
