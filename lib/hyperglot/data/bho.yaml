@@ -8,7 +8,7 @@ orthographies:
   note: The use of the Kaithi script is declining. Devanagari is currently the most
     commonly used script for oficial documents.
   numerals: <default>
-  punctuation: <default>
+  punctuation: <default> ॰
   currency: <default>
   script: Devanagari
   status: primary
@@ -19,7 +19,7 @@ orthographies:
     required for proper representation of the language.
   marks: ◌𑂀 ◌𑂂 ◌𑂰 ◌𑂲 ◌𑂳 ◌𑂴 ◌𑂵 ◌𑂶 ◌𑂸 ◌𑂺
   numerals: <default Devanagari>
-  punctuation: 𑂻 𑂾 𑂿 𑃀 𑃁 ࿕ <default Latin>
+  punctuation: <default Latin> 𑂻 𑂾 𑂿 𑃀 𑃁 ࿕
   currency: <default Devanagari>
   script: Kaithi
   status: historical

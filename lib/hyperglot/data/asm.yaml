@@ -5,8 +5,9 @@ note: The present standard is identical to the Bengali orthography except for tw
   alphabet it is a conjunct.
 orthographies:
 - autonym: অসমীয়া
+  auxiliary: <ben> ঽ
   base: ৺ অ আ ই ঈ উ ঊ ঋ ৠ ঌ ৡ এ ঐ ও ঔ ক খ গ ঘ ঙ চ ছ জ ঝ ঞ ট ঠ ড ঢ ণ ত থ দ ধ ন প ফ
-    ব ভ ম য ৰ ল ৱ শ ষ স হ ʼ
+    ব ভ ম য ৰ ল ৱ শ ষ স হ ʼ  ক্ষ
   design_requirements:
   - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are
     required for proper representation of the language.

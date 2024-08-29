@@ -10,7 +10,7 @@ orthographies:
     required for proper representation of the language.
   marks: ◌ँ ◌ं ◌ः ◌़ ◌ा ◌ि ◌ी ◌ु ◌ू ◌ृ ◌े ◌ै ◌ो ◌ौ ◌्
   numerals: <default>
-  punctuation: <default>
+  punctuation: <default> ॰
   currency: <default>
   script: Devanagari
   status: primary
