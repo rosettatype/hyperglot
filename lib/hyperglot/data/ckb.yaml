@@ -9,9 +9,12 @@ orthographies:
   status: primary
 - autonym: سۆرانی
   base: ا ب ت ج ح خ د ر ز س ش ع غ ف ق ل م ن و پ چ ڕ ژ ڤ ک گ ڵ ھ ۆ ی ێ ە
+  auxiliary: ـ
   design_requirements:
   - Positional forms of the characters (initial, medial, and final forms) and some
     ligatures are required for proper representation of the language.
+  numerals: <default>
+  punctuation: <default>
   script: Arabic
   status: primary
 sources:

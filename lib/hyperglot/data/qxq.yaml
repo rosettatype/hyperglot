@@ -2,10 +2,12 @@ name: Qashqa'i
 orthographies:
 - autonym: قشقايی ديل
   base: <pes>
-  currency: <pes>
+  auxiliary: <pes>
   design_requirements: <pes>
   marks: <pes>
   numerals: <pes>
+  punctuation: <pes>
+  currency: <pes>
   script: Arabic
   status: primary
 sources:

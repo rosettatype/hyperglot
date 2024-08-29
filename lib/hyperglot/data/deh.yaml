@@ -2,10 +2,12 @@ name: Dehwari
 orthographies:
 - autonym: دهواری
   base: <pes>
-  currency: <pes>
+  auxiliary: <pes>
   design_requirements: <pes>
   marks: <pes>
   numerals: <pes>
+  punctuation: <pes>
+  currency: <urd>
   script: Arabic
   status: primary
 sources:

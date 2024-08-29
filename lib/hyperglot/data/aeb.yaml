@@ -6,8 +6,8 @@ orthographies:
   currency: <arb>
   design_requirements: <arb>
   marks: <arb>
-  numerals: <arb>
-  punctuation: <arb>
+  numerals: <default>
+  punctuation: <default>
   script: Arabic
   status: primary
 sources:

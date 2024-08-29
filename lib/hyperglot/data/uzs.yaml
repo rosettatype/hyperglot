@@ -2,10 +2,14 @@ name: Southern Uzbek
 orthographies:
 - autonym: وزبیکی
   base: ء ئ ا ب ت ج ح خ د ر ز س ش غ ف ق ك ل م ن ه و ى ي پ چ ژ ڭ گ ھ ۇ ۋ ې ک ی
+  auxiliary: ـ
   design_requirements:
   - Positional forms of the characters (initial, medial, and final forms) and some
     ligatures are required for proper representation of the language.
   marks: ◌ٔ
+  numerals: <default>
+  punctuation: <default>
+  currency: <default>
   script: Arabic
   status: primary
 sources:

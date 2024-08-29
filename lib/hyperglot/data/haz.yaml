@@ -3,10 +3,12 @@ note: The number of speakers is an estimate based on the Hazaras population.
 orthographies:
 - autonym: هزارگی
   base: <pes>
-  currency: <pes>
+  auxiliary: <pes>
   design_requirements: <pes>
   marks: <pes>
   numerals: <pes>
+  punctuation: <pes>
+  currency: <pnb>
   script: Arabic
   status: primary
 sources:

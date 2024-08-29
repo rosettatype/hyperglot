@@ -6,7 +6,8 @@ orthographies:
   base: <apd>
   design_requirements: <apd>
   marks: <apd>
-  numerals: <apd>
+  numerals: <default>
+  punctuation: <default>
   script: Arabic
   status: primary
 sources:
