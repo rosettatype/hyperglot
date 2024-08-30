@@ -6,7 +6,7 @@ orthographies:
     ש ת
   marks: ◌ְ ◌ֱ ◌ֲ ◌ֳ ◌ִ ◌ֵ ◌ֶ ◌ַ ◌ָ ◌ֹ ◌ֻ ◌ּ ◌ׁ ◌ׂ
   numerals: <default Latin>
-  punctuation: <default Latin> ׀ ׳ ״ ־ ׃
+  punctuation: <default Latin> ’” ׀ ׳ ״ ־ ׃
   currency: ₪ <default Latin>
   script: Hebrew
   status: primary

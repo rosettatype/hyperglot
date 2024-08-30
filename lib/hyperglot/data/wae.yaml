@@ -7,7 +7,8 @@ orthographies:
     Š Ũ a b c d e f g h i j k l m n o p q r s t u v w x y z á ã ä é í ó õ ö ú ü č
     š ũ
   marks: ◌́ ◌̃ ◌̈ ◌̌ ◌̀ ◌̂ ◌̄ ◌̆ ◌̊ ◌̧
-  numerals: <default>
+  punctuation: <default> ‚ „ ‘ “ ‹ › « »
+  currency: <default secondary>
   script: Latin
   status: primary
 sources:
