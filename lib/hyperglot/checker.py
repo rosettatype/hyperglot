@@ -91,6 +91,8 @@ class Checker:
         """
 
         languages = Languages()
+        # FIXME: need a better way of this key not ending up in the Languages dict
+        del languages["default"]
 
         support = {}
 
@@ -196,14 +198,14 @@ class Checker:
         # Note we have "linb" iso code with 4 letters :/
         if not isinstance(iso, str) or len(iso) < 3 or len(iso) > 4:
             raise ValueError(
-                "Checker.supports_language expects a 3 letter iso code, got '{iso}'."
+                f"Checker.supports_language expects a 3 letter iso code, got '{iso}'."
             )
 
         try:
             language = Language(iso)
         except KeyError:
             raise ValueError(
-                "Checker.supports_language got iso code '{iso}' not found in the database."
+                f"Checker.supports_language got iso code '{iso}' not found in the database."
             )
 
         # Exit if validity is not met
