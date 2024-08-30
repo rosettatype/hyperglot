@@ -6,7 +6,7 @@ orthographies:
     i j k l m n o p q r s t u v w x y z ß ä ö ü
   marks: ◌̈ ◌̀ ◌́
   note: Includes capital Eszett as an auxiliary character for capitalization of ß.
-  punctuation: <default> „ « » ‹ ›
+  punctuation: <default> ‚ „ « » ‹ ›
   currency: <default secondary>
   numerals: <default>
   script: Latin
@@ -28,6 +28,8 @@ orthographies:
     i j k l m n o p q r s t u v w x y z ß ä ö ü
   marks: ◌̈ ◌̀ ◌́
   note: Use of ſ declined after the 18th century.
+  punctuation: <default> ‚ „ « » ‹ ›
+  currency: <default secondary>
   numerals: <default>
   script: Latin
   status: historical
