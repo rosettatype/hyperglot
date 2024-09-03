@@ -2,7 +2,6 @@ name: Western Panjabi
 orthographies:
 - autonym: ਪੰਜਾਬੀ,
   base: <pan>
-  auxiliary: <pan>
   design_requirements: <pan>
   marks: <pan>
   note: Used in India.

@@ -1,7 +1,6 @@
 name: Panjabi
 orthographies:
 - autonym: ਪੰਜਾਬੀ,
-  auxiliary: 
   base: ਅ ਬ ਭ ਗ ਧ ਢ ੲ ਵ ਦ ਡ ਹ ਘ ਥ ਠ ਯ ਕ ਚ ਲ ਮ ਨ ਣ ਸ ੳ ਪ ਫ ਖ ਛ ਰ ਤ ਟ ਜ
   design_requirements:
   - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are

@@ -72,7 +72,18 @@ base: Å <eng> À Á
 base: Å A B C (etc. all from eng) À Á
 ```
 
-Note: Avoid `<g>` character highlights in notes etc., use `‘g’` or `/'/` instead.
+**Using defaults**
+
+Since many languages of a given script will share some basic set of attributes there are convenience
+defaults. When possible, use these defaults and avoid deeply nested inheritance chains. You can 
+utilise the [lib/hyperglot/extra_data/default.yaml] contents for inheritance, as if it were a iso code, e.g.:
+
+```
+numerals: <default Arabic>
+punctuation: <default Latin> <default Cyrillic>
+```
+
+Note: Avoid `<g>` character highlights elsewhere in notes etc., e.g. use `‘g’` or `/'/` instead.
 
 
 ### Macrolanguages

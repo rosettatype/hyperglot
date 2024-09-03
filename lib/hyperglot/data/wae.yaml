@@ -9,6 +9,7 @@ orthographies:
   marks: ◌́ ◌̃ ◌̈ ◌̌ ◌̀ ◌̂ ◌̄ ◌̆ ◌̊ ◌̧
   punctuation: <default> ‚ „ ‘ “ ‹ › « »
   currency: <default secondary>
+  numerals: <default>
   script: Latin
   status: primary
 sources:

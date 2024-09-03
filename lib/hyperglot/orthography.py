@@ -1,7 +1,7 @@
 import re
 import logging
 import unicodedata2
-from typing import List, Set
+from typing import List, Set, Tuple
 
 from hyperglot import (
     OrthographyStatus,
@@ -32,7 +32,7 @@ def get_script_iso(name: str) -> str:
     return scripts[name]["iso_15924"]
 
 
-def is_mark(c):
+def is_mark(c: str) -> bool:
     # Nothing is no mark
     if not c:
         return False
@@ -45,6 +45,171 @@ def is_mark(c):
         return unicodedata2.category(c).startswith("M")
     except Exception as e:
         log.error("Cannot get unicode category of '%s': %s" % (c, str(e)))
+
+
+def find_all_inheritance_codes(value: str) -> List:
+    """
+    In an attribute value find all <iso ...> inheritance shortcodes.
+    """
+    if not value:
+        return []
+
+    inherit = RE_INHERITANCE_TAG.findall(value)
+
+    if inherit is None or inherit == []:
+        return []
+
+    # Ignore any <g> or similar short markup from the data, e.g. inside notes
+    # this might have been used to highlight a individual characters.
+    inherit = [i for i in inherit if len(i.strip()) >= 3]
+
+    # Return matches with their position and original length
+    matches = []
+    for i in inherit:
+        matches = [(i, value.find(i), len(i))]
+
+    return matches
+
+
+def extract_inheritance_specifics(code: str, attr: str) -> Tuple:
+    """
+    For an inheritance code like <iso attribute Script status> extract all
+    values, or return defaults.
+    """
+
+    parts = re.split(r"\s+", code.strip())
+
+    lang = parts.pop(0)
+    attribute = attr
+    status = None
+    script = None
+
+    if len(lang) < 3 or len(lang) > 4 and lang != "default":
+        raise KeyError(
+            "Skipping inheritance for '<%s>' — not a valid iso code."
+            "Could this be an accidental <...> sequence inside an "
+            "attribute? Review the data." % str(code)
+        )
+    if len(parts) > 0:
+
+        # Look at the other parts, see if any of them is a valid
+        # orthography attribute, if so, overwrite attr to inherit to
+
+        for p in list(parts):
+            if p in Orthography.inheritable_defaults.keys():
+                attribute = p
+                parts.remove(p)
+
+            if p in load_scripts_data().keys():
+                script = p
+                parts.remove(p)
+
+            if p in OrthographyStatus.values():
+                status = p
+                parts.remove(p)
+
+        if len(parts) > 0:
+            raise ValueError(
+                f"Orthography tries to inherit from '{code}'. Could "
+                f"not resolve '{parts}' as an orthography "
+                "script, attribute or status."
+            )
+
+        return lang, attribute, status, script
+    return lang, attribute, status, script
+
+
+def resolve_inherited_attributes(value: str, attr: str, script: str) -> str:
+    """
+    Recursively resolve any <iso...> inheritance shortcodes in the passed in
+    @param value.
+    @parm attr and @param script are used to determine the "best" match.
+    """
+
+    resolved = value
+
+    # Late import to avoid circular import
+    from hyperglot.language import Language
+
+    # Recursively call this until none are found
+    codes = find_all_inheritance_codes(value)
+
+    if len(codes) == 0:
+        return value
+
+    # One by one replace any <iso> inheritance tags
+    while len(codes) > 0:
+
+        # Keep the position and length in the original string, to replace with
+        # the resolved attribute
+        code, beginning, length = codes.pop(0)
+
+        if script == "":
+            script = None
+
+        iso, attribute, status, _script = extract_inheritance_specifics(code, attr)
+
+        log.debug(
+            f"Inheriting to orthography from: {iso} {_script} {attribute} {status}"
+        )
+
+        ort = None
+        source = Language(iso, inherit=False)
+        err = (
+            f"Orthography cannot inherit '{attr}' from '{iso}' "
+            f"with script '{script}'. Source language has no "
+            f"orthography for script '{script}'"
+        )
+
+        if _script is None:
+            # If no script was specified in the shortcode:
+            # - try with same script as _parent_
+            #   - for character attributes failure to match is an issue
+            #   - for non-character attributes, also try with no script, only
+            #     when absolutely none are found raise an issue
+            try:
+                ort = source.get_orthography(script=script, status=status)
+            except KeyError:
+                if attribute in ("base", "auxiliary", "marks"):
+                    raise KeyError(err)
+                try:
+                    ort = source.get_orthography(script=None, status=status)
+                except KeyError:
+                    raise KeyError(err)
+        else:
+            # Script explicitly set in shortcode, failure to match is an issue
+            try:
+                script = _script
+                ort = source.get_orthography(script=_script, status=status)
+            except KeyError:
+                raise KeyError(err)
+
+        if attribute not in ort or ort[attribute] is None:
+            raise KeyError(
+                f"Orthography cannot inherit non-existing '{attribute}' from "
+                f"'{iso}' (script {script}, status {status}), nothing inherited."
+            )
+        
+        # Return the replaced value with the same type as the source one
+        replacement = ort[attribute]
+
+        if type(replacement) is str and "<" in replacement:
+            # Recursive replacement
+            replacement = resolve_inherited_attributes(replacement, attribute, script)
+
+        # Insert the inherited characters in the place of the <iso> tag. We
+        # don't worry about duplicate characters at this spot, later
+        # parse_chars calls will take care of that when and as needed.
+        resolved = (
+            resolved[: beginning - 1]
+            + str(replacement)
+            + resolved[beginning + length + 1 :]
+        )
+
+        # Start anew, keep looping while codes are found
+        codes = find_all_inheritance_codes(resolved)
+
+    return resolved
 
 
 class Orthography(dict):
@@ -92,7 +257,7 @@ class Orthography(dict):
 
     def _resolve_inherited_attributes(self, attr: str) -> None:
         """
-        Resolve any {iso} code references in the orthography attributes to
+        Resolve any <iso> code references in the orthography attributes to
         inherit them from the referenced language. The inherited characters
         are added in the position of the tag.
 
@@ -100,147 +265,37 @@ class Orthography(dict):
         attribute and orthography status:
 
         # get the primary orthography of same script
-        {iso}
+        <iso>
 
         # get very specific
-        {iso Arabic auxiliary transliteration}
+        <iso Arabic auxiliary transliteration>
 
         # nest within other values
-        a b c {iso} d e f
+        a b c <iso> d e f
         or
-        a b c d e f {iso}
+        a b c d e f <iso>
         """
 
-        # Late import to avoid going circular
-        from hyperglot.language import Language
-
-        # Find any {iso} inheritance tags
-        inherit = None
+        replaced = None
         value = self[attr]
-        value_is_yaml_list = type(value) is list
 
-        if value_is_yaml_list:
-            for listitem in value:
-                codes = RE_INHERITANCE_TAG.findall(listitem)
-                if codes is not []:
-                    if inherit is None:
-                        inherit = []
-                    inherit.extend(codes)
-        else:
-            inherit = RE_INHERITANCE_TAG.findall(value)
-
-        if inherit is None or inherit == []:
-            return
-        
-        # Strip any <g> or similar from the data, e.g. inside notes this might
-        # have been used to highlight a individual characters.
-        inherit = [i.strip() for i in inherit if len(i.strip()) >= 3]
-
-        if inherit == []:
+        if value == [] or value == "" or value is None:
             return
 
-        # Store any resolved character lists under the iso code
-        resolved = {}
-
-        # For each resolved <...> code, parse the characters
-        for code in [i.strip() for i in inherit]:
-            parts = re.split(r"\s+", code)
-
-            lang = parts.pop(0)
-            attribute = attr
-            status = None
-            script = None
-
-            if len(lang) < 3 or len(lang) > 4:
-                logging.debug(
-                    "Skipping inheritance for what looks like an accidental"
-                    "<...> sequence inside an attribute. Review the data: %s" %
-                    str(value)
-                )
-                continue
-
-            if len(parts) > 0:
-
-                # Look at the other parts, see if any of them is a valid
-                # orthography attribute, if so, overwrite attr to inherit to
-
-                for p in list(parts):
-                    if p in self.inheritable_defaults.keys():
-                        attribute = p
-                        parts.remove(p)
-
-                    if p in load_scripts_data().keys():
-                        script = p
-                        parts.remove(p)
-
-                    if p in OrthographyStatus.values():
-                        status = p
-                        parts.remove(p)
-
-                if len(parts) > 0:
-                    raise ValueError(
-                        f"Orthography tries to inherit from '{code}'. Could "
-                        f"not resolve '{parts}' as an orthography "
-                        "script, attribute or status."
+        try:
+            if type(value) is list:
+                replaced = []
+                for listitem in value:
+                    replaced.append(
+                        resolve_inherited_attributes(listitem, attr, self.script)
                     )
-
-            log.debug(
-                f"Inheriting to orthography from: {lang} {script} {attribute} {status}"
-            )
-
-            source = Language(lang, inherit=False)
-
-            # Get a matching orthography. Require same script for "characters"
-            # but not for punctuation/currency/numerals which can be inherited
-            # cross-script.
-            if "script" not in self and attribute in ["base", "auxiliary", "marks"]:
-                raise KeyError(
-                    f"Orthography cannot inherit '{attribute}' from '{lang}' "
-                    "without having a script."
-                )
-
-            if script is None:
-                try:
-                    ort = source.get_orthography(script=self["script"], status=status)
-                except KeyError as e:
-                    ort = source.get_orthography(status=status)
+                self[attr] = list(replaced)
             else:
-                try:
-                    ort = source.get_orthography(script=script, status=status)
-                except KeyError as e:
-                    raise KeyError(
-                        f"Orthography cannot inherit '{attr}' from '{lang}' "
-                        f"with script '{script}'. Source language has no "
-                        f"orthography for script '{script}'"
-                    )
-
-            if attribute not in ort:
-                resolved[lang] = ""
-                logging.warning(
-                    f"Orthography cannot inherit non-existing '{attribute}' from "
-                    f"'{lang}', nothing inherited."
-                )
-                continue
-
-            resolved[lang] = ort[attribute]
-
-        # Insert the inherited characters in the place of the <iso> tag. We
-        # don't worry about duplicates at this spot, later parse_chars calls
-        # will take care of that when and as needed.
-        for iso, chars in resolved.items():
-            # For inserting match the iso code "and anything until '>'" and
-            # replace with expanded characters.
-            replace_tag = re.compile(r"\<\s*(" + iso + r"[^>]*)\>")
-            if value_is_yaml_list:
-                value = [
-                    type(chars)(replace_tag.sub(f" {chars} ", v).strip())
-                    for v in value
-                ]
-            else:
-                # Apply the source items' type to the substitution
-                value = type(chars)(replace_tag.sub(f" {chars} ", value).strip())
-        self[attr] = value
-
+                replaced = resolve_inherited_attributes(value, attr, self.script)
+                self[attr] = replaced
+        except KeyError as e:
+            logging.error(f"Failed to expand inheritance tag {value}")
+            raise e
 
     def __getitem__(self, key):
         # Only provide script_iso value on actual access, as it requires a file
