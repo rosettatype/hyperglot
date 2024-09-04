@@ -1,26 +1,22 @@
 import logging
-from fontTools.ttLib import TTFont
+import os
+import sys
+import importlib.util
 from typing import List, Set
 from collections.abc import Iterable
 
+from fontTools.ttLib import TTFont
+
+from hyperglot import DB_CHECKS
+from hyperglot.checkbase import CheckBase
 from hyperglot.shaper import Shaper
 from hyperglot.languages import Languages
 from hyperglot.language import Language
 from hyperglot.orthography import Orthography
-from hyperglot.parse import parse_chars
 from hyperglot import SupportLevel, LanguageValidity
 
 log = logging.getLogger(__name__)
 log.setLevel(logging.WARNING)
-
-log_missing = logging.getLogger("hyperglot.reporting.missing")
-log_missing.setLevel(logging.FATAL)
-
-log_marks = logging.getLogger("hyperglot.reporting.marks")
-log_marks.setLevel(logging.FATAL)
-
-log_joining = logging.getLogger("hyperglot.reporting.joining")
-log_joining.setLevel(logging.FATAL)
 
 
 def format_missing_unicodes(codepoints: Set[str], reference) -> str:
@@ -49,6 +45,56 @@ class Checker:
         self.font = None
         self.shaper = None
 
+    def _get_checks_for_orthography(self, orthography: Orthography):
+        """
+        Parse lib/hyperglot/checks and return all Check classes where
+        conditions are satisfied for this language.
+        """
+        checks = []
+
+        check_files = [
+            f for f in os.listdir(os.path.join(DB_CHECKS)) if f.endswith(".py")
+        ]
+
+        for f in check_files:
+            module_file = os.path.join(DB_CHECKS, f)
+            module_name = os.path.splitext(f)[0]
+
+            try:
+                spec = importlib.util.spec_from_file_location(module_name, module_file)
+                c = importlib.util.module_from_spec(spec)
+                sys.modules[module_name] = c
+                spec.loader.exec_module(c)
+                check = c.Check()
+            except Exception as e:
+                log.error(f"Failed to instantiate check {module_name}. Fix the below:")
+                raise e
+
+            if not isinstance(check, CheckBase):
+                raise Exception(f"Check {module_name} needs to subclass CheckBase!")
+
+            # Ignore checks that only run when checking with a font
+            if check.requires_font and self.shaper is None:
+                continue
+
+            fulfills = True
+
+            if "script" in check.conditions:
+                if "script" in check.conditions:
+                    if check.conditions["script"] != orthography["script"]:
+                        fulfills = False
+            if "attributes" in check.conditions["attributes"]:
+                for a in check.conditions["attributes"]:
+                    if a not in orthography:
+                        fulfills = False
+
+            if fulfills:
+                checks.append((module_name, check.priority, c.Check()))
+
+        checks = sorted(checks, key=lambda x: x[1])
+
+        return checks
+
     def get_supported_languages(
         self,
         supportlevel: str = SupportLevel.BASE.value,
@@ -62,6 +108,7 @@ class Checker:
         report_missing: int = -1,
         report_marks: int = -1,
         report_joining: int = -1,
+        report_conjuncts: int = -1,
     ) -> dict:
         """
         Get all languages supported based on the passed in characters.
@@ -136,6 +183,7 @@ class Checker:
                 report_missing=report_missing,
                 report_marks=report_marks,
                 report_joining=report_joining,
+                report_conjuncts=report_conjuncts,
                 # We want to explicitly get what scripts of a language are
                 # supported.
                 return_script_object=True,
@@ -164,6 +212,7 @@ class Checker:
         report_missing: int = -1,
         report_marks: int = -1,
         report_joining: int = -1,
+        report_conjuncts: int = -1,
         return_script_object: bool = False,
     ) -> bool:
         """
@@ -181,11 +230,11 @@ class Checker:
             orthographies from this Language object. 'transliteration'
             orthographies are always ignored. False by default.
         @param report_missing int: Report languages with <= n issues. Report
-            any number of issues when 0, andreport nothing when -1 (default).
+            any number of issues when 0, and report nothing when -1 (default).
         @param report_marks int: Report languages with <= n issues. Report
-            any number of issues when 0, andreport nothing when -1 (default).
+            any number of issues when 0, and report nothing when -1 (default).
         @param report_joining int: Report languages with <= n issues. Report
-            any number of issues when 0, andreport nothing when -1 (default).
+            any number of issues when 0, and report nothing when -1 (default).
         @param return_script_object bool: Flag to return a dict of languages
             sorted by scripts. The default (false) returns a boolean indicating
             the checked language's support. This is mostly used internally when
@@ -228,134 +277,55 @@ class Checker:
         if orthographies == []:
             return {} if return_script_object else False
 
+        self.shaper = None
         if shaping:
             # Setup a reusable shaper to run checks with
             self.shaper = Shaper(self.fontpath)
 
         for ort in orthographies:
-            # Track if this orthography is supported or not. Note that instead
-            # of continue'ing early, keep this boolean and perform further
-            # checks even when unsupported, to output possible reporting about
-            # all detected misses.
-            supported = False
+            supported = True
+            checks = self._get_checks_for_orthography(ort)
 
-            if not ort.base:
-                continue
-
-            base = ort.get_chars("base", marks)
-
-            if not decomposed:
-                supported = base.issubset(self.characters)
-            else:
-                # If we accept that a set of characters matches for a
-                # language also when it has only base+mark encodings, we
-                # need to check support for each of the languages chars.
-                supported = True
-                for c in base:
-                    decomposed_char = set(parse_chars(c))
-                    if not decomposed_char.issubset(self.characters):
-                        supported = False
-
-            if not supported:
-                log.debug(
-                    "%s missing from language base for: %s"
-                    % (language, format_missing_unicodes(base, self.characters))
+            # FIXME TBD Run all checks, even after one has failed, to get logging output
+            for check_name, priority, c in checks:
+                result = c.check(
+                    ort,
+                    self,
+                    # Pass the support arguments
+                    marks=marks,
+                    supportlevel=supportlevel,
+                    decomposed=decomposed,
+                    validity=validity,
                 )
-                base_missing = base.difference(self.characters)
-
-                if len(base_missing) > 0:
-                    # Reporting output
-                    if report_missing == 0 or report_missing >= len(base_missing):
-                        log_missing.warning(
-                            "%s missing characters for 'base': %s"
-                            % (language, ", ".join(base_missing))
-                        )
-
-                    # Validation
+                if not result:
                     supported = False
-                    logging.info(
-                        f"{language} missing {len(base_missing)} base characters"
-                    )
 
-            # Proceed with shaping checks (for output) even when font is
-            # already found not supporting a language!
-            if shaping:
-                joining_errors, mark_errors = self._check_shaping(
-                    ort, "base", marks, decomposed
-                )
+                    # Reporting, by different loggers, levels and limits
+                    # The checks themselves buffer their logs into self.logs
+                    # so we can output them here based on their count.
+                    for logger, severity, count, msg in c.logs:
+                        if logger.name == "hyperglot.reporting.missing" and (
+                            report_missing == 0 or report_missing >= count
+                        ):
+                            logger.log(severity, f"{iso}: {msg}")
 
-                # Reporting output
-                if len(joining_errors) > 0:
-                    if report_joining == 0 or report_joining >= len(joining_errors):
-                        log_joining.warning(
-                            "%s missing joining forms for 'base': %s"
-                            % (language, ", ".join(joining_errors))
-                        )
-                if len(mark_errors) > 0:
-                    if report_marks == 0 or report_marks >= len(mark_errors):
-                        log_marks.warning(
-                            "%s missing mark attachment for 'base': %s"
-                            % (language, ", ".join(mark_errors))
-                        )
+                        if logger.name == "hyperglot.reporting.marks" and (
+                            report_marks == 0 or report_marks >= count
+                        ):
+                            logger.log(severity, f"{iso}: {msg}")
 
-                # Validation
-                if len(joining_errors) > 0 or len(mark_errors) > 0:
-                    supported = False
-                    msg = [f"{language} missing base shaping for: "]
-                    if len(mark_errors) > 0:
-                        msg.append("- mark attachment: " + " ".join(mark_errors))
-                    if len(joining_errors) > 0:
-                        msg.append("- joining shapes: " + " ".join(joining_errors))
-                    logging.info("\n".join(msg))
+                        if logger.name == "hyperglot.reporting.joining" and (
+                            report_joining == 0 or report_joining >= count
+                        ):
+                            logger.log(severity, f"{iso}: {msg}")
 
-            # If an orthography has no "auxiliary" we consider it supported on
-            # "auxiliary" level, too.
-            if supportlevel == SupportLevel.AUX.value and ort.auxiliary:
-                if marks:
-                    req_marks_aux = ort.auxiliary_marks
-                else:
-                    req_marks_aux = ort.required_auxiliary_marks
+                        if logger.name == "hyperglot.reporting.conjuncts" and (
+                            report_conjuncts == 0 or report_conjuncts >= count
+                        ):
+                            logger.log(severity, f"{iso}: {msg}")
 
-                aux = set(ort.auxiliary_chars + req_marks_aux)
-                aux_missing = aux.difference(self.characters)
-
-                if len(aux_missing) > 0:
-                    # Reporting output
-                    if report_missing == 0 or report_missing >= len(aux_missing):
-                        log_missing.warning(
-                            "%s missing characters for 'base': %s"
-                            % (language, ", ".join(aux_missing))
-                        )
-
-                    # Validation
-                    supported = False
-                    logging.info(f"{language} missing {len(aux_missing)} 'aux'")
-
-                # Proceed with shaping checks (for output) even when font is
-                # already found not supporting a language!
-                if shaping:
-                    joining_errors, mark_errors = self._check_shaping(
-                        ort, "auxiliary", marks, decomposed
-                    )
-
-                    # Reporing output
-                    if len(joining_errors) > 0:
-                        if report_joining == 0 or report_joining >= len(joining_errors):
-                            log_joining.warning(
-                                "%s missing joining forms for 'aux': %s"
-                                % (language, ", ".join(joining_errors))
-                            )
-                    if len(mark_errors) > 0:
-                        if report_marks == 0 or report_marks > len(mark_errors):
-                            log_marks.warning(
-                                "%s missing mark attachment for 'aux': %s"
-                                % (language, ", ".join(mark_errors))
-                            )
-
-                    # Validation
-                    if len(joining_errors) > 0 or len(mark_errors) > 0:
-                        supported = False
-                        logging.info(f"{language} missing aux shaping")
+                    # Abort the remaining checks with lower priority
+                    break
 
             # At this point, if not supported, skip.
             if not supported:
@@ -366,37 +336,6 @@ class Checker:
             support[ort.script].append(iso)
 
         return support if return_script_object else support != {}
-
-    def _check_shaping(
-        self,
-        orthography: Orthography,
-        attr: str,
-        all_marks: bool,
-        decomposed: bool,
-    ) -> tuple:
-        """
-        Check orthography shaping (joining behaviour and mark attachment) for
-        given support level.
-        """
-        joining_errors = orthography.check_joining(
-            orthography.get_chars(attr, all_marks), self.shaper
-        )
-
-        check_attachment = []
-        chars = getattr(orthography, attr)
-
-        # Mark positioning needs to at least work for all unencoded
-        # base + mark base characters.
-        check_attachment.extend([c for c in chars if len(c) > 1])
-
-        # If checking against decomposed characters also base + mark combinations
-        # that do not exist precomposed in the characters need to be checked.
-        if decomposed:
-            check_attachment.extend([c for c in chars if c not in self.characters])
-
-        mark_errors = orthography.check_mark_attachment(check_attachment, self.shaper)
-
-        return (joining_errors, mark_errors)
 
 
 class FontChecker(Checker):

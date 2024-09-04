@@ -26,6 +26,7 @@ plex_arabic_without_medi_fina = os.path.abspath(
 
 def test_cli_basic():
     res = runner.invoke(cli, [eczar])
+    print(res.output)
     assert res.exit_code == 0
     assert "languages of Latin script" in res.output
     assert "10 languages of Devanagari script" in res.output

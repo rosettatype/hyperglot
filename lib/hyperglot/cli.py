@@ -297,6 +297,7 @@ def cli(
     report_all=-1,
     report_missing=-1,
     report_joining=-1,
+    report_conjuncts=-1,
     report_marks=-1,
 ):
     """
@@ -313,11 +314,14 @@ def cli(
     elif verbose > 1:
         # For debugging verbosity also opt in to all near misses reporting
         loglevel = logging.DEBUG
+        logging.getLogger("hyperglot.reporting.missing").setLevel(logging.WARNING)
         logging.getLogger("hyperglot.reporting.marks").setLevel(logging.WARNING)
         logging.getLogger("hyperglot.reporting.joining").setLevel(logging.WARNING)
+        logging.getLogger("hyperglot.reporting.conjuncts").setLevel(logging.WARNING)
         report_missing = True
         report_joining = True
         report_marks = True
+        report_conjuncts = True
     else:
         loglevel = logging.WARNING
 
@@ -343,6 +347,8 @@ def cli(
         logging.getLogger("hyperglot.reporting.marks").setLevel(logging.WARNING)
     if report_joining >= 0:
         logging.getLogger("hyperglot.reporting.joining").setLevel(logging.WARNING)
+    if report_conjuncts >= 0:
+        logging.getLogger("hyperglot.reporting.conjuncts").setLevel(logging.WARNING)
 
     if fonts == ():
         print("Provide at least one path to a font or --help for more " "information")
@@ -363,6 +369,7 @@ def cli(
             report_missing=report_missing,
             report_marks=report_marks,
             report_joining=report_joining,
+            report_conjuncts=report_conjuncts,
         )
 
         level = SupportLevel(support).value
@@ -503,6 +510,12 @@ def data(search):
     "joining sequences. If n is 0 all languages with any number of "
     "missing joining sequences are listed (default).",
 )
+@click.option(
+    "--report-conjuncts",
+    type=int,
+    default=-1,
+    help="TODO",
+)
 @click.pass_context
 def report(ctx, **kwargs):
     """Reporter command to get a list of missing character and shaping
@@ -514,6 +527,7 @@ def report(ctx, **kwargs):
         and kwargs["report_missing"] == -1
         and kwargs["report_marks"] == -1
         and kwargs["report_joining"] == -1
+        and kwargs["report_conjuncts"] == -1
     ):
         print("No reporter option specified, reporting all issues (--report-all 0).")
         kwargs["report_all"] = 0

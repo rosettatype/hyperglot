@@ -48,7 +48,8 @@ setup(name="hyperglot",
           "Topic :: Text Processing :: Linguistic",
       ],
       packages=[
-          "hyperglot"
+          "hyperglot",
+          "hyperglot.checks",
       ],
       package_dir={"": "lib"},
       package_data={"hyperglot": ["data/*.yaml", "extra_data/*"]},
