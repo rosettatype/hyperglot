@@ -3,7 +3,7 @@ Automat==0.8.0
 autopep8==1.4.4
 cffi==1.13.2
 constantly==15.1.0
-cryptography==42.0.4
+cryptography==43.0.1
 cssselect==1.1.0
 entrypoints==0.3
 flake8==3.7.9
