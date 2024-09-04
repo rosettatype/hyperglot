@@ -1,11 +1,14 @@
 """
-Basic Language support checks
+Basic Language support checks.
+
+TODO: Many of these should be refactored/moved to test_checks!
 """
 import os
 import logging
 import pytest
 import unicodedata as uni
 from hyperglot import SupportLevel
+from hyperglot.language import Language
 from hyperglot.parse import character_list_from_string, parse_font_chars, parse_marks
 from hyperglot.checker import CharsetChecker, FontChecker
 
@@ -374,7 +377,8 @@ def test_checker_missing(caplog):
     checker.supports_language("eng", report_missing=4)
     record = caplog.records[0]
     assert record.levelno == logging.WARNING
-    assert "(eng) English missing characters for 'base'" in record.msg
+    assert "missing characters for 'base'" in record.msg
+    assert "eng:" in record.msg
     caplog.clear()
 
     # but this should not log:
@@ -390,7 +394,8 @@ def test_checker_marks(caplog):
 
     record = caplog.records[0]
     assert record.levelno == logging.WARNING
-    assert "(mah) Marshallese missing mark attachment for 'base'" in record.msg
+    assert "missing mark attachment" in record.msg
+    assert "mah:" in record.msg
 
     caplog.clear()
 
@@ -410,7 +415,8 @@ def test_checker_joining(caplog):
 
     record = caplog.records[0]
     assert record.levelno == logging.WARNING
-    assert "(acm) Iraqi Arabic missing joining forms" in record.msg
+    assert "missing joining forms" in record.msg
+    assert "acm:" in record.msg
 
     caplog.clear()
 
@@ -424,3 +430,23 @@ def test_font_checker_logging_names():
     # Make sure not to choke on missing glyph names (refactored shaper code)
     checker = FontChecker(roboto)
     checker.get_supported_languages()
+
+
+def test_checker_load_checks():
+    # Make sure the checker properly matches some basic checks
+    checker = FontChecker(roboto)
+
+    hin_checks = checker._get_checks_for_orthography(Language("hin").get_orthography())
+    assert "check_brahmi_conjuncts" in [c[0] for c in hin_checks]
+    assert "check_brahmi_halfforms" in [c[0] for c in hin_checks]
+
+    fin_checks = checker._get_checks_for_orthography(Language("fin").get_orthography())
+    assert "check_coverage" in [c[0] for c in fin_checks]
+    assert "check_brahmi_conjuncts" not in [c[0] for c in fin_checks]
+
+def test_checker_runs():
+    roboto_checker = FontChecker(roboto)
+
+    assert roboto_checker.supports_language("eng") is True
+    assert roboto_checker.supports_language("arb") is False
+

@@ -12,7 +12,7 @@ import logging
 import re
 import yaml
 import xml.etree.ElementTree as ET
-import unicodedata2 as ud
+import unicodedata as ud
 from hyperglot.languages import Languages
 from hyperglot.parse import parse_chars
 

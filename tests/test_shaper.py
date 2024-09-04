@@ -102,3 +102,28 @@ def test_shaper_marks():
     # With ccmp replacement
     eczar_ccmp_shaper = Shaper(eczar_marks_ccmp)
     assert eczar_ccmp_shaper.check_mark_attachment("s" + chr(0x0328)) is True
+    eczar = os.path.abspath("tests/Eczar-v1.004/otf/Eczar-Regular.otf")
+
+
+def test_shaper():
+    # Not really too much sense in these, more of a functional check.
+
+    eczar_shaper = Shaper(eczar)
+    assert eczar_shaper.shape("A").glyph_positions[0].position == (0, 0, 696, 0)
+
+    # Font glyph ID (=codepoint)
+    assert eczar_shaper.get_glyph_infos("A")[0].codepoint == 40
+    assert eczar_shaper.names_for_codepoints([40]) == ["A"]
+
+    plex_shaper = Shaper(plex_arabic)
+
+    # no offsets, just x advanced
+    assert plex_shaper.shape("ت").glyph_positions[0].position == (0, 0, 839, 0)
+
+    # first in buffer is positioned mark
+    assert plex_shaper.shape("تً").glyph_positions[0].position == (294, 181, 0, 0)
+    # second is same as un-mark'ed character
+    assert (
+        plex_shaper.shape("تً").glyph_positions[1].position
+        == plex_shaper.shape("ت").glyph_positions[0].position
+    )

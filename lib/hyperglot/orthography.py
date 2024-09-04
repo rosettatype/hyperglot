@@ -9,14 +9,12 @@ from hyperglot import (
     CHARACTER_ATTRIBUTES,
     RE_INHERITANCE_TAG,
 )
-from hyperglot.shaper import Shaper
 from hyperglot.parse import (
     parse_chars,
     parse_marks,
     remove_mark_base,
     list_unique,
     character_list_from_string,
-    get_joining_type,
     drop_inheritance_tags,
     is_mark,
     filter_chars,
@@ -243,6 +241,7 @@ class Orthography(dict):
         "punctuation": "",
         "numerals": "",
         "currency": "",
+        "conjuncts": "",
         "design_requirements": [],
     }
 
@@ -423,7 +422,11 @@ note: {note}
         return self._required_marks("aux")
 
     @property
-    def currency(self) -> List[str]:
+    def conjuncts(self):
+        return self._character_list("conjuncts")
+
+    @property
+    def currency(self):
         return self._character_list("currency")
 
     @property
@@ -448,46 +451,6 @@ note: {note}
             self.base_chars
             + (self.base_marks if all_marks else self.required_base_marks)
         )
-
-    def check_joining(self, chars: List[str], shaper: Shaper) -> List:
-        """
-        Check the joining behaviour for the passed in characters.
-
-        TODO: instead of passing chars pass the relevant attributes to check?
-        """
-        require_shaping = [
-            c for c in chars if get_joining_type(c) in ["D", "R", "L", "T"]
-        ]
-        if require_shaping == []:
-            return []
-
-        missing_shaping = []
-        for char in require_shaping:
-            if shaper.check_joining(ord(char)) is False:
-                missing_shaping.append(char)
-
-        if missing_shaping != []:
-            log.debug(f"Missing required joining forms for: {missing_shaping}")
-            return missing_shaping
-
-        return []
-
-    def check_mark_attachment(self, chars: List[str], shaper: Shaper) -> List:
-        """
-        Check the mark attachment for the passed in characters.
-
-        TODO: instead of passing chars pass the relevant attributes to check?
-        """
-        missing_positioning = []
-        for c in chars:
-            if shaper.check_mark_attachment(c) is False:
-                missing_positioning.append(c)
-
-        if missing_positioning != []:
-            log.debug(f"Missing required mark positioning for: {missing_positioning}")
-            return missing_positioning
-
-        return []
 
     # "Private" methods
 

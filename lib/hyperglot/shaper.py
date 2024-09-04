@@ -2,23 +2,58 @@ from functools import lru_cache
 from typing import Iterable
 import logging
 import unicodedata as uni
-from typing import List
+from typing import List, Union
 import uharfbuzz as hb
-from hyperglot.parse import join_variants, parse_chars
+from fontTools.ttLib import TTFont
 
 log = logging.getLogger(__name__)
 log.setLevel(logging.WARNING)
 
+VIRAMA = chr(0x094D)
+ZWJ = chr(0x200D)
+ZWNJ = chr(0x200C)
+DOTTED_CIRCLE = chr(0x25CC)
+
+BRAHMIC_CATEGORIES = {
+    "+": [chr(0x094D)],
+    "V": [
+        chr(c)
+        for c in list(range(0x0904, 0x0914 + 1))
+        + [0x0960, 0x0961]
+        + list(range(0x0973, 0x0977 + 1))
+    ],
+    "C": [
+        chr(c)
+        for c in list(range(0x0915, 0x0939 + 1))
+        + list(range(0x0958, 0x095F + 1))
+        + list(range(0x0978, 0x097F + 1))
+    ],
+    "D": [
+        chr(c)
+        for c in [0x093A, 0x093B]
+        + list(range(0x093E, 0x094C + 1))
+        + [0x094E, 0x094F]
+        + [0x0955, 0x0956, 0x0957]
+        + [0x0962, 0x0963]
+    ],
+    "M": [chr(0x093C)],
+    "m": [chr(c) for c in list(range(0x0900, 0x0903 + 1))],
+    "P": [chr(c) for c in [0x093D, 0x0964, 0x0965]],
+    "z": [chr(0x200C), chr(0x200D)],
+}
+
 
 class Shaper:
     """
-    Helper class to check harfbuzz shaping of a font.
+    Helper class to check harfbuzz shaping of a font. Provides shaping buffer
+    information to checks, so they can implement their logic.
     """
 
     def __init__(self, fontpath):
         blob = hb.Blob.from_file_path(fontpath)
         face = hb.Face(blob)
         self.font = hb.Font(face)
+        self.ttf = TTFont(fontpath)
 
     def shape(self, text):
         """
@@ -35,6 +70,9 @@ class Shaper:
             "mark": True,
             "mkmk": True,
             "ccmp": True,
+            "abvm": True,
+            "blwm": True,
+            "dist": True,
             # Explicitly opt out of these so they do not interfere with basic
             # shaping/joining
             "liga": False,
@@ -74,141 +112,19 @@ class Shaper:
         return [str(self.font.get_glyph_name(m)) for m in codepoints]
 
     @lru_cache
-    def check_joining(self, unicode: int) -> bool:
+    def _get_font_cp(self, char: str) -> Union[int | bool]:
         """
-        Check if the string exhibits joining behaviour (shaping differs) by
-        comparing its plain version to a version joined with zero width
-        joiners.
-
-        Return True if the shaping differs or the glyph requires no shaping.
-        Return False if the shaping remains unchanged but requires joining
-        behaviour.
-
-        @param unicode (int): A single unicode to check for all required
-            joining variants.
-        @return bool
+        Render character in the buffer to get the font codepoint for it.
         """
 
-        string = chr(unicode)
+        cmap = {v: k for k, v in self.ttf["cmap"].getBestCmap().items()}
 
-        # Use the helper to generate one sequence of given string joined by
-        # spaces not causing joining behaviour, and one joined by zero width
-        # joiner causing joining behaviour. We can then compare if they differ
-        # to deduct working joining behaviour.
-        plain = join_variants(string, " ")
-        zwj = join_variants(string)
+        for d in self.get_glyph_data(char):
+            glyphname = self.font.get_glyph_name(d[0].codepoint)
+            try:
+                if (cmap[glyphname]) == ord(char):
+                    return d[0].codepoint
+            except KeyError as e:
+                log.debug(f"Failed to get font codepoint for '{char}': {e}")
 
-        if plain == []:
-            return True
-
-        glyph_info = self.get_glyph_infos(string)
-        glyph_id = glyph_info[0].codepoint
-
-        # The glyph is not in the font at all.
-        if glyph_id == 0:
-            return False
-
-        # The plain/zwj are arrays of sequences of the unicode in question
-        # joined based on its unicode joining_type flags; check through all
-        # possible join sequences to confirm all are supported in the font.
-        #
-        # It would be _nice_ to be able to check specifically if the base glyph
-        # transforms into a init/medi/fina form, but this assumption is not
-        # 100% reliable across all fonts, so we just check if the shaping
-        # differs just generally.
-        for i in range(0, len(plain)):
-            # Get the buffer info of the sequence, and compare the codepoints.
-            # Note those are font GIDs not, unicodes!
-            codes_plain = [g.codepoint for g in self.get_glyph_infos(plain[i])]
-            codes_joined = [g.codepoint for g in self.get_glyph_infos(zwj[i])]
-
-            if not codes_plain != codes_joined:
-                return False
-
-        # All shape.
-        return True
-
-    @lru_cache
-    def check_mark_attachment(self, input: str) -> bool:
-        """
-        Check if the input string, usually a single character or character
-        plus n marks, has correct shaping from mark attachements by
-        checking if all mark glyphs are positioned.
-        """
-
-        # Compose, then fully decompose the input.
-        input = uni.normalize("NFC", input)
-        chars = parse_chars(input, decompose=True, retain_decomposed=False)
-
-        # Get a harfbuzz buffer's info to inspect shaping.
-        data = self.get_glyph_data("".join(chars))
-
-        if len(input) == 1 and len(chars) == 1:
-            return True
-
-        if len([mark for mark in chars if uni.category(mark).startswith("M")]) == 0:
-            log.debug(f"No marks in the input sequence '{input}', passes")
-            return True
-
-        if len(input) == 1 and len(chars) == 2:
-            # An character with natural composition to single codepoint was
-            # passed. If the font supports this composition, the buffer
-            # sequence will be the single composed codepoint.
-
-            # TBD not sure if harfbuzz can be made to not make this
-            # normalization so we could explicitly check for the components'
-            # positioning.
-
-            if len(data) == 1:
-                return True
-
-        if len(input) > 1 and len(data) == 1:
-            # A sequence was entered which resulted in substitution to a single
-            # glyph output, like a ccmp transforming a base + mark to a single
-            # glyph. We trust this is intentional by the vendor and constitutes
-            # a shaped mark.
-            return True
-
-        non_marks = {
-            self.font.get_nominal_glyph(ord(c)): c
-            for c in chars
-            if not uni.category(c).startswith("M")
-        }
-
-        missing_from_font = 0
-        missing_positioning = []
-        for glyph_info, glyph_position in data:
-
-            if glyph_info.codepoint in non_marks.keys():
-                continue
-
-            # No such glyph in the font.
-            if (
-                glyph_info.codepoint == 0
-                or self.font.get_glyph_name(glyph_info.codepoint) is None
-            ):
-                missing_from_font = missing_from_font + 1
-                continue
-
-            # This appears to be a unpositioned mark!
-            if glyph_position.x_offset == 0 and glyph_position.y_offset == 0:
-                missing_positioning.append(glyph_info.codepoint)
-                continue
-
-        if missing_from_font != 0:
-            log.debug(
-                f"Mark shaping for '{input}' failed, "
-                "missing %d %s"
-                % (
-                    missing_from_font,
-                    "glyphs" if missing_from_font > 1 else "glyph",
-                )
-            )
-            return False
-
-        if missing_positioning != []:
-            names = ", ".join(self.names_for_codepoints(missing_positioning))
-            log.debug(f"Mark positioning for '{input}' failed, glyph names: '{names}'")
-            return False
-
-        return True
+        return False

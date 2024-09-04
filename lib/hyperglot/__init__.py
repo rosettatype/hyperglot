@@ -10,6 +10,7 @@ __version__ = "0.7.3"
 
 DB = path.abspath(path.join(path.dirname(__file__), "data"))
 DB_EXTRA = path.abspath(path.join(path.dirname(__file__), "extra_data"))
+DB_CHECKS = path.abspath(path.join(path.dirname(__file__), "checks"))
 
 LANGUAGE_CACHE_FILE = ".hyperglot-cache"
 
