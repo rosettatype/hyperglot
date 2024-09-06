@@ -10,7 +10,6 @@ class CheckBase:
     ZWJ = chr(0x200D)
     ZWNJ = chr(0x200C)
     DOTTED_CIRCLE = chr(0x25CC)
-
     BRAHMIC_CATEGORIES = {
         "+": [chr(0x094D)],
         "V": [
@@ -44,11 +43,8 @@ class CheckBase:
         "script": "Devanagari",
         "attributes": ("combinations",),
     }
-
     requires_font = False
-
     priority = 999
-
     logger = logging.getLogger("hyperglot.reporting.errors")
 
     def __init__(self):

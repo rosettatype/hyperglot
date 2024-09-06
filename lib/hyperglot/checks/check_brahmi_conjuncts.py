@@ -45,17 +45,29 @@ class Check(CheckBase):
 
         options = self._get_options(**kwargs)
 
+        conjuncts = list(filter(self.filter_conjuncts, orthography.combinations))
+        if conjuncts == []:
+            return True
+
         # Iterate all syllables to provide reporting.
         # TODO exit early if no reporting is set
-        passes = True
-        for conjunct in filter(self.filter_conjuncts, orthography.combinations):
+        passed = 0
+        failed = 0
+
+        for conjunct in conjuncts:
             # Ensure no .notdef are left over
             if not self.check_all_render(conjunct, checker.shaper):
-                passes = False
+                failed += 1
+                continue
             if not self.check_conjunct(conjunct, checker.shaper):
-                passes = False
+                failed += 1
+                continue
+            passed += 1
 
-        return passes
+        percent = passed/(passed + failed)
+        print("Overall", percent, options["threshold"])
+
+        return percent > options["threshold"]
 
     def filter_conjuncts(self, cluster: str) -> bool:
         """

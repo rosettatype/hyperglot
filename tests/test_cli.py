@@ -212,3 +212,16 @@ def test_sorted_script_languages():
     )
 
     assert sorted_script_languages(unsorted) == expected
+
+
+def test_cli_shaping_threshold():
+
+    res = runner.invoke(cli, eczar + " --shaping-threshold 90")
+    assert res.exit_code == 0
+    assert "10 languages of Devanagari script" in res.output
+    assert "Hindi" in res.output
+
+    res = runner.invoke(cli, eczar + " --shaping-threshold 99")
+    assert res.exit_code == 0
+    assert "9 languages of Devanagari script" in res.output
+    assert "Hindi" not in res.output

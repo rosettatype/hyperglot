@@ -102,6 +102,7 @@ class Checker:
         decomposed: bool = False,
         marks: bool = False,
         shaping: bool = False,
+        shaping_threshold: float = 0.95,
         include_all_orthographies: bool = False,
         include_historical: bool = False,
         include_constructed: bool = False,
@@ -123,6 +124,8 @@ class Checker:
             characters.
         @param marks bool: Flag to require all marks.
         @param shaping bool: Flag to require joining shapes.
+        @param shaping_threshold: Number between 0.00 and 1.00 of shaping checks
+            that muss pass.
         @param include_all_orthographies bool: Return all or just primary
             (default) orthographies of a language.
         @param include_historical bool: Flag to include historical languages.
@@ -179,6 +182,7 @@ class Checker:
                 decomposed=decomposed,
                 marks=marks,
                 shaping=shaping,
+                shaping_threshold=shaping_threshold,
                 check_all_orthographies=include_all_orthographies,  # noqa
                 report_missing=report_missing,
                 report_marks=report_marks,
@@ -208,6 +212,7 @@ class Checker:
         decomposed: bool = False,
         marks: bool = False,
         shaping: bool = False,
+        shaping_threshold: float = 0.95,
         check_all_orthographies: bool = False,
         report_missing: int = -1,
         report_marks: int = -1,
@@ -226,6 +231,8 @@ class Checker:
             characters.
         @param marks bool: Flag to require all marks.
         @param shaping bool: Flag to require joining shapes and mark attachment.
+        @param shaping_threshold: Number between 0.00 and 1.00 of shaping checks
+            that muss pass.
         @param check_all_orthographies bool: Flag to check also non-primary
             orthographies from this Language object. 'transliteration'
             orthographies are always ignored. False by default.
@@ -296,6 +303,7 @@ class Checker:
                     supportlevel=supportlevel,
                     decomposed=decomposed,
                     validity=validity,
+                    threshold=shaping_threshold,
                 )
                 if not result:
                     supported = False
