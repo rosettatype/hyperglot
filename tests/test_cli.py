@@ -224,3 +224,16 @@ def test_cli_export(tmp_path):
     with open(tmp_file, "rb") as f:
         data = yaml.load(f, Loader=yaml.Loader)
         assert "zul" in data.keys()
+
+
+def test_cli_shaping_threshold():
+
+    res = runner.invoke(cli, eczar + " --shaping-threshold 90")
+    assert res.exit_code == 0
+    assert "10 languages of Devanagari script" in res.output
+    assert "Hindi" in res.output
+
+    res = runner.invoke(cli, eczar + " --shaping-threshold 99")
+    assert res.exit_code == 0
+    assert "9 languages of Devanagari script" in res.output
+    assert "Hindi" not in res.output
