@@ -1,3 +1,6 @@
+contributors:
+- Gustavo Costa
+- David Březina
 name: Klingon
 note: An official Klingon orthography has not been accepted into Unicode as of this writing, so fonts relying on Unicode cannot be tested for support. Some fonts using Klingon glyphs encoded in the unicode PUA.
 orthographies:

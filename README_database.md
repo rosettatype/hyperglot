@@ -22,6 +22,7 @@ The highest level entries in the database represent languages indexed using the 
   - `preliminary` for entries that have been verified by at least two online sources,
   - `verified` for entries verified by a competent speaker or a linguist.
 - `note` (optional): a note of any kind.
+- `contributors` (optional): a list of author names that have contributed to this file
 
 
 ### Orthographies
@@ -125,6 +126,35 @@ source: [Wikipedia]
 
 Contributions are more most welcome. If you wish to update the database, submit a pull request with an editted and validated version of the `hyperglot/data` files. **Ideally**, use `hyperglot-validate` and `hyperglot-save`, as this will check and format the data in a way best suited to the database.
 
+To start a new language entry you can use this template and include it in `hyperglot/data/xxx.yaml` as a new language draft in your pull request or github issue:
+
+```yaml
+name: # required
+orthographies:
+- autonym: # optional, name of the language in this language and orthography
+  auxiliary: # optional
+  base: # required
+  currency: # optional
+  marks: # optional
+  numerals: <default>
+  punctuation: <default>
+  script: # required
+  status: primary
+source:
+- Website / Book / link
+speakers: # optional, integer
+speakers_date: # optional, YYYY
+note: # optional
+design_requirements:
+- # optional
+design_alternates:
+- # optional
+status: living
+validity: draft
+contributors:
+- Your Name
+```
+
 ### Development
 
 To run the script during development without having to constantly reinstall the pip package, you can use:
@@ -166,6 +196,7 @@ Note that this will _read_ and _write_ the yaml file.
   - All character list entries will be spaced with a single space between them, on one line
   - All language and orthography attributes will be sorted a-z; while this might not be the most intuitive, this ensures that data is always sorted the same, and thus comparing different versions of the data (with version control) yields predictable results
 - When contributing code make sure to install the `pytest` package and run `pytest tests` to make sure no errors are detected. Ideally, write tests for any code additions or changes you have added.
+- Add yourself to any language files you edit, and add your self to CONTRIBUTORS.txt
 
 ## Sources
 

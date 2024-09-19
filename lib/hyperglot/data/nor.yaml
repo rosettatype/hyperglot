@@ -1,4 +1,6 @@
 autonym: Norsk
+contributors:
+- David Březina
 includes:
 - nno
 - nob

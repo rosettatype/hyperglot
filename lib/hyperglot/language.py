@@ -49,6 +49,7 @@ class Language(dict):
         "speakers": None,
         "validity": None,
         "status": None,
+        "contributors": None,
     }
 
     def __init__(self, iso, data: dict = None, inherit: bool = True):
@@ -89,6 +90,7 @@ orthographies:
 speakers: {speakers}
 status: {status}
 validity: {validity}
+contributors: {contributors}
 """
         import textwrap
 
@@ -109,6 +111,7 @@ validity: {validity}
             speakers="no data" if self["speakers"] is None else self.speakers,  # noqa
             status=self.status,  # noqa
             validity=self.validity,
+            contributors=self.contributors
         )  # noqa
 
     def _parse_data(self) -> Union[dict, bool]:

@@ -1,4 +1,6 @@
 autonym: Kikongo
+contributors:
+- David Březina
 includes:
 - kng
 - ldi

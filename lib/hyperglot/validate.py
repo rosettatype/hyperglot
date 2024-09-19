@@ -60,15 +60,22 @@ def check_types(Langs:Languages) -> None:
     for iso, lang in Langs.items():
         if "includes" in lang:
             if not check_is_yaml_list(lang["includes"]):
-                log.error("'%s' has invalid list 'includes'" % iso)
+                log.error(f"'{iso}' has invalid list 'includes'")
 
         if "source" in lang:
             if not check_is_yaml_list(lang["source"]):
-                log.error("'%s' has invalid list 'source'" % iso)
+                log.error(f"'{iso}' has invalid list 'source'")
+
+        if "contributors" in lang:
+            if lang["contributors"] is None:
+                log.warning(f"'{iso}' is without 'contributors'")
+            else:
+                if not check_is_yaml_list(lang["contributors"]):
+                    log.error(f"'{iso}' has invalid list 'contributors'")
 
         if "orthographies" in lang:
             if not check_is_yaml_list(lang["orthographies"]):
-                log.error("'%s' has invalid list 'orthographies'" % iso)
+                log.error(f"'{iso}' has invalid list 'orthographies'")
 
             preferred_as_group = [o for o in lang["orthographies"] 
                                   if "preferred_as_group" in o and o["preferred_as_group"] is True]
@@ -81,7 +88,7 @@ def check_types(Langs:Languages) -> None:
 
             for o in lang["orthographies"]:
                 if "script" not in o:
-                    log.error("Orthography in '%s' is missing 'script'" % iso)
+                    log.error(f"Orthography in '{iso}' is missing 'script'")
 
                 if "base" in o:
                     if not check_is_valid_glyph_string(o["base"], iso):
@@ -108,7 +115,6 @@ def check_types(Langs:Languages) -> None:
                         type(o["design_requirements"]) is not list:
                     log.error("'%s' has a 'design_requirements' which is not "
                               "a list: %s" % (iso, o["design_requirements"]))
-                    print(o["design_requirements"], type(o["design_requirements"]))
 
                 if "status" not in o:
                     log.error("'%s' has an orthography (script '%s') that is "
@@ -153,10 +159,10 @@ def check_types(Langs:Languages) -> None:
                 )
 
         if "validity" not in lang:
-            log.warning("'%s' is missing 'validity'" % iso)
+            log.warning(f"'{iso}' is missing 'validity'")
 
         if "validity" in lang and lang["validity"] not in LanguageValidity.values():
-            log.error("'%s' has invalid 'validity'" % iso)
+            log.error(f"'{iso}' has invalid 'validity'")
 
         if "speakers" in lang and lang["speakers"] is not None:
             if (re.search(r"[^\d]", str(lang["speakers"]))):
