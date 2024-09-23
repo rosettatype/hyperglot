@@ -63,9 +63,7 @@ def validate_font(ctx, param, value):
     return value
 
 
-def language_list(
-    langs, script=None, strict_iso=False, seperator=", "
-):
+def language_list(langs, script=None, seperator=", "):
     """
     Return a printable string for all languages
     """
@@ -73,7 +71,7 @@ def language_list(
     for iso, l in langs.items():
         lang = Language(iso)
 
-        name = lang.get_name(script, strict_iso)
+        name = lang.get_name(script)
 
         # Trim whitespace and also 200E left to right marks, but allow ")"
         # as last character
@@ -92,7 +90,7 @@ def print_title(title):
     print()
 
 
-def print_to_cli(font, title, strict_iso):
+def print_to_cli(font, title):
     print_title(title)
     total = 0
     for script in font:
@@ -106,7 +104,7 @@ def print_to_cli(font, title, strict_iso):
             )
             print(title)
             print("-" * len(title))
-            print(language_list(font[script], script, strict_iso))
+            print(language_list(font[script], script))
             total = total + count
     if total > 0:
         print()
@@ -247,15 +245,6 @@ def hyperglot_options(f):
         default=False,
         help="Flag to include otherwise ignored contructed languages.",
     )
-    @click.option(
-        "--strict-iso",
-        is_flag=True,
-        default=False,
-        help="Flag to display names and macrolanguage data "
-        "strictly abiding to ISO data. Without it apply some gentle "
-        "transforms to show preferred languages names and "
-        "macrolanguage structure that deviates from ISO data.",
-    )
     @click.option("-v", "--verbose", count=True)
     @click.option("-V", "--version", is_flag=True, default=False)
     @functools.wraps(f)
@@ -279,7 +268,6 @@ def cli(
     include_all_orthographies,
     include_historical,
     include_constructed,
-    strict_iso,
     verbose,
     version,
     # Options not passed via Click, but only when forwarding the call
@@ -377,7 +365,7 @@ def cli(
             level.lower(),
         )
 
-        print_to_cli(results[font_path], title, strict_iso)
+        print_to_cli(results[font_path], title)
 
     data = results
 

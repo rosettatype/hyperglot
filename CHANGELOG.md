@@ -8,6 +8,7 @@
 - TWEAK: Removed the `--speakers` and `--autonym` CLI options
 - TWEAK: Removed the `--comparison` CLI option (see `examples` instead)
 - TWEAK: Removed the `--languages` CLI option, use `hyperglot-info LanguageName/ISO` instead
+- TWEAK: Removed the `--strict_iso` CLI option; use the python library to access this option, particularly `Language.get_name(script, strict_iso=True)`
 
 ## 0.6.4 (20.06.2024)
 - FIX: Fixed an issue where trying to log missing shaping glyphs would crash in `FontChecker`
