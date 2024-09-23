@@ -50,6 +50,11 @@ UNICODE_CONFUSABLES = {
     # added, but large potential for confusion with all sorts of math symbols
 }
 
+def is_yaml_list_str(input:str) -> bool:
+    if type(input) != str:
+        return False
+    
+    return input.startswith("['") and input.endswith("']")
 
 def check_yaml():
     log.debug("YAML file structure ok and can be read")
@@ -112,7 +117,8 @@ def check_types(Langs:Languages) -> None:
                                 (iso, "', '".join(invalid)))
 
                 if "design_requirements" in o and \
-                        type(o["design_requirements"]) is not list:
+                        type(o["design_requirements"]) is not list and \
+                            not is_yaml_list_str(o["design_requirements"]):
                     log.error("'%s' has a 'design_requirements' which is not "
                               "a list: %s" % (iso, o["design_requirements"]))
 
@@ -238,12 +244,9 @@ def check_names(Langs:Languages, iso_data:dict) -> None:
                 if not autonym_ok:
                     all_chars = "".join(chars)
                     log.warning("'%s' has invalid autonym '%s' which cannot "
-                                "be spelled with that orthography's charset "
-                                "(base + marks + auxiliary) '%s' - "
+                                "be spelled with that orthography's charset - "
                                 "missing '%s'" %
-                                (iso, o["autonym"], 
-                                 all_chars if len(all_chars) < 30 else all_chars[:30] + "...",
-                                 "".join(missing)))
+                                (iso, o["autonym"], "".join(missing)))
 
         if iso not in iso_data.keys():
             log.error("'%s' not found in iso data" % iso)
