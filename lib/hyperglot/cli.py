@@ -230,13 +230,6 @@ def hyperglot_options(f):
         help="Provide a name for a yaml file to write support " "information to.",
     )
     @click.option(
-        "-l",
-        "--languages",
-        default="",
-        help="Pass in one or more comma-separated language names or ISO "
-        "code to output a detailed support report for this font.",
-    )
-    @click.option(
         "--include-all-orthographies",
         is_flag=True,
         default=False,
@@ -283,7 +276,6 @@ def cli(
     sorting,
     sort_dir,
     output,
-    languages,
     include_all_orthographies,
     include_historical,
     include_constructed,
@@ -391,26 +383,6 @@ def cli(
 
     if output:
         write_yaml(output, data)
-
-    if languages:
-        print_title("Language check:")
-        languages = [l.strip() for l in languages.split(",") if l.strip() != ""]  # noqa
-
-        for f in fonts:
-            chars = parse_font_chars(f)
-            for s in languages:
-                res, _ = find_language(s)
-                if res is False:
-                    return
-                for r in res:
-                    res_name = r.name
-                    print(f"Listing full support information for {res_name}")
-                    print()
-                    if "orthographies" not in r:
-                        continue
-                    for o in r["orthographies"]:
-                        ort = Orthography(o)
-                        print(ort.diff(chars))
 
 
 def save_sorted(Langs: Languages = None, validate: bool = True) -> None:

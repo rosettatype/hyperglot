@@ -7,6 +7,7 @@
 - TWEAK: Refactored `Languages`, `Language` and `Orthography` object instantiation to always return parsed and defaulted nested objects
 - TWEAK: Removed the `--speakers` and `--autonym` CLI options
 - TWEAK: Removed the `--comparison` CLI option (see `examples` instead)
+- TWEAK: Removed the `--languages` CLI option, use `hyperglot-info LanguageName/ISO` instead
 
 ## 0.6.4 (20.06.2024)
 - FIX: Fixed an issue where trying to log missing shaping glyphs would crash in `FontChecker`
