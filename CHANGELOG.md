@@ -5,6 +5,7 @@
 - TWEAK: Orthographies can no longer have an `inherit` attribute
 - TWEAK: Improved loading speed for repeat queries and indivudal language queries
 - TWEAK: Refactored `Languages`, `Language` and `Orthography` object instantiation to always return parsed and defaulted nested objects
+- TWEAK: Removed the `--speakers` and `--autonym` CLI options
 
 ## 0.6.4 (20.06.2024)
 - FIX: Fixed an issue where trying to log missing shaping glyphs would crash in `FontChecker`

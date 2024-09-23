@@ -64,7 +64,7 @@ def validate_font(ctx, param, value):
 
 
 def language_list(
-    langs, native=False, speakers=False, script=None, strict_iso=False, seperator=", "
+    langs, script=None, strict_iso=False, seperator=", "
 ):
     """
     Return a printable string for all languages
@@ -73,23 +73,13 @@ def language_list(
     for iso, l in langs.items():
         lang = Language(iso)
 
-        if native and script:
-            name = lang.get_autonym(script)
-        else:
-            name = lang.get_name(script, strict_iso)
+        name = lang.get_name(script, strict_iso)
 
-        if name is False:
-            name = "(iso: %s)" % iso
-            log.info("No autonym found for language '%s'" % lang)
-        else:
-            # Trim whitespace and also 200E left to right marks, but allow ")"
-            # as last character
-            name = re.sub(r"^\W*|(?<=\))(\W*$)", "", name)
+        # Trim whitespace and also 200E left to right marks, but allow ")"
+        # as last character
+        name = re.sub(r"^\W*|(?<=\))(\W*$)", "", name)
 
-        if speakers and "speakers" in l:
-            items.append("%s (%s)" % (name, str(l["speakers"])))
-        else:
-            items.append("%s" % name)
+        items.append("%s" % name)
 
     return seperator.join(items)
 
@@ -102,7 +92,7 @@ def print_title(title):
     print()
 
 
-def print_to_cli(font, title, autonyms, speakers, strict_iso):
+def print_to_cli(font, title, strict_iso):
     print_title(title)
     total = 0
     for script in font:
@@ -116,7 +106,7 @@ def print_to_cli(font, title, autonyms, speakers, strict_iso):
             )
             print(title)
             print("-" * len(title))
-            print(language_list(font[script], autonyms, speakers, script, strict_iso))
+            print(language_list(font[script], script, strict_iso))
             total = total + count
     if total > 0:
         print()
@@ -271,19 +261,6 @@ def hyperglot_options(f):
         "charset data.",
     )
     @click.option(
-        "-a",
-        "--autonyms",
-        is_flag=True,
-        default=False,
-        help="Flag to render languages names in their native name.",
-    )
-    @click.option(
-        "--speakers",
-        is_flag=True,
-        default=False,
-        help="Flag to show how many speakers each languages has.",
-    )
-    @click.option(
         "--sort",
         "sorting",
         type=click.Choice(SORTING, case_sensitive=False),
@@ -365,8 +342,6 @@ def cli(
     decomposed,
     marks,
     validity,
-    autonyms,
-    speakers,
     sorting,
     sort_dir,
     output,
@@ -475,7 +450,7 @@ def cli(
                 level.lower(),
             )
 
-            print_to_cli(results[font_path], title, autonyms, speakers, strict_iso)
+            print_to_cli(results[font_path], title, strict_iso)
 
         data = results
     elif comparison == "union":
@@ -486,7 +461,7 @@ def cli(
             level.lower(),
         )
 
-        print_to_cli(union, title, autonyms, speakers, strict_iso)
+        print_to_cli(union, title, strict_iso)
 
         # Wrap in "single file" 'union' top level, which will be removed when
         # writing the data
@@ -500,7 +475,7 @@ def cli(
             level.lower(),
         )
 
-        print_to_cli(intersection, title, autonyms, speakers, strict_iso)
+        print_to_cli(intersection, title, strict_iso)
 
         # Wrap in "single file" 'intersection' top level, which will be removed
         # when writing the data
