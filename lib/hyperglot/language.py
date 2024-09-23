@@ -65,8 +65,6 @@ class Language(dict):
         self.iso = iso
         self.inherit = inherit
 
-        self._parsed = []
-
         if data is None:
             data = self._parse_data()
 
@@ -111,7 +109,7 @@ contributors: {contributors}
             speakers="no data" if self["speakers"] is None else self.speakers,  # noqa
             status=self.status,  # noqa
             validity=self.validity,
-            contributors=self.contributors
+            contributors="no data" if self["contributors"] is None else "\n- " + ("\n- ".join(self["contributors"])),
         )  # noqa
 
     def _parse_data(self) -> Union[dict, bool]:
