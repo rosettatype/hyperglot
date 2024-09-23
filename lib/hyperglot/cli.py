@@ -2,6 +2,7 @@ import click
 import os
 import re
 import yaml
+import math
 import logging
 import functools
 from collections import OrderedDict
@@ -82,6 +83,20 @@ def language_list(langs, script=None, seperator=", "):
     return seperator.join(items)
 
 
+
+def millify(n):
+    """
+    Nicer human-readable rounded numbers (short scale!).
+    Via https://stackoverflow.com/a/3155023/999162
+    """
+    millnames = ['','k','M','B','T']
+    n = float(n)
+    millidx = max(0,min(len(millnames)-1,
+                        int(math.floor(0 if n == 0 else math.log10(abs(n))/3))))
+
+    return '{:.2f}{}'.format(n / 10**(3 * millidx), millnames[millidx])
+
+
 def print_title(title):
     print()
     print("=" * len(title))
@@ -93,6 +108,7 @@ def print_title(title):
 def print_to_cli(font, title):
     print_title(title)
     total = 0
+    speakers = 0
     for script in font:
         count = len(font[script])
         if count > 0:
@@ -106,10 +122,16 @@ def print_to_cli(font, title):
             print("-" * len(title))
             print(language_list(font[script], script))
             total = total + count
+            speakers += sum([l.speakers for l in font[script].values()])
     if total > 0:
         print()
         print("%d languages supported in total." % total)
+        print("%s speakers in total." % millify(speakers))
         print()
+        print()
+        print("To see detailed information (character set, speakers, autonym) for a language use 'hyperglot-data \"Language Name or ISO code\"'")
+        print()
+
 
 def sorted_script_languages(obj):
     """
