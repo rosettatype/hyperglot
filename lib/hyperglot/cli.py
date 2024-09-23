@@ -113,53 +113,6 @@ def print_to_cli(font, title, strict_iso):
         print("%d languages supported in total." % total)
         print()
 
-
-def intersect_results(*args):
-    """
-    Intersect any number of result dicts with script: { iso: lang } } input.
-    Return the output ordered by script and iso.
-    """
-
-    if len(args) == 0:
-        return {}
-
-    result = args[0]
-    for arg in args[1:]:
-        delete_script = []
-        for script in result.keys():
-            delete_iso = []
-            if script not in arg:
-                delete_script.append(script)
-                continue
-            for iso, lang in result[script].items():
-                if iso not in arg[script].keys():
-                    delete_iso.append(iso)
-            for d in delete_iso:
-                del result[script][d]
-
-        for d in delete_script:
-            del result[d]
-
-    return sorted_script_languages(result)
-
-
-def union_results(*args):
-    """
-    Combine any number of results dicts with script: { iso: { lang } } input.
-    Return the output ordered by script and iso.
-    """
-    result = {}
-    for arg in args:
-        for script, langs in arg.items():
-            if script not in result:
-                result[script] = langs
-            else:
-                for iso, lang in langs.items():
-                    if iso not in result[script].keys():
-                        result[script][iso] = lang
-    return sorted_script_languages(result)
-
-
 def sorted_script_languages(obj):
     """
     Sort an input dictionary of script: { iso : {} } by script, first, and iso,
@@ -208,9 +161,6 @@ def write_yaml(file, data):
 
     print()
     print("Wrote support information to %s" % file.name)
-
-
-MODES = ["individual", "union", "intersection"]
 
 
 def hyperglot_options(f):
@@ -280,18 +230,6 @@ def hyperglot_options(f):
         help="Provide a name for a yaml file to write support " "information to.",
     )
     @click.option(
-        "-c",
-        "--comparison",
-        type=click.Choice(MODES, case_sensitive=False),
-        default=MODES[0],
-        show_default=True,
-        help="When passing in more than one file, a comparison can be "
-        "generated. By default each file's support is listed "
-        "individually. 'union' shows support for all languages "
-        "supported by the combination of the passed in fonts. "
-        "'intersection' shows the support all fonts have in common.",
-    )
-    @click.option(
         "-l",
         "--languages",
         default="",
@@ -345,7 +283,6 @@ def cli(
     sorting,
     sort_dir,
     output,
-    comparison,
     languages,
     include_all_orthographies,
     include_historical,
@@ -442,44 +379,15 @@ def cli(
 
         results[font_path] = sorted_entries
 
-    # Mode for comparison of several files
-    if comparison == "individual":
-        for font_path in fonts:
-            title = "%s has %s support for:" % (
-                os.path.basename(font_path),
-                level.lower(),
-            )
-
-            print_to_cli(results[font_path], title, strict_iso)
-
-        data = results
-    elif comparison == "union":
-        union = union_results(*results.values())
-
-        title = "Fonts %s combined have %s support for:" % (
-            ", ".join([os.path.basename(f) for f in fonts]),
+    for font_path in fonts:
+        title = "%s has %s support for:" % (
+            os.path.basename(font_path),
             level.lower(),
         )
 
-        print_to_cli(union, title, strict_iso)
+        print_to_cli(results[font_path], title, strict_iso)
 
-        # Wrap in "single file" 'union' top level, which will be removed when
-        # writing the data
-        data = {"union": union}
-
-    elif comparison == "intersection":
-        intersection = intersect_results(*results.values())
-
-        title = "Fonts %s all have common %s support for:" % (
-            ", ".join([os.path.basename(f) for f in fonts]),
-            level.lower(),
-        )
-
-        print_to_cli(intersection, title, strict_iso)
-
-        # Wrap in "single file" 'intersection' top level, which will be removed
-        # when writing the data
-        data = {"intersection": intersection}
+    data = results
 
     if output:
         write_yaml(output, data)

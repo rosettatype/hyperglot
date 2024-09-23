@@ -2,21 +2,26 @@
 Tests verifying the CLI output is as expected. This uses the runner.invoke
 helper to call the main cli handler with various arguments.
 """
+
 import os
 import re
 import yaml
 from collections import OrderedDict
 from click.testing import CliRunner
-from hyperglot.cli import (cli, intersect_results,
-                            union_results, sorted_script_languages)
+from hyperglot.cli import cli, sorted_script_languages
 
 runner = CliRunner()
 
 eczar = os.path.abspath("tests/Eczar-v1.004/otf/Eczar-Regular.otf")
 eczar_no_marks = os.path.abspath(
-    "tests/Eczar-v1.004/otf/Eczar-Regular-nomarks-nofeatures.otf")
-plex_arabic = os.path.abspath("tests/plex-4.0.2/IBM-Plex-Sans-Arabic/fonts/complete/otf/IBMPlexSansArabic-Regular.otf")  # noqa
-plex_arabic_without_medi_fina = os.path.abspath("tests/plex-4.0.2/IBM-Plex-Sans-Arabic/fonts/complete/otf/IBMPlexSansArabic-Regular-without-medi-fina.otf")  # noqa
+    "tests/Eczar-v1.004/otf/Eczar-Regular-nomarks-nofeatures.otf"
+)
+plex_arabic = os.path.abspath(
+    "tests/plex-4.0.2/IBM-Plex-Sans-Arabic/fonts/complete/otf/IBMPlexSansArabic-Regular.otf"
+)  # noqa
+plex_arabic_without_medi_fina = os.path.abspath(
+    "tests/plex-4.0.2/IBM-Plex-Sans-Arabic/fonts/complete/otf/IBMPlexSansArabic-Regular-without-medi-fina.otf"
+)  # noqa
 
 
 def test_cli_basic():
@@ -161,55 +166,8 @@ def test_cli_output(yaml_output):
         assert "fin" in data.keys()
 
 
-def test_cli_output_union(yaml_output):
-    res = runner.invoke(cli, "%s %s -o %s -c union" %
-                        (eczar, plex_arabic, yaml_output))
-
-    # CLI without errors
-    assert res.exit_code == 0
-
-    # Has content
-    assert os.path.isfile(yaml_output) is True
-    assert os.path.getsize(yaml_output) > 0
-
-    with open(yaml_output, "r") as f:
-        # Is yaml that can be parsed
-        data = yaml.load(f, Loader=yaml.Loader)
-
-        assert "aae" in data.keys()
-        assert "fin" in data.keys()
-
-        # Supported by plex but not eczar, thus union
-        assert "abv" in data.keys()
-        assert "azb" in data.keys()
-
-
-def test_cli_output_intersection(yaml_output):
-    res = runner.invoke(cli, "%s %s -o %s -c intersection" %
-                        (eczar, plex_arabic, yaml_output))
-
-    # CLI without errors
-    assert res.exit_code == 0
-
-    # Has content
-    assert os.path.isfile(yaml_output) is True
-    assert os.path.getsize(yaml_output) > 0
-
-    with open(yaml_output, "r") as f:
-        # Is yaml that can be parsed
-        data = yaml.load(f, Loader=yaml.Loader)
-
-        assert "aae" in data.keys()
-        assert "fin" in data.keys()
-
-        # Supported by plex but not eczar, thus intersection
-        assert "abv" not in data.keys()
-        assert "azb" not in data.keys()
-
-
 def test_cli_output_multiple(yaml_output):
-    res = runner.invoke(cli, "%s %s -o %s" %
-                        (eczar, plex_arabic, yaml_output))
+    res = runner.invoke(cli, "%s %s -o %s" % (eczar, plex_arabic, yaml_output))
 
     # CLI without errors
     assert res.exit_code == 0
@@ -231,129 +189,25 @@ def test_cli_output_multiple(yaml_output):
         assert os.path.basename(plex_arabic) in data.keys()
 
 
-def test_intersect_results():
-    A = {
-        "Latin": {
-            "eng": {},
-            "deu": {},
-            "ces": {},
-        },
-        "Arabic": {
-            "bar": {},
-            "foo": {},
-        },
-        "Cyrillic": {
-            "foo": {}
-        },
-    }
-
-    B = {
-        "Arabic": {
-            "bar": {}
-        },
-        "Latin": {
-            "fin": {},
-            "deu": {},
-            "eng": {},
-        },
-    }
-
-    # Combined and both levels sorted alphabetically by key
-    expected = {
-        "Arabic": {
-            "bar": {},
-        },
-        "Latin": {
-            "deu": {},
-            "eng": {},
-        }
-    }
-
-    # Only the script + iso in both results should be returned
-    assert intersect_results(A, B) == expected
-
-    # If either is empty, the result should be empty
-    assert intersect_results(A, {}) == {}
-    assert intersect_results({}, B) == {}
-
-    # Single should return itself
-    assert intersect_results(A) == A
-
-    # Empty should return empty
-    assert intersect_results() == {}
-
-
-def test_union_results():
-    A = {
-        "Latin": {
-            "deu": {},
-            "ces": {}
-        },
-        "Cyrillic": {
-            "foo": {}
-        }
-    }
-
-    B = {
-        "Latin": {
-            "deu": {},
-            "eng": {}
-        },
-        "Arabic": {
-            "bar": {}
-        }
-    }
-
-    # Combined and both levels sorted alphabetically by key
-    expected = OrderedDict({
-        "Arabic": {
-            "bar": {}
-        },
-        "Cyrillic": {
-            "foo": {}
-        },
-        "Latin": {
-            "ces": {},
-            "deu": {},
-            "eng": {}
-        }
-    })
-
-    # Only the script + iso in both results should be returned
-    assert union_results(A, B) == expected
-
-    # If either is empty, the result should be the non empty one
-    assert union_results(A, {}) == A
-    assert union_results({}, B) == B
-
-
 def test_sorted_script_languages():
-    expected = OrderedDict({
-        "Arabic": {
-            "bar": {}
-        },
-        "Cyrillic": {
-            "foo": {}
-        },
-        "Latin": {
-            "ces": {},
-            "deu": {},
-            "eng": {}
+    expected = OrderedDict(
+        {
+            "Arabic": {"bar": {}},
+            "Cyrillic": {"foo": {}},
+            "Latin": {"ces": {}, "deu": {}, "eng": {}},
         }
-    })
+    )
 
-    unsorted = OrderedDict({
-        "Cyrillic": {
-            "foo": {}
-        },
-        "Arabic": {
-            "bar": {}
-        },
-        "Latin": {
-            "eng": {},
-            "deu": {},
-            "ces": {},
+    unsorted = OrderedDict(
+        {
+            "Cyrillic": {"foo": {}},
+            "Arabic": {"bar": {}},
+            "Latin": {
+                "eng": {},
+                "deu": {},
+                "ces": {},
+            },
         }
-    })
+    )
 
     assert sorted_script_languages(unsorted) == expected
