@@ -9,6 +9,8 @@ orthographies:
     Ö Ø Ü a b c d e f g h i j k l m n o p q r s t u v w x y z á à ä å æ é è ê ò ó
     ô ö ø ü
   marks: ◌̀ ◌́ ◌̂ ◌̈ ◌̊
+  punctuation: <default> « » ‘ ’ ‚ „ “
+  currency: <default secondary>
   numerals: <default>
   script: Latin
   status: primary
@@ -17,6 +19,7 @@ sources:
 - Ager, S. (2021, September 1). *Omniglot* https://www.omniglot.com
 - Norwegian language. (2024, July 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Norwegian_language?oldid=1237176078
 - '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
+- Quotation mark. (2024, September 26). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Quotation_mark&oldid=1247790780
 speakers: 4320000
 speakers_date: 2012
 status: living
