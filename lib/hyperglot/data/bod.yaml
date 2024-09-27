@@ -7,13 +7,14 @@ orthographies:
     required for proper representation of the language.
   marks: ◌ི ◌ུ ◌ེ ◌ོ
   numerals: ༠ ༡ ༢ ༣ ༤ ༥ ༦ ༧ ༨ ༩ <default Latin>
-  punctuation: ༄ ༈ ་ ། ༎ ༔ ༺ ༻
+  punctuation: <default Latin> ༄ ༈ ་ ། ༎ ༔ ༺ ༻ 《 》 〈 〉
   currency: <default Latin>
   script: Tibetan
   status: primary
 sources:
 - Ager, S. (2021, September 1). *Omniglot* https://www.omniglot.com
 - Sino-Tibetan languages. (2024, August 17). In *Wikipedia*. https://en.wikipedia.org/wiki/Sino-Tibetan_languages?oldid=1240823273
+- Quotation mark. (2024, September 26). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Quotation_mark&oldid=1247790780
 speakers: 1200000
 speakers_date: 1990
 validity: preliminary
