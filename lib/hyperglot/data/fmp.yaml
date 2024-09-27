@@ -13,8 +13,9 @@ orthographies:
   script: Latin
   status: primary
 sources:
-- 'Rhonda L. Hartell, Alphabets de langues africaines, 1993, p. 75  # REVIEW'
+- 'Rhonda L. Hartell, Alphabets de langues africaines, 1993, p. 75'
 - Feʼfeʼ language. (2024, May 10). In *Wikipedia*. https://en.wikipedia.org/wiki/Fe%CA%BCfe%CA%BC_language?oldid=1223197225
+sources note: review
 speakers: 140000
 speakers_date: 2005
 validity: preliminary

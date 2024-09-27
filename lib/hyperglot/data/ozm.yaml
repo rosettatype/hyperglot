@@ -30,9 +30,10 @@ orthographies:
   status: primary
 sources:
 - Nzime language. (2024, February 29). In *Wikipedia*. https://en.wikipedia.org/wiki/Nzime_language?oldid=1210994349
-- 'https://www.webonary.org/badwe  # REVIEW'
+- 'https://www.webonary.org/badwe'
 - 'Keith Beavon and Mary Beavon, Lexique kɔ́ɔnzime-français, Ministère de la Recherche
-  Scientifique et Technique and SIL, Yaoundé, 1996.  # REVIEW'
+  Scientifique et Technique and SIL, Yaoundé, 1996.'
+sources note: review
 speakers: 40000
 speakers_date: 2011
 validity: preliminary

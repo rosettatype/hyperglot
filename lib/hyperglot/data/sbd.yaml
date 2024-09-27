@@ -15,7 +15,8 @@ orthographies:
   status: primary
 sources:
 - Samo language (Burkina). (2024, July 17). In *Wikipedia*. https://en.wikipedia.org/wiki/Samo_language_(Burkina)?oldid=1234975175
-- 'https://www.webonary.org/san-sud  # REVIEW'
+- 'https://www.webonary.org/san-sud'
+sources note: review
 speakers: 85000
 speakers_date: 1998
 validity: preliminary

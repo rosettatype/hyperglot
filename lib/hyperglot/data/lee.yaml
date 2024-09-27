@@ -16,10 +16,10 @@ orthographies:
   script: Latin
   status: primary
 sources:
-- 'Rhonda L. Hartell, Alphabets de langues africaines, 1993, p. 50.  # REVIEW'
-- 'https://www.bible.com/versions/1772  # REVIEW'
-- 'https://scriptsource.org/cms/scripts/page.php?item_id=language_detail&key=lee  #
-  REVIEW'
+- 'Rhonda L. Hartell, Alphabets de langues africaines, 1993, p. 50.'
+- 'https://www.bible.com/versions/1772'
+- 'https://scriptsource.org/cms/scripts/page.php?item_id=language_detail&key=lee'
+sources note: review
 speakers: 130000
 speakers_date: 2001
 validity: preliminary

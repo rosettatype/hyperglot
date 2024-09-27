@@ -13,8 +13,9 @@ orthographies:
   status: primary
 sources:
 - 'République du Sénégal, Décret no 2005-985 relatif à l’orthographe et la séparation
-  des mots en ménik, 21 octobre 2005  # REVIEW'
+  des mots en ménik, 21 octobre 2005'
 - Bedik language. (2022, June 20). In *Wikipedia*. https://en.wikipedia.org/wiki/Bedik_language?oldid=1094004925
+sources note: review
 speakers: 2500
 speakers_date: 2015
 status: living

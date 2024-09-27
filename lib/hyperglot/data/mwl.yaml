@@ -9,7 +9,8 @@ orthographies:
   status: primary
 sources:
 - Omniglot
-- 'Native  # REVIEW'
+- 'Native'
+sources note: review
 speakers: 15000
 speakers_date: 2000
 status: living

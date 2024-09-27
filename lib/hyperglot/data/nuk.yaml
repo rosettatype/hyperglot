@@ -8,8 +8,9 @@ orthographies:
   script: Latin
   status: primary
 sources:
-- 'FirstVoices  # REVIEW'
+- 'FirstVoices'
 - Nuu-chah-nulth language. (2024, August 3). In *Wikipedia*. https://en.wikipedia.org/wiki/Nuu-chah-nulth_language?oldid=1238261794
+sources note: review
 speakers: 800
 speakers_date: 2018
 status: living

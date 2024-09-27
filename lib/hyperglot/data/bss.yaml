@@ -13,9 +13,10 @@ orthographies:
   status: primary
 sources:
 - 'Bakossi Language Committee, E’kii bé Akɔɔse (The Bakossi Alphabet), SIL Camerun,
-  1995  # REVIEW'
+  1995'
 - Manenguba languages. (2024, March 4). In *Wikipedia*. https://en.wikipedia.org/wiki/Manenguba_languages?oldid=1211767392
-- 'https://www.webonary.org/akoose  # REVIEW'
+- 'https://www.webonary.org/akoose'
+sources note: review
 speakers: 100000
 speakers_date: 2001
 status: living

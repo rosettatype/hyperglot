@@ -15,7 +15,8 @@ sources:
 - Omniglot
 - ʻOkina. (2024, August 21). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=ʻOkina&oldid=1241430297
 - CLDR
-- 'http://webdev.uhh.hawaii.edu/fonts.php  # REVIEW'
+- 'http://webdev.uhh.hawaii.edu/fonts.php'
+sources note: review
 speakers: 24000
 speakers_date: 2008
 status: living

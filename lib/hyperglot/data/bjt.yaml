@@ -14,7 +14,8 @@ orthographies:
   status: primary
 sources:
 - 'République du Sénégal, Décret no 2005-979 relatif à l’orthographe et la séparation
-  des mots en balant, 21 octobre 2005  # REVIEW'
+  des mots en balant, 21 octobre 2005'
+sources note: review
 speakers: 86000
 speakers_date: 2006
 status: living

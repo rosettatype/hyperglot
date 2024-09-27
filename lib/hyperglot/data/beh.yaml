@@ -10,7 +10,8 @@ orthographies:
   status: primary
 sources:
 - '*Alphabet des langues nationales béninoises*. (2008). (pp. 13–14). Centre national de linguistique appliquée (CENALA).'
-- 'https://www.sil.org/resources/archives/53773  # REVIEW'
+- 'https://www.sil.org/resources/archives/53773'
+sources note: review
 speakers: 100000
 speakers_date: 2002
 status: living

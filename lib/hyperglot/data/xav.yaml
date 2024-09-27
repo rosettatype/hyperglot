@@ -34,10 +34,11 @@ orthographies:
   status: local
 sources:
 - Omniglot
-- 'Xavante Dictionary, Webonary, https://www.webonary.org/xavante  # REVIEW'
+- 'Xavante Dictionary, Webonary, https://www.webonary.org/xavante'
 - 'J. Hall, R. A. McLeod and V. Mitchell, Pequeno dicionário: Xavante-Português, Português-Xavante,
-  Cuiabá: Sociedade Internacional de Linguística, 2004  # REVIEW'
-- 'W. A. Pickering, A fonologia xavante: uma revisitação, 2010  # REVIEW'
+  Cuiabá: Sociedade Internacional de Linguística, 2004'
+- 'W. A. Pickering, A fonologia xavante: uma revisitação, 2010'
+sources note: review
 speakers: 9600
 speakers_date: 2006
 status: living

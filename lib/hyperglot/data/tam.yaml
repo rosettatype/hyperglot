@@ -20,7 +20,8 @@ sources:
 - Tamil language. (2024, August 22). In *Wikipedia*. https://en.wikipedia.org/wiki/Tamil_language?oldid=1241650727
 - 'Unicode (for basic unicode compliance): https://unicode.org/charts/PDF/U0B80.pdf  #
   REVIEW'
-- 'Unicode (for supplement): https://unicode.org/charts/PDF/U11FC0.pdf  # REVIEW'
+- 'Unicode (for supplement): https://unicode.org/charts/PDF/U11FC0.pdf'
+sources note: review
 speakers: 75000000
 speakers_date: 2011-2015
 validity: preliminary

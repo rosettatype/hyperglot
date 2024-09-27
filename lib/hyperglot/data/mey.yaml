@@ -18,8 +18,8 @@ orthographies:
   status: secondary
 sources:
 - 'République du Sénégal, Décret no 2005-980 relatif à l’orthographe et la séparation
-  des mots en ḥassinya, 21 octobre 2005  # REVIEW'
-- Omniglot
+  des mots en ḥassinya, 21 octobre 2005'
+sources note: review
 speakers: 3120000
 status: living
 validity: preliminary

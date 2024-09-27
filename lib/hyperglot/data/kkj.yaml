@@ -30,9 +30,9 @@ orthographies:
 sources:
 - CLDR
 - Kako language. (2024, April 25). In *Wikipedia*. https://en.wikipedia.org/wiki/Kako_language?oldid=1220689650
-- 'Ernst Urs, Alphabet et orthographe du kakɔ (kakɔ-est), SIL Cameroun, 1996  # REVIEW'
-- 'Ernst Urs, Alphabet et orthographe du mbonjɔɔ (kakɔ-ouest), SIL Cameroun, 1996  #
-  REVIEW'
+- 'Ernst Urs, Alphabet et orthographe du kakɔ (kakɔ-est), SIL Cameroun, 1996'
+- 'Ernst Urs, Alphabet et orthographe du mbonjɔɔ (kakɔ-ouest), SIL Cameroun, 1996'
+sources note: review
 speakers: 120000
 speakers_date: 1996-2003
 status: living

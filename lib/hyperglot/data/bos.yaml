@@ -31,7 +31,8 @@ orthographies:
 sources:
 - Omniglot
 - CLDR
-- 'https://www.evertype.com/alphabets/bosnian.pdf  # REVIEW'
+- 'https://www.evertype.com/alphabets/bosnian.pdf'
+sources note: review
 speakers: 3000000
 speakers_date: 2008
 status: living

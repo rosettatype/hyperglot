@@ -16,8 +16,9 @@ orthographies:
   status: primary
 sources:
 - Puguli language. (2023, January 3). In *Wikipedia*. https://en.wikipedia.org/wiki/Puguli_language?oldid=1131377994
-- 'http://www.puguli.com  # REVIEW'
-- 'https://www.webonary.org/phuien  # REVIEW'
+- 'http://www.puguli.com'
+- 'https://www.webonary.org/phuien'
+sources note: review
 speakers: 14000
 speakers_date: 2000
 validity: preliminary

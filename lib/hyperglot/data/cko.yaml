@@ -11,7 +11,8 @@ orthographies:
   script: Latin
   status: primary
 sources:
-- 'Rhonda L. Hartell, Alphabets de langues africaines, 1993, p. 288  # REVIEW'
+- 'Rhonda L. Hartell, Alphabets de langues africaines, 1993, p. 288'
+sources note: review
 speakers: 180000
 speakers_date: 2013
 status: living

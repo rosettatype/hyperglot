@@ -15,7 +15,8 @@ orthographies:
   status: primary
 sources:
 - Omniglot
-- 'Native  # REVIEW'
+- 'Native'
+sources note: review
 speakers: 24000000
 speakers_date: 2016
 status: living

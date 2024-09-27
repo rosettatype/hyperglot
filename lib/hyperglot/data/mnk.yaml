@@ -13,8 +13,9 @@ orthographies:
   status: primary
 sources:
 - 'République du Sénégal, Décret no 2005-982 relatif à l’orthographe et la séparation
-  des mots en mandinka, 21 octobre 2005  # REVIEW'
+  des mots en mandinka, 21 octobre 2005'
 - Mandinka language. (2024, August 18). In *Wikipedia*. https://en.wikipedia.org/wiki/Mandinka_language?oldid=1240952949
+sources note: review
 speakers: 1300000
 speakers_date: 2002-2016
 status: living

@@ -12,7 +12,8 @@ orthographies:
 sources:
 - Hanunoo. (2024, August 28). In *Ethnologue*. SIL International. https://www.ethnologue.com/language/hnn/
 - Hanunoo language. (2024, February 2). In *Wikipedia*. https://en.wikipedia.org/wiki/Hanunoo_language?oldid=1202098989
-- 'Unicode Consortium (Core Spec, Hanunoo block)  # REVIEW'
+- 'Unicode Consortium (Core Spec, Hanunoo block)'
+sources note: review
 speakers: 13000
 speakers_date: 2000
 validity: preliminary

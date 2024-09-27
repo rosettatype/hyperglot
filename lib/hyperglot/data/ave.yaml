@@ -7,6 +7,6 @@ orthographies:
   script: Avestan
   status: primary
 sources:
-- 'Unicode  # REVIEW'
+- Avestan. (2024). In *The Unicode Standard, Version 16.0.0*. The Unicode Consortium. https://www.unicode.org/charts/PDF/U10B00.pdf
 status: historical
 validity: verified

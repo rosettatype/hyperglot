@@ -11,8 +11,9 @@ orthographies:
   script: Latin
   status: primary
 sources:
-- 'GILLBT  # REVIEW'
+- 'GILLBT'
 - Avatime language. (2024, June 3). In *Wikipedia*. https://en.wikipedia.org/wiki/Avatime_language?oldid=1227035765
+sources note: review
 speakers: 24000
 speakers_date: 2003
 status: living

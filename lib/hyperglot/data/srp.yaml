@@ -34,7 +34,8 @@ sources:
 - Omniglot
 - CLDR
 - Serbian Cyrillic alphabet. (2024, August 22). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Serbian_Cyrillic_alphabet&oldid=1241586891
-- 'https://www.evertype.com/alphabets/serbian.pdf  # REVIEW'
+- 'https://www.evertype.com/alphabets/serbian.pdf'
+sources note: review
 speakers: 9500000
 speakers_date: 2016
 status: living

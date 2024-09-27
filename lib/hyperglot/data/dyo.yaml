@@ -14,9 +14,9 @@ orthographies:
   status: primary
 sources:
 - 'République du Sénégal, Décret no 2005-981 relatif à l’orthographe et la séparation
-  des mots en jóola, 21 octobre 2005  # REVIEW'
-- Omniglot
+  des mots en jóola, 21 octobre 2005'
 - CLDR
+sources note: review
 speakers: 410000
 status: living
 validity: verified
