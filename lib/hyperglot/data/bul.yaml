@@ -12,14 +12,16 @@ orthographies:
   - Some characters (marked in the previews) use a form that differs from the defaults
     associated with the Unicode codepoints (typically the Russian form of Cyrillic).
   marks: ◌̀ ◌̆
+  punctuation: <default> ‘ “ ’ „ « »
+  currency: <default secondary>
   numerals: <default>
-  punctuation: <default>
   script: Cyrillic
   status: primary
 sources:
 - Ager, S. (2021, September 1). *Omniglot* https://www.omniglot.com
 - Bulgarian language. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Bulgarian_language&oldid=1242766689
 - Bulgarian alphabet. (2024, June 8). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Bulgarian_alphabet&oldid=1227898258
+- Quotation mark. (2024, September 26). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Quotation_mark&oldid=1247790780
 speakers: 9000000
 speakers_date: 2011
 status: living
