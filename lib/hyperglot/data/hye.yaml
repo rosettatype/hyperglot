@@ -7,14 +7,15 @@ orthographies:
     և
   note: Eastern Armenian replaces ‹Ւ› with ‹ՈՒ› and ‹ւ› with ‹ու› in the alphabet.
     Some versions of the Eastern alphabet add the ‹և› as a full letter.
-  numerals: <default Latin>
-  punctuation: ՛ ՜ ՝ ՞ ։ ՟ ՚  ֊ ։
+  punctuation: <default Latin> ՛ ՜ ՝ ՞ ։ ՟ ՚  ֊ ։ « »
   currency: <default Latin> ֏
+  numerals: <default Latin>
   script: Armenian
   status: primary
 preferred_name: Eastern Armenian
 sources:
 - Ager, S. (2021, September 1). *Omniglot* https://www.omniglot.com
+- Quotation mark. (2024, September 26). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Quotation_mark&oldid=1247790780
 native review:
 - Hrant Papazian
 sources note: missing
