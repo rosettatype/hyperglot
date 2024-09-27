@@ -4,12 +4,15 @@ orthographies:
   base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ó Ą Ć Ę Ł Ń Ś Ź Ż a b
     c d e f g h i j k l m n o p q r s t u v w x y z ó ą ć ę ł ń ś ź ż
   marks: ◌́ ◌̇ ◌̨
+  punctuation: <default> „ ” « » ‘ ’
+  currency: <default secondary>
   numerals: <default>
   script: Latin
   status: primary
 sources:
 - Ager, S. (2021, September 1). *Omniglot* https://www.omniglot.com
 - '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
+- Quotation mark. (2024, September 26). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Quotation_mark&oldid=1247790780
 speakers: 45000000
 status: living
 validity: verified
