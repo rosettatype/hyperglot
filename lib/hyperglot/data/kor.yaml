@@ -313,14 +313,18 @@ orthographies:
     閘 閣 閨 闕 關 降 階 隔 隙 雇 難 鞏 鞠 鞨 鞫 頃 頸 顆 顧 飢 餃 館 饉 饋 饑 駒 駕 駱 騎 騏 騫 驅 驕 驚 驥 骨 高 鬼 魁
     鮫 鯤 鯨 鱇 鳩 鵑 鵠 鷄 鷗 鸞 麒 麴 黔 鼓 龕 龜
   marks: ◌̅
-  punctuation: '! " # % & ( ) * - . / : ; ? @ [ \ ] _ ¡ § ¶ · ¿ ‐ — ― ‘ ’ “ ” † ‡
-    ‥ … ‰ ′ ″ ※ ‾ 、 。 〃 〈 〉 《 》 「 」 『 』 【 】 〔 〕 〜 ・ ！ ＂ ＃ ％ ＆ ＇ （ ） ＊ ， － ． ／ ： ；
-    ？ ＠ ［ ＼ ］ ＿ ｛ ｝'
+  punctuation: |
+    <default>
+    ‥ ― ′ ″ ※ ‾ 、 。 〃 〈 〉 《 》 「 」 『 』 【 】 〔 〕 〜 ・ 
+    ！ ＂ ＃ ％ ＆ ＇ （ ） ＊ ， － ． ／ ： ； ？ ＠ ［ ＼ ］ ＿ ｛ ｝
+  currency: <default> ₩
   script: Hanja
   status: primary
 sources:
 - Ager, S. (2021, September 1). *Omniglot* https://www.omniglot.com
 - Koreanic languages. (2024, July 1). In *Wikipedia*. https://en.wikipedia.org/wiki/Koreanic_languages?oldid=1231971327
+- Quotation mark. (2024, September 26). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Quotation_mark&oldid=1247790780
+- List of currency symbols. (2024, July 15). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Template:List_of_currency_symbols&oldid=1234688642
 speakers: 77200000
 speakers_date: 2010
 validity: preliminary
