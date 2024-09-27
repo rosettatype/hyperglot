@@ -32,7 +32,7 @@ class Check(CheckBase):
         check_attachment = []
 
         chars = orthography.base
-        if options["supportlevel"] == SupportLevel.AUX.value:
+        if SupportLevel.AUX.value in options["check"]:
             chars.extend(orthography.auxiliary)
 
         # Mark positioning needs to at least work for all unencoded

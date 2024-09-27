@@ -40,7 +40,7 @@ def test_cli_support_aux():
     assert res.exit_code == 0
     assert ", German," in res.output
 
-    res = runner.invoke(cli, eczar + " --support aux")
+    res = runner.invoke(cli, eczar + " --check base,auxiliary")
     # No cap ß, thus missing from aux level support, note "Swiss German" alas
     # the commas
     assert ", German," not in res.output
@@ -50,7 +50,7 @@ def test_cli_support_aux():
     assert "languages of Arabic script" in res.output
     assert "Standard Arabic" in res.output
 
-    res = runner.invoke(cli, plex_arabic + " --support aux")
+    res = runner.invoke(cli, plex_arabic + " --check base,auxiliary")
     assert "Standard Arabic" not in res.output
 
 
@@ -216,12 +216,12 @@ def test_sorted_script_languages():
 
 def test_cli_shaping_threshold():
 
-    res = runner.invoke(cli, eczar + " --shaping-threshold 90")
+    res = runner.invoke(cli, eczar + " --shaping-threshold 0.1")
     assert res.exit_code == 0
     assert "10 languages of Devanagari script" in res.output
     assert "Hindi" in res.output
 
-    res = runner.invoke(cli, eczar + " --shaping-threshold 99")
+    res = runner.invoke(cli, eczar + " --shaping-threshold 0.001")
     assert res.exit_code == 0
     assert "9 languages of Devanagari script" in res.output
     assert "Hindi" not in res.output
