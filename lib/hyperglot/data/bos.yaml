@@ -29,9 +29,8 @@ orthographies:
   script: Latin
   status: primary
 sources:
-- Omniglot
-- CLDR
-- 'https://www.evertype.com/alphabets/bosnian.pdf'
+- '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
+- Everson, M. (2001). Bosnian. In *The Alphabets of Europe*. https://www.evertype.com/alphabets/bosnian.pdf
 sources note: review
 speakers: 3000000
 speakers_date: 2008

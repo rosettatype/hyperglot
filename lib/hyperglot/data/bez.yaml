@@ -7,7 +7,7 @@ orthographies:
   script: Latin
   status: primary
 sources:
-- CLDR
+- '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
 - Bena language. (2024, April 11). In *Wikipedia*. https://en.wikipedia.org/wiki/Bena_language?oldid=1218336557
 speakers: 670000
 speakers_date: 2001

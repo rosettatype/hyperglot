@@ -13,7 +13,7 @@ orthographies:
   status: primary
 sources:
 - Omniglot
-- CLDR
+- '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
 speakers: 5454000
 speakers_date: 2001-2016
 status: living

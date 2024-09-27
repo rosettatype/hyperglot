@@ -22,7 +22,7 @@ orthographies:
 preferred_as_individual: true
 sources:
 - Kalenjin languages. (2024, May 6). In *Wikipedia*. https://en.wikipedia.org/wiki/Kalenjin_languages?oldid=1222604347
-- CLDR
+- '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
 speakers: 8561574
 status: living
 validity: preliminary

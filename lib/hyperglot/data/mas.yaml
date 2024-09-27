@@ -14,7 +14,7 @@ orthographies:
   status: primary
 sources:
 - Omniglot
-- CLDR
+- '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
 - Maasai language. (2024, August 18). In *Wikipedia*. https://en.wikipedia.org/wiki/Maasai_language?oldid=1241037596
 speakers: 1500000
 speakers_date: 2009-2016

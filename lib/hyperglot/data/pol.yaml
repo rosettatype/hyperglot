@@ -9,7 +9,7 @@ orthographies:
   status: primary
 sources:
 - Omniglot
-- CLDR
+- '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
 speakers: 45000000
 status: living
 validity: verified

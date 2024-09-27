@@ -10,7 +10,7 @@ orthographies:
 sources:
 - Omniglot
 - Gheg Albanian. (2024, July 3). In *Wikipedia*. https://en.wikipedia.org/wiki/Gheg_Albanian?oldid=1232347100
-- CLDR
+- '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
 speakers: 3450000
 speakers_date: 2000–2001
 status: living

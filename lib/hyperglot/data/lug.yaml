@@ -14,7 +14,7 @@ orthographies:
 sources:
 - Omniglot
 - Luganda. (2024, August 23). In *Wikipedia*. https://en.wikipedia.org/wiki/Luganda?oldid=1241902726
-- CLDR
+- '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
 speakers: 8200000
 status: living
 validity: verified

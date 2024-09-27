@@ -12,7 +12,7 @@ orthographies:
 sources:
 - Omniglot
 - Turkish language. (2024, August 27). In *Wikipedia*. https://en.wikipedia.org/wiki/Turkish_language?oldid=1242557168
-- CLDR
+- '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
 speakers: 75700000
 speakers_date: 2002-2018
 status: living

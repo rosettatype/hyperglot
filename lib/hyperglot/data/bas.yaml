@@ -14,7 +14,7 @@ orthographies:
   script: Latin
   status: primary
 sources:
-- CLDR
+- '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
 - Basaa language. (2024, February 27). In *Wikipedia*. https://en.wikipedia.org/wiki/Basaa_language?oldid=1210533133
 speakers: 300000
 status: living

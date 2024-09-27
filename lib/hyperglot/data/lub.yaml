@@ -9,7 +9,7 @@ orthographies:
   script: Latin
   status: primary
 sources:
-- CLDR
+- '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
 speakers: 1505000
 speakers_date: 1991
 status: living

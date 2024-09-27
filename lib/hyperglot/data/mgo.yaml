@@ -14,7 +14,7 @@ orthographies:
   status: primary
 preferred_name: Meta’
 sources:
-- CLDR
+- '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
 speakers: 190000
 speakers_date: 2010
 status: living

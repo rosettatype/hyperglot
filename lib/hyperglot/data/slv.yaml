@@ -10,7 +10,7 @@ orthographies:
 sources:
 - Omniglot
 - Slovene language. (2024, August 21). In *Wikipedia*. https://en.wikipedia.org/wiki/Slovene_language?oldid=1241530948
-- CLDR
+- '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
 speakers: 2500000
 speakers_date: 2010
 status: living

@@ -11,7 +11,7 @@ orthographies:
 sources:
 - Omniglot
 - Chechen language. (2024, August 24). In *Wikipedia*. https://en.wikipedia.org/wiki/Chechen_language?oldid=1241950809
-- CLDR
+- '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
 speakers: 1400000
 speakers_date: 2010
 status: living

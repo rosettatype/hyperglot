@@ -14,7 +14,7 @@ orthographies:
   status: primary
 sources:
 - Walser German. (2024, August 21). In *Wikipedia*. https://en.wikipedia.org/wiki/Walser_German?oldid=1241446064
-- CLDR
+- '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
 speakers: 22780
 speakers_date: 2004
 status: living

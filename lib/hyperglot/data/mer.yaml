@@ -9,7 +9,7 @@ orthographies:
   script: Latin
   status: primary
 sources:
-- CLDR
+- '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
 - Meru language. (2024, August 3). In *Wikipedia*. https://en.wikipedia.org/wiki/Meru_language?oldid=1238267825
 speakers: 2000000
 speakers_date: 2009

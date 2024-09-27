@@ -13,7 +13,7 @@ orthographies:
   status: primary
 sources:
 - Omniglot
-- CLDR
+- '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
 - Kikuyu language. (2024, August 20). In *Wikipedia*. https://en.wikipedia.org/wiki/Kikuyu_language?oldid=1241221706
 speakers: 10000000
 speakers_date: 2009

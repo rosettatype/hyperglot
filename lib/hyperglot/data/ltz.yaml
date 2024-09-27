@@ -10,7 +10,7 @@ orthographies:
   status: primary
 sources:
 - Omniglot
-- CLDR
+- '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
 - Luxembourgish. (2024, August 17). In *Wikipedia*. https://en.wikipedia.org/wiki/Luxembourgish?oldid=1240839887
 speakers: 390000
 speakers_date: 2010

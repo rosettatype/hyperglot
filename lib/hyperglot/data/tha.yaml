@@ -17,7 +17,7 @@ orthographies:
 sources:
 - Omniglot
 - Thai language. (2024, August 25). In *Wikipedia*. https://en.wikipedia.org/wiki/Thai_language?oldid=1242191371
-- CLDR
+- '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
 speakers: 36000000
 speakers_date: 2000
 validity: preliminary

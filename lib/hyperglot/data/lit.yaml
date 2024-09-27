@@ -9,7 +9,7 @@ orthographies:
   status: primary
 sources:
 - Omniglot
-- CLDR
+- '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
 - Lithuanian language. (2024, August 27). In *Wikipedia*. https://en.wikipedia.org/wiki/Lithuanian_language?oldid=1242496250
 speakers: 3000000
 speakers_date: 2012

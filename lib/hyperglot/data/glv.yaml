@@ -10,7 +10,7 @@ orthographies:
 sources:
 - Omniglot
 - Manx language. (2024, August 22). In *Wikipedia*. https://en.wikipedia.org/wiki/Manx_language?oldid=1241729301
-- CLDR
+- '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
 speakers: 0
 status: living
 validity: verified

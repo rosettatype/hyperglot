@@ -16,7 +16,7 @@ orthographies:
 sources:
 - Omniglot
 - Ewondo language. (2024, August 9). In *Wikipedia*. https://en.wikipedia.org/wiki/Ewondo_language?oldid=1239400276
-- CLDR
+- '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
 speakers: 580000
 speakers_date: 1982
 status: living

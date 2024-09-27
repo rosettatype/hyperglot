@@ -15,7 +15,7 @@ orthographies:
 sources:
 - 'République du Sénégal, Décret no 2005-981 relatif à l’orthographe et la séparation
   des mots en jóola, 21 octobre 2005'
-- CLDR
+- '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
 sources note: review
 speakers: 410000
 status: living

@@ -14,7 +14,7 @@ orthographies:
   script: Latin
   status: primary
 sources:
-- CLDR
+- '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
 - Aghul language. (2024, July 31). In *Wikipedia*. https://en.wikipedia.org/wiki/Aghul_language?oldid=1237784815
 speakers: 27000
 speakers_date: 2000

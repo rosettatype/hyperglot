@@ -13,7 +13,7 @@ orthographies:
   script: Latin
   status: primary
 sources:
-- CLDR
+- '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
 - Bafia language (Cameroon). (2024, February 27). In *Wikipedia*. https://en.wikipedia.org/wiki/Bafia_language_(Cameroon)?oldid=1210579987
 speakers: 60000
 speakers_date: 1991

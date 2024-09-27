@@ -16,7 +16,7 @@ preferred_as_individual: true
 sources:
 - Omniglot
 - Norwegian language. (2024, July 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Norwegian_language?oldid=1237176078
-- CLDR
+- '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
 speakers: 4320000
 speakers_date: 2012
 status: living

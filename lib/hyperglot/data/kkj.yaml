@@ -28,7 +28,7 @@ orthographies:
   script: Latin
   status: primary
 sources:
-- CLDR
+- '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
 - Kako language. (2024, April 25). In *Wikipedia*. https://en.wikipedia.org/wiki/Kako_language?oldid=1220689650
 - 'Ernst Urs, Alphabet et orthographe du kakɔ (kakɔ-est), SIL Cameroun, 1996'
 - 'Ernst Urs, Alphabet et orthographe du mbonjɔɔ (kakɔ-ouest), SIL Cameroun, 1996'

@@ -17,10 +17,9 @@ orthographies:
   script: Cyrillic
   status: primary
 sources:
-- Omniglot
 - Macedonian language. (2024, July 22). In *Wikipedia*. https://en.wikipedia.org/wiki/Macedonian_language?oldid=1235932356
-- CLDR
-- 'https://www.evertype.com/alphabets/macedonian.pdf'
+- '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
+- Everson, M. (1995). Macedonian. In *The Alphabets of Europe*. https://www.evertype.com/alphabets/macedonian.pdf
 sources note: review
 speakers: 1400000
 status: living

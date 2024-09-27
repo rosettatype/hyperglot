@@ -16,10 +16,9 @@ orthographies:
   script: Cyrillic
   status: primary
 sources:
-- Omniglot
 - Russian language. (2024, August 27). In *Wikipedia*. https://en.wikipedia.org/wiki/Russian_language?oldid=1242514443
 - Russian alphabet. (2024, August 25). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Russian_alphabet&oldid=1242174537
-- 'https://www.evertype.com/alphabets/russian.pdf'
+- Everson, M. (2001). Russian. In *The Alphabets of Europe*. https://www.evertype.com/alphabets/russian.pdf
 sources note: review
 speakers: 150000000
 speakers_date: 2012
