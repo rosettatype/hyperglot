@@ -5,8 +5,9 @@ orthographies:
     г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
   marks: ◌̆ ◌̈
   note: Used in Dagestan (Russia).
-  numerals: <default>
   punctuation: <default>
+  currency: <default>
+  numerals: <default>
   script: Cyrillic
   status: primary
 - autonym: Ts‘əxna miz
@@ -14,7 +15,9 @@ orthographies:
   base: <azj>
   marks: <azj>
   note: Used in Azerbaijan.
-  numerals: <default>
+  punctuation: <azj>
+  currency: <azj>
+  numerals: <azj>
   script: Latin
   status: primary
 sources:
