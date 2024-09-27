@@ -9,7 +9,7 @@ orthographies:
   script: Latin
   status: primary
 sources:
-- Omniglot
+- Ager, S. (2021, September 1). *Omniglot* https://www.omniglot.com
 - '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
 - Sangu language (Tanzania). (2024, March 3). In *Wikipedia*. https://en.wikipedia.org/wiki/Sangu_language_(Tanzania)?oldid=1211589949
 speakers: 75000

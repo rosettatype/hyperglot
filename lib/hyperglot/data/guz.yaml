@@ -8,7 +8,7 @@ orthographies:
   script: Latin
   status: primary
 sources:
-- Omniglot
+- Ager, S. (2021, September 1). *Omniglot* https://www.omniglot.com
 - '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
 speakers: 2200000
 speakers_date: 2009

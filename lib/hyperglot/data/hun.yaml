@@ -9,11 +9,10 @@ orthographies:
   script: Latin
   status: primary
 sources:
-- Omniglot
+- Ager, S. (2021, September 1). *Omniglot* https://www.omniglot.com
 - Alvestrand, Harald. (1995) *Characters and character sets for various languages.*
   Retrieved on September 6, 2021 from https://www.alvestrand.no/ietf/lang-chars.txt
-- 'Native'
-sources note: review
+native review: true
 speakers: 13000000
 speakers_date: 2003-2014
 status: living

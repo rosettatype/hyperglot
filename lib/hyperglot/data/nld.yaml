@@ -14,9 +14,9 @@ orthographies:
   script: Latin
   status: primary
 sources:
-- Omniglot
-- 'Native'
-sources note: review
+- Ager, S. (2021, September 1). *Omniglot* https://www.omniglot.com
+native review: true
+source note: missing
 speakers: 24000000
 speakers_date: 2016
 status: living

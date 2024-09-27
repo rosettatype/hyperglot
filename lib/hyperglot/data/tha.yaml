@@ -15,7 +15,7 @@ orthographies:
   script: Thai
   status: primary
 sources:
-- Omniglot
+- Ager, S. (2021, September 1). *Omniglot* https://www.omniglot.com
 - Thai language. (2024, August 25). In *Wikipedia*. https://en.wikipedia.org/wiki/Thai_language?oldid=1242191371
 - '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
 speakers: 36000000

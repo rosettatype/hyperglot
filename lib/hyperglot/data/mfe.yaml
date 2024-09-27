@@ -8,7 +8,7 @@ orthographies:
   status: primary
 preferred_name: Mauritian Creole
 sources:
-- Omniglot
+- Ager, S. (2021, September 1). *Omniglot* https://www.omniglot.com
 - '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
 speakers: 1090000
 speakers_date: 2016

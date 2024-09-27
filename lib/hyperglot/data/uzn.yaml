@@ -23,7 +23,7 @@ orthographies:
   script: Cyrillic
   status: secondary
 sources:
-- Omniglot
+- Ager, S. (2021, September 1). *Omniglot* https://www.omniglot.com
 - Uzbek language. (2024, August 8). In *Wikipedia*. https://en.wikipedia.org/wiki/Uzbek_language?oldid=1239243736
 - '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
 speakers: 27000000

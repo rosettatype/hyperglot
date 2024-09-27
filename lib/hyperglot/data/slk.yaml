@@ -9,7 +9,7 @@ orthographies:
   script: Latin
   status: primary
 sources:
-- Omniglot
+- Ager, S. (2021, September 1). *Omniglot* https://www.omniglot.com
 - '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
 - Slovak language. (2024, August 27). In *Wikipedia*. https://en.wikipedia.org/wiki/Slovak_language?oldid=1242541989
 speakers: 5200000
