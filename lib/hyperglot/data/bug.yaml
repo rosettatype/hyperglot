@@ -8,7 +8,9 @@ orthographies:
     taking over. Omniglot indicates ‹Ə, ə› are used, but Wikipedia states that “general
     Indonesian spelling conventions are applied” which is what this orthography adheres
     to.
-  numerals: <default>
+  punctuation: <zsm>
+  currency: <zsm>
+  numerals: <zsm>
   script: Latin
   status: primary
 - autonym: ᨅᨔ ᨕᨘᨁᨗ
@@ -19,6 +21,7 @@ orthographies:
   marks: ◌ᨗ ◌ᨘ ◌ᨙ ◌ᨚ ◌ᨛ
   note: The script is also called Lontara
   punctuation: ᨞ ᨟
+  numerals: <default Latin>
   script: Buginese
   status: primary
 sources:

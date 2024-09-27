@@ -12,6 +12,8 @@ orthographies:
   marks: ◌́ ◌̄ ◌̈
   note: The Van Ophuijsen Spelling System was used 1901–1947 for Malay and Indonesian
     in the Dutch East Indies (now Indonesia)
+  punctuation: <default> “ ” ‘ ’
+  currency: <default>
   numerals: <default>
   script: Latin
   status: historical
@@ -21,6 +23,8 @@ orthographies:
   marks: ◌́ ◌̈
   note: The Republican Spelling System was used 1947–1972. The numeral two marked
     reduplicated words. Glottal stop was represented with the letter ‹k›.
+  punctuation: <default> “ ” ‘ ’
+  currency: <default>
   numerals: <default>
   script: Latin
   status: historical
@@ -29,6 +33,7 @@ sources:
 - Van Ophuijsen Spelling System. (2024, June 24). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Van_Ophuijsen_Spelling_System&oldid=1230792623
 - Republican Spelling System. (2024, June 26). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Republican_Spelling_System&oldid=1231039723
 - Buginese language. (2024, June 20). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Buginese_language&oldid=1230088764
+- Quotation mark. (2024, September 26). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Quotation_mark&oldid=1247790780
 speakers: 43000000
 speakers_date: 2010
 status: living

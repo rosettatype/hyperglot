@@ -4,20 +4,19 @@ orthographies:
   auxiliary: ''''
   base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k
     l m n o p q r s t u v w x y z
-  numerals: <default>
-  punctuation: <default>
+  punctuation: <default> ‘ ’ “ ”
   currency: <default> $
-  note: Post-1972 orthography (without diacritics) is used by Standard Malay and Indonesian.
   numerals: <default>
+  note: Post-1972 orthography (without diacritics) is used by Standard Malay and Indonesian.
   script: Latin
   status: primary
 - autonym: Malaysia
   base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ĕ a b c d e f g h i j
     k l m n o p q r s t u v w x y z ĕ
   marks: ◌̆
-  numerals: <default>
-  punctuation: <default>
+  punctuation: <default> ‘ ’ “ ”
   currency: <default> $
+  numerals: <default>
   note: Za'aba Spelling system was used 1927–1972 in British Malaya and Borneo/Brunei
     for Malaysia and Singapore orthography
   script: Latin
@@ -38,6 +37,8 @@ sources:
 - Malay orthography. (2024, August 8). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Malay_orthography&oldid=1239266044
 - Za'aba Spelling. (2024, August 9). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Za%27aba_Spelling&oldid=1239475690
 - Ager, S. (2021, September 1). *Omniglot* https://www.omniglot.com
+- Quotation mark. (2024, September 26). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Quotation_mark&oldid=1247790780
+
 speakers: 32772100
 speakers_date: 2019
 status: living
