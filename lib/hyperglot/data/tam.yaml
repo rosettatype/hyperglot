@@ -16,11 +16,8 @@ orthographies:
   script: Tamil
   status: primary
 sources:
-- Ager, S. (2021, September 1). *Omniglot* https://www.omniglot.com
 - Tamil language. (2024, August 22). In *Wikipedia*. https://en.wikipedia.org/wiki/Tamil_language?oldid=1241650727
-- 'Unicode (for basic unicode compliance): https://unicode.org/charts/PDF/U0B80.pdf  #
-  REVIEW'
-- 'Unicode (for supplement): https://unicode.org/charts/PDF/U11FC0.pdf'
+- Tamil. (2024). In *The Unicode Standard, Version 16.0.0* (pp. 591–600). The Unicode Consortium. https://www.unicode.org/versions/Unicode16.0.0/UnicodeStandard-16.0.pdf
 sources note: review
 speakers: 75000000
 speakers_date: 2011-2015

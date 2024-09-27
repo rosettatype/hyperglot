@@ -15,6 +15,7 @@ orthographies:
   status: primary
 sources:
 - Bengali language. (2024, August 11). In *Wikipedia*. https://en.wikipedia.org/wiki/Bengali_language?oldid=1239841318
+- Bengali. (2024). In *The Unicode Standard, Version 16.0.0* (pp. 573–579). The Unicode Consortium. https://www.unicode.org/versions/Unicode16.0.0/UnicodeStandard-16.0.pdf
 - '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
 speakers: 230000000
 speakers_date: 2011-2017

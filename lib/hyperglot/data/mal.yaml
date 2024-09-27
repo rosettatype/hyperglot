@@ -14,8 +14,8 @@ orthographies:
   script: Malayalam
   status: primary
 sources:
-- Ager, S. (2021, September 1). *Omniglot* https://www.omniglot.com
 - Malayalam. (2024, August 27). In *Wikipedia*. https://en.wikipedia.org/wiki/Malayalam?oldid=1242497899
+- Malayalam. (2024). In *The Unicode Standard, Version 16.0.0* (pp. 608–616). The Unicode Consortium. https://www.unicode.org/versions/Unicode16.0.0/UnicodeStandard-16.0.pdf
 speakers: 45000000
 speakers_date: 2011-2019
 validity: preliminary

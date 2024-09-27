@@ -14,8 +14,8 @@ orthographies:
   script: Gujarati
   status: primary
 sources:
-- Ager, S. (2021, September 1). *Omniglot* https://www.omniglot.com
 - Gujarati language. (2024, August 12). In *Wikipedia*. https://en.wikipedia.org/wiki/Gujarati_language?oldid=1239884811
+- Gujarati. (2024). In *The Unicode Standard, Version 16.0.0* (pp. 585–586). The Unicode Consortium. https://www.unicode.org/versions/Unicode16.0.0/UnicodeStandard-16.0.pdf
 speakers: 56000000
 speakers_date: 2011
 validity: preliminary

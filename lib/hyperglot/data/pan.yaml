@@ -28,9 +28,9 @@ orthographies:
   script: Arabic
   status: primary
 sources:
-- Ager, S. (2021, September 1). *Omniglot* https://www.omniglot.com
 - Punjabi language. (2024, August 27). In *Wikipedia*. https://en.wikipedia.org/wiki/Punjabi_language?oldid=1242561572
 - Shahmukhi. (2024, August 21). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Shahmukhi&oldid=1241416416
+- Gurmukhi. (2024). In *The Unicode Standard, Version 16.0.0* (pp. 580–584). The Unicode Consortium. https://www.unicode.org/versions/Unicode16.0.0/UnicodeStandard-16.0.pdf
 speakers: 125000000
 speakers_date: 2011-2015
 validity: preliminary
