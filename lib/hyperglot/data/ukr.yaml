@@ -9,9 +9,9 @@ orthographies:
   - The form of the Cyrillic breve mark (marked in the previews) differs from the
     Latin-script breve that is associated with the same Unicode codepoint.
   marks: ◌̆ ◌̈ ◌́
-  numerals: <default>
-  punctuation: <default>
+  punctuation: <default> « » “ ” ‘ ’ „
   currency: ₴ <default>
+  numerals: <default>
   script: Cyrillic
   status: primary
 sources:
@@ -19,6 +19,8 @@ sources:
 - Ukrainian language. (2024, August 25). In *Wikipedia*. https://en.wikipedia.org/wiki/Ukrainian_language?oldid=1242178969
 - '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
 - Ukrainian alphabet. (2024, August 23). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Ukrainian_alphabet&oldid=1241928729
+- Quotation mark. (2024, September 26). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Quotation_mark&oldid=1247790780
+- List of currency symbols. (2024, July 15). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Template:List_of_currency_symbols&oldid=1234688642
 speakers: 35000000
 speakers_date: 2000
 status: living
