@@ -3,12 +3,15 @@ orthographies:
 - autonym: Ido
   base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k
     l m n o p q r s t u v w x y z
+  punctuation: <default> « » ‘ ’
+  currency: <default>
   numerals: <default>
   script: Latin
   status: primary
 sources:
 - Ager, S. (2021, September 1). *Omniglot* https://www.omniglot.com
 - Ido. (2024, August 13). In *Wikipedia*. https://en.wikipedia.org/wiki/Ido?oldid=1240168470
+- Quotation mark. (2024, September 26). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Quotation_mark&oldid=1247790780
 speakers: 200
 speakers_date: 2015
 status: constructed
