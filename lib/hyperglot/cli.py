@@ -18,7 +18,7 @@ from hyperglot import (
 )
 from hyperglot.languages import Languages, find_language
 from hyperglot.language import Language
-from hyperglot.checker import FontChecker
+from hyperglot.checker import FontChecker, parse_check_levels
 from hyperglot.validate import validate_data
 
 log = logging.getLogger(__name__)
@@ -40,6 +40,15 @@ DUMP_ARGS = {
 # windows systems.
 # See https://learn.microsoft.com/en-us/windows/win32/fileio/naming-a-file#naming-conventions
 ESCAPE_ISO_FILENAMES = ["con", "prn", "aux", "nul", "com", "lpt"]
+
+
+def validate_checks(ctx, param, value):
+    value = re.split(r"[^A-z]+", value)
+    try:
+        return parse_check_levels(value)
+    except ValueError as e:
+        print(e)
+        return [SupportLevel.BASE.value]
 
 
 def validate_font(ctx, param, value):
@@ -82,18 +91,21 @@ def language_list(langs, script=None, seperator=", "):
     return seperator.join(items)
 
 
-
 def millify(n):
     """
     Nicer human-readable rounded numbers (short scale!).
     Via https://stackoverflow.com/a/3155023/999162
     """
-    millnames = ['','k','M','B','T']
+    millnames = ["", "k", "M", "B", "T"]
     n = float(n)
-    millidx = max(0,min(len(millnames)-1,
-                        int(math.floor(0 if n == 0 else math.log10(abs(n))/3))))
+    millidx = max(
+        0,
+        min(
+            len(millnames) - 1, int(math.floor(0 if n == 0 else math.log10(abs(n)) / 3))
+        ),
+    )
 
-    return '{:.2f}{}'.format(n / 10**(3 * millidx), millnames[millidx])
+    return "{:.2f}{}".format(n / 10 ** (3 * millidx), millnames[millidx])
 
 
 def print_title(title):
@@ -128,7 +140,9 @@ def print_to_cli(font, title):
         print("%s speakers in total." % millify(speakers))
         print()
         print()
-        print("To see detailed information (character set, speakers, autonym) for a language use 'hyperglot-data \"Language Name or ISO code\"'")
+        print(
+            "To see detailed information (character set, speakers, autonym) for a language use 'hyperglot-data \"Language Name or ISO code\"'"
+        )
         print()
 
 
@@ -192,14 +206,13 @@ def hyperglot_options(f):
         "fonts", type=click.Path(exists=True), callback=validate_font, nargs=-1
     )
     @click.option(
-        "-s",
-        "--support",
-        type=click.Choice([s.value for s in SupportLevel], case_sensitive=False),
+        "-c",
+        "--check",
         default="base",
         show_default=True,
-        help="Option to test only for the language's base charset, or to"
-        " also test for presence of all auxilliary characters, if "
-        "present in the database.",
+        callback=validate_checks,
+        help=f"What to check support for. Options are %s or a comma-separated "
+        "combination of those." % (", ".join(SupportLevel.all())),
     )
     @click.option(
         "-d",
@@ -254,7 +267,10 @@ def hyperglot_options(f):
         default=0.01,
         type=click.FloatRange(0.0, 1.0, clamp=True),
         help="Complex script shaping checks pass when a font renders correctly "
-        "for this percent threshold of checks. 0-100."
+        "for this frequency threshold between 0.0—1.0. The frequency of " 
+        "combinations is highest for 1.0 (the most frequent combination) and "
+        "converges to 0.0 the more rare a combination is. The default 0.01 "
+        "requires all the most common combinations to be supported in the font."
     )
     @click.option(
         "--include-all-orthographies",
@@ -287,7 +303,7 @@ def hyperglot_options(f):
 @hyperglot_options
 def cli(
     fonts,
-    support,
+    check,
     decomposed,
     marks,
     validity,
@@ -322,6 +338,12 @@ def cli(
     elif verbose > 1:
         # For debugging verbosity also opt in to all near misses reporting
         loglevel = logging.DEBUG
+        logging.getLogger("hyperglot.checks.check_arabic_joining").setLevel(logging.DEBUG)
+        logging.getLogger("hyperglot.checks.check_brahmi_conjuncts").setLevel(logging.DEBUG)
+        logging.getLogger("hyperglot.checks.check_brahmi_halfforms").setLevel(logging.DEBUG)
+        logging.getLogger("hyperglot.checks.check_combination_marks").setLevel(logging.DEBUG)
+        logging.getLogger("hyperglot.checks.check_coverage").setLevel(logging.DEBUG)
+        logging.getLogger("hyperglot.checks.check_mark_attachment").setLevel(logging.DEBUG)
         logging.getLogger("hyperglot.reporting.missing").setLevel(logging.WARNING)
         logging.getLogger("hyperglot.reporting.marks").setLevel(logging.WARNING)
         logging.getLogger("hyperglot.reporting.joining").setLevel(logging.WARNING)
@@ -373,6 +395,30 @@ def cli(
     if report_conjuncts >= 0:
         logging.getLogger("hyperglot.reporting.conjuncts").setLevel(logging.WARNING)
 
+    log.info(
+        "Performing language checks with these options: %s"
+        % " ".join(
+            [
+                "fonts:",
+                str(fonts),
+                "check:",
+                str(check),
+                "decomposed:",
+                str(decomposed),
+                "marks:",
+                str(marks),
+                "validity:",
+                str(validity),
+                "sorting:",
+                str(sorting),
+                "sort_dir:",
+                str(sort_dir),
+                "shaping_threshold:",
+                str(shaping_threshold),
+            ]
+        )
+    )
+
     if fonts == ():
         print("Provide at least one path to a font or --help for more " "information")
 
@@ -381,7 +427,7 @@ def cli(
 
     for font_path in fonts:
         supported = FontChecker(font_path).get_supported_languages(
-            supportlevel=support,
+            check=check,
             validity=validity,
             decomposed=decomposed,
             marks=marks,
@@ -396,7 +442,7 @@ def cli(
             report_conjuncts=report_conjuncts,
         )
 
-        level = SupportLevel(support).value
+        # level = SupportLevel(support).value
 
         # Sort each script's results by the chosen sorting logic
         sorted_entries = {}
@@ -413,10 +459,7 @@ def cli(
         results[font_path] = sorted_entries
 
     for font_path in fonts:
-        title = "%s has %s support for:" % (
-            os.path.basename(font_path),
-            level.lower(),
-        )
+        title = "%s has support for:" % (os.path.basename(font_path),)
 
         print_to_cli(results[font_path], title)
 

@@ -18,6 +18,36 @@ log = logging.getLogger(__name__)
 log.setLevel(logging.WARNING)
 
 
+def parse_check_levels(levels: List[str]) -> List:
+    """
+    Parse the options --check takes after splitting them (also arguments for
+    Checker.get_supported_languages and Language.get):
+    - only SupportLevel values are valid
+    - default to 'base'
+    - for 'all' set all
+    """
+    if not isinstance(levels, List):
+        raise ValueError("Supplied check levels are not in list format")
+
+    if SupportLevel.ALL.value in levels:
+        return SupportLevel.all()
+
+    pruned = [l.lower() for l in levels if l.lower() in SupportLevel.values()]
+    not_allowed = set(levels).difference(pruned)
+    if len(not_allowed) > 0:
+        log.error(
+            f"Provided check {levels} contain invalid options: {not_allowed}"
+        )
+
+    if len(pruned) == 0:
+        log.error(
+            f"Provided check {levels} not valid, defaulting to 'base'"
+        )
+        return [SupportLevel.BASE.value]
+
+    return pruned
+
+
 def format_missing_unicodes(codepoints: Set[str], reference) -> str:
     """
     List missing codepoints. For cases where all or most codepoints are missing
@@ -96,7 +126,7 @@ class Checker:
 
     def get_supported_languages(
         self,
-        supportlevel: str = SupportLevel.BASE.value,
+        check: List[str] = [SupportLevel.BASE.value],
         validity: str = LanguageValidity.DRAFT.value,
         decomposed: bool = False,
         marks: bool = False,
@@ -113,7 +143,7 @@ class Checker:
         """
         Get all languages supported based on the passed in characters.
 
-        @param supportlevel str: Check for 'base' (default) or 'aux' support.
+        @param check List[str]: Check for 'base' (default) or 'aux' support.
         @param validatiy str: Filter by certainty of the database data.
             Defaults to 'weak', which ignores all but 'todo'. More stringent
             options are 'done' and 'verified'.
@@ -142,6 +172,8 @@ class Checker:
         languages = Languages()
 
         support = {}
+
+        check = parse_check_levels(check)
 
         for iso in languages:
             lang = languages[iso]
@@ -174,7 +206,7 @@ class Checker:
             # orthographies that are supported with chars.
             lang_sup = self.supports_language(
                 iso,
-                supportlevel=supportlevel,
+                check=check,
                 validity=validity,
                 decomposed=decomposed,
                 marks=marks,
@@ -204,7 +236,7 @@ class Checker:
     def supports_language(
         self,
         iso: str,
-        supportlevel: str = SupportLevel.BASE.value,
+        check: List[str] = [SupportLevel.BASE.value],
         validity: str = LanguageValidity.DRAFT.value,
         decomposed: bool = False,
         marks: bool = False,
@@ -221,7 +253,7 @@ class Checker:
         Return boolean indicating support for language with given iso based on
         the Checker's characters.
 
-        @param supportlevel str: Support level for which to check.
+        @param check List[str]: What attributes to check for support
         @param decomposed bool: Flag to decompose the passed in chars, meaning
             matching languages do not need to have the encoded characters as
             long as they have the base + mark combinations to shape those
@@ -268,13 +300,6 @@ class Checker:
         ):
             return False
 
-        if supportlevel not in [s.value for s in SupportLevel]:
-            log.error(
-                "Provided support level '%s' not valid, "
-                "defaulting to 'base'" % supportlevel
-            )
-            supportlevel = "base"
-
         support = {}
         orthographies = language.get_check_orthographies(check_all_orthographies)
 
@@ -297,13 +322,17 @@ class Checker:
                     self,
                     # Pass the support arguments
                     marks=marks,
-                    supportlevel=supportlevel,
+                    # supportlevel=supportlevel,
+                    check=check,
                     decomposed=decomposed,
                     validity=validity,
                     threshold=shaping_threshold,
                 )
 
-                log.debug(f"Running check {check_name} for {iso}: " + ("Satisfied" if result else "Failed"))
+                log.debug(
+                    f"Running check {check_name} for {iso}: "
+                    + ("Satisfied" if result else "Failed")
+                )
 
                 if not result:
                     supported = False

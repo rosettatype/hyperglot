@@ -1,6 +1,6 @@
 import re
 import logging
-from typing import List
+from typing import List, Tuple
 
 from hyperglot.checkbase import CheckBase
 from hyperglot.orthography import Orthography
@@ -21,12 +21,11 @@ class Check(CheckBase):
     logger = logging.getLogger("hyperglot.reporting.conjuncts")
 
     def check(self, orthography: Orthography, checker, **kwargs) -> bool:
-
         """
         the sequence of the consonant Ka, virama, and consonant Pa will result in a conjunct KPa
         Ka + virama + Pa → KPa
 
-        
+
         but:
 
         Without ZWNJ, a conjunct should be rendered (if available):
@@ -42,12 +41,14 @@ class Check(CheckBase):
         Ka + virama + ZWJ + Ka → K- + Ka
 
         """
-
         options = self._get_options(**kwargs)
 
         if not orthography.combinations:
             return True
-        conjuncts = dict(filter(self.filter_conjuncts, orthography.combinations.items()))
+        conjuncts = dict(
+            filter(self.filter_conjuncts, orthography.combinations.items())
+        )
+        print("CONJUNCTS", conjuncts)
         if conjuncts == {}:
             return True
 
@@ -64,19 +65,23 @@ class Check(CheckBase):
                 # continue
             if not self.check_conjunct(conjunct, checker.shaper):
                 fails = True
-            
+
             if fails:
                 fmt_threshold = str(options["threshold"]).format(".5f")
 
                 if frequency > options["threshold"]:
-                    logging.error(f"Conjunct '{conjunct} ({frequency:.5f}) does not shape and does not pass frequency threshold ({fmt_threshold}).")
+                    logging.error(
+                        f"Conjunct '{conjunct} ({frequency:.5f}) does not shape and does not pass frequency threshold ({fmt_threshold})."
+                    )
                     fails_over_threshold = True
                 else:
-                    logging.warning(f"Conjunct '{conjunct} ({frequency:.5f}) does not shape, but passes threshold ({fmt_threshold}).")
+                    logging.warning(
+                        f"Conjunct '{conjunct} ({frequency:.5f}) does not shape, but passes threshold ({fmt_threshold})."
+                    )
 
         return not fails_over_threshold
 
-    def filter_conjuncts(self, cluster: str) -> bool:
+    def filter_conjuncts(self, cluster: Tuple) -> bool:
         """
         From a list of clusters (Orthography.combinations) extract those that
         we deem relevant for conjunct formation checks.
@@ -85,10 +90,7 @@ class Check(CheckBase):
         - contain at least two consonants
         - the virama is between the consonants, but there may be other characters (marks, vowels)
         """
-        if isinstance(cluster, str) is False:
-            return False
-
-        cluster = list(cluster)
+        cluster = list(cluster[0])
         expect_next = [
             self.BRAHMIC_CATEGORIES["C"],
             [self.VIRAMA],

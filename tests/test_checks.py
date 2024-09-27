@@ -32,12 +32,17 @@ testfont = os.path.abspath("tests/HyperglotTestFont-Regular.ttf")
 
 
 def test_check_coverage():
+
     coverage_check = CheckCoverage()
     eng = Language("eng").get_orthography()
     fin = Language("fin").get_orthography()
 
     assert coverage_check.check(eng, CharsetChecker(eng.base_chars)) is True
+    assert len(coverage_check.logs) == 0
+
     assert coverage_check.check(fin, CharsetChecker(eng.base_chars)) is False
+    assert len(coverage_check.logs) == 1
+    assert "missing characters for 'base': Ä, Å, Ö, ä, å, ö" in coverage_check.logs[0][3]
 
     # Note: Coverage is extensively checked with Checker tests.
 

@@ -32,7 +32,7 @@ class Check(CheckBase):
         options = self._get_options(**kwargs)
 
         chars = orthography.base
-        if options["supportlevel"] == SupportLevel.AUX.value:
+        if SupportLevel.AUX.value in options["check"]:
             chars.extend(orthography.auxiliary)
 
         require_shaping = [

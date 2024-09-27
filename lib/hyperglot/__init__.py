@@ -23,8 +23,20 @@ class SupportLevel(Enum):
     Valid support levels for querying Hyperglot.
     """
 
+    ALL = "all"
     BASE = "base"
     AUX = "auxiliary"
+    PUNCTUATION = "punctuation"
+    NUMERALS = "numerals"
+    CURRENCY = "currency"
+
+    @classmethod
+    def values(self):
+        return [level.value for level in self]
+    
+    @classmethod
+    def all(self):
+        return [level.value for level in self if level != self.ALL]
 
 
 # Deprecated: SUPPORTLEVELS will be removed in the future, use SupportLevel!

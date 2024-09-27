@@ -85,7 +85,7 @@ class CheckBase:
         these defaults, unless they are set.
         """
         options = {
-            "supportlevel": SupportLevel.BASE.value,
+            "check": [SupportLevel.BASE.value],
             "validity": LanguageValidity.DRAFT.value,
             "decomposed": False,
             "marks": False,
