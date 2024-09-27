@@ -9,6 +9,9 @@ orthographies:
     ὄ Ὄ ὂ Ὂ ὁ Ὁ ὅ Ὅ ὃ Ὃ ὸ Ὸ ῤ ῥ Ῥ ὐ ὔ ὒ ὖ ὑ Ὑ ὕ Ὕ ὓ Ὓ ὗ Ὗ ὺ Ὺ ῠ Ῠ ῦ ΰ ῢ ῧ ῡ Ῡ ὠ Ὠ
     ὤ Ὤ ᾤ ᾬ ὢ Ὢ ᾢ ᾪ ὦ Ὦ ᾦ ᾮ ᾠ ᾨ ὡ Ὡ ὥ Ὥ ᾥ ᾭ ὣ Ὣ ᾣ ᾫ ὧ Ὧ ᾧ ᾯ ᾡ ᾩ ῴ ὼ Ὼ ῲ ῶ ῷ ῳ ῼ
   marks: ◌̀ ◌́ ◌̄ ◌̆ ◌̈ ◌̓ ◌̔ ◌͂ ◌ͅ
+  punctuation: <default>
+  currency: <default>
+  numerals: <default>
   script: Greek
   status: primary
 preferred_name: Ancient Greek

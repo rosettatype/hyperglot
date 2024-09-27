@@ -16,7 +16,7 @@ orthographies:
   base: Α Β B Ϳ Γ Δ D Ε Ζ Θ Ι Κ Λ Μ Ν Ξ Ο Π Ρ Σ Τ Υ Φ Χ α β b ϳ γ δ d ε ζ θ ι κ λ
     μ ν ξ ο π ρ σ ς τ υ φ χ γ̇ ε̱ ν̇ σ̇ σ̈ χ̇ ε̰
   marks: ◌̇ ◌̈ ◌̰ ◌̱ ◌́
-  punctuation: <aln>
+  punctuation: <default>
   currency: <default secondary>
   numerals: <default>
   note: Used in Greece.

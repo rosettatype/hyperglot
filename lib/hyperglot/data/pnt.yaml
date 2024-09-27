@@ -5,6 +5,9 @@ orthographies:
     ρ σ χ̌ τ ζ̌ υ φ χ
   marks: ◌̌ ◌́
   preferred_as_group: true
+  punctuation: <default>
+  currency: <default>
+  numerals: <default>
   script: Greek
   status: primary
 - autonym: Pontiakón
@@ -12,6 +15,8 @@ orthographies:
     k l m n o p r s ş t u y x z þ
   marks: ◌̆ ◌̧ ◌̇ ◌́
   preferred_as_group: true
+  punctuation: <default>
+  currency: <default>
   numerals: <default>
   script: Latin
   status: primary
@@ -20,8 +25,9 @@ orthographies:
     п р ш т ц ч у ф х
   marks: ◌́
   preferred_as_group: true
-  numerals: <default>
   punctuation: <default>
+  currency: <default>
+  numerals: <default>
   script: Cyrillic
   status: primary
 sources:
