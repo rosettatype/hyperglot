@@ -8,6 +8,8 @@ orthographies:
   note: The International Journal of Middle East Studies (IJMES) transliteration chart
     used for this entry provides the most complete and (almost) reversible transliteration
     between the original Arabic and Latin alphabet representation.
+  punctuation: <default>
+  currency: <default>
   numerals: <default>
   script: Latin
   status: transliteration
