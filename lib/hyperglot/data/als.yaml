@@ -3,6 +3,8 @@ orthographies:
 - autonym: Shqip
   base: <aln>
   marks: <aln>
+  punctuation: <aln>
+  currency: <aln>
   numerals: <default>
   script: Latin
   status: primary
