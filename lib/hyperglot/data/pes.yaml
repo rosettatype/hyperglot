@@ -9,9 +9,9 @@ orthographies:
   - Uses Persian numerals (extended Arabic-Indic digits) that have their own code points
     separate from the Arabic-script numerals.
   marks: ◌َ ◌ُ ◌ِ ◌ْ ◌ٔ ◌ٰ
-  numerals: ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹ <default Latin>
-  punctuation: <default>
+  punctuation: <default> « »
   currency: <default Latin> ﷼
+  numerals: ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹ <default Latin>
   script: Arabic
   status: primary
 sources:

@@ -5,6 +5,7 @@ orthographies:
   base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ç Ê Î Ş Û Ł Ň Ř Ü a b
     c d e f g h i j k l m n o p q r s t u v w x y z ç ê î ş û ł ň ř ü
   marks: ◌̂ ◌̈ ◌̌ ◌̧
+  punctuation: <default>
   numerals: <default>
   script: Latin
   status: primary
@@ -14,8 +15,8 @@ orthographies:
   design_requirements:
   - Positional forms of the characters (initial, medial, and final forms) and some
     ligatures are required for proper representation of the language.
-  numerals: <default>
   punctuation: <default>
+  numerals: <default>
   script: Arabic
   status: primary
 sources:

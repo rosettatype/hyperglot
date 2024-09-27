@@ -4,8 +4,8 @@ orthographies:
   base: <ckb>
   auxiliary: <ckb>
   design_requirements: <ckb>
+  punctuation: <arb>
   numerals: <default>
-  punctuation: <default>
   script: Arabic
   status: primary
 sources:

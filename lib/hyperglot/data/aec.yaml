@@ -5,8 +5,9 @@ orthographies:
   base: <arz>
   design_requirements: <arz>
   marks: <arz>
+  punctuation: <arb>
+  currency: <default>
   numerals: <default>
-  punctuation: <default>
   script: Arabic
   status: primary
 sources:

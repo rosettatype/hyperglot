@@ -14,9 +14,9 @@ orthographies:
     Arabic-script numerals. However, the forms of 4 and 7 differ from the
     defaults associated with the Unicode codepoints (typically the Persian forms).
   marks: ◌َ ◌ُ ◌ِ ◌ْ ◌ٰ
-  numerals: <pes>
-  punctuation: <pes>
+  punctuation: <default> “ ” ‘ ’
   currency: <default> ₨
+  numerals: <pes>
   script: Arabic
   status: primary
 sources:

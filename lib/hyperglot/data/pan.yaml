@@ -21,9 +21,9 @@ orthographies:
   - Positional forms of the characters (initial, medial, and final forms) and some
     ligatures are required for proper representation of the language.
   marks: ◌ؕ
-  numerals: <pes>
   punctuation: <pes>
   currency: <urd>
+  numerals: <pes>
   note: Version of the Arabic script called Shahmukhi. Used in Pakistan.
   script: Arabic
   status: primary

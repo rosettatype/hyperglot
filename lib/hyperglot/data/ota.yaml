@@ -17,9 +17,9 @@ orthographies:
   base: <arb>
   design_requirements: <arb>
   marks: <arb>
-  numerals: <default>
   punctuation: <default>
   currency: <default>
+  numerals: <default>
   script: Arabic
   status: primary
 sources:

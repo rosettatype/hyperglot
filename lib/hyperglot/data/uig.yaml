@@ -4,11 +4,10 @@ orthographies:
   base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Ю Я Ғ Җ Қ Ң Ү Һ Ә Ө а б
     в г д е ж з и й к л м н о п р с т у ф х ц ч ш ю я ғ җ қ ң ү һ ә ө
   marks: ◌̆
-  numerals: <default>
-  punctuation: <default>
-  script: Cyrillic
   punctuation: <default>
   currency: <default>
+  numerals: <default>
+  script: Cyrillic
   status: secondary
 - autonym: ئۇيغۇرچە
   base: ئ ا ب ت ج خ د ر ز س ش غ ف ق ك ل م ن و ي پ چ ژ ڭ گ ھ ۆ ۇ ۈ ۋ ې ە
@@ -18,9 +17,9 @@ orthographies:
     ligatures are required for proper representation of the language.
   - Uyghur language permits hyphenation, thus it is relevant to provide a language-specific version of the hyphen.
   marks: ◌ٔ
-  numerals: <default>
-  punctuation: <default>
+  punctuation: <default> « » ‹ ›
   currency: <default>
+  numerals: <default>
   script: Arabic
   status: primary
 - autonym: Uighur
@@ -28,7 +27,7 @@ orthographies:
     j k l m n o p q r s t u w x y z ë ö ü
   marks: ◌̈
   numerals: <default>
-  punctuation: <default>
+  punctuation: <default> « » ‹ ›
   currency: <default>
   script: Latin
   status: secondary

@@ -28,9 +28,9 @@ orthographies:
   - Positional forms of the characters (initial, medial, and final forms) and some
     ligatures are required for proper representation of the language.
   note: Jawi
-  numerals: <default>
   punctuation: <default>
   currency: <default>
+  numerals: <default>
   script: Arabic
   status: primary
 sources:
