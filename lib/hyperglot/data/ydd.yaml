@@ -3,9 +3,9 @@ orthographies:
 - autonym: ייִדיש
   base: ו י א ב ג ד ה ז ח ט כ ך ל מ ם נ ן ס ע פ ף צ ץ ק ר ש ת
   marks: ◌ְ ◌ֱ ◌ֲ ◌ֳ ◌ִ ◌ֵ ◌ֶ ◌ַ ◌ָ ◌ֹ ◌ֻ ◌ּ ◌ׁ ◌ׂ
-  numerals: <heb>
   punctuation: <heb>
   currency: <heb>
+  numerals: <heb>
   script: Hebrew
   status: primary
 sources:
