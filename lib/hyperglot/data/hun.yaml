@@ -5,6 +5,8 @@ orthographies:
     Ty U Ú Ü Ű V W X Y Z Zs a á b c cs d dz dzs e é f g gy h i í j k l ly m n ny o
     ó ö ő p q r s sz t ty u ú ü ű v w x y z zs
   marks: ◌́ ◌̈ ◌̋
+  punctuation: <default> „ ” « »
+  currency: <default secondary>
   numerals: <default>
   script: Latin
   status: primary
@@ -12,6 +14,7 @@ sources:
 - Ager, S. (2021, September 1). *Omniglot* https://www.omniglot.com
 - Alvestrand, Harald. (1995) *Characters and character sets for various languages.*
   Retrieved on September 6, 2021 from https://www.alvestrand.no/ietf/lang-chars.txt
+- Quotation mark. (2024, September 26). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Quotation_mark&oldid=1247790780
 native review: true
 speakers: 13000000
 speakers_date: 2003-2014
