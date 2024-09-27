@@ -11,6 +11,8 @@ orthographies:
     marks (smaller, shallower).
   - There is no consensus regarding the position of acute and a above the circumflex.
   marks: ◌̀ ◌́ ◌̂ ◌̃ ◌̆ ◌̉ ◌̛ ◌̣
+  punctuation: <default> “ ” « »
+  currency: <default> ₫
   numerals: <default>
   script: Latin
   status: primary
@@ -18,6 +20,8 @@ sources:
 - Ager, S. (2021, September 1). *Omniglot* https://www.omniglot.com
 - Vietnamese language. (2024, August 26). In *Wikipedia*. https://en.wikipedia.org/wiki/Vietnamese_language?oldid=1242458669
 - '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
+- Quotation mark. (2024, September 26). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Quotation_mark&oldid=1247790780
+- List of currency symbols. (2024, July 15). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Template:List_of_currency_symbols&oldid=1234688642
 speakers: 76000000
 speakers_date: 2009
 status: living
