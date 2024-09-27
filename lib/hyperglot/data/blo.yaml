@@ -13,11 +13,8 @@ orthographies:
   script: Latin
   status: primary
 sources:
-- 'Centre national de linguistique appliquée (C.E.N.A.L.A.), Alphabet des langues
-  nationales béninoises, 2008, p. 7-8.  # REVIEW'
-- 'Zaske Stefanie, Atti Kalam Hakimou. 2014. Atɩgɩkrǝ anii kʊŋɔn Écriture de la langue
-  anii. SIL, Bassila. http://gasana.org/wp/wp-content/uploads/2020/05/BLO_Ling_OR4.pdf  #
-  REVIEW'
+- '*Alphabet des langues nationales béninoises*. (2008). (pp. 7–8). Centre national de linguistique appliquée (CENALA).'
+- 'Zaske, S., Atti Kalam, H. (2014). *Atɩgɩkrǝ anii kʊŋɔn : Écriture de la langue anii*. SIL, Bassila. http://gasana.org/wp/wp-content/uploads/2020/05/BLO_Ling_OR4.pdf'
 speakers: 49000
 speakers_date: 2011-2012
 validity: preliminary
