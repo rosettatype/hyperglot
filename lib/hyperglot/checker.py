@@ -7,46 +7,15 @@ from collections.abc import Iterable
 
 from fontTools.ttLib import TTFont
 
-from hyperglot import DB_CHECKS
+from hyperglot import DB_CHECKS, SupportLevel, LanguageValidity, OrthographyStatus, LanguageStatus
 from hyperglot.checkbase import CheckBase
 from hyperglot.shaper import Shaper
 from hyperglot.languages import Languages
 from hyperglot.language import Language
 from hyperglot.orthography import Orthography
-from hyperglot import SupportLevel, LanguageValidity
 
 log = logging.getLogger(__name__)
 log.setLevel(logging.WARNING)
-
-
-def parse_check_levels(levels: List[str]) -> List:
-    """
-    Parse the options --check takes after splitting them (also arguments for
-    Checker.get_supported_languages and Language.get):
-    - only SupportLevel values are valid
-    - default to 'base'
-    - for 'all' set all
-    """
-    if not isinstance(levels, List):
-        raise ValueError("Supplied check levels are not in list format")
-
-    if SupportLevel.ALL.value in levels:
-        return SupportLevel.all()
-
-    pruned = [l.lower() for l in levels if l.lower() in SupportLevel.values()]
-    not_allowed = set(levels).difference(pruned)
-    if len(not_allowed) > 0:
-        log.error(
-            f"Provided check {levels} contain invalid options: {not_allowed}"
-        )
-
-    if len(pruned) == 0:
-        log.error(
-            f"Provided check {levels} not valid, defaulting to 'base'"
-        )
-        return [SupportLevel.BASE.value]
-
-    return pruned
 
 
 def format_missing_unicodes(codepoints: Set[str], reference) -> str:
@@ -129,13 +98,12 @@ class Checker:
         self,
         check: List[str] = [SupportLevel.BASE.value],
         validity: str = LanguageValidity.DRAFT.value,
+        status: List[str] = [LanguageStatus.LIVING.value],
+        orthography: List[str] = [OrthographyStatus.PRIMARY.value],
         decomposed: bool = False,
         marks: bool = False,
         shaping: bool = False,
         shaping_threshold: float = 0.001,
-        include_all_orthographies: bool = False,
-        include_historical: bool = False,
-        include_constructed: bool = False,
         report_missing: int = -1,
         report_marks: int = -1,
         report_joining: int = -1,
@@ -176,7 +144,9 @@ class Checker:
 
         support = {}
 
-        check = parse_check_levels(check)
+        check = SupportLevel.parse(check)
+        status = LanguageStatus.parse(status)
+        orthography = OrthographyStatus.parse(orthography)
 
         for iso in languages:
             lang = languages[iso]
@@ -191,6 +161,9 @@ class Checker:
             ):
                 log.info("Skipping language '%s' which has lower " "'validity'" % iso)
                 continue
+
+            include_historical = LanguageStatus.HISTORICAL.value in status
+            include_constructed = LanguageStatus.CONSTRUCTED.value in status
 
             if include_historical and lang.is_historical:
                 log.info("Including historical language '%s'" % lang.name)
@@ -211,11 +184,12 @@ class Checker:
                 iso,
                 check=check,
                 validity=validity,
+                orthography=orthography,
                 decomposed=decomposed,
                 marks=marks,
                 shaping=shaping,
                 shaping_threshold=shaping_threshold,
-                check_all_orthographies=include_all_orthographies,  # noqa
+                # check_all_orthographies=include_all_orthographies,  # noqa
                 report_missing=report_missing,
                 report_marks=report_marks,
                 report_joining=report_joining,
@@ -241,11 +215,12 @@ class Checker:
         iso: str,
         check: List[str] = [SupportLevel.BASE.value],
         validity: str = LanguageValidity.DRAFT.value,
+        orthography: List[str] = [OrthographyStatus.PRIMARY.value],
         decomposed: bool = False,
         marks: bool = False,
         shaping: bool = False,
         shaping_threshold: float = 0.001,
-        check_all_orthographies: bool = False,
+        # check_all_orthographies: bool = False,
         report_missing: int = -1,
         report_marks: int = -1,
         report_joining: int = -1,
@@ -283,6 +258,9 @@ class Checker:
         @return bool or dict: Dict sorted by 1) script 2) list of isos.
         """
 
+        check = SupportLevel.parse(check)
+        orthography = OrthographyStatus.parse(orthography)
+
         # Note we have "linb" iso code with 4 letters :/
         if not isinstance(iso, str) or len(iso) < 3 or len(iso) > 4:
             raise ValueError(
@@ -304,7 +282,7 @@ class Checker:
             return False
 
         support = {}
-        orthographies = language.get_check_orthographies(check_all_orthographies)
+        orthographies = language.get_check_orthographies(orthography)
 
         if orthographies == []:
             return {} if return_script_object else False

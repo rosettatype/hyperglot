@@ -7,10 +7,10 @@ import os
 import logging
 import pytest
 import unicodedata as uni
-from hyperglot import SupportLevel
+from hyperglot import SupportLevel, OrthographyStatus
 from hyperglot.language import Language
 from hyperglot.parse import character_list_from_string, parse_font_chars, parse_marks
-from hyperglot.checker import CharsetChecker, FontChecker, parse_check_levels
+from hyperglot.checker import CharsetChecker, FontChecker
 
 
 # Just a most simple placeholder charset
@@ -229,31 +229,16 @@ def test_language_all_orthographies():
     # When checking primary orthographies this should not be supported.
     assert (
         CharsetChecker(smj_historical).supports_language(
-            "smj", check_all_orthographies=False
+            "smj", orthography=["primary"]
         )
         is False
     )
 
     # When checking all it should be supported.
     assert CharsetChecker(smj_historical).supports_language(
-        "smj", check_all_orthographies=True
+        "smj", orthography=["historical"]
     )
-
-    # Even when checking all orthographies the 'transliteration' orthography
-    # should not be included; byn has a primary and a transliteration
-    # orthography only
-    byn_base = character_list_from_string(
-        "ሀ ሁ ሂ ሃ ሄ ህ ሆ ለ ሉ ሊ ላ ሌ ል ሎ ሐ ሑ ሒ ሓ ሔ ሕ ሖ መ ሙ ሚ ማ ሜ ም ሞ ረ ሩ ሪ ራ ሬ ር ሮ ሰ ሱ ሲ ሳ ሴ ስ ሶ ሸ ሹ ሺ ሻ ሼ ሽ ሾ ቀ ቁ ቂ ቃ ቄ ቅ ቆ ቈ ቊ ቋ ቌ ቍ ቐ ቑ ቒ ቓ ቔ ቕ ቖ ቘ ቚ ቛ ቜ ቝ በ ቡ ቢ ባ ቤ ብ ቦ ተ ቱ ቲ ታ ቴ ት ቶ ነ ኑ ኒ ና ኔ ን ኖ አ ኡ ኢ ኣ ኤ እ ኦ ከ ኩ ኪ ካ ኬ ክ ኮ ኰ ኲ ኳ ኴ ኵ ኸ ኹ ኺ ኻ ኼ ኽ ኾ ዀ ዂ ዃ ዄ ዅ ወ ዉ ዊ ዋ ዌ ው ዎ ዐ ዑ ዒ ዓ ዔ ዕ ዖ የ ዩ ዪ ያ ዬ ይ ዮ ደ ዱ ዲ ዳ ዴ ድ ዶ ጀ ጁ ጂ ጃ ጄ ጅ ጆ ገ ጉ ጊ ጋ ጌ ግ ጎ ጐ ጒ ጓ ጔ ጕ ጘ ጙ ጚ ጛ ጜ ጝ ጞ ⶓ ⶔ ጟ ⶕ ⶖ ጠ ጡ ጢ ጣ ጤ ጥ ጦ ጨ ጩ ጪ ጫ ጬ ጭ ጮ ፈ ፉ ፊ ፋ ፌ ፍ ፎ e u i a é o b c d f g h j k l m n p q r s t v w x y z ñ ñw th ch sh kh kw khw qw gw"
-    )
-    byn_trans = character_list_from_string(
-        "e u i a é o b c d f g h j k l m n p q r s t v w x y z ñ ñw th ch sh kh kw khw qw gw"
-    )
-    assert CharsetChecker(byn_trans).supports_language("byn") is False
-    assert (
-        CharsetChecker(byn_trans).supports_language("byn", check_all_orthographies=True)
-        is False
-    )
-
+    
     # rmn Balkan Romani has Latin (primary) and Cyrillic (secondary) orthographies
 
     # All the chars from both orthographies
@@ -267,13 +252,13 @@ def test_language_all_orthographies():
     # Match for primary orthography chars
     assert CharsetChecker(rmn_primary).supports_language("rmn")
     assert CharsetChecker(rmn_primary).supports_language(
-        "rmn", check_all_orthographies=True
+        "rmn", orthography=["primary"]
     )
 
     # Match for secondary orthography chars only if checking all orthographies
     assert CharsetChecker(rmn_secondary).supports_language("rmn") is False
     assert CharsetChecker(rmn_secondary).supports_language(
-        "rmn", check_all_orthographies=True
+        "rmn", orthography=OrthographyStatus.all()
     )
 
 
@@ -307,7 +292,7 @@ def test_language_combined_orthographies():
     # Checking with --include-all-orthographies should return also a single
     # orthography
     assert CharsetChecker(srp_latin).supports_language(
-        "srp", check_all_orthographies=True
+        "srp", orthography=OrthographyStatus.all()
     )
 
 
@@ -445,12 +430,3 @@ def test_checker_runs():
 
     assert roboto_checker.supports_language("eng") is True
     assert roboto_checker.supports_language("arb") is False
-
-def test_parse_check_levels():
-    assert parse_check_levels(["base"]) == ["base"]
-    assert parse_check_levels(["foo"]) == ["base"]
-    assert parse_check_levels(["base", "foo"]) == ["base"]
-    assert parse_check_levels(["all"]) == SupportLevel.all()
-    assert parse_check_levels(["all"]) == ["base", "auxiliary", "punctuation", "numerals", "currency"]
-    with pytest.raises(ValueError):
-        parse_check_levels("all")

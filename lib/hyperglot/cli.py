@@ -9,15 +9,17 @@ from collections import OrderedDict
 from fontTools.ttLib import TTFont
 from hyperglot import (
     __version__,
+    SORTING,
     SORTING_DIRECTIONS,
     DB,
     SupportLevel,
     LanguageValidity,
-    SORTING,
+    LanguageStatus,
+    OrthographyStatus,
 )
 from hyperglot.languages import Languages, find_language
 from hyperglot.language import Language
-from hyperglot.checker import FontChecker, parse_check_levels
+from hyperglot.checker import FontChecker
 from hyperglot.validate import validate_data
 
 log = logging.getLogger(__name__)
@@ -35,19 +37,12 @@ DUMP_ARGS = {
     "width": 999,
 }
 
-# Avoid saving yaml files with 3 letter iso code in way not supported on
-# windows systems.
+# Avoid saving yaml these files with 3 letter iso code in a way not supported
+# on windows systems. They get "_" prefixed in lib/hyperglot/data
 # See https://learn.microsoft.com/en-us/windows/win32/fileio/naming-a-file#naming-conventions
 ESCAPE_ISO_FILENAMES = ["con", "prn", "aux", "nul", "com", "lpt"]
 
-
-def validate_checks(ctx, param, value):
-    value = re.split(r"[^A-z]+", value)
-    try:
-        return parse_check_levels(value)
-    except ValueError as e:
-        print(e)
-        return [SupportLevel.BASE.value]
+RE_SPLIT = re.compile(r"[^A-z]+")
 
 
 def validate_font(ctx, param, value):
@@ -69,6 +64,18 @@ def validate_font(ctx, param, value):
             )
 
     return value
+
+
+def validate_checks(ctx, param, value):
+    return SupportLevel.parse(RE_SPLIT.split(value))
+
+
+def validate_language_statuses(ctx, param, value):
+    return LanguageStatus.parse(RE_SPLIT.split(value))
+
+
+def validate_orthographies(ctx, param, value):
+    return OrthographyStatus.parse(RE_SPLIT.split(value))
 
 
 def language_list(langs, script=None, seperator=", "):
@@ -210,8 +217,38 @@ def hyperglot_options(f):
         default="base",
         show_default=True,
         callback=validate_checks,
-        help=f"What to check support for. Options are %s or a comma-separated "
-        "combination of those." % (", ".join(SupportLevel.all())),
+        help=f"What to check support for. Options are '%s' or a comma-separated "
+        "combination of those." % (", ".join(SupportLevel.values())),
+    )
+    @click.option(
+        "--validity",
+        type=click.Choice([v.value for v in LanguageValidity], case_sensitive=False),
+        default=LanguageValidity.DRAFT.value,
+        show_default=True,
+        help="The level of validity for languages matched against the "
+        "font. Weaker levels always include more strict levels. The "
+        "default includes all languages for which the database has "
+        "charset data. Options are one of '%s'" % (", ".join(LanguageValidity.values())),
+    )
+    @click.option(
+        "-s",
+        "--status",
+        default=LanguageStatus.LIVING.value,
+        show_default=True,
+        callback=validate_language_statuses,
+        help=f"Which languages to consider when checking support. Options are "
+        "'%s' or a comma-separated combination of those."
+        % (", ".join(LanguageStatus.values())),
+    )
+    @click.option(
+        "-o",
+        "--orthography",
+        default=OrthographyStatus.PRIMARY.value,
+        show_default=True,
+        callback=validate_orthographies,
+        help=f"Which orthographies to consider when checking support for a "
+        "language. Options are '%s' or a comma-separated "
+        "combination of those." % (", ".join(OrthographyStatus.values())),
     )
     @click.option(
         "-d",
@@ -232,16 +269,6 @@ def hyperglot_options(f):
         "characters.",
     )
     @click.option(
-        "--validity",
-        type=click.Choice([v.value for v in LanguageValidity], case_sensitive=False),
-        default=LanguageValidity.DRAFT.value,
-        show_default=True,
-        help="The level of validity for languages matched against the "
-        "font. Weaker levels always include more strict levels. The "
-        "default includes all languages for which the database has "
-        "charset data.",
-    )
-    @click.option(
         "--sort",
         "sorting",
         type=click.Choice(SORTING, case_sensitive=False),
@@ -255,7 +282,7 @@ def hyperglot_options(f):
         show_default=True,
     )
     @click.option(
-        "-o",
+        "-y",
         "--output",
         type=click.File(mode="w", encoding="utf-8"),
         help="Provide a name for a yaml file to write support " "information to.",
@@ -266,28 +293,10 @@ def hyperglot_options(f):
         default=0.01,
         type=click.FloatRange(0.0, 1.0, clamp=True),
         help="Complex script shaping checks pass when a font renders correctly "
-        "for this frequency threshold between 0.0—1.0. The frequency of " 
+        "for this frequency threshold. The frequency of "
         "combinations is highest for 1.0 (the most frequent combination) and "
         "converges to 0.0 the more rare a combination is. The default 0.01 "
-        "requires all the most common combinations to be supported in the font."
-    )
-    @click.option(
-        "--include-all-orthographies",
-        is_flag=True,
-        default=False,
-        help="Flag to show all otherwise ignored orthographies of a " "language.",
-    )
-    @click.option(
-        "--include-historical",
-        is_flag=True,
-        default=False,
-        help="Flag to include otherwise ignored historical languages.",
-    )
-    @click.option(
-        "--include-constructed",
-        is_flag=True,
-        default=False,
-        help="Flag to include otherwise ignored contructed languages.",
+        "requires all the most common combinations to be supported in the font.",
     )
     @click.option("-v", "--verbose", count=True)
     @click.option("-V", "--version", is_flag=True, default=False)
@@ -303,16 +312,15 @@ def hyperglot_options(f):
 def cli(
     fonts,
     check,
+    validity,
+    status,
+    orthography,
     decomposed,
     marks,
-    validity,
     sorting,
     sort_dir,
     output,
     shaping_threshold,
-    include_all_orthographies,
-    include_historical,
-    include_constructed,
     verbose,
     version,
     # Options not passed via Click, but only when forwarding the call
@@ -337,12 +345,22 @@ def cli(
     elif verbose > 1:
         # For debugging verbosity also opt in to all near misses reporting
         loglevel = logging.DEBUG
-        logging.getLogger("hyperglot.checks.check_arabic_joining").setLevel(logging.DEBUG)
-        logging.getLogger("hyperglot.checks.check_brahmi_conjuncts").setLevel(logging.DEBUG)
-        logging.getLogger("hyperglot.checks.check_brahmi_halfforms").setLevel(logging.DEBUG)
-        logging.getLogger("hyperglot.checks.check_combination_marks").setLevel(logging.DEBUG)
+        logging.getLogger("hyperglot.checks.check_arabic_joining").setLevel(
+            logging.DEBUG
+        )
+        logging.getLogger("hyperglot.checks.check_brahmi_conjuncts").setLevel(
+            logging.DEBUG
+        )
+        logging.getLogger("hyperglot.checks.check_brahmi_halfforms").setLevel(
+            logging.DEBUG
+        )
+        logging.getLogger("hyperglot.checks.check_combination_marks").setLevel(
+            logging.DEBUG
+        )
         logging.getLogger("hyperglot.checks.check_coverage").setLevel(logging.DEBUG)
-        logging.getLogger("hyperglot.checks.check_mark_attachment").setLevel(logging.DEBUG)
+        logging.getLogger("hyperglot.checks.check_mark_attachment").setLevel(
+            logging.DEBUG
+        )
         logging.getLogger("hyperglot.reporting.missing").setLevel(logging.WARNING)
         logging.getLogger("hyperglot.reporting.marks").setLevel(logging.WARNING)
         logging.getLogger("hyperglot.reporting.joining").setLevel(logging.WARNING)
@@ -387,12 +405,16 @@ def cli(
                 str(fonts),
                 "check:",
                 str(check),
+                "validity:",
+                str(validity),
+                "status",
+                str(status),
+                "orthography:",
+                str(orthography),
                 "decomposed:",
                 str(decomposed),
                 "marks:",
                 str(marks),
-                "validity:",
-                str(validity),
                 "sorting:",
                 str(sorting),
                 "sort_dir:",
@@ -413,20 +435,17 @@ def cli(
         supported = FontChecker(font_path).get_supported_languages(
             check=check,
             validity=validity,
+            status=status,
+            orthography=orthography,
             decomposed=decomposed,
             marks=marks,
             shaping=True,
             shaping_threshold=shaping_threshold,
-            include_all_orthographies=include_all_orthographies,
-            include_historical=include_historical,
-            include_constructed=include_constructed,
             report_missing=report_missing,
             report_marks=report_marks,
             report_joining=report_joining,
             report_conjuncts=report_conjuncts,
         )
-
-        # level = SupportLevel(support).value
 
         # Sort each script's results by the chosen sorting logic
         sorted_entries = {}

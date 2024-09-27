@@ -228,28 +228,22 @@ reviewers: {reviewers}
         # Japanese) this returns only one orthography!
         return matches[0]
 
-    def get_check_orthographies(self, check_all_orthographies: bool = False) -> List:
+    def get_check_orthographies(self, include:List = None) -> List:
         """
         Get the orthographies relevant for performing support checks.
         """
+        if include is None:
+            include = [OrthographyStatus.PRIMARY.value]
+        else:
+            include = OrthographyStatus.parse(include)
+
         if "orthographies" not in self:
             return []
 
         # Determine which orthographies should be checked.
-        if check_all_orthographies:
-            orthographies = [
-                o
-                for o in self["orthographies"]
-                if "status" not in o or o["status"] != "transliteration"
-            ]
-        else:
-            orthographies = [
-                o
-                for o in self["orthographies"]
-                if "status" in o and o["status"] == "primary"
-            ]
+        orthographies = [o for o in self["orthographies"] if "status" in o and o["status"] in include]
 
-        if not check_all_orthographies:
+        if not include == OrthographyStatus.all():
             # Note the .copy() here since we manipulate the attribute
             # and do not want to alter the original.
             as_group = [deepcopy(o) for o in orthographies if o["preferred_as_group"]]
