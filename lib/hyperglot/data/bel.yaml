@@ -9,8 +9,9 @@ orthographies:
   - The form of the Cyrillic breve mark (marked in the previews) differs from the
     Latin-script breve that is associated with the same Unicode codepoint.
   marks: ◌̆ ◌̈
+  punctuation: <default> « » „ “
+  currency: <default>
   numerals: <default>
-  punctuation: <default>
   script: Cyrillic
   status: primary
 - autonym: Biełaruskaja
@@ -24,6 +25,7 @@ sources:
 - Belarusian language. (2024, August 18). In *Wikipedia*. https://en.wikipedia.org/wiki/Belarusian_language?oldid=1241031104
 - Belarusian alphabet. (2024, August 7). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Belarusian_alphabet&oldid=1239100906
 - Everson, M. (2015). Belarusian. In *The Alphabets of Europe*. https://www.evertype.com/alphabets/belarusian.pdf
+- Quotation mark. (2024, September 26). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Quotation_mark&oldid=1247790780
 sources note: review
 speakers: 5100000
 speakers_date: 2009
