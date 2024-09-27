@@ -10,15 +10,17 @@ orthographies:
   - The form of the Cyrillic breve mark (marked in the previews) differs from the
     Latin-script breve that is associated with the same Unicode codepoint.
   marks: ◌̆ ◌̈ ◌́
-  numerals: <default>
-  punctuation: <default>
+  punctuation: <default> ‘ “ ’ ” „ ‹ › « » №
   currency: ₽ <default>
+  numerals: <default>
   script: Cyrillic
   status: primary
 sources:
 - Russian language. (2024, August 27). In *Wikipedia*. https://en.wikipedia.org/wiki/Russian_language?oldid=1242514443
 - Russian alphabet. (2024, August 25). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Russian_alphabet&oldid=1242174537
 - Everson, M. (2001). Russian. In *The Alphabets of Europe*. https://www.evertype.com/alphabets/russian.pdf
+- Quotation mark. (2024, September 26). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Quotation_mark&oldid=1247790780
+- List of currency symbols. (2024, July 15). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Template:List_of_currency_symbols&oldid=1234688642
 sources note: review
 speakers: 150000000
 speakers_date: 2012
