@@ -11,13 +11,14 @@ orthographies:
   note: The script is often referred to as Fidel (ፊደል, meaning "script" or "letter"
     [Wikipedia]) in Amharic.
   numerals: ፩ ፪ ፫ ፬ ፭ ፮ ፯ ፰ ፱ ፲ ፳ ፴ ፵ ፶ ፷ ፸ ፹ ፺ ፻ ፼ <default Latin>
-  punctuation: ፠ ፡ ። ፣ ፥ ፤ ፦ ፧ ፨  <default Latin>
+  punctuation: ፠ ፡ ። ፣ ፥ ፤ ፦ ፧ ፨  <default Latin> « » ‹ › “ ”
   currency: <default Latin>
   script: Geʽez
   status: primary
 sources:
 - Ager, S. (2021, September 1). *Omniglot* https://www.omniglot.com
 - Amharic. (2024, August 21). In *Wikipedia*. https://en.wikipedia.org/wiki/Amharic?oldid=1241434767
+- Quotation mark. (2024, September 26). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Quotation_mark&oldid=1247790780
 speakers: 22000000
 speakers_date: 2007
 validity: preliminary
