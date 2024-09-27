@@ -12,14 +12,15 @@ orthographies:
     the defaults associated with the Unicode codepoints (typically the Russian form
     of Cyrillic).
   marks: ◌́ ◌̀
+  punctuation: <default> „ “ ’ ‘
   numerals: <default>
-  punctuation: <default>
   script: Cyrillic
   status: primary
 sources:
 - Macedonian language. (2024, July 22). In *Wikipedia*. https://en.wikipedia.org/wiki/Macedonian_language?oldid=1235932356
 - '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
 - Everson, M. (1995). Macedonian. In *The Alphabets of Europe*. https://www.evertype.com/alphabets/macedonian.pdf
+- Quotation mark. (2024, September 26). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Quotation_mark&oldid=1247790780
 sources note: review
 speakers: 1400000
 status: living
