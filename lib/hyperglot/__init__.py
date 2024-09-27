@@ -1,10 +1,11 @@
 """
-Gather a few package wide constants
+Gather a few package wide constants.
 """
 import re
 from os import path
 from enum import Enum
-from typing import List
+
+from hyperglot.utils import AllChoicesEnumMixin, ConvenientEnumMixin
 
 __version__ = "0.7.3"
 
@@ -17,33 +18,22 @@ LANGUAGE_CACHE_FILE = ".hyperglot-cache"
 # ~~DONE Refactor these levels and status as Enum's~~
 # TODO Eventaully remove deprecated "CONSTANTS"
 
-
-class SupportLevel(Enum):
+class SupportLevel(AllChoicesEnumMixin, Enum):
     """
     Valid support levels for querying Hyperglot.
     """
 
-    ALL = "all"
+    # Default as first!
     BASE = "base"
     AUX = "auxiliary"
     PUNCTUATION = "punctuation"
     NUMERALS = "numerals"
     CURRENCY = "currency"
-
-    @classmethod
-    def values(self):
-        return [level.value for level in self]
-    
-    @classmethod
-    def all(self):
-        return [level.value for level in self if level != self.ALL]
+    # Inlclude an ALL option
+    ALL = "all"
 
 
-# Deprecated: SUPPORTLEVELS will be removed in the future, use SupportLevel!
-SUPPORTLEVELS = {"base": "base", "aux": "auxiliary"}
-
-
-class LanguageValidity(Enum):
+class LanguageValidity(ConvenientEnumMixin, Enum):
     """
     Allowed hyperglot.Language["validity"] values.
 
@@ -55,25 +45,13 @@ class LanguageValidity(Enum):
     PRELIMINARY = "preliminary"
     VERIFIED = "verified"
 
-    @classmethod
-    def values(self) -> List:
-        return [v.value for v in self]
-
-    @classmethod
-    def index(self, val: str) -> int:
-        """
-        Get the index of a given value, useful for comparing the validities in
-        order.
-        """
-        return self.values().index(val)
-
 
 # Deprecated: VALIDIRITLEVELS will be removed in the future, use LanguageValidity!
 VALIDITYLEVELS = LanguageValidity.values()
 
 
 # Note that "secondary" as status is also used, but on orthographies!
-class LanguageStatus(Enum):
+class LanguageStatus(AllChoicesEnumMixin, Enum):
     """
     Allowed hyperglot.Language["status"] values, with LIVING being the default.
 
@@ -81,20 +59,15 @@ class LanguageStatus(Enum):
     deprecated.
     """
 
+    # Default as first option
     LIVING = "living"
     HISTORICAL = "historical"
     CONSTRUCTED = "constructed"
-
-    @classmethod
-    def values(self) -> List:
-        return [s.value for s in self]
+    # Include an all option
+    ALL = "all"
 
 
-# Deprecated: STATUSES will be removed in the future, use LanguageStatus!
-STATUSES = LanguageStatus.values()
-
-
-class OrthographyStatus(Enum):
+class OrthographyStatus(AllChoicesEnumMixin, Enum):
     """
     Possible hyperglot.orthography.Orthography["status"] values.
 
@@ -103,20 +76,14 @@ class OrthographyStatus(Enum):
     Deprecated: "deprecated" orthography status removed in favour of "historical"
     """
 
+    # Default as first option
     PRIMARY = "primary"
     LOCAL = "local"
     SECONDARY = "secondary"
     HISTORICAL = "historical"
     TRANSLITERATION = "transliteration"
-
-    @classmethod
-    def values(self) -> List:
-        return [s.value for s in self]
-
-
-# Deprecated: ORTHOGRAPHY_STATUSES will be removed in the futute, use
-# OrthographyStatus!
-ORTHOGRAPHY_STATUSES = OrthographyStatus.values()
+    # Include an ALL option
+    ALL = "all"
 
 
 # Those character attributes of orthographies that contain non-mark characters
@@ -138,7 +105,7 @@ SORTING_DIRECTIONS = ["asc", "desc"]
 MARK_BASE = "◌"
 
 # Anything like <eng> or <eng Latin historical> or <   eng >
-# Note the group needs to encompase valid iso codes and Script names, 
+# Note the group needs to encompase valid iso codes and Script names,
 # e.g. A-z but also "Geʽez", "N'ko", ...
 RE_INHERITANCE_TAG = re.compile(r"<([A-z'ʽ ]*)>")
 # Anything between < and >

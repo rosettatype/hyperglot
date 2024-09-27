@@ -34,10 +34,13 @@
 - TWEAK: Refactored `Languages`, `Language` and `Orthography` object instantiation to always return parsed and defaulted nested objects
 - TWEAK: Cleaned up multiple CLI options:
   - Added `--check` option to replace `--supportlevel`. `--check` takes any value of `base,auxiliary,punctuation,numerals,currency,all` or a comma-separated list of those
+  - Removed `--include-historical` and `--include-historical` in favor or `--status` which accepts any combination of `LanguageStatus` or "all", defaults to "living"
+  - Removed `--include-all-orthographies` in favor of `--orthography` which accepts any combination of `OrthographyStatus` or "all", defaults to "primary"
   - Removed the `--speakers` and `--autonym` CLI options
   - Removed the `--comparison` CLI option (see `examples` instead)
   - Removed the `--languages` CLI option, use `hyperglot-info LanguageName/ISO` instead
   - Removed the `--strict_iso` CLI option; use the python library to access this option, particularly `Language.get_name(script, strict_iso=True)`
+- Removed the deprecated `STATUSES`, `ORTHOGRAPHY_STATUSES` and `SUPPORTLEVELS` from the codebase
 
 ## 0.6.4 (20.06.2024)
 - FIX: Fixed an issue where trying to log missing shaping glyphs would crash in `FontChecker`

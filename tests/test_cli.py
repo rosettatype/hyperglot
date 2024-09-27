@@ -117,7 +117,7 @@ def test_cli_include_constructed():
     res = runner.invoke(cli, plex_arabic)
     assert "Interlingua" not in res.output
 
-    res = runner.invoke(cli, plex_arabic + " --include-constructed")
+    res = runner.invoke(cli, plex_arabic + " -s constructed")
     assert "Interlingua" in res.output
 
 
@@ -131,7 +131,7 @@ def test_cli_include_all_orthographies():
     # Has Syriac primary, but Latin secondary
     assert "Assyrian Neo-Aramaic" not in res.output
 
-    res = runner.invoke(cli, plex_arabic + " --include-all-orthographies")
+    res = runner.invoke(cli, plex_arabic + " -o all")
     print(res.output)
     assert "Chickasaw" in res.output
     assert "Assyrian Neo-Aramaic" in res.output
@@ -151,7 +151,7 @@ def test_cli_joining():
 
 
 def test_cli_output(yaml_output):
-    res = runner.invoke(cli, eczar + " -o %s" % yaml_output)
+    res = runner.invoke(cli, eczar + " -y %s" % yaml_output)
 
     # CLI without errors
     assert res.exit_code == 0
@@ -168,7 +168,7 @@ def test_cli_output(yaml_output):
 
 
 def test_cli_output_multiple(yaml_output):
-    res = runner.invoke(cli, "%s %s -o %s" % (eczar, plex_arabic, yaml_output))
+    res = runner.invoke(cli, "%s %s -y %s" % (eczar, plex_arabic, yaml_output))
 
     # CLI without errors
     assert res.exit_code == 0

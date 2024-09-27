@@ -48,7 +48,6 @@ class Check(CheckBase):
         conjuncts = dict(
             filter(self.filter_conjuncts, orthography.combinations.items())
         )
-        print("CONJUNCTS", conjuncts)
         if conjuncts == {}:
             return True
 
@@ -90,7 +89,10 @@ class Check(CheckBase):
         - contain at least two consonants
         - the virama is between the consonants, but there may be other characters (marks, vowels)
         """
-        cluster = list(cluster[0])
+        if isinstance(cluster, str):
+            cluster = list(cluster)
+        else:
+            cluster = list(cluster[0])
         expect_next = [
             self.BRAHMIC_CATEGORIES["C"],
             [self.VIRAMA],
