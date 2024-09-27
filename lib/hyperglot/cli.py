@@ -299,6 +299,12 @@ def hyperglot_options(f):
         "converges to 0.0 the more rare a combination is. The default 0.01 "
         "requires all the most common combinations to be supported in the font.",
     )
+    @click.option(
+        "--no-shaping",
+        is_flag=True,
+        help="Disable shaping tests (mark attachment, joining behaviour, "
+        "conjunct shaping)"
+    )
     @click.option("-v", "--verbose", count=True)
     @click.option("-V", "--version", is_flag=True, default=False)
     @functools.wraps(f)
@@ -322,6 +328,7 @@ def cli(
     sort_dir,
     output,
     shaping_threshold,
+    no_shaping,
     verbose,
     version,
     # Options not passed via Click, but only when forwarding the call
@@ -437,6 +444,8 @@ def cli(
                 str(sort_dir),
                 "shaping_threshold:",
                 str(shaping_threshold),
+                "no_shaping:",
+                str(no_shaping),
             ]
         )
     )
@@ -455,7 +464,7 @@ def cli(
             orthography=orthography,
             decomposed=decomposed,
             marks=marks,
-            shaping=True,
+            shaping=(not no_shaping),
             shaping_threshold=shaping_threshold,
             report_missing=report_missing,
             report_marks=report_marks,

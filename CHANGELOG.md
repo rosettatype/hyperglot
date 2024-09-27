@@ -40,6 +40,8 @@
   - Removed the `--comparison` CLI option (see `examples` instead)
   - Removed the `--languages` CLI option, use `hyperglot-info LanguageName/ISO` instead
   - Removed the `--strict_iso` CLI option; use the python library to access this option, particularly `Language.get_name(script, strict_iso=True)`
+- FEATURE: Added `-t`/`--shaping-threshold` that allows fine-tuning conjunct check failures by accounting for conjunct frequency
+- FEATURE: Added `--no-shaping` flag to disable shaping checks entirely (on by default)
 - Removed the deprecated `STATUSES`, `ORTHOGRAPHY_STATUSES` and `SUPPORTLEVELS` from the codebase
 
 ## 0.6.4 (20.06.2024)
