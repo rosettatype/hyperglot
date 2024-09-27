@@ -3,6 +3,7 @@ orthographies:
 - autonym: O‘zbekcha
   base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k
     l m n o p q r s t u v w x y z ‘
+  punctuation: <default> « » „ “ ‚ ‘
   numerals: <default>
   script: Latin
   status: primary
@@ -10,22 +11,23 @@ orthographies:
   base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ў Ғ Қ Ҳ
     а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ў ғ қ ҳ
   marks: ◌̆ ◌̈
-  numerals: <default>
   punctuation: <default>
+  numerals: <default>
   script: Cyrillic
   status: secondary
 - autonym: Ӯзбекча
   base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ӯ Ғ Қ Ҳ
     а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӯ ғ қ ҳ
   marks: ◌̄ ◌̆ ◌̈
-  numerals: <default>
   punctuation: <default>
+  numerals: <default>
   script: Cyrillic
   status: secondary
 sources:
 - Ager, S. (2021, September 1). *Omniglot* https://www.omniglot.com
 - Uzbek language. (2024, August 8). In *Wikipedia*. https://en.wikipedia.org/wiki/Uzbek_language?oldid=1239243736
 - '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
+- Quotation mark. (2024, September 26). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Quotation_mark&oldid=1247790780
 speakers: 27000000
 speakers_date: 2015
 status: living
