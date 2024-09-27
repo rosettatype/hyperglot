@@ -10,11 +10,14 @@ orthographies:
     follow ‹í›. Font developers provide automated substitutions in their fonts to
     make such character recomposition work.
   marks: ◌̀ ◌́ ◌̂ ◌̈
+  punctuation: <default> ‘ “ ’ ” ‚ „
+  currency: <default secondary>
   numerals: <default>
   script: Latin
   status: primary
 sources:
 - Ager, S. (2021, September 1). *Omniglot* https://www.omniglot.com
+- Quotation mark. (2024, September 26). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Quotation_mark&oldid=1247790780
 native review: true
 source note: missing
 speakers: 24000000
