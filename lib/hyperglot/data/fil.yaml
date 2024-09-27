@@ -5,7 +5,7 @@ orthographies:
     k l m n o p q r s t u v w x y z ñ
   marks: ◌̃
   punctuation: <default> ‘ “ ’ ”
-  currency: <default>
+  currency: <default> ₱
   numerals: <default>
   script: Latin
   status: primary
