@@ -4,26 +4,22 @@ name: Catalan
 orthographies:
 - autonym: Català
   auxiliary: Ŀ ŀ
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Ç È É Í Ï Ò Ó Ú Ü a
-    b c d e f g h i j k l m n o p q r s t u v w x y z à ç è é í ï ò ó ú ü
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Ç È É Í Ï Ò Ó Ú Ü a b c d e f g h i j k l m n o p q r s t u v w x y z à ç è é í ï ò ó ú ü
+  currency: <default secondary>
   design_alternates: · Ŀ ŀ
   design_requirements:
-  - Consideration should be given to the design and spacing of the middle dot ‹·›
-    (punt volat, marked in the previews).
+  - Consideration should be given to the design and spacing of the middle dot ‹·› (punt volat, marked in the previews).
   - The use of legacy characters ‹Ŀ, ŀ› is discouraged.
-  - Some font developers decompose ‹Ŀ, ŀ› (marked in the previews) automatically to
-    adapt the position of the middle dot to changes in the overall spacing (tracking).
+  - Some font developers decompose ‹Ŀ, ŀ› (marked in the previews) automatically to adapt the position of the middle dot to changes in the overall spacing (tracking).
   marks: ◌̀ ◌́ ◌̈ ◌̧
-  punctuation: <default> ‘ “ ’ ” « »
-  currency: <default secondary>
   numerals: <default>
+  punctuation: <default> ‘ “ ’ ” « »
   script: Latin
   status: primary
 sources:
 - Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
 - Catalan language. (2024, August 27). In *Wikipedia*. https://en.wikipedia.org/wiki/Catalan_language?oldid=1242536359
-- Alvestrand, Harald. (1995) *Characters and character sets for various languages.*
-  Retrieved on September 6, 2021 from https://www.alvestrand.no/ietf/lang-chars.txt
+- Alvestrand, Harald. (1995) *Characters and character sets for various languages.* Retrieved on September 6, 2021 from https://www.alvestrand.no/ietf/lang-chars.txt
 - Quotation mark. (2024, September 26). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Quotation_mark&oldid=1247790780
 speakers: 4100000
 speakers_date: 2012

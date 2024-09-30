@@ -5,11 +5,11 @@ orthographies:
 - autonym: تشادية
   auxiliary: ة <apd>
   base: <apd>
+  currency: <default>
   design_requirements: <apd>
   marks: <apd>
-  punctuation: <arb>
-  currency: <default>
   numerals: <default>
+  punctuation: <arb>
   script: Arabic
   status: primary
 sources:

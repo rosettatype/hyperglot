@@ -50,6 +50,7 @@ class Language(dict):
         "validity": None,
         "status": None,
         "contributors": None,
+        "reviewers": None,
     }
 
     def __init__(self, iso, data: dict = None, inherit: bool = True):
@@ -89,6 +90,7 @@ speakers: {speakers}
 status: {status}
 validity: {validity}
 contributors: {contributors}
+reviewers: {reviewers}
 """
         import textwrap
 
@@ -110,6 +112,7 @@ contributors: {contributors}
             status=self.status,  # noqa
             validity=self.validity,
             contributors="no data" if self["contributors"] is None else "\n- " + ("\n- ".join(self["contributors"])),
+            reviewers="no data" if self["reviewers"] is None else "\n- " + ("\n- ".join(self["reviewers"])),
         )  # noqa
 
     def _parse_data(self) -> Union[dict, bool]:

@@ -1,17 +1,17 @@
 name: Northern Hindko
+note: Southern and Northern Hindko have together 5–7 million speakers. Here it is arbitrarily rounded and split 50/50.
 orthographies:
 - autonym: ہندکو
-  base: <pan>
   auxiliary: <pan>
+  base: <pan>
+  currency: <pan>
   design_requirements: <pan>
   marks: <pan>
+  note: Used in Pakistan.
   numerals: <pan>
   punctuation: <pan>
-  currency: <pan>
-  note: Used in Pakistan.
   script: Arabic
   status: primary
-note: Southern and Northern Hindko have together 5–7 million speakers. Here it is arbitrarily rounded and split 50/50.
 sources:
 - Hindko. (2024, July 19). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Hindko&oldid=1241201634
 speakers: 3000000

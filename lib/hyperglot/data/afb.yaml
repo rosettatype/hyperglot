@@ -6,13 +6,12 @@ orthographies:
 - autonym: خليجي
   auxiliary: ـ ڛ ڢ ٯ ڧ ک ی ڥ چ ڨ ڭ ڠ
   base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا ڤ پ گ
-  design_requirements:
-  - Positional forms of the characters (initial, medial, and final forms) and some
-    ligatures are required for proper representation of the language.
-  marks: ◌َ ◌ُ ◌ِ ◌ْ ◌ٰ
-  punctuation: <arb>
   currency: <default>
+  design_requirements:
+  - Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
+  marks: ◌َ ◌ُ ◌ِ ◌ْ ◌ٰ
   numerals: <default>
+  punctuation: <arb>
   script: Arabic
   status: primary
 sources:

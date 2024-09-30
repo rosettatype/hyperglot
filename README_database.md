@@ -22,7 +22,8 @@ The highest level entries in the database represent languages indexed using the 
   - `preliminary` for entries that have been verified by at least two online sources,
   - `verified` for entries verified by a competent speaker or a linguist.
 - `note` (optional): a note of any kind.
-- `contributors` (optional): a list of author names that have contributed to this file
+- `contributors` (optional but highly desireable): a list of author names that have contributed to this file
+- `reviewers` (optional): a list of reviewers with native or academic proficiency in a language
 
 
 ### Orthographies

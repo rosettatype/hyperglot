@@ -2,8 +2,7 @@ contributors:
 - Sergio Martins
 name: Ixcatlán Mazatec
 orthographies:
-- base: A B C E F I J K L M N O P R S T U X Y Z a b c e f i j k l m n o p r s t u
-    x y z '
+- base: A B C E F I J K L M N O P R S T U X Y Z a b c e f i j k l m n o p r s t u x y z '
   numerals: <default>
   script: Latin
   status: primary

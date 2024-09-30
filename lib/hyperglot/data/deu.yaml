@@ -5,44 +5,39 @@ name: German
 orthographies:
 - autonym: Deutsch
   auxiliary: À É ẞ à é
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Ö Ü a b c d e f g h
-    i j k l m n o p q r s t u v w x y z ß ä ö ü
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Ö Ü a b c d e f g h i j k l m n o p q r s t u v w x y z ß ä ö ü
+  currency: <default secondary>
   marks: ◌̈ ◌̀ ◌́
   note: Includes capital Eszett as an auxiliary character for capitalization of ß.
-  punctuation: <default> ‚ „ ‘ “ ‹ › « »
-  currency: <default secondary>
   numerals: <default>
+  punctuation: <default> ‚ „ ‘ “ ‹ › « »
   script: Latin
   status: primary
 - autonym: Deutsch
   auxiliary: À É à é
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Ö Ü a b c d e f g h
-    i j k l m n o p q r s t u v w x y z ß ä ö ü
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Ö Ü a b c d e f g h i j k l m n o p q r s t u v w x y z ß ä ö ü
   marks: ◌̈ ◌̀ ◌́
-  note: An orthography that was used prior to an introduction of the capital Eszett
-    which was added to Unicode in 2008 and subsequently to the official German orthography
-    in 2017.
-  punctuation: <default> ‚ „ ‘ “ ‹ › « »
+  note: An orthography that was used prior to an introduction of the capital Eszett which was added to Unicode in 2008 and subsequently to the official German orthography in 2017.
   numerals: <default>
+  punctuation: <default> ‚ „ ‘ “ ‹ › « »
   script: Latin
   status: historical
 - autonym: Deutsch
   auxiliary: À É à é ſ
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Ö Ü a b c d e f g h
-    i j k l m n o p q r s t u v w x y z ß ä ö ü
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Ö Ü a b c d e f g h i j k l m n o p q r s t u v w x y z ß ä ö ü
+  currency: <default secondary>
   marks: ◌̈ ◌̀ ◌́
   note: Use of ſ declined after the 18th century.
-  punctuation: <default> ‚ „ ‘ “ ‹ › « »
-  currency: <default secondary>
   numerals: <default>
+  punctuation: <default> ‚ „ ‘ “ ‹ › « »
   script: Latin
   status: historical
+reviewers:
+- Johannes Neumeier
 sources:
 - Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
 - German language. (2024, August 27). In *Wikipedia*. https://en.wikipedia.org/wiki/German_language?oldid=1242557365
 - Quotation mark. (2024, September 26). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Quotation_mark&oldid=1247790780
-reviewers:
-- Johannes Neumeier
 speakers: 90000000
 speakers_date: 2010
 status: living

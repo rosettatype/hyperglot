@@ -6,18 +6,15 @@ note: There are approximately 12000000 L2 speakers.
 orthographies:
 - autonym: मराठी
   auxiliary: ꣻ
-  base: अ आ इ ई उ ऊ ऋ ए ऐ ओ औ क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य
-    र ल ळ व श ष स ह ‌ ‍ ऽ
+  base: अ आ इ ई उ ऊ ऋ ए ऐ ओ औ क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र ल ळ व श ष स ह ‌ ‍ ऽ
+  currency: <default>
   design_alternates: र ल श ५ ८
   design_requirements:
-  - Marathi Devanagari (sometimes called Balbodh) uses different forms for some of
-    the characters compared to the Hindi version, e.g. “र” (eyelash reph), “ल”, “श”, or numerals 5 and 8 (marked in the previews). This also applies to some conjunct ligatures.
-  - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are 
-    required for proper representation of the language.
+  - Marathi Devanagari (sometimes called Balbodh) uses different forms for some of the characters compared to the Hindi version, e.g. “र” (eyelash reph), “ल”, “श”, or numerals 5 and 8 (marked in the previews). This also applies to some conjunct ligatures.
+  - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
   marks: ◌ँ ◌ं ◌ः ◌़ ◌ा ◌ि ◌ी ◌ु ◌ू ◌ृ ◌े ◌ै ◌ो ◌ौ ◌्
   numerals: <default>
   punctuation: <hin>
-  currency: <default>
   script: Devanagari
   status: primary
 sources:

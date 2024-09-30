@@ -3,8 +3,7 @@ contributors:
 name: Breton
 orthographies:
 - autonym: Brezhoneg
-  base: A B C D E F G H I J K L M N O P R S T U V W X Y Z Ê Ñ Ù a b c d e f g h i
-    j k l m n o p r s t u v w x y z ê ñ ù
+  base: A B C D E F G H I J K L M N O P R S T U V W X Y Z Ê Ñ Ù a b c d e f g h i j k l m n o p r s t u v w x y z ê ñ ù
   marks: ◌̀ ◌̂ ◌̃
   numerals: <default>
   script: Latin
@@ -13,8 +12,7 @@ sources:
 - Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
 - Breton language. (2024, August 21). In *Wikipedia*. https://en.wikipedia.org/wiki/Breton_language?oldid=1241510288
 - '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
-- Alvestrand, Harald. (1995) *Characters and character sets for various languages.*
-  Retrieved on September 6, 2021 from https://www.alvestrand.no/ietf/lang-chars.txt
+- Alvestrand, Harald. (1995) *Characters and character sets for various languages.* Retrieved on September 6, 2021 from https://www.alvestrand.no/ietf/lang-chars.txt
 speakers: 226000
 speakers_date: 2018
 status: living

@@ -1,12 +1,9 @@
 contributors:
 - Rafael Dietzsch
 name: Karo
-note: Wikipedia lists 'kxh' as the ISO 639-3 language code for Karo, both are listed
-  in ISO 639-3.
+note: Wikipedia lists 'kxh' as the ISO 639-3 language code for Karo, both are listed in ISO 639-3.
 orthographies:
-- base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k
-    l m n o p q r s t u v w x y z Ã É Í Ó Õ Ú Û á â ã é í ó õ ú û Ĩ ĩ ʼ Ẽ ẽ Ꞌ ꞌ G̃
-    g̃ Ã́ ã́ Ẽ́ ẽ́ Ĩ́ ĩ́ Ṍ ṍ Ấ ấ
+- base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z Ã É Í Ó Õ Ú Û á â ã é í ó õ ú û Ĩ ĩ ʼ Ẽ ẽ Ꞌ ꞌ G̃ g̃ Ã́ ã́ Ẽ́ ẽ́ Ĩ́ ĩ́ Ṍ ṍ Ấ ấ
   marks: ◌̃ ◌́ ◌̂
   numerals: <default>
   script: Latin

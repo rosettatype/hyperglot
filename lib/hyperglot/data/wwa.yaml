@@ -3,21 +3,16 @@ contributors:
 name: Waama
 orthographies:
 - autonym: Yoabu
-  base: A B C D E Ɛ F I K M N Ŋ O Ɔ P R S T U W Y a b c d e ɛ f i k m n ŋ o ɔ p r
-    s t u w y
+  base: A B C D E Ɛ F I K M N Ŋ O Ɔ P R S T U W Y a b c d e ɛ f i k m n ŋ o ɔ p r s t u w y
   design_requirements:
-  - There are two common design variants both encoded as Ŋ, one resembling the lowercase
-    ŋ reaching cap height favoured in African languages, and the other resembling
-    N with J as the second stem favoured in Sami languages.
-  note: Ŋ/ŋ are not included in CENALA 1990 nor CENALA 2008 but are included in Hartell
-    1993 and are used in https://www.webonary.org/waama/ or the Waama Bible translation
-    published in Wycliffe 1994.
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in African languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  note: Ŋ/ŋ are not included in CENALA 1990 nor CENALA 2008 but are included in Hartell 1993 and are used in https://www.webonary.org/waama/ or the Waama Bible translation published in Wycliffe 1994.
   numerals: <default>
   script: Latin
   status: primary
 sources:
 - Waama language. (2023, January 10). In *Wikipedia*. https://en.wikipedia.org/wiki/Waama_language?oldid=1132729538
-- 'Hartell, R. L. (1993). *Alphabets de langues africaines* (p. 37).
+- Hartell, R. L. (1993). *Alphabets de langues africaines* (p. 37).
 - '*Alphabet des langues nationales béninoises*. (1990). (pp. 27–29). Centre national de linguistique appliquée (CENALA). https://hdl.handle.net/10625/6700'
 - '*Alphabet des langues nationales béninoises*. (2008). (pp. 35–36). Centre national de linguistique appliquée (CENALA).'
 - '*Dictionnaire waama*. (2024, September 27). https://www.webonary.org/waama/'

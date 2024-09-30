@@ -3,21 +3,16 @@ contributors:
 name: Akebu
 orthographies:
 - autonym: kǝkpǝǝ-kǝ
-  base: A B C D E F G H I J K L M N O P R S T U V W Y Z a b c d e f g h i j k l m
-    n o p r s t u v w y z Ŋ ŋ Ɔ Ɖ Ǝ Ɛ Ɩ Ʊ ǝ ɔ ɖ ɛ ɩ ʊ
+  base: A B C D E F G H I J K L M N O P R S T U V W Y Z a b c d e f g h i j k l m n o p r s t u v w y z Ŋ ŋ Ɔ Ɖ Ǝ Ɛ Ɩ Ʊ ǝ ɔ ɖ ɛ ɩ ʊ
   design_requirements:
-  - There are two common design variants both encoded as Ŋ, one resembling the lowercase
-    ŋ reaching cap height favoured in African languages, and the other resembling
-    N with J as the second stem favoured in Sami languages.
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in African languages, and the other resembling N with J as the second stem favoured in Sami languages.
   numerals: <default>
   script: Latin
   status: primary
 sources:
-- 'Marthe Sossoukpe, Kə lə kə, kə la ŋʊrʊ Kəkpəə-kə — Guide pour aider les scolarisés
-  en français à lire et écrire l’akébou (Guide de transition français - akébou), SIL
-  Togo, 2014'
+- Marthe Sossoukpe, Kə lə kə, kə la ŋʊrʊ Kəkpəə-kə — Guide pour aider les scolarisés en français à lire et écrire l’akébou (Guide de transition français - akébou), SIL Togo, 2014
 - Kebu language. (2024, February 13). In *Wikipedia*. https://en.wikipedia.org/wiki/Kebu_language?oldid=1207068139
-- 'https://www.webonary.org/akebu/'
+- https://www.webonary.org/akebu/
 sources note: review
 speakers: 70300
 speakers_date: 2012

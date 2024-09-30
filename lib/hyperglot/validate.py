@@ -78,6 +78,12 @@ def check_types(Langs:Languages) -> None:
                 if not check_is_yaml_list(lang["contributors"]):
                     log.error(f"'{iso}' has invalid list 'contributors'")
 
+        if "reviewers" in lang:
+            # Reviewers is optional
+            if lang["reviewers"] is not None:
+                if not check_is_yaml_list(lang["reviewers"]):
+                    log.error(f"'{iso}' has invalid list 'reviewers'")
+
         if "orthographies" in lang:
             if not check_is_yaml_list(lang["orthographies"]):
                 log.error(f"'{iso}' has invalid list 'orthographies'")
@@ -327,6 +333,8 @@ def check_autonym_spelling(ort:Orthography) -> Tuple[list, list, list]:
     chars = [c.lower() for c in chars]
 
     # Use lowercase no non-word-chars version of autonym
+    if "autonym" not in ort or ort["autonym"] is None:
+        return True, None, None
     autonym = ort["autonym"].lower()
     autonym = re.sub(r"\W", "", autonym)
     autonym_chars = parse_chars(autonym)

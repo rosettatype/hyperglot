@@ -4,9 +4,7 @@ name: Kalaallisut
 orthographies:
 - autonym: Kalaallisut
   auxiliary: À Ì Ù à ì ù
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á Â Ã Å Æ Ê Í Î Ĩ Ô Ø
-    Ú Û Ũ a b c d e f g h i j k l m n o p q r s t u v w x y z á â ã å æ ê í î ĩ ô
-    ø ú û ĸ ũ
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á Â Ã Å Æ Ê Í Î Ĩ Ô Ø Ú Û Ũ a b c d e f g h i j k l m n o p q r s t u v w x y z á â ã å æ ê í î ĩ ô ø ú û ĸ ũ
   marks: ◌́ ◌̂ ◌̃ ◌̊ ◌̀
   note: Alphabet invented by Samuel Kleinschmidt. Used until 1973.
   numerals: <default>

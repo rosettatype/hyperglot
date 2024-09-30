@@ -1,52 +1,35 @@
 name: Default
 orthographies:
-- punctuation: |
-    . , : ; ! ? - ‐ – — _ ~ ( ) [ ] { } / | ¦ \ ' " ^ § • ¶ # & @ © ® ™ ′ ″ ° … * ·
-    ‘ “ ’ ”
-  numerals: 0 1 2 3 4 5 6 7 8 9 + − ± ÷ × = ≈ ≠ % ‰
-  currency: ¤
+- currency: $
+  numerals: 0 1 2 3 4 5 6 7 8 9
+  punctuation: '. , ; : ? ! “ ” ‘ ’'
   script: Latin
   status: primary
-- punctuation: |
-    . , : ; ! ? - ‐ – — _ ~ ( ) [ ] { } / | ¦ \ ' " ^ § • ¶ # & @ © ® ™ ′ ″ ° … * ·
-    ‘ “ ’ ”
-  numerals: 0 1 2 3 4 5 6 7 8 9 + − ± ÷ × = ≈ ≠ % ‰
-  currency: ¤ €
+- currency: $
   script: Latin
   status: secondary
-- punctuation: |
-    . , : ; ! ? - ‐ – — _ ~ ( ) [ ] { } / | ¦ \ ' " ^ § • ¶ # & @ © ® ™ ′ ″ ° … * ·
-    ‘ “ ’ ” « »
-  numerals: 0 1 2 3 4 5 6 7 8 9 + − ± ÷ × = ≈ ≠ % ‰
-  currency: ¤
-  script: Cyrillic
-  status: primary
-- punctuation: |
-    . , : ; ! ? - ‐ – — _ ~ ( ) [ ] { } / | ¦ \ ' " ^ § • ¶ # & @ © ® ™ ′ ″ ° … * ·
-    “ ” « »
-    ; ·
-  numerals: 0 1 2 3 4 5 6 7 8 9 + − ± ÷ × = ≈ ≠ % ‰
-  currency: ¤ €
-  script: Greek
-  status: primary
-- punctuation: |
-    ، ؛ ٫ ٬ ٪ ؟ ٭ ﴾ ﴿
-    . , : ; ! ? - ‐ – — _ ~ ( ) [ ] { } / | ¦ \ ' " ^ § • ¶ # & @ © ® ™ ′ ″ ° … * ·
-    « » “ ”
-  numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ 0 1 2 3 4 5 6 7 8 9 + − ± ÷ × = ≈ ≠ % ‰
-  currency:
+- currency: $
+  numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩
+  punctuation: ؟ ؞
   script: Arabic
   status: primary
-- punctuation: |
-    । ॥ ࿕ 
-    . , : ; ! ? - ‐ – — _ ~ ( ) [ ] { } / | ¦ \ ' " ^ § • ¶ # & @ © ® ™ ′ ″ ° … * ·
-    ‘ “ ’ ”
-  numerals: ० १ २ ३ ४ ५ ६ ७ ८ ९ 0 1 2 3 4 5 6 7 8 9 + − ± ÷ × = ≈ ≠ % ‰
-  currency: ₹ ₨
+- punctuation: ׳ ״
+  script: Hebrew
+  status: primary
+- currency: $
+  numerals: 0
+  punctuation: .
   script: Devanagari
   status: primary
-status: living
+- auxiliary: T O D O
+  currency: $
+  numerals: 0
+  punctuation: .
+  script: Gurmukhi
+  status: primary
+- currency: $
+  numerals: 0
+  punctuation: .
+  script: Cyrillic
+  status: primary
 validity: verified
-sources:
-- Quotation mark. (2024, September 26). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Quotation_mark&oldid=1247790780
-- List of currency symbols. (2024, July 15). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Template:List_of_currency_symbols&oldid=1234688642

@@ -6,11 +6,11 @@ orthographies:
 - autonym: تونسي
   auxiliary: <arb>
   base: <arb>
+  currency: <default>
   design_requirements: <arb>
   marks: <arb>
-  punctuation: <arb>
-  currency: <default>
   numerals: <default>
+  punctuation: <arb>
   script: Arabic
   status: primary
 sources:

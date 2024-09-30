@@ -3,12 +3,9 @@ contributors:
 name: Kusaal
 orthographies:
 - autonym: kusaal
-  base: A B D E Ɛ F G H I Ɩ K L M N Ŋ O Ɔ P R S T U Ʋ W Y Z ʼ a b d e ɛ f g h i ɩ
-    k l m n ŋ o ɔ p r s t u ʋ w y z Ã Ẽ Ĩ Õ Ũ ã ẽ ĩ õ ũ
+  base: A B D E Ɛ F G H I Ɩ K L M N Ŋ O Ɔ P R S T U Ʋ W Y Z ʼ a b d e ɛ f g h i ɩ k l m n ŋ o ɔ p r s t u ʋ w y z Ã Ẽ Ĩ Õ Ũ ã ẽ ĩ õ ũ
   design_requirements:
-  - There are two common design variants both encoded as Ŋ, one resembling the lowercase
-    ŋ reaching cap height favoured in African languages, and the other resembling
-    N with J as the second stem favoured in Sami languages.
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in African languages, and the other resembling N with J as the second stem favoured in Sami languages.
   marks: ◌̃
   note: Ɩ and Ʋ were previously not used in Ghana.
   numerals: <default>
@@ -16,8 +13,8 @@ orthographies:
   status: primary
 sources:
 - Kusaal language. (2024, July 3). In *Wikipedia*. https://en.wikipedia.org/wiki/Kusaal_language?oldid=1232409844
-- 'https://www.webonary.org/kusaal-bf'
-- 'https://www.webonary.org/kusaal-gh'
+- https://www.webonary.org/kusaal-bf
+- https://www.webonary.org/kusaal-gh
 sources note: review
 speakers: 549000
 speakers_date: 2004-2013

@@ -4,10 +4,10 @@ name: Judeo-Persian
 orthographies:
 - auxiliary: <heb>
   base: <heb>
-  marks: <heb>
-  punctuation: <heb>
   currency: <heb>
+  marks: <heb>
   numerals: <heb>
+  punctuation: <heb>
   script: Hebrew
   status: primary
 speakers: 60000

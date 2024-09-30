@@ -1,14 +1,14 @@
 name: Khetrani
 orthographies:
-- autonym: 
-  base: <pan>
+- autonym: null
   auxiliary: <pan>
+  base: <pan>
+  currency: <urd>
   design_requirements: <pan>
   marks: <pan>
   note: Used in Pakistan.
   numerals: <default>
   punctuation: <default>
-  currency: <urd>
   script: Arabic
   status: primary
 sources:

@@ -4,12 +4,11 @@ contributors:
 name: Gheg Albanian
 orthographies:
 - autonym: Gegnisht
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ç Ë a b c d e f g h i
-    j k l m n o p q r s t u v w x y z ç ë
-  marks: ◌̈ ◌̧
-  punctuation: <default> „ “ ‘ ’
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ç Ë a b c d e f g h i j k l m n o p q r s t u v w x y z ç ë
   currency: <default>
+  marks: ◌̈ ◌̧
   numerals: <default>
+  punctuation: <default> „ “ ‘ ’
   script: Latin
   status: primary
 sources:

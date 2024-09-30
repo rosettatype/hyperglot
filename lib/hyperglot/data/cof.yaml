@@ -3,8 +3,7 @@ contributors:
 - Sergio Martins
 name: Colorado
 orthographies:
-- base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ã Ẽ Ĩ Ũ Ɨ Ñ a b c d e
-    f g h i j k l m n o p q r s t u v w x y z ã ẽ ĩ ũ ɨ ñ ʔ
+- base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ã Ẽ Ĩ Ũ Ɨ Ñ a b c d e f g h i j k l m n o p q r s t u v w x y z ã ẽ ĩ ũ ɨ ñ ʔ
   marks: ◌̃
   numerals: <default>
   script: Latin

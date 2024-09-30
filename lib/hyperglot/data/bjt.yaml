@@ -1,25 +1,21 @@
 contributors:
 - Denis Moyogo Jacquerye
 name: Balante-Ganja
+notes:
+- Literacy rate of about 1 %
 orthographies:
 - autonym: balant
-  base: A B D E F G H I J L M N O R S T U W Y a b d e f g h i j l m n o r s t u w
-    y Ñ ñ Ŋ ŋ Ŧ ŧ Ɓ ɓ
+  base: A B D E F G H I J L M N O R S T U W Y a b d e f g h i j l m n o r s t u w y Ñ ñ Ŋ ŋ Ŧ ŧ Ɓ ɓ
   design_requirements:
-  - There are two common design variants both encoded as Ŋ, one resembling the lowercase
-    ŋ reaching cap height favoured in African languages, and the other resembling
-    N with J as the second stem favoured in Sami languages.
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in African languages, and the other resembling N with J as the second stem favoured in Sami languages.
   marks: ◌̃
   numerals: <default>
   script: Latin
   status: primary
 sources:
-- 'République du Sénégal, Décret no 2005-979 relatif à l’orthographe et la séparation
-  des mots en balant, 21 octobre 2005'
+- République du Sénégal, Décret no 2005-979 relatif à l’orthographe et la séparation des mots en balant, 21 octobre 2005
 sources note: review
 speakers: 86000
 speakers_date: 2006
 status: living
 validity: preliminary
-notes:
-- Literacy rate of about 1 %

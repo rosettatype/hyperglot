@@ -5,23 +5,23 @@ name: Western Panjabi
 orthographies:
 - autonym: ਪੰਜਾਬੀ,
   base: <pan>
+  currency: <pan>
   design_requirements: <pan>
   marks: <pan>
   note: Used in India.
   numerals: <pan>
   punctuation: <pan>
-  currency: <pan>
   script: Gurmukhi
   status: primary
 - autonym: پن٘جابی
-  base: <pan>
   auxiliary: <pan>
+  base: <pan>
+  currency: <urd>
   design_requirements: <pan>
   marks: <pan>
+  note: Used in Pakistan.
   numerals: <pes>
   punctuation: <pes>
-  currency: <urd>
-  note: Used in Pakistan.
   script: Arabic
   status: primary
 sources:

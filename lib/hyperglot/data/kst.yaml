@@ -4,16 +4,14 @@ name: Winyé
 orthographies:
 - autonym: winɩ́ɛ
   auxiliary: Q X q x
-  base: A B Ɓ C D E Ɛ F G H I Ɩ J K L M N O Ɔ P R S T U Ʋ V W Y Z a b ɓ c d e ɛ f
-    g h i ɩ j k l m n o ɔ p r s t u ʋ v w y z Ã Ẽ Ɛ̃ Ɩ̃ Ɔ̃ Ʋ̃ Á Ã́ É Ẽ́ Ɛ́ Ɛ̃́ Í Ɩ́
-    Ɩ̃́ Ó Ɔ̃́ Ú Ʋ́ Ʋ̃́ ã ẽ ɛ̃ ɩ̃ ɔ̃ ʋ̃ á ã́ é ẽ́ ɛ́ ɛ̃́ í ɩ́ ɩ̃́ ó ɔ̃́ ú ʋ́ ʋ̃́
+  base: A B Ɓ C D E Ɛ F G H I Ɩ J K L M N O Ɔ P R S T U Ʋ V W Y Z a b ɓ c d e ɛ f g h i ɩ j k l m n o ɔ p r s t u ʋ v w y z Ã Ẽ Ɛ̃ Ɩ̃ Ɔ̃ Ʋ̃ Á Ã́ É Ẽ́ Ɛ́ Ɛ̃́ Í Ɩ́ Ɩ̃́ Ó Ɔ̃́ Ú Ʋ́ Ʋ̃́ ã ẽ ɛ̃ ɩ̃ ɔ̃ ʋ̃ á ã́ é ẽ́ ɛ́ ɛ̃́ í ɩ́ ɩ̃́ ó ɔ̃́ ú ʋ́ ʋ̃́
   marks: ◌́ ◌̃
   numerals: <default>
   script: Latin
   status: primary
 sources:
 - Winye language. (2022, December 21). In *Wikipedia*. https://en.wikipedia.org/wiki/Winye_language?oldid=1128711593
-- 'https://www.winien.com'
+- https://www.winien.com
 sources note: review
 speakers: 20000
 speakers_date: 1999

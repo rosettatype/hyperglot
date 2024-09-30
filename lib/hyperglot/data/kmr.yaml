@@ -4,23 +4,20 @@ name: Northern Kurdish
 orthographies:
 - autonym: Kurmancî
   auxiliary: Ḧ Ẍ ḧ ẍ '
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ç Ê Î Ş Û a b c d e f
-    g h i j k l m n o p q r s t u v w x y z ç ê î ş û
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ç Ê Î Ş Û a b c d e f g h i j k l m n o p q r s t u v w x y z ç ê î ş û
   marks: ◌̂ ◌̧ ◌̈
   numerals: <default>
   script: Latin
   status: secondary
 - autonym: Kurmancî
   auxiliary: Ḧ Ẍ ḧ ẍ '
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ç Ê Î Ş Û Ł Ň Ř Ü a b
-    c d e f g h i j k l m n o p q r s t u v w x y z ç ê î ş û ł ň ř ü
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ç Ê Î Ş Û Ł Ň Ř Ü a b c d e f g h i j k l m n o p q r s t u v w x y z ç ê î ş û ł ň ř ü
   marks: ◌̂ ◌̈ ◌̌ ◌̧
   note: Used in Turkey, Syria, Iraq and Iran.
   numerals: <default>
   script: Latin
   status: primary
-- base: А Б В Г Д Е Ә Ж З Й К Л М Н О Ӧ П Р С Т У Ф Х Һ Ч Ш Щ Ь Э Ԛ Ԝ а б в г д е
-    ә ж з й к л м н о ӧ п р с т у ф х һ ч ш щ ь э ԛ ԝ '
+- base: А Б В Г Д Е Ә Ж З Й К Л М Н О Ӧ П Р С Т У Ф Х Һ Ч Ш Щ Ь Э Ԛ Ԝ а б в г д е ә ж з й к л м н о ӧ п р с т у ф х һ ч ш щ ь э ԛ ԝ '
   marks: ◌̆ ◌̈
   note: Used in Russia and Armenia.
   numerals: <default>

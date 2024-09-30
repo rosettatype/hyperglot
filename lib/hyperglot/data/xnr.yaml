@@ -5,10 +5,10 @@ orthographies:
 - autonym: कांगड़ी
   auxiliary: <dgo>
   base: <dgo>
+  currency: <default>
   design_requirements: <dgo>
   numerals: <default>
   punctuation: <hin>
-  currency: <default>
   script: Devanagari
   status: primary
 sources:

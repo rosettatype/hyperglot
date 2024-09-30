@@ -3,8 +3,7 @@ contributors:
 name: Caquinte
 orthographies:
 - autonym: Poyenisati
-  base: A C E F G I J M N O P Q R S T U V Y Ñ a c e f g i j m n o p q r s t u v y
-    ' ñ
+  base: A C E F G I J M N O P Q R S T U V Y Ñ a c e f g i j m n o p q r s t u v y ' ñ
   marks: ◌̃
   numerals: <default>
   script: Latin

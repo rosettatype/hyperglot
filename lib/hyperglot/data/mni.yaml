@@ -1,18 +1,16 @@
 contributors:
 - David Březina
 name: Manipuri
-note: The language currently uses also Meetei script which is not included in the
-  database, yet.
+note: The language currently uses also Meetei script which is not included in the database, yet.
 orthographies:
 - autonym: মৈতৈলোন্
   base: অ আ ই উ এ ঐ ও ঔ ক খ গ ঘ ঙ চ জ ঝ ঞ ত থ দ ধ ন প ফ ব ভ ম ৰ র ল ৱ স হ
+  currency: <ben>
   design_requirements:
-  - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are
-    required for proper representation of the language.
+  - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
   marks: ◌ঁ ◌ং ◌ঃ ◌় ◌া ◌ি ◌ু ◌ে ◌ৈ ◌্ ◌ৗ
   numerals: <ben>
   punctuation: <ben>
-  currency: <ben>
   script: Bengali
   status: primary
 sources:

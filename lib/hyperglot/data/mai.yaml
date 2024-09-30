@@ -2,20 +2,17 @@ contributors:
 - David Březina
 - Sergio Martins
 name: Maithili
-note: The speaker count is ambigious as Maithili is often regarded as a dialect of
-  Hindi.
+note: The speaker count is ambigious as Maithili is often regarded as a dialect of Hindi.
 orthographies:
 - autonym: मैथिली
   auxiliary: ꣻ
-  base: अ आ इ ई उ ऊ ऋ ए ऐ ओ औ क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य
-    र ल व श ष स ह ऎ ऒ ॳ ॴ ॵ ʼ ऽ ‌ ‍
+  base: अ आ इ ई उ ऊ ऋ ए ऐ ओ औ क ख ग घ ङ च छ ज झ ञ ट ठ ड ढ ण त थ द ध न प फ ब भ म य र ल व श ष स ह ऎ ऒ ॳ ॴ ॵ ʼ ऽ ‌ ‍
+  currency: <default>
   design_requirements:
-  - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are
-    required for proper representation of the language.
+  - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
   marks: ◌ँ ◌ं ◌ः ◌ऺ ◌ऻ ◌़ ◌ा ◌ि ◌ी ◌ु ◌ू ◌ृ ◌ॆ ◌े ◌ै ◌ॊ ◌ो ◌ौ ◌् ◌ॏ
   numerals: <default>
   punctuation: <hin>
-  currency: <default>
   script: Devanagari
   status: primary
 sources:

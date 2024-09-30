@@ -4,16 +4,13 @@ contributors:
 name: Khmer
 orthographies:
 - autonym: ភាសាខ្មែរ
-  base: ក ខ គ ឃ ង ច ឆ ជ ឈ ញ ដ ឋ ឌ ឍ ណ ត ថ ទ ធ ន ប ផ ព ភ ម យ រ ល វ ស ហ ឡ អ ឥ ឦ ឧ ឩ
-    ឪ ឫ ឬ ឭ ឮ ឯ ឰ ឱ ឲ ឳ
-  design_requirements:
-  - Mark positioning and some character combinations (ligatures) have to be resolved
-    to properly represent the language.
-  marks: ◌឴ ◌឵ ◌ា ◌ិ ◌ី ◌ឹ ◌ឺ ◌ុ ◌ូ ◌ួ ◌ើ ◌ឿ ◌ៀ ◌េ ◌ែ ◌ៃ ◌ោ ◌ៅ ◌ំ ◌ះ ◌ៈ ◌៉ ◌៊ ◌់ ◌៍
-    ◌័ ◌្
-  punctuation: <default> « » “ ”
+  base: ក ខ គ ឃ ង ច ឆ ជ ឈ ញ ដ ឋ ឌ ឍ ណ ត ថ ទ ធ ន ប ផ ព ភ ម យ រ ល វ ស ហ ឡ អ ឥ ឦ ឧ ឩ ឪ ឫ ឬ ឭ ឮ ឯ ឰ ឱ ឲ ឳ
   currency: <default> ៛
+  design_requirements:
+  - Mark positioning and some character combinations (ligatures) have to be resolved to properly represent the language.
+  marks: ◌឴ ◌឵ ◌ា ◌ិ ◌ី ◌ឹ ◌ឺ ◌ុ ◌ូ ◌ួ ◌ើ ◌ឿ ◌ៀ ◌េ ◌ែ ◌ៃ ◌ោ ◌ៅ ◌ំ ◌ះ ◌ៈ ◌៉ ◌៊ ◌់ ◌៍ ◌័ ◌្
   numerals: ០ ១ ២ ៣ ៤ ៥ ៦ ៧ ៨ ៩
+  punctuation: <default> « » “ ”
   script: Khmer
   status: primary
 sources:

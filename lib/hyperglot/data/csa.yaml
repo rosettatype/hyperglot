@@ -4,8 +4,7 @@ contributors:
 name: Chiltepec Chinantec
 note: The speaker count is uncertain.
 orthographies:
-- base: A B C D E F G H I J K L M N O P R S T U Ë Ø a b c d e f g h i j k l m n o
-    p r s t u ë ø
+- base: A B C D E F G H I J K L M N O P R S T U Ë Ø a b c d e f g h i j k l m n o p r s t u ë ø
   marks: ◌̈
   numerals: <default>
   script: Latin

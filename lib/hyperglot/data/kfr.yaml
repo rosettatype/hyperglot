@@ -4,11 +4,11 @@ name: Kachhi
 orthographies:
 - autonym: કચ્છી
   base: <guj>
+  currency: <guj>
   design_requirements: <guj>
   marks: <guj>
   numerals: <guj>
   punctuation: <guj>
-  currency: <guj>
   script: Gujarati
   status: primary
 sources:

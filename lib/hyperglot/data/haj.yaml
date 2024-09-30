@@ -5,13 +5,12 @@ note: The speaker count includes 8000 speakers in Bangladesh (undated).
 orthographies:
 - autonym: হাজং
   base: অ আ ই উ এ ঐ ও ঔ ক খ গ ঘ ঙ চ ছ জ ঝ ঞ ত থ দ ধ ন প ফ ব ভ ম র হ
+  currency: <ben>
   design_requirements:
-  - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are
-    required for proper representation of the language.
+  - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
   marks: ◌ঁ ◌ং ◌ঃ ◌় ◌া ◌ি ◌ে ◌ৈ ◌্ ◌ৗ
   numerals: <ben>
   punctuation: <ben>
-  currency: <ben>
   script: Bengali
   status: primary
 sources:

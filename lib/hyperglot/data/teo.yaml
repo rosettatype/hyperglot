@@ -5,27 +5,21 @@ name: Teso
 orthographies:
 - autonym: Ateso
   auxiliary: F Q Z f q z
-  base: A B C D E G H I J K L M N O P R S T U V W X Y Ŋ a b c d e g h i j k l m n
-    o p r s t u v w x y ŋ
+  base: A B C D E G H I J K L M N O P R S T U V W X Y Ŋ a b c d e g h i j k l m n o p r s t u v w x y ŋ
   design_requirements:
-  - There are two common design variants both encoded as Ŋ, one resembling the lowercase
-    ŋ reaching cap height favoured in African languages, and the other resembling
-    N with J as the second stem favoured in Sami languages.
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in African languages, and the other resembling N with J as the second stem favoured in Sami languages.
   numerals: <default>
   script: Latin
   status: historical
 - autonym: Atɛsɔ
   auxiliary: Q Z q z
-  base: A B C D E F G H I J K L M N O P R S T U V W Y a b c d e f g h i j k l m n
-    o p r s t u v w y Ɔ Ɛ Ɨ Ʉ ɔ ɛ ɨ ʉ ᵃ ᵉ ᵋ ᵒ ᵓ ᵘ ᶤ ᶶ ⁱ
+  base: A B C D E F G H I J K L M N O P R S T U V W Y a b c d e f g h i j k l m n o p r s t u v w y Ɔ Ɛ Ɨ Ʉ ɔ ɛ ɨ ʉ ᵃ ᵉ ᵋ ᵒ ᵓ ᵘ ᶤ ᶶ ⁱ
   numerals: <default>
   script: Latin
   status: primary
 sources:
-- 'Atɛsɔ Local Language Board, A Guide to the Standardised Orthography of Atɛsɔ, Kampala,
-  2014'
-- 'J.H. Holders, J.C.D. Lawrence, An introduction to the Ateso language, Kampala,
-  Uganda, Eagle Press, 1957, 2nd edition'
+- Atɛsɔ Local Language Board, A Guide to the Standardised Orthography of Atɛsɔ, Kampala, 2014
+- J.H. Holders, J.C.D. Lawrence, An introduction to the Ateso language, Kampala, Uganda, Eagle Press, 1957, 2nd edition
 - Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
 - Teso language. (2024, July 6). In *Wikipedia*. https://en.wikipedia.org/wiki/Teso_language?oldid=1233034375
 sources note: review

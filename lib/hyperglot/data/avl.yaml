@@ -5,11 +5,11 @@ orthographies:
 - autonym: بدوي
   auxiliary: <ajp>
   base: <ajp>
+  currency: <default>
   design_requirements: <ajp>
   marks: <ajp>
-  punctuation: <arb>
-  currency: <default>
   numerals: <default>
+  punctuation: <arb>
   script: Arabic
   status: primary
 sources:

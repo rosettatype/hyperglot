@@ -5,13 +5,12 @@ name: Afrikaans
 orthographies:
 - autonym: Afrikaans
   auxiliary: Ç ç
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á É È Ê Ë Î Ï Ö Ô Û Ü
-    Ý a b c d e f g h i j k l m n o p q r s t u v w x y z á é è ê ë î ï ö ô û ü ý
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á É È Ê Ë Î Ï Ö Ô Û Ü Ý a b c d e f g h i j k l m n o p q r s t u v w x y z á é è ê ë î ï ö ô û ü ý
+  currency: <default>
   marks: ◌́ ◌̀ ◌̂ ◌̈ ◌̧
   note: The use of ŉ has been deprecated and is strongly discouraged.
-  punctuation: <default> ‘ “ ’ ” ‚ „
-  currency: <default>
   numerals: <default>
+  punctuation: <default> ‘ “ ’ ” ‚ „
   script: Latin
   status: primary
 sources:

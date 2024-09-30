@@ -3,13 +3,11 @@ contributors:
 name: Slovak
 orthographies:
 - autonym: Slovenčina
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á Ä É Í Ó Ô Ú Ý Č Ď Ĺ
-    Ľ Ň Ŕ Š Ť Ž a b c d e f g h i j k l m n o p q r s t u v w x y z á ä é í ó ô ú
-    ý č ď ĺ ľ ň ŕ š ť ž
-  marks: ◌́ ◌̂ ◌̈ ◌̌
-  punctuation: <default> ‚ „ ‘ “ ‹ › « »
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á Ä É Í Ó Ô Ú Ý Č Ď Ĺ Ľ Ň Ŕ Š Ť Ž a b c d e f g h i j k l m n o p q r s t u v w x y z á ä é í ó ô ú ý č ď ĺ ľ ň ŕ š ť ž
   currency: <default secondary>
+  marks: ◌́ ◌̂ ◌̈ ◌̌
   numerals: <default>
+  punctuation: <default> ‚ „ ‘ “ ‹ › « »
   script: Latin
   status: primary
 sources:

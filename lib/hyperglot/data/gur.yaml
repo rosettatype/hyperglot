@@ -3,20 +3,17 @@ contributors:
 name: Farefare
 orthographies:
 - autonym: ninkãrɛ
-  base: A B D E Ɛ F G H I Ɩ K L M N Ŋ O Ɔ P R S T U Ʋ V W Y Z Ã Ẽ Ɛ̃ Ĩ Õ Ɔ̃ Ũ a b
-    d e ɛ f g h i ɩ k l m n ŋ o ɔ p r s t u ʋ v w y z ã ẽ ĩ õ ũ
+  base: A B D E Ɛ F G H I Ɩ K L M N Ŋ O Ɔ P R S T U Ʋ V W Y Z Ã Ẽ Ɛ̃ Ĩ Õ Ɔ̃ Ũ a b d e ɛ f g h i ɩ k l m n ŋ o ɔ p r s t u ʋ v w y z ã ẽ ĩ õ ũ
   design_requirements:
-  - There are two common design variants both encoded as Ŋ, one resembling the lowercase
-    ŋ reaching cap height favoured in African languages, and the other resembling
-    N with J as the second stem favoured in Sami languages.
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in African languages, and the other resembling N with J as the second stem favoured in Sami languages.
   marks: ◌̃
   numerals: <default>
   script: Latin
   status: primary
 sources:
 - Farefare language. (2024, July 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Farefare_language?oldid=1237094476
-- 'https://www.webonary.org/ninkare'
-- 'https://frafra-ninkare.com'
+- https://www.webonary.org/ninkare
+- https://frafra-ninkare.com
 sources note: review
 speakers: 720000
 speakers_date: 2003

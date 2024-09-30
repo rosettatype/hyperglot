@@ -3,8 +3,7 @@ contributors:
 name: Purepecha
 orthographies:
 - autonym: P'urhépecha
-  base: A B C D E G H I Ï J K M N O P R S T U X a b c d e g h i ï j k m n o p r s
-    t u x '
+  base: A B C D E G H I Ï J K M N O P R S T U X a b c d e g h i ï j k m n o p r s t u x '
   marks: ◌́ ◌̈
   numerals: <default>
   script: Latin

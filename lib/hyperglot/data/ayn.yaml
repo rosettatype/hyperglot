@@ -5,16 +5,16 @@ orthographies:
 - autonym: يمني
   auxiliary: <arb>
   base: <arb>
+  currency: <default>
   design_requirements: <arb>
   marks: <arb>
-  punctuation: <arb>
-  currency: <default>
   numerals: <default>
+  punctuation: <arb>
   script: Arabic
   status: primary
 sources:
 - Sanʽani Arabic. (2024, March 21). In *Wikipedia*. https://en.wikipedia.org/wiki/San%CA%BDani_Arabic?oldid=1214789220
-- 'Textbook'
+- Textbook
 sources note: review
 speakers: 11100000
 speakers_date: 2015

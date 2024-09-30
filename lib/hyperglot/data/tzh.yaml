@@ -3,8 +3,7 @@ contributors:
 name: Tzeltal
 orthographies:
 - autonym: Batz'il K'op
-  base: A B C E H I J K L M N O P R T U W X Y Z a b c e h i j k l m n o p r t u w
-    x y z '
+  base: A B C E H I J K L M N O P R T U W X Y Z a b c e h i j k l m n o p r t u w x y z '
   numerals: <default>
   script: Latin
   status: primary

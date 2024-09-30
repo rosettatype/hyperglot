@@ -5,12 +5,9 @@ contributors:
 name: Hawaiian
 orthographies:
 - autonym: ʻŌlelo Hawaiʻi
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ā Ē Ī Ō Ū a b c d e f
-    g h i j k l m n o p q r s t u v w x y z ā ē ī ō ū ʻ
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ā Ē Ī Ō Ū a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ī ō ū ʻ
   design_requirements:
-  - The ‹ʻ› (okina) should appear as an “up-turned comma” above the baseline that
-    is ideally sufficiently distinguished from the left single quote (e.g.  positioned
-    slightly lower).
+  - The ‹ʻ› (okina) should appear as an “up-turned comma” above the baseline that is ideally sufficiently distinguished from the left single quote (e.g.  positioned slightly lower).
   marks: ◌̄
   numerals: <default>
   script: Latin
@@ -19,7 +16,7 @@ sources:
 - Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
 - ʻOkina. (2024, August 21). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=ʻOkina&oldid=1241430297
 - '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
-- 'http://webdev.uhh.hawaii.edu/fonts.php'
+- http://webdev.uhh.hawaii.edu/fonts.php
 sources note: review
 speakers: 24000
 speakers_date: 2008

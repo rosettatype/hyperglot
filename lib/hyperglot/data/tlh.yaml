@@ -2,21 +2,18 @@ contributors:
 - Gustavo Costa
 - David Březina
 name: Klingon
-note: An official Klingon orthography has not been accepted into Unicode as of this
-  writing, so fonts relying on Unicode cannot be tested for support. Some fonts using
-  Klingon glyphs encoded in the unicode PUA.
+note: An official Klingon orthography has not been accepted into Unicode as of this writing, so fonts relying on Unicode cannot be tested for support. Some fonts using Klingon glyphs encoded in the unicode PUA.
 orthographies:
 - autonym: tlhIngan Hol
   base: a b ch D e gh H I j l m n ng o p q Q r S t tlh u v w y '
-  note: The bi- and trigraphs are treated like single letters and {'} represents a
-    glotal stop.
+  note: The bi- and trigraphs are treated like single letters and {'} represents a glotal stop.
   numerals: <default>
   script: Latin
   status: primary
 sources:
 - Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
 - Klingon language. (2024, August 25). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Klingon_language&oldid=1242111349#Writing_systems
-- 'https://klingon.wiki/En/Alphabet'
+- https://klingon.wiki/En/Alphabet
 sources note: review
 speakers: 0
 status: constructed

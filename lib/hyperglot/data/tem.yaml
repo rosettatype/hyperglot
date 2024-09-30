@@ -3,12 +3,9 @@ contributors:
 name: Timne
 orthographies:
 - autonym: KʌThemnɛ
-  base: A Ʌ B D E Ɛ Ə F G H I K L M N Ŋ O Ɔ P R S T U W a ʌ b d e ɛ ə f g h i k l
-    m n ŋ o ɔ p r s t u w
+  base: A Ʌ B D E Ɛ Ə F G H I K L M N Ŋ O Ɔ P R S T U W a ʌ b d e ɛ ə f g h i k l m n ŋ o ɔ p r s t u w
   design_requirements:
-  - There are two common design variants both encoded as Ŋ, one resembling the lowercase
-    ŋ reaching cap height favoured in African languages, and the other resembling
-    N with J as the second stem favoured in Sami languages.
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in African languages, and the other resembling N with J as the second stem favoured in Sami languages.
   numerals: <default>
   script: Latin
   status: primary

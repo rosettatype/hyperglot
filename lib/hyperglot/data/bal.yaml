@@ -7,13 +7,13 @@ includes:
 name: Baluchi
 orthographies:
 - autonym: بلۏچی
-  base: ء آ ا ب ت ج د ر ز س ش ل م ن ه و ٹ پ چ ڈ ژ ک گ ی ۏ ے ݔ ࢣ
   auxiliary: ـ
+  base: ء آ ا ب ت ج د ر ز س ش ل م ن ه و ٹ پ چ ڈ ژ ک گ ی ۏ ے ݔ ࢣ
+  currency: <pes> <urd> <pbu>
   design_requirements: <pes>
   marks: ◌َ ◌ُ ◌ِ ◌ٓ
   numerals: <pes>
   punctuation: <pes>
-  currency: <pes> <urd> <pbu>
   script: Arabic
   status: primary
 preferred_as_individual: true

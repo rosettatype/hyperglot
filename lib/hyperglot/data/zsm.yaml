@@ -4,35 +4,31 @@ name: Standard Malay
 orthographies:
 - autonym: Malaysia
   auxiliary: ''''
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k
-    l m n o p q r s t u v w x y z
-  punctuation: <default> ‘ ’ “ ”
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
   currency: <default> $
-  numerals: <default>
   note: Post-1972 orthography (without diacritics) is used by Standard Malay and Indonesian.
+  numerals: <default>
+  punctuation: <default> ‘ ’ “ ”
   script: Latin
   status: primary
 - autonym: Malaysia
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ĕ a b c d e f g h i j
-    k l m n o p q r s t u v w x y z ĕ
-  marks: ◌̆
-  punctuation: <default> ‘ ’ “ ”
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ĕ a b c d e f g h i j k l m n o p q r s t u v w x y z ĕ
   currency: <default> $
+  marks: ◌̆
+  note: Za'aba Spelling system was used 1927–1972 in British Malaya and Borneo/Brunei for Malaysia and Singapore orthography
   numerals: <default>
-  note: Za'aba Spelling system was used 1927–1972 in British Malaya and Borneo/Brunei
-    for Malaysia and Singapore orthography
+  punctuation: <default> ‘ ’ “ ”
   script: Latin
   status: historical
 - autonym: مليسيا
   auxiliary: ـ
   base: ء ا ب ة ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ل م ن ه و ى ي چ ڠ ڤ ک ڽ ۏ ݢ
-  design_requirements:
-  - Positional forms of the characters (initial, medial, and final forms) and some
-    ligatures are required for proper representation of the language.
-  note: Jawi
-  punctuation: <default>
   currency: <default>
+  design_requirements:
+  - Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
+  note: Jawi
   numerals: <default>
+  punctuation: <default>
   script: Arabic
   status: primary
 sources:
@@ -40,7 +36,6 @@ sources:
 - Za'aba Spelling. (2024, August 9). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Za%27aba_Spelling&oldid=1239475690
 - Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
 - Quotation mark. (2024, September 26). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Quotation_mark&oldid=1247790780
-
 speakers: 32772100
 speakers_date: 2019
 status: living

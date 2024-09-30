@@ -1,7 +1,9 @@
 # A changelog for the lib/hyperglot language database and CLI tool (dd.mm.yyyy)
 
 ## 0.7.0 (WIP)
-- DATA: All language yaml documents now have their `contributors` listed
+- DATA: All language yaml documents now have their `contributors` listed, some have `reviewers` listed
+- DATA: **Massive* improvement of language `sources` with proper source citations where possible
+- DATA: Added `punctuation`, `numerals` and `currency` attributes to orthographies
 - FEATURE: Orthography attributes can inherit from other languages with `<iso>` syntax, see [README](README_database.md)
 - TWEAK: Orthographies can no longer have an `inherit` attribute
 - TWEAK: Improved loading speed for repeat queries and indivudal language queries

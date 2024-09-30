@@ -4,16 +4,14 @@ name: Montagnais
 orthographies:
 - autonym: Innu Aimun
   auxiliary: Ń ń
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Â Î Û a b c d e f g h
-    i j k l m n o p q r s t u v w x y z â î û ᵘ
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Â Î Û a b c d e f g h i j k l m n o p q r s t u v w x y z â î û ᵘ
   marks: ◌̂ ◌́
   numerals: <default>
   script: Latin
   status: primary
 sources:
-- 'Sandra Clarke, Marguerite MacKenzie, Labrador Innu-Aimun: an introduction to the
-  Sheshatshiu dialect, Memorial University of Newfoundland, 2010'
-- 'Innu-aimun Language resources, https://www.innu-aimun.ca'
+- 'Sandra Clarke, Marguerite MacKenzie, Labrador Innu-Aimun: an introduction to the Sheshatshiu dialect, Memorial University of Newfoundland, 2010'
+- Innu-aimun Language resources, https://www.innu-aimun.ca
 - Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
 - Innu-aimun. (2024, June 7). In *Wikipedia*. https://en.wikipedia.org/wiki/Innu-aimun?oldid=1227644616
 sources note: review

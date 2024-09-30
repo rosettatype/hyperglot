@@ -11,13 +11,11 @@ includes:
 - tec
 - tuy
 name: Kalenjin
-note: A cluster of Nandi–Markweta dialects/languages. Approximately 18% of the population
-  of Kenya.
+note: A cluster of Nandi–Markweta dialects/languages. Approximately 18% of the population of Kenya.
 orthographies:
 - autonym: Markweta
   auxiliary: F Q V X Z f q v x z
-  base: A B C D E G H I J K L M N O P R S T U W Y a b c d e g h i j k l m n o p r
-    s t u w y
+  base: A B C D E G H I J K L M N O P R S T U W Y a b c d e g h i j k l m n o p r s t u w y
   numerals: <default>
   script: Latin
   status: primary

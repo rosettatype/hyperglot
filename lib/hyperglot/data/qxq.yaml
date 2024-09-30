@@ -3,13 +3,13 @@ contributors:
 name: Qashqa'i
 orthographies:
 - autonym: قشقايی ديل
-  base: <pes>
   auxiliary: <pes>
+  base: <pes>
+  currency: <pes>
   design_requirements: <pes>
   marks: <pes>
   numerals: <pes>
   punctuation: <pes>
-  currency: <pes>
   script: Arabic
   status: primary
 sources:

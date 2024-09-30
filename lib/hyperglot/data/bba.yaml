@@ -4,8 +4,7 @@ contributors:
 name: Baatonum
 orthographies:
 - autonym: baatɔnum
-  base: A B D E Ɛ F G I K L M N O Ɔ P R S T U W Y a b d e ɛ f g i k l m n o ɔ p r
-    s t u w y
+  base: A B D E Ɛ F G I K L M N O Ɔ P R S T U W Y a b d e ɛ f g i k l m n o ɔ p r s t u w y
   numerals: <default>
   script: Latin
   status: primary

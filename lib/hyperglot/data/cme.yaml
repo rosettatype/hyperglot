@@ -3,19 +3,16 @@ contributors:
 name: Cerma
 orthographies:
 - autonym: cerma
-  base: A B C D E Ɛ F G H I K L M N Ŋ O Ɔ P R S T U V W Y a b c d e ɛ f g h i k l
-    m n ŋ o ɔ p r s t u v w y Ã Ĩ Ũ ã ĩ ũ
+  base: A B C D E Ɛ F G H I K L M N Ŋ O Ɔ P R S T U V W Y a b c d e ɛ f g h i k l m n ŋ o ɔ p r s t u v w y Ã Ĩ Ũ ã ĩ ũ
   design_requirements:
-  - There are two common design variants both encoded as Ŋ, one resembling the lowercase
-    ŋ reaching cap height favoured in African languages, and the other resembling
-    N with J as the second stem favoured in Sami languages.
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in African languages, and the other resembling N with J as the second stem favoured in Sami languages.
   marks: ◌̃
   numerals: <default>
   script: Latin
   status: primary
 sources:
 - Cerma language. (2023, April 9). In *Wikipedia*. https://en.wikipedia.org/wiki/Cerma_language?oldid=1149042509
-- 'https://www.webonary.org/cerma'
+- https://www.webonary.org/cerma
 sources note: review
 speakers: 63000
 speakers_date: 1991

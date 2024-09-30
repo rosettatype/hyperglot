@@ -3,13 +3,13 @@ contributors:
 name: Dari
 orthographies:
 - autonym: دری
-  base: <pes>
   auxiliary: <pes>
+  base: <pes>
+  currency: <default> ؋
   design_requirements: <pes>
   marks: <pes>
   numerals: <pes>
   punctuation: <pes>
-  currency: <default> ؋
   script: Arabic
   status: primary
 sources:

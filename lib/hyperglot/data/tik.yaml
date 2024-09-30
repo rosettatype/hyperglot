@@ -4,23 +4,17 @@ name: Tikar
 orthographies:
 - autonym: lɛ̀ꞌ Tikarì
   auxiliary: Q q
-  base: A Æ B Ɓ C D Ɗ Ɛ F G H I J K L M N Ŋ O P R S T U V W Y Z Ꞌ a b ɓ c d ɗ ɛ f
-    g h j k l m n ŋ o p r s t u v w y z ꞌ À Æ̀ È Ɛ̀ Ì M̀ Ǹ Ŋ̀ Ò Ù Â Æ̂ Ê Ɛ̂ Î Ô Û
-    Ǎ Æ̌ Ě Ɛ̌ Ǐ Ǒ Ǔ à æ̀ è ɛ̀ ì m̀ ǹ ŋ̀ ò ù â æ̂ ê ɛ̂ î ô û ǎ æ̌ ě ɛ̌ ǐ ǒ ǔ
+  base: A Æ B Ɓ C D Ɗ Ɛ F G H I J K L M N Ŋ O P R S T U V W Y Z Ꞌ a b ɓ c d ɗ ɛ f g h j k l m n ŋ o p r s t u v w y z ꞌ À Æ̀ È Ɛ̀ Ì M̀ Ǹ Ŋ̀ Ò Ù Â Æ̂ Ê Ɛ̂ Î Ô Û Ǎ Æ̌ Ě Ɛ̌ Ǐ Ǒ Ǔ à æ̀ è ɛ̀ ì m̀ ǹ ŋ̀ ò ù â æ̂ ê ɛ̂ î ô û ǎ æ̌ ě ɛ̌ ǐ ǒ ǔ
   design_requirements:
-  - There are two common design variants both encoded as Ŋ, one resembling the lowercase
-    ŋ reaching cap height favoured in African languages, and the other resembling
-    N with J as the second stem favoured in Sami languages.
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in African languages, and the other resembling N with J as the second stem favoured in Sami languages.
   marks: ◌̀ ◌̂ ◌̌
   numerals: <default>
   script: Latin
   status: primary
 sources:
-- 'Carol Stanley-Thorne, Ɗèwà ŋkònndi kon ŋgɔꞌ twùmwù = Manuel pour lire et écrire
-  la langue tikar, Yaoundé, SIL, Ministère de la Recherche scientifique et de l’Innovation,
-  2012.'
+- Carol Stanley-Thorne, Ɗèwà ŋkònndi kon ŋgɔꞌ twùmwù = Manuel pour lire et écrire la langue tikar, Yaoundé, SIL, Ministère de la Recherche scientifique et de l’Innovation, 2012.
 - Tikar people. (2024, August 21). In *Wikipedia*. https://en.wikipedia.org/wiki/Tikar_people?oldid=1241485408
-- 'https://www.webonary.org/tikar'
+- https://www.webonary.org/tikar
 sources note: review
 speakers: 110000
 speakers_date: 2005

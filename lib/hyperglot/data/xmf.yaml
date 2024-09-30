@@ -4,12 +4,11 @@ name: Mingrelian
 orthographies:
 - autonym: მარგალური
   base: Ა Ბ Გ Დ Ე Ვ Ზ Თ Ი Კ Ლ Მ Ნ Ო Პ Ჟ Რ Ს Ტ Უ Ფ Ქ Ღ Ყ Შ Ჩ Ც Ძ Წ Ჭ Ხ Ჯ Ჰ ჲ ჸ ჷ
-  numerals: <kat>
-  punctuation: <kat>
   currency: <kat>
   design_requirements:
-  - The character set includes Georgian Mkhedruli (lowercase letters) and additional
-    letters used in Mingrelian language.
+  - The character set includes Georgian Mkhedruli (lowercase letters) and additional letters used in Mingrelian language.
+  numerals: <kat>
+  punctuation: <kat>
   script: Georgian
   status: primary
 sources:

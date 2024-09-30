@@ -6,11 +6,11 @@ orthographies:
 - autonym: صعيدي
   auxiliary: <arz>
   base: <arz>
+  currency: <default>
   design_requirements: <arz>
   marks: <arz>
-  punctuation: <arb>
-  currency: <default>
   numerals: <default>
+  punctuation: <arb>
   script: Arabic
   status: primary
 sources:

@@ -9,16 +9,14 @@ orthographies:
   script: Syriac
   status: primary
 - autonym: Лышана Атураја
-  base: А Б В Г Ԁ Е Ә Ж З И Ј К Л Q L М Н П Р С Т T У Х Һ Ч Ш Ы D а б в г ԁ е ә ж
-    з и ј к л q l м н п р с т t у х һ ч ш ы d
+  base: А Б В Г Ԁ Е Ә Ж З И Ј К Л Q L М Н П Р С Т T У Х Һ Ч Ш Ы D а б в г ԁ е ә ж з и ј к л q l м н п р с т t у х һ ч ш ы d
   numerals: <default>
   punctuation: <default>
   script: Cyrillic
   status: secondary
 - autonym: Lišānā Āshûrāya
   auxiliary: Ā Ē Ë Ō Ū Ḏ Ḥ Š Ṣ Ṭ Û ā ē ë ō ū ḏ ḥ š ṣ ṭ û
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k
-    l m n o p q r s t u v w x y z
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
   marks: ◌̂ ◌̄ ◌̈ ◌̌ ◌̣ ◌̱
   numerals: <default>
   script: Latin

@@ -4,8 +4,7 @@ name: Garifuna
 note: The speaker counts are uncertain.
 orthographies:
 - autonym: Garífuna
-  base: A B C D E F G H I K L M N O P R S T U W Y Ñ Ü a b c d e f g h i k l m n o
-    p r s t u w y ñ ü
+  base: A B C D E F G H I K L M N O P R S T U W Y Ñ Ü a b c d e f g h i k l m n o p r s t u w y ñ ü
   marks: ◌́ ◌̃ ◌̈
   numerals: <default>
   script: Latin

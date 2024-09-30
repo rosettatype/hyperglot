@@ -5,8 +5,7 @@ contributors:
 name: Achinese
 orthographies:
 - autonym: Bahsa Acèh
-  base: A B C D E G H I J K L M N O P R S T W Y É È Ë Ô Ö a b c d e g h i j k l m
-    n o p r s t w y é è ë ô ö '
+  base: A B C D E G H I J K L M N O P R S T W Y É È Ë Ô Ö a b c d e g h i j k l m n o p r s t w y é è ë ô ö '
   marks: ◌̀ ◌́ ◌̂ ◌̈
   numerals: <default>
   script: Latin

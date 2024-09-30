@@ -3,15 +3,13 @@ contributors:
 name: Svan
 orthographies:
 - autonym: ლუშნუ
-  base: Ა Ბ Გ Დ Ე Ვ Ზ Თ Ი Კ Ლ Მ Ნ Ო Პ Ჟ Რ Ს Ტ Უ Ფ Ქ Ღ Ყ Შ Ჩ Ც Ძ Წ Ჭ Ხ Ჯ Ჰ ა̄ ა̈ ა̄̈
-    ე̄ ი̄ ო̄ ო̈ ო̄̈ უ̄ უ̈ უ̄̈ ჶ ჱ ჲ ჳ ჳი ჳე ჴ ჸ ჷ
+  base: Ა Ბ Გ Დ Ე Ვ Ზ Თ Ი Კ Ლ Მ Ნ Ო Პ Ჟ Რ Ს Ტ Უ Ფ Ქ Ღ Ყ Შ Ჩ Ც Ძ Წ Ჭ Ხ Ჯ Ჰ ა̄ ა̈ ა̄̈ ე̄ ი̄ ო̄ ო̈ ო̄̈ უ̄ უ̈ უ̄̈ ჶ ჱ ჲ ჳ ჳი ჳე ჴ ჸ ჷ
+  currency: <kat>
   design_requirements:
-  - The character set includes Georgian Mkhedruli (lowercase letters) and additional
-    letters used in Svan language.
+  - The character set includes Georgian Mkhedruli (lowercase letters) and additional letters used in Svan language.
   marks: ◌̈ ◌̄
   numerals: <kat>
   punctuation: <kat>
-  currency: <kat>
   script: Georgian
   status: primary
 sources:

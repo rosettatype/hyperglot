@@ -8,8 +8,7 @@ orthographies:
   script: Chinese
   status: primary
 - autonym: Gann ua
-  base: B P M F D T L Z C S J Q X G K H I U Y A E O N b p m f d t l z c s j q x g
-    k h i u y a e o n
+  base: B P M F D T L Z C S J Q X G K H I U Y A E O N b p m f d t l z c s j q x g k h i u y a e o n
   note: Pinfa romanization system
   numerals: <default>
   script: Latin

@@ -6,10 +6,10 @@ name: Arbëreshë Albanian
 orthographies:
 - autonym: Arbërisht
   base: <aln>
-  marks: <aln>
-  punctuation: <aln>
   currency: <aln>
+  marks: <aln>
   numerals: <default>
+  punctuation: <aln>
   script: Latin
   status: primary
 sources:

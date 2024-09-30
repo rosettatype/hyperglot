@@ -1,12 +1,12 @@
 name: Inku
 orthographies:
-- autonym:
-  note: Possibly extinct. Used in Afghanistan.
-  base: <pes>
+- autonym: null
   auxiliary: <pes>
+  base: <pes>
+  currency: <pbu>
+  note: Possibly extinct. Used in Afghanistan.
   numerals: <pes>
   punctuation: <pes>
-  currency: <pbu>
   script: Arabic
   status: primary
 sources:

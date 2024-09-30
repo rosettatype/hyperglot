@@ -3,31 +3,26 @@ contributors:
 name: Ottoman Turkish
 note: Used ca. 15th century up until 1928
 orthographies:
-- base: ʾ ʿ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Â Ç Î Ö Û Ü Ğ Ş Ș
-    Ṡ Ā Ē Ī Ō Ū Ṫ Ṭ Ż Ẓ a b c d e f g h i j k l m n o p q r s ṣ ṡ t ṫ ṭ u v w x y
-    z ż ẓ â ç î ö û ü ğ İ ı ş ș ā ē ī ō ū S̱ s̱ Ẕ ẕ
-  marks: ◌̂ ◌̄ ◌̆ ◌̇ ◌̈ ◌̣ ◌̦ ◌̧ ◌̱
-  note: The International Journal of Middle East Studies (IJMES) transliteration chart
-    used for this entry provides the most complete and (almost) reversible transliteration
-    between the original Arabic and Latin alphabet representation.
-  punctuation: <default>
+- base: ʾ ʿ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Â Ç Î Ö Û Ü Ğ Ş Ș Ṡ Ā Ē Ī Ō Ū Ṫ Ṭ Ż Ẓ a b c d e f g h i j k l m n o p q r s ṣ ṡ t ṫ ṭ u v w x y z ż ẓ â ç î ö û ü ğ İ ı ş ș ā ē ī ō ū S̱ s̱ Ẕ ẕ
   currency: <default>
+  marks: ◌̂ ◌̄ ◌̆ ◌̇ ◌̈ ◌̣ ◌̦ ◌̧ ◌̱
+  note: The International Journal of Middle East Studies (IJMES) transliteration chart used for this entry provides the most complete and (almost) reversible transliteration between the original Arabic and Latin alphabet representation.
   numerals: <default>
+  punctuation: <default>
   script: Latin
   status: transliteration
 - auxiliary: <arb>
   base: <arb>
+  currency: <default>
   design_requirements: <arb>
   marks: <arb>
-  punctuation: <default>
-  currency: <default>
   numerals: <default>
+  punctuation: <default>
   script: Arabic
   status: primary
 sources:
-- 'https://www.cambridge.org/core/journals/international-journal-of-middle-east-studies/information/author-resources/ijmes-translation-and-transliteration-guide  #
-  REVIEW'
-- 'https://github.com/QHOD/ota-keyboard/'
+- 'https://www.cambridge.org/core/journals/international-journal-of-middle-east-studies/information/author-resources/ijmes-translation-and-transliteration-guide  # REVIEW'
+- https://github.com/QHOD/ota-keyboard/
 - Ottoman Turkish. (2024, August 27). In *Wikipedia*. https://en.wikipedia.org/wiki/Ottoman_Turkish?oldid=1242505819
 sources note: review
 status: historical

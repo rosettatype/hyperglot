@@ -4,8 +4,7 @@ contributors:
 name: Cashibo-Cacataibo
 orthographies:
 - autonym: Cacataibo
-  base: A B C E I M N O P Q R S T U X Ë Ï Õ Ñ a b c e i m n o p q r s t u x ' ë ï
-    õ ñ
+  base: A B C E I M N O P Q R S T U X Ë Ï Õ Ñ a b c e i m n o p q r s t u x ' ë ï õ ñ
   marks: ◌̃ ◌̈
   numerals: <default>
   script: Latin

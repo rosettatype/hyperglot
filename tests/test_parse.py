@@ -196,3 +196,6 @@ def test_inheritance_tags():
     assert drop_inheritance_tags('<eng>') == ("", "%s", ["<eng>"])
     assert drop_inheritance_tags('< eng >') == ("", "%s", ["<eng>"])
     assert drop_inheritance_tags('<  eng   Latin historical >') == ("", "%s", ["<eng Latin historical>"])
+
+    assert drop_inheritance_tags("0") == ("0", "0", [])
+    assert drop_inheritance_tags(0) == ("0", "0", [])

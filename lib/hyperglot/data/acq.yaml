@@ -6,17 +6,17 @@ orthographies:
 - autonym: يمني
   auxiliary: <arb>
   base: <arb>
+  currency: <default>
   design_requirements: <arb>
   marks: <arb>
-  punctuation: <arb>
-  currency: <default>
   numerals: <default>
+  punctuation: <arb>
   script: Arabic
   status: primary
 preferred_name: Ta’izzi-Adeni Arabic
 sources:
 - Taʽizzi-Adeni Arabic. (2024, April 20). In *Wikipedia*. https://en.wikipedia.org/wiki/Ta%CA%BDizzi-Adeni_Arabic?oldid=1219901869
-- 'Textbook'
+- Textbook
 sources note: review
 speakers: 10480000
 speakers_date: 2015-2016

@@ -5,19 +5,17 @@ contributors:
 name: Lojban
 orthographies:
 - autonym: Lojban
-  base: \' , . A B C D E F G I J K L M N O P R S T U V X Y Z a b c d e f g i j k l
-    m n o p r s t u v x y z
-  note: \' , and . are letters of the Lojban orthography. Sometimes h is used for
-    \' in software that does not treat the apostrophe as a letter.
-  punctuation: <default> “ ” ’
+  base: \' , . A B C D E F G I J K L M N O P R S T U V X Y Z a b c d e f g i j k l m n o p r s t u v x y z
   currency: <default>
+  note: \' , and . are letters of the Lojban orthography. Sometimes h is used for \' in software that does not treat the apostrophe as a letter.
   numerals: <default>
+  punctuation: <default> “ ” ’
   script: Latin
   status: primary
 sources:
 - Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
 - Lojban. (2024, August 7). In *Wikipedia*. https://en.wikipedia.org/wiki/Lojban?oldid=1239121314
-- 'The complete Lojban Language, John Woldemar Cowan, https://lojban.org/publications/cll/cll_v1.1_xhtml-section-chunks/index.html'
+- The complete Lojban Language, John Woldemar Cowan, https://lojban.org/publications/cll/cll_v1.1_xhtml-section-chunks/index.html
 - Quotation mark. (2024, September 26). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Quotation_mark&oldid=1247790780
 sources note: review
 speakers: 0

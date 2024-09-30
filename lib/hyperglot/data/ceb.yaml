@@ -3,8 +3,7 @@ contributors:
 name: Cebuano
 orthographies:
 - autonym: Binisaya
-  base: A B D E G H I K L M N O P R S T U W Y a b d e g h i k l m n o p r s t u w
-    y
+  base: A B D E G H I K L M N O P R S T U W Y a b d e g h i k l m n o p r s t u w y
   numerals: <default>
   script: Latin
   status: primary

@@ -6,10 +6,10 @@ orthographies:
 - autonym: בוכארי
   auxiliary: <heb>
   base: <heb>
-  marks: <heb>
-  punctuation: <heb>
   currency: <heb>
+  marks: <heb>
   numerals: <heb>
+  punctuation: <heb>
   script: Hebrew
   status: primary
 sources:

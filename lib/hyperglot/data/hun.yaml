@@ -3,21 +3,18 @@ contributors:
 name: Hungarian
 orthographies:
 - autonym: Magyar
-  base: A Á B C CS D Dz Dzs E É F G Gy H I Í J K L Ly M N Ny O Ó Ö Ő P Q R S Sz T
-    Ty U Ú Ü Ű V W X Y Z Zs a á b c cs d dz dzs e é f g gy h i í j k l ly m n ny o
-    ó ö ő p q r s sz t ty u ú ü ű v w x y z zs
-  marks: ◌́ ◌̈ ◌̋
-  punctuation: <default> „ ” « »
+  base: A Á B C CS D Dz Dzs E É F G Gy H I Í J K L Ly M N Ny O Ó Ö Ő P Q R S Sz T Ty U Ú Ü Ű V W X Y Z Zs a á b c cs d dz dzs e é f g gy h i í j k l ly m n ny o ó ö ő p q r s sz t ty u ú ü ű v w x y z zs
   currency: <default secondary>
+  marks: ◌́ ◌̈ ◌̋
   numerals: <default>
+  punctuation: <default> „ ” « »
   script: Latin
   status: primary
+reviewers: null
 sources:
 - Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
-- Alvestrand, Harald. (1995) *Characters and character sets for various languages.*
-  Retrieved on September 6, 2021 from https://www.alvestrand.no/ietf/lang-chars.txt
+- Alvestrand, Harald. (1995) *Characters and character sets for various languages.* Retrieved on September 6, 2021 from https://www.alvestrand.no/ietf/lang-chars.txt
 - Quotation mark. (2024, September 26). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Quotation_mark&oldid=1247790780
-reviewers:
 speakers: 13000000
 speakers_date: 2003-2014
 status: living

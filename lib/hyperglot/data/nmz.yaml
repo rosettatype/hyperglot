@@ -3,21 +3,17 @@ contributors:
 name: Nawdm
 orthographies:
 - autonym: nawdm
-  base: A B D E Ɛ F G H Ɦ I J K L M N Ŋ O Ɔ R S T U V W Y a b d e ɛ f g g̈ h ɦ i j
-    k l m n n̈ ŋ ŋ̈ o ɔ r s t u v w y
+  base: A B D E Ɛ F G H Ɦ I J K L M N Ŋ O Ɔ R S T U V W Y a b d e ɛ f g g̈ h ɦ i j k l m n n̈ ŋ ŋ̈ o ɔ r s t u v w y
   design_requirements:
-  - There are two common design variants both encoded as Ŋ, one resembling the lowercase
-    ŋ reaching cap height favoured in African languages, and the other resembling
-    N with J as the second stem favoured in Sami languages.
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in African languages, and the other resembling N with J as the second stem favoured in Sami languages.
   marks: ◌̈
-  note: The combining diaresis ◌̈ is used to distinguish the sequences of two consonants
-    g̈w, g̈b, n̈y, ŋ̈m from the digraphs gw, gb, ny, ŋm.
+  note: The combining diaresis ◌̈ is used to distinguish the sequences of two consonants g̈w, g̈b, n̈y, ŋ̈m from the digraphs gw, gb, ny, ŋm.
   numerals: <default>
   script: Latin
   status: primary
 sources:
 - Nawdm language. (2024, May 6). In *Wikipedia*. https://en.wikipedia.org/wiki/Nawdm_language?oldid=1222471950
-- 'https://www.webonary.org/nawdm'
+- https://www.webonary.org/nawdm
 sources note: review
 speakers: 150000
 speakers_date: 2012
