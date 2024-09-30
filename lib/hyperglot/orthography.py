@@ -422,13 +422,16 @@ note: {note}
         return self._required_marks("aux")
 
     @property
-    def combinations(self):
-        # print("COMBOS", self["autonym"], "C>", self["combinations"], "<C", type(self["combinations"]))
-        # return self._cluster_list("combinations")
+    def combinations(self) -> dict:
+        # Combinations are expected to be a dict of "str": "frequency"; or
+        # a list of "str", in which case transform into a dict of "str" : 1
+        # so checks can all expect a dict.
+        if isinstance(self["combinations"], list):
+            combos = zip(self["combinations"], [1] * len(self["combinations"]))
         return self["combinations"]
 
     @property
-    def currency(self):
+    def currency(self) -> List:
         return self._character_list("currency")
 
     @property
@@ -436,8 +439,15 @@ note: {note}
         return self._character_list("punctuation")
 
     @property
-    def numerals(self) -> List[str]:
+    def numerals(self) -> List:
         return self._character_list("numerals")
+
+    @property
+    def design_alternates(self) -> List:
+        return [
+            remove_mark_base(chars)
+            for chars in self._character_list("design_alternates")
+        ]
 
     def get_chars(self, attr: str = "base", all_marks=False) -> Set:
         """
@@ -464,8 +474,8 @@ note: {note}
             return []
 
         return parse_chars(self[attr], decompose=False, retain_decomposed=False)
-    
-    def _cluster_list(self, attr:str) -> List:
+
+    def _cluster_list(self, attr: str) -> List:
         """
         Get clusters from an orthoraphy attribute, simply split by whitespace.
         """

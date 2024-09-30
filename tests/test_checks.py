@@ -3,12 +3,14 @@ Test the individual lib/hyperglot/checks and their components.
 """
 
 import os
+import logging
 
 from hyperglot.checks.check_coverage import Check as CheckCoverage
 from hyperglot.checks.check_mark_attachment import Check as CheckMarkAttachment
 from hyperglot.checks.check_arabic_joining import Check as CheckArabicJoining
 from hyperglot.checks.check_brahmi_conjuncts import Check as CheckBrahmiConjuncts
 from hyperglot.checks.check_brahmi_halfforms import Check as CheckBrahmiHalfforms
+from hyperglot.checks.check_combination_marks import Check as CheckCombinationMarks
 from hyperglot.language import Language
 from hyperglot.checker import CharsetChecker
 from hyperglot.shaper import Shaper
@@ -25,6 +27,7 @@ eczar_marks_mk = os.path.abspath("tests/Eczar-marks/EczarMarks-Regular.otf")
 noto_deva = os.path.abspath(
     "tests/Noto_Sans_Devanagari/static/NotoSansDevanagari_Condensed-Regular.ttf"
 )
+yantramanav = os.path.abspath("tests/Yantramanav/Yantramanav-Medium.ttf")
 testfont = os.path.abspath("tests/HyperglotTestFont-Regular.ttf")
 
 
@@ -131,14 +134,16 @@ def test_check_conjuncts(caplog):
     conjuncts_check = CheckBrahmiConjuncts()
     plex_shaper = Shaper(plex_arabic)
     eczar_shaper = Shaper(eczar)
+    yantramanav_shaper = Shaper(yantramanav)
 
     # Plex Arabic has no Virama:
     assert conjuncts_check.check_conjunct("स्व", plex_shaper) is False
     assert "Font contains no Virama" in caplog.records[-1].message
 
-    # Check a basic conjunct with a supporting font
+    # Check a basic conjunct with a supporting fonts
     assert conjuncts_check.check_all_render("स्व", eczar_shaper) is True
     assert conjuncts_check.check_conjunct("स्व", eczar_shaper) is True
+    assert conjuncts_check.check_conjunct("स्व", yantramanav_shaper) is True
 
     # Check a basic conjunct with ZWJ (consumes virama)
     assert conjuncts_check.check_all_render("स्‍व", eczar_shaper) is True
@@ -336,24 +341,59 @@ def test_halfforms_check(caplog):
         assert halfforms_check.check_halfform(h, eczar_shaper) is True
 
 
-# def test_conjunct_marks():
+def test_combination_marks():
 
-#     eczar_shaper = Shaper(eczar)
-#     noto_shaper = Shaper(noto_deva)
+    logging.getLogger("hyperglot.checks.check_mark_attachment").setLevel(logging.DEBUG)
 
-#     logging.getLogger("hyperglot.shaper").setLevel(logging.DEBUG)
-#     # Mark attachment
-#     assert eczar_shaper.check_mark_attachment("ग़ं") is True
+    mark_check = CheckCombinationMarks()
 
-#     # Eczar actually misses this one, but Noto does not
-#     assert eczar_shaper.check_mark_attachment("म़ि") is False
-#     assert noto_shaper.check_mark_attachment("म़ि") is True
+    eczar_shaper = Shaper(eczar)
+    noto_shaper = Shaper(noto_deva)
 
-#     # Eczar actually misses this one, but Noto does not
-#     assert eczar_shaper.check_mark_attachment("डो़") is False
-#     assert noto_shaper.check_mark_attachment("डो़") is True
+    # Mark attachment
+    assert mark_check.check_cluster_mark_attachment("ग़ं", eczar_shaper) is True
 
-#     conjuncts = ["भि‍", "स्‍‍", "वै्", "दृ‍", "लै‍", "यो्", "जा्", "चोः", "दॄ", "डो़", "ढी़", "या‌", "ख़ां", "बि्", "शा्", "पो्", "ग़ं", "तॉ", "थाँ", "थे्", "यॉँ", "मा‍", "नि्", "चू्", "णीः", "धाः",]
-#     # conjuncts = ["र", "क", "न", "स", "त", "के", "य", "प", "का", "म", "में", "र्", "या", "ल", "व", "अ", "ग", "है", "ए", "स्", "प्", "ह", "ने", "की", "से", "रा", "ता", "त्", "क्", "ब", "उ", "इ", "औ"]
-#     for s in conjuncts:
-#         assert eczar_shaper.check_mark_attachment(s) is True
+    # Eczar actually misses this one, but Noto does not
+    # assert mark_check.check_cluster_mark_attachment("म़ि", eczar_shaper) is False # see below
+    assert mark_check.check_cluster_mark_attachment("म़ि", noto_shaper) is True
+
+    # # Eczar actually misses this one, but Noto does not
+    # assert mark_check.check_cluster_mark_attachment("डो़", eczar_shaper) is False # see below
+    assert mark_check.check_cluster_mark_attachment("डो़", noto_shaper) is True
+
+    assert mark_check.check_cluster_mark_attachment("क्सिं", eczar_shaper) is True
+    assert mark_check.check_cluster_mark_attachment("प्लू", eczar_shaper) is True
+    assert mark_check.check_cluster_mark_attachment("ड्भु", eczar_shaper) is True
+
+    # Eczar actually positions this mark
+    assert mark_check.check_cluster_mark_attachment("वृ", eczar_shaper) is True
+    # Whereas Noto the mark is positioned in such a way that does not result in
+    # an offset (failsafe design)
+    # TODO How on earth to confirm the shapes make sense without any explicit
+    # technical data to confirm this?
+
+    # assert mark_check.check_cluster_mark_attachment("वृ", noto_shaper) is False
+
+
+def test_cluster_mark_logs(caplog):
+    logging.getLogger("hyperglot.checks.check_mark_attachment").setLevel(logging.DEBUG)
+
+    mark_check = CheckCombinationMarks()
+    yantramanav_shaper = Shaper(yantramanav)
+    eczar_shaper = Shaper(eczar)
+
+    # # Passes
+    # assert mark_check.check_cluster_mark_attachment("के", yantramanav_shaper) is True
+
+    # # nonsense combinations with virama
+    # assert mark_check.check_cluster_mark_attachment("A्A", yantramanav_shaper) is True
+
+    # For Yantramanav harfbuzz fails to return the glyph names, but the cluster warning is emitted
+    assert mark_check.check_cluster_mark_attachment("φ्φ", yantramanav_shaper) is False
+    assert "Mark shaping for cluster" in caplog.records[-1].message
+    assert "missing 2 glyphs" in caplog.records[-1].message
+
+    # # For other fonts the actual culprit is listed in the warning
+    # assert mark_check.check_cluster_mark_attachment("φ्φ", eczar_shaper) is False
+    # assert "Mark positioning for cluster" in caplog.records[-1].message
+    # assert "uni094D" in caplog.records[-1].message

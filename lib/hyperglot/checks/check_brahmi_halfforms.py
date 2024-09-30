@@ -31,10 +31,9 @@ class Check(CheckBase):
         Check a provided halfform shapes by appending ZWJ and confirming Virama
         gets consumed.
         """
+        virama_cp = shaper.font.get_nominal_glyph(0x094D)
 
-        virama_cp = shaper._get_font_cp(self.VIRAMA)
-
-        if virama_cp is False:
+        if virama_cp is None:
             log.debug("Font contains no Virama, cannot form halfform.")
             return False
 

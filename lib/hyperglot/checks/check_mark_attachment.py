@@ -127,11 +127,6 @@ class Check(CheckBase):
                 missing_from_font = missing_from_font + 1
                 continue
 
-            # TODO needed?
-            # if glyph_info.codepoint == shaper._get_font_cp(VIRAMA):
-            #     print("skip virama")
-            #     continue
-
             # If the buffer codepoint is no mark
             if glyph_info.codepoint in non_marks.keys():
                 continue
