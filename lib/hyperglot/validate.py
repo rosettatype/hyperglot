@@ -117,7 +117,7 @@ def check_types(Langs:Languages) -> None:
                                   % iso)
 
                 allowed = ["autonym", "script", "base", "marks",
-                           "auxiliary", "status", "note",
+                           "auxiliary", "status", "note", "combinations",
                            "numerals", "punctuation", "currency",
                            "preferred_as_group",
                            "design_requirements", "design_alternates",
