@@ -3,12 +3,14 @@ contributors:
 name: Jamaican Creole English
 orthographies:
 - autonym: Jamiekan
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k
+    l m n o p q r s t u v w x y z
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Omniglot
-- Wikipedia
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Jamaican Patois. (2024, August 25). In *Wikipedia*. https://en.wikipedia.org/wiki/Jamaican_Patois?oldid=1242256736
 speakers: 3200000
 speakers_date: 2000-2001
 status: living

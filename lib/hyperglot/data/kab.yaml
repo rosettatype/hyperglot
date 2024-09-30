@@ -4,14 +4,16 @@ name: Kabyle
 orthographies:
 - autonym: Taqbaylit
   auxiliary: O V o v
-  base: A B C D E F G H I J K L M N P Q R S T U W X Y Z Č Ǧ Ɛ Ɣ Ḍ Ḥ Ṛ Ṣ Ṭ Ẓ a b c d e f g h i j k l m n p q r s t u w x y z č ǧ ɛ ɣ ḍ ḥ ṛ ṣ ṭ ẓ
+  base: A B C D E F G H I J K L M N P Q R S T U W X Y Z Č Ǧ Ɛ Ɣ Ḍ Ḥ Ṛ Ṣ Ṭ Ẓ a b c
+    d e f g h i j k l m n p q r s t u w x y z č ǧ ɛ ɣ ḍ ḥ ṛ ṣ ṭ ẓ
   marks: ◌̌ ◌̣
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Omniglot
-- Wikipedia
-- CLDR
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Kabyle language. (2024, July 5). In *Wikipedia*. https://en.wikipedia.org/wiki/Kabyle_language?oldid=1232787904
+- '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
 speakers: 5600000
 speakers_date: 2012
 status: living

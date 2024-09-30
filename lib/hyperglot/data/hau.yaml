@@ -3,15 +3,18 @@ contributors:
 name: Hausa
 orthographies:
 - autonym: Hausa
-  auxiliary: P Q V X À Á Â È É Ê Ì Í Î Ò Ó Ô Ù Ú Û p q v x à á â è é ê ì í î ò ó ô ù ú û
-  base: A B C D E F G H I J K L M N O R S T U W Y Z Ƙ Ƴ Ɓ Ɗ R̃ a b c d e f g h i j k l m n o r s t u w y z ƙ ƴ ɓ ɗ r̃ ʼ
+  auxiliary: P Q V X À Á Â È É Ê Ì Í Î Ò Ó Ô Ù Ú Û p q v x à á â è é ê ì í î ò ó ô
+    ù ú û
+  base: A B C D E F G H I J K L M N O R S T U W Y Z Ƙ Ƴ Ɓ Ɗ R̃ a b c d e f g h i j
+    k l m n o r s t u w y z ƙ ƴ ɓ ɗ r̃ ʼ
   marks: ◌̃ ◌̀ ◌́ ◌̂
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Omniglot
-- Wikipedia
-- CLDR
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Hausa language. (2024, August 27). In *Wikipedia*. https://en.wikipedia.org/wiki/Hausa_language?oldid=1242478333
+- '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
 speakers: 40000000
 speakers_date: 2015-2016
 status: living

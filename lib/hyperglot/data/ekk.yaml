@@ -3,14 +3,20 @@ contributors:
 name: Standard Estonian
 orthographies:
 - autonym: Eesti
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Õ Ö Ü Š Ž a b c d e f g h i j k l m n o p q r s t u v w x y z ä õ ö ü š ž
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Õ Ö Ü Š Ž a b c d e
+    f g h i j k l m n o p q r s t u v w x y z ä õ ö ü š ž
   marks: ◌̃ ◌̈ ◌̌
+  punctuation: <default> „ “ « »
+  currency: <default secondary>
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Omniglot
-- CLDR
-- Alvestrand
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
+- Alvestrand, Harald. (1995) *Characters and character sets for various languages.*
+  Retrieved on September 6, 2021 from https://www.alvestrand.no/ietf/lang-chars.txt
+- Quotation mark. (2024, September 26). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Quotation_mark&oldid=1247790780
 speakers: 1100000
 speakers_date: 2012
 status: living

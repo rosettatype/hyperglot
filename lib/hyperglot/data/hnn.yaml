@@ -5,14 +5,17 @@ orthographies:
 - autonym: ᜱᜨᜳᜨᜳᜢ
   base: ᜠ ᜡ ᜢ ᜣ ᜤ ᜥ ᜦ ᜧ ᜨ ᜩ ᜪ ᜫ ᜬ ᜭ ᜮ ᜯ ᜰ ᜱ
   marks: ◌ᜲ ◌ᜳ ◌᜴
-  note: This orthography includes the pamudpod, as is used in modern Hanunó'o. The pamudpud began as an innovation of Antoon Postma in the 1970’s, one of the leading researchers of Philippine scripts.
+  note: This orthography includes the pamudpod, as is used in modern Hanunó'o. The
+    pamudpud began as an innovation of Antoon Postma in the 1970’s, one of the leading
+    researchers of Philippine scripts.
   punctuation: ᜵ ᜶
   script: Hanunoo
   status: primary
-source:
-- Ethnologue
-- Wikipedia
-- Unicode Consortium (Core Spec, Hanunoo block)
+sources:
+- Hanunoo. (2024, August 28). In *Ethnologue*. SIL International. https://www.ethnologue.com/language/hnn/
+- Hanunoo language. (2024, February 2). In *Wikipedia*. https://en.wikipedia.org/wiki/Hanunoo_language?oldid=1202098989
+- 'Unicode Consortium (Core Spec, Hanunoo block)'
+sources note: review
 speakers: 13000
 speakers_date: 2000
 validity: preliminary

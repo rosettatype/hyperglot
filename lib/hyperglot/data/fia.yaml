@@ -6,10 +6,11 @@ orthographies:
   script: Coptic
   status: historical
 - base: <dgl>
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Wikipedia
+sources:
+- Nobiin language. (2024, June 17). In *Wikipedia*. https://en.wikipedia.org/wiki/Nobiin_language?oldid=1229490363
 speakers: 669000
 speakers_date: 1996–2006
 status: living

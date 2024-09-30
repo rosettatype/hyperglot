@@ -3,17 +3,20 @@ contributors:
 name: Egyptian Arabic
 orthographies:
 - autonym: مصرى
-  auxiliary: ڛ ڢ ٯ ڧ ک ڥ گ ڨ ڭ ڠ
+  auxiliary: ڛ ڢ ٯ ڧ ک ڥ گ ڨ ڭ ڠ ـ
   base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا ڤ پ ی چ ة ى
   design_requirements:
-  - Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
+  - Positional forms of the characters (initial, medial, and final forms) and some
+    ligatures are required for proper representation of the language.
   marks: ◌َ ◌ُ ◌ِ ◌ْ ◌ٰ
-  numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩
+  punctuation: <arb>
+  currency: <default>
+  numerals: <default>
   script: Arabic
   status: primary
-source:
-- Wikipedia
-- Omniglot
+sources:
+- Egyptian Arabic. (2024, August 26). In *Wikipedia*. https://en.wikipedia.org/wiki/Egyptian_Arabic?oldid=1242383314
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
 speakers: 64422000
 speakers_date: 2016
 status: living

@@ -3,14 +3,15 @@ contributors:
 name: Asturian
 orthographies:
 - autonym: Asturianu
-  base: A B C D E F G H I L M N O P Q R S T U V X Y Z Á É Í Ñ Ó Ú Ü Ḥ Ḷ a b c d e f g h i l m n o p q r s t u v x y z á é í ñ ó ú ü ḥ ḷ
+  base: A B C D E F G H I L M N O P Q R S T U V X Y Z Á É Í Ñ Ó Ú Ü Ḥ Ḷ a b c d e
+    f g h i l m n o p q r s t u v x y z á é í ñ ó ú ü ḥ ḷ
   marks: ◌́ ◌̃ ◌̈ ◌̣
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Omniglot
-- Wikipedia
-- CLDR
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
 speakers: 351791
 speakers_date: 2017
 status: living

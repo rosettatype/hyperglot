@@ -4,13 +4,16 @@ contributors:
 name: Avaric
 orthographies:
 - autonym: Авар
-  base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ӏ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
+  base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ӏ а б в
+    г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ӏ
   marks: ◌̆ ◌̈
+  numerals: <default>
+  punctuation: <default>
   script: Cyrillic
   status: primary
-source:
-- Omniglot
-- Wikipedia
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Amharic. (2024, August 21). In *Wikipedia*. https://en.wikipedia.org/wiki/Amharic?oldid=1241434767
 speakers: 1000000
 speakers_date: 2010
 status: living

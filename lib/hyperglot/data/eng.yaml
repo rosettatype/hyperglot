@@ -5,25 +5,29 @@ name: English
 orthographies:
 - autonym: English
   auxiliary: À Á Ç È É Ê Ë Ï Ñ Ô Ö à á ç è é ê ë ï ñ ô ö
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Œ a b c d e f g h i j k l m n o p q r s t u v w x y z æ œ
-  currency: $ ¢ £ €
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Œ a b c d e f g h i
+    j k l m n o p q r s t u v w x y z æ œ
+  punctuation: <default> ‘’“”
+  currency: <default secondary> $ ¢ £
   marks: ◌̀ ◌́ ◌̂ ◌̃ ◌̈ ◌̧
   numerals: <default>
-  punctuation: <default>
   script: Latin
   status: primary
 - autonym: English
   auxiliary: À Á Ç È É Ê Ë Ï Ñ Ô Ö à á ç è é ê ë ï ñ ô ö ſ
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Œ a b c d e f g h i j k l m n o p q r s t u v w x y z æ œ
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Œ a b c d e f g h i
+    j k l m n o p q r s t u v w x y z æ œ
   marks: ◌̀ ◌́ ◌̂ ◌̃ ◌̈ ◌̧
   note: Use of ſ declined after the 18th century.
+  punctuation: <default> ‘’“”
+  numerals: <default>
   script: Latin
   status: historical
-source:
-- Omniglot
-- Wikipedia
-- CLDR
-- Alvestrand
+sources:
+- English language. (2024, August 26). In *Wikipedia*. https://en.wikipedia.org/wiki/English_language?oldid=1242467933
+- Alvestrand, Harald. (1995) *Characters and character sets for various languages.*
+  Retrieved on September 6, 2021 from https://www.alvestrand.no/ietf/lang-chars.txt
+- Quotation mark. (2024, September 26). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Quotation_mark&oldid=1247790780
 speakers: 400000000
 speakers_date: 2006
 status: living

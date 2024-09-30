@@ -4,14 +4,17 @@ name: Low German
 orthographies:
 - autonym: Niedersächsisch
   auxiliary: ẞ
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Ë Ï Ö Ü a b c d e f g h i j k l m n o p q r s t u v w x y z ß ä ë ï ö ü
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Ë Ï Ö Ü a b c d e f
+    g h i j k l m n o p q r s t u v w x y z ß ä ë ï ö ü
   marks: ◌̈
+  punctuation: <default> ‚ „ ‘ “ ‹ › « »
+  currency: <default secondary>
   script: Latin
   status: primary
-source:
-- Omniglot
-- CLDR
-- Wikipedia
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
+- Low German. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Low_German?oldid=1242657429
 speakers: 6700000
 status: living
 validity: preliminary

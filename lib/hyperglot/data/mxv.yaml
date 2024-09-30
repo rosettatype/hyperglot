@@ -3,13 +3,15 @@ contributors:
 - Sergio Martins
 name: Metlatónoc Mixtec
 orthographies:
-- base: A C D E G I Ɨ J K L M N Ñ O P R S T U V X Y a c d e g i ɨ j k l m n ñ o p r s t u v x y '
+- base: A C D E G I Ɨ J K L M N Ñ O P R S T U V X Y a c d e g i ɨ j k l m n ñ o p
+    r s t u v x y '
   marks: ◌̃
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Omniglot
-- Wikipedia
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Silacayoapan Mixtec. (2024, February 26). In *Wikipedia*. https://en.wikipedia.org/wiki/Silacayoapan_Mixtec?oldid=1210502345
 speakers: 150000
 speakers_date: 1990
 validity: preliminary

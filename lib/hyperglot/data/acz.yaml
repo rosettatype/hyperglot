@@ -4,13 +4,15 @@ contributors:
 name: Acheron
 orthographies:
 - autonym: Garme
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Ë Ï Ö Ü a b c d e f g h i j k l m n o p q r s t u v w x y z ä ë ï ö ü
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Ë Ï Ö Ü a b c d e f
+    g h i j k l m n o p q r s t u v w x y z ä ë ï ö ü
   marks: ◌̈
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Omniglot
-- Wikipedia
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Acheron language. (2024, July 14). In *Wikipedia*. https://en.wikipedia.org/wiki/Acheron_language?oldid=1234403486
 speakers: 20000
 speakers_date: 2006
 status: living

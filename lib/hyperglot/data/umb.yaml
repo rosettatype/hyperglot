@@ -3,12 +3,14 @@ contributors:
 name: Umbundu
 orthographies:
 - autonym: Úmbúndú
-  base: A B C D E F G H I J K L M N O P R S T U V W Y Ã Ẽ Õ Ú Ũ a b c d e f g h i j k l m n o p r s t u v w y ã ẽ õ ú ũ
+  base: A B C D E F G H I J K L M N O P R S T U V W Y Ã Ẽ Õ Ú Ũ a b c d e f g h i
+    j k l m n o p r s t u v w y ã ẽ õ ú ũ
   marks: ◌́ ◌̃
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Omniglot
-- Wikipedia
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Umbundu. (2024, July 29). In *Wikipedia*. https://en.wikipedia.org/wiki/Umbundu?oldid=1237428913
 speakers: 9500000
 validity: preliminary

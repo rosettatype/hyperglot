@@ -3,14 +3,16 @@ contributors:
 name: Central Yupik
 orthographies:
 - autonym: Yupʼik
-  base: A C G I K L M N P Q R S T U V W Y Ń Ə Ḿ a c g i k l m n p q r s t u v w y ń ə ḿ u͡g u͡r ʼ
+  base: A C G I K L M N P Q R S T U V W Y Ń Ə Ḿ a c g i k l m n p q r s t u v w y
+    ń ə ḿ u͡g u͡r ʼ
   marks: ◌́ ◌͡
+  numerals: <default>
   script: Latin
   status: primary
 preferred_name: Central Alaskan Yupik
-source:
-- Wikipedia
-- Omniglot
+sources:
+- Central Alaskan Yupʼik. (2024, August 22). In *Wikipedia*. https://en.wikipedia.org/wiki/Central_Alaskan_Yup%CA%BCik?oldid=1241617456
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
 speakers: 10000
 speakers_date: 2010
 status: living

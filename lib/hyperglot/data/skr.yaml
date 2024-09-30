@@ -3,15 +3,21 @@ contributors:
 name: Saraiki
 orthographies:
 - autonym: سرائیکی
-  base: ا ب ٻ پ ت ٹ ث ج ڄ چ ح خ د ڊ ڈ ݙ ذ ر ڑ ز ژ س ش ص ض ط ظ ع غ ف ق ک گ ڳ ل م ن ݨ و ہ ھ ء ی ے ي
-  design_requirements:
-  - Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
+  auxiliary: ـ
+  base: ا ب ٻ پ ت ٹ ث ج ڄ چ ح خ د ڊ ڈ ݙ ذ ر ڑ ز ژ س ش ص ض ط ظ ع غ ف ق ک گ ڳ ل م ن
+    ݨ و ہ ھ ء ی ے ي
   marks: ◌ٔ
+  numerals: <pes>
+  punctuation: <pes>
+  currency: <urd>
   script: Arabic
   status: primary
-source:
-- Omniglot
-- Wikipedia
+  design_requirements:
+  - Positional forms of the characters (initial, medial, and final forms) and some
+    ligatures are required for proper representation of the language.
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Saraiki language. (2024, August 17). In *Wikipedia*. https://en.wikipedia.org/wiki/Saraiki_language?oldid=1240786256
 speakers: 26000000
 speakers_date: 2017
 validity: preliminary

@@ -3,16 +3,21 @@ contributors:
 name: Laz
 orthographies:
 - autonym: ლაზური
-  base: Ა Ბ Გ Დ Ე Ვ Ზ Თ Ი Კ Ლ Მ Ნ Ო Პ Ჟ Რ Ს Ტ Უ Ფ Ქ Ღ Ყ Შ Ჩ Ც Ძ Წ Ჭ Ხ Ჯ Ჰ ო̈ ჳ/უ̂ უ̈ ჲ ჶ ჸ ჷ
+  base: Ა Ბ Გ Დ Ე Ვ Ზ Თ Ი Კ Ლ Მ Ნ Ო Პ Ჟ Რ Ს Ტ Უ Ფ Ქ Ღ Ყ Შ Ჩ Ც Ძ Წ Ჭ Ხ Ჯ Ჰ ო̈ ჳ/უ̂
+    უ̈ ჲ ჶ ჸ ჷ
   design_requirements:
-  - The character set includes Georgian Mkhedruli (lowercase letters) and additional letters used in Laz language.
+  - The character set includes Georgian Mkhedruli (lowercase letters) and additional
+    letters used in Laz language.
   marks: ◌̈ ◌̂
+  numerals: <kat>
+  punctuation: <kat>
+  currency: <kat>
   script: Georgian
   status: primary
-source:
-- Omniglot
-- Wikipedia
-- Ethnologue
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Laz language. (2024, May 14). In *Wikipedia*. https://en.wikipedia.org/wiki/Laz_language?oldid=1223782639
+- Laz. (2024, August 28). In *Ethnologue*. SIL International. https://www.ethnologue.com/language/lzz/
 speakers: 22000
 speakers_date: 2007
 status: living

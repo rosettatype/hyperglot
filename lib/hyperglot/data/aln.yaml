@@ -4,14 +4,19 @@ contributors:
 name: Gheg Albanian
 orthographies:
 - autonym: Gegnisht
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ç Ë a b c d e f g h i j k l m n o p q r s t u v w x y z ç ë
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ç Ë a b c d e f g h i
+    j k l m n o p q r s t u v w x y z ç ë
   marks: ◌̈ ◌̧
+  punctuation: <default> „ “ ‘ ’
+  currency: <default>
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Omniglot
-- Wikipedia
-- CLDR
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Gheg Albanian. (2024, July 3). In *Wikipedia*. https://en.wikipedia.org/wiki/Gheg_Albanian?oldid=1232347100
+- '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
+- Quotation mark. (2024, September 26). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Quotation_mark&oldid=1247790780
 speakers: 3450000
 speakers_date: 2000–2001
 status: living

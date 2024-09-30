@@ -7,11 +7,13 @@ orthographies:
   base: <ajp>
   design_requirements: <ajp>
   marks: <ajp>
-  numerals: <ajp>
+  punctuation: <arb>
+  currency: <default>
+  numerals: <default>
   script: Arabic
   status: primary
-source:
-- Wikipedia
+sources:
+- Northwest Arabian Arabic. (2024, July 10). In *Wikipedia*. https://en.wikipedia.org/wiki/Northwest_Arabian_Arabic?oldid=1233719216
 speakers: 2240000
 speakers_date: 2015-2016
 status: living

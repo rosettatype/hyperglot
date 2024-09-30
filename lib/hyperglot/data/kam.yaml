@@ -3,13 +3,15 @@ contributors:
 name: Kamba (Kenya)
 orthographies:
 - autonym: Kikamba
-  base: A B C D E F G H I J K L M N O P Q R S T U V W Y Z Ĩ Ũ a b c d e f g h i j k l m n o p q r s t u v w y z ĩ ũ
+  base: A B C D E F G H I J K L M N O P Q R S T U V W Y Z Ĩ Ũ a b c d e f g h i j
+    k l m n o p q r s t u v w y z ĩ ũ
   marks: ◌̃
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- CLDR
-- Wikipedia
+sources:
+- '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
+- Kamba language. (2024, March 3). In *Wikipedia*. https://en.wikipedia.org/wiki/Kamba_language?oldid=1211584883
 speakers: 3900000
 speakers_date: 2009
 status: living

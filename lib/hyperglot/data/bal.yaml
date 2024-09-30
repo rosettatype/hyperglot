@@ -8,17 +8,19 @@ name: Baluchi
 orthographies:
 - autonym: بلۏچی
   base: ء آ ا ب ت ج د ر ز س ش ل م ن ه و ٹ پ چ ڈ ژ ک گ ی ۏ ے ݔ ࢣ
-  design_requirements:
-  - Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
+  auxiliary: ـ
+  design_requirements: <pes>
   marks: ◌َ ◌ُ ◌ِ ◌ٓ
-  numerals: ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹ 0 1 2 3 4 5 6 7 8 9
+  numerals: <pes>
+  punctuation: <pes>
+  currency: <pes> <urd> <pbu>
   script: Arabic
   status: primary
 preferred_as_individual: true
 preferred_name: Balochi
-source:
-- Wikipedia
-- Omniglot
+sources:
+- Balochi language. (2024, August 25). In *Wikipedia*. https://en.wikipedia.org/wiki/Balochi_language?oldid=1242211527
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
 speakers: 7600000
 speakers_date: 2007
 status: living

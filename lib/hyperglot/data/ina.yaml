@@ -4,12 +4,18 @@ name: Interlingua (International Auxiliary Language Association)
 note: Not to be confused with Interlingue.
 orthographies:
 - autonym: Interlingua
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k
+    l m n o p q r s t u v w x y z
+  punctuation: <default> ‘ ’ “ ”
+  currency: <default>
+  numerals: <default>
   script: Latin
   status: primary
 preferred_name: Interlingua
-source:
-- Omniglot
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Quotation mark. (2024, September 26). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Quotation_mark&oldid=1247790780
+sources note: missing
 speakers: 1500
 speakers_date: 2000
 status: constructed

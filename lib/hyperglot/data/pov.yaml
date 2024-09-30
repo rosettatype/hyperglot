@@ -3,12 +3,14 @@ contributors:
 name: Upper Guinea Crioulo
 orthographies:
 - autonym: Kriolu
-  base: A B C D E F G I J K L M N O P R S T X U V Z a b c d e f g i j k l m n o p r s t x u v z '
+  base: A B C D E F G I J K L M N O P R S T X U V Z a b c d e f g i j k l m n o p
+    r s t x u v z '
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Omniglot
-- Wikipedia
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Guinea-Bissau Creole. (2024, June 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Guinea-Bissau_Creole?oldid=1231516119
 speakers: 1000000
 speakers_date: 2006-2007
 validity: preliminary

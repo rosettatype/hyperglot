@@ -3,14 +3,17 @@ contributors:
 name: Chamorro
 orthographies:
 - autonym: Chamorru
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Å Ñ a b c d e f g h i j k l m n o p q r s t u v w x y z å ñ
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Å Ñ a b c d e f g h i
+    j k l m n o p q r s t u v w x y z å ñ
   marks: ◌̃ ◌̊
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Omniglot
-- Wikipedia
-- Chamorro dictionary
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Chamorro language. (2024, August 19). In *Wikipedia*. https://en.wikipedia.org/wiki/Chamorro_language?oldid=1241180685
+- 'Chamorro dictionary'
+sources note: review
 speakers: 58000
 speakers_date: 2005-2015
 status: living

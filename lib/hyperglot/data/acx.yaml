@@ -5,15 +5,15 @@ orthographies:
 - autonym: عماني
   auxiliary: <arb>
   base: <arb>
-  currency: <arb>
   design_requirements: <arb>
   marks: <arb>
-  numerals: <arb>
   punctuation: <arb>
+  currency: <default>
+  numerals: <default>
   script: Arabic
   status: primary
-source:
-- Wikipedia
+sources:
+- Omani Arabic. (2024, April 2). In *Wikipedia*. https://en.wikipedia.org/wiki/Omani_Arabic?oldid=1216954333
 speakers: 1055000
 speakers_date: 1995-1996
 status: living

@@ -3,17 +3,22 @@ contributors:
 name: Oriya
 orthographies:
 - autonym: ଓଡ଼ିଆ
-  base: ଅ ଆ ଇ ଈ ଉ ଊ ଋ ଏ ଐ ଓ ଔ କ ଖ ଗ ଘ ଙ ଚ ଛ ଜ ଝ ଞ ଟ ଠ ଡ ଢ ଣ ତ ଥ ଦ ଧ ନ ପ ଫ ବ ଭ ମ ଯ ୟ ର ଲ ଳ ଵ ୱ ଶ ଷ ସ ହ ‌ ‍
+  auxiliary: ଽ
+  base: ଅ ଆ ଇ ଈ ଉ ଊ ଋ ଏ ଐ ଓ ଔ କ ଖ ଗ ଘ ଙ ଚ ଛ ଜ ଝ ଞ ଟ ଠ ଡ ଢ ଣ ତ ଥ ଦ ଧ ନ ପ ଫ ବ ଭ ମ ଯ
+    ୟ ର ଲ ଳ ଵ ୱ ଶ ଷ ସ ହ ‌ ‍ 
   design_requirements:
-  - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
+  - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are
+    required for proper representation of the language.
+  - The symbol Om is expressed as a ligature of the character “ଓ” and candrabindu sign.
   marks: ◌ଂ ◌ଃ ◌ା ◌ୀ ◌େ ◌଼ ◌ଁ ◌ି ◌ୁ ◌ୂ ◌ୃ ◌୍ ◌ୖ ◌ୗ
-  numerals: ୦ ୧ ୨ ୩ ୪ ୫ ୬ ୭ ୮ ୯ 0 1 2 3 4 5 6 7 8 9
-  punctuation: ।
+  numerals: ୦ ୧ ୨ ୩ ୪ ୫ ୬ ୭ ୮ ୯ <default Latin>
+  punctuation: <default Devanagari> ୰ ଓଁ
   script: Oriya
   status: primary
-source:
-- CLDR
-- Wikipedia
+sources:
+- Oriya (Odia). (2024). In *The Unicode Standard, Version 16.0.0* (pp. 587–590). The Unicode Consortium. https://www.unicode.org/versions/Unicode16.0.0/UnicodeStandard-16.0.pdf
+- '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
+- Odia language. (2024, August 16). In *Wikipedia*. https://en.wikipedia.org/wiki/Odia_language?oldid=1240635231
 speakers: 35000000
 speakers_date: 2018
 status: living

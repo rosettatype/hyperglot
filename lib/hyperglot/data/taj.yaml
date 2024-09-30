@@ -3,25 +3,26 @@ contributors:
 - Sergio Martins
 name: Eastern Tamang
 orthographies:
-- autonym: तामाङ‎
+- autonym: तामाङ
   auxiliary: <hin>
   base: <hin>
   design_requirements: <hin>
-  marks: <hin>
-  numerals: <hin>
+  numerals: <default>
   punctuation: <hin>
+  currency: <default>
   script: Devanagari
   status: primary
-- autonym: རྟ་དམག‎
+- autonym: རྟ་དམག
   base: <bod>
   design_requirements: <bod>
   marks: <bod>
   numerals: <bod>
   punctuation: <bod>
+  currency: <bod>
   script: Tibetan
-source:
-- Omniglot
-- Wikipedia
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Tamang language. (2024, July 29). In *Wikipedia*. https://en.wikipedia.org/wiki/Tamang_language?oldid=1237343353
 speakers: 1370154
 speakers_date: 2011
 validity: preliminary

@@ -3,13 +3,15 @@ contributors:
 name: Mam
 orthographies:
 - autonym: Qyol Mam
-  base: A B C E I J K L M N O P Q R S T U W X Ẍ Y a b c e i j k l m n o p q r s t u w x ẍ y '
+  base: A B C E I J K L M N O P Q R S T U W X Ẍ Y a b c e i j k l m n o p q r s t
+    u w x ẍ y '
   marks: ◌̈
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Omniglot
-- Wikipedia
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Mon language. (2024, August 19). In *Wikipedia*. https://en.wikipedia.org/wiki/Mon_language?oldid=1241104275
 speakers: 478000
 speakers_date: 2003
 validity: preliminary

@@ -3,12 +3,15 @@ contributors:
 name: Southern Bobo Madaré
 orthographies:
 - autonym: bɔbɔ
-  base: A B D E Ɛ F G I K L M N Ɲ O Ɔ P R S T U V W Y Z a b d e ɛ f g i k l m n ɲ o ɔ p r s t u v w y z
+  base: A B D E Ɛ F G I K L M N Ɲ O Ɔ P R S T U V W Y Z a b d e ɛ f g i k l m n ɲ
+    o ɔ p r s t u v w y z
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Wikipedia
-- https://mooreburkina.com/en/songs-and-music/alphabet-clips-burkina-languages
+sources:
+- Bobo language. (2023, September 20). In *Wikipedia*. https://en.wikipedia.org/wiki/Bobo_language?oldid=1176272664
+- 'https://mooreburkina.com/en/songs-and-music/alphabet-clips-burkina-languages'
+sources note: review
 speakers: 60000
 speakers_date: 1995-2007
 validity: preliminary

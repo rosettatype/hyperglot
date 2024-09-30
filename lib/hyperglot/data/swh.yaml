@@ -4,13 +4,15 @@ name: Swahili (individual language)
 note: The speaker count is estimate between 2 and 150 million.
 orthographies:
 - autonym: Kiswahili
-  base: A B C D E F G H I J K L M N O P R S T U V W Y Z a b c d e f g h i j k l m n o p r s t u v w y z
+  base: A B C D E F G H I J K L M N O P R S T U V W Y Z a b c d e f g h i j k l m
+    n o p r s t u v w y z
+  numerals: <default>
   script: Latin
   status: primary
 preferred_name: Swahili
-source:
-- Omniglot
-- Wikipedia
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Swahili language. (2024, August 25). In *Wikipedia*. https://en.wikipedia.org/wiki/Swahili_language?oldid=1242219174
 speakers: 150000000
 speakers_date: 2012
 status: living

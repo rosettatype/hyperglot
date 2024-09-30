@@ -5,18 +5,25 @@ name: Ukrainian
 orthographies:
 - autonym: Українська
   auxiliary: А́ Е́ И́ О́ У́ Ы́ Э́ ю́ я́ а́ е́ и́ о́ у́ ы́ э́ ю́ я́
-  base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ь Э Ю Я Є І Ї Ґ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ь э ю я є і ї ґ ’
+  base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ь Э Ю Я Є І Ї Ґ а б в
+    г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ь э ю я є і ї ґ ’
   design_alternates: ◌̆
   design_requirements:
-  - The form of the Cyrillic breve mark (marked in the previews) differs from the Latin-script breve that is associated with the same Unicode codepoint.
+  - The form of the Cyrillic breve mark (marked in the previews) differs from the
+    Latin-script breve that is associated with the same Unicode codepoint.
   marks: ◌̆ ◌̈ ◌́
+  punctuation: <default> « » “ ” ‘ ’ „
+  currency: ₴ <default>
+  numerals: <default>
   script: Cyrillic
   status: primary
-source:
-- Omniglot
-- Wikipedia
-- CLDR
-- https://en.wikipedia.org/wiki/Ukrainian_alphabet
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Ukrainian language. (2024, August 25). In *Wikipedia*. https://en.wikipedia.org/wiki/Ukrainian_language?oldid=1242178969
+- '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
+- Ukrainian alphabet. (2024, August 23). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Ukrainian_alphabet&oldid=1241928729
+- Quotation mark. (2024, September 26). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Quotation_mark&oldid=1247790780
+- List of currency symbols. (2024, July 15). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Template:List_of_currency_symbols&oldid=1234688642
 speakers: 35000000
 speakers_date: 2000
 status: living

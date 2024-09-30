@@ -3,14 +3,19 @@ contributors:
 name: Northern Bobo Madaré
 orthographies:
 - autonym: kʋnabɩrɩ
-  base: A B D E Ɛ F G H I Ɩ J K L M N Ɲ Ŋ O Ɔ P R S T U Ʋ V W Y a b d e ɛ f g h i ɩ j k l m n ɲ ŋ o ɔ p r s t u ʋ v w y
+  base: A B D E Ɛ F G H I Ɩ J K L M N Ɲ Ŋ O Ɔ P R S T U Ʋ V W Y a b d e ɛ f g h i
+    ɩ j k l m n ɲ ŋ o ɔ p r s t u ʋ v w y
   design_requirements:
-  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in African languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase
+    ŋ reaching cap height favoured in African languages, and the other resembling
+    N with J as the second stem favoured in Sami languages.
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Wikipedia
-- https://mooreburkina.com/en/songs-and-music/alphabet-clips-burkina-languages
+sources:
+- Bobo language. (2023, September 20). In *Wikipedia*. https://en.wikipedia.org/wiki/Bobo_language?oldid=1176272664
+- 'https://mooreburkina.com/en/songs-and-music/alphabet-clips-burkina-languages'
+sources note: review
 speakers: 181000
 speakers_date: 2009
 validity: preliminary

@@ -3,14 +3,19 @@ contributors:
 name: Croatian
 orthographies:
 - autonym: Hrvatski
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ć Č Đ Š Ž a b c d e f g h i j k l m n o p q r s t u v w x y z ć č đ š ž
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ć Č Đ Š Ž a b c d e f
+    g h i j k l m n o p q r s t u v w x y z ć č đ š ž
   marks: ◌́ ◌̌
+  punctuation: <default> ’ ” „ « »
+  currency: <default secondary>
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Omniglot
-- Wikipedia
-- CLDR
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Croatian language. (2024, July 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Croatian_language?oldid=1237247586
+- '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
+- Quotation mark. (2024, September 26). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Quotation_mark&oldid=1247790780
 speakers: 5600000
 speakers_date: 1991-2006
 status: living

@@ -3,13 +3,15 @@ contributors:
 - David Březina
 name: Yanesha'
 orthographies:
-- base: A B C E G H J L M N O P Q R S T Y Ë Ñ a b c e g h j l m n o p q r s t y ë ñ '
+- base: A B C E G H J L M N O P Q R S T Y Ë Ñ a b c e g h j l m n o p q r s t y ë
+    ñ '
   marks: ◌̃ ◌̈
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Omniglot
-- Wikipedia
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Yanesha' language. (2024, March 23). In *Wikipedia*. https://en.wikipedia.org/wiki/Yanesha%27_language?oldid=1215118504
 speakers: 9800
 speakers_date: 2000
 validity: preliminary

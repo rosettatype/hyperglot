@@ -3,13 +3,15 @@ contributors:
 name: North Ndebele
 orthographies:
 - autonym: isiNdebele
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k
+    l m n o p q r s t u v w x y z
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Omniglot
-- Wikipedia
-- CLDR
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Northern Ndebele language. (2024, August 17). In *Wikipedia*. https://en.wikipedia.org/wiki/Northern_Ndebele_language?oldid=1240850751
+- '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
 speakers: 1600000
 speakers_date: 2012
 status: living

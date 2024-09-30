@@ -3,13 +3,15 @@ contributors:
 name: Somali
 orthographies:
 - autonym: Soomaali
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k
+    l m n o p q r s t u v w x y z
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Omniglot
-- CLDR
-- Wikipedia
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
+- Somali language. (2024, August 19). In *Wikipedia*. https://en.wikipedia.org/wiki/Somali_language?oldid=1241168440
 speakers: 16000000
 speakers_date: 2015
 status: living

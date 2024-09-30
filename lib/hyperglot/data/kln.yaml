@@ -11,17 +11,20 @@ includes:
 - tec
 - tuy
 name: Kalenjin
-note: A cluster of Nandi–Markweta dialects/languages. Approximately 18% of the population of Kenya.
+note: A cluster of Nandi–Markweta dialects/languages. Approximately 18% of the population
+  of Kenya.
 orthographies:
 - autonym: Markweta
   auxiliary: F Q V X Z f q v x z
-  base: A B C D E G H I J K L M N O P R S T U W Y a b c d e g h i j k l m n o p r s t u w y
+  base: A B C D E G H I J K L M N O P R S T U W Y a b c d e g h i j k l m n o p r
+    s t u w y
+  numerals: <default>
   script: Latin
   status: primary
 preferred_as_individual: true
-source:
-- Wikipedia
-- CLDR
+sources:
+- Kalenjin languages. (2024, May 6). In *Wikipedia*. https://en.wikipedia.org/wiki/Kalenjin_languages?oldid=1222604347
+- '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
 speakers: 8561574
 status: living
 validity: preliminary

@@ -3,12 +3,15 @@ contributors:
 name: Makhuwa
 orthographies:
 - autonym: Emakhuwa
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À È Ì Ò Ù a b c d e f g h i j k l m n o p q r s t u v w x y z à è ì ò ù
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À È Ì Ò Ù a b c d e f
+    g h i j k l m n o p q r s t u v w x y z à è ì ò ù
   marks: ◌̀
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Omniglot
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+sources note: missing
 speakers: 6600000
 speakers_date: 2006
 status: living

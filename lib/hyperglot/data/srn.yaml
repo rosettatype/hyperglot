@@ -3,13 +3,15 @@ contributors:
 name: Sranan Tongo
 orthographies:
 - autonym: Sranan Tongo
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z È Ò a b c d e f g h i j k l m n o p q r s t u v w x y z è ò
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z È Ò a b c d e f g h i
+    j k l m n o p q r s t u v w x y z è ò
   marks: ◌̀
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Omniglot
-- Wikipedia
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Sranan Tongo. (2024, June 21). In *Wikipedia*. https://en.wikipedia.org/wiki/Sranan_Tongo?oldid=1230306497
 speakers: 130000
 speakers_date: 1993
 status: living

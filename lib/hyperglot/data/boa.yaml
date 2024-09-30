@@ -3,13 +3,15 @@ contributors:
 name: Bora
 orthographies:
 - autonym: Meamuyna
-  base: A B C D E G H I J K L M N O P R S T U V W Y Ɨ Ñ a b c d e g h i j k l m n o p r s t u v w y ɨ ñ
+  base: A B C D E G H I J K L M N O P R S T U V W Y Ɨ Ñ a b c d e g h i j k l m n
+    o p r s t u v w y ɨ ñ
   marks: ◌̃
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Omniglot
-- Wikipedia
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Bora Bora. (2024, August 23). In *Wikipedia*. https://en.wikipedia.org/wiki/Bora_Bora?oldid=1241861015
 speakers: 2400
 speakers_date: 2000
 validity: preliminary

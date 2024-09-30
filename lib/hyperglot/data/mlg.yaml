@@ -15,20 +15,23 @@ includes:
 name: Malagasy
 orthographies:
 - autonym: Malagasy
-  base: A B D E F G H I J K L M N O P R S T V Y Z À Â È É Ê Ë Ì Î Ï Ñ Ô a b d e f g h i j k l m n o p r s t v y z à â è é ê ë ì î ï ñ ô
+  base: A B D E F G H I J K L M N O P R S T V Y Z À Â È É Ê Ë Ì Î Ï Ñ Ô a b d e f
+    g h i j k l m n o p r s t v y z à â è é ê ë ì î ï ñ ô
   marks: ◌̀ ◌́ ◌̂ ◌̃ ◌̈
+  numerals: <default>
   script: Latin
   status: primary
 - autonym: Malagasy
-  base: A B D E F G H I J K L M N O P R S T V Y Z À Â È É Ê Ë Ì Î Ï Ô a b d e f g h i j k l m n o p r s t v y z à â è é ê ë ì î ï ô
+  base: A B D E F G H I J K L M N O P R S T V Y Z À Â È É Ê Ë Ì Î Ï Ô a b d e f g
+    h i j k l m n o p r s t v y z à â è é ê ë ì î ï ô
   marks: ◌̀ ◌́ ◌̂ ◌̈
+  numerals: <default>
   script: Latin
   status: secondary
 preferred_as_individual: true
-source:
-- Omniglot
-- Wikipedia
-- CLDR
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
 speakers: 25000000
 speakers_date: 2015
 status: living

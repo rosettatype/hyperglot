@@ -6,11 +6,13 @@ orthographies:
   auxiliary: ꭓ
   base: a e g h i k l m n o p q s t u w x y æ č š ƛ ǰ ɔ ə ɛ ɩ ɬ ʊ ʔ ʷ ʸ θ χ ᶿ Ɬ
   marks: ◌̌ ◌̓
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- FirstVoices
-- Wikipedia
+sources:
+- 'FirstVoices'
+- Comox language. (2024, May 6). In *Wikipedia*. https://en.wikipedia.org/wiki/Comox_language?oldid=1222605914
+sources note: review
 speakers: 50
 speakers_date: 2018
 status: living

@@ -3,15 +3,20 @@ contributors:
 name: Acholi
 orthographies:
 - autonym: Acoli
-  base: A B C D E G I J K L M N Ŋ O P R T U W Y a b c d e g i j k l m n ŋ o p r t u w y
+  base: A B C D E G I J K L M N Ŋ O P R T U W Y a b c d e g i j k l m n ŋ o p r t
+    u w y
   design_requirements:
-  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in African languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase
+    ŋ reaching cap height favoured in African languages, and the other resembling
+    N with J as the second stem favoured in Sami languages.
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Alfred Malandra, A New Acholi Grammar, Nairobi (Kenya), Eagle Press, 1955, 153 p.
-- Omniglot
-- Wikipedia
+sources:
+- Malandra, A. (1955). *A New Acholi Grammar* (p. 153). Nairobi (Kenya), Eagle Press.
+  p.
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Acholi dialect. (2024, August 26). In *Wikipedia*. https://en.wikipedia.org/wiki/Acholi_dialect?oldid=1242303623
 speakers: 1500000
 speakers_date: 2014
 status: living

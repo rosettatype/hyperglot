@@ -3,14 +3,16 @@ contributors:
 name: Central Atlas Tamazight
 orthographies:
 - autonym: Tamaziɣt
-  base: A B C D E F G H I J K L M N Q R S T U W X Y Z Ɛ Ɣ Ḍ Ḥ Ṛ Ṣ Ṭ a b c d e f g h i j k l m n q r s t u w x y z ɛ ɣ ʷ ḍ ḥ ṛ ṣ ṭ
+  base: A B C D E F G H I J K L M N Q R S T U W X Y Z Ɛ Ɣ Ḍ Ḥ Ṛ Ṣ Ṭ a b c d e f g
+    h i j k l m n q r s t u w x y z ɛ ɣ ʷ ḍ ḥ ṛ ṣ ṭ
   marks: ◌̣
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Omniglot
-- Wikipedia
-- CLDR
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Central Atlas Tamazight. (2024, August 24). In *Wikipedia*. https://en.wikipedia.org/wiki/Central_Atlas_Tamazight?oldid=1242025676
+- '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
 speakers: 5000000
 speakers_date: 2019
 status: living

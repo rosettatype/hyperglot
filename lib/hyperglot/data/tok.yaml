@@ -3,11 +3,13 @@ contributors:
 name: Toki Pona
 orthographies:
 - base: A E I J K L M N O P S T U W a e i j k l m n o p s t u w
-  note: Toki Pona also has its own script "sitelen pona" without encoding devised by the languages creator.
+  note: Toki Pona also has its own script "sitelen pona" without encoding devised
+    by the languages creator.
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Wikipedia (https://en.wikipedia.org/wiki/Toki_Pona)
+sources:
+- Toki Pona. (2024, August 22). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Toki_Pona&oldid=1241742685
 speakers: 0
 status: constructed
 validity: draft

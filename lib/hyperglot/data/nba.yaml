@@ -2,14 +2,17 @@ contributors:
 - Denis Moyogo Jacquerye
 name: Nyemba
 orthographies:
-- base: A B D E Ɛ F G H I J K L M N Ŋ O Ɔ P S T U W Z a b d e ɛ f g h i j k l m n ŋ o ɔ p s t u w z
+- base: A B D E Ɛ F G H I J K L M N Ŋ O Ɔ P S T U W Z a b d e ɛ f g h i j k l m n
+    ŋ o ɔ p s t u w z
   design_requirements:
-  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in African languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase
+    ŋ reaching cap height favoured in African languages, and the other resembling
+    N with J as the second stem favoured in Sami languages.
   marks: ◌̀ ◌́
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Wikipedia
+sources: []
 speakers: 431000
 speakers_date: 2010-2014
 validity: preliminary

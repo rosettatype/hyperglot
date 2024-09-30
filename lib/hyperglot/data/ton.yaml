@@ -4,14 +4,16 @@ name: Tonga (Tonga Islands)
 note: Speaker count date references 1998 census in Tonga, other dates are unknown.
 orthographies:
 - autonym: Faka Tonga
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ā Á Ē É Ī Í Ō Ó Ū Ú a b c d e f g h i j k l m n o p q r s t u v w x y z ā á ē é ī í ō ó ū ú
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ā Á Ē É Ī Í Ō Ó Ū Ú a
+    b c d e f g h i j k l m n o p q r s t u v w x y z ā á ē é ī í ō ó ū ú
   marks: ◌́ ◌̄
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Omniglot
-- Wikipedia
-- CLDR
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Tonga. (2024, August 27). In *Wikipedia*. https://en.wikipedia.org/wiki/Tonga?oldid=1242530613
+- '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
 speakers: 187000
 speakers_date: 1998
 status: living

@@ -3,13 +3,17 @@ contributors:
 name: Prussian
 orthographies:
 - autonym: Prūsiskan
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ā Ē Ģ Ī Ķ Ņ Ō Ŗ Š Ū Ž Ț Ḑ a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ģ ī ķ ņ ō ŗ š ū ž ț ḑ
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ā Ē Ģ Ī Ķ Ņ Ō Ŗ Š Ū Ž
+    Ț Ḑ a b c d e f g h i j k l m n o p q r s t u v w x y z ā ē ģ ī ķ ņ ō ŗ š ū ž
+    ț ḑ
   marks: ◌̄ ◌̌ ◌̦ ◌̧
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Omniglot
-- Wikipedia
+preferred_name: Old Prussian
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Old Prussian language. (2024, August 20). In *Wikipedia*. https://en.wikipedia.org/wiki/Old_Prussian_language?oldid=1241385983
 speakers: 0
 status: living
 validity: verified

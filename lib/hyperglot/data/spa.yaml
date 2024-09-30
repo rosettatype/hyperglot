@@ -3,13 +3,19 @@ contributors:
 name: Spanish
 orthographies:
 - autonym: Español
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á É Í Ñ Ó Ú Ü a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ñ ó ú ü ¡ ¿
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á É Í Ñ Ó Ú Ü a b c d
+    e f g h i j k l m n o p q r s t u v w x y z á é í ñ ó ú ü ¡ ¿
   marks: ◌́ ◌̃ ◌̈
+  punctuation: <default> ¡ ¿ « » “ ” ‘ ’
+  currency: <default> $ ¢
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Omniglot
-- CLDR
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
+- Quotation mark. (2024, September 26). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Quotation_mark&oldid=1247790780
+- List of currency symbols. (2024, July 15). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Template:List_of_currency_symbols&oldid=1234688642
 speakers: 483000000
 speakers_date: 2019
 status: living

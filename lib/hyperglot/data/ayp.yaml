@@ -2,19 +2,19 @@ contributors:
 - David Březina
 name: North Mesopotamian Arabic
 orthographies:
-- autonym: مصلاوي‎
+- autonym: مصلاوي
   auxiliary: <arb>
   base: <arb>
-  currency: <arb>
   design_requirements: <arb>
   marks: <arb>
-  numerals: <arb>
   punctuation: <arb>
+  currency: <default>
+  numerals: <default>
   script: Arabic
   status: primary
-source:
-- Wikipedia
-- Omniglot
+sources:
+- North Mesopotamian Arabic. (2024, April 9). In *Wikipedia*. https://en.wikipedia.org/wiki/North_Mesopotamian_Arabic?oldid=1218120410
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
 speakers: 8700000
 speakers_date: 1992-2014
 status: living

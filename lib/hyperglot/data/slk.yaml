@@ -3,14 +3,20 @@ contributors:
 name: Slovak
 orthographies:
 - autonym: Slovenčina
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á Ä É Í Ó Ô Ú Ý Č Ď Ĺ Ľ Ň Ŕ Š Ť Ž a b c d e f g h i j k l m n o p q r s t u v w x y z á ä é í ó ô ú ý č ď ĺ ľ ň ŕ š ť ž
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á Ä É Í Ó Ô Ú Ý Č Ď Ĺ
+    Ľ Ň Ŕ Š Ť Ž a b c d e f g h i j k l m n o p q r s t u v w x y z á ä é í ó ô ú
+    ý č ď ĺ ľ ň ŕ š ť ž
   marks: ◌́ ◌̂ ◌̈ ◌̌
+  punctuation: <default> ‚ „ ‘ “ ‹ › « »
+  currency: <default secondary>
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Omniglot
-- CLDR
-- Wikipedia
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
+- Slovak language. (2024, August 27). In *Wikipedia*. https://en.wikipedia.org/wiki/Slovak_language?oldid=1242541989
+- Quotation mark. (2024, September 26). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Quotation_mark&oldid=1247790780
 speakers: 5200000
 speakers_date: 2011-2012
 status: living

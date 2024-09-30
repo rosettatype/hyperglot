@@ -4,12 +4,14 @@ name: Luba-Katanga
 orthographies:
 - autonym: Kiluba
   auxiliary: R X r x
-  base: A B C D E F G H I J K L M N O P Q S T U V W Y Z À Á È É Ì Í Ò Ó Ù Ú Ɔ Ɛ a b c d e f g h i j k l m n o p q s t u v w y z à á è é ì í ò ó ù ú ɔ ɛ
+  base: A B C D E F G H I J K L M N O P Q S T U V W Y Z À Á È É Ì Í Ò Ó Ù Ú Ɔ Ɛ a
+    b c d e f g h i j k l m n o p q s t u v w y z à á è é ì í ò ó ù ú ɔ ɛ
   marks: ◌̀ ◌́
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- CLDR
+sources:
+- '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
 speakers: 1505000
 speakers_date: 1991
 status: living

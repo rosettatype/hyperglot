@@ -3,13 +3,15 @@ contributors:
 name: Mezquital Otomi
 orthographies:
 - autonym: Hñahñu
-  base: A B C D E F G H I J K L M N O P R S T U X Y Z Ã Ï Ö Ü a b c d e f g h i j k l m n o p r s t u x y z ã ï ö ü
+  base: A B C D E F G H I J K L M N O P R S T U X Y Z Ã Ï Ö Ü a b c d e f g h i j
+    k l m n o p r s t u x y z ã ï ö ü
   marks: ◌̃ ◌̈ ◌̱
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Omniglot
-- Wikipedia
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Otomi language. (2024, August 15). In *Wikipedia*. https://en.wikipedia.org/wiki/Otomi_language?oldid=1240402192
 speakers: 130000
 speakers_date: 1990
 validity: preliminary

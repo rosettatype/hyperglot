@@ -3,13 +3,15 @@ contributors:
 name: Central Mazahua
 orthographies:
 - autonym: Jñatrjo
-  base: A B C D E G H I J L M N Ñ O P R S T U V X Z Ⱥ Ɇ Ʉ a b c d e g h i j l m n ñ o p r s t u v x z ' ⱥ ɇ ʉ
+  base: A B C D E G H I J L M N Ñ O P R S T U V X Z Ⱥ Ɇ Ʉ a b c d e g h i j l m n
+    ñ o p r s t u v x z ' ⱥ ɇ ʉ
   marks: ◌̃ ◌̱ ◌̵
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Omniglot
-- Wikipedia
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Mazahua language. (2024, May 29). In *Wikipedia*. https://en.wikipedia.org/wiki/Mazahua_language?oldid=1226273098
 speakers: 140000
 speakers_date: 2010
 validity: preliminary

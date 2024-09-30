@@ -4,13 +4,15 @@ contributors:
 name: Baatonum
 orthographies:
 - autonym: baatɔnum
-  base: A B D E Ɛ F G I K L M N O Ɔ P R S T U W Y a b d e ɛ f g i k l m n o ɔ p r s t u w y
+  base: A B D E Ɛ F G I K L M N O Ɔ P R S T U W Y a b d e ɛ f g i k l m n o ɔ p r
+    s t u w y
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Omniglot
-- Wikipedia
-- Centre national de linguistique appliquée (C.E.N.A.L.A.), Alphabet des langues nationales béninoises, 2008, p. 9-10.
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Bariba language. (2024, May 3). In *Wikipedia*. https://en.wikipedia.org/wiki/Bariba_language?oldid=1222026768
+- '*Alphabet des langues nationales béninoises*. (2008). (pp. 9–10). Centre national de linguistique appliquée (CENALA).'
 speakers: 560000
 speakers_date: 1995
 validity: preliminary

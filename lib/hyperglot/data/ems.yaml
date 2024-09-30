@@ -5,12 +5,14 @@ name: Alutiiq
 orthographies:
 - autonym: Sugt’stun
   base: A C E F G H I K L M N P R S T U W Y a c e f g h i k l m n p r s t u w y ʀ
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- 'April G.L. Counceller, Jeff Leer, The Alutiiq orthography: Kodiak dialect, Alutiiq Heritage Foundation, 2012, ISBN 978-1-929650-09-5'
-- Wikipedia
-- Omniglot
+sources:
+- 'April G.L. Counceller, Jeff Leer, The Alutiiq orthography: Kodiak dialect, Alutiiq
+  Heritage Foundation, 2012, ISBN 978-1-929650-09-5'
+- Alutiiq language. (2024, July 3). In *Wikipedia*. https://en.wikipedia.org/wiki/Alutiiq_language?oldid=1232403583
+sources note: review
 speakers: 80
 speakers_date: 2020
 status: living

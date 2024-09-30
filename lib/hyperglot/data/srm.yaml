@@ -3,13 +3,15 @@ contributors:
 name: Saramaccan
 orthographies:
 - autonym: Saamáka
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á Ë Ö a b c d e f g h i j k l m n o p q r s t u v w x y z á ë ö
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á Ë Ö a b c d e f g h
+    i j k l m n o p q r s t u v w x y z á ë ö
   marks: ◌́ ◌̈
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Omniglot
-- Wikipedia
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Saramaccan language. (2024, August 26). In *Wikipedia*. https://en.wikipedia.org/wiki/Saramaccan_language?oldid=1242429128
 speakers: 90000
 speakers_date: 2013
 status: living

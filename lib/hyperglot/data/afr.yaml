@@ -5,14 +5,19 @@ name: Afrikaans
 orthographies:
 - autonym: Afrikaans
   auxiliary: Ç ç
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á É È Ê Ë Î Ï Ö Ô Û Ü Ý a b c d e f g h i j k l m n o p q r s t u v w x y z á é è ê ë î ï ö ô û ü ý
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á É È Ê Ë Î Ï Ö Ô Û Ü
+    Ý a b c d e f g h i j k l m n o p q r s t u v w x y z á é è ê ë î ï ö ô û ü ý
   marks: ◌́ ◌̀ ◌̂ ◌̈ ◌̧
   note: The use of ŉ has been deprecated and is strongly discouraged.
+  punctuation: <default> ‘ “ ’ ” ‚ „
+  currency: <default>
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Omniglot
-- Wikipedia
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Afrikaans. (2024, August 25). In *Wikipedia*. https://en.wikipedia.org/wiki/Afrikaans?oldid=1242153500
+- Quotation mark. (2024, September 26). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Quotation_mark&oldid=1247790780
 speakers: 7200000
 speakers_date: 2016
 status: living

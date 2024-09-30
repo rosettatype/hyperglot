@@ -150,7 +150,11 @@ contributors: {contributors}
             return
         _orthographies = []
         for o in data["orthographies"]:
-            _orthographies.append(Orthography(o, expand=self.inherit))
+            try:
+                _orthographies.append(Orthography(o, expand=self.inherit))
+            except KeyError as e:
+                logging.error(f"Failed expanding Orthographies in Language {self.iso}")
+                raise e
         data["orthographies"] = _orthographies
 
 

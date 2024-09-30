@@ -5,16 +5,16 @@ orthographies:
 - autonym: دارجة جزائرية
   auxiliary: <arb>
   base: <arb>
-  currency: <arb>
   design_requirements: <arb>
   marks: <arb>
-  numerals: <arb>
   punctuation: <arb>
+  currency: <default>
+  numerals: <default>
   script: Arabic
   status: primary
-source:
-- Wikipedia
-- Omniglot
+sources:
+- Algerian Arabic. (2024, August 16). In *Wikipedia*. https://en.wikipedia.org/wiki/Algerian_Arabic?oldid=1240714341
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
 speakers: 27000000
 speakers_date: 2012
 status: living

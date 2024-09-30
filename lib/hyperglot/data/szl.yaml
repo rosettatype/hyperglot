@@ -3,13 +3,15 @@ contributors:
 name: Silesian
 orthographies:
 - autonym: Ślůnsko godka
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ć Č Ń Ř Ś Š Ů Ź Ż Ž a b c d e f g h i j k l m n o p q r s t u v w x y z ć č ń ř ś š ů ź ż ž
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ć Č Ń Ř Ś Š Ů Ź Ż Ž a
+    b c d e f g h i j k l m n o p q r s t u v w x y z ć č ń ř ś š ů ź ż ž
   marks: ◌́ ◌̇ ◌̊ ◌̌
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Omniglot
-- Wikipedia
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Silesian language. (2024, August 9). In *Wikipedia*. https://en.wikipedia.org/wiki/Silesian_language?oldid=1239515964
 speakers: 510000
 speakers_date: 2011
 status: living

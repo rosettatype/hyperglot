@@ -5,6 +5,9 @@ orthographies:
 - auxiliary: <heb>
   base: <heb>
   marks: <heb>
+  punctuation: <heb>
+  currency: <heb>
+  numerals: <heb>
   script: Hebrew
   status: primary
 speakers: 60000

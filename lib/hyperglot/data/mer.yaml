@@ -4,13 +4,15 @@ name: Meru
 orthographies:
 - autonym: Kimîîru
   auxiliary: F P Q S V X Z f p q s v x z
-  base: A B C D E G H I J K L M N O R T U W Y Î Û a b c d e g h i j k l m n o r t u w y î û
+  base: A B C D E G H I J K L M N O R T U W Y Î Û a b c d e g h i j k l m n o r t
+    u w y î û
   marks: ◌̂
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- CLDR
-- Wikipedia
+sources:
+- '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
+- Meru language. (2024, August 3). In *Wikipedia*. https://en.wikipedia.org/wiki/Meru_language?oldid=1238267825
 speakers: 2000000
 speakers_date: 2009
 status: living

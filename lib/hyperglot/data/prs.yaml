@@ -4,15 +4,17 @@ name: Dari
 orthographies:
 - autonym: دری
   base: <pes>
-  currency: <pes>
+  auxiliary: <pes>
   design_requirements: <pes>
   marks: <pes>
   numerals: <pes>
+  punctuation: <pes>
+  currency: <default> ؋
   script: Arabic
   status: primary
-source:
-- Wikipedia
-- Omniglot
+sources:
+- Dari. (2024, August 19). In *Wikipedia*. https://en.wikipedia.org/wiki/Dari?oldid=1241091879
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
 speakers: 12500000
 speakers_date: 2000-2011
 status: living

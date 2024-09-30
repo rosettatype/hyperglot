@@ -3,14 +3,19 @@ contributors:
 name: Sissala
 orthographies:
 - autonym: sɩ́saalí
-  base: A B Ɓ C D E Ɛ F G H I Ɩ J K L M N Ŋ O Ɔ P R S T U Ʋ V W Y Z a b ɓ c d e ɛ f g h i ɩ j k l m n ŋ o ɔ p r s t u ʋ v w y z Á É Ɛ́ Í Ɩ́ Ó Ɔ́ Ú Ʋ́ Ã Ẽ Ɛ̃ Ĩ Ɩ̃ Õ Ɔ̃ Ʋ̃ á é ɛ́ í ɩ́ ó ɔ́ ú ʋ́ ã ẽ ɛ̃ ĩ ɩ̃ õ ɔ̃ ʋ̃
+  base: A B Ɓ C D E Ɛ F G H I Ɩ J K L M N Ŋ O Ɔ P R S T U Ʋ V W Y Z a b ɓ c d e ɛ
+    f g h i ɩ j k l m n ŋ o ɔ p r s t u ʋ v w y z Á É Ɛ́ Í Ɩ́ Ó Ɔ́ Ú Ʋ́ Ã Ẽ Ɛ̃ Ĩ Ɩ̃
+    Õ Ɔ̃ Ʋ̃ á é ɛ́ í ɩ́ ó ɔ́ ú ʋ́ ã ẽ ɛ̃ ĩ ɩ̃ õ ɔ̃ ʋ̃
   design_requirements:
-  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in African languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase
+    ŋ reaching cap height favoured in African languages, and the other resembling
+    N with J as the second stem favoured in Sami languages.
   marks: ◌́ ◌̃
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Wikipedia
+sources:
+- Sisaala language. (2023, August 24). In *Wikipedia*. https://en.wikipedia.org/wiki/Sisaala_language?oldid=1172022655
 speakers: 13000
 speakers_date: 1991
 validity: preliminary

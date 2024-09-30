@@ -4,9 +4,10 @@ name: Congo Swahili
 orthographies:
 - autonym: Kiswahili
   base: <swh>
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Omniglot
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
 status: living
 validity: draft

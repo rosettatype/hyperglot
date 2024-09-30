@@ -5,14 +5,19 @@ name: Nganasan
 orthographies:
 - autonym: ня”
   auxiliary: ҙ
-  base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ҫ Ү Ӈ Ә Ө Ҙ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҫ ү ӈ ә ө ”
+  base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ҫ Ү Ӈ Ә
+    Ө Ҙ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҫ ү ӈ ә
+    ө ”
   marks: ◌̆ ◌̈
-  note: Sources partially disagree. This orthography is based on Omniglot. Wikipedia notes use of з̌ instead of ҙ.
+  note: Sources partially disagree. This orthography is based on Omniglot. Wikipedia
+    notes use of з̌ instead of ҙ.
+  numerals: <default>
+  punctuation: <default>
   script: Cyrillic
   status: primary
-source:
-- Omniglot
-- Wikipedia
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Nganasan language. (2024, August 5). In *Wikipedia*. https://en.wikipedia.org/wiki/Nganasan_language?oldid=1238795448
 speakers: 125
 speakers_date: 2010
 status: living

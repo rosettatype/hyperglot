@@ -4,14 +4,18 @@ name: Mingrelian
 orthographies:
 - autonym: მარგალური
   base: Ა Ბ Გ Დ Ე Ვ Ზ Თ Ი Კ Ლ Მ Ნ Ო Პ Ჟ Რ Ს Ტ Უ Ფ Ქ Ღ Ყ Შ Ჩ Ც Ძ Წ Ჭ Ხ Ჯ Ჰ ჲ ჸ ჷ
+  numerals: <kat>
+  punctuation: <kat>
+  currency: <kat>
   design_requirements:
-  - The character set includes Georgian Mkhedruli (lowercase letters) and additional letters used in Mingrelian language.
+  - The character set includes Georgian Mkhedruli (lowercase letters) and additional
+    letters used in Mingrelian language.
   script: Georgian
   status: primary
-source:
-- Omniglot
-- Wikipedia
-- Ethnologue
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Mingrelian language. (2024, August 2). In *Wikipedia*. https://en.wikipedia.org/wiki/Mingrelian_language?oldid=1238107113
+- Mingrelian. (2024, August 28). In *Ethnologue*. SIL International. https://www.ethnologue.com/language/xmf/
 speakers: 345530
 speakers_date: 2015
 status: living

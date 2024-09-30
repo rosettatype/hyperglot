@@ -3,15 +3,24 @@ contributors:
 name: Armenian
 orthographies:
 - autonym: Հայերեն
-  base: Ա Բ Գ Դ Ե Զ Է Ը Թ Ժ Ի Լ Խ Ծ Կ Հ Ձ Ղ Ճ Մ Յ Ն Շ Ո Չ Պ Ջ Ռ Ս Վ Տ Ր Ց Ւ Փ Ք Օ Ֆ ա բ գ դ ե զ է ը թ ժ ի լ խ ծ կ հ ձ ղ ճ մ յ ն շ ո չ պ ջ ռ ս վ տ ր ց ւ փ ք օ ֆ և
-  note: Eastern Armenian replaces ‹Ւ› with ‹ՈՒ› and ‹ւ› with ‹ու› in the alphabet. Some versions of the Eastern alphabet add the ‹և› as a full letter.
-  punctuation: ՛ ՜ ՝ ՞ ։
+  auxiliary: ՙ ֍ ֎
+  base: Ա Բ Գ Դ Ե Զ Է Ը Թ Ժ Ի Լ Խ Ծ Կ Հ Ձ Ղ Ճ Մ Յ Ն Շ Ո Չ Պ Ջ Ռ Ս Վ Տ Ր Ց Ւ Փ Ք Օ
+    Ֆ ա բ գ դ ե զ է ը թ ժ ի լ խ ծ կ հ ձ ղ ճ մ յ ն շ ո չ պ ջ ռ ս վ տ ր ց ւ փ ք օ ֆ
+    և
+  note: Eastern Armenian replaces ‹Ւ› with ‹ՈՒ› and ‹ւ› with ‹ու› in the alphabet.
+    Some versions of the Eastern alphabet add the ‹և› as a full letter.
+  punctuation: <default Latin> ՛ ՜ ՝ ՞ ։ ՟ ՚  ֊ ։ « »
+  currency: <default Latin> ֏
+  numerals: <default Latin>
   script: Armenian
   status: primary
 preferred_name: Eastern Armenian
-source:
-- Omniglot
-- Wikipedia
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Quotation mark. (2024, September 26). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Quotation_mark&oldid=1247790780
+reviewers:
+- Hrant Papazian
+sources note: missing
 speakers: 6700000
 speakers_date: 2015
 validity: verified

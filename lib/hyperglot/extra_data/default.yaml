@@ -11,13 +11,35 @@
 name: Default
 orthographies:
   - script: Latin
-    punctuation: ". , ; : ? ! “ ” ‘ ’"
+    punctuation: ". , ; : ? ! “ ” ‘ ’" # TBD
     numerals: 0 1 2 3 4 5 6 7 8 9
+    currency: "$" # TODO
     status: primary
+  - script: Latin
+    currency: "$" # TODO
+    status: secondary
   - script: Arabic
-    punctuation: ؟ ؞
+    punctuation: ؟ ؞ # TODO
+    currency: $ #TODO
     numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩
     status: primary
   - script: Hebrew
-    punctuation: ׳ ״
+    punctuation: ׳ ״ # TODO
     status: primary
+  - script: Devanagari
+    punctuation: . # TODO
+    numerals: 0 # TODO
+    currency: "$" # TODO
+    status: primary
+  - script: Gurmukhi
+    punctuation: . # TODO
+    numerals: 0 # TODO
+    currency: "$" # TODO
+    auxiliary: T O D O # TODO
+    status: primary
+  - script: Cyrillic
+    punctuation: . # TODO
+    numerals: 0 # TODO
+    currency: "$" # TODO
+    status: primary
+validity: verified

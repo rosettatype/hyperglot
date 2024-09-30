@@ -3,13 +3,18 @@ contributors:
 name: Buamu
 orthographies:
 - autonym: buamu
-  base: A B Ɓ C D E Ɛ F H I K L M N Ɲ O Ɔ P R S T U V W Y Z a b ɓ c d e ɛ f h i k l m n ɲ o ɔ p r s t u v w y z Á É Ɛ́ Í Ó Ɔ́ Ú Ń À È Ɛ̀ Ì Ò Ɔ̀ Ù á é ɛ́ í ó ɔ́ ú ń à è ɛ̀ ì ò ɔ̀ ù Ã Ɛ̃ Ĩ Ɔ̃ Ũ ã ɛ̃ ĩ ɔ̃ ũ Ã̀ Ɛ̃̀ Ĩ̀ Ɔ̃̀ Ũ̀ ã̀ ɛ̃̀ ĩ̀ ɔ̃̀ ũ̀ Ã́ Ɛ̃́ Ĩ́ Ɔ̃́ Ṹ ã́ ɛ̃́ ĩ́ ɔ̃́ ṹ
+  base: A B Ɓ C D E Ɛ F H I K L M N Ɲ O Ɔ P R S T U V W Y Z a b ɓ c d e ɛ f h i k
+    l m n ɲ o ɔ p r s t u v w y z Á É Ɛ́ Í Ó Ɔ́ Ú Ń À È Ɛ̀ Ì Ò Ɔ̀ Ù á é ɛ́ í ó ɔ́
+    ú ń à è ɛ̀ ì ò ɔ̀ ù Ã Ɛ̃ Ĩ Ɔ̃ Ũ ã ɛ̃ ĩ ɔ̃ ũ Ã̀ Ɛ̃̀ Ĩ̀ Ɔ̃̀ Ũ̀ ã̀ ɛ̃̀ ĩ̀ ɔ̃̀ ũ̀
+    Ã́ Ɛ̃́ Ĩ́ Ɔ̃́ Ṹ ã́ ɛ̃́ ĩ́ ɔ̃́ ṹ
   marks: ◌̀ ◌́ ◌̃
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Wikipedia
-- https://mooreburkina.com/en/songs-and-music/alphabet-clips-burkina-languages
+sources:
+- Buamu language. (2023, October 30). In *Wikipedia*. https://en.wikipedia.org/wiki/Buamu_language?oldid=1182641353
+- 'https://mooreburkina.com/en/songs-and-music/alphabet-clips-burkina-languages'
+sources note: review
 speakers: 268000
 speakers_date: 2009
 validity: preliminary

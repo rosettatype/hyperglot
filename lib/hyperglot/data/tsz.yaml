@@ -3,13 +3,15 @@ contributors:
 name: Purepecha
 orthographies:
 - autonym: P'urhépecha
-  base: A B C D E G H I Ï J K M N O P R S T U X a b c d e g h i ï j k m n o p r s t u x '
+  base: A B C D E G H I Ï J K M N O P R S T U X a b c d e g h i ï j k m n o p r s
+    t u x '
   marks: ◌́ ◌̈
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Omniglot
-- Wikipedia
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Purépecha language. (2024, July 25). In *Wikipedia*. https://en.wikipedia.org/wiki/Pur%C3%A9pecha_language?oldid=1236534589
 speakers: 124494
 speakers_date: 2010
 validity: preliminary

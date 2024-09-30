@@ -7,11 +7,14 @@ orthographies:
 - autonym: Arbërisht
   base: <aln>
   marks: <aln>
+  punctuation: <aln>
+  currency: <aln>
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Wikipedia
-- Omniglot
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+sources note: missing
 speakers: 100000
 speakers_date: 2007
 status: living

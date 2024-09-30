@@ -5,25 +5,37 @@ orthographies:
 - autonym: Indonesia
   auxiliary: <zsm>
   base: <zsm>
+  numerals: <default>
   script: Latin
   status: primary
 - autonym: Indonesia
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ē É Ä Ë Ï Ö a b c d e f g h i j k l m n o p q r s t u v w x y z ē é ä ë ï ö '
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ē É Ä Ë Ï Ö a b c d e
+    f g h i j k l m n o p q r s t u v w x y z ē é ä ë ï ö '
   marks: ◌́ ◌̄ ◌̈
-  note: The Van Ophuijsen Spelling System was used 1901–1947 for Malay and Indonesian in the Dutch East Indies (now Indonesia)
+  note: The Van Ophuijsen Spelling System was used 1901–1947 for Malay and Indonesian
+    in the Dutch East Indies (now Indonesia)
+  punctuation: <default> “ ” ‘ ’
+  currency: <default>
+  numerals: <default>
   script: Latin
   status: historical
 - autonym: Indonesia
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z É Ä Ë Ï Ö a b c d e f g h i j k l m n o p q r s t u v w x y z é ä ë ï ö 2
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z É Ä Ë Ï Ö a b c d e f
+    g h i j k l m n o p q r s t u v w x y z é ä ë ï ö 2
   marks: ◌́ ◌̈
-  note: The Republican Spelling System was used 1947–1972. The numeral two marked reduplicated words. Glottal stop was represented with the letter ‹k›.
+  note: The Republican Spelling System was used 1947–1972. The numeral two marked
+    reduplicated words. Glottal stop was represented with the letter ‹k›.
+  punctuation: <default> “ ” ‘ ’
+  currency: <default>
+  numerals: <default>
   script: Latin
   status: historical
-source:
-- Omniglot
-- https://en.wikipedia.org/wiki/Van_Ophuijsen_Spelling_System
-- https://en.wikipedia.org/wiki/Republican_Spelling_System
-- https://en.wikipedia.org/wiki/Buginese_language
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Van Ophuijsen Spelling System. (2024, June 24). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Van_Ophuijsen_Spelling_System&oldid=1230792623
+- Republican Spelling System. (2024, June 26). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Republican_Spelling_System&oldid=1231039723
+- Buginese language. (2024, June 20). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Buginese_language&oldid=1230088764
+- Quotation mark. (2024, September 26). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Quotation_mark&oldid=1247790780
 speakers: 43000000
 speakers_date: 2010
 status: living

@@ -3,13 +3,15 @@ contributors:
 name: Lombard
 orthographies:
 - autonym: Lombard
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Á È É Ì Í Ò Ó Ô Ø Ù Ü a b c d e f g h i j k l m n o p q r s t u v w x y z à á è é ì í ò ó ô ø ù ü
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Á È É Ì Í Ò Ó Ô Ø Ù
+    Ü a b c d e f g h i j k l m n o p q r s t u v w x y z à á è é ì í ò ó ô ø ù ü
   marks: ◌̀ ◌́ ◌̂ ◌̈
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Omniglot
-- Wikipedia
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Lombard language. (2024, July 4). In *Wikipedia*. https://en.wikipedia.org/wiki/Lombard_language?oldid=1232569646
 speakers: 3900000
 speakers_date: 2002
 status: living

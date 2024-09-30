@@ -3,14 +3,16 @@ contributors:
 name: Dimli (individual language)
 orthographies:
 - autonym: Dimlî
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ç Ê Î Û Ü Ş Ǧ a b c d e f g h i j k l m n o p q r s t u v w x y z ç ê î û ü İ ı ş ǧ
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ç Ê Î Û Ü Ş Ǧ a b c d
+    e f g h i j k l m n o p q r s t u v w x y z ç ê î û ü İ ı ş ǧ
   marks: ◌̂ ◌̇ ◌̈ ◌̌ ◌̧
+  numerals: <default>
   script: Latin
   status: primary
 preferred_name: Dimli
-source:
-- Omniglot
-- Wikipedia
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Zaza language. (2024, August 27). In *Wikipedia*. https://en.wikipedia.org/wiki/Zaza_language?oldid=1242511231
 speakers: 1334000
 speakers_date: 2020
 status: living

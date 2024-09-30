@@ -2,19 +2,20 @@ contributors:
 - David Březina
 name: Sanaani Arabic
 orthographies:
-- autonym: يمني‎
+- autonym: يمني
   auxiliary: <arb>
   base: <arb>
-  currency: <arb>
   design_requirements: <arb>
   marks: <arb>
-  numerals: <arb>
   punctuation: <arb>
+  currency: <default>
+  numerals: <default>
   script: Arabic
   status: primary
-source:
-- Wikipedia
-- Textbook
+sources:
+- Sanʽani Arabic. (2024, March 21). In *Wikipedia*. https://en.wikipedia.org/wiki/San%CA%BDani_Arabic?oldid=1214789220
+- 'Textbook'
+sources note: review
 speakers: 11100000
 speakers_date: 2015
 status: living

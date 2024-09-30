@@ -4,25 +4,39 @@ contributors:
 name: Uighur
 orthographies:
 - autonym: Уйғур
-  base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Ю Я Ғ Җ Қ Ң Ү Һ Ә Ө а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш ю я ғ җ қ ң ү һ ә ө
+  base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Ю Я Ғ Җ Қ Ң Ү Һ Ә Ө а б
+    в г д е ж з и й к л м н о п р с т у ф х ц ч ш ю я ғ җ қ ң ү һ ә ө
   marks: ◌̆
+  punctuation: <default>
+  currency: <default>
+  numerals: <default>
   script: Cyrillic
   status: secondary
 - autonym: ئۇيغۇرچە
   base: ئ ا ب ت ج خ د ر ز س ش غ ف ق ك ل م ن و ي پ چ ژ ڭ گ ھ ۆ ۇ ۈ ۋ ې ە
+  auxiliary: ـ
   design_requirements:
-  - Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
+  - Positional forms of the characters (initial, medial, and final forms) and some
+    ligatures are required for proper representation of the language.
+  - Uyghur language permits hyphenation, thus it is relevant to provide a language-specific version of the hyphen.
   marks: ◌ٔ
+  punctuation: <default> « » ‹ ›
+  currency: <default>
+  numerals: <default>
   script: Arabic
   status: primary
 - autonym: Uighur
-  base: A B C D E F G H I J K L M N O P Q R S T U W X Y Z Ë Ö Ü a b c d e f g h i j k l m n o p q r s t u w x y z ë ö ü
+  base: A B C D E F G H I J K L M N O P Q R S T U W X Y Z Ë Ö Ü a b c d e f g h i
+    j k l m n o p q r s t u w x y z ë ö ü
   marks: ◌̈
+  numerals: <default>
+  punctuation: <default> « » ‹ ›
+  currency: <default>
   script: Latin
   status: secondary
-source:
-- Omniglot
-- Wikipedia
+sources:
+- 'Haralambous, Yannis. Breaking Arabic: the creative inventiveness of Uyghur script reforms. In *Design Regression*. Retrived on 28 August 2024 from https://designregression.com/article/breaking-arabic'
+- Uyghur language. (2024, August 9). In *Wikipedia*. https://en.wikipedia.org/wiki/Uyghur_language?oldid=1239445981
 speakers: 10400000
 speakers_date: 2016
 status: living

@@ -3,12 +3,14 @@ contributors:
 name: Embu
 orthographies:
 - autonym: Kiembu
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ĩ Ũ a b c d e f g h i j k l m n o p q r s t u v w x y z ĩ ũ
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ĩ Ũ a b c d e f g h i
+    j k l m n o p q r s t u v w x y z ĩ ũ
   marks: ◌̃
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- CLDR
+sources:
+- '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
 speakers: 320000
 speakers_date: 2009
 status: living

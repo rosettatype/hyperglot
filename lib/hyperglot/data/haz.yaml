@@ -5,14 +5,16 @@ note: The number of speakers is an estimate based on the Hazaras population.
 orthographies:
 - autonym: هزارگی
   base: <pes>
-  currency: <pes>
+  auxiliary: <pes>
   design_requirements: <pes>
   marks: <pes>
   numerals: <pes>
+  punctuation: <pes>
+  currency: <pnb>
   script: Arabic
   status: primary
-source:
-- Wikipedia
+sources:
+- Hazaragi dialect. (2024, August 19). In *Wikipedia*. https://en.wikipedia.org/wiki/Hazaragi_dialect?oldid=1241171041
 speakers: 8000000
 speakers_date: 2014
 status: living

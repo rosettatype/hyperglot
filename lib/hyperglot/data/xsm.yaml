@@ -4,18 +4,24 @@ name: Kasem
 orthographies:
 - autonym: kasɩm
   auxiliary: Ə ə
-  base: A Ǝ B C D E Ɛ F G H I Ɩ J K L M N Ŋ O Ɔ P R S T U Ʋ V W Y Z a ǝ b c d e ɛ f g h i ɩ j k l m n ŋ o ɔ p r s t u ʋ v w y z
+  base: A Ǝ B C D E Ɛ F G H I Ɩ J K L M N Ŋ O Ɔ P R S T U Ʋ V W Y Z a ǝ b c d e ɛ
+    f g h i ɩ j k l m n ŋ o ɔ p r s t u ʋ v w y z
   design_requirements:
-  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in African languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase
+    ŋ reaching cap height favoured in African languages, and the other resembling
+    N with J as the second stem favoured in Sami languages.
   note: The Bureau of Ghana Languages 1976 orthography did not use Ǝ Ɩ Ʋ ǝ ɩ ʋ.
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Wikipedia
+sources:
+- Languages of Ghana. (2024, August 22). In *Wikipedia*. https://en.wikipedia.org/wiki/Languages_of_Ghana?oldid=1241585252
 - 'Language guide : Kasem version, Accra, Bureau of Ghana Languages, 1976. ISBN 9964204515.'
-- Sous-commission de la langue cerma, Guide d’orthographe Kasɩm, Ouagadougou, SIL, 2005.
-- https://www.kassena.org
-- https://www.bible.com/versions/1303
+- 'Sous-commission de la langue cerma, Guide d’orthographe Kasɩm, Ouagadougou, SIL,
+  2005.'
+- 'https://www.kassena.org'
+- 'https://www.bible.com/versions/1303'
+sources note: review
 speakers: 250000
 speakers_date: 1998-2004
 validity: preliminary

@@ -6,11 +6,12 @@ orthographies:
 - autonym: Tutunakú
   base: A C E I J K L M N O P R S T U W X Y a c e i j k l m n o p r s t u w x y '
   marks: ◌́
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Omniglot
-- Wikipedia
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Papantla Totonac. (2024, July 22). In *Wikipedia*. https://en.wikipedia.org/wiki/Papantla_Totonac?oldid=1235949300
 speakers: 80000
 speakers_date: 1982
 validity: preliminary

@@ -3,21 +3,24 @@ contributors:
 name: Tamil
 orthographies:
 - autonym: தமிழ்
-  auxiliary: 𑿀 𑿁 𑿂 𑿃 𑿄 𑿅 𑿆 𑿇 𑿈 𑿉 𑿊 𑿋 𑿌 𑿍 𑿎 𑿏 𑿐 𑿑 𑿒 𑿓 𑿔 𑿕 𑿖 𑿗 𑿘 𑿙 𑿚 𑿛 𑿜 𑿝 𑿞 𑿟 𑿠 𑿡 𑿢 𑿣 𑿤 𑿥 𑿦 𑿧 𑿨 𑿩 𑿪 𑿫 𑿬 𑿭 𑿮 𑿯 𑿰 𑿱 𑿿 ௐ ௳ ௴ ௵ ௶ ௷ ௸ ௹ ௺
+  auxiliary: 𑿀 𑿁 𑿂 𑿃 𑿄 𑿅 𑿆 𑿇 𑿈 𑿉 𑿊 𑿋 𑿌 𑿍 𑿎 𑿏 𑿐 𑿑 𑿒 𑿓 𑿔 𑿕 𑿖 𑿗 𑿘 𑿙 𑿚 𑿛 𑿜 𑿝 𑿞 𑿟 𑿠 𑿡 𑿢 𑿣 𑿤 𑿥 𑿦 𑿧 𑿨 𑿪 𑿫 𑿬 𑿭 𑿮 𑿯 𑿰 𑿱 𑿿 ௳ ௴ ௵ ௶ ௷ ௸
   base: அ ஆ இ ஈ உ ஊ எ ஏ ஐ ஒ ஓ ஔ ஃ க ங ச ஞ ட ண த ந ப ம ய ர ல வ ழ ள ற ன ஜ ஶ ஷ ஸ ஹ
   design_alternates: க்ஷ ஸ்ரீ
   design_requirements:
-  - Mark positioning and precomposed sign (matra) forms are required for proper representation of the language.
-  - The conjunct letters ‹க்ஷ› and ‹ஸ்ரீ› should be acknowledged as separate from other conjunct matra forms.
+  - Mark positioning and precomposed sign (matra) forms are required for proper representation
+    of the language.
+  - The conjunct letters ‹க்ஷ› and ‹ஸ்ரீ› should be acknowledged as separate from
+    other conjunct matra forms.
   marks: ◌் ◌ஂ ◌ா ◌ி ◌ீ ◌ு ◌ூ ◌ெ ◌ே ◌ை ◌ௗ
-  numerals: ௦ ௧ ௨ ௩ ௪ ௫ ௬ ௭ ௮ ௯ ௰ ௱ ௲ 0 1 2 3 4 5 6 7 8 9
+  numerals: ௦ ௧ ௨ ௩ ௪ ௫ ௬ ௭ ௮ ௯ ௰ ௱ ௲ <default Latin> ௺ 𑿩
+  punctuation: <default Devanagari> ௐ
+  currency: ௹ <default Devanagari>
   script: Tamil
   status: primary
-source:
-- Omniglot
-- Wikipedia
-- Unicode (for basic unicode compliance): https://unicode.org/charts/PDF/U0B80.pdf
-- Unicode (for supplement): https://unicode.org/charts/PDF/U11FC0.pdf
+sources:
+- Tamil language. (2024, August 22). In *Wikipedia*. https://en.wikipedia.org/wiki/Tamil_language?oldid=1241650727
+- Tamil. (2024). In *The Unicode Standard, Version 16.0.0* (pp. 591–600). The Unicode Consortium. https://www.unicode.org/versions/Unicode16.0.0/UnicodeStandard-16.0.pdf
+sources note: review
 speakers: 75000000
 speakers_date: 2011-2015
 validity: preliminary

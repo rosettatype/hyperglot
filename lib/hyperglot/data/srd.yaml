@@ -8,14 +8,16 @@ includes:
 name: Sardinian
 orthographies:
 - autonym: Sardu
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Ç È Ì Ò Ù a b c d e f g h i j k l m n o p q r s t u v w x y z à ç è ì ò ù
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Ç È Ì Ò Ù a b c d e
+    f g h i j k l m n o p q r s t u v w x y z à ç è ì ò ù
   marks: ◌̀ ◌̧
+  numerals: <default>
   script: Latin
   status: primary
 preferred_as_individual: true
-source:
-- Omniglot
-- Wikipedia
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Sardinian language. (2024, August 27). In *Wikipedia*. https://en.wikipedia.org/wiki/Sardinian_language?oldid=1242540139
 speakers: 1350000
 speakers_date: 2016
 status: living

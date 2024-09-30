@@ -4,12 +4,14 @@ contributors:
 name: Huastec
 orthographies:
 - autonym: Teenek
-  base: A B C E I J K L M N O P R S T U W X Y Z a b c e i j k l m n o p r s t u w x y z '
+  base: A B C E I J K L M N O P R S T U W X Y Z a b c e i j k l m n o p r s t u w
+    x y z '
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Omniglot
-- Wikipedia
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Huastec language. (2024, June 12). In *Wikipedia*. https://en.wikipedia.org/wiki/Huastec_language?oldid=1228736264
 speakers: 161120
 speakers_date: 2010
 validity: preliminary

@@ -2,15 +2,22 @@ contributors:
 - Denis Moyogo Jacquerye
 name: Kom (Cameroon)
 orthographies:
-- base: A Æ B C D E F G H I Ɨ J ’ K L M N NY Ŋ O Œ S T U V W Y Z a æ b c d e f g h i ɨ j k l m n ny ŋ o œ s t u v w y z À Æ̀ È Ì Ɨ̀ Ò Œ̀ Ù Â Æ̂ Ê Î Ɨ̂ Ô Œ̂ Û à æ̀ è ì ɨ̀ ò œ̀ ù â æ̂ ê î ɨ̂ ô œ̂ û
+- base: A Æ B C D E F G H I Ɨ J ’ K L M N NY Ŋ O Œ S T U V W Y Z a æ b c d e f g h
+    i ɨ j k l m n ny ŋ o œ s t u v w y z À Æ̀ È Ì Ɨ̀ Ò Œ̀ Ù Â Æ̂ Ê Î Ɨ̂ Ô Œ̂ Û à æ̀
+    è ì ɨ̀ ò œ̀ ù â æ̂ ê î ɨ̂ ô œ̂ û
   design_requirements:
-  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in African languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase
+    ŋ reaching cap height favoured in African languages, and the other resembling
+    N with J as the second stem favoured in Sami languages.
   marks: ◌̀ ◌̂
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Wikipedia
-- Paul Kawldim Kimbi, Relativization in Kom, Nairobi Evangelical Graduate School of Theology, 2005.
+sources:
+- Kom language (Cameroon). (2024, April 15). In *Wikipedia*. https://en.wikipedia.org/wiki/Kom_language_(Cameroon)?oldid=1219024148
+- 'Paul Kawldim Kimbi, Relativization in Kom, Nairobi Evangelical Graduate School
+  of Theology, 2005.'
+sources note: review
 speakers: 233000
 speakers_date: 2005
 validity: preliminary

@@ -2,12 +2,14 @@ contributors:
 - Sergio Martins
 name: Waorani
 orthographies:
-- base: A B D E G I K M N O P R S T W Y Ã Ẽ Ĩ Õ Ñ a b d e g i k m n o p r s t w y ã ẽ ĩ õ ñ
+- base: A B D E G I K M N O P R S T W Y Ã Ẽ Ĩ Õ Ñ a b d e g i k m n o p r s t w y
+    ã ẽ ĩ õ ñ
   marks: ◌̃
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Wikipedia
+sources:
+- Waorani language. (2024, July 1). In *Wikipedia*. https://en.wikipedia.org/wiki/Waorani_language?oldid=1232037623
 speakers: 2000
 speakers_date: 2004
 validity: draft

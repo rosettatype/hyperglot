@@ -4,11 +4,12 @@ name: Ashéninka Perené
 orthographies:
 - base: A C E I J K M N Ñ O P R S T W Y Z a c e i j k m n ñ o p r s t w y z
   marks: ◌̃
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Omniglot
-- Wikipedia
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Ashéninka language. (2024, June 14). In *Wikipedia*. https://en.wikipedia.org/wiki/Ash%C3%A9ninka_language?oldid=1229052632
 speakers: 9881
 speakers_date: 2017
 validity: preliminary

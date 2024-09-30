@@ -4,14 +4,18 @@ contributors:
 name: Bagirmi Fulfulde
 note: Used in Central African Republic.
 orthographies:
-- base: A B C D E F G H I J K L M N O P R S T U W Y X Ŋ Ƴ Ɓ Ɗ a b c d e f g h i j k l m n o p r s t u w y x ŋ ƴ ɓ ɗ
+- base: A B C D E F G H I J K L M N O P R S T U W Y X Ŋ Ƴ Ɓ Ɗ a b c d e f g h i j
+    k l m n o p r s t u w y x ŋ ƴ ɓ ɗ
   design_requirements:
-  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in African languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase
+    ŋ reaching cap height favoured in African languages, and the other resembling
+    N with J as the second stem favoured in Sami languages.
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Omniglot
-- Wikipedia
-- CLDR
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Fula language. (2024, August 21). In *Wikipedia*. https://en.wikipedia.org/wiki/Fula_language?oldid=1241563754
+- '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
 status: living
 validity: verified

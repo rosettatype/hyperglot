@@ -2,13 +2,15 @@ contributors:
 - Sergio Martins
 name: Murui Huitoto
 orthographies:
-- base: A B C D E F G I J L M N O R S T V Ɨ Ñ a b c d e f g i j l m n o r s t v ɨ ñ
+- base: A B C D E F G I J L M N O R S T V Ɨ Ñ a b c d e f g i j l m n o r s t v ɨ
+    ñ
   marks: ◌̃
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Omniglot
-- Wikipedia
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Murui Huitoto language. (2023, May 18). In *Wikipedia*. https://en.wikipedia.org/wiki/Murui_Huitoto_language?oldid=1155571811
 speakers: 7800
 speakers_date: 1995-2002
 validity: preliminary

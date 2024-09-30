@@ -3,12 +3,14 @@ contributors:
 name: Võro
 orthographies:
 - autonym: Võro
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Õ Ö Ü Š Ž a b c d e f g h i j k l m n o p q r s t u v w x y z ä õ ö ü š ž '
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Õ Ö Ü Š Ž a b c d e
+    f g h i j k l m n o p q r s t u v w x y z ä õ ö ü š ž '
   marks: ◌̃ ◌̈ ◌̌
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Wikipedia
+sources:
+- Võro language. (2024, August 4). In *Wikipedia*. https://en.wikipedia.org/wiki/V%C3%B5ro_language?oldid=1238495328
 speakers: 87000
 speakers_date: 2011
 status: living

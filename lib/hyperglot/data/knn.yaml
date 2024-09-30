@@ -7,14 +7,15 @@ orthographies:
   base: <hin>
   design_requirements: <hin>
   marks: <hin>
-  numerals: <hin>
+  numerals: <default>
   punctuation: <hin>
+  currency: <default>
   script: Devanagari
   status: primary
 preferred_name: Maharashtrian Konkani
-source:
-- Wikipedia
-- Unicode
+sources:
+- Konkani language. (2024, August 12). In *Wikipedia*. https://en.wikipedia.org/wiki/Konkani_language?oldid=1239940419
+- Devanagari. (2024). In *The Unicode Standard, Version 16.0.0* (pp. 545–572). The Unicode Consortium. https://www.unicode.org/versions/Unicode16.0.0/UnicodeStandard-16.0.pdf
 speakers: 2400000
 speakers_date: 2011
 validity: preliminary

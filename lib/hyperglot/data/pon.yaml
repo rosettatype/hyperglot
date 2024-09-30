@@ -4,11 +4,12 @@ name: Pohnpeian
 orthographies:
 - autonym: Pohnpei
   base: A D E H I K L M N O P R S T U W a d e h i k l m n o p r s t u w
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Omniglot
-- Wikipedia
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Pohnpeian language. (2024, May 7). In *Wikipedia*. https://en.wikipedia.org/wiki/Pohnpeian_language?oldid=1222790963
 speakers: 29000
 speakers_date: 2001
 validity: preliminary

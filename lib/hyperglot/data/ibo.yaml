@@ -3,14 +3,17 @@ contributors:
 name: Igbo
 orthographies:
 - autonym: Igbo
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Á È É Ì Í Ò Ó Ù Ú Ā Ē Ī Ń Ō Ū Ị Ọ Ụ Ṅ Ẹ a b c d e f g h i j k l m n o p q r s t u v w x y z à á è é ì í ò ó ù ú ā ē ī ń ō ū ị ọ ụ ṅ ẹ
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Á È É Ì Í Ò Ó Ù Ú Ā
+    Ē Ī Ń Ō Ū Ị Ọ Ụ Ṅ Ẹ a b c d e f g h i j k l m n o p q r s t u v w x y z à á è
+    é ì í ò ó ù ú ā ē ī ń ō ū ị ọ ụ ṅ ẹ
   marks: ◌̀ ◌́ ◌̄ ◌̇ ◌̣
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Omniglot
-- Wikipedia
-- CLDR
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Igbo language. (2024, August 25). In *Wikipedia*. https://en.wikipedia.org/wiki/Igbo_language?oldid=1242103742
+- '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
 speakers: 27000000
 speakers_date: 2015
 status: living

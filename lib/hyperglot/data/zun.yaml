@@ -3,12 +3,14 @@ contributors:
 name: Zuni
 orthographies:
 - autonym: Shiwiʼma
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ł a b c d e f g h i j k l m n o p q r s t u v w x y z ł ʼ
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ł a b c d e f g h i j
+    k l m n o p q r s t u v w x y z ł ʼ
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Omniglot
-- Wikipedia
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Zuni language. (2024, August 15). In *Wikipedia*. https://en.wikipedia.org/wiki/Zuni_language?oldid=1240517959
 speakers: 9620
 speakers_date: 2015
 status: living

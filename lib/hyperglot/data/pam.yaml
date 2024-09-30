@@ -4,13 +4,15 @@ name: Pampanga
 orthographies:
 - autonym: Kapampangan
   auxiliary: C F J V X Z c f j q v x z
-  base: A B D E G H I K L M N O P Q R S T U W Y a b d e g h i k l m n o p r s t u w y
+  base: A B D E G H I K L M N O P Q R S T U W Y a b d e g h i k l m n o p r s t u
+    w y
   note: Based on Wikipedia. Omniglot lists A–Z, a–z.
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Omniglot
-- Wikipedia
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Kapampangan language. (2024, July 19). In *Wikipedia*. https://en.wikipedia.org/wiki/Kapampangan_language?oldid=1235469920
 speakers: 1900000
 speakers_date: 1990
 status: living

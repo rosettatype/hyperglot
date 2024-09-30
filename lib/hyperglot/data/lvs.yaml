@@ -4,13 +4,18 @@ name: Standard Latvian
 orthographies:
 - autonym: Latviešu
   auxiliary: Q W X Y q w x y
-  base: A Ā B C Č D E Ē F G Ģ H I Ī J K Ķ L Ļ M N Ņ O P R S Š T U Ū V Z Ž a ā b c č d e ē f g ģ h i ī j k ķ l ļ m n ņ o p r s š t u ū v z ž
+  base: A Ā B C Č D E Ē F G Ģ H I Ī J K Ķ L Ļ M N Ņ O P R S Š T U Ū V Z Ž a ā b c
+    č d e ē f g ģ h i ī j k ķ l ļ m n ņ o p r s š t u ū v z ž
   marks: ◌̄ ◌̌ ◌̧
+  punctuation: <default> “ ” „ « »
+  currency: <default secondary>
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Omniglot
-- Wikipedia
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Latvian language. (2024, August 4). In *Wikipedia*. https://en.wikipedia.org/wiki/Latvian_language?oldid=1238615741
+- Quotation mark. (2024, September 26). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Quotation_mark&oldid=1247790780
 speakers: 1750000
 speakers_date: 2015
 status: living

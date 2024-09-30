@@ -3,12 +3,15 @@ contributors:
 name: Tswana
 orthographies:
 - autonym: Setswana
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ê Ô Š a b c d e f g h i j k l m n o p q r s t u v w x y z ê ô š
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ê Ô Š a b c d e f g h
+    i j k l m n o p q r s t u v w x y z ê ô š
   marks: ◌̂ ◌̌
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Omniglot
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+sources note: missing
 speakers: 5200000
 speakers_date: 1993-2011
 status: living

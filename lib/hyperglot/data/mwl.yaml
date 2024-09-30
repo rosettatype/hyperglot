@@ -3,13 +3,16 @@ contributors:
 name: Mirandese
 orthographies:
 - autonym: Mirandés
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á Ç É Ê Í Ó Ô Ú Ũ a b c d e f g h i j k l m n o p q r s t u v w x y z á ç é ê í ó ô ú ũ
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á Ç É Ê Í Ó Ô Ú Ũ a b
+    c d e f g h i j k l m n o p q r s t u v w x y z á ç é ê í ó ô ú ũ
   marks: ◌́ ◌̂ ◌̃ ◌̧
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Omniglot
-- Native
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+reviewers:
+source note: missing
 speakers: 15000
 speakers_date: 2000
 status: living

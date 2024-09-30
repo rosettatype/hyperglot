@@ -2,15 +2,19 @@ contributors:
 - Sergio Martins
 name: Dinka
 orthographies:
-- base: A B C D E Ɛ G Ɣ I K L M N Ŋ O Ɔ P R S T U W Y Ä Ë Ï Ö a b c d e ɛ g ɣ i k l m n ŋ o ɔ p r s t u w y ä ë ï ö
+- base: A B C D E Ɛ G Ɣ I K L M N Ŋ O Ɔ P R S T U W Y Ä Ë Ï Ö a b c d e ɛ g ɣ i k
+    l m n ŋ o ɔ p r s t u w y ä ë ï ö
   design_requirements:
-  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in African languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase
+    ŋ reaching cap height favoured in African languages, and the other resembling
+    N with J as the second stem favoured in Sami languages.
   marks: ◌̈
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Omniglot
-- Wikipedia
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Dinka language. (2024, July 19). In *Wikipedia*. https://en.wikipedia.org/wiki/Dinka_language?oldid=1235450775
 speakers: 1300000
 speakers_date: 2008-2016
 validity: preliminary

@@ -5,25 +5,37 @@ name: Kako
 orthographies:
 - autonym: kakɔ
   auxiliary: Q X Z q x z
-  base: A B Ɓ C D Ɗ E Ɛ F G H I J K L M N Ŋ O Ɔ P R S T U V W Y À Á Â È É Ê Ɛ̀ Ɛ́ Ɛ̂ Ì Í Î Ò Ó Ô Ɔ̀ Ɔ́ Ɔ̂ Ù Ú Û A̧ Ɛ̧ I̧ Ɔ̧ U̧ a b ɓ c d ɗ e ɛ f g h i j k l m n ŋ o ɔ p r s t u v w y à á â è é ê ɛ̀ ɛ́ ɛ̂ ì í î ò ó ô ɔ̀ ɔ́ ɔ̂ ù ú û a̧ ɛ̧ i̧ ɔ̧ u̧
+  base: A B Ɓ C D Ɗ E Ɛ F G H I J K L M N Ŋ O Ɔ P R S T U V W Y À Á Â È É Ê Ɛ̀ Ɛ́
+    Ɛ̂ Ì Í Î Ò Ó Ô Ɔ̀ Ɔ́ Ɔ̂ Ù Ú Û A̧ Ɛ̧ I̧ Ɔ̧ U̧ a b ɓ c d ɗ e ɛ f g h i j k l m n
+    ŋ o ɔ p r s t u v w y à á â è é ê ɛ̀ ɛ́ ɛ̂ ì í î ò ó ô ɔ̀ ɔ́ ɔ̂ ù ú û a̧ ɛ̧ i̧
+    ɔ̧ u̧
   design_requirements:
-  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in African languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase
+    ŋ reaching cap height favoured in African languages, and the other resembling
+    N with J as the second stem favoured in Sami languages.
   marks: ◌̀ ◌́ ◌̂ ◌̧
+  numerals: <default>
   script: Latin
   status: primary
 - autonym: mbonjɔɔ
   auxiliary: Q X q x
-  base: A B Ɓ C D Ɗ E Ɛ F G H I J K L M N Ŋ O Ɔ P R S T U V W Y Z À Á Â È É Ê Ɛ̀ Ɛ́ Ɛ̂ Ì Í Î Ò Ó Ô Ɔ̀ Ɔ́ Ɔ̂ Ù Ú Û A̧ I̧ U̧ a b ɓ c d ɗ e ɛ f g h i j k l m n ŋ o ɔ p r s t u v w y z à á â è é ê ɛ̀ ɛ́ ɛ̂ ì í î ò ó ô ɔ̀ ɔ́ ɔ̂ ù ú û a̧ i̧ u̧
+  base: A B Ɓ C D Ɗ E Ɛ F G H I J K L M N Ŋ O Ɔ P R S T U V W Y Z À Á Â È É Ê Ɛ̀ Ɛ́
+    Ɛ̂ Ì Í Î Ò Ó Ô Ɔ̀ Ɔ́ Ɔ̂ Ù Ú Û A̧ I̧ U̧ a b ɓ c d ɗ e ɛ f g h i j k l m n ŋ o ɔ
+    p r s t u v w y z à á â è é ê ɛ̀ ɛ́ ɛ̂ ì í î ò ó ô ɔ̀ ɔ́ ɔ̂ ù ú û a̧ i̧ u̧
   design_requirements:
-  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in African languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase
+    ŋ reaching cap height favoured in African languages, and the other resembling
+    N with J as the second stem favoured in Sami languages.
   marks: ◌̀ ◌́ ◌̂ ◌̧
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- CLDR
-- Wikipedia
-- Ernst Urs, Alphabet et orthographe du kakɔ (kakɔ-est), SIL Cameroun, 1996
-- Ernst Urs, Alphabet et orthographe du mbonjɔɔ (kakɔ-ouest), SIL Cameroun, 1996
+sources:
+- '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
+- Kako language. (2024, April 25). In *Wikipedia*. https://en.wikipedia.org/wiki/Kako_language?oldid=1220689650
+- 'Ernst Urs, Alphabet et orthographe du kakɔ (kakɔ-est), SIL Cameroun, 1996'
+- 'Ernst Urs, Alphabet et orthographe du mbonjɔɔ (kakɔ-ouest), SIL Cameroun, 1996'
+sources note: review
 speakers: 120000
 speakers_date: 1996-2003
 status: living

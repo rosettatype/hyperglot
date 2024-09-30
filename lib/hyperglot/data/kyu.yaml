@@ -4,14 +4,15 @@ contributors:
 name: Western Kayah
 orthographies:
 - autonym: ꤊꤢꤛꤢ꤭ ꤜꤟꤤ꤬
-  base: ꤀ ꤁ ꤂ ꤃ ꤄ ꤅ ꤆ ꤇ ꤈ ꤉ ꤊ ꤋ ꤌ ꤍ ꤎ ꤏ ꤐ ꤑ ꤒ ꤓ ꤔ ꤕ ꤖ ꤗ ꤘ ꤙ ꤚ ꤛ ꤜ ꤝ ꤞ ꤟ ꤠ ꤡ ꤢ ꤣ ꤤ ꤥ ꤮ ꤯
+  base: ꤀ ꤁ ꤂ ꤃ ꤄ ꤅ ꤆ ꤇ ꤈ ꤉ ꤊ ꤋ ꤌ ꤍ ꤎ ꤏ ꤐ ꤑ ꤒ ꤓ ꤔ ꤕ ꤖ ꤗ ꤘ ꤙ ꤚ ꤛ ꤜ ꤝ ꤞ ꤟ ꤠ ꤡ ꤢ ꤣ ꤤ
+    ꤥ ꤮ ꤯
   marks: ◌ꤦ ◌ꤧ ◌ꤨ ◌ꤩ ◌ꤪ ◌꤫ ◌꤬ ◌꤭
-  numerals: ꤀ ꤁ ꤂ ꤃ ꤄ ꤅ ꤆ ꤇ ꤈ ꤉
+  numerals: ꤀ ꤁ ꤂ ꤃ ꤄ ꤅ ꤆ ꤇ ꤈ ꤉ <default Latin>
   script: Kayah Li
   status: primary
-source:
-- Omniglot
-- CLDR
-- Wikipedia
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
+- Karenni language. (2024, July 29). In *Wikipedia*. https://en.wikipedia.org/wiki/Karenni_language?oldid=1237339171
 status: living
 validity: preliminary

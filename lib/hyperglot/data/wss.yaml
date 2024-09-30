@@ -3,12 +3,14 @@ contributors:
 name: Wasa
 orthographies:
 - autonym: Wasa
-  base: A B D E F G H I K L M N O P R S T U W Y Ɛ Ɔ a b d e f g h i k l m n o p r s t u w y ɛ ɔ
+  base: A B D E F G H I K L M N O P R S T U W Y Ɛ Ɔ a b d e f g h i k l m n o p r
+    s t u w y ɛ ɔ
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Omniglot
-- Wikipedia
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Wasa dialect. (2024, May 4). In *Wikipedia*. https://en.wikipedia.org/wiki/Wasa_dialect?oldid=1222210214
 speakers: 273000
 speakers_date: 2013
 status: living

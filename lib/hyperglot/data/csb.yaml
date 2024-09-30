@@ -3,13 +3,16 @@ contributors:
 name: Kashubian
 orthographies:
 - autonym: Kaszëbsczi
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ã É Ë Ò Ó Ô Ù Ą Ę Ł Ń Ś Ż a b c d e f g h i j k l m n o p q r s t u v w x y z ã é ë ò ó ô ù ą ę ł ń ś ż
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ã É Ë Ò Ó Ô Ù Ą Ę Ł Ń
+    Ś Ż a b c d e f g h i j k l m n o p q r s t u v w x y z ã é ë ò ó ô ù ą ę ł ń
+    ś ż
   marks: ◌̀ ◌́ ◌̂ ◌̃ ◌̇ ◌̈ ◌̨
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Omniglot
-- Wikipedia
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Kashubian language. (2024, August 24). In *Wikipedia*. https://en.wikipedia.org/wiki/Kashubian_language?oldid=1242001381
 speakers: 108000
 speakers_date: 2011
 status: living

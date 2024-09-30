@@ -4,11 +4,12 @@ contributors:
 name: Amarakaeri
 orthographies:
 - base: A B E G H I J K M N O P R S T U Y a b e g h i j k m n o p r s t u y '
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Omniglot
-- Wikipedia
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Harákmbut language. (2024, January 29). In *Wikipedia*. https://en.wikipedia.org/wiki/Har%C3%A1kmbut_language?oldid=1200607956
 speakers: 1600
 speakers_date: 2007
 validity: preliminary

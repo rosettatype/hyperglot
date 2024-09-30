@@ -4,15 +4,17 @@ name: Qashqa'i
 orthographies:
 - autonym: قشقايی ديل
   base: <pes>
-  currency: <pes>
+  auxiliary: <pes>
   design_requirements: <pes>
   marks: <pes>
   numerals: <pes>
+  punctuation: <pes>
+  currency: <pes>
   script: Arabic
   status: primary
-source:
-- Wikipedia
-- Omniglot
+sources:
+- Qashqai language. (2024, June 20). In *Wikipedia*. https://en.wikipedia.org/wiki/Qashqai_language?oldid=1230062258
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
 speakers: 949000
 speakers_date: 2015
 status: living

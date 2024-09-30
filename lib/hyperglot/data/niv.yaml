@@ -4,13 +4,17 @@ contributors:
 name: Gilyak
 orthographies:
 - autonym: нивх
-  base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ғ Ӄ Ӈ Ӷ Ӻ Ӽ Ӿ Р̌ ʼ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ғ ӄ ӈ ӷ ӻ ӽ ӿ р̌ ’
+  base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ғ Ӄ Ӈ Ӷ
+    Ӻ Ӽ Ӿ Р̌ ʼ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ғ
+    ӄ ӈ ӷ ӻ ӽ ӿ р̌ ’
   marks: ◌̆ ◌̈ ◌̌
+  numerals: <default>
+  punctuation: <default>
   script: Cyrillic
   status: primary
-source:
-- Omniglot
-- Wikipedia
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Nivkh languages. (2024, August 15). In *Wikipedia*. https://en.wikipedia.org/wiki/Nivkh_languages?oldid=1240490193
 speakers: 200
 speakers_date: 2010
 status: living

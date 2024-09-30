@@ -3,13 +3,15 @@ contributors:
 name: Vlax Romani
 orthographies:
 - autonym: řomani ćhib
-  base: A Ä B C Ć Č D E Ê F Ğ H I Î J K L M N O Ö P Ṗ Q R S Ś T U V W X Z Ź a ä b c ć č d e ê f ğ h i î j k l m n o ö p ṗ q r s ś t u v w x z ź
+  base: A Ä B C Ć Č D E Ê F Ğ H I Î J K L M N O Ö P Ṗ Q R S Ś T U V W X Z Ź a ä b
+    c ć č d e ê f ğ h i î j k l m n o ö p ṗ q r s ś t u v w x z ź
   marks: ◌́ ◌̂ ◌̆ ◌̇ ◌̈ ◌̌
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Omniglot
-- Wikipedia
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Vlax Romani language. (2024, May 17). In *Wikipedia*. https://en.wikipedia.org/wiki/Vlax_Romani_language?oldid=1224346245
 speakers: 538480
 speakers_date: 2002-2014
 validity: preliminary

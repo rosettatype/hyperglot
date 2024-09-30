@@ -51,6 +51,9 @@ def find_all_inheritance_codes(value: str) -> List:
     """
     In an attribute value find all <iso ...> inheritance shortcodes.
     """
+    if not value:
+        return []
+
     inherit = RE_INHERITANCE_TAG.findall(value)
 
     if inherit is None or inherit == []:
@@ -176,21 +179,21 @@ def resolve_inherited_attributes(value: str, attr: str, script: str) -> str:
         else:
             # Script explicitly set in shortcode, failure to match is an issue
             try:
+                script = _script
                 ort = source.get_orthography(script=_script, status=status)
             except KeyError:
                 raise KeyError(err)
 
-        if attribute not in ort:
-            logging.warning(
+        if attribute not in ort or ort[attribute] is None:
+            raise KeyError(
                 f"Orthography cannot inherit non-existing '{attribute}' from "
-                f"'{iso}', nothing inherited."
+                f"'{iso}' (script {script}, status {status}), nothing inherited."
             )
-            return False
-
+        
         # Return the replaced value with the same type as the source one
         replacement = ort[attribute]
 
-        if "<" in replacement:
+        if type(replacement) is str and "<" in replacement:
             # Recursive replacement
             replacement = resolve_inherited_attributes(replacement, attribute, script)
 
@@ -291,7 +294,7 @@ class Orthography(dict):
                 replaced = resolve_inherited_attributes(value, attr, self.script)
                 self[attr] = replaced
         except KeyError as e:
-            logging.error(f"Failed to expand {value}")
+            logging.error(f"Failed to expand inheritance tag {value}")
             raise e
 
     def __getitem__(self, key):

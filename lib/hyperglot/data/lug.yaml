@@ -5,15 +5,19 @@ name: Ganda
 orthographies:
 - autonym: Luganda
   auxiliary: H Q X h q x
-  base: A B C D E F G I J K L M N O P R S T U V W Y Z Ŋ a b c d e f g i j k l m n o p r s t u v w y z ŋ
+  base: A B C D E F G I J K L M N O P R S T U V W Y Z Ŋ a b c d e f g i j k l m n
+    o p r s t u v w y z ŋ
   design_requirements:
-  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in African languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase
+    ŋ reaching cap height favoured in African languages, and the other resembling
+    N with J as the second stem favoured in Sami languages.
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Omniglot
-- Wikipedia
-- CLDR
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Luganda. (2024, August 23). In *Wikipedia*. https://en.wikipedia.org/wiki/Luganda?oldid=1241902726
+- '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
 speakers: 8200000
 status: living
 validity: verified

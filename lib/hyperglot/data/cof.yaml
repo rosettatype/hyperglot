@@ -3,14 +3,16 @@ contributors:
 - Sergio Martins
 name: Colorado
 orthographies:
-- base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ã Ẽ Ĩ Ũ Ɨ Ñ a b c d e f g h i j k l m n o p q r s t u v w x y z ã ẽ ĩ ũ ɨ ñ ʔ
+- base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ã Ẽ Ĩ Ũ Ɨ Ñ a b c d e
+    f g h i j k l m n o p q r s t u v w x y z ã ẽ ĩ ũ ɨ ñ ʔ
   marks: ◌̃
+  numerals: <default>
   script: Latin
   status: primary
 preferred_name: Tsafiki
-source:
-- Wikipedia
-- Omniglot
+sources:
+- Colorado River Numic language. (2024, February 2). In *Wikipedia*. https://en.wikipedia.org/wiki/Colorado_River_Numic_language?oldid=1202233471
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
 speakers: 2300
 speakers_date: 2000
 validity: preliminary

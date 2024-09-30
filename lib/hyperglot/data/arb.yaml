@@ -4,19 +4,20 @@ name: Standard Arabic
 note: The speakers are L2 only as Standard Arabic is always a second language.
 orthographies:
 - autonym: العربية
-  auxiliary: ڛ ڢ ٯ ڧ ک ی ڤ ڥ پ چ گ ڨ ڭ ڠ
+  auxiliary:  ـ ڛ ڢ ٯ ڧ ک ی ڤ ڥ پ چ گ ڨ ڭ ڠ
   base: ي و ه ن م ل ك ق ف غ ع ظ ط ض ص ش س ز ر ذ د خ ح ج ث ت ب ا ة ء
-  currency: $ ¢ £ ﷼
   design_requirements:
-  - Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
+  - Positional forms of the characters (initial, medial, and final forms) and some
+    ligatures are required for proper representation of the language.
   marks: ◌َ ◌ُ ◌ِ ◌ْ ◌ٰ
-  numerals: <default> <default Latin>
-  punctuation: <eng> ، ؛ ؞ ؟
+  numerals: <default>
+  punctuation: <default> « » “ ”
+  currency: <default>
   script: Arabic
   status: primary
-source:
-- Wikipedia
-- Omniglot
+sources:
+- Modern Standard Arabic. (2024, August 15). In *Wikipedia*. https://en.wikipedia.org/wiki/Modern_Standard_Arabic?oldid=1240502833
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
 speakers: 270000000
 status: living
 validity: preliminary

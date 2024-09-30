@@ -8,11 +8,12 @@ orthographies:
   base: <apd>
   design_requirements: <apd>
   marks: <apd>
-  numerals: <apd>
+  numerals: <default>
+  punctuation: <default>
   script: Arabic
   status: primary
-source:
-- Wikipedia
+sources:
+- Juba Arabic. (2024, August 22). In *Wikipedia*. https://en.wikipedia.org/wiki/Juba_Arabic?oldid=1241603510
 speakers: 20000
 speakers_date: 1987
 status: living

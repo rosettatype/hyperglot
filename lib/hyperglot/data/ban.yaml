@@ -3,25 +3,32 @@ contributors:
 name: Balinese
 orthographies:
 - autonym: Bali
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z É a b c d e f g h i j k l m n o p q r s t u v w x y z é
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z É a b c d e f g h i j
+    k l m n o p q r s t u v w x y z é
   marks: ◌́
+  numerals: <default> 
+  punctuation: <default>
+  currency: <default>
   script: Latin
   status: primary
 - autonym: ᬪᬵᬱᬩᬮᬶ
   auxiliary: ᬡ ᬙ ᬔ ᬥ ᬟ ᬠ ᬣ ᬝ ᬞ ᬰ ᬱ ᬖ ᬪ ᬨ ᬛ
   base: ᬳ ᬦ ᬘ ᬭ ᬓ ᬤ ᬢ ᬲ ᬯ ᬮ ᬫ ᬕ ᬩ ᬗ ᬧ ᬚ ᬬ ᬜ ᬅ ᬆ ᬇ ᬈ ᬋ ᬌ ᬍ ᬎ ᬉ ᬊ ᬏ ᬐ ᬑ ᬒ
   design_requirements:
-  - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
+  - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are
+    required for proper representation of the language.
   marks: ◌ᬀ ◌ᬁ ◌ᬂ ◌ᬃ ◌ᬄ ◌᬴ ◌ᬵ ◌ᬶ ◌ᬷ ◌ᬸ ◌ᬹ ◌ᬺ ◌ᬾ ◌ᬿ
   note: The Latin script is the most used nowadays.
-  numerals: ᭐ ᭕ ᭑ ᭖ ᭒ ᭗ ᭓ ᭘ ᭔ ᭙ 0 1 2 3 4 5 6 7 8 9
-  punctuation: ᭞ ᭟ ᭝ ᭜ ᭚ ᭛ ᭠
+  numerals: ᭐ ᭕ ᭑ ᭖ ᭒ ᭗ ᭓ ᭘ ᭔ ᭙ <default Latin>
+  punctuation: ᭞ ᭟ ᭝ ᭜ ᭚ ᭛ ᭠ <default Latin>
+  currency: <default Latin>
   script: Balinese
   status: secondary
-source:
-- Omniglot
-- Wikipedia
-- http://repositori.perpustakaan.kemdikbud.go.id/3299/1/pedoman%20umum%20ejaan%20bahasa%20bali%20denganhuruf%20latin%202013%20%20%20%20%20%2062h.pdf
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Balinese language. (2024, August 19). In *Wikipedia*. https://en.wikipedia.org/wiki/Balinese_language?oldid=1241080889
+- 'http://repositori.perpustakaan.kemdikbud.go.id/3299/1/pedoman%20umum%20ejaan%20bahasa%20bali%20denganhuruf%20latin%202013%20%20%20%20%20%2062h.pdf'
+sources note: review
 speakers: 3300000
 speakers_date: 2000
 validity: preliminary

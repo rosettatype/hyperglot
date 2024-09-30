@@ -10,11 +10,12 @@ orthographies:
 - autonym: hak ga wa
   base: <cmn>
   note: Hànyǔ Pīnyīn (pinyin) romanization
+  numerals: <default>
   script: Latin
   status: transliteration
-source:
-- Omniglot
-- Wikipedia
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Hakka Chinese. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Hakka_Chinese?oldid=1242761869
 speakers: 47800000
 speakers_date: 2007
 validity: preliminary

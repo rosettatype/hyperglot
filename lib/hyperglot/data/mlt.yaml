@@ -3,14 +3,20 @@ contributors:
 name: Maltese
 orthographies:
 - autonym: Malti
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À È Ì Î Ò Ù Ċ Ġ Ħ Ż a b c d e f g h i j k l m n o p q r s t u v w x y z à è ì î ò ù ċ ġ ħ ż
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À È Ì Î Ò Ù Ċ Ġ Ħ Ż a
+    b c d e f g h i j k l m n o p q r s t u v w x y z à è ì î ò ù ċ ġ ħ ż
   marks: ◌̀ ◌̂ ◌̇
+  punctuation: <default> “ ” ‘ ’
+  currency: <default secondary>
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Omniglot
-- Wikipedia
-- Alvestrand
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Maltese language. (2024, August 12). In *Wikipedia*. https://en.wikipedia.org/wiki/Maltese_language?oldid=1239900664
+- Alvestrand, Harald. (1995) *Characters and character sets for various languages.*
+  Retrieved on September 6, 2021 from https://www.alvestrand.no/ietf/lang-chars.txt
+- Quotation mark. (2024, September 26). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Quotation_mark&oldid=1247790780
 speakers: 520000
 speakers_date: 2012
 status: living

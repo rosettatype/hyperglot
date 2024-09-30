@@ -3,13 +3,15 @@ contributors:
 name: Munsee
 orthographies:
 - autonym: Huluníixsuwaakan
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á É Í Ó Ú Ă Ŭ a b c d e f g h i j k l m n o p q r s t u v w x y z á é í ó ú ă ŭ
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á É Í Ó Ú Ă Ŭ a b c d
+    e f g h i j k l m n o p q r s t u v w x y z á é í ó ú ă ŭ
   marks: ◌́ ◌̆
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Omniglot
-- Wikipedia
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Munsee language. (2024, June 26). In *Wikipedia*. https://en.wikipedia.org/wiki/Munsee_language?oldid=1231167145
 speakers: 2
 speakers_date: 2018
 status: living

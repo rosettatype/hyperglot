@@ -3,13 +3,15 @@ contributors:
 name: Guadeloupean Creole French
 orthographies:
 - autonym: Kreyol
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z È É Ò a b c d e f g h i j k l m n o p q r s t u v w x y z è é ò
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z È É Ò a b c d e f g h
+    i j k l m n o p q r s t u v w x y z è é ò
   marks: ◌̀ ◌́
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Omniglot
-- Wikipedia
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Antillean Creole. (2024, August 21). In *Wikipedia*. https://en.wikipedia.org/wiki/Antillean_Creole?oldid=1241472497
 speakers: 1200000
 speakers_date: 1998-2001
 status: living

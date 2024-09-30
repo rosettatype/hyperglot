@@ -6,11 +6,14 @@ orthographies:
 - autonym: ייִדיש
   base: ו י א ב ג ד ה ז ח ט כ ך ל מ ם נ ן ס ע פ ף צ ץ ק ר ש ת
   marks: ◌ְ ◌ֱ ◌ֲ ◌ֳ ◌ִ ◌ֵ ◌ֶ ◌ַ ◌ָ ◌ֹ ◌ֻ ◌ּ ◌ׁ ◌ׂ
+  punctuation: <heb>
+  currency: <heb>
+  numerals: <heb>
   script: Hebrew
   status: primary
-source:
-- https://en.wikipedia.org/wiki/Yiddish_orthography
-- Omniglot
+sources:
+- Yiddish orthography. (2024, July 8). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Yiddish_orthography&oldid=1233348492
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
 speakers: 1500000
 status: living
 validity: preliminary

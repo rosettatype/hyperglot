@@ -2,13 +2,15 @@ contributors:
 - Sergio Martins
 name: Awa-Cuaiquer
 orthographies:
-- base: A Ã C E Ẽ I Ĩ Ɨ J K L M N Ñ P R S T U Ũ V W Y Z a ã c e ẽ i ĩ ɨ j k l m n ñ p r s t u ũ v w y z '
+- base: A Ã C E Ẽ I Ĩ Ɨ J K L M N Ñ P R S T U Ũ V W Y Z a ã c e ẽ i ĩ ɨ j k l m n
+    ñ p r s t u ũ v w y z '
   marks: ◌̃
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Omniglot
-- Wikipedia
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Awa Pit language. (2024, August 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Awa_Pit_language?oldid=1242667758
 speakers: 13000
 speakers_date: 2008
 validity: preliminary

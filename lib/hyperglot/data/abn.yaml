@@ -3,13 +3,16 @@ contributors:
 name: Abua
 orthographies:
 - autonym: Abua
-  base: A Ạ B Ḅ D Ḍ E Ẹ F G H I Ị J K L M N O Ọ P R S T U Ụ V W Y Z a ạ b ḅ d ḍ e ẹ f g h i ị j k l m n o ọ p r s t u ụ v w y z
+  base: A Ạ B Ḅ D Ḍ E Ẹ F G H I Ị J K L M N O Ọ P R S T U Ụ V W Y Z a ạ b ḅ d ḍ e
+    ẹ f g h i ị j k l m n o ọ p r s t u ụ v w y z
   marks: ◌̣
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- 'Ethelbert Emmanuel Kari, Kiikpoye Johnny Joshua, "Abuan orthography", in Tony Enyia, Orthographies of Nigerian Languages: Manual IX, Nigerian Educational Research and Development Council (NERDC), 2011, p. 1–12'
-- Wikipedia
+sources:
+- 'Kari, E. E., Kiikpoye J. J. (2011). Abuan orthography. In: Enyia, T.
+  *Orthographies of Nigerian Languages: Manual IX* (pp. 1–12). Nigerian Educational Research and Development Council (NERDC).
+- Abua language. (2024, July 5). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Abua_language&oldid=1232728843
 speakers: 25000
 speakers_date: 1989
 status: living

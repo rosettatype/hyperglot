@@ -4,14 +4,19 @@ name: Danish
 orthographies:
 - autonym: Dansk
   auxiliary: Ǻ ǻ
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Å Æ Ø a b c d e f g h i j k l m n o p q r s t u v w x y z å æ ø
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Å Æ Ø a b c d e f g h
+    i j k l m n o p q r s t u v w x y z å æ ø
   marks: ◌̊ ◌́
+  punctuation: <default> ‘ “ ’ ” „ ‹ › « »
+  currency: <default secondary>
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Omniglot
-- Wikipedia
-- CLDR
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Danish language. (2024, August 19). In *Wikipedia*. https://en.wikipedia.org/wiki/Danish_language?oldid=1241084738
+- '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
+- Quotation mark. (2024, September 26). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Quotation_mark&oldid=1247790780
 speakers: 6000000
 speakers_date: 2019
 status: living

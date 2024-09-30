@@ -3,13 +3,15 @@ contributors:
 name: Old Norse
 orthographies:
 - autonym: Dǫnsk tunga
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á Æ É Í Ð Ó Ø Ú Ý Œ Ǫ Ǽ a b c d e f g h i j k l m n o p q r s t u v w x y z á æ é í ð ó ø ú ý œ ǫ ǽ
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á Æ É Í Ð Ó Ø Ú Ý Œ Ǫ
+    Ǽ a b c d e f g h i j k l m n o p q r s t u v w x y z á æ é í ð ó ø ú ý œ ǫ ǽ
   marks: ◌́ ◌̨
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Omniglot
-- Wikipedia
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Old Norse. (2024, July 23). In *Wikipedia*. https://en.wikipedia.org/wiki/Old_Norse?oldid=1236181472
 speakers: 0
 status: historical
 validity: preliminary

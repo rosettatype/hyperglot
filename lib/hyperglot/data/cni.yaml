@@ -5,11 +5,12 @@ name: Asháninka
 orthographies:
 - base: A C E I J M N O P Q R S T V W X Y a c e i j m n o p q r s t v w x y '
   note: There seems to be little concensus on how to write Asháninka.
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Omniglot
-- Wikipedia
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Asháninka language. (2024, March 23). In *Wikipedia*. https://en.wikipedia.org/wiki/Ash%C3%A1ninka_language?oldid=1215117789
 speakers: 35000
 speakers_date: 2007
 validity: preliminary

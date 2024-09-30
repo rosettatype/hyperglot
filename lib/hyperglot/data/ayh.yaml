@@ -5,15 +5,15 @@ orthographies:
 - autonym: حضرمي
   auxiliary: <arb>
   base: <arb>
-  currency: <arb>
   design_requirements: <arb>
   marks: <arb>
-  numerals: <arb>
   punctuation: <arb>
+  currency: <default>
+  numerals: <default>
   script: Arabic
   status: primary
-source:
-- Wikipedia
+sources:
+- Hadhrami Arabic. (2024, August 19). In *Wikipedia*. https://en.wikipedia.org/wiki/Hadhrami_Arabic?oldid=1241119287
 speakers: 4560000
 speakers_date: 2015
 status: living

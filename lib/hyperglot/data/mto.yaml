@@ -2,12 +2,14 @@ contributors:
 - Sergio Martins
 name: Totontepec Mixe
 orthographies:
-- base: A C H D E G I J M N O P Q S T U V X Y a c h d e g i j m n o p q s t u v x y
+- base: A C H D E G I J M N O P Q S T U V X Y a c h d e g i j m n o p q s t u v x
+    y
   marks: ◌̱
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Wikipedia
+sources:
+- Totontepec Mixe. (2024, April 13). In *Wikipedia*. https://en.wikipedia.org/wiki/Totontepec_Mixe?oldid=1218693129
 speakers: 5500
 speakers_date: 2000
 validity: draft

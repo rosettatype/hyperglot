@@ -4,13 +4,17 @@ name: Italian
 orthographies:
 - autonym: Italiano
   auxiliary: J K W X Y Î Ï j k w x y î ï
-  base: A B C D E F G H I L M N O P Q R S T U V Z À Á È É Ì Í Ò Ó Ù Ú a b c d e f g h i l m n o p q r s t u v z à á è é ì í ò ó ù ú
+  base: A B C D E F G H I L M N O P Q R S T U V Z À Á È É Ì Í Ò Ó Ù Ú a b c d e f
+    g h i l m n o p q r s t u v z à á è é ì í ò ó ù ú
   marks: ◌̀ ◌́ ◌̂ ◌̈
+  punctuation: <default> « » ‹ › “ ” ‘ ’
+  currency: <default secondary>
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Omniglot
-- Wikipedia
+sources:
+- Quotation mark. (2024, September 26). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Quotation_mark&oldid=1247790780
+sources note: missing
 speakers: 90000000
 speakers_date: 2012
 status: living

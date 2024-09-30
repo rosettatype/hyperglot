@@ -2,13 +2,15 @@ contributors:
 - David Březina
 name: Central Nahuatl
 orthographies:
-- base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ü Ā Ē Ī Ō Ū Ȳ a b c d e f g h i j k l m n o p q r s t u v w x y z ü ā ē ī ō ū ȳ
+- base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ü Ā Ē Ī Ō Ū Ȳ a b c d
+    e f g h i j k l m n o p q r s t u v w x y z ü ā ē ī ō ū ȳ
   marks: ◌̄ ◌̈
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Omniglot
-- Wikipedia
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Central Nahuatl languages. (2023, August 1). In *Wikipedia*. https://en.wikipedia.org/wiki/Central_Nahuatl_languages?oldid=1168133123
 speakers: 40000
 speakers_date: 1980
 status: living

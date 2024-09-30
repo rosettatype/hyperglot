@@ -4,13 +4,15 @@ contributors:
 name: Bamum
 orthographies:
 - autonym: ꛀꛣꚧꚳ
-  base: ꚠ ꚰ ꛀ ꛐ ꛠ ꚡ ꚱ ꛁ ꛑ ꛡ ꚢ ꚲ ꛂ ꛒ ꛢ ꛲ ꚣ ꚳ ꛃ ꛓ ꛣ ꛳ ꚤ ꚴ ꛄ ꛔ ꛤ ꛴ ꚥ ꚵ ꛅ ꛕ ꛥ ꛵ ꚦ ꚶ ꛆ ꛖ ꛦ ꛶ ꚧ ꚷ ꛇ ꛗ ꛧ ꛷ ꚨ ꚸ ꛈ ꛘ ꛨ ꚩ ꚹ ꛉ ꛙ ꛩ ꚪ ꚺ ꛊ ꛚ ꛪ ꚫ ꚻ ꛋ ꛛ ꛫ ꚬ ꚼ ꛌ ꛜ ꛬ ꚭ ꚽ ꛍ ꛝ ꛭ ꚮ ꚾ ꛎ ꛞ ꛮ ꚯ ꚿ ꛏ ꛟ ꛯ
+  base: ꚠ ꚰ ꛀ ꛐ ꛠ ꚡ ꚱ ꛁ ꛑ ꛡ ꚢ ꚲ ꛂ ꛒ ꛢ ꛲ ꚣ ꚳ ꛃ ꛓ ꛣ ꛳ ꚤ ꚴ ꛄ ꛔ ꛤ ꛴ ꚥ ꚵ ꛅ ꛕ ꛥ ꛵ ꚦ ꚶ ꛆ
+    ꛖ ꛦ ꛶ ꚧ ꚷ ꛇ ꛗ ꛧ ꛷ ꚨ ꚸ ꛈ ꛘ ꛨ ꚩ ꚹ ꛉ ꛙ ꛩ ꚪ ꚺ ꛊ ꛚ ꛪ ꚫ ꚻ ꛋ ꛛ ꛫ ꚬ ꚼ ꛌ ꛜ ꛬ ꚭ ꚽ ꛍ ꛝ ꛭ
+    ꚮ ꚾ ꛎ ꛞ ꛮ ꚯ ꚿ ꛏ ꛟ ꛯ
   note: Language also know as Shupamem, Bamun, or Bamoun [Wikipedia]
   script: Bamum
   status: primary
-source:
-- Omniglot
-- Wikipedia
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Bamum language. (2024, March 20). In *Wikipedia*. https://en.wikipedia.org/wiki/Bamum_language?oldid=1214723775
 speakers: 420000
 speakers_date: 2005
 validity: preliminary

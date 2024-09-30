@@ -4,13 +4,15 @@ contributors:
 name: Eastern Abnaki
 orthographies:
 - autonym: Wôbanakiôdwawôgan
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ô a b c d e f g h i j k l m n o p q r s t u v w x y z ô
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ô a b c d e f g h i j
+    k l m n o p q r s t u v w x y z ô
   marks: ◌̂
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Omniglot
-- Wikipedia
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Abenaki language. (2024, June 29). In *Wikipedia*. https://en.wikipedia.org/wiki/Abenaki_language?oldid=1231692594
 speakers: 0
 status: historical
 validity: preliminary

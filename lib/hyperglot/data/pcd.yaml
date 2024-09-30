@@ -3,13 +3,15 @@ contributors:
 name: Picard
 orthographies:
 - autonym: Picard
-  base: A Â Å B C Ç D E Ê É È F G I Î Ï K L H J M N O Ô P Q R S T U Û V W Y Ŷ Z Æ Œ a â å b c ç d e ê é è f g i î ï k l h j m n o ô p q r s t u û v w y ŷ z æ œ
+  base: A Â Å B C Ç D E Ê É È F G I Î Ï K L H J M N O Ô P Q R S T U Û V W Y Ŷ Z Æ
+    Œ a â å b c ç d e ê é è f g i î ï k l h j m n o ô p q r s t u û v w y ŷ z æ œ
   marks: ◌̀ ◌́ ◌̂ ◌̈ ◌̊ ◌̧
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Omniglot
-- Wikipedia
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Picard language. (2024, August 21). In *Wikipedia*. https://en.wikipedia.org/wiki/Picard_language?oldid=1241456886
 speakers: 700000
 speakers_date: 2008
 validity: preliminary

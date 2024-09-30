@@ -3,12 +3,14 @@ contributors:
 name: Tojolabal
 orthographies:
 - autonym: Tojolꞌabꞌal
-  base: A B C D E G I J K L M N O P R S T U W X Y Ꞌ a b c d e g i j k l m n o p r s t u w x y ꞌ
+  base: A B C D E G I J K L M N O P R S T U W X Y Ꞌ a b c d e g i j k l m n o p r
+    s t u w x y ꞌ
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Omniglot
-- Wikipedia
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Tojolabʼal language. (2024, January 5). In *Wikipedia*. https://en.wikipedia.org/wiki/Tojolab%CA%BCal_language?oldid=1193671821
 speakers: 51733
 speakers_date: 2010
 validity: preliminary

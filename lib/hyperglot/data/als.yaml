@@ -7,11 +7,14 @@ orthographies:
 - autonym: Shqip
   base: <aln>
   marks: <aln>
+  punctuation: <aln>
+  currency: <aln>
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Wikipedia
-- Omniglot
+sources:
+- Tosk Albanian. (2024, August 8). In *Wikipedia*. https://en.wikipedia.org/wiki/Tosk_Albanian?oldid=1239264709
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
 speakers: 1800000
 speakers_date: 2011
 status: living

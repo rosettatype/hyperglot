@@ -3,13 +3,15 @@ contributors:
 name: Sicilian
 orthographies:
 - autonym: Sicilianu
-  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Â È Ì Ò Ù a b c d e f g h i j k l m n o p q r s t u v w x y z à â è ì ò ù
+  base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Â È Ì Ò Ù a b c d e
+    f g h i j k l m n o p q r s t u v w x y z à â è ì ò ù
   marks: ◌̀ ◌̂
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Omniglot
-- Wikipedia
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Sicilian language. (2024, August 15). In *Wikipedia*. https://en.wikipedia.org/wiki/Sicilian_language?oldid=1240544153
 speakers: 4700000
 speakers_date: 2002
 status: living

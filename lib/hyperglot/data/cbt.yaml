@@ -5,11 +5,12 @@ orthographies:
 - autonym: Shawi
   base: A H I U K M N P R S T W Ɨ Č Š a h i u k m n p r s t w ɨ č š
   marks: ◌̌
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Omniglot
-- Wikipedia
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Chayahuita language. (2023, November 13). In *Wikipedia*. https://en.wikipedia.org/wiki/Chayahuita_language?oldid=1184953353
 speakers: 14000
 speakers_date: 2011
 validity: preliminary

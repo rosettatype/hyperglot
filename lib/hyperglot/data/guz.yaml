@@ -4,12 +4,14 @@ name: Gusii
 orthographies:
 - autonym: Ekegusii
   auxiliary: Q X q x
-  base: A B C D E F G H I J K L M N O P R S T U V W Y Z a b c d e f g h i j k l m n o p r s t u v w y z
+  base: A B C D E F G H I J K L M N O P R S T U V W Y Z a b c d e f g h i j k l m
+    n o p r s t u v w y z
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Omniglot
-- CLDR
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
 speakers: 2200000
 speakers_date: 2009
 status: living

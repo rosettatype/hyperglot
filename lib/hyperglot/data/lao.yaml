@@ -6,14 +6,18 @@ orthographies:
 - autonym: ພາສາລາວ
   base: ກ ຂ ຄ ງ ຈ ສ ຊ ຍ ດ ຕ ຖ ທ ນ ບ ປ ຜ ຝ ພ ຟ ມ ຢ ຣ ລ ວ ຫ ອ ຮ ະ າ ເ ແ ໂ ໃ ໄ ຽ
   design_requirements:
-  - Mark positioning and some character combinations (ligatures) have to be resolved to properly represent the language.
+  - Mark positioning and some character combinations (ligatures) have to be resolved
+    to properly represent the language.
   marks: ◌ັ ◌ິ ◌ີ ◌ຶ ◌ື ◌ຸ ◌ູ ◌ົ ◌ຼ ◌່ ◌້ ◌໊ ◌໋ ◌໌ ◌ໍ
-  numerals: ໐ ໑ ໒ ໓ ໔ ໕ ໖ ໗ ໘ ໙ 0 1 2 3 4 5 6 7 8 9
-  punctuation: ຯ ໆ
+  punctuation: <default Latin> ຯ ໆ “ ”
+  currency: <default Latin> ₭
+  numerals: ໐ ໑ ໒ ໓ ໔ ໕ ໖ ໗ ໘ ໙ <default Latin>
   script: Lao
   status: primary
-source:
-- Omniglot
-- Wikipedia
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Quotation mark. (2024, September 26). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Quotation_mark&oldid=1247790780
+- List of currency symbols. (2024, July 15). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Template:List_of_currency_symbols&oldid=1234688642
+sources note: missing
 speakers: 30000000
 validity: preliminary

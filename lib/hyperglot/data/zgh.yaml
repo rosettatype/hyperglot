@@ -4,16 +4,19 @@ contributors:
 name: Standard Moroccan Tamazight
 orthographies:
 - autonym: ⵜⴰⵎⴰⵣⵉⵖⵜ
-  base: ⴰ ⴱ ⴳ ⵯ ⴷ ⴹ ⴻ ⴼ ⴽ ⵀ ⵃ ⵄ ⵅ ⵇ ⵉ ⵊ ⵍ ⵎ ⵏ ⵓ ⵔ ⵕ ⵖ ⵙ ⵚ ⵛ ⵜ ⵟ ⵡ ⵢ ⵣ ⵥ ⴲ ⴴ ⴵ ⴶ ⴸ ⴺ ⴾ ⴿ ⵁ ⵂ ⵆ ⵈ ⵋ ⵌ ⵐ ⵑ ⵒ ⵗ ⵘ ⵝ ⵞ ⵤ ⵦ ⵧ
+  base: ⴰ ⴱ ⴳ ⵯ ⴷ ⴹ ⴻ ⴼ ⴽ ⵀ ⵃ ⵄ ⵅ ⵇ ⵉ ⵊ ⵍ ⵎ ⵏ ⵓ ⵔ ⵕ ⵖ ⵙ ⵚ ⵛ ⵜ ⵟ ⵡ ⵢ ⵣ ⵥ ⴲ ⴴ ⴵ ⴶ ⴸ
+    ⴺ ⴾ ⴿ ⵁ ⵂ ⵆ ⵈ ⵋ ⵌ ⵐ ⵑ ⵒ ⵗ ⵘ ⵝ ⵞ ⵤ ⵦ ⵧ
   script: Tifinagh
   status: primary
 - autonym: Tamaziɣt
-  base: A B G D Ḍ E F K H Ḥ X Q I J L M N U R Ṛ S Ṣ C T Ṭ W Ɣ Z Ẓ a b g d ḍ e f k h ḥ x q i j l m n u r ṛ s ṣ c t ṭ w ɣ z ẓ
+  base: A B G D Ḍ E F K H Ḥ X Q I J L M N U R Ṛ S Ṣ C T Ṭ W Ɣ Z Ẓ a b g d ḍ e f k
+    h ḥ x q i j l m n u r ṛ s ṣ c t ṭ w ɣ z ẓ
   marks: ◌̣
+  numerals: <default>
   script: Latin
   status: secondary
-source:
-- Omniglot
-- Wikipedia
-- CLDR
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Standard Moroccan Amazigh. (2024, April 2). In *Wikipedia*. https://en.wikipedia.org/wiki/Standard_Moroccan_Amazigh?oldid=1216863691
+- '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
 validity: preliminary

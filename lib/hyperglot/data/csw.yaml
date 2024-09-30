@@ -4,12 +4,14 @@ contributors:
 name: Swampy Cree
 orthographies:
 - autonym: ᓀᐦᐃᔭᐍᐏᐣ
-  base: ᐁ ᐃ ᐅ ᐊ ᐍ ᐏ ᐑ ᐓ ᐕ ᐘ ᐚ ᐤ ᐯ ᐱ ᐲ ᐳ ᐴ ᐸ ᐹ ᑊ ᑌ ᑎ ᑏ ᑐ ᑑ ᑕ ᑖ ᐟ ᑫ ᑭ ᑮ ᑯ ᑰ ᑲ ᑳ ᐠ ᒉ ᒋ ᒌ ᒍ ᒎ ᒐ ᒑ ᐨ ᒣ ᒥ ᒦ ᒧ ᒨ ᒪ ᒫ ᒼ ᓀ ᓂ ᓃ ᓄ ᓅ ᓇ ᓈ ᐣ ᓭ ᓯ ᓰ ᓱ ᓲ ᓴ ᓵ ᐢ ᔦ ᔨ ᔩ ᔪ ᔫ ᔭ ᔮ ᓬ ᕒ ᐦ ᐩ ᕁ ᑵ
+  base: ᐁ ᐃ ᐅ ᐊ ᐍ ᐏ ᐑ ᐓ ᐕ ᐘ ᐚ ᐤ ᐯ ᐱ ᐲ ᐳ ᐴ ᐸ ᐹ ᑊ ᑌ ᑎ ᑏ ᑐ ᑑ ᑕ ᑖ ᐟ ᑫ ᑭ ᑮ ᑯ ᑰ ᑲ ᑳ ᐠ ᒉ
+    ᒋ ᒌ ᒍ ᒎ ᒐ ᒑ ᐨ ᒣ ᒥ ᒦ ᒧ ᒨ ᒪ ᒫ ᒼ ᓀ ᓂ ᓃ ᓄ ᓅ ᓇ ᓈ ᐣ ᓭ ᓯ ᓰ ᓱ ᓲ ᓴ ᓵ ᐢ ᔦ ᔨ ᔩ ᔪ ᔫ ᔭ ᔮ ᓬ
+    ᕒ ᐦ ᐩ ᕁ ᑵ
   script: Cree
   status: primary
-source:
-- Omniglot
-- Wikipedia
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Swampy Cree language. (2024, April 6). In *Wikipedia*. https://en.wikipedia.org/wiki/Swampy_Cree_language?oldid=1217610360
 speakers: 1805
 speakers_date: 2016
 validity: preliminary

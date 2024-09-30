@@ -3,13 +3,17 @@ contributors:
 name: Lamnso'
 orthographies:
 - autonym: Lamnsɔ'
-  base: A B D E Ə Ɛ F G I J K L M N Ŋ O Ɔ S T U V W Ɣ a b d e ə ɛ f g i j k l m n ŋ o ɔ s t u v w ɣ '
+  base: A B D E Ə Ɛ F G I J K L M N Ŋ O Ɔ S T U V W Ɣ a b d e ə ɛ f g i j k l m n
+    ŋ o ɔ s t u v w ɣ '
   design_requirements:
-  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in African languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  - There are two common design variants both encoded as Ŋ, one resembling the lowercase
+    ŋ reaching cap height favoured in African languages, and the other resembling
+    N with J as the second stem favoured in Sami languages.
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Wikipedia
+sources:
+- Nso language. (2024, March 4). In *Wikipedia*. https://en.wikipedia.org/wiki/Nso_language?oldid=1211831960
 speakers: 240000
 speakers_date: 2005
 validity: preliminary

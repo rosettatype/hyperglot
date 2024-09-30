@@ -4,11 +4,12 @@ name: Arabela
 orthographies:
 - autonym: Tapweyokwaka
   base: A E H I J K M N O P R S T U W Y Ɨ a e h i j k m n o p r s t u w y ɨ
+  numerals: <default>
   script: Latin
   status: primary
-source:
-- Omniglot
-- Wikipedia
+sources:
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Arabela language. (2023, August 11). In *Wikipedia*. https://en.wikipedia.org/wiki/Arabela_language?oldid=1169792241
 speakers: 50
 speakers_date: 2002
 validity: preliminary
