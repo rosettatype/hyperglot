@@ -51,7 +51,7 @@ def find_all_inheritance_codes(value: str) -> List:
     """
     if isinstance(value, str) is False:
         return []
-    
+
     inherit = RE_INHERITANCE_TAG.findall(value)
 
     if inherit is None or inherit == []:
@@ -372,18 +372,18 @@ note: {note}
         )
 
     @property
-    def script(self):
+    def script(self) -> str:
         return self["script"]
 
     @property
-    def base(self):
+    def base(self) -> List:
         """
         A parsed base list, including unencoded base + mark combinations
         """
         return self._character_list("base")
 
     @property
-    def base_chars(self):
+    def base_chars(self) -> List:
         """
         A list of all encoded base characters (no marks)
         """
@@ -399,14 +399,14 @@ note: {note}
         return base
 
     @property
-    def auxiliary(self):
+    def auxiliary(self) -> List:
         """
         A parsed auxiliary list, including unencoded base + mark combinations
         """
         return self._character_list("auxiliary")
 
     @property
-    def auxiliary_chars(self):
+    def auxiliary_chars(self) -> List:
         """
         A list of all encoded auxiliary characters (no marks)
         """
@@ -422,41 +422,44 @@ note: {note}
         return aux
 
     @property
-    def base_marks(self):
+    def base_marks(self) -> List:
         return self._all_marks("base")
 
     @property
-    def auxiliary_marks(self):
+    def auxiliary_marks(self) -> List:
         return self._all_marks("aux")
 
     @property
-    def required_base_marks(self):
+    def required_base_marks(self) -> List:
         return self._required_marks("base")
 
     @property
-    def required_auxiliary_marks(self):
+    def required_auxiliary_marks(self) -> List:
         return self._required_marks("aux")
 
     @property
-    def combinations(self):
-        # print("COMBOS", self["autonym"], "C>", self["combinations"], "<C", type(self["combinations"]))
-        # return self._cluster_list("combinations")
+    def combinations(self) -> dict:
+        # Combinations are expected to be a dict of "str": "frequency"; or
+        # a list of "str", in which case transform into a dict of "str" : 1
+        # so checks can all expect a dict.
+        if isinstance(self["combinations"], list):
+            combos = zip(self["combinations"], [1] * len(self["combinations"]))
         return self["combinations"]
 
     @property
-    def currency(self):
+    def currency(self) -> List:
         return self._character_list("currency")
 
     @property
-    def punctuation(self):
+    def punctuation(self) -> List:
         return self._character_list("punctuation")
 
     @property
-    def numerals(self):
+    def numerals(self) -> List:
         return self._character_list("numerals")
 
     @property
-    def design_alternates(self):
+    def design_alternates(self) -> List:
         return [
             remove_mark_base(chars)
             for chars in self._character_list("design_alternates")
@@ -479,7 +482,7 @@ note: {note}
 
     # "Private" methods
 
-    def _character_list(self, attr:str) -> List:
+    def _character_list(self, attr: str) -> List:
         """
         Get a character list from an orthography.
         """
@@ -487,8 +490,8 @@ note: {note}
             return []
 
         return parse_chars(self[attr], decompose=False, retain_decomposed=False)
-    
-    def _cluster_list(self, attr:str) -> List:
+
+    def _cluster_list(self, attr: str) -> List:
         """
         Get clusters from an orthoraphy attribute, simply split by whitespace.
         """

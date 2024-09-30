@@ -77,20 +77,37 @@ class Shaper:
         """
         return [str(self.font.get_glyph_name(m)) for m in codepoints]
 
-    @lru_cache
-    def _get_font_cp(self, char: str) -> Union[int | bool]:
-        """
-        Render character in the buffer to get the font codepoint for it.
-        """
+    def glyphname_for_unicode(self, char: str) -> Union[str | None]:
+        try:
+            cp = self.font.get_glyph(ord(char))
+            return self.font.get_glyph_name(cp)
+        except Exception as e:
+            return None
 
-        cmap = {v: k for k, v in self.ttf["cmap"].getBestCmap().items()}
 
-        for d in self.get_glyph_data(char):
-            glyphname = self.font.get_glyph_name(d[0].codepoint)
-            try:
-                if (cmap[glyphname]) == ord(char):
-                    return d[0].codepoint
-            except KeyError as e:
-                log.debug(f"Failed to get font codepoint for '{char}': {e}")
+    # def font_has_mark_lookup_for(self, char:str, mark:str) -> bool:
+    #     """
+    #     Note: Not super useful right now, but may be needed at some point. Also
+    #     Need to account for the aliases still to work.
 
-        return False
+    #     For a pair of two characters (base + mark, liga + mark, mark + mark)
+    #     check if a mark positioning entry exists in the font.
+    #     """
+    #     char_name = self.glyphname_for_unicode(char)
+    #     mark_name = self.glyphname_for_unicode(mark)
+
+    #     if not char_name or not mark_name:
+    #         return False
+
+    #     if "GPOS" not in self.ttf:
+    #         return False
+
+    #     for l in self.ttf["GPOS"].table.LookupList.Lookup:
+    #         # Mark to Base, Mark to Ligature, Mark to Mark
+    #         if l.LookupType in (4, 5, 6):
+    #             for s in l.SubTable:
+    #                 # No need to check the actual values, as long as the
+    #                 # coverage overlaps it's a match.
+    #                 if char_name in s.BaseCoverage.glyphs and mark_name in s.MarkCoverage.glyphs:
+    #                     return True
+    #     return False

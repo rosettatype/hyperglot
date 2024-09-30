@@ -61,7 +61,7 @@ class CheckBase:
         dotted circles. As a fairly general check this may be useful in multiple
         check implementations.
         """
-        dotted_circle_cp = shaper._get_font_cp(self.DOTTED_CIRCLE)
+        dotted_circle_cp = shaper.font.get_nominal_glyph(ord(self.DOTTED_CIRCLE))
 
         gdata = shaper.get_glyph_data(input)
 

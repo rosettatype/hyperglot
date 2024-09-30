@@ -305,6 +305,9 @@ class Checker:
                     validity=validity,
                     threshold=shaping_threshold,
                 )
+
+                log.debug(f"Running check {check_name} for {iso}: " + ("Satisfied" if result else "Failed"))
+
                 if not result:
                     supported = False
 

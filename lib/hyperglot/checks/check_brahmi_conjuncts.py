@@ -85,8 +85,6 @@ class Check(CheckBase):
         - contain at least two consonants
         - the virama is between the consonants, but there may be other characters (marks, vowels)
         """
-        # print("CLUSTER", cluster)
-        cluster = cluster[0]
         if isinstance(cluster, str) is False:
             return False
 
@@ -132,13 +130,11 @@ class Check(CheckBase):
             log.warning(f"Virama found at end of cluster '{input}'")
             return True
 
-        virama_cp = shaper._get_font_cp(self.VIRAMA)
+        virama_cp = shaper.font.get_nominal_glyph(0x094D)
 
-        if virama_cp is False:
+        if virama_cp is None:
             log.debug("Font contains no Virama, cannot form cluster.")
             return False
-
-        # print("CONJUNCT", input, [c for c in input], [self._get_category(c) for c in input])
 
         require_virama_consumed = False
         require_virama_remains = False

@@ -5,6 +5,7 @@ plex_arabic = os.path.abspath(
     "tests/plex-4.0.2/IBM-Plex-Sans-Arabic/fonts/complete/otf/IBMPlexSansArabic-Regular.otf"
 )  # noqa
 eczar = os.path.abspath("tests/Eczar-v1.004/otf/Eczar-Regular.otf")
+yantramanav = os.path.abspath("tests/Yantramanav/Yantramanav-Medium.ttf")
 
 
 def test_shaper():
@@ -29,3 +30,8 @@ def test_shaper():
         plex_shaper.shape("تً").glyph_positions[1].position
         == plex_shaper.shape("ت").glyph_positions[0].position
     )
+
+
+# def test_shaper_mark():
+#     eczar_shaper = Shaper(eczar)
+#     assert eczar_shaper.font_has_mark_lookup_for(chr(0x0935), chr(0x0943)) is True
