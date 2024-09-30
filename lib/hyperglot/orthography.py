@@ -423,12 +423,14 @@ note: {note}
 
     @property
     def combinations(self) -> dict:
-        # Combinations are expected to be a dict of "str": "frequency"; or
-        # a list of "str", in which case transform into a dict of "str" : 1
-        # so checks can all expect a dict.
+        d = {}
         if isinstance(self["combinations"], list):
-            combos = zip(self["combinations"], [1] * len(self["combinations"]))
-        return self["combinations"]
+            for c in self["combinations"]:
+                if isinstance(c, dict):
+                    d.update(c)
+                elif isinstance(c, list):
+                    d[c[0]] = 1
+        return d
 
     @property
     def currency(self) -> List:
