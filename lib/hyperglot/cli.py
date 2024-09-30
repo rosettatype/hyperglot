@@ -252,8 +252,8 @@ def hyperglot_options(f):
     @click.option(
         "-t",
         "--shaping-threshold",
-        default=95,
-        type=click.IntRange(0, 100, clamp=True),
+        default=0.001,
+        type=click.FloatRange(0.0, 1.0, clamp=True),
         help="Complex script shaping checks pass when a font renders correctly "
         "for this percent threshold of checks. 0-100."
     )
@@ -372,7 +372,7 @@ def cli(
             decomposed=decomposed,
             marks=marks,
             shaping=True,
-            shaping_threshold=shaping_threshold/100,
+            shaping_threshold=shaping_threshold,
             include_all_orthographies=include_all_orthographies,
             include_historical=include_historical,
             include_constructed=include_constructed,

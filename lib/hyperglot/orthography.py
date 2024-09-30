@@ -49,9 +49,9 @@ def find_all_inheritance_codes(value: str) -> List:
     """
     In an attribute value find all <iso ...> inheritance shortcodes.
     """
-    if not value:
+    if isinstance(value, str) is False:
         return []
-
+    
     inherit = RE_INHERITANCE_TAG.findall(value)
 
     if inherit is None or inherit == []:
@@ -439,7 +439,9 @@ note: {note}
 
     @property
     def combinations(self):
-        return self._cluster_list("combinations")
+        # print("COMBOS", self["autonym"], "C>", self["combinations"], "<C", type(self["combinations"]))
+        # return self._cluster_list("combinations")
+        return self["combinations"]
 
     @property
     def currency(self):
