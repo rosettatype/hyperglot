@@ -18,7 +18,10 @@ class Check(CheckBase):
     logger = logging.getLogger("hyperglot.reporting.halfforms")
 
     def check(self, orthography, checker, **kwargs):
-        for h in filter(self.filter_halfforms, orthography.combinations):
+        if not orthography.combinations:
+            return True
+        
+        for h in filter(self.filter_halfforms, orthography.combinations.keys()):
             if not self.check_halfform(h, checker.shaper):
                 return False
         return True

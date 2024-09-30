@@ -45,29 +45,36 @@ class Check(CheckBase):
 
         options = self._get_options(**kwargs)
 
-        conjuncts = list(filter(self.filter_conjuncts, orthography.combinations))
-        if conjuncts == []:
+        if not orthography.combinations:
+            return True
+        conjuncts = dict(filter(self.filter_conjuncts, orthography.combinations.items()))
+        if conjuncts == {}:
             return True
 
         # Iterate all syllables to provide reporting.
         # TODO exit early if no reporting is set
-        passed = 0
-        failed = 0
 
-        for conjunct in conjuncts:
+        fails_over_threshold = False
+
+        for conjunct, frequency in conjuncts.items():
+            fails = False
             # Ensure no .notdef are left over
             if not self.check_all_render(conjunct, checker.shaper):
-                failed += 1
-                continue
+                fails = True
+                # continue
             if not self.check_conjunct(conjunct, checker.shaper):
-                failed += 1
-                continue
-            passed += 1
+                fails = True
+            
+            if fails:
+                fmt_threshold = str(options["threshold"]).format(".5f")
 
-        percent = passed/(passed + failed)
-        print("Overall", percent, options["threshold"])
+                if frequency > options["threshold"]:
+                    logging.error(f"Conjunct '{conjunct} ({frequency:.5f}) does not shape and does not pass frequency threshold ({fmt_threshold}).")
+                    fails_over_threshold = True
+                else:
+                    logging.warning(f"Conjunct '{conjunct} ({frequency:.5f}) does not shape, but passes threshold ({fmt_threshold}).")
 
-        return percent > options["threshold"]
+        return not fails_over_threshold
 
     def filter_conjuncts(self, cluster: str) -> bool:
         """
@@ -78,6 +85,8 @@ class Check(CheckBase):
         - contain at least two consonants
         - the virama is between the consonants, but there may be other characters (marks, vowels)
         """
+        # print("CLUSTER", cluster)
+        cluster = cluster[0]
         if isinstance(cluster, str) is False:
             return False
 
