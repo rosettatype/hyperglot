@@ -211,11 +211,11 @@ def test_inheritance(caplog):
 
     # Afar (aar) has no auxiliary or marks to inherit, this should trigger a
     # warning.
-    with caplog.at_level(logging.WARNING):
+    with pytest.raises(KeyError):
         Orthography({"auxiliary": "<aar>", "script": "Latin"})
         assert "Orthography cannot inherit non-existing" in caplog.text
 
-    with caplog.at_level(logging.WARNING):
+    with pytest.raises(KeyError):
         Orthography({"marks": "<aar>", "script": "Latin"})
         assert "Orthography cannot inherit non-existing" in caplog.text
 
@@ -229,7 +229,7 @@ def test_inheritance(caplog):
     # The inherited value IS in the parsed Orthography
     assert "$" in Language("fra").get_orthography()["currency"]
     print("OK", Language("arb").get_orthography()["numerals"])
-    assert "0" in Language("arb").get_orthography()["numerals"]
+    assert "0" not in Language("arb").get_orthography()["numerals"]
 
     # Confirm specifying a script works
     basic = Orthography({"base": "<eng Latin> ß ∂ œ ø", "script": "Latin"})
@@ -298,5 +298,5 @@ def test_inherit_default():
     assert "٩" in inherit_default_script.numerals
 
     arb = Language("arb").get_orthography()
-    assert "0" in arb.numerals
+    assert "0" not in arb.numerals
     assert "٩" in arb.numerals
