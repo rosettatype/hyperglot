@@ -241,7 +241,7 @@ class Orthography(dict):
         "punctuation": "",
         "numerals": "",
         "currency": "",
-        "conjuncts": "",
+        "combinations": "",
         "design_requirements": [],
     }
 
@@ -422,8 +422,8 @@ note: {note}
         return self._required_marks("aux")
 
     @property
-    def conjuncts(self):
-        return self._character_list("conjuncts")
+    def combinations(self):
+        return self._cluster_list("combinations")
 
     @property
     def currency(self):
@@ -457,13 +457,20 @@ note: {note}
     def _character_list(self, attr) -> List[str]:
         """
         Get a character list from an orthography.
-
-        @return set or bool
         """
         if attr not in self or not self[attr]:
             return []
 
         return parse_chars(self[attr], decompose=False, retain_decomposed=False)
+    
+    def _cluster_list(self, attr:str) -> List:
+        """
+        Get clusters from an orthoraphy attribute, simply split by whitespace.
+        """
+        if attr not in self or not self[attr]:
+            return []
+
+        return re.split(r"\s+", self[attr])
 
     def _required_marks(self, level="base"):
         """

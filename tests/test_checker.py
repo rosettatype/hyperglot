@@ -170,9 +170,7 @@ def test_supports_marks():
     assert CharsetChecker(chars).supports_language("deu", marks=True) is False
 
 
-def test_supports_decomposed_only_marks(caplog):
-    caplog.set_level(logging.WARNING, logger="hyperglot.reporting.missing")
-
+def test_supports_decomposed_only_marks():
     eczar = os.path.abspath("tests/Eczar-v1.004/otf/Eczar-Regular.otf")
     chars = parse_font_chars(eczar)
 

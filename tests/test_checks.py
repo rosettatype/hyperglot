@@ -2,10 +2,12 @@
 Test the individual lib/hyperglot/checks and their components.
 """
 import os
+import logging
 
 from hyperglot.checks.check_coverage import Check as CheckCoverage
 from hyperglot.checks.check_mark_attachment import Check as CheckMarkAttachment
 from hyperglot.checks.check_arabic_joining import Check as CheckArabicJoining
+from hyperglot.checks.check_brahmi_conjuncts import Check as CheckBrahmiConjuncts
 from hyperglot.language import Language
 from hyperglot.checker import CharsetChecker
 from hyperglot.shaper import Shaper
@@ -124,32 +126,76 @@ def test_check_joining():
     assert joining_check.check_joining(ord("ب"), test_shaper) is False
 
 
-# WIP
-# def test_conjunct_shaping():
-#     logging.getLogger("hyperglot.shaper").setLevel(logging.DEBUG)
-#     eczar_shaper = Shaper(eczar)
-#     # conjuncts = ["भि‍", "स्‍‍", "म़ि", "वै्", "दृ‍", "लै‍", "यो्", "जा्", "चोः", "दॄ", "डो़", "ढी़", "या‌", "ख़ां", "बि्", "शा्", "पो्", "ग़ं", "तॉ", "थाँ", "थे्", "यॉँ", "मा‍", "नि्", "चू्", "णीः", "धाः",]
-#     conjuncts = ["र", "क", "न", "स", "त", "के", "य", "प", "का", "म", "में", "र्", "या", "ल", "व", "अ", "ग", "है", "ए", "स्", "प्", "ह", "ने", "की", "से", "रा", "ता", "त्", "क्", "ब", "उ", "इ", "औ"]
-#     for s in conjuncts:
-#         assert eczar_shaper.check_conjuncts(s) is True
+def test_check_conjuncts(caplog):    
+    conjuncts_check = CheckBrahmiConjuncts()
+    plex_shaper = Shaper(plex_arabic)
+    eczar_shaper = Shaper(eczar)
 
-#     # C+
-#     assert eczar_shaper.check_conjuncts("र्") is True
-#     # CM+
-#     assert eczar_shaper.check_conjuncts("ख़्") is True
+    # Plex Arabic has no Virama:
+    assert conjuncts_check.check_conjunct("स्व", plex_shaper) is False
+    assert "Font contains no Virama" in caplog.records[-1].message
+    
+    # Check a basic conjunct with a supporting font
+    assert conjuncts_check.check_all_render("स्व", eczar_shaper) is True
+    assert conjuncts_check.check_conjunct("स्व", eczar_shaper) is True
 
-#     # CD+, shapes but without consuming virama
-#     assert eczar_shaper.check_conjuncts("टि्") is True
+    # Check a basic conjunct with ZWJ (consumes virama)
+    assert conjuncts_check.check_all_render("स्‍व", eczar_shaper) is True
+    assert conjuncts_check.check_conjunct("स्‍व", eczar_shaper) is True
+    assert conjuncts_check.check_conjunct("न्‍", eczar_shaper) is True
+    assert conjuncts_check.check_conjunct("स्‍", eczar_shaper) is True
+    assert conjuncts_check.check_conjunct("क्‍", eczar_shaper) is True
+    
+    # Check a basic conjunct with ZWNJ (retains virama)
+    assert conjuncts_check.check_all_render("स्‌व", eczar_shaper) is True
+    assert conjuncts_check.check_conjunct("स्‌व", eczar_shaper) is True
+    assert conjuncts_check.check_conjunct("न्‌", eczar_shaper) is True
+    assert conjuncts_check.check_conjunct("त्‌", eczar_shaper) is True
 
+    # A non-sense conjunct should trigger a warning, but pass
+    assert conjuncts_check.check_conjunct("ABC", eczar_shaper) is True
+    assert "No Virama in conjunct" in caplog.records[-1].message
 
-#     # Has no codepoints for this shaping
-#     plex_shaper = Shaper(plex_arabic)
-#     assert plex_shaper.check_conjuncts("ख़्") is False
+    # A sample of simple, valid consonant-virama-consonant (+x) conjuncts that should render    
+    for s in ["स्त", "त्त", "र्म", "ध्य", "क्ति", "स्थि"]:
+        assert conjuncts_check.check_all_render(s, eczar_shaper) is True
+        assert conjuncts_check.check_conjunct(s, eczar_shaper) is True
 
-#     test_shaper = Shaper(testfont)
-#     assert test_shaper.check_conjuncts("ख़्") is False
+    # A sample of longer, multi-consonant conjuncts that should render
+    for s in ["फ़्ग़ा", "ज़्ज़ा", "फ़्फ़", "फ़्रां", "फ़्रैं", "फ़्रें", "फ़्राँ", "ज़्या", "फ़्री", "फ़्रा", "ख़्या", "फ़्लै", "ख़्तू", "ख़्वा", "फ़्रि", "फ़्ता", "ज़्यू", "ज़्बे", "फ़्ते", "ज़्मा", "फ़्ती", "ज़्टे", "फ़्रे", "फ़्यू"]:
+        assert conjuncts_check.check_conjunct(s, eczar_shaper) is True
 
-#     assert eczar_shaper.check_conjuncts("ल्पि") is True
+    
+def test_check_conjuncts_filter():
+
+    conjuncts_check = CheckBrahmiConjuncts()
+    assert conjuncts_check.filter_conjuncts("A") is False
+    assert conjuncts_check.filter_conjuncts("ABC") is False
+
+    # Just virama is not enough
+    assert conjuncts_check.filter_conjuncts(chr(0x094D)) is False
+
+    # Consonant + virama also not enough
+    halfforms = ["न्", "त्", "द्", "म्", "प्", "ह्"]
+    for h in halfforms:
+        assert conjuncts_check.filter_conjuncts(h) is False
+
+    # Halfform + x should be a conjunct
+    for h in halfforms:
+        assert conjuncts_check.filter_conjuncts(h + "क") is True
+
+    # Test some actual conjuncts with vowels and marks
+    for c in ["स्ट", "ग्र", "द्र", "क्स", "र्मा", "त्रि", "श्चि", "श्य", "र्श", "ष्ट", "ख्य", "ष्ट्री", "न्त", "र्ड", "त्म", "म्ब", "द्या", "त्रा", "स्तु", "ब्द", "त्रों", "स्प", "ग्रा", "प्रे", "न्या", "स्कृ", "ब्रि"]:
+        assert conjuncts_check.filter_conjuncts(c) is True
+
+    # Test some clusters with single consonant
+    for c in ["के", "का", "में", "हैं", "हीं", "रों", "ड़े", "हिं"]:
+        assert conjuncts_check.filter_conjuncts(c) is False
+
+    # A combination of C + C + Virama should fail
+    assert conjuncts_check.filter_conjuncts("कक" + chr(0x094D)) is False
+    # A combination of Virama + C + C should fail
+    assert conjuncts_check.filter_conjuncts(chr(0x094D) + "कक") is False
 
 
 # def test_conjunct_marks():
