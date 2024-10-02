@@ -6,25 +6,28 @@ The database is stored in the YAML file `lib/Hyperglot/data/xxx.yaml`.
 
 ### Languages
 
-The highest level entries in the database represent languages indexed using the ISO 639-3 code. (We are aware that opinions regarding what constitutes a dialect or language differ, but we have to adhere to an international standard.) Each language entry can have these attributes which default to empty string or list unless stated otherwise:
+The highest level entries in the database represent languages indexed using their three-letter ISO 639-3 code.\* Each language entry can have the following attributes:
 
-- `name` (required): the English name of the language. This is also based on ISO 639-3. 
-- `preferred_name` (optional): an override of the ISO 639-3 name. This is useful when the ISO 639-3 name  is pejorative or racist. We also use this to simplify very long names and where we have a preference (e.g. Sami over Saami). This can be turned off when using the database via the CLI tool or module to adhere strictly to ISO 639-3.
+- `name` (required): the English name of the language. This is also based on ISO 639-3.
+- `preferred_name` (optional): an override of the ISO 639-3 name. This is useful when the ISO 639-3 name is pejorative or racist. We also use this to simplify very long names and where we have a preference (e.g. Sami over Saami). This can be turned off when using the database via the CLI tool or module to adhere strictly to the naming as defined in ISO 639-3.
 - `autonym` (optional): the name of the language in the language itself.
-- `orthographies` (optional): a list of orthographies for this language. See below.
+- `orthographies` (optional): a list of orthographies for the language. See orthography entry format below.
 - `speakers` (optional) is a number of L1 speakers. Note that this is a number of speakers, not a number of readers. Only integer values are allowed. If a source lists a range the maximimum of the estimated range is listed.
-- `speakers_date` (optional) is the publication date of the reference used for the speakers count on Wikipedia.
+- `speakers_date` (optional) is the publication date of the source used for the speakers count.
 - `status` (required, defaults to `living`) the status of the language, may be one of `historical, constructed, living`.
-- `source` (optional) is a list of source names used to define the orthographies, e.g. Wikipedia, Omniglot, Alvestrand. See below for the complete list.
+- `sources` (required) a list of source references used to format the data. Please, read the [note on source references](#source-references) and use APA style to format them.
 - `validity` (required, defaults to `todo`): one of the following:
   - `todo` for work in progress,
   - `draft` for entries that are complete but have not been sufficiently verified, yet,
   - `preliminary` for entries that have been verified by at least two online sources,
-  - `verified` for entries verified by a competent speaker or a linguist.
-- `note` (optional): a note of any kind.
-- `contributors` (optional but highly desireable): a list of author names that have contributed to this file
-- `reviewers` (optional): a list of reviewers with native or academic proficiency in a language
+  - `verified` for entries verified by a reviewer or two authoritative sources.
+- `note` (optional): a note of any kind
+- `contributors` (optinal, recommended): a list of contributors for this file. Typically, a contributor would be a person using sources to provide valid data rather their own knowledge of the language.
+- `reviewers` (optional): a reviewer is typically a competent speaker or a linguist, essentially a contributor that vouches, at the time of their edit, for the data validity with their own expertise. A person is either a contributor or a reviewer.
 
+Unless stated otherwise above, the default values are either an empty string or an empty list.
+
+\* We are aware that opinions regarding what constitutes a dialect or language differ, but we have to adhere to an international standard.
 
 ### Orthographies
 
@@ -55,7 +58,7 @@ Inheritance uses the iso code of the language to inherit from, with optional scr
 
 Examples:
 
-```
+```yaml
 # Inherit the base characters of eng to this orthography's base attribute
 base: <eng>
 
@@ -77,16 +80,15 @@ base: Å A B C (etc. all from eng) À Á
 **Using defaults**
 
 Since many languages of a given script will share some basic set of attributes there are convenience
-defaults. When possible, use these defaults and avoid deeply nested inheritance chains. You can 
-utilise the [lib/hyperglot/extra_data/default.yaml] contents for inheritance, as if it were a iso code, e.g.:
+defaults. When possible, use these defaults and avoid deeply nested inheritance chains. You can
+use the [lib/hyperglot/extra_data/default.yaml] contents for inheritance, as if it were a iso code, e.g.:
 
-```
+```yaml
 numerals: <default Arabic>
 punctuation: <default Latin> <default Cyrillic>
 ```
 
 Note: Avoid `<g>` character highlights elsewhere in notes etc., e.g. use `‘g’` or `/'/` instead.
-
 
 ### Macrolanguages
 
@@ -107,7 +109,11 @@ orthographies:
    script: Latin
  name: Danish
  speakers: 6000000
- source: [Omniglot, Wikipedia, CLDR]
+ sources:
+ - Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
+- Danish language. (2024, August 19). In *Wikipedia*. https://en.wikipedia.org/wiki/Danish_language?oldid=1241084738
+- '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
+- Quotation mark. (2024, September 26). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Quotation_mark&oldid=1247790780
  todo_status: strong  # status of the database record
 ```
 
@@ -119,13 +125,14 @@ orthographies:
 name: Persian
 includes: [pes, prs, tgk, aiq, bhh, haz, jpr, phv, deh, jdt, ttt]
 speakers: 70000000
-source: [Wikipedia]
+sources:
+- Iranian Persian. (2024, July 31). In *Wikipedia*. https://en.wikipedia.org/wiki/Iranian_Persian?oldid=1237740929
+- Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
 ```
-
 
 ## Development and contributions
 
-Contributions are more most welcome. If you wish to update the database, submit a pull request with an editted and validated version of the `hyperglot/data` files. **Ideally**, use `hyperglot-validate` and `hyperglot-save`, as this will check and format the data in a way best suited to the database.
+Contributions are most welcome. If you wish to update the database, submit a pull request with an editted and validated version of the `hyperglot/data` files. **Ideally**, use `hyperglot-validate` and `hyperglot-save`, as this will check and format the data in a way best suited to the database.
 
 To start a new language entry you can use this template and include it in `hyperglot/data/xxx.yaml` as a new language draft in your pull request or github issue:
 
@@ -141,19 +148,21 @@ orthographies:
   punctuation: <default>
   script: # required
   status: primary
-source:
-- Website / Book / link
+sources: # required (a list)
+# - an APA-style reference to the source of the data
 speakers: # optional, integer
 speakers_date: # optional, YYYY
 note: # optional
-design_requirements:
-- # optional
-design_alternates:
-- # optional
+design_requirements: # optional (a list)
+# - optional
+design_alternates: # optional (a list)
+# - optional
 status: living
 validity: draft
 contributors:
-- Your Name
+- Your Name # if you are contributing the data solely based on the sources
+reviewers:
+# - Your Name # if you claim expertise in this language
 ```
 
 ### Development
@@ -183,7 +192,7 @@ To save `hyperglot/data` use (this will format, sort and prune the data read in 
 hyperglot-save
 ```
 
-Note that this will _read_ and _write_ the yaml file.
+Note that this will _read_ and _write_ the yaml file and may change the formatting of your file.
 
 ### Contribution notes
 
@@ -199,28 +208,28 @@ Note that this will _read_ and _write_ the yaml file.
 - When contributing code make sure to install the `pytest` package and run `pytest tests` to make sure no errors are detected. Ideally, write tests for any code additions or changes you have added.
 - Add yourself to any language files you edit, and add your self to CONTRIBUTORS.txt
 
-## Sources
+## Source references
 
-The main sources we used to build the database are:
+After the initial unbridled growth, we aim to focus at improving the authoritativeness of the data by better tracking its provenance. This is done via the `sources` attribute where all sources used to compile the language and orthographic data should be listed. Please, use the [APA style](https://apastyle.apa.org) and Markdown to add formatting (asterisks for italics, no need to format the links). Note that APA provides guidance regarding [references to religious works](https://apastyle.apa.org/style-grammar-guidelines/references/examples/religious-work-references), [missing reference information](https://apastyle.apa.org/style-grammar-guidelines/references/missing-information), or [referencing Wikipedia](https://apastyle.apa.org/style-grammar-guidelines/references/examples/wikipedia-references).
 
-- Alvestrand, Harald Tveit. Characters and character sets for various languages. 1995.
-- [Ethnologue](http://ethnologue.org)
-- [ISO 639-3](http://iso639-3.sil.org)
-- [Omniglot](http://omniglot.com)
-- [Unicode](http://unicode.org)
-- [Wikipedia](http://wikipedia.org)
-- Grierson, George Abraham. Linguistic survey of India. Delhi: Low Price Publications. 2012.
+If possible, choose the more authoritative primary sources over secondary sources such as Wikipedia or Omniglot. The sources may be either illustrative (e.g. a work that uses a given orthography, a religious work) or descriptive (e.g. a work describes a given orthography, a dictionary). Where available, provide a link or DOI. When citing an online source, try to find a permanent link (Wikipedia has those) to refer to a particular version of the document.
 
-Further sources are listed for each language.
+An example:
+
+```yaml
+sources:
+- Breton language. (2024, August 21). In *Wikipedia*. https://en.wikipedia.org/wiki/Breton_language?oldid=1241510288
+- '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
+- Alvestrand, Harald Tveit. (1995) *Characters and character sets for various languages.* Retrieved on September 6, 2021 from https://www.alvestrand.no/ietf/lang-chars.txt
+```
 
 The autonyms were sourced from Ethnologue, Wikipedia, and Omniglot (in this order preferrably).
-The speaker counts are from Wikipedia.
+Most of the speaker counts are from Wikipedia.
 
 ## Other databases included in this repo
 
 The following are YAML files distilled from the original data stored in subfolders with corresponding names.
 
-- `other/alvestrand.yaml` – data (indexed by ISO 639-3 codes) scraped from Alvestrand (see Sources below).
 - `other/cldr.yaml` - data (indexed by 4-letter script tags and ISO 639-3 language codes) from Unicode’s CLDR database.
 - `other/iso-639-3.yaml` – data from IS0 639-3 (three-letter codes) with corresponding ISO 639-2 (older three-letter codes) and ISO 639-1 (two-letter codes) where available. Also includes language names and attributes from ISO 639-3.
 - `other/iso-639-3_retirements.yaml` – language codes no longer available in ISO 639-3
