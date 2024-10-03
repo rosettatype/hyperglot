@@ -1,5 +1,6 @@
 contributors:
-- Mathieu Regeur
+- Mathieu Réguer
+reviewers:
 - Sergio Martins
 name: Portuguese
 note: While Ü and ü were dropped in the latest Orthographic Agreement, they are still needed for names, and media from before 2015.
@@ -7,7 +8,7 @@ orthographies:
 - autonym: Português
   auxiliary: Ü ü
   base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Á Â Ã Ç È É Ê Í Ò Ó Ô Õ Ú a b c d e f g h i j k l m n o p q r s t u v w x y z à á â ã ç è é ê í ò ó ô õ ú
-  currency: <default>
+  currency: <default> $ €
   marks: ◌̀ ◌́ ◌̂ ◌̃ ◌̈ ◌̧
   numerals: <default>
   punctuation: <default> « » “ ” ‘ ’

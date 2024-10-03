@@ -5,7 +5,7 @@ orthographies:
 - autonym: Català
   auxiliary: Ŀ ŀ
   base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Ç È É Í Ï Ò Ó Ú Ü a b c d e f g h i j k l m n o p q r s t u v w x y z à ç è é í ï ò ó ú ü
-  currency: <default>
+  currency: <default> €
   design_alternates: · Ŀ ŀ
   design_requirements:
   - Consideration should be given to the design and spacing of the middle dot ‹·› (punt volat, marked in the previews).
