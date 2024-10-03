@@ -12,11 +12,7 @@ orthographies:
   marks: ◌̅
   numerals: <default Latin>
   preferred_as_group: true
-  punctuation: '<default Latin> ‹ › « » ‖ ‥ ※ ‾ 、 。 〃 〈 〉 《 》 「 」 『 』 【 】 〔 〕 〜 ・ ！ ＂ ＃ ％ ＆ ＇ （ ） ＊ ， － ． ／ ： ； ？ ＠
-
-    ［ ＼ ］ ＿ ｛ ｝ ｡ ｢ ｣ ､ ･''
-
-    '
+  punctuation: <default Latin> '‹ › « » ‖ ‥ ※ ‾ 、 。 〃 〈 〉 《 》 「 」 『 』 【 】 〔 〕 〜 ・ ！ ＂ ＃ ％ ＆ ＇ （ ） ＊ ， － ． ／ ： ； ？ ＠ ［ ＼ ］ ＿ ｛ ｝ ｡ ｢ ｣ ､ ･ \' '
   script: Kanji
   status: primary
 - base: あ い う え お k か き く け こ g が ぎ ぐ げ ご s さ し す せ そ z ざ じ ず ぜ ぞ t た ち つ て と d だ ぢ づ で ど n な に ぬ ね の h は ひ ふ へ ほ b ば び ぶ べ ぼ p ぱ ぴ ぷ ぺ ぽ m ま み む め も y や ゆ よ r ら り る れ ろ w わ ゐ ゑ を ん っ ゝ
@@ -24,7 +20,7 @@ orthographies:
   preferred_as_group: true
   script: Hiragana
   status: primary
-- base: ゠ ァ ア ィ イ ゥ ウ ェ エ ォ オ カ ガ キ ギ ク グ ケ ゲ コ ゴ サ ザ シ ジ ス ズ セ ゼ ソ ゾ タ ダ チ ヂ ッ ツ ヅ テ デ ト ド ナ ニ ヌ ネ ノ ハ バ パ ヒ ビ ピ フ ブ プ ヘ ベ ペ ホ ボ ポ マ ミ ム メ モ ャ ヤ ュ ユ ョ ヨ ラ リ ル レ ロ ヮ ワ ヰ ヱ ヲ ン ヴ ヵ ヶ ヷ ヸ ヹ ヺ ・ ー ヽ ヾ ヿ ㇰ ㇱ ㇲ ㇳ ㇴ ㇵ ㇶ ㇷ ㇸ ㇹ ㇺ ㇻ ㇼ ㇽ ㇾ ㇿ
+- base: ゠ ァ ア ィ イ ゥ ウ ェ エ ォ オ カ ガ キ ギ ク グ ケ ゲ コ ゴ サ ザ シ ジ ス ズ セ ゼ ソ ゾ タ ダ チ ヂ ッ ツ ヅ テ デ ト ド ナ ニ ヌ ネ ノ ハ バ パ ヒ ビ ピ フ ブ プ ヘ ベ ペ ホ ボ ポ マ ミ ム メ モ ャ ヤ ュ ユ ョ ヨ ラ リ ル レ ロ ヮ ワ ヰ ヱ ヲ ン ヴ ヵ ヶ ヷ ヸ ヹ ヺ ・ ー ヽ ヾ
   marks: ◌゙ ◌゚
   preferred_as_group: true
   script: Katakana

@@ -2,12 +2,9 @@ name: Default
 orthographies:
 - currency: $
   numerals: 0 1 2 3 4 5 6 7 8 9
-  punctuation: '. , ; : ? ! “ ” ‘ ’'
+  punctuation: '. , ; : ? ! ‘ '' "'
   script: Latin
   status: primary
-- currency: $
-  script: Latin
-  status: secondary
 - currency: $
   numerals: ٠ ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩
   punctuation: ؟ ؞
@@ -21,15 +18,9 @@ orthographies:
   punctuation: .
   script: Devanagari
   status: primary
-- auxiliary: T O D O
-  currency: $
-  numerals: 0
-  punctuation: .
-  script: Gurmukhi
-  status: primary
 - currency: $
   numerals: 0
   punctuation: .
-  script: Cyrillic
+  script: Greek
   status: primary
 validity: verified
