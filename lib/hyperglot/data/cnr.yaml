@@ -7,13 +7,16 @@ orthographies:
   base: <srp>
   marks: <srp>
   numerals: <default>
-  punctuation: <default>
+  currency: <default> €
+  punctuation: <default> „ “ ‚ ‘ » « › ‹
   script: Cyrillic
   status: primary
 - autonym: Crnogorski
   base: <srp>
   marks: <srp>
   numerals: <default>
+  currency: <default> €
+  punctuation: <default> „ “ ‚ ‘ » « › ‹
   script: Latin
   status: primary
 sources:
