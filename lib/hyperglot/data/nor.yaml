@@ -8,7 +8,7 @@ name: Norwegian
 orthographies:
 - autonym: Norsk
   base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á À Ä Å Æ É È Ê Ò Ó Ô Ö Ø Ü a b c d e f g h i j k l m n o p q r s t u v w x y z á à ä å æ é è ê ò ó ô ö ø ü
-  currency: <default secondary>
+  currency: <default>
   marks: ◌̀ ◌́ ◌̂ ◌̈ ◌̊
   numerals: <default>
   punctuation: <default> « » ‘ ’ ‚ „ “

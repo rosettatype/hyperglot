@@ -295,6 +295,7 @@ class Orthography(dict):
                 self[attr] = replaced
         except KeyError as e:
             logging.error(f"Failed to expand inheritance tag {value}")
+            logging.debug("Orthography data: {}".format(self))
             raise e
 
     def __getitem__(self, key):
