@@ -63,11 +63,16 @@ def check_yaml():
 
 def check_types(Langs:Languages) -> None:
     for iso, lang in Langs.items():
+        if iso == "default":
+            continue
+
         if "includes" in lang:
             if not check_is_yaml_list(lang["includes"]):
                 log.error(f"'{iso}' has invalid list 'includes'")
 
-        if "sources" in lang:
+        if "sources" not in lang or lang["sources"] is None or lang["sources"] == []:
+           log.error(f"'{iso}' is missing 'sources'") 
+        else:
             if not check_is_yaml_list(lang["sources"]):
                 log.error(f"'{iso}' has invalid list 'sources'")
 
@@ -255,7 +260,8 @@ def check_names(Langs:Languages, iso_data:dict) -> None:
                                 (iso, o["autonym"], "".join(missing)))
 
         if iso not in iso_data.keys():
-            log.error("'%s' not found in iso data" % iso)
+            if iso != "default":
+                log.error("'%s' not found in iso data" % iso)
         else:
             if "names" in iso_data[iso]:
                 if lang["name"] not in iso_data[iso]["names"]:
