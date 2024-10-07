@@ -3,7 +3,7 @@
 ## 0.7.0 (07.10.2024)
 - DATA: All language yaml documents now have their `contributors` listed, some have `reviewers` listed
 - DATA: **Massive* improvement of language `sources` with proper source citations where possible
-- DATA: Added `punctuation`, `numerals` and `currency` attributes to orthographies
+- DATA: Added `punctuation`, `numerals` and `currency` attributes to orthographies - checking for these attributes will be added in the next update!
 - DATA: Added `lib/hyperglot/extra_data/default.yaml` to include inheritable defaults per script
 - DATA: Refined `jpn`, `ryu` and `ain` Katakana orthographies
 - FEATURE: Orthography attributes can inherit from other languages with `<iso>` syntax, see [README](README_database.md)
