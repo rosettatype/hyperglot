@@ -65,10 +65,9 @@ setup(name="hyperglot",
       },
       install_requires=[
           "click>=7.0",
-          "fonttools>=4.0.2",
-          "uharfbuzz>=0.37.3",
-          "pyyaml>=5.3",
-          # For nicer validation output
-          "colorlog>=4.7.2"
+          "fonttools>=4.50.0",
+          "uharfbuzz>=0.39.0",
+          "pyyaml>=6.0.0",
+          "colorlog>=6.4.1"
       ],
       )
