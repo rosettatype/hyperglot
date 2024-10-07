@@ -36,7 +36,7 @@ def find_language(search):
         autonyms = [] if not aut else [aut.lower()]
         if "orthographies" in lang:
             for o in lang["orthographies"]:
-                if "autonym" in o:
+                if "autonym" in o and o["autonym"] is not None:
                     autonyms.append(o["autonym"].lower())
 
         if search == name or search in autonyms:

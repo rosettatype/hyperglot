@@ -458,7 +458,7 @@ def export(output):
 
 @click.command()
 @click.argument("search")
-def data(search):
+def data(search=""):
     """
     Pass in a 3-letter iso code or language name (search term) to show
     Hyperglot data for it

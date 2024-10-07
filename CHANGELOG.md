@@ -1,5 +1,8 @@
 # A changelog for the lib/hyperglot language database and CLI tool (dd.mm.yyyy)
 
+## 0.7.1 (07.10.2024)
+- FIX: Fixed `hyperglot-data` error
+
 ## 0.7.0 (07.10.2024)
 - DATA: All language yaml documents now have their `contributors` listed, some have `reviewers` listed
 - DATA: **Massive* improvement of language `sources` with proper source citations where possible
