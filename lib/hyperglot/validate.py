@@ -13,7 +13,7 @@ import click
 import logging
 import pprint
 import colorlog
-import unicodedata as uni
+import unicodedata2
 from typing import Tuple
 
 from hyperglot.language import Language
@@ -26,14 +26,14 @@ from hyperglot import (
     LanguageStatus, 
     LanguageValidity, 
     OrthographyStatus,
-    RE_INHERITANCE_TAG
 )
 
 handler = colorlog.StreamHandler()
 handler.setFormatter(colorlog.ColoredFormatter('%(log_color)s%(message)s'))
-log = colorlog.getLogger()
+log = colorlog.getLogger(__name__)
 log.setLevel(logging.WARNING)
 log.addHandler(handler)
+
 
 UNICODE_CONFUSABLES = {
     # Revise as needed
@@ -219,7 +219,7 @@ def check_is_valid_glyph_string(glyphs:str, iso:str=None) -> bool:
         return False
 
     for c in glyphs:
-        if uni.category(c) == "Sk":
+        if unicodedata2.category(c) == "Sk":
             log.warning("'%s' contains modifier symbol '%s' in characters. It "
                         "is very likely this should be a combining mark "
                         "instead." % (iso, c))
@@ -335,8 +335,8 @@ def check_includes(lang:Language ) -> bool:
 
 
 def check_autonym_spelling(ort:Orthography) -> Tuple[list, list, list]:
-    all = ort.base + ort.auxiliary + ort.base_marks + ort.auxiliary_marks + parse_chars(ort["marks"])
-    chars = parse_chars(" ".join(all))
+    all = " ".join(ort.base + ort.auxiliary + ort.base_marks + ort.auxiliary_marks)
+    chars = parse_chars(all) + parse_chars(ort["marks"])
     chars = [c.lower() for c in chars]
 
     # Use lowercase no non-word-chars version of autonym
@@ -368,7 +368,7 @@ def check_script_characters(Langs:Languages) -> None:
                 if char in UNICODE_CONFUSABLES[o.script]:
                     log.warning(
                         f"'{iso}' ({o.script}) has a unicode lookalike character: "
-                        f"'{char}' ({hex(ord(char))} - {uni.name(char)}) "
+                        f"'{char}' ({hex(ord(char))} - {unicodedata2.name(char)}) "
                         "— confirm the character is of the right script!"
                     )
 

@@ -44,7 +44,7 @@ try:
     if os.path.isfile(LANGUAGE_CACHE_FILE):
         with open(LANGUAGE_CACHE_FILE, "rb+") as f:
             LANGUAGE_CACHE = pickle.load(f)
-            logging.info("Loaded language cache with %d entries" % len(LANGUAGE_CACHE))
+            log.info("Loaded language cache with %d entries" % len(LANGUAGE_CACHE))
 except:
     pass
 
@@ -98,7 +98,7 @@ class Language(dict):
             try:
                 LANGUAGE_CACHE[iso] = data
                 with open(LANGUAGE_CACHE_FILE, "wb+") as f:
-                    logging.debug(f"Writing {iso} to language cache.")
+                    log.debug(f"Writing {iso} to language cache.")
                     pickle.dump(LANGUAGE_CACHE, f)
             except:
                 pass
@@ -191,7 +191,7 @@ reviewers: {reviewers}
             try:
                 _orthographies.append(Orthography(o, expand=self.inherit))
             except KeyError as e:
-                logging.error(f"Failed expanding Orthographies in Language {self.iso}")
+                log.error(f"Failed expanding Orthographies in Language {self.iso}")
                 raise e
         data["orthographies"] = _orthographies
 

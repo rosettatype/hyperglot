@@ -441,7 +441,7 @@ def save_language(iso, data):
 
     file = open(os.path.join(DB, iso + ".yaml"), "w")
     yaml.dump(data, file, **DUMP_ARGS)
-    logging.info(f"Saved lib/hyperglot/data/{iso}.yaml")
+    log.info(f"Saved lib/hyperglot/data/{iso}.yaml")
 
 
 @click.command()

@@ -280,8 +280,8 @@ class Orthography(dict):
                 replaced = resolve_inherited_attributes(value, attr, self.script)
                 self[attr] = replaced
         except KeyError as e:
-            logging.error(f"Failed to expand inheritance tag {value}")
-            logging.debug("Orthography data: {}".format(self))
+            log.error(f"Failed to expand inheritance tag {value}")
+            log.debug("Orthography data: {}".format(self))
             raise e
 
     def __getitem__(self, key):

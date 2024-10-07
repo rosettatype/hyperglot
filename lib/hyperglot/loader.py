@@ -60,7 +60,7 @@ def load_language_data(iso: str) -> dict:
         path = None
 
     if path is None:
-        logging.debug(f"Attempted to load '{path}' for iso '{iso}'")
+        log.debug(f"Attempted to load '{path}' for iso '{iso}'")
         raise KeyError(f"No language with ISO code {iso} found in Hyperglot.")
 
     return load_cached_yaml(path)
