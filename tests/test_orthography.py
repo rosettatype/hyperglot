@@ -227,9 +227,8 @@ def test_inheritance(caplog):
     assert "0" in Language("fra").get_orthography()["numerals"]
 
     # The inherited value IS in the parsed Orthography
-    assert "$" in Language("fra").get_orthography()["currency"]
-    print("OK", Language("arb").get_orthography()["numerals"])
-    assert "0" not in Language("arb").get_orthography()["numerals"]
+    assert "¤" in Language("fra").get_orthography()["currency"]
+    assert "0" in Language("arb").get_orthography()["numerals"]
 
     # Confirm specifying a script works
     basic = Orthography({"base": "<eng Latin> ß ∂ œ ø", "script": "Latin"})
@@ -298,5 +297,5 @@ def test_inherit_default():
     assert "٩" in inherit_default_script.numerals
 
     arb = Language("arb").get_orthography()
-    assert "0" not in arb.numerals
+    assert "0" in arb.numerals
     assert "٩" in arb.numerals

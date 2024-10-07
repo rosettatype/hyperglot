@@ -91,8 +91,6 @@ class Checker:
         """
 
         languages = Languages()
-        # FIXME: need a better way of this key not ending up in the Languages dict
-        del languages["default"]
 
         support = {}
 
