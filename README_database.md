@@ -172,6 +172,7 @@ To run the script during development without having to constantly reinstall the 
 ```shell
 git clone https://github.com/rosettatype/hyperglot.git && cd hyperglot
 pip install --upgrade --user --editable .
+pip install -r requirements-test
 ```
 
 To test the codebases after making changes run the `pytest` test suite:

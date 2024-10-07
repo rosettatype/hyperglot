@@ -18,10 +18,8 @@ from hyperglot import (
 )
 from hyperglot.languages import Languages, find_language
 from hyperglot.language import Language
-from hyperglot.orthography import Orthography
 from hyperglot.checker import FontChecker
 from hyperglot.validate import validate_data
-from hyperglot.parse import parse_font_chars
 
 log = logging.getLogger(__name__)
 log.setLevel(logging.WARNING)

@@ -4,3 +4,4 @@ uharfbuzz>=0.37.3
 pyyaml>=5.3
 colorlog>=4.7.2
 pytest
+tox

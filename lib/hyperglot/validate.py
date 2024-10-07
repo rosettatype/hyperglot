@@ -13,7 +13,7 @@ import click
 import logging
 import pprint
 import colorlog
-import unicodedata2
+import unicodedata as uni
 from typing import Tuple
 
 from hyperglot.language import Language
@@ -219,7 +219,7 @@ def check_is_valid_glyph_string(glyphs:str, iso:str=None) -> bool:
         return False
 
     for c in glyphs:
-        if unicodedata2.category(c) == "Sk":
+        if uni.category(c) == "Sk":
             log.warning("'%s' contains modifier symbol '%s' in characters. It "
                         "is very likely this should be a combining mark "
                         "instead." % (iso, c))
@@ -368,7 +368,7 @@ def check_script_characters(Langs:Languages) -> None:
                 if char in UNICODE_CONFUSABLES[o.script]:
                     log.warning(
                         f"'{iso}' ({o.script}) has a unicode lookalike character: "
-                        f"'{char}' ({hex(ord(char))} - {unicodedata2.name(char)}) "
+                        f"'{char}' ({hex(ord(char))} - {uni.name(char)}) "
                         "— confirm the character is of the right script!"
                     )
 
