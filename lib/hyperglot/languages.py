@@ -176,6 +176,7 @@ class Languages(dict):
         pruned = {}
         for iso in self:
             lang = self[iso]
+            # print("LANG", lang, vars(lang))
             try:
                 if LanguageValidity.index(lang["validity"]) >= allowed:
                     pruned[iso] = lang

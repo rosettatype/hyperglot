@@ -1,12 +1,13 @@
 # A changelog for the lib/hyperglot language database and CLI tool (dd.mm.yyyy)
 
-## 0.7.0 (WIP)
+## 0.7.0 (07.10.2024)
 - DATA: All language yaml documents now have their `contributors` listed, some have `reviewers` listed
 - DATA: **Massive* improvement of language `sources` with proper source citations where possible
 - DATA: Added `punctuation`, `numerals` and `currency` attributes to orthographies
 - DATA: Added `lib/hyperglot/extra_data/default.yaml` to include inheritable defaults per script
 - DATA: Refined `jpn`, `ryu` and `ain` Katakana orthographies
 - FEATURE: Orthography attributes can inherit from other languages with `<iso>` syntax, see [README](README_database.md)
+- TWEAK: Improved loading time for repeat access by saving parsed language data cache file
 - TWEAK: Orthographies can no longer have an `inherit` attribute
 - TWEAK: Improved loading speed for repeat queries and indivudal language queries
 - TWEAK: Refactored `Languages`, `Language` and `Orthography` object instantiation to always return parsed and defaulted nested objects

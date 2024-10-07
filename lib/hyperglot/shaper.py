@@ -1,7 +1,7 @@
 from functools import lru_cache
 from typing import Iterable
 import logging
-import unicodedata2 as uni
+import unicodedata as uni
 from typing import List
 import uharfbuzz as hb
 from hyperglot.parse import join_variants, parse_chars

@@ -12,3 +12,4 @@ tools/udhr/
 venv
 .coverage
 .tox/
+tests/*.prof

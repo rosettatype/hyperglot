@@ -25,6 +25,7 @@ def list_unique(li):
     return [x for x in li if not (x in seen or seen_add(x))]
 
 
+@lru_cache
 def character_list_from_string(string, normalize=True):
     """
     Return a list of characters without space separators from an input string
@@ -120,6 +121,7 @@ def sort_by_character_type(chars):
     return sorted(chars, key=sort_key_character_category)
 
 
+@lru_cache
 def decompose_fully(char: str) -> List:
     """
     Apply unicodedata.decomposition iteratively until we cannot decompose any
@@ -158,6 +160,7 @@ def decompose_fully(char: str) -> List:
     return sequence
 
 
+@lru_cache
 def parse_chars(
     characters: str,
     decompose: bool = True,
@@ -213,6 +216,35 @@ def parse_chars(
     )
 
 
+@lru_cache
+def filter_chars(b):
+    """
+    Return only encoded, non-mark, characters.
+    """
+    if len(b) > 1:
+        for c in parse_chars(b):
+            if not is_mark(c):
+                return c
+    else:
+        return b
+
+
+@lru_cache
+def is_mark(c: str) -> bool:
+    # Nothing is no mark
+    if not c:
+        return False
+
+    # This might be a base + mark combination, but not a single mark
+    if type(c) is str and len(c) > 1:
+        return False
+
+    try:
+        return uni.category(c).startswith("M")
+    except Exception as e:
+        log.error("Cannot get unicode category of '%s': %s" % (c, str(e)))
+
+
 def parse_font_chars(pathOrTTFont):
     """
     Open the provided font path and extract the codepoints encoded in the font
@@ -245,7 +277,7 @@ def drop_inheritance_tags(input: Union[str, object]) -> Tuple[str, str, list]:
     if input_is_yaml_object:
         tag = list(input.keys())[0]
         return "", "%s", ["<" + tag.strip() + ">"]
-    
+
     if isinstance(input, int):
         input = str(input)
 
@@ -267,6 +299,7 @@ def drop_inheritance_tags(input: Union[str, object]) -> Tuple[str, str, list]:
     )
 
 
+@lru_cache
 def parse_marks(input: str, decompose: bool = True) -> List:
     """
     Get the marks from a space separated string or list. This will also remove
@@ -280,8 +313,8 @@ def parse_marks(input: str, decompose: bool = True) -> List:
     if not input:
         return []
 
-    if isinstance(input, list) or isinstance(input, set):
-        input = " ".join(input)
+    # if isinstance(input, list) or isinstance(input, set):
+    #     input = " ".join(input)
 
     input, _, _ = drop_inheritance_tags(input)
     input = remove_mark_base(input)
@@ -289,6 +322,7 @@ def parse_marks(input: str, decompose: bool = True) -> List:
     return [c.strip() for c in chars if uni.category(c).startswith("M")]
 
 
+@lru_cache
 def remove_mark_base(input: str, replace: str = ""):
     return re.sub(MARK_BASE, replace, input)
 

@@ -9,6 +9,7 @@ from collections import OrderedDict
 from fontTools.ttLib import TTFont
 from hyperglot import (
     __version__,
+    LANGUAGE_CACHE_FILE,
     SORTING_DIRECTIONS,
     DB,
     SupportLevel,
@@ -402,6 +403,12 @@ def save_sorted(Langs: Languages = None, validate: bool = True) -> None:
     modified)
     """
     log.setLevel(logging.WARNING)
+    
+    try:
+        os.remove(LANGUAGE_CACHE_FILE)
+    except FileNotFoundError:
+        pass
+
     if Langs is None and validate:
         Langs = Languages(inherit=False)
         print("Running pre-save validation, please fix any issues flagged.")

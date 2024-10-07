@@ -1,6 +1,5 @@
 import re
 import logging
-import unicodedata2
 from typing import List, Set, Tuple
 
 from hyperglot import (
@@ -18,6 +17,8 @@ from hyperglot.parse import (
     character_list_from_string,
     get_joining_type,
     drop_inheritance_tags,
+    is_mark,
+    filter_chars,
 )
 from hyperglot.loader import load_scripts_data
 
@@ -30,21 +31,6 @@ def get_script_iso(name: str) -> str:
     if name not in scripts:
         raise NotImplementedError(f"Missing script name to ISO mapping for {name}")
     return scripts[name]["iso_15924"]
-
-
-def is_mark(c: str) -> bool:
-    # Nothing is no mark
-    if not c:
-        return False
-
-    # This might be a base + mark combination, but not a single mark
-    if type(c) is str and len(c) > 1:
-        return False
-
-    try:
-        return unicodedata2.category(c).startswith("M")
-    except Exception as e:
-        log.error("Cannot get unicode category of '%s': %s" % (c, str(e)))
 
 
 def find_all_inheritance_codes(value: str) -> List:
@@ -189,7 +175,7 @@ def resolve_inherited_attributes(value: str, attr: str, script: str) -> str:
                 f"Orthography cannot inherit non-existing '{attribute}' from "
                 f"'{iso}' (script {script}, status {status}), nothing inherited."
             )
-        
+
         # Return the replaced value with the same type as the source one
         replacement = ort[attribute]
 
@@ -388,16 +374,7 @@ note: {note}
         """
         A list of all encoded base characters (no marks)
         """
-        base = []
-        for b in self._character_list("base"):
-            if len(b) > 1:
-                for c in parse_chars(b):
-                    if not is_mark(c) and c not in base:
-                        base.append(c)
-            else:
-                if b not in base:
-                    base.append(b)
-        return base
+        return list_unique([filter_chars(c) for c in self._character_list("base")])
 
     @property
     def auxiliary(self):
@@ -411,16 +388,7 @@ note: {note}
         """
         A list of all encoded auxiliary characters (no marks)
         """
-        aux = []
-        for a in self._character_list("auxiliary"):
-            if len(a) > 1:
-                for c in parse_chars(a):
-                    if not is_mark(c) and c not in aux:
-                        aux.append(c)
-            else:
-                if a not in aux:
-                    aux.append(a)
-        return aux
+        return list_unique([filter_chars(c) for c in self._character_list("auxiliary")])
 
     @property
     def base_marks(self):

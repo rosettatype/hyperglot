@@ -1,9 +1,12 @@
+import os
 import yaml
+import pickle
 import logging
-from typing import List, Union, Any
+from typing import List, Union
 from copy import deepcopy
 
 from hyperglot import (
+    LANGUAGE_CACHE_FILE,
     CHARACTER_ATTRIBUTES,
     LanguageStatus,
     LanguageValidity,
@@ -32,6 +35,18 @@ def get_macro_languages():
         }
 
     return MACRO_LANGUAGES_CACHE
+
+
+# Use a pickled cache of all fully inherited language data to save on loading
+# and parsing
+LANGUAGE_CACHE = {}
+try:
+    if os.path.isfile(LANGUAGE_CACHE_FILE):
+        with open(LANGUAGE_CACHE_FILE, "rb+") as f:
+            LANGUAGE_CACHE = pickle.load(f)
+            logging.info("Loaded language cache with %d entries" % len(LANGUAGE_CACHE))
+except:
+    pass
 
 
 class Language(dict):
@@ -67,7 +82,10 @@ class Language(dict):
         self.inherit = inherit
 
         if data is None:
-            data = self._parse_data()
+            if inherit and iso in LANGUAGE_CACHE:
+                data = LANGUAGE_CACHE[iso]
+            else:
+                data = self._parse_data()
 
         if inherit:
             for key, default in self.defaults.items():
@@ -75,6 +93,15 @@ class Language(dict):
                     data[key] = default
 
         self.update(data)
+
+        if inherit and iso not in LANGUAGE_CACHE:
+            try:
+                LANGUAGE_CACHE[iso] = data
+                with open(LANGUAGE_CACHE_FILE, "wb+") as f:
+                    logging.debug(f"Writing {iso} to language cache.")
+                    pickle.dump(LANGUAGE_CACHE, f)
+            except:
+                pass
 
     def __repr__(self):
         return f"Language ({self.iso}) {self.get_name()}"
@@ -111,8 +138,16 @@ reviewers: {reviewers}
             speakers="no data" if self["speakers"] is None else self.speakers,  # noqa
             status=self.status,  # noqa
             validity=self.validity,
-            contributors="no data" if self["contributors"] is None else "\n- " + ("\n- ".join(self["contributors"])),
-            reviewers="no data" if self["reviewers"] is None else "\n- " + ("\n- ".join(self["reviewers"])),
+            contributors=(
+                "no data"
+                if self["contributors"] is None
+                else "\n- " + ("\n- ".join(self["contributors"]))
+            ),
+            reviewers=(
+                "no data"
+                if self["reviewers"] is None
+                else "\n- " + ("\n- ".join(self["reviewers"]))
+            ),
         )  # noqa
 
     def _parse_data(self) -> Union[dict, bool]:
@@ -159,7 +194,6 @@ reviewers: {reviewers}
                 logging.error(f"Failed expanding Orthographies in Language {self.iso}")
                 raise e
         data["orthographies"] = _orthographies
-
 
     def _inherit_orthographies_from_macrolanguage(data, target):
         """

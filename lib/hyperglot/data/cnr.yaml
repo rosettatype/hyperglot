@@ -5,17 +5,17 @@ name: Montenegrin
 orthographies:
 - autonym: Црногорски
   base: <srp>
+  currency: <default> €
   marks: <srp>
   numerals: <default>
-  currency: <default> €
   punctuation: <default> „ “ ‚ ‘ » « › ‹
   script: Cyrillic
   status: primary
 - autonym: Crnogorski
   base: <srp>
+  currency: <default> €
   marks: <srp>
   numerals: <default>
-  currency: <default> €
   punctuation: <default> „ “ ‚ ‘ » « › ‹
   script: Latin
   status: primary

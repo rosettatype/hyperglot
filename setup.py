@@ -68,8 +68,6 @@ setup(name="hyperglot",
           "fonttools>=4.0.2",
           "uharfbuzz>=0.37.3",
           "pyyaml>=5.3",
-          # For validation and decomposition, keep at latest unicode version
-          "unicodedata2>=15.0.0",
           # For nicer validation output
           "colorlog>=4.7.2"
       ],
