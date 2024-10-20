@@ -1,8 +1,8 @@
 # Hyperglot – a database and tools for detecting language support in fonts
 
-Hyperglot helps type designers answer a seemingly simple question of language support in fonts: When can I use font A to set texts in language B?  It takes a pragmatic answer by identifying a standard character set for each orthography used by a language. The database that currently contains information for over 640+ languages is a work in progress, designed to grow.
+Hyperglot helps type designers answer a seemingly simple question of language support in fonts: When can I use font A to set texts in language B?  It takes a pragmatic answer by identifying a standard character set for each orthography used by a language. The database that currently contains information for over 777 languages is a work in progress, designed to grow.
 
-We record a basic and any auxiliary character sets for each orthography of a language. Note that only actively used orthographies (their status is set to `primary`) are used when detecting language support in a font. Other, secondary or historical, orthographies are displayed just for information purposes. 
+We record a basic and any auxiliary character sets for each orthography of a language. Note that only actively used orthographies (their status is set to `primary`) are used when detecting language support in a font. Other, secondary or historical, orthographies are displayed just for information purposes.
 
 Where relevant, we also provide a brief design note containing tips about shaping and positioning requirements that go beyond Unicode character code points. Hyperglot should only be used to detect whether a font can be considered for use with a particular language. It does not say anything about the quality of a font’s design.
 
@@ -12,11 +12,13 @@ Hyperglot is a work in progress provided AS IS, and the validity of its language
 
 [The comparison of Hyperglot and the Unicode CLDR](README_comparison.md)
 
+[You can support Hyperglot financially](https://github.com/sponsors/rosettatype)
+
 ## How to use
 
 There are several ways how to use the database:
 
-- Hyperglot web app at http://hyperglot.rosettatype.com
+- Hyperglot web app at <http://hyperglot.rosettatype.com>
 - command-line tool (`pip install hyperglot`, see usage notes below)
 - python packagage (`pip install hyperglot`)
 - access the YAML file with the database directly ([database README](README_database.md))
