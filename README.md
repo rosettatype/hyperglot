@@ -137,7 +137,9 @@ Updates are comitted/merged to the `dev` branch with the `master` branch holding
 
 ## Authors and contributors
 
-The Hyperglot database and tools were originally developed by [Rosetta](http://rosettatype.com), world typography specialists, publishers, and makers of original fonts addressing the needs of global typography. Our goal is to enable people to read better in their native languages.
+The Hyperglot database and tools were originally developed by [Rosetta](http://rosettatype.com), world typography specialists, publishers, and makers of original fonts addressing the needs of global typography.
+
+So far, the tool development has been supported by Rosetta, Antonio Cavedoni (@verbosus), and we are applying for more funding. You can also [sponsor Hyperglot via GitHub](https://github.com/sponsors/rosettatype).
 
 Main contributors, so far:
 
