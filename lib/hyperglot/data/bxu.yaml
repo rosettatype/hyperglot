@@ -7,6 +7,8 @@ orthographies:
   marks: ◌̆ ◌̈
   numerals: <default>
   punctuation: <default>
+  design_requirements:
+  - The form of the Cyrillic breve mark (marked in the previews) differs from the Latin-script breve that is associated with the same Unicode codepoint.
   script: Cyrillic
   status: primary
 - autonym: Buryaad
