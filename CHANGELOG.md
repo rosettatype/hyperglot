@@ -1,5 +1,9 @@
 # A changelog for the lib/hyperglot language database and CLI tool (dd.mm.yyyy)
 
+## 0.7.2 (WIP)
+- DATA: Minor refinements to `fin`, `ces` and `nav`
+- DATA: Design requirements updated for `bos` and `srb` as well as some Cyrillic breve mentiones
+
 ## 0.7.1 (07.10.2024)
 - FIX: Fixed `hyperglot-data` error
 
