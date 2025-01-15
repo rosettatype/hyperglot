@@ -8,6 +8,7 @@ orthographies:
   design_alternates: Ҫ ҫ
   design_requirements:
   - Characters ‹Ҫ,ҫ› (marked in the previews) are sometimes represented with a cedilla instead of a descender (spike).
+  - The form of the Cyrillic breve mark (marked in the previews) differs from the Latin-script breve that is associated with the same Unicode codepoint.
   marks: ◌̆ ◌̈
   numerals: <default>
   punctuation: <default>

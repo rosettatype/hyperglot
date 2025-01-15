@@ -4,12 +4,11 @@ contributors:
 name: Serbian
 orthographies:
 - autonym: Српски
-  base: А Б В Г Д Е Ж З И К Л М Н О П Р С Т У Ф Х Ц Ч Ш Ђ Ј Љ Њ Ћ Џ З́ С́ а б в г д е ж з и к л м н о п р с т у ф х ц ч ш ђ ј љ њ ћ џ з́ с́
+  base: А Б В Г Д Е Ж З И К Л М Н О П Р С Т У Ф Х Ц Ч Ш Ђ Ј Љ Њ Ћ Џ а б в г д е ж з и к л м н о п р с т у ф х ц ч ш ђ ј љ њ ћ џ
   currency: <default>
-  design_alternates: б ◌̆
+  design_alternates: б
   design_requirements:
-  - Correct positioning of an acute mark above vowel characters may be required.
-  - The form of the Cyrillic breve mark (marked in the previews) differs from the Latin-script breve that is associated with the same Unicode codepoint. - In italic, some characters (marked in the previews) use a form that differs from the defaults associated with the Unicode codepoints (typically the Russian form of Cyrillic).
+  - In italic, some characters (marked in the previews) use a form that differs from the defaults associated with the Unicode codepoints (typically the Russian form of Cyrillic).
   marks: ◌́
   numerals: <default>
   preferred_as_group: true

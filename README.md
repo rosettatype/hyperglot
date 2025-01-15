@@ -1,8 +1,8 @@
 # Hyperglot – a database and tools for detecting language support in fonts
 
-Hyperglot helps type designers answer a seemingly simple question of language support in fonts: When can I use font A to set texts in language B?  It takes a pragmatic answer by identifying a standard character set for each orthography used by a language. The database that currently contains information for over 640+ languages is a work in progress, designed to grow.
+Hyperglot helps type designers answer a seemingly simple question of language support in fonts: When can I use font A to set texts in language B?  It takes a pragmatic answer by identifying a standard character set for each orthography used by a language. The database that currently contains information for over 777 languages is a work in progress, designed to grow.
 
-We record a basic and any auxiliary character sets for each orthography of a language. Note that only actively used orthographies (their status is set to `primary`) are used when detecting language support in a font. Other, secondary or historical, orthographies are displayed just for information purposes. 
+We record a basic and any auxiliary character sets for each orthography of a language. Note that only actively used orthographies (their status is set to `primary`) are used when detecting language support in a font. Other, secondary or historical, orthographies are displayed just for information purposes.
 
 Where relevant, we also provide a brief design note containing tips about shaping and positioning requirements that go beyond Unicode character code points. Hyperglot should only be used to detect whether a font can be considered for use with a particular language. It does not say anything about the quality of a font’s design.
 
@@ -12,11 +12,13 @@ Hyperglot is a work in progress provided AS IS, and the validity of its language
 
 [The comparison of Hyperglot and the Unicode CLDR](README_comparison.md)
 
+[You can support Hyperglot financially](https://github.com/sponsors/rosettatype)
+
 ## How to use
 
 There are several ways how to use the database:
 
-- Hyperglot web app at http://hyperglot.rosettatype.com
+- Hyperglot web app at <http://hyperglot.rosettatype.com>
 - command-line tool (`pip install hyperglot`, see usage notes below)
 - python packagage (`pip install hyperglot`)
 - access the YAML file with the database directly ([database README](README_database.md))
@@ -99,7 +101,6 @@ hyperglot path/to/font.otf path/to/anotherfont.otf ...
 
 Installing the pip package also installed the `hyperglot-validate` and `hyperglot-save` commands, which allow checking and saving the yaml data in a structured and compatible way.
 
-
 ### Finding *almost* supported languages
 
 Hyperglot comes with a `hyperglot-report` command that takes all the same options 
@@ -112,7 +113,6 @@ languages detected as not supported:
 - `--report-joining`: Parameter to report languages which are missing _n_ or less joining sequences. If _n_ is 0 all languages with any number of missing joining sequences are listed (default).
 - `--report-all`: Parameter to set/overwrite all other `--report-xxx` parameters.
 
-
 ## Database and contributing
 
 The data structure is described in a separate file together with guidelines for contributing.
@@ -123,10 +123,11 @@ Updates are comitted/merged to the `dev` branch with the `master` branch holding
 
 ## Roadmap
 
-- [ ] handle script/language specific numerals [#154](https://github.com/rosettatype/hyperglot/issues/154)
-- [ ] handle script/language specific punctuation [#60](https://github.com/rosettatype/hyperglot/issues/60) [#155](https://github.com/rosettatype/hyperglot/issues/155)
-- [ ] check for currency support [#156](https://github.com/rosettatype/hyperglot/issues/156)
-- [ ] improve references for language data (use APA everywhere) [#123](https://github.com/rosettatype/hyperglot/issues/123) [#157](https://github.com/rosettatype/hyperglot/issues/157)
+- [x] handle script/language specific numerals [#154](https://github.com/rosettatype/hyperglot/issues/154)
+- [x] handle script/language specific punctuation [#60](https://github.com/rosettatype/hyperglot/issues/60) [#155](https://github.com/rosettatype/hyperglot/issues/155)
+- [x] check for recommended currencies [#156](https://github.com/rosettatype/hyperglot/issues/156)
+- [ ] improve references for language data (use APA everywhere) [#123](https://github.com/rosettatype/hyperglot/issues/123)
+- [ ] improve language data, sources, and validity in languages with less authoritative sources [#157](https://github.com/rosettatype/hyperglot/issues/157)
 - [x] comparison to Unicode CLDR
 - [ ] export in a way that would be useful to submit to Unicode CLDR
 - [ ] basic analysis of shaping instructions provided by the font (GPOS and GSUB)
@@ -137,27 +138,16 @@ Updates are comitted/merged to the `dev` branch with the `master` branch holding
 
 ## Authors and contributors
 
-The Hyperglot database and tools were originally developed by [Rosetta](http://rosettatype.com), world typography specialists, publishers, and makers of original fonts addressing the needs of global typography.
-
-So far, the tool development has been supported by Rosetta, Antonio Cavedoni (@verbosus), and we are applying for more funding. You can also [sponsor Hyperglot via GitHub](https://github.com/sponsors/rosettatype).
-
-Main contributors, so far:
-
-- David Březina <david@rosettatype.com> @MrBrezina (concept, database structure, and main language data set)
-- Johannes Neumeier <hello@johannesneumeier.com> @kontur (tool and tests)
-- Sérgio Martins @sergiolmartins (major expansion and review of the data, ca 250+ languages)
-- Toshi Omagari  @toshe (basic language data for many Cyrillic-script languages)
-- Denis Moyogo Jacquerye @moyogo
-
-[The full list of contributors](CONTRIBUTORS.txt)
+The Hyperglot database and tools were originally developed by [Rosetta](http://rosettatype.com), see [the full list of contributors](CONTRIBUTORS.txt).
 
 ## Similar projects and inspirations
 
+- [Adobe spreadsheets for Latin and Cyrillic](https://blog.typekit.com/2006/08/01/defining_an_ext/)
+- [Alphabets of Europe](https://www.evertype.com/alphabets/)
+- [Alphabet Type’ Charset Checker](https://www.alphabet-type.com/tools/charset-checker/) (uses Unicode CLDR)
+- [Context of diacritics](https://www.setuptype.com/x/cod/)
+- [font-config languages definitions](https://cgit.freedesktop.org/fontconfig/tree/fc-lang)
+- [Typekit Speakeasy](https://github.com/typekit/speakeasy)
 - [Unicode CLDR](http://cldr.unicode.org)
 - [Underware Latin Plus](https://underware.nl/latin_plus/)
-- [Alphabet Type’ Charset Checker](https://www.alphabet-type.com/tools/charset-checker/) (uses Unicode CLDR)
-- [Typekit Speakeasy](https://github.com/typekit/speakeasy)
-- [Adobe spreadsheets for Latin and Cyrillic](https://blog.typekit.com/2006/08/01/defining_an_ext/)
 - [WebINK character sets](http://web.archive.org/web/20150222004543/http://blog.webink.com/custom-font-subsetting-for-faster-websites/) 
-- [font-config languages definitions](https://cgit.freedesktop.org/fontconfig/tree/fc-lang)
-- [Context of diacritics](https://www.setuptype.com/x/cod/)

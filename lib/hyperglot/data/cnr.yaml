@@ -4,8 +4,11 @@ contributors:
 name: Montenegrin
 orthographies:
 - autonym: Црногорски
-  base: <srp>
+  base: <srp> З́ С́ з́ с́
   currency: <default> €
+  design_requirements:
+  - Correct positioning of an acute mark above vowel characters may be required.
+  - In italic, some characters (marked in the previews) use a form that differs from the defaults associated with the Unicode codepoints (typically the Russian form of Cyrillic).
   marks: <srp>
   numerals: <default>
   punctuation: <default> „ “ ‚ ‘ » « › ‹
@@ -14,6 +17,7 @@ orthographies:
 - autonym: Crnogorski
   base: <srp>
   currency: <default> €
+  design_requirements: <srp>
   marks: <srp>
   numerals: <default>
   punctuation: <default> „ “ ‚ ‘ » « › ‹

@@ -51,7 +51,7 @@ def test_language_supported():
         "ABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÅabcdefghijklmnopqrstuvwxyzäöå"
     )
     fin_aux = character_list_from_string(
-        "ABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÅÆÕØÜŠŽabcdefghijklmnopqrstuvwxyzäöåæõøüšž"
+        "ABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÅÆÕØÜŠŽÉabcdefghijklmnopqrstuvwxyzäöåæõøüšžé"
     )
     # fin_chars_no_precomposed = character_list_from_string(
     #     "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"

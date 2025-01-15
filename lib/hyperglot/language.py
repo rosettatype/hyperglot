@@ -68,7 +68,9 @@ class Language(dict):
         "reviewers": None,
     }
 
-    def __init__(self, iso, data: dict = None, inherit: bool = True):
+    def __init__(
+        self, iso, data: dict = None, inherit: bool = True, force_fresh: bool = False
+    ):
         """
         Init a single Language with the data from lib/hyperglot/data yaml.
 
@@ -82,7 +84,7 @@ class Language(dict):
         self.inherit = inherit
 
         if data is None:
-            if inherit and iso in LANGUAGE_CACHE:
+            if inherit and iso in LANGUAGE_CACHE and not force_fresh:
                 data = LANGUAGE_CACHE[iso]
             else:
                 data = self._parse_data()
@@ -94,7 +96,7 @@ class Language(dict):
 
         self.update(data)
 
-        if inherit and iso not in LANGUAGE_CACHE:
+        if inherit and (iso not in LANGUAGE_CACHE or force_fresh):
             try:
                 LANGUAGE_CACHE[iso] = data
                 with open(LANGUAGE_CACHE_FILE, "wb+") as f:
@@ -197,7 +199,7 @@ reviewers: {reviewers}
 
     def _inherit_orthographies_from_macrolanguage(data, target):
         """
-        If a language has no orthographies see check through all languages and
+        If a language has no orthographies check through all languages and
         if this language is included in a macrolanguage that has orthographies.
         If so, apply the macrolanguage's orthographies to this language.
         """

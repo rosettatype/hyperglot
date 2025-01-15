@@ -3,10 +3,10 @@ contributors:
 name: Finnish
 orthographies:
 - autonym: Suomi
-  auxiliary: Æ Õ Ø Ü Š Ž æ õ ø ü š ž
+  auxiliary: Æ Õ Ø Ü Š Ž æ õ ø ü š ž É é
   base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ä Ö Å a b c d e f g h i j k l m n o p q r s t u v w x y z ä ö å
   currency: <default> €
-  marks: ◌̈ ◌̊ ◌̃ ◌̌
+  marks: ◌̈ ◌̊ ◌̃ ◌̌ ◌́
   numerals: <default>
   punctuation: <default> ’ ” »
   script: Latin

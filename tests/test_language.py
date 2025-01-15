@@ -26,8 +26,6 @@ def test_language_inherit():
     # aae inherits aln orthography
     aae = Language("aae")
     aln = Language("aln")
-    print("AAE", aae.get_orthography()["base"])
-    print("ALN", aln.get_orthography()["base"])
     assert aae.get_orthography()["base"] == aln.get_orthography()["base"]
 
 
