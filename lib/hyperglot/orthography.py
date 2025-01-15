@@ -420,6 +420,7 @@ note: {note}
 
     @property
     def design_alternates(self):
+        print("DESIGN ALTS")
         return [
             remove_mark_base(chars)
             for chars in self._character_list("design_alternates")
@@ -488,7 +489,7 @@ note: {note}
 
         @return set or bool
         """
-        if attr not in self:
+        if attr not in self or not self[attr]:
             return []
 
         return parse_chars(self[attr], decompose=False, retain_decomposed=False)
