@@ -3,6 +3,8 @@
 ## 0.7.2 (15.01.2025)
 - DATA: Minor refinements to `fin`, `ces` and `nav`
 - DATA: Design requirements updated for `bos` and `srb` as well as some Cyrillic breve mentiones
+- TWEAK: Improved inherited type where the original value is a yaml list
+- TWEAK: Added parameter to instantiate a `Language` and force a reload of the data / ignoring the `.hyperglot-cache`
 
 ## 0.7.1 (07.10.2024)
 - FIX: Fixed `hyperglot-data` error

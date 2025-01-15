@@ -1,4 +1,5 @@
 import re
+import copy
 import logging
 from typing import List, Set, Tuple
 
@@ -186,14 +187,29 @@ def resolve_inherited_attributes(value: str, attr: str, script: str) -> str:
         # Insert the inherited characters in the place of the <iso> tag. We
         # don't worry about duplicate characters at this spot, later
         # parse_chars calls will take care of that when and as needed.
-        resolved = (
-            resolved[: beginning - 1]
-            + str(replacement)
-            + resolved[beginning + length + 1 :]
-        )
 
-        # Start anew, keep looping while codes are found
-        codes = find_all_inheritance_codes(resolved)
+        # Everything before and after the <iso>, e.g. if the tag is part of a
+        # list like: a b c <iso> á å ä
+        before = resolved[: beginning - 1]
+        after = resolved[beginning + length + 1 :]
+        # Look at before and after; if nothing remains the inherited value
+        # replaces the tag in its entirety
+        nothing_else = len(str(before + after).strip()) == 0
+
+        if nothing_else and type(replacement) is not str:
+            # If we copied some other yaml primitive that is _not a str_ and
+            # nothing else remains after the replacment execpt the replaced
+            # value, then clone the value with its original type (e.g. 
+            # inheriting a list)
+            resolved = copy.deepcopy(replacement)
+        else:
+            resolved = (
+                before
+                + str(replacement)
+                + after
+            )
+            # Start anew, keep looping while codes are found
+            codes = find_all_inheritance_codes(resolved)
 
     return resolved
 
@@ -420,7 +436,6 @@ note: {note}
 
     @property
     def design_alternates(self):
-        print("DESIGN ALTS")
         return [
             remove_mark_base(chars)
             for chars in self._character_list("design_alternates")

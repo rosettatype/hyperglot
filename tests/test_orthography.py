@@ -270,23 +270,17 @@ def test_inheritance(caplog):
 
 
 def test_inheritance_debug():
-    # print(">>>>>arabic ", Language("arb").get_orthography()["numerals"])
-
     # Just test the parser doesn't choke
     sloppy = Orthography({"base": "A B   <   eng  auxiliary   historical>C D"})
     assert "ſ" in sloppy.base
     assert "C" in sloppy.base
 
 
-# TBD not sure if this is strictly necessairy anywhere down the road. It's
-# quite tricky to get lists and strings to merge sensibly.
-# def test_inheritance_types():
-#     # Test lists are inherited with the same type
-#     src = Language("pes").get_orthography()
-#     inh = Language("prs").get_orthography()
-#     print("A src", type(src["design_requirements"]), src["design_requirements"])
-#     print("B inh", type(inh["design_requirements"]), inh["design_requirements"])
-#     assert type(src["design_requirements"]) == type(inh["design_requirements"])
+def test_inheritance_types():
+    # Test lists are inherited with the same type if all that is inherited is a list
+    src = Language("pes").get_orthography() # with a list of design requirements
+    inh = Language("prs").get_orthography() # which inherits design requirements from <pes>
+    assert type(src["design_requirements"]) == type(inh["design_requirements"])
 
 
 def test_inherit_default():
