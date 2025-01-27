@@ -130,6 +130,7 @@ Updates are comitted/merged to the `dev` branch with the `master` branch holding
 - [ ] improve language data, sources, and validity in languages with less authoritative sources [#157](https://github.com/rosettatype/hyperglot/issues/157)
 - [x] comparison to Unicode CLDR
 - [ ] export in a way that would be useful to submit to Unicode CLDR
+- [ ] web app: add links to other resources per language [#174](https://github.com/rosettatype/hyperglot/issues/174)
 - [ ] basic analysis of shaping instructions provided by the font (GPOS and GSUB)
   - [x] analyse shaping during language detection: check whether `base + mark` combinations are affected by the font instructions
   - [x] check whether joining behaviour (aka presentation forms, e.g. Arabic or Syriac) is supported in the font
