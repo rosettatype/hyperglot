@@ -1,8 +1,6 @@
 contributors:
 - David Březina
 - Vincent W.J. van Gerven Oei @vincentwj
-reviewer:
-- Vincent W.J. van Gerven Oei @vincentwj
 name: Arvanitika Albanian
 orthographies:
 - autonym: Arbërisht
@@ -24,6 +22,8 @@ orthographies:
   punctuation: <default>
   script: Greek
   status: primary
+reviewer:
+- Vincent W.J. van Gerven Oei @vincentwj
 sources:
 - Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
 - Arvanitika. (2024, July 28). In *Wikipedia*. https://en.wikipedia.org/wiki/Arvanitika?oldid=1237242082
