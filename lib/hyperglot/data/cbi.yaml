@@ -2,15 +2,17 @@ contributors:
 - Sergio Martins
 name: Chachi
 orthographies:
-- autonym: Cha'Palaa
-  base: A B C D E F G H I J L M N P R S T U V Y Ã Ẽ Ĩ Ũ Ñ a b c d e f g h i j l m n p r s t u v y ' ã ẽ ĩ ũ ñ
+- autonym: Cha'palaa
+  base: A B C D E F G H I J L M N Ñ P R S T U V Y a b c d e f g h i j l m n ñ p r s t u v y '
   marks: ◌̃
   numerals: <default>
+  punctuation: <default> ¡ ¿ « » “ ” ‘ ’
   script: Latin
   status: primary
 sources:
 - Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
 - Chaʼpalaa language. (2023, May 17). In *Wikipedia*. https://en.wikipedia.org/wiki/Cha%CA%BCpalaa_language?oldid=1155206106
+- Wiebe, N. (2004). *Gramática cha'palaa*. https://www.sil.org/resources/archives/57536
 speakers: 10000
 speakers_date: 2013
 validity: preliminary
