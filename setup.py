@@ -60,7 +60,7 @@ setup(name="hyperglot",
               "hyperglot-data = hyperglot.cli:data",
               "hyperglot-validate = hyperglot.validate:validate",
               "hyperglot-save = hyperglot.cli:save_sorted",
-              "hyperglot-export = lib.hyperglot.cli:export"
+              "hyperglot-export = hyperglot.cli:export"
           ]
       },
       install_requires=[
