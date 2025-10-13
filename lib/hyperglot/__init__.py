@@ -6,7 +6,7 @@ from os import path
 from enum import Enum
 from typing import List
 
-__version__ = "0.7.2"
+__version__ = "0.7.3"
 
 DB = path.abspath(path.join(path.dirname(__file__), "data"))
 DB_EXTRA = path.abspath(path.join(path.dirname(__file__), "extra_data"))
