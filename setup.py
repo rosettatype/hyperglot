@@ -25,6 +25,52 @@ def get_version(rel_path):
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
+setup(name="hyperglot",
+      version=get_version("lib/hyperglot/__init__.py"),
+      python_requires='>3.8.0',
+      description="Detect language support for font binaries",
+      long_description=long_description,
+      long_description_content_type="text/markdown",
+      url="https://github.com/rosettatype/hyperglot",
+      project_urls={
+          "Hyperglot web interface": "https://hyperglot.rosettatype.com",
+      },
+      author="Johannes Neumeier - Rosetta",
+      author_email="johannes@rosettatype.com",
+      license="GNU GPLv3",
+      classifiers=[
+          "Programming Language :: Python :: 3.8",
+          "Operating System :: OS Independent",
+          "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+          "Intended Audience :: End Users/Desktop",
+          "Intended Audience :: Information Technology",
+          "Topic :: Text Processing :: Fonts",
+          "Topic :: Text Processing :: Linguistic",
+      ],
+      packages=[
+          "hyperglot"
+      ],
+      package_dir={"": "lib"},
+      package_data={"hyperglot": ["data/*.yaml", "extra_data/*"]},
+      include_package_data=True,
+      entry_points={
+          "console_scripts": [
+              "hyperglot = hyperglot.cli:cli",
+              "hyperglot-report = hyperglot.cli:report",
+              "hyperglot-data = hyperglot.cli:data",
+              "hyperglot-validate = hyperglot.validate:validate",
+              "hyperglot-save = hyperglot.cli:save_sorted",
+              "hyperglot-export = hyperglot.cli:export"
+          ]
+      },
+      install_requires=[
+          "click>=7.0",
+          "fonttools>=4.50.0",
+          "uharfbuzz>=0.39.0",
+          "pyyaml>=6.0.0",
+          "colorlog>=6.4.1"
+      ],
+      )
 setup(
     name="hyperglot",
     version=get_version("lib/hyperglot/__init__.py"),

@@ -8,7 +8,7 @@ import re
 import yaml
 from collections import OrderedDict
 from click.testing import CliRunner
-from hyperglot.cli import cli, sorted_script_languages
+from hyperglot.cli import cli, export, sorted_script_languages
 
 runner = CliRunner()
 
@@ -211,3 +211,15 @@ def test_sorted_script_languages():
     )
 
     assert sorted_script_languages(unsorted) == expected
+
+
+def test_cli_export(tmp_path):
+    tmp_file = tmp_path / "export.yaml"
+    runner.invoke(export, [str(tmp_file)])
+
+    assert os.path.isfile(str(tmp_file)) is True
+    assert os.stat(str(tmp_file)).st_size > 0
+
+    with open(tmp_file, "rb") as f:
+        data = yaml.load(f, Loader=yaml.Loader)
+        assert "zul" in data.keys()
