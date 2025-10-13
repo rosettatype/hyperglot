@@ -1,5 +1,8 @@
 # A changelog for the lib/hyperglot language database and CLI tool (dd.mm.yyyy)
 
+## 0.7.3 (13.10.2025)
+- TWEAK: Fixed `hyperglot-export` command for dumping expanded database
+
 ## 0.7.2 (15.01.2025)
 - DATA: Minor refinements to `fin`, `ces` and `nav`
 - DATA: Design requirements updated for `bos` and `srb` as well as some Cyrillic breve mentiones
