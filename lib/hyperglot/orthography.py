@@ -375,67 +375,67 @@ note: {note}
         )
 
     @property
-    def script(self):
+    def script(self) -> str:
         return self["script"]
 
     @property
-    def base(self):
+    def base(self) -> List[str]:
         """
         A parsed base list, including unencoded base + mark combinations
         """
         return self._character_list("base")
 
     @property
-    def base_chars(self):
+    def base_chars(self) -> List[str]:
         """
         A list of all encoded base characters (no marks)
         """
         return list_unique([filter_chars(c) for c in self._character_list("base")])
 
     @property
-    def auxiliary(self):
+    def auxiliary(self) -> List[str]:
         """
         A parsed auxiliary list, including unencoded base + mark combinations
         """
         return self._character_list("auxiliary")
 
     @property
-    def auxiliary_chars(self):
+    def auxiliary_chars(self) -> List[str]:
         """
         A list of all encoded auxiliary characters (no marks)
         """
         return list_unique([filter_chars(c) for c in self._character_list("auxiliary")])
 
     @property
-    def base_marks(self):
+    def base_marks(self) -> List[str]:
         return self._all_marks("base")
 
     @property
-    def auxiliary_marks(self):
+    def auxiliary_marks(self) -> List[str]:
         return self._all_marks("aux")
 
     @property
-    def required_base_marks(self):
+    def required_base_marks(self) -> List[str]:
         return self._required_marks("base")
 
     @property
-    def required_auxiliary_marks(self):
+    def required_auxiliary_marks(self) -> List[str]:
         return self._required_marks("aux")
 
     @property
-    def currency(self):
+    def currency(self) -> List[str]:
         return self._character_list("currency")
 
     @property
-    def punctuation(self):
+    def punctuation(self) -> List[str]:
         return self._character_list("punctuation")
 
     @property
-    def numerals(self):
+    def numerals(self) -> List[str]:
         return self._character_list("numerals")
 
     @property
-    def design_alternates(self):
+    def design_alternates(self) -> List[str]:
         return [
             remove_mark_base(chars)
             for chars in self._character_list("design_alternates")
@@ -498,7 +498,7 @@ note: {note}
 
     # "Private" methods
 
-    def _character_list(self, attr):
+    def _character_list(self, attr) -> List[str]:
         """
         Get a character list from an orthography.
 

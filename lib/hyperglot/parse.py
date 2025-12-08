@@ -165,7 +165,7 @@ def parse_chars(
     characters: str,
     decompose: bool = True,
     retain_decomposed: bool = False,
-) -> List:
+) -> List[str]:
     """
     From a string of characters get a set of unique unicode codepoints needed
     Note this will "decompose" combining characters/marks and remove any
