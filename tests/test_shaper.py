@@ -3,16 +3,18 @@ from hyperglot.shaper import Shaper
 
 plex_arabic = os.path.abspath("tests/plex-4.0.2/IBM-Plex-Sans-Arabic/fonts/complete/otf/IBMPlexSansArabic-Regular.otf")  # noqa
 plex_arabic_without_medi_fina = os.path.abspath("tests/plex-4.0.2/IBM-Plex-Sans-Arabic/fonts/complete/otf/IBMPlexSansArabic-Regular-without-medi-fina.otf")  # noqa
+noto_arabic_var = os.path.abspath("tests/NotoSansArabic[wdth,wght].ttf")
 eczar = os.path.abspath("tests/Eczar-v1.004/otf/Eczar-Regular.otf")
 eczar_marks_ccmp = os.path.abspath("tests/Eczar-marks/EczarCCMP-Regular.otf")
 eczar_marks_mk = os.path.abspath("tests/Eczar-marks/EczarMarks-Regular.otf")
 testfont = os.path.abspath("tests/HyperglotTestFont-Regular.ttf")
 
+
 def test_shaper_joining():
     plex_shaper = Shaper(plex_arabic)
     # A basic Arabic character should have joining shaping.
     assert plex_shaper.check_joining(ord("ب")) is True
-    
+
     # A basic Latin character requires no joining shaping.
     assert plex_shaper.check_joining(ord("A")) is True
 
@@ -33,6 +35,10 @@ def test_shaper_joining():
     # Font with beh and beh.medi is missing beh.init and beh.fina, so it should
     # not pass.
     assert test_shaper.check_joining(ord("ب")) is False
+
+    # issue: https://github.com/rosettatype/hyperglot/issues/192
+    noto_arabic_var_shaper = Shaper(noto_arabic_var)
+    assert noto_arabic_var_shaper.check_joining(ord("ی")) is True
 
 
 def test_shaper_marks():
