@@ -234,7 +234,6 @@ class Orthography(dict):
         "script": "",
         "status": OrthographyStatus.PRIMARY.value,
         "design_requirements": [],
-        "design_alternates": [],
     }
 
     inheritable_defaults = {
@@ -245,7 +244,6 @@ class Orthography(dict):
         "numerals": "",
         "currency": "",
         "design_requirements": [],
-        "design_alternates": [],
     }
 
     def __init__(self, data: dict, expand: bool = True):
@@ -436,13 +434,6 @@ note: {note}
     def numerals(self) -> List[str]:
         return self._character_list("numerals")
 
-    @property
-    def design_alternates(self) -> List[str]:
-        return [
-            remove_mark_base(chars)
-            for chars in self._character_list("design_alternates")
-        ]
-
     def get_chars(self, attr: str = "base", all_marks=False) -> Set:
         """
         Get the orthography base/aux + marks with required or all marks
@@ -620,7 +611,7 @@ note: {note}
             self["marks"] = " ".join(decorated)
 
         # Save inheritance tags on non-character, list attributes
-        for attr in ["design_requirements", "design_alternates"]:
+        for attr in ["design_requirements"]:
             if attr in self and self[attr]:
                 input_is_yaml_object = (
                     type(self[attr]) is dict and len(self[attr].keys()) == 1

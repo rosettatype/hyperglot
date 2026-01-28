@@ -120,7 +120,7 @@ def check_types(Langs:Languages) -> None:
                            "auxiliary", "status", "note",
                            "numerals", "punctuation", "currency",
                            "preferred_as_group",
-                           "design_requirements", "design_alternates",
+                           "design_requirements",
                            "script_iso"]
                 invalid = [k for k in o.keys() if k not in allowed]
                 if len(invalid):

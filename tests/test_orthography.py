@@ -129,28 +129,6 @@ def test_orthography_decomposed():
     assert o.base == ["Ä"]
 
 
-def test_orthography_design_alternates():
-    o = Orthography({"design_alternates": "Ą Ę Į Ǫ ą ą́ ę ę́ į į́ ǫ ǫ́"})
-
-    assert o.design_alternates == [
-        "Ą",
-        "Ę",
-        "Į",
-        "Ǫ",
-        "ą",
-        "ą́",
-        "ę",
-        "ę́",
-        "į",
-        "į́",
-        "ǫ",
-        "ǫ́",
-    ]
-
-    o = Orthography({"design_alternates": "◌̆"})
-    assert o.design_alternates == ["̆"]
-
-
 def test_is_mark():
     assert is_mark("Я̀") is False
     assert is_mark("A") is False
