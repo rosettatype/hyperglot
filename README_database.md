@@ -47,9 +47,8 @@ A language can refer to one or more orthographies. An orthography specifies the 
   - `transliteration` for an orthography used for transliterations (e.g. transliteration of Standard Arabic in the Latin script).
   Orthographies with `secondary` status are ignored during language support detection, but used when detecting `orthography` support.
 - `preferred_as_group` (optional, defaults to `false`) will combine all orthographies of this language. When used, a language is detected as supported only if all its orthographies with this attribute are supported. This is used for Serbian to require both Cyrillic-script and Latin-script orthographies to be supported and for Japanese to require Hiragana, Katakana, and Kanji orthographies to be supported.
-- `note` (optional): a note of any kind.
-- `design_requirements` (optional): a list of notes with general design considerations specific to this orthography. Ideally, phrased in a way that is font-format agnostic. A hint really.
-- `design_alternates` (optional): a string of space separates characters from either `base`, `auxiliary` or `marks` which may require special treatment in font designs of those unicode points or combinations
+- `note` (optional): a note regarding the whole orthography, e.g., note about the use, naming, or inclusion of certain characters. Any note on design treatment of the characters should be in `design_requirements`.
+- `design_requirements` (optional): a list of `note` records with design considerations specific to this orthography. Ideally, phrased in a way that is font-format agnostic. These could be general (addressing the design of all characters in the orthography) or specific to one or more characters. In the latter case, it is recommended to provide the optional `alternates` entry: a string of space separated characters (or character combinations) from the orthography which may require special design treatment different from exemplars associated with the specific code points in the Unicode specification.
 
 ### Criteria for establishing orthographies
 
@@ -103,7 +102,7 @@ Unless stated otherwise, the speaker counts are from Wikipedia.
 
 #### Inheritance
 
-These attributes of an orthography can inherit from other languages/orthographies: `base`, `auxiliary`, `marks`, `punctuation`, `numerals`, `currency`, `design_requirements`, `design_alternates`.
+These attributes of an orthography can inherit from other languages/orthographies: `base`, `auxiliary`, `marks`, `punctuation`, `numerals`, `currency`, `design_requirements`.
 
 Inheritance uses the iso code of the language to inherit from, with optional script, orthography status and source attribute.
 
@@ -207,9 +206,8 @@ speakers: # optional, integer
 speakers_date: # optional, YYYY
 note: # optional
 design_requirements: # optional (a list)
-# - optional
-design_alternates: # optional (a list)
-# - optional
+# - note: optional
+#   alternates: optional
 status: living
 validity: draft
 contributors:
