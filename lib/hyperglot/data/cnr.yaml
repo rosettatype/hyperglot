@@ -7,7 +7,7 @@ orthographies:
   base: <srp> З́ С́ з́ с́
   currency: <default> €
   design_requirements:
-  - note: In italic, some characters (use a form that differs from the defaults associated with the Unicode codepoints (typically the Russian form of Cyrillic).
+  - note: In italic, some character forms may differ from the exemplars associated with the codepoints in the Unicode specification (the Russian forms).
     alternates: б
   - note: Correct positioning of the acute mark above vowel characters may be required.
     alternates: А Е И О У а е и о у ◌́ 

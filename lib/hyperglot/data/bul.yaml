@@ -8,9 +8,9 @@ orthographies:
   base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ь Ю Я Ѐ Ѝ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ь ю я ѐ ѝ
   currency: <default> €
   design_requirements:
-  - note: Some characters use a form that differs from the defaults associated with the Unicode codepoints (typically the Russian form of Cyrillic).
+  - note: Some character forms may differ from the exemplars associated with the codepoints in the Unicode specification (the Russian forms).
     alternates: Л Ѝ в г д ж з и й ѝ к л п т ц ш щ ю
-  - note: The form of the Cyrillic breve mark differs from the Latin-script breve that is associated with the same Unicode codepoint.
+  - note: The form of the Cyrillic breve mark may differ from the Latin-script breve that is associated with the same Unicode codepoint.
     alternates: ◌̆
   - note: Correct positioning of the grave mark above vowel characters may be required.
     alternates: ◌̀

@@ -8,7 +8,7 @@ orthographies:
   currency: <default> ₨
   design_requirements:
   - note: Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
-  - note: Uses Persian numerals (extended Arabic-Indic digits) that have their own codepoints separate from the Arabic-script numerals. However, the forms of 4 and 7 differ from the defaults associated with the Unicode codepoints (typically the Persian forms).
+  - note: Uses Persian numerals (extended Arabic-Indic digits) that have their own codepoints separate from the Arabic-script numerals. However, the forms of 4 and 7 differ from the exemplars associated with the codepoints in the Unicode specifications (the Persian forms).
     alternates: ۴ ۷
   - note: Nastaliq style of the Arabic script is preferred.
   marks: ◌َ ◌ُ ◌ِ ◌ْ ◌ٰ
