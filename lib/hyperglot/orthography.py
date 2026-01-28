@@ -41,6 +41,9 @@ def find_all_inheritance_codes(value: str) -> List:
     if not value:
         return []
 
+    if not isinstance(value, str):
+        return []
+
     inherit = RE_INHERITANCE_TAG.findall(value)
 
     if inherit is None or inherit == []:
@@ -225,7 +228,6 @@ class Orthography(dict):
     """
 
     defaults = {
-        "status": None,
         "preferred_as_group": False,
         "script_iso": None,
         "autonym": "",
