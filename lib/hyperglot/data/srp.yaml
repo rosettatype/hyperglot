@@ -6,9 +6,9 @@ orthographies:
 - autonym: Српски
   base: А Б В Г Д Е Ж З И К Л М Н О П Р С Т У Ф Х Ц Ч Ш Ђ Ј Љ Њ Ћ Џ а б в г д е ж з и к л м н о п р с т у ф х ц ч ш ђ ј љ њ ћ џ
   currency: <default>
-  design_alternates: б
   design_requirements:
-  - In italic, some characters (marked in the previews) use a form that differs from the defaults associated with the Unicode codepoints (typically the Russian form of Cyrillic).
+  - note: In italic, some characters use a form that differs from the exemplars associated with the codepoints in the Unicode specification (typically the Russian form of Cyrillic).
+    alternates: б
   marks: ◌́
   numerals: <default>
   preferred_as_group: true
@@ -19,8 +19,7 @@ orthographies:
   auxiliary: Ǆ ǅ ǆ Ǉ ǈ ǉ Ǌ ǋ ǌ
   base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Ć Č Đ Ś Š Ź Ž a b c d e f g h i j k l m n o p q r s t u v w x y z ć č đ ś š ź ž
   currency: <default>
-  design_requirements:
-  - Digraphs ‹dž›, ‹lj›, and ‹nj› in their uppercase, titlecase, and lowercase forms have dedicated Unicode codepoints in the auxiliary set. However, these were included chiefly for backwards compatibility with legacy encodings which kept a one-to-one correspondence with Cyrillic.
+  note: Digraphs ‹dž›, ‹lj›, and ‹nj› in their uppercase, titlecase, and lowercase forms have dedicated Unicode codepoints in the auxiliary set. However, these were included chiefly for backwards compatibility with legacy encodings which kept a one-to-one correspondence with Cyrillic.
   marks: ◌́ ◌̌
   numerals: <default>
   preferred_as_group: true

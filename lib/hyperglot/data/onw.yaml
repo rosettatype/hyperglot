@@ -5,9 +5,10 @@ orthographies:
 - auxiliary: ⲁ̇ ⲉ̇ ⲓ̇ ⲟ̇ ⲥ̇ ⲩ̇ ⲱ̇
   base: ⲁ ⲃ ⲅ ⲇ ⲉ ⲍ ⲏ ⲓ ⲕ ⲗ ⲙ ⲛ ⲟ ⲡ ⲣ ⲥ ⲧ ⲩ ⲫ ⲱ ⳡ ⳣ ⳝ ⳟ ϣ ϩ ⲑ ⲝ ⲭ ⲯ ⲁ̄ ⲃ̄ ⲅ̄ ⲇ̄ ⲉ̄ ⲍ̄ ⲏ̄ ⲕ̄ ⲗ̄ ⲙ̄ ⲛ̄ ⲟ̄ ⲡ̄ ⲣ̄ ⲥ̄ ⲧ̄ ⲩ̄ ⲫ̄ ⲱ̄ ⳡ̄ ⳣ̄ ⳟ̄ ϣ̄ ϩ̄ ⲑ̄ ⲝ̄ ⲭ̄ ⲯ̄ ⲓ̈
   design_requirements:
-  - Nearly all Old Nubian texts have been written in a slanted uncial variant of the Coptic script.
+  - note: Some authors prefer to use dot mark above instead of macron.
+    alternates: ◌̄ ◌̇
+  - note: Nearly all Old Nubian texts have been written in a slanted uncial variant of the Coptic script.
   marks: ◌̄ ◌̈ ◌̇
-  note: Some authors prefer to use dot mark above instead of macron.
   script: Coptic
   status: primary
 sources:

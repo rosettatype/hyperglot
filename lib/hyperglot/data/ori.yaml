@@ -6,7 +6,7 @@ orthographies:
   auxiliary: ଽ
   base: ଅ ଆ ଇ ଈ ଉ ଊ ଋ ଏ ଐ ଓ ଔ କ ଖ ଗ ଘ ଙ ଚ ଛ ଜ ଝ ଞ ଟ ଠ ଡ ଢ ଣ ତ ଥ ଦ ଧ ନ ପ ଫ ବ ଭ ମ ଯ ୟ ର ଲ ଳ ଵ ୱ ଶ ଷ ସ ହ ‌ ‍
   design_requirements:
-  - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
+  - note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
   - The symbol Om is expressed as a ligature of the character “ଓ” and candrabindu sign.
   marks: ◌ଂ ◌ଃ ◌ା ◌ୀ ◌େ ◌଼ ◌ଁ ◌ି ◌ୁ ◌ୂ ◌ୃ ◌୍ ◌ୖ ◌ୗ
   numerals: ୦ ୧ ୨ ୩ ୪ ୫ ୬ ୭ ୮ ୯ <default Latin>

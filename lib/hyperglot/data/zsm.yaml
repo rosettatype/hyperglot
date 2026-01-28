@@ -25,7 +25,7 @@ orthographies:
   base: ء ا ب ة ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ل م ن ه و ى ي چ ڠ ڤ ک ڽ ۏ ݢ
   currency: <default>
   design_requirements:
-  - Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
+  - note: Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
   note: Jawi
   numerals: <default>
   punctuation: <default>

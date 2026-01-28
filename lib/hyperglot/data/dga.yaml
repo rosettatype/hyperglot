@@ -6,14 +6,16 @@ orthographies:
 - auxiliary: Ɦ ɦ Ŋ ŋ
   base: A B D E Ɛ F G H I J K L M N O Ɔ P R S T U V W Y Z a b d e ɛ f g h i j k l m n o ɔ p r s t u v w y z
   design_requirements:
-  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in African languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  - note: There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in African languages, and the other resembling N with J as the second stem favoured in Sami languages.
+    alternates: Ŋ
   note: Bureau of Ghana Languages orthography. Ɦ and Ŋ are proposed in Bodomo 1997.
   numerals: <default>
   script: Latin
   status: primary
 - base: A B D E Ɛ F G H I J K L M N Ŋ O Ɔ P R S T U V W Y Z a b d e ɛ f g h i j k l m n ŋ o ɔ p r s t u v w y z
   design_requirements:
-  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in African languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  - note: There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in African languages, and the other resembling N with J as the second stem favoured in Sami languages.
+    alternates: Ŋ
   marks: ◌̃
   note: Bible Society of Ghana orthography
   numerals: <default>

@@ -5,10 +5,11 @@ name: Tundra Enets
 orthographies:
 - autonym: Онэй база
   base: А Б В Г Д Е Ж З И Й К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ё Ҫ Ӈ Ԑ а б в г д е ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я ё ҫ ӈ ԑ
-  design_alternates: Ҫ ҫ
   design_requirements:
-  - Characters ‹Ҫ,ҫ› (marked in the previews) are sometimes represented with a cedilla instead of a descender (spike).
-  - The form of the Cyrillic breve mark (marked in the previews) differs from the Latin-script breve that is associated with the same Unicode codepoint.
+  - note: Characters ‹Ҫ,ҫ› are sometimes represented with a cedilla instead of a descender (spike).
+    alternates: Ҫ ҫ
+  - note: The form of the Cyrillic breve mark differs from the Latin-script breve that is associated with the same Unicode codepoint.
+    alternates: ◌̆
   marks: ◌̆ ◌̈
   numerals: <default>
   punctuation: <default>

@@ -9,7 +9,7 @@ orthographies:
   base: ก ข ฃ ค ฅ ฆ ง จ ฉ ช ซ ฌ ญ ฎ ฏ ฐ ฑ ฒ ณ ด ต ถ ท ธ น บ ป ผ ฝ พ ฟ ภ ม ย ร ล ว ศ ษ ส ห ฬ อ ฮ ะ า เ แ โ ใ ไ ฤ ๅ ฦ ๆ
   currency: <default Latin> ฿
   design_requirements:
-  - Mark positioning and some character combinations (ligatures) have to be resolved to properly represent the language.
+  - note: Mark positioning and some character combinations (ligatures) have to be resolved to properly represent the language.
   marks: ◌̍ ◌̎ ◌ั ◌ิ ◌ุ ◌ู ◌็ ◌ํ ◌ี ◌ึ ◌ื ◌ฺ ◌่ ◌้ ◌๊ ◌๋ ◌์ ◌๎
   numerals: ๐ ๑ ๒ ๓ ๔ ๕ ๖ ๗ ๘ ๙ <default Latin>
   punctuation: <default Latin> ๚ ๏ ๛ “ ” ‘ ’

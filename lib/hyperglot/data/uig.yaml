@@ -16,7 +16,7 @@ orthographies:
   base: ئ ا ب ت ج خ د ر ز س ش غ ف ق ك ل م ن و ي پ چ ژ ڭ گ ھ ۆ ۇ ۈ ۋ ې ە
   currency: <default>
   design_requirements:
-  - Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
+  - note: Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
   - Uyghur language permits hyphenation, thus it is relevant to provide a language-specific version of the hyphen.
   marks: ◌ٔ
   numerals: <default>

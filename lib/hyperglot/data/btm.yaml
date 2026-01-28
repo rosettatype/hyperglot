@@ -11,9 +11,9 @@ orthographies:
   auxiliary: ᯂ ᯃ ᯊ ᯘ ᯙ
   base: ᯀ ᯄ ᯅ ᯇ ᯉ ᯋ ᯎ ᯐ ᯑ ᯒ ᯔ ᯖ ᯚ ᯛ ᯝ ᯞ ᯠ ᯤ ᯥ
   design_requirements:
-  - Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
+  - note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
   marks: ◌᯦ ◌ᯩ ◌ᯪ ◌ᯬ ◌ᯮ ◌ᯰ ◌᯲
-  note: The Latin script is the most used nowadays.
+  note: The Latin-script orthography is the most used nowadays.
   punctuation: ᯼ ᯽ ᯾ ᯿
   script: Batak
   status: secondary

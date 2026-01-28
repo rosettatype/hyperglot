@@ -15,7 +15,7 @@ orthographies:
 - autonym: ᨅᨔ ᨕᨘᨁᨗ
   base: ᨀ ᨁ ᨂ ᨃ ᨄ ᨅ ᨆ ᨇ ᨈ ᨉ ᨊ ᨋ ᨌ ᨍ ᨎ ᨏ ᨐ ᨑ ᨒ ᨓ ᨔ ᨕ ᨖ
   design_requirements:
-  - Mark positioning and some character combinations have to be resolved to properly represent the language.
+  - note: Mark positioning and some character combinations have to be resolved to properly represent the language.
   marks: ◌ᨗ ◌ᨘ ◌ᨙ ◌ᨚ ◌ᨛ
   note: The script is also called Lontara
   numerals: <default Latin>

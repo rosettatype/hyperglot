@@ -6,11 +6,11 @@ orthographies:
   auxiliary: ـ
   base: ء ا ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ل م ن و ٹ پ چ ڈ ڑ ژ ک گ ں ھ ہ ی
   currency: <default> ₨
-  design_alternates: ۴ ۷
   design_requirements:
-  - Nastaliq style of the Arabic script is preferred.
-  - Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
-  - Uses Persian numerals (extended Arabic-Indic digits) that have their own code points separate from the Arabic-script numerals. However, the forms of 4 and 7 differ from the defaults associated with the Unicode codepoints (typically the Persian forms).
+  - note: Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
+  - note: Uses Persian numerals (extended Arabic-Indic digits) that have their own codepoints separate from the Arabic-script numerals. However, the forms of 4 and 7 differ from the defaults associated with the Unicode codepoints (typically the Persian forms).
+    alternates: ۴ ۷
+  - note: Nastaliq style of the Arabic script is preferred.
   marks: ◌َ ◌ُ ◌ِ ◌ْ ◌ٰ
   numerals: <pes>
   punctuation: <default> “ ” ‘ ’

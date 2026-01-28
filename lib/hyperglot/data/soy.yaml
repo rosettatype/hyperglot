@@ -5,7 +5,8 @@ orthographies:
 - autonym: mɛyɔ́pɛ
   base: A C E Ɛ F H I K L M N Ŋ O Ɔ P R S T U W Y Á É Í Ó Õ Ú Ĩ Ũ Ṍ Ṹ Ẽ a c e ɛ f h i k l m n ŋ o ɔ p r s t u w y á é í ó õ ú ĩ ũ ṍ ṹ ẽ
   design_requirements:
-  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in African languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  - note: There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in African languages, and the other resembling N with J as the second stem favoured in Sami languages.
+    alternates: Ŋ
   marks: ◌́ ◌̃
   numerals: <default>
   script: Latin

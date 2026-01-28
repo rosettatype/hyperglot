@@ -7,7 +7,7 @@ orthographies:
   base: ກ ຂ ຄ ງ ຈ ສ ຊ ຍ ດ ຕ ຖ ທ ນ ບ ປ ຜ ຝ ພ ຟ ມ ຢ ຣ ລ ວ ຫ ອ ຮ ະ າ ເ ແ ໂ ໃ ໄ ຽ
   currency: <default Latin> ₭
   design_requirements:
-  - Mark positioning and some character combinations (ligatures) have to be resolved to properly represent the language.
+  - note: Mark positioning and some character combinations (ligatures) have to be resolved to properly represent the language.
   marks: ◌ັ ◌ິ ◌ີ ◌ຶ ◌ື ◌ຸ ◌ູ ◌ົ ◌ຼ ◌່ ◌້ ◌໊ ◌໋ ◌໌ ◌ໍ
   numerals: ໐ ໑ ໒ ໓ ໔ ໕ ໖ ໗ ໘ ໙ <default Latin>
   punctuation: <default Latin> ຯ ໆ “ ”

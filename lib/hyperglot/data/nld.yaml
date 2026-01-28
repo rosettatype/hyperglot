@@ -9,11 +9,12 @@ orthographies:
   base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Á Â Ä È É Ê Ë Í Ï Ó Ô Ö Ú Û Ü Ĳ a b c d e f g h i j k l m n o p q r s t u v w x y z á â ä è é ê ë í ï ó ô ö ú û ü ĳ
   currency: <default> €
   design_requirements:
-  - A vast amount of Dutch data uses <i><j> (<I><J> in uppercase) to represent the Dutch *lange ij*.
-  - 'Unicode and corresponding legacy encodings provide a digraph <ĳ> (<Ĳ> in uppercase) to simplify software support for situations when the lange ij ought to behave like a single unit, e.g. when text gets additional tracking or when changing cases. It is up to the font developers to decide whether they want to treat lange ij as a single unit during tracking or not or whether they want to leave the <ĳ> and <Ĳ> unaffected. For the sake of clarity: uppercase lange ij cannot be represented as <I><j>.'
-  - Stressed lange ij is usually represented as <í><j>, but <í><j́> when technically possible as per the 1996 spelling.
-  - The <j> should lose its dot when combined with a combining acute.
-  - 'Warning: Generally, fonts should not add an acute that is not present in the text, e.g. add acute above the <j> after the <í>. Many Dutch speakers use níet instead of níét, góed instead of góéd, zíjn instead of zíj́n and a font should not make either look like they have an additional acute. There is also the issue of foreign names in Dutch text, like Níjar or Szíj, which would be displayed incorrectly.'
+  - note: A vast amount of Dutch data uses‹i›<j> (<I><J> in uppercase) to represent the Dutch *lange ij*.
+    alternates: Ĳ ĳ
+  - note: Unicode and corresponding legacy encodings provide a digraph‹ĳ› (<Ĳ> in uppercase) to simplify software support for situations when the *lange ij* ought to behave like a single unit, e.g., when a text gets additional tracking or when changing cases. It is up to the font developers to decide whether they want to treat *lange ij* as a single unit during tracking or not or whether they want to leave the‹ĳ› and‹Ĳ› unaffected. For the sake of clarity, uppercase *lange ij* cannot be represented as‹I›<j>.
+    alternates: Ĳ ĳ
+  - note: Stressed *lange ij* is usually represented as‹í›<j>, but‹í›<j́> when technically possible as per the 1996 spelling (the‹j› should lose its dot when combined with a combining acute).  **Warning:** Generally, fonts should not add an acute that is not present in the text, e.g., add acute above the‹j› after the‹í›. Many Dutch speakers use “níet”, “góed”, or “zíjn” instead of “níét”, “góéd”, or “zíj́n” and a font should not make the former look like the latter, i.e., add an additional acute. There is also the issue of foreign names in Dutch text, like “Níjar” or “Szíj”, which would be displayed incorrectly if an acute was added automatically.
+    alternates: Ĳ ĳ ◌́
   marks: ◌̀ ◌́ ◌̂ ◌̈
   numerals: <default>
   punctuation: <default> ‘ “ ’ ” ‚ „

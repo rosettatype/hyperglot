@@ -7,7 +7,7 @@ orthographies:
   base: ا ب ٻ پ ت ٹ ث ج ڄ چ ح خ د ڊ ڈ ݙ ذ ر ڑ ز ژ س ش ص ض ط ظ ع غ ف ق ک گ ڳ ل م ن ݨ و ہ ھ ء ی ے ي
   currency: <urd>
   design_requirements:
-  - Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
+  - note: Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
   marks: ◌ٔ
   numerals: <pes>
   punctuation: <pes>

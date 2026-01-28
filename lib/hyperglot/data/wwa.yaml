@@ -5,7 +5,8 @@ orthographies:
 - autonym: Yoabu
   base: A B C D E Ɛ F I K M N Ŋ O Ɔ P R S T U W Y a b c d e ɛ f i k m n ŋ o ɔ p r s t u w y
   design_requirements:
-  - There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in African languages, and the other resembling N with J as the second stem favoured in Sami languages.
+  - note: There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in African languages, and the other resembling N with J as the second stem favoured in Sami languages.
+    alternates: Ŋ
   note: Ŋ/ŋ are not included in CENALA 1990 nor CENALA 2008 but are included in Hartell 1993 and are used in https://www.webonary.org/waama/ or the Waama Bible translation published in Wycliffe 1994.
   numerals: <default>
   script: Latin
