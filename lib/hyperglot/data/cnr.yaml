@@ -19,7 +19,6 @@ orthographies:
 - autonym: Crnogorski
   base: <srp>
   currency: <default> €
-  design_requirements: <srp>
   marks: <srp>
   numerals: <default>
   punctuation: <default> „ “ ‚ ‘ » « › ‹
