@@ -1,4 +1,5 @@
 import logging
+import unicodedata as uni
 from fontTools.ttLib import TTFont
 from typing import List, Set
 from collections.abc import Iterable
@@ -270,9 +271,7 @@ class Checker:
 
                     # Validation
                     supported = False
-                    log.info(
-                        f"{language} missing {len(base_missing)} base characters"
-                    )
+                    log.info(f"{language} missing {len(base_missing)} base characters")
 
             # Proceed with shaping checks (for output) even when font is
             # already found not supporting a language!
@@ -391,7 +390,37 @@ class Checker:
         if decomposed:
             check_attachment.extend([c for c in chars if c not in self.characters])
 
-        mark_errors = orthography.check_mark_attachment(check_attachment, self.shaper)
+        # Before even attempting mark attachment, make sure the font actually
+        # has those base chars. The mark attachment will still silently fail
+        # for missing glyphs, but let's not even attempt those checks.
+        in_font = []
+        for c in check_attachment:
+            bases = [
+                ch for ch in parse_chars(c) if not uni.category(ch).startswith("Mn")
+            ]
+            marks = [ch for ch in parse_chars(c) if uni.category(ch).startswith("Mn")]
+            found = True
+
+            for base in bases:
+                if base not in self.characters:
+                    log.debug(
+                        f"Skipping mark attachment check for '{c}' as base '{base}' is missing from font"
+                    )
+                    found = False
+                    break
+            for mark in marks:
+                if mark not in self.characters:
+                    log.debug(
+                        f"Skipping mark attachment check for '{c}' as mark '{mark}' is missing from font"
+                    )
+                    found = False
+                    break
+            if found:
+                in_font.append(c)
+
+        if in_font == []:
+            return (joining_errors, [])
+        mark_errors = orthography.check_mark_attachment(in_font, self.shaper)
 
         return (joining_errors, mark_errors)
 

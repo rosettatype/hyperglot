@@ -5,6 +5,7 @@
 - DATA: Modified multitudes of `design_requirements`, dropped `design_alternates`
 - DATA: `jpn` Latin orthography marked as secondary
 - TWEAK: Minor tweak to logging in `Orthography`
+- TWEAK: `Checker._check_shaping` with better pre-check to skip mark attachment checks for glyphs not in the font (obvious)
 
 ## 0.7.3 (13.10.2025)
 - DATA: Fixed to `cbi` (thanks @moyogo)
