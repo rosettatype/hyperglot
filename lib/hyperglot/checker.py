@@ -253,7 +253,6 @@ class Checker:
                     decomposed_char = set(parse_chars(c))
                     if not decomposed_char.issubset(self.characters):
                         supported = False
-
             if not supported:
                 log.debug(
                     "%s missing from language base for: %s"

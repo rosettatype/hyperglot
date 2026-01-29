@@ -320,6 +320,21 @@ def cli(
     else:
         loglevel = logging.WARNING
 
+    # Configure root logger with handler if not already configured
+    if not logging.getLogger().handlers:
+        if loglevel >= logging.WARNING:
+            logging.basicConfig(
+                level=loglevel,
+                format='%(levelname)s: %(message)s'
+            )
+        else:
+            logging.basicConfig(
+                level=loglevel,
+                format='%(levelname)s (%(name)s): %(message)s'
+            )
+    else:
+        logging.getLogger().setLevel(loglevel)
+
     log.setLevel(loglevel)
     logging.getLogger("hyperglot.languages").setLevel(loglevel)
     logging.getLogger("hyperglot.language").setLevel(loglevel)
