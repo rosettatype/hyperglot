@@ -7,10 +7,10 @@ orthographies:
   base: <srp> З́ С́ з́ с́
   currency: <default> €
   design_requirements:
-  - note: In italic, some character forms may differ from the exemplars associated with the codepoints in the Unicode specification (the Russian forms).
-    alternates: б
-  - note: Correct positioning of the acute mark above vowel characters may be required.
-    alternates: А Е И О У а е и о у ◌́ 
+  - alternates: б
+    note: In italic, some character forms may differ from the exemplars associated with the codepoints in the Unicode specification (the Russian forms).
+  - alternates: А Е И О У а е и о у ◌́
+    note: Correct positioning of the acute mark above vowel characters may be required.
   marks: <srp>
   numerals: <default>
   punctuation: <default> „ “ ‚ ‘ » « › ‹

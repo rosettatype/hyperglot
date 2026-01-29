@@ -8,8 +8,8 @@ orthographies:
   currency: ௹ <default Devanagari>
   design_requirements:
   - note: Mark positioning and precomposed sign (matra) forms are required for proper representation of the language.
-  - note: The conjunct letters ‹க்ஷ› and ‹ஸ்ரீ› should be acknowledged as separate from other conjunct matra forms.
-    alternates: க்ஷ ஸ்ரீ
+  - alternates: க்ஷ ஸ்ரீ
+    note: The conjunct letters ‹க்ஷ› and ‹ஸ்ரீ› should be acknowledged as separate from other conjunct matra forms.
   marks: ◌் ◌ஂ ◌ா ◌ி ◌ீ ◌ு ◌ூ ◌ெ ◌ே ◌ை ◌ௗ
   numerals: ௦ ௧ ௨ ௩ ௪ ௫ ௬ ௭ ௮ ௯ ௰ ௱ ௲ <default Latin> ௺ 𑿩
   punctuation: <default Devanagari> ௐ

@@ -7,10 +7,10 @@ orthographies:
   base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z À Ç È É Í Ï Ò Ó Ú Ü a b c d e f g h i j k l m n o p q r s t u v w x y z à ç è é í ï ò ó ú ü
   currency: <default> €
   design_requirements:
-  - note: Consideration should be given to the design and spacing of the middle dot ‹·› (punt volat).
-    alternates: ·
-  - note: The use of legacy precomposed forms ‹Ŀ, ŀ› is discouraged. Some font developers decompose ‹Ŀ, ŀ› automatically to <L, l> and ‹·› in order to adapt the position of the middle dot to changes in the overall spacing (e.g., when tracking is used).
-    alternates: Ŀ ŀ
+  - alternates: ·
+    note: Consideration should be given to the design and spacing of the middle dot ‹·› (punt volat).
+  - alternates: Ŀ ŀ
+    note: The use of legacy precomposed forms ‹Ŀ, ŀ› is discouraged. Some font developers decompose ‹Ŀ, ŀ› automatically to <L, l> and ‹·› in order to adapt the position of the middle dot to changes in the overall spacing (e.g., when tracking is used).
   marks: ◌̀ ◌́ ◌̈ ◌̧
   numerals: <default>
   punctuation: <default> ‘ “ ’ ” « »

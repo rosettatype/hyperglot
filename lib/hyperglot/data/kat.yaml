@@ -7,8 +7,8 @@ orthographies:
   auxiliary: ა́ ა̈ ა̄ ა̄̈ ე́ ე̄ ი́ ი̄ ო́ ო̈ ო̄ ო̄̈ უ́ უ̂ უ̈ უ̄ უ̄̈ ჷ́ ჷ̄ ჱ ჲ ჳ ჴ ჵ ჶ ჷ ჸ ჹ ჺ ჽ ჾ ჿ ჻ Ა́ Ა̈ Ა̄ Ა̄̈ Ე́ Ე̄ Ი́ Ი̄ Ო́ Ო̈ Ო̄ Ო̄̈ Უ́ Უ̂ Უ̈ Უ̄ Უ̄̈ Ჷ́ Ჷ̄ Ჱ Ჲ Ჳ Ჴ Ჵ Ჶ Ჷ Ჸ Ჹ Ჺ Ჽ Ჾ Ჿ ჼ
   base: ა ბ გ დ ე ვ ზ თ ი კ ლ მ ნ ო პ ჟ რ ს ტ უ ფ ქ ღ ყ შ ჩ ც ძ წ ჭ ხ ჯ ჰ Ა Ბ Გ Დ Ე Ვ Ზ Თ Ი Კ Ლ Მ Ნ Ო Პ Ჟ Რ Ს Ტ Უ Ფ Ქ Ღ Ყ Შ Ჩ Ც Ძ Წ Ჭ Ხ Ჯ Ჰ
   currency: <default Latin> ₾
-  note: The character set includes Mkhedruli (lowercase letters) and Mtavruli (capital letters, added to Unicode in 2018). It is recommended that font developers supporting contemporary use of the Georgian language include both sets of letters.
   marks: ◌́ ◌̈ ◌̄ ◌̂
+  note: The character set includes Mkhedruli (lowercase letters) and Mtavruli (capital letters, added to Unicode in 2018). It is recommended that font developers supporting contemporary use of the Georgian language include both sets of letters.
   numerals: <default Latin>
   punctuation: <default Latin> ‚ „ ‘ “
   script: Georgian

@@ -6,8 +6,8 @@ orthographies:
   auxiliary: C J Ʊ c j ʊ
   base: A B D E Ɛ Ə F G H I Ɩ K L M N Ɲ Ŋ O Ɔ P R S T U Ʋ W Y Z a b d e ɛ ə f g h i ɩ k l m n ɲ ŋ o ɔ p r s t u ʋ w y z À à Á á
   design_requirements:
-  - note: There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in African languages, and the other resembling N with J as the second stem favoured in Sami languages.
-    alternates: Ŋ
+  - alternates: Ŋ
+    note: There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in African languages, and the other resembling N with J as the second stem favoured in Sami languages.
   marks: ◌̀ ◌́
   numerals: <default>
   script: Latin

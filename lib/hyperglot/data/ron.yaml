@@ -15,8 +15,8 @@ orthographies:
   base: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Â Î Ă Ș Ț a b c d e f g h i j k l m n o p q r s t u v w x y z â î ă ș ț
   currency: <default> €
   design_requirements:
-  - note: The characters ‹Ș,ș› and ‹Ț,ț› have been represented with ‹Ş,ş› and ‹Ţ,ţ› in the past. The former character codepoints may still appear in some legacy encodings. To resolve this and to avoid discrepancy (the marks below both character pairs ought to be identical) some font developers use automated substitutions in their OpenType fonts.
-    alternates: Ș Ț ș ț
+  - alternates: Ș Ț ș ț
+    note: The characters ‹Ș,ș› and ‹Ț,ț› have been represented with ‹Ş,ş› and ‹Ţ,ţ› in the past. The former character codepoints may still appear in some legacy encodings. To resolve this and to avoid discrepancy (the marks below both character pairs ought to be identical) some font developers use automated substitutions in their OpenType fonts.
   marks: ◌̂ ◌̆ ◌̦ ◌̧
   note: Used also for Romanian spoken in Moldavia (sometimes called Moldavian).
   numerals: <default>

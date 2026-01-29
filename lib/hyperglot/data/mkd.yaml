@@ -6,10 +6,10 @@ orthographies:
 - autonym: Македонски
   base: А Б В Г Д Е Ж З И К Л М Н О П Р С Т У Ф Х Ц Ч Ш Ѓ Ѕ Ј Љ Њ Ќ Џ а б в г д е ж з и к л м н о п р с т у ф х ц ч ш ѓ ѕ ј љ њ ќ џ Ѐ Ѝ ѐ ѝ
   design_requirements:
-  - note: In italic, some character forms may differ from the exemplars associated with the codepoints in the Unicode specification (the Russian forms).
-    alternates: б
-  - note: Correct positioning of the acute and grave marks above vowel characters may be required.
-    alternates: А Е И О У а е и о у ◌́ ◌̀
+  - alternates: б
+    note: In italic, some character forms may differ from the exemplars associated with the codepoints in the Unicode specification (the Russian forms).
+  - alternates: А Е И О У а е и о у ◌́ ◌̀
+    note: Correct positioning of the acute and grave marks above vowel characters may be required.
   marks: ◌́ ◌̀
   numerals: <default>
   punctuation: <default> „ “ ’ ‘

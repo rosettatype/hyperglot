@@ -1,6 +1,8 @@
 # A changelog for the lib/hyperglot language database and CLI tool (dd.mm.yyyy)
 
 ## 0.7.4 (WIP)
+- TWEAK: `design_requirments` can now be either a string, or a dict of `note` + `alternates` (detailing which characters are affected)
+- DATA: Modified multitudes of `design_requirements`, dropped `design_alternates`
 - DATA: `jpn` Latin orthography marked as secondary
 - TWEAK: Minor tweak to logging in `Orthography`
 

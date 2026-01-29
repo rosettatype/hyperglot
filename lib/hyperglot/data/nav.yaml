@@ -6,8 +6,8 @@ orthographies:
 - autonym: Diné Bizaad
   base: A Ą Ą́ B C D E Ę Ę́ G H I Į Į́ J K L Ł M N O Ǫ Ǫ́ S T W X Y Z a á ą ą́ b c d e é ę ę́ g h i í į į́ j k l ł m n o ó ǫ ǫ́ s t w x y z ʼ
   design_requirements:
-  - note: The positioning of the ogonek mark differs from its positioning in Polish and Lithuanian as it is typically centered below the vowel.
-    alternates: Ą Ą́ Ę Ę́ Į Į́ Ǫ Ǫ́ ą ą́ ę ę́ į į́ ǫ ǫ́ ◌̨
+  - alternates: Ą Ą́ Ę Ę́ Į Į́ Ǫ Ǫ́ ą ą́ ę ę́ į į́ ǫ ǫ́ ◌̨
+    note: The positioning of the ogonek mark differs from its positioning in Polish and Lithuanian as it is typically centered below the vowel.
   marks: ◌́ ◌̨
   numerals: <default>
   script: Latin

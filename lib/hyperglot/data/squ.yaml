@@ -6,8 +6,8 @@ orthographies:
 - autonym: Sḵwx̱wú7mesh sníchim
   base: A AA AW AW̓ AY AY̓ Á CH CHʼ E EY EY̓ EW EW̓ É H I II IW IW̓ Í K Kʼ KW KWʼ Ḵ Ḵʼ ḴW ḴWʼ L L̓ LH M M̓ N N̓ P Pʼ S SH T Tʼ TLʼ TS TSʼ U UU UY UY̓ Ú W W̓ XW X̱ X̱W Y Y̓ a aa aw aw̓ ay ay̓ á ch chʼ e ey ey̓ ew ew̓ é h i ii iw iw̓ í k kʼ kw kwʼ ḵ ḵʼ ḵw ḵwʼ l l̓ lh m m̓ n n̓ p pʼ s sh t tʼ tlʼ ts tsʼ u uu uy uy̓ ú w w̓ xw x̱ x̱w y y̓ 7 ʼ ’ ''
   design_requirements:
-  - note: Curly comma accents and right quotes are preferrably used on consonants, to differentiate from acute accents used on vowels.
-    alternates: ◌̓ ◌́
+  - alternates: ◌̓ ◌́
+    note: Curly comma accents and right quotes are preferrably used on consonants, to differentiate from acute accents used on vowels.
   marks: ◌̓ ◌̱ ◌́
   numerals: <default>
   punctuation: . , - ? !

@@ -10,8 +10,8 @@ orthographies:
   currency: <default>
   design_requirements:
   - note: Mark positioning and numerous precomposed forms (namely conjunct ligatures) are required for proper representation of the language.
-  - note: Marathi Devanagari (sometimes called Balbodh) uses different forms for some characters, as well as conjunct ligatures, compared with Hindi Devanagari (the default exemplars in the Unicode specification), e.g. ‹र› (eyelash reph), ‹ल›, ‹श›, or numerals 5 and 8.
-    alternates: र ल श ५ ८
+  - alternates: र ल श ५ ८
+    note: Marathi Devanagari (sometimes called Balbodh) uses different forms for some characters, as well as conjunct ligatures, compared with Hindi Devanagari (the default exemplars in the Unicode specification), e.g. ‹र› (eyelash reph), ‹ल›, ‹श›, or numerals 5 and 8.
   marks: ◌ँ ◌ं ◌ः ◌़ ◌ा ◌ि ◌ी ◌ु ◌ू ◌ृ ◌े ◌ै ◌ो ◌ौ ◌्
   numerals: <default>
   punctuation: <hin>

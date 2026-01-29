@@ -5,8 +5,8 @@ orthographies:
 - autonym: Acoli
   base: A B C D E G I J K L M N Ŋ O P R T U W Y a b c d e g i j k l m n ŋ o p r t u w y
   design_requirements:
-  - note: There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in African languages, and the other resembling N with J as the second stem favoured in Sami languages.
-    alternates: Ŋ
+  - alternates: Ŋ
+    note: There are two common design variants both encoded as Ŋ, one resembling the lowercase ŋ reaching cap height favoured in African languages, and the other resembling N with J as the second stem favoured in Sami languages.
   numerals: <default>
   script: Latin
   status: primary
