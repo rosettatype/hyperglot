@@ -77,7 +77,8 @@ class Shaper:
     def check_joining(self, unicode: int) -> bool:
         """
         Check if the string exhibits joining behaviour (shaping differs) by
-        comparing its plain version to a version joined with zero width joiners.
+        comparing its plain version to a version joined with zero width
+        joiners.
 
         Return True if the shaping differs or the glyph requires no shaping.
         Return False if the shaping remains unchanged but requires joining
@@ -110,48 +111,18 @@ class Shaper:
         # The plain/zwj are arrays of sequences of the unicode in question
         # joined based on its unicode joining_type flags; check through all
         # possible join sequences to confirm all are supported in the font.
+        #
+        # It would be _nice_ to be able to check specifically if the base glyph
+        # transforms into a init/medi/fina form, but this assumption is not
+        # 100% reliable across all fonts, so we just check if the shaping
+        # differs just generally.
         for i in range(0, len(plain)):
-            # Get the buffer info of the sequence.
-            buffer_glyph_info_plain = self.get_glyph_infos(plain[i])
-            buffer_glyph_info_zwj = self.get_glyph_infos(zwj[i])
-            differs = False
+            # Get the buffer info of the sequence, and compare the codepoints.
+            # Note those are font GIDs not, unicodes!
+            codes_plain = [g.codepoint for g in self.get_glyph_infos(plain[i])]
+            codes_joined = [g.codepoint for g in self.get_glyph_infos(zwj[i])]
 
-            # This presumes one to one transformations with same length overall
-            # sequences. Afaik init/medi/fina/isol should always be one to one.
-            if len(buffer_glyph_info_plain) != len(buffer_glyph_info_zwj):
-                log.debug(
-                    f"Test sequences for {string} / {unicode}: {plain} "
-                    f"(buffer length {len(buffer_glyph_info_plain)}) vs "
-                    f"{zwj} (buffer length {len(buffer_glyph_info_zwj)})"
-                )
-                raise ValueError(
-                    "Joining shaping results in multiple glyph substitution."
-                )
-
-            for c in range(0, len(buffer_glyph_info_plain)):
-                plain_codepoint = buffer_glyph_info_plain[c].codepoint
-                zwj_codepoint = buffer_glyph_info_zwj[c].codepoint
-
-                # We are only interested in that point in the sequence that has
-                # our char (in the plain version).
-                if not plain_codepoint == glyph_id:
-                    continue
-
-                log.debug(
-                    f"Codepoints at {c} in sequence {i}: {plain_codepoint} "
-                    f"({self.font.get_glyph_name(plain_codepoint)}) vs "
-                    f"{zwj_codepoint} ({self.font.get_glyph_name(zwj_codepoint)})"
-                )
-
-                # If the glyph in the sequence is the glyph we are interested
-                # in compare their codepoint (meaning glyph id, not unicode!)
-                # to confirm it is different because of automatic script based
-                # shaping has been applied in the buffer.
-                if plain_codepoint != zwj_codepoint:
-                    differs = True
-
-            # If this sequence failed to be shaped different we can abort.
-            if not differs:
+            if not codes_plain != codes_joined:
                 return False
 
         # All shape.
@@ -190,14 +161,14 @@ class Shaper:
 
             if len(data) == 1:
                 return True
-            
+
         if len(input) > 1 and len(data) == 1:
             # A sequence was entered which resulted in substitution to a single
             # glyph output, like a ccmp transforming a base + mark to a single
             # glyph. We trust this is intentional by the vendor and constitutes
             # a shaped mark.
             return True
-        
+
         non_marks = {
             self.font.get_nominal_glyph(ord(c)): c
             for c in chars
@@ -210,9 +181,12 @@ class Shaper:
 
             if glyph_info.codepoint in non_marks.keys():
                 continue
-            
+
             # No such glyph in the font.
-            if glyph_info.codepoint == 0 or self.font.get_glyph_name(glyph_info.codepoint) is None:
+            if (
+                glyph_info.codepoint == 0
+                or self.font.get_glyph_name(glyph_info.codepoint) is None
+            ):
                 missing_from_font = missing_from_font + 1
                 continue
 

@@ -1,6 +1,7 @@
 # A changelog for the lib/hyperglot language database and CLI tool (dd.mm.yyyy)
 
 ## 0.7.4 (WIP)
+- FIX: `Shaper.check_joining` refined to not be more lenient and not fail fonts with other than one-to-one positional substitutions or general sequence manipulating `ccmp` code
 - TWEAK: `design_requirments` can now be either a string, or a dict of `note` + `alternates` (detailing which characters are affected)
 - DATA: Modified multitudes of `design_requirements`, dropped `design_alternates`
 - DATA: `jpn` Latin orthography marked as secondary

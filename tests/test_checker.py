@@ -401,6 +401,8 @@ def test_checker_marks(caplog):
 
 
 def test_checker_joining(caplog):
+    # Specifically set the reporter logger, so we can pick up the specific fail
+    # messages and confirm them.
     caplog.set_level(logging.WARNING, logger="hyperglot.reporting.joining")
 
     checker = FontChecker(plex_arabic_without_medi_fina)

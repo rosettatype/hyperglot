@@ -1,22 +1,34 @@
 import os
 from hyperglot.shaper import Shaper
 
-plex_arabic = os.path.abspath("tests/plex-4.0.2/IBM-Plex-Sans-Arabic/fonts/complete/otf/IBMPlexSansArabic-Regular.otf")  # noqa
-plex_arabic_without_medi_fina = os.path.abspath("tests/plex-4.0.2/IBM-Plex-Sans-Arabic/fonts/complete/otf/IBMPlexSansArabic-Regular-without-medi-fina.otf")  # noqa
+plex_arabic = os.path.abspath(
+    "tests/plex-4.0.2/IBM-Plex-Sans-Arabic/fonts/complete/otf/IBMPlexSansArabic-Regular.otf"
+)  # noqa
+plex_arabic_without_medi_fina = os.path.abspath(
+    "tests/plex-4.0.2/IBM-Plex-Sans-Arabic/fonts/complete/otf/IBMPlexSansArabic-Regular-without-medi-fina.otf"
+)  # noqa
 eczar = os.path.abspath("tests/Eczar-v1.004/otf/Eczar-Regular.otf")
 eczar_marks_ccmp = os.path.abspath("tests/Eczar-marks/EczarCCMP-Regular.otf")
 eczar_marks_mk = os.path.abspath("tests/Eczar-marks/EczarMarks-Regular.otf")
 testfont = os.path.abspath("tests/HyperglotTestFont-Regular.ttf")
+noto_arabic = os.path.abspath(
+    "tests/Noto_Sans_Arabic/NotoSansArabic[wdth,wght].ttf"
+)  # noqa
+
 
 def test_shaper_joining():
+    # # For debugging these test:
+    # import logging
+    # logging.getLogger("hyperglot.shaper").setLevel(logging.DEBUG)
+
     plex_shaper = Shaper(plex_arabic)
     # A basic Arabic character should have joining shaping.
     assert plex_shaper.check_joining(ord("ب")) is True
-    
+
     # A basic Latin character requires no joining shaping.
     assert plex_shaper.check_joining(ord("A")) is True
 
-    # A basic Georgian character requires no joining shaping, even if not in 
+    # A basic Georgian character requires no joining shaping, even if not in
     # the font.
     assert plex_shaper.check_joining(ord("ა")) is True
 
@@ -25,7 +37,7 @@ def test_shaper_joining():
     assert eczar_shaper.check_joining(ord("ب")) is False
 
     arabic_missing_features_shaper = Shaper(plex_arabic_without_medi_fina)
-    # The same Arabic character should be missing shaping if there is no medi 
+    # The same Arabic character should be missing shaping if there is no medi
     # or fina feature in the font.
     assert arabic_missing_features_shaper.check_joining(ord("ب")) is False
 
@@ -34,11 +46,18 @@ def test_shaper_joining():
     # not pass.
     assert test_shaper.check_joining(ord("ب")) is False
 
+    noto_shaper = Shaper(noto_arabic)
+    assert noto_shaper.check_joining(ord("ب")) is True
+
+    # A case where the output sequence will be longer than the input sequence
+    # for this font.
+    assert noto_shaper.check_joining(ord("ی")) is True
+
 
 def test_shaper_marks():
 
     eczar_shaper = Shaper(eczar)
-    
+
     # When the input is an encoded single character, ...
     assert eczar_shaper.check_mark_attachment("Ä")
 
@@ -75,7 +94,6 @@ def test_shaper_marks():
     # encoded version, but has base + marks with anchors
     test_shaper.check_mark_attachment("Ẫ")
     test_shaper.check_mark_attachment("A" + chr(0x0302) + chr(0x0303))
-
 
     # Different ways of handling s ogonek:
     # With mark code
