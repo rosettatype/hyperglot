@@ -8,7 +8,7 @@ orthographies:
   currency: <default> €
   design_requirements:
   - alternates: б
-    note: In italic, some character forms may differ from the exemplars associated with the codepoints in the Unicode specification (the Russian forms).
+    note: In italic, some character forms may differ from the exemplars associated with the code points in the Unicode specification (the Russian forms).
   - alternates: А Е И О У а е и о у ◌́
     note: Correct positioning of the acute mark above vowel characters may be required.
   marks: <srp>

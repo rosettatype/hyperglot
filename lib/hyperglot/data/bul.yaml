@@ -9,9 +9,9 @@ orthographies:
   currency: <default> €
   design_requirements:
   - alternates: Л Ѝ в г д ж з и й ѝ к л п т ц ш щ ю
-    note: Some character forms may differ from the exemplars associated with the codepoints in the Unicode specification (the Russian forms).
+    note: Some character forms may differ from the exemplars associated with the code points in the Unicode specification (the Russian forms).
   - alternates: ◌̆
-    note: The form of the Cyrillic breve mark may differ from the Latin-script breve that is associated with the same Unicode codepoint.
+    note: The form of the Cyrillic breve mark may differ from the Latin-script breve that is associated with the same Unicode code point.
   - alternates: ◌̀
     note: Correct positioning of the grave mark above vowel characters may be required.
   marks: ◌̀ ◌̆

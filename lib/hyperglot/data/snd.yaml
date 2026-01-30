@@ -20,7 +20,7 @@ orthographies:
   currency: <urd>
   design_requirements:
   - note: Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
-  - note: Uses Persian numerals (extended Arabic-Indic digits) that have their own codepoints separate from the Arabic-script numerals.
+  - note: Uses Persian numerals (extended Arabic-Indic digits) that have their own code points separate from the Arabic-script numerals.
   - note: Nastaliq style of the Arabic script is preferred.
   marks: ◌َ ◌ُ ◌ِ ◌ْ ◌ٔ ◌ٰ
   note: Used in Pakistan

@@ -9,7 +9,7 @@ orthographies:
   currency: <default>
   design_requirements:
   - alternates: ◌̆
-    note: The form of the Cyrillic breve mark may differ from the Latin-script breve that is associated with the same Unicode codepoint.
+    note: The form of the Cyrillic breve mark may differ from the Latin-script breve that is associated with the same Unicode code point.
   marks: ◌̆ ◌̈
   numerals: <default>
   punctuation: <default> « » „ “

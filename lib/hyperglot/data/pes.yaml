@@ -9,7 +9,7 @@ orthographies:
   currency: <default Latin> ﷼
   design_requirements:
   - note: Positional forms of the characters (initial, medial, and final forms) and some ligatures are required for proper representation of the language.
-  - note: Uses Persian numerals (extended Arabic-Indic digits) that have their own codepoints separate from the Arabic-script numerals.
+  - note: Uses Persian numerals (extended Arabic-Indic digits) that have their own code points separate from the Arabic-script numerals.
   marks: ◌َ ◌ُ ◌ِ ◌ْ ◌ٔ ◌ٰ
   numerals: ۰ ۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹ <default Latin>
   punctuation: <default> « »

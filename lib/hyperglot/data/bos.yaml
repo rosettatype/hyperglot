@@ -8,7 +8,7 @@ orthographies:
   currency: <default>
   design_requirements:
   - alternates: б
-    note: In italic, some character forms may differ from the exemplars associated with the codepoints in the Unicode specification (the Russian forms).
+    note: In italic, some character forms may differ from the exemplars associated with the code points in the Unicode specification (the Russian forms).
   numerals: <default>
   punctuation: <default> “ ’ ” „ « »
   script: Cyrillic
@@ -17,7 +17,7 @@ orthographies:
   auxiliary: Ǆ ǅ ǆ Ǉ ǈ ǉ Ǌ ǋ ǌ
   base: A B C D E F G H I J K L M N O P R S T U V Z Ć Č Đ Š Ž a b c d e f g h i j k l m n o p r s t u v z ć č đ š ž
   marks: ◌́ ◌̌
-  note: Digraphs ‹dž›, ‹lj›, and ‹nj› in their uppercase, titlecase, and lowercase forms have dedicated Unicode codepoints in the auxiliary set. However, these were included chiefly for backwards compatibility with legacy encodings which kept a one-to-one correspondence with Cyrillic.
+  note: Digraphs ‹dž›, ‹lj›, and ‹nj› in their uppercase, titlecase, and lowercase forms have dedicated Unicode code points in the auxiliary set. However, these were included chiefly for backwards compatibility with legacy encodings which kept a one-to-one correspondence with Cyrillic.
   numerals: <default>
   script: Latin
   status: primary
