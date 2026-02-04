@@ -123,8 +123,8 @@ Updates are comitted/merged to the `dev` branch with the `master` branch holding
 
 ## Roadmap (tools)
 
-- [x] change licence to Apache 2
-- [x] invite sponsorship and funding
+- [x] 🪶 change licence to Apache 2
+- [x] 💰 invite sponsorship and funding
 - [ ] 📚 improve language data, sources, and validity in languages with less authoritative sources [#157](https://github.com/rosettatype/hyperglot/issues/157)
 - [ ] ➡️ export in a way that would be useful to submit to Unicode CLDR
 - [ ] 🌍 web app: add links to other resources per language [#174](https://github.com/rosettatype/hyperglot/issues/174)
