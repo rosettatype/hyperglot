@@ -145,7 +145,6 @@ The Hyperglot database and tools were originally developed by [Rosetta](http://r
 
 - [Adobe spreadsheets for Latin and Cyrillic](https://blog.typekit.com/2006/08/01/defining_an_ext/)
 - [Alphabets of Europe](https://www.evertype.com/alphabets/)
-- [Alphabet Type’ Charset Checker](https://www.alphabet-type.com/tools/charset-checker/) (uses Unicode CLDR)
 - [Context of diacritics](https://www.setuptype.com/x/cod/)
 - [font-config languages definitions](https://cgit.freedesktop.org/fontconfig/tree/fc-lang)
 - [Typekit Speakeasy](https://github.com/typekit/speakeasy)
