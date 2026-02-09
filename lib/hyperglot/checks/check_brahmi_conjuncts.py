@@ -1,6 +1,6 @@
 import re
 import logging
-from typing import List, Tuple
+from typing import Tuple
 
 from hyperglot.checkbase import CheckBase
 from hyperglot.orthography import Orthography
@@ -69,12 +69,12 @@ class Check(CheckBase):
                 fmt_threshold = str(options["threshold"]).format(".5f")
 
                 if frequency > options["threshold"]:
-                    logging.error(
+                    log.error(
                         f"Conjunct '{conjunct} ({frequency:.5f}) does not shape and does not pass frequency threshold ({fmt_threshold})."
                     )
                     fails_over_threshold = True
                 else:
-                    logging.warning(
+                    log.warning(
                         f"Conjunct '{conjunct} ({frequency:.5f}) does not shape, but passes threshold ({fmt_threshold})."
                     )
 

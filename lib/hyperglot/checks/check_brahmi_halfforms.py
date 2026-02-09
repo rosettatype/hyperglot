@@ -20,7 +20,7 @@ class Check(CheckBase):
     def check(self, orthography, checker, **kwargs):
         if not orthography.combinations:
             return True
-        
+
         for h in filter(self.filter_halfforms, orthography.combinations.keys()):
             if not self.check_halfform(h, checker.shaper):
                 return False

@@ -232,6 +232,7 @@ class Orthography(dict):
         "script": "",
         "status": OrthographyStatus.PRIMARY.value,
         "design_requirements": [],
+        "combinations": [],
     }
 
     inheritable_defaults = {
@@ -424,12 +425,12 @@ note: {note}
     @property
     def combinations(self) -> dict:
         d = {}
-        if isinstance(self["combinations"], list):
+        if "combinations" in self and isinstance(self["combinations"], list):
             for c in self["combinations"]:
                 if isinstance(c, dict):
                     d.update(c)
-                elif isinstance(c, list):
-                    d[c[0]] = 1
+                # elif isinstance(c, list):
+                #     d[c[0]] = 1
         return d
 
     @property

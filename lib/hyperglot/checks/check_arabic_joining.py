@@ -58,9 +58,9 @@ class Check(CheckBase):
             return False
 
         return True
-    
+
     @lru_cache
-    def check_joining(self, unicode: int, shaper:Shaper) -> bool:
+    def check_joining(self, unicode: int, shaper: Shaper) -> bool:
         """
         Check if the string exhibits joining behaviour (shaping differs) by
         comparing its plain version to a version joined with zero width joiners.
