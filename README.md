@@ -82,22 +82,19 @@ hyperglot path/to/font.otf path/to/anotherfont.otf ...
 
 **Additional options**:
 
-- `-s, --support`: Specify what level of support to check against (currently options are "base" (default if omitted) or "aux")
-- `-m, --marks`: Flag to signal a font should also include all combining marks used for a language - by default only those marks are required which are not part of preencoded characters (default is False)
+- `-c, --check`: What to check support for. Options are 'base, auxiliary, punctuation, numerals, currency, all' or a comma-separated combination of those (default is 'base')
+- `--validity`: Specify to filter by the level of validity of the language data. Options are 'todo, draft, preliminary, verified' (default is 'preliminary')
+- `-s, --status`: Which languages to consider when checking support. Options are 'living, historical, constructed, all' or a comma-separated combination of those  (default is 'living')
+- `-o, --orthography`: Which orthographies to consider when checking support for a language. Options are 'primary, local, secondary, historical, transliteration, all' or a comma-separated combination of those (default is 'primary')
 - `-d, --decomposed`: Flag to signal a font should be considered supporting a language as long as it has all base glyphs and marks to write a language - by default also encoded precomposed glyphs are required (default is False)
-- `-a, --autonyms`: Output the language names in their native language and script
-- `--speakers`: Ouput how many speakers each language has (where available)
+- `-m, --marks`: Flag to signal a font should also include all combining marks used for a language - by default only those marks are required which are not part of preencoded characters (default is False)
 - `--sort`: Specify "speakers" to sort by speakers (default is "alphabetic")
 - `--sort-dir`: Specify "desc" to sort in descending order (default is "asc" for ascending order)
-- `-o, --output`: Supply a file path to write the output to, in yaml format. For a single input font this will be a subset of the Hyperglot database with the languages and orthographies that the font supports. If several fonts are provided the yaml file will have a top level dict key for each file. If the `-m` option is provided the yaml file will contain the specific intersection or union result
-- `-c, --comparison`: How to process input if several files are provided (currently options are "individual", "union" and "intersection")
-- `--include-all-orthographies`: Check all orthographies of a language, not just its primary one(s)
-- `--validity`: Specify to filter by the level of validity of the language data (default is "preliminary")
-- `--include-historical`: Option to include languages and orthographies marked as historical (default is False)
-- `--include-constructed`: Option to include languages and orthographies that are marked as constructed (default is False)
-- `--strict-iso`: Display language names and macrolanguage data strictly according to ISO (default is False)
-- `-v, --verbose`: More logging information (default is False)
-- `-V, --version`: Print the version hyperglot version number (default is False)
+- `-y, --output`: Supply a file path to write the output to, in yaml format. For a single input font this will be a subset of the Hyperglot database with the languages and orthographies that the font supports. If several fonts are provided the yaml file will have a top level dict key for each file. If the `-m` option is provided the yaml file will contain the specific intersection or union result
+- `-t, --shaping-threshold` Complex script shaping checks pass when a font renders correctly for this frequency threshold. The frequency of combinations is highest for 1.0 (the most frequent combination) and converges to 0.0 the more rare a combination is. The default 0.01 requires all the most common combinations to be supported in the font. [0.0<=x<=1.0]
+- `--no-shaping` Disable shaping tests (mark attachment, joining behaviour, conjunct shaping). (default is to check for shaping)
+- `-v, --verbose`: More logging information
+- `-V, --version`: Print the version hyperglot version number
 
 Installing the pip package also installed the `hyperglot-validate` and `hyperglot-save` commands, which allow checking and saving the yaml data in a structured and compatible way.
 
