@@ -121,21 +121,20 @@ Updates are comitted/merged to the `dev` branch with the `master` branch holding
 
 [Database and contributing](README_database.md)
 
-## Roadmap
+## Roadmap (tools)
 
-- [x] handle script/language specific numerals [#154](https://github.com/rosettatype/hyperglot/issues/154)
-- [x] handle script/language specific punctuation [#60](https://github.com/rosettatype/hyperglot/issues/60) [#155](https://github.com/rosettatype/hyperglot/issues/155)
-- [x] check for recommended currencies [#156](https://github.com/rosettatype/hyperglot/issues/156)
-- [ ] improve references for language data (use APA everywhere) [#123](https://github.com/rosettatype/hyperglot/issues/123)
-- [ ] improve language data, sources, and validity in languages with less authoritative sources [#157](https://github.com/rosettatype/hyperglot/issues/157)
-- [x] comparison to Unicode CLDR
-- [ ] export in a way that would be useful to submit to Unicode CLDR
-- [ ] web app: add links to other resources per language [#174](https://github.com/rosettatype/hyperglot/issues/174)
-- [ ] basic analysis of shaping instructions provided by the font (GPOS and GSUB)
-  - [x] analyse shaping during language detection: check whether `base + mark` combinations are affected by the font instructions
-  - [x] check whether joining behaviour (aka presentation forms, e.g. Arabic or Syriac) is supported in the font
-  - [ ] check whether character combinations are affected by the font instructions
-  - [ ] an effective and scalable way to prescribe more complex character/mark combinations, e.g. for Arabic or Hindi/Devanagari
+- [x] 🪶 change licence to Apache 2
+- [x] 💰 invite sponsorship and funding
+- [ ] 📚 improve language data, sources, and validity in languages with less authoritative sources [#157](https://github.com/rosettatype/hyperglot/issues/157)
+- [ ] ➡️ export in a way that would be useful to submit to Unicode CLDR
+- [ ] 🌍 web app: add links to other resources per language [#174](https://github.com/rosettatype/hyperglot/issues/174)
+- [ ] 🤖 basic analysis of shaping instructions provided by the font (GPOS and GSUB): check whether character combinations are affected by the font instructions, an effective and scalable way to prescribe more complex character/mark combinations, e.g. for Arabic or Hindi/Devanagari.
+
+## Roadmap (data)
+
+- [ ] 🌍 add data for more African languages and scripts, e.g. N'Ko [#195](https://github.com/rosettatype/hyperglot/issues/195)
+- [ ] 🇧🇷 add data for indigenous Brazilian languages (Rafael Dietzch and students)
+- [ ] 🇺🇳 get funding to cover more languages
 
 ## Authors and contributors
 
@@ -145,7 +144,6 @@ The Hyperglot database and tools were originally developed by [Rosetta](http://r
 
 - [Adobe spreadsheets for Latin and Cyrillic](https://blog.typekit.com/2006/08/01/defining_an_ext/)
 - [Alphabets of Europe](https://www.evertype.com/alphabets/)
-- [Alphabet Type’ Charset Checker](https://www.alphabet-type.com/tools/charset-checker/) (uses Unicode CLDR)
 - [Context of diacritics](https://www.setuptype.com/x/cod/)
 - [font-config languages definitions](https://cgit.freedesktop.org/fontconfig/tree/fc-lang)
 - [Typekit Speakeasy](https://github.com/typekit/speakeasy)
