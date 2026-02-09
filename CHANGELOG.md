@@ -1,12 +1,21 @@
 # A changelog for the lib/hyperglot language database and CLI tool (dd.mm.yyyy)
 
-## 0.7.4 (WIP)
+## 0.8.0 (WIP)
+- LICENSE: Relicensed under Apache License 2.0
 - FIX: `Shaper.check_joining` refined to not be more lenient and not fail fonts with other than one-to-one positional substitutions or general sequence manipulating `ccmp` code
-- TWEAK: `design_requirments` can now be either a string, or a dict of `note` + `alternates` (detailing which characters are affected)
+- - FEATURE: Added `-t`/`--shaping-threshold` that allows fine-tuning conjunct check failures by accounting for conjunct frequency
+- FEATURE: Added `--no-shaping` flag to disable shaping checks entirely (on by default)
 - DATA: Modified multitudes of `design_requirements`, dropped `design_alternates`
 - DATA: `jpn` Latin orthography marked as secondary
+- DATA: `hin` and `mai` include syllable combinations with frequencies distributions
+- TWEAK: `design_requirments` can now be either a string, or a dict of `note` + `alternates` (detailing which characters are affected)
 - TWEAK: Minor tweak to logging in `Orthography`
 - TWEAK: `Checker._check_shaping` with better pre-check to skip mark attachment checks for glyphs not in the font (obvious)
+- TWEAK: Cleaned up multiple CLI options:
+  - Added `--check` option to replace `--supportlevel`. `--check` takes any value of `base,auxiliary,punctuation,numerals,currency,all` or a comma-separated list of those
+  - Removed `--include-historical` and `--include-historical` in favor or `--status` which accepts any combination of `LanguageStatus` or "all", defaults to "living"
+  - Removed `--include-all-orthographies` in favor of `--orthography` which accepts any combination of `OrthographyStatus` or "all", defaults to "primary"
+- Removed the deprecated `STATUSES`, `ORTHOGRAPHY_STATUSES` and `SUPPORTLEVELS` from the codebase
 
 ## 0.7.3 (13.10.2025)
 - DATA: Fixed to `cbi` (thanks @moyogo)
@@ -32,17 +41,10 @@
 - TWEAK: Orthographies can no longer have an `inherit` attribute
 - TWEAK: Improved loading speed for repeat queries and indivudal language queries
 - TWEAK: Refactored `Languages`, `Language` and `Orthography` object instantiation to always return parsed and defaulted nested objects
-- TWEAK: Cleaned up multiple CLI options:
-  - Added `--check` option to replace `--supportlevel`. `--check` takes any value of `base,auxiliary,punctuation,numerals,currency,all` or a comma-separated list of those
-  - Removed `--include-historical` and `--include-historical` in favor or `--status` which accepts any combination of `LanguageStatus` or "all", defaults to "living"
-  - Removed `--include-all-orthographies` in favor of `--orthography` which accepts any combination of `OrthographyStatus` or "all", defaults to "primary"
-  - Removed the `--speakers` and `--autonym` CLI options
-  - Removed the `--comparison` CLI option (see `examples` instead)
-  - Removed the `--languages` CLI option, use `hyperglot-info LanguageName/ISO` instead
-  - Removed the `--strict_iso` CLI option; use the python library to access this option, particularly `Language.get_name(script, strict_iso=True)`
-- FEATURE: Added `-t`/`--shaping-threshold` that allows fine-tuning conjunct check failures by accounting for conjunct frequency
-- FEATURE: Added `--no-shaping` flag to disable shaping checks entirely (on by default)
-- Removed the deprecated `STATUSES`, `ORTHOGRAPHY_STATUSES` and `SUPPORTLEVELS` from the codebase
+- TWEAK: Removed the `--speakers` and `--autonym` CLI options
+- TWEAK: Removed the `--comparison` CLI option (see `examples` instead)
+- TWEAK: Removed the `--languages` CLI option, use `hyperglot-info LanguageName/ISO` instead
+- TWEAK: Removed the `--strict_iso` CLI option; use the python library to access this option, particularly `Language.get_name(script, strict_iso=True)`
 
 ## 0.6.4 (20.06.2024)
 - FIX: Fixed an issue where trying to log missing shaping glyphs would crash in `FontChecker`
