@@ -124,7 +124,7 @@ Updates are comitted/merged to the `dev` branch with the `master` branch holding
 - [x] 💰 invite sponsorship and funding
 - [ ] ➡️ export in a way that would be useful to submit to Unicode CLDR
 - [ ] 🌍 web app: add links to other resources per language [#174](https://github.com/rosettatype/hyperglot/issues/174)
-- [ ] 🤖 basic analysis of shaping instructions provided by the font (GPOS and GSUB): check whether character combinations are affected by the font instructions, an effective and scalable way to prescribe more complex character/mark combinations, e.g. for Arabic or Hindi/Devanagari. [#157](https://github.com/rosettatype/hyperglot/issues/157)
+- [x] 🤖 basic analysis of shaping instructions provided by the font (GPOS and GSUB): check whether character combinations are affected by the font instructions, an effective and scalable way to prescribe more complex character/mark combinations, e.g. for Arabic or Hindi/Devanagari. [#157](https://github.com/rosettatype/hyperglot/issues/157)
 
 ## Roadmap (data)
 
