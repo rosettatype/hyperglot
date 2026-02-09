@@ -42,7 +42,6 @@ A language can refer to one or more orthographies. An orthography specifies the 
 - `status` (required, defaults to `primary`): one of the following (there can multiple orthographies with the same status per language):
   - `primary` for the current, main orthography of a language,
   - `secondary` for a current, but less frequent, orthography (e.g. competing orthography gaining or losing popularity),
-  - `local` for a secondary orthography limited to a small geographic region (specified in note),
   - `historical` for an orthography that is no longer in use (all orthographies for a historical language ought to be historical),
   - `transliteration` for an orthography used for transliterations (e.g. transliteration of Standard Arabic in the Latin script).
   Orthographies with `secondary` status are ignored during language support detection, but used when detecting `orthography` support.
