@@ -12,10 +12,10 @@ orthographies:
 - autonym: èdè yorùbá
   base: A B D E Ɛ F G H I J K L M N O Ɔ P R S T U W Y À Á Ā È É Ē Ì Í Ī Ò Ó Ō Ù Ú Ū a b d e ɛ f g h i j k l m n o ɔ p r s t u w y à á ā è é ē ì í ī ò ó ō ù ú ū
   marks: ◌̀ ◌́ ◌̄
-  note: Orthography used in Benin.
+  note: Local orthography used in Benin.
   numerals: <default>
   script: Latin
-  status: local
+  status: secondary
 sources:
 - Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
 - Yoruba language. (2024, August 10). In *Wikipedia*. https://en.wikipedia.org/wiki/Yoruba_language?oldid=1239584724

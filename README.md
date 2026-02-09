@@ -121,18 +121,19 @@ Updates are comitted/merged to the `dev` branch with the `master` branch holding
 
 [Database and contributing](README_database.md)
 
-## Roadmap (tools)
+## Roadmap (general)
 
 - [x] 🪶 change licence to Apache 2
 - [x] 💰 invite sponsorship and funding
-- [ ] 📚 improve language data, sources, and validity in languages with less authoritative sources [#157](https://github.com/rosettatype/hyperglot/issues/157)
 - [ ] ➡️ export in a way that would be useful to submit to Unicode CLDR
 - [ ] 🌍 web app: add links to other resources per language [#174](https://github.com/rosettatype/hyperglot/issues/174)
-- [ ] 🤖 basic analysis of shaping instructions provided by the font (GPOS and GSUB): check whether character combinations are affected by the font instructions, an effective and scalable way to prescribe more complex character/mark combinations, e.g. for Arabic or Hindi/Devanagari.
+- [ ] 🤖 basic analysis of shaping instructions provided by the font (GPOS and GSUB): check whether character combinations are affected by the font instructions, an effective and scalable way to prescribe more complex character/mark combinations, e.g. for Arabic or Hindi/Devanagari. [#157](https://github.com/rosettatype/hyperglot/issues/157)
 
 ## Roadmap (data)
 
+- [ ] 📚 improve language data, sources, and validity in languages with fewer authoritative sources [#157](https://github.com/rosettatype/hyperglot/issues/157)
 - [ ] 🌍 add data for more African languages and scripts, e.g. N'Ko [#195](https://github.com/rosettatype/hyperglot/issues/195)
+- [ ] 🇮🇳 add more shaping checks for Brahmi-derived scripts [#195](https://github.com/rosettatype/hyperglot/issues/176)
 - [ ] 🇧🇷 add data for indigenous Brazilian languages (Rafael Dietzch and students)
 - [ ] 🇺🇳 get funding to cover more languages
 
