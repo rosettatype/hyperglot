@@ -89,51 +89,19 @@ class Check(CheckBase):
         if glyph_id == 0:
             return False
 
-        # The plain/zwj are arrays of sequences of the unicode in question
-        # joined based on its unicode joining_type flags; check through all
-        # possible join sequences to confirm all are supported in the font.
+        # It would be _nice_ to be able to check specifically if the base glyph
+        # transforms into a init/medi/fina form, but this assumption is not
+        # 100% reliable across all fonts, so we just check if the shaping
+        # differs just generally.
         for i in range(0, len(plain)):
-            # Get the buffer info of the sequence.
-            buffer_glyph_info_plain = shaper.get_glyph_infos(plain[i])
-            buffer_glyph_info_zwj = shaper.get_glyph_infos(zwj[i])
-            differs = False
 
-            # This presumes one to one transformations with same length overall
-            # sequences. Afaik init/medi/fina/isol should always be one to one.
-            if len(buffer_glyph_info_plain) != len(buffer_glyph_info_zwj):
-                log.debug(
-                    f"Test sequences for {string} / {unicode}: {plain} "
-                    f"(buffer length {len(buffer_glyph_info_plain)}) vs "
-                    f"{zwj} (buffer length {len(buffer_glyph_info_zwj)})"
-                )
-                raise ValueError(
-                    "Joining shaping results in multiple glyph substitution."
-                )
-
-            for c in range(0, len(buffer_glyph_info_plain)):
-                plain_codepoint = buffer_glyph_info_plain[c].codepoint
-                zwj_codepoint = buffer_glyph_info_zwj[c].codepoint
-
-                # We are only interested in that point in the sequence that has
-                # our char (in the plain version).
-                if not plain_codepoint == glyph_id:
-                    continue
-
-                log.debug(
-                    f"Codepoints at {c} in sequence {i}: {plain_codepoint} "
-                    f"({shaper.font.get_glyph_name(plain_codepoint)}) vs "
-                    f"{zwj_codepoint} ({shaper.font.get_glyph_name(zwj_codepoint)})"
-                )
-
-                # If the glyph in the sequence is the glyph we are interested
-                # in compare their codepoint (meaning glyph id, not unicode!)
-                # to confirm it is different because of automatic script based
-                # shaping has been applied in the buffer.
-                if plain_codepoint != zwj_codepoint:
-                    differs = True
+            # Get the buffer info of the sequence, and compare the codepoints.
+            # Note those are font GIDs not, unicodes!
+            codes_plain = [g.codepoint for g in shaper.get_glyph_infos(plain[i])]
+            codes_joined = [g.codepoint for g in shaper.get_glyph_infos(zwj[i])]
 
             # If this sequence failed to be shaped different we can abort.
-            if not differs:
+            if not codes_plain != codes_joined:
                 return False
 
         # All shape.

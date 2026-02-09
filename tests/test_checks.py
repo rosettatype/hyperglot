@@ -29,6 +29,9 @@ noto_deva = os.path.abspath(
 )
 yantramanav = os.path.abspath("tests/Yantramanav/Yantramanav-Medium.ttf")
 testfont = os.path.abspath("tests/HyperglotTestFont-Regular.ttf")
+noto_arabic = os.path.abspath(
+    "tests/Noto_Sans_Arabic/NotoSansArabic[wdth,wght].ttf"
+)  # noqa
 
 
 def test_check_coverage():
@@ -42,7 +45,9 @@ def test_check_coverage():
 
     assert coverage_check.check(fin, CharsetChecker(eng.base_chars)) is False
     assert len(coverage_check.logs) == 1
-    assert "missing characters for 'base': Ä, Å, Ö, ä, å, ö" in coverage_check.logs[0][3]
+    assert (
+        "missing characters for 'base': Ä, Å, Ö, ä, å, ö" in coverage_check.logs[0][3]
+    )
 
     # Note: Coverage is extensively checked with Checker tests.
 
@@ -133,6 +138,13 @@ def test_check_joining():
     # Font with beh and beh.medi is missing beh.init and beh.fina, so it should
     # not pass.
     assert joining_check.check_joining(ord("ب"), test_shaper) is False
+
+    noto_shaper = Shaper(noto_arabic)
+    assert joining_check.check_joining(ord("ب"), noto_shaper) is True
+
+    # A case where the output sequence will be longer than the input sequence
+    # for this font, this should still pass!
+    assert joining_check.check_joining(ord("ی"), noto_shaper) is True
 
 
 def test_check_conjuncts(caplog):
