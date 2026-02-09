@@ -12,13 +12,16 @@ The highest level entries in the database represent languages indexed using thei
 - `orthographies` (optional): a list of orthographies for the language. See orthography entry format below.
 - `speakers` (optional) is a number of L1 speakers. Note that this is a number of speakers, not a number of readers. Only integer values are allowed. If a source lists a range the maximimum of the estimated range is listed.
 - `speakers_date` (optional) is the publication date of the source used for the speakers count.
-- `status` (required, defaults to `living`) the status of the language, may be one of `historical, constructed, living`.
+- `status` (required, defaults to `living`) one of the following:
+  - `living`: a language that is currently in use and has some first-language (L1) speakers,
+  - `historical: a language with no first-language (L1) speakers, or
+  - `constructed`: a language that has been deliberately created, such as Esperanto or Interlingue.
 - `sources` (required) a list of source references used to format the data. Please, read the [Criteria for establishing orthographies](#criteria-for-establishing-orthographies) and use APA style to format them.
 - `validity` (required, defaults to `todo`): one of the following:
-  - `todo` for work in progress,
-  - `draft` for entries that are complete but have not been sufficiently verified, yet,
-  - `preliminary` for entries that have been verified by at least two online sources,
-  - `verified` for entries verified by a reviewer or two authoritative sources.
+  - `todo` – an entry that is a work in progress,
+  - `draft`: a complete entry that has not yet been sufficiently verified,
+  - `preliminary`: a complete entry that has been verified using two online sources, or
+  - `verified`: a complete entry that has been verified by a competent reviewer or by two authoritative sources.
 - `note` (optional): a note of any kind
 - `contributors` (optinal, recommended): a list of contributors for this file. Typically, a contributor would be a person using sources to provide valid data rather their own knowledge of the language.
 - `reviewers` (optional): a reviewer is typically a competent speaker or a linguist, essentially a contributor that vouches, at the time of their edit, for the data validity with their own expertise. A person is either a contributor or a reviewer.
@@ -40,10 +43,10 @@ A language can refer to one or more orthographies. An orthography specifies the 
 - `autonym` (optional): the name of the language in the language itself using this orthography. If missing, the `autonym` defined in the parent language entry is used. It is expected that the `autonym` can be spelled with the orthography's `base`.
 - `script` (required): English name of the main script used by the orthography, e.g. Latin, Arabic, Armenian, Cyrillic, Greek, Hebrew. When a language uses a combination of several scripts in conjunction each script forms its own orthography. It should follow ISO 15924.
 - `status` (required, defaults to `primary`): one of the following (there can multiple orthographies with the same status per language):
-  - `primary` for the current, main orthography of a language,
-  - `secondary` for a current, but less frequent, orthography (e.g. competing orthography gaining or losing popularity),
-  - `historical` for an orthography that is no longer in use (all orthographies for a historical language ought to be historical),
-  - `transliteration` for an orthography used for transliterations (e.g. transliteration of Standard Arabic in the Latin script).
+  - `primary`: the current default orthography of a language,
+  - `secondary`: a current but less frequently used orthography of a language (e.g. competing orthography gaining or losing popularity, orthography specific to a georgraphic location),
+  - `historical`: an orthography that is no longer in use (all orthographies for a historical language ought to be historical),
+  - `transliteration` a representation of a language using an alternative script.
   Orthographies with `secondary` status are ignored during language support detection, but used when detecting `orthography` support.
 - `preferred_as_group` (optional, defaults to `false`) will combine all orthographies of this language. When used, a language is detected as supported only if all its orthographies with this attribute are supported. This is used for Serbian to require both Cyrillic-script and Latin-script orthographies to be supported and for Japanese to require Hiragana, Katakana, and Kanji orthographies to be supported.
 - `note` (optional): a note of any kind.
