@@ -37,6 +37,8 @@ In the database, an orthography contains the following character sets:
 
 A script, however, is more than a collection of characters. It also defines how characters interact when combined. This behavior is known as *shaping* and, in digital fonts, is implemented using OpenType features.
 
+[Read the detailed description of the database structure](README_database.md)
+
 ## Language support detection process
 
 To detect language support in a font, Hyperglot performs the following checks:
