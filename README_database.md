@@ -2,6 +2,8 @@
 
 The database is stored in the YAML file `lib/Hyperglot/data/xxx.yaml`.
 
+Updates are committed/merged into the `dev` branch while the `master` branch holds the latest released version.
+
 ## Languages
 
 The highest level entries in the database represent languages indexed using their three-letter ISO 639-3 code.\* Each language entry can have the following attributes:
@@ -247,13 +249,3 @@ hyperglot-save
 ```
 
 Note that this will *read* and *write* the yaml file and may change the formatting of your file.
-
-## Other databases included in this repo
-
-The following are YAML files distilled from the original data stored in subfolders with corresponding names.
-
-- `other/cldr.yaml` - data (indexed by 4-letter script tags and ISO 639-3 language codes) from Unicode’s CLDR database.
-- `other/iso-639-3.yaml` – data from IS0 639-3 (three-letter codes) with corresponding ISO 639-2 (older three-letter codes) and ISO 639-1 (two-letter codes) where available. Also includes language names and attributes from ISO 639-3.
-- `other/iso-639-3_retirements.yaml` – language codes no longer available in ISO 639-3
-- `other/iso-639-2_collections.yaml` – language collections from ISO 639-2 (no longer available in ISO 639-3)
-- `other/opentype-language-tags.yaml` – OpenType language tags and names with their corresponding ISO 639-3 language codes

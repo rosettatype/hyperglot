@@ -1,64 +1,59 @@
 # Hyperglot – a database and tools for detecting language support in fonts
 
-Hyperglot helps type designers answer a seemingly simple question of language support in fonts: When can I use font A to set texts in language B?  It takes a pragmatic answer by identifying a standard character set for each orthography used by a language. The database that currently contains information for over 777 languages is a work in progress, designed to grow.
+**Hyperglot** is an open research project dedicated to documenting how the world’s languages are written. By mapping orthographies and their requirements, it supports inclusive, multilingual type design and equitable access to high-quality typography for underserved communities. Hyperglot currently covers 783 languages, representing approximately 7.3 billion speakers, and is developed as open source by [Rosetta Type/Research](https://rosettatype.com) in collaboration with a global [community of contributors](CONTRIBUTORS.txt).
 
-We record a basic and any auxiliary character sets for each orthography of a language. Note that only actively used orthographies (their status is set to `primary`) are used when detecting language support in a font. Other, secondary or historical, orthographies are displayed just for information purposes.
+Hyperglot is available as:
 
-Where relevant, we also provide a brief design note containing tips about shaping and positioning requirements that go beyond Unicode character code points. Hyperglot should only be used to detect whether a font can be considered for use with a particular language. It does not say anything about the quality of a font’s design.
+- the [Hyperglot web app](https://hyperglot.rosettatype.com),
+- the command-line tool: `hyperglot`,
+- the python packagage: `import hyperglot` (see [examples](/examples) for basic usage).
 
-Hyperglot is a work in progress provided AS IS, and the validity of its language data varies. To help you assess the validity of the results you view, each language in the database comes with a label indicating the quality of the data we have for it (e.g. some are considered `drafts`, some have been `verified`). We have checked the information against various online and offline sources and we are committed to continually improve it. However, we admit that mapping all the languages of the world in this way is beyond our capacity – we need help from users of each respective language! So, if you spot an issue or notice your favourite language is altogether missing from the database, get in touch. We will happily [incorporate your feedback and credit you](README_database.md#development-and-contributions).
+📖 [Learn more about Hyperglot](https://hyperglot.rosettatype.com/about)
 
-[Read more about Hyperglot on the web app about page](https://hyperglot.rosettatype.com/about)
+💰 [Sponsor via GitHub](https://github.com/sponsors/rosettatype) or directly via [Hyperglot sponsorship](https://hyperglot.rosettatype.com/sponsor). Any and all contributions are much appreciated! 🙏
 
-[The comparison of Hyperglot and the Unicode CLDR](README_comparison.md)
+## Data validity & contributing
 
-[You can support Hyperglot financially](https://github.com/sponsors/rosettatype)
+Hyperglot is a work in progress and provided AS IS. The validity of language data varies and continues to improve. Each language includes a validity label (`todo, draft, preliminary, verified`) to help you assess the data.
 
-## How to use
+Mapping all the world’s languages is a huge task—we need help from native speakers and language users! If you notice an error or see that a language is missing, please get in touch (via [email](https://rosettatype.com/contact) or [Issues](/issues)). We welcome contributions and will credit your input.
 
-There are several ways how to use the database:
+The data structure is documented in a [separate README file along with guidelines for contributing](README_database.md).
 
-- Hyperglot web app at <http://hyperglot.rosettatype.com>
-- command-line tool (`pip install hyperglot`, see usage notes below)
-- python packagage (`pip install hyperglot`)
-- access the YAML file with the database directly ([database README](README_database.md))
+## Core concepts
 
-## It is complicated (disclaimer)
+The following concepts are essential to understanding how Hyperglot works.
 
-A few notes to illustrate why the question of language support is complicated:
+A *language* can be written in one or more scripts. Each such writing system is represented in Hyperglot as an *orthography*. Most languages have a single primary orthography; however, some use multiple orthographies either independently (for example, in different regions) or concurrently (such as Serbian or Japanese).
 
-1. a single language can be written using different orthographies in one or more scripts,
-2. languages are not isolated, there are loan words, names etc. from other languages, thus finding what is an essential character set for a language is largerly a question of convention,
-3. what one person considers a dialect, is a language for someone else,
-4. different kinds of texts require different vocabulary and hence different characters.
+In the database, an orthography contains the following character sets:
 
-It is important to note that **there is more to language support in fonts than supporting a set of code points**. A font needs to include glyphs with acceptable/readable shapes of the characters for a particular language. Sometimes there are regional or language variations for the same code point which means that different languages pose different requirements on the shape of a character, but identical requirements on the code point of the character. Moreover, glyphs have to interact as expected by the convention of a particular script/orthography. For example, some languages/scripts require (or strongly expect) certain glyph combinations to form ligatures or some glyph combinations require additional spacing correction (kerning) to prevent clashes or gaps. Thus, the report produced by the Hyperglot tools should only be used to detect whether a font can be considered for use with a particular language. It does not say anything about the quality of the design.
+- `base` – the required, essential characters,
+- `aux` – non-essential, recommended characters,
+- `marks` – combining marks,
+- `punctuation`,
+- `numerals`, and
+- `currency`.
 
-[Read more about this on the web app about page](https://hyperglot.rosettatype.com/about)
+A script, however, is more than a collection of characters. It also defines how characters interact when combined. This behavior is known as *shaping* and, in digital fonts, is implemented using OpenType features.
 
-## Detecting support
+## Language support detection process
 
-Characters are represented using [Unicode](https://unicode.org) code points in digital texts, e.g. the Latin-script letter `a` has a code point `U+0061`. Digital OpenType fonts map these code points to glyphs, visual representations of characters. In order to find whether one can use a font for texts in a particular language, one needs to know which character code points are required for the language. This is what the Hyperglot database is for.
+To detect language support in a font, Hyperglot performs the following checks:
 
-1. A list of codepoints is obtained from a font.
-2. The database can be accessed in two modes:
+1. **Required characters are present.** Which characters are considered required is specified by filtering based on language/orthography status, data validity, and by selecting which character sets to check against.
+2. **Precomposed character combinations are handled by the font.** For character combinations that have a unique code point in [Unicode](https://unicode.org), one of the following (depending on the setting):
+   1. The encoded, precomposed character combinations are present.
+   2. Base characters and mark characters from these combinations are present independently.
+   3. Both of the above.
+3. **Shaping behavior is correctly handled by the font,** where applicable:
+   1. Required mark-positioning instructions are present.
+   2. Required alternates for joining behavior (for example, in Arabic) are present.
+   3. Conjunct syllable construction in Brahmi-derived scripts is supported. (Currently supported only for Hindi/Devanagari.)
 
-   - By default combinations of a base character with marks are required as single code point where this exists (e.g. encoded `ä`), codepoints for base characters and combining mark characters (e.g. `a` and combining `¨`) from these combinations are not required unless the combination has no encoded form or the `--marks` flag is used.
-   - Using the `--decomposed` flag fonts are required to contain the base character and combining marks for a language (e.g. languages with `ä` will match for fonts that only have `a` and combining `¨` but not `ä` as encoded glyph).
+Additional design-related notes are provided for the user’s discretion when assessing design quality. Hyperglot does not assess the font design in any way.
 
-3. Specified `validity` level is used to filter out language entries with a lower (meaning, more uncertain) validity.
-4. If requested, `base` and `aux` (auxiliary) lists of codepoints are combined to achieve more strict criteria by using the `--support` option. The `marks` in the data are required based on the `--decomposed` and `--marks` flags. Marks that only appear in `aux` characters will not be required for `base` validity.
-5. When detecting language support, code points for **any** primary orthography for a given language are considered. Orthographies with `historical` and `secondary` status are ignored. If multiple orthographies have the `preferred_as_group` value they are considered as one orthography even if including several scripts.
-6. When detecting orthography support, use `--include-all-orthographies`, all orthographies for a given language are checked individually. Orthographies with `secondary` status are included. Orthographies with `historical` status are ignored.
-7. If the list of code points in the font includes all code points from the list of codepoints from points 5 or 6, the font is considered to support this language/orthography. Additionally, joining behaviour and mark attachment is validated and a language/orthography is only considered supported if the font shapes these correctly. In listings the supported languages are grouped by scripts.
-
-The language-orthography combination means that a language that has multiple orthographies using different scripts (e.g., Serbian or Japanese) is listed under all of these scripts in the tools’ output.
-
-Important note: the web app currently does not include the shaping checks!
-
-## Command-line tool
-
-A simple CLI tool is provided to output language support data for a passed in font file.
+## Command-line tools
 
 ### Installation
 
@@ -68,83 +63,84 @@ You will need to have Python 3 installed. Install via pip:
 pip install hyperglot
 ```
 
-### Usage
+Besides the main `hyperglot` command used for font inspection, the package also includes `hyperglot-report` for detailed reporting of the language data and the `hyperglot-validate, hyperglot-save` commands used to handle data when contributing.
+
+### Basic usage
+
+Use:
 
 ```shell
 hyperglot path/to/font.otf
 ```
 
-or to check several fonts at once, or their combined coverage (with `-m union`)
+to output a list of supported languages (and other data) for a font. Use:
 
 ```shell
-hyperglot path/to/font.otf path/to/anotherfont.otf ...
+hyperglot path/to/font.otf path/to/anotherfont.otf …
 ```
 
-**Additional options**:
+to check several fonts at once, or their combined coverage (with `-m union`).
 
-- `-c, --check`: What to check support for. Options are 'base, auxiliary, punctuation, numerals, currency, all' or a comma-separated combination of those (default is 'base')
-- `--validity`: Specify to filter by the level of validity of the language data. Options are 'todo, draft, preliminary, verified' (default is 'preliminary')
-- `-s, --status`: Which languages to consider when checking support. Options are 'living, historical, constructed, all' or a comma-separated combination of those  (default is 'living')
-- `-o, --orthography`: Which orthographies to consider when checking support for a language. Options are 'primary, local, secondary, historical, transliteration, all' or a comma-separated combination of those (default is 'primary')
-- `-d, --decomposed`: Flag to signal a font should be considered supporting a language as long as it has all base glyphs and marks to write a language - by default also encoded precomposed glyphs are required (default is False)
-- `-m, --marks`: Flag to signal a font should also include all combining marks used for a language - by default only those marks are required which are not part of preencoded characters (default is False)
-- `--sort`: Specify "speakers" to sort by speakers (default is "alphabetic")
-- `--sort-dir`: Specify "desc" to sort in descending order (default is "asc" for ascending order)
-- `-y, --output`: Supply a file path to write the output to, in yaml format. For a single input font this will be a subset of the Hyperglot database with the languages and orthographies that the font supports. If several fonts are provided the yaml file will have a top level dict key for each file. If the `-m` option is provided the yaml file will contain the specific intersection or union result
-- `-t, --shaping-threshold` Complex script shaping checks pass when a font renders correctly for this frequency threshold. The frequency of combinations is highest for 1.0 (the most frequent combination) and converges to 0.0 the more rare a combination is. The default 0.01 requires all the most common combinations to be supported in the font. [0.0<=x<=1.0]
-- `--no-shaping` Disable shaping tests (mark attachment, joining behaviour, conjunct shaping). (default is to check for shaping)
-- `-v, --verbose`: More logging information
-- `-V, --version`: Print the version hyperglot version number
+### Advanced options
 
-Installing the pip package also installed the `hyperglot-validate` and `hyperglot-save` commands, which allow checking and saving the yaml data in a structured and compatible way.
+- `-c, --check`: Specify which character sets to check against. Options are 'base, auxiliary, punctuation, numerals, currency, all', or a comma-separated combination of these. (Default: 'base')
+- `--validity`: Filter languages by data validity level. Options are 'todo, draft, preliminary, verified'. (Default: 'preliminary')
+- `-s, --status`: Specify which languages to consider when checking support. Options are 'living, historical, constructed, all', or a comma-separated combination of these . (Default: 'living')
+- `-o, --orthography`: Which orthographies to consider when checking support for a language. Options are 'primary, secondary, historical, transliteration, all', or a comma-separated combination of these. (Default: 'primary')
+- `-d, --decomposed`: For precomposed character combinations, require only the individual component characters. By default, precomposed character combinations are also required when they have a unique code point in Unicode. (Default: False)
+- `-m, --marks`: Require that a font include all combining marks used by a language’s orthography. By default, only marks that are not part of precomposed character combinations are required. (Default: False)
+- `--sort`: Specify the sort order. Use "speakers" to sort by number of speakers. (Default: "alphabetic")
+- `--sort-dir`: Specify the sort direction. Use "desc" for descending order. (Default: "asc" for ascending order)
+- `-y, --output`: Specify a file path to write the output to, in YAML format. For a single input font, the output is a subset of the Hyperglot database containing the languages and orthographies supported by the font. When multiple fonts are provided, the YAML file contains a top-level key for each font. If the `-m` option is provided, the output includes the specific intersection or union result.
+- `-t, --shaping-threshold`: Set the frequency threshold for complex-script shaping checks. A font passes when it renders correctly for combinations at or above this threshold. Frequencies range from 1.0 (most frequent combinations) to 0.0 (rares combinations). The default value, 0.01, requires support for all common combinations. [0.0<=x<=1.0]
+- `--no-shaping` Disable shaping checks (mark attachment, joining behavior, and conjunct shaping). (Default: shaping checks enabled)
+- `-v, --verbose`: Enable verbose logging.
+- `-V, --version`: Print the Hyperglot version number.
 
-### Finding *almost* supported languages
+### Detailed language reporting
 
-Hyperglot comes with a `hyperglot-report` command that takes all the same options 
-the main `hyperglot` command (see above). It additionally takes these options to
-output reporting about what characters or shaping is missing in order to support
-languages detected as not supported:
+The `hyperglot-report` command accepts the same options as `hyperglot` and reports missing characters and shaping support. A common use case is identifying languages that could be supported with minimal additional work in a given font. This can be done using the following additional options:
 
-- `--report-missing`: Parameter to report unmatched languages which are missing _n_ or less characters. If _n_ is 0 all languages with any number of missing characters are listed (default).
-- `--report-marks`: Parameter to report languages which are missing _n_ or less mark attachment sequences. If _n_ is 0 all languages with any number any number of missing mark attachment sequences are listed (default).
-- `--report-joining`: Parameter to report languages which are missing _n_ or less joining sequences. If _n_ is 0 all languages with any number of missing joining sequences are listed (default).
-- `--report-all`: Parameter to set/overwrite all other `--report-xxx` parameters.
+- `--report-missing`: Report languages missing `n` or fewer characters. If `n` is 0, all languages with any number of missing characters are reported. (Default: 0)
+- `--report-marks`: Report languages missing `n` or fewer mark-attachment sequences. If `n` is 0, all languages with any number of missing mark-attachment sequences are reported. (Default: 0)
+- `--report-joining`: Report languages missing `n` or fewer joining sequences. If `n` is 0, all languages with any number of missing joining sequences are reported. (Default: 0)
+- `--report-all`: Set or override all other `--report-*` options.
 
-## Database and contributing
+## Common pitfalls / FAQ
 
-The data structure is described in a separate file together with guidelines for contributing.
+**Q: Why doesn’t Serbian appear in the list of Latin-script languages?**
 
-Updates are comitted/merged to the `dev` branch with the `master` branch holding the latest released version.
+**A:** Serbian is written in both, the Latin and Cyrillic scripts. Thus, Hyperglot requires support for both required orthographies. The same applies to Japanese, Ainu, Okinawan, Pontic Greek, Tlingit, and Xavánte.
 
-[Database and contributing](README_database.md)
+**Q: Why doesn’t Japanese appear in the list of Latin-script languages, even though it can be written using the Latin script?**
 
-## Roadmap (general)
+**A:** Japanese written in the Latin script (rōmaji) is classified as a secondary orthography. Adjust the filter accordingly (for example, `--orthography=primary,secondary`) to include it.
 
-- [x] 🪶 change licence to Apache 2
-- [x] 💰 invite sponsorship and funding
-- [ ] ➡️ export in a way that would be useful to submit to Unicode CLDR
-- [ ] 🌍 web app: add links to other resources per language [#174](https://github.com/rosettatype/hyperglot/issues/174)
-- [x] 🤖 basic analysis of shaping instructions provided by the font (GPOS and GSUB): check whether character combinations are affected by the font instructions, an effective and scalable way to prescribe more complex character/mark combinations, e.g. for Arabic or Hindi/Devanagari. [#157](https://github.com/rosettatype/hyperglot/issues/157)
+**Q: Why is German not showing up in the list of supported languages even though my font supports it?**
 
-## Roadmap (data)
+**A:** Make sure to consider precomposed character combinations (using `--decomposed` and `--marks`) and the orthography you want to check. This guidance applies to any language, not just German.
 
-- [ ] 📚 improve language data, sources, and validity in languages with fewer authoritative sources [#157](https://github.com/rosettatype/hyperglot/issues/157)
-- [ ] 🌍 add data for more African languages and scripts, e.g. N'Ko [#195](https://github.com/rosettatype/hyperglot/issues/195)
-- [ ] 🇮🇳 add more shaping checks for Brahmi-derived scripts [#195](https://github.com/rosettatype/hyperglot/issues/176)
-- [ ] 🇧🇷 add data for indigenous Brazilian languages (Rafael Dietzch and students)
-- [ ] 🇺🇳 get funding to cover more languages
+**Q: My font includes Katakana. Why is Japanese not listed as a supported language?**
 
-## Authors and contributors
+**A:** Hyperglot requires a font to include Hiragana, Katakana, and Kanji in order to consider Japanese fully supported.
 
-The Hyperglot database and tools were originally developed by [Rosetta](http://rosettatype.com), see [the full list of contributors](CONTRIBUTORS.txt).
+**Q: My font includes Balinese script characters. Why is Balinese not listed as a supported language?**
 
-## Similar projects and inspirations
+**A:** The primary orthography for Balinese is actually Latin, as it is the most common way of writing the language today. To include checks for the secondary orthography that uses the Balinese script, set the flag to `--orthography=primary,secondary`.
 
-- [Adobe spreadsheets for Latin and Cyrillic](https://blog.typekit.com/2006/08/01/defining_an_ext/)
-- [Alphabets of Europe](https://www.evertype.com/alphabets/)
-- [Context of diacritics](https://www.setuptype.com/x/cod/)
-- [font-config languages definitions](https://cgit.freedesktop.org/fontconfig/tree/fc-lang)
-- [Typekit Speakeasy](https://github.com/typekit/speakeasy)
-- [Unicode CLDR](http://cldr.unicode.org)
-- [Underware Latin Plus](https://underware.nl/latin_plus/)
-- [WebINK character sets](http://web.archive.org/web/20150222004543/http://blog.webink.com/custom-font-subsetting-for-faster-websites/) 
+## Roadmap
+
+- [x] 🪶 Change licence to Apache 2
+- [x] 💰 Invite sponsorship and funding[#174](https://github.com/rosettatype/hyperglot/issues/174)
+- [x] 🤖 Basic analysis of shaping instructions provided by the font (GPOS and GSUB): check whether character combinations are affected by font instructions, enabling scalable support for complex combinations (e.g., Arabic, Hindi/Devanagari). [#176](https://github.com/rosettatype/hyperglot/issues/176)
+- [ ] ➡️ Export in a format suitable for submission to Unicode CLDR
+- [ ] 🌍 Web app: add links to other resources per language
+- [ ] 📚 Improve language data, sources, and validity for languages with fewer authoritative references [#157](https://github.com/rosettatype/hyperglot/issues/157)
+- [ ] 🌍 Add data for more African languages and scripts, e.g., N'Ko [#195](https://github.com/rosettatype/hyperglot/issues/195)
+- [ ] 🇮🇳 Add more shaping checks for Brahmi-derived scripts [#176](https://github.com/rosettatype/hyperglot/issues/176)
+- [ ] 🇧🇷 Add data for indigenous Brazilian languages (Rafael Dietzch and students)
+- [ ] 🇺🇳 Secure funding to expand language coverage
+
+## Other
+
+[The comparison of Hyperglot and the Unicode CLDR](README_comparison.md) (this might be outdated atm.)
