@@ -48,7 +48,7 @@ To detect language support in a font, Hyperglot performs the following checks:
    1. The encoded, precomposed character combinations are present.
    2. Base characters and mark characters from these combinations are present independently.
    3. Both of the above.
-3. **Shaping behavior is correctly handled by the font,** where applicable:
+3. **Shaping behaviour is correctly handled by the font,** where applicable:
    1. Required mark-positioning instructions are present.
    2. Required alternates for joining behavior (for example, in Arabic) are present.
    3. Conjunct syllable construction in Brahmi-derived scripts is supported. (Currently supported only for Hindi/Devanagari.)
@@ -65,7 +65,11 @@ You will need to have Python 3 installed. Install via pip:
 pip install hyperglot
 ```
 
-Besides the main `hyperglot` command used for font inspection, the package also includes `hyperglot-report` for detailed reporting of the language data and the `hyperglot-validate, hyperglot-save` commands used to handle data when contributing.
+Besides the main `hyperglot` command used for font inspection, the package also includes:
+
+- `hyperglot-report` – report missing language support (see [below](#report-missing-language-support)).
+- `hyperglot-data` – review language data stored in the database.
+- `hyperglot-validate`, `hyperglot-save`, and `hyperglot-export` – manage and process data when contributing.
 
 ### Basic usage
 
@@ -94,14 +98,14 @@ to check several fonts at once, or their combined coverage (with `-m union`).
 - `--sort`: Specify the sort order. Use "speakers" to sort by number of speakers. (Default: "alphabetic")
 - `--sort-dir`: Specify the sort direction. Use "desc" for descending order. (Default: "asc" for ascending order)
 - `-y, --output`: Specify a file path to write the output to, in YAML format. For a single input font, the output is a subset of the Hyperglot database containing the languages and orthographies supported by the font. When multiple fonts are provided, the YAML file contains a top-level key for each font. If the `-m` option is provided, the output includes the specific intersection or union result.
-- `-t, --shaping-threshold`: Set the frequency threshold for complex-script shaping checks. A font passes when it renders correctly for combinations at or above this threshold. Frequencies range from 1.0 (most frequent combinations) to 0.0 (rares combinations). The default value, 0.01, requires support for all common combinations. [0.0<=x<=1.0]
+- `-t, --shaping-threshold`: Set the frequency threshold for complex-script shaping checks. A font passes when it renders correctly for combinations at or above this threshold. Frequencies range from 1.0 (most frequent combinations) to 0.0 (rares combinations). (Default: 0.01)
 - `--no-shaping` Disable shaping checks (mark attachment, joining behavior, and conjunct shaping). (Default: shaping checks enabled)
 - `-v, --verbose`: Enable verbose logging.
 - `-V, --version`: Print the Hyperglot version number.
 
-### Detailed language reporting
+### Report missing language support
 
-The `hyperglot-report` command accepts the same options as `hyperglot` and reports missing characters and shaping support. A common use case is identifying languages that could be supported with minimal additional work in a given font. This can be done using the following additional options:
+The `hyperglot-report` reports missing characters and shaping support. A common use case is identifying languages that could be supported with minimal additional work in a given font. The command accepts the same options as `hyperglot` and the following options:
 
 - `--report-missing`: Report languages missing `n` or fewer characters. If `n` is 0, all languages with any number of missing characters are reported. (Default: 0)
 - `--report-marks`: Report languages missing `n` or fewer mark-attachment sequences. If `n` is 0, all languages with any number of missing mark-attachment sequences are reported. (Default: 0)
@@ -130,11 +134,24 @@ The `hyperglot-report` command accepts the same options as `hyperglot` and repor
 
 **A:** The primary orthography for Balinese is actually Latin, as it is the most common way of writing the language today. To include checks for the secondary orthography that uses the Balinese script, set the flag to `--orthography=primary,secondary`.
 
+**Q: Why is language data for XYZ missing while YZX is included?**
+
+**A:** A language can be included if it meets two criteria:
+
+1. It has an assigned [ISO 639-3 code](https://iso639-3.sil.org).
+2. It has an established orthography that can be represented using [Unicode](https://unicode.org) characters.
+
+If XYZ meets these requirements but is not yet in the database, please consider contributing or opening an issue](/issues).
+
+The database uses ISO 639-3 language codes. If a language does not have an assigned ISO 639-3 code, we are currently unable to include it.
+
+We recognize that opinions may differ on what constitutes a distinct language versus a dialect. However, to ensure consistency and interoperability, we adhere to the ISO 639-3 international standard.
+
 ## Roadmap
 
 - [x] 🪶 Change licence to Apache 2
 - [x] 💰 Invite sponsorship and funding[#174](https://github.com/rosettatype/hyperglot/issues/174)
-- [x] 🤖 Basic analysis of shaping instructions provided by the font (GPOS and GSUB): check whether character combinations are affected by font instructions, enabling scalable support for complex combinations (e.g., Arabic, Hindi/Devanagari). [#176](https://github.com/rosettatype/hyperglot/issues/176)
+- [x] 🤖 Basic analysis of shaping support provided by the font (GPOS and GSUB): check whether character combinations are affected by font OpenType features, enabling scalable support for complex combinations (e.g., Arabic, Hindi/Devanagari). [#176](https://github.com/rosettatype/hyperglot/issues/176)
 - [ ] ➡️ Export in a format suitable for submission to Unicode CLDR
 - [ ] 🌍 Web app: add links to other resources per language
 - [ ] 📚 Improve language data, sources, and validity for languages with fewer authoritative references [#157](https://github.com/rosettatype/hyperglot/issues/157)
