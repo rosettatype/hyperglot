@@ -4,7 +4,7 @@
 
 Hyperglot is available as:
 
-- the [Hyperglot web app](https://hyperglot.rosettatype.com),
+- the [Hyperglot web apps](https://hyperglot.rosettatype.com),
 - the command-line tool: `hyperglot`,
 - the python packagage: `import hyperglot` (see [examples](/examples) for basic usage).
 
@@ -119,7 +119,7 @@ The `hyperglot-report` reports missing characters and shaping support. A common 
 - [x] 💰 Invite sponsorship and funding[#174](https://github.com/rosettatype/hyperglot/issues/174)
 - [x] 🤖 Basic analysis of shaping support provided by the font (GPOS and GSUB): check whether character combinations are affected by font OpenType features, enabling scalable support for complex combinations (e.g., Arabic, Hindi/Devanagari). [#176](https://github.com/rosettatype/hyperglot/issues/176)
 - [ ] ➡️ Export in a format suitable for submission to Unicode CLDR
-- [ ] 🌍 Web app: add links to other resources per language
+- [ ] 🌍 Database web app: add links to other resources per language
 - [ ] 📚 Improve language data, sources, and validity for languages with fewer authoritative references [#157](https://github.com/rosettatype/hyperglot/issues/157)
 - [ ] 🌍 Add data for more African languages and scripts, e.g., N'Ko [#195](https://github.com/rosettatype/hyperglot/issues/195)
 - [ ] 🇮🇳 Add more shaping checks for Brahmi-derived scripts [#176](https://github.com/rosettatype/hyperglot/issues/176)
