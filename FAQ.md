@@ -1,28 +1,28 @@
 # Common pitfalls (FAQ)
 
-**Q: Why doesn’t Serbian appear in the list of Latin-script languages?**
+## Why doesn’t Serbian appear in the list of Latin-script languages?
 
-**A:** Serbian is written in both, the Latin and Cyrillic scripts. Thus, Hyperglot requires support for both required orthographies. The same applies to Japanese, Ainu, Okinawan, Pontic Greek, Tlingit, and Xavánte.
+Serbian is written in both, the Latin and Cyrillic scripts. Thus, Hyperglot requires support for both required orthographies. The same applies to Japanese, Ainu, Okinawan, Pontic Greek, Tlingit, and Xavánte.
 
-**Q: Why doesn’t Japanese appear in the list of Latin-script languages, even though it can be written using the Latin script?**
+## Why doesn’t Japanese appear in the list of Latin-script languages, even though it can be written using the Latin script?
 
-**A:** Japanese written in the Latin script (rōmaji) is classified as a secondary orthography. Adjust the filter accordingly (for example, `--orthography=primary,secondary`) to include it.
+Japanese written in the Latin script (rōmaji) is classified as a secondary orthography. Adjust the filter accordingly (for example, `--orthography=primary,secondary`) to include it.
 
-**Q: Why is German not showing up in the list of supported languages even though my font supports it?**
+## Why is German not showing up in the list of supported languages even though my font supports it?
 
-**A:** Make sure to consider precomposed character combinations (using `--decomposed` and `--marks`) and the orthography you want to check. This guidance applies to any language, not just German.
+Make sure to consider precomposed character combinations (using `--decomposed` and `--marks`) and the orthography you want to check. This guidance applies to any language, not just German.
 
-**Q: My font includes Katakana. Why is Japanese not listed as a supported language?**
+## My font includes Katakana. Why is Japanese not listed as a supported language?
 
-**A:** Hyperglot requires a font to include Hiragana, Katakana, and Kanji in order to consider Japanese fully supported.
+Hyperglot requires a font to include Hiragana, Katakana, and Kanji in order to consider Japanese fully supported.
 
-**Q: My font includes Balinese script characters. Why is Balinese not listed as a supported language?**
+## My font includes Balinese script characters. Why is Balinese not listed as a supported language?
 
-**A:** The primary orthography for Balinese is actually Latin, as it is the most common way of writing the language today. To include checks for the secondary orthography that uses the Balinese script, set the flag to `--orthography=primary,secondary`.
+The primary orthography for Balinese is actually Latin, as it is the most common way of writing the language today. To include checks for the secondary orthography that uses the Balinese script, set the flag to `--orthography=primary,secondary`.
 
-**Q: Why is language data for XYZ missing while YZX is included?**
+## Why is language data for XYZ missing while YZX is included?
 
-**A:** A language can be included if it meets two criteria:
+A language can be included if it meets two criteria:
 
 1. It has an assigned [ISO 639-3 code](https://iso639-3.sil.org).
 2. It has an established orthography that can be represented using [Unicode](https://unicode.org) characters.
