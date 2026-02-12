@@ -78,6 +78,7 @@ class Check(CheckBase):
         # Get a harfbuzz buffer's info to inspect shaping.
         data = shaper.get_glyph_data("".join(chars))
 
+        # The most obvious exist: Nothing to attach for a single character.
         if len(input) == 1 and len(chars) == 1:
             return True
 
@@ -95,6 +96,7 @@ class Check(CheckBase):
             # positioning.
 
             if len(data) == 1:
+                log.debug(f"Input '{input}' composed to single glyph, passes")
                 return True
 
         if len(input) > 1 and len(data) == 1:
@@ -102,6 +104,9 @@ class Check(CheckBase):
             # glyph output, like a ccmp transforming a base + mark to a single
             # glyph. We trust this is intentional by the vendor and constitutes
             # a shaped mark.
+            log.debug(
+                f"Input '{input}' substituted to single glyph, assuming mark attachment is intentional."
+            )
             return True
 
         non_marks = {

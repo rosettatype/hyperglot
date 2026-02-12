@@ -293,8 +293,9 @@ class Checker:
             supported = True
             checks = self._get_checks_for_orthography(ort)
 
-            # FIXME TBD Run all checks, even after one has failed, to get logging output
-            for check_name, priority, c in checks:
+            # FIXME TBD Run all checks, even after one has failed, to get 
+            # logging output
+            for check_name, _priority, c in checks:
                 result = c.check(
                     ort,
                     self,
@@ -309,7 +310,7 @@ class Checker:
 
                 log.debug(
                     f"Running check {check_name} for {iso}: "
-                    + ("Not passed" if result else "Passed")
+                    + ("Passed" if result else "Not passed")
                 )
 
                 if not result:
