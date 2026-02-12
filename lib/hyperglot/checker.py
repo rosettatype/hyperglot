@@ -309,7 +309,7 @@ class Checker:
 
                 log.debug(
                     f"Running check {check_name} for {iso}: "
-                    + ("Satisfied" if result else "Failed")
+                    + ("Not passed" if result else "Passed")
                 )
 
                 if not result:

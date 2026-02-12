@@ -6,6 +6,7 @@ from hyperglot.shaper import Shaper
 
 class CheckBase:
 
+    # Unicode constants used in some of the checks
     VIRAMA = chr(0x094D)
     ZWJ = chr(0x200D)
     ZWNJ = chr(0x200C)
@@ -39,12 +40,20 @@ class CheckBase:
         "z": [chr(0x200D)],
     }
 
+    # Conditions by which to determined if a check should run for a given
+    # orthography
     conditions = {
-        "script": "Devanagari",
-        "attributes": ("combinations",),
+        # e.g.
+        # "script": "Devanagari",
+        # "attributes": ("combinations",),
     }
+
     requires_font = False
+
+    # Ascending priority, lower runs first. Use this to e.g. run general checks
+    # before more specific ones.
     priority = 999
+
     logger = logging.getLogger("hyperglot.reporting.errors")
 
     def __init__(self):

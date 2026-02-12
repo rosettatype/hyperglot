@@ -7,7 +7,6 @@ from hyperglot.orthography import Orthography
 from hyperglot.shaper import Shaper
 
 log = logging.getLogger(__name__)
-log.setLevel(logging.DEBUG)
 
 
 class Check(CheckBase):
@@ -74,7 +73,7 @@ class Check(CheckBase):
                     )
                     fails_over_threshold = True
                 else:
-                    log.warning(
+                    self.logger.warning(
                         f"Conjunct '{conjunct} ({frequency:.5f}) does not shape, but passes threshold ({fmt_threshold})."
                     )
 
@@ -159,7 +158,7 @@ class Check(CheckBase):
                 has_virama = True
 
         if require_virama_consumed and has_virama:
-            log.warning(
+            log.info(
                 f"C + Virama + ZWJ + C: Virama not consumed when it should have been, in '{input}' ("
                 + " ".join(["%s %s" % (c, hex(ord(c))) for c in input])
                 + ")"
@@ -167,7 +166,7 @@ class Check(CheckBase):
             return False
 
         if require_virama_remains and not has_virama:
-            log.warning(
+            log.info(
                 f"C + Virama + ZWNJ + C: Virama not retained when it should have been, in '{input}' ("
                 + " ".join(["%s %s" % (c, hex(ord(c))) for c in input])
                 + ")"
@@ -178,7 +177,7 @@ class Check(CheckBase):
             return True
 
         if has_virama:
-            log.warning(
+            self.logger.info(
                 f"Conjunct still contains Virama, in '{input}' ("
                 + " ".join(["%s %s" % (c, hex(ord(c))) for c in input])
                 + ")"

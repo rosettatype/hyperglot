@@ -9,7 +9,6 @@ from hyperglot import MARK_BASE, RE_INHERITANCE_TAG, RE_MULTIPLE_SPACES
 from hyperglot.loader import load_joining_types
 
 log = logging.getLogger(__name__)
-log.setLevel(logging.INFO)
 
 
 def list_unique(li):

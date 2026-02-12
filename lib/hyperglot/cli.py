@@ -229,7 +229,8 @@ def hyperglot_options(f):
         help="The level of validity for languages matched against the "
         "font. Weaker levels always include more strict levels. The "
         "default includes all languages for which the database has "
-        "charset data. Options are one of '%s'" % (", ".join(LanguageValidity.values())),
+        "charset data. Options are one of '%s'"
+        % (", ".join(LanguageValidity.values())),
     )
     @click.option(
         "-s",
@@ -303,7 +304,7 @@ def hyperglot_options(f):
         "--no-shaping",
         is_flag=True,
         help="Disable shaping tests (mark attachment, joining behaviour, "
-        "conjunct shaping)"
+        "conjunct shaping)",
     )
     @click.option("-v", "--verbose", count=True)
     @click.option("-V", "--version", is_flag=True, default=False)
@@ -380,20 +381,32 @@ def cli(
     else:
         loglevel = logging.WARNING
 
+        logging.getLogger("hyperglot.checks.check_arabic_joining").setLevel(loglevel)
+        logging.getLogger("hyperglot.checks.check_brahmi_conjuncts").setLevel(loglevel)
+        logging.getLogger("hyperglot.checks.check_brahmi_halfforms").setLevel(loglevel)
+        logging.getLogger("hyperglot.checks.check_combination_marks").setLevel(loglevel)
+        logging.getLogger("hyperglot.checks.check_coverage").setLevel(loglevel)
+        logging.getLogger("hyperglot.checks.check_mark_attachment").setLevel(loglevel)
+        
+        # Disable reporting loggers by default
+        logging.getLogger("hyperglot.reporting.missing").setLevel(logging.ERROR)
+        logging.getLogger("hyperglot.reporting.marks").setLevel(logging.ERROR)
+        logging.getLogger("hyperglot.reporting.joining").setLevel(logging.ERROR)
+        logging.getLogger("hyperglot.reporting.conjuncts").setLevel(logging.ERROR)
+
     # Configure root logger with handler if not already configured
     if not logging.getLogger().handlers:
         if loglevel >= logging.WARNING:
-            logging.basicConfig(
-                level=loglevel,
-                format='%(levelname)s: %(message)s'
-            )
+            logging.basicConfig(level=loglevel, format="%(levelname)s: %(message)s")
         else:
             logging.basicConfig(
-                level=loglevel,
-                format='%(levelname)s (%(name)s): %(message)s'
+                level=loglevel, format="%(levelname)s (%(name)s): %(message)s"
             )
     else:
         logging.getLogger().setLevel(loglevel)
+        # Also update handler levels to prevent INFO messages from showing
+        for handler in logging.getLogger().handlers:
+            handler.setLevel(loglevel)
 
     log.setLevel(loglevel)
     logging.getLogger("hyperglot.languages").setLevel(loglevel)
@@ -413,39 +426,36 @@ def cli(
 
     if report_missing >= 0:
         logging.getLogger("hyperglot.reporting.missing").setLevel(logging.WARNING)
+    else:
+        logging.getLogger("hyperglot.reporting.missing").setLevel(logging.ERROR)
     if report_marks >= 0:
         logging.getLogger("hyperglot.reporting.marks").setLevel(logging.WARNING)
+    else:
+        logging.getLogger("hyperglot.reporting.marks").setLevel(logging.ERROR)
     if report_joining >= 0:
         logging.getLogger("hyperglot.reporting.joining").setLevel(logging.WARNING)
+    else:
+        logging.getLogger("hyperglot.reporting.joining").setLevel(logging.ERROR)
     if report_conjuncts >= 0:
         logging.getLogger("hyperglot.reporting.conjuncts").setLevel(logging.WARNING)
+    else:
+        logging.getLogger("hyperglot.reporting.conjuncts").setLevel(logging.ERROR)
 
     log.info(
-        "Performing language checks with these options: %s"
-        % " ".join(
+        "Performing language checks with these options: \n%s"
+        % "\n".join(
             [
-                "fonts:",
-                str(fonts),
-                "check:",
-                str(check),
-                "validity:",
-                str(validity),
-                "status",
-                str(status),
-                "orthography:",
-                str(orthography),
-                "decomposed:",
-                str(decomposed),
-                "marks:",
-                str(marks),
-                "sorting:",
-                str(sorting),
-                "sort_dir:",
-                str(sort_dir),
-                "shaping_threshold:",
-                str(shaping_threshold),
-                "no_shaping:",
-                str(no_shaping),
+                f"fonts: {str(fonts)}",
+                f"check: {str(check)}",
+                f"validity: {str(validity)}",
+                f"status: {str(status)}",
+                f"orthography: {str(orthography)}",
+                f"decomposed: {str(decomposed)}",
+                f"marks: {str(marks)}",
+                f"sorting: {str(sorting)}",
+                f"sort_dir: {str(sort_dir)}",
+                f"shaping_threshold: {str(shaping_threshold)}",
+                f"no_shaping: {str(no_shaping)}",
             ]
         )
     )
@@ -504,7 +514,7 @@ def save_sorted(Langs: Languages = None, validate: bool = True) -> None:
     modified)
     """
     log.setLevel(logging.WARNING)
-    
+
     try:
         os.remove(LANGUAGE_CACHE_FILE)
     except FileNotFoundError:

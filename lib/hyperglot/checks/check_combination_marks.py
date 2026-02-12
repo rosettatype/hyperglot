@@ -5,7 +5,6 @@ from hyperglot.checkbase import CheckBase
 from hyperglot.shaper import Shaper
 
 log = logging.getLogger(__name__)
-log.setLevel(logging.DEBUG)
 
 
 class Check(CheckBase):
@@ -79,7 +78,7 @@ class Check(CheckBase):
             if len(missing) > 0:
                 msg += " Unpositioned marks: " + ", ".join(missing)
 
-            log.info(msg)
+            self.logger.info(msg)
 
             # For now this yields too many false positives for base + mark where
             # the two are not linked by anchors, but the mark simply renders

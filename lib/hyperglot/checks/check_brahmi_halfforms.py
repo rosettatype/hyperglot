@@ -4,7 +4,6 @@ from hyperglot.checkbase import CheckBase
 from hyperglot.shaper import Shaper
 
 log = logging.getLogger(__name__)
-log.setLevel(logging.DEBUG)
 
 
 class Check(CheckBase):
@@ -40,7 +39,7 @@ class Check(CheckBase):
         # Check if the rendered sequence still contains VIRAMA
         for glyphinfo in shaper.get_glyph_data(input + self.ZWJ):
             if glyphinfo[0].codepoint == virama_cp:
-                log.warning(f"Halfform does not shape, in '{input}'")
+                log.info(f"Halfform does not shape, in '{input}'")
                 return False
 
         return True
