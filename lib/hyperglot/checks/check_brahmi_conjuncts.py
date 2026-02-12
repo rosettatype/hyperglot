@@ -69,12 +69,14 @@ class Check(CheckBase):
 
                 if frequency > options["threshold"]:
                     log.error(
-                        f"Conjunct '{conjunct} ({frequency:.5f}) does not shape and does not pass frequency threshold ({fmt_threshold})."
+                        f"Conjunct '{conjunct}' ({frequency:.5f}) does not shape "
+                        f"but is required by frequency threshold ({fmt_threshold})."
                     )
                     fails_over_threshold = True
                 else:
                     self.logger.warning(
-                        f"Conjunct '{conjunct} ({frequency:.5f}) does not shape, but passes threshold ({fmt_threshold})."
+                        f"Conjunct '{conjunct}' ({frequency:.5f}) does not shape "
+                        f"but can be ignored under frequency threshold ({fmt_threshold})."
                     )
 
         return not fails_over_threshold

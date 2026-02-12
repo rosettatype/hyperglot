@@ -148,10 +148,10 @@ def print_to_cli(font, title):
         print()
         print()
         print(
-            "To see detailed information for a language (character set, speakers, autonym) use 'hyperglot-data \"Language Name or ISO code\"'"
+            "To see detailed language information (character set, speakers, autonym) use 'hyperglot-data \"Language Name or ISO code\"'"
         )
         print(
-            "To see more detailed check information use -v/-vv and the 'hyperglot-report' command"
+            "To see detailed check information use -v/-vv and the 'hyperglot-report' command"
         )
         print()
 

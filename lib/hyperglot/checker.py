@@ -102,7 +102,7 @@ class Checker:
         decomposed: bool = False,
         marks: bool = False,
         shaping: bool = False,
-        shaping_threshold: float = 0.001,
+        shaping_threshold: float = 0.01,
         report_missing: int = -1,
         report_marks: int = -1,
         report_joining: int = -1,
