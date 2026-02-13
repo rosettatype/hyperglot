@@ -1,6 +1,6 @@
 # Hyperglot – a database and tools for detecting language support in fonts
 
-**Hyperglot** is an open research project dedicated to documenting how the world’s languages are written. By mapping orthographies and their requirements, it supports inclusive, multilingual type design and equitable access to high-quality typography for underserved communities. Hyperglot currently covers 783 languages, representing approximately 7.3 billion speakers, and is developed as open source by [Rosetta Type/Research](https://rosettatype.com) in collaboration with a global [community of contributors](CONTRIBUTORS.txt).
+**Hyperglot** is an open research project dedicated to documenting how the world’s languages are written. By mapping orthographies and their requirements, it supports inclusive, multilingual type design and equitable access to high-quality typography for underserved communities. Hyperglot currently covers 783 languages, representing approximately 7.3 billion speakers, and is developed as open source by [Rosetta Type/Research](https://rosettatype.com) in collaboration with a global [community of contributors](CONTRIBUTORS.txt) and licensed under the [Apache 2.0 license](LICENSE).
 
 Hyperglot is available as:
 
@@ -129,3 +129,8 @@ The `hyperglot-report` reports missing characters and shaping support. A common 
 ## Other
 
 [The comparison of Hyperglot and the Unicode CLDR](README_comparison.md) (this might be outdated atm.)
+
+## Notes
+
+- Fonts included in the repository for testing purposes are licenses under their respective licenses
+- Data included in the `other` directory is replicated from various public domain and open source origins for compasion and aggregation (mostly present in historic commits of this repository)
