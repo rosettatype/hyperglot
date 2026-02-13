@@ -154,6 +154,7 @@ def test_check_conjuncts(caplog):
     yantramanav_shaper = Shaper(yantramanav)
 
     # Plex Arabic has no Virama:
+    logging.getLogger("hyperglot.checks.check_brahmi_conjuncts").setLevel(logging.DEBUG)
     assert conjuncts_check.check_conjunct("स्व", plex_shaper) is False
     assert "Font contains no Virama" in caplog.records[-1].message
 
@@ -179,7 +180,8 @@ def test_check_conjuncts(caplog):
     assert conjuncts_check.check_conjunct("ABC", eczar_shaper) is True
     assert "No Virama in conjunct" in caplog.records[-1].message
 
-    # A sample of simple, valid consonant-virama-consonant (+x) conjuncts that should render
+    # A sample of simple, valid consonant-virama-consonant (+x) conjuncts that
+    # should render
     for s in ["स्त", "त्त", "र्म", "ध्य", "क्ति", "स्थि"]:
         assert conjuncts_check.check_all_render(s, eczar_shaper) is True
         assert conjuncts_check.check_conjunct(s, eczar_shaper) is True
@@ -277,6 +279,7 @@ def test_check_conjuncts_filter():
 
 
 def test_halfforms_filter():
+    logging.getLogger("hyperglot.checks.check_brahmi_halfforms").setLevel(logging.DEBUG)
     halfforms_check = CheckBrahmiHalfforms()
 
     # Sanity checks
@@ -384,33 +387,36 @@ def test_combination_marks():
 
     # Eczar actually positions this mark
     assert mark_check.check_cluster_mark_attachment("वृ", eczar_shaper) is True
+
     # Whereas Noto the mark is positioned in such a way that does not result in
     # an offset (failsafe design)
     # TODO How on earth to confirm the shapes make sense without any explicit
     # technical data to confirm this?
-
     # assert mark_check.check_cluster_mark_attachment("वृ", noto_shaper) is False
 
 
 def test_cluster_mark_logs(caplog):
     logging.getLogger("hyperglot.checks.check_mark_attachment").setLevel(logging.DEBUG)
+    logging.getLogger("hyperglot.checks.check_combination_marks").setLevel(
+        logging.DEBUG
+    )
 
     mark_check = CheckCombinationMarks()
     yantramanav_shaper = Shaper(yantramanav)
     eczar_shaper = Shaper(eczar)
 
-    # # Passes
-    # assert mark_check.check_cluster_mark_attachment("के", yantramanav_shaper) is True
+    # Passes
+    assert mark_check.check_cluster_mark_attachment("के", yantramanav_shaper) is True
 
-    # # nonsense combinations with virama
-    # assert mark_check.check_cluster_mark_attachment("A्A", yantramanav_shaper) is True
+    # nonsense combinations with virama
+    assert mark_check.check_cluster_mark_attachment("A्A", yantramanav_shaper) is True
 
     # For Yantramanav harfbuzz fails to return the glyph names, but the cluster warning is emitted
     assert mark_check.check_cluster_mark_attachment("φ्φ", yantramanav_shaper) is False
     assert "Mark shaping for cluster" in caplog.records[-1].message
     assert "missing 2 glyphs" in caplog.records[-1].message
 
-    # # For other fonts the actual culprit is listed in the warning
-    # assert mark_check.check_cluster_mark_attachment("φ्φ", eczar_shaper) is False
-    # assert "Mark positioning for cluster" in caplog.records[-1].message
-    # assert "uni094D" in caplog.records[-1].message
+    # For other fonts the actual culprit is listed in the warning
+    assert mark_check.check_cluster_mark_attachment("φ्φ", eczar_shaper) is False
+    assert "Mark shaping for cluster" in caplog.records[-1].message
+    assert "missing 2 glyphs" in caplog.records[-1].message
