@@ -159,19 +159,8 @@ class Checker:
                 log.info("Skipping language '%s' which has lower " "'validity'" % iso)
                 continue
 
-            include_historical = LanguageStatus.HISTORICAL.value in status
-            include_constructed = LanguageStatus.CONSTRUCTED.value in status
-
-            if include_historical and lang.is_historical:
-                log.info("Including historical language '%s'" % lang.name)
-            elif include_historical is False and lang.is_historical:
-                log.info("Skipping historical language '%s'" % iso)
-                continue
-
-            if include_constructed and lang.is_constructed:
-                log.info("Including constructed language '%s'" % lang.name)
-            elif include_constructed is False and lang.is_constructed:
-                log.info("Skipping constructed language '%s'" % iso)
+            if lang.status not in status:
+                log.info(f"Skipping '{lang.status}' language '{iso}'")
                 continue
 
             # Do the support check on the Language level, and with the prune

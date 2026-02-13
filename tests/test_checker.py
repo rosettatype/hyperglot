@@ -3,6 +3,7 @@ Basic Language support checks.
 
 TODO: Many of these should be refactored/moved to test_checks!
 """
+
 import os
 import logging
 import pytest
@@ -75,17 +76,24 @@ def test_language_supported():
 
     # Just base chars input won't support aux
     assert (
-        CharsetChecker(fin_base).supports_language("fin", check=[SupportLevel.AUX.value]) is False
+        CharsetChecker(fin_base).supports_language(
+            "fin", check=[SupportLevel.AUX.value]
+        )
+        is False
     )
 
     # But aux chars input will
-    assert CharsetChecker(fin_aux).supports_language("fin", check=[SupportLevel.AUX.value])
+    assert CharsetChecker(fin_aux).supports_language(
+        "fin", check=[SupportLevel.AUX.value]
+    )
 
     # A Font without 'a' won't support this language
     assert CharsetChecker(fin_missing_a).supports_language("fin") is False
 
     # Just basic other language check
-    assert CharsetChecker(rus_base).supports_language("rus", check=[SupportLevel.BASE.value])
+    assert CharsetChecker(rus_base).supports_language(
+        "rus", check=[SupportLevel.BASE.value]
+    )
 
 
 def test_language_supported_dict():
@@ -135,7 +143,7 @@ def test_language_supported_validity():
         is False
     )
 
-    # Two primary orthographies, but no preferred_as_group, so supporting one 
+    # Two primary orthographies, but no preferred_as_group, so supporting one
     # should be enough to pass
     assert CharsetChecker(aat_base).supports_language("aat", validity="draft")
 
@@ -228,9 +236,7 @@ def test_language_all_orthographies():
 
     # When checking primary orthographies this should not be supported.
     assert (
-        CharsetChecker(smj_historical).supports_language(
-            "smj", orthography=["primary"]
-        )
+        CharsetChecker(smj_historical).supports_language("smj", orthography=["primary"])
         is False
     )
 
@@ -238,7 +244,7 @@ def test_language_all_orthographies():
     assert CharsetChecker(smj_historical).supports_language(
         "smj", orthography=["historical"]
     )
-    
+
     # rmn Balkan Romani has Latin (primary) and Cyrillic (secondary) orthographies
 
     # All the chars from both orthographies
@@ -251,15 +257,51 @@ def test_language_all_orthographies():
 
     # Match for primary orthography chars
     assert CharsetChecker(rmn_primary).supports_language("rmn")
-    assert CharsetChecker(rmn_primary).supports_language(
-        "rmn", orthography=["primary"]
-    )
+    assert CharsetChecker(rmn_primary).supports_language("rmn", orthography=["primary"])
 
     # Match for secondary orthography chars only if checking all orthographies
     assert CharsetChecker(rmn_secondary).supports_language("rmn") is False
     assert CharsetChecker(rmn_secondary).supports_language(
         "rmn", orthography=OrthographyStatus.all()
     )
+
+
+def test_status_options(caplog):
+    logging.getLogger("hyperglot.checker").setLevel(logging.INFO)
+    blanko_checker = CharsetChecker([])
+
+    # No info logs when 'all' are checked
+    blanko_checker.get_supported_languages(status=["all"])
+    assert len(caplog.records) == 0
+    caplog.clear()
+
+    # Confirm the checked status is not present, and a specific example of a
+    # skipped language is logged for the unchecked status:
+
+    blanko_checker.get_supported_languages(status=["living"])
+    assert len([c for c in caplog.records if "Skipping 'historical' language 'akk'" in c.msg]) == 1
+    assert len([c for c in caplog.records if "Skipping 'living' language" in c.msg]) == 0
+    assert len([c for c in caplog.records if "Skipping 'constructed' language 'tlh'" in c.msg]) == 1
+    caplog.clear()
+
+    blanko_checker.get_supported_languages(status=["historical"])
+    assert len([c for c in caplog.records if "Skipping 'historical' language" in c.msg]) == 0
+    assert len([c for c in caplog.records if "Skipping 'living' language 'eng'" in c.msg]) == 1
+    assert len([c for c in caplog.records if "Skipping 'constructed' language 'tlh'" in c.msg]) == 1
+    caplog.clear()
+
+    blanko_checker.get_supported_languages(status=["constructed"])
+    assert len([c for c in caplog.records if "Skipping 'historical' language 'akk'" in c.msg]) == 1
+    assert len([c for c in caplog.records if "Skipping 'living' language 'eng'" in c.msg]) == 1
+    assert len([c for c in caplog.records if "Skipping 'constructed' language" in c.msg]) == 0
+    caplog.clear()
+
+    # Check a combination
+    blanko_checker.get_supported_languages(status=["historical", "constructed"])
+    assert len([c for c in caplog.records if "Skipping 'historical' language" in c.msg]) == 0
+    assert len([c for c in caplog.records if "Skipping 'living' language 'eng'" in c.msg]) == 1
+    assert len([c for c in caplog.records if "Skipping 'constructed' language" in c.msg]) == 0
+    caplog.clear()
 
 
 def test_language_multiple_primaries():
@@ -426,6 +468,7 @@ def test_checker_load_checks():
     fin_checks = checker._get_checks_for_orthography(Language("fin").get_orthography())
     assert "check_coverage" in [c[0] for c in fin_checks]
     assert "check_brahmi_conjuncts" not in [c[0] for c in fin_checks]
+
 
 def test_checker_runs():
     roboto_checker = FontChecker(roboto)

@@ -390,7 +390,7 @@ def cli(
         logging.getLogger("hyperglot.checks.check_combination_marks").setLevel(loglevel)
         logging.getLogger("hyperglot.checks.check_coverage").setLevel(loglevel)
         logging.getLogger("hyperglot.checks.check_mark_attachment").setLevel(loglevel)
-        
+
         # Disable reporting loggers by default
         logging.getLogger("hyperglot.reporting.missing").setLevel(logging.ERROR)
         logging.getLogger("hyperglot.reporting.marks").setLevel(logging.ERROR)

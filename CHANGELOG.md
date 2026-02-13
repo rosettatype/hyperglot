@@ -3,11 +3,14 @@
 ## 0.8.0 (WIP)
 - LICENSE: Relicensed under Apache License 2.0
 - FIX: `Shaper.check_joining` refined to not be more lenient and not fail fonts with other than one-to-one positional substitutions or general sequence manipulating `ccmp` code
-- - FEATURE: Added `-t`/`--shaping-threshold` that allows fine-tuning conjunct check failures by accounting for conjunct frequency
+- FIX Using a `--status` that does not include 'living' no correctly omits these languages
+- TWEAK: Better output with `-v`: Consequently log skipped languages and orthographies plus the skipping the reason
+- FEATURE: Added `-t`/`--shaping-threshold` that allows fine-tuning conjunct check failures by accounting for conjunct frequency
 - FEATURE: Added `--no-shaping` flag to disable shaping checks entirely (on by default)
 - DATA: Modified multitudes of `design_requirements`, dropped `design_alternates`
 - DATA: `jpn` Latin orthography marked as secondary
-- DATA: `hin` and `mai` include syllable combinations with frequencies distributions
+- DATA: Introduced `combinations` orthography attribute
+- DATA: `hin` and `mai` include syllable `combinations` with frequencies distributions (1: most common, 0: least common)
 - TWEAK: `design_requirments` can now be either a string, or a dict of `note` + `alternates` (detailing which characters are affected)
 - TWEAK: Minor tweak to logging in `Orthography`
 - TWEAK: `Checker._check_shaping` with better pre-check to skip mark attachment checks for glyphs not in the font (obvious)
