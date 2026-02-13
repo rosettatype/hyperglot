@@ -92,7 +92,7 @@ to check several fonts at once, or their combined coverage (with `-m union`).
 
 - `-c, --check`: Specify which character sets to check against. Options are 'base, auxiliary, punctuation, numerals, currency, all', or a comma-separated combination of these. (Default: 'base')
 - `--validity`: Filter languages by data validity level. Options are 'todo, draft, preliminary, verified'. (Default: 'preliminary')
-- `-s, --status`: Specify which languages to consider when checking support. Options are 'living, historical, constructed, all', or a comma-separated combination of these . (Default: 'living')
+- `-s, --status`: Specify which languages to consider when checking support. Options are 'living, historical, constructed, all', or a comma-separated combination of these . (Default: 'living,constructed')
 - `-o, --orthography`: Which orthographies to consider when checking support for a language. Options are 'primary, secondary, historical, transliteration, all', or a comma-separated combination of these. (Default: 'primary')
 - `-d, --decomposed`: For precomposed character combinations, require only the individual component characters. By default, precomposed character combinations are also required when they have a unique code point in Unicode. (Default: False)
 - `-m, --marks`: Require that a font include all combining marks used by a language’s orthography. By default, only marks that are not part of precomposed character combinations are required. (Default: False)

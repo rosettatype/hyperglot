@@ -238,7 +238,7 @@ def hyperglot_options(f):
     @click.option(
         "-s",
         "--status",
-        default=LanguageStatus.LIVING.value,
+        default=f"{LanguageStatus.LIVING.value},{LanguageStatus.HISTORICAL.value}",
         show_default=True,
         callback=validate_language_statuses,
         help=f"Which languages to consider when checking support. Options are "
