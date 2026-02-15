@@ -113,12 +113,47 @@ def test_cli_marks():
     assert total_no_marks > total_no_marks_flag
 
 
-def test_cli_include_constructed():
-    res = runner.invoke(cli, plex_arabic)
-    assert "Interlingua" not in res.output
+def test_cli_status():
+    res = runner.invoke(cli, eczar)
+    assert "languages of Latin script" in res.output
+    assert "languages of Devanagari script" in res.output
+    assert "Czech" in res.output
+    assert "Hindi" in res.output
+    assert "Sanskrit" in res.output
 
-    res = runner.invoke(cli, plex_arabic + " -s constructed")
+    # Confirm "constructed" languages are included
     assert "Interlingua" in res.output
+
+    # Confirm no "historical" languages are included
+    assert "Eastern Abnaki" not in res.output
+
+
+def test_cli_include_constructed():
+    # Constructed languages are now included by default, so should be in output
+    res = runner.invoke(cli, eczar + " -s constructed")
+    assert "Interlingua" in res.output
+
+    # Confirm no "alive" languages are included
+    assert "English" not in res.output
+
+    # Confirm no "historical" languages are included
+    assert "Eastern Abnaki" not in res.output
+
+
+def test_cli_include_historic():
+    # Historic languages are not included by default, so only be in the input
+    # when opted in
+    res = runner.invoke(cli, eczar)
+    assert "Eastern Abnaki" not in res.output
+
+    res = runner.invoke(cli, eczar + " -s historical")
+    assert "Eastern Abnaki" in res.output
+
+    # Confirm no "alive" languages are included
+    assert "English" not in res.output
+
+    # Confirm no "constructed" languages are included
+    assert "Interlingua" not in res.output
 
 
 def test_cli_include_all_orthographies():
@@ -132,7 +167,6 @@ def test_cli_include_all_orthographies():
     assert "Assyrian Neo-Aramaic" not in res.output
 
     res = runner.invoke(cli, plex_arabic + " -o all")
-    print(res.output)
     assert "Chickasaw" in res.output
     assert "Assyrian Neo-Aramaic" in res.output
 
