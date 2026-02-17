@@ -4,6 +4,7 @@ import pickle
 import logging
 from typing import List, Union
 from copy import deepcopy
+from packaging.version import Version
 
 from hyperglot import (
     LANGUAGE_CACHE_FILE,
@@ -20,15 +21,15 @@ __all__ = ["Language", "_load_language_cache"]
 
 log = logging.getLogger(__name__)
 
-MACRO_LANGUAGES_CACHE = None
+MACRO_LANGUAGES_CACHE: dict = {}
 
 
-def get_macro_languages():
+def get_macro_languages() -> dict:
     global MACRO_LANGUAGES_CACHE
 
     from hyperglot.languages import Languages
 
-    if MACRO_LANGUAGES_CACHE is None:
+    if MACRO_LANGUAGES_CACHE == {}:
         MACRO_LANGUAGES_CACHE = {
             iso: lang
             for iso, lang in Languages(inherit=False).items()
@@ -40,7 +41,7 @@ def get_macro_languages():
 
 # Use a pickled cache of all fully inherited language data to save on loading
 # and parsing
-LANGUAGE_CACHE = {}
+LANGUAGE_CACHE: dict = {}
 
 
 def _load_language_cache():
@@ -54,8 +55,31 @@ def _load_language_cache():
         if os.path.isfile(LANGUAGE_CACHE_FILE):
             with open(LANGUAGE_CACHE_FILE, "rb+") as f:
                 LANGUAGE_CACHE = pickle.load(f)
+
+                from hyperglot import __version__
+
+                cache_version = LANGUAGE_CACHE.get("_version", "unknown")
+
+                if cache_version == "unknown":
+                    log.info(
+                        "Remove unversioned language cache file to rebuild "
+                        "cache with current version."
+                    )
+                    LANGUAGE_CACHE = {}
+                    return
+                elif Version(cache_version) < Version(__version__):
+                    log.info(
+                        f"Language cache version {cache_version} is older than "
+                        f"current version {__version__}, rebuild cache."
+                    )
+                    LANGUAGE_CACHE = {}
+                    return
+
+                # Remove version key from cache after loading
+                LANGUAGE_CACHE.pop("_version", None)
                 log.info(
                     f"Loaded language cache with {len(LANGUAGE_CACHE)} "
+                    f"(version {cache_version}) "
                     f"entries from {os.path.abspath(LANGUAGE_CACHE_FILE)}"
                 )
         else:
@@ -118,9 +142,15 @@ class Language(dict):
                 _load_language_cache()
                 LANGUAGE_CACHE[iso] = data
                 with open(LANGUAGE_CACHE_FILE, "wb+") as f:
-                    log.debug(f"Writing {iso} to language cache.")
+                    log.info(f"Writing {iso} to language cache.")
+                    from hyperglot import __version__
+
+                    # Add version to the cache to allow for invalidation when
+                    # the data has meaningful changes.
+                    LANGUAGE_CACHE["_version"] = __version__
                     pickle.dump(LANGUAGE_CACHE, f)
-            except:
+            except Exception as e:
+                log.warning(f"Failed to write language cache: {e}")
                 pass
 
     def __repr__(self):
