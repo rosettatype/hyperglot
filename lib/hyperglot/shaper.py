@@ -7,7 +7,6 @@ import uharfbuzz as hb
 from fontTools.ttLib import TTFont
 
 log = logging.getLogger(__name__)
-log.setLevel(logging.WARNING)
 
 
 class Shaper:

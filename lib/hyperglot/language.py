@@ -15,9 +15,10 @@ from hyperglot import (
 from hyperglot.loader import load_language_data
 from hyperglot.orthography import Orthography
 
-log = logging.getLogger(__name__)
-log.setLevel(logging.WARNING)
+# Export function for CLI initialization
+__all__ = ["Language", "_load_language_cache"]
 
+log = logging.getLogger(__name__)
 
 MACRO_LANGUAGES_CACHE = None
 
@@ -40,13 +41,28 @@ def get_macro_languages():
 # Use a pickled cache of all fully inherited language data to save on loading
 # and parsing
 LANGUAGE_CACHE = {}
-try:
-    if os.path.isfile(LANGUAGE_CACHE_FILE):
-        with open(LANGUAGE_CACHE_FILE, "rb+") as f:
-            LANGUAGE_CACHE = pickle.load(f)
-            log.info("Loaded language cache with %d entries" % len(LANGUAGE_CACHE))
-except:
-    pass
+
+
+def _load_language_cache():
+    """Load the language cache if not already loaded."""
+    global LANGUAGE_CACHE
+
+    if LANGUAGE_CACHE != {}:
+        return
+
+    try:
+        if os.path.isfile(LANGUAGE_CACHE_FILE):
+            with open(LANGUAGE_CACHE_FILE, "rb+") as f:
+                LANGUAGE_CACHE = pickle.load(f)
+                log.info(
+                    f"Loaded language cache with {len(LANGUAGE_CACHE)} "
+                    f"entries from {os.path.abspath(LANGUAGE_CACHE_FILE)}"
+                )
+        else:
+            log.info("No language cache file found, build cache.")
+    except Exception as e:
+        log.warning(f"Failed to load language cache: {e}")
+        pass
 
 
 class Language(dict):
@@ -84,6 +100,7 @@ class Language(dict):
         self.inherit = inherit
 
         if data is None:
+            _load_language_cache()
             if inherit and iso in LANGUAGE_CACHE and not force_fresh:
                 data = LANGUAGE_CACHE[iso]
             else:
@@ -98,6 +115,7 @@ class Language(dict):
 
         if inherit and (iso not in LANGUAGE_CACHE or force_fresh):
             try:
+                _load_language_cache()
                 LANGUAGE_CACHE[iso] = data
                 with open(LANGUAGE_CACHE_FILE, "wb+") as f:
                     log.debug(f"Writing {iso} to language cache.")
@@ -264,7 +282,7 @@ reviewers: {reviewers}
         # Japanese) this returns only one orthography!
         return matches[0]
 
-    def get_check_orthographies(self, include:List = None) -> List:
+    def get_check_orthographies(self, include: List = None) -> List:
         """
         Get the orthographies relevant for performing support checks.
         """
@@ -277,7 +295,9 @@ reviewers: {reviewers}
             return []
 
         # Determine which orthographies should be checked.
-        orthographies = [o for o in self["orthographies"] if "status" in o and o["status"] in include]
+        orthographies = [
+            o for o in self["orthographies"] if "status" in o and o["status"] in include
+        ]
 
         if not include == OrthographyStatus.all():
             # Note the .copy() here since we manipulate the attribute

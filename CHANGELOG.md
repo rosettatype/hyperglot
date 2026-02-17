@@ -18,6 +18,7 @@
   - Added `--check` option to replace `--supportlevel`. `--check` takes any value of `base,auxiliary,punctuation,numerals,currency,all` or a comma-separated list of those
   - Removed `--include-historical` and `--include-historical` in favor or `--status` which accepts any combination of `LanguageStatus` or "all", defaults to "living"
   - Removed `--include-all-orthographies` in favor of `--orthography` which accepts any combination of `OrthographyStatus` or "all", defaults to "primary"
+- TWEAK: Better logging output and logging strategies in the CLI/modules, `-v` provides basic language in/out and config logs, `-vv` gives very detailed support logs
 - Removed the deprecated `STATUSES`, `ORTHOGRAPHY_STATUSES` and `SUPPORTLEVELS` from the codebase
 
 ## 0.7.3 (13.10.2025)

@@ -7,7 +7,6 @@ from hyperglot import DB, LanguageValidity
 from hyperglot.language import Language
 
 log = logging.getLogger(__name__)
-log.setLevel(logging.WARNING)
 
 @lru_cache
 def find_language(search):

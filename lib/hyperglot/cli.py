@@ -407,7 +407,7 @@ def cli(
             )
     else:
         logging.getLogger().setLevel(loglevel)
-        # Also update handler levels to prevent INFO messages from showing
+        # Also update handler levels to match the desired log level
         for handler in logging.getLogger().handlers:
             handler.setLevel(loglevel)
 
@@ -417,6 +417,10 @@ def cli(
     logging.getLogger("hyperglot.orthography").setLevel(loglevel)
     logging.getLogger("hyperglot.shaper").setLevel(loglevel)
     logging.getLogger("hyperglot.checker").setLevel(loglevel)
+
+    # Initialize language cache after loggin is configured
+    from hyperglot.language import _load_language_cache
+    _load_language_cache()
 
     # If the user wants more detailed output regarding near misses this is
     # achieved via this special logger

@@ -22,7 +22,6 @@ from hyperglot.parse import (
 from hyperglot.loader import load_scripts_data
 
 log = logging.getLogger(__name__)
-log.setLevel(logging.WARNING)
 
 
 def get_script_iso(name: str) -> str:

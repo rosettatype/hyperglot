@@ -14,7 +14,6 @@ from hyperglot.language import Language
 from hyperglot.orthography import Orthography
 
 log = logging.getLogger(__name__)
-log.setLevel(logging.WARNING)
 
 
 def format_missing_unicodes(codepoints: Set[str], reference) -> str:

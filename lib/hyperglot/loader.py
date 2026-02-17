@@ -7,7 +7,6 @@ from copy import deepcopy
 from hyperglot import DB, DB_EXTRA
 
 log = logging.getLogger(__name__)
-log.setLevel(logging.WARNING)
 
 CACHE = {}
 
