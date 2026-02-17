@@ -63,6 +63,7 @@ setup(
         ]
     },
     install_requires=[
+        "packaging>=26.0",
         "click>=7.0",
         "fonttools>=4.50.0",
         "uharfbuzz>=0.39.0",
