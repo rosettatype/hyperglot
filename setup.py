@@ -42,7 +42,7 @@ setup(
     classifiers=[
         "Programming Language :: Python :: 3.10",
         "Operating System :: OS Independent",
-        "License :: OSI Approved :: Apache License 2.0",
+        "License :: OSI Approved :: Apache Software License",
         "Intended Audience :: End Users/Desktop",
         "Intended Audience :: Information Technology",
         "Topic :: Text Processing :: Fonts",
