@@ -1,6 +1,6 @@
 # A changelog for the lib/hyperglot language database and CLI tool (dd.mm.yyyy)
 
-## 0.8.0 (WIP)
+## 0.8.0 (17.02.2026)
 - LICENSE: Relicensed under Apache License 2.0
 - FIX: `Shaper.check_joining` refined to not be more lenient and not fail fonts with other than one-to-one positional substitutions or general sequence manipulating `ccmp` code
 - FIX Using a `--status` that does not include 'living' no correctly omits these languages
