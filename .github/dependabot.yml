@@ -1,0 +1,10 @@
+version: 2
+updates:
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    target-branch: "dev"
+    commit-message:
+      prefix: "Dependency updates"
+      include: "scope"
