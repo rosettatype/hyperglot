@@ -28,7 +28,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setup(
     name="hyperglot",
     version=get_version("lib/hyperglot/__init__.py"),
-    python_requires=">3.8.0",
+    python_requires=">3.10.0",
     description="Detect language support for font binaries",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -38,11 +38,11 @@ setup(
     },
     author="Johannes Neumeier - Rosetta",
     author_email="johannes@rosettatype.com",
-    license="GNU GPLv3",
+    license="Apache License 2.0",
     classifiers=[
-        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.10",
         "Operating System :: OS Independent",
-        "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+        "License :: OSI Approved :: Apache License 2.0",
         "Intended Audience :: End Users/Desktop",
         "Intended Audience :: Information Technology",
         "Topic :: Text Processing :: Fonts",
