@@ -297,7 +297,7 @@ class Checker:
                 )
 
                 log.debug(
-                    f"Running check {check_name} for {iso}: "
+                    f"Check {check_name} for {iso}: "
                     + ("Passed" if result else "Not passed")
                 )
 
