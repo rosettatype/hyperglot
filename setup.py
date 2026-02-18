@@ -69,7 +69,6 @@ setup(
         "uharfbuzz>=0.39.0",
         "pyyaml>=6.0.0",
         "colorlog>=6.4.1",
-        "brotli",
     ],
     extras_require={"dev": ["pytest", "tox"], "build": ["build", "twine"]},
 )

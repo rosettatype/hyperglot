@@ -51,9 +51,9 @@ def validate_font(ctx, param, value):
     Validation method to ensure we can work with the passed in font file
     """
     for v in value:
-        if os.path.splitext(v)[1][1:] not in ["ttf", "otf", "woff", "woff2"]:
+        if os.path.splitext(v)[1][1:] not in ["ttf", "otf"]:
             raise click.BadParameter(
-                "The passed in font file does not appear " "to be of ttf, otf, woff, or woff2 format"
+                "The passed in font file does not appear " "to be of ttf or otf format"
             )
 
         try:

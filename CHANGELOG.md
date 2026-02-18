@@ -1,8 +1,5 @@
 # A changelog for the lib/hyperglot language database and CLI tool (dd.mm.yyyy)
 
-## 0.8.1 (WIP)
-- TWEAK: The CLI now accepts woff/woff2 input for convenience
-
 ## 0.8.0 (17.02.2026)
 - LICENSE: Relicensed under Apache License 2.0
 - FIX: `Shaper.check_joining` refined to not be more lenient and not fail fonts with other than one-to-one positional substitutions or general sequence manipulating `ccmp` code
