@@ -13,6 +13,8 @@ from hyperglot.cli import cli, export, sorted_script_languages
 runner = CliRunner()
 
 eczar = os.path.abspath("tests/Eczar-v1.004/otf/Eczar-Regular.otf")
+eczar_woff = os.path.abspath("tests/Eczar-v1.004/otf/Eczar-Regular.woff")
+eczar_woff2 = os.path.abspath("tests/Eczar-v1.004/otf/Eczar-Regular.woff2")
 eczar_no_marks = os.path.abspath(
     "tests/Eczar-v1.004/otf/Eczar-Regular-nomarks-nofeatures.otf"
 )
@@ -33,6 +35,14 @@ def test_cli_basic():
     assert "Czech" in res.output
     assert "Hindi" in res.output
     assert "Sanskrit" in res.output
+
+
+def test_cli_formats():
+    res = runner.invoke(cli, [eczar_woff])
+    assert res.exit_code == 0
+
+    res = runner.invoke(cli, [eczar_woff2])
+    assert res.exit_code == 0
 
 
 def test_cli_support_aux():
