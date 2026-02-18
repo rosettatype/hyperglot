@@ -21,6 +21,9 @@ eczar_no_marks = os.path.abspath(
 plex_arabic = os.path.abspath(
     "tests/plex-4.0.2/IBM-Plex-Sans-Arabic/fonts/complete/otf/IBMPlexSansArabic-Regular.otf"
 )  # noqa
+plex_arabic_woff2 = os.path.abspath(
+    "tests/plex-4.0.2/IBM-Plex-Sans-Arabic/fonts/complete/otf/IBMPlexSansArabic-Regular.woff2"
+)  # noqa
 plex_arabic_without_medi_fina = os.path.abspath(
     "tests/plex-4.0.2/IBM-Plex-Sans-Arabic/fonts/complete/otf/IBMPlexSansArabic-Regular-without-medi-fina.otf"
 )  # noqa
@@ -43,6 +46,9 @@ def test_cli_formats():
 
     res = runner.invoke(cli, [eczar_woff2])
     assert res.exit_code == 0
+
+    res = runner.invoke(cli, [plex_arabic_woff2])
+    assert "languages of Arabic script" in res.output
 
 
 def test_cli_support_aux():

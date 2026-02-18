@@ -82,12 +82,21 @@ class Check(CheckBase):
         if plain == []:
             return True
 
-        glyph_info = shaper.get_glyph_infos(string)
-        glyph_id = glyph_info[0].codepoint
-
-        # The glyph is not in the font at all.
-        if glyph_id == 0:
-            return False
+        # FIXME: This is _odd_. As such, we don't really have to confirm the
+        # input unicode, as the coverage check will already have failed, so
+        # for now it may be acceptable to just skip this.
+        # What is interesting is that this glyph_id == 0 correctly works,
+        # except for webfonts. So a font certainly will have a given unicode,
+        # but the shaping and accessing of the shaped font codepoint from the
+        # harfbuzz buffer will return 0, yielding a false positive.
+        # There is tests.test_cli.test_cli_formats that has a confirmation for
+        # this.
+        #
+        # glyph_info = shaper.get_glyph_infos(string)
+        # glyph_id = glyph_info[0].codepoint
+        # # The glyph is not in the font at all.
+        # if glyph_id == 0:
+        #     return False
 
         # It would be _nice_ to be able to check specifically if the base glyph
         # transforms into a init/medi/fina form, but this assumption is not
