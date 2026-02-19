@@ -21,9 +21,10 @@ orthographies:
   script: Arabic
   status: primary
 sources:
-- 'https://www.cambridge.org/core/journals/international-journal-of-middle-east-studies/information/author-resources/ijmes-translation-and-transliteration-guide  # REVIEW'
+- IJMES transliteration chart. (2026, February 19). In *International Journal of Middle East Studies*. https://www.cambridge.org/core/journals/international-journal-of-middle-east-studies/information/author-resources/ijmes-translation-and-transliteration-guide
 - https://github.com/QHOD/ota-keyboard/
 - Ottoman Turkish. (2024, August 27). In *Wikipedia*. https://en.wikipedia.org/wiki/Ottoman_Turkish?oldid=1242505819
 sources note: review
+speakers: 0
 status: historical
 validity: preliminary
