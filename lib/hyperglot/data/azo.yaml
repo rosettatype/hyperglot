@@ -12,8 +12,9 @@ orthographies:
   script: Latin
   status: primary
 sources:
-- 'Christian Alomofor, Stephen C. Anderson, Awing Orthography Guide, SIL, 2005  # REVIEW'
+- 'Christian Alomofor, Stephen C. Anderson, Awing Orthography Guide, SIL, 2005'
 - Awing language. (2023, January 9). In *Wikipedia*. https://en.wikipedia.org/wiki/Awing_language?oldid=1132547694
+sources note: review
 speakers: 19000
 speakers_date: 2001
 status: living
