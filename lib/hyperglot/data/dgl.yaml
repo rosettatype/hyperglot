@@ -6,11 +6,11 @@ orthographies:
   marks: ◌̄ ◌̈
   script: Coptic
   status: historical
-- base: A B C D E F G H I J K L M N O P R S T U W Y Z a b c d e f g h i j k l m n o p r s t u w y z
+- autonym: Andaandi
+  base: A B C D E F G H I J K L M N O P R S T U W Y Z a b c d e f g h i j k l m n o p r s t u w y z
   numerals: <default>
   script: Latin
   status: primary
-preferred_name: Andaandi, Dongolawi
 sources:
 - Dongolawi language. (2024, August 22). In *Wikipedia*. https://en.wikipedia.org/wiki/Dongolawi_language?oldid=1241747152
 speakers: 70000
