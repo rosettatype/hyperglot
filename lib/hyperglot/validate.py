@@ -190,9 +190,10 @@ def check_types(Langs:Languages) -> None:
             log.error(f"'{iso}' has invalid 'validity'")
 
         if "speakers" in lang and lang["speakers"] is not None:
-            if (re.search(r"[^\d]", str(lang["speakers"]))):
+            if (re.search(r"[^\d]", str(lang["speakers"]))) \
+                and lang["speakers"] != Language.SPEAKER_COUNT_UNKNOWN:
                 log.error("'%s' has invalid 'speakers' '%s' - only numbers "
-                          "are allowed" %
+                          "or 'unknown' are allowed" %
                           (iso, lang["speakers"]))
 
 

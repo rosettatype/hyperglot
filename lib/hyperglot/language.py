@@ -108,6 +108,14 @@ class Language(dict):
         "reviewers": None,
     }
 
+    # For languages with an unknown (unknowable) speaker count this value is
+    # allowed in the yaml data.
+    # If a language is known to have no speakers, the speakers value should be
+    # set to 0 explicitly.
+    # A missing speaker value will return 0, but indicates in the data that it
+    # has not been researched yet.
+    SPEAKER_COUNT_UNKNOWN = "unknown"
+
     def __init__(
         self, iso, data: dict = None, inherit: bool = True, force_fresh: bool = False
     ):
@@ -413,13 +421,22 @@ reviewers: {reviewers}
     @property
     def speakers(self) -> int:
         """
-        Get a speaker count, or 0 for unknown number of speakers. To access
-        raw speaker data with possibly unknown count used Language["speakers"].
+        Get a speaker count, or 0 for unknown or unset number of speakers. To 
+        access raw speaker data with possibly unknown count used 
+        Language["speakers"].
         """
         if self["speakers"] is None:
             return 0
 
-        return int(self["speakers"])
+        if self["speakers"] == self.SPEAKER_COUNT_UNKNOWN:
+            return 0
+
+        try:
+            return int(self["speakers"])
+        except ValueError:
+            # Invalid non-numeric value
+            log.warning("Invalid speaker count for language '%s': %s" % (self.iso, self["speakers"]))
+            return 0
 
     @property
     def validity(self) -> str:

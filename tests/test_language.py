@@ -117,10 +117,22 @@ def test_language_presentation():
     assert "status: living" in deu.presentation
     assert "validity: verified" in deu.presentation
 
-    # language without speakers
-    tob = Language("tob")
-    assert tob.speakers == 0
-    assert tob["speakers"] is None
+
+def test_language_speakers():
+    # historic language without speakers
+    aaq = Language("aaq")
+    assert aaq.speakers == 0
+
+    # mock language without speakers attribute, should still return 0 on
+    # attribute, and none on dict access
+    foo = Language("foo", {})
+    assert foo.speakers == 0
+    assert foo["speakers"] is None
+
+    # language with 'unknown' speakers
+    njo = Language("njo")
+    assert njo.speakers == 0
+    assert njo["speakers"] == "unknown"
 
 
 def test_language_orthography_access():

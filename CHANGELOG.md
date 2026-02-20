@@ -1,5 +1,10 @@
 # A changelog for the lib/hyperglot language database and CLI tool (dd.mm.yyyy)
 
+## 0.8.1 (WIP):
+- DATA: "unknown" allowed for Language speaker counts where cannonically there is no data (note: by contrast, omitting the `speaker` attribute communicates the data is incomplete in that regard)
+- DATA: No commas in language names/preferred_names
+- DATA: Nepali and Zaza added as macrolanguages
+
 ## 0.8.0 (17.02.2026)
 - LICENSE: Relicensed under Apache License 2.0
 - FIX: `Shaper.check_joining` refined to not be more lenient and not fail fonts with other than one-to-one positional substitutions or general sequence manipulating `ccmp` code
