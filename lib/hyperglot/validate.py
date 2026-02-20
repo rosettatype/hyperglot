@@ -167,6 +167,14 @@ def check_types(Langs:Languages) -> None:
                 and lang["name"] == lang["preferred_name"]:
             log.error("'%s' has 'name' and 'preferred_name', but they are "
                       "identical" % iso)
+        
+        if "name" in lang:
+            if "preferred_name" not in lang and "," in lang["name"]:
+                log.error("'%s' has comma in name — set 'preferred_name' ('%s') "
+                              "without a comma" % (iso, lang["preferred_name"]))
+            elif "preferred_name" in lang and "," in lang["preferred_name"]:
+                log.error("'%s' has comma in 'preferred_name' ('%s') — remove the "
+                              "comma" % (iso, lang["preferred_name"]))
                 
         if "status" in lang:
             if lang["status"] not in [s.value for s in LanguageStatus] \
@@ -384,7 +392,7 @@ def validate_data(verbose:bool = False) -> None:
     if verbose:
         log.setLevel(logging.DEBUG)
         logging.getLogger("hyperglot.languages").setLevel(logging.DEBUG)
-        logging.getLogger("hyperglot.languagee").setLevel(logging.DEBUG)
+        logging.getLogger("hyperglot.language").setLevel(logging.DEBUG)
         print("Hyperglot version: %s" % __version__)
 
     ISO_639_3 = "../../other/iso-639-3.yaml"
