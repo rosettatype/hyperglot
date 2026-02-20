@@ -2,6 +2,7 @@ contributors:
 - David Březina
 - Sergio Martins
 name: Standard Moroccan Tamazight
+note: This is a standardized language developed by the Royal Institute of Amazigh Culture (IRCAM).
 orthographies:
 - autonym: ⵜⴰⵎⴰⵣⵉⵖⵜ
   base: ⴰ ⴱ ⴳ ⵯ ⴷ ⴹ ⴻ ⴼ ⴽ ⵀ ⵃ ⵄ ⵅ ⵇ ⵉ ⵊ ⵍ ⵎ ⵏ ⵓ ⵔ ⵕ ⵖ ⵙ ⵚ ⵛ ⵜ ⵟ ⵡ ⵢ ⵣ ⵥ ⴲ ⴴ ⴵ ⴶ ⴸ ⴺ ⴾ ⴿ ⵁ ⵂ ⵆ ⵈ ⵋ ⵌ ⵐ ⵑ ⵒ ⵗ ⵘ ⵝ ⵞ ⵤ ⵦ ⵧ
@@ -17,7 +18,6 @@ sources:
 - Ager, S. (2021, May 4). *Omniglot* https://www.omniglot.com
 - Standard Moroccan Amazigh. (2024, April 2). In *Wikipedia*. https://en.wikipedia.org/wiki/Standard_Moroccan_Amazigh?oldid=1216863691
 - '*The Unicode Common Locale Data Repository (CLDR)*. (2024, September 27). The Unicode Consortium. https://cldr.unicode.org'
-note: This is a standardized language developed by the Royal Institute of Amazigh Culture (IRCAM).
 speakers: 0
 status: constructed
 validity: preliminary
