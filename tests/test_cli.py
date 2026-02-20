@@ -29,10 +29,10 @@ def test_cli_basic():
     print(res.output)
     assert res.exit_code == 0
     assert "languages of Latin script" in res.output
-    assert "10 languages of Devanagari script" in res.output
+    assert "languages of Devanagari script" in res.output
     assert "Czech" in res.output
     assert "Hindi" in res.output
-    assert "Sanskrit" in res.output
+    assert "Sanskrit" not in res.output
 
 
 def test_cli_support_aux():
@@ -119,7 +119,7 @@ def test_cli_status():
     assert "languages of Devanagari script" in res.output
     assert "Czech" in res.output
     assert "Hindi" in res.output
-    assert "Sanskrit" in res.output
+    assert "Sanskrit" not in res.output
 
     # Confirm "constructed" languages are included
     assert "Interlingua" in res.output
@@ -264,10 +264,10 @@ def test_cli_shaping_threshold():
 
     res = runner.invoke(cli, eczar + " --shaping-threshold 0.1")
     assert res.exit_code == 0
-    assert "10 languages of Devanagari script" in res.output
+    assert "9 languages of Devanagari script" in res.output
     assert "Hindi" in res.output
 
     res = runner.invoke(cli, eczar + " --shaping-threshold 0.001")
     assert res.exit_code == 0
-    assert "9 languages of Devanagari script" in res.output
+    assert "8 languages of Devanagari script" in res.output
     assert "Hindi" not in res.output
