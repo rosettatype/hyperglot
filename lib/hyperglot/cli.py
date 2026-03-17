@@ -591,8 +591,12 @@ def data(search=""):
     hits, msg = find_language(search)
 
     print(msg)
-    for h in hits:
-        print(h.presentation)
+    if hits:
+        for h in hits:
+            print(h.presentation)
+    else:
+        print("Nothing found.")
+        print()
 
 
 @click.command()

@@ -8,7 +8,7 @@ import re
 import yaml
 from collections import OrderedDict
 from click.testing import CliRunner
-from hyperglot.cli import cli, export, sorted_script_languages
+from hyperglot.cli import cli, export, sorted_script_languages, data
 
 runner = CliRunner()
 
@@ -271,3 +271,20 @@ def test_cli_shaping_threshold():
     assert res.exit_code == 0
     assert "8 languages of Devanagari script" in res.output
     assert "Hindi" not in res.output
+
+
+def test_cli_data():
+    res = runner.invoke(data)
+    assert "Missing argument" in res.output
+
+    res = runner.invoke(data, ["eng"])
+    assert "Matched from iso code eng" in res.output
+
+    res = runner.invoke(data, ["English"])
+    assert "Matched from name match for english" in res.output
+
+    res = runner.invoke(data, ["nglis"])
+    assert "Matched for search string nglis" in res.output
+
+    res = runner.invoke(data, ["foobar"])
+    assert "Nothing found" in res.output
