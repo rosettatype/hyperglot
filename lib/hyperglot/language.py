@@ -100,7 +100,14 @@ def _load_language_cache():
         else:
             log.info("No language cache file found, build cache.")
     except Exception as e:
-        log.warning(f"Failed to load language cache: {e}")
+        # Any issue with parsing the language cache will result in the entry
+        # for it being empty, and thus parsing the data fresh from yaml files
+        # and eventually re-writing it to the cache fresh.
+
+        # Only show warning once:
+        if not LANGUAGE_CACHE_MISMATCH_WARNING_SHOWN:
+            log.warning(f"Failed to load language cache: {e}")
+            LANGUAGE_CACHE_MISMATCH_WARNING_SHOWN = True
         pass
 
 
