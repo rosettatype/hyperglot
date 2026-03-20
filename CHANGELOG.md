@@ -2,6 +2,7 @@
 
 ## 0.8.2 (WIP):
 - FIX: Fix `hyperglot-data xxx` search not returning hits resulting in program exit, adding tests to confirm
+- TWEAK: Invalidate `.hyperglot-cache` also on _downgrade_, emit less repetitive info log
 
 ## 0.8.1 (11.03.2026):
 - DATA: "unknown" allowed for Language speaker counts where cannonically there is no data (note: by contrast, omitting the `speaker` attribute communicates the data is incomplete in that regard)

@@ -418,7 +418,7 @@ def cli(
     logging.getLogger("hyperglot.shaper").setLevel(loglevel)
     logging.getLogger("hyperglot.checker").setLevel(loglevel)
 
-    # Initialize language cache after loggin is configured
+    # Initialize language cache after logging is configured
     from hyperglot.language import _load_language_cache
     _load_language_cache()
 

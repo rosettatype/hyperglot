@@ -16,8 +16,8 @@ DB_CHECKS = path.abspath(path.join(path.dirname(__file__), "checks"))
 
 LANGUAGE_CACHE_FILE = ".hyperglot-cache"
 
-# ~~DONE Refactor these levels and status as Enum's~~
-# TODO Eventaully remove deprecated "CONSTANTS"
+# Only show a cache rebuild warning once per session, not once per language!
+LANGUAGE_CACHE_MISMATCH_WARNING_SHOWN = False
 
 
 class SupportLevel(AllChoicesEnumMixin, Enum):

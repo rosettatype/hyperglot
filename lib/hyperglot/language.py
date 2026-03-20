@@ -8,6 +8,7 @@ from packaging.version import Version
 
 from hyperglot import (
     LANGUAGE_CACHE_FILE,
+    LANGUAGE_CACHE_MISMATCH_WARNING_SHOWN,
     CHARACTER_ATTRIBUTES,
     LanguageStatus,
     LanguageValidity,
@@ -47,6 +48,7 @@ LANGUAGE_CACHE: dict = {}
 def _load_language_cache():
     """Load the language cache if not already loaded."""
     global LANGUAGE_CACHE
+    global LANGUAGE_CACHE_MISMATCH_WARNING_SHOWN
 
     if LANGUAGE_CACHE != {}:
         return
@@ -61,21 +63,34 @@ def _load_language_cache():
                 cache_version = LANGUAGE_CACHE.get("_version", "unknown")
 
                 if cache_version == "unknown":
-                    log.info(
-                        "Remove unversioned language cache file to rebuild "
-                        "cache with current version."
-                    )
+                    # This is just a legacy case between the first cache
+                    # implementation and the versioned cache.
+
+                    # Only show warning once:
+                    if not LANGUAGE_CACHE_MISMATCH_WARNING_SHOWN:
+                        log.info(
+                            "Remove unversioned language cache file to rebuild"
+                            " cache with current version."
+                        )
+                        LANGUAGE_CACHE_MISMATCH_WARNING_SHOWN = True
                     LANGUAGE_CACHE = {}
                     return
-                elif Version(cache_version) < Version(__version__):
-                    log.info(
-                        f"Language cache version {cache_version} is older than "
-                        f"current version {__version__}, rebuild cache."
-                    )
+                elif Version(cache_version) != Version(__version__):
+                    # We want the exact version match, else cache gets rebuilt.
+
+                    # Only show warning once:
+                    if not LANGUAGE_CACHE_MISMATCH_WARNING_SHOWN:
+                        log.info(
+                            f"Language cache version {cache_version} does not "
+                            f"match current version {__version__}, rebuild "
+                            "cache."
+                        )
+                        LANGUAGE_CACHE_MISMATCH_WARNING_SHOWN = True
                     LANGUAGE_CACHE = {}
                     return
 
-                # Remove version key from cache after loading
+                # Remove version key from cache after loading, so it does not
+                # interfere with using the language data as parsed dict.
                 LANGUAGE_CACHE.pop("_version", None)
                 log.info(
                     f"Loaded language cache with {len(LANGUAGE_CACHE)} "
@@ -421,8 +436,8 @@ reviewers: {reviewers}
     @property
     def speakers(self) -> int:
         """
-        Get a speaker count, or 0 for unknown or unset number of speakers. To 
-        access raw speaker data with possibly unknown count used 
+        Get a speaker count, or 0 for unknown or unset number of speakers. To
+        access raw speaker data with possibly unknown count used
         Language["speakers"].
         """
         if self["speakers"] is None:
@@ -435,7 +450,10 @@ reviewers: {reviewers}
             return int(self["speakers"])
         except ValueError:
             # Invalid non-numeric value
-            log.warning("Invalid speaker count for language '%s': %s" % (self.iso, self["speakers"]))
+            log.warning(
+                "Invalid speaker count for language '%s': %s"
+                % (self.iso, self["speakers"])
+            )
             return 0
 
     @property
