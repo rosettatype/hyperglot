@@ -8,7 +8,7 @@ joining behavior.
 
 import os
 import yaml
-from fontTools.unicodedata import script
+from fontTools.unicodedata import script, script_name
 
 extra_data = os.path.join(
     os.path.dirname(__file__), "..", "lib", "hyperglot", "extra_data",
@@ -24,4 +24,4 @@ for char, joining_type in data.items():
         scripts.add(script(ord(char)))
 
 for s in sorted(scripts):
-    print(s)
+    print(f"{s}: {script_name(s)}")
