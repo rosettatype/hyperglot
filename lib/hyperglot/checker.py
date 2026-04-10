@@ -85,9 +85,9 @@ class Checker:
 
             fulfills = True
 
-            if "script" in check.conditions:
-                if "script" in check.conditions:
-                    if check.conditions["script"] != orthography["script"]:
+            if "scripts" in check.conditions:
+                if "scripts" in check.conditions:
+                    if orthography["script"] not in check.conditions["scripts"]:
                         fulfills = False
 
             if fulfills and "attributes" in check.conditions:

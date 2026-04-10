@@ -1,6 +1,7 @@
 # A changelog for the lib/hyperglot language database and CLI tool (dd.mm.yyyy)
 
 ## 0.8.2 (WIP):
+- TWEAK: Refine `checkbase` conditions and matching
 - FIX: Fix `hyperglot-data xxx` search not returning hits resulting in program exit, adding tests to confirm
 - TWEAK: Invalidate `.hyperglot-cache` also on _downgrade_, emit less repetitive info log
 

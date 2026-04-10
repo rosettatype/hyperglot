@@ -26,7 +26,7 @@ class Check(CheckBase):
     """
 
     conditions = {
-        "script": "Arabic",
+        "scripts": ("Arabic",),
         "attributes": (
             "base",
             "auxiliary",
