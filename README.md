@@ -11,7 +11,14 @@ Hyperglot is available as:
 📖 [Learn more about Hyperglot](https://hyperglot.rosettatype.com/about)  
 🙋 [Read the FAQ](FAQ.md)
 
-💰 [Sponsor via GitHub](https://github.com/sponsors/rosettatype) or directly via [Hyperglot sponsorship](https://hyperglot.rosettatype.com/sponsor). Any and all contributions are much appreciated! 🙏
+## 💰 Sponsor
+
+We welcome contributions to support our editorial work via Rosetta’s [GitHub](https://github.com/sponsors/rosettatype) or [Stripe](https://donate.stripe.com/3cI00j3PD0w53fwdx8dfG0f). Any level of support is greatly appreciated and helps sustain the project. 🙏
+
+- Contributions above €/$1,000 will be acknowledged below and on the website (About page) for a minimum of five years.
+- Contributions above €/$3,000 will also be featured in the website header as “Funded by…” for one year.
+
+For more details, feel free to get in touch via email.
 
 ## Data validity & contributing
 
