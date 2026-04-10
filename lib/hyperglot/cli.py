@@ -357,7 +357,7 @@ def cli(
     elif verbose > 1:
         # For debugging verbosity also opt in to all near misses reporting
         loglevel = logging.DEBUG
-        logging.getLogger("hyperglot.checks.check_arabic_joining").setLevel(
+        logging.getLogger("hyperglot.checks.check_joining").setLevel(
             logging.DEBUG
         )
         logging.getLogger("hyperglot.checks.check_brahmi_conjuncts").setLevel(
@@ -384,7 +384,7 @@ def cli(
     else:
         loglevel = logging.WARNING
 
-        logging.getLogger("hyperglot.checks.check_arabic_joining").setLevel(loglevel)
+        logging.getLogger("hyperglot.checks.check_joining").setLevel(loglevel)
         logging.getLogger("hyperglot.checks.check_brahmi_conjuncts").setLevel(loglevel)
         logging.getLogger("hyperglot.checks.check_brahmi_halfforms").setLevel(loglevel)
         logging.getLogger("hyperglot.checks.check_combination_marks").setLevel(loglevel)

@@ -7,7 +7,7 @@ import logging
 
 from hyperglot.checks.check_coverage import Check as CheckCoverage
 from hyperglot.checks.check_mark_attachment import Check as CheckMarkAttachment
-from hyperglot.checks.check_arabic_joining import Check as CheckArabicJoining
+from hyperglot.checks.check_joining import Check as CheckJoining
 from hyperglot.checks.check_brahmi_conjuncts import Check as CheckBrahmiConjuncts
 from hyperglot.checks.check_brahmi_halfforms import Check as CheckBrahmiHalfforms
 from hyperglot.checks.check_combination_marks import Check as CheckCombinationMarks
@@ -111,7 +111,7 @@ def test_check_marks():
 
 
 def test_check_joining():
-    joining_check = CheckArabicJoining()
+    joining_check = CheckJoining()
 
     plex_shaper = Shaper(plex_arabic)
     # A basic Arabic character should have joining shaping.

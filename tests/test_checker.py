@@ -533,6 +533,17 @@ def test_checker_load_checks():
     assert "check_coverage" in [c[0] for c in fin_checks]
     assert "check_brahmi_conjuncts" not in [c[0] for c in fin_checks]
 
+    # Confirm joining type checks get loaded for respective scripts
+    nko_checks = Checker._get_checks_for_orthography(
+        Language("dyu").get_orthography(script="N'Ko"), perform_shaping_checks=True
+    )
+    assert "check_joining" in [c[0] for c in nko_checks]
+
+    syriac_checks = Checker._get_checks_for_orthography(
+        Language("aii").get_orthography(script="Syriac"), perform_shaping_checks=True
+    )
+    assert "check_joining" in [c[0] for c in syriac_checks]
+
 
 def test_checker_load_checks_attributes():
     # Note that _get_checks_for_orthography just examines the presence of
@@ -545,7 +556,7 @@ def test_checker_load_checks_attributes():
     )
     assert "check_coverage" in [c[0] for c in empty_checks]
     assert "check_mark_attachment" in [c[0] for c in empty_checks]
-    assert "check_arabic_joining" not in [c[0] for c in empty_checks]
+    assert "check_joining" not in [c[0] for c in empty_checks]
     assert "check_brahmi_conjuncts" not in [c[0] for c in empty_checks]
 
     # A script + combinations are needed for these, so these should not opt in
