@@ -1,13 +1,29 @@
 contributors:
+- Denis Moyogo Jacquerye
 - Sergio Martins
 name: Ese Ejja
+note: Vuillermet (2012) cites several orthographies (missionaries, 1995-1996 proposal, 2003-2004 proposal, Peru 2000, and Vuillermet 2012). The main differences are (1) the use of c and qu or k, (2) the use of cu or ku or kw, (3 and 4) the use of jj and j, j and h, or x and j, (5) the use of hu or w. Gallinate and Machuqui (2023) proposed another alphabet, similar to Vuillermet (2012) but with jj instead of x.
 orthographies:
-- base: B P D T K S J C M N Y W Ñ b p d t k s j c m n y w ñ
+- autonym: ese ejja
+  auxiliary: X x
+  base: A E I O U B P D T C Q S H J M N Ñ Y a e i o u b p d t c q s h j m n ñ y '
   marks: ◌̃
+  note: Local orthography used in Bolivia. The ILV and MNT orthography uses b p d t c qu cu s sh jj j ch m n ñ y hu and a e i o.
+  numerals: <default>
+  script: Latin
+  status: primary
+- autonym: ese eja
+  base: A B C D E H I J K M N Ñ O P S T U W Y a b c d e h i j k m n ñ o p s t u w y ’
+  marks: ◌̃
+  note: Local orthography used in Peru. The Peru orthography uses a b ch d ’ e h i j k ku m n ñ o p s sh t ts w y.
   numerals: <default>
   script: Latin
   status: primary
 sources:
+- Gabriel Gallinate and Alejandro Machuqui Dominguez. (2023, 2 July) Acta de Taller de Alfabeto Ese Ejja.
+- Ministerio de Educación del Perú. (2006, September 8) RD No 0683-2006 ED.
+- Ministerio de Educación del Perú. (2015, June 12) RM N° 303-2015 MINEDU. https://www.gob.pe/institucion/minedu/normas-legales/168711-303-2015-minedu
+- Marine Vuillermet. (2012). A Grammar of Ese Ejja, a Takanan language of the Bolivian Amazon.
 - Ese Ejja language. (2024, May 26). In *Wikipedia*. https://en.wikipedia.org/wiki/Ese_Ejja_language?oldid=1225689973
 speakers: 700
 speakers_date: 2007
