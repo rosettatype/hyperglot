@@ -23,10 +23,29 @@ class Check(CheckBase):
     The check is only performed for characters with a joining type of D, R, L,
     or T, which require joining behavior which are defined in unicode and
     saved in lib/hyperglot/extra_data/joining-types.yaml
+
+    NOTE: All scripts as retrieved from characters with joining types D, R, L
+    (not T). As these (missing*) scripts are added to Hyperglot (with their
+    Hyperglot spelling/name), opt them in to this check and ideally write some
+    tests to confirm.
+
+    Adlm: Adlam*
+    Arab: Arabic
+    Chrs: Chorasmian*
+    Mand: Mandaic*
+    Mani: Manichaean*
+    Mong: Mongolian*
+    Nkoo: Nko
+    Ougr: Old Uyghur*
+    Phag: Phags Pa*
+    Phlp: Psalter Pahlavi*
+    Rohg: Hanifi Rohingya*
+    Sogd: Sogdian*
+    Syrc: Syriac
     """
 
     conditions = {
-        "script": "Arabic",
+        "scripts": ("Arabic", "N'Ko", "Syriac"),
         "attributes": (
             "base",
             "auxiliary",

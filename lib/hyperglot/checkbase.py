@@ -14,44 +14,20 @@ if TYPE_CHECKING:
 class CheckBase:
 
     # Unicode constants used in some of the checks
-    VIRAMA = chr(0x094D)
+    # Futher script-specific constant can be added in subclasses
     ZWJ = chr(0x200D)
     ZWNJ = chr(0x200C)
     DOTTED_CIRCLE = chr(0x25CC)
-    BRAHMIC_CATEGORIES = {
-        "+": [chr(0x094D)],
-        "V": [
-            chr(c)
-            for c in list(range(0x0904, 0x0914 + 1))
-            + [0x0960, 0x0961]
-            + list(range(0x0973, 0x0977 + 1))
-        ],
-        "C": [
-            chr(c)
-            for c in list(range(0x0915, 0x0939 + 1))
-            + list(range(0x0958, 0x095F + 1))
-            + list(range(0x0978, 0x097F + 1))
-        ],
-        "D": [
-            chr(c)
-            for c in [0x093A, 0x093B]
-            + list(range(0x093E, 0x094C + 1))
-            + [0x094E, 0x094F]
-            + [0x0955, 0x0956, 0x0957]
-            + [0x0962, 0x0963]
-        ],
-        "M": [chr(0x093C)],
-        "m": [chr(c) for c in list(range(0x0900, 0x0903 + 1))],
-        "P": [chr(c) for c in [0x093D, 0x0964, 0x0965]],
-        "Z": [chr(0x200C)],
-        "z": [chr(0x200D)],
-    }
 
     # Conditions by which to determined if a check should run for a given
-    # orthography
+    # orthography.
+    # Multiple condition attributes are INTERSECTed, e.g. if both "scripts" and
+    # "attributes" are provided, the check will run if an orthography matches
+    # any of the scripts AND has any of the attributes.
     conditions = {
-        # e.g.
-        # "script": "Devanagari",
+        # Match any of the given scripts
+        # "scripts": ("Devanagari",),
+        # Match any of the given orthography attributes, e.g. "base", "auxiliary", "mark", "combinations"
         # "attributes": ("combinations",),
     }
 
@@ -173,10 +149,41 @@ class BrahmiBaseCheck(CheckBase):
     A more specific base check for Brahmi scripts.
     """
 
+    VIRAMA = chr(0x094D)
+    BRAHMIC_CATEGORIES = {
+        "+": [chr(0x094D)],
+        "V": [
+            chr(c)
+            for c in list(range(0x0904, 0x0914 + 1))
+            + [0x0960, 0x0961]
+            + list(range(0x0973, 0x0977 + 1))
+        ],
+        "C": [
+            chr(c)
+            for c in list(range(0x0915, 0x0939 + 1))
+            + list(range(0x0958, 0x095F + 1))
+            + list(range(0x0978, 0x097F + 1))
+        ],
+        "D": [
+            chr(c)
+            for c in [0x093A, 0x093B]
+            + list(range(0x093E, 0x094C + 1))
+            + [0x094E, 0x094F]
+            + [0x0955, 0x0956, 0x0957]
+            + [0x0962, 0x0963]
+        ],
+        "M": [chr(0x093C)],
+        "m": [chr(c) for c in list(range(0x0900, 0x0903 + 1))],
+        "P": [chr(c) for c in [0x093D, 0x0964, 0x0965]],
+        "Z": [chr(0x200C)],
+        "z": [chr(0x200D)],
+    }
+
     conditions = {
-        "script": "Devanagari",
+        "scripts": ("Devanagari",),
         "attributes": ("combinations",),
     }
+
     requires_font = True
 
     def precheck(

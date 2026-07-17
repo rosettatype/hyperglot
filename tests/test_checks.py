@@ -7,7 +7,7 @@ import logging
 
 from hyperglot.checks.check_coverage import Check as CheckCoverage
 from hyperglot.checks.check_mark_attachment import Check as CheckMarkAttachment
-from hyperglot.checks.check_arabic_joining import Check as CheckArabicJoining
+from hyperglot.checks.check_joining import Check as CheckJoining
 from hyperglot.checks.check_brahmi_conjuncts import Check as CheckBrahmiConjuncts
 from hyperglot.checks.check_brahmi_halfforms import Check as CheckBrahmiHalfforms
 from hyperglot.checks.check_combination_marks import Check as CheckCombinationMarks
@@ -16,23 +16,39 @@ from hyperglot.orthography import Orthography
 from hyperglot.checker import CharsetChecker
 from hyperglot.shaper import Shaper
 
+# Arabic test font
 plex_arabic = os.path.abspath(
     "tests/plex-4.0.2/IBM-Plex-Sans-Arabic/fonts/complete/otf/IBMPlexSansArabic-Regular.otf"
 )  # noqa
+# A manipulated version to fail joining checks due feature removal
 plex_arabic_without_medi_fina = os.path.abspath(
     "tests/plex-4.0.2/IBM-Plex-Sans-Arabic/fonts/complete/otf/IBMPlexSansArabic-Regular-without-medi-fina.otf"
 )  # noqa
+
 eczar = os.path.abspath("tests/Eczar-v1.004/otf/Eczar-Regular.otf")
+# Various mark features tweaked for tests
 eczar_marks_ccmp = os.path.abspath("tests/Eczar-marks/EczarCCMP-Regular.otf")
 eczar_marks_mk = os.path.abspath("tests/Eczar-marks/EczarMarks-Regular.otf")
+
+# Devanagari test fnts
 noto_deva = os.path.abspath(
     "tests/Noto_Sans_Devanagari/static/NotoSansDevanagari_Condensed-Regular.ttf"
 )
 yantramanav = os.path.abspath("tests/Yantramanav/Yantramanav-Medium.ttf")
+
+# Generic test cases font
 testfont = os.path.abspath("tests/HyperglotTestFont-Regular.ttf")
+
+# Arabic test font
 noto_arabic = os.path.abspath(
     "tests/Noto_Sans_Arabic/NotoSansArabic[wdth,wght].ttf"
 )  # noqa
+
+# N'Ko test font
+noto_nko = os.path.abspath("tests/Noto_Sans_NKo/NotoSansNKo-Regular.ttf")
+
+# Syriac font
+ramsina = os.path.abspath("tests/Ramsina/Ramsina-Regular.ttf")
 
 
 def test_check_coverage():
@@ -110,8 +126,8 @@ def test_check_marks():
     )
 
 
-def test_check_joining():
-    joining_check = CheckArabicJoining()
+def test_check_joining_arabic():
+    joining_check = CheckJoining()
 
     plex_shaper = Shaper(plex_arabic)
     # A basic Arabic character should have joining shaping.
@@ -146,6 +162,30 @@ def test_check_joining():
     # A case where the output sequence will be longer than the input sequence
     # for this font, this should still pass!
     assert joining_check.check_joining(ord("ی"), noto_shaper) is True
+
+
+def test_check_joining_nko():
+    joining_check = CheckJoining()
+    noto_nko_shaper = Shaper(noto_nko)
+    eczar_shaper = Shaper(eczar)
+
+    # A basic N'Ko character should have joining shaping.
+    assert joining_check.check_joining(ord("ߒ"), noto_nko_shaper) is True
+
+    # A font which doesn't have N'Ko should fail the joining check
+    assert joining_check.check_joining(ord("ߒ"), eczar_shaper) is False
+
+
+def test_check_joining_syriac():
+    joining_check = CheckJoining()
+    ramsina_shaper = Shaper(ramsina)
+    eczar_shaper = Shaper(eczar)
+
+    # A basic Syriac character should have joining shaping.
+    assert joining_check.check_joining(ord("ܒ"), ramsina_shaper) is True
+
+    # A font which doesn't have Syriac should fail the joining check
+    assert joining_check.check_joining(ord("ܒ"), eczar_shaper) is False
 
 
 def test_check_conjuncts(caplog):
