@@ -1,4 +1,5 @@
 from functools import lru_cache
+from io import BytesIO
 from typing import Iterable
 import logging
 import unicodedata as uni
@@ -16,10 +17,18 @@ class Shaper:
     """
 
     def __init__(self, fontpath):
-        blob = hb.Blob.from_file_path(fontpath)
+        self.ttf = TTFont(fontpath, recalcBBoxes=False, recalcTimestamp=False)
+        if self.ttf.flavor in ("woff", "woff2"):
+            # HarfBuzz needs an SFNT font, not the compressed webfont container.
+            self.ttf.flavor = None
+            self.ttf.flavorData = None
+            with BytesIO() as sfnt:
+                self.ttf.save(sfnt)
+                blob = hb.Blob(sfnt.getvalue())
+        else:
+            blob = hb.Blob.from_file_path(fontpath)
         face = hb.Face(blob)
         self.font = hb.Font(face)
-        self.ttf = TTFont(fontpath)
 
     def shape(self, text):
         """
