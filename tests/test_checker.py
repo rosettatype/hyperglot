@@ -579,6 +579,20 @@ def test_checker_load_checks_attributes():
     assert "check_combination_marks" in [c[0] for c in combs_deva_checks]
 
 
+def test_checker_load_checks_imports_once():
+    # Checks are looked up for every orthography, so their modules are imported
+    # once and reused: the same classes come back, but as fresh instances, since
+    # a check buffers the logs of its run in self.logs
+    hin = Language("hin").get_orthography()
+    first = Checker._get_checks_for_orthography(hin, perform_shaping_checks=True)
+    second = Checker._get_checks_for_orthography(hin, perform_shaping_checks=True)
+
+    assert [c[0] for c in first] == [c[0] for c in second]
+    for (_, _, a), (_, _, b) in zip(first, second):
+        assert type(a) is type(b)
+        assert a is not b
+
+
 def test_checker_runs():
     roboto_checker = FontChecker(roboto)
 
