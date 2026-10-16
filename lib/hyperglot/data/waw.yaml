@@ -1,0 +1,28 @@
+name: Waiwai
+preferred_name: Waiwai
+autonym: Waiwai
+orthographies:
+- autonym: Waiwai
+  base: A B C E H I K M N N̂ O P R S T U W X Y Â Î a b c e h i k m n n̂ o p r s t u w x y â î
+  marks: ◌̂
+  numerals: <default Latin>
+  punctuation: <default Latin>
+  script: Latin
+  status: primary
+  note: Orthography developed by missionaries (Hawkins brothers) from 1949.
+sources:
+- 'Souza, J. M. C. (2024). *Waiwai: uma descrição mínima à história do contato*. Boletim do Museu Integrado de Roraima. https://doi.org/10.24979/bolmirr.v5i01.730'
+- 'Chagas, A., & Cunningham, G. (2025). Wai Wai pedagogical grammar: Reflections and methodological practices on the preparation of teaching material for an Indigenous community. *Cadernos de Linguística, 6*(3), e810. https://doi.org/10.25189/2675-4916.2025.v6.n3.id810'
+- Hawkins, R. E. (1998). Grammar sketch of the Wai Wai language of Brazil, Guyana, and Suriname. In D. C. Derbyshire & G. K. Pullum (Eds.), *Handbook of Amazonian Languages* (Vol. 4). Mouton de Gruyter.
+- Ager, S. (n.d.). *Waiwai language*. Omniglot.
+- Meira, S., Velupillai, V., et al. (n.d.). *Waiwai wordlist*. ASJP Database.
+speakers: 2200
+speakers_date: 2000
+note: 'Alternative names in the original submission: Wai-Wai, Uaiuai, Uaieue, Ouayeone. Glottocode: waiw1244. Family: Cariban (Karib), subgroup Parukotoan. The speaker date is approximate (~2000). The original submission notes historical missionary influence on the orthography and later homogenization, especially through Bible translation.'
+status: living
+validity: preliminary
+contributors:
+- Rebeca Albuquerque de Moura Marques
+reviewers:
+- Rafael Dietzsch
+- Thiago Chacon

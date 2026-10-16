@@ -1,0 +1,22 @@
+name: Yaroamë
+orthographies:
+- autonym: Ỹaroamë tëma
+  base: A E O Ë I U P T K H M N R W X Y a e o ë i u p t k h m n r w x y
+  marks: ◌̈
+  numerals: <default>
+  punctuation: <default>
+  script: Latin
+  status: primary
+sources:
+- Ethnologue. (2025). *Yaroamë*. https://www.ethnologue.com/language/yro/
+- '*As línguas Yanomami no Brasil*. (n.d.). Instituto Socioambiental. https://acervo.socioambiental.org/sites/default/files/publications/YAL00061.pdf'
+- 'Ferreira, H., Ỹaroamë, M., Goodwin-Gómez, G., Levi-Lazzaris, G., Xiriana, A., & Xirixana, I. (n.d.). *Ỹaroamë: Língua Yanomami falada na Serra do Pacu/RR*. Projeto de Documentação de Línguas Indígenas – ProDoclin. https://www.linguasyanomami.com/grm_yrm/grm_yrm.pdf'
+speakers: 360
+speakers_date: 2019
+status: living
+validity: preliminary
+contributors:
+- Raphael Pimentel Brandão
+reviewers:
+- Rafael Dietzsch
+- Thiago Chacon

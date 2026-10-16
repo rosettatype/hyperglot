@@ -1,0 +1,26 @@
+name: Karajá
+autonym: Iny rybè
+orthographies:
+- auxiliary: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z À Á Â Ã Ç É Ê Í Ó Ô Õ Ú Ü à á â ã ç é ê í ó ô õ ú ü
+  base: A B D E H I Ĩ J K L M N O R S T U W X Y À Ã È Ò Õ Ỹ a b d e h i ĩ j k l m n o r s t u x w y à ã è ò õ ỹ
+  marks: ◌̃ ◌̀
+  script: Latin
+  status: primary
+sources:
+- Instituto Socioambiental. (n.d.). *Karajá*. Povos Indígenas no Brasil. https://pib.socioambiental.org/pt/Povo:Iny_Karaj%C3%A1
+- Endangered Languages Project. (n.d.). *Karajá*. https://www.endangeredlanguages.com/pt-br/node/89499
+- 'Crevels, M. (2012). Language endangerment in South America: The clock is ticking. In L. Campbell & V. Grondona (Eds.), *The Indigenous Languages of South America: A Comprehensive Guide* (pp. 167–234). Mouton de Gruyter.'
+- Museu do Índio. (n.d.). *Karajá*. Portal Japiim / ProDoclin. https://japiim.museudoindio.gov.br/dic/karaja/index.php
+- Projeto de Documentação da Língua Karajá. (2011, March 10). *Relatório com o perfil tipológico da língua Karajá* (Projeto 914BRA4010). Museu do Índio / FUNAI / UNESCO.
+- Ethnologue. (n.d.). *Karajá*. https://www.ethnologue.com/language/kpj/
+- 'Instituto Brasileiro de Geografia e Estatística. (2012). *Censo demográfico 2010: Características gerais dos indígenas: Resultados do universo*. IBGE.'
+speakers: 2137
+speakers_date: 2010
+note: The original submission states that the data refer specifically to Karajá proper, excluding varieties such as Javaé and Northern Karajá.
+status: living
+validity: preliminary
+contributors:
+- Maria Fernanda Paz Almeida
+reviewers:
+- Rafael Dietzsch
+- Thiago Chacon

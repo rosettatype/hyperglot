@@ -1,0 +1,20 @@
+name: Pemon
+orthographies:
+- autonym: Përepepɨ/Përe
+  base: A C D E H I Ï J K M N O Ö P R S T U Ü W Y ’ a c d e h i ï j k m n o ö p r s t u ü w y
+  marks: ◌̈
+  script: Latin
+  status: primary
+sources:
+- Ethnologue. (n.d.). *Pemon*. https://www.ethnologue.com/language/aoc/
+- Década Internacional das Línguas Indígenas no Brasil. (n.d.). https://www.decadalinguasindigenasbr.com/
+- Museu do Índio. (n.d.). *Portal Japiim*. https://japiim.museudoindio.gov.br/index.php
+speakers: 900
+note: The original submission describes the language as threatened with extinction.
+status: living
+validity: preliminary
+contributors:
+- Ana Ribeiro
+reviewers:
+- Rafael Dietzsch
+- Thiago Chacon

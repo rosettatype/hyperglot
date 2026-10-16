@@ -1,0 +1,22 @@
+name: Arutani
+orthographies:
+- auxiliary: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z À Á Â Ã Ç É Ê Í Ó Ô Õ Ú Ü à á â ã ç é ê í ó ô õ ú ü
+  base: A Á Ã E H I Ĩ K M N Ñ O P R S T U W X Y a á ã e h i ĩ k m n ñ o p r s t u w x y
+  marks: ◌́ ◌̃
+  script: Latin
+  status: primary
+  note: The original submission notes that tilde occurs on all vowels.
+sources:
+- Ethnologue. (n.d.). *Arutani*. https://www.ethnologue.com/language/atx/
+- Endangered Languages Project. (n.d.). *Language search map*. https://www.endangeredlanguages.com/language-search-map
+- Museu do Índio. (n.d.). *Arutani*. Portal Japiim. https://japiim.museudoindio.gov.br/dic/arutani/index.php
+- ScriptSource. (n.d.). *Arutani*. https://scriptsource.org/cms/scripts/page.php?item_id=language_detail&key=atx
+speakers: 20
+note: 'Alternative names listed in the original submission: Anake, Aoaqui, Auakê, Auaqué, Awaikê, Awaké, Oewaku, Orotani, Uruak, Urutaní. The source reports 4 speakers in Brazil and 16 in Venezuela; speakers_date was not specified.'
+status: living
+validity: preliminary
+contributors:
+- Gabriela Serpa
+reviewers:
+- Rafael Dietzsch
+- Thiago Chacon

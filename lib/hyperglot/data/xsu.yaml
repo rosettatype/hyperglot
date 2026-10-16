@@ -1,0 +1,24 @@
+name: Sanumá
+autonym: Sanöma
+orthographies:
+- auxiliary: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z À Á Â Ã Ç É Ê Í Ó Ô Õ Ú Ü à á â ã ç é ê í ó ô õ ú ü
+  base: A Ã Ä Ä̃ E Ẽ H I Ĩ K L M N O Õ Ö Ö̃ P S T U Ũ W a ã ä ä̃ e ẽ h i ĩ k l m n o õ ö ö̃ p s t u ũ w
+  marks: ◌̃ ◌̈
+  numerals: <default>
+  punctuation: <default>
+  script: Latin
+  status: primary
+sources:
+- 'Ferreira, H. P., Senra, E. B., & Machado, A. M. A. (2019). *As línguas Yanomami no Brasil: diversidade e vitalidade*. Instituto Socioambiental / Hutukara Associação Yanomami.'
+- Ethnologue. (n.d.). *Sanumá*. Retrieved October 13, 2025, from https://www.ethnologue.com/language/xsu/
+- Endangered Languages Project. (n.d.). *Sanumá*. Retrieved October 13, 2025, from https://www.endangeredlanguages.com/pt-br/node/38493
+- Ferreira, H. P. (2020). *Relatório descritivo dos sistemas ortográficos – Prodoclin (Produto 01)*. https://drive.google.com/file/d/1qodjbOcUZSYglMVRttpYbi7cAyXDjH2z/view
+speakers: 4600
+speakers_date: 2018
+status: living
+validity: preliminary
+contributors:
+- Sofia Mergener Brito
+reviewers:
+- Rafael Dietzsch
+- Thiago Chacon
