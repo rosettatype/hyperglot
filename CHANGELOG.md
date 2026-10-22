@@ -5,6 +5,7 @@
 - DATA: Add missing ʻOkina to `ton`
 - DATA: Better autonym for `tnq`
 - FIX: Fix `hyperglot-data xxx` search not returning hits resulting in program exit, adding tests to confirm
+- FIX: Webfont parsing in the CLI (thanks @Kaiserunix)
 - TWEAK: Expand `check_joining` to "N'Ko" and "Syriac" scripts
 - TWEAK: Refine `checkbase` conditions and matching
 - TWEAK: Invalidate `.hyperglot-cache` also on _downgrade_, emit less repetitive info log

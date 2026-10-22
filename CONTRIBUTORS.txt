@@ -30,3 +30,4 @@ Marianna Paszkowska @MariannaPaszkowska (Several Gurage and other Ethiopic langu
 Claus Eggers Sørensen @clauseggers (Dagbani additions)
 James A. Crippen @jcrippen (Tlingit)
 Roberto Arista @roberto-arista
+@Kaiserunix (webfont parsing)
