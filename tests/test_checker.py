@@ -9,6 +9,7 @@ import os
 import logging
 import pytest
 import unicodedata as uni
+import hyperglot.checker as checker_module
 from hyperglot import SupportLevel, OrthographyStatus
 from hyperglot.language import Language
 from hyperglot.orthography import Orthography
@@ -110,6 +111,29 @@ def test_language_supported_dict():
 
     # Detected arbitrary language
     assert "zul" in checker.supports_language("zul", return_script_object=True)["Latin"]
+
+
+def test_font_checker_reuses_shaper(monkeypatch):
+    created = []
+    real_shaper = checker_module.Shaper
+
+    def create_shaper(fontpath):
+        shaper = real_shaper(fontpath)
+        created.append(shaper)
+        return shaper
+
+    monkeypatch.setattr(checker_module, "Shaper", create_shaper)
+    checker = FontChecker(roboto)
+
+    assert checker.shaper is None
+    assert checker.supports_language("eng", shaping=False)
+    assert created == []
+
+    assert checker.supports_language("eng")
+    shaper = checker.shaper
+    assert checker.supports_language("rus")
+    assert checker.shaper is shaper
+    assert created == [shaper]
 
 
 def test_language_supported_validity():

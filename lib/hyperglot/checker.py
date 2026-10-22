@@ -303,15 +303,13 @@ class Checker:
         if orthographies == []:
             return {} if return_script_object else False
 
-        self.shaper = None
-        if shaping:
-            # Setup a reusable shaper to run checks with
+        if shaping and self.shaper is None:
             self.shaper = Shaper(self.fontpath)
 
         for ort in orthographies:
             supported = True
             checks = self._get_checks_for_orthography(
-                orthography=ort, perform_shaping_checks=self.shaper is not None
+                orthography=ort, perform_shaping_checks=shaping
             )
 
             # FIXME TBD Run all checks, even after one has failed, to get
@@ -385,7 +383,6 @@ class FontChecker(Checker):
         super().__init__(fontpath=fontpath)
 
         self.font = TTFont(fontpath, lazy=True)
-        self.shaper = Shaper(fontpath)
         self.characters = self._parse_font_chars()
 
     def get_supported_languages(self, **kwargs):
