@@ -1,0 +1,23 @@
+name: Shanenawa
+orthographies:
+- auxiliary: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z À Á Â Ã Ç É Ê Í Ó Ô Õ Ú Ü à á â ã ç é ê í ó ô õ ú ü
+  base: A Ã B D E Ẽ H I Ĩ K M N O Õ P R S T U Ũ W X Y Ỹ a ã b d e ẽ h i ĩ k m n o õ p r s t u ũ w x y ỹ
+  marks: ◌̃
+  script: Latin
+  status: primary
+sources:
+- Comissão Pró-Índio do Acre. (n.d.). *Povo Shanenawa*. Retrieved October 14, 2025, from https://cpiacre.org.br/shanenawa/
+- Ferreira, H. P. (2020). *Relatório descritivo dos sistemas ortográficos – Prodoclin (Produto 01)* [Technical report]. Projeto 914BRZ4019, Contrato SA-3993/2019. https://drive.google.com/file/d/1qodjbOcUZSYglMVRttpYbi7cAyXDjH2z/view
+- Instituto Socioambiental. (n.d.). *Povo Shanenawa*. Povos Indígenas no Brasil. Retrieved October 14, 2025, from https://pib.socioambiental.org/pt/Povo:Shanenawa
+- Instituto Socioambiental. (n.d.). *Quadro geral dos povos indígenas no Brasil*. Retrieved October 14, 2025, from https://www.povosindigenas.org.br/pt/Quadro_Geral_dos_Povos
+- Hammarström, H., Forkel, R., Haspelmath, M., & Bank, S. (Eds.). (2023). *Shanenawa (shan1283)*. Glottolog 5.2. Max Planck Institute for Evolutionary Anthropology. Retrieved October 29, 2025, from https://glottolog.org/resource/languoid/id/shan1283
+speakers: 769
+speakers_date: 2020
+note: The original submission states that the language can also be found under the name Xinanenawa and is part of the Yanenawa linguistic complex. It also reports, citing Professor Francisco Francineudo Batista Brandão, that only 25% of the population speaks Shanenawa.
+status: living
+validity: preliminary
+contributors:
+- Clara Rodrigues
+reviewers:
+- Rafael Dietzsch
+- Thiago Chacon

@@ -1,0 +1,21 @@
+name: Munduruku
+orthographies:
+- autonym: Wuyjuḡu
+  base: A Ã B C D E Ẽ H I Ĩ J K ‘ M N G̃ O Õ P R S T U Ũ W X Y a ã b c d e ẽ h i ĩ j k ‘ m n g̃ o õ p r s t u ũ w x y
+  marks: ◌̃
+  script: Latin
+  status: primary
+  note: The original submission also lists ‘ among its marks; it is preserved in the base repertoire.
+sources:
+- 'Crofts, M. (2004). *Munduruku: aspectos da língua*. Sociedade Internacional de Linguística. (Original work published 1985).'
+- Universidade do Estado do Amazonas. (n.d.). [Article cited in the original submission]. https://periodicos.uea.edu.br/index.php/contracorrente/article/view/3609
+- Projeto Suframa / Portal Adari. (n.d.). *Munduruku*. https://www.projetosufam.com.br/portaladari/povos/munduruku.html
+speakers: 17997
+speakers_date: 2020
+status: living
+validity: preliminary
+contributors:
+- Tayna Silva
+reviewers:
+- Rafael Dietzsch
+- Thiago Chacon

@@ -1,0 +1,25 @@
+name: Kaapor
+orthographies:
+- autonym: Urubú-Kaapor, Urubú, Kaaporté, Caapor, Ka'apor, Anambé, Guajá, Urubú, Amanajé, Manaze, Amanage, Manaxo, Manajo, Manazo, Ka'apór, Urubú-Ka'apór
+  base: A E H I J K M N O P S T U W X Ã Ẽ Ĩ Õ a e h i j k m n o p s t u w x ã ẽ ĩ õ
+  marks: ◌̃
+  script: Latin
+  status: primary
+  note: The original submission also lists the sign ’ among its marks, citing Kakumasu & Kakumasu (1988).
+sources:
+- Museu do Índio. (n.d.). *Portal Japiim*. https://japiim.museudoindio.gov.br/
+- Instituto Socioambiental. (n.d.). *Povos Indígenas no Brasil*. https://pib.socioambiental.org/
+- Ethnologue. (n.d.). *Kaapor*. https://www.ethnologue.com/
+- Hammarström, H., Forkel, R., Haspelmath, M., & Bank, S. (Eds.). (2025). *Glottolog 5.2*. Max Planck Institute for Evolutionary Anthropology.
+- '*Kaʼapor language*. (2026, August 9). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Kaʼapor_language&oldid=1330599593'
+- Endangered Languages Project. (n.d.). *Kaapor*. https://endangeredlanguages.com/elp-context/context-5757-kaapor-source-world-oral-literature-project#language-context-menu-anchor
+speakers: 1241
+speakers_date: 2010
+note: The original submission describes the language vitality as shifting.
+status: living
+validity: preliminary
+contributors:
+- Daniel Lustosa
+reviewers:
+- Rafael Dietzsch
+- Thiago Chacon
