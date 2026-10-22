@@ -1,11 +1,17 @@
-name: Korubo
 autonym: Dslala
+contributors:
+- Guilherme Castro
+name: Korubo
+note: The original submission additionally lists vowels a e ë i o u and consonants k l m n p s t v w x y; sample_text was marked unknown.
 orthographies:
 - auxiliary: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z À Á Â Ã Ç É Ê Í Ó Ô Õ Ú Ü à á â ã ç é ê í ó ô õ ú ü
   base: A E Ë I K L M N O P S T U V W X Y a e ë i k l m n o p s t u v w x y
-  marks: ◌̈
+  marks: ◌̈ ◌̀ ◌́ ◌̂ ◌̃ ◌̧
   script: Latin
   status: primary
+reviewers:
+- Rafael Dietzsch
+- Thiago Chacon
 sources:
 - Ferreira, H. P. (2020). *Relatório descritivo dos sistemas ortográficos dos subprojetos – Prodoclin*.
 - '*Korubo language*. (2025, November 3). In *Wikipedia*. https://en.wikipedia.org/w/index.php?title=Korubo_language&oldid=1320300429'
@@ -14,11 +20,5 @@ sources:
 - Museu do Índio. (n.d.). *Korubo multimedia dictionary*. Portal Japiim. https://japiim.museudoindio.gov.br
 speakers: 26
 speakers_date: 2007
-note: The original submission additionally lists vowels a e ë i o u and consonants k l m n p s t v w x y; sample_text was marked unknown.
 status: living
 validity: preliminary
-contributors:
-- Guilherme Castro
-reviewers:
-- Rafael Dietzsch
-- Thiago Chacon

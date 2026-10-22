@@ -1,3 +1,5 @@
+contributors:
+- Raphael Pimentel Brandão
 name: Yaroamë
 orthographies:
 - autonym: Ỹaroamë tëma
@@ -7,6 +9,9 @@ orthographies:
   punctuation: <default>
   script: Latin
   status: primary
+reviewers:
+- Rafael Dietzsch
+- Thiago Chacon
 sources:
 - Ethnologue. (2025). *Yaroamë*. https://www.ethnologue.com/language/yro/
 - '*As línguas Yanomami no Brasil*. (n.d.). Instituto Socioambiental. https://acervo.socioambiental.org/sites/default/files/publications/YAL00061.pdf'
@@ -15,8 +20,3 @@ speakers: 360
 speakers_date: 2019
 status: living
 validity: preliminary
-contributors:
-- Raphael Pimentel Brandão
-reviewers:
-- Rafael Dietzsch
-- Thiago Chacon

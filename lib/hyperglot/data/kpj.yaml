@@ -1,11 +1,17 @@
-name: Karajá
 autonym: Iny rybè
+contributors:
+- Maria Fernanda Paz Almeida
+name: Karajá
+note: The original submission states that the data refer specifically to Karajá proper, excluding varieties such as Javaé and Northern Karajá.
 orthographies:
 - auxiliary: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z À Á Â Ã Ç É Ê Í Ó Ô Õ Ú Ü à á â ã ç é ê í ó ô õ ú ü
   base: A B D E H I Ĩ J K L M N O R S T U W X Y À Ã È Ò Õ Ỹ a b d e h i ĩ j k l m n o r s t u x w y à ã è ò õ ỹ
-  marks: ◌̃ ◌̀
+  marks: ◌̃ ◌̀ ◌́ ◌̂ ◌̈ ◌̧
   script: Latin
   status: primary
+reviewers:
+- Rafael Dietzsch
+- Thiago Chacon
 sources:
 - Instituto Socioambiental. (n.d.). *Karajá*. Povos Indígenas no Brasil. https://pib.socioambiental.org/pt/Povo:Iny_Karaj%C3%A1
 - Endangered Languages Project. (n.d.). *Karajá*. https://www.endangeredlanguages.com/pt-br/node/89499
@@ -16,11 +22,5 @@ sources:
 - 'Instituto Brasileiro de Geografia e Estatística. (2012). *Censo demográfico 2010: Características gerais dos indígenas: Resultados do universo*. IBGE.'
 speakers: 2137
 speakers_date: 2010
-note: The original submission states that the data refer specifically to Karajá proper, excluding varieties such as Javaé and Northern Karajá.
 status: living
 validity: preliminary
-contributors:
-- Maria Fernanda Paz Almeida
-reviewers:
-- Rafael Dietzsch
-- Thiago Chacon

@@ -1,11 +1,17 @@
+contributors:
+- Amanda Martins
 name: Warekena (Guarequena)
+note: The original submission reports approximately 10 speakers in Brazil and 200 in Venezuela, describes the language as severely endangered, and identifies alternative names Guarequena, Wanekena, Uarequena, and Baniva de Maroa.
 orthographies:
 - auxiliary: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z À Á Â Ã Ç É Ê Í Ó Ô Õ Ú Ü à á â ã ç é ê í ó ô õ ú ü
   base: A Ã B D E Ẽ H I Ĩ K L M N O P R S T U Ũ V W X Y a ã b d e ẽ h i ĩ k l m n o p r s t u ũ v w x y
-  marks: ◌̃
+  marks: ◌̃ ◌̀ ◌́ ◌̂ ◌̈ ◌̧
+  note: The original submission states that there is no widely standardized Warekena orthography and that academic materials use Latin-based phonetic transcriptions influenced by Baniva de Maroa conventions.
   script: Latin
   status: primary
-  note: The original submission states that there is no widely standardized Warekena orthography and that academic materials use Latin-based phonetic transcriptions influenced by Baniva de Maroa conventions.
+reviewers:
+- Rafael Dietzsch
+- Thiago Chacon
 sources:
 - Aikhenvald, A. Y. (2012). *The languages of the Amazon*. Oxford University Press.
 - Aikhenvald, A. Y. (2015). The Arawak language family in the North of Amazonia. In P. Hammarström & H. Haspelmath (Eds.), *Linguistic discovery in the Amazon Basin*. Oxford University Press.
@@ -17,11 +23,5 @@ sources:
 - UNESCO. (2010). *Atlas of the world’s languages in danger* (3rd ed.). UNESCO Publishing.
 - '*Língua baniva de Maroa*. (2024, October 17). In *Wikipédia*. https://pt.wikipedia.org/w/index.php?title=Língua_baniva_de_Maroa&oldid=68838306'
 speakers: 210
-note: The original submission reports approximately 10 speakers in Brazil and 200 in Venezuela, describes the language as severely endangered, and identifies alternative names Guarequena, Wanekena, Uarequena, and Baniva de Maroa.
 status: living
 validity: preliminary
-contributors:
-- Amanda Martins
-reviewers:
-- Rafael Dietzsch
-- Thiago Chacon

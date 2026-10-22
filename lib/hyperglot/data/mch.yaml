@@ -1,10 +1,16 @@
+contributors:
+- Luiza Ishigame
 name: Ye’Kwana
+note: 'Ethnonyms listed in the original submission: Ye’kwana (variants De’kwana and Dhe’kwana), Maiongong, and Makiritare. The autonym Soto is glossed there as ‘person’ or ‘people’.'
 orthographies:
 - autonym: Soto
   base: A Ä D E F H I J K M N O Ö S T U W Y ' a ä d e f h i j k m n o ö s t u w y
   marks: ◌̈
   script: Latin
   status: primary
+reviewers:
+- Rafael Dietzsch
+- Thiago Chacon
 sources:
 - Glottolog. (n.d.). *Maquiritari–Aramä (maqu1238)*. Retrieved October 16, 2025, from https://glottolog.org/resource/languoid/id/maqu1238
 - Instituto Socioambiental. (n.d.). *Ye’kwana*. Povos Indígenas no Brasil. Retrieved October 16, 2025, from https://pib.socioambiental.org/pt/Povo:Ye%27kwana
@@ -12,11 +18,5 @@ sources:
 - Museu do Índio. (n.d.). *Dicionário Ye’kwana*. Portal Japiim. Retrieved October 16, 2025, from https://japiim.museudoindio.gov.br/dic/yekwana/index.php
 speakers: 7997
 speakers_date: 2011
-note: 'Ethnonyms listed in the original submission: Ye’kwana (variants De’kwana and Dhe’kwana), Maiongong, and Makiritare. The autonym Soto is glossed there as ‘person’ or ‘people’.'
 status: living
 validity: preliminary
-contributors:
-- Luiza Ishigame
-reviewers:
-- Rafael Dietzsch
-- Thiago Chacon

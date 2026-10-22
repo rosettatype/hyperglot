@@ -1,11 +1,17 @@
+contributors:
+- Diogo Alves
 name: Itene
-preferred_name: Moré-Kuyubim
+note: The original submission describes Itene / Moré-Kuyubim as a Chapacuran language spoken by Moré and Kuyubim communities near the Bolivia–Brazil border, with a Latin-based orthography and critically reduced speaker population.
 orthographies:
 - auxiliary: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z À Á Â Ã Ç É Ê Í Ó Ô Õ Ú Ü à á â ã ç é ê í ó ô õ ú ü
   base: A E F I K M N Ñ O P R S T U W X Y Z ' a e f i k m n ñ o p r s t u w x y z
-  marks: ◌̃
+  marks: ◌̃ ◌̀ ◌́ ◌̂ ◌̈ ◌̧
   script: Latin
   status: primary
+preferred_name: Moré-Kuyubim
+reviewers:
+- Rafael Dietzsch
+- Thiago Chacon
 sources:
 - Angenot-de Lima, G. (2002). *Descrição fonológica, gramatical e lexical do moré, língua amazônica da Bolívia e do Brasil* [Doctoral dissertation, Leiden University]. Etnolinguistica.org. http://etnolinguistica.wdfiles.com/local--files/tese%3Alima-2002/lima_2002_tomo1.pdf
 - Endangered Languages Archive. (2020). *Documentation of Moré (Iténez), a Chapacuran language of Bolivia and Brazil*. https://www.elararchive.org/dk0833
@@ -13,11 +19,5 @@ sources:
 - Hammarström, H., Forkel, R., Haspelmath, M., & Bank, S. (Eds.). (2025). *Moré (Iténez)*. Glottolog 5.0. Max Planck Institute for Evolutionary Anthropology. https://glottolog.org/resource/languoid/id/iten1243
 speakers: 20
 speakers_date: 2025
-note: The original submission describes Itene / Moré-Kuyubim as a Chapacuran language spoken by Moré and Kuyubim communities near the Bolivia–Brazil border, with a Latin-based orthography and critically reduced speaker population.
 status: living
 validity: preliminary
-contributors:
-- Diogo Alves
-reviewers:
-- Rafael Dietzsch
-- Thiago Chacon

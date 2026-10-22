@@ -1,11 +1,17 @@
+contributors:
+- Daniel Lustosa
 name: Kaapor
+note: The original submission describes the language vitality as shifting.
 orthographies:
 - autonym: Urubú-Kaapor, Urubú, Kaaporté, Caapor, Ka'apor, Anambé, Guajá, Urubú, Amanajé, Manaze, Amanage, Manaxo, Manajo, Manazo, Ka'apór, Urubú-Ka'apór
   base: A E H I J K M N O P S T U W X Ã Ẽ Ĩ Õ a e h i j k m n o p s t u w x ã ẽ ĩ õ
   marks: ◌̃
+  note: The original submission also lists the sign ’ among its marks, citing Kakumasu & Kakumasu (1988).
   script: Latin
   status: primary
-  note: The original submission also lists the sign ’ among its marks, citing Kakumasu & Kakumasu (1988).
+reviewers:
+- Rafael Dietzsch
+- Thiago Chacon
 sources:
 - Museu do Índio. (n.d.). *Portal Japiim*. https://japiim.museudoindio.gov.br/
 - Instituto Socioambiental. (n.d.). *Povos Indígenas no Brasil*. https://pib.socioambiental.org/
@@ -15,11 +21,5 @@ sources:
 - Endangered Languages Project. (n.d.). *Kaapor*. https://endangeredlanguages.com/elp-context/context-5757-kaapor-source-world-oral-literature-project#language-context-menu-anchor
 speakers: 1241
 speakers_date: 2010
-note: The original submission describes the language vitality as shifting.
 status: living
 validity: preliminary
-contributors:
-- Daniel Lustosa
-reviewers:
-- Rafael Dietzsch
-- Thiago Chacon

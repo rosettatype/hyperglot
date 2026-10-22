@@ -1,10 +1,16 @@
+contributors:
+- Giovanna Julião
 name: Guató
+note: The original submission notes recent language revitalization efforts, particularly cultural projects and the introduction of Guató into activities at the Indigenous school.
 orthographies:
 - auxiliary: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z À Á Â Ã Ç É Ê Í Ó Ô Õ Ú Ü à á â ã ç é ê í ó ô õ ú ü
   base: A Ã B D E Ẽ F G H I Ĩ J K M N O P R T U Ũ V W X Y Ỹ a ã b d e ẽ f g h i ĩ j k m n o p r t u ũ v w x y ỹ
-  marks: ◌̃
+  marks: ◌̃ ◌̀ ◌́ ◌̂ ◌̈ ◌̧
   script: Latin
   status: primary
+reviewers:
+- Rafael Dietzsch
+- Thiago Chacon
 sources:
 - Ethnologue. (n.d.). *Guató*. https://www.ethnologue.com/language/gta/
 - Instituto Socioambiental. (n.d.). *Guató*. Povos Indígenas no Brasil. https://pib.socioambiental.org/pt/Povo:Guat%C3%B3
@@ -12,11 +18,5 @@ sources:
 - Museu do Índio. (n.d.). *Portal Japiim*. https://japiim.museudoindio.gov.br/index.php
 speakers: 5
 speakers_date: 2008
-note: The original submission notes recent language revitalization efforts, particularly cultural projects and the introduction of Guató into activities at the Indigenous school.
 status: living
 validity: preliminary
-contributors:
-- Giovanna Julião
-reviewers:
-- Rafael Dietzsch
-- Thiago Chacon

@@ -1,10 +1,16 @@
+contributors:
+- Clarice Carvalho
 name: Ninam
+note: The original submission reports fewer than 10,000 speakers, with date indicated as 2025?, and describes the language as living and stable. The original marks field listed Ë̃, Ɨ̃, ë̃, and ɨ.
 orthographies:
 - auxiliary: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z À Á Â Ã Ç É Ê Í Ó Ô Õ Ú Ü à á â ã ç é ê í ó ô õ ú ü
   base: A Ã E Ẽ Ë Ë̃ H I Ĩ Ɨ Ɨ̃ K M N O Õ P R S T U Ũ W X Y a ã e ẽ ë ë̃ h i ĩ ɨ ɨ̃ k m n o õ p r s t u ũ w x y
-  marks: ◌̃ ◌̈
+  marks: ◌̃ ◌̈ ◌̀ ◌́ ◌̂ ◌̧
   script: Latin
   status: primary
+reviewers:
+- Rafael Dietzsch
+- Thiago Chacon
 sources:
 - Ethnologue. (n.d.). *Languages of Brazil*. https://www.ethnologue.com/country/BR/
 - Endangered Languages Project. (n.d.). *Language search map*. https://www.endangeredlanguages.com/language-search-map
@@ -12,11 +18,5 @@ sources:
 - Década Internacional das Línguas Indígenas no Brasil. (n.d.). https://www.decadalinguasindigenasbr.com/
 - UNESCO. (n.d.). [Source cited in the original submission]. https://unesdoc.unesco.org/ark:/48223/pf0000392894
 - Museu do Índio. (n.d.). *Portal Japiim*. https://japiim.museudoindio.gov.br/index.php
-note: The original submission reports fewer than 10,000 speakers, with date indicated as 2025?, and describes the language as living and stable. The original marks field listed Ë̃, Ɨ̃, ë̃, and ɨ.
 status: living
 validity: preliminary
-contributors:
-- Clarice Carvalho
-reviewers:
-- Rafael Dietzsch
-- Thiago Chacon
