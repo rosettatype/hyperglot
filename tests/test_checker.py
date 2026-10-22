@@ -9,6 +9,7 @@ import os
 import logging
 import pytest
 import unicodedata as uni
+import hyperglot.checker as checker_module
 from hyperglot import SupportLevel, OrthographyStatus
 from hyperglot.language import Language
 from hyperglot.orthography import Orthography
@@ -110,6 +111,29 @@ def test_language_supported_dict():
 
     # Detected arbitrary language
     assert "zul" in checker.supports_language("zul", return_script_object=True)["Latin"]
+
+
+def test_font_checker_reuses_shaper(monkeypatch):
+    created = []
+    real_shaper = checker_module.Shaper
+
+    def create_shaper(fontpath):
+        shaper = real_shaper(fontpath)
+        created.append(shaper)
+        return shaper
+
+    monkeypatch.setattr(checker_module, "Shaper", create_shaper)
+    checker = FontChecker(roboto)
+
+    assert checker.shaper is None
+    assert checker.supports_language("eng", shaping=False)
+    assert created == []
+
+    assert checker.supports_language("eng")
+    shaper = checker.shaper
+    assert checker.supports_language("rus")
+    assert checker.shaper is shaper
+    assert created == [shaper]
 
 
 def test_language_supported_validity():
@@ -577,6 +601,20 @@ def test_checker_load_checks_attributes():
     assert "check_brahmi_conjuncts" in [c[0] for c in combs_deva_checks]
     assert "check_brahmi_halfforms" in [c[0] for c in combs_deva_checks]
     assert "check_combination_marks" in [c[0] for c in combs_deva_checks]
+
+
+def test_checker_load_checks_imports_once():
+    # Checks are looked up for every orthography, so their modules are imported
+    # once and reused: the same classes come back, but as fresh instances, since
+    # a check buffers the logs of its run in self.logs
+    hin = Language("hin").get_orthography()
+    first = Checker._get_checks_for_orthography(hin, perform_shaping_checks=True)
+    second = Checker._get_checks_for_orthography(hin, perform_shaping_checks=True)
+
+    assert [c[0] for c in first] == [c[0] for c in second]
+    for (_, _, a), (_, _, b) in zip(first, second):
+        assert type(a) is type(b)
+        assert a is not b
 
 
 def test_checker_runs():

@@ -81,6 +81,8 @@ Besides the main `hyperglot` command used for font inspection, the package also 
 
 ### Basic usage
 
+Font inspection supports TTF, OTF, WOFF and WOFF2 files.
+
 Use:
 
 ```shell

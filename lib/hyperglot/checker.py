@@ -3,6 +3,7 @@ from fontTools.ttLib import TTFont
 import os
 import sys
 import importlib.util
+import functools
 from typing import List, Set
 from collections.abc import Iterable
 
@@ -36,6 +37,43 @@ def format_missing_unicodes(codepoints: Set[str], reference) -> str:
         return (" ".join(["%s (%s)" % (c, str(ord(c))) for c in diff]),)
 
 
+@functools.cache
+def _load_check_modules() -> tuple:
+    """
+    Import every check module in lib/hyperglot/checks, once per process.
+
+    Checks are matched against each orthography of each language, and importing
+    the modules anew every time made loading them the bulk of a check's run
+    time. The modules only hold classes; each run still gets fresh Check
+    instances, so no per-run state is shared.
+    """
+    modules = []
+    check_files = [
+        f for f in os.listdir(os.path.join(DB_CHECKS)) if f.endswith(".py")
+    ]
+
+    for f in check_files:
+        module_file = os.path.join(DB_CHECKS, f)
+        module_name = os.path.splitext(f)[0]
+
+        try:
+            spec = importlib.util.spec_from_file_location(module_name, module_file)
+            c = importlib.util.module_from_spec(spec)
+            sys.modules[module_name] = c
+            spec.loader.exec_module(c)
+            check = c.Check()
+        except Exception as e:
+            log.error(f"Failed to instantiate check {module_name}. Fix the below:")
+            raise e
+
+        if not isinstance(check, CheckBase):
+            raise Exception(f"Check {module_name} needs to subclass CheckBase!")
+
+        modules.append((module_name, c))
+
+    return tuple(modules)
+
+
 class Checker:
     """
     A base class for CharsetChecker and FontChecker encapsulating language
@@ -58,26 +96,8 @@ class Checker:
         """
         checks = []
 
-        check_files = [
-            f for f in os.listdir(os.path.join(DB_CHECKS)) if f.endswith(".py")
-        ]
-
-        for f in check_files:
-            module_file = os.path.join(DB_CHECKS, f)
-            module_name = os.path.splitext(f)[0]
-
-            try:
-                spec = importlib.util.spec_from_file_location(module_name, module_file)
-                c = importlib.util.module_from_spec(spec)
-                sys.modules[module_name] = c
-                spec.loader.exec_module(c)
-                check = c.Check()
-            except Exception as e:
-                log.error(f"Failed to instantiate check {module_name}. Fix the below:")
-                raise e
-
-            if not isinstance(check, CheckBase):
-                raise Exception(f"Check {module_name} needs to subclass CheckBase!")
+        for module_name, c in _load_check_modules():
+            check = c.Check()
 
             # Ignore checks that only run when checking with a font
             if check.requires_font and not perform_shaping_checks:
@@ -283,15 +303,13 @@ class Checker:
         if orthographies == []:
             return {} if return_script_object else False
 
-        self.shaper = None
-        if shaping:
-            # Setup a reusable shaper to run checks with
+        if shaping and self.shaper is None:
             self.shaper = Shaper(self.fontpath)
 
         for ort in orthographies:
             supported = True
             checks = self._get_checks_for_orthography(
-                orthography=ort, perform_shaping_checks=self.shaper is not None
+                orthography=ort, perform_shaping_checks=shaping
             )
 
             # FIXME TBD Run all checks, even after one has failed, to get
@@ -365,7 +383,6 @@ class FontChecker(Checker):
         super().__init__(fontpath=fontpath)
 
         self.font = TTFont(fontpath, lazy=True)
-        self.shaper = Shaper(fontpath)
         self.characters = self._parse_font_chars()
 
     def get_supported_languages(self, **kwargs):
