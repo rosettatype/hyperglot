@@ -8,7 +8,7 @@ from enum import Enum
 
 from hyperglot.utils import AllChoicesEnumMixin, ConvenientEnumMixin
 
-__version__ = "0.8.1"
+__version__ = "0.8.2"
 
 DB = path.abspath(path.join(path.dirname(__file__), "data"))
 DB_EXTRA = path.abspath(path.join(path.dirname(__file__), "extra_data"))

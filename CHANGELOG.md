@@ -1,7 +1,9 @@
 # A changelog for the lib/hyperglot language database and CLI tool (dd.mm.yyyy)
 
-## 0.8.2 (WIP):
+## 0.8.2 (22.10.2026):
+- DATA: Add several Brazilian languages
 - DATA: Add missing ʻOkina to `ton`
+- DATA: Better autonym for `tnq`
 - FIX: Fix `hyperglot-data xxx` search not returning hits resulting in program exit, adding tests to confirm
 - TWEAK: Expand `check_joining` to "N'Ko" and "Syriac" scripts
 - TWEAK: Refine `checkbase` conditions and matching
