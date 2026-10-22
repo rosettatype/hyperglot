@@ -1,3 +1,4 @@
+import os
 from pathlib import Path
 
 import pytest
@@ -8,11 +9,26 @@ from hyperglot.checker import FontChecker
 from hyperglot.cli import cli
 from hyperglot.shaper import Shaper
 
+jetbrains_mono_regular_ttf = os.path.abspath(
+    "tests/JetbrainsMono-2.304/fonts/ttf/JetBrainsMono-Regular.ttf"
+)
+jetbrains_mono_regular_woff2 = os.path.abspath(
+    "tests/JetbrainsMono-2.304/fonts/webfonts/JetBrainsMono-Regular.woff2"
+)
 
-@pytest.fixture(params=['woff', 'woff2'])
+
+def cli_language_output(output):
+    return [
+        line
+        for line in output.splitlines()
+        if not line.endswith(" has support for:") and set(line) != {"="}
+    ]
+
+
+@pytest.fixture(params=["woff", "woff2"])
 def webfont(request, tmp_path):
-    source = Path('tests/Roboto/Roboto-Black.ttf').resolve()
-    target = tmp_path / ('Roboto.' + request.param)
+    source = Path("tests/Roboto/Roboto-Black.ttf").resolve()
+    target = tmp_path / ("Roboto." + request.param)
     with TTFont(source) as font:
         font.flavor = request.param
         font.save(target)
@@ -24,19 +40,23 @@ def test_webfont_shaping(webfont):
     original = Shaper(str(source))
     compressed = Shaper(str(target))
     # Compression preserves characters and layout, including combining marks.
-    for text in ['ABC', 'A\u0301', 'бгд']:
-        expected = [(info.codepoint, pos.position)
-                    for info, pos in original.get_glyph_data(text)]
+    for text in ["ABC", "A\u0301", "бгд"]:
+        expected = [
+            (info.codepoint, pos.position)
+            for info, pos in original.get_glyph_data(text)
+        ]
         assert all(gid != 0 for gid, position in expected)
-        assert [(info.codepoint, pos.position)
-                for info, pos in compressed.get_glyph_data(text)] == expected
+        assert [
+            (info.codepoint, pos.position)
+            for info, pos in compressed.get_glyph_data(text)
+        ] == expected
 
 
 def test_webfont_language_support(webfont):
     source, target = webfont
     original = FontChecker(str(source))
     compressed = FontChecker(str(target))
-    for iso in ['eng', 'rus', 'fin']:
+    for iso in ["eng", "rus", "fin"]:
         assert original.supports_language(iso)
         assert compressed.supports_language(iso)
 
@@ -44,13 +64,18 @@ def test_webfont_language_support(webfont):
 def test_webfont_cli(webfont):
     source, target = webfont
     runner = CliRunner()
-    original = runner.invoke(cli, ['--check=all', str(source)])
-    compressed = runner.invoke(cli, ['--check=all', str(target)])
+    original = runner.invoke(cli, ["--check=all", str(source)])
+    compressed = runner.invoke(cli, ["--check=all", str(target)])
     assert original.exit_code == 0, original.output
     assert compressed.exit_code == 0, compressed.output
+    assert cli_language_output(compressed.output) == cli_language_output(original.output)
 
-    def language_output(output):
-        return [line for line in output.splitlines()
-                if not line.endswith(' has support for:') and set(line) != {'='}]
 
-    assert language_output(compressed.output) == language_output(original.output)
+def test_jetbrains_mono_woff2_cli_matches_ttf():
+    runner = CliRunner()
+    ttf = runner.invoke(cli, ["--check=all", jetbrains_mono_regular_ttf])
+    woff2 = runner.invoke(cli, ["--check=all", jetbrains_mono_regular_woff2])
+
+    assert ttf.exit_code == 0, ttf.output
+    assert woff2.exit_code == 0, woff2.output
+    assert cli_language_output(woff2.output) == cli_language_output(ttf.output)
