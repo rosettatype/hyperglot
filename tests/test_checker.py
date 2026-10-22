@@ -458,17 +458,17 @@ def test_checker_missing(caplog):
 
     checker = CharsetChecker(ascii)
 
-    # Basic ascii should be missing 4 characters for English, so
-    # this should log:
-    checker.supports_language("eng", report_missing=4)
+    # Basic ascii should be missing Ä, Ö, Ü, ß, ä, ö, ü characters for Deutsch,
+    # so this should log:
+    checker.supports_language("deu", report_missing=7)
     record = caplog.records[0]
     assert record.levelno == logging.WARNING
     assert "missing characters for 'base'" in record.msg
-    assert "eng:" in record.msg
+    assert "deu:" in record.msg
     caplog.clear()
 
     # but this should not log:
-    checker.supports_language("eng", report_missing=3)
+    checker.supports_language("deu", report_missing=6)
     assert len(caplog.records) == 0
 
 
