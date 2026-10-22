@@ -8,6 +8,7 @@
 - TWEAK: Expand `check_joining` to "N'Ko" and "Syriac" scripts
 - TWEAK: Refine `checkbase` conditions and matching
 - TWEAK: Invalidate `.hyperglot-cache` also on _downgrade_, emit less repetitive info log
+- TWEAK: Performance improvement to loading Check classes (thanks @roberto-arista)
 
 ## 0.8.1 (11.03.2026):
 - DATA: "unknown" allowed for Language speaker counts where cannonically there is no data (note: by contrast, omitting the `speaker` attribute communicates the data is incomplete in that regard)

@@ -29,3 +29,4 @@ Marianna Paszkowska @MariannaPaszkowska (Several Gurage and other Ethiopic langu
 @berrymot (Lojban corrections)
 Claus Eggers Sørensen @clauseggers (Dagbani additions)
 James A. Crippen @jcrippen (Tlingit)
+Roberto Arista @roberto-arista
