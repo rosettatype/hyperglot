@@ -16,7 +16,7 @@ orthographies:
     note: Correct positioning of the grave mark above vowel characters may be required.
   marks: ◌̀ ◌̆
   numerals: <default>
-  punctuation: <default> ‘ “ ’ „ « »
+  punctuation: <default> ‘ “ ’ „ « » №
   script: Cyrillic
   status: primary
 sources:
